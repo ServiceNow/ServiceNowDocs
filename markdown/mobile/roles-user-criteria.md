@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/roles-user-criteria.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Considerations before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # User roles and user criteria permissions for mobile apps

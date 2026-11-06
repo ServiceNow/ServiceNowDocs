@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/api\_calls\_for\_navigating\_sets\_in\_logik\_io.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [API overview and resources, ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [API overview and resources, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # API calls for navigating sets in ServiceNow CPQ

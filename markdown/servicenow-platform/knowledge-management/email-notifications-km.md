@@ -7,7 +7,7 @@ release: zurich
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -144,68 +144,14 @@ The email notifications for knowledge article approval publishing workflow are a
 
 The following table describes the recipient list of notifications for the knowledge article approval publishing workflow and the associated conditions when a notification is sent.
 
-<table id="table_dyr_y3q_mlb"><thead><tr><th>
+|Notification|Condition|Recipients|
+|------------|---------|----------|
+|KM: Approve article for publishing|A knowledge article was approved for publishing with the ownership group feature disabled.|Knowledge base owner and managers|
+|A knowledge article was approved for publishing with the ownership group feature enabled.|Ownership group manager and members|
+|KM: Article approved for publish|A knowledge article was approved for publication.|User \(author or reviser\) who submitted the article for approval|
+|KM: Article rejected for publish|A knowledge article was rejected for publication.|User \(author or reviser\) who submitted the article for approval|
 
-Notification
-
-</th><th>
-
-Condition
-
-</th><th>
-
-Recipients
-
-</th></tr></thead><tbody><tr><td rowspan="3">
-
-KM: Approve article for publishing
-
-</td><td>
-
-A knowledge article was approved for publishing with the ownership group feature disabled.
-
-</td><td>
-
-Knowledge base owner and managers
-
-</td></tr><tr><td>
-
-A knowledge article was approved for publishing with the ownership group feature enabled.
-
-</td><td>
-
-Ownership group manager and members
-
-</td></tr><tr><td colspan="2">
-
-**Note:** In Out-of-Box \(OOB\) configurations, the approval is sent only to the author.
-
-</td></tr><tr><td>
-
-KM: Article approved for publish
-
-</td><td>
-
-A knowledge article was approved for publication.
-
-</td><td>
-
-User \(author or reviser\) who submitted the article for approval
-
-</td></tr><tr><td>
-
-KM: Article rejected for publish
-
-</td><td>
-
-A knowledge article was rejected for publication.
-
-</td><td>
-
-User \(author or reviser\) who submitted the article for approval
-
-</td></tr></tbody>
-</table>**Note:** An email notification is sent to a reviser of a knowledge article when the article versioning feature is enabled.
+**Note:** An email notification is sent to a reviser of a knowledge article when the article versioning feature is enabled.
 
 ## Email notifications for translation tasks
 

@@ -7,9 +7,9 @@ release: zurich
 product: Search Suggestions
 classification: search-suggestions
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Prevent the creation of suggestions in special cases, Configuring Search Suggestions, Search Suggestions, Search administration, Configure core features, Administer]
+breadcrumb: [Prevent the creation of suggestions in special cases, Configuring Search Suggestions, Search Suggestions, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Test regular expression patterns in Search Suggestion Exclusion List Rule entries

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/lead-management-using.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Using Lead Management
@@ -28,16 +28,6 @@ The Lead Management interface contains the following tabs:
 |[Line items tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/lead-management-use-line-items-tab.md)|Add different line items to a lead.|
 |[Emails tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/lead-management-use-emails-tab.md)|Create emails to communicate with the required stakeholders.|
 
-## Touchpoints and meetings
-
-Use the following tasks to log customer interactions and schedule meetings directly from a lead record.
-
-|Task|Description|
-|----|-----------|
-|Manage touchpoints on a lead|View, create, and delete touchpoints associated with a lead from the touchpoints related list.|
-|Create a touchpoint from a lead|Create a touchpoint to log a customer interaction directly from a lead record.|
-|Schedule a meeting from a lead|Schedule a client meeting directly from a lead record to associate it with the lead.|
-
 -   **[Create a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/create-new-lead.md)**  
 Create a lead in the Lead Management application by entering the details, such as customer name, sales stage, lead type, score, and source.
 -   **[Update a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/lead-management-edit-update.md)**  
@@ -54,8 +44,12 @@ Choose a needs template from the product selection guide in the product catalog 
 Create a new product line item for your lead by entering the details, such as product offering and quantity.
 -   **[Add lead tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/lead-management-use-tasks-tab.md)**  
 Create lead tasks to follow-up calls, emails, or meetings with your to progress on the lead.
+-   **[Manage touchpoints on a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/manage-touchpoints-lead.md)**  
+View, create, and delete touchpoints associated with a lead from the touchpoints related list.
 -   **[Compose emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/lead-management-use-emails-tab.md)**  
 Create an email to communicate the product information to your customer as per the business requirements.
+-   **[Schedule a meeting from a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/schedule-meeting-lead.md)**  
+Schedule a client meeting directly from a lead record to associate it with the lead.
 -   **[Manage leads using Kanban view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/lead-management-use-kanban-view.md)**  
 Personalize and manage the leads information that is most relevant to you and your stakeholders using the Kanban view.
 -   **[Convert a lead into an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/lead-management-use-convert-lead.md)**  
@@ -65,5 +59,12 @@ Disqualify a lead in Lead Management.
 -   **[Export leads](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/lead-management-export-leads.md)**  
 You can export a quote as a JSON file in Lead Management and provide it to a customer.
 
-**Parent Topic:**[Using lead and opportunity management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-lead-opportunity-mgt.md)
+**Parent Topic:**[Using sales automation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-lead-opportunity-mgt.md)
+
+**Related topics**  
+
+
+[Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-lead-management.md)
+
+[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/lead-management.md)
 

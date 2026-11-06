@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-create-new-value-stream-stage-form.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Create value stream stage form
@@ -32,6 +32,22 @@ The name of the stage.
 
 </td></tr><tr><td>
 
+Value stream
+
+</td><td>
+
+The name of the value stream with which the value stream stage is associated.
+
+</td></tr><tr><td>
+
+Display name
+
+</td><td>
+
+This field is read-only.The display name of the value stream stage that is automatically generated from the value stream name and the value stream stage name after the record is saved. This field is read-only.
+
+</td></tr><tr><td>
+
 Order
 
 </td><td>
@@ -46,16 +62,8 @@ Description
 
 A brief description of the value stream stage.You can also elaborate or shorten the content in this field using Now Assist. For details, see [Elaborate or shorten content in form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/elaborate-or-shorten-content-form-fields.md).
 
-</td></tr><tr><td>
-
-Value stream
-
-</td><td>
-
-The name of the value stream with which the value stream stage is associated.
-
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-reference.md)
+</table>**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-form-field-information.md)
 
 **Related topics**  
 

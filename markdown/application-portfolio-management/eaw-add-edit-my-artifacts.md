@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-add-edit-my-artifacts.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Working with your entities, Working with Portfolio list view, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with your entities, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Add or edit your architectural artifacts
@@ -34,7 +34,7 @@ Role required: sn\_apm.apm\_user
     -   To update details of an existing architectural artifact, select the architectural artifact, then select **Edit**.
 6.  Fill in the form fields.
 
-    For field information, see [Create architectural artifact form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/architectural-artifact-form.md).
+    For field information, see [Create architectural artifact form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-new-arch-artifact-form.md).
 
 7.  Select **Save**.
 

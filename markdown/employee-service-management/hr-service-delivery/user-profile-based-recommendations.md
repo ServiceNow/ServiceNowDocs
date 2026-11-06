@@ -7,9 +7,9 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Machine learning solutions for HR Service Delivery, Integrate with ServiceNow applications, HR Service Delivery, Employee Service Management]
+breadcrumb: [Machine learning solutions for HR Service Delivery, Integration of HR Service Delivery with ServiceNow applications, HR Service Delivery, Employee Service Management]
 ---
 
 # Discovering knowledge articles and catalog items for employees

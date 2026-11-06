@@ -1,20 +1,20 @@
 ---
 title: Add an activity to a playbook
-description: Add pre-selected optional activities to a playbook if available.
+description: Add preselected optional activities to a Playbook Experience if available.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/playbook-add-optional-activity.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Running playbooks, Use, Workflow Studio, Build workflows]
+breadcrumb: [Running Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Add an activity to a playbook
 
-Add pre-selected optional activities to a playbook if available.
+Add preselected optional activities to a Playbook Experience if available.
 
 ## Before you begin
 
@@ -55,5 +55,5 @@ The selected optional activity appears in your playbook.
 
 \[Omitted image "playbook-add-activity-complete.png"\] Alt text: Optional activities appear in the location selected.
 
-**Parent Topic:**[Running playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)
+**Parent Topic:**[Running Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)
 

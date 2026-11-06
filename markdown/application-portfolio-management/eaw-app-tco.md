@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-app-tco.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring total cost of ownership \(TCO\) in Enterprise Architecture Workspace, Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Exploring total cost of ownership \(TCO\) in Enterprise Architecture Workspace, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Manage application total cost of ownership \(TCO\) in Enterprise Architecture Workspace

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sem-ci-creation-using-IRE.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Automating prioritization and triaging, Security Exposure Management workflow, Explore, Unified Security Exposure Management, Security Operations]
 ---
@@ -18,7 +18,7 @@ A CI class \(table\) is the original table name in the instance database. CMDB c
 
 ## Using IRE for CI creation
 
-If a matched CI isn’t found either in the Discovered Items list or CMDB, a CI is created in the Unmatched CI class \(`sn_sec_cmn_unmatched_ci`\). For more information, see [Unmatched CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-response/unmatchedCIs.md).
+If a matched CI isn’t found either in the Discovered Items list or CMDB, a CI is created in the Unmatched CI class \(`sn_sec_cmn_unmatched_ci`\).
 
 Starting with v24.0.6 of Vulnerability Response, if IRE encounters exceptions that prevent the creation of CIs, the specifics of these exceptions are recorded in the Additional Information field. By examining the details in this field, you can determine the root cause and implement the necessary corrections to ensure the CI is successfully created.
 
@@ -75,9 +75,6 @@ The system automatically uses an Unmatched CI class if one of the following occu
 
 -   The CMDB CI Class plugin is not activated.
 -   IRE raises an exception while creating a CI.
-
-    For more information, see [Unmatched CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-response/unmatchedCIs.md).
-
 
 -   **[Updating CI class for unmatched cloud assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-updating-class-cloud-resource-hybrid-assets.md)**  
 Starting with Vulnerability Response v20.0, you can categorize the unmatched cloud assets from Qualys, Rapid7 and Tenable scanners into Unclassed Hardware by using the **sn\_sec\_cmn.unmatched\_cloud\_resource\_enabled** system property.

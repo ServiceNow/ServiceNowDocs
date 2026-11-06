@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/install-dashboard-cco.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Chief Customer Operations Officer \(CCO\) Dashboard, Executive dashboard overview, Dashboards, Platform Analytics experience, Platform Analytics]
+breadcrumb: [Chief Customer Operations Officer \(CCO\) Dashboard, Executive dashboard overview, Platform Analytics]
 ---
 
 # Install the Chief Customer Operations Officer Dashboard
@@ -43,8 +43,6 @@ Application plugins:
 3.  Select the **Request Install** button to create the app installation request.
 
     Select **Request** to request the CCO Dashboard application plugin for the specified instance and provide the instance details with your reason for request and validate the instance.
-
-    \[Omitted image "cxo-request-install.png"\] Alt text:
 
 4.  Navigate to **System applications** &gt; **All available applications**.
 

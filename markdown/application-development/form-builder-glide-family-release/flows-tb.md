@@ -7,9 +7,9 @@ release: zurich
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
-breadcrumb: [Using Table Builder, Table Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Use, Table Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Flows in Table Builder
@@ -36,7 +36,7 @@ Use the **Flows** tab in Table Builder to search and filter a list of flows that
 -   \(Optional\) Choose a domain to work within \(if not global\). For more information, see [Domain separation and Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/form-builder-glide-family-release/form-builder-domain-separation.md).
 -   \(Optional\) Choose an application scope to work within \(if not global\). For more information, see [Using an application scope with Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/form-builder-glide-family-release/fb-application-scope.md).
 
-Role required: personalize\_forms, personalize\_dictionary, and flow\_designer permissions \(or relevant AES user role and delegated developer permissions\). For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: personalize\_form, personalize\_dictionary, and flow\_designer permissions \(or relevant AES user role and delegated developer permissions\). For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ### Procedure
 
@@ -110,7 +110,7 @@ Add flows that are triggered when a table record is updated, created, or both up
 -   \(Optional\) Choose a domain to work within \(if not global\). For more information, see [Domain separation and Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/form-builder-glide-family-release/form-builder-domain-separation.md).
 -   \(Optional\) Choose an application scope to work within \(if not global\). For more information, see [Using an application scope with Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/form-builder-glide-family-release/fb-application-scope.md).
 
-Role required: personalize\_forms, personalize\_dictionary, and flow\_designer permissions \(or relevant AES user role and delegated developer permissions\). For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: personalize\_form, personalize\_dictionary, and flow\_designer permissions \(or relevant AES user role and delegated developer permissions\). For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ### Procedure
 
@@ -172,7 +172,7 @@ Roles that the flow runs with. This option is only available when **Run as** is 
 
 7.  Choose the event that your flow will be triggered by.
 
-<table id="choicetable_nl2_cmz_ztb"><tbody><tr><td id="d85523e753">
+<table id="choicetable_nl2_cmz_ztb"><tbody><tr><td id="d282321e775">
 
 **When the record is created**
 
@@ -180,7 +180,7 @@ Roles that the flow runs with. This option is only available when **Run as** is 
 
 Create a flow that is triggered when a record in the selected table is created.
 
-</td></tr><tr><td id="d85523e762">
+</td></tr><tr><td id="d282321e784">
 
 **When the record is updated**
 
@@ -188,7 +188,7 @@ Create a flow that is triggered when a record in the selected table is created.
 
 Create a flow that is triggered when a record in the selected table is updated.
 
-</td></tr><tr><td id="d85523e771">
+</td></tr><tr><td id="d282321e793">
 
 **When the record is created or updated**
 
@@ -271,7 +271,7 @@ Edit flows that are triggered when table records that you select are updated, cr
 -   \(Optional\) Choose a domain to work within \(if not global\). For more information, see [Domain separation and Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/form-builder-glide-family-release/form-builder-domain-separation.md).
 -   \(Optional\) Choose an application scope to work within \(if not global\). For more information, see [Using an application scope with Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/form-builder-glide-family-release/fb-application-scope.md).
 
-Role required: personalize\_forms, personalize\_dictionary, and flow\_designer permissions \(or relevant AES user role and delegated developer permissions\). For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: personalize\_form, personalize\_dictionary, and flow\_designer permissions \(or relevant AES user role and delegated developer permissions\). For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ### About this task
 
@@ -320,7 +320,7 @@ Delete a record-based flow by using the **Flows** tab in Table Builder.
 -   \(Optional\) Choose a domain to work within \(if not global\). For more information, see [Domain separation and Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/form-builder-glide-family-release/form-builder-domain-separation.md).
 -   \(Optional\) Choose an application scope to work within \(if not global\). For more information, see [Using an application scope with Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/form-builder-glide-family-release/fb-application-scope.md).
 
-Role required: personalize\_forms, personalize\_dictionary, and flow\_designer permissions \(or relevant AES user role and delegated developer permissions\). For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: personalize\_form, personalize\_dictionary, and flow\_designer permissions \(or relevant AES user role and delegated developer permissions\). For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ### Procedure
 
@@ -351,7 +351,7 @@ Create a new record-based flow from an existing flow by using the **Flows** tab 
 -   \(Optional\) Choose a domain to work within \(if not global\). For more information, see [Domain separation and Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/form-builder-glide-family-release/form-builder-domain-separation.md).
 -   \(Optional\) Choose an application scope to work within \(if not global\). For more information, see [Using an application scope with Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/form-builder-glide-family-release/fb-application-scope.md).
 
-Role required: personalize\_forms, personalize\_dictionary, and flow\_designer permissions \(or relevant AES user role and delegated developer permissions\). For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: personalize\_form, personalize\_dictionary, and flow\_designer permissions \(or relevant AES user role and delegated developer permissions\). For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ### Procedure
 

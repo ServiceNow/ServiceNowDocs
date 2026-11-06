@@ -7,8 +7,8 @@ release: zurich
 topic_type: reference
 last_updated: "2026-09-29"
 reading_time_minutes: 2
-keywords: [Now SDK, Requirements, Versions, Installation, Commands, Reference documentation]
-breadcrumb: [Development tooling, Exploring Lux, Lux Development, Building pro-code applications, Developing your application, Building applications]
+keywords: [Now SDK, Requirements, Installation, Commands, Reference documentation]
+breadcrumb: [Development tooling, Exploring Lux, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # ServiceNow SDK
@@ -26,21 +26,21 @@ Use the ServiceNow SDK CLI directly, rather than Lux Lab, when you need full con
 -   Git 2.30 or later
 -   Access to a ServiceNow instance \(local or remote\) with credentials
 
-## ServiceNow SDK Versions
+## Install and update
 
-|Version|Notable changes|
-|-------|---------------|
-|4.12.x \(latest\)|Lux fixes and enhancements, async app installs by default, expanded `auth` and `cicd` commands. The floor for [Lux Lab for VS Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/lux-lab-for-vs-code.md).|
-|4.10.x|The `now-sdk cicd` command, for CI/CD pipeline integration|
-|4.9.x|Maintenance and reliability fixes for the build and transform pipeline. The floor at which `@servicenow/sdk` became the customer-facing CLI for the Lux dev server.|
+Check which version of the SDK is installed:
 
-Check which version a project uses:
+```
+now-sdk --version
+```
+
+A project can use a different version than the one installed globally. To check which version a project uses, run the following command from the project's root folder:
 
 ```
 cat package.json | grep @servicenow/sdk
 ```
 
-## Installation
+Install the latest version of the SDK. New releases add fixes and features regularly, so keep your installation current.
 
 ```
 npm install -g @servicenow/sdk@latest
@@ -79,9 +79,4 @@ The SDK's own documentation covers the commands, `now.config.json`, and the Flue
 |`now.config.json` reference|`https://servicenow.github.io/sdk/config/now-config-reference`|
 |npm package|`https://www.npmjs.com/package/@servicenow/sdk`|
 |Release notes|`https://github.com/servicenow/sdk/releases`|
-
-**Related topics**  
-
-
-[ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-sdk.md)
 

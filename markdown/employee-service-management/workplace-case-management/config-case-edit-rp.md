@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: concept
-last_updated: "2025-09-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Configure, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---

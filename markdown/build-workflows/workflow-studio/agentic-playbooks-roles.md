@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-09-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Agentic Playbooks, Playbook, Explore, Workflow Studio, Build workflows]
+breadcrumb: [Reference, Agentic Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Agentic Playbooks user roles
@@ -51,6 +51,4 @@ Grants access to the Playbook Activity Assist Workflow, and includes:-   All age
 
 </td></tr></tbody>
 </table>**Note:** There are no roles specific to Agentic Playbooks for playbook authors. As long as a playbook author has admin, playbook.admin, pd\_author, or playbook.write rights, they can configure an activity to use AI agents.
-
-**Parent Topic:**[Agentic Playbooks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/agentic-playbook-reference.md)
 

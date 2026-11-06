@@ -7,7 +7,7 @@ release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up Channels, Channels, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -26,15 +26,15 @@ Role required: sn\_channel\_mgmt.admin
 
 1.  Add KPIs to a queue.
 
-<table id="choicetable_tmd_vh5_tlb"><thead><tr><th align="left" id="d122414e73">
+<table id="choicetable_tmd_vh5_tlb"><thead><tr><th align="left" id="d196091e73">
 
 To
 
-</th><th align="left" id="d122414e76">
+</th><th align="left" id="d196091e76">
 
 Do This
 
-</th></tr></thead><tbody><tr><td id="d122414e82">
+</th></tr></thead><tbody><tr><td id="d196091e82">
 
 **Add from a service channel**
 
@@ -46,7 +46,7 @@ Do This
 4.  Select a queue.
 
 
-</td></tr><tr><td id="d122414e120">
+</td></tr><tr><td id="d196091e120">
 
 **Add from a queue**
 

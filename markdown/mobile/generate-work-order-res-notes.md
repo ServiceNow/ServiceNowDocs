@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/generate-work-order-res-notes.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist]
 breadcrumb: [Using Otto, ServiceNow Otto for Mobile, Mobile Platform]

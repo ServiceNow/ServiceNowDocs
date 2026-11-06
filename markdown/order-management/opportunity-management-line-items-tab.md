@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/opportunity-management-line-items-tab.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Opportunity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Add line items to an opportunity
@@ -20,7 +20,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, navigate to the **List** view and select **Opportunity - All**.
+1.  In the CRM Workspace, navigate to the **List** view \[Omitted image "list-outline-24.svg"\] Alt text: and select **Opportunity - All**.
 
 2.  From the **Opportunity List** view, select the opportunity you want to work with and select the **Line Items** tab.
 
@@ -301,5 +301,10 @@ Value representing upsell or downsell in comparison to the renewal amount for th
 
 Add a task to your opportunity. To learn more, see [Add opportunity tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/opportunity-management-tasks-tab.md).
 
-**Parent Topic:**[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/opportunity-mgmt-using.md)
+**Related topics**  
+
+
+[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-opportunity-mgmt.md)
+
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/opportunity-management.md)
 

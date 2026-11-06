@@ -7,7 +7,7 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create inventory template relationship, Use, Telecommunications Network Inventory]
 ---
@@ -37,7 +37,7 @@ Next, add a network interface to a child or daughter card. To learn more, see [A
 
 **Parent Topic:**[Create inventory template relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/creating-inventory-templates-telco-equipment.md)
 
-**Previous topic:**[Adding a network interface template to an interface card template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/adding-interfaces-interface-card-template.md)
+**Previous topic:**[Add a network interface template to an interface card template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/adding-interfaces-interface-card-template.md)
 
 **Next topic:**[Add a network interface template to a child or daughter card template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/adding-network-interface-template-child-daughter-card.md)
 

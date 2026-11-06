@@ -7,9 +7,9 @@ release: zurich
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Escalations in On-Call Scheduling, Define escalation process, On-Call Scheduling, IT Service Management]
+breadcrumb: [Escalations in On-Call Scheduling, Defining On-Call Scheduling escalation process, On-Call Scheduling, IT Service Management]
 ---
 
 # Designing an escalation process
@@ -64,4 +64,6 @@ Because escalation reports depend on the escalation type, report content can var
 [Track the progress of an escalation]()
 
 [View details in an escalation log]()
+
+[Delivery status tracking for On-Call Scheduling notifications]()
 

@@ -7,7 +7,7 @@ release: zurich
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create an on-call schedule, Working with SRM teams, Using Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
@@ -36,15 +36,15 @@ Role required: srm\_manager or srm\_admin
 
 5.  On the form, fill in the fields.
 
-<table id="choicetable_pxz_gj2_mbc"><thead><tr><th align="left" id="d336655e106">
+<table id="choicetable_pxz_gj2_mbc"><thead><tr><th align="left" id="d364942e108">
 
 Field
 
-</th><th align="left" id="d336655e109">
+</th><th align="left" id="d364942e111">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d336655e115">
+</th></tr></thead><tbody><tr><td id="d364942e117">
 
 **On-call shift managers**
 
@@ -52,7 +52,7 @@ Description
 
 Team managers for the on-call shift.
 
-</td></tr><tr><td id="d336655e124">
+</td></tr><tr><td id="d364942e126">
 
 **PTO requests**
 
@@ -64,7 +64,7 @@ Requests for Paid Time Off \(PTO\) made by team members. Choices are:-   System 
 -   Not allowed
 
 
-</td></tr><tr><td id="d336655e147">
+</td></tr><tr><td id="d364942e149">
 
 **First day of the week**
 
@@ -72,7 +72,7 @@ Requests for Paid Time Off \(PTO\) made by team members. Choices are:-   System 
 
 First day of your work week.**Note:** This option is available for Washington DC and later releases only.
 
-</td></tr><tr><td id="d336655e158">
+</td></tr><tr><td id="d364942e160">
 
 **Allow shift schedule overlap**
 
@@ -80,7 +80,7 @@ First day of your work week.**Note:** This option is available for Washington DC
 
 Option to allow schedules to overlap
 
-</td></tr><tr><td id="d336655e168">
+</td></tr><tr><td id="d364942e170">
 
 **Escalation rule on shift overlap**
 

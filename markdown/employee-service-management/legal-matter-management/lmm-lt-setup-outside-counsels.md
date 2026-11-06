@@ -7,7 +7,7 @@ release: zurich
 product: Legal Matter Management
 classification: legal-matter-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure data to enable matter creation in Legal Tracker, Configure Legal Matter Management with outside counsel, Configure, Legal Matter Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -36,15 +36,15 @@ The scheduled job **Fetch Firms Data** pulls the data for outside firms from Leg
 
 2.  Open the outside counsels list.
 
-<table id="choicetable_urg_zmd_jzb"><thead><tr><th align="left" id="d158663e109">
+<table id="choicetable_urg_zmd_jzb"><thead><tr><th align="left" id="d160701e109">
 
 Location
 
-</th><th align="left" id="d158663e112">
+</th><th align="left" id="d160701e112">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d158663e118">
+</th></tr></thead><tbody><tr><td id="d160701e118">
 
 **From the Legal Matter module**
 
@@ -52,7 +52,7 @@ Actions
 
 Navigate to **All** &gt; **Legal Matter** &gt; **Outside Counsel Setup** &gt; **Setup Outside Counsels**.
 
-</td></tr><tr><td id="d158663e145">
+</td></tr><tr><td id="d160701e145">
 
 **From Legal Counsel Center**
 

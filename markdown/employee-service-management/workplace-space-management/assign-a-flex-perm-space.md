@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Space Management
 classification: workplace-space-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Manage, Workplace Space Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -93,7 +93,7 @@ The space is configured as flexible or permanent based on the assignment type th
 
 [Create a view-by configuration]()
 
-[Create a KPI Configuration]()
+[]()
 
 [Reviewing allocation changes]()
 

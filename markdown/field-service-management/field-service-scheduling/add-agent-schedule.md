@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Assigning WOTs using Dynamic Scheduling, Scheduling and dispatching, Use, Field Service Management]
+breadcrumb: [Assigning tasks using Dynamic Scheduling, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Add a default agent work schedule
@@ -20,7 +20,7 @@ Add a default agent schedule so that agents have a schedule assigned to them if 
 
 Role required: wm\_dispatcher
 
-The `Allow Dynamic Scheduling to only use work schedule/WFO` system property must be set to `false` before adding a default agent work schedule. Contact your administrator to update this system property. For more information, see [Dynamic scheduling system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/dynamic-sched-system-properties.md).
+The Allow Dynamic Scheduling to only use work schedule/WFO system property must be enabled before adding a default agent work schedule. Contact your administrator to turn on the Allow Dynamic Scheduling to only use work schedule/WFO system property. For more information, see [Dynamic scheduling system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/dynamic-sched-system-properties.md).
 
 ## Procedure
 

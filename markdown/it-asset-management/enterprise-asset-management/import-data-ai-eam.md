@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 21
 keywords: [AI-assisted import, column mapping, value mapping, bulk import]
-breadcrumb: [Importing enterprise models and assets using AI assistance, Bulk import of your enterprise models and assets, Manage enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Importing enterprise models and assets using AI assistance, Bulk import of your enterprise models and assets, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Import enterprise models and assets using AI assistance

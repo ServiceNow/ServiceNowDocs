@@ -18,7 +18,7 @@ The Microsoft Endpoint Configuration Manager \(MECM\) spoke automates actions to
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Microsoft Endpoint Configuration Manager spoke v1.9 is the latest version.
+Microsoft Endpoint Configuration Manager spoke v1.10.2 is the latest version. For version history of the spoke, see [Microsoft Endpoint Configuration Manager spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-ms-endpoint-manager.html).
 
 ## Supported versions
 
@@ -147,7 +147,7 @@ Discover and Store Data
 Finds the data from the server and then updates the records in the Application, Collection, and Deployment tables.
 
 </td></tr></tbody>
-</table>**Note:** These subflows are available only when the [Client Software Distribution 2.0 application]() is installed.
+</table>**Note:** These subflows are available only when the [Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/csd-app-2.md) is installed.
 
 ## Spoke actions
 
@@ -259,7 +259,7 @@ Retrieves the MECM Script Execution Response from the MECM server.
 
 </td></tr><tr><td rowspan="4">
 
-Data Management**Note:** These actions are available only when the [Client Software Distribution 2.0 application]() is installed.
+Data Management**Note:** These actions are available only when the [Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/csd-app-2.md) is installed.
 
 </td><td>
 
@@ -472,7 +472,7 @@ The MECM spoke adds the MECM application to your instance. The application inclu
 |Deployments|Displays the list of deployments from the Microsoft Endpoint Configuration Manager server.|Deployment \[sn\_ms\_epcfgmgr\_spk\_deployment\]|
 |Collections|Displays the list of collections from the Microsoft Endpoint Configuration Manager server.|Collection \[sn\_ms\_epcfgmgr\_spk\_collection\]|
 
-**Note:** These modules are available only when the [Client Software Distribution 2.0 application]() is installed.
+**Note:** These modules are available only when the [Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/csd-app-2.md) is installed.
 
 ## Connection and credential alias requirements
 

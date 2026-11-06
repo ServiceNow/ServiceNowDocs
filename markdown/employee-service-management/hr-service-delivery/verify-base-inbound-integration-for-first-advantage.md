@@ -7,9 +7,9 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [First Advantage service, HR Integrations, Integrate with third-party systems, HR Service Delivery, Employee Service Management]
+breadcrumb: [Integrating with the First Advantage service, HR Integrations, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
 # Verify integration for the First Advantage service
@@ -67,9 +67,9 @@ Role required: sn\_hr\_integrations.admin
         |HR Integrations Background Check Staging \[sn\_hr\_integrations\_background\_check\_staging\]|HR Talent Management Case \[sn\_hr\_core\_case\_talent\_management\]|
 
 
-**Parent Topic:**[Integrate with First Advantage service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-integrations-with-first-advantage.md)
+**Parent Topic:**[Integrating with the First Advantage service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-integrations-with-first-advantage.md)
 
 **Previous topic:**[Provide source credentials for the First Advantage service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-integrations-sources-first-advantage.md)
 
-**Next topic:**[Add background check packages for First Advantage service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/background-check-package-for-first-advantage.md)
+**Next topic:**[Add background check packages for the First Advantage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/background-check-package-for-first-advantage.md)
 

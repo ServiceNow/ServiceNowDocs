@@ -7,7 +7,7 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Allow policy exception requests, Enhancement steps, Implement, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -27,7 +27,7 @@ Role required:
 
 Defining verification rules is an optional step. If you do not define verification rules or define them and do not activate them, approvals from the requester's team will not be required.
 
-You can also use the GRC Approval Configurator to configure policy exception rules. For more information, see [Define the policy verification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/define-policy-exception-verification-rules.md).
+You can also use the GRC Approval Configurator to configure policy exception rules. For more information, see [Define policy exception and extension rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/define-policy-exception-verification-rules.md).
 
 ## Procedure
 

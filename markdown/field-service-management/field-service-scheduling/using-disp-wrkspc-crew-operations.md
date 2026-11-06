@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Dispatcher Workspace, Assigning WOTs from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
+breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Using Dispatcher Workspace for crew operations
@@ -23,5 +23,5 @@ As a dispatcher, you can use Dispatcher Workspace to perform the following activ
 -   Filter and view tasks in the task panel that need a crew
 -   Sort crews based on the distance and skills for the tasks that need a crew.
 
-**Note:** The drag and drop feature is not enabled for the tasks requiring a crew.
+**Note:** The drag and drop feature isn’t enabled for the tasks requiring a crew.
 

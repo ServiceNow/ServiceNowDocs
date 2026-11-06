@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/editing-an-auto-query.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Auto Query page, Using the Discovery Console, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Auto Query page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Edit an Auto Query
@@ -32,8 +32,10 @@ Role required: admin
 
 5.  In the Confirmation section, set the schedule, recursion, and duration.
 
-    \[Omitted image "image.editing-an-auto-query"\] Alt text: Editing Auto Query
+    \[Omitted image "editing-an-auto-query.png"\] Alt text: Editing Auto Query
 
 6.  Select **Save** to save your changes or select **Cancel** to discard your changes
 
+
+**Parent Topic:**[Auto Query page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/auto-query-console.md)
 

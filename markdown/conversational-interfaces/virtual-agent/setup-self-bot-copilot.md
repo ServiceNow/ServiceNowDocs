@@ -7,30 +7,31 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-01-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Integrating, ServiceNow Otto, Virtual Agent, Microsoft, Copilot, Conversational Integration, Teams, MSTeams, sn\_va\_teams]
-breadcrumb: [Integrating ServiceNow Otto for Virtual Agent with Microsoft Copilot, Use ServiceNow Otto for Virtual Agent in Teams conversations, Conversational Integration with Microsoft Teams, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Integrating ServiceNow Otto for Virtual Agent with Microsoft Copilot, Use ServiceNow Otto for Virtual Agent in Teams conversations, Microsoft Teams, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Setting up the Self-configured bot for using Microsoft Copilot
 
 Using your Self-configured bot with Microsoft Copilot for ServiceNow Otto conversations requires you to complete a few additional setup actions.
 
-**Note:** Custom Engine Agent \(CEA\) is replacing Declarative Agent \(DA\), the prior Microsoft Copilot integration. The CEA enables Virtual Agent to be discoverable by Microsoft Copilot, with full functional access to ServiceNow Otto in Virtual Agent and multi-turn conversations.
+**Note:** Custom Engine Agent \(CEA\) is replacing Declarative Agent \(DA\), the prior Microsoft Copilot integration. The CEA enables Virtual Agent to be discoverable by Microsoft Copilot, with full functional access to ServiceNow Otto for Virtual Agent and multi-turn conversations.
 
 You must have version 10.1.1 or higher of the Microsoft Teams plugin to have CEA support. In version 10.2 of the Microsoft Teams plugin, streaming is inactive by default and CEA is active by default.
 
-You can install the default ServiceNow Otto Virtual Agent bot from the Microsoft Teams app store. This bot deploys automatically, but you cannot customize its prompts or manifest description. You must still install the ServiceNow Microsoft Teams plugin from the ServiceNow app store. For more information on Microsoft Teams and ServiceNow Otto in Virtual Agent installation and settings, see [Integrating ServiceNow Otto for Virtual Agent with Microsoft Copilot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/ms-copilot-na-va.md).
+You can install the default ServiceNow Otto Virtual Agent bot from the Microsoft Teams app store. This bot deploys automatically, but you cannot customize its prompts or manifest description. You must still install the ServiceNow Microsoft Teams plugin from the ServiceNow app store.
+
+For more information on Microsoft Teams and ServiceNow Otto in Virtual Agent installation and settings, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/ms-copilot-na-va.md)
 
 As of October 2025, streaming is active by default for both Teams and Copilot. Configurations are shared by Teams and Copilot, and both apps are linked to the assistant.
 
 You can use the self-configured bot or the default version to install Microsoft Copilot integration. The default bot automatically deploys in Copilot. If you want to use a self-configured bot for Microsoft Copilot, complete the following additional setup:
 
 -   Provide the Self-configured bot a name while creating it. This name is also provided to the Custom Engine Agent \(CEA\).
--   Activate your assistant in the Conversational Interfaces configuration page. For more information, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
+-   Activate your assistant in the Conversational Interfaces configuration page. For more information, see [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-now-assist-va.md).
 -   Migrate any relevant topics to the Now LLM Service for ServiceNow Otto large language model \(LLM\) conversations with Copilot. To migrate your topics to LLM, you must enable LLM. For more information, see [Migrate NLU topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/migrate-nlu-llm.md).
--   Enable AI Search on your ServiceNow ServiceNow Otto instance to use ServiceNow Otto with Microsoft Copilot. For more information about enabling AI Search, see [Enable AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/enable-ais-next-exp-app.md).
 -   Update the following fields within the manifest file that is downloaded from Admin experience to configure the Self-configured bot. You can update your agent's description and update its prompts if it has any unique capabilities.
 
     \[Omitted image "ci-settings-msteams.png"\] Alt text: Use the Microsoft Teams channel page in Conversational Interfaces Channels and Integrations to create and manage app settings.

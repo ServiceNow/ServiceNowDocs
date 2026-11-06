@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setup employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Setup employee communications, Configuring Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure employee communications widgets
@@ -23,7 +23,7 @@ The Featured News widget displays featured articles on company news and announce
 -   **[Modify the News feed widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/modify-news-feed-widget-display.md)**  
 The News feed widget displays articles on company news and announcements. All news, Other news, and Related news are instances of the News feed widget.
 -   **[Modify the Content Experiences widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-edit-cew.md)**  
-You can edit the banner of your Content Experiences widget to create a unique layout for your content in the Content Experiences widget.
+You can edit the banner of your Content Experiences widget to create a modern and unique layout for your content in the Content Experiences widget.
 -   **[Modify banner width options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/change-default-width-of-employee-center-pro-home-page-banner.md)**  
 Modify the width of the Employee Center Pro banner widget, on the home page, to suit your preference.
 

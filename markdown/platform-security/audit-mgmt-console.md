@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/audit-mgmt-console.html
 release: zurich
 topic_type: task
-last_updated: "2025-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Auditing]
+breadcrumb: [Configuring auditing for a table, Auditing]
 ---
 
 # Configure auditing using Audit Management Console

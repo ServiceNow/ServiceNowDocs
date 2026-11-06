@@ -1,16 +1,16 @@
 ---
-title: AI-assisted app creation with ServiceNow Otto for Creator
+title: Agentic app creation with ServiceNow Otto for Creator
 description: ServiceNow Otto for Creator provides core skills for rapid conversational app development. Use the integrated tools to generate scripts, optimize code, scaffold applications, and automate testing through natural language prompts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/vibe-code-now-assist-creator.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Develop, Agentic development, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
+breadcrumb: [Develop, Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
-# AI-assisted app creation with ServiceNow Otto for Creator
+# Agentic app creation with ServiceNow Otto for Creator
 
 ServiceNow Otto for Creator provides core skills for rapid conversational app development. Use the integrated tools to generate scripts, optimize code, scaffold applications, and automate testing through natural language prompts.
 
@@ -18,11 +18,11 @@ ServiceNow Otto for Creator provides core skills for rapid conversational app de
 
 ServiceNow Otto for Creator is the ServiceNow collection of generative AI skills for building apps on the ServiceNow AI Platform. Use it to generate apps, flows, code, tests, UIs, analytics, catalog items, RPA bots, and more from natural language prompts directly in offerings like ServiceNow Studio.
 
-Some skills in ServiceNow Otto for Creator have a conversational interface and can be used for vibe coding and AI-assisted development. For example, the catalog item generation skill in Catalog Builder. For more information, see [AI Authoring for Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/now-assist-for-catalog-generation.md).
+Some skills in ServiceNow Otto for Creator have a conversational interface and can be used for vibe coding and agentic development. For example, the catalog item generation skill in Catalog Builder. For more information, see [AI Authoring for Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/now-assist-for-catalog-generation.md).
 
 ## Core capabilities
 
-For complete information on using ServiceNow Otto for Creator, see [ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator-landing.md).
+For complete information on using ServiceNow Otto for Creator, see [ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-creator/now-assist-for-creator-landing.md).
 
 The following metadata-driven tools are available for using AI to develop apps:
 
@@ -45,7 +45,7 @@ The following metadata-driven tools are available for using AI to develop apps:
 2.  Store app and release notes: Install/upgrade ServiceNow Otto for Creator skills from the ServiceNow Store.
 3.  Onboarding topic in this document: See [Onboarding for agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/vibe-coding-onboarding.md).
 
-## ServiceNow Otto for Creator and AI-assisted development on the ServiceNow AI Platform
+## ServiceNow Otto for Creator and agentic development on the ServiceNow AI Platform
 
 ServiceNow Otto for Creator is the ServiceNow AI Platform toolkit for using AI to generate and refine apps. Instead of switching between generic IDEs and separate agents, ServiceNow Otto for Creator provides embedded skills aligned to platform constructs \(such as tables, ACLs, flows, and catalog items\). You can describe a solution through conversation, then inspect and test it with platform tools \(such as ATF, ACLs, and the Metadata Explorer\).
 

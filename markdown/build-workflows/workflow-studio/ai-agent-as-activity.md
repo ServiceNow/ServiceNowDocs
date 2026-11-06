@@ -7,9 +7,10 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-02-20"
-reading_time_minutes: 4
-breadcrumb: [Stages and activities, Building playbooks, Use, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Use AI agent as an activity
@@ -18,13 +19,13 @@ Use an existing AI agent as an activity in your playbook to automate tasks. The 
 
 ## Before you begin
 
-Role required: playbook.admin or pd\_author.
+Make sure that ServiceNow Otto® AI agents plugin is installed and you have AI agents available in your instance. For information about installing the ServiceNow Otto® AI agents plugin, see [Install ServiceNow Otto AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-ai-agents-plugins.md). For information about creating an AI agent, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configure-next-best-action-agent.md).
 
-Make sure that Now Assist AI agents plugin is installed and you have AI agents available in your instance. For information about installing the Now Assist AI agents plugin, see [Install ServiceNow Otto AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-ai-agents-plugins.md). For information about creating an AI agent, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configure-next-best-action-agent.md).
+Role required: playbook.admin or pd\_author.
 
 ## About this task
 
-When you add an AI agent to the activity, you select the agent, provide an objective for the agent to complete, and define the expected outputs. You can also define whether you want to run the agent on behalf of the user who triggered the playbook, or the current user. You can interact with the agent from within the playbook, without opening the Now Assist panel.
+When you add an AI agent to the activity, you select the agent, provide an objective for the agent to complete, and define the expected outputs. You can also define whether you want to run the agent on behalf of the user who triggered the playbook, or the current user. You can interact with the agent from within the playbook, without opening the ServiceNow Otto® panel.
 
 ## Procedure
 
@@ -70,8 +71,9 @@ Run as
 
 </td><td>
 
-The user on behalf of whom you want the agent to run.-   **Active user**: The AI agent runs when the user selects **Start Now Assist**.
--   **The user triggering the playbook**: The AI agent when the playbook is triggered.
+The user on behalf of whom you want the agent to run.-   **Active user**: The AI agent performs the actions on behalf of the active user that starts the conversation.
+-   **User who triggered the playbook**: The AI agent performs the actions on behalf of the user that triggered the playbook.
+-   **User who completed a prior activity**: The AI agent performs the actions on behalf of the user that completed a previous activity.
 
 
 </td></tr><tr><td>
@@ -145,33 +147,4 @@ Alex performs all interactions with the AI agent within the playbook, without op
 
 
 **Parent Topic:**[Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md)
-
-**Related topics**  
-
-
-[Add and configure a stage in a playbook]()
-
-[Activity definitions]()
-
-[Add and configure an activity in a playbook]()
-
-[Use an AI skill as an activity]()
-
-[Automation Assets]()
-
-[Start with delay input properties]()
-
-[Optional activities]()
-
-[Decision activities]()
-
-[Decision stages]()
-
-[Questionnaire activity]()
-
-[Parallel branches]()
-
-[Add dynamic inputs to an activity]()
-
-[Playbook activity state mapping]()
 

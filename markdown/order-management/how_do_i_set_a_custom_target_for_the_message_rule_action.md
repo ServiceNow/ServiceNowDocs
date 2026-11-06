@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/how\_do\_i\_set\_a\_custom\_target\_for\_the\_message\_rule\_action.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Setting a custom target for a message rule action

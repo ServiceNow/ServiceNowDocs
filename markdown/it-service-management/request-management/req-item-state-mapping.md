@@ -7,7 +7,7 @@ release: zurich
 product: Request Management
 classification: request-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Request Management integration with Universal Request, Configure, Request Management, IT Service Management]
 ---
@@ -25,6 +25,8 @@ Role required: admin
 Mapping the states of the requested item to the universal request state ensures that the status of request is also reflected on the state of universal request. As the request moves through different stages of the life cycle, the state of the universal request also gets updated to reflect the change.
 
 For example, consider a universal request has a requested item as a primary ticket. When the state of the request changes from **Open** to **Work in Progress**, the universal request state changes from **New** to **In Progress**.
+
+\[Omitted image "req-mgmt-state-maping.jpg"\] Alt text: Requested item state mapping.
 
 The following table lists the default state mapping of requested item state with UR states.
 

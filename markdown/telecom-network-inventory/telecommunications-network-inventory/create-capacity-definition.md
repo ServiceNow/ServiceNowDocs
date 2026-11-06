@@ -7,7 +7,7 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Capacity management, Configure, Telecommunications Network Inventory]
 ---
@@ -48,7 +48,7 @@ The capacity definition record is created.
 
 You can use the definition for capacity calculation. When you run the capacity definition, it creates the metric and the results aggregate to it. You can navigate to **All** &gt; **Capacity Management** &gt; **Metrics** and open the capacity metric record, which you want to see the details.
 
-**Parent Topic:**[Capacity management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configuring-capacity-management.md)
+**Parent Topic:**[Configuring capacity management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configuring-capacity-management.md)
 
 **Related topics**  
 

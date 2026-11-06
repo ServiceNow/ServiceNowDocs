@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/home-page.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using the Discovery Console, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Home page
@@ -18,7 +18,7 @@ In the navigation menu, you can select the Assets and Sensors pages to reveal su
 
 The Console opens to the Home page.
 
-\[Omitted image "image.homepage1"\] Alt text: Console Home page
+\[Omitted image "homepage1.png"\] Alt text: Console Home page
 
 The **Home** page is made up of a left-hand, expandable navigation menu and a main area; that is, the Assets Dashboard. The dashboard is divided into the following sections.
 
@@ -61,5 +61,7 @@ The Keyswitch / Protection section displays any key switch security or protectio
 
 **Note:** The Keyswitch / Protection section is only available if you have data available in your system.
 
-\[Omitted image "image.home-page-bottom"\] Alt text: Bottom of the Home page
+\[Omitted image "home-page-bottom.png"\] Alt text: Bottom of the Home page
+
+**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/using-discovery-console.md)
 

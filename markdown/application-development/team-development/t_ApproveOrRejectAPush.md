@@ -7,9 +7,9 @@ release: zurich
 product: Team Development
 classification: team-development
 topic_type: task
-last_updated: "2025-10-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Pushing changes, Working with changes, Team Development, Planning your application, Building applications]
+breadcrumb: [Explore, Team Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Approve or reject a push
@@ -18,7 +18,7 @@ Code reviewers must approve or reject a push from the Team Development applicati
 
 ## Before you begin
 
-Role required: teamdev\_code\_reviewer
+Role required: none.
 
 ## About this task
 
@@ -34,14 +34,16 @@ Although reviewers can see the individual versions within a push, they must appr
 
 4.  Review the changes in the Push or Pull Versions related list.
 
-5.  Select **Approve or Reject**.
+5.  Click **Approve or Reject**.
 
-6.  Enter review comments in **Comments**.
+6.  Enter review comments in Comments.
 
     These comments are visible to anyone who can see the Pushes and Pulls history.
 
-7.  Select either **Approve** or **Reject**.
+7.  Click either **Approve** or **Reject**, as appropriate.
 
+    \[Omitted image "ApproveOrRejectChanges.png"\] Alt text: Approve or reject changes
 
-**Parent Topic:**[Pushing changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/pushing-changes.md)
+    **Note:** The URL and Remote Instance fields list the address and name of the instance where the change originated.
+
 

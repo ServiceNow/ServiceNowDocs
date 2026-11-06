@@ -1,24 +1,24 @@
 ---
 title: Using the Compliance Workspace
-description: The Compliance Workspace has a unified tasks page. Based on the user role you can fulfill all your tasks and your team's tasks in the page.
+description: The Compliance Workspace has a unified tasks page. Based on the user role you can fulfil all your tasks and your team's tasks in the page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-compliance-management-workspace/work-in-compliance-ws.html
 release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [GRC Compliance Workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Using the Compliance Workspace
 
-The Compliance Workspace has a unified tasks page. Based on the user role you can fulfill all your tasks and your team's tasks in the page.
+The Compliance Workspace has a unified tasks page. Based on the user role you can fulfil all your tasks and your team's tasks in the page.
 
 The tasks that appear in the Compliance Workspace are unique to the logged in user and therefore can complete all assigned tasks.
 
--   Use the Tasks page to view the pending tasks by categories, filter them by various parameters, and track the tasks that you've initiated.
+-   Use the Tasks page to view the tasks by categories, filter them by various parameters, and track the tasks that you've initiated.
 -   Use the Issues page to know all about issues.
 -   The record overview page provides the summary of each record in a single view.
 -   The contextual pane in the overview page provides contextual information of the record. It provides the record's key information in a hierarchy with attachments, if available.

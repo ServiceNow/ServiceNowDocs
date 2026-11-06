@@ -5,38 +5,32 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/mobile-offline-mode.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Considerations before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Offline mode
 
 Configure offline mode to enable your users who have no internet connection to continue working from a mobile device.
 
-This video shows how offline mode works in Mobile Agent.
-
 Configure specific applications, screens, or functions for users to use offline in your mobile apps. For a description of how offline mode features enhance end users' experience, see [Offline mode for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/offline-end-user.md).
 
-## Supported screens in offline mode
+## Plan an offline mode strategy
 
-Offline mode is supported in the following screens. For more information about screen types in mobile, see [Mobile screen types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/sg-mobile-applet.md).
+Offline mode involves a series of configuration and planning decisions. These range from which apps, screens, and functions to enable, to how much data to store on a device. Every item included in the offline payload must be explicitly enabled by an administrator, meaning each configuration choice directly shapes what gets cached. Planning your offline mode strategy helps verify that what you configure is relevant and maintainable.
 
--   Input form screen
--   Calendar screen
--   Sections screen
--   List screen
--   Related list screen
--   Record screen
--   Map screen
--   Details screen
--   Activity list screen
+Before making configuration decisions, identify your target users, the screens they need access to, expected data size, and connectivity patterns such as field versus office use. This gives you the context to make the right choices at each level of the app, screen, and function hierarchy, keeping your offline mode lightweight and aligned with your users’ needs.
+
+The offline mode setup options walk you through the key decisions involved in planning your offline configuration. Review each option to help you determine which approach best fits yours and your users' needs and working patterns, when constructing your offline mode strategy. For more information, see [Offline mode setup options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/offline-setup-options.md).
 
 ## Offline mode process
 
 <table id="table_sqd_2l5_vnb"><tbody><tr><td>
 
-Offline mode works by creating a cache of records on your mobile device that your users can view and update while offline. This cache is a limited set of data based on the applications your users can access. By default, this cache expires 48 hours after it is downloaded to a mobile device. This means that any changes your users make to the cache that are not synchronized to your instance within 48 hours are lost.
+Offline mode works by creating a cache of records on your mobile device that your users can view and update while offline. This cache is a limited set of data based on the applications your users can access. By default, this cache expires 48 hours after it is downloaded to a mobile device. Any changes your users make to the cache that aren't synchronized within 48 hours are moved to the outbox, where they can be synced to your instance at the user’s next log out.
+
+**Note:** There is a difference in how operating systems display cache expiry time. iOS displays cache expiry time via the **Expires** field. Android displays the cache size and last cached time with no expiry indication.
 
 </td><td>
 
@@ -44,47 +38,37 @@ Offline mode works by creating a cache of records on your mobile device that you
 
 </td></tr><tr><td>
 
-While in offline mode, only parts of the app with cached data are available. For example, if you have only enabled offline mode for tasks and inventory, all other parts of your mobile app are unavailable while offline.
+While in offline mode, only the parts of the app with cached data are accessible. This depends on which screens are configured to be available offline. For example, if offline mode is enabled only for Tasks and Inventory, all other areas of the mobile app are unavailable while the device is offline.
 
 </td><td>
 
-\[Omitted image "offline-disabled-apps.png"\] Alt text: Example screen showing only apps with cached data is displayed.
+\[Omitted image "mobile-offline1.png"\] Alt text: Launcher screen in offline mode
 
 </td></tr><tr><td>
 
-When your users have network access again, they can disable offline mode and synchronize their cached data with the data on your instance. Updates between the instance and the mobile device are automatic, unless there is a conflict. Users can resolve conflicts in their outbox.
+While in offline mode, users can create, update, or delete cached records directly from their mobile device. Each action performed is automatically added to the Outbox, which stores all pending operations until the user is back online.
+
+</td><td>
+
+\[Omitted image "mobile-offline-action-comp.png"\] Alt text: Action performed in offline mode
+
+</td></tr><tr><td>
+
+When your users have network access again, they can disable ofﬂine mode and synchronize their data stored in the outbox on their device with the data on the instance. Updates between the mobile and the instance are automatic, unless there is a conflict. Users can resolve conflicts in their outbox.
 
 </td><td>
 
 \[Omitted image "offline-conflict.png"\] Alt text: Screens showing how to synchronize data.
 
 </td></tr></tbody>
-</table>## Incremental Offline
-
-Incremental offline mode periodically compares the data on your instance and data cached on your mobile device. When the record watcher detects a difference, it triggers an update that contains only the changed files. Using this option, your users are not required to update the entire cache manually or according to a fixed schedule. These smaller updates are ideal in situations where users frequently or unexpectedly lose network connectivity.
-
--   **[Set up offline mode for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/setup-mobile-offline.md)**  
-Setup offline mode for your mobile applications so that users can work without an internet connection.
--   **[Request offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/sg-request-work-offline.md)**  
-To activate this feature, request activation of the SG Offline support plugin \(com.glide.sg.offline\).
--   **[Configure offline mode behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/sg-configure-offline-mode.md)**  
-Create system properties to customize the offline mode behavior of the mobile application.
--   **[Define the number of displayed records in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/config-offline-record-number.md)**  
-Define the number of records to display to users in offline mode. Choose between 0 through 1000 records. This range gives you the flexibility to display different amounts to the user in online and offline modes.
--   **[Configure data items in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/config-offline-data-item.md)**  
-Define a separate data item for offline mode, giving you the flexibility to define the amount of data to display when a user is offline.
--   **[Configure offline mode properties for action functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/config-offline-properties-action-funct.md)**  
-Determine which fields and functions are available to users when working in offline mode.
--   **[Configure action items and action steps in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/configure-action-item-offline.md)**  
-Configure action items to execute actions like create, edit and delete records while in offline mode. For an action item to perform multiple processes you must define separate action steps.
--   **[Register associated records in the offline cache](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/register-assoc-records-offline-cache.md)**  
-Admins can configure offline mode to include associated records in the offline cache when a user performs an action in online mode on their Mobile Agent.
--   **[Configure reference inputs for input form screens in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/reference-fields-offline-mode.md)**  
-Configure reference inputs so that users can see a list of records in offline mode on their Mobile Agent.
--   **[Configure offline mode properties for function instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/config-offline-property-function-instance.md)**  
-Determine if the function instance available to users in online mode is also available in offline mode. This option gives you more control over how users manage their offline tasks.
--   **[Scheduled offline caching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/scheduled-offline-caching.md)**  
-Configure offline caching so your field technicians can receive scheduled updates to their offline data cache. Scheduled downloads are based on the user's work schedule.
+</table>-   **[Mobile experience components available in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/offline-capabilities.md)**  
+Use the tables to view the various components and features that are either fully, partially or not supported in offline mode.
+-   **[System properties in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/mobile-system-properties.md)**  
+Use the table to view system properties related to offline mode.
+-   **[Mobile scripting in offline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/mobile-script-concept.md)**  
+Use mobile scripts to run reusable JavaScript on the user’s device while offline, so offline buttons and write-back actions stay consistent with online behavior. Mobile scripts are a subset of web scripts, and are stored centrally on the instance. The platform pushes them to mobile devices as part of the offline cache.
+-   **[Offline mode setup options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/offline-setup-options.md)**  
+Review the setup options to determine which configurations apply to your offline mode requirements. Each option explains what to configure and why, helping you make informed decisions. Before configuring, identify your target users, the screens they need, expected data size, and connectivity patterns such as field versus office use.
 
 **Parent Topic:**[Considerations before implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/imp-considerations.md)
 

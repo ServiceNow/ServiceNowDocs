@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-04-24"
 reading_time_minutes: 5
 keywords: [Otto, AI assistant, reasoning engine, specialized assistants, interactive split view, Enterprise Search, World Knowledge]
-breadcrumb: [ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Moveworks, EmployeeWorks, Employee Service Management]
 ---
 
 # Moveworks capabilities

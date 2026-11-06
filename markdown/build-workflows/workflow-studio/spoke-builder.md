@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-09-02"
-reading_time_minutes: 3
-breadcrumb: [Use, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Workflow Studio, Build workflows]
 ---
 
 # Building spokes using Spoke Generator
@@ -22,7 +22,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## App dependencies
 
-If you’re having trouble installing the app, ensure that the dependent plugin, ServiceNow IntegrationHub Starter Pack Installer \(com.glide.hub.integrations.starter\) is installed. You need ServiceNow IntegrationHub Professional Pack Installer license in your prod and sub-prod environments for creating spokes using OpenAPI specification, Postman collection, or with AI.
+If you’re having trouble installing the app, ensure that the dependent plugin, ServiceNow IntegrationHub Starter Pack Installer \(com.glide.hub.integrations.starter\) is installed. You need ServiceNow IntegrationHub Professional Pack Installer license in your prod and sub-prod environments for creating spokes using OpenAPI specification, Postman collection, or Now Assist.
 
 **Note:** Some of these plugins are licensable features and require appropriate licenses, if used outside the spoke implementation.
 
@@ -90,18 +90,5 @@ Spoke actions created by importing OpenAPI specification, contain the OpenAPI st
 
 ## App version
 
-Spoke Generator v4.5.0 is the latest version.
-
--   **[Create spoke and build actions by importing an OpenAPI Specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-spoke-fd.md)**  
-Automate an integration and generate reusable actions by importing an OpenAPI Specification.
--   **[Create spoke and build actions by importing a Postman collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-spoke-postman-collection.md)**  
-Automate an integration and generate reusable actions by importing a Postman collection.
--   **[Use ServiceNow Otto to create spokes and build actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/now-assist-in-spk-gen.md)**  
-Use ServiceNow Otto in Spoke Generator to create spokes and actions by providing the required third-party API documentation snippet as an input.
--   **[Create spoke and build actions manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-spoke-manual.md)**  
-Automate an integration and generate reusable actions manually.
--   **[Add more actions to the custom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/actions-cust-spk.md)**  
-Add more reusable actions to your custom spoke to automate an integration.
-
-**Parent Topic:**[Using Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/building-workflow-studio-components.md)
+Spoke Generator v4.2.4 is the latest version.
 

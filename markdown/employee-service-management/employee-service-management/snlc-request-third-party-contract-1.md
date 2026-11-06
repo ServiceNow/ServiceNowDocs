@@ -4,7 +4,7 @@ description: Employees can submit legal requests for review of third-party contr
 locale: en-US
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 ---
 
@@ -82,6 +82,8 @@ As a member of the legal contracts support team, review and revise a third-party
 
 [Contract amendments]()
 
+[Contract renewals]()
+
 [Linking parent-child contracts]()
 
 [Internal review overview]()
@@ -91,8 +93,6 @@ As a member of the legal contracts support team, review and revise a third-party
 [Cancel a legal request]()
 
 [View and download a signed contract document]()
-
-[View contract requests]()
 
 [Manage Contract Management Pro for Legal Service Delivery]()
 

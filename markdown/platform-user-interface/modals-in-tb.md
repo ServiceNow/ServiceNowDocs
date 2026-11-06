@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/modals-in-tb.html
 release: zurich
 topic_type: concept
-last_updated: "2025-11-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Image styles, Manage or edit a theme, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -30,7 +30,7 @@ To override the default modal illustrations with custom images, upload each imag
 
 |Field|Description|
 |-----|-----------|
-|Dimensions limit|w552 x h218 px|
+|Dimensions limit|w552 × h218 px|
 |Format|SVG|
 |File size limit|2 MB|
 

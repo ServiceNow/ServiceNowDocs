@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/sgc-central-import-sites.html
 release: zurich
 topic_type: task
-last_updated: "2026-05-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [SGC Central, Service Graph Connector for ServiceNow Operational Technology\(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [SGC Central, Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Import Sites
@@ -20,22 +20,24 @@ Role required: admin
 
 ## Procedure
 
-1.  Before importing assets, you must import sites.
+1.  In the SGC Central setup process, you must import sites before importing assets.
 
-    \[Omitted image "image.sgc-central-import-sites"\] Alt text: Import sites
+    \[Omitted image "sgc-central-import-sites.png"\] Alt text: Import sites
 
 2.  Open the **Site Scheduled Data Import** job; that is, select the site displayed under **Scheduled Data Import**.
 
 3.  The Configure import schedule window opens for that site.
 
-    \[Omitted image "image.sgcc-configure-import-schedule-2"\] Alt text: Configure import schedule
+    \[Omitted image "sgcc-configure-import-schedule-2.png"\] Alt text: Configure import schedule
 
 4.  Select the **Execute Now** button to manually import.
 
-    \[Omitted image "image.execute-import-schedule"\] Alt text: Execute the import schedule
+    \[Omitted image "execute-import-schedule.png"\] Alt text: Execute the import schedule
 
 5.  Repeat these steps for additional sites.
 
 6.  Select **Continue** to move to the next step.
 
+
+**Parent Topic:**[SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/sgc-central-for-ot-discovery.md)
 

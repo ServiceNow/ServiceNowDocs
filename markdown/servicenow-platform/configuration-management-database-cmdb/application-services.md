@@ -1,22 +1,24 @@
 ---
-title: Application services
-description: Understand application services, learn about different application service types and how multiple ServiceNow business units and products use them.
+title: Service instances \(Application services\)
+description: Understand service instances \(application services\), learn about different application service types and how multiple ServiceNow business units and products use them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/application-services.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
 breadcrumb: [Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Application services
+# Service instances \(Application services\)
 
-Understand application services, learn about different application service types and how multiple ServiceNow® business units and products use them.
+Understand service instances \(application services\), learn about different application service types and how multiple ServiceNow® business units and products use them.
 
-## What application services are
+**Note:** Application service is being renamed to service instance. Both terms are being used interchangeably in this section.
+
+## What service instances \(application services\) are
 
 A service instance is a set of interconnected applications and hosts that are configured to offer a service to the organization. Service instances can be internal, like an organization email system or customer-facing, like an organization website. For example, creating financial reports through a web-based application requires a computer, web server, application server, databases, middleware, and network infrastructure. These applications and hosts are all configured to offer the service of financial reporting. In development environments, an application service represents an instance of a business application or system.
 

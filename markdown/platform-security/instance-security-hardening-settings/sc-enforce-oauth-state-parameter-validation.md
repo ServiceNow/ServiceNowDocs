@@ -7,7 +7,7 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
@@ -16,11 +16,13 @@ breadcrumb: [Access control, Hardening settings, Platform Security]
 
 Configure the **glide.oauth.state.parameter.required** property to prevent your instance from cross-site request forgery \(CSRF\) attacks.
 
-The **glide.oauth.state.parameter.required** property enables the State parameter to be required in an OAuth request for authorization code flow. The State parameter is a string value that should not contain special characters or be empty. Setting this property to **true** ensures that an attacker cannot perform Cross-site request forgery \(CSRF\) attacks during authentication, which protects your instance from attacks from an impersonated user.
+The **glide.oauth.state.parameter.required** system property enables the **State** parameter to be required in an OAuth request for authorization code flow. Beginning in the Madrid release, the system property **glide.oauth.state.parameter.required** adds a **State** parameter for an OAuth request. For zbooted instances, the property is **true**. For upgraded instances, the property is not present, so the **State** parameter is not enabled. The **State** parameter is a string value, and should not contain special characters. The State parameter cannot be empty or " ". Not setting the **State** parameter to **true** ensures that an attacker cannot perform CSRF attacks during authentication can allow an attacker to perform operations as the victim.
+
+Ensure that the property **glide.oauth.state.parameter.required** is set to **true**.
 
 ## More information
 
-<table id="table_hhv_dvg_1xb"><thead><tr><th>
+<table id="table_ajc_b43_3kb"><thead><tr><th>
 
 Attribute
 
@@ -70,6 +72,14 @@ true
 
 </td></tr><tr><td>
 
+Fallback value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
 Category
 
 </td><td>
@@ -83,8 +93,16 @@ Security risk
 </td><td>
 
 -   Severity score: 4.2
--   CVSS score: Medium
--   Security risk details: Set this property to **true** to ensure that CSRF attacks are prevented.
+-   CVSS rating: Medium
+-   Security risk details: Not enabling the **glide.oauth.state.parameter.required** property in OAuth authorization code flow increases the risk of Cross-Site Request Forgery \(CSRF\) attacks, potentially allowing attackers to impersonate users and perform unauthorized actions.
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+None
 
 </td></tr><tr><td>
 

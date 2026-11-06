@@ -7,7 +7,7 @@ release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use Risk Workspace, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -50,6 +50,10 @@ For more information, see [Application risk assessment using advanced risk asses
 The following figures show the workflow stages and actions:
 
 \[Omitted image "playbook-stages.jpg"\] Alt text: Stages of risk identification workflow.
+
+\[Omitted image "moving-back-in-stages.jpg"\] Alt text: Moving back to a stage.
+
+\[Omitted image "restarting-an-activity.jpg"\] Alt text: Restarting an activity.
 
 **Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
 

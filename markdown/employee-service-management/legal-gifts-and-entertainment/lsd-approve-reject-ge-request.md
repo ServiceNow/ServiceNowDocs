@@ -7,7 +7,7 @@ release: zurich
 product: Legal Gifts and Entertainment
 classification: legal-gifts-and-entertainment
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage, Gifts and Entertainment Compliance, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -30,15 +30,15 @@ The **Gifts Approval** flow available in the base system, automatically routes y
 
 1.  Open the approval request
 
-<table id="choicetable_jkn_bmj_fdc"><thead><tr><th align="left" id="d557048e81">
+<table id="choicetable_jkn_bmj_fdc"><thead><tr><th align="left" id="d566797e81">
 
 Method
 
-</th><th align="left" id="d557048e84">
+</th><th align="left" id="d566797e84">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d557048e90">
+</th></tr></thead><tbody><tr><td id="d566797e90">
 
 **From Legal Counsel Center list**
 
@@ -50,7 +50,7 @@ Steps
 4.  In the Items Pending Approval list, open a request by clicking the request number in the **Approving** column.
 
 
-</td></tr><tr><td id="d557048e144">
+</td></tr><tr><td id="d566797e144">
 
 **From Legal Counsel Center landing page**
 
@@ -61,7 +61,7 @@ Steps
 3.  Select the request for approval.
 
 
-</td></tr><tr><td id="d557048e180">
+</td></tr><tr><td id="d566797e180">
 
 **From Employee Center**
 

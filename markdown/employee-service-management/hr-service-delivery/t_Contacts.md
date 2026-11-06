@@ -7,9 +7,9 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use HR Profile, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [HR Profile, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Add or modify contacts for HR
@@ -41,5 +41,5 @@ For information on creating or editing an HR profile, see [Add or modify an HR p
 7.  Click **Submit** and return to the **HR Contacts** list or **Save** and remain on the **HR Contact** form.
 
 
-**Parent Topic:**[Use HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)
+**Parent Topic:**[HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)
 

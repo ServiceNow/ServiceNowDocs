@@ -7,9 +7,9 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Tables installed with the SAP publisher pack
@@ -143,31 +143,73 @@ USMM rules information from all connected SAP applications.
 
 Data from SAP is also stored in some additional tables that aren't part of the SAP publisher pack.
 
--   Price list data is pulled and stored in the Price List table \[samp\_price\_list\].
+<table id="table_gkk_vfl_njc"><thead><tr><th>
 
-    To view the table, navigate to **SAP Compliance and Optimization** &gt; **Administration** &gt; **Price Lists**.
+Table
 
--   Named user types are pulled and stored in the Named User Type table \[samp\_named\_user\_type\].
+</th><th>
 
-    To view the table, navigate to **SAP Compliance and Optimization** &gt; **Administration** &gt; **Named User Types**.
+Navigation
 
--   The Digital Access details such as Client, User name, Document type, Document type count, and Measured by are pulled from the SAP systems and stored in the SAP Digital Access \[samp\_sap\_digital\_access\] table.
+</th></tr></thead><tbody><tr><td>
 
-    To view the data in the table, navigate to **All** &gt; **Software Asset Workspace** &gt; **License operations** &gt; **Discovery** &gt; **SAP Digital Access Data**.
+Price List\[samp\_price\_list\]
 
+</td><td>
+
+**SAP Compliance and Optimization** &gt; **Administration** &gt; **Price Lists**
+
+</td></tr><tr><td>
+
+Named User Type\[samp\_named\_user\_type\]
+
+</td><td>
+
+**SAP Compliance and Optimization** &gt; **Administration** &gt; **Named User Types**
+
+</td></tr><tr><td>
+
+SAP Digital Access\[samp\_sap\_digital\_access\]
+
+</td><td>
+
+**Workspaces** &gt; **Software Asset Workspace** &gt; **License operations** &gt; **Discovery** &gt; **SAP Digital Access Data**
+
+</td></tr></tbody>
+</table>The Digital Access table stores the following fields: Client, User name, Document type, Document type count, and Measured by.
+
+## Mapping between SAP tables and Software Asset Management tables
+
+|SAP table|Software Asset Management table|
+|---------|-------------------------------|
+|/NOW/SAMP\_RFC|SAP Client \[samp\_sap\_client\]|
+|/NOW/M\_SAP\_ROLES|SAP Roles \[samp\_sap\_role\]|
+|/NOW/SAP\_TCODES|SAP Transactions \[samp\_sap\_transactions\]|
+|/NOW/M\_USER\_DATA|SAP System User \[samp\_sap\_system\_user\]|
+|/NOW/M\_USR\_TCODE|SAP User Active Transactions \[samp\_named\_user\_type\_has\_transactions\]|
+|/NOW/M\_USER\_ROLE|SAP User Roles \[samp\_sap\_user\_has\_role\]|
+|/NOW/M\_USR\_ACTIT|SAP User Activity \[samp\_sap\_user\_activity\]|
+|/NOW/WEB\_ACTIVTY|SAP Web Activity \[samp\_sap\_web\_activity\]|
+|/NOW/M\_ENGINES|SAP License Metric Measurement \[samp\_sap\_license\_metric\_measurement\]|
+|/NOW/USMM\_DATA|SAP USMM Rules \[samp\_sap\_usmm\_rule\]|
+|/NOW/DIGITAL\_ACC|SAP Digital Access \[samp\_sap\_digital\_access\]|
 
 **Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sap-publisher-pack.md)
 
 **Related topics**  
 
 
-[Deploy the ABAP program for SAP]()
+[SAP publisher pack integration architecture]()
 
-[Establish an SAP connection]()
+[Set up SAP integration to establish a connection with SAP]()
 
-[Create entitlements for SAP]()
+[Establish an SAP connection using basic authentication]()
+
+[Establish an SAP connection using OAuth 2.0]()
 
 [Create software models for SAP]()
+
+[Create entitlements for SAP]()
 
 [Create a custom SAP named user type]()
 

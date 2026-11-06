@@ -7,7 +7,7 @@ release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Set up a profile for scheduled notable event ingestion, Create an event profile, Splunk Enterprise Security event ingestion integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -84,8 +84,6 @@ Create custom mappings by adding or removing the fields on the mapping grid on t
 
     In the preview, these values are displayed in the Work notes on the security incident. Because the value is for a field that you added to the mapping section, and there are multiple values mapped to the Work notes field, the values are displayed as entered. In this example, the spaces and punctuation marks that you entered in the field are displayed on the Related Items section as a work note on the preview of the security incident.
 
-    The following image is an example of how the values in the preceding image are displayed on the security incident.
-
 7.  To receive updates for the mapped fields in SIR, select **Enable Updates** check box against the Input Expression.\[Omitted image "splunk\_es\_enable\_updates.png"\] Alt text: Enable updates check box selected
 
 8.  After you have completed the preceding field-mapping steps, you can use the same field values in the Incident Generation Conditions builder to define additional criteria that an incoming notable event must satisfy to create a SIR security incident.
@@ -142,15 +140,15 @@ Create custom mappings by adding or removing the fields on the mapping grid on t
 
 10. Choose one to continue with the profile configuration.
 
-<table id="choicetable_svs_ttl_kdb"><thead><tr><th align="left" id="d516855e475">
+<table id="choicetable_svs_ttl_kdb"><thead><tr><th align="left" id="d521840e472">
 
 Option
 
-</th><th align="left" id="d516855e478">
+</th><th align="left" id="d521840e475">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d516855e484">
+</th></tr></thead><tbody><tr><td id="d521840e481">
 
 ** **
 
@@ -158,7 +156,7 @@ Description
 
  
 
-</td></tr><tr><td id="d516855e491">
+</td></tr><tr><td id="d521840e488">
 
 **Continue**
 
@@ -166,7 +164,7 @@ Description
 
 The Mapping form is displayed. **Preview** is selected on the progress bar. The next step is to preview the fields you mapped on a SIR security incident.
 
-</td></tr><tr><td id="d516855e508">
+</td></tr><tr><td id="d521840e505">
 
 **Update**
 
@@ -174,7 +172,7 @@ The Mapping form is displayed. **Preview** is selected on the progress bar. The 
 
 Your data is saved and the Splunk Event Profiles list is displayed.
 
-</td></tr><tr><td id="d516855e517">
+</td></tr><tr><td id="d521840e514">
 
 **Previous**
 
@@ -182,7 +180,7 @@ Your data is saved and the Splunk Event Profiles list is displayed.
 
 The Notable Event Selection form is displayed.
 
-</td></tr><tr><td id="d516855e527">
+</td></tr><tr><td id="d521840e524">
 
 **Delete**
 

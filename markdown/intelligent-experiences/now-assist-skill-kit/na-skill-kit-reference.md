@@ -9,15 +9,13 @@ classification: now-assist-skill-kit
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [AI Skill Kit, Enable AI experiences]
+breadcrumb: [AI Skill Kit, Generative AI skills, Enable AI Experiences]
 ---
 
 # AI Skill Kit reference
 
 Look up the roles, general guidelines, and log tables that support custom skill development in AI Skill Kit.
 
--   **[Document Intelligence tool for AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/document-visual-intelligence-skill-kit-tool.md)**  
-Use the Document Intelligence tool to leverage extraction, question answering, and summarization capabilities for a skill created with AI Skill Kit.
 -   **[AI Skill Kit roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/na-skill-kit-roles.md)**  
 Certain roles are required to use AI Skill Kit functionality.
 -   **[Field of use for AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/nask-field-of-use.md)**  

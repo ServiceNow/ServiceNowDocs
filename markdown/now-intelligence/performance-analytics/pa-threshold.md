@@ -7,7 +7,7 @@ release: zurich
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Targets and thresholds, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -22,7 +22,7 @@ A threshold can be personal or global. A personal threshold is visible only to t
 
 |Platform Analytics experience feature|Equivalent Core UI feature|Global or Personal targets|
 |-------------------------------------|--------------------------|--------------------------|
-|[KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/kpi-details.md)|[Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_UsePerformanceAnalyticsScorecards.md)|Global and personal|
+|[KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/kpi-details.md)|[\(Legacy\) Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_UsePerformanceAnalyticsScorecards.md)|Global and personal|
 |[Time series Platform Analytics data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-dv-time-series-ac.md)|[Time series Performance Analytics widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/time-series-widgets.md)|Global|
 |[Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center-dashboards.md) containing time series data visualizations that show thresholds|[Responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/dashboards-landing-page.md) containing Time series Performance Analytics widgets that show thresholds|Global|
 |[Proactive analytics insights cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/proactive-analytics/proactive-analytics.md) on Platform Analytics dashboards, which show thresholds being breached|No equivalent|Global|
@@ -52,7 +52,7 @@ Thresholds can be set for any indicator. You can specify a breakdown and element
 
 2.  To limit the threshold to a subset of the scores, select a breakdown and a breakdown element.
 
-    You can also select a 2nd-level breakdown and element. You can select more breakdowns if the indicator has [data snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/multi-level-breakdowns.md) enabled.
+    You can also select a 2nd-level breakdown and element. You can select more breakdowns if the indicator has [Data snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/multi-level-breakdowns.md) enabled.
 
 3.  If the threshold should apply only to a specific aggregation of the data, select a time series aggregation.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/quote-management-line-items-tab.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -20,7 +20,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: and select **Quotes** &gt; **All**.
+1.  In the CRM Workspace, select the List icon \[Omitted image "list-outline-24.svg"\] Alt text: and select **Quotes** &gt; **All**.
 
 2.  Select the quote that you’re working with and select the **Quote Line Items** tab.
 

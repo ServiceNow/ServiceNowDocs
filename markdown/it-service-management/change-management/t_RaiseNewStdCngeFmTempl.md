@@ -24,7 +24,7 @@ Role required: itil, admin, or sn\_change\_write
 
 A standard change is a repeatable, pre-approved template in the standard change catalog. Change requests created from the standard change template do not require change approval.
 
-To create a change request from a pre-approved template, follow the procedure below.
+To create a change request from a pre-approved template, follow this procedure.
 
 ## Procedure
 
@@ -32,7 +32,7 @@ To create a change request from a pre-approved template, follow the procedure be
 
 2.  Select one of the following options depending on the type of standard change you want to create.
 
-<table id="choicetable_g1t_3h4_rw"><tbody><tr><td id="d289474e82">
+<table id="choicetable_g1t_3h4_rw"><tbody><tr><td id="d97777e82">
 
 **Network Standard Changes**
 
@@ -40,7 +40,7 @@ To create a change request from a pre-approved template, follow the procedure be
 
 Create a standard change request for the network.
 
-</td></tr><tr><td id="d289474e91">
+</td></tr><tr><td id="d97777e91">
 
 **Server Standard Changes**
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/user-roles-config.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [User role permissions, User roles/criteria permissions, Considerations before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [User role permissions, User roles/criteria permissions, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Assign mobile user roles permissions

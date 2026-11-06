@@ -7,7 +7,7 @@ release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Set up integrations from Integrations Launchpad, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ The **Overview** screen shows the log data streaming status and streaming source
 
 ## Streaming status
 
-The **Streaming status** section on the **Overview** screen shows the status of data streaming between the log source and the MID Server and between the MID Server and the HLA engine. It displays the number of logs per minute passing through the MID Server and through the HLA engine.
+The **Streaming status** section on the **Overview** screen shows the status of data streaming between the log source and the MID Server and between the MID Server and the HLA engine. In addition, it displays the number of logs per minute passing through the MID Server and through the HLA engine.
 
 **Note:** For the ServiceNow System Logs Retriever integration, the **Overview** screen doesn’t display the MID Server streaming status because that integration doesn't run on a MID Server.
 
@@ -44,7 +44,7 @@ When the integration isn't streaming live data from the source, a warning messag
 
 ## Log streaming sources
 
-Depending on your integration, the **Log streaming sources** table displays the following information about the integration's log streaming sources.
+The **Log streaming sources** section displays all sources that are currently streaming log data to HLA through this integration. Depending on your integration, the **Log streaming sources** table displays the following information about the integration's log streaming sources.
 
 **Note:** This table isn’t available for the ServiceNow System Logs Retriever integration.
 

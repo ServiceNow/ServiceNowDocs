@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/submit-an-assessment-in-ws.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Performing Importance and impact tolerance assessment, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -37,7 +37,7 @@ Role required: sn\_oper\_res.manager
 
 ## Result
 
-The state of the assessment is updated to **Pending response**. The assessor of the assessment receives an email notification with a link to the assessment in the Operational Resilience Workspace.
+The state of the assessment is updated to **Pending response**. The assessor of the assessment receives an email notification with a link to the assessment.
 
 **Note:** If there are no approvers, the state of the assessment automatically changes to the **Approved** state.
 

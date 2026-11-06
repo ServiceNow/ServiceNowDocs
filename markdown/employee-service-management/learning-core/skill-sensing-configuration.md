@@ -7,9 +7,9 @@ release: zurich
 product: Learning Core
 classification: learning-core
 topic_type: task
-last_updated: "2025-10-23"
-reading_time_minutes: 1
-breadcrumb: [Skill sensing for learning content, Use, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Skill sensing for learning content, Using My Learning, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Configuration for bulk skill sensing
@@ -113,4 +113,6 @@ A description for the configuration.
 
     .
 
+
+**Parent Topic:**[Skill sensing for learning content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/skill-sensing-for-learning-content.md)
 

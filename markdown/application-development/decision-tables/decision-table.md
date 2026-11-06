@@ -7,9 +7,9 @@ release: zurich
 product: Decision Tables
 classification: decision-tables
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Builder library, Developing your application, Building applications]
+breadcrumb: [Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Decision Tables

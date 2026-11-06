@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/financialservices-remote-tables.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Data Models, Explore, Financial Services Operations \(FSO\)]
 ---
@@ -35,8 +35,6 @@ Using Financial Services Remote Tables, you can retrieve data from external sour
 
 The **Lookup UXF Client action**, included in the Financial Services Remote Tables plugin, is essential for setting up the FSO Lookup Client action. This action integrates the **Action Payload Definition** and is used within a field decorator as a UXF Client action. It is available as part of the Remote table lookup application but requires integration with a field decorator or a declarative action.
 
-For more information on how to set up the field decorators in Configurable Workspace, see [Create a field decorator action button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/create-a-new-field-decorator-action.md).
-
 The remote tables integration use case includes a step that walks through setting up the FSO Lookup client action. For more information, see [Setting up a remote table integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/setting-up-a-remote-table-integration.md).
 
 ## Developer resources
@@ -62,4 +60,6 @@ Several types of components are installed with the installation of the Financial
 [Create a form action button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/create-a-new-form-action.md)
 
 [FSO Look Up Client action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-look-up-client-action.md)
+
+[Create a field decorator action button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/create-a-new-field-decorator-action.md)
 

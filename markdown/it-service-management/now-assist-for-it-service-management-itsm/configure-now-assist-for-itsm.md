@@ -7,8 +7,8 @@ release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
@@ -63,6 +63,21 @@ Domain separation is supported in ServiceNow Otto for IT Service Management \(IT
 
     Your skill is configured.
 
+
+**Troubleshooting:** Summarize button not visible
+
+After activation, if the **Summarize** button does not appear in Service Operations Workspace or Core UI, verify the following:
+
+-   **UI Builder page variant**: If your workspace uses a custom UI Builder page variant, confirm that the **Otto AI summary card** component is present on the page. Variants created before the ServiceNow Otto for IT Service Management \(ITSM\) plugin was installed may not have this component.
+
+    For information on page variants, see:
+
+    -   [Add the component manually to your variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/work-components.md)
+    -   [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/work-pages.md)
+-   **Display setting**: In the **AI Admin Hub**, confirm that the skill displays as **In-product**.
+-   **Domain separation**: If your instance uses domain separation, verify that the skill is activated in the user's assigned domain.
+-   **Plugin installation**: Verify that the sn\_itsm\_gen\_ai plugin is installed successfully.
+-   **Browser cache**: If the button appears sporadically, clear your browser cache and refresh the page.
 
 **Related topics**  
 

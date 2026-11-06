@@ -1,20 +1,20 @@
 ---
 title: Configure provider routing rules
-description: Provider Routing Rules determine which workplace cases and tasks are sent to which FM providers. Rules use standard ServiceNow condition builders to evaluate case attributes and route work accordingly.
+description: Provider Routing Rules determine which workplace cases and tasks are sent to which FM providers. Rules use standard ServiceNow condition builders to evaluate case attributes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-case-management/Configure-facilities-management-provider-routing-rules.html
 release: zurich
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: task
-last_updated: "2026-02-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setup Integrated Facilities Management Integration Framework, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Configure provider routing rules
 
-Provider Routing Rules determine which workplace cases and tasks are sent to which FM providers. Rules use standard ServiceNow condition builders to evaluate case attributes and route work accordingly.
+Provider Routing Rules determine which workplace cases and tasks are sent to which FM providers. Rules use standard ServiceNow condition builders to evaluate case attributes.
 
 ## Before you begin
 

@@ -7,7 +7,7 @@ release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Exploring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -75,7 +75,7 @@ Manage your shift by accepting or rejecting time-off requests. Resolve gaps and 
 
 </td><td>
 
-[Manage shifts in service operation workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/manage-shifts-in-service-operation-workspace.md)
+[Manage shifts in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/manage-shifts-in-service-operation-workspace.md)
 
 </td><td>
 
@@ -87,7 +87,7 @@ Create your own escalation policies and path. On-Call Scheduling allows you to c
 
 </td><td>
 
-[Escalation triggers and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/work-on-escalation-trigger-rules-and-policies-in-sow.md)
+[Configure escalation triggers and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/work-on-escalation-trigger-rules-and-policies-in-sow.md)
 
 </td><td>
 
@@ -99,7 +99,7 @@ Create and edit Notification preferences for an entire team.
 
 </td><td>
 
-[Edit On-call team preference using Teams menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/oncall-team-preference-tab-in-teams.md)
+[Edit on-call team preferences using the Teams menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/oncall-team-preference-tab-in-teams.md)
 
 </td><td>
 
@@ -111,7 +111,7 @@ Use any one of the multiple channels such as Slack, Microsoft Teams, mobile push
 
 </td><td>
 
-[Manage delivery channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/work-on-a-notification-preference-rule-in-sow.md)To configure delivery channels, see:
+[Manage delivery channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/work-on-a-notification-preference-rule-in-sow.md)To configure delivery channels, see:
 
 -   For Slack: [Setting up Slack as a contact method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/slack-setup-oncall.md)
 -   For SMS and voice message: [Setting up SMS and voice messaging as contact methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/c_UseNotifyWithOnCallScheduling.md)

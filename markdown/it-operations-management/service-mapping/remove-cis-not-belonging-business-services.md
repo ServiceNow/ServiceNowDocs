@@ -7,7 +7,7 @@ release: zurich
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Fine-tune application services to implement owner requests, Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -26,7 +26,7 @@ Role required: service\_mapping\_admin
 
 ## About this task
 
-Removing CIs from the map also removes all their connections. For example, if you remove a CI of the second tier on the map, all CIs of the third tier connected to it through outgoing connections, get removed too.
+Removing CIs from the map also removes all their connections. For example, if you remove a CI of the second tier on the map, all CIs of the third tier connected to it through outgoing connections are also removed.
 
 Depending on why Service Mapping mapped an unwanted CI, you can remove it by the following methods:
 
@@ -49,15 +49,15 @@ Depending on why Service Mapping mapped an unwanted CI, you can remove it by the
 
 2.  Remove CIs that do not belong to this service instance by completing the following actions.
 
-<table id="choicetable_rsk_cnk_hnb"><thead><tr><th align="left" id="d365114e170">
+<table id="choicetable_rsk_cnk_hnb"><thead><tr><th align="left" id="d395304e172">
 
 Action
 
-</th><th align="left" id="d365114e173">
+</th><th align="left" id="d395304e175">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d365114e179">
+</th></tr></thead><tbody><tr><td id="d395304e181">
 
 **Add mapping boundaries**
 
@@ -70,7 +70,7 @@ The CI is marked as boundary on the map \(\[Omitted image "MapBoundaryIcon.png"\
 
  **Note:** Ensure that you are looking at the map in Edit view.
 
-</td></tr><tr><td id="d365114e211">
+</td></tr><tr><td id="d395304e213">
 
 **\(If the connection suggestions feature is disabled\) Remove CIs discovered using traffic-based connections**
 
@@ -89,7 +89,7 @@ The Traffic Based Connections List opens. See [Traffic-based connections list](h
 5.  Click **Close**.
 
 
-</td></tr><tr><td id="d365114e267">
+</td></tr><tr><td id="d395304e269">
 
 **\(If the connection suggestions feature is enabled\) Remove CIs discovered using traffic-based connections**
 

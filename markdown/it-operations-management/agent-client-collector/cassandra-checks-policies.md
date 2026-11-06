@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ACC-M default checks and policies, Agent Client Collector Monitoring reference, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC-M default checks and policies, ACC-M reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
 
 # Cassandra default checks and policies

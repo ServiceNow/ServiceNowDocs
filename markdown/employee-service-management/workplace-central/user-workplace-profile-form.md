@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Central
 classification: workplace-central
 topic_type: reference
-last_updated: "2026-02-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -109,4 +109,8 @@ Location privacy setting for the workplace profile. This field is automatically 
 [Workplace Task form - Space Assignment task]()
 
 [Neighborhood User Assignment Rule form]()
+
+[]()
+
+[]()
 

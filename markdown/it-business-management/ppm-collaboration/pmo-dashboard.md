@@ -7,19 +7,18 @@ release: zurich
 product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: concept
-last_updated: "2025-08-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
-breadcrumb: [Analytics and reporting, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Project Portfolio Management Platform Analytics Solutions, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # PMO dashboard
 
 The PMO dashboard provides comprehensive reports to the portfolio and program managers. The dashboard uses Platform Analytics to provide a trend of historical data as well as regular reports. It gives an overview of your investments, provides a pipeline view of upcoming intake and a calendar view of upcoming dates.
 
-**Note:** The PMO dashboard is available in the next experience UI framework which can be accessed through **Analytics Portfolio**. In the next experience, these features are not supported:
+**Important:**
 
--   **Pipeline details** pane in the **Pipeline** tab.
--   **Highlight based on** list and **View all records** link in the **Calender** tab.
+Starting with the Australia release, the PMO dashboard is being prepared for future deprecation. It will be hidden and no longer available for installation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. Use Execution dashboard in Portfolio Planning to gain real-time visibility into delivery progress across work items.
 
 ## PMO dashboard in Next experience UI
 

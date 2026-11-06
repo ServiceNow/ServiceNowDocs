@@ -7,8 +7,8 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Duplicate CIs remediation, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -65,6 +65,18 @@ De-duplication template suggested task\[sn\_cmdb\_ws\_reconcile\_duplicate\_temp
 </td><td>
 
 Mappings of de-duplication tasks to templates.
+
+</td></tr><tr><td>
+
+De-duplication Related Table Configurations\[reconcile\_duplicate\_related\_table\_config\]
+
+</td><td>
+
+Settings per related table \(table that references CIs\) to disable workflows \(for example, skip business rules\) and/or ignore database errors during remediation. Disabling workflows such as skipping those business rules, that block the update of referenced CIs to the main CI, allows de-duplication tasks that otherwise fail, to complete.
+
+ In the base system, this table contains records for the Change \[change\_request\] and the Task CI \[task\_ci\] related tables, which are configured to disable workflow and to proceed with errors.
+
+ For more information about how to use this table, see [Turn off workflows of related tables during remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/dedup-ci-disable-workflow.md).
 
 </td></tr></tbody>
 </table>## Scheduled jobs installed

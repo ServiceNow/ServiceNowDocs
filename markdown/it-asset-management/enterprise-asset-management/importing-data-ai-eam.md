@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Bulk import of your enterprise models and assets, Manage enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Bulk import of your enterprise models and assets, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Importing enterprise models and assets using AI assistance
@@ -32,7 +32,7 @@ Throughout the import process, the Enterprise Asset Management application lever
 
 -   During the Column mapping and Value mapping stages, the application leverages the ServiceNow AI Lens skill to generate AI suggestions. You can accept these suggestions, override them manually, or run additional passes to refine them.
 -   During the Review and import stage, the application leverages the ServiceNow AI Lens skill to automatically identify import data errors. You can review and resolve these errors as needed.
--   During the Review and import stage for your enterprise model imports, the application leverages the populate model category skill to populate missing model categories for your enterprise models. The application also leverages the populate classification skill to populate missing classifications for your enterprise models, based on the Enterprise Asset Management data model.
+-   During the Review and import stage for your enterprise model imports, the application leverages the populate model category skill to populate missing model categories for your enterprise models. The application also leverages the populate classification skill to populate missing classifications for your enterprise models, based on the Enterprise Asset Management data model. For more information on the Enterprise Asset Management data model and model categories, see [Enterprise Asset Management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/eam-data-model.md).
 
 For more information on the ServiceNow AI Lens skill, see [ServiceNow AI Lens skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/servicenow-lens-skill.md).
 
@@ -46,5 +46,5 @@ AI-assisted import can help provide the following benefits:
 -   **[Import enterprise models and assets using AI assistance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/import-data-ai-eam.md)**  
 Import enterprise models and assets with minimal human intervention by using AI-assisted import.
 
-**Parent Topic:**[Bulk import of your enterprise models and assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/overview-bulk-import-eam.md)
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/asset-management-landing-page.md)
 

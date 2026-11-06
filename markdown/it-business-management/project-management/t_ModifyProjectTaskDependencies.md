@@ -7,9 +7,9 @@ release: zurich
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a dependency from the planning console, Using Planning console - Legacy, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Create a dependency from the planning console, Using Planning console - Legacy, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Modify a project task dependency

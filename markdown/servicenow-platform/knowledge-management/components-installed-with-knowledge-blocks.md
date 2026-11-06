@@ -7,7 +7,7 @@ release: zurich
 product: Knowledge Management
 classification: knowledge-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Knowledge Management reference, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -56,6 +56,4 @@ KB knowledge to block history table.
 
 </td></tr></tbody>
 </table>For further information on table administration and how to manage data, see [Table administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_TableAdministration.md).
-
-**Parent Topic:**[Knowledge Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/knowledge-management-reference.md)
 

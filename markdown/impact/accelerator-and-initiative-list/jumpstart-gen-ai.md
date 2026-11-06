@@ -1,24 +1,26 @@
 ---
 title: Jumpstart Your GenAI
-description: This Accelerator provides a demonstration of the possibilities and capabilities of ServiceNow GenAI \(Artificial Intelligence\).
+description: This Accelerator provides a demonstration of the capabilities of GenAI\(ServiceNow Otto\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/jumpstart-gen-ai.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your GenAI
 
-This Accelerator provides a demonstration of the possibilities and capabilities of ServiceNow® GenAI \(Artificial Intelligence\).
+This Accelerator provides a demonstration of the capabilities of GenAI\(*ServiceNow Otto*\).
 
 ## Accelerator Overview
 
-This accelerator provides Impact customers with an overview of how ServiceNow integrates GenAI on the Platform, highlighting its potential to improve efficiency and user experience. The session includes an applied demonstration of AI Agent experiences via a temporary instance and an overview of its onboarding process. Additionally, this offering shares leading practices for leveraging tools to gain personalized insights.
+This Accelerator provides Impact customers with an overview of how integrates GenAI across the platform, highlighting opportunities to improve efficiency and enhance the user experience. The session includes an applied demonstration of various *ServiceNow Otto* AI Agent capabilities using a temporary instance, along with an overview of the onboarding process. It also shares leading practices for deploying these products, making it an ideal starting point for customers beginning their *ServiceNow Otto* journey.
+
+## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(SV or PG\), Advanced, and Total packages.
 
@@ -26,20 +28,20 @@ This accelerator provides Impact customers with an overview of how ServiceNow in
 
 -   Provision a temporary instance
 -   Activate and install the necessary plugins
--   Run Automation Discovery and Custom Scanning Tool
+-   Activate and run AI-powered data exploration tools to provide insights on automation opportunities 
 
 ## What You Get
 
--   **Customer Coaching Session \#1 \(up to 90 minutes\)**
+-   **Customer Coaching Session \#1 \(up to 1.5 hours\)**
 
-    Includes the following:
+    Review of:
 
-    -   Overview of GenAI and Now Large Language Models \(LLM\)
+    -   Overview of GenAI and Large Language Models \(LLMs\)
     -   End-user experience demonstration
     -   Technical demonstration
-    -   Key resources and guides
-    -   30 days of access to the temporary instance are provided
--   **Customer Coaching Session \#2 \(Optional upon Customer request, up to 60 minutes\)**
+    -   Key resources and guides​
+    -   Customer provided 30 days of access to the temporary instance
+-   **Customer Coaching Session \#2 \(Optional upon Customer request, up to 1 hour\)**
 
     Opportunity for Q&amp;A related to GenAI
 
@@ -54,54 +56,116 @@ Customer Resource
 
 Responsibilities
 
+</th><th>
+
+Required
+
+</th><th>
+
+Optional
+
 </th></tr></thead><tbody><tr><td>
 
-Platform Owner \(Required\)
+Platform Owner
 
 </td><td>
 
-Responsible for the overall accountability of the ServiceNow platform. Provides leadership and oversight to the System Administrators, ensures team alignment to business strategy and the ServiceNow roadmap, and is actively involved in the overarching governance of the platform.
+Responsible for the overall accountability of the ServiceNow platform. Provide leadership and oversight to the System Administrators, ensure team alignment to business strategy and the ServiceNow roadmap, and is actively involved in the overarching governance of the platform.
+
+</td><td>
+
+✓
+
+</td><td>
+
+ 
 
 </td></tr><tr><td>
 
-System Administrator\(s\) \(Required\)
+System Administrator\(s\)
 
 </td><td>
 
-Maintains the stability and usability of the ServiceNow platform by performing application maintenance, managing support for cases related to ServiceNow applications, and contributing to ServiceNow software releases by delivering configuration tasks and features.
+Maintain the stability and usability of the ServiceNow platform by performing application maintenance, managing support for cases related to ServiceNow applications, and contributing to ServiceNow software releases by delivering configuration tasks and features.
+
+</td><td>
+
+✓
+
+</td><td>
+
+ 
 
 </td></tr><tr><td>
 
-Developer\(s\) \(Recommended\)
+Developer\(s\)
 
 </td><td>
 
-Writes code for the ServiceNow platform.
+Write code for the ServiceNow platform.
+
+</td><td>
+
+ 
+
+</td><td>
+
+✓
 
 </td></tr><tr><td>
 
-Process Owner \(Recommended\)
+Virtual Agent Lead
 
 </td><td>
 
-Owner of a business process that can be accelerated using AI Agents.
+Subject matter expert responsible for ServiceNow Virtual Agent.
+
+</td><td>
+
+ 
+
+</td><td>
+
+✓
 
 </td></tr><tr><td>
 
-Trusted Service Partners \(Recommended\)
+AI Governance Leader
 
 </td><td>
 
-Attends ServiceNow Impact Accelerator coaching sessions to understand leading practices and potentially support customer going forward.
+Responsible for assessing new AI systems and deciding whether they are acceptable to use within the company and, if so, for what purposes.
+
+</td><td>
+
+ 
+
+</td><td>
+
+✓
+
+</td></tr><tr><td>
+
+Trusted Service Partners
+
+</td><td>
+
+Attend ServiceNow Impact Accelerator coaching sessions to understand leading practices and potentially support customer going forward.
+
+</td><td>
+
+ 
+
+</td><td>
+
+✓
 
 </td></tr></tbody>
 </table>## Requested Information/Access
 
-Refer to the applicable Impact Accelerator description available at [https://www.servicenow.com/upgrade-schedules.html](https://www.servicenow.com/upgrade-schedules.html).
+**Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
 
 ## Exclusions
 
-This Impact Accelerator in its entirety or portions of the Impact Accelerator activities may not be available to customers in certain restricted environments, to self-hosted customers, or to managed service providers with domain separated instances.
-
-ServiceNow is not responsible for implementing recommendations on Customer’s non-production or production instances.
+ServiceNow is not responsible for implementing recommendations on Customer’s sub-production or production instances.
 

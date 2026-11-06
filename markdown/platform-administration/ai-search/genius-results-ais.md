@@ -1,21 +1,20 @@
 ---
 title: Genius Results
-description: Configure Genius Results to display AI-powered answer cards alongside search results. These cards provide direct answers to user queries, reducing the need to browse multiple search results.
+description: Optionally display the best answers for a search query as actionable Genius Result cards included with search results.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/genius-results-ais.html
 release: zurich
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2025-12-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Search profiles, Configure, AI Search, Search administration, Configure core features, Administer]
+breadcrumb: [Search profiles, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Genius Results
 
-Configure Genius Results to display AI-powered answer cards alongside search results. These cards provide direct answers to user queries, reducing the need to browse multiple search results.
+Optionally display the best answers for a search query as actionable Genius Result cards included with search results.
 
 A Genius Result configuration includes a trigger condition and logic for creating answers. The trigger condition determines whether the Genius Result configuration activates for a search query. When activated, the configuration checks for search results with extremely high relevancy. If it finds any, its answer logic populates one or more Genius Result cards with information and actions derived from these results. The Genius Result cards appear alongside normal search results, giving the user immediate access to the most relevant answers and actions.
 

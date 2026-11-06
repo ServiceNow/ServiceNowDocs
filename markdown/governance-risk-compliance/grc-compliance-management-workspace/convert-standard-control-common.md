@@ -7,9 +7,9 @@ release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Test common control and implement results, Manage controls, Use, GRC Compliance Workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Testing common control and implementing results, Manage controls using the Compliance Workspace, Use, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Convert standard control to common control
@@ -36,7 +36,7 @@ All existing controls are termed as standard controls. You can convert a standar
 
     **Note:** Before you convert a control from standard to common, ensure that you select a value in the **Control objective** field, and save the form details. Control objective is required for a common control as there are validations to ensure that the common control does not have the same Name, Entity \(primary or reliant\), and Control objective combination as any other control.
 
-4.  Select the More Actions on the top right.
+4.  Select the More Actions button on the top right.
 
 5.  Select the **Convert to common** list UI action.
 

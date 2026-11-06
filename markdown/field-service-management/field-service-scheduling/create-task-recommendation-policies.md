@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up Intelligent Task Recommendations, Setting up a Field Service scheduling method, Configure, Field Service Management]
+breadcrumb: [Configure Intelligent Task Recommendations, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Create Task Recommendation Policies
@@ -18,7 +18,7 @@ Create policies to recommend the best available work order tasks for agents base
 
 ## Before you begin
 
-Role required: admin, wm\_admin
+Role required: admin, wm\_admin, sn\_task\_recommend.task\_rec\_admin
 
 ## About this task
 

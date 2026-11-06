@@ -1,0 +1,46 @@
+---
+title: Supporting information for ServiceNow Otto for Hardware Asset Management \(HAM\)
+description: Get a quick overview of the important information related to the ServiceNow Otto for Hardware Asset Management \(HAM\) application.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/supporting-info-now-assist-ham.html
+release: zurich
+product: Hardware Asset Management
+classification: hardware-asset-management
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+keywords: [AI Agents, Agentic AI]
+breadcrumb: [AI in Hardware Asset Management, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
+---
+
+# Supporting information for ServiceNow Otto for Hardware Asset Management \(HAM\)
+
+Get a quick overview of the important information related to the ServiceNow Otto for Hardware Asset Management \(HAM\) application.
+
+## Supported versions
+
+The ServiceNow Otto for HAM application is supported starting with the Yokohama Patch 4 release.
+
+## Supported user interfaces
+
+You can access the agentic workflow included in the ServiceNow Otto for HAM application through the ServiceNow Otto panel in the Hardware Asset Workspace.
+
+## Application information
+
+Activate the ServiceNow Otto for Hardware Asset Management \(HAM\) store application \(sn\_now\_assist\_ham\) to use the agentic workflow.
+
+This store application has the following dependencies:
+
+-   Hardware Asset Management \(com.sn\_hamp\)
+-   ServiceNow Otto for Platform \(com.sn\_genai\_platform\)
+-   AI Agents for IT Asset Management \(com.sn\_itam\_aia\)
+
+Activate the applications in the following order:
+
+-   Hardware Asset Management \(com.sn\_hamp\)
+-   ServiceNow Otto for Platform \(com.sn\_genai\_platform\)
+-   AI Agents for IT Asset Management \(com.sn\_itam\_aia\)
+-   ServiceNow Otto for Hardware Asset Management \(HAM\) \(sn\_now\_assist\_ham\)
+
+**Parent Topic:**[AI in Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/ai-in-ham.md)
+

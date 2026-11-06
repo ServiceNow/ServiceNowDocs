@@ -7,9 +7,9 @@ release: zurich
 product: Procurement
 classification: procurement
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a purchase order, Procurement purchase order management for assets, Procurement, Asset Management, IT Service Management]
+breadcrumb: [Create a purchase order, Procurement purchase order management for assets, Procurement, Asset Management common applications, IT Service Management]
 ---
 
 # Cancel a purchase order line item

@@ -1,5 +1,5 @@
 ---
-title: Discovery for VMware Cloud
+title: Discovery for VMware
 description: Applications that access VMware cloud resources need access to VMware credentials.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/vmware-cloud-discovery.html
@@ -7,12 +7,12 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
-# Discovery for VMware Cloud
+# Discovery for VMware
 
 Applications that access VMware cloud resources need access to VMware credentials.
 
@@ -34,7 +34,7 @@ Name
 
 </td><td>
 
-Enter a unique and descriptive nam VMware credentials.
+Enter a unique and descriptive name for the VMware credentials.
 
 </td></tr><tr><td>
 
@@ -50,7 +50,7 @@ User name
 
 </td><td>
 
-Enter the user name that you use for your VMware account. Avoid leading or trailing spaces in user names. A warning appears if the petects leading or trailing spaces in the user name. The VMware credentials must have the read-only role in vCenter.
+Enter the user name that you use for your VMware account. Avoid leading or trailing spaces in user names. A warning appears if the platform detects leading or trailing spaces in the user name. The VMware credentials must have the read-only role in vCenter.
 
 </td></tr><tr><td>
 

@@ -1,20 +1,20 @@
 ---
 title: Enable magic links
-description: Use magic links to enable consumer users to directly access the linked resource in the provider instance without having to manually log in.
+description: Configure magic links to enable consumer users to access provider instance resources directly without manual authentication. Magic links streamline cross-instance navigation by automatically handling login credentials.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/service-exchange/service-bridge-v2-magic-links.html
 release: zurich
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Install and configure for provider, Service Exchange for Providers, Service Exchange]
+breadcrumb: [Use for providers, Service Exchange for Providers, Service Exchange]
 ---
 
 # Enable magic links
 
-Use magic links to enable consumer users to directly access the linked resource in the provider instance without having to manually log in.
+Configure magic links to enable consumer users to access provider instance resources directly without manual authentication. Magic links streamline cross-instance navigation by automatically handling login credentials.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ Role required: sn\_sb.admin
 
 2.  Open the appropriate Consumer Connection form.
 
-3.  Under the Related Links, click the **Settings** tab and open the record displayed.
+3.  Under the Related Links, select the **Settings** tab and open the record displayed.
 
 4.  In the **Magic link** tab, perform the following steps:
 
@@ -63,6 +63,8 @@ Redirect timeout
 Option to specify the number of seconds taken to redirect consumer user to provider instance. The default value is 5, and the maximum limit is 30.**Note:** The redirect timeout can be set only in the consumer instance; it is read-only field on the provider instance. If Redirect timeout value is 0 or empty, consumer user is automatically redirected to the provider instance without any loader UI.
 
 </td></tr></tbody>
-</table>5.  Click **Update**.
+</table>5.  Select **Update**.
 
+
+**Parent Topic:**[Using Service Exchange for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/service-bridge-v2-administer.md)
 

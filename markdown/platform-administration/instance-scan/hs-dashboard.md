@@ -7,9 +7,9 @@ release: zurich
 product: Instance Scan
 classification: instance-scan
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, Instance Scan, Maintain and monitor, Administer]
+breadcrumb: [Exploring Instance Scan, Instance Scan, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
 
 # Instance Scan dashboard
@@ -28,7 +28,7 @@ For example, you can use the dashboard to compare the results of the check findi
 
 You can review all the findings for the scan that generated an unexpected number of findings. This list displays all the findings that are related to one or more of all the scans.
 
-\[Omitted image "hs-implement-dashboard.png"\] Alt text: Image showing the related list of the health scan
+\[Omitted image "hs-list.png"\] Alt text: Image showing the related list of the health scan
 
 You can also directly select the column with the required findings to display the related list for a particular scan.
 

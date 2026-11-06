@@ -7,9 +7,9 @@ release: zurich
 product: System Update Sets
 classification: system-update-sets
 topic_type: concept
-last_updated: "2025-10-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [System update sets, Deploying applications, Building applications]
+breadcrumb: [System update sets, Deploying applications, Classic app development, Building applications]
 ---
 
 # Exploring System Update Sets
@@ -23,35 +23,6 @@ An update set is an XML file that contains:
 -   A set of record details that uniquely identify the update set.
 -   A list of configuration changes.
 -   A state that determines whether another instance can retrieve and apply configuration changes.
-
-Update sets track changes to applications and system platform features. This enables developers to create functionality on a non-production instance and promote the changes to another instance.
-
-**Warning:** Update sets allow moving changes between instances that may be running different family release versions and different features. You can always load an update set created on an older family release on an instance running a newer family release. Loading an update set created on a newer family release on an instance running an older family release requires additional testing to determine compatibility. Updates from newer family releases may not produce the same functionality when moved to older family releases. In extreme cases, newer family release updates may cause outages or data loss on an older family release instance. Where possible, avoid moving updates from newer family releases to older family releases. Similar constraints apply to moving updates between instances running different versions of ServiceNow Store apps.
-
-## System properties
-
-Administrators can exclude system properties from update sets by making them private. Keeping system properties private helps prevent settings in one instance from overwriting values in another instance. For example, you may not want a system property in a production instance to use a particular value from a development instance. See [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
-
-## Applications
-
-Application developers have additional options with update sets such as:
-
--   Create an update set for a specific version of an application.
--   Specify which application tables to track in update sets.
-
-## Update set tables
-
-Each update set is stored in the Update Set `[sys_update_set]` table, and the customizations that are associated with the update set, which is entries in the Customer Update `[sys_update_xml]` table, appear as a related list on the update set record.
-
-When a tracked object is customized, a corresponding record is added or updated in the Customer Update `[sys_update_xml]` table and is associated with the user current update set. The [associated application file properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/c_ApplicationFiles.md) are tracked and transferred along with the customized object in a single update record. A corresponding record is also added to the Versions `[sys_update_version]` table.
-
-The Customer Update table contains one record per customized object, per update set. The Versions table contains one record per change to a customized object.
-
--   Administrators can compare two versions and revert to a specific version of an object.
--   Administrators can suppress versions for specific tables.
--   Administrators can specify fields on tracked tables that you can change without skipping updates to the rest of the record \(exclude the field from the update\).
-
-**Note:** Don’t directly modify Customer Updates `[sys_update_xml]` records.
 
 ## Users
 
@@ -80,9 +51,11 @@ Developer
 Creates update sets for specific versions of an application and specifies which application tables to track.
 
 </td></tr></tbody>
-</table>## System update sets workflow
+</table>## Workflows
 
 A common process for developing customizations with update sets involves moving changes from development to test and production instances.
+
+\[Omitted image "update-sets-workflow.png"\] Alt text: Three-step import process for update set workflow.
 
 1.  Create an update set on the development instance.
 2.  Make customizations and changes on the development instance.
@@ -92,6 +65,18 @@ A common process for developing customizations with update sets involves moving 
 6.  If the update set has problems in the test instance, repeat steps 1–5 to develop the fix on the development instance with another update set.
 7.  Identify a common path for update sets to move from instance to instance and maintain that model. Never migrate the same update set from multiple sources. Move update sets from dev to test and then from test to production.
 8.  Commit the update set on production. If the update set required a fix, commit both update sets in the order they were made.
+
+If your development environment consists of only two instances, you can combine your development and testing instances into a single staging instance.
+
+\[Omitted image "update-sets-workflow-2.png"\] Alt text: Two-step import process for update set workflow.
+
+1.  Create an update set on the staging instance.
+2.  Make customizations and changes on the staging instance.
+3.  Mark the update set as complete.
+4.  Test customizations thoroughly on the staging instance.
+5.  If the update set has problems, repeat steps 1–4 to develop the fix on the staging instance with another update set.
+6.  Log in to the production instance and retrieve the completed update set from the staging instance. If the update set required a fix, retrieve both update sets.
+7.  Commit the update set on production. If the update set required a fix, commit both update sets in the order they were made.
 
 ## Benefits
 
@@ -108,12 +93,27 @@ A common process for developing customizations with update sets involves moving 
 |Track customizations to application tables, fields, and records.|[Customizations tracked by update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/customizations-tracked-update-sets.md)|Admin|
 |Batch update sets together so you can preview and commit them in bulk.|[Working with batched update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/us-hier-overview.md)|Admin|
 
+## Use cases
+
+Choose update sets or the application repository depending on the result that you want to achieve. Don’t use both Update Sets and the Application Repository for scoped app development. Combining the usage of both results in skipped changes and commit errors. After installing an app from the Application Repository, continue its usage for development and publishing. Update sets can only transfer limited application files. For larger transfers, export and import data using import sets or web services.
+
+-   **Update sets**
+    -   Storing changes to a base system or installed application.
+    -   Storing and applying a particular version of an application.
+    -   Producing a file for export.
+-   **Application repository**
+    -   Installing and updating applications on all company instances.
+    -   Managing application update sets.
+    -   Restricting access to applications from the same company.
+    -   Deploying completed applications to end users.
+
+**Warning:** Update sets track changes to applications and system platform features. Update sets from older releases can be loaded onto newer instances without problems. Moving update sets from newer to older releases, or between different ServiceNow Store app versions, should be avoided due to potential compatibility issues and risks of data loss.
+
 ## What to explore next
 
 To learn more about configuring, using, and managing system update sets see:
 
 -   [Configuring System Update Sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/configure-system-update-sets.md)
--   [Administer system update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/administer-system-update-sets.md)
 -   [Working with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/using-system-update-sets.md)
 -   [Working with batched update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/us-hier-overview.md)
 -   [Update set transfers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/update-set-transfers.md)

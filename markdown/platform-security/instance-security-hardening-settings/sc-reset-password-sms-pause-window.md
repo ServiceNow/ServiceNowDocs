@@ -1,5 +1,5 @@
 ---
-title: Maximize reset password SMS pause window duration \[Updated in Security Center 1.3\]
+title: Maximize reset password SMS pause window duration
 description: Manage the time duration in minutes that a user must wait before they can request a new password reset code.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-reset-password-sms-pause-window.html
@@ -7,16 +7,18 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authentication, Hardening settings, Platform Security]
 ---
 
-# Maximize reset password SMS pause window duration \[Updated in Security Center 1.3\]
+# Maximize reset password SMS pause window duration
 
 Manage the time duration in minutes that a user must wait before they can request a new password reset code.
 
-If this property is not set to the recommended value of **2** minutes or more, then a malicious user could initiate many passwords reset codes in a brief window of time. This increases the chance of a bad actor predicting the SMS reset code.
+If the **password\_reset.sms.pause\_window** system property is not set to the recommended value of `2` minutes or greater, then a malicious user could initiate many password reset SMS codes in a brief window of time.
+
+Ensure that the property **password\_reset.sms.pause\_window** is set to `2` or greater.
 
 ## More information
 
@@ -50,7 +52,7 @@ Data type
 
 </td><td>
 
-integer
+Integer
 
 </td></tr><tr><td>
 
@@ -84,7 +86,7 @@ Security risk
 
 -   Severity score: 4.8
 -   CVSS score: Medium
--   Security risk details: Ensure that **password\_reset.sms.pause\_window** is set to a value of 2 or more.
+-   Security risk details: This increases the attacker's likelihood of predicting the SMS reset code.
 
 </td></tr><tr><td>
 

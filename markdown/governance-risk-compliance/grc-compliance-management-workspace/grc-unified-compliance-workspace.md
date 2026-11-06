@@ -1,5 +1,5 @@
 ---
-title: GRC Compliance Workspace Overview
+title: GRC Compliance Workspace
 description: Compliance Workspace is a unified interface where you can manage all your tasks related to policies, control objectives, controls, and policy exceptions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-compliance-management-workspace/grc-unified-compliance-workspace.html
@@ -7,12 +7,12 @@ release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [GRC Compliance Workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
-# GRC Compliance Workspace Overview
+# GRC Compliance Workspace
 
 Compliance Workspace is a unified interface where you can manage all your tasks related to policies, control objectives, controls, and policy exceptions.
 
@@ -65,7 +65,7 @@ The highlights of the Compliance Workspace are:
 
 The targeted users of the Compliance Workspace are the corporate compliance managers, the corporate IT compliance managers, and the corporate compliance analysts.
 
-To access or view the Compliance Workspace, you need of the following roles:
+To access or view the Compliance Workspace, you need one of the following roles:
 
 -   IT Compliance Manager role: sn\_compliance\_ws.it\_compliance\_manager
 -   Corporate Compliance Manager role: sn\_compliance\_ws.corporate\_compliance\_manager
@@ -76,4 +76,39 @@ For more information on the roles, the responsibilities, and the tasks that the 
 -   [Compliance Home page for the compliance manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-compliance-management-workspace/compliance-manager-compliance-ws.md).
 -   [Compliance Home page for the compliance analyst](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-compliance-management-workspace/compliance-analyst-compliance-ws.md).
 -   [Compliance Home page for the IT compliance manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-compliance-management-workspace/it-compliance-manager-compliance-ws.md).
+
+## Email notification redirection
+
+When users receive email notifications for Policy and Compliance Management records, clicking a record link in the notification opens the record in the appropriate workspace, based on the user's assigned roles and installed workspace applications.
+
+The following record types support workspace redirection from email notifications:
+
+-   Controls
+-   Evidence response
+-   Indicator tasks
+-   Policy acknowledgments/Policy acknowledgment instances
+-   Policy exceptions
+
+This table shows the Policy and Compliance user roles that redirect to GRC Task page or Compliance Workspace:
+
+|User role|Redirected to|
+|---------|-------------|
+|BU User|GRC Task page|
+|Compliance Manager|GRC Task page|
+|Corporate Compliance Manager|Compliance Workspace|
+|Corporate Compliance Analyst|Compliance Workspace|
+|Approver \(policy exception\)|Compliance Workspace|
+|Approver|GRC Task Page|
+
+In addition, if a user has roles associated with other workspaces such as Risk, Privacy, Audit, CAM, or AI Risk and Compliance, the system redirects to the highest-priority workspace based on the role.
+
+The priority order is as follows:
+
+-   Risk Workspace
+-   Privacy Workspace
+-   AI Risk and Compliance Workspace
+-   Audit Workspace
+-   CAM Workspace
+
+If no workspace role is assigned and the common workspace is installed, the user is redirected to the GRC Task Page. If the common workspace is not installed, the user is redirected to the classic UI.
 

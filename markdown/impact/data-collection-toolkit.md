@@ -1,20 +1,20 @@
 ---
-title: Set up Impact Value Management data collection apps
+title: Enable data collection for Value Management
 description: The Impact Value Management Data Collection apps are designed to simplify and optimize the value metrics data collection process using Performance Analytics \(PA\). These applications enable you to efficiently gather, track, and analyze critical success metrics, ensuring data-driven decision-making and improved visibility into key performance trends.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/data-collection-toolkit.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Configuring Impact, Impact]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Guided Setup \(Legacy\), Configuring Impact, Impact]
 ---
 
-# Set up Impact Value Management data collection apps
+# Enable data collection for Value Management
 
 The Impact Value Management Data Collection apps are designed to simplify and optimize the value metrics data collection process using Performance Analytics \(PA\). These applications enable you to efficiently gather, track, and analyze critical success metrics, ensuring data-driven decision-making and improved visibility into key performance trends.
 
-The Impact Value Management data collection apps are available in the ServiceNow Impact store application. These apps are accessible directly on a user’s own instance as part of the Impact package, eliminating the need for separate downloads from the store or individual content packs. By leveraging predefined data definitions within Performance Analytics \(PA\), customers can automatically collect essential data for value metrics. This streamlined approach enhances the accuracy and efficiency of data collection for value measurement, providing a seamless experience and improving both customer satisfaction and product evaluation in the value management within Impact.
+The Impact Value Management data collection apps are available in the ServiceNow Impact Store Application. These apps are accessible directly on a user’s own instance as part of the Impact package, eliminating the need for separate downloads from the store or individual content packs. By leveraging predefined data definitions within Performance Analytics \(PA\), customers can automatically collect essential data for value metrics. This streamlined approach enhances the accuracy and efficiency of data collection for value measurement, providing a seamless experience and improving both customer satisfaction and product evaluation in the value management within Impact.
 
 Impact Value Management data collection apps are delivered by the Impact squad with a detailed overview of the Report configuration options and potential implementation recommendations for collecting the data required for your objectives and outcomes, outcome performance report, and value reports that are part of the Impact program.
 
@@ -40,15 +40,44 @@ Impact Value Management data collection apps are delivered by the Impact squad w
 
 Get started with the Data Collection Content Pack for your respective product:
 
--   [Impact Value Management Data Collection for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-apm.md)
+-   [Impact Value Management Data Collection for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-apm.md)
 -   [Impact Value Management Data Collection Content Pack for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-app-engine.md)
--   [Impact Value Management Data Collection Content Pack for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-csm.md)
--   [Impact Value Management Data Collection Content Pack for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-sam.md)
--   [Impact Value Management Data Collection Content Pack for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-ham.md)
--   [Impact Value Management Data Collection Content Pack for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-itsm.md)
--   [Impact Value Management Data Collection Content Pack for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-itom.md)
--   [Impact Value Management Data Collection Content Pack for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-hr.md)
--   [Impact Value Management Data Collection Content Pack for SecOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-secops.md)
--   [Impact Value Management Data Collection Content Pack for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-spm.md)
--   [Impact Value Management Data Collection Content Pack for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-irm.md)
+-   [Impact Value Management Data Collection Content Pack for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-csm.md)
+-   [Impact Value Management Data Collection Content Pack for IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-sam.md)
+-   
+-   [Impact Value Management Data Collection Content Pack for IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-itsm.md)
+-   [Impact Value Management Data Collection Content Pack for IT Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-itom.md)
+-   [Impact Value Management Data Collection Content Pack for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-hr.md)
+-   [Impact Value Management Data Collection Content Pack for Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-secops.md)
+-   [Impact Value Management Data Collection Content Pack for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-spm.md)
+-   [Impact Value Management Data Collection Content Pack for Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-irm.md)
+
+-   **[Install Impact Value Management Data Collection Content Pack Apps dependent plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-install-plugins.md)**  
+Install the dependent plugins for Impact Value Management Data Collection Content Pack apps
+-   **[Modifying the Data Collection configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-all-modify.md)**  
+You can make changes to the Data Collection configuration to align with your organization's needs.
+-   **[Upgrading the Data Collection Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-all-upgrade.md)**  
+When you upgrade the Data Collection Content Pack, you must account for any customizations you've made.
+-   **[Impact Value Management Data Collection for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-apm.md)**  
+Install and configure the Data Collection Content Pack for APM.
+-   **[Impact Value Management Data Collection Content Pack for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-app-engine.md)**  
+Install and configure the Data Collection Content Pack for App Engine.
+-   **[Impact Value Management Data Collection Content Pack for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-csm.md)**  
+Install and configure the Data Collection Content Pack for Customer Service Management.
+-   **[Impact Value Management Data Collection Content Pack for IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-sam.md)**  
+Install and configure the Data Collection Content Pack for SAM.
+-   **[Impact Value Management Data Collection Content Pack for IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-itsm.md)**  
+Install and configure the Data Collection Content Pack for IT Service Management.
+-   **[Impact Value Management Data Collection Content Pack for IT Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-itom.md)**  
+Install and configure the Data Collection Content Pack for IT Operations Management.
+-   **[Impact Value Management Data Collection Content Pack for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-hr.md)**  
+Install and configure the HR Service Delivery Data Collection Content Pack.
+-   **[Impact Value Management Data Collection Content Pack for Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-secops.md)**  
+Install and configure the Data Collection Content Pack for Security Operations.
+-   **[Impact Value Management Data Collection Content Pack for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-spm.md)**  
+Install and configure the Data Collection Content Pack for SPM.
+-   **[Impact Value Management Data Collection Content Pack for Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-irm.md)**  
+Install and configure the Data Collection Content Pack for IRM.
+
+**Parent Topic:**[Impact Guided Setup \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/guided-setup-impact-in-app.md)
 

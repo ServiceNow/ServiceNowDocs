@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/som-open-state-configuration.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Legacy product configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Use extension points for open state management

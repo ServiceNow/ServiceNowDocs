@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/closing-of-an-email-interaction.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Email Interaction for CSM, Email Interaction for CSM, Email Interaction for CSM]
 breadcrumb: [Engage via email interactions, Using Email Interaction for CSM, Customer communication, Use, Customer Service Management]
@@ -29,7 +29,7 @@ Role required: sn\_customerservice\_agent, or sn\_customerservice\_manager
 
 1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon \(\[Omitted image "List\_icon\_eaai\_new.png"\] Alt text: List icon\).
+2.  Select the List icon \(\[Omitted image "List\_icon\_eaai\_new.png"\] Alt text: List icon that displays the interactions.\).
 
 3.  In the Interactions section, select **My Interactions**.
 

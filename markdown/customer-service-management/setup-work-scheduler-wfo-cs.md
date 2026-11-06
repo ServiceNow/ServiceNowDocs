@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/setup-work-scheduler-wfo-cs.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Setting up Work scheduler, Optimize workforce operations, Extend capabilities, Configure, Customer Service Management]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [Setting up Work scheduler, Optimize workforce operations, Extend ca
 Create a work configuration for a work item. Add filters that display key information that the manager wants to analyze. This work configuration will determine how the work items display on the Work scheduler calendar in manager workspace.
 
 ## Before you begin
+
+**Important:**
+
+Starting with the Brazil release, Work scheduler is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Role required: sn\_wfo\_work\_sched.admin
 

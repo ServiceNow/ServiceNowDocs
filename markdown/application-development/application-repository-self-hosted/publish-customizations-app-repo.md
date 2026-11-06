@@ -7,9 +7,9 @@ release: zurich
 product: Application Repository \(Self-Hosted\)
 classification: application-repository-self-hosted
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage customizations to applications, ServiceNow application repository, Application sharing, Administer your apps, Deploying applications, Building applications]
+breadcrumb: [Manage customizations to applications, ServiceNow application repository, Application sharing, Administer your apps, Deploying applications, Classic app development, Building applications]
 ---
 
 # Publish customizations to an application repository
@@ -22,7 +22,7 @@ Role required: admin, or delegated\_developer with Publish To App Repo permissio
 
 Only one customization can be created per vendor or customer code registered on the store and app repo.
 
-To enable a developer to publish an application to the application repository, delegate the Publish to App Repo permission to the developer. For more information, see [Delegating development permissions to personnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/t_AddADeveloper.md).
+To enable a developer to publish an application to the application repository, delegate the Publish to App Repo permission to the developer. For more information, see [Delegate development and deployment permissions to personnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/t_AddADeveloper.md).
 
 ## Procedure
 

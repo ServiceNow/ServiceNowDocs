@@ -7,7 +7,7 @@ release: zurich
 product: Connect
 classification: connect
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Connect Support, Connect, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -34,7 +34,7 @@ Role required: none
 
 4.  Do one of the following actions.
 
-<table id="choicetable_sqn_4bl_wt"><tbody><tr><td id="d456916e94">
+<table id="choicetable_sqn_4bl_wt"><tbody><tr><td id="d461334e94">
 
 **Transfer the conversation to an agent**
 
@@ -53,7 +53,7 @@ You can cancel the transfer any time before it is accepted.
     -   Leave: Exit the conversation, which is also known as a cold transfer.
 
 
-</td></tr><tr><td id="d456916e138">
+</td></tr><tr><td id="d461334e138">
 
 **Transfer the conversation to a queue**
 

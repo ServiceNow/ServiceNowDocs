@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/add-related-metric-to-a-disclosure.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Disclosures in ESG Management, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Disclosures in Operational Sustainability Management \(formerly ESG Management\), Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Add metrics to a disclosure
@@ -39,5 +39,5 @@ After you manually add metrics to the disclosure, you can also delete those metr
 7.  Select **Save**.
 
 
-**Parent Topic:**[Disclosures in ESG Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/esg-disclosures.md)
+**Parent Topic:**[Disclosures in Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/esg-disclosures.md)
 

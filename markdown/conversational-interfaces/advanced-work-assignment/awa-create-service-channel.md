@@ -7,7 +7,7 @@ release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Configure, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -29,9 +29,7 @@ If you activate the corresponding plugins or install the corresponding store app
 -   Cases plugin \(com.snc\_csm.awa\)
 -   Chats plugin \(com.glide.interaction.awa\)
 -   Chats - Asynchronous plugin \(com.glide.interaction.awa\)
--   Conversational Integration with Facebook Messenger application \(sn\_va\_fb\_messenger\)
 -   Incidents plugin \(com.snc.incident.awa\)
--   Conversational Integration with LINE application \(sn\_va\_line\)
 -   Walk-up interactions plugin \(com.snc.walkup\)
 -   Conversational Integration with WhatsApp \(powered by Twilio\) application \(sn\_va\_whatsapp\_twi\)
 
@@ -283,6 +281,4 @@ Date and time that logging should stop.This field appears if **Enable logging** 
 -   [Define agent pools eligible for assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-specify-assignment-eligibility.md).
 -   [Create or modify a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-create-queue.md) for the channel.
 -   [Create or modify a work item size override](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-modify-work-item-size.md) for the channel.
-
-**Parent Topic:**[Configuring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/installing-awa.md)
 

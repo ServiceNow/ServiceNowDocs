@@ -7,9 +7,9 @@ release: zurich
 product: Admin Center
 classification: admin-center
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Explore, Admin Center, Get started, Administer]
+breadcrumb: [Exploring Admin Center, Admin Center, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Admin Center summary

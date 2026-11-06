@@ -1,5 +1,5 @@
 ---
-title: Minimize external user registration link expiration duration \[Updated in Security Center 1.3 and 1.5\]
+title: Minimize external user registration link expiration duration
 description: Manage the number of days that a registration link can be accessed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-external-user-registration-link-expiration.html
@@ -7,16 +7,18 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authentication, Hardening settings, Platform Security]
 ---
 
-# Minimize external user registration link expiration duration \[Updated in Security Center 1.3 and 1.5\]
+# Minimize external user registration link expiration duration
 
 Manage the number of days that a registration link can be accessed.
 
-Use the **sn\_ext\_usr\_reg.Reg\_link\_expiration\_days** property to manage who can access a registration link. If the link is set to the recommended value of **3**, a registration link could be used by someone other than the intended user if the link is discovered at a later date.
+If the **sn\_ext\_usr\_reg.Reg\_link\_expiration\_days** system property is not set to the recommended value of `3`, then a registration link could be used by someone other than the intended user if the link is discovered later in time.
+
+Ensure that the property **sn\_ext\_usr\_reg.Reg\_link\_expiration\_days** is set to `3` or less.
 
 ## More information
 
@@ -70,6 +72,14 @@ Default value
 
 </td></tr><tr><td>
 
+Fallback value
+
+</td><td>
+
+3
+
+</td></tr><tr><td>
+
 Category
 
 </td><td>
@@ -84,7 +94,7 @@ Security risk
 
 -   Severity score: Medium
 -   CVSS score: 6.6
--   Security risk details: Not setting this property to the integer 3 could lead to the registration link being used by an unintended user.
+-   Security risk details: Longer expiration windows weaken account provisioning security and create opportunities for unauthorized account creation or impersonation.
 
 </td></tr><tr><td>
 

@@ -7,7 +7,7 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Mandatory setup, Implement, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -110,7 +110,10 @@ State
 </td><td>
 
 The state is a read-only field. Possible choices are: -   **Draft** In this state, all compliance users can modify the policy and control objectives. All compliance users can click **Request review** button. Enter a message in the Request review pop-up and click **Request**, which sets the state to Review.
--   **Review** In this state, the owner, owning group, and reviewers can modify the policy and control objectives. The owner, owning group, and reviewers click **Request approval**, starting the workflow by sending approvals to the users in the Approvers list. The owner, owning group, and reviewers move the policy back to Draft, by clicking **Back to draft**, as well.
+-   **Review** In this state, the owner, owning group, and reviewers can modify the policy and control objectives. The owner, owning group, and reviewers move the policy back to Draft, by clicking **Back to draft**, as well.
+
+Reviewers cannot request approval for a policy. However, the owner of the policy with sn\_compliance.user, which is the minimum required role, and users with compliance manager role can request approval for a policy.
+
 -   **Awaiting approval** In this state, the policy and control objectives are read- only for all. Approvers can approve the policy by updating the approval state in the **Approvals** Related List on the policy form, or by viewing **My Approvals**. If the policy is approved, the policy goes to the **Published** state. Otherwise, it goes back to the **Review** state.
 -   **Published** In this state, the policy and control objectives are read-only for all. Admins can click **Retire** which sets the state of the policy to **Retired**
 -   **Retired** In this state, the policy is read-only for all.

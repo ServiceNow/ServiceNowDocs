@@ -7,9 +7,9 @@ release: zurich
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Creating an automation request, Create and define, Working with automations, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Creating an automation request, Working with automations, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Submit an automation request from Service Catalog
@@ -35,7 +35,7 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
 
 ## What to do next
 
-Move the automation request to **Planned** state. For more information, see [Move an automation request to the planned state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/move-automation-request-to-planned.md).
+Move the automation request to **Planned** state. For more information, see [Move an automation request to the Planned state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/move-automation-request-to-planned.md).
 
 **Parent Topic:**[Creating an automation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/create-automation-request.md)
 

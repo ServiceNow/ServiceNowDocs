@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [OAuth authorization code grant flow, Old inbound integrations experience, OAuth inbound, OAuth authentication, Access Management]
+breadcrumb: [OAuth authorization code grant flow, Old inbound integrations experience, OAuth inbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Authorization code flow example: ServiceNow instance as authorization server

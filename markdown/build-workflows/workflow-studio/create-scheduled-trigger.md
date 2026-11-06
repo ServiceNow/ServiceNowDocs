@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
-breadcrumb: [Build triggers, Use, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Build triggers, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Create a saved scheduled trigger
@@ -23,6 +23,8 @@ Role required: trigger\_designer, flow\_designer, or admin.
 ## About this task
 
 Choose from a variety of scheduling options to create a scheduled trigger that starts your flow at the required time and interval. You can schedule a trigger in any time zone, with or without an end date for the schedule.
+
+If you want to create a scheduled trigger based on a business calendar, see [Create a scheduled trigger using business calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-trigger-business-calendar.md).
 
 ## Procedure
 
@@ -189,6 +191,9 @@ Runs only once at the specified date and time.
 ## Result
 
 The trigger is created and published. You can use the trigger in any of your flows. For information about adding a trigger to a flow, see [Use a saved trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/use-saved-trigger.md)
+
+-   **[Create a scheduled trigger using business calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-trigger-business-calendar.md)**  
+Schedule a recurring trigger to run based on a business calendar, so your automation run only when your business is actually operating, on working days, active shifts, or custom production schedules.
 
 **Parent Topic:**[Building triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/building-triggers.md)
 

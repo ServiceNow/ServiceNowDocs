@@ -7,7 +7,7 @@ release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage financials for planning items, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -38,15 +38,15 @@ Create and manage monetary benefit plans to capture the potential benefits while
 
 4.  Create a monetary benefit plan using one of the following options.
 
-<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d151650e125">
+<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d160876e125">
 
 Option
 
-</th><th align="left" id="d151650e128">
+</th><th align="left" id="d160876e128">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d151650e134">
+</th></tr></thead><tbody><tr><td id="d160876e134">
 
 **Using Monetary benefit plan related list**
 
@@ -56,7 +56,7 @@ Procedure
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d151650e158">
+</td></tr><tr><td id="d160876e158">
 
 **Using finanicals record page**
 

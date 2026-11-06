@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, ServiceNow for Microsoft Outlook, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Using ServiceNow for Microsoft Outlook, ServiceNow for Microsoft Outlook, EmployeeWorks, Employee Service Management]
 ---
 
 # Submit a survey from an email message

@@ -1,26 +1,26 @@
 ---
 title: Embedded Help internationalization
-description: Embedded Help internationalization provides the ability for you to localize your embedded help content to a variety of languages to meet global user needs. You can write your embedded help content in a language of your choice and decide what languages to display.
+description: Embedded help internationalization provides the ability for you to localize your embedded help content to a variety of languages to meet global user needs. You can write your embedded help content in a language of your choice and decide what languages to display.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/adoption-services/embedded-help-internationalization.html
 release: zurich
 product: Adoption Services
 classification: adoption-services
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Embedded Help planning, Configure Embedded Help, Embedded Help, In-product help, Adoption services, Configure user experiences]
+breadcrumb: [Embedded Help planning, Configuring Embedded Help, Embedded Help, In-product help, Adoption services, Configure user experiences]
 ---
 
 # Embedded Help internationalization
 
-Embedded Help internationalization provides the ability for you to localize your embedded help content to a variety of languages to meet global user needs. You can write your embedded help content in a language of your choice and decide what languages to display.
+Embedded help internationalization provides the ability for you to localize your embedded help content to a variety of languages to meet global user needs. You can write your embedded help content in a language of your choice and decide what languages to display.
 
 Existing embedded help content records are written in English by default. You can translate the English embedded help content provided with the base system into other languages to meet your needs. You can also create custom embedded help content in the language of your choice.
 
-## Localized Embedded Help content
+## Understanding localized embedded help content
 
-To translate English Embedded Help content into another language or to create embedded help content in a language other than English, your working session must be configured to the language in which you want to write. For example, you must be working in a French session if you want to write embedded help content in French. Refer to [Localization settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/system-localization-landing.md) for more information.
+To translate English embedded help content into another language or to create embedded help content in a language other than English, your working session must be configured to the language in which you want to write. For example, you must be working in a French session if you want to write embedded help content in French. Refer to [Localization settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/system-localization-landing.md) for more information.
 
 Configure embedded help content to display in the language of your choice by accessing the **Language** field on the Embedded Help Queue \[sys\_embedded\_help\_queue\] table. Depending on the foreign language translations activated on your instance, you can choose which language to display your embedded help content.
 
@@ -32,9 +32,9 @@ When a user requests an embedded help content record, the associated embedded he
 
 When embedded help content is available in a user's session language, content will be shown in that same language. If embedded help content is not available in the user's session language, than English content is shown. However, if you do not want to see English content in a non-English session, you can configure the sys\_property to False \(default is True\).
 
-## Embedded Help content prioritization
+## Embedded help content prioritization
 
-Displaying Embedded Help content in the user's session language takes priority over all other mechanisms, such as role, whether content is user-created, and the latest content version.
+Displaying embedded help content in the user's session language takes priority over all other mechanisms, such as role, whether content is user-created, and the latest content version.
 
 When a user is in a non-English working session, the priority for embedded help content display is as follows:
 
@@ -47,7 +47,7 @@ For example, if an admin user is in a French working session and requests embedd
 If there is no embedded help content for the French admin role, but there is content for the French itil role and English admin role, the French itil role takes priority over the English admin role. The French-language content will display at the itil-role level.
 
 -   **[Create internationalized embedded help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/create-international-embedded-help.md)**  
-Translate provided English Embedded Help content into other languages or create custom Embedded Help content in the language of your choice.
+Translate provided English embedded help content into other languages or create custom embedded help content in the language of your choice.
 
 **Parent Topic:**[Embedded Help planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/embedded-help-planning.md)
 

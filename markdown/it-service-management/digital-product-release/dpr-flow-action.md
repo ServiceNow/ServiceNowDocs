@@ -7,7 +7,7 @@ release: zurich
 product: Digital Product Release
 classification: digital-product-release
 topic_type: concept
-last_updated: "2024-11-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Digital Product Release flow actions, Workflow Studio flow actions for Digital Product Release]
 breadcrumb: [Explore, Digital Product Release, IT Service Management]

@@ -7,9 +7,9 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
-breadcrumb: [Integrate with ServiceNow applications, HR Service Delivery, Employee Service Management]
+breadcrumb: [Integration of HR Service Delivery with ServiceNow applications, HR Service Delivery, Employee Service Management]
 ---
 
 # Virtual Agent for HR Service Delivery
@@ -55,7 +55,7 @@ The following predefined, HR Service Delivery Virtual Agent topics are available
 -   Check Case status \(Template\)
 -   Employee Info Update \(Template\)
 
-**Warning:** Employee info update topic enables you to update information like Email, Address and Phone number, at one place instead of going to the individual topics separately. General HR Inquiry is no longer available as one of the predefined topics.
+**Note:** Employee info update topic enables you to update information like Email, Address and Phone number, at one place instead of going to the individual topics separately.
 
 A topic defines the dialog between the Virtual Agent \(chat support bot\) and user to accomplish a specific goal. The information exchanged during the conversation flow \(user inputs and bot responses\) enables the chatbot to fulfill a user request or assist a user in completing a task.
 
@@ -80,6 +80,8 @@ You can set up HR Service Delivery Virtual Agent to use Natural Language Underst
 For more information about NLU and the NLU Workbench, see [Natural Language Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/nlu-landing.md) and [Activate the NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-nlu-workbench.md).
 
 Also, see [Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/va-NLU.md).
+
+**Note:** This feature is only available with the HR Professional and HR Enterprise packages.
 
 ## Reusable HR Service Delivery Virtual Agent topic blocks
 
@@ -116,7 +118,9 @@ For information on configuring Virtual Agent notifications for certain channels 
 
 Get pre-built topics or create new topics from the recommended topics for HR Service Delivery Virtual Agent using the default configuration sn\_hr\_core\_case in the Topic Recommendations settings. For more information, see [Topic Recommendations settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/tr-settings-page.md).
 
-For HR Cases, this default setting is shipped with Taxonomy preselected to HRSD and the Filtered by setting set to display the cases created after the last 90 days. For more information on Topic Recommendations, see [Using Virtual Agent Topic Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/va-topic-recommendations.md).
+\[Omitted image "topic-recom-setting.png"\] Alt text: Topic recommendation setting.
+
+For HR Cases, this default setting ships with Taxonomy preselected to HRSD. The Filtered by setting displays cases created in the last 90 days. For more information on Topic Recommendations, see [Using Virtual Agent Topic Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/va-topic-recommendations.md).
 
 In the Topic Recommendations page, under Get new recommendations, select **HR Cases** and click on **Get new recommendations**. Once the new recommendations are available, select your preferred recommendations and add them to the Virtual Agent using the **Add to VA** option. For more information, see [Topic Recommendations page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/topic-recommendations-page.md).
 
@@ -169,7 +173,7 @@ When an employee opens an HR case using Virtual Agent for HR Service Delivery, t
 
 3.  Select **Install** to start the installation process.
 
-    **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
+    **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/find-components.md).
 

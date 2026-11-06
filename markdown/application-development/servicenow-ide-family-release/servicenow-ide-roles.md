@@ -1,15 +1,15 @@
 ---
 title: ServiceNow IDE roles
-description: The following roles are installed for use with ServiceNow IDE.Create and develop scoped applications in the ServiceNow IDE.Assign administrator privileges to a MID server user to manage applications in source control from the ServiceNow IDE.
+description: The following roles are installed for use with ServiceNow IDE.Create and develop applications in the ServiceNow IDE.Assign administrator privileges to a MID server user to manage applications in source control from the ServiceNow IDE.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-ide-family-release/servicenow-ide-roles.html
 release: zurich
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Reference, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # ServiceNow IDE roles
@@ -20,9 +20,9 @@ The following roles are installed for use with ServiceNow IDE.
 
 ## ServiceNow IDE Administrator \[sn\_glider.admin\]
 
-Create and develop scoped applications in the ServiceNow IDE.
+Create and develop applications in the ServiceNow IDE.
 
-For more information about granular admin roles, see [Granular admin roles required to secure your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/roles-within-platform-security.md).
+For more information about granular admin roles, see .
 
 ### Contains Roles
 

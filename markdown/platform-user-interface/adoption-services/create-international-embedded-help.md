@@ -1,20 +1,20 @@
 ---
 title: Create internationalized embedded help
-description: Translate provided English Embedded Help content into other languages or create custom Embedded Help content in the language of your choice.
+description: Translate provided English embedded help content into other languages or create custom embedded help content in the language of your choice.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/adoption-services/create-international-embedded-help.html
 release: zurich
 product: Adoption Services
 classification: adoption-services
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Embedded Help internationalization, Embedded Help planning, Configure Embedded Help, Embedded Help, In-product help, Adoption services, Configure user experiences]
+breadcrumb: [Embedded Help internationalization, Embedded Help planning, Configuring Embedded Help, Embedded Help, In-product help, Adoption services, Configure user experiences]
 ---
 
 # Create internationalized embedded help
 
-Translate provided English Embedded Help content into other languages or create custom Embedded Help content in the language of your choice.
+Translate provided English embedded help content into other languages or create custom embedded help content in the language of your choice.
 
 ## Before you begin
 
@@ -22,21 +22,21 @@ Role required: embedded\_help\_admin or admin
 
 ## About this task
 
-All embedded help content records are in English by default. To create a non-English Embedded Help content record, there must first be an English content record in the Embedded Help \[sys\_embedded\_help\_content\] table. The English Embedded Help content record is parent to all other language Embedded Help content records. Once you create a non-English Embedded Help content record, it resides in the Translated Texts \[sys\_translated\_text\] table.
+All embedded help content records are in English by default. To create a non-English embedded help content record, there must first be an English content record in the Embedded Help \[sys\_embedded\_help\_content\] table. The English embedded help content record is parent to all other language embedded help content records. Once you create a non-English embedded help content record, it resides in the Translated Texts \[sys\_translated\_text\] table.
 
 To translate provided English content into another language, create a copy of the English content record and save the edited, non-English, copy record. The new record is saved to the Translated Texts \[sys\_translated\_text\] table. Refer to [Add custom embedded help from a copy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/add-custom-help-copy.md) to translate available embedded help content.
 
-To create a non-English custom embedded help content record, your working instance must be configured to the same language you intend to write in. You create custom non-English Embedded Help content when English embedded help content is not available to copy.
+To create a non-English custom embedded help content record, your working instance must be configured to the same language you intend to write in. You create custom non-English embedded help content when English embedded help content is not available to copy.
 
-After creating a non-English Embedded Help content record, you must create the same content record in English and store it in the Embedded Help \[sys\_embedded\_help\_content\] table. The English Embedded Help content record is parent to all other languages.
+After creating a non-English embedded help content record, you must create the same content record in English and store it in the Embedded Help \[sys\_embedded\_help\_content\] table. The English embedded help content record is parent to all other languages.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Embedded Help** &gt; **Help Content**.
 
-2.  Open the Embedded Help topic to copy.
+2.  Open the embedded help topic to copy.
 
-    You can also open an Embedded Help topic by selecting **Edit Help Article** from the menu in the Embedded Help pane.
+    You can also open an embedded help topic by selecting **Edit Help Article** from the menu in the embedded help pane.
 
 3.  Update the fields as appropriate.
 
@@ -54,7 +54,7 @@ Name
 
 </td><td>
 
-The Embedded Help topic name.
+The embedded help topic name.
 
 </td></tr><tr><td>
 
@@ -88,7 +88,7 @@ Active
 
 </td><td>
 
-Specifies whether this content displays for the UI page. Clear the check box to hide the content from being available.
+Specifies whether this content displays for the UI page. Clear the check box to prevent the content from being available.
 
 </td></tr><tr><td>
 
@@ -104,7 +104,7 @@ Qualifier
 
 </td><td>
 
-The qualifier that provides custom Embedded Help for a common UI page.For example, the `home.do` page is opened for every Homepage module and for many Dashboard modules. Create the qualifier before you enter it into this Embedded Help record.
+The qualifier that provides custom embedded help for a common UI page.For example, the `home.do` page is opened for every Homepage module and for many Dashboard modules. Create the qualifier before you enter it into this embedded help record.
 
 </td></tr><tr><td>
 
@@ -149,9 +149,9 @@ Specify the domain this content is used for, if applicable.This field appears in
 
 5.  To add another line below tables, videos, or related links, click the newline icon \(**⏎**\).
 
-6.  Select **Copy** in the form header.
+6.  Click **Copy** in the form header.
 
-    The edited topic is saved and the list displays again. The **ServiceNow Help** check box is cleared in the saved topic.
+    The edited topic is saved and the list redisplays. The **ServiceNow Help** check box is cleared in the saved topic.
 
 
 **Parent Topic:**[Embedded Help internationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/embedded-help-internationalization.md)

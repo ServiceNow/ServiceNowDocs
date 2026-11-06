@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/config-mobile-ai-voice-agent.html
 release: zurich
 topic_type: task
-last_updated: "2026-02-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Otto, ServiceNow Otto for Mobile, Mobile Platform]
 ---

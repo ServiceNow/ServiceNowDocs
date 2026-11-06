@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/components-installed-sales-territory-management.html
 release: zurich
 topic_type: reference
-last_updated: "2025-10-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Lead and opportunity management, Reference, Sales Customer Relationship Management]
+breadcrumb: [Sales automation, Reference, Sales Customer Relationship Management]
 ---
 
 # Components installed with Sales Territory Management​
@@ -107,6 +107,22 @@ Granular role to access sales territory data.
 
 None
 
+</td></tr><tr><td>
+
+Sales Territory Member
+
+ \[sn\_sales\_territory.sales\_territory\_member\]
+
+</td><td>
+
+Role for viewing the sales territory associated on the CRM entities like Lead, Opportunity, Account, or Consumer.
+
+</td><td>
+
+-   sn\_tp.territory\_member
+-   sn\_crm\_customer\_access\_management\_user
+-   sn\_sales\_territory.sales\_territory\_basic
+
 </td></tr></tbody>
-</table>**Parent Topic:**[Lead and opportunity management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/reference-lead-opportunity-mgt.md)
+</table>**Parent Topic:**[Sales automation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/reference-lead-opportunity-mgt.md)
 

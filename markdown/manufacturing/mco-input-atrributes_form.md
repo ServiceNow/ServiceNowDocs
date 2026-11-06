@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-input-atrributes\_form.html
 release: zurich
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Manufacturing Commercial Operations]
+breadcrumb: [Repair form, Reference, Manufacturing Commercial Operations]
 ---
 
 # MCO input attributes form
@@ -33,5 +33,5 @@ MCO input attributes form.
 |Text index|Option to determine whether searches index the text in a table.|
 |Audit|Option to enable auditing for a table.|
 
-**Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/manufacturing-reference.md)
+**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/repair-form.md)
 

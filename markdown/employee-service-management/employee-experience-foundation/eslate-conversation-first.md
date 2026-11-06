@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-04-29"
 reading_time_minutes: 2
 keywords: [conversation-first, conversation-everywhere, interactive split view, full-page search, persistent side navigation, follow-up chat]
-breadcrumb: [EmployeeWorks introduction, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [EmployeeWorks introduction, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Conversation-first experience

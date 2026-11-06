@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/common-dashboard-tasks.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Dashboard record, Clear dashboard filters]
 breadcrumb: [Dashboards, Platform Analytics experience, Platform Analytics]
@@ -19,10 +19,12 @@ The majority of tasks you need to perform on a dashboard are available in the da
 
 \[Omitted image "db-more-actions-menu.png"\] Alt text: The more actions menu.
 
-Anyone can duplicate, print, or bookmark any dashboard to which they have access. If you have filters on the dashboard, you can clear all their values in one action. If you own a dashboard, you can also share or delete it. When you share a dashboard, you can let the user with whom you share the dashboard edit it or share it with more users. Dashboard administrators \(dashboard\_admin role\) and ServiceNow AI Platform admins can perform any of these actions on any dashboard, or open the underlying PAR Dashboard \[par\_dashboard\] record.
+Anyone can duplicate, print, or [bookmark](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dashboards-glossary.md) any dashboard to which they have access. If you have filters on the dashboard, you can clear all their values in one action. If you own a dashboard, you can also share or delete it. When you share a dashboard, you can let the user with whom you share the dashboard edit it or share it with more users. Dashboard administrators \(dashboard\_admin role\) and ServiceNow AI Platform admins can perform any of these actions on any dashboard, or open the underlying PAR Dashboard \[par\_dashboard\] record.
 
 -   **[Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-db-in-ac.md)**  
 In the Platform Analytics experience, you can create shareable dashboards with data visualizations, filters, and other elements. You can create elements and add existing elements from the inline editor.
+-   **[Create Core UI dashboards on upgraded instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-core-ui-db-on-migrated-instance.md)**  
+On upgraded instances, including ones fully migrated to Platform Analytics, you can create Core UI dashboards from the Platform Analytics Dashboards library. You can create shareable dashboards with data visualizations, filters, and other existing elements.
 -   **[Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/edit-db-in-ac.md)**  
 You can edit dashboard and dashboard tab information in the inline editor. If the dashboard has been shared, any changes you make are applied globally.
 -   **[Share a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/share-db-in-ac.md)**  
@@ -36,9 +38,9 @@ Export a Platform Analytics experience dashboard to PDF or Microsoft PowerPoint.
 -   **[Schedule the export of dashboards and data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/schedule-export-dboards-data-viz.md)**  
 Automate the export and mailing of dashboards and data visualizations. Help colleagues build presentations, share information with external users, or track data over time.
 -   **[Bookmark a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/bookmark-dashboard-ac.md)**  
-Bookmark a dashboard so that you can find it easily in the Analytics Center.
+Bookmark a dashboard so that you can find it easily in the Dashboard Library.
 -   **[Delete a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/delete-db-in-ac.md)**  
-You can delete a dashboard that is no longer useful. The Analytics Center invokes the Workflow Studio to remove the dashboard from your instance.
+You can delete a dashboard that is no longer useful. The Analytics Overview invokes the Workflow Studio to remove the dashboard from your instance.
 
 **Parent Topic:**[Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center-dashboards.md)
 
@@ -48,8 +50,6 @@ You can delete a dashboard that is no longer useful. The Analytics Center invoke
 [Exploring Platform Analytics dashboards]()
 
 [Configuring dashboards]()
-
-[Executive dashboard overview]()
 
 [Proactive analytics insights on dashboards]()
 

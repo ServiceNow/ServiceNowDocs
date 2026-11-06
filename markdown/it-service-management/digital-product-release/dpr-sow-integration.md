@@ -7,7 +7,7 @@ release: zurich
 product: Digital Product Release
 classification: digital-product-release
 topic_type: concept
-last_updated: "2026-01-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [SOW integration, Statement of Work, change request integration, workspace integration, interoperable routes]
 breadcrumb: [Explore, Digital Product Release, IT Service Management]

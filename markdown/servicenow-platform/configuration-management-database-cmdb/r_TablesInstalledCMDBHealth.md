@@ -7,8 +7,8 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Reference, CMDB Health, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -34,9 +34,39 @@ glide.cmdb.services\_hierarchy\_limit
 
 </td><td>
 
-Maximum number of service CIs that can appear in the CMDB service dashboard. This limit applies to any child class of the Service Instance \[cmdb\_ci\_service\_auto\] class.-   Type: integer
+Maximum number of service CIs that can appear in the CMDB service dashboard. This limit applies to any child class of the Service Instance \[cmdb\_ci\_service\_auto\] class.
+
+ -   Type: integer
 -   Default: 10,000
 -   Range: 0-100,000
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
+-   Learn more: [View CMDB Health Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_MonitorCMDBHealth.md)
+
+</td></tr><tr><td>
+
+glide.cmdb.services\_query\_limit
+
+</td><td>
+
+Maximum number of application services \(any class extending the Service \[cmdb\_ci\_service\] class\) that can be processed for the Service View of the CMDB Health Dashboard. Use this property to manage performance when there are large numbers of application services to process.
+
+ -   Type: integer
+-   Default: 1,000
+-   Range: 1-10,000 \(If set lower than 1, defaults to 1\)
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
+-   Learn more: [View CMDB Health Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_MonitorCMDBHealth.md)
+
+</td></tr><tr><td>
+
+glide.cmdb.service\_associated\_ci\_query\_limit
+
+</td><td>
+
+Maximum number of CIs associated with application services \(any class extending the \[cmdb\_ci\_service\] class\) that can be processed for the Service View of the CMDB Health Dashboard. Use this property to manage performance when there are large numbers of such CIs to process.
+
+ -   Type: integer
+-   Default: 1,000
+-   Range: 1-10,000 \(If set lower than 1, defaults to 1\)
 -   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
 -   Learn more: [View CMDB Health Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_MonitorCMDBHealth.md)
 

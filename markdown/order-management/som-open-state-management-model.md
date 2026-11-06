@@ -1,18 +1,18 @@
 ---
 title: Open state management
-description: The open state model is a programmatic framework in the Configuration State Model API, which lets you program variations in product options that appear in the product configurator in Sales Customer Relationship Management. The API framework provides certain states and helper API methods for controlling how nodes in the product configurator user interface are displayed.
+description: The open state model is a programmatic framework in the Configuration State Model API, which lets you program variations in product options that appear in the legacy product configurator in Sales Customer Relationship Management. The API framework provides certain states and helper API methods for controlling how nodes in the legacy product configurator user interface are displayed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/som-open-state-management-model.html
 release: zurich
 topic_type: concept
-last_updated: "2025-09-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Legacy product configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Open state management
 
-The open state model is a programmatic framework in the Configuration State Model API, which lets you program variations in product options that appear in the product configurator in Sales Customer Relationship Management. The API framework provides certain states and helper API methods for controlling how nodes in the product configurator user interface are displayed.
+The open state model is a programmatic framework in the Configuration State Model API, which lets you program variations in product options that appear in the legacy product configurator in Sales Customer Relationship Management. The API framework provides certain states and helper API methods for controlling how nodes in the legacy product configurator user interface are displayed.
 
 As developers, you can use [extension points for open state management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-open-state-configuration.md) to set the view-only or editable states on any configurator node, based on events that occur at loading or when product selections change. You can also optionally script information messages along with changing the state of the node. These messages display contextually in the product configurator user interface. Various helper API methods are available for reading and setting states on any node, eliminating the need for extensive JSON scripting.
 
@@ -20,7 +20,7 @@ As developers, you can use [extension points for open state management](https://
 
 ## Use cases for configuration state management
 
-The following table shows different ways that you can control the product options displayed in the product configurator.
+The following table shows different ways that you can control the product options displayed in the legacy product configurator.
 
 |Product configurator use case|Example|
 |-----------------------------|-------|
@@ -30,19 +30,19 @@ The following table shows different ways that you can control the product option
 |Allow quantity to be set for products|Some products might have different default quantity values. Allow agents to configure the quantity as long as the value is within the bounds of a minimum quantity and maximum quantity allowed for that product.|
 |Allow only certain characteristic selections to be made|Certain product selections require a particular characteristic value to be chosen. For example, upon selection of the Ultimate Internet Plan, the connectivity speed that can be chosen is 5G.|
 
-You can manage the display of options in the product configurator by using the Configuration State Model API Framework.
+You can manage the display of options in the legacy product configurator by using the Configuration State Model API Framework.
 
 ## Node states
 
-Nodes in the product configurator display product relationship groups, child products, and characteristic options. Nodes can have the following states:
+Nodes in the legacy product configurator display product relationship groups, child products, and characteristic options. Nodes can have the following states:
 
 -   **Visible - Yes \(make node visible\) or No \(make node invisible\)**
 
-    Configurations that are visible or not visible to the agent in the product configurator. Options might not be visible if they're incompatible with other selections made by the agent. For example, for a particular car wheel size, incompatible tire options are not visible.
+    Configurations that are visible or not visible to the agent in the legacy product configurator. Options might not be visible if they're incompatible with other selections made by the agent. For example, for a particular car wheel size, incompatible tire options are not visible.
 
 -   **Editable - Yes \(show node and make it selectable\) or No \(show node but make it unselectable\)**
 
-    Configurations that are editable or not editable by the agent in the product configurator. Agents can personalize certain aspects of the product while maintaining constraints that are necessary for the product. For example, for a specific car model, only compatible exterior colors are editable.
+    Configurations that are editable or not editable by the agent in the legacy product configurator. Agents can personalize certain aspects of the product while maintaining constraints that are necessary for the product. For example, for a specific car model, only compatible exterior colors are editable.
 
 -   **Quantity - Visible \(Yes/No\), Editable \(Yes/No\)**
 
@@ -64,7 +64,7 @@ Nodes in the product configurator display product relationship groups, child pro
 Manage node states using the Configuration State Model API Framework. Activate these states by using the following two events in the Events Framework of the Configuration State Model:
 
 -   On Load - The state \(visibility, editability\) of each node is initially set to Yes \(true\). The open state is invoked on loading.
--   On Change - This function is called whenever there’s a change in a node's value in the product configurator user interface. However, this state isn’t invoked when quantity changes occur in the product configurator. These states can be set programmatically in one of the following ways: on-load, during selections, or just before the instance is synchronized back to the transaction
+-   On Change - This function is called whenever there’s a change in a node's value in the legacy product configurator user interface. However, this state isn’t invoked when quantity changes occur in the legacy product configurator. These states can be set programmatically in one of the following ways: on-load, during selections, or just before the instance is synchronized back to the transaction
 
 ## Helper API methods
 
@@ -91,17 +91,17 @@ You can use the following helper API methods to read and set states on any node.
 
             ```
             var newHandler = configInstance.getNode(nodePath);
-            newHandler.setVisible(nodePath, true, “This is a sample message for setVisible”);
-            newHandler.setEditable(nodePath, false, “This is a sample message for setEditable”);
+            newHandler.setVisible(true, “This is a sample message for setVisible”);
+            newHandler.setEditable(false, “This is a sample message for setEditable”);
             ```
 
     -   Set the quantity for offers and specifications. The nodePath determines the product, and the value is the quantity to be set.
-        -   setQuantity\(nodePath, value\);
+        -   setQuantity\(value\);
         -   Implementation example:
 
             ```
-            var newHandler = configInstance.getNode\(nodePath,\);
-            newHandler.setQuantity\(nodePath, value, “This is a sample message for setQuantity”\);
+            var newHandler = configInstance.getNode\(nodePath\);
+            newHandler.setQuantity\(value, “This is a sample message for setQuantity”\);
             ```
 
     -   Set the configuration options to see what is being selected.
@@ -111,7 +111,7 @@ You can use the following helper API methods to read and set states on any node.
             ```
             var nodePath = “QUADPLAYHO1/OPTIONALPRODUCTS/CONNECTEDC2/CONNECTEDC1/VIN”
             var newHandler = configInstance.getNode\(nodePath\);
-            var newHandler.setChecked\(nodePath, true, “This is a sample message for setChecked”\)
+            var newHandler.setChecked\(true, “This is a sample message for setChecked”\)
             
             ```
 
@@ -123,13 +123,13 @@ You can use the following helper API methods to read and set states on any node.
             var nodePath =
             “QUADPLAYHO1/OPTIONALPRODUCTS/CONNECTEDC2/CONNECTEDC1/VIN”
             var newHandler = configInstance.getNode(nodePath);
-            newHandler.setValue(nodePath, “9TKN332”, “This is a sample message for
+            newHandler.setValue(“9TKN332”, “This is a sample message for
             setValue”);
             ```
 
 -   **Getter context variable methods**
 
-    Retrieve context variables inside the product configurator user interface.
+    Retrieve context variables inside the legacy product configurator user interface.
 
     -   getHeaderContextVariables\(\): Returns a list of all the header context variables.
     -   getHeaderContextVariableValue\(contextVariable\): Returns a value and the display value of a specific context variable in the header.

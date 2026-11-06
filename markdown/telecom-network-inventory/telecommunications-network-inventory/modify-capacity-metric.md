@@ -7,7 +7,7 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Capacity management, Configure, Telecommunications Network Inventory]
 ---
@@ -40,7 +40,7 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
     |Capacity function|Name of the capacity function record.|
 
 
-**Parent Topic:**[Capacity management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configuring-capacity-management.md)
+**Parent Topic:**[Configuring capacity management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configuring-capacity-management.md)
 
 **Related topics**  
 

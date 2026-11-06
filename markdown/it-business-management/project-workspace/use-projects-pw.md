@@ -8,7 +8,7 @@ product: Project Workspace
 classification: project-workspace
 topic_type: concept
 last_updated: "2026-09-29"
-reading_time_minutes: 13
+reading_time_minutes: 14
 breadcrumb: [Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -487,20 +487,38 @@ Date changes, state changes, effort and percent complete made to child project t
 
 Planned effort is calculated as the sum of the planned effort values of all child tasks. Actual efforts are fetched from approved time cards, therefore making them read-only. Actual effort is set to read only for all parent and child tasks.
 
+## Date restrictions for tasks with logged actuals
+
+On a project task that has logged actuals, you can't change the Planned start date or move the Planned end date earlier than the last logged actual. This applies whether you edit dates directly or a dependency recalculation changes them.
+
+When the Actual start date and Actual end date are present, the restriction applies to those dates instead.
+
+For example, consider a project task whose resource assignment has logged actuals, with the last actual recorded on 12 Dec 2026. If you set the Planned end date to 05 Dec 2026, the planning page rejects the change and keeps the existing date. Setting the Planned end date to 12 Dec 2026 or later succeeds.
+
+**Note:** Resource assignments or actuals created while the planning page is open aren't recognized until you refresh the planning page.
+
+This restriction is on by default. To turn it off, set the **com.snc.project.restrict\_task\_dates\_with\_assignment\_actuals** property to `false`.
+
 -   **[Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md)**  
 Learn how to navigate to the new Project Workspace and open a project in the planning page.
 -   **[Create a project from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-project-from-project-workspace.md)**  
 Use Project Workspace to create a project and start planning for your project tasks.
+-   **[Save a project as a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/save-project-template-pw.md)**  
+Save the plan of an existing project as a template to reuse the tasks and sub-projects in other projects in Project Workspace.
+-   **[Apply a template to a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/apply-project-template-pw.md)**  
+Apply a saved project template to a project in Project Workspace to reuse a planned set of tasks and sub-projects.
 -   **[Update the project details from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/update-project-details-from-project-workspace.md)**  
 Update the details of a project to reflect the updates or changed priorities using the details page from Project Workspace.
+-   **[Work with project tasks in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/pws-widgets-eslate.md)**  
+The Project Tasks widget shows employees a quick view of the customer project tasks assigned to them on the Employee Slate.
 -   **[Ask project questions using the Project Answers agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/ask-question-answers-chatbot-pw.md)**  
-Use Ask Otto to open the AI panel and get real-time answers about your projects and sub-projects using the Project Answers agent.
+Use Ask Otto to open an AI panel and get real-time answers about your projects and sub-projects using the Project Answers agent.
 -   **[Generate and track project details from AI insights page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/generate-ai-project-insights-pw.md)**  
 Generate and monitor project insights directly from AI insights page in Project Workspace.
 -   **[Generate a project plan using project plan generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/generate-project-using-ai-pw.md)**  
-Use Project plan generation skill to generate a project plan from natural language input, uploaded files, or both.
+
 -   **[Generate tasks using project plan generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/generate-tasks-using-ai-pw.md)**  
-Use project plan generation skill to populate an empty project with tasks by providing text input, uploading files, or both.
+
 -   **[Generate and improve Docs content with ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/generate-summarize-and-refine-content-of-docs-with-now-assist-spm.md)**  
 Generate content with ServiceNow Otto for SPM directly in your Docs using custom prompts. In addition, summarize existing sections, elaborate where needed, and refine drafts to help improve your productivity.
 -   **[Create an Asset Project Request from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-asset-project-requests-pw.md)**  
@@ -523,8 +541,8 @@ Set up a dependency between tasks of different projects using the new Project Wo
 Create a schedule baseline and financial baseline of a project. A baseline is a snapshot of the project's progress at the particular moment of time.
 -   **[Create a status report or docs template in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-a-status-report-template-project-workspace.md)**  
 Create a custom template for status reporting in Project Workspace. Use the template to create status reports according to your specific requirements.
--   **[Generate a project status report with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/generate-ai-project-status-report.md)**  
-Generate an AI‑assisted project status report with predicted health indicators. Now assist pre-populates project health, an executive summary, and supporting rationale based on weekly project data.
+-   **[Generate a project status report using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/generate-ai-project-status-report.md)**  
+Generate an AI‑assisted project status report with predicted health indicators. AI pre-populates project health, an executive summary, and supporting rationale based on weekly project data.
 -   **[Create a status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-a-status-report-in-project-workspace.md)**  
 Create a status report in Project Workspace for your projects. Your team can view the report and be updated on project health, metrics, risks, issues, and milestones.
 -   **[Collaborate with stakeholders from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/collaborate-with-stakeholders-from-project-workspace.md)**  

@@ -9,7 +9,7 @@ classification: table-administration-and-data-management
 topic_type: concept
 last_updated: "2026-09-30"
 reading_time_minutes: 1
-breadcrumb: [Planned tasks, Working with Task table, Table admin, Tables and data, Configure core features, Administer]
+breadcrumb: [Planned tasks, Working with Task table, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Measure time and effort

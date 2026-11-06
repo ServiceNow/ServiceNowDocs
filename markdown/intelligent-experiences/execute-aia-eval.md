@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/execute-aia-eval.html
 release: zurich
 topic_type: task
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Evaluate, Evaluate agentic AI assets, AI Agent Studio, Enable AI experiences]
+breadcrumb: [AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Execute an agentic evaluation run
@@ -16,7 +16,7 @@ Evaluate agentic AI assets against datasets to monitor performance and compare b
 
 ## Before you begin
 
-Evaluation runs require execution log data of the agentic AI asset you want to evaluate. You can create execution log data by testing in AI Agent Studio or triggering agentic AI in ServiceNow Otto. You can also create execution log data after setting up your evaluation run.
+Evaluation runs require execution log data of the agentic AI asset you want to evaluate. You can create execution log data by testing in AI Agent Studio or triggering agentic AI. You can also create execution log data after setting up your evaluation run.
 
 For more information about testing agentic workflows, see [Manually test the execution of an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/test-aia-use-case.md).
 
@@ -34,11 +34,11 @@ Role required: sn\_aia.admin
 
 3.  In the modal, select **Chat agent or workflow**, then select **Proceed**.
 
-    The following steps are for chat agentic AI assets. If you are evaluating an AI voice agentic asset, see [Execute a run for an AI voice agentic asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/execute-voice-aia-eval.md). Many steps are similar, but there are aspects specific to AI voice agentic assets that require special attention.
+    The following steps are for chat agentic AI assets. If you're evaluating an AI voice agentic asset, see Execute a run for an AI voice agentic asset. Many steps are similar, but there are aspects specific to AI voice agentic assets that require special attention.
 
 4.  In the **Add general info** step, add a name and select the agentic AI asset that you want to evaluate.
 
-    \[Omitted image "aia-eval-info-526.png"\] Alt text: Custom Categorize ITSM incident AI agent guided setup step for adding general info with name, description, and generate resolution plan as the selected AI agent using version v1.
+    \[Omitted image "image.aia-eval-info-526"\] Alt text: Custom Categorize ITSM incident AI agent guided setup step for adding general info with name, description, and generate resolution plan as the selected AI agent using version v1.
 
 5.  Select **Continue** to go to the next step.
 
@@ -56,7 +56,7 @@ Role required: sn\_aia.admin
 
     Any custom metrics that you have published appear as options. If you don't see your custom metric, verify that it's published. See [Create a custom metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/create-custom-metric.md) for more information.
 
-    \[Omitted image "aia-eval-metrics-526.png"\] Alt text: Tool performance evaluation agentic evaluation guided setup step for selecting an evaluation method with three options selected \(overall task completeness, tool performance, and tool calling\).
+    \[Omitted image "image.aia-eval-metrics-526"\] Alt text: Tool performance evaluation agentic evaluation guided setup step for selecting an evaluation method with three options selected \(overall task completeness, tool performance, and tool calling\).
 
 7.  Configure your dataset.
 
@@ -143,9 +143,9 @@ Description of the records contained within the dataset. This can be useful if y
 </td></tr></tbody>
 </table>        **Note:** If you're creating new execution logs, the user submitting the evaluation must pass the ACLs of the agentic AI asset and its components. Without correct role requirements, execution logs report access denial and the evaluation fails. See [Security for agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aia-security-implementation.md) for more information.
 
-        \[Omitted image "aia-eval-data-new-logs-1.png"\] Alt text: Generate new execution logs selected. Sample records have a state and priority filter applied
+        \[Omitted image "image.aia-eval-data-new-logs-1"\] Alt text: Generate new execution logs selected. Sample records have a state and priority filter applied
 
-        \[Omitted image "aia-eval-data-new-logs-2.png"\] Alt text: Further options for generating new execution logs, including number of records to use, task, additional details about the agent or workflow, and the run as user
+        \[Omitted image "image.aia-eval-data-new-logs-2"\] Alt text: Further options for generating new execution logs, including number of records to use, task, additional details about the agent or workflow, and the run as user
 
 <table><thead><tr><th>
 
@@ -163,7 +163,7 @@ Added filters
 
 Conditions for narrowing down the AI execution log records you want to include in the dataset.
 
- **Note:** Filter conditions are not supported for creating datasets of AI voice agent execution logs.
+ **Note:** Filter conditions aren't supported for creating datasets of AI voice agent execution logs.
 
 </td></tr><tr><td>
 
@@ -184,7 +184,7 @@ The maximum number of records within the dataset for evaluation. If the dataset 
 
     If you want to make changes, you can select **Back** to go to a previous step, or you can select the step in the sidebar.
 
-    \[Omitted image "aia-eval-review-526.png"\] Alt text: Tool performance review page of the guided setup.
+    \[Omitted image "image.aia-eval-review-526"\] Alt text: Tool performance review page of the guided setup.
 
 9.  Select **Start evaluation**.
 

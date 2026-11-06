@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-phase-task.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Recall a campaign phase, Create a campaign, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager and sn\_rcl\_claim\_mgmt.rec
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Recall Management** &gt; **My Campaign** &gt; **Recall Campaign Phases** &gt; **Phase tasks**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **Lists** &gt; **Recall Management** &gt; **My Campaign** &gt; **Recall Campaign Phases** &gt; **Phase tasks**.
 
 2.  Select **New**.
 
@@ -30,4 +30,6 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager and sn\_rcl\_claim\_mgmt.rec
 
 4.  Select **Submit**.
 
+
+**Parent Topic:**[Recall a campaign phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-recall-campaign-phases.md)
 

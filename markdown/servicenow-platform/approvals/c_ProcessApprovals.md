@@ -7,7 +7,7 @@ release: zurich
 product: Approvals
 classification: approvals
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Approval rules, Classic approvals, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -21,6 +21,8 @@ Once a request has passed its gating approvals, any relevant execution plans are
 Those plans, in turn, create a sequence of required tasks. You can add an approval step to an execution plan, which is configured to occur at the appropriate point.
 
 From the left navigation pane, select **Service Catalog** &gt; **Execution Plans**, and then select the plan to which to add an approval step. Then click the **New Approval** button.
+
+\[Omitted image "AddApproval.png"\] Alt text: Add an approval
 
 The Approval Task screen appears. Just like a regular Service Catalog execution task, an approval execution task has:
 

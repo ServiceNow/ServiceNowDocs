@@ -1,78 +1,60 @@
 ---
 title: Hide or reveal the Show me everything button
-description: Set properties to hide or reveal the Show me everything button in Virtual Agent conversations that use LLM \(large language model\) and NLU/Keyword \(Natural Language Understanding\) topic discovery.
+description: Set properties to hide or reveal the Show me everything button in Virtual Agent conversations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/hide-reveal-showme-button.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [Show me everything button, Virtual Agent, LLM, Large Language Model, Now Assist, greeting Setup topic, Asset]
 breadcrumb: [Working with setup topics, Customizing a chat experience, Configure, Virtual Agent, Conversational Interfaces]
 ---
 
 # Hide or reveal the Show me everything button
 
-Set properties to hide or reveal the **Show me everything** button in Virtual Agent conversations that use LLM \(large language model\) and NLU/Keyword \(Natural Language Understanding\) topic discovery.
+Set properties to hide or reveal the Show me everything button in Virtual Agent conversations.
 
 ## Before you begin
 
-Role required: vitual\_agent\_admin or admin
+Role required: virtual\_agent\_admin or admin
+
+Duplicate the Virtual Agent greeting Setup topic you want to use for your conversation. For example, **Now Assist - Greeting**. For more information, see [Duplicating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/duplicate-virtual-agent-topic.md).
 
 ## About this task
 
-By default, the greeting portion of a Virtual Agent conversation includes a **Show me everything** button, which brings up the entire list of available Virtual Agent topics and a search filter. Use the following steps to toggle the **Show me everything** button for LLM and NLU/Keyword topic discovery, respectively.
+The greeting topic of a Virtual Agent includes a **Show me everything** button by default. This button displays the full list of available Virtual Agent topics as well as a search filter. Use the following instructions to hide the **Show me everything** button in your Virtual Agent conversations.
 
 ## Procedure
 
-1.  Use either of the following methods, depending on whether you are working with LLM or NLU topics.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-<table id="choicetable_dwk_ccn_b1c"><thead><tr><th align="left" id="d147486e85">
-
-Topic discovery type
-
-</th><th align="left" id="d147486e88">
-
-Method
-
-</th></tr></thead><tbody><tr><td id="d147486e94">
-
-**LLM**
-
-</td><td>
-
-1.  Navigate to **All** &gt; **Assistant Designer**.
 2.  Select the **Asset library** tab.
-3.  Set the topic discovery type toggle switch to **LLM**.
-4.  Select one of the default greeting topics used in LLM topic discovery such as **Now Assist - Greeting** or **Now Assist Panel - Greeting**.
-5.  On the **flow** tab, select the **Send skill picker** Script action utility node.
-6.  In the **Action expression** property, open the script field.
-7.  Input the following script.
 
-    ```
-var hideShowMeEverything = String(vaInputs.now_assist_topics_skill_active_value.value) === "false";
-    ```
+3.  In the Asset library, open the greeting Setup topic you've duplicated.
 
-8.  In the script window, select **Save**.
-9.  On the Flow tab, select **Save**.
+    The asset opens in the topic editor.
 
+4.  In the Flow tab, select the **Send skill picker** node.\[Omitted image "sme-button-greeting-topic-flow.png"\] Alt text: Topic flow tab with Send skill picker node highlighted on canvas.
 
-</td></tr><tr><td id="d147486e175">
+    The **Script action utility** control for the **Send skill picker** node opens in the property sheet.
 
-**NLU**
+5.  In the property sheet, select the **Script that defines the operation of the node** button \[Omitted image "icon-script.png"\] Alt text:.
 
-</td><td>
+6.  In Line 3 of the script, set the `"hideShowMeEverything"` value from `false` to true.\[Omitted image "sme-button-action-expression-window.png"\] Alt text: Send skill picker node Action Expression window with hideShowMeEverything value set to true.
 
-1.  Navigate to **All** &gt; **__sys\_properties.list__**.
-2.  Under **glide.cs.disable.show\_me\_everything**, set the value to `TRUE`.
+7.  Select **Save**.
+
+    The greeting Setup topic activates, and the **Show me everything** button disappears from the Virtual Agent chat where the topic is used.
+
+8.  Select **Publish**.
 
 
-</td></tr></tbody>
-</table>
-## Result
+## What to do next
 
-The **Show me everything** button is removed from the greeting messages in your Virtual Agent conversations.
+To reveal the **Show me everything** button again, set the `"hideShowMeEverything"` value from `true` to false.
 
-**Parent Topic:**[Working with setup topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/working-setup-topics.md)
+The duplicated greeting Setup topic is associated with the LLM assistant as the original topic. You can associate the duplicate with another LLM assistant. For more information, see [Customizing a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-conversation-settings.md).
 

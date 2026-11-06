@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/column-level-encryption-landing.html
 release: zurich
 topic_type: reference
-last_updated: "2026-02-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Encryption]
 ---
@@ -44,7 +44,7 @@ In this example, you can see four users attempting to access data stored in two 
 
 </td><td>
 
-[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use Field Encryption to manage access to encrypted data on your instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/using-column-level-encryption.md)
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use Column Level Encryption to manage access to encrypted data on your instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/using-column-level-encryption.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

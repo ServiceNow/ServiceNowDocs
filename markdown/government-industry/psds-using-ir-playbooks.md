@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-using-ir-playbooks.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 5
-breadcrumb: [Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
+last_updated: "2026-03-12"
+reading_time_minutes: 3
+breadcrumb: [Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Using Information Request Administration
@@ -16,7 +16,7 @@ If you're an information request case agent or manager, you can use the Informat
 
 A playbook provides you with step-by-step guidance through the life cycle of an information request case.
 
-The Information Request Administration automatically appears in the **Playbook** tab when you create an information request case by using the CRM Workspace.
+The Information Request Administration automatically appears in the **Playbook** tab when you create an information request case by using the Public Sector Workspace.
 
 A playbook takes a workflow and breaks it into multiple stages or lanes. Each stage in a playbook includes one or more activities, or steps, for you to complete. Stages can also include automated activities, such as auto-sending an email to a customer when a stage or activity is complete. When using a playbook, you can:
 
@@ -115,22 +115,4 @@ Constituent or Business Card
 -   Appears in a panel on the left side of the playbook.
 
 </td></tr></tbody>
-</table>**Note:** Verify that the Information Request Administration application, which is separate from the Public Sector Digital Services Core application, has been installed and configured. For instructions, see [Install and configure the Information Request Administration application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/configuring-information-request-playbook.md).
-
-By default, the following stages are available to you as an information request case agent in the Information Request Administration in the CRM Workspace.
-
--   Intake
--   Review
--   Processing
--   Decision
-
-## Stages in an Information Request Playbook
-
-The Information Request Administration experience starts with the Intake stage. This stage is the default playbook stage for a new information request case. Use this playbook stage to gather information about the requester, the documents being requested, and any exemption categories that the request falls into. You can also request additional information from the requester.
-
-The playbook continues with the Review stage. In this stage, you can do the initial troubleshooting on the case, evaluate similar or duplicate requests, and determine whether the information requested can be released and if a fee needs to be charged. You can move the case to the next stage when the requester accepts the fee, or if a fee waiver is submitted and approved.
-
-The playbook continues with the Process stage. In this stage, you can assess resources, request a fee approval, create case tasks, and add or request new information before the case resolution begins. The case status changes to Work in Progress once the fee payment is processed or waived. The case is then sent for legal review. After legal review is complete, the case is moved to the Decision stage. You may solicit additional information from the requester at any time during this stage.
-
-The final stage of the Information Request Administration is the Decision stage. At the Decision stage, the status of the case is updated from Review in Progress to Ready for Decision after the case has passed legal review. A notification is sent to the requester that lets them know that case approval has been has obtained and the requested documents have been uploaded. The requester can then either accept or reject the document. If the requester accepts the documents, the case is automatically closed. If the requester rejects the solution, the case is reopened, and the agent must propose another outcome.
-
+</table>

@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Manage enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Configure, Enterprise Asset Management, Asset Management]
 ---
 
 # Managing enterprise asset shipments
@@ -64,10 +64,8 @@ After the shipping carrier completes these prerequisites, you must complete thes
 -   If the integration profile contains connection details through a connection and credentials alias, update those details as needed so that you can successfully authenticate and connect to the carrier API.
 -   Associate the shipping carrier with the integration profile.
 
--   **[Use Advanced Shipment Notification in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/asn-eam.md)**  
-Use Advanced Shipment Notification \(ASN\) to automate and create enterprise asset records for when your assets are in transit.
--   **[Create a shipment carrier record in Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-shipment-carrier-record-eam.md)**  
-Create a shipping carrier record in the Enterprise Asset Workspace to associate the carrier with an integration profile.
+-   **[Create a shipping carrier record in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-shipment-carrier-record-eam.md)**  
+Create a shipping carrier record in the Enterprise Asset workspace to associate the carrier with an integration profile.
 -   **[Script include for third-party shipping carrier integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/script-include-shipping-carrier-integrations-eam.md)**  
 Before you can integrate the Enterprise Asset Management application with a third-party shipping carrier, that shipping carrier must create a script include that extends the base ITAMShipmentIntegration script. By extending this script, you can connect to the third-party shipping carrier application and retrieve shipment details in real-time.
 -   **[Integrate with a third-party shipping carrier in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/integrate-shipping-carriers-eam.md)**  
@@ -80,8 +78,6 @@ Associate a third-party shipping carrier with an integration profile so that you
 Remove a third-party shipping carrier that you no longer want to associate with an integration profile.
 -   **[Test the integration profile for a third-party shipping carrier in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/test-shipping-carrier-integration-profile-eam.md)**  
 Test the integration profile for a third-party shipping carrier so that you can mitigate any connection issues that arise.
--   **[View and add enterprise asset shipments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/view-enterprise-asset-shipments.md)**  
-Use the Shipments list to view all active enterprise asset shipments from a central location. If an existing shipment doesn’t appear on the list, you can add it manually.
 
-**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/it-asset-management.md)
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/asset-management-landing-page.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
 topic_type: task
-last_updated: "2026-07-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure ServiceNow Otto in Knowledge Management, ServiceNow Otto in Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -17,6 +17,8 @@ breadcrumb: [Configure ServiceNow Otto in Knowledge Management, ServiceNow Otto 
 Configure the Knowledge content management skill to enable admins and managers to activate the identify duplicate articles skill in ServiceNow Otto.
 
 ## Before you begin
+
+A data set of at least 2000 articles is necessary for the AI duplicate feature to work reliably.
 
 Role required: knowledge\_admin and knowledge\_manager
 

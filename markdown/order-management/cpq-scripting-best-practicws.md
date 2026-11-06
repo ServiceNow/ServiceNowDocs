@@ -1,20 +1,20 @@
 ---
-title: Best practices for scripting
-description: Write efficient scripts using a JavaScript-like language. Follow best practices for naming, variables, and table access.
+title: General guidelines for scripting
+description: Write efficient scripts using a JavaScript-like language. Follow these general guidelines for naming, variables, and table access.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/cpq-scripting-best-practicws.html
 release: zurich
 topic_type: concept
-last_updated: "2025-09-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Setting up enrichments and rules scripting, ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Setting up enrichments and rules scripting, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Best practices for scripting
+# General guidelines for scripting
 
-Write efficient scripts using a JavaScript-like language. Follow best practices for naming, variables, and table access.
+Write efficient scripts using a JavaScript-like language. Follow these general guidelines for naming, variables, and table access.
 
-This guide will walk you through the best practices for writing efficient and reliable scripts in ServiceNow CPQ using a JavaScript-like language. Following these guidelines will help you create maintainable, readable, and well-performing code.
+This guide will walk you through the general guidelines for writing efficient and reliable scripts in ServiceNow CPQ using a JavaScript-like language. Following these guidelines will help you create maintainable, readable, and well-performing code.
 
 ## Quick summary
 
@@ -173,7 +173,7 @@ Choose variable declaration based on scope and mutability requirements. Use `con
 
 Excessive table queries can impact performance. Minimize queries by fetching necessary data once and storing it in variables.
 
-To learn about best practices while using the `lookup` function, see [Minimizing table queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/table_queries.md).
+To learn about general guideliines for using the `lookup` function, see [Minimizing table queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/table_queries.md).
 
 **Related topics**  
 

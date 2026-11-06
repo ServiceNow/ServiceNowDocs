@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
-breadcrumb: [Agent Client Collector Monitoring reference, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC-M reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
 
 # Components installed with Metric Intelligence
@@ -124,7 +124,7 @@ Metric Intelligence — Validate MID Distributed cluster
 
 1.  Checks the status of the cluster node.
 
-If status is **Started** and the status of the Metric Intelligence extension is not any of **Started**/**Starting**/**Warning** \[warning with specific errors\], the job changes the status of the cluster node to **Stopped**.
+If status is **Started** and the status of the Metric Intelligence extension is not any of **Started**/**Starting**/**Warning** \[warning with specific errors\], the job takes action. The job changes the status of the cluster node to **Stopped**.
 
 This happens when MID Server stops unexpectedly without notifying the instance that it is stopping.
 

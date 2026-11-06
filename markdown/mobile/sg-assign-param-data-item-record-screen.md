@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/sg-assign-param-data-item-record-screen.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure a parametrized data item, Data items, Mobile app components, Building mobile apps, Mobile Platform]
 ---

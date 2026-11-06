@@ -7,9 +7,9 @@ release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Access to Experts
@@ -24,6 +24,10 @@ Sessions offer specialized guidance on various ServiceNow product topics, aimed 
 
 **Note:** Impact squad members may determine that an Access to Experts Accelerator is to be requested based on the information submitted in the [Access to Expertise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/accelerator-and-initiative-list/access-expertise-initiative.md) initiative. The Accelerator is not available to be requested by customers outside of the Initiative.
 
+## Package Availability
+
+**Note:** This Accelerator is available for Impact  Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages
+
 ## Requestable topics
 
 The Access to Experts Accelerator applies to a selected set of requestable topics:
@@ -36,9 +40,7 @@ The Access to Experts Accelerator applies to a selected set of requestable topic
     -   Address specific technical inquiries and receive prescriptive guidance.
 -   Product Capability Overview: Designed for customers who have already licensed the product \(post-sales\), this session offers a high-level overview of specific product capabilities. It features an out-of-the-box walkthrough using demonstration data to showcase key features and foundational concepts.
 
-For examples of requests or additional information on the request process, see [Request Access to Expertise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/accelerator-and-initiative-list/access-expertise.md).
-
-This feature is available for packages such as Impact Advanced and Impact Total along with the Impact Guided package and Strategic Value or Platform Governance, as add-on.
+For examples of requests or additional information on the request process, see [Request Access to Expertise Initiative](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/accelerator-and-initiative-list/access-expertise.md).
 
 ## What You Get
 
@@ -46,7 +48,7 @@ This feature is available for packages such as Impact Advanced and Impact Total 
 
 -   **Session Preparation**
 
-    ServiceNow   Impact Accelerator consultant evaluates the request and may gather additional information and assets based on the question submission.
+    ServiceNow   Impact Technical Accelerator consultant evaluates the request and may gather additional information and assets based on the question submission.
 
 -   **Access to Experts Customer Session \(variable time allotment based on request\)**
 

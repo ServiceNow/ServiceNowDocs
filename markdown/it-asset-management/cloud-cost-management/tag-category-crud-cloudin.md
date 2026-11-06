@@ -7,9 +7,9 @@ release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Create and update a tag category
@@ -83,7 +83,7 @@ Tag names
 
 </td><td>
 
-The list of tag names that you can add to the category.1.  Select the Lookup icon \[Omitted image "search-icon.png"\] Alt text: Search icon. to open the list of tag names that came with the latest Billing Download Job. All tag names appear on the Tag Names list.
+The list of tag names that you can add to the category.1.  Select the Lookup icon \[Omitted image "search-icon.png"\] to open the list of tag names that came with the latest Billing Download Job. All tag names appear on the Tag Names list.
 2.  Select tag names from the drop-down list.
 
 
@@ -96,7 +96,7 @@ The list of tag names that you can add to the category.1.  Select the Lookup ico
 
     The Tag Category form reopens and the tag name that you added appears in the **Tag names** list.
 
-6.  On the **Tag names** list, select the Lookup icon \[Omitted image "search-icon.png"\] Alt text: Search icon. to add multiple tag names.
+6.  On the **Tag names** list, select the Lookup icon \[Omitted image "search-icon.png"\] to add multiple tag names.
 
 
 -   **[Select a tag category source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/select-tag-category-source.md)**  

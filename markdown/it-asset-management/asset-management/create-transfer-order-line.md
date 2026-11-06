@@ -1,48 +1,64 @@
 ---
-title: Create a transfer order line
-description: Create a transfer order line to specify the exact items that comprise a transfer order.
+title: Create transfer order line
+description: Add a transfer order a line to a transfer order for each asset or consumable model you want to move.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/asset-management/create-transfer-order-line.html
 release: zurich
 product: Asset Management
 classification: asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Transfer order tasks, Manage transfer order, Use, Asset Management, IT Asset Management]
+breadcrumb: [Transfer order tasks, Manage transfer order, Use, Base Asset Management, Common applications, Asset Management]
 ---
 
-# Create a transfer order line
+# Create transfer order line
 
-Create a transfer order line to specify the exact items that comprise a transfer order.
+Add a transfer order a line to a transfer order for each asset or consumable model you want to move.
 
 ## Before you begin
 
 Role required: inventory\_user
 
+The inventory\_user, asset, or procurement\_user role can only access the Transfer Order \[alm\_transfer\_order\] reports. You must activate the Procurement \(com.snc.procurement\) plugin for the inventory\_user, asset, and procurement\_user roles.
+
 ## About this task
 
-A transfer order can contain one or more transfer order lines. Under a single transfer order, all transfer order lines have the same From location and To location. Each line contains an asset to transfer and the quantity to transfer. The item to transfer is identified by asset name and model name. A transfer order line can involve one quantity of a non-consumable asset or multiple quantities of a consumable asset. A bundled model can be transferred.
+A transfer order can contain one or more transfer order lines. Under a single transfer order, all transfer order lines have the same **From location** and **To location**. Each line contains an asset to transfer and the quantity to transfer. The item to transfer is identified by asset name and model name. A transfer order line can involve one quantity of a non-consumable asset or multiple quantities of a consumable asset. A bundled model can be transferred.
 
 ## Procedure
 
-1.  On the form, fill in the fields.
+1.  Navigate to **All** &gt; **Inventory** &gt; **Transfer Orders** and open the transfer order.
 
-    |Field|Description|
-    |-----|-----------|
-    |Number|Unique number identifying the transfer order line.|
-    |Stage|Current stage of the transfer order. Transfer order lines can only be created when a transfer order is in Draft stage.|
-    |Transfer order|The transfer order to which the transfer order line belongs.|
-    |Request line|Requested item to associate with the transfer order line.|
-    |Model|Model of the items requested by the transfer order line. For example, a printer. If the Asset field is filled out first, the Model field is automatically filled in with the model corresponding to the asset.|
-    |Asset|Asset requested by the transfer order line. For example, a specific printer. The asset can filter on stockrooms.|
-    |Quantity requested|Number of items requested by the transfer order line. For example, 3 computers are requested to be transferred.|
-    |Quantity remaining|Number of items yet to be received. For example, 3 keyboards had been requested, 2 are received, 1 is remaining.|
-    |Quantity received|Number of items already received. For example, 3 keyboards are transferred, 2 are received.|
-    |Quantity returned|Number of items that already needed to be returned.|
+2.  Next to **Transfer Order Lines**, select **New**.
 
-2.  Select **Save**.
+3.  On the Create transfer order line form, fill in the fields.
 
+    For a description of the field values, see [Transfer order line fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/create-transfer-order-line-fields.md).
+
+4.  If the model is a consumable, specify a quantity in **Quantity Requested**.
+
+5.  Select **Submit**.
+
+    After creating transfer order lines, the transfer order and all the transfer order lines are in the draft stage. While a transfer order or a transfer order line is in the draft stage, it can be deleted.
+
+    **Note:** When an asset is part of a transfer order set to **Draft**, the asset record updates to show the asset as reserved. You can't request or transfer the asset while it’s reserved.
+
+
+## Result
+
+A transfer order line is created along with a transfer order line task.
+
+## What to do next
+
+Close the transfer order line task to complete the task.
 
 **Parent Topic:**[Transfer order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/work-with-transfer-orders.md)
+
+**Related topics**  
+
+
+[Create a transfer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/create-a-transfer-order.md)
+
+[Close transfer order line task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/move-transfer-order-line-through-stages.md)
 

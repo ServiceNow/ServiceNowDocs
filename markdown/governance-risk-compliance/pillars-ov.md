@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/pillars-ov.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [Monitor, Operational Resilience, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Landing page and dashboard views, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Pillars overview tab
@@ -146,26 +146,11 @@ The following sample report shows data for the Application Service pillar with i
 
 \[Omitted image "p-ov.png"\] Alt text: Overview.
 
-## Filter conditions
-
-When you manually select a specific pillar from the drop-down, the system dynamically filters the data based on your selected pillar across the Pillar dashboard.
-
-The filter drop-down list includes a **None** option selected by default to display all information without any filtering.
-
-Dependencies section: When you select the filter, it applies the condition **dependencies.pillar contains selected pillar** to show only relevant dependencies.
-
-Supported Business Services section: When you drill down and select the filter, it applies both conditions:
-
--   **dependencies.pillar contains selected pillar** AND
--   **impacted\_object\_classes contains cmdb\_ci\_service\_business**
-
-This filtering mechanism allows you to view either comprehensive data \(with **None** selected\) or focus on pillar-specific information across all reports on the Pillar dashboard.
-
 ## Report on the red flags
 
-The Red flags report on the **Pillars overview** tab shows the total number of red flags that require immediate attention for the associated assets, controls, issues, and risks related to the selected pillar. It breaks down details of the red flags based on the integrations with the Operational Resilience application. For example, if you have installed the Risk Management application, data for the risk ratings is pulled from that application and displayed in this report.
+The Red flags report on the **Pillars overview** tab shows the total number of red flags that require immediate attention. These red flags are associated with assets, controls, issues, and risks related to the selected pillar. The report breaks down details based on the integrations with the Operational Resilience application. For example, if you have installed the Risk Management application, data for the risk ratings is pulled from that application and displayed in this report.
 
-If you install the optional applications from the GRC product suite, such as Business Continuity Management and Vulnerability Response in your instance, you can also view the Business Continuity plan and Vulnerability Response reports on the dashboard.
+If you install optional applications from the GRC product suite, such as Business Continuity Management and Vulnerability Response, additional reports appear on the dashboard. You can view the Business Continuity plan and Vulnerability Response reports.
 
 A sample Red flags report for the pillars is shown in the example.
 

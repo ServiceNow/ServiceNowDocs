@@ -7,7 +7,7 @@ release: zurich
 product: Workflow Activities
 classification: workflow-activities
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Workflow activities, Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -84,7 +84,7 @@ Skip during generate
 
 </td><td>
 
-If selected, the [**Generate** activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/workflow-activities/r_Generate.md) does not follow this transition to generate approvals or tasks.
+If selected, the [**Generate** activity]() does not follow this transition to generate approvals or tasks.
 
 </td></tr></tbody>
 </table>3.  Click **Submit**.

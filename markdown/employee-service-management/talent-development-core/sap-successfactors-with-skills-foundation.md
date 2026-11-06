@@ -7,9 +7,9 @@ release: zurich
 product: Talent Development Core
 classification: talent-development-core
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Skills import, Skills Workspace, Explore, Skills Foundation, Growth Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Skills import, Skills Workspace, Exploring Skills Foundation, Skills Foundation, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # SAP SuccessFactors integration Skills Foundation

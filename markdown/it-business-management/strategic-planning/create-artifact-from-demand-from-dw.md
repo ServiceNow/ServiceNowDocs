@@ -7,8 +7,8 @@ release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -34,7 +34,7 @@ Role required: it\_demand\_manager
 
 ## About this task
 
-To create an entity, you can also use the **Confirm details and convert to selected entity** Playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/use-playbooks-in-dw.md).
+Conversion from a demand to a work item can happen at any state of the demand. To create an entity, you can also use the **Confirm details and convert to selected entity** Playbook activity. For more information, see [Use playbook for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/use-playbooks-in-dw.md).
 
 ## Procedure
 
@@ -48,7 +48,7 @@ To create an entity, you can also use the **Confirm details and convert to selec
 
 5.  Verify that the values in the **Category** and **Type** fields are appropriate for the entity you want to create.
 
-    The options in the Type list change according to the category that you select. For more information, see [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/demand-form-dw.md).
+    The options in the Type list change according to the category that you select. For more information, see [Demand details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/demand-form-dw.md).
 
     **Note:** The **Category** and **Type** fields are set to read only when an entity is created from a demand. If you delete the created entity, these fields are set to editable again.
 
@@ -57,6 +57,8 @@ To create an entity, you can also use the **Confirm details and convert to selec
 7.  Select the More Actions option.
 
 8.  Select the appropriate option to create an entity.
+
+    The work item can be created at any demand state, including Draft. This conversion is not restricted to support multiple types of governance processes.
 
     \[Omitted image "demand-create-entity.png"\] Alt text: Create Project selected in the More Actions menu.
 

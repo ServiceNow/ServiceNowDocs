@@ -7,9 +7,9 @@ release: zurich
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Create and train a classification solution, Creating and training solutions, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Create and train a classification solution, Creating and training solutions, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Configuring target metrics for a trained classification solution
@@ -31,7 +31,7 @@ When you apply metric values at the solution level, the system automatically set
 Here are the basic steps for configuring a target metric for your solution.
 
 1.  Navigate to the Solution Statistics tab of a trained ML solution.
-2.  Review the messages on the green banners of the screen which define each of the metrics so you can better understand the values you want to assign to the solution. The first two message banners address estimated solution-level metrics. The third banner addresses class-level results based on the solution values you applied.
+2.  Review the messages on the green banners of the screen. These define each of the metrics so you can better understand the values you want to assign to the solution. The first two message banners address estimated solution-level metrics. The third banner addresses class-level results based on the solution values you applied.
 3.  In the **Target Metric** choice list, select the metric you want to configure.
 4.  In the **Target Metric Value** field, enter a numeric percentile value between 0-100.
 5.  Click **Apply Values**.
@@ -41,7 +41,7 @@ Here's a sample landing page for a recently trained classification solution. As 
 
 \[Omitted image "metric-default-solution.png"\] Alt text: This sample image shows the estimated values set for solution precision, recall and coverage metrics.
 
-If you need to adjust these default values for a use case, refer to the sample configurations below. For example, based on the classification solution you're implementing, you might want to change the target metric value for precision, recall, or coverage. Keep in mind that when you change the target metric value for one metric, such as precision, it impacts the values of the recall and coverage metrics as well.
+To adjust these default values for a use case refer to the sample configurations as follows. For example, based on the classification solution you're implementing, you might want to change the target metric value for precision, recall, or coverage. Keep in mind that changing the target metric value for one metric \(such as precision\) impacts the values of the recall and coverage metrics as well.
 
 ## Precision configuration example
 

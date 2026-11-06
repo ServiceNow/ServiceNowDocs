@@ -1,5 +1,5 @@
 ---
-title: Run and verify import for Nokia Altiplano Service Graph Connector
+title: Run and verify a Nokia Altiplano import
 description: Manually execute a configured import schedule for the Nokia Altiplano Service Graph Connector. You can also execute the import to validate the connector setup, run ad-hoc imports, or test newly configured connection aliases. This task helps ensure that data from Altiplano is successfully imported or updated in the CMDB.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-service-ops/telecommunications-service-operations-management/run-and-verify-import-for-nokia-altiplano-service-graph-connector.html
@@ -7,12 +7,12 @@ release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Use, Telecommunications Service Operations Management]
+breadcrumb: [Run SGC imports, Use, Telecommunications Service Operations Management]
 ---
 
-# Run and verify import for Nokia Altiplano Service Graph Connector
+# Run and verify a Nokia Altiplano import
 
 Manually execute a configured import schedule for the Nokia Altiplano Service Graph Connector. You can also execute the import to validate the connector setup, run ad-hoc imports, or test newly configured connection aliases. This task helps ensure that data from Altiplano is successfully imported or updated in the CMDB.
 

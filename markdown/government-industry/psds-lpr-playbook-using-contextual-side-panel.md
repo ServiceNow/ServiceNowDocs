@@ -1,24 +1,24 @@
 ---
-title: Using the contextual side panel in License and Permit Playbook
+title: Using the contextual side panel in License and Permit Administration
 description: The contextual side panel provides you with the tools that can help you to research and resolve problems about your cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-lpr-playbook-using-contextual-side-panel.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [License and Permit Playbook, Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using License and Permit Administration, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Using the contextual side panel in License and Permit Playbook
+# Using the contextual side panel in License and Permit Administration
 
 The contextual side panel provides you with the tools that can help you to research and resolve problems about your cases.
 
-The contextual side panel in the CRM Workspace gives you access to information that can help you resolve license and permit request cases.
+The contextual side panel in the Public Sector Workspace gives you access to information that can help you resolve license and permit request cases.
 
 It includes a column of icons that you can select to access different types of information.
 
-The following table shows you the tabs that you should see on the contextual side panel in the License and Permit Playbook.
+The following table shows you the tabs that you should see on the contextual side panel in the License and Permit Administration.
 
 <table id="table_kxy_jxf_cvb"><thead><tr><th>
 
@@ -30,15 +30,15 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Record information icon \[Omitted image "contextual-side-panel-record-info.jpg"\] Alt text: Record information icon
+Record information icon \[Omitted image "contextual-side-panel-record-info.png"\] Alt text: Record information icon
 
 </td><td>
 
-Relevant information about a record. In License and Permit Playbook, the ribbon displays the record information, constituent details, the case timeline, and the active and inactive service level agreements \(SLAs\). For more information on how to view information about the ribbon in playbooks, see [Viewing the ribbon information in License and Permit Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-lpr-playbook-viewing-ribbon.md).
+Relevant information about a record. In License and Permit Administration, the ribbon displays the record information, constituent details, the case timeline, and the active and inactive service level agreements \(SLAs\). For more information on how to view information about the ribbon in playbooks, see [Viewing the ribbon information in License and Permit Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-lpr-playbook-viewing-ribbon.md).
 
 </td></tr><tr><td>
 
-Activity stream icon \[Omitted image "image.activity-stream-icon-psds-playbooks"\] Alt text: Activity stream icon
+Activity stream icon \[Omitted image "activity-stream-icon.png"\] Alt text: Activity stream icon
 
 </td><td>
 

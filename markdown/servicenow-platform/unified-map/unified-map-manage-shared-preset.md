@@ -7,7 +7,7 @@ release: zurich
 product: Unified Map
 classification: unified-map
 topic_type: task
-last_updated: "2025-10-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Administer, Unified Map, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,11 +22,11 @@ Role required: sn\_cmdb\_config\_admin
 
 ## About this task
 
-Follow this procedure to save specified filter settings as a shared preset. The workspace-specific filter criteria in a shared preset are available for all users of the current CMDB Unified Map page. Shared presets defined in one workspace are not available in other workspaces.
+Follow this procedure to save specified filter settings as a shared preset. The workspace-specific filter criteria in a shared preset are available for all users of the current CMDB Unified Map page. Shared presets defined in one workspace aren't available in other workspaces.
 
 Configuration settings for shared presets are saved in the **Unified Map shared presets** profile in the configuration identifier that is applied to the workspace.
 
--   When a user applies a shared preset or a user preset, all filter settings are overridden. Filter attributes from a shared preset or a user preset that do not apply to the current map are listed in the **Unused filter attributes** section of the filter panel. The order of filter-setting precedence from the various sources is as follows:
+-   When a user applies a shared preset or a user preset, all filter settings are overridden. Filter attributes from a shared preset or a user preset that don't apply to the current map are listed in the **Unused filter attributes** section of the filter panel. The order of filter-setting precedence from the various sources is as follows:
     1.  user presets
     2.  shared presets
     3.  shared presets that are defined in a **Unified Map shared presets** profile
@@ -40,9 +40,9 @@ Configuration settings for shared presets are saved in the **Unified Map shared 
 
 1.  While working in a map, select the Map filter icon \[Omitted image "icon-um-filter-outline.png"\] and then select or clear criteria in any filter category.
 
-    Only attributes of elements currently on the map are listed as filter criteria. Attributes that do not apply to the current elements are listed in the **Unused filter attributes** list.
+    Only attributes of elements currently on the map are listed as filter criteria. Attributes that don't apply to the current elements are listed in the **Unused filter attributes** list.
 
-2.  Select the Manage presets icon \[Omitted image "icon-um-more-options-vertical.png"\] Alt text:, and in the Manage shared presets list, select **Create shared preset**.
+2.  Select the Manage presets icon \[Omitted image "icon-um-more-options-vertical.png"\] Alt text: and, in the Manage shared presets list, select **Create shared preset**.
 
 3.  Enter a preset name and then select **Save**.
 
@@ -76,7 +76,7 @@ The new shared preset is listed in the **Unified map shared presets** related li
     Select **Reset filter**.
 
 
-**Parent Topic:**[Configuring Unified Map — Admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/unified-map/administer-unified-map.md)
+**Parent Topic:**[Configuring Unified Map — admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/unified-map/administer-unified-map.md)
 
 **Related topics**  
 

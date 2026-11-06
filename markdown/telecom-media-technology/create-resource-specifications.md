@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/create-resource-specifications.html
 release: zurich
 topic_type: task
-last_updated: "2026-04-02"
-reading_time_minutes: 5
-breadcrumb: [Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Create and publish resource specifications
@@ -28,13 +28,8 @@ Role required: sn\_prd\_pm.product\_catalog\_manager
 You create a resource specification to define the technical information for a resource, which includes the following:
 
 -   All the specification characteristic options that are available for a resource, and how they should be fulfilled.
--   Various categories of information, such as the manufacture, model, and brand-related information about a resource, including the resource visuals and activation guides. Resource specifications are not customer-facing.
+-   Various categories of information, such as the manufacture, model, and brand-related information about a resource, including the resource visuals and activation guides. Resource specifications aren't customer-facing.
 -   Its relationship to other product, service, and resource specifications. You can enable the product and service delivery by using the required resource.
-
-**Note:** To learn how to create a version of a specification when you want to offer an improved or updated offering in your product catalog, see:
-
--   
--   
 
 ## Procedure
 
@@ -87,9 +82,7 @@ Display name
 </td><td>
 
 Name that appears for the specification in the ServiceNow AI Platform when this version of the specification is in effect.-   When you create the initial, or base version of the specification \(for example, version 1\), you must enter free-form text, which is usually the name of the specification, into the field.
--   When you create versions of the specification, a system-assigned concatenation of the specification name and its current version number appears but can be overwritten. For example, SD-WAN Edge Device v2 appears in this field when:
-    1.  SD-WAN Edge Device is the name of the specification.
-    2.  Version 2 is the current version of the specification.
+-   When you create versions of the specification, a system-assigned concatenation of the specification name and its current version number appears but can be overwritten.
 
 
 </td></tr><tr><td>
@@ -277,15 +270,15 @@ Create another version of the specification
 </td></tr></tbody>
 </table>6.  When you are finished creating the specification version, do one of the following actions.
 
-<table id="choicetable_zw3_3sc_dtb"><thead><tr><th align="left" id="d25011e537">
+<table id="choicetable_zw3_3sc_dtb"><thead><tr><th align="left" id="d27129e501">
 
 Action
 
-</th><th align="left" id="d25011e540">
+</th><th align="left" id="d27129e504">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d25011e546">
+</th></tr></thead><tbody><tr><td id="d27129e510">
 
 **Publish**
 
@@ -295,7 +288,7 @@ Publish the draft specification so that you can use it in a product offering. - 
 -   After you publish a specification, you can't change or delete it, unless you create a version for it.
 
 
-</td></tr><tr><td id="d25011e564">
+</td></tr><tr><td id="d27129e528">
 
 **Update**
 
@@ -303,7 +296,7 @@ Publish the draft specification so that you can use it in a product offering. - 
 
 Update the specification with the new data that you added, but do not publish it for use in a product offering.
 
-</td></tr><tr><td id="d25011e573">
+</td></tr><tr><td id="d27129e537">
 
 **Copy**
 

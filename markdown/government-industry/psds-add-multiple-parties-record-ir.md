@@ -1,16 +1,16 @@
 ---
-title: Add multiple parties to a record in Information Request Administration
+title: Add Multiple Parties to a record in Information Request Administration
 description: As a government agent, you can add other business contacts or constituents to an information request application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-add-multiple-parties-record-ir.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Intake case details, Information Request Administration, Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using Information Request Administration, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Add multiple parties to a record in Information Request Administration
+# Add Multiple Parties to a record in Information Request Administration
 
 As a government agent, you can add other business contacts or constituents to an information request application.
 
@@ -20,7 +20,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Open the Information Request Administration by navigating to Lists in the CRM Workspace.
+1.  Open the Information Request Administration by navigating to Lists in the Public Sector Workspace.
 
 2.  Navigate to the **Information Requests** list and select **All**.
 
@@ -34,7 +34,7 @@ Role required: admin
 
 6.  Select the Type and Responsibility of the related party in the dropdown, then enter their contact name in the Contact field to look up existing contacts that match this name.
 
-    **Note:** All information request co-applicants must be registered on the Government Service Portal to be included on a information request application. Each co-applicant can create an account by registering on the Government Service Portal, or a government service agent can create a business contact account for them. For information on how agents can create a business contact record from information entered in an Information Request application, see [Create a business record in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-create-new-business-rec-ws.md).
+    **Note:** All information request co-applicants must be registered on the Government Service Portal to be included on a information request application. Each co-applicant can create an account by registering on the Government Service Portal, or a government service agent can create a business contact account for them. For information on how agents can create a business contact record from information entered in an Information Request application, see [Create a business record in Public Sector Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-create-new-business-rec-ws.md).
 
 7.  Select **Save**.
 

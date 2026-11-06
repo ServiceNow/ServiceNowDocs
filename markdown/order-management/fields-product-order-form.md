@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/fields-product-order-form.html
 release: zurich
 topic_type: reference
-last_updated: "2025-10-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Domain order forms, Order Management reference, Reference, Sales Customer Relationship Management]
 ---

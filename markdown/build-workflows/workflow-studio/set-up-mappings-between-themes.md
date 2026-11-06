@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Playbooks in Service Portal, Designing playbooks, Use, Workflow Studio, Build workflows]
+breadcrumb: [Playbooks in Service Portal, Design Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Set up mappings between themes
@@ -32,15 +32,15 @@ The Portal Playbook widget uses a system property **ux\_portal\_theme\_to\_uib\_
 
 3.  Enter values for the following fields.
 
-<table id="choicetable_aw3_gbw_ybc"><thead><tr><th align="left" id="d132589e99">
+<table id="choicetable_aw3_gbw_ybc"><thead><tr><th align="left" id="d136269e101">
 
 Field
 
-</th><th align="left" id="d132589e102">
+</th><th align="left" id="d136269e104">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d132589e108">
+</th></tr></thead><tbody><tr><td id="d136269e110">
 
 **Name**
 
@@ -48,7 +48,7 @@ Description
 
 Specify your Service Portal property in the name. Give your system property the name **ux\_portal\_theme\_to\_uib\_theme\_mapping.\[the sys ID of your service portal theme\]**. For example, if you use the La Jolla theme for your Service Portal, it has a sys ID of a7a6e78277002300a6e592718a10617a​. You would enter **ux\_portal\_theme\_to\_uib\_theme\_mapping.a7a6e78277002300a6e592718a10617a​** as the name.​
 
-</td></tr><tr><td id="d132589e129">
+</td></tr><tr><td id="d136269e131">
 
 **Value**
 
@@ -70,7 +70,5 @@ The mapping between your Service Portal theme and the UXF theme is saved. Launch
 
 Embed a playbook in a Service Portal page and customize the Service Portal playbook runtime experience in the ServiceNow AI Platform®.
 
-To learn more about customizing the playbook runtime experience in Service Portal, see [Embed the playbook in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/embed-playbook-service-portal.md).
-
-**Parent Topic:**[Playbooks in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbooks-service-portal.md)
+To learn more about customizing the playbook runtime experience in Service Portal, see [Configure a playbook for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/embed-playbook-service-portal.md).
 

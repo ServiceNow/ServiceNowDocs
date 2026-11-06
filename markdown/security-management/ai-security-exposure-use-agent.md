@@ -67,5 +67,3 @@ Before providing the agent with instructions, use the AI guardrails helper skill
     Select the **Approvals** tab on the approval rule record to view the status of your requests.
 
 
-**Parent Topic:**[Using the AI guardrails helper skill and agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/ai-security-exposure-skill-agent.md)
-

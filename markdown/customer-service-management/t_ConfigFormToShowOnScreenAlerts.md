@@ -1,18 +1,18 @@
 ---
 title: Configure a form to show special handling notes
-description: Display special handling notes on a form, such as the case form, in either a form list or a pop-up window.
+description: Display special handling notes on a form, such as the Case form, in either a form list or a pop-up window.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_ConfigFormToShowOnScreenAlerts.html
 release: zurich
 topic_type: task
-last_updated: "2025-09-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure special handling notes, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Configure a form to show special handling notes
 
-Display special handling notes on a form, such as the case form, in either a form list or a pop-up window.
+Display special handling notes on a form, such as the Case form, in either a form list or a pop-up window.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: sn\_shn.admin
 
 ## Procedure
 
-1.  Navigate to a form such as the case form.
+1.  Navigate to a form such as the Case form.
 
 2.  Right-click the form header and select **Configure** &gt; **Form Layout**.
 

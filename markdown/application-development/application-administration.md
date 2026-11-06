@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/application-administration.html
 release: zurich
 topic_type: concept
-last_updated: "2025-11-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Contextual development environment, Learning about developing on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Contextual development environment, Learning about developing on the ServiceNow AI Platform, Classic app development, Building applications]
 ---
 
 # Application administration
@@ -54,7 +54,7 @@ Application-specific developer
 
 </td><td>
 
-Users with this role can access the restricted application. For example, you can create a role named my\_application.developer. It should include the name of the restricted application, with a suffix of "developer" to indicate that it is the developer role for the application. The developer role needs both application administrator and delegated development permissions to modify the application files.To learn more, see [Exploring Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md) and [Delegating development permissions to personnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/t_AddADeveloper.md).
+Users with this role can access the restricted application. For example, you can create a role named my\_application.developer. It should include the name of the restricted application, with a suffix of "developer" to indicate that it is the developer role for the application. The developer role needs both application administrator and delegated development permissions to modify the application files.To learn more, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md) and [Delegate development and deployment permissions to personnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/t_AddADeveloper.md).
 
 </td></tr></tbody>
 </table>## Application-specific admin role
@@ -117,5 +117,5 @@ The ServiceNow® Developer Site has training for [Securing Applications](https:/
 **Related topics**  
 
 
-[Exploring Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md)
+[Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md)
 

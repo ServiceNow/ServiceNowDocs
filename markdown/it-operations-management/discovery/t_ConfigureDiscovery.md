@@ -7,7 +7,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-09-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Discovery setup, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---

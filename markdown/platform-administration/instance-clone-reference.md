@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/instance-clone-reference.html
 release: zurich
 topic_type: reference
-last_updated: "2025-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Instance Clone, Configure core features, Administer]
+breadcrumb: [Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Instance Clone reference
@@ -19,7 +19,7 @@ A reference topic that contains various configurations for your data when reques
 -   **[Clone states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/clone-states.md)**  
 A reference topic displaying the various states of a clone.
 -   **[Clone terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/clone-terminology.md)**  
-A reference topic that contains various terms and definitions for cloning.
+Key terms and definitions used in instance clone documentation and the Clone Admin Console.
 -   **[General guidelines for optimizing your clone duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/clone-duration-optimization.md)**  
 A reference topic that includes general guidelines to optimize your clone duration when requesting a clone.
 -   **[Troubleshooting for registering target instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/register-target-instance-troubleshooting.md)**  

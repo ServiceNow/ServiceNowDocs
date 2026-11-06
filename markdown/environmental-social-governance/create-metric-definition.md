@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/create-metric-definition.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -24,7 +24,7 @@ In automated metric definitions, the data is collected automatically based on th
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Environmental, Social, and Governance** &gt; **ESG Workspace** &gt; **Metrics** &gt; **Automated metric definitions**.
+1.  Navigate to **All** &gt; **Operational Sustainability Management** &gt; **Operational Sustainability Workspace** &gt; **Metrics** &gt; **Automated metric definitions**.
 
 2.  Select **New**.
 
@@ -43,7 +43,7 @@ The automated metric definition is saved in the Metric definitions list.
 
 ## What to do next
 
-You can associate an entity type, create metrics, and add citations to the metric definition. See [Update metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/update-automated-metric-definition.md) for more information.
+You can associate an entity type, create metrics, and add citations to the metric definition. See [Update a metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/update-automated-metric-definition.md) for more information.
 
 -   **[Automated metric definition fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/automated-metric-definition-fields.md)**  
 The fields of the automated metric definition form are explained in this topic.

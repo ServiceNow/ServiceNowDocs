@@ -7,9 +7,9 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure metadata extraction, Configure, Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Configure metadata extraction, Configure AI capabilities, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Enable notification for contract metadata extraction
@@ -33,6 +33,8 @@ Role required: admin
 3.  Select **Metadata extraction-Completed**.
 
 4.  On the Notification form, select the **Active** check box.
+
+    \[Omitted image "cmpro-na-me-notf.png"\] Alt text: Activate check box in the metadata extraction email notification.
 
 5.  Select **Update**.
 

@@ -7,7 +7,7 @@ release: zurich
 product: Core UI Interactive Filters
 classification: core-ui-interactive-filters
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Interactive Filters, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -17,6 +17,8 @@ breadcrumb: [Interactive Filters, Reporting, dashboards, and Performance Analyti
 You can create and configure Interactive Filters for multiple field types.
 
 Before you create an interactive filter, choose which type of filter to create.
+
+**Note:** From the Australia release, only users with the report\_admin role can create and edit Core UI interactive filters. To create filters in Platform Analytics experience, see [Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/interactive-filters-workspace.md).
 
 <table id="table_ayz_zzg_kr"><thead><tr><th>
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/ra-csm-installed-components.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Install the Recommended Actions application, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
 
@@ -239,7 +239,7 @@ Grants access to configure trend definitions.
 None
 
 </td></tr></tbody>
-</table>Other than the roles in the preceding table, you can delegate deployment tasks to developers or non-admin users. For more information on the delegated development, see [Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/delegated-development-landing.md).
+</table>Granular admin users can be granted delegated developer privileges and other required roles to manage and configure metadata in scoped applications instead of assigning high-privileged admin roles. By granting granular admin users with the Manage Update Set permission, you can allow them to create and manage records within a specific application scope and track those changes in the appropriate update set. The metadata\_scope\_viewer role allows these granular admins to view the Application field on metadata records within scoped applications. Other than the roles in the preceding table, you can delegate deployment tasks to developers or non-admin users. For more information on the delegated development, see [Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/delegated-development-landing.md).
 
 ## Guidances
 

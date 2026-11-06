@@ -7,7 +7,7 @@ release: zurich
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Knowledge Management reference, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,6 +24,4 @@ The knowledge article number and the version number appear at the top of the art
 You can view any of the previous versions of an article by clicking the version number in the list. When you view a previous version, a message at the top of the article indicates that an updated version is available.
 
 At the bottom of a knowledge article, you can see additional information about an article, including the name of the author or revisor and the date that the article was last modified.
-
-**Parent Topic:**[Knowledge Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/knowledge-management-reference.md)
 

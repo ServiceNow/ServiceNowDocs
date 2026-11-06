@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sem-configure-approval-rules-list-and-form-view.html
 release: zurich
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Unified Approval Rules Overview, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -16,7 +16,7 @@ Create and activate an approval rule by selecting a rule type, choosing the targ
 
 ## Before you begin
 
-Role required: sn\_vul\_container.vulnerability\_admin, sn\_vul\_cmn.vulnerability\_admin, sn\_vul.remediation\_owner, sn\_vulc.remediation\_owner, sn\_vul\_container.remediation\_owner
+Role required: sn\_vul\_container.vulnerability\_admin, sn\_vul\_cmn.vulnerability\_admin
 
 ## Procedure
 
@@ -43,6 +43,15 @@ Rule type
 </td><td>
 
 Determines the purpose of the approval \(e.g., false positive, exception\). The available types depend on the selected target tables.
+
+ Available rule types include:
+
+-   **deferral\_requests**: For exception and deferral approval workflows.
+-   **false\_positive**: For false positive approval workflows.
+-   **modify\_risk**: For risk modify requests type.
+-   **exception\_rules**: For exception rule creation and extension approvals.
+-   **unassign**: For unassignment approval workflows.
+-   **Note:** The "compensating\_control\_management" rule type is deprecated and all risk modify requests will be routed through the modify\_risk type.
 
 </td></tr><tr><td>
 
@@ -119,6 +128,4 @@ Indicates whether the rule can be used. Activation requires at least one approva
 
     The rule is active and routed based on the defined levels, tables, and conditions.
 
-
-**Parent Topic:**[Unified Approval Rules Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-approval-rules-overiew.md)
 

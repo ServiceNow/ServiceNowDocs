@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Building subflows, Use, Workflow Studio, Build workflows]
+breadcrumb: [Build subflows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Subflow history
@@ -95,6 +95,8 @@ Each subflow can have up to 20 favorite flow history entries. Marking a flow his
 
 By default, Workflow Studio stores 100 flow history records. When the total number of flow history entries exceeds this limit, Workflow Studio overwrites the oldest history entry that is not marked as a favorite. You can set the maximum number of flow history records to store using the sn\_flow\_designer.maximum\_flow\_history\_records\_per\_flow system property. For more information about using this property, see [Workflow Studio flow system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-designer-system-properties.md).
 
+-   **[View subflow history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/view-subflow-history.md)**  
+View the change history of a subflow by date and user.
 -   **[Add an annotation to a subflow history entry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/add-annotation-to-subflow-history-entry.md)**  
 Add a text description to a subflow's flow history entry. Summarize the purpose or contents of a particular flow history entry.
 -   **[Delete a subflow's flow history entry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/delete-subflow-history-entry.md)**  

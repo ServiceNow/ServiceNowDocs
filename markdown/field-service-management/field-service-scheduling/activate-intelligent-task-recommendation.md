@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up Intelligent Task Recommendations, Setting up a Field Service scheduling method, Configure, Field Service Management]
+breadcrumb: [Configure Intelligent Task Recommendations, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Activate Intelligent Task Recommendation
@@ -20,8 +20,8 @@ Activate the Intelligent Task Recommendation plugin \(com.snc\_task\_recommendat
 
 Field Service Intelligent Task Recommendation feature requires the following plugins:
 
--   Intelligent Task Recommendation \(com.snc\_task\_recommendations\): Provides basic task recommendation framework scripts, configurations, and default extension points.
--   Field Service Management Intelligent Task Recommendations \(com.snc.fsm\_task\_recommendations\): Provides specific implementation and configuration for Field Service Management, which includes default filter constraints, ranking criteria, and Field Service Management extension points.
+-   Intelligent Task Recommendation \(sn\_task\_recommend\): Provides basic task recommendation framework scripts, configurations, and default extension points.
+-   Field Service Management Intelligent Task Recommendations \(sn\_fsm\_task\_rec\): Provides specific implementation and configuration for Field Service Management, which includes default filter constraints, ranking criteria, and Field Service Management extension points.
 
 Ensure the Field Service Management plugin is activated before you install Field Service Intelligent Task Recommendation. See [Activate Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/t_ActivateFieldServiceManagement.md) for more information.
 
@@ -31,7 +31,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-2.  Find the Intelligent Task Recommendation plugin \(com.snc\_task\_recommendations\)\) using the filter criteria and search bar.
+2.  Find the Intelligent Task Recommendation plugin \(sn\_task\_recommend\)\) using the filter criteria and search bar.
 
     You can search for the plugin by its name or ID. If you cannot find a plugin, you might have to request it from ServiceNow personnel.
 
@@ -41,7 +41,7 @@ Role required: admin
 
 4.  Select **Install** to start the installation process.
 
-    **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
+    **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/find-components.md).
 

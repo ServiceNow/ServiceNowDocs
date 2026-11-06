@@ -7,7 +7,7 @@ release: zurich
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use Article Quality Index, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -50,22 +50,22 @@ Configure the **glide.knowman.aqi.article\_workflow\_states** property to set th
     **Note:**
 
     -   If you perform several AQI reviews for the same version, the latest AQI score appears in the **Latest AQI** field in the article.
-    -   If you're using Knowledge Management within the Customer Service Management application, you can automatically make knowledge public by running the Make KM Service Portal Pages Public fix script after you install the Customer Service Management plugin \(com.sn\_customerservice\).
+    -   If you’re using Knowledge Management within the Customer Service Management application, you can automatically make knowledge public by running the Make KM Service Portal Pages Public fix script after you install the Customer Service Management plugin \(com.sn\_customerservice\).
     Standard Pagination - Displays the search results in multiple pages.
 
     Infinite Scroll - Displays the search results while scrolling.
 
 5.  Perform one of the following actions.
 
-<table id="choicetable_vhz_t4m_nbb"><thead><tr><th align="left" id="d375583e207">
+<table id="choicetable_vhz_t4m_nbb"><thead><tr><th align="left" id="d379975e207">
 
 To
 
-</th><th align="left" id="d375583e210">
+</th><th align="left" id="d379975e210">
 
 Do This
 
-</th></tr></thead><tbody><tr><td id="d375583e216">
+</th></tr></thead><tbody><tr><td id="d379975e216">
 
 **Submit the completed AQI review.**
 
@@ -80,7 +80,7 @@ Click **Submit**. The form refreshes and the total score of the AQI review is di
 
 **Note:** The notification includes the AQI review score and AQI review result. You can customize the content and design of the notification emails. In cases where the Ownership Group is enabled, the email notifications are sent to the Ownership Group as well.
 
-</td></tr><tr><td id="d375583e250">
+</td></tr><tr><td id="d379975e250">
 
 **Save the pending review to complete later.**
 

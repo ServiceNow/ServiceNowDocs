@@ -1,5 +1,5 @@
 ---
-title: Duplicate Playbooks
+title: Duplicate a playbook
 description: Make a copy of an existing playbook with the same trigger, stages, activities, and experience configurations as the original. Edit the duplicated playbook to quickly create a working variation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/duplicate-process.html
@@ -7,18 +7,18 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Playbooks in Workflow Studio, Building playbooks, Use, Workflow Studio, Build workflows]
+breadcrumb: [Creating and managing Playbooks, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
-# Duplicate Playbooks
+# Duplicate a playbook
 
 Make a copy of an existing playbook with the same trigger, stages, activities, and experience configurations as the original. Edit the duplicated playbook to quickly create a working variation.
 
 ## Before you begin
 
--   [Activate playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/activate-process-automation-designer.md) for your appropriate application.
+-   [Activate Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/activate-process-automation-designer.md) for your appropriate application.
 -   Familiarize yourself with the tables and relationships that your application uses for the playbook that you want to create.
 -   Make sure to Familiarize yourself with any features that your business uses to automate operations on the ServiceNow AI Platform, such as [flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/exploring-flows.md), [subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/exploring-subflows.md), and [actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/exploring-actions.md).
 -   Learn how to [get started with ServiceNow® Process Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/getting-started-process-automation.md).
@@ -44,7 +44,7 @@ Make a copy of an existing playbook with the same trigger, stages, activities, a
 
 5.  Fill in the playbook properties.
 
-<table id="choicetable_ndc_pgy_5lb"><tbody><tr><td id="d155970e217">
+<table id="choicetable_ndc_pgy_5lb"><tbody><tr><td id="d160604e215">
 
 **Label**
 
@@ -52,15 +52,15 @@ Make a copy of an existing playbook with the same trigger, stages, activities, a
 
 Enter a unique, user-facing name for your playbook. This name appears during playbook runtime.
 
-</td></tr><tr><td id="d155970e232">
+</td></tr><tr><td id="d160604e230">
 
 **Application**
 
 </td><td>
 
-Choose an application scope that you want your playbook to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see Application scope.
+Choose an application scope that you want your playbook to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/c_ApplicationScope.md).
 
-</td></tr><tr><td id="d155970e254">
+</td></tr><tr><td id="d160604e252">
 
 **Description**
 
@@ -68,7 +68,7 @@ Choose an application scope that you want your playbook to run in. Selecting **G
 
 Optionally, enter some descriptive details about your playbook.
 
-</td></tr><tr><td id="d155970e266">
+</td></tr><tr><td id="d160604e264">
 
 **Trigger type**
 
@@ -76,7 +76,7 @@ Optionally, enter some descriptive details about your playbook.
 
 Specify what causes your trigger to fire.
 
-</td></tr><tr><td id="d155970e275">
+</td></tr><tr><td id="d160604e273">
 
 **Table**
 
@@ -90,20 +90,5 @@ The table with the record operations that you want to trigger your playbook. Thi
 7.  Select **Save**.
 
 
-**Parent Topic:**[Playbooks in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-definitions.md)
-
-**Related topics**  
-
-
-[Create a playbook]()
-
-[Playbook variants]()
-
-[Test a playbook]()
-
-[Enabling playbook restart]()
-
-[Add translations for playbooks]()
-
-[View all buttons without hover]()
+**Parent Topic:**[Creating and managing Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/creating-managing-playbooks.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Health and Safety
 classification: health-and-safety
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage Health and Safety incident using the Mobile Agent app, Mobile experience for Health and Safety, Health and Safety, Employee Service Management]
 ---
@@ -30,7 +30,7 @@ Easily create safety incident records. Assign the new incident records to yourse
 
 2.  In the navigation bar, tap **Home**.
 
-3.  Tap **Safety incidents** icon \[Omitted image "casemgmt-templateicon.png"\] Alt text: safety incident icon from the quick links section.
+3.  Tap **Safety incidents** icon \(\[Omitted image "casemgmt-templateicon.png"\] Alt text: safety incident icon\) from the quick links section.
 
     Opens the **All safety incidents list** page where you can view the list of safety incidents.
 

@@ -7,9 +7,9 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Automated root cause analysis, Analyzing and getting process insights, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Automated root cause analysis, Analyzing and getting process insights, Use, Process Mining, Platform Analytics]
 ---
 
 # Run automated root cause analysis reports
@@ -18,7 +18,7 @@ Execute automated root cause analysis to optimize your processes.
 
 ## Before you begin
 
-Role required:sn\_process\_optimization\_admin, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_analyst
+Role required:sn\_process\_mining\_admin, sn\_process\_mining\_power\_user, or sn\_process\_mining\_analyst
 
 ## Procedure
 

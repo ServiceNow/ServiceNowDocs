@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/fsm-reference.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Field Service Management]
 ---
 
@@ -16,6 +16,8 @@ Reference topics provide additional information about Field Service Management c
 
 -   **[Components installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/r_InstalledWithFSM.md)**  
 Several types of components are installed with Field Service Management.
+-   **[Roles required for Field Service Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/roles-required-for-field-service-guided-setup.md)**  
+Different roles are required to perform various steps in Field Service Guided Setup.
 -   **[Section 508 compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/section-508-complaince-feature.md)**  
 You can view and interact with the certain Field Service features using Section 508 compliance features.
 -   **[Work order task fields in the Field Service Contractor application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/fields-wot-field-service-contractor.md)**  
@@ -26,6 +28,8 @@ Several types of components are installed with the additional plugins for the Fi
 Components installed with Schedule Optimization include tables, roles, constraints, objectives, and properties.
 -   **[Schedule Optimization travel estimate providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/schedule-optimization-travel-estimate-providers.md)**  
 Travel estimate providers used by Schedule Optimization.
+-   **[Skills table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/skills-table-fields.md)**  
+Field reference for skills management records in Field Service Management, including Task Skills, User Skills, Group Skills, and User Skill History tables.
 -   **[Intra-day schedule automation flows and subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/intraday-scheduling-flows.md)**  
 The flows and subflows for configuring intra-day schedule automation.
 -   **[Task assignees table for crew members or equipment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/task-assignees-table.md)**  
@@ -46,6 +50,12 @@ Settings in the application configuration determine how the appointment booking 
 The application configuration works with the Field Service Management configuration for task assignment.
 -   **[Learn about triggers for work schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/schedule-trigger-types.md)**  
 Trigger types determine the initiation of the execution of the work plan.
+-   **[Field Service Management script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/fsm-script-includes.md)**  
+Script includes used in Field Service Management help configure agent scheduling, dispatch operations, part management, integrations, and more.
+-   **[Field Service Management questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-management-questionnaires.md)**  
+Both survey-based and Smart Assessment questionnaires are available in the ServiceNow Agent mobile application. If a questionnaire is configured as mandatory for a work order task, the task can't be closed until the questionnaire is completed.
 -   **[GeoJSON format requirements for territory geographies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/geojson-format-requirements.md)**  
 GeoJSON format requirements define the structure, geometry types, and coordinate rules that territory geographies must follow.
+-   **[Field Service Management glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-management-glossary.md)**  
+Learn about terms and concepts that are unique to Field Service Management.
 

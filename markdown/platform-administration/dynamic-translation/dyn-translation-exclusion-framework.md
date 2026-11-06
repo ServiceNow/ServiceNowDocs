@@ -7,9 +7,9 @@ release: zurich
 product: Dynamic Translation
 classification: dynamic-translation
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configuring Dynamic Translation, Dynamic Translation, Translation and localization, Configure core features, Administer]
+breadcrumb: [Configuring Dynamic Translation, Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Exclusion Framework in Dynamic Translation

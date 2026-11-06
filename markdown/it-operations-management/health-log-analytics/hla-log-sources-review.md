@@ -1,13 +1,13 @@
 ---
 title: Verify your log sources in Health Log Analytics
-description: Verify that all your log sources are present and active after tagging and automatic mapping.
+description: Verify that all your log sources are present and active. Health Log Analytics tagging assigns logs to service instances and components, and automatically maps logs to sources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-log-sources-review.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow, Health Log Analytics, HLA, log sources, Log Sources table, active, status, tagging, tags, service instance, component, mapping]
 breadcrumb: [Additional data input setup tasks, Set up data inputs manually, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
@@ -15,7 +15,7 @@ breadcrumb: [Additional data input setup tasks, Set up data inputs manually, Set
 
 # Verify your log sources in Health Log Analytics
 
-Verify that all your log sources are present and active after tagging and automatic mapping.
+Verify that all your log sources are present and active. Health Log Analytics tagging assigns logs to service instances and components, and automatically maps logs to sources.
 
 ## Before you begin
 
@@ -88,7 +88,7 @@ The last time logs streamed into the system from this source.
 
     2.  Use the JavaScript function to manually map a log sample to the correct service instance, component, and source type.
 
-        For more information, see [Map raw log data in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-mapping.md).
+        For more information, see [Map raw log data manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-mapping.md).
 
     3.  Navigate back to the Log Sources page and verify that the status of the new log source is Active.
 

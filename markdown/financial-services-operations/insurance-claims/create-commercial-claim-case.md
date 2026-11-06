@@ -7,9 +7,9 @@ release: zurich
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, Commercial Lines Claims, Claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Commercial Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Create a commercial claim case
@@ -28,15 +28,15 @@ Role required: sn\_ins\_claim\_cml.fnol\_representative or sn\_ins\_claim\_cml.a
 
 3.  Create a case from the commercial auto claim cases list or an interaction record.
 
-<table><thead><tr><th align="left" id="d100588e85">
+<table><thead><tr><th align="left" id="d111035e85">
 
 Option
 
-</th><th align="left" id="d100588e88">
+</th><th align="left" id="d111035e88">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d100588e94">
+</th></tr></thead><tbody><tr><td id="d111035e94">
 
 **Commercial auto claim case from the commercial auto claim case list**
 
@@ -46,7 +46,7 @@ Steps
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d100588e124">
+</td></tr><tr><td id="d111035e124">
 
 **Commercial auto claim case from an interaction record**
 

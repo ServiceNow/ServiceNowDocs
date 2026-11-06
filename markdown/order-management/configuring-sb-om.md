@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/configuring-sb-om.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Order Management for providers with Service Exchange, Integrate, Sales Customer Relationship Management]
 ---
@@ -16,7 +16,7 @@ Configure the Service Exchange Order Management for Providers application, which
 
 ## Configuration overview
 
-Follow these tasks to set up the Service Exchange Order Management for Providers application, which uses Order Management to create product offerings and service specification and publish them ServiceNow in your provider instance as remote record producers. Service Bridge admins can then activate these remote record producers to make the products and services available from the Service Catalog on consumer instances.
+Follow these tasks to set up the Service Exchange Order Management for Providers application, which uses Order Management to create product offerings and service specification and publish them ServiceNow in your provider instance as remote record producers. Service Exchange admins can then activate these remote record producers to make the products and services available from the Service Catalog on consumer instances.
 
 <table id="table_n2l_dcy_qxb"><thead><tr><th>
 
@@ -96,7 +96,7 @@ Product catalog admin or manager
 
 </td><td>
 
-In the provider instance, review the remote record producer and associate the customer criteria that entitles the catalog item for eligible Service Exchange consumers.
+In the provider instance, review the remote record producer and associate the customer criteria that entitles the catalog item for eligible Service Bridge consumers.
 
 </td><td>
 

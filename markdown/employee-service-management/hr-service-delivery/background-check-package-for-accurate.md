@@ -7,9 +7,9 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Accurate Background service, HR Integrations, Integrate with third-party systems, HR Service Delivery, Employee Service Management]
+breadcrumb: [Integrating with the Accurate Background service, HR Integrations, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
 # Add background check packages for the Accurate service

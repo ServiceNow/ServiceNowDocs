@@ -7,9 +7,9 @@ release: zurich
 product: Workplace Core
 classification: workplace-core
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Analytics and reporting, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Analytics and Reporting, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # View your workplace floor plan update logs

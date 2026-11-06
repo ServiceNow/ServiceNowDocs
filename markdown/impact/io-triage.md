@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/io-triage.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Triage a ServiceNow instance, Overview of Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Triage an instance for ongoing operations, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
 # Triaged instance data
@@ -26,11 +26,11 @@ The jobs widget breaks down the jobs into their current execution duration. You 
 
 ## Servlets
 
-Use Servlets widget to learn more about your instance’s nodes. The servlets widget displays information about the servlets currently serving the instance, including their names, start times, and the amount of heap and meta space they are using in comparison to what is available. This widget allows you to evaluate the distribution of activity among your nodes.
+Use Servlets widget to learn more about your instance’s nodes. The servlets widget displays information about the servlets currently serving the instance. This includes servlet names, start times, and the amount of heap and meta space they are using compared to what is available. This widget allows you to evaluate the distribution of activity among your nodes.
 
 ## Schedulers
 
-The schedulers widget allows you to gain insight into your schedulers by providing a detailed list that includes the number of jobs being executed, the number of worker nodes assigned to a node, the number of workers currently in use, the average age of the queue, and the total number of queues. Use this widget to identify the most heavily used nodes within your instance.
+The schedulers widget provides insight into your schedulers with a detailed list. This includes the number of jobs being executed, worker nodes assigned to a node, workers currently in use, and queue metrics. Use this widget to identify the most heavily used nodes within your instance.
 
 ## Semaphore Sets
 
@@ -39,4 +39,6 @@ The semaphore sets widget lists the utilization of various semaphores available 
 ## Update Sets
 
 The update sets widget lists all the updates that are applied in the past 24 hours and their completion state. Use this widget to gain insight of any updates that may be responsible to new features or performance changes within your instance.
+
+**Parent Topic:**[Triage an instance for ongoing operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-triage-sn-instance.md)
 

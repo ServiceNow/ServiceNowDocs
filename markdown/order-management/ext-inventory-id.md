@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/ext-inventory-id.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing service orders, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -32,4 +32,11 @@ With the support of an external inventory ID, you can do the following tasks:
 Review the external inventory details of the customer orders that you’ve received from the external Configure, Price, and Quote \(CPQ\) system during the order capture process.
 
 **Parent Topic:**[Managing service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/managing-service-orders.md)
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-order-management.md)
 

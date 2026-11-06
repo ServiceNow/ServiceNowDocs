@@ -7,9 +7,9 @@ release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Strategy Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Strategy Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Develop Partner Strategy
@@ -20,7 +20,7 @@ The Develop Partner Strategy Accelerators provide guidance on finding and evalua
 
 Guidance on finding and evaluating effective partners
 
-### Overview
+### Accelerator Overview
 
 Develop Partner Strategy provides Impact Customers with guidance to identify, and evaluate, a ServiceNow implementation partner that is aligned to their objectives and has the expertise needed to help them achieve the target outcome.
 
@@ -67,7 +67,7 @@ ServiceNow is not responsible for partner assessment, identification, selection,
 
 Guidance on finding and evaluating effective partners
 
-### Overview
+### Accelerator Overview
 
 Develop Partner Strategy provides Impact Customers with guidance to identify, evaluate, and select a ServiceNow implementation partner that is aligned to their objectives and has the expertise needed to help them achieve value from their ServiceNow investment.
 

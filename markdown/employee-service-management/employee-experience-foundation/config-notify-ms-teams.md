@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Microsoft Teams integration for Agent Experience, Configure, ServiceNow for Microsoft Teams and Microsoft 365, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Microsoft Teams integration for Agent Experience, Configure, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure Notify connector for Microsoft Teams
@@ -30,8 +30,6 @@ Enable the audio conferencing to allow the users to participate in the conferenc
 You can override the lobby settings in your instance to allow the participants to join the conference call without waiting in the lobby.
 -   **[Map Microsoft Azure email to ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/map-azure-email-to-sn-instance.md)**  
 Create a custom email field to use Microsoft Teams app to initiate call for the agents to resolve the tickets raised by users.
--   **[Accessing Microsoft Teams meeting transcripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/teams-meeting-transcript.md)**  
-The Notify Connector for Microsoft Teams can automatically retrieve and store meeting transcripts from Microsoft Teams meetings in ServiceNow
 
 **Parent Topic:**[Configuring Microsoft Teams integration for Agent Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/c_agent_ex_config.md)
 

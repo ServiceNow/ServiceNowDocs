@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/c\_TargetThresholdColorsAttribute.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Percent complete field type, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer]
+breadcrumb: [Percent complete field type, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Target threshold colors attribute
@@ -19,7 +19,7 @@ The parameters are:
 -   Different thresholds at which the colored bar should change color
 -   A specific color for each threshold
 
-The format of this attribute's value is **number1:color1;number2:color2** and so on. Use this attribute to apply warning colors to completion percentages that are lower than target percentages. These values are defined as the percentage of target accomplished. For example, a value of **0:red;50:yellow;90:green** displays a red bar if the progress to target percentage is between 0-49. If the percent of target is between 50 and 89, the color is yellow. Percent of target 90 and above displays in green. Completion percentages that exceed target percentages also display in green. Order the color attributes from the smallest percentage to the largest.
+The format of this attribute's value is **number1:color1;number2:color2** and so on. Use this attribute to apply warning colors to completion percentages that are lower than target percentages. These values are defined as the percentage of target accomplished. For example, a value of **0:red;50:yellow;90:green** displays a red bar if the progress to target pecentage is between 0-49. If the percent of target is between 50 and 89, the color is yellow. Percent of target 90 and above displays in green. Completion percentages that exceed target percentages also display in green. Order the color attributes from the smallest percentage to the largest.
 
 If you do not specify a target\_field, then a target of 100 is used, allowing you to use the color thresholds with a single field value.
 
@@ -53,18 +53,14 @@ If a target field is not specified, the target of 100 is assumed.
 
 2.  Select **Configure Dictionary** from the pop-up menu.
 
-3.  Select **Dictionary Entry** &gt; **View** &gt; **Advanced** to make the **Attributes** field available.
+3.  In the Dictionary Entry form, add the following attribute:
 
-4.  In the **Attributes** field, enter **target\_field=\[target\_field\_name\]**
+    **target\_field=percent\_complete\_target**
 
-    ```
-    target_field=target_percent_complete
-    ```
-
-5.  Update the dictionary record.
+4.  Update the dictionary record.
 
     In the list, a gray bar appears behind the colored bar to indicate the target value. The gray target bar appears only if you defined a target field.
 
-    \[Omitted image "PercentComplete4.png"\] Alt text: Feature task list with the % complete column color-coded based on comparison to the Target % complete column.
+    \[Omitted image "PercentComplete4.png"\] Alt text: Percent complete
 
 

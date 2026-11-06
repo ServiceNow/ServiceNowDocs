@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-07-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Summarize CMDB readiness skill, ServiceNow Otto for CMDB, CMDB success advisor dashboard, configure skill]
 breadcrumb: [Configure, ServiceNow Otto for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]

@@ -7,9 +7,9 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2026-07-24"
-reading_time_minutes: 6
-breadcrumb: [Reference, AI Search, Search administration, Configure core features, Administer]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [Reference, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Search Application Configuration form
@@ -145,7 +145,7 @@ Show parent for results that are attachments
 
 </td><td>
 
-Option to display attachment search results inline with their parent results on the search application's results page. If cleared, attachment search results display separately from their parent results. For more details on the effects of attachment grouping, see .
+Option to display attachment search results inline with their parent results on the search application's results page. If cleared, attachment search results display separately from their parent results. For more details on the effects of attachment grouping, see [Grouping attachment search results with their parent search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/grouping-attachment-srch-results-ais.md).
 
  Type: true \| false
 

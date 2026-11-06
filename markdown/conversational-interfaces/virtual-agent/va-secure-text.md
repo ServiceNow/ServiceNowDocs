@@ -7,9 +7,9 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Assistant Designer user input controls, Assistant Designer Asset library interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer user input controls, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Secure Text user input control
@@ -137,7 +137,7 @@ Skip reprompting
 
 </td><td>
 
-No-code condition statement or low-code script that specifies a condition for letting users skip reprompting in the conversation. When a preceding node is revisited through a topic loopback or [Dialog Act](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/c_dialog-acts.md), the Virtual Agent bypasses this node and automatically retain its original value.
+No-code condition statement or low-code script that specifies a condition for letting users skip reprompting in the conversation. When a preceding node is revisited through a topic loopback or [Dialog Act](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/c_dialog-acts.md), the Virtual Agent bypasses this node and automatically retain its original value.
 
 </td></tr></tbody>
 </table>## Example Secure Text user input control
@@ -174,8 +174,7 @@ Input prompt
 |Facebook Messenger|Supported|The maximum character limit is 5000 characters.|
 |SMS Twilio|Supported|None.|
 |LINE|Supported|The maximum character limit is 5000 characters.|
-|WhatsApp \(powered by Twilio\)|Supported|None.|
-|WhatsApp|Not Supported|Not applicable.|
+|WhatsApp|Supported|None.|
 |Apple Messages for Business|Supported|None.|
 |Alexa \(Voice\)|Supported|For screen devices, character limits may apply. For more information, see the [Alexa developer documentation](https://developer.amazon.com/en-US/docs/alexa/custom-skills/display-interface-reference.html).|
 

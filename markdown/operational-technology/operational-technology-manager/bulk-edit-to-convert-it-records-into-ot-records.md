@@ -7,7 +7,7 @@ release: zurich
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [OT device related items and related lists, Edit or view OT devices after import or discovery, Use, Operational Technology Manager, Operational Technology]
 ---
@@ -28,7 +28,7 @@ Role required: cmdb\_ot\_admin or admin
 
 3.  If you want to filter the All IT Hardware list, do the following actions:
 
-    -   Select the filter \[Omitted image "filter-list-icon.png"\] Alt text: Filter icon. icon in the top-right corner of the list.
+    -   Select the filter \[Omitted image "filter-list-icon.png"\] Alt text: Filter icon. icon.
     -   Add the filter that you want applied to the list.
     -   Select **Update**.
 4.  Select the check box next to each of the IT hardware devices that you want to convert.
@@ -98,9 +98,7 @@ Top-level parent entity, or industrial site, where the device is located or assi
 </td></tr></tbody>
 </table>7.  Select **Convert**.
 
-    The following banner appears to let you know the process has started. To check the All OT Devices list for updates, you can select the link in the banner.
-
-    \[Omitted image "ot-attributes-populated.png"\] Alt text: Banner that lets the user know the selected IT hardware devices are being converted to OT devices.
+    A banner appears to notify that the process has started. To check the All OT Devices list for updates, you can select the link in the banner.
 
 
 ## Result

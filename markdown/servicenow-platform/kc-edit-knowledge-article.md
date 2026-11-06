@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/kc-edit-knowledge-article.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Knowledge Center, Knowledge Center, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -52,7 +52,7 @@ Generate and edit knowledge articles in the Knowledge Center from a task using A
 
 12. Upload images and re-size, rotate, or flip using the image-editing tools.
 
-13. Use the Now Assist article assistant to modify content with open prompt commands for summarizing, expanding and, formatting paragraphs.
+13. Use the AI article assistant to modify content with open prompt commands for summarizing, expanding and, formatting paragraphs.
 
 14. Select **Save** to save the draft of the article.
 
@@ -62,5 +62,5 @@ Generate and edit knowledge articles in the Knowledge Center from a task using A
 
 [Configure skill for the ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-context-menu-skill.md)
 
-[Generate and edit articles using ServiceNow Otto in the Knowledge Center article editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
+[Generate and edit articles using ServiceNow Otto in the Knowledge Center article editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/kc-article-editor.md)
 

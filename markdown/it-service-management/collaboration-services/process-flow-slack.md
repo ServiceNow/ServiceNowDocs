@@ -7,9 +7,9 @@ release: zurich
 product: Collaboration Services
 classification: collaboration-services
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Explore, Collaboration services, IT Service Management]
+breadcrumb: [Collaboration services, IT Service Management]
 ---
 
 # Process flow for Slack communication
@@ -36,9 +36,4 @@ Slack communication uses the following subflows:
 -   For the task where you have selected slack as a channel, you can click **Compose** to start a slack communication. For information on how to create a communication plan, refer to [Add communication plan from the major incident workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/add-comm-plan-from-mim-workbench.md)
 -   In the dialog box, the **To** field includes the contacts that you have added while creating the communication contact for the plan.
 -   The **Message** field includes the message you are intending to convey to the recipients.
-
--   **[Add a collaborative communication task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/collaboration-services/add-collaborate-task.md)**  
-In major incident workbench, you can add a collaborative communication task to collaborate and understand the progress of communication plan and its related tasks.
-
-**Parent Topic:**[Exploring Collaboration services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/collaboration-services/explore-collab-services.md)
 

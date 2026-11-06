@@ -1,20 +1,20 @@
 ---
 title: Call Now Assist Skill step
-description: Run a published Now Assist skill from an action. Configure the Now Assist skill inputs and skill outputs from the step inputs and step outputs.
+description: Run a published ServiceNow Otto for Creator skill from an action. Configure the ServiceNow Otto for Creator skill inputs and skill outputs from the step inputs and step outputs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/call-now-assist-skill-step.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [Steps, Flows, subflows, and actions reference, Reference, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Steps, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Call Now Assist Skill step
 
-Run a published Now Assist skill from an action. Configure the Now Assist skill inputs and skill outputs from the step inputs and step outputs.
+Run a published ServiceNow Otto for Creator skill from an action. Configure the ServiceNow Otto for Creator skill inputs and skill outputs from the step inputs and step outputs.
 
 ## Roles and availability
 
@@ -33,17 +33,25 @@ Available as an Workflow Studio action step. Users with the action\_designer rol
 
 Provide a value for each input that your action needs. To add dynamic values, you can also drag and drop pills from the Data panel or select them from the pill picker.
 
--   **Skill Config**
+-   **Capability**
 
     Data type: **Reference**
 
-    Reference to a Now Assist Skill Config \[sn\_nowassist\_skill\_config\] record. The payload is generated based on the Skill Config you select.
+    Reference to a OneExtend Capability \[sys\_one\_extend\_capability\] record. When you select a capability record, the system gives you the option to import the capability inputs and create matching action inputs for them.
+
+    **Note:** Some capability inputs use reserved words such as sys\_id that can't be used as action input names. Review any inputs that are created by the import process and verify that the action input names are valid.
 
 -   **Payload**
 
     Data type: **String**
 
     JSON-formatted string containing the payload to send to the Now Assist skill and the OneExtend Framework for processing.
+
+-   **Skill Config**
+
+    Data type: **Reference**
+
+    Reference to a Now Assist Skill Config \[sn\_nowassist\_skill\_config\] record.
 
 -   **If this step fails**
 
@@ -117,13 +125,17 @@ To support the two skill inputs, this example action has two matching action inp
 
 We can test this action by providing these example input values.
 
--   **Skill Config**
+-   **Capability**
 
-    This example uses the Flow Summarization Now Assist Skill Config record.
+    This example uses the Flow Summarization OneExtend Capability record.
 
 -   **Payload**
 
     This example uses a JSON object to map action input values to skill values. In this example, we provide the Sys ID of the Change - Normal - Authorize flow and the type of flow.
+
+-   **Skill Config**
+
+    This example uses the Flow Summarization Now Assist Skill Config record.
 
 
 \[Omitted image "example-execution-details-call-na-skill.png"\] Alt text: Example execution details of the call flow summarization skill

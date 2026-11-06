@@ -7,7 +7,7 @@ release: zurich
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Investigate, Processing a Mastercard dispute, Resolving disputes with Mastercard, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -34,23 +34,21 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
     If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
-5.  Select the **Playbook** tab.
+5.  In the **Processing** tab, select the transaction ID.
 
-6.  In the **Processing** tab, select the transaction ID.
+6.  Select the **Report fraud to card network** task in **Dispute Workspace**.
 
-7.  Select the **Report fraud to card network** task in **Dispute Workspace**.
+7.  On the form, fill in the required fields and any other related information that you have gathered.
 
-8.  On the form, fill in the required fields and any other related information that you have gathered.
+8.  Select **Add file** to attach supporting documents to the task.
 
-9.  Select **Add file** to attach supporting documents to the task.
+    **Note:** You must upload a single `.zip` file whenever you submit documents to Mastercard. For more information, see [Mastercard document requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/mastercard-image-and-document-requirements.md).
 
-    **Note:** You must upload a single `.zip` file whenever you submit documents to Mastercard.
-
-10. Select **Submit fraud**.
+9.  Select **Submit fraud**.
 
     **Note:** If an error message displays in the **Activity stream**, the **Submit fraud** button displays again to retry.
 
-11. Select **Close task**.
+10. Select **Close task**.
 
 
 ## Result

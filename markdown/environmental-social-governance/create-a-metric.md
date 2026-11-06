@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/create-a-metric.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 8
+last_updated: "2026-09-25"
+reading_time_minutes: 7
 breadcrumb: [Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
@@ -44,7 +44,7 @@ Name
 
 </td><td>
 
-Name for the metric. For example, `Number of incidents- ACME Asia`.
+Name for the metric. For example, `Number of incidents - Company A`.
 
 </td></tr><tr><td>
 
@@ -84,7 +84,7 @@ Type
 
 </td><td>
 
-Method used to determine if the score is collected manually or in an automated manner. This field is automatically set to **Automated** but the value changes when you select the metric definition and gets updated to the type of the metric definition.
+Method used to determine if the score is collected manually or in an automated manner. This field is automatically set to **Automated**. The value updates to match the type of the selected metric definition.
 
 </td></tr><tr><td>
 
@@ -220,7 +220,7 @@ Reference field
 
 Field based on which the metric data can be segregated. This field connects the entity to the selected scoring table and it calculates a score that is specific to an entity. **Note:** Ensure that the table that the reference field points to matches with the table of the records that the associated entities point to, through the **Applies to** field in the entity form.
 
- **Note:** It’s the user's responsibility to validate the criteria mentioned in the note as the system doesn’t validate it. Select a table before modifying this field.
+**Note:** It’s the user's responsibility to validate the criteria mentioned in the note as the system doesn’t validate it. Select a table before modifying this field.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -256,7 +256,7 @@ Due date offset
 
 </td><td>
 
-Number of days after the schedule end date when the metric data task becomes overdue. For example, if the frequency of a metric definition is monthly and if the you enter `15` in this field, then the due date for metric data task will be overdue 15 days after the month ends. This field only appears when the metric definition associated with the metric is of type Manual.
+Number of days after the schedule end date when the metric data task becomes overdue. For example, if the frequency of a metric definition is monthly and if you enter `15` in this field, the due date for metric data task will be overdue 15 days after the month ends. This field only appears when the metric definition associated with the metric is of type Manual.
 
 </td></tr><tr><td>
 
@@ -264,7 +264,7 @@ Next run date
 
 </td><td>
 
-Date when the metric going to be executed.
+Date when the metric is executed.
 
 </td></tr><tr><td>
 
@@ -272,7 +272,7 @@ Period date
 
 </td><td>
 
-Date used to specify the start and end dates for the data collection period.
+Start and end dates for the data collection period.
 
 </td></tr><tr><td>
 
@@ -338,7 +338,7 @@ User
 
 </td><td>
 
-Approver user or approver group that is responsible to approve the metric definition. The choices are as follows:-   **Approver**: Displayed when the User option is selected.
+Approver user or approver group responsible to approve the metric definition. The choices are as follows:-   **Approver**: Displayed when the User option is selected.
 -   **Approver group**: Displayed when the User group option is selected.
 **Note:** By default, the approver is the user specified in the metric definition, but this can be overridden at the metric level.
 
@@ -360,7 +360,7 @@ Reporting classification
 
 </td><td>
 
-Tag used to categorise the metric.
+Tag used to categorize the metric.
 
 </td></tr><tr><td>
 

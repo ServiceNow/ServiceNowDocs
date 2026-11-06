@@ -7,9 +7,9 @@ release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Workforce Optimization for ITSM in the Service Operations Workspace, Optimize, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Workforce Optimization for ITSM in the Service Operations Workspace, Optimizing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Take a survey in Service Operations Workspace

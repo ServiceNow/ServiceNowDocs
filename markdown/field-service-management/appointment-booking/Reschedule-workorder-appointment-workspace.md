@@ -1,5 +1,5 @@
 ---
-title: Reschedule work order appointment in the CRM Workspace
+title: Reschedule work order appointment in the CSM Configurable Workspace
 description: Reschedule appointment for an associated work order to dispatch agent to address the customer issue based on rescheduled time slot.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/appointment-booking/Reschedule-workorder-appointment-workspace.html
@@ -7,12 +7,12 @@ release: zurich
 product: Appointment Booking
 classification: appointment-booking
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing appointments in the CRM Workspace, Managing appointments on behalf of a customer, Appointment booking, Use, Field Service Management]
+breadcrumb: [Managing appointments in the CSM Configurable Workspace, Managing appointments on behalf of a customer, Managing appointments, Use, Field Service Management]
 ---
 
-# Reschedule work order appointment in the CRM Workspace
+# Reschedule work order appointment in the CSM Configurable Workspace
 
 Reschedule appointment for an associated work order to dispatch agent to address the customer issue based on rescheduled time slot.
 

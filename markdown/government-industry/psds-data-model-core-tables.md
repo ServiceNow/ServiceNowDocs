@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-data-model-core-tables.html
 release: zurich
 topic_type: reference
-last_updated: "2025-10-23"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Core, Data Model, Reference, Public Sector Digital Services \(PSDS\)]
 ---
@@ -21,11 +21,11 @@ This section describes the tables and flows installed with the Public Sector Dig
 |Government Service Case|Contains records of individual cases related to government services, tracking requests, interactions, and resolutions for constituents seeking assistance from government agencies.|Customer Service Case|
 |Government Service Task|Contains tasks associated with government service cases, outlining specific actions to be performed, their status, and assigned personnel.|Customer Service Task|
 |Constituent Profile|Contains detailed profiles of constituents, including personal information, contact details, and engagement history with government services.|Consumer Profile|
-|Business Profile|Contains profiles of businesses interacting with government agencies, documenting registration information, contact details, and service engagements.|N/A|
-|Business Registration Request|Contains information about new business registration requests.|N/A|
+|Business Profile|Contains profiles of businesses interacting with government agencies, documenting registration information, contact details, and service engagements.|None|
+|Business Registration Request|Contains information about new business registration requests.|None|
 |Government Service Document|Contains information about service documents.|Documents|
 |Government Service Evaluation Task|Contains information about service evaluation tasks.|Government Service Task|
-|Task Document Verification Task Mapping|Maps case tasks created for document resubmission requests to the specific Document Verification Tasks that initiated them. Enables tracking and association of flagged documents back to the case task that triggered the resubmission request, supporting cases where multiple documents are flagged for different reasons.|N/A|
+|Task Document Verification Task Mapping|Maps case tasks created for document resubmission requests to the specific Document Verification Tasks that initiated them. Enables tracking and association of flagged documents back to the case task that triggered the resubmission request, supporting cases where multiple documents are flagged for different reasons.|None|
 
 ## Flows installed
 

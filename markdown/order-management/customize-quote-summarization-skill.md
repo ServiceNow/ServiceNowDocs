@@ -1,18 +1,18 @@
 ---
 title: Customize a quote summarization skill in ServiceNow Otto for Configure, Price, Quote \(CPQ\)
-description: Configure the ServiceNow Otto for Configure, Price, Quote \(CPQ\) application so that the agent can use the generative AI skills in the CSM/FSM Configurable Workspace and Business Portal.
+description: Configure the ServiceNow Otto for Configure, Price, Quote \(CPQ\) application so that the agent can use the generative AI skills in the CRM Workspace and Business Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/customize-quote-summarization-skill.html
 release: zurich
 topic_type: task
-last_updated: "2026-02-13"
-reading_time_minutes: 4
-breadcrumb: [Configure, ServiceNow Otto for CPQ]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Customize a quote summarization skill in ServiceNow Otto for Configure, Price, Quote \(CPQ\)
 
-Configure the ServiceNow Otto for Configure, Price, Quote \(CPQ\) application so that the agent can use the generative AI skills in the CSM/FSM Configurable Workspace and Business Portal.
+Configure the ServiceNow Otto for Configure, Price, Quote \(CPQ\) application so that the agent can use the generative AI skills in the CRM Workspace and Business Portal.
 
 ## Before you begin
 
@@ -124,7 +124,7 @@ Description of the base input field value.
 
 9.  Configure the **In-product desktop** field to display the quote summarization.
 
-    1.  Display AI skills on the forms and workspaces by selecting the **In-product desktop** field.
+    1.  Display Now Assist skills on the forms and workspaces by selecting the **In-product desktop** field.
 
         For the skills that appear in-product, select the arrow to identify the roles that can use the skill.
 
@@ -136,6 +136,4 @@ Description of the base input field value.
 
     2.  Generate the quote summary by selecting **Summarize** in a quote.
 
-
-**Parent Topic:**[Configuring ServiceNow Otto for Configure, Price, Quote \(CPQ\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-now-assist-cpq.md)
 

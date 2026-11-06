@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Use generative AI skills, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
@@ -47,15 +47,15 @@ You can do these actions by using the ServiceNow Otto icon:
 
 4.  In the chat message window, either type a response, or leave blank, and then select the ServiceNow Otto icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist.
 
-<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d403839e186">
+<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d409338e174">
 
 Chat message window
 
-</th><th align="left" id="d403839e189">
+</th><th align="left" id="d409338e177">
 
 ServiceNow Otto icon
 
-</th></tr></thead><tbody><tr><td id="d403839e197">
+</th></tr></thead><tbody><tr><td id="d409338e185">
 
 **Typed response**
 
@@ -67,7 +67,7 @@ Provides the option to refine your response:
 -   Shorten
 
 
-</td></tr><tr><td id="d403839e217">
+</td></tr><tr><td id="d409338e205">
 
 **Left blank**
 
@@ -87,7 +87,7 @@ Generates a recommended reply that is based on the context of the conversation u
 7.  End the chat by selecting **End Chat**.
 
 
-**Parent Topic:**[Using ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
+**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 **Related topics**  
 
@@ -104,9 +104,9 @@ Generates a recommended reply that is based on the context of the conversation u
 
 [Summarize an HR case using ServiceNow Otto for HRSD]()
 
-[Summarize an ER case using ServiceNow Otto for HRSD]()
-
 [Summarize an ER case interview using ServiceNow Otto for HRSD]()
+
+[Summarize an ER case using ServiceNow Otto for HRSD]()
 
 [Generate resolution notes using ServiceNow Otto for HRSD]()
 
@@ -123,6 +123,8 @@ Generates a recommended reply that is based on the context of the conversation u
 [Submit an HR request with Gen AI Virtual Agent]()
 
 [ServiceNow Otto for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework]()
+
+[Generate activity responses for HR cases]()
 
 [Analyze sentiments in ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 

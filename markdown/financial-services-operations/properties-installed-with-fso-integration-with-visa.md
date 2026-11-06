@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/properties-installed-with-fso-integration-with-visa.html
 release: zurich
 topic_type: reference
-last_updated: "2025-10-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Visa, Integrate, Financial Services Operations \(FSO\)]
 ---

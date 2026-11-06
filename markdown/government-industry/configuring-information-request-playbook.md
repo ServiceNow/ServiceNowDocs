@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/configuring-information-request-playbook.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-03-12"
+reading_time_minutes: 2
 breadcrumb: [Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
@@ -19,13 +19,10 @@ As a user with the admin role, complete the following configuration tasks to set
 |Task|Description|
 |----|-----------|
 |[Install Information Request Administration for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/install-psds-information-request-playbook.md)|Install Information Request Administration \(com.sn\_public\_sector\_digital\_services\_core\) from the ServiceNow® Store.|
-|[Assign user personas, roles, and groups in Information Request Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-irp-assign-user-roles-responsibilities.md)|Configure personas and roles.|
 |[Automatically route service requests using Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/awa-psds-overview.md)|Use the ServiceNow Advanced Work Assignment \(AWA\) application to route and assign public sector information requests to designated agents.|
 |[Configure Restricted Caller Access \(RCA\) privilege settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-rca-setup.md)|You can use a requested RCA to grant store apps access to protected resources in the ServiceNow AI Platform® without the need to wait for the next family release. If you have the system admin or application admin role, you can review requested RCAs and approve and deny them.|
 |[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/create-or-edit-assignment-group-psds.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/create-or-edit-assignment-group-psds.md)|Create a legal, review, or final review assignment agent group for the final review steps of an Information Request.|
 |[Configure the Manage documents activity UI in Information Request Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-ir-playbooks-configure-manage-documents.md)|Create documents, search for documents with the auto-complete name lookup, and link or unlink existing documents to a case, all from one modal within the playbook.|
 |[Configure Similar Request Documents UI in Information Request Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-ir-playbooks-configure-similar-request-documents.md)|Search documents from similar cases, preview multiple sets of documents at one time, and link or unlink documents to or from the case from one modal, without having to leave the playbook.|
-||Configure the documents related list.|
 |[Configure Mobile Agent for Information Request Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-mobile-agent.md)|\(Optional\) Install the Customer Service Mobile and Information Request Administration plugins to enable agents to view and track information requests on the Mobile Agent.|
-|[Create a test information request case using the Information Request Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-using-ir-playbooks.md)|Verify the newly-configured playbook is working as expected by creating and resolving a new information request case using the Information Request Administration.|
 

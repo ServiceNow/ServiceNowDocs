@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/som-om-approve-product-order.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Approving orders, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_ind\_tmt\_orm.order\_fulfilment\_manager, sn\_ind\_tmt\_orm.o
 
 ## Procedure
 
-1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace.** .
+1.  Navigate to  **Workspaces** &gt; **CRM Workspace.** .
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -40,10 +40,19 @@ Role required: sn\_ind\_tmt\_orm.order\_fulfilment\_manager, sn\_ind\_tmt\_orm.o
 
     When you delete an order line item, the prices are recalculated.
 
-9.  When you're satisfied with the order details, select **Approve**.
+9.  **Note:** Before approving an order, the system validates contract information based on the order line type. For recurring or entitlement offerings, the **Contract start date**, **Contract end date**, and **Term** are required before the order can be approved. For one‑time offerings, **Contract start date** and **Contract end date** must be empty. If these conditions are not met, the order cannot be approved and must be updated by an agent before approval can proceed.
+
+    When you're satisfied with the order details, select **Approve**.
 
 
 ## Result
 
 The order is approved and the order state changes to In progress while it’s being validated, before it enters fulfillment.
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-order-management.md)
 

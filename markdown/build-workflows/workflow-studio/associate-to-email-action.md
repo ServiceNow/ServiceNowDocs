@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Actions, Flows, subflows, and actions reference, Reference, Workflow Studio, Build workflows]
+breadcrumb: [Actions, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Associate Record to Email action
@@ -34,6 +34,8 @@ This action updates the **Target** field on the Email \[sys\_email\] record.
 ## Example
 
 In the following example, a process owner adds the Associate Record to Email action under an inbound email trigger. The user has also added a Create Catalog Task action in the flow. In the **Email Record** field, the user selects to associate a record to the email that triggered the flow. In the **Target Record** field, the user selects to associate the Catalog Task \[sc\_task\] record that is created in the Create Catalog Task action.
+
+\[Omitted image "associate-to-email-example.png"\] Alt text: Using the Associate to Email action
 
 **Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-actions.md)
 

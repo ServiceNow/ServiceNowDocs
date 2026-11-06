@@ -1,0 +1,60 @@
+---
+title: Collaborate component
+description: Use the Collaborate component in CRM Workspace to communicate with stakeholders and gather information for case resolution.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-config-ws-collaborate-component.html
+release: zurich
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Components, Record pages and page templates, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+---
+
+# Collaborate component
+
+Use the Collaborate component in CRM Workspace to communicate with stakeholders and gather information for case resolution.
+
+\[Omitted image "csm-config-ws-collaboration-component.png"\] Alt text: The collaboration component displays the available configured services when an agent initiates a new conversation.
+
+Customer service agents can use the Collaborate component to initiate chats and calls with other agents, requestors, and subject matter experts.
+
+The Collaborate component requires configured integrations with communication services such as Microsoft Teams, Slack, and Zoom. When no integrations have been configured, agents can use the Collaborate component to start Sidebar discussions.
+
+The Collaborate component is available as the last tab in the contextual side panel in CRM Workspace. The Collaborate component is available on all CRM Workspace [record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-config-ws-pages-templates.md) where the table is set to one of the following:
+
+-   Interaction \[interaction\]
+-   A child of the Task \[task\] table, such as the Case table \[sn\_customerservice\_case\]
+
+Users with the sn\_uib\_collab.user role can see the Collaborate component on workspace pages. This role is included with the interaction\_agent role, which is included with the sn\_esm\_agent role.
+
+## Collaborate component features
+
+The Collaborate component includes two tabs: Chat and Calls. These tabs show the active and completed chats and calls in card format.
+
+**Note:** When no integrations have been configured, the Collaborate component displays the Chat tab and includes the **Start Sidebar discussion** option. Agents can select this option to start a Sidebar discussion.
+
+The component also includes the following:
+
+-   An Add \(**+**\) icon that agents can use to initiate new chats and calls. The selections available in this menu depend on the configured integrations, such as Microsoft Teams and Zoom.
+-   Search bar: use to quickly find a chat or call.
+-   Filter icon: use to filter and sort the conversations.
+
+## Collaborate component integrations
+
+The Collaborate component requires configured integrations with communication services such as Microsoft Teams, Slack, and Zoom. For more information, see [Collaboration services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/collab-services-tcm.md).
+
+The Collaborate component includes the Sidebar feature. Agents can collaborate with others through Sidebar discussions. For more information, see the following topics:
+
+-   [Exploring Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/exploring-sidebar.md)
+-   [Sidebar and Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/sidebar-teams-overview.md)
+-   [Using Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/using-sidebar.md)
+
+The Collaborate component can also be configured to use different communication tools such as Microsoft Teams or Zoom. Agents can see the available configurations by selecting the Add icon.
+
+## Collaborate component extension points
+
+Customers can implement the following extension points to customize conditions for visibility of the Call and Chat tabs in the Collaborate component:
+
+-   sn\_uib\_notify.NotifyUIBVisibility
+-   sn\_uib\_collab.ContextualPanelVisibility
+

@@ -7,7 +7,7 @@ release: zurich
 product: Health and Safety
 classification: health-and-safety
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage the safety inspection and audit surveys through mobile app, Manage safety inspections and audits through the mobile apps, Mobile experience for Health and Safety, Health and Safety, Employee Service Management]
 ---

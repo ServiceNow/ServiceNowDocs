@@ -7,7 +7,7 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Configure external applications, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -89,8 +89,10 @@ Table
 
 Table configured to store the request details for your application. All documents attached to records created in the selected table uses the configured electronic signature provider for signing. For example, if you configure Docusign as the electronic signature provider, and select the Contract Request table \[sn\_cm\_core\_contract\_request\], then all the contract documents attached to contract requests created in the Contract Request table will follow the Docusign e-signature flow for signing.
 
- **Note:** The Contract Request table \[sn\_cm\_core\_contract\_request\] is selected by default to centralize the configuration on a single table and improve reusability across product lines. You can choose to configure a different table to configure electronic signature provider.
+ **Note:**
 
+-   The Contract Request table \[sn\_cm\_core\_contract\_request\] is selected by default to centralize the configuration on a single table and improve reusability across product lines. You can choose to configure a different table to configure electronic signature provider.
+-   For standalone requests the configurations should be done on the Contract Request table \[sn\_cm\_core\_contract\_request\].
 **Note:** If you select a different table, you must associate a corresponding flow.
 
 </td></tr><tr><td>

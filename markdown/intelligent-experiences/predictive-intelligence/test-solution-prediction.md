@@ -7,9 +7,9 @@ release: zurich
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Testing and monitoring predictions, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Testing and monitoring predictions, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Test a classification solution prediction
@@ -105,6 +105,8 @@ You can also test the Predictive Intelligence prediction model when you create a
 Result: When the form refreshes, an information message appears with the incident category automatically set to a specific value.
 
 **Note:** For some short descriptions, the prediction might not process because the solution does not have enough confidence in predicting the value for this input.
+
+**Parent Topic:**[Testing and monitoring predictions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/predictive-intelligence/testing-reviewing-ml-solutions.md)
 
 **Related topics**  
 

@@ -1,20 +1,20 @@
 ---
 title: Resume a disabled Cloud vs Non-cloud resources scheduled job
-description: Reactivate a scheduled job to resume data collection for the Cloud vs Non-cloud resources chart in CMDB Workspace.
+description: Reactivate a scheduled job to resume data collection for the Cloud vs Non-cloud resources chart that appears in CMDB Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-resume-cloud-job.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Resume a disabled Cloud vs Non-cloud resources scheduled job
 
-Reactivate a scheduled job to resume data collection for the Cloud vs Non-cloud resources chart in CMDB Workspace.
+Reactivate a scheduled job to resume data collection for the Cloud vs Non-cloud resources chart that appears in CMDB Workspace.
 
 ## Before you begin
 

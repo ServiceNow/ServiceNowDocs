@@ -7,7 +7,7 @@ release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: concept
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Manage team backlog, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -27,6 +27,8 @@ Iteration planning in EAP lets scrum masters and team members plan their own cad
 ## Creating iterations from the Backlog
 
 From EAP version 4.17.0, create a Planning Interval or Sprint directly from the team's Backlog by entering the start and end dates on the modal. The underlying planning calendar entries are created for you, so nobody has to define calendar entries before teams can plan. For the steps, see [Create a Planning Interval or Sprint from EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/create-pi-sprint-eap-backlog.md).
+
+Agile Teams whose planning methodology is Kanban don't use Sprints. Kanban teams are skipped when Sprints are created for a Planning Interval, and the **Create Sprint** button isn't available on their Backlog. For more information, see [Scrum and Kanban teams in an ART in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/scrum-and-kanban-teams-in-eap.md).
 
 If you upgraded from an earlier version, the planning calendar entries that your admin defined remain valid. Existing iterations keep their dates, and teams can continue to create iterations within the timelines that those entries define. When an entry already matches the team, the dates on the modal are read-only and the system uses the dates from that entry.
 
@@ -50,7 +52,7 @@ These roles are contained within one another. The EAP admin role contains the EA
 
 Planning calendars in EAP are set for each team level in the configuration. In the default configurations, the ART and Agile Team levels have a planning calendar. The levels above the ART, such as Portfolio and Solution Train, have no planning calendar, so they group teams organizationally and don't carry their own iteration timeline.
 
-All Agile Teams in one ART share that ART's timeline. When you create a Planning Interval for an ART and add child Sprints, the Sprints apply to every Agile Team in that ART. If an Agile Team is added to the ART later, the in-progress Sprint and the upcoming Sprints are created for that team automatically. These Sprints match the Sprints on its sibling teams. Sprints that already ended aren't copied, and no Sprints are created if the sibling teams don't have any.
+All Agile Teams in one ART share that ART's timeline. When you create a Planning Interval for an ART and add child Sprints, the Sprints apply to every Agile Team in that ART. From EAP version 4.17.0, if an Agile Team is added to the ART later, the in-progress Sprint and the upcoming Sprints are created for that team automatically. These Sprints match the Sprints on its sibling teams. Sprints that already ended aren't copied, and no Sprints are created if the sibling teams don't have any.
 
 By default, the ARTs in one EAP configuration also share their planning calendars. When the first ART creates a Planning Interval, its dates are recorded on the shared calendar. The other ARTs each still create their own Planning Interval from their own Backlog, but the date fields are read-only and use the dates that are already set. A message on the modal states that the calendar is shared with a team that has already created iterations. In this way, every ART in the configuration follows one cadence.
 

@@ -7,9 +7,9 @@ release: zurich
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Notify for making conference calls, Use, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Using Notify for making conference calls, Using Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Send a message to conference call participants

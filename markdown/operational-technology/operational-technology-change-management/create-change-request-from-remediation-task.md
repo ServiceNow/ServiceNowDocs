@@ -7,7 +7,7 @@ release: zurich
 product: Operational Technology Change Management
 classification: operational-technology-change-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Operational Technology Change Management, Operational Technology]
 ---
@@ -26,9 +26,9 @@ Roles required: sn\_ot\_change\_write or sn\_otvr.remediation\_owner
 
 2.  Open the remediation task record that you want to create a change request from.
 
-3.  Select the **Create OT Change** button as shown in the following example. \[Omitted image "create-ot-change-button.png"\] Alt text: Create OT Change button on a remediation task record.
+3.  Select the **Create OT Change** button.
 
-    **Note:** If there's no active change model, the following error appears.\[Omitted image "ot-change-error-message.png"\] Alt text: Error when creating a change task without an active change model.
+    **Note:** If there's no active change model, the following error appears: `Error creating Change Request: No active change model available. Please contact your OT Change admin`.
 
 4.  Select the OT change model that applies to your organization.
 

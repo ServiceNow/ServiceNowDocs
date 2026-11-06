@@ -1,15 +1,15 @@
 ---
 title: Manage work order tasks
-description: Track and monitor the real-time state of work order tasks. You can auto-assign tasks, record time, request more information, and cancel the work order task.Assign a work order task to a field service agent from Dispatcher Workspace.As a dispatcher, you can recommend the best available tasks to fill gaps in an agent's schedule.Record the duration for executing a task using the Dispatcher Workspace application.Cancel a work order task in Dispatcher Workspace if it is no longer necessary or is a duplicate of another work order task.Suspend the parent work order of a task to stop displaying active SLAs for the task, including the time remaining, the SLA state, and any breaches.Assign work order tasks directly to the outsourced service providers \(also called contractor companies\) from an external assignment group using Dispatcher Workspace.
+description: Track and monitor the real-time state of work order tasks. You can auto-assign tasks, record time, request more information, and cancel the work order task.Assign a work order task to a field service agent from Dispatcher Workspace.As a dispatcher, you can recommend the best available tasks to fill gaps in an agent's schedule.Record the duration for executing a task using the Dispatcher Workspace application.Cancel a work order task in Dispatcher Workspace if it’s no longer necessary or is a duplicate of another work order task.Suspend the parent work order of a task to stop displaying active SLAs for the task, including the time remaining, the SLA state, and any breaches.Assign work order tasks directly to the outsourced service providers \(also called contractor companies\) from an external assignment group using Dispatcher Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/manage-work-order-tasks-dw.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
-breadcrumb: [Using Dispatcher Workspace, Assigning WOTs from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
+breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Manage work order tasks
@@ -26,12 +26,12 @@ Role required: wm\_dispatcher
 
 If the time required to complete the task needs multiple schedule entries or days, select the **Assign across the schedule entries** option in the work order task form.
 
-If the task is assigned to an agent in the territory that best match its location then you must enable the following options:
+If the task is assigned to an agent in the territory that best matches its location, then you must enable the following options:
 
 -   The Field Service territory model, **Field\_Service\_Territories**. For more information, see [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md).
 -   **Territory** option in Dispatcher Workspace to view the territory information in the task card and the agent card. For more information, see [Enable Dispatcher Workspace settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/dispatcher-wrkspc-settings.md).
 
-If the task assignment method needs to respect the workforce optimized shift schedules then you must enable the **Enable Shift Scheduling for FSM to Determine Availability** configuration to activate the Workforce Optimization for Field Service data model. For more information, see [Activate Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/activate-wfo-fsm.md).
+If the task assignment method must respect the workforce optimized shift schedules then you must enable the **Enable Shift Scheduling for FSM to Determine Availability** configuration to activate the Workforce Optimization for Field Service data model. For more information, see [Activate Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/activate-wfo-fsm.md).
 
 **Note:** If the **Enable Shift Scheduling for FSM to Determine Availability** configuration is enabled, the Dispatcher Workspace calendar displays the schedules and events created in Workforce Optimization for Field Service application.
 
@@ -49,7 +49,7 @@ You can assign work order tasks that are in pending to dispatch either manually 
     -   The impact on other tasks
     -   The agent task route map
 
-If an agent is part of more than one assignment group or territory, then dispatchers will see the agent on more than one line on the calendar in Dispatcher Workspace. To change the agent’s schedule, the dispatcher must make changes on the line that corresponds with the assignment group or territory they manage.
+If an agent is part of more than one assignment group or territory, then dispatchers see the agent on more than one line on the calendar in Dispatcher Workspace. To change the agent’s schedule, the dispatcher must change the line that corresponds with the assignment group or territory they manage.
 
 ### Procedure
 
@@ -61,15 +61,15 @@ If an agent is part of more than one assignment group or territory, then dispatc
 
 3.  Assign the work order task to agents.
 
-<table id="choicetable_sbq_vhp_b4b"><thead><tr><th align="left" id="d27350e309">
+<table id="choicetable_sbq_vhp_b4b"><thead><tr><th align="left" id="d28350e309">
 
 To
 
-</th><th align="left" id="d27350e312">
+</th><th align="left" id="d28350e312">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d27350e318">
+</th></tr></thead><tbody><tr><td id="d28350e318">
 
 **Assign a task manually from the task panel**
 
@@ -80,7 +80,7 @@ Do this
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d27350e342">
+</td></tr><tr><td id="d28350e342">
 
 **Assign a task manually from the contextual side panel**
 
@@ -93,19 +93,19 @@ Do this
 5.  Select **Save**.
 
 
-</td></tr><tr><td id="d27350e390">
+</td></tr><tr><td id="d28350e390">
 
-**Assign a task manually from the dispatch map**
+**Assign a task manually from the map**
 
 </td><td>
 
-1.  Right-click a task in the dispatch map.
+1.  Select and hold \(or right-click\) a task in the map.
 2.  Select **Assign**.
 3.  In the **Assigned to** field, select the agent you want to assign the task to.
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d27350e423">
+</td></tr><tr><td id="d28350e423">
 
 **Auto-assign a task from the task panel**
 
@@ -116,7 +116,7 @@ Do this
 3.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d27350e457">
+</td></tr><tr><td id="d28350e457">
 
 **Auto-assign a task from the contextual side panel**
 
@@ -128,7 +128,7 @@ Do this
 4.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d27350e499">
+</td></tr><tr><td id="d28350e499">
 
 **Auto-assign from the task record**
 
@@ -139,7 +139,7 @@ Do this
 3.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d27350e526">
+</td></tr><tr><td id="d28350e526">
 
 **Auto-assign a task from a list**
 
@@ -151,13 +151,13 @@ Do this
 4.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d27350e565">
+</td></tr><tr><td id="d28350e565">
 
-**Auto-assign a task from the dispatch map**
+**Auto-assign a task from the map**
 
 </td><td>
 
-1.  Right-click a task in the dispatch map.
+1.  Select and hold \(or right-click\) a task in the map.
 2.  Select **Auto Assign**.
 3.  Select **Confirm**.
 
@@ -185,21 +185,22 @@ As a dispatcher, you can recommend the best available tasks to fill gaps in an a
 
 Role required: wm\_dispatcher
 
-Ensure the Field Service Intelligent Task Recommendation plugin is activated. For more information, see [Activate Intelligent Task Recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/activate-intelligent-task-recommendation.md).
+The Field Service Intelligent Task Recommendation plugin must be activated. For more information, see [Activate Intelligent Task Recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/activate-intelligent-task-recommendation.md).
 
 ### About this task
 
-The Intelligent Task Recommendation feature identifies and recommends the best available tasks for agents based on the selected start time and end time based on the following.
+Intelligent Task Recommendations identifies and recommends the best available tasks for agents based on the following.
 
+-   Start and end time of the task.
 -   Excludes the work order tasks that are schedule locked.
--   Considers the agent's start and end locations from the**Resource Schedule Attributes** table for the given day.
+-   Considers the agent's start and end locations from the **Resource Schedule Attributes** table for the given day.
 -   Integrates agent's schedule and events from the Workforce Optimization for Field Service application if the **Enable Shift Scheduling for FSM to Determine Availability** configuration is enabled. For more information, see [Global domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/t_ConfigureFieldService.md) and [Activate Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/activate-wfo-fsm.md).
 
 ### Procedure
 
 1.  Navigate to **All** &gt; **Field Service** &gt; **Dispatching** &gt; **Dispatcher Workspace**.
 
-2.  Click **Dispatcher Workspace**.
+2.  Select **Dispatcher Workspace**.
 
 3.  In the calendar, select a date to view an agent's schedule for that day.
 
@@ -209,7 +210,7 @@ The Intelligent Task Recommendation feature identifies and recommends the best a
 
 5.  From the Recommended tasks list, select the task that you want to assign to the agent.
 
-6.  Click **Assign**.
+6.  Select **Assign**.
 
 
 ### Result
@@ -237,9 +238,9 @@ Role required: wm\_dispatcher
 
 1.  Navigate to **All** &gt; **Field Service** &gt; **Dispatching** &gt; **Dispatcher Workspace**.
 
-2.  Click a task number from the task panel or calendar.
+2.  Select a task number from the task panel or calendar.
 
-3.  Click **Record Time**.
+3.  Select **Record Time**.
 
 4.  In the **User** field, select an agent for whom you want to record time.
 
@@ -253,7 +254,7 @@ Role required: wm\_dispatcher
 
 6.  In the Comments field, enter any additional notes about the task.
 
-7.  Click **Save**.
+7.  Select **Save**.
 
 
 ### Result
@@ -262,7 +263,7 @@ The time card is automatically created for the user.
 
 ## Cancel a work order task in Dispatcher Workspace
 
-Cancel a work order task in Dispatcher Workspace if it is no longer necessary or is a duplicate of another work order task.
+Cancel a work order task in Dispatcher Workspace if it’s no longer necessary or is a duplicate of another work order task.
 
 ### Before you begin
 
@@ -270,19 +271,19 @@ Role required: wm\_dispatcher
 
 ### About this task
 
-Work orders and work order tasks cannot be canceled that are in the **Closed Complete** or **Closed Incomplete** state.
+Work orders and work order tasks can't be canceled that are in the **Closed Complete** or **Closed Incomplete** state.
 
 ### Procedure
 
 1.  Navigate to **All** &gt; **Field Service** &gt; **Dispatching** &gt; **Dispatcher Workspace**.
 
-2.  Click a task number from the task panel or calendar panel.
+2.  Select a task number from the task panel or calendar panel.
 
-3.  Click **Cancel Task**.
+3.  Select **Cancel Task**.
 
 4.  In the **Work notes** field, enter a cancellation reason.
 
-    An error message appears if text is not entered.
+    An error message appears if text isn’t entered.
 
 
 ### Result
@@ -301,22 +302,22 @@ Role required: wm\_dispatcher.
 
 1.  Navigate to **All** &gt; **Field Service** &gt; **Dispatching** &gt; **Dispatcher Workspace**.
 
-2.  Click a task number from the task panel or calendar panel.
+2.  Select a task number from the task panel or calendar panel.
 
-3.  Click **Suspend Parent**.
+3.  Select **Suspend Parent**.
 
 4.  In the **Work notes** field, enter the reason to suspend.
 
-    An error message appears if text is not entered.
+    An error message appears if text isn’t entered.
 
-5.  Click **Post Work notes**.
+5.  Select **Post Work notes**.
 
 
 ### Result
 
 The parent work order of the task is suspended.
 
-## Assign work order task to an outsourced service provider in Dispatcher Workspace
+## Assign work order task to an outsourced Service Provider in Dispatcher Workspace
 
 Assign work order tasks directly to the outsourced service providers \(also called contractor companies\) from an external assignment group using Dispatcher Workspace.
 
@@ -331,21 +332,21 @@ Role required: wm\_dispatcher
 
 1.  Navigate to **All** &gt; **Field Service** &gt; **Dispatching** &gt; **Dispatcher Workspace**.
 
-2.  Click **Dispatcher Workspace**.
+2.  Select **Dispatcher Workspace**.
 
-3.  Click a task from the task panel and drag it to the calendar slot of an outsourced service provider in the Contractor groups.
+3.  Select a task from the task panel and drag it to the calendar slot of an outsourced service provider in the Contractor groups.
 
     Acme Services
 
     The Assignment confirmation dialog box is displayed.
 
-4.  Click **Save**.
+4.  Select **Save**.
 
 
 ### Result
 
 -   The task is displayed on the calendar next to the outsourced service provider's name.
 -   The task is assigned to the manager of the outsourced service provider.
--   The calendar view of the outsourced service provider displays the capacity utilization information in percentage and definition. For example, if company's defined capacity is five tasks and so far only two tasks are assigned to the company, the capacity utilization data displays that 40% capacity has been utilized and 2 out of 5 tasks have been assigned to the company. For more information about capacity reservation rules, see [Capacity and Reservations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/capacity-management.md).
+-   The calendar view of the outsourced service provider displays the capacity utilization information in percentage and definition. For example, if a company's defined capacity is five tasks and so far only two tasks are assigned to the company, the capacity utilization data displays that 40% capacity has been used and 2 out of 5 tasks have been assigned to the company. For more information about capacity reservation rules, see [Capacity and Reservations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/capacity-management.md).
 -   If the tasks assigned to the outsourced service provider is more than its defined capacity, a red vertical bar displays on the calendar, indicating over-allocation of tasks.
 

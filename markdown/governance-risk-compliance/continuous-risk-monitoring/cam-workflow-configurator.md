@@ -7,7 +7,7 @@ release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 4
 breadcrumb: [Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
@@ -55,13 +55,9 @@ Examples of validation conditions:
 
 ## State model attributes
 
-Attributes add special capabilities to workflow states without requiring custom code. CAM authorization package has several attributes:
+Attributes add special capabilities to workflow states without requiring custom code. Attributes control features like approval requirements, report generation, related list actions, and UI page visibility for specific workflow states.
 
--   **Required approval**: Indicates that the step requires approval before proceeding
--   **Generate SSP**: Enables System Security Plan report generation
--   **Generate SAR**: Enables Security Assessment Report generation
--   **Generate OSCAL SSP**: Enables OSCAL format System Security Plan \(SSP\) export
--   **Generate POAM**: Enables Plan of Action and Milestones report generation
+For a complete list of available attributes, see [Add existing attributes to a GRC workflow state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/configure-state-model-attributes.md).
 
 ## Workflow limitations
 
@@ -124,11 +120,4 @@ Platform assessments that use assessment metric types. You must create or modify
 Risk Assessment Methodology \(RAM\) assessments that evaluate risks associated with packages and boundaries. Risk assessments appear in a separate related list on the package form.
 
 **Note:** CAM doesn’t ship assessment templates for authorization packages. You must create or modify existing templates for both assessment types.
-
-**Related topics**  
-
-
-[Workflow configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/work-configuration.md)
-
-[GRC state model configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/cam-create-state-model.md)
 

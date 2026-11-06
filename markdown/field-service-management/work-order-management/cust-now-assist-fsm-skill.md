@@ -1,5 +1,5 @@
 ---
-title: Customize a KB generation skill in ServiceNow Otto for Field Service Management \(FSM\)
+title: Customize an FSM KB generation skill in AI Admin Hub
 description: As an admin, you can clone the KB generation skill and customize the input fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/cust-now-assist-fsm-skill.html
@@ -7,12 +7,12 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Customizing a skill, Configure, Work orders and tasks, Configure, Field Service Management]
+breadcrumb: [Customizing a skill, Configure, Set up work orders and tasks, Configure, Field Service Management]
 ---
 
-# Customize a KB generation skill in ServiceNow Otto for Field Service Management \(FSM\)
+# Customize an FSM KB generation skill in AI Admin Hub
 
 As an admin, you can clone the KB generation skill and customize the input fields.
 
@@ -26,7 +26,7 @@ The out-of-the-box \(OOB\) KB is generated for the following states: Close Compl
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
 
 2.  In the **Customer** workflow group, select **FSM** to view the skills for the ServiceNow Otto for FSM features.
 
@@ -38,29 +38,29 @@ The out-of-the-box \(OOB\) KB is generated for the following states: Close Compl
 
         A guided setup leads you through the configuration of the general details, input, availability, display, review, and activation of the customized skill. When you complete the entire walk-through, the skill is activated.
 
-4.  In the General details step, fill in the fields.\[Omitted image "now-assist-kb-generation-general.png"\] Alt text: Name and describe the skill.
+4.  In the General details step, fill in the fields.
 
     1.  Enter a name and description for the skill.
 
     2.  Select **Save and continue** to go to the next step.
 
-5.  View the input data. \[Omitted image "now-assist-kb-generation-input.png"\] Alt text: Select the default Knowledge Base for NAP.
+5.  View the input data.
 
     1.  The table record and input fields are read-only.
 
-    2.  Select the **Default Knowledge Base for Now Assist panel**.
+    2.  Select the **Default Knowledge Base for Servicenow Otto panel**.
 
     3.  Select **Save and continue**.
 
-6.  Define how the skill is available to your users. \[Omitted image "now-assist-kb-generation-availability.png"\] Alt text: Define the skill availability.
+6.  Define how the skill is available to your users.
 
-    1.  Configure the skill to be always available to users, or select conditions that must be met before the skill is available.
+    1.  Configure the skill to be available to users, or select conditions that must be met before the skill is available.
 
         Selecting **Customize skill availability** displays a condition builder to filter the data further.
 
     2.  Select **Save and continue** to go to the next step.
 
-7.  Configure where to display the KB generation. \[Omitted image "now-assist-kb-generation-display.png"\] Alt text: Choose where to display the KB generation.
+7.  Configure where to display the KB generation.
 
     1.  Select either **In-product**, or **Now Assist panel**.
 
@@ -68,13 +68,13 @@ The out-of-the-box \(OOB\) KB is generated for the following states: Close Compl
 
             For the skill to appear in the product, select the down arrow to identify the roles that can use the skill. The only supported roles are `wm_manager` and `wm_dispatcher`.
 
-        -   **Now Assist panel**: When selected, the Now Assist KB generation skill is available in the Now Assist panel.
+        -   **Servicenow Otto panel**: When selected, the ServiceNow Otto for FSM KB generation skill is available in the ServiceNow Otto® panel.
 
-            For the skill to appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill. The only supported roles are `wm_manager` and `wm_dispatcher`.
+            For the skill to appear in the AI Admin Hub panel, select the down arrow to identify the roles that can use the skill. The only supported roles are `wm_manager` and `wm_dispatcher`.
 
     2.  Select **Save and continue** to go to the next step.
 
-8.  Review and activate the skill. \[Omitted image "now-assist-kb-generation-review.png"\] Alt text: Review and activate.
+8.  Review and activate the skill.
 
     Review your choices and select **Activate** to complete the skill customization.
 

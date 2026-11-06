@@ -7,7 +7,7 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Obligation Management, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -32,15 +32,15 @@ Role required: sn\_cm\_obligation.obligation\_fulfiller
 
 1.  Open an obligation task from the workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d364655e70">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d370158e70">
 
 Method
 
-</th><th align="left" id="d364655e73">
+</th><th align="left" id="d370158e73">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d364655e79">
+</th></tr></thead><tbody><tr><td id="d370158e79">
 
 **Contract Workspace**
 
@@ -53,7 +53,7 @@ Steps
 5.  Select the obligation task.
 
 
-</td></tr><tr><td id="d364655e127">
+</td></tr><tr><td id="d370158e127">
 
 **Workspace used by your application**
 

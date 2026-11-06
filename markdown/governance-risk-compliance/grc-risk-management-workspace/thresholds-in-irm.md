@@ -7,9 +7,9 @@ release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [GRC: Metrics in Integrated Risk Management, Risk Management, Governance, Risk, and Compliance]
+breadcrumb: [Explore, GRC: Metrics in Integrated Risk Management, Risk Management, Governance, Risk, and Compliance]
 ---
 
 # Thresholds in Integrated Risk Management
@@ -31,7 +31,7 @@ There are two types of threshold for a metric.
 **Related topics**  
 
 
-[Create a threshold for a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/t_create-threshold-for-metrics.md)
+[Create a threshold for a metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/t_create-threshold-for-metrics.md)
 
 [Copy thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/copy-thresholds-irm.md)
 

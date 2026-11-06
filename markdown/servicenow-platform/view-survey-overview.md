@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/view-survey-overview.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Survey administration, Use, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # View survey reports
@@ -15,8 +15,6 @@ breadcrumb: [Survey administration, Use, Surveys, Assessments and Surveys, Explo
 Use the Survey Overview dashboard to view various survey reports, such as Surveys by Metric Type and State.
 
 ## Before you begin
-
-**Note:** The **Survey Overview dashboard** is deprecated. It is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 Role required: survey\_admin, survey\_reader, or admin
 

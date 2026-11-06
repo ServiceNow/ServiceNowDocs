@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/provide-knowledge-community-sp-case.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Customer Service Portal, Customer communication, Use, Customer Service Management]
 ---
@@ -28,7 +28,7 @@ The Service Portal Case form displays contextual search results based on text en
 
 1.  Navigate to the Customer Service Management Service Portal and then **All** &gt; **Support** &gt; **New Cases**.
 
-2.  Click **Product Case** or **Order Case**.
+2.  Select **Product Case** or **Order Case**.
 
 3.  Start typing in the **Subject** field.
 
@@ -38,10 +38,17 @@ The Service Portal Case form displays contextual search results based on text en
 
 4.  Perform one of the following actions.
 
-    -   Click one of the content links in the **Related Search Results** widget to enter the content directly.
-    -   Click one of the content links in the embedded **Knowledge results** section to open the content inline as read-only.
-5.  Click **This helped** to mark the content as helpful for resolving the associated case.
+    -   Select one of the content links in the **Related Search Results** widget to enter the content directly.
+    -   Select one of the content links in the embedded **Knowledge results** section to open the content inline as read-only.
+5.  Select **This helped** to mark the content as helpful for resolving the associated case.
 
-6.  Click **Submit**.
+6.  Select **Submit**.
 
+
+**Related topics**  
+
+
+[Search the knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_SearchTheKnowledgeBase.md)
+
+[Search the customer service community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_SearchTheCommunity.md)
 

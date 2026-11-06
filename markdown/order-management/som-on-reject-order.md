@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/som-on-reject-order.html
 release: zurich
 topic_type: task
-last_updated: "2025-09-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Approving orders, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_ind\_tmt\_orm.order\_fulfilment\_manager, sn\_ind\_tmt\_orm.o
 
 ## Procedure
 
-1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace.** .
+1.  Navigate to  **Workspaces** &gt; **CRM Workspace.** .
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -36,4 +36,11 @@ Role required: sn\_ind\_tmt\_orm.order\_fulfilment\_manager, sn\_ind\_tmt\_orm.o
 ## Result
 
 The order is rejected and its state changes to Rejected. Rejected orders can be made available to the order agents to address issues after changing the state of the order and order line items to the Draft state.
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-order-management.md)
 

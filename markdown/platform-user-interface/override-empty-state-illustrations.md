@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/override-empty-state-illustrations.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [override empty state, empty state illustrations, custom images]
 breadcrumb: [Empty state illustrations, Image styles, Manage or edit a theme, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
@@ -17,9 +17,13 @@ Modify or override the default empty state illustrations with your own custom im
 
 ## Before you begin
 
-Role required: admin
+Role required: ui\_builder\_admin
+
+For information on granular roles, see .
 
 Verify that your custom images use the desired colors and meet your branding requirements before uploading to Theme Builder.
+
+Role required: admin
 
 ## About this task
 

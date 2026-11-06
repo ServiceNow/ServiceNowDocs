@@ -1,18 +1,18 @@
 ---
 title: Recipients lists
-description: Create the recipients list for a targeted communications that can include internal users, customers, accounts, contacts, and consumers. You can create the recipient list using the methods of user import, dynamic lists, or scripting.
+description: Create the recipients list for a targeted communications that can include internal users, customer, accounts, contacts, consumers, and business organizations. You can create the recipient list using the methods of user import, dynamic lists, or scripting.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/targeted-comm-dynamic-list.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Targeted communications, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Recipients lists
 
-Create the recipients list for a targeted communications that can include internal users, customers, accounts, contacts, and consumers. You can create the recipient list using the methods of user import, dynamic lists, or scripting.
+Create the recipients list for a targeted communications that can include internal users, customer, accounts, contacts, consumers, and business organizations. You can create the recipient list using the methods of user import, dynamic lists, or scripting.
 
 When an article is published, the recipients on this list can view the article on the Customer or Consumer Service Portal. Recipients can also receive optional email notifications.
 
@@ -32,7 +32,7 @@ The system administrator can manage a scheduled job to refresh recipient lists. 
 
 Create a recipient list by importing contact information. For contacts, supported file types include xls and csv.
 
-Multiple files can be imported into the same recipient list, with new recipients appended to the recipient list file. The system checks and imports only those accounts and contacts that exist in the system. Duplicate entries are not created. At the end of the import process, the system displays a status with the number of records imported and rejected.
+Multiple files can be imported into the same recipient list, with new recipients appended to the recipient list file. The system checks that the accounts and contacts exist in the system and only imports those that exist. Duplicate entries are not created. At the end of the import process, the system displays a status with the number of records imported and rejected.
 
 The system uses the sys\_id and the email address attributes to match contacts. It first looks for a matching sys\_id match. If not found, it then looks for a matching email address. If neither are found, the record is rejected.
 

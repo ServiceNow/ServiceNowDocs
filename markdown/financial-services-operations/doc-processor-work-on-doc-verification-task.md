@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/doc-processor-work-on-doc-verification-task.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Document Processor, Integrate, Financial Services Operations \(FSO\)]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_doc\_processor.agent​
 
 1.  Navigate to **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-list.png"\] Alt text: List icon.\).
 
 3.  In the **Lists** tab, under **Document verification**, open the task list.
 
@@ -42,15 +42,15 @@ Role required: sn\_doc\_processor.agent​
 
 7.  Select one of the following options.
 
-<table id="choicetable_t3f_5r1_wnb"><thead><tr><th align="left" id="d42626e195">
+<table id="choicetable_t3f_5r1_wnb"><thead><tr><th align="left" id="d139991e195">
 
 Task
 
-</th><th align="left" id="d42626e198">
+</th><th align="left" id="d139991e198">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d42626e204">
+</th></tr></thead><tbody><tr><td id="d139991e204">
 
 **Verify**
 
@@ -58,7 +58,7 @@ Action
 
 Select **Verify** if the document details are sufficient.
 
-</td></tr><tr><td id="d42626e216">
+</td></tr><tr><td id="d139991e216">
 
 **Reject**
 

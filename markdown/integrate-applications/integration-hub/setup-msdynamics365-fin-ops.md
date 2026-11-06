@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 8
 breadcrumb: [Microsoft Dynamics 365 for Finance and Operations Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -301,7 +301,7 @@ Role required: admin
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Flow Designer** &gt; **Designer**.
+1.  **All** &gt; **Process Automation** &gt; **Workflow Studio**
 
 2.  Click **Subflows**.
 
@@ -448,5 +448,5 @@ Role required: admin
 
 ### Result
 
-The webhook is registered and ready for testing.
+The app is registered in Azure and the webhook endpoint is configured.
 

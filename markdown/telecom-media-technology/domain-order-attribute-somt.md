@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/domain-order-attribute-somt.html
 release: zurich
 topic_type: task
-last_updated: "2026-04-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Defining attribute mapping, Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Defining attribute mapping, Product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Define domain order attribute mappings
@@ -56,7 +56,7 @@ If a decomposition rule depends on an attribute-mapping rule, the order decompos
     |Field|Description|
     |-----|-----------|
     |Number|System-generated attribute mapping number.|
-    |Target specification|Target specification that you are associating with the selected source specification and related source characteristics, and source characteristic options.|
+    |Target specification|Target specification that you're associating with the selected source specification and related source characteristics, and source characteristic options.|
     |Target rule|Name of the target rule, displayed after you create the mapping rules.|
     |Source rule|Name of the source rule, displayed after you create the mapping rules.|
     |Source specification|Source specification that contains the source characteristics and characteristic options to associate with the selected target specification, characteristics, and characteristic options. Based on your selection, this field auto populates the **Available columns** section with the characteristics of your selected product, service, or resource specification.|
@@ -135,7 +135,11 @@ Source characteristic that you select.
 
 ## Result
 
+ 
+
 The order fulfillment process evaluates the attribute-mapping rules that you define. The attribute values are propagated from the domain orders that are associated with the source specification to the domain orders that are associated with the target specification.
+
+ 
 
 ## What to do next
 

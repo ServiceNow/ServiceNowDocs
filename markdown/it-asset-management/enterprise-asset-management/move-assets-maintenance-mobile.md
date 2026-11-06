@@ -7,9 +7,10 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-02-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Manage an Enterprise Asset Management task using the Mobile Agent application, Manage enterprise assets and tasks using Mobile Agent application, Enterprise Asset Management, IT Asset Management]
+keywords: [Move assets to maintenance]
+breadcrumb: [Manage an Enterprise Asset Management task using the Mobile Agent application, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, Asset Management]
 ---
 
 # Move enterprise assets to maintenance state using the Mobile Agent application
@@ -17,8 +18,6 @@ breadcrumb: [Manage an Enterprise Asset Management task using the Mobile Agent a
 Move assets of a break fix or planned maintenance work order task to the In maintenance state in the Mobile Agent application to indicate that the assets are under maintenance.
 
 ## Before you begin
-
-**Important:** The Affected assets tab and Move to maintenance UI option are available with Enterprise Asset Management version 10.0 and later.
 
 The break fix or planned maintenance work order task must be in the Work in progress state before you can move assets to the In maintenance state.
 

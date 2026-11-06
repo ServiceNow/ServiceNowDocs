@@ -7,9 +7,9 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Assistant Designer Asset library utilities, Assistant Designer Asset library interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer utilities, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Deflection utility
@@ -46,7 +46,7 @@ Deflection configuration
 
 </td><td>
 
-Select from a list of pre-defined deflection configurations. For more information, see [Create deflection configurations and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/set-up-deflection-settings-va.md).
+Select from a list of pre-defined deflection configurations. For more information, see [\(Legacy\) Create deflection configurations and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/set-up-deflection-settings-va.md).
 
 </td></tr><tr><td>
 
@@ -54,7 +54,7 @@ Deflection pattern
 
 </td><td>
 
-Select from a list of pre-defined deflection patterns. Ensure that your selection is tied to a pre-defined deflection. See [Create deflection configurations and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/set-up-deflection-settings-va.md) for more.
+Select from a list of pre-defined deflection patterns. Ensure that your selection is tied to a pre-defined deflection. See [\(Legacy\) Create deflection configurations and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/set-up-deflection-settings-va.md) for more.
 
 </td></tr><tr><td>
 
@@ -93,5 +93,5 @@ No-code condition statement or low-code script that specifies a condition for pr
 
 \[Omitted image "flow-designer-deflection-properties.png"\] Alt text: Action utility properties.
 
-**Parent Topic:**[Assistant Designer Asset library utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-utilities.md)
+**Parent Topic:**[Assistant Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-utilities.md)
 

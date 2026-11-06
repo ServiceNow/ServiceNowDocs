@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/explore-teams-configurable-wfo-cs.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
@@ -64,7 +64,7 @@ For detailed information on how to setup and use Teams, see [teams](https://raw.
 -   **[Using Teams in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/teams-configurable-wfo-cs.md)**  
 Use Teams to track and analyze performance trends for your teams from a single location. You can monitor the trends for each agent within your team and compare your agents or team members with one another.
 
-**Parent Topic:**[Using Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/use-configurable-wfo-cs.md)
+**Parent Topic:**[Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/use-configurable-wfo-cs.md)
 
 **Related topics**  
 

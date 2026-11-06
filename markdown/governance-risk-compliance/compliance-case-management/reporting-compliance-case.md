@@ -7,7 +7,7 @@ release: zurich
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Compliance Case Management, Governance, Risk, and Compliance]
 ---
@@ -20,7 +20,7 @@ As a business user, you can report a case by using one the following options:
 
 -   [Report a compliance case from the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/compliance-case-management/report-compliance-case-employee-center.md)
 -   [Create a compliance case in the Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/compliance-case-management/create-compliance-case.md)
--   [Report a compliance case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/compliance-case-management/report-compliance-case-anonymously.md)
+-   [Report a compliance case from the Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/compliance-case-management/report-compliance-case-anonymously.md)
 
 -   **[Report a compliance case from the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/compliance-case-management/report-compliance-case-employee-center.md)**  
 Report any violation of the organization's policies or guidelines by using the Employee Center application. By reporting a case, you reduce and avert the adverse regulatory actions that could impact the company's financials, reputation, and growth.

@@ -7,9 +7,9 @@ release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Roll back and delete recovery, Tables and data, Configure core features, Administer]
+breadcrumb: [Roll back and delete recovery, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Rollback context properties
@@ -159,6 +159,21 @@ The number of days to retain the rollback context for an upgrade
 
 By default, you have 10 days after the latest upgrade to roll back the upgrade before the rollback context expires. You can change the expiration period by adding this property and setting a new value.-   Type: integer
 -   Default value: 10
+
+</td></tr><tr><td>
+
+The number of additional days to retain rollback contexts that are stuck, beyond the normal expiration period.
+
+ `glide.rollback.stuck_expiration_days`
+
+</td><td>
+
+By default, rollback contexts that are stuck are retained for an additional 30 days beyond the normal expiration period. You can change this retention period by adding this property and setting a new value.The total retention period for stuck rollback contexts is calculated by adding the value of `glide.rollback.stuck_expiration_days` to the normal expiration period defined by `glide.rollback.expiration_days_delete`. By default, the normal expiration period is 10 days, so if `glide.rollback.stuck_expiration_days` is set to 30, stuck rollback contexts will be retained for a total of 40 days \(10 + 30\).
+
+The `glide.rollback.stuck_expiration_days` property is valid for all rollback types, not just for delete.
+
+-   Type: integer
+-   Default value: 30
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Roll back and delete recovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/rollback-delete-recovery.md)

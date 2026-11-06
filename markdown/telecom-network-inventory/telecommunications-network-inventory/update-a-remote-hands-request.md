@@ -7,7 +7,7 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Remote Hands Request, Use, Telecommunications Network Inventory]
 ---
@@ -48,6 +48,8 @@ The following procedure enables Remote Hands Agents to review the submitted case
     The case record fields are automatically populated with values submitted by the customers through the Remote Hands request form in the Customer Service Management \(CSM\) portal.
 
 6.  Select **Summarize**
+
+    To learn more see [ServiceNow Otto in Remote Hands Request Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/servicenow-otto-in-remote-hands-request-management-application.md)
 
     You can further modify case fields. Add Work Notes for customers to view, update the state and close the case.
 

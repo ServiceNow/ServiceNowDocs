@@ -1,0 +1,120 @@
+---
+title: Billing invoice data collector AI agent
+description: The agent retrieves the latest and previous invoices for a billing account, collects the line items on the latest invoice, and validates the pending amount. It compares the two invoice amounts and, when the latest invoice is higher, identifies the line item and the sold product behind the increase.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/tmt-billing-invoice-data-collector-ai-agent.html
+release: zurich
+topic_type: reference
+last_updated: "2026-10-22"
+reading_time_minutes: 2
+breadcrumb: [Customer Service Problem Management AI agents, Telecommunications, Media and Technology AI agents, Telecom, Media and Tech AI agents, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+---
+
+# Billing invoice data collector AI agent
+
+The agent retrieves the latest and previous invoices for a billing account, collects the line items on the latest invoice, and validates the pending amount. It compares the two invoice amounts and, when the latest invoice is higher, identifies the line item and the sold product behind the increase.
+
+## Workflow
+
+The agent collects invoice data for a billing inquiry case and returns it to the orchestrator.
+
+1.  Read the billing inquiry case details and the billing account number from memory.
+2.  Retrieve the invoice history for the billing account.
+3.  Extract the latest and the previous invoice, including invoice number, amount, usage billed through date, credited amount, and due date.
+4.  Validate the pending amount on the latest invoice.
+5.  Retrieve the line items for the latest invoice.
+6.  Compare the amounts of the two invoices and, when the latest invoice is higher, identify the high amount line item and the high usage sold product number.
+7.  Return the invoice data to the orchestrator.
+
+<table><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Allow third party to access this AI agent
+
+</td><td>
+
+When enabled, third-party AI agents can use this agent. This value is off \(false\) by default. This setting is defined in the AI Agent configs \[sn\_aia\_agent\_config\] table on the External discoverable field.
+
+</td></tr><tr><td>
+
+Allow AI specialists to access this AI agent
+
+</td><td>
+
+When enabled, AI specialists can use this agent. This value is off \(false\) by default. When set to true, more configuration options for tools become available so that an AI specialist can map inputs and response templates to tool outputs. This setting is defined in the AI Agent configs \[sn\_aia\_agent\_config\] table on the Specialist enabled field.
+
+</td></tr><tr><td>
+
+Manage long-term memory
+
+</td><td>
+
+When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/na-aia-reference.md).
+
+</td></tr><tr><td>
+
+Tools
+
+</td><td>
+
+-   **Script**
+
+Get Invoice Details
+
+Get Invoice History
+
+Get high amount line item
+
+
+</td></tr><tr><td>
+
+Allowed user roles The specific user roles that can access this AI agent.
+
+</td><td>
+
+Not defined.
+
+</td></tr><tr><td>
+
+Data access roles The specific user identity roles that determine which data the AI agent can access and what actions it can take.
+
+</td><td>
+
+Not defined.
+
+</td></tr><tr><td>
+
+Triggers
+
+</td><td>
+
+Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/add-trigger-aia.md).
+
+</td></tr><tr><td>
+
+Channels
+
+</td><td>
+
+Configure an assistant for Virtual Agent or ServiceNow Otto panel using [Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/configure-now-assist-va.md).
+
+</td></tr><tr><td>
+
+Used in agentic workflows
+
+</td><td>
+
+Help remediate bill issues
+
+</td></tr></tbody>
+</table>Learn more about Customer Service Problem Management at .
+
+**Parent Topic:**[Customer Service Problem Management AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/cspm-ai-agents-overview.md)
+

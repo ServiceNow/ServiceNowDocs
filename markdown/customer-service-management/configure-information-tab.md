@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configure-information-tab.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Customer Central, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -16,7 +16,7 @@ Configure the display of the Customer Information view using the CSM Agent Works
 
 ## Before you begin
 
-Role required: admin
+Role required: csm\_guided\_setup\_user or admin
 
 ## About this task
 

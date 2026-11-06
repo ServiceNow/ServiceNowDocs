@@ -7,8 +7,8 @@ release: zurich
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: concept
-last_updated: "2026-01-15"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Using ServiceNow Otto for Virtual Agent, ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -39,8 +39,15 @@ The workplace collaboration agent improves employee's reservation and collaborat
 
 **Note:** If you're planning to sit near a colleague, and if your colleague has a desk reservation for one hour and doesn't have an All day reservation, you can make a reservation for one-hour only. If an employee doesn't have any Employee Presence Exceptions and has no reservations made for a day while in office, the collaboration agent prioritizes the employee's workplace profile location and spaces around that location is suggested to the employee for collaboration.
 
+-   **[Get space suggestions using the Workplace collaboration agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/collaboration-agent.md)**  
+The Workplace collaboration agent provides space recommendations based on workplace presence data, team members, and reservation attendees.
+
+**Parent Topic:**[Using ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/create-rsv-agent-ovw.md)
+
 **Related topics**  
 
+
+[Making reservations using the Create a reservation agent]()
 
 [Set Employee Presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-concierge/use-workplace-concierge.md)
 

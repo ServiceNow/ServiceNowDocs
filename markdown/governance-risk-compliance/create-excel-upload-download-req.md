@@ -1,18 +1,18 @@
 ---
-title: Create New Excel download/upload request form
-description: On the Create New Excel download/upload request form, fill in the fields.
+title: Create Excel download/upload request form
+description: On the Create Excel download/upload request form, fill in the fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/create-excel-upload-download-req.html
 release: zurich
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create Microsoft Excel download and upload request, Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Create Microsoft Excel download and upload request, Use, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Create New Excel download/upload request form
+# Create Excel download/upload request form
 
-On the Create New Excel download/upload request form, fill in the fields.
+On the Create Excel download/upload request form, fill in the fields.
 
 <table id="table_aqy_k2x_rvb"><thead><tr><th>
 
@@ -143,6 +143,8 @@ Competent authority
 
 Competent authority according to Article 46 of Regulation \(EU\) 2022/2554 to which the register of information is reported.
 
+ ISO 8601 \(yyyy-mm-dd\) date on which the register of information is submitted to the regulator. For example, 2026-05-06. This is the submission date and is distinct from the Reference date, which is the as-of date of the data set being reported.
+
 </td></tr><tr><td>
 
 Date of reporting
@@ -150,6 +152,14 @@ Date of reporting
 </td><td>
 
 ISO 8601 \(yyyy-mm-dd\) code of the date of reporting
+
+</td></tr><tr><td>
+
+Reference date
+
+</td><td>
+
+ISO 8601 \(yyyy-mm-dd\) as-of date of the data set being reported. For example, 2025-12-31 for a year-end snapshot. The Reference date determines the historical exchange rate used when &lt;uicontrol&gt;Enable currency conversion&lt;/uicontrol&gt; is set. It is the date the regulator expects on each row of the package.
 
 </td></tr><tr><td>
 

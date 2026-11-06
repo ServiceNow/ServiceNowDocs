@@ -7,9 +7,9 @@ release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Table admin, Tables and data, Configure core features, Administer]
+breadcrumb: [Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Managing tables and indexes
@@ -54,6 +54,8 @@ Administrators and application developers can create custom tables to store appl
 Administrators can delete custom tables that are no longer needed. For example, delete a table from an application that is under development because the business requirements change.
 -   **[Modify dictionary entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/t_ModifyADictionaryEntryFromAForm.md)**  
 Modify dictionary entries by configuring a field on a form or from the Dictionary module.
+-   **[Configuring read-only security options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/read-only-option.md)**  
+Control the ability to edit read-only fields by configuring read-only options.
 -   **[Altering tables and fields using dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md)**  
 Dictionary attributes alter the behavior of the table or field that the dictionary record describes. Administrators can add or modify dictionary attributes.
 -   **[Dictionary overrides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/c_DictionaryOverrides.md)**  

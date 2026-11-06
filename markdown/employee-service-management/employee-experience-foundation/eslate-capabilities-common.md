@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-04-30"
 reading_time_minutes: 2
 keywords: [Employee Slate, Tasks and requests, canvas, notifications, org chart, profile, communication, calendar]
-breadcrumb: [ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # EmployeeWorks capabilities

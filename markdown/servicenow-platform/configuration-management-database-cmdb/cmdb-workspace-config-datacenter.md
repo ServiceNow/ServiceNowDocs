@@ -1,5 +1,5 @@
 ---
-title: Configure datacenters for Cloud vs Non-cloud resources
+title: Configure datacenters for Cloud vs Non-cloud resources in CMDB Workspace
 description: The Cloud vs Non-cloud resources chart in CMDB Workspace determines which CIs and application services are stored on a cloud and which aren't in the organization. In addition to base system classifications, you can add cloud versus non-cloud classifications that reflect specific datacenter deployments in the organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-config-datacenter.html
@@ -7,12 +7,12 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure classes for Cloud vs Non-cloud resources, Configure, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Configure datacenters for Cloud vs Non-cloud resources
+# Configure datacenters for Cloud vs Non-cloud resources in CMDB Workspace
 
 The Cloud vs Non-cloud resources chart in CMDB Workspace determines which CIsand application services are stored on a cloud and which aren't in the organization. In addition to base system classifications, you can add cloud versus non-cloud classifications that reflect specific datacenter deployments in the organization.
 
@@ -48,5 +48,5 @@ In the base system, the Datacenter Types table contains several common datacente
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Configure classes for Cloud vs Non-cloud resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-config-classes-cloud.md)
+**Parent Topic:**[Configuring CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/configuring-cmdb-workspace.md)
 

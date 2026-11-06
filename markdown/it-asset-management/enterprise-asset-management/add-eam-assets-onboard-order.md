@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Onboarding multiple enterprise assets in the Enterprise Asset Workspace, Manage enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Onboarding multiple enterprise assets in the Enterprise Asset Workspace, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Add details of the enterprise assets to an onboarding order

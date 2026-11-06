@@ -7,9 +7,9 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Acknowledge policy, Manage control objectives and policies, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Acknowledge policy, Manage, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Respond to an acknowledgement request
@@ -23,6 +23,8 @@ Role required: sn\_grc.business\_user, sn\_grc.business\_user\_lite
 ## Procedure
 
 1.  After you have received a notification that you are required to acknowledge a policy, navigate to **Policy and Compliance** &gt; **Policy Acknowledgement** &gt; **My Acknowledgements**.
+
+    \[Omitted image "my\_acknowledgement.png"\] Alt text: My acknowledgement
 
 2.  To provide the acknowledgement, open the record and perform one of the following actions.
 

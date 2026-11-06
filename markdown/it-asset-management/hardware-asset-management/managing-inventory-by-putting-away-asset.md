@@ -7,10 +7,10 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [asset put away task, put away asset]
-breadcrumb: [Explore, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Managing inventory by putting away assets in the stockroom drop-off location
@@ -33,5 +33,7 @@ In the Hardware Asset Workspace, the inventory users can perform the following a
 -   View the open put away tasks related to the inventory and stockroom. For more information, see [View open put away tasks for your stockroom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/view-open-putaway-tasks-ham.md).
 -   Update the **Drop off location** field for the open task in the Put away form and close it. For more information, see [Close an Asset put away task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/close-put-away-task-ham.md).
 
-Using the ServiceNow Agent application, you can scan the in stock assets in the inventory and put them away them in the scanned drop-off location. After the asset is placed in the drop-off location within the stockroom, you can close the Asset put away task. For more information about on the mobile experience for Asset put away task, see [Manage asset put away using the ServiceNow Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/manage-hardware-asset-put-away-ham-mobile-agent.md).
+Using the ServiceNow Agent application, you can scan the in stock assets in the inventory and put them away in the scanned drop-off location. After the asset is placed in the drop-off location within the stockroom, you can close the Asset put away task. For more information about the mobile experience for Asset put away task, see [Manage asset put away using the ServiceNow Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/manage-hardware-asset-put-away-ham-mobile-agent.md).
+
+**Parent Topic:**[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/exploring-ham.md)
 

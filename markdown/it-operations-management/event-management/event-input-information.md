@@ -7,8 +7,8 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Event rules, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -16,7 +16,11 @@ breadcrumb: [Event rules, Processing Events, Configure, Event Management, ITOM A
 
 The **Event Input** pane that is included in the steps to create an event rule provides a reference to the information that you can use when configuring an event rule.
 
+**Note:** Use [Ignore automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/create-ignore-automation-sow-itom.md) and [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/enrich-alert-sow-itom.md) in Service Operations Workspace, the updated way to automatically filter out irrelevant alerts, or to transform and standardize alert data for better response.
+
 In the **Transform and compose alert output** pane, you can also drag the information into the required fields to customize alert content. The fields in the right-hand pane appear as a reference to which fields, expressions, and their values are available when working in the Event Rule designer. The fields that display in the Transform and compose alert output left-hand workarea become the fields in the generated alert form. In addition, you can define alert tags that are specific for customization.
+
+**Note:** Use [Ignore automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/create-ignore-automation-sow-itom.md) and [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/enrich-alert-sow-itom.md) in Service Operations Workspace, the updated way to automatically filter out irrelevant alerts, or to transform and standardize alert data for better response.
 
 ## General components and navigation
 
@@ -59,7 +63,9 @@ Edit text in the left-hand workarea by selecting it, as required. After you have
 </td></tr></tbody>
 </table>## Event additional info
 
-The Event additional info section displays default event form fields. It also displays fields that were created to display in alerts and that are added to the **Additional information** section of the alert. When configuring text in the fields in the left-hand workarea, you can drag field names and their values from this section into the fields.
+The Event additional info section displays default event form fields. It also displays fields that were created to display in alerts and added to the **Additional information** section of the alert.
+
+When configuring text in the fields in the left-hand workarea, you can drag field names and/or their value from this section into the fields.
 
 ## Expressions
 

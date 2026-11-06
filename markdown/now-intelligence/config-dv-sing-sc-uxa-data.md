@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/config-dv-sing-sc-uxa-data.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Single score visualization, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Single score visualization, Create, Data visualizations, Platform A
 
 When you select a Usage Insights data source for a single score visualization, the following Data configuration options are available.
 
-**Note:** If you add a Platform Analytics data visualization with Usage Insights \(UXA\) data to an inline dashboard, the default drilldown for that data visualization is to open the corresponding UXA analytics page. This feature provides a quick and efficient way to drill down and explore specific user behavior from your Platform Analytics dashboard.
+**Note:** If you add a Platform Analytics data visualization with Usage Insights data to an inline dashboard, the default drilldown for that data visualization is to open the corresponding UXA analytics page. This feature provides a quick and efficient way to drill down and explore specific user behavior from your Platform Analytics dashboard.
 
 <table id="simpletable_wqy_sjr_qtb"><thead><tr><th>
 
@@ -169,8 +169,12 @@ Period
 </td><td>
 
 Time interval for each date period. -   Days `D`
+-   Weeks `W`
 -   Months `M`
+-   Quarters `Q`
 -   Years `Y`
+
+ The available periods depend on the time aggregation. A period can't be shorter than the time aggregation unit. If you change the time aggregation to a longer unit than the selected period, the period changes to the shortest period that is still available.
 
  This property applies only when **Set absolute period** is false.
 
@@ -192,7 +196,7 @@ Show metric label
 
 </td><td>
 
-Option to show the metric label. In donut charts, the value is not shown if it cannot fit the donut.
+Option to show the metric label. In donut charts, the value is not shown if it can't fit the donut.
 
 </td></tr><tr><td>
 

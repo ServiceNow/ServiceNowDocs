@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/add-auto-query-console.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Auto Query page, Using the Discovery Console, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Auto Query page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Create an Auto Query
@@ -36,7 +36,7 @@ Role required: admin
 
 5.  In the Assets section, choose from Assets and Targets.
 
-    The Assets to Query section lists the following choices:
+    The available **Assets** are:
 
     -   Existing Assets
     -   New Assets Only
@@ -47,16 +47,16 @@ Role required: admin
 
     When **Existing Assets** is selected for a query, the query uses the asset's IP address and Network Zone as its unique identifier. This allows the asset's IP address to exist across multiple Network Zones.
 
-    \[Omitted image "image.existing-assets"\] Alt text: Existing Assets
+    \[Omitted image "existing-assets.png"\] Alt text: Existing Assets
 
-6.  From the Targeted Sensors list choose from the following:
+6.  Targets refers to Sensors and Collector.
 
-    **Targets** refers to Sensors and Collectors.
+    The available **Targets** are:
 
     -   All Sensors
     -   Specific Sensors
     -   Auto Targeting
-    The default Targets selection is **All Sensors**. **All Sensors** uses all available Sensors and Collectors for the query. **Specific Sensors** uses only the selected Sensor and Collectors for the query. **Auto Targeting** tries to intelligently assign targets to Sensors and Collectors based on the query. It is designed to help manage complex deployments.
+    The default Targets selection is **All Sensors**. **All Sensors** uses all available Sensors and Collectors for the query. **Specific Sensors** uses only the selected Sensor and Collectors for the query. **Auto Targeting** tries to intelligently assign targets to Sensors and Collectors based on the query. It helps manage complex deployments.
 
 7.  Select **Next**
 
@@ -64,7 +64,7 @@ Role required: admin
 
     These filters help with the query selections. Filters include the following categories.
 
-    **Note:** Some options in this section are only visible when the Assets selection is set to Existing Assets or Incremental. When the selection is Asset Discovery or Asset Discovery &amp; Query, a few options are disabled.
+    **Note:** Some options in this section are only visible when the Assets selection is set to Existing Assets or Incremental. When the selection is Asset Discovery or Asset Discovery &amp; Query, a few options are inactive.
 
     -   **Sites**
 
@@ -72,7 +72,7 @@ Role required: admin
 
         **Note:** The Console automatically generates a default site. This is in case no Sites have been previously created. You can select the Console-generated site when using the Sites filter to select specific sites.
 
-        \[Omitted image "image.console-generated-site"\] Alt text: Console-generated Site
+        \[Omitted image "console-generated-site.png"\] Alt text: Console-generated Site
 
     -   Ports
     -   Ethernet Vendors
@@ -99,26 +99,35 @@ Role required: admin
 
 10. In the Query Types section, select the applicable query types as needed.
 
-    -   A Simplified query is a small list of easy-to-understand queries that should cover most possible scenarios. Most users start with this type of query.
+    -   The Simplified query types are a small list of easy-to-understand queries that should cover most possible scenarios. Most users start with this type of query.
 
         \[Omitted image "simplified-query-type.png"\] Alt text: Simplified query types
 
         **Note:** The simplified **Auto Query** type **Full Page Extraction** updates the query to perform a full extraction of your Target landing page. That means, this type of query includes both the screenshot and the HTML information.
 
-    -   Advanced query: presents the list of all available auto queries. As some of these queries can be riskier, require more technically complicated to understand, or specific to certain devices; these queries are recommended only for advanced users.
-    \[Omitted image "image.adv-query-types2"\] Alt text: Advanced Query types
+    -   The Advanced query types are a list of all available advanced auto queries. As some of these queries can be riskier, require more technically complicated to understand, or specific to certain devices; these queries are recommended only for advanced users.
+    \[Omitted image "auto-queries-advanced-list.png"\] Alt text: Advanced Auto Query types
 
+    Some recently added Advanced Query types include but aren't limited to:
+
+    -   **MelSecQ** - Query the Mitsubishi MELSEC-Q Series
+    -   **Moxa** - Query to read the Moxa ICS setting
+    -   **IPC-UA Deep** - Retrieve info from an OPC-UA target
+    -   **ProfiNet DCE/RPC EPM** - Performs ProfiNet DCE/RPC EPM lookup requests
+    -   **ProfiNet DCP** - PLC protocol often used for communicating with Siemens devices; this protocol is newer than S7. NOTE: Since this is a layer 2 scan it may return more results than selected.
+    -   **SSL/TLS Certificate** - Query server to retrieve information about served SSL/TLS certificates
+    -   **WMI** - Query Windows OS devices using Windows
 11. You can set up the Auto Query scan to include all open ports.
 
-    To do this, select both or either the **UDP Port Enumeration** and/or **TCP Port Enumeration** \(highlighted in the previous image\) from the Advanced Query Types. Each scan determines all open ports for their two respective protocols.
+    To do this, select both or either the **UDP Port Enumeration** and / or **TCP Port Enumeration** \(highlighted in the previous image\) from the Advanced Query Types. Each scan determines all open ports for their two respective protocols.
 
-    **Note:** For these query types to be available, ensure your ScanScripts.json driver is up to date; if not, upload the latest version of this driver. For information about Query drivers, see [Editing the Query Driver on the Metadata tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/edit-query-driver-on-metadata.md).
+    **Note:** For these query types to be available, verify your ScanScripts.json driver is up to date; if not, upload the latest version of this driver. For information, see [Edit the Query Driver on Metadata tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/edit-query-driver-on-metadata.md).
 
 12. Select **Next**
 
 13. In the Classification section, select from the following.
 
-    \[Omitted image "image.brand-based-on-ocr"\] Alt text: Classifications
+    \[Omitted image "brand-based-on-ocr.png"\] Alt text: Classifications
 
     -   **Brand based on MAC address**: Assigns brand based on MAC address range match.
     -   **Brand based on OCR words**: Attempts to assign brands based on strings extracted by the OC. Fuzzy word search is supported.
@@ -129,7 +138,7 @@ Role required: admin
 
 15. In the Confirmation section, set the schedule, recursion, and duration.
 
-    \[Omitted image "image.auto-query-confirmation2"\] Alt text: Confirm and schedule
+    \[Omitted image "auto-query-confirmation2.png"\] Alt text: Confirm and schedule
 
 16. Select **Next**.
 
@@ -139,4 +148,6 @@ Role required: admin
 ## Result
 
 The query is added to the Auto Query page.
+
+**Parent Topic:**[Auto Query page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/auto-query-console.md)
 

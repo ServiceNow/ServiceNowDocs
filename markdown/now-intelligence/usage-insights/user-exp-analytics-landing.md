@@ -7,7 +7,7 @@ release: zurich
 product: Usage Insights
 classification: usage-insights
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Platform Analytics]
 ---
@@ -54,8 +54,6 @@ The ServiceNow® Usage Insights application enables you to monitor how users int
 An admin can configure which ServiceNow applications to track in the Usage Insights application as well as user tracking consent policies.
 -   **[Using Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/usage-insights/using-uxa.md)**  
 Monitor how users interact in your ServiceNow  web and mobile applications.
--   **[Usage Insights reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/usage-insights/user-experience-analytics-reference.md)**  
-Roles and properties installed with Usage Insights.
 
 **Parent Topic:**[Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/c_performanceAnalyticsAndReporting.md)
 

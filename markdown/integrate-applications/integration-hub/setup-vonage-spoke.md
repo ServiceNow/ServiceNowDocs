@@ -7,8 +7,8 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 5
+last_updated: "2026-03-12"
+reading_time_minutes: 6
 breadcrumb: [Vonage Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
@@ -68,7 +68,7 @@ Role required: admin
 
 **Note:** Ensure that you are in the **Vonage spoke** scope.
 
-\[Omitted image "vonage-spoke-scope.png"\] Alt text: Application scope verification for Vonage spoke before connection configuration
+\[Omitted image "vonage-spoke-scope.png"\] Alt text:
 
 ### Procedure
 
@@ -88,8 +88,10 @@ Role required: admin
     |-----|-----------|
     |Connection Name|The default and read-only name of the connection record. To provide a custom name to the connection record, create a connection record by selecting **Add Connection**.|
     |Connection URL|The URL to connect to the Vonage API.|
+    |Messages API Version|The version of APIs the connection record requests for using the SMS feature in the Vonage instance.|
+    |Voice API Version|The version of APIs the connection record requests for using the Voice feature in the Vonage instance.|
     |Credential Name|Name of the credential record. The default name os Vonage credential which you can update.|
-    |Application Name|Name of the application created in Vonage for this spoke connection.|
+    |Application Name|Name of the account that you had entered in the Settings page of the Vonage developers account.\[Omitted image "Vonage-spoke-conn-record-account-name.png"\] Alt text: Account name field on Vonage instance.|
     |API Key|API key you had acquired in the Vonage developer instance.|
     |API Secret|API secret you had acquired in the Vonage developer instance.|
     |Signature Secret|Signature secret key you had acquired in the Vonage developer instance.|

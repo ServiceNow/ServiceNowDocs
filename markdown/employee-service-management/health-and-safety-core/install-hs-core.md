@@ -7,7 +7,7 @@ release: zurich
 product: Health and Safety Core
 classification: health-and-safety-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Health and Safety Core, Health and Safety, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ You can install the Health and Safety Core \(sn\_ohs\_im\) if you have an admin 
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [Health and Safety Core](https://store.servicenow.com/store/app/b32ce76e1b246a50a85b16db234bcb02) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 Role required: admin
@@ -113,8 +113,6 @@ Installs Learning Core to enable learning content in Health and Safety actions.F
 [Create a safety report field mapping for generating reports]()
 
 [Configure groups for Health and Safety]()
-
-[Configure scheduled job to generate frequency rates]()
 
 [Assign Health and Safety profile to a user]()
 

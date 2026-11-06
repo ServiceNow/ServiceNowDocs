@@ -7,9 +7,9 @@ release: zurich
 product: System Events
 classification: system-events
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [System Events, Configure core features, Administer]
+breadcrumb: [System Events, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Configuring System events
@@ -21,4 +21,9 @@ Plan, configure, and implement system events without having to complete any extr
 [Implement automated job scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-events/auto-job-scheduling.md)
 
 Implement the message processing framework \(automated jobs scheduling\) by using the Queue Registration link on the Event Registration form.
+
+-   **[Implement automated job scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-events/auto-job-scheduling.md)**  
+Implement the message processing framework \(automated jobs scheduling\) by using the Queue Registration link on the Event Registration form.
+
+**Parent Topic:**[System Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-events/system-events-landing.md)
 

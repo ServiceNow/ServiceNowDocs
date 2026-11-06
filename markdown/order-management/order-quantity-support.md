@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/order-quantity-support.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Add products or services, Creating orders, Order Management, Use, Sales Customer Relationship Management]
 ---
 
@@ -32,4 +32,11 @@ In this scenario, you accept and support your customer order that has the inform
 
 -   Specification relationship with quantity characteristic
 -   Characteristic mapping
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-order-management.md)
 

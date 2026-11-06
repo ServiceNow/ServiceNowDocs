@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Apache Kafka Consumer Connector, Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-Use event field mappings to provide more comprehensive information in an event alert by substituting values from the event field mapping rule into the event. Depending on your payload, transform information in events to populate specified alert field values and compose alert fields from various values to generate alerts for tracking and remediation. If needed, use both event field mappings and alert rules.
+Use event field mappings to provide more comprehensive information in an event alert. Substitute values from the event field mapping rule into the event. Transform information in events to populate specified alert field values and compose alert fields from various values to generate alerts for tracking and remediation. If needed, use both event field mappings and alert rules.
 
 The following table compares a message received from a topic and a flattened payload in the event **Additional info** field. The message received from a topic is flattened as a single field and appears in the event **Additional info** field. Use these flattened messages to create event rules and mappings.
 

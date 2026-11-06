@@ -1,0 +1,117 @@
+---
+title: Customer insight AI agent
+description: This agent is responsible for answering any questions related to the record. The information it can retrieve includes customer information \(name, contact info, details, location, history, cases, and orders\) and case information \(next steps, actions, agent, notes, documents, tasks, and resolutions\).
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/csm-customer-insight-ai-agent.html
+release: zurich
+topic_type: reference
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Customer Service Management AI agents, Customer Service Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+---
+
+# Customer insight AI agent
+
+This agent is responsible for answering any questions related to the record. The information it can retrieve includes customer information \(name, contact info, details, location, history, cases, and orders\) and case information \(next steps, actions, agent, notes, documents, tasks, and resolutions\).
+
+## Workflow
+
+The agent helps users complete tasks related to customer insight.
+
+1.  Question analysis and requirements gathering.
+2.  Question analysis validation: ensure that the customer has provided all relevant information.
+3.  Use deep research to retrieve comprehensive data and insights.
+4.  Generate a response for the customer and respond to follow-up questions.
+
+<table><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Allow third party to access this AI agent
+
+</td><td>
+
+When enabled, third-party AI agents can use this agent. This value is off \(false\) by default. This setting is defined in the AI Agent configs \[sn\_aia\_agent\_config\] table on the External discoverable field.
+
+</td></tr><tr><td>
+
+Allow AI specialists to access this AI agent
+
+</td><td>
+
+When enabled, AI specialists can use this agent. This value is off \(false\) by default. When set to true, more configuration options for tools become available so that an AI specialist can map inputs and response templates to tool outputs. This setting is defined in the AI Agent configs \[sn\_aia\_agent\_config\] table on the Specialist enabled field.
+
+</td></tr><tr><td>
+
+Manage long-term memory
+
+</td><td>
+
+When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/na-aia-reference.md).
+
+</td></tr><tr><td>
+
+Tools
+
+</td><td>
+
+-   **Script**
+
+Deep Research
+
+-   **Search retrieval**
+
+Get relevant knowledge articles
+
+
+</td></tr><tr><td>
+
+Allowed user roles The specific user roles that can access this AI agent.
+
+</td><td>
+
+sn\_esm\_agent
+
+</td></tr><tr><td>
+
+Data access roles The specific user identity roles that determine which data the AI agent can access and what actions it can take.
+
+</td><td>
+
+sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
+
+</td></tr><tr><td>
+
+Triggers
+
+</td><td>
+
+Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/add-trigger-aia.md).
+
+</td></tr><tr><td>
+
+Channels
+
+</td><td>
+
+Configure an assistant for Virtual Agent or ServiceNow Otto panel using [Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/configure-now-assist-va.md).
+
+</td></tr><tr><td>
+
+Used in agentic workflows
+
+</td><td>
+
+[Provide customer 360 insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/customer-service-management-ai-agent-collection-customer-360.md)
+
+</td></tr></tbody>
+</table>Learn more about Customer Service Management at [Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/c_CustomerServiceManagement.md).
+
+**Parent Topic:**[Customer Service Management AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/csm-ai-agents-overview.md)
+

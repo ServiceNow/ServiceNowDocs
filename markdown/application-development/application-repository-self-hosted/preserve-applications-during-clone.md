@@ -7,9 +7,9 @@ release: zurich
 product: Application Repository \(Self-Hosted\)
 classification: application-repository-self-hosted
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [Manage customizations to applications, ServiceNow application repository, Application sharing, Administer your apps, Deploying applications, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Manage customizations to applications, ServiceNow application repository, Application sharing, Administer your apps, Deploying applications, Classic app development, Building applications]
 ---
 
 # Preserve applications and customizations in development during a system clone
@@ -18,13 +18,15 @@ Manually preserve a copy of each application and customization that you currentl
 
 ## Before you begin
 
-Role required: admin
+Ensure that you have write access to the application record.
 
-Verify that you have write access to the application record and access to a source control repository.
+Ensure that you have access to a source control repository.
+
+Role required: admin
 
 ## About this task
 
-The cloning process doesn’t preserve version differences for applications and app customizations in development. Instead, the system clones only the copies of the application and app customization versions that are installed on the source instance onto the target instance. If the target instance had a development version of the same application, the application is editable after the clone, but is at the version that was installed on the source instance. If the application was missing from the source instance, the cloning process deletes the application from the target instance.
+The cloning process does not preserve version differences for applications and app customizations in development. Instead, the system clones only the copies of the application and app customization versions that are installed on the source instance onto the target instance. If the target instance had a development version of the same application, the application is editable after the clone, but is at the version that was installed on the source instance. If the application was missing from the source instance, the cloning process deletes the application from the target instance.
 
 ## Procedure
 
@@ -85,7 +87,7 @@ None. The system clone process copies this application version onto the target i
     |-----|-----------|
     |glide.source\_control.post\_clone\_import\_enabled|To disable the apply remote changes automation, set to **False**. The default is **True**.|
     |glide.source\_control.post\_clone\_import\_delay\_time\_sec|To provide a delay time, which will delay processing of the queue, provide a value. The default is zero.|
-    |glide.source\_control.post\_clone\_import\_pause\_refresh\_time\_sec|To provide an interval in which the refresh repository job won’t run, provide a value. The default is three hours \(10800\).|
+    |glide.source\_control.post\_clone\_import\_pause\_refresh\_time\_sec|To provide an interval in which the refresh repository job will not run, provide a value. The default is three hours \(10800\).|
 
 5.  If you saved each application to an update set, do one of these actions to retrieve them from the update set:
 
@@ -132,4 +134,19 @@ Because you previously used a source control integration to develop version 1.0 
 You schedule a clone of the production instance over the development instance. After completion, you log in to the development instance and see that it has version 1.0 of the Marketing Events application, because that was the version installed on the source instance.
 
 Because the application was already installed on the source instance, you apply the remote changes from the source control repository to receive the latest application version. The development instance now has version 2.0 of the Marketing Events application and is available for further development and testing.
+
+**Related topics**  
+
+
+[Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/link-app-to-source-control.md)
+
+[Commit changes to a repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/sns-sc-commit-changes-to-repository.md)
+
+[Publish an application to the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/application-repository-self-hosted/t_PublishAppsToTheAppRepository.md)
+
+[Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/installing-applications-in-application-manager.md)
+
+[Import an app from source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/sns-sc-import-app-source-control.md)
+
+[Load customizations from a single XML file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/t_SaveAnUpdateSetAsAnXMLFile.md)
 

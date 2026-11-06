@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-success-report.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Success report dashboard overview, Customer success, Use, Customer Success Management]
+breadcrumb: [Success report dashboard overview, Dashboards, Customer success, Use, Customer Success Management]
 ---
 
 # Success report dashboard
@@ -17,13 +17,13 @@ Get an overall view of all your engagement and team status overview, risk indica
 To view this page, follow these steps:
 
 1.  Login as a user with either the `sn_acct_lc.success_manager` and `sn_acct_lc_customer_success_agent` roles.
-2.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** to view the Success report page.
+2.  Navigate to **Workspaces** &gt; **CRM Workspace** to view the Success report page.
 
 **Note:**
 
 -   The engagements listed on the success report dashboard are based on the hierarchy of the logged in user. Users with the **sn\_acct\_lc.success\_manager** role can see an aggregate view of all engagements handled by all customer success managers in the hierarchy. Users with the **sn\_acct\_lc\_customer\_success\_agent** role can see an aggregate view of all their assigned engagements. For more details, see [Success report dashboard overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-success-report-overview.md).
--   Select filters from the following drop down lists and click **Apply** to narrow the list of engagements displayed:
-    -   Contract values: Select one or more contract values from the drop down list. The local currency is automatically selected based on your system settings. The contract value ranges are based on the following properties in the **TechOnbConstants** script include:
+-   Select filters from the following drop down lists and select **Apply** to narrow the list of engagements displayed:
+    -   Contract values: Select one or more contract values from the drop down list. The local currency is automatically selected based on your system settings. The contract value ranges are defined in the following properties in the **TechOnbConstants** script include:
         -   TechOnbConstants.CONTRACT\_VALUES\_ID
         -   TechOnbConstants.CONTRACT\_VALUES
     -   Customer success managers: The list of users displayed here is based on the role of the logged in user.
@@ -40,7 +40,7 @@ The Success report page contains the following tabs:
 
 ## Overview \(Success report\)
 
-This tab provides a high-level overview of the success portfolio. You can click on any of the sections in this page to drill down to the Details page. It includes the following details:
+This tab provides a high-level overview of the success portfolio. You can select any of the sections in this page to drill down to the Details page. It includes the following details:
 
 -   Total engagements: Total number of engagements managed by the customer success manager.
 -   YTD new engagements: The number of new engagements as of the current year.
@@ -68,7 +68,7 @@ This tab provides an identification of potential issues that could impact engage
 This tab shows the current customer adoption status. It includes the following details:
 
 -   Engagements with overdue go-live date: Engagements with overdue go-live dates.
--   Engagements with active onboarding: List of engagements that are in the on-boarding stage of the engagement life cycle.
+-   Engagements with active onboarding: List of engagements that are in the onboarding stage of the engagement life cycle.
 -   Engagements due to go-live in 30 days: List of all engagements that are due to go-live in 30 days.
 -   Engagements with no success objectives: Engagements for which no success objectives have been defined.
 -   Engagements with &gt;80% objective completion: List of engagements for which more than 80% of the success objectives have been completed.

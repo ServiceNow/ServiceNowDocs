@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/create-dv-geomap-ac.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Create geomap report, Create geomap visualization]
 breadcrumb: [Create, Data visualizations, Platform Analytics experience, Platform Analytics]
@@ -17,7 +17,7 @@ A geomap visualization shows the geographical distribution of data for a world, 
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -41,17 +41,96 @@ For information about the use of a Geomap visualization in a dashboard, see [the
 
 5.  Configure the **Header and border**. Header and border options are the same for all data sources.
 
-    |Header and border fields|Description|
-    |------------------------|-----------|
-    |Show header|The visualization header, including title and icons.|
-    |Show header separator|Option to display a line separating the header from the rest of the component.|
-    |Chart title|Title of the visualization.|
-    |Description|A short overview about the visualization that the end user sees. Descriptions help users find the visualization.|
-    |Wrap title|Option to wrap long titles onto a second line. If false, displays an ellipsis to truncate long titles.|
-    |Show border|Option to display a line around the component.|
-    |Bare|Option to remove padding around data visualization to provide more compact positioning on the page. Only available when **Show border** is turned off.|
+<table id="table_ly5_djk_c5b"><thead><tr><th>
 
-6.  Set the options for your data source.
+Header and border fields
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr id="ac-dv-showheader"><td>
+
+Show header
+
+</td><td>
+
+The visualization header, including title and icons.
+
+</td></tr><tr id="ac-dv-showheadersep"><td>
+
+Show header separator
+
+</td><td>
+
+Option to display a line separating the header from the rest of the component.
+
+</td></tr><tr id="ac-dv-charttitle"><td>
+
+Chart title
+
+</td><td>
+
+Title of the visualization.
+
+</td></tr><tr><td>
+
+Title alignment
+
+</td><td>
+
+Choose Start to align the title with the start of line, End to align it with the end of the line, or Center for center alignment.
+
+</td></tr><tr id="ac-dv-chartdesc"><td>
+
+Description
+
+</td><td>
+
+A short overview about the visualization that the end user sees. Descriptions help users find the visualization.
+
+</td></tr><tr id="ac-dv-wraptitle"><td>
+
+Wrap title
+
+</td><td>
+
+Option to wrap long titles onto a second line. If false, displays an ellipsis to truncate long titles.
+
+</td></tr><tr><td>
+
+Line of truncation
+
+</td><td>
+
+Specify where to truncate long labels with an ellipsis. Options are 1, 2, and 3.
+
+</td></tr><tr id="ac-dv-showborder"><td>
+
+Show border
+
+</td><td>
+
+Option to display a line around the component.
+
+</td></tr><tr id="ac-dv-bare"><td>
+
+Bare
+
+</td><td>
+
+Option to remove padding around data visualization to provide more compact positioning on the page. Only available when **Show border** is turned off.
+
+</td></tr><tr id="ac-dv-show-refresh"><td>
+
+Show refresh option
+
+</td><td>
+
+Option to show or hide the refresh option from data visualizations. If cache is enabled on a dashboard, the Refresh option is hidden.
+
+</td></tr></tbody>
+</table>6.  Set the options for your data source.
 
     Go to [Table data options for Geomap visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/config-dv-geomap-table-data.md).
 
@@ -130,7 +209,7 @@ Type of color scheme to apply to the component. The choices are:
 
 
 </td></tr></tbody>
-</table>8.  Under **Chart interaction**, set what if anything happens when a viewer clicks a chart or a chart segment on the visualization.
+</table>8.  Under **Chart interaction**, set what if anything happens when a viewer selects a chart or a chart segment on the visualization.
 
 <table id="table_qnp_d2d_b1c"><thead><tr><th>
 
@@ -146,7 +225,7 @@ Allow chart interaction
 
 </td><td>
 
-Enable an event to occur when a user clicks in a visualization or one of its segments.
+Enable an event to occur when a user selects a visualization or one of its segments.
 
 </td></tr><tr><td>
 
@@ -157,7 +236,7 @@ Action
 Only the **Go to data view** interaction is available for geomaps. This action opens the underlying records view.
 
 </td></tr></tbody>
-</table>9.  Select **Save** to continue editing the visualization, or **Save and close** to return to the Analytics Center main screen.
+</table>9.  Select **Save** to continue editing the visualization, or **Save and close** to return to the Analytics Overview main screen.
 
 
 ## What to do next

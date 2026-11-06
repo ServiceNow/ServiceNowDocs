@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/c\_EmailConfiguration.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Explore, Email Administration, Notifications, Configure core features, Administer]
+breadcrumb: [Explore, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Email administration

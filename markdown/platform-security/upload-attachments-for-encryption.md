@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/upload-attachments-for-encryption.html
 release: zurich
 topic_type: task
-last_updated: "2026-07-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Encrypting fields and attachments, Using Field Encryption, Field Encryption, Encryption]
 ---

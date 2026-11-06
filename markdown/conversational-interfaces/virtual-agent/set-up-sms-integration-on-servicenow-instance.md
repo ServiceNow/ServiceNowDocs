@@ -1,5 +1,5 @@
 ---
-title: Set up SMS integration on ServiceNow instance
+title: Set up SMS integration on a ServiceNow instance
 description: Set up conversational SMS on a ServiceNow instance to enable customers to seamlessly talk to virtual or live agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/set-up-sms-integration-on-servicenow-instance.html
@@ -7,12 +7,12 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 3
-breadcrumb: [Configure, Conversational SMS Integration with AWS End User Messaging, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Configure, SMS with Amazon End User Messaging, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
-# Set up SMS integration on ServiceNow instance
+# Set up SMS integration on a ServiceNow instance
 
 Set up conversational SMS on a ServiceNow instance to enable customers to seamlessly talk to virtual or live agents.
 

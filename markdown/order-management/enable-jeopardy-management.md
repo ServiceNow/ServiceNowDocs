@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/enable-jeopardy-management.html
 release: zurich
 topic_type: task
-last_updated: "2025-12-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Jeopardy Management, Order management, Configure, Sales Customer Relationship Management]
 ---
@@ -42,4 +42,11 @@ Use Workflow Studio to define which product, service, or resource specification 
 ## What to do next
 
 After configuring Jeopardy Management, see [Monitoring order jeopardy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/monitoring-jeopardy-management.md) to review different ways to monitor Jeopardy Management.
+
+**Related topics**  
+
+
+[Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/jeopardy-management.md)
+
+[Monitoring order jeopardy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/monitoring-jeopardy-management.md)
 

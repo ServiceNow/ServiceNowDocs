@@ -7,9 +7,9 @@ release: zurich
 product: Platform Performance
 classification: platform-performance
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Platform performance, Maintain and monitor, Administer]
+breadcrumb: [Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
 
 # Monitoring platform performance
@@ -30,8 +30,6 @@ Identify and debug the root causes for a problematic transaction by recording, a
 The instance tracks the performance of individual threads, which administrators can view in the transaction log.
 -   **[Monitoring instance usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/usage-analytics-module-subscription.md)**  
 You can track application usage on your instance through the Application Usage Overview and the ServiceNow Store Usage overview dashboards.
--   **[Application Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/application-insights.md)**  
-The ServiceNow® Application Insights application available in the ServiceNow Store, provides a centralized location where you can visualize and monitor system health.
 
 **Parent Topic:**[Maintaining and monitoring the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/maintain-monitor-now-platform.md)
 

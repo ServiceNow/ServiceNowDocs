@@ -1,16 +1,16 @@
 ---
-title: Monitoring assessment data using ESG Management dashboards
+title: Monitoring assessment data using Operational Sustainability Management dashboards
 description: You can monitor and analyze assessment data at various levels in the Operational Sustainability Management application using the Analytics dashboard. The custom dashboards you create provide tailored insights and deliver relevant information at a glance, improving the decision-making process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/monitor-data-using-esg-dashboards.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
-# Monitoring assessment data using ESG Management dashboards
+# Monitoring assessment data using Operational Sustainability Management dashboards
 
 You can monitor and analyze assessment data at various levels in the Operational Sustainability Management application using the Analytics dashboard. The custom dashboards you create provide tailored insights and deliver relevant information at a glance, improving the decision-making process.
 
@@ -24,29 +24,29 @@ The Analytics dashboard landing page opens as a blank canvas, allowing users to 
 
 \[Omitted image "analytics-dashboard.png"\] Alt text: Analytics dashboard homepage
 
-To learn more about creating and using ESG Management dashboards, see:
+To learn more about creating and using Operational Sustainability Management dashboards, see:
 
--   [Create an ESG Management dashboard using the In-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/create-an-esg-dashboard.md)
--   [Edit ESG Management dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/edit-esg-dashboard-details.md)
--   [Edit ESG Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/edit-esg-dashboards.md)
--   [Edit ESG Management dashboard elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/edit-esg-dashboard-elements.md)
--   [Share an ESG Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/share-an-esg-dashboard.md)
--   [Delete an ESG Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/delete-an-esg-dashboard.md)
+-   [Create an Operational Sustainability Management dashboard using the In-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/create-an-esg-dashboard.md)
+-   [Edit Operational Sustainability Management dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/edit-esg-dashboard-details.md)
+-   [Edit Operational Sustainability Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/edit-esg-dashboards.md)
+-   [Edit Operational Sustainability Management dashboard elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/edit-esg-dashboard-elements.md)
+-   [Share an Operational Sustainability Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/share-an-esg-dashboard.md)
+-   [Delete an Operational Sustainability Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/delete-an-esg-dashboard.md)
 
 For more information on dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/analytics-center-dashboards.md).
 
--   **[Create an ESG Management dashboard using the In-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/create-an-esg-dashboard.md)**  
+-   **[Create an Operational Sustainability Management dashboard using the In-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/create-an-esg-dashboard.md)**  
 You can create dashboards with data visualizations, filters, and other elements that you can share with others. You can also create elements and add existing elements from the in-line editor.
--   **[Edit ESG Management dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/edit-esg-dashboard-details.md)**  
+-   **[Edit Operational Sustainability Management dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/edit-esg-dashboard-details.md)**  
 You can change a dashboard name, add a description, certify it, configure visibility, and specify the requester, the owner, the owner group.
--   **[Edit ESG Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/edit-esg-dashboards.md)**  
+-   **[Edit Operational Sustainability Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/edit-esg-dashboards.md)**  
 You can edit dashboard and dashboard tab information in the in-line editor. If the dashboard has been shared, any changes you make are applied globally.
--   **[Edit ESG Management dashboard elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/edit-esg-dashboard-elements.md)**  
+-   **[Edit Operational Sustainability Management dashboard elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/edit-esg-dashboard-elements.md)**  
 You can edit the contents of a dashboard or dashboard tab, including data visualizations and filters. Because dashboards are shared, any changes you make are applied globally.
--   **[Share an ESG Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/share-an-esg-dashboard.md)**  
+-   **[Share an Operational Sustainability Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/share-an-esg-dashboard.md)**  
 Share a dashboard with other users, groups, or roles to create a shared view of data that you can use to collaborate. You can grant viewing permissions or both viewing and editing permissions.
--   **[Delete an ESG Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/delete-an-esg-dashboard.md)**  
+-   **[Delete an Operational Sustainability Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/delete-an-esg-dashboard.md)**  
 You can delete a dashboard that is no longer useful. The Analytics Center invokes the Workflow Studio to remove the dashboard from your instance.
 
-**Parent Topic:**[Configure ESG Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/configuring-esg.md)
+**Parent Topic:**[Configure Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/configuring-esg.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/som-add-sales-agreement-to-order.html
 release: zurich
 topic_type: task
-last_updated: "2025-09-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Creating orders, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -32,7 +32,7 @@ See [Using Sales Agreement Management](https://raw.githubusercontent.com/Service
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 

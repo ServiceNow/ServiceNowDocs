@@ -1,20 +1,20 @@
 ---
 title: Learning reference
-description: Reference topics provide additional information regarding the system properties, roles, and tables installed with Learning.
+description: All information regarding the system properties and tables installed with learning experience are listed here.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/learning-core/learning-experience-reference.html
 release: zurich
 product: Learning Core
 classification: learning-core
-topic_type: concept
-last_updated: "2025-07-31"
+topic_type: reference
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Learning reference
 
-Reference topics provide additional information regarding the system properties, roles, and tables installed with Learning.
+All information regarding the system properties and tables installed with learning experience are listed here.
 
 -   **[Collection form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/collection-form-lxp.md)**  
 Use the Collection form to create a content collection in Learning Core to dynamically group Learning content that includes multiple internal and external courses.

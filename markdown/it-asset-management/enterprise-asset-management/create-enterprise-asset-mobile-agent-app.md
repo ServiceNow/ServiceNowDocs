@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Manage enterprise assets and tasks using Mobile Agent application, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, Asset Management]
 ---
 
 # Create an enterprise asset in the Mobile Agent application
@@ -22,7 +22,7 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
 ## About this task
 
-**Important:** The enterprise assets that you create through the Mobile Agent application can be associated only with enterprise models that are classified through the Enterprise good model \[sn\_ent\_model\] class within the Configuration Management Database \(CMDB\) class hierarchy. See [Expanded Model and Asset Classes Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/enterprise-model-asset-classes-app.md) for more information on enterprise model classes.
+**Important:** The enterprise assets that you create through the Mobile Agent application can be associated only with enterprise models that are classified through the Enterprise good model \[sn\_ent\_model\] class within the Configuration Management Database \(CMDB\) class hierarchy. See [Expanded Model and Asset Classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/enterprise-model-asset-classes-app.md) for more information on enterprise model classes.
 
 ## Procedure
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/ea-qna-use.html
 release: zurich
 topic_type: task
-last_updated: "2026-05-26"
-reading_time_minutes: 3
-breadcrumb: [Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Working with Enterprise Architecture query agent
@@ -92,4 +92,6 @@ The Enterprise Architecture query agent returns a structured answer based on you
 [Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/configure-now-assist-ea.md)
 
 [ServiceNow Otto for Enterprise Architecture \(EA\) access roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/sn-otto-access-roles.md)
+
+[Access Enterprise Architecture data using MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/access-ea-data-using-mcp-tools.md)
 

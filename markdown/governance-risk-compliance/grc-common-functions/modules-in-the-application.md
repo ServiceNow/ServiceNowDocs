@@ -7,7 +7,7 @@ release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integration with Thomson Reuters Regulatory Intelligence \(TRRI\), GRC integrations, Common GRC features, Governance, Risk, and Compliance]
 ---

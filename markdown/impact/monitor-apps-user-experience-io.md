@@ -1,16 +1,16 @@
 ---
-title: Track the response time of applications to monitor their performance
+title: Track of application response time to monitor performance
 description: Track the response time of applications to gauge their performance. You can drill down to the transaction ID of each application to learn the slowest and fastest interactions in each instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/monitor-apps-user-experience-io.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Analytics, Overview of Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [User Experience, IO analytics, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
-# Track the response time of applications to monitor their performance
+# Track of application response time to monitor performance
 
 Track the response time of applications to gauge their performance. You can drill down to the transaction ID of each application to learn the slowest and fastest interactions in each instance.
 
@@ -55,6 +55,8 @@ With application monitoring, you can view the number of applications in each ins
 
     By default, the list of applications appear in descending order of the Average Response Time in seconds.
 
-    For more information on application monitoring, see [Analyze user experience and monitor application performance in Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-app-mon-perf-analy.md).
+    For more information on application monitoring, see [Use Platform Performance Analyzer to view server details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-app-mon-perf-analy.md).
 
+
+**Parent Topic:**[User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/user-experience-insights.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Connect
 classification: connect
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Connect Support, Connect, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -30,7 +30,7 @@ Role required: none
 
 3.  Do one of the following actions.
 
-<table id="choicetable_qdq_dmf_ct"><tbody><tr><td id="d521512e90">
+<table id="choicetable_qdq_dmf_ct"><tbody><tr><td id="d526623e90">
 
 **Add a member**
 
@@ -40,7 +40,7 @@ Role required: none
 2.  Use the search field to find and select a user.
 
 
-</td></tr><tr><td id="d521512e111">
+</td></tr><tr><td id="d526623e111">
 
 **Remove a member**
 

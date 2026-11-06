@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-cases-case-tasks-overview.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 9
+last_updated: "2026-09-10"
+reading_time_minutes: 11
 breadcrumb: [Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
@@ -56,7 +56,7 @@ Related tasks
 
 </td><td>
 
-Related tasks include tasks that result from the case, such as case tasks, work orders, and requests. These tasks can be internal to the organization or they can involve the customer.
+Related tasks include tasks that result from the case, such as case tasks, work orders, and requests. These tasks may be internal to the organization or they may involve the customer.
 
 </td></tr><tr><td>
 
@@ -77,13 +77,13 @@ Information that is gathered as part of resolving a case can be included in the 
 
 Case tasks are created for additional work that must be completed as part of resolving a customer service case. These tasks are frequently assigned to users such as middle or back-office agents. Case tasks are stored in the Case Task \[sn\_customerservice\_task\] table.
 
-Agents can manually create case tasks from cases or have them automatically generated from case playbooks. When a case task is created, the system uses information from the case to automatically populate some fields on the case task record. This includes the case number in the **Parent case** field and customer information in the **Account**, **Contact**, or **Consumer** fields, if available in the case record.
+Case tasks can be manually created from cases or automatically from case playbooks. When a case task is created, the system uses information from the case to automatically fill in some of the fields on the case task record. This includes the case number in the **Parent case** field. It also includes customer information in the **Account**, **Contact**, or **Consumer** fields, if this information is present in the case record.
 
 **Note:** Case tasks can also be created from other records. If a task is created from a non-case record, such as an incident, problem, change, or request, the **Parent** field is updated with the number of the parent record. The **Account**, **Contact**, or **Consumer** fields aren’t updated.
 
 If the value in the **Parent case** or **Parent** fields is updated, the customer information in the **Account**, **Contact**, or **Consumer** fields is also updated.
 
-Depending on a user's assigned roles, case tasks appear in a number of different Case Task lists in the application navigator in CSM Configurable Workspace, including:
+Depending on a user's assigned roles, case tasks appear in a number of different Case Task list in the application navigator in CRM Workspace, including:
 
 -   My Case Task
 -   My Open
@@ -115,8 +115,8 @@ Users with the admin role can remove related parties from cases. When an admin a
 
 The [service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-service-definitions.md) feature enables you to create connections between products, services, and case types.
 
--   Agents can use configured service definitions to create cases of the correct type based on the selected product or service.
--   Customers can use configured service definitions to discover and request the services that they need .
+-   Agents can use configured service definitions to quickly create cases of the right type based on the selected product or service.
+-   Customers can use configured service definitions to quickly discover and request the services they need.
 
 <table id="table_mng_1wj_tvb"><thead><tr><th>
 
@@ -221,6 +221,8 @@ This user can work on case tasks that they’ve created and that are assigned to
 -   Update the status of case tasks.
 -   Perform additional actions from case tasks such as sending email.
 
+**Note:** This is a fulfiller role.
+
 </td></tr><tr><td>
 
 Relationship agent\[sn\_customerservice.relationship\_agent\]
@@ -261,9 +263,9 @@ Account consumer\[sn\_acct\_consumer.consumer\]
 
 Can view the **Account**, **Contact** and **Consumer** fields for the case tasks they have access to.
 
- An user with this role can work on the following case tasks:
+ A user with this role can work on the following case tasks:
 
--   Tasks that have been created by an user and tasks that are visible to them based on their access to the case.
+-   Tasks that have been created by the user and tasks that are visible to them based on their access to the case.
 -   Tasks that are assigned to the user or to the user's assignment groups.
 
  This user can:
@@ -275,9 +277,9 @@ Can view the **Account**, **Contact** and **Consumer** fields for the case tasks
 -   Update the status of case tasks.
 -   Perform additional actions from case tasks such as sending email.
 
-**Note:** Available with the Customer data models for B2B2C plugin \(com.sn\_csm\_b2b\_consumers\).
+**Note:** Available with the Customer Data Models for B2B2C plugin \(com.sn\_csm\_b2b\_consumers\).
 
-</td></tr><tr><td class="sub-head" colspan="2">
+</td></tr><tr><td class="sub-head" id="case-task-contributor-roles" colspan="2">
 
 Contributor roles
 
@@ -287,17 +289,35 @@ Account contributor\[sn\_customerservice.account\_contributor\]
 
 </td><td>
 
-This user can: -   View and update case tasks and the fields on the case task record that they have access to.
--   View the **Parent case**, **Account**, **Contact** and **Consumer** fields on the case task record
+This user can perform the following on the customer-visible case tasks for the cases of the accounts they have access to: -   View and update case tasks and the fields on the case task record that they have access to.
+-   Close case tasks in portal.
 
 </td></tr><tr><td>
 
-Consumer contributor\[sn\_customerservice.consumer\_contributor\]
+Business Org Account Contributor\[sn\_bus\_loc.business\_org\_account\_contributor\]
 
 </td><td>
 
-This user can: -   View and update case tasks and the fields on the case task record that they have access to.
--   View the **Parent case**, **Account**, **Contact** and **Consumer** fields on the case task record
+This user can perform the following on the customer-visible case tasks for the cases of the accounts that they have access to at their service organization \(business location\): -   View and update case tasks and the fields on the case task record that they have access to.
+-   Close case tasks in Business Location Service Portal \(BLSP\).
+
+</td></tr><tr><td>
+
+Consumer contributor \[sn\_customerservice.consumer\_contributor\]
+
+</td><td>
+
+This user can perform the following on the customer-visible case tasks for the cases of consumers that they have access to: -   View and update case tasks and the fields on the case task record that they have access to.
+-   Close case tasks in portal.
+
+</td></tr><tr><td>
+
+Business Org Consumer Contributor\[sn\_bus\_loc.business\_org\_consumer\_contributor\]
+
+</td><td>
+
+This user can perform the following on the customer-visible case tasks for the cases of consumers and households that they have access to at their service organization \(business location\):-   View and update case tasks and the fields on the case task record that they have access to.
+-   Close case tasks in BLSP.
 
 </td></tr><tr><td>
 
@@ -305,8 +325,8 @@ Service organization contributor\[sn\_customerservice.service\_organization\_con
 
 </td><td>
 
-This user can: -   View and update case tasks and the fields on the case task record that they have access to.
--   View the **Parent case**, **Account**, **Contact** and **Consumer** fields on the case task record
+This user can perform the following on the customer-visible case tasks for the cases they have access to at their service organization \(business location\): -   View and update case tasks and the fields on the case task record that they have access to.
+-   Close case tasks in BLSP.
 
 </td></tr><tr><td>
 
@@ -314,8 +334,17 @@ Self contributor\[sn\_customerservice.self\_contributor\]
 
 </td><td>
 
-This user can: -   View and update case tasks and the fields on the case task record that they have access to.
--   View the **Parent case**, **Account**, **Contact** and **Consumer** fields on the case task record
+This user can perform the following on the customer-visible case tasks for the cases they have access to:-   View and update case tasks and the fields on the case task record that they have access to.
+-   Close case tasks in portal.
+
+</td></tr><tr><td>
+
+Business Organization Self Contributor\[sn\_bus\_loc.business\_org\_self\_contributor\]
+
+</td><td>
+
+This user can perform the following on the customer-visible case tasks for the cases that they have access to:-   View and update case tasks and the fields on the case task record that they have access to.
+-   Close case tasks in BLSP.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -340,7 +369,9 @@ This user can:-   View and update case tasks and the fields that they have acces
 -   View the **Parent case**, **Account**, **Contact** and **Consumer** fields.
 
 </td></tr></tbody>
-</table>## Case tasks and external user roles
+</table>For details on the contributor user roles included with various plugins, see [Contributor user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-contributor-user-roles.md), and for the overview of contributor user roles [Contributor users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-service-contributor-users.md).
+
+## Case tasks and external user roles
 
 End users and requesters can access case tasks from the Customer and Consumer Service Portals by selecting **My Lists** &gt; **My Case Tasks**.
 
@@ -356,9 +387,9 @@ The users can see the following fields on the Case Task lists and forms: **Accou
 
 ## Scheduled job for case tasks
 
-Case task enhancements in the Zurich release add several fields to the case task record. After upgrading to the Zurich release, you can run a scheduled job that populates these fields for active case tasks.
+Case task enhancements in the Brazil release add several fields to the case task record. After upgrading to the Brazil release, you can run a scheduled job that populates these fields for active case tasks.
 
-**Note:** Make sure to run the scheduled job during planned downtime.
+**Note:** It is recommended that you run the scheduled job during planned downtime.
 
 If the parent case is an active record in the Case table \(sn\_customerservice\_case\) or a table that extends the Case table, the **Update case task fields** scheduled job does the following:
 
@@ -370,4 +401,9 @@ To run this scheduled job:
 1.  Navigate to **All** &gt; **System Definition** &gt; **Scheduled Jobs**.
 2.  Select **Update case task fields** in the **Name** field.
 3.  Select **Execute Now**.
+
+**Related topics**  
+
+
+[Contributor user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-contributor-user-roles.md)
 

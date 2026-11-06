@@ -1,5 +1,5 @@
 ---
-title: Suppress schedule occurrences of your planned work orders
+title: Suppress schedule occurrences of your planned work
 description: Streamline and optimize maintenance activities by suppressing duplicate planned work tasks when different schedules overlap.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/suppress\_schedules\_of\_your\_work\_plans.html
@@ -7,12 +7,12 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
-breadcrumb: [Work plans, Planned Work Management, Work orders and tasks, Configure, Field Service Management]
+breadcrumb: [Configure work plans, Planned Work Management, Set up work orders and tasks, Configure, Field Service Management]
 ---
 
-# Suppress schedule occurrences of your planned work orders
+# Suppress schedule occurrences of your planned work
 
 Streamline and optimize maintenance activities by suppressing duplicate planned work tasks when different schedules overlap.
 
@@ -39,9 +39,9 @@ For example, consider an MRI machine with scheduled maintenance plans for both m
 
 2.  Open your work plan.
 
-3.  In the Planned Work Schedules related list, select a schedule that you want to suppress with another schedule.
+3.  In the **Planned Work Schedules** related list, select a schedule that you want to suppress with another schedule.
 
-4.  In the Schedule Suppressions related list, select **New**.
+4.  In the **Schedule Suppressions** related list, select **New**.
 
 5.  On the form, fill in the fields.
 

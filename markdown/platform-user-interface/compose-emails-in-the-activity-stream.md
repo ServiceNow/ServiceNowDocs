@@ -1,18 +1,18 @@
 ---
-title: Compose emails from the mini email composer
-description: Send emails without leaving the record.
+title: Send emails from the mini email composer
+description: Create and send and send emails without leaving the record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/compose-emails-in-the-activity-stream.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Communicating via email in Workspace, Responding to issues in an open record in Workspace, Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Emails, Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Compose emails from the mini email composer
+# Send emails from the mini email composer
 
-Send emails without leaving the record.
+Create and send and send emails without leaving the record.
 
 ## Before you begin
 
@@ -50,8 +50,4 @@ Role required: email\_composer
 
     Drafts save automatically after a set number of seconds. For more information on finding email drafts, see [Review email drafts from the mini email composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/review-email-drafts-from-the-mini-email-composer.md).
 
-
-## Result
-
-You can find the sent email in the Emails list. For more information, see [Review emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/review-emails.md).
 

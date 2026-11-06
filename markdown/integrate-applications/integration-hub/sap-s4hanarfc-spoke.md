@@ -7,8 +7,8 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-03-06"
-reading_time_minutes: 8
+last_updated: "2026-03-12"
+reading_time_minutes: 9
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
@@ -18,7 +18,7 @@ The SAP S4 HANA RFC spoke is built by Bristlecone, Inc. Manage procurement, reco
 
 ## Request apps on Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html). Starting on March 1st 2022, all SAP spokes will be available only on the Store.
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html). Starting on March 1st 2022, all SAP spokes will be available only on the Store.
 
 ## Integration Hub subscription
 
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-SAP S4 HANA RFC spoke v2.7.0 is the latest version.
+SAP S4 HANA RFC spoke v2.7.0 is the latest version. For version history of the spoke, see [SAP S4 HANA RFC spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-sap-s4-hana-rfc.html).
 
 ## Supported versions
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/blueprints\_101.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Set up blueprints
@@ -20,7 +20,7 @@ Unlike fields and rules, layouts can only be associated with one blueprint. A la
 
 For Salesforce-integrated organizations, the configurable product element determines the SFDC Product2 record that, when quoted in Salesforce, launches the configuration experience defined by a blueprint. Multiple configurable products can launch the same blueprint. However, each configurable product can only be associated with one blueprint.
 
-For a step-by-step guide to creating a blueprint, see [Create a new blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cpq-create-a-new-blueprint.md).
+For a step-by-step guide to creating a blueprint, see [Create a blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cpq-create-a-new-blueprint.md).
 
 ## The blueprint definition page
 
@@ -47,7 +47,7 @@ This tab shows all of the rules that are related to the blueprint. Unlike fields
 
 Active: Shows what rules are currently set to active in their definition. When a rule is active, it is included as a valid rule during deployment and enacts its Actions when its Conditions are fulfilled during runtime.
 
-Inactive: Shows what rules are currently set to inactive in their definition. They are still related to the blueprint and is included if the blueprint is exported, but they are not valid when deployed and do not enact their actions during runtime.
+Inactive: Shows what rules are currently set to inactive in their definition. They are still related to the blueprint and is included if the blueprint is exported, but they aren't valid when deployed and don't enact their actions during runtime.
 
 ## Layout
 
@@ -79,7 +79,7 @@ This tab shows the enrichment scripts that have been created for the blueprint. 
 
 ServiceNow CPQ configuration experiences are deployed \(made available to application end users\) at the blueprint level. Administrator edits to fields, rules, layouts, and configurable products are not visible to the end user until deployed.
 
-To deploy a blueprint, in the Blueprints list administration page, check the box to the left of the blueprint to deploy, and then click **Deploy**. \(You can also click **Deploy** in the blueprint itself.\)
+To deploy a blueprint, in the Blueprints list administration page, check the box to the left of the blueprint to deploy, and then select **Deploy**. \(You can also select **Deploy** in the blueprint itself.\)
 
 \[Omitted image "cpq-blueprints-deploy.png"\] Alt text: Deployment screen
 
@@ -104,7 +104,7 @@ After a blueprint is deployed, a notification alerts you to the status of the de
 **Related topics**  
 
 
-[Create a new blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cpq-create-a-new-blueprint.md)
+[Create a blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cpq-create-a-new-blueprint.md)
 
 [Testing in non-production environments before migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cpq-env-to-env-bp-migration-intro.md)
 
@@ -112,5 +112,5 @@ After a blueprint is deployed, a notification alerts you to the status of the de
 
 [Configure fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/fields_101.md)
 
-[Boundaries and limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/boundaries-and-limits.md)
+[Boundaries and limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

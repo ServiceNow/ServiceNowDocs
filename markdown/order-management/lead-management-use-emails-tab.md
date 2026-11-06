@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/lead-management-use-emails-tab.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Lead Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Lead Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Compose emails
@@ -26,6 +26,8 @@ Role required: sales\_agent
 
 3.  Select the **Emails** tab.
 
+    **Note:** The **Emails** tab displays both emails linked directly to the lead and emails linked to the lead's touchpoints.
+
 4.  Select **Compose Email** to start a new email or select an existing email to view details.
 
 5.  Fill in the details in the Email draft form.
@@ -43,4 +45,11 @@ Role required: sales\_agent
 
 
 **Parent Topic:**[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/lead-management-using.md)
+
+**Related topics**  
+
+
+[Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-lead-management.md)
+
+[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/lead-management.md)
 

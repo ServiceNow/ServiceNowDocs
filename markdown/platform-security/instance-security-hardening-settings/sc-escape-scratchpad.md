@@ -1,5 +1,5 @@
 ---
-title: Escape scripts in scratchpad \[Updated in Security Center 1.3\]
+title: Escape scripts in scratchpad
 description: Learn how scratchpad factors into the security posture of your instance and how to manage it so that malicious scripts can't be executed on it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-escape-scratchpad.html
@@ -7,16 +7,18 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
 
-# Escape scripts in scratchpad \[Updated in Security Center 1.3\]
+# Escape scripts in scratchpad
 
 Learn how scratchpad factors into the security posture of your instance and how to manage it so that malicious scripts can't be executed on it.
 
-The scratchpad is an easy way to set information on the server that you can access in the browser. An admin can script anything to be on it, including arbitrary records. If this property is not set to the recommended value of **true**, then it is possible to execute malicious scripts like a cross-site scripting vulnerability.
+The scratchpad is an easy way to set information on the server that can be accessed in the browser. An admin can script anything to be on it, including arbitrary data from arbitrary records.
+
+Ensure the property **glide.ui.escape\_scratchpad** is set to **true**.
 
 ## More information
 
@@ -70,6 +72,14 @@ true
 
 </td></tr><tr><td>
 
+Fallback value
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
 Category
 
 </td><td>
@@ -84,7 +94,7 @@ Security risk
 
 -   Severity score: 6.5
 -   CVSS score: Medium
--   Security risk details: If the property is not set to the recommended value of **true**, then it is possible to execute malicious scripts like a cross-site scripting vulnerability.
+-   Security risk details: It is possible to execute malicious script like a cross-site scripting vulnerability.
 
 </td></tr><tr><td>
 

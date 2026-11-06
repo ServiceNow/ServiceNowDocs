@@ -1,20 +1,18 @@
 ---
 title: Caching in Product Catalog Management
-description: The Product Catalog Management application uses caching to improve user interface performance when agents access product catalogs and product offerings through the legacy product configurator.
+description: The Product Catalog Management application uses caching to improve user interface performance when agents access product catalogs and product offerings through the product configurator.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/caching-prod-catalog-mgmt.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Caching in Product Catalog Management
 
-The Product Catalog Management application uses caching to improve user interface performance when agents access product catalogs and product offerings through the legacy product configurator.
-
-## Caching overview
+The Product Catalog Management application uses caching to improve user interface performance when agents access product catalogs and product offerings through the product configurator.
 
 The product offering catalog and configurable product offerings have hierarchical structures that require frequent database retrieval when they’re used. To improve performance, these hierarchical structures are cached when you publish these features.
 
@@ -24,4 +22,11 @@ As a product catalog admin or manager, when you make the following changes to a 
 -   **Product offering catalog changes** – If you change the hierarchies for catalog to category or category to sub-category hierarchies, you must update the product offering catalog cache.
 
 For details on regenerating these caches, see [Update a cache in Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-update-cache-catalog-mgmt.md).
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/product-catalog-managment.md)
 

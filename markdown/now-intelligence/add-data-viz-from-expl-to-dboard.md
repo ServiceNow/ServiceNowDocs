@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/add-data-viz-from-expl-to-dboard.html
 release: zurich
 topic_type: task
-last_updated: "2025-10-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Questions and responses in an exploration, Use, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---

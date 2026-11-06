@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/layout\_multi-tier\_structurenested\_tiers.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Set up layouts, ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Set up layouts, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Multi-tier structure \(nested tiers\)

@@ -7,7 +7,7 @@ release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -108,6 +108,4 @@ When Advanced Work Assignment is configured for external routing:
 -   The presence state of the agent switches to the specified presence state. If auto-assign is true OR no timeout is passed in, this field is ignored.
 -   The work item is immediately assigned to Accept, when the Auto-assign value is true.
 -   The auto-assigned work item is either displayed as an Inbox card, or both Inbox card and workspace tab. If the auto-assign value is false, this field is ignored.
-
-**Parent Topic:**[Exploring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-overview.md)
 

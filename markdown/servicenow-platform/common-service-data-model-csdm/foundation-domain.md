@@ -7,8 +7,8 @@ release: zurich
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 9
+last_updated: "2026-09-10"
+reading_time_minutes: 10
 breadcrumb: [CSDM data domains, Explore, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -19,6 +19,8 @@ Tables in the Foundation domain contain base data that is referenced from or to 
 The tables in the Foundation domain aren't used in CMDB relationships. Instead, the tables contain critical referential data. Typical users of the domain are process owners, data stewards, product owners, and contract managers.
 
 \[Omitted image "domain-foundation-tables.png"\] Alt text: Foundation domain of the CSDM framework.
+
+In the Foundation stage of implementing the CSDM framework, admins prepare the referential data that enables accurate reporting to support good business decisions. Use the base-system tables when you begin implementing the CSDM to derive the highest value from your ServiceNow products and the ServiceNow AI Platform. For more information on this stage of building your CMDB, see [CSDM implementation stage — Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-implement-foundation-stage.md).
 
 **Note:** For an introductory walk-through of the tables and attributes that you should populate for any domain, see the videos listed in [CSDM resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-resources.md).
 

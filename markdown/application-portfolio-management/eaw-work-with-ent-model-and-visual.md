@@ -1,18 +1,18 @@
 ---
 title: Working with Enterprise Modeling and Visualization
-description: Enterprise Modeling and Visualization provides a structured, visual framework for understanding and managing the complex relationships between IT systems, business processes, and organizational goals.
+description: Enterprise Modeling and Visualization provides a structured, visual framework for managing the complex relationships between IT systems, business processes, and organizational goals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-work-with-ent-model-and-visual.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Working with Enterprise Modeling and Visualization
 
-Enterprise Modeling and Visualization provides a structured, visual framework for understanding and managing the complex relationships between IT systems, business processes, and organizational goals.
+Enterprise Modeling and Visualization provides a structured, visual framework for managing the complex relationships between IT systems, business processes, and organizational goals.
 
 With Enterprise Modeling and Visualization, you can create and maintain architecture diagrams using built‑in shape libraries such as General, Common Service Data Model, Amazon Web Services, Enterprise Architecture Extended, ArchiMate, and Business Process Model and Notation. You can connect shapes with relationship lines and label connectors to represent architectural relationships.
 
@@ -28,7 +28,7 @@ The workspace supports collaboration and governance by enabling you to share dia
 
 After upgrading from Q2 2025 or Q3 2025 releases to the Q4 2025 release of Enterprise Architecture Workspace, you might observe a color display difference. Newly created shapes display color, while existing shapes for the same entity don’t.
 
-The Q4 2025 release of Enterprise Architecture Workspace release introduced color styling to the shape library. Consequently, diagrams created in Q3 don't display color. Following the upgrade, new shapes added to these older diagrams display color, but the previously existing shapes remain uncolored.
+The Q4 2025 release of Enterprise Architecture Workspace release introduced color styling to the shape library. Consequently, diagrams created in Q3 don’t display color. Following the upgrade, new shapes added to these older diagrams display color, but the previously existing shapes remain uncolored.
 
 To update the shapes in the previously created diagrams, do the following:
 

@@ -1,20 +1,20 @@
 ---
-title: View the agent feature matrix
-description: The agent feature matrix displays the availability of Agent Client Collector features. The matrix displays data in a graph and a table.
+title: View the Agent feature matrix
+description: The Agent Client Collector Agent feature matrix displays the availability of Agent Client Collector features. The matrix displays data in a graph and a table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-agent-feature-matrix.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Collecting data from your system devices, ACC deployment - shared between servers and endpoints, Agent Client Collector, IT Operations Management]
+breadcrumb: [Collect data from your system devices, ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
-# View the agent feature matrix
+# View the Agent feature matrix
 
-The agent feature matrix displays the availability of Agent Client Collector features. The matrix displays data in a graph and a table.
+The Agent Client Collector Agent feature matrix displays the availability of Agent Client Collector features. The matrix displays data in a graph and a table.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: agent\_client\_collector\_admin
 
 ## About this task
 
-The agent feature matrix displays the granularity of Agent Client Collector features that are fully supported, partially supported, and not supported. A partially supported feature may have instance and framework requirements met, but runs on at least one agent version which does not meet the feature requirements.
+The Agent feature matrix displays the granularity of Agent Client Collector features that are fully supported, partially supported, and not supported. A partially supported feature may have instance and framework requirements met, but runs on at least one agent version which does not meet the feature requirements.
 
 ## Procedure
 

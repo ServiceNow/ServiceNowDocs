@@ -7,9 +7,9 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Use HR Case Management
@@ -67,5 +67,5 @@ Your organization can assign VIP status to users, such as the CEO and vice-presi
 -   **[Creating bulk cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/bulk-case.md)**  
 You can create the same type of HR case, for multiple employees, without having to create the same case multiple times. Segments for a bulk case help you define specific values for groups of employees.
 
-**Parent Topic:**[Configuring Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configuring-ckm.md)
+**Parent Topic:**[Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/case-knowledge-management-landing-page.md)
 

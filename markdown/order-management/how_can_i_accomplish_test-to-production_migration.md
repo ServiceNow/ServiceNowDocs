@@ -1,23 +1,23 @@
 ---
 title: Migrating a blueprint from test to production
-description: You can migrate a blueprint from a test environment to a production environment by using the Matrix Loader or by automating the migration using REST API calls.
+description: You can migrate a blueprint from a test environment to a production environment using the Matrix Loader or REST API automation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/how\_can\_i\_accomplish\_test-to-production\_migration.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Set up blueprints, ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Set up blueprints, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Migrating a blueprint from test to production
 
-You can migrate a blueprint from a test environment to a production environment by using the Matrix Loader or by automating the migration using REST API calls.
+You can migrate a blueprint from a test environment to a production environment using the Matrix Loader or REST API automation.
 
-ServiceNow CPQ Administrators have two ways to migrate a blueprint from test to production migration: by using the Matrix Loader, and by using REST API automation.
+ServiceNow CPQ administrators have two ways to migrate a blueprint from test to production: by using the Matrix Loader, and by using REST API automation.
 
--   Matrix Loader migration: From ServiceNow CPQ Admin, an admin can export a blueprint or blueprints to a ZIP file. The admin can then import these artifacts into the production environment. A new configurable product must be created and associated with the blueprint in the production environment. This can be done afterward or by creating the product and editing the blueprint yaml file with the new SFDC product2 id, product code, or partner id before deployment.
--   REST API automation: Robust REST API capabilities let implementers and customers automate test-to-production migration in a CI/CD process.
+-   Matrix Loader migration: From ServiceNow CPQ admin interface, an admin can export a blueprint or blueprints to a ZIP file. The admin can then import these artifacts into the production environment. Create configurable product and associate it with the blueprint in the production environment. You can do this afterward or create the product and edit the blueprint yaml file with the new SFDC product2 id, product code, or partner id before deployment.
+-   REST API automation: Robust REST API capabilities enable implementers and customers to automate test-to-production migration in a CI/CD process.
 
 **Related topics**  
 

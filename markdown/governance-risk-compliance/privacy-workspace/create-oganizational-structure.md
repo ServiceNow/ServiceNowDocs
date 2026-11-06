@@ -1,5 +1,5 @@
 ---
-title: Create an entity configurations
+title: Create an entity configuration
 description: Create an organizational structure by configuring entity-based access for different levels such as headquarters, regional offices, and subsidiaries. Define access rules for users and groups.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/create-oganizational-structure.html
@@ -7,12 +7,12 @@ release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring access control, Access control by legal entity, Use, Privacy Management, Governance, Risk, and Compliance]
 ---
 
-# Create an entity configurations
+# Create an entity configuration
 
 Create an organizational structure by configuring entity-based access for different levels such as headquarters, regional offices, and subsidiaries. Define access rules for users and groups.
 

@@ -7,9 +7,9 @@ release: zurich
 product: Developer Sandboxes
 classification: developer-sandboxes
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-10-15"
 reading_time_minutes: 1
-breadcrumb: [Explore, Developer Sandboxes, Developing your application, Building applications]
+breadcrumb: [Explore, Developer Sandboxes, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Supported ServiceNow AI Platform features in Developer Sandboxes
@@ -37,13 +37,17 @@ Supported features include the following:
     **Note:** You must manually update incoming integrations to support the unique URLs of sandboxes.
 
 
-## Sandbox limitations
+## Sandbox considerations and limitations
 
-Sandboxes are deleted when the instance is upgraded or cloned, though after the upgrade users can start creating sandboxes immediately, without additional configuration. For more information, see [Cloning and upgrading considerations for Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/dev-sbx-clone-upgrade-info.md).
+Upgrading an instance automatically backs up update sets to the base instance and recreates the sandboxes on that instance. Sandboxes are recreated in a base state, so you must restore backed up update sets. For details, see [Cloning and upgrading considerations for Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/dev-sbx-clone-upgrade-info.md).
+
+**Note:** Sandboxes are not automatically recreated after a clone. You should save your work from a sandbox before the clone so you can recreate it.
 
 You can have up to 30 sandboxes per instance.
 
-Developer Sandboxes does not support self-hosted instances by default, though you can set up your own networking and routing changes to support sandboxes.
+Developer Sandboxes is supported on on-premises instances. For setup steps, see the Knowledge Base article on [Developer Sandboxes on-premises architecture](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2670540). You're responsible for networking setup, adding the required nodes to the instance, and enabling sandboxes. License management isn't supported on on-premises instances.
 
 **Note:** Developer Sandboxes are not supported on UI/Worker node instances.
+
+**Parent Topic:**[Exploring Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/exploring-sandboxes.md)
 

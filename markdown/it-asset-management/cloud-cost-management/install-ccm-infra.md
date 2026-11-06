@@ -7,9 +7,9 @@ release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Configure, Cloud Cost Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Install Cloud Cost Management Infra Stack
@@ -18,7 +18,7 @@ You can install the Cloud Cost Management Infra Stack application \(sn\_cld\_inf
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the Cloud Cost Management Infra Stack application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 Role required: admin
@@ -48,14 +48,6 @@ The tables, scheduled jobs, and system properties aren't installed with the Clou
 
 4.  If you're prompted, follow the links to the ServiceNow Store to get any additional entitlements for dependencies.
 
-5.  If demo data is available and you want to install it, select the **Load demo data** check box.
-
-    Demo data comprises the sample records that describe application features for the common use cases. Load the demo data when you first install the application on a development or test instance.
-
-    **Important:**
-
-    -   If you don't load the demo data during installation, it's unavailable to load later.
-    -   If you install demo data, Cloud Cost Management features might not work properly.
-6.  Select **Install**
+5.  Select **Install**.
 
 

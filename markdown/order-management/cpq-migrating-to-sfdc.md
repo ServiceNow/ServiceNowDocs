@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/cpq-migrating-to-sfdc.html
 release: zurich
 topic_type: task
-last_updated: "2025-09-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Set up blueprints, ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Set up blueprints, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Migrate a blueprint to an SFDC-integrated destination
@@ -18,7 +18,7 @@ Learn how to migrate a CPQ blueprint to a Salesforce-integrated ServiceNow CPQ e
 
 If necessary, perform the steps in [Migrate a blueprint from environment to environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cpq-migrating-env-to-env.md).
 
-If necessary, install the ServiceNow CPQ Managed Package for Salesforce in the destination. For installation instructions, see [Installation and setup guide for environments linked to Salesforce orgs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/installation-and-setup-guide-for-environments-linked-to-salesforce-org.md).
+If necessary, install the ServiceNow CPQ Managed Package for Salesforce in the destination. For installation instructions, see [Set up environments linked to Salesforce orgs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/installation-and-setup-guide-for-environments-linked-to-salesforce-org.md).
 
 Ensure that the appropriate Salesforce users have access to ServiceNow CPQ.
 
@@ -60,5 +60,5 @@ After the import, configurable product IDs will not be the same as in the origin
 
 [Migrate a blueprint from environment to environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cpq-migrating-env-to-env.md)
 
-[Installation and setup guide for environments linked to Salesforce orgs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/installation-and-setup-guide-for-environments-linked-to-salesforce-org.md)
+[Set up environments linked to Salesforce orgs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/installation-and-setup-guide-for-environments-linked-to-salesforce-org.md)
 

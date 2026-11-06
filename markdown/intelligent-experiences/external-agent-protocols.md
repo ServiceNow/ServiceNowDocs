@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/external-agent-protocols.html
 release: zurich
 topic_type: concept
-last_updated: "2025-11-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [a2a]
-breadcrumb: [Create an external agent, Create an AI agent, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Create an external agent, Create an AI agent, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Integrating external AI agents
@@ -20,7 +20,7 @@ Integrate and configure external agents with the ServiceNow agentic AI system us
 You can enable external AI agents on the AI Agent Studio via the Settings page. Navigate to **AI Agent Studio** &gt; **Settings** &gt; **External AI agents** &gt; **Discoverability**.\[Omitted image "external-agents-discoverability.png"\] Alt text: Discover External AI agents to accessed by ServiceNow and third-parties.
 
 -   **Allow ServiceNow to access External AI agents**: Turn on the toggle to enable external AI agents integration with the ServiceNow agentic AI system using the A2A protocol.
--   **Allow third-party to access ServiceNow AI agents**: Turn on the toggle to enables integrating ServiceNow AI agents into external agentic AI systems.
+-   **Allow third party to access ServiceNow AI agents**: Turn on the toggle to enables integrating ServiceNow AI agents into external agentic AI systems.
 
 When creating a new external AI agent in AI Agent Studio, you can connect your agent to the ServiceNow agentic AI system using the Agent2Agent \(A2A\) protocol integration. To do this, you must have a Connection &amp; Credential alias record that connects to your agentic AI provider.
 
@@ -48,7 +48,7 @@ See [Create an external AI agent with the Agent2Agent protocol](https://raw.gith
 
 ## Configuring A2A authentication
 
-A2A connections require authorization from the source platform to execute on the ServiceNow AI Platform. Authentication is established by creating two Connection &amp; Credential Alias and Connection records, one with an Agent Card endpoint and one with an execution endpoint.
+A2A connections require authorization from the source platform to execute on the ServiceNow AI Platform. Authentication is established by creating two Connection &amp; Credential Alias and Connection records, one with an Agent Card endpoint and another with an execution endpoint.
 
 ## Custom Headers for External Agent Configuration
 

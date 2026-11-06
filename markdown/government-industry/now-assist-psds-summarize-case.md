@@ -43,25 +43,25 @@ Role required: admin
 
 ## Procedure
 
-1.  Open a government service case by navigating to Lists in the CRM Workspace.
+1.  Open a government service case by navigating to Lists in the Public Sector Workspace.
 
 2.  In the Case summary by ServiceNow Otto component, select **Summarize**.
 
     **Note:** The Case summary by ServiceNow Otto component appears above the constituent card. Generating and displaying the summary may take several seconds. The component is collapsed by default and expands to display the summary. For longer summaries that don't fit in the window, select **View more** and use the scroll bar to view the rest of the content.
 
-    \[Omitted image "image.psds-otto-case-summary"\] Alt text: AI-generated case summary for a case record.
+    \[Omitted image "psds-otto-case-summary.png"\] Alt text: AI-generated case summary for a case record.
 
 3.  When you're finished summarizing a case, you can add it to the case work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d55812e175">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d44788e175">
 
 Option
 
-</th><th align="left" id="d55812e178">
+</th><th align="left" id="d44788e178">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d55812e184">
+</th></tr></thead><tbody><tr><td id="d44788e184">
 
 **Save the summary information by adding it to the case work notes**
 
@@ -72,7 +72,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d55812e211">
+</td></tr><tr><td id="d44788e211">
 
 **Expand or collapse the summary**
 
@@ -80,7 +80,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expand card icon.\) or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d55812e232">
+</td></tr><tr><td id="d44788e232">
 
 **Provide feedback for the summary**
 
@@ -88,7 +88,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expa
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d55812e255">
+</td></tr><tr><td id="d44788e255">
 
 **Copy the case summary**
 
@@ -96,7 +96,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d55812e271">
+</td></tr><tr><td id="d44788e271">
 
 **View the information about the case summary**
 

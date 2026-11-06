@@ -1,26 +1,31 @@
 ---
 title: Migrate existing goals data to Goal Framework tables
-description: With the admin role, you can migrate the existing goals data to the Goal Framework tables by running the scheduled job.
+description: If your organization uses the legacy goal and strategy tables \(Goal, Enterprise Strategy, Business Unit Strategy, and Strategic Objective\), you can migrate the existing data to the Goal Framework tables by running the scheduled job.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/goal-framework/migrate-existing-goals-data.html
 release: zurich
 product: Goal Framework
 classification: goal-framework
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
 
 # Migrate existing goals data to Goal Framework tables
 
-With the admin role, you can migrate the existing goals data to the Goal Framework tables by running the scheduled job.
+If your organization uses the legacy goal and strategy tables \(Goal, Enterprise Strategy, Business Unit Strategy, and Strategic Objective\), you can migrate the existing data to the Goal Framework tables by running the scheduled job.
 
 ## Before you begin
 
 Role required: admin
 
 ## About this task
+
+Use the scheduled job to migrate legacy goals and strategy data to the Goal Framework tables. The migration includes the following:
+
+-   Migrates all existing goal records from the Goal \[goal\] table to the Goal \[sn\_gf\_goal\] table. Corresponding target records are automatically created in the Target \[sn\_gf\_goal\_target\] table.
+-   Migrates all existing strategy records from the Enterprise Strategy \[enterprise\_strategy\], Business Unit Strategy \[business\_unit\_strategy\], and Strategic Objective \[strategic\_objective\] tables to the Strategic Priority \[sn\_gf\_strategy\] table.
 
 **Note:** Migrating data to the Goal Framework tables is a one-time job, and not meant to be on a schedule.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/update-entity-class.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage entities in ESG Management \(formerly ESG Management\), Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Manage entities in Operational Sustainability Management \(formerly ESG Management\), Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Update an entity class
@@ -43,5 +43,5 @@ Role required: \(per product\)
 5.  To visually explore the relationship between the upstream entities, downstream entities, entity, and entity type that is associated with the entity class, click **360° view**.
 
 
-**Parent Topic:**[Manage entities in ESG Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/entities-in-esg.md)
+**Parent Topic:**[Manage entities in Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/entities-in-esg.md)
 

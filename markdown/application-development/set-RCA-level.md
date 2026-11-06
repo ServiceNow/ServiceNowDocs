@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/set-RCA-level.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Restricted caller access privilege settings, Application access settings, Contextual development environment, Learning about developing on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Restricted caller access privilege settings, Application access settings, Contextual development environment, Learning about developing on the ServiceNow AI Platform, Classic app development, Building applications]
 ---
 
 # Define cross-scope access to an application resource
@@ -20,7 +20,7 @@ If you enable application administration for the target application, only applic
 
 Role required: admin or application admin
 
-**Note:** To learn about application-specific administrator roles and delegated development, see [Access control rules in application administration apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ACL-access-checks.md) and [Exploring Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
+**Note:** To learn about application-specific administrator roles and delegated development, see [Access control rules in application administration apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ACL-access-checks.md) and [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
 
 ## Procedure
 
@@ -36,7 +36,7 @@ Role required: admin or application admin
 
 3.  Select the appropriate access level in the **Caller Access** field.
 
-<table id="choicetable_h1t_jtg_n1b"><tbody><tr><td id="d161833e128">
+<table id="choicetable_h1t_jtg_n1b"><tbody><tr><td id="d145352e128">
 
 **None**
 
@@ -44,7 +44,7 @@ Role required: admin or application admin
 
 Cross-scope calls to the resource are approved or denied based on the value of the **Accessible from** field.
 
-</td></tr><tr><td id="d161833e140">
+</td></tr><tr><td id="d145352e140">
 
 **Caller Restriction**
 
@@ -52,7 +52,7 @@ Cross-scope calls to the resource are approved or denied based on the value of t
 
 Calls to the resource must be manually approved. Access requests are tracked in the Restricted Caller Access table with a status of Requested.
 
-</td></tr><tr><td id="d161833e149">
+</td></tr><tr><td id="d145352e149">
 
 **Caller Tracking**
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configure-csm-users-groups.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [User management, Set up your environment, Configure, Customer Service Management]
 ---
@@ -16,11 +16,11 @@ A user is an individual who can access your instance and a group is a set of use
 
 ## Before you begin
 
-Role required: admin
+Role required: import\_admin, user\_admin, and sn\_crm\_foundation\_admin
 
 ## About this task
 
-Group information is used across most processes in the ServiceNow AI Platform for assigning work to teams and requesting approvals.
+Group information is used across most processes in the ServiceNow AI Platform. You can use it for assigning work to teams and requesting approvals.
 
 Any rule that is applied to a group is automatically assigned to group members; for example, roles and assignment rules.
 
@@ -28,7 +28,7 @@ Any rule that is applied to a group is automatically assigned to group members; 
 
 -   You can import existing users and groups using guided setup.
 
--   You can create new users and groups using the ServiceNow AI Platform user administration feature.
+-   You can create users and groups using the ServiceNow AI Platform user administration feature.
 
     -   [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_CreateAUser.md)
     -   [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_CreateAGroup.md)

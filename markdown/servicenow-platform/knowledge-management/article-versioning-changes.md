@@ -7,8 +7,8 @@ release: zurich
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Knowledge Management reference, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -16,7 +16,7 @@ breadcrumb: [Knowledge Management reference, Knowledge Management, Manage conten
 
 Article versioning introduces new actions that allow knowledge users to create and revise versions of existing articles. It also introduces new fields and related lists to the Knowledge form, new columns to the Knowledge list, and updates to Knowledge dashboard reports.
 
-## New user actions
+## Updated user actions
 
 As part of creating article versions, users can:
 
@@ -25,7 +25,7 @@ As part of creating article versions, users can:
     **Note:** Only the author, knowledge base owner, and users with the knowledge\_admin role can edit an article in the Draft state.
 
 -   Recall an article that is being reviewed or scheduled for publish by clicking **Recall** on the Knowledge form.
--   Select a previously published article in the Outdated state and make it the current published version by clicking **Make this current**in the Knowledge form header.
+-   Select a previously published article in the Outdated state and make it the current published version by clicking **Make this current** in the Knowledge form header.
 
 Define minor fields so users can make some edits without triggering a new version. First, set the **glide.knowman.versioning.enable\_minor\_edits** property to true. Then, in the **glide.knowman.versioning.minor\_edit\_fields** property, specify the fields to define as minor. For example, set **Valid To** and **Meta** as fields that can be edited without creating a new version.
 
@@ -95,6 +95,4 @@ The article view page shows a version history section for articles that have bee
 -   Click **Latest version** or the version number and current state to expand the version history section.
 -   Click the version number to open that particular version of the article.
 -   When viewing an outdated article, a message informs the user that a newer updated version is available. The message includes a link to the latest version.
-
-**Parent Topic:**[Knowledge Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/knowledge-management-reference.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Creating telephone number components, Configure, Telecommunications Network Inventory]
+breadcrumb: [Create the components of a telephone number, Configure, Telecommunications Network Inventory]
 ---
 
 # Create an area code
@@ -74,5 +74,5 @@ Central office code that is also referred to as NXX. The NXX portion of a teleph
 
 Create a telephone block, telephone number allocation, or telephone number. For information, see [Create a telephone infrastructure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/telephone_block_telephone_number_and_telephone_number.md).
 
-**Parent Topic:**[Creating telephone number components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create_components_of_a_telephone_number.md)
+**Parent Topic:**[Create the components of a telephone number](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create_components_of_a_telephone_number.md)
 

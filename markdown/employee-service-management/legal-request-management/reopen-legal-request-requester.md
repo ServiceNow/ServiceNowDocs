@@ -7,7 +7,7 @@ release: zurich
 product: Legal Request Management
 classification: legal-request-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Legal Request Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -30,7 +30,7 @@ As a requester, you can only reopen your requests that have been closed \(Close 
 
 1.  Navigate to **All** &gt; **Employee Center**.
 
-    **Note:** If you’re using Legal Service Portal, open the request by navigating to it and selecting **My Requests** &gt; **View all requests** from the header.
+    **Note:** If you’re using Legal Service Portal, open a request by navigating to the Legal Service Portal and selecting **My Requests** &gt; **View all requests** from the header.
 
 2.  Select **My Requests** from the header.
 

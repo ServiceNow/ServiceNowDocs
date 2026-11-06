@@ -7,9 +7,9 @@ release: zurich
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
-breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Integrating with Confluence Cloud
@@ -76,8 +76,6 @@ site admin
 Create a Confluence Cloud OAuth 2.0 \(3LO\) application to enable access to the Confluence Cloud API.
 
 ### Before you begin
-
-**Important:** This procedure is applicable for the Zurich release, Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) store app version 16.7.0 and earlier. If you're on version 16.7.1 or later, skip this task and proceed directly to [Obtain the Cloud ID value of Confluence Cloud instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-confluence-cloud.md).
 
 Atlassian Role required: Refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-confluence-cloud.md) table.
 
@@ -187,15 +185,15 @@ If you’re using Software Asset Workspace, the option to create the Confluence 
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d108828e703">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d114993e678">
 
 Interface
 
-</th><th align="left" id="d108828e706">
+</th><th align="left" id="d114993e681">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d108828e712">
+</th></tr></thead><tbody><tr><td id="d114993e687">
 
 **Core UI**
 
@@ -206,7 +204,7 @@ Action
 3.  Select **Confluence Cloud Integration Profile**.
 
 
-</td></tr><tr><td id="d108828e754">
+</td></tr><tr><td id="d114993e729">
 
 **Software Asset Workspace**
 
@@ -268,7 +266,7 @@ Type of integration profile. This field is automatically set to **Confluence Clo
 
         **Note:** The **Download Activity** check box is selected by default. If you clear it, the activity scheduled job **SAM - Refresh &lt;displayname&gt; Activity** isn't created.
 
-        In the **Analyze user activity** field, you can also select the date and time starting from when you want to analyze the user activity. By default, you can analyze user activity up to 60 days prior to the current date and view events performed by individual users from the time you create this profile.
+        In the **Analyze user activity from** field, you can also select the date and time starting from when you want to analyze the user activity. By default, you can analyze user activity up to 60 days before the current date and view events performed by individual users from the time you create this profile.
 
         **Note:** Software Asset Management pulls the events from the time that you start analyzing user activity irrespective of the profile creation date.
 
@@ -322,10 +320,6 @@ Connection URL
 </td><td>
 
 Provide the URL of your Confluence Cloud instance in the `https://api.atlassian.com/ex/confluence/<Cloud-ID` format. For more information about getting the value of Cloud ID, see [Obtain the Cloud ID value of Confluence Cloud instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-confluence-cloud.md).
-
-</td></tr><tr><td class="sub-head" colspan="2">
-
-The following fields are applicable for the Zurich release, Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) store app version 16.7.0 and earlier. Starting with version 16.7.1, these fields aren't available.
 
 </td></tr><tr><td>
 
@@ -424,7 +418,7 @@ After creating an integration profile, view information about the profile in the
 -   Subscription Identifier Exclusion Rule
 -   Subscription User Exclusion Rule
 
-After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/subscription-exclusions.md).
+After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/subscription-exclusions.md).
 
 If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple Confluence Cloud integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/create-child-alias-confluence.md).
 

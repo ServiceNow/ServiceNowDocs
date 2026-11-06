@@ -7,7 +7,7 @@ release: zurich
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
@@ -47,24 +47,7 @@ You can adjust what gets sent from Twilio by editing the on-call workflow in the
 
 **Parent Topic:**[Configuring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/configuring-service-reliability-management.md)
 
-**Related topics**  
+**Previous topic:**[Configure fields for escalation triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/srm-configure-trigger-fields.md)
 
-
-[Install Service Reliability Management from Admin Center or ServiceNow Store]()
-
-[Assign an administrator to Service Reliability Management]()
-
-[Activate teams and services in SRM]()
-
-[Customize service approval settings]()
-
-[Customize team approval settings]()
-
-[Configure error budget actions for breached SRM SLOs]()
-
-[Approve a change request for SRM]()
-
-[Configure fields for escalation triggers]()
-
-[Install the Alert Automation application]()
+**Next topic:**[Install the Alert Automation application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-install-aa-store-app.md)
 

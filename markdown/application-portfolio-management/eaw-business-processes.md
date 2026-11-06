@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-business-processes.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Exploring the business architecture, Exploring Portfolio list view, Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Exploring the business architecture, Exploring Portfolio list view, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Exploring business processes
@@ -20,13 +20,15 @@ Based on your requirements, model a business process hierarchy by creating paren
 
 A business process or capability hierarchy is an ordered grouping of business processes in a hierarchical fashion.
 
+Business process hierarchies can include multiple levels \(L0, L1, L2, and deeper\). Use CI relationships to create parent‑child relationships between business process records and build the hierarchy over time.
+
 ## L0 and L1 business processes
 
 L0 signifies the high-level process encompassing all activities associated with that process. For example, in the IT service management business process, the L0 business process encompasses all activities related to managing IT services within the organization.
 
 L1 signifies the specific tasks within the L0 business process. For example, within the IT service management business process, incident management is an L1 business process which specifically deals with logging, categorizing, and resolving incidents.
 
-Business process hierarchies can include multiple levels \(L0, L1, L2, and deeper\). Use CI relationships to create parent‑child relationships between business process records and build the hierarchy over time.
+L2 \(and deeper\) levels represent more specific sub‑processes within an L1 process. For example, within Incident Management, you can model L2 processes such as Incident Logging and Incident Resolution.
 
 ## Business processes in Enterprise Architecture Workspace
 
@@ -40,7 +42,9 @@ Use business processes to connect operational workflows to other enterprise arch
 
 Use business processes to model internal workflows and relate them to supporting applications. Use business capabilities to describe what the organization does. Use value streams to describe end‑to‑end value delivery across functions.
 
-**Note:** Before Zurich Patch 12, a business process could be associated with only one business unit, using a **Business Unit** field on the form. This field has been removed from the default form view and replaced with the **Related business units** related list, which lets you associate a business process with multiple business units. The Business Unit field still exists on the table — administrators can add it back to the form from Form Layout if needed. Associations that existed before the upgrade are not automatically migrated; you must explicitly add the business unit to the Related business units related list.
+A business process is not the same as a business process activity. A business process models the overall workflow and its L0-L2 hierarchy. A business process activity is a separate, standalone entity that represents a discrete unit of work performed by a business actor. For more information, see [Exploring business process activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-business-process-activities.md).
+
+**Note:** Before Australia Patch 5, a business process could be associated with only one business unit, using a **Business Unit** field on the form. This field has been removed from the default form view and replaced with the **Related business units** related list, which lets you associate a business process with multiple business units. The Business Unit field still exists on the table — administrators can add it back to the form from Form Layout if needed. Associations that existed before the upgrade are not automatically migrated; you must explicitly add the business unit to the Related business units related list.
 
 **Parent Topic:**[Exploring the business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-business-architecture.md)
 
@@ -52,6 +56,8 @@ Use business processes to model internal workflows and relate them to supporting
 [Add or edit a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-create-business-process.md)
 
 [Manage architectural artifacts of a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-assoicate-artifact-bp.md)
+
+[Associate a business process with a value stream stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-assoc-bp-with-vs-stage.md)
 
 [Add a business unit to a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-add-business-unit-to-business-process.md)
 

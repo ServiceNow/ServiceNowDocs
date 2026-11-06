@@ -7,9 +7,9 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Integrate VA with MS Teams for GCC-H, Specialized VA integrations for Teams, Integrate VA with Teams, Conversational Integration with Microsoft Teams, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Integrate VA with MS Teams for GCC-H, Specialized VA integrations for Teams, Integrate VA with Teams, Microsoft Teams, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Auto-generate the manifest file and upload it into Microsoft Teams for GCC-Hor DoD
@@ -50,7 +50,11 @@ You need permission to upload custom apps in Microsoft Teams. To learn how to en
 
     The bot presents a prompt that provides options to authenticate, such as **Link to ServiceNow**, **Continue as Guest**, and **Check out Tips**.
 
+    \[Omitted image "msteams-custom-bot-response.png"\] Alt text: Microsoft Teams multi instance bot prompts.
+
     The **Link to ServiceNow** option requires you to enter their ServiceNow instance credentials. If you choose to link to your ServiceNow account, the following screen is displayed asking you to confirm the account linking.
+
+    \[Omitted image "msteams-confirm-snow-acnt-link.png"\] Alt text: Microsoft Teams account linking dialog box.
 
     Account linking associates your Microsoft Teams account with your ServiceNow account for the ServiceNow instance that is integrated with the Conversational Integration with Microsoft Teams. If your account is linked, you can run Virtual Agent topics that use ServiceNow information and records.
 

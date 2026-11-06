@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/using-export-import-feature-event-tasks.html
 release: zurich
 topic_type: concept
-last_updated: "2025-04-27"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 keywords: [import, export, Excel, event task, Record Transform Engine]
 breadcrumb: [Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -17,7 +17,7 @@ Use Export to download event task records into a structured Microsoft Excel file
 
 ## Benefits of using import and export functionality
 
-Starting with the Zurich release of the BCM application, import and export of event tasks is supported. Import and export is useful when you want to update many records at once. For example, reassigning 50 event tasks to different owners or bulk-updating dates and statuses. You can bulk-update fields like **Assigned To**, **Status**, and **Dates** or download data to review offline.
+Starting with the Brazil release of the BCM application, import and export of event tasks is supported. Import and export is useful when you want to update many records at once. For example, reassigning 50 event tasks to different owners or bulk-updating dates and statuses. You can bulk-update fields like **Assigned To**, **Status**, and **Dates** or download data to review offline.
 
 You can download an empty template to see the expected format before any data exists. Import only  updates  existing records matched by the **Number** field— it does not create or delete records, or modify protected fields like **Number**, **Short description**, and **Activated plan**.
 
@@ -161,6 +161,8 @@ For information on Import and export integration reference, see [Import and expo
 
 -   **[Export data into Microsoft Excel and update the file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/export-import-event-tasks-using-excel.md)**  
 Export event task records to an Microsoft Excel file, edit the data offline, and re-import the updated file to apply changes in bulk. Use this task for updating multiple event task records simultaneously outside the ServiceNow interface.
+-   **[Import data from Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/import-data-from-excel.md)**  
+Import data such as event task records from Microsoft Excel to apply changes in bulk. Use this task for updating multiple event task records simultaneously outside the ServiceNow interface.
 
 **Parent Topic:**[Structured workflows for exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
 

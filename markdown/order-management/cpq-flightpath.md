@@ -1,18 +1,18 @@
 ---
 title: Flightpath
-description: Flightpath keeps a record of rule engine activity and field changes in real time, helping administrators analyze system behavior and troubleshoot complex configuration flows with pause and restart options.
+description: Flightpath keeps a record of rule engine activity and field changes in real time. Administrators can analyze system behavior and troubleshoot complex configuration flows with pause and restart options.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/cpq-flightpath.html
 release: zurich
 topic_type: concept
-last_updated: "2025-09-16"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Flightpath
 
-Flightpath keeps a record of rule engine activity and field changes in real time, helping administrators analyze system behavior and troubleshoot complex configuration flows with pause and restart options.
+Flightpath keeps a record of rule engine activity and field changes in real time. Administrators can analyze system behavior and troubleshoot complex configuration flows with pause and restart options.
 
 Flightpath helps administrators understand how the rules engine responds to end-user inputs. When recording, Flightpath keeps track of:
 
@@ -33,7 +33,7 @@ The following video demonstrates the Flightpath feature tracking rules engine re
 
     ServiceNow CPQ environment Explorer 07.22 or later.
 
-    Salesforce Logik.io Managed Package version 1.2 or greater. Navigation in Salesforce: Admin Setup &gt; Apps &gt; Packaging &gt; Installed Packages &gt; ServiceNow CPQ Managed Package
+    Salesforce ServiceNow CPQ.io Managed Package version 1.2 or greater. Navigation in Salesforce: Admin Setup &gt; Apps &gt; Packaging &gt; Installed Packages &gt; ServiceNow CPQ Managed Package
 
     The Salesforce administrator must add the `LGK FlightPath_c` field to the Quote Line Editor field set \(Salesforce: Admin Setup &gt; Object Manager &gt; Quote &gt; Field Sets &gt; Line Editor\). Place the Flightpath field in the field set. Limit its visibility to the appropriate administrator roles.
 
@@ -56,7 +56,7 @@ The following video demonstrates the Flightpath feature tracking rules engine re
     -   Configurator:
 
         ```
-        https://<siteURL>.<sector>.logik/ui/configure/<product id>?v=1&<other parameters>&log=<value>
+        https://<siteURL>.<sector>.logik.io/ui/configure/<product id>?v=1&<other parameters>&log=<value>
         ```
 
     -   Transaction management:

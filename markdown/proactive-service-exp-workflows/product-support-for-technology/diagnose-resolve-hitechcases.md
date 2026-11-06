@@ -1,5 +1,5 @@
 ---
-title: Diagnose and resolve a Product Support for Technology case
+title: Diagnose and resolve a technology product support case
 description: As a customer service agent, review, diagnose, resolve, and close a case for the service-related issue experienced by the customer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/proactive-service-exp-workflows/product-support-for-technology/diagnose-resolve-hitechcases.html
@@ -7,12 +7,12 @@ release: zurich
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Technology Product Support Case, Proactive Service Experience Workflows]
+breadcrumb: [Use, Technology Product Support Case, Product Support for Technology]
 ---
 
-# Diagnose and resolve a Product Support for Technology case
+# Diagnose and resolve a technology product support case
 
 As a customer service agent, review, diagnose, resolve, and close a case for the service-related issue experienced by the customer.
 
@@ -22,7 +22,7 @@ Role required: sn\_tech\_support.agent
 
 ## About this task
 
-The Product support for technology case progresses through several stages from start to closure. It begins with a support agent reviewing and verifying the problem. Next is the diagnosis tab, where system-specified tests are executed to identify the root cause. After the tests, the support agent moves to the repair stage, creating a task to fix the identified issue. The agent follows the instructions in the repair task to address the problem areas. Once the repair is complete, the case is retested to confirm that the issue is resolved. Finally, the case is resolved and closed based on the customer's feedback on the provided solution.
+The technology product support case progresses through several stages from start to closure. It begins with a support agent reviewing and verifying the problem. Next is the diagnosis tab, where system-specified tests are executed to identify the root cause. After the tests, the support agent moves to the repair stage, creating a task to fix the identified issue. The agent follows the instructions in the repair task to address the problem areas. Once the repair is complete, the case is retested to confirm that the issue is resolved. Finally, the case is resolved and closed based on the customer's feedback on the provided solution.
 
 ## Procedure
 
@@ -30,25 +30,25 @@ The Product support for technology case progresses through several stages from s
 
 2.  Select the List icon.
 
-3.  Navigate to **Product Support for Technology** &gt; **Assigned to me**.
+3.  Navigate to **Technology Product Support Case** &gt; **Assigned to me**.
 
-4.  Open the Product support for technology case that is in the New or Open state.
+4.  Open the technology product support case that is in the New or Open state.
 
     \[Omitted image "tech-product-case-diagnose.png"\] Alt text: technology product support case diagnose.
 
-5.  Review and verify the Product support for technology case.
+5.  Review and verify the technology product support case.
 
-    1.  In the **Intake** tab, expand the **Gather details**, and then review and verify the general details for the Product support for technology case.
+    1.  In the **Intake** tab, expand the **Gather details**, and then review and verify the general details for the technology product support case.
 
-    2.  Expand the **Describe the problem** and review the details of the Product support for technology case.
+    2.  Expand the **Describe the problem** and review the details of the technology product support case.
 
     3.  Expand the **Identify impacted instances** and review the affected instances.
 
     4.  Select **Continue**.
 
-        **Note:** Before the state is moved to close, the fields in the Product support for technology case form can be edited from the case highlights card.
+        **Note:** Before the state is moved to close, the fields in the technology product support case form can be edited from the case highlights card.
 
-    The Product support for technology case moves to the Triage stage.
+    The technology product support case moves to the Triage stage.
 
 6.  Review the case information.
 
@@ -56,9 +56,9 @@ The Product support for technology case progresses through several stages from s
 
     2.  Expand the **Send Initial Response** and review the initial response.
 
-    The Product support for technology case moves to the Troubleshoot stage.
+    The technology product support case moves to the Troubleshoot stage.
 
-7.  Diagnose the Product support for technology case to identify the root-cause of the problem.
+7.  Diagnose the technology product support case to identify the root-cause of the problem.
 
     1.  To generate the test results, select **Run diagnostics** from the contextual panel.
 
@@ -66,9 +66,9 @@ The Product support for technology case progresses through several stages from s
 
     3.  Expand the cards in the **Available Test Suite**.
 
-        To set up test definitions, see [Setting up test definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/settingup-test-specifications.md).
+        To set up test definitions, see .
 
-        To set up test group, see [Setting up a test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/setting-test-group.md).
+        To set up test group, see .
 
     4.  In the manual test, select single/multiple tests.
 
@@ -84,7 +84,7 @@ The Product support for technology case progresses through several stages from s
 
     9.  In the diagnose tab, expand the **Test results** and review the results of the tests conducted in the previous step, checking whether each test is passed or failed.
 
-        The failed tests indicate that the issues causing the Product support for technology case to be identified and need repair.
+        The failed tests indicate that the issues causing the technology product support case to be identified and need repair.
 
         The maximum number of rows to the group is limited to 20 rows. To configure the maximum number of rows more than 20 rows to the group, see [Presentational List Usage](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/now-components/now-list/usage).
 
@@ -118,7 +118,7 @@ The Product support for technology case progresses through several stages from s
 
 9.  In the **Resolve** stage, review the proposed resolution for the case.
 
-10. Close the Product support for technology case.
+10. Close the technology product support case.
 
     1.  Go to the Close stage and fill in the fields.
 
@@ -136,5 +136,7 @@ The Product support for technology case progresses through several stages from s
 
 ## Result
 
-The Product support for technology case is resolved and closed successfully.
+The technology product support case is resolved and closed successfully.
+
+**Parent Topic:**[Using Technology Product Support Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/use-technology-product-support-case.md)
 

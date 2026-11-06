@@ -7,7 +7,7 @@ release: zurich
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Territory Planning, Set up workforce, Configure, Field Service Management]
 ---

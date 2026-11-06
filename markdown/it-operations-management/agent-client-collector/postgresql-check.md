@@ -9,7 +9,7 @@ classification: agent-client-collector
 topic_type: reference
 last_updated: "2026-09-29"
 reading_time_minutes: 1
-breadcrumb: [Agent Client Collector checks – credential and permission requirements, Agent Client Collector Monitoring reference, Agent Client Collector, IT Operations Management]
+breadcrumb: [Agent Client Collector checks – credential and permission requirements, ACC-M reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
 
 # PostgreSQL check

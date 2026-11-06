@@ -1,5 +1,5 @@
 ---
-title: Escape XML markup \[Updated in Security Center 1.3\]
+title: Escape XML markup
 description: Use the glide.ui.escape\_text property to force escape of XML values at the parser level before transmitting them to the client's browser.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-escape-xml.html
@@ -7,14 +7,16 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
 
-# Escape XML markup \[Updated in Security Center 1.3\]
+# Escape XML markup
 
 Use the **glide.ui.escape\_text** property to force escape of XML values at the parser level before transmitting them to the client's browser.
+
+Use the **glide.ui.escape\_text** system property to escape XML values at the parser level for the user interface. It prevents reflected and stored cross-site scripting attacks. This property is not applicable in Service Portal.
 
 Cross-site scripting occurs when an attacker injects malicious JavaScript into an entry point. The platform/application fails to escape the malicious JavaScript before transmitting it to the victim's browser for execution. Escaping in this context means the following:
 
@@ -29,7 +31,7 @@ Example: `<script>alert('XSS Attack');</script>`
 
 Escaping: `&lt;script&gt;alert(&#39;XSS Attack&#39;);&lt;/script&gt;`
 
-Ensure the **glide.ui.escape\_text** property exists in the sys\_properties table and is set to true.
+Ensure the **glide.ui.escape\_text** property exists in the System Properties \[sys\_properties\] table and is set to **true**.
 
 **Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It is non-revertible.
 
@@ -45,7 +47,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Property name
+Configuration name
 
 </td><td>
 
@@ -61,20 +63,11 @@ System Properties \(/sys\_properties\_list.do\)
 
 </td></tr><tr><td>
 
-Category
+Data type
 
 </td><td>
 
-[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
-
-</td></tr><tr><td>
-
-Purpose
-
-</td><td>
-
-Escaping XML ensures that browsers do not parse the malicious JavaScript embedded in untrusted data, and execute it as JavaScript. -   A malicious user may try XSS attack to either hijack other users' session or redirect the user to a malicious website.
--   The NOW Platform contains code to secure cookies, but escaping it relies on this property being set to **true**.
+Boolean
 
 </td></tr><tr><td>
 
@@ -86,19 +79,27 @@ true
 
 </td></tr><tr><td>
 
-Security risk rating
+Default value
 
 </td><td>
 
-8.8
+true
 
 </td></tr><tr><td>
 
-Functional impact
+Fallback value
 
 </td><td>
 
-This remediation enforces XML encoding at the XML parser level on the UI. It renders the encoded results for the user, which can have a functionality impact based on the instance user interaction with the resulted data.
+false
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 
 </td></tr><tr><td>
 
@@ -106,25 +107,28 @@ Security risk
 
 </td><td>
 
-\(High\) Input validation must occur on the application to defend against cross-site scripting attacks. These attacks enable foreign scripts to execute on user session in the logged in browser's context. Attackers can use it to steal session information and sensitive data.
+-   Severity score: 8.8
+-   CVSS rating: High
+-   Security risk details:
+
+If **glide.ui.escape\_text** is not set to the recommended value of **true**, then XML values will not be escaped at the parser level for the user interface; this will leave jelly templates susceptible to reflected and stored cross site scripting attacks.
+
 
 </td></tr><tr><td>
 
-Workaround
+Functional impact
 
 </td><td>
 
-After you set this property to **true**, rendering stops on the HTML tags in the catalog item description or in the catalog item variable help text. You may not be able to use HTML formatting for some fields.
+None
 
- However, if the **glide.ui.escape\_text** property is turned of, all JEXL expressions would be prefixed with an output encoder:
+</td></tr><tr><td>
 
- `$⁠{JS:expression}`
+Dependencies and prerequisites
 
- `$⁠{HTML:expression}`
+</td><td>
 
- or
-
- `$⁠{JS,HTML:expression}`
+None
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)

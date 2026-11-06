@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/configuring-now-assist-mobile.html
 release: zurich
 topic_type: concept
-last_updated: "2026-07-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Otto for Mobile, Mobile Platform]
 ---
@@ -20,8 +20,8 @@ Generate the resolution notes that summarize work orders for mobile.
 Enable Now Assist Agent skills in Virtual Agent on Mobile to leverage the power of generative AI.
 -   **[Configuring a prominent action button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/configuring-prominent-action-button.md)**  
 Configure a prominent action button for quick access to Now Assist.
--   **[Configure a Lens launcher button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/configure-lens-launcher-button.md)**  
-Add a ServiceNow AI Lens button to input form screens to enable users to quickly extract data from attachments and complete forms faster.
+-   **[Configure Lens launcher button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/configure-lens-launcher-button.md)**  
+Add a ServiceNow AI Lens button to input form screens to allow users to quickly extract data from attachments and complete forms faster.
 -   **[Configure Mobile AI Voice Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/config-mobile-ai-voice-agent.md)**  
 Follow these steps to enable the Mobile AI Voice Agent feature for your mobile app users.
 -   **[Configure ServiceNow Otto button in search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/configure-now-assist-button-search.md)**  

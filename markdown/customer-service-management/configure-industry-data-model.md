@@ -1,40 +1,42 @@
 ---
 title: Configure Service Model Foundation
-description: Configure the Service Model Foundation feature to enable a foundational data model framework. You can use this framework to create structured and flexible data models that represent your business needs.
+description: Configure the Service Model Foundation feature to create structured data models for your customer service operations. You can use this framework to create structured and flexible data models that represent your business needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configure-industry-data-model.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Configure Service Model Foundation
 
-Configure the Service Model Foundation feature to enable a foundational data model framework. You can use this framework to create structured and flexible data models that represent your business needs.
+Configure the Service Model Foundation feature to create structured data models for your customer service operations. You can use this framework to create structured and flexible data models that represent your business needs.
 
 ## Before you begin
 
-Role required: admin
+Role required: csm\_guided\_setup\_user or admin
 
 ## About this task
 
-Service Model Foundation provides the core framework and guidance for building and modeling the entities that are involved in the customer service value chain. This framework introduces new entities, such as service organizations, internal and external business locations, and households. It also introduces roles and relationships that provide both flexibility and control in granting access to customer cases and information.
+Service Model Foundation provides the core framework and guidance for building and modeling the entities that are involved in the customer service value chain. This framework introduces new entities, such as service organizations, internal and external organizations \(formerly business locations\), and households. It also introduces roles and relationships that provide both flexibility and control in granting access to customer cases and information.
 
 With the Service Model Foundation plugins, you can support:
 
--   Internal business locations and staff members
--   External business locations and staff members
+-   Internal organizations and staff members
+-   External organizations and staff members
 -   Households and household members
 
 For more information about this feature, see [Service Model Foundation overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-industry-data-model.md).
+
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/renamed-entities.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Customer Service** &gt; **Administration** &gt; **Guided Setup**.
 
-2.  On the Getting Started page of the guided setup, click **Get Started**.
+2.  Select **Get Started** on the Getting Started page.
 
 3.  In the Service Model Foundation category, view the list of tasks to configure the feature.
 
@@ -48,12 +50,12 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Activating plugins for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/activate-plugins.md)
+[Activating plugins for Service Model Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/activate-plugins.md)
 
 </td><td>
 
 Activate the plugins:-   Business Location \(com.snc.business\_location\)
--   Customer Service Household \(com.snc.household\)
+-   Customer Household Data Model \(com.snc.household\)
 
 
 </td></tr><tr><td>
@@ -70,7 +72,7 @@ Activate the query rules by setting the system property \[sn\_cs\_queryrules.use
 
 </td><td>
 
-Configure forms to add the fields and related lists that support the business location and household models.
+Configure forms to add the fields and related lists that support the business organization and household models.
 
 </td></tr><tr><td>
 
@@ -99,7 +101,7 @@ Use relationships to provide internal and external users with additional access 
  The Service Model Foundation plugins provide both relationships and responsibility definitions that you can use to create relationships between users.
 
 </td></tr></tbody>
-</table>4.  To perform a task, click **Configure**.
+</table>4.  To perform a task, select **Configure**.
 
     This button opens the page in your instance where the configuration is completed.
 

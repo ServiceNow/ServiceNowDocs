@@ -7,9 +7,9 @@ release: zurich
 product: Upgrade Management
 classification: upgrade-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Upgrade Summary Report, Monitor an upgrade to an instance, Upgrade Monitor tool in Upgrade Console, Upgrade Console tools, Use, Upgrade Console, Upgrade, Administer]
+breadcrumb: [Upgrade Summary Report, Monitor an upgrade to an instance, Upgrade Monitor tool in Upgrade Console, Upgrade Console tools, Use, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
 # View loaded files for a plugin

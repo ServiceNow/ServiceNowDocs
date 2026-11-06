@@ -7,7 +7,7 @@ release: zurich
 product: Test Management
 classification: test-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Test Management 1.0, Test Management applications, Strategic Portfolio Management]
 ---
@@ -26,7 +26,7 @@ If you are an upgrade customer, you must manually activate the Read only roles f
 
 ## Test Management 1.0 tables accessible by users with the business stakeholder role
 
-When both the Read only roles for Test Management 1.0 plugin \(com.snc.tm1\_read\_roles\) and Test Management 1.0 plugin \(com.snc.test\_mgmt\) are active in your ServiceNow instance. In this case, the user with the business stakeholder role \(sn\_tm1\_read\) has read access to the following tables.
+When both the Read only roles for Test Management 1.0 plugin \(com.snc.tm1\_read\_roles\) and Test Management 1.0 plugin \(com.snc.test\_mgmt\) are active in your ServiceNow instance. The user with the business stakeholder role \(sn\_tm1\_read\) has read access to the following tables.
 
 <table id="table_TestManagement"><thead><tr><th>
 

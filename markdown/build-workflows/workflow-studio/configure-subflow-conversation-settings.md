@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-11-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Building subflows, Use, Workflow Studio, Build workflows]
+breadcrumb: [Build subflows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Configure subflow conversational settings
@@ -273,7 +273,7 @@ Channels
 
 </td><td>
 
-The list of default channels in which this subflow is available.To learn more about channels, see Channels in conversational interfacesChannels in conversational interfaces.
+The list of default channels in which this subflow is available.To learn more about channels, see [Channels in conversational interfacesChannels in conversational interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/ci-channels-overview.md).
 
 </td></tr></tbody>
 </table>9.  Save the skill.

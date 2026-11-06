@@ -1,0 +1,51 @@
+---
+title: Roles in Simplified IT Service Management
+description: You can configure the user access for Simplified ITSM pages using various roles.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/simplified-itsm-roles.html
+release: zurich
+topic_type: reference
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Reference, Simplified IT Service Management, IT Service Management]
+---
+
+# Roles in Simplified IT Service Management
+
+You can configure the user access for Simplified ITSM pages using various roles.
+
+<table id="table_qkn_j4g_1cc"><thead><tr><th>
+
+Role
+
+</th><th>
+
+Description
+
+</th><th>
+
+Inherited roles
+
+</th></tr></thead><tbody><tr><td>
+
+admin
+
+</td><td>
+
+Provides access to all pages in Simplified ITSM.A user with this role can perform configurations for all modules in the product console.
+
+</td><td>
+
+None
+
+</td></tr></tbody>
+</table>|Role|Description|Inherited roles|
+|----|-----------|---------------|
+|sn\_incident\_admin|Enables you to edit incident management configurations in the product console.|None|
+
+|Role|Description|Inherited roles|
+|----|-----------|---------------|
+|sn\_request\_admin|Enables you to edit request management configurations in the product console.|None|
+
+**Parent Topic:**[Simplified IT Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/ai-native-it-service-desk-reference.md)
+

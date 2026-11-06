@@ -7,10 +7,10 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Virtual Agent, designer, HTML, bot, response, control]
-breadcrumb: [Assistant Designer Asset library bot responses, Assistant Designer Asset library interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer bot responses, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # HTML bot response control
@@ -90,19 +90,10 @@ No-code condition statement or low-code script that specifies a condition for pr
 
 |Channel|Support|Constraints|
 |-------|-------|-----------|
-|Web UI|Supported|None|
-|Mobile UI|Supported|None|
-|ServiceNow Otto panel|Supported|None|
 |Microsoft Teams|Supported|Since HTML is rendered as an image in Microsoft Teams, other controls are recommended. For example, use images or cards instead of HTML for Microsoft Teams.|
 |Slack|Supported|None|
-|Workplace|Supported|None|
-|Facebook Messenger|Not supported|Not applicable|
 |SMS Twilio|Not supported|Not applicable|
-|LINE|Not supported|Not applicable|
-|WhatsApp \(powered by Twilio\)|Not supported|Not applicable|
-|WhatsApp|Not supported|Not applicable|
-|Apple Messages for Business|Not supported|Not applicable|
-|Alexa \(Voice\)|Partial support|Supported on devices with screens. For nonscreen devices, the user receives a message: `We found a link`. For details, see [Fine-tune Virtual Agent settings and topics for the best Alexa voice chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-settings-for-alexa.md).|
+|Google Chat|Supported|None|
 
 ## Example HTML bot response output
 
@@ -127,5 +118,5 @@ HTML bot response output
 \[Omitted image "va-html-native.png"\] Alt text: A chat window shows the company logo with a header, subheader, and body text.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Assistant Designer Asset library bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md)
+</table>**Parent Topic:**[Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md)
 

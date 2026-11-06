@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/publish-trm-cat-to-kb.html
 release: zurich
 topic_type: task
-last_updated: "2026-02-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Working with the publishing center, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with the publishing center, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Publish a TRM catalog to the knowledge base
@@ -19,6 +19,8 @@ Publish a Technology Reference Model \(TRM\) catalog to the ServiceNow Knowledge
 Role required: sn\_apm.apm\_admin and knowledge\_admin
 
 ## About this task
+
+\[Omitted video\] Description: Create a new configuration to publish TRM data in Enterprise Architecture Workspace
 
 When you publish a TRM catalog, the details such as products, lifecycle phases, and standards are transformed into structured Knowledge Base articles. These articles can be searched, browsed, and consumed across the organization. This allows technology standards maintained by enterprise architects to be accessed by a much broader audience, including application owners, developers, and solution architects.
 
@@ -34,9 +36,9 @@ When you publish a TRM catalog, the details such as products, lifecycle phases, 
 
 4.  Select **All**.
 
-5.  Open the catalog that you want to publish or create a new configuration to publish.
+5.  Open the catalog that you want to publish or create a configuration to publish.
 
-    For instructions to create a new configuration,see [Create a configuration to publish TRM data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/config-trm-data-to-publish.md).
+    For instructions to create a configuration,see [Create a configuration to publish TRM data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/config-trm-data-to-publish.md).
 
     **Note:** If you plan to publish a public catalog for guest users, ensure that your knowledge portal is configured to allow public access. Publishing applies knowledge base access settings based on the access type selected for the catalog.
 
@@ -66,5 +68,5 @@ After publishing, you can see the following changes on the **Details** tab:
 
 [Republish a TRM catalog after updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/republish-trm-cat.md)
 
-[Publishing results and knowledge base output](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/understand-publishing-output.md)
+[Understanding the publishing results and knowledge base output](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/understand-publishing-output.md)
 

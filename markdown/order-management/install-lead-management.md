@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/install-lead-management.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Lead management, Lead and opportunity management apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Lead Management, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Install Lead Management
@@ -16,7 +16,7 @@ If you have the admin role, you can install the Lead Management application. The
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 
 Depending on your entitlements, you may have to install demo data after installation. Demo data comprises the sample records that describe application features for the common use cases.
 
@@ -41,7 +41,7 @@ For more information on viewing components that are installed with an applicatio
 
     You can search for the application by its name or ID. If you can't find the application, request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 
@@ -49,15 +49,15 @@ For more information on viewing components that are installed with an applicatio
 
 4.  If you want to install demo data, do one of the following depending on your entitlements.
 
-<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d36754e199">
+<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d113216e199">
 
 Demo data install task
 
-</th><th align="left" id="d36754e202">
+</th><th align="left" id="d113216e202">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d36754e208">
+</th></tr></thead><tbody><tr><td id="d113216e208">
 
 **If demo data is available and you want to install it**
 
@@ -67,7 +67,7 @@ Description
 2.  Select **Install**.
  **Important:** If you don't load the demo data during installation, it's unavailable to load later.
 
-</td></tr><tr><td id="d36754e238">
+</td></tr><tr><td id="d113216e238">
 
 **If the Load Demo Data option isn’t available but you want demo data**
 
@@ -81,3 +81,10 @@ Load the demo data after installing [Opportunity Management](https://raw.githubu
 
 </td></tr></tbody>
 </table>
+**Related topics**  
+
+
+[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/lead-management-using.md)
+
+[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/lead-management.md)
+

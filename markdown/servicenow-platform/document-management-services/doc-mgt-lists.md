@@ -7,7 +7,7 @@ release: zurich
 product: Document Management Services
 classification: document-management-services
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Document Management, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -31,8 +31,6 @@ During new hire onboarding, employees must upload multiple documents such as ID,
 Lists entries are a mapping of a template document with a document list. Only template documents can be linked to a list, such as when documents have the **Template** option selected in the document record. The Document List Entries related list displays the list entries.
 
 **Note:** Users can link only documents that they have access to.
-
-\[Omitted image "list-entries.png"\] Alt text: Document list entries
 
 -   **[Group document templates in a list for creating and linking documents to a target record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/create-doc-list.md)**  
 Group document templates in a list to enable all the template documents in the list to automatically be created and linked to the target record when the list is referenced.

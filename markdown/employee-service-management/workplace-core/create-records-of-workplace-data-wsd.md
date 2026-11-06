@@ -7,9 +7,9 @@ release: zurich
 product: Workplace Core
 classification: workplace-core
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Providing your workplace data, Configure Workplace Core, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Providing your workplace data, Configure, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Create records for your workplace data

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-use-agenetic-workflows.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Otto for MCO, Manufacturing Commercial Operations]
+breadcrumb: [AI in Manufacturing Commercial Operations, Explore, Manufacturing Commercial Operations]
 ---
 
 # Using agentic workflows in ServiceNow Otto for Manufacturing Commercial Operations
@@ -56,7 +56,7 @@ To run the AI agents autonomously, you must first [duplicate the agentic workflo
 
 [Explore AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-ai-agents.md)
 
-[Create recall corrective actions using ServiceNow Otto for MCO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/execute-recall-campaigns.md)
+[bundle-platai.mco-ai-agents]
 
 [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md)
 

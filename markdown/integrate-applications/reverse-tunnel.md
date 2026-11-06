@@ -38,5 +38,3 @@ Establish secure private connectivity between your private cloud data sources an
 
 Reverse Tunnel routes encrypted traffic between Workflow Data Fabric and private relays deployed in your private network without decrypting that traffic. Reverse Tunnel supports deployment and management of gateway infrastructure for private connectivity to data sources.
 
-**Note:** These features are available starting with the Zurich patch 11 release. Update the Reverse Tunnel store app to the latest version to use them.
-

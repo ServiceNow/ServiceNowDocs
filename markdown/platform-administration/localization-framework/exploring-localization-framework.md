@@ -7,9 +7,9 @@ release: zurich
 product: Localization Framework
 classification: localization-framework
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Localization Framework, Translation and localization, Configure core features, Administer]
+breadcrumb: [Localization Framework, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Explore Localization Framework
@@ -42,7 +42,7 @@ Localization Framework extends its framework capabilities to certain artifacts a
 -   **[Localization Framework support for Service Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/lf-support-for-catalog-items.md)**  
 Localization Framework enables translation of Service Catalog items when a catalog item is requested for translation into a language and a localization requested item \(LRITM\) is created.
 -   **[Virtual Agent Designer integration with Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/va-designer-lf-integration.md)**  
-The integration of Virtual Agent Designer with Localization Framework enables you to translate Virtual Agent topics using the translation modes supported by Localization Framework with or without a localization task.
+The integration of Virtual Agent Designer with Localization Framework enables you to translate Virtual Agent NLU topics using the translation modes supported by Localization Framework with or without a localization task.
 -   **[Localization Framework support for Natural Language Understanding models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/lf-support-for-nlu.md)**  
 Localization Framework integrates with NLU Workbench to translate the Natural Language Understanding models along with their associated intents, utterances, and entities into multiple languages.
 -   **[Localization Framework support for Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/lf-support-for-surveys.md)**  
@@ -56,7 +56,7 @@ Localization Framework extends its framework capabilities to Document Templates 
 -   **[Localization Framework Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/roles-localization-framework.md)**  
 Localization Framework uses different roles to manage different aspects of the application. The roles from Localization Framework are also used in Localization Workspace.
 -   **[Workflows in the Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/workflow-localization-framework.md)**  
-Workflows define actions for completing a localization task. Each localization task undergoes the workflow configured for its target language to complete the task.
+Workflows in the Settings table define the process for a localization task, including steps for approval and methods for translating and publishing.
 
 **Parent Topic:**[ServiceNow AI Platform translation and localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-localization/translation-and-localization.md)
 

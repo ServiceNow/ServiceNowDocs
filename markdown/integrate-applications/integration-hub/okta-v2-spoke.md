@@ -19,7 +19,7 @@ Use Okta to manage users, passwords, and groups.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -27,7 +27,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Okta spoke v4.8.3 is the latest version.
+Okta spoke v4.8.3 is the latest version. For version history of the spoke, see [Okta Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-okta.html).
 
 ## Spoke dependencies
 

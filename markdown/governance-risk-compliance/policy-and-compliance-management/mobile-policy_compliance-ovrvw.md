@@ -1,5 +1,5 @@
 ---
-title: Manage mobile experience for GRC Policy and Compliance
+title: Managing mobile experience for GRC Policy and Compliance
 description: As a policy and compliance manager, use your Android or iOS mobile device to manage your work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/policy-and-compliance-management/mobile-policy\_compliance-ovrvw.html
@@ -7,18 +7,18 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
-# Manage mobile experience for GRC Policy and Compliance
+# Managing mobile experience for GRC Policy and Compliance
 
 As a policy and compliance manager, use your Android or iOS mobile device to manage your work.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## User role actions for a compliance manager
 

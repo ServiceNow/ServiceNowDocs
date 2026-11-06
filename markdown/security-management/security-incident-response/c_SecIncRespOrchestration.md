@@ -7,7 +7,7 @@ release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Security Incident Response, Enterprise security case management app
 
 Security Incident Response Orchestration activities allow users to interact with and retrieve data from Windows or UNIX-based systems and environments using workflow orchestration.
 
--   **[Set up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/t_SecInRespOrchSetup.md)**  
+-   **[Set up Security Incident Response Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/t_SecInRespOrchSetup.md)**  
 Prior to using Security Incident Response Orchestration, perform steps to set up various parts of the system, including populating the CMDB, configuring the mid-server, and configuring credentials.
 -   **[Understand Security Incident Response Orchestration workflows and workflow templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/view-wf-templates.md)**  
 The Security Incident Response base system includes a series of workflows and workflow templates designed to work with security incident records.

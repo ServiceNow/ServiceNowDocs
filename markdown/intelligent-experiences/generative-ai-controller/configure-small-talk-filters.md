@@ -7,9 +7,9 @@ release: zurich
 product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Configure small talk filters
@@ -48,7 +48,7 @@ When engaging with generative AI, many people send conversational messages that 
 
     \[Omitted image "configure-small-talk-filters-record.png"\] Alt text: Small talk filter record for the Gratitude filter
 
-7.  Select **Submit**.
+7.  Select **Save** to save any changes.
 
 8.  In the navigator, go to the Generative AI Filter Sample \[sys\_gen\_ai\_filter\_sample\] table by entering `sys_gen_ai_filter_sample.list`.
 
@@ -68,7 +68,7 @@ When engaging with generative AI, many people send conversational messages that 
 
         \[Omitted image "configure-small-talk-filters-sample-record.png"\] Alt text: Small talk sample record for the Gratitude filter that says "Thanks for your assistance with my task"
 
-    5.  Select **Submit** to create additional example statements to trigger the filter.
+    5.  Select **Generate Samples** to create additional example statements to trigger the filter.
 
         The more sample statements that you provide, the more likely that the filter aligns with your expectations of its behavior.
 

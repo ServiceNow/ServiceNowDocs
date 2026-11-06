@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up Intelligent Task Recommendations, Setting up a Field Service scheduling method, Configure, Field Service Management]
+breadcrumb: [Configure Intelligent Task Recommendations, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Providing a script for custom task recommendation criteria

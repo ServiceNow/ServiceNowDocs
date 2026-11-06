@@ -7,9 +7,9 @@ release: zurich
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Plan your Password Reset processes
@@ -18,7 +18,7 @@ To ensure security and efficiency, take the time to plan your Password Reset imp
 
 ## Before you begin
 
-Role required: password\_reset\_admin
+Role required: password\_reset\_admin or admin
 
 ## Procedure
 

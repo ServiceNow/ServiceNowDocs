@@ -7,7 +7,7 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure contract templates, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -25,7 +25,7 @@ As a contract configurator, after adding the content controls to the Microsoft W
 -   **[Complete clause mapping to build a clause library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-clause-map-addin.md)**  
 As a contract configurator, complete clause mapping to build a clause library of clause variations containing the content marked in the Microsoft Word document using the Microsoft Word Add-in for ServiceNow Contracts.
 
-**Parent Topic:**[Configure templates for a contract and amendment request in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-document-templates.md)
+**Parent Topic:**[Configure templates for a contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-document-templates.md)
 
 **Related topics**  
 

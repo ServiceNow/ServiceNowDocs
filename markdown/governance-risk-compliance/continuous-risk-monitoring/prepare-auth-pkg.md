@@ -1,5 +1,5 @@
 ---
-title: Risk Management Framework \(RMF\) step 0 - Prepare the authorization package
+title: RMF step 0 - Prepare the authorization package
 description: In the Prepare step, you set up authorization boundaries, control overlays, and information types, as well as create the actual authorization package.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/continuous-risk-monitoring/prepare-auth-pkg.html
@@ -7,12 +7,12 @@ release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
-# Risk Management Framework \(RMF\) step 0 - Prepare the authorization package
+# RMF step 0 - Prepare the authorization package
 
 In the Prepare step, you set up authorization boundaries, control overlays, and information types, as well as create the actual authorization package.
 

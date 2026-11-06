@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-04-24"
 reading_time_minutes: 2
 keywords: [widget creation, AI-powered Widget Builder, natural-language prompt, widget library]
-breadcrumb: [AI-powered Widget Builder, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [AI-powered Widget Builder, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Create a widget with the AI-powered Widget Builder
@@ -29,7 +29,7 @@ Role required: administrator.
 
 **Important:**
 
-Widgets with relative imports `./` or `../` appear grayed out in the AI-Powered Widget Builder version 1.3.7 onwards. Clicking one shows a message to edit it in ServiceNow® AI Experience Lab for VS Code. Customer-built widgets aren't affected. For more information, see .
+Widgets with relative imports `./` or `../` appear grayed out in the AI-Powered Widget Builder version 1.3.7 onwards. Clicking one shows a message to edit it in ServiceNow Lux Lab for VS Code. Customer-built widgets aren't affected. For more information, see [extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-ai-experience-lab-for-vs-code-landing.md).
 
 ## About this task
 

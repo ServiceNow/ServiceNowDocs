@@ -7,9 +7,9 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-11-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure conversational search, Configure agentic workflows, Configure, Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Configure conversational search, Configure agentic workflows, Configure AI capabilities, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Copy contract documents to contract repository
@@ -33,6 +33,8 @@ For new contracts, the scheduled job runs automatically when the contract reques
 2.  Search for **CM Pro Copy Signed Document Revision to AST repo** and open the job.
 
 3.  Select **Execute Now**.
+
+    \[Omitted image "cmpro-na-conv-search-job.png"\] Alt text: Scheduled job to copy contract documents to the contract repository
 
 
 ## Result

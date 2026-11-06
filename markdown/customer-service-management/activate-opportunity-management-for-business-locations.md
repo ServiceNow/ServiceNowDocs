@@ -1,18 +1,18 @@
 ---
 title: Activate Opportunity Management for Business Locations
-description: Activate the Opportunity Management for Business Location plugin to create and track opportunities across the lifecycle of the customer journey.
+description: Activate the Opportunity Management for Business Locations plugin to create and track opportunities across the lifecycle of the customer journey.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/activate-opportunity-management-for-business-locations.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Activate business locations, Activating plugins for Customer Service Management \(CSM\), Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
+breadcrumb: [Business location plugin, Activate plugins, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Activate Opportunity Management for Business Locations
 
-Activate the Opportunity Management for Business Location plugin to create and track opportunities across the lifecycle of the customer journey.
+Activate the Opportunity Management for Business Locations plugin to create and track opportunities across the lifecycle of the customer journey.
 
 ## Before you begin
 
@@ -28,7 +28,7 @@ The following items are installed with Opportunity Management for Business Locat
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Roles and responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/personas-roles-and-tables-post-integration-oppMgmt.md).
+For more information, see [Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/personas-roles-and-tables-post-integration-oppMgmt.md).
 
 ## Procedure
 
@@ -40,7 +40,7 @@ For more information, see [Roles and responsibilities](https://raw.githubusercon
 
 3.  Select **Install** to start the installation process.
 
-    **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
+    **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/find-components.md).
 

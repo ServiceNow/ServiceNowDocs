@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-work-with-archimate-shapes.html
 release: zurich
 topic_type: concept
-last_updated: "2026-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Working with Enterprise Modeling and Visualization, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with Enterprise Modeling and Visualization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Working with ArchiMate Shapes
@@ -35,7 +35,7 @@ Connector ports on ArchiMate® shapes are bi-directional. You can use any connec
 
 To keep connector ports permanently visible on all shapes without hovering, enable the **Show all buttons without the need to hover** preference in **Preferences** &gt; **Accessibility**. For more information, see [Show shape controls without hovering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-show-shape-ports.md).
 
--   **[Create diagrams using ArchiMate shapes and relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-modeling-create-diagram-archimate.md)**  
+-   **[Create diagram using ArchiMate shapes and add relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-modeling-create-diagram-archimate.md)**  
 Use the industry standard ArchiMate shapes to create modeling diagrams for your enterprise in the Enterprise Architecture Workspace.
 
 **Parent Topic:**[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)
@@ -47,7 +47,7 @@ Use the industry standard ArchiMate shapes to create modeling diagrams for your 
 
 [Shape connector properties in Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-connector-properties.md)
 
-[Create diagrams using ArchiMate shapes and relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-modeling-create-diagram-archimate.md)
+[Create diagram using ArchiMate shapes and add relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-modeling-create-diagram-archimate.md)
 
 [Show shape controls without hovering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-show-shape-ports.md)
 

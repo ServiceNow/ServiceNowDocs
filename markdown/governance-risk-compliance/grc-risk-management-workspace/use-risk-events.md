@@ -7,7 +7,7 @@ release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -32,7 +32,7 @@ If risk event integration is configured, users can report risk events from any u
 A risk event might require associated tasks. Unless these tasks are created and eventually closed, the risk event cannot be closed.
 -   **[Analyze a risk event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/analyze-risk-events.md)**  
 Analyze user-submitted risk events to determine if the risk event is valid and needs further processing.
--   **[Create a risk event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/create-new-event-impact.md)**  
+-   **[Create a risk event entry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/create-new-event-impact.md)**  
 Create a risk event entry to determine the monetary or non-monetary impact of the risk event. A risk event can have multiple risk event entries.
 -   **[Approve a risk event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/approve-a-risk-event.md)**  
 A user with the sn\_risk.manager role must approve a valid risk event. If any risk approver rejects the event, the state of the risk event changes to rejected.

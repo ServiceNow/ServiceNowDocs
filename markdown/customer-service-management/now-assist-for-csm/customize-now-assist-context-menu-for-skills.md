@@ -23,7 +23,7 @@ Role required: admin
 
 **Note:**
 
-The ServiceNow Otto context menu configuration is accessible through the AI Experiences in AI Admin Hub console. After activating the relevant skills, users are prompted to visit the Case NACM Config. However, in the base system, configuration is already active. By default, it is configured to use extended tables for the resolution notes and activity response generation skill that is provided in the base system.
+The context menu configuration is accessible through the AI Experiences in AI Admin Hub console. After activating the relevant skills, users are prompted to visit the Case NACM Config. However, in the base system, configuration is already active. By default, it is configured to use extended tables for the resolution notes and activity response generation skill that is provided in the base system.
 
 Case NACM Config is currently only available for resolution notes and activity response generation skill.
 
@@ -31,7 +31,7 @@ Case NACM Config is currently only available for resolution notes and activity r
 
 1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Experiences**.
 
-2.  Select the context menu.
+2.  Select ServiceNow Otto context menu.
 
 3.  Open the **Configuration** tab to view all the existing configurations.
 
@@ -78,7 +78,7 @@ Case NACM Config is currently only available for resolution notes and activity r
     -   Select roles for whom NACM config will be displayed.
 13. In **Review and Activate** select **Activate** to activate the context menu for the skill.
 
-    A record with the specific usage conditions can be selected from the dropdown to test the configuration.
+    A record with the specific usage conditions can be selected from the drop down to test the configuration.
 
     The context menu has been successfully activated.
 

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-23"
 reading_time_minutes: 2
 keywords: [web search, Websearch, web search skill, web search tool]
-breadcrumb: [Add a tool, Create a prompt, Using AI Skill Kit, AI Skill Kit, Enable AI experiences]
+breadcrumb: [Add a tool, Create a prompt, Using AI Skill Kit, AI Skill Kit, Generative AI skills, Enable AI Experiences]
 ---
 
 # Add a web search
@@ -71,7 +71,7 @@ AI search providers
 
 The AI search provider used to perform the search.**Note:**
 
-If you select Perplexity or OpenAI, you must complete the API key setup in the AI Search answers OneExtend capability table. For more information on that process, see [Configure AI Search answers capability for web search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/generative-ai-controller/configure-ai-search-answers-capability-for-web-search.md). Azure OpenAI appears as an option, but it doesn't support web search.
+If you select Perplexity or OpenAI, you must complete the API key setup in the AI Search answers OneExtend capability table. For more information on that process, see [Configure AI search answers capability for web search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/generative-ai-controller/configure-ai-search-answers-capability-for-web-search.md). Azure OpenAI appears as an option, but it doesn't support web search.
 
 If you select Google as your web search tool provider, the web search tool uses [Grounding with Google Search](https://cloud.google.com/vertex-ai/generative-ai/docs/grounding/grounding-with-google-search), offered under a Global Standard deployment. Because grounding is not [data resident](https://cloud.google.com/vertex-ai/generative-ai/docs/security-controls), Google's global infrastructure routes traffic to a global data center for each web search request. This processing might differ from the data processing location chosen for your ServiceNow instance. Consider your organization's data policies before adding a web search tool with Google as the provider.
 

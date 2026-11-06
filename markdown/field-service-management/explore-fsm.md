@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/explore-fsm.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 8
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Field Service Management]
 ---
 
@@ -83,16 +83,13 @@ Travel to the customer location with the required parts and skills to work on th
 </td></tr></tbody>
 </table>## Field Service Management workflow
 
-The following example shows a sample Field Service Management end-to-end workflow describing different roles and stages handled by these roles starting from creating the work order and related task through the completion of the work order task. \[Omitted image "explore-fsm.png"\] Alt text: Workflow showing how Field Service Management roles work together to resolve a service request. For the text description, refer to the workflow steps.
+The following example shows a sample Field Service Management end-to-end workflow describing different roles and stages handled by these roles starting from creating the work order and related task through the completion of the work order task. \[Omitted image "explore-fsm.png"\] Alt text: FSM exploring workflow
 
 1.  As an administrator, you can configure the Field Service Management application to automate the process of assigning work order tasks to field technicians and make it ready for use.
 2.  When the application is ready to use, the initiator creates a new work order or can create a work order from other record types, such as problem, incident, change, or project task.
 3.  Then qualifier reviews and qualifies work orders to ensure that the work order tasks are created.
-4.  The qualified work orders then goes to the dispatcher queue so that dispatcher can assign the work order tasks to the most appropriate and available agents. Dispatcher can also track agent's travel and work time, part requirements, and asset usage.
-
-    Dispatchers are a part of the Field Service Management team, who manages the field teams and customer experience simultaneously to achieve positive outcome for the organization.
-
-5.  The manager manages and monitors the progress of work order tasks. If an agent rejects the task, you can reassign the tasks to another agent.
+4.  The qualified work orders then goes to the dispatcher queue so that the dispatcher can assign the work order tasks to the most appropriate and available agents.
+5.  The manager oversees and monitors the progress of work order tasks. If an agent rejects the task, you can reassign the tasks to another agent.
 6.  After accepting the work order task, the agent travels to the customer location with the required parts and skills to work on the assigned task.
 
 ## Field Service Management benefits

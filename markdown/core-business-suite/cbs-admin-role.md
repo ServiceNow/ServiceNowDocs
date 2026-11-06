@@ -1,22 +1,22 @@
 ---
-title: Assign a Core Business Suite admin role to a user
-description: Grant administrative permissions for the Core Business Suite application and provide full access to configure its underlying services by assigning users a Core Business Suite admin role.
+title: Assign the CBS admin role
+description: Assign the CBS Admin role to grant users full administrative access to configure Core Business Suite.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/core-business-suite/cbs-admin-role.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Core Business Suite]
 ---
 
-# Assign a Core Business Suite admin role to a user
+# Assign the CBS admin role
 
-Grant administrative permissions for the Core Business Suite application and provide full access to configure its underlying services by assigning users a Core Business Suite admin role.
+Assign the CBS Admin role to grant users full administrative access to configure Core Business Suite.
 
 ## Before you begin
 
-Ensure that a user record exists for the user to whom you want to add the role. For information about how to add a new user, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_CreateAUser.md).
+Verify that the user exists. If the user does not exist, create the user record first. For more information, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_CreateAUser.md).
 
 Role required: admin
 
@@ -24,20 +24,18 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Organization** &gt; **Users**.
 
-2.  Search for and select the user from the user list.
+2.  Search for and select the user from the User column.
 
-3.  In the selected **User** record, select the **Roles** tab.
+3.  In the selected user record, select the **Roles** tab.
 
 4.  Select **Edit**.
 
-5.  In the **Collection** list, search for and select the sn\_cbs\_admin role.
+5.  In the Collection list, search for and select sn\_cbs.admin.
 
-6.  Add the user to the **Roles** list by selecting the right arrow.
+6.  Add the role to the Roles list by selecting the right arrow.
 
 7.  Select **Save**.
 
 
-## Result
-
-The user is assigned the CBS admin role and can perform administrative tasks in the Core Business Suite applications.
+**Parent Topic:**[Configure Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/core-business-suite/configure-cbs.md)
 

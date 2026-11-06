@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Central
 classification: workplace-central
 topic_type: reference
-last_updated: "2026-02-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -128,4 +128,8 @@ Conditions used to filter spaces from the selected table. For more information a
 [Neighborhood User Assignment Rule form]()
 
 [User Workplace Profile form]()
+
+[]()
+
+[]()
 

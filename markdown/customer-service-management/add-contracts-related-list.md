@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/add-contracts-related-list.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Administer Customer Contracts and Entitlements, Administer, Customer Service Management]
 ---
@@ -28,15 +28,15 @@ To see the contracts associated with Accounts, Consumers, and Households, respec
 
 1.  Add related lists to sold products and install base items.
 
-<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d297532e65">
+<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d337159e65">
 
 Add to
 
-</th><th align="left" id="d297532e68">
+</th><th align="left" id="d337159e68">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d297532e74">
+</th></tr></thead><tbody><tr><td id="d337159e74">
 
 **Accounts**
 
@@ -46,7 +46,7 @@ Procedure
 2.  Select the account.
 
 
-</td></tr><tr><td id="d297532e107">
+</td></tr><tr><td id="d337159e107">
 
 **Consumers**
 
@@ -56,7 +56,7 @@ Procedure
 2.  Select the consumer.
 
 
-</td></tr><tr><td id="d297532e140">
+</td></tr><tr><td id="d337159e140">
 
 **Households**
 

@@ -1,79 +1,56 @@
 ---
 title: Audit Management release notes
-description: The ServiceNow Audit Management application supports activities related to planning audit engagements, implementing engagements, and reporting findings to an audit committee. Audit Management was enhanced and updated in the Zurich release.The ServiceNow Audit Management application supports activities related to planning audit engagements, implementing engagements, and reporting findings to an audit committee. Audit Management was enhanced and updated in the Zurich release.The ServiceNow Audit Management application supports activities related to planning audit engagements, implementing engagements, and reporting findings to an audit committee. Audit Management was enhanced and updated in the Zurich release.
+description: The ServiceNow Audit Management application supports activities related to planning audit engagements, executing engagements, and reporting findings to an audit committee. See the following sections for release notes by version.This release streamlines evidence and document collection with a faster request path and adds a consolidated grid view for tracking control tests. It also introduces a native Documents panel for storing, versioning, and controlling access to documents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/grc-audit-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Governance, Risk, and Compliance release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Governance, Risk, and Compliance release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Audit Management release notes
 
-The ServiceNow® Audit Management application supports activities related to planning audit engagements, implementing engagements, and reporting findings to an audit committee. Audit Management was enhanced and updated in the Zurich release.
+The ServiceNow® Audit Management application supports activities related to planning audit engagements, executing engagements, and reporting findings to an audit committee. See the following sections for release notes by version.
 
 ## About Audit Management
 
--   Set audit time frames within engagements using new audit date fields. Filter indicator results by specific periods, independent of the overall engagement time frame.
--   Access pre-configured content packs through the new Content Accelerator icon in the Audit Workspace. This includes the Digital Operational Resilience Act \(DORA\) pack with citations and authority documents.
--   Create evidence responses quickly with a simplified process.
--   Access engagements, add existing entities to an engagement, and create activities in the Lite Audit workspace, which is a simplified version of the Audit Management workspace. If the advance core store app is installed, evidences can also be associated with the engagement.
+-   Plan and execute audit engagements – Plan engagements, execute them, and report findings to the audit committee and executive board.
+-   Assure stakeholders through engagement reporting – Assure key stakeholders that the organization's risk and compliance management strategy is effective.
 
 See [Audit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/c_GRCAudits.md) for more information.
 
 ## Activation and other requirements
 
-**Important:** Audit Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
-
 -   **Activation information**
 
-    Install Audit Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Install Audit Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/grc-rn-landing.md)
 
-## December 2025
+## Version 23.0.2
 
-The ServiceNow® Audit Management application supports activities related to planning audit engagements, implementing engagements, and reporting findings to an audit committee. Audit Management was enhanced and updated in the Zurich release.
-
-### What's new
-
--   **[Audit period start and end dates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/t_CreateEngagement.md)**
-
-    Set audit period start and end dates directly on Engagement records to focus audits on specific time-frames. The system displays only indicator results that fall within your defined audit period, keeping the audit time-frame separate from the overall engagement time-frame. This helps you audit past or future periods without affecting the broader engagement timeline.
-
--   **[Unified content management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/unified-content-management_0.md)**
-
-    Simplify the installation of pre-configured content packs with the new Unified content management icon in the Audit Workspace. Content Accelerator includes the Digital Operational Resilience Act \(DORA\) content pack, offering citations and authority documents for DORA compliance. Audit shared manager and Audit WS supervisor roles can access Content Accelerator.
-
-
-## Zurich
-
-The ServiceNow® Audit Management application supports activities related to planning audit engagements, implementing engagements, and reporting findings to an audit committee. Audit Management was enhanced and updated in the Zurich release.
+This release streamlines evidence and document collection with a faster request path and adds a consolidated grid view for tracking control tests. It also introduces a native Documents panel for storing, versioning, and controlling access to documents.
 
 ### What's new
 
--   **[Enhancement to evidence request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/evidence-request.md)**
+-   ****
 
-    Create evidence response directly in one step. This bypasses the step involved in creation of evidence request and collection details. Evidence response is enhanced with additional data of source and context. To leverage evidence capabilities, feature roles have been introduced:
+    Manage all control tests for an engagement from a single grid on the **Control tests** tab. View test status, assigned auditor, and effectiveness results, create or delete control tests, and request evidence directly from a row without opening each record individually.
 
-    -   sn\_grc\_advanced.evidence\_reader
-    -   sn\_grc\_advanced.evidence\_requester
-    -   sn\_grc\_advanced.evidence\_responder
-    -   sn\_grc\_advanced.evidence\_admin
--   **[Integration with ITAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/better-together/solutions-gallery.md)**
+-   **Using Document Management System**
 
-    Leverage Audit Management support as an ITAM customer through dedicated feature roles. A lightweight version of the Audit Management workspace is available, which includes the following features:
+    Store, organize, version, and control access to documents on engagements, control tests, and evidence records with the new Documents panel, alongside the existing Attachments panel. Connect an existing document from Microsoft SharePoint, Microsoft OneDrive, or Google Drive without downloading and re-uploading it.
 
-    -   On the Audit Management home page, you can track **Timeline**, **Engagements**, **Tracking**, **Create evidence request**, and **.**
-    -   The lightweight Audit Management also includes the key capabilities, such as Engagement, Entity Scoping, Activities, and Evidence when Advanced Core is installed.
+    Summarize a document or ask questions about its content using generative AI capabilities. Generate a spoken audio summary, directly from the Documents panel without opening the full document.
+
 
 ### What's changed
 
--   **Coral theme**
+-   **[Create evidence requests with a two-step process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/request-evidence.md)**
 
-    Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+    Create evidence requests with a two-step process by selecting the **Skip collection detail** option, which moves the request directly to **Work in Progress** state. It also enables you to add evidence manually without creating an Evidence Collection Details record.
 
 

@@ -7,9 +7,9 @@ release: zurich
 product: Usage Insights
 classification: usage-insights
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Tracked analytics fields and cookies, User privacy, tracking, and consent, Configure, Usage Insights, Platform Analytics]
+breadcrumb: [Tracked analytics fields and cookies, User privacy, tracking, and consent, Configuring Usage Insights, Usage Insights, Platform Analytics]
 ---
 
 # Tracked web analytics fields for Usage Insights
@@ -317,14 +317,14 @@ basic tracking
 |PageId|The page's unique identifier |home|
 |StartTime|Relative start time within the session|2023-03-23T23:59:58|
 
-## Collected data for customer events \(optional\)
-
-You can add these events by calling client-side APIs. 
+## Collected data for customer events- optional
 
 |Name|Description|Sample output value|
+|You can add these events by calling client-side APIs. | | |
 |----|-----------|-------------------|
+|------------------------------------------------------|---|---|
 |Name|Name of the event |Submit Catalog Request|
-|Time|Event time \(in milliseconds\) from the beginning of the session|945|
+|Time|Event time \(in milliseconds\) from the beginning of the session\) |945|
 
 ## Collected data for event properties
 
@@ -337,7 +337,7 @@ You can add these events by calling client-side APIs. 
 
 |Name|Description|Sample output value|
 |----|-----------|-------------------|
-|Property Name &amp; Value|Key value collection of property names and values |\{“Language” : “English”\} |
+|Property Name &amp; Value |Key value collection of property names and values |\{“Language” : “English”\} |
 
 **Parent Topic:**[Tracked analytics fields and cookies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/usage-insights/uxa-tracked-fields-and-cookies.md)
 

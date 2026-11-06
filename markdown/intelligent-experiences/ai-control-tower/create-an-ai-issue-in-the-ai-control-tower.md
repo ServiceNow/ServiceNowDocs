@@ -7,9 +7,9 @@ release: zurich
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, AI Control Tower \(legacy\), Enable AI experiences]
+breadcrumb: [Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create an AI issue in the AI Control Tower
@@ -34,9 +34,4 @@ Role required: sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst or sn\_grc\_a
 
 5.  Select **Save**.
 
-
--   **[Create new AI issue form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/create-a-new-ai-issue-form.md)**  
-Use the Create New Issue form to identify and manage issues related to the impacted areas for the reported AI case.
-
-**Parent Topic:**[Using AI Control Tower \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/using-ai-control-tower.md)
 

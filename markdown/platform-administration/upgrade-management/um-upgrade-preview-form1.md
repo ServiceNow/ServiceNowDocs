@@ -7,9 +7,9 @@ release: zurich
 product: Upgrade Management
 classification: upgrade-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Upgrade Preview tool in Upgrade Console, Upgrade Console tools, Use, Upgrade Console, Upgrade, Administer]
+breadcrumb: [Upgrade Preview tool in Upgrade Console, Upgrade Console tools, Use, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
 # View previewed upgrade
@@ -75,7 +75,7 @@ Preview status
 Status of the preview.-   Pending
 -   In Progress
 -   Complete
--   Canceled
+-   Cancelled
 -   Failed
 
 

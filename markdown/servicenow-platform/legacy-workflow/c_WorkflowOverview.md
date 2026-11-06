@@ -7,7 +7,7 @@ release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,7 +22,7 @@ Workflow is a legacy application that provided a drag-and-drop interface for aut
 
 **Explore**
 
- -   Zurich
+ -   Brazil
 -   [Workflow movement with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/legacy-workflow/c_WorkflowMovementWithUpdateSets.md)
 -   [Workflow activity pinning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/workflow-activities/c_ActivityPinning.md)
 -   [Domain separation and Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/legacy-workflow/c_WorkflowsAndDomainSeparation.md)

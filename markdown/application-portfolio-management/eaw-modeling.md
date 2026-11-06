@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-modeling.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 11
-breadcrumb: [Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 10
+breadcrumb: [Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Exploring Enterprise Modeling and Visualization in the EA Workspace
@@ -18,25 +18,27 @@ Enterprise Modeling and Visualization in EA Workspace helps you with diagramming
 
 You can use the Enterprise Modeling and Visualization \[com.snc.apm\_modelling\_tool\] functionality in EA Workspace to create diagrams for your applications hierarchy and associate them with architectural artifacts. These diagrams enable decision makers to make informed decisions.
 
-Creating diagrams for your applications hierarchy helps you in the following:
+Creating diagrams helps you in the following:
 
--   Visual representation: The diagrams and models provide a visual representation of complex enterprise structures, processes, and relationships. This visual representation helps your stakeholders, including executives and IT to understand the complexities of the organization.
--   Effective communication: Diagrams serve as a common language that bridges the gap between technical and non-technical stakeholders. They enable effective communication and collaboration between different teams and departments within an organization.
--   Improved decision making: The diagramming and modeling capabilities enable decision makers to make informed decisions. They can assess the impact of proposed changes, evaluate different scenarios, and identify potential risks before implementing strategies or projects.
--   Alignment with business goals: Diagrams and models help you align your IT initiatives with overall business goals. They provide a holistic view of the business and confirm that IT 's investments are strategically aligned with business goals.
--   Change management: The modeling capabilities facilitate change management by illustrating how changes impact the entire enterprise. This helps plan and execute transformations that run smoothly and with minimal disruption.
--   Regulatory and governance compliance: Many regulatory agencies and standards organizations require documentation and adherence to architectural guidelines. Modeling helps you verify compliance and governance by providing a structured framework for managing architectural artifacts.
--   Efficiency and cost reduction: By identifying redundancies, optimizing processes, and streamlining operations, modeling and diagramming can lead to cost reductions and improvements in operational efficiency.
+-   Visual representation: Diagrams and models represent complex enterprise structures, processes, and relationships for stakeholders including executives and IT teams.
+-   Effective communication: Diagrams provide a shared visual language for technical and non-technical stakeholders, supporting collaboration across teams and departments.
+-   Improved decision making: Decision makers can assess the impact of proposed changes, evaluate scenarios, and identify potential risks before implementing strategies or projects.
+-   Alignment with business goals: Diagrams and models help align IT initiatives with overall business goals, providing a view of the business and verifying that IT investments are strategically aligned with business goals.
+-   Change management: Modeling capabilities illustrate how changes affect the enterprise, supporting planning and execution of transformations with minimal disruption.
+-   Regulatory and governance: Modeling provides a structured framework for managing architectural artifacts and documenting adherence to architectural guidelines.
+-   Efficiency and cost reduction: Identifying redundancies, optimizing processes, and streamlining operations can help reduce costs and improve operational efficiency.
 
 \[Omitted image "modeling-home.png"\] Alt text: Modeling page
 
-## Installing the Enterprise Modeling and Visualization application
+**Note:** You can zoom on this page to 200% or 400% through your browser settings without the loss of content or functionality. Page layouts are transformed into a vertical, stacked view automatically.
+
+## Install the Enterprise Modeling and Visualization application
 
 You can install the Enterprise Modeling and Visualization \[com.snc.apm\_modelling\_tool\] from the ServiceNow Store.
 
 ## Working with diagrams
 
--   **Shapes**: This section enables you to use different kinds of shapes to create a diagram. Available shapes are:
+-   **Shapes**: Use different shapes to create a diagram. Available shapes are:
 
     -   General shapes
     -   AWS shapes
@@ -44,7 +46,7 @@ You can install the Enterprise Modeling and Visualization \[com.snc.apm\_modelli
     -   EA Extended shapes
     -   ArchiMate® shapes \(ArchiMate is a registered trademark of The Open Group\)
     -   BPMN shapes
-    \[Omitted image "modeling-shapes-library.png"\] Alt text: Shapes library
+    \[Omitted image "modeling-shapes-library.png"\] Alt text: Shapes libray
 
     Use the Toggle Shape Library icon to show or hide the shapes panel on the canvas.
 
@@ -52,7 +54,7 @@ You can install the Enterprise Modeling and Visualization \[com.snc.apm\_modelli
 
     You can add a shape to the canvas by either selecting the shape or by dragging the shape from the **Shapes** palette to the canvas.
 
-    You can also adjust the size of shapes by selecting a shape and then drag any of its edges or corner handles. Pulling outward increases the shape dimensions, while dragging inward reduces its size.
+    You can also adjust the size of shapes by selecting a shape and then drag any of its edges or corner handles. Dragging outward increases the shape dimensions; dragging inward reduces its size.
 
     When you hover over a shape icon in the **Shapes** panel, a preview popover appears to the right of the panel. The popover shows a larger view of the shape and its label. Moving to a different shape icon, using either the mouse or the arrow keys, updates the popover to the new shape. The popover closes when you move the mouse away from the icon, press Tab on the keyboard, start dragging a shape, or scroll the panel.
 
@@ -91,7 +93,7 @@ You can install the Enterprise Modeling and Visualization \[com.snc.apm\_modelli
 
     \[Omitted image "modeling-version-selection.png"\] Alt text: Version drop-down
 
--   **View details**: Use this option to view version-specific details of your diagram such as version label, description, and planned rollout day.
+-   **View details**: Use this option to view version-specific details of your diagram such as version label, description, and planned rollout date.
 
     \[Omitted image "version-details-diagram.png"\] Alt text: View details pop-up window
 
@@ -142,10 +144,10 @@ The following table lists the keyboard shortcuts available for navigating:
 
 -   **[Shapes to create a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-modeling-shapes.md)**  
 The shapes available in Enterprise Modeling and Visualization help you create diagrams. You can add a shape to the canvas by either selecting the shape or by dragging the shape from the **Shapes** palette to the canvas.
--   **[ArchiMate shapes support in the Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-modeling-archimate.md)**  
-ArchiMate® shapes are industry-standard elements used by enterprise architects to create diagrams that represent relationships across different domains of an enterprise. ArchiMate is a registered trademark of The Open Group. Enterprise Modeling and Visualization supports ArchiMate shapes along with General and Enterprise Architecture shapes.
 -   **[Shape connector properties in Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-connector-properties.md)**  
 When you select a connector between two shapes in an enterprise modeling diagram, a toolbar appears above the connector. Use the toolbar to define the relationship type or visual style of the connector.
+-   **[ArchiMate shapes support in the Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-modeling-archimate.md)**  
+ArchiMate® shapes are industry-standard elements used by enterprise architects to create diagrams that represent relationships across different domains of an enterprise. ArchiMate is a registered trademark of The Open Group. Enterprise Modeling and Visualization supports ArchiMate shapes along with General and Enterprise Architecture shapes.
 -   **[AWS shapes support in the Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/ea-modeling-aws.md)**  
 Enterprise Modeling and Visualization supports Amazon Web Services \(AWS\) shape libraries for modeling cloud architectures. These shapes enable architects to design future-state cloud diagrams aligned with CMDB and CSDM standards.
 -   **[CSDM shapes support in the Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/align-with-csdm5.md)**  

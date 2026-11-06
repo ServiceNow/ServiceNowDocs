@@ -1,19 +1,19 @@
 ---
 title: Make the invoice dispute assist workflow available in the ServiceNow Otto panel
-description: Configure the invoice dispute assist agentic workflow in AI Agent Studio to make it available to agents in the ServiceNow Otto panel in the CSM/FSM Configurable Workspace.
+description: Configure the invoice dispute assist agentic workflow in AI Agent Studio to make it available to agents in the ServiceNow Otto panel in the CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/enable-invoice-dispute-assist-agentic-workflow.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, ServiceNow Otto for Order Management]
+breadcrumb: [Configuring the Manage Invoice Operations application, Business Portal, Configure, Sales Customer Relationship Management]
 ---
 
 # Make the invoice dispute assist workflow available in the ServiceNow Otto panel
 
-Configure the invoice dispute assist agentic workflow in AI Agent Studio to make it available to agents in the ServiceNow Otto panel in the CSM/FSM Configurable Workspace.
+Configure the invoice dispute assist agentic workflow in AI Agent Studio to make it available to agents in the ServiceNow Otto panel in the CRM Workspace.
 
 ## Before you begin
 
@@ -58,7 +58,7 @@ Agentic workflows that are installed with ServiceNow Otto applications aren’t 
 
 Configure Chat Summarization to enable the summarization and recommendation features in Active Chat. For more information, see [Configure chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/configure-chat-summarization-in-now-assist_0.md).
 
-**Parent Topic:**[Configuring ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-for-order-management-configuring.md)
+**Parent Topic:**[Configuring the Manage Invoice Operations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configuring-manage-invoice-operations.md)
 
 **Related topics**  
 

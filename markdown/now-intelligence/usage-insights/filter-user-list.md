@@ -1,5 +1,5 @@
 ---
-title: Filter data in User Experience Analytics
+title: Filter data in Usage Insights
 description: Drill down into usage data with standard and custom filters.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/usage-insights/filter-user-list.html
@@ -7,12 +7,12 @@ release: zurich
 product: Usage Insights
 classification: usage-insights
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use, Usage Insights, Platform Analytics]
+breadcrumb: [Using Usage Insights, Usage Insights, Platform Analytics]
 ---
 
-# Filter data in User Experience Analytics
+# Filter data in Usage Insights
 
 Drill down into usage data with standard and custom filters.
 
@@ -24,13 +24,13 @@ Most pages in the Usage Insights application have visible default filters and an
 
 On each page of Usage Insights, there are several default filters for constraining the information on the page. Most pages have filters for date range, user type, and country.
 
-\[Omitted image "uxa-indiv-app-filters.png"\] Alt text: Default filters for the individual application view in User Experience Analytics
+\[Omitted image "uxa-indiv-app-filters.png"\] Alt text: Default filters for the individual application view in Usage Insights
 
 **Note:** Mobile applications have additional default filters for operating system and version.
 
 The Cross-application overview also has filters for channel, application, and role.
 
-\[Omitted image "uxa-cross-app-filters.png"\] Alt text: Default filters for the All Applications view in User Experience Analytics
+\[Omitted image "uxa-cross-app-filters.png"\] Alt text: Default filters for the All Applications view in Usage Insights
 
 ## Additional filters
 

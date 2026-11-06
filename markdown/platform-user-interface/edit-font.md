@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/edit-font.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [edit font, theme builder, default font, font]
 breadcrumb: [Global styles, Manage or edit a theme, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
@@ -17,7 +17,9 @@ Edit your default font family and choose from the predefined options in Theme Bu
 
 ## Before you begin
 
-Role required: admin
+Role required: ui\_builder\_admin
+
+For information on granular roles, see .
 
 ## Procedure
 
@@ -29,7 +31,7 @@ Role required: admin
 
     \[Omitted image "tb-editor-page-list.png"\] Alt text: Page drop-down list with Editor selected.
 
-3.  From the Theme drop-down list, select the theme that you want to edit.
+3.  From the Theme drop-down list located in the header bar, select the theme that you want to edit.
 
     The **Global styles** tab opens automatically with the Overview panel displayed.
 
@@ -39,17 +41,17 @@ Role required: admin
 
     \[Omitted image "tb-overview-typography.png"\] Alt text: Overview panel with Typography section.
 
-    **Note:** You can also change the font directly from the Typography panel.
-
-    \[Omitted image "tb-typography-panel.png"\] Alt text: Global styles Typography panel.
-
 5.  Select a new font from the list of fonts.
 
     \[Omitted image "tb-pick-default-font-modal.png"\] Alt text: Pick a default font modal with Open Sans selected.
 
-    **Note:** Use the preview pane within the modal to view the font face variations of each font. Your uploaded custom fonts also appear as selectable options in the modal.
+    **Note:** Use the preview pane within the modal to view the font face variations of each font. If you have uploaded any custom fonts, they will appear as selectable options in the modal.
 
 6.  Select **Save**.
+
+7.  Use the **Abstract UI** or **Experience** preview tabs on the main stage to view how your new font appears globally throughout your theme.
+
+    Depending on their size, custom fonts can inadvertently adjust the amount of text on the page. Test and preview your fonts before publishing your theme to your instance.
 
 
 ## Result

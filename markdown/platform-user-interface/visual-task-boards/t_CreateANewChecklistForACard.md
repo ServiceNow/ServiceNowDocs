@@ -7,9 +7,9 @@ release: zurich
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [VTB checklists, Use, Visual Task Boards, Personalize your experience, Configure user experiences]
+breadcrumb: [Visual Task Board checklists, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Create a checklist for a Visual Task Board card

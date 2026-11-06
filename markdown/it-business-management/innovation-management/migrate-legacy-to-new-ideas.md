@@ -1,20 +1,20 @@
 ---
 title: Migrating from the legacy Ideas application to Idea Portal
-description: If you're upgrading to the Zurich release, complete the migration tasks after the upgrade to start using the new Idea Portal.
+description: If you are upgrading to the Brazil release, complete the migration tasks after the upgrade to start using the new Idea Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/innovation-management/migrate-legacy-to-new-ideas.html
 release: zurich
 product: Innovation Management
 classification: innovation-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure, Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Configuring Innovation Management, Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Migrating from the legacy Ideas application to Idea Portal
 
-If you're upgrading to the Zurich release, complete the migration tasks after the upgrade to start using the new Idea Portal.
+If you are upgrading to the Brazil release, complete the migration tasks after the upgrade to start using the new Idea Portal.
 
 Review the following information and make any necessary changes to your configuration:
 
@@ -50,7 +50,7 @@ The new Idea Portal provides new idea states such as Completed, Under Review, an
 |Duplicate|8|
 |Already Exists|9|
 
-Starting with the Zurich release, idea states are stored in and retrieved from the Idea \[im\_idea\_core\] table. You can continue to use your existing idea states along with the new idea states. However, if you want to use only these new states for managing your ideas, navigate to the Choice \[sys\_choice\] table and delete the old idea states.
+Starting with the Brazil release, idea states are stored in and retrieved from the Idea \[im\_idea\_core\] table. You can continue to use your existing idea states along with the new idea states. However, if you want to use only these new states for managing your ideas, navigate to the Choice \[sys\_choice\] table and delete the old idea states.
 
 ## Idea categories
 
@@ -62,11 +62,11 @@ If your ideas are already associated with categories and you want to use the new
 
 ## Converting ideas to demands or project, stories, initiatives, and epics
 
-You can convert an idea into work entities other than demands. The **Create Task** button enables you to convert an idea into a project, epic, or story and a demand is set to available in the Idea form.
+You can convert an idea into work entities other than demands. The **Create Task** button enables you to convert an idea into a project, epic, or story as well as a demand becomes available in the Idea form.
 
 You must have the required Agile plugins Agile Development 2.0 and Scaled Agile Framework \(SAFe\) and Continual Improvement Management installed to view these options.
 
-To allow conversion of ideas only to a demand, disable the **Create Task** button and continue using the **Accept** button or disable the **Accept** and **Defer** buttons to use other options. For more information see, [Using the form designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_FormDesign.md).
+If you want to allow conversion of ideas only to a demand, disable the **Create Task** button and continue using the **Accept** button or disable the **Accept** and **Defer** buttons to use other options. For more information see, [Using the form designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_FormDesign.md).
 
 ## Business rules
 
@@ -74,7 +74,7 @@ Review the existing business rules in the idea table. Set the business rules tha
 
 ## Navigation for legacy Idea application
 
-To encourage your users to submit ideas through the new Idea Portal, remove navigation for old Idea application from the application menu. Also deactivate the Submit an Idea option from the Service Catalog. For more information see, [Enable or disable an application menu or module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/t_EnDisableAppMenuOrMod.md).
+To encourage your users to submit ideas through the new Idea Portal, remove navigation for old Idea application from the application menu and deactivate the Submit an Idea option from the Service Catalog. For more information see, [Enable or disable an application menu or module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/t_EnDisableAppMenuOrMod.md).
 
 **Parent Topic:**[Configuring Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/innovation-management/configuring-innovation-management.md)
 

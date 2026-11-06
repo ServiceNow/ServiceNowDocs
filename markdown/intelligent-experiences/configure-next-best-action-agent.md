@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/configure-next-best-action-agent.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Agentic AI, ACLs in AI agents]
-breadcrumb: [AI Agent Studio, Enable AI experiences]
+breadcrumb: [AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Create an AI agent
@@ -47,7 +47,7 @@ An AI agent can collaborate with other agents to achieve better results by using
 
 4.  [Define the AI agent security controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/define-sec-controls-aia.md).
 
-5.  [Add a trigger to automatically invoke your AI agent if a specified event occurs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/add-trigger-aia.md).
+5.  [Add a trigger to automatically invoke your AI agent if a specified event occurs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/add-trigger-aia.md).
 
     If you want your AI agent to be used only in chats, you don’t need to add a trigger.
 

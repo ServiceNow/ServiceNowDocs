@@ -1,0 +1,54 @@
+---
+title: AWS Domain Separation
+description: Domain separation is supported for AWS Security Hub application. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/aws-domain-separation.html
+release: zurich
+product: Security Incident Response
+classification: security-incident-response
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Amazon Web Services \(AWS\) Security Hub integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
+---
+
+# AWS Domain Separation
+
+Domain separation is supported for AWS Security Hub application. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+
+## Support level: Basic
+
+
+
+-   Business logic: Ensure that data goes into the proper domain for the application’s service provider use cases.
+-   The application supports domain separation at run time. The domain separation includes separation from the user interface, cache keys, reporting, rollups, and aggregations.
+-   The owner of the instance must set up the application to function across multiple tenants.
+
+Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
+
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/domain-separated-apps.md).
+
+## How domain separation works in AWS Security Hub
+
+The AWS Security Hub integration with ServiceNow Security Incident Response \(SIR\) supports domain separation, enabling you to route AWS Security Hub findings into the appropriate domain-scoped security incidents.
+
+Follow these steps to achieve domain separation:
+
+-   Create a user with the sn\_si.admin role in the respective domain.
+
+    **Note:** When you create the profile, use the domain picker to select a domain. Do not create the user in the parent domain and later change the domain of the profile. You should have a user for each domain for your profile with the sn\_si.admin role. Use this user to create or modify settings in the profile.
+
+-   Disable existing scheduled jobs.
+-   Replicate the following scheduled jobs for every domain:
+    -   AWS SecurityHub Process Raw Data
+    -   AWS SecurityHub Profile Process
+    -   AWS SecurityHub AdditionalOptions Sync
+    -   AWS SecurityHub Bidirectional Attributes Sync
+    -   AWS SecurityHub Fields Import Queue Process
+
+## Use Case
+
+The following example shows how to replicate the AWS Security Hub comments and Status update job and run the job as a system user.
+
+\[Omitted image "aws-domain-sep.png"\] Alt text: AWS Domain Separation
+

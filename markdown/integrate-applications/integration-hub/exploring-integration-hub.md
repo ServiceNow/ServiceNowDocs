@@ -1,20 +1,20 @@
 ---
 title: Exploring Integration Hub
-description: ServiceNow Integration Hub enables you to build reusable integrations with third-party systems and call them from anywhere in the ServiceNow AI Platform. For example, you can request Integration Hub to call external systems using integration APIs from the Action Designer Script step, run the Script step on the ServiceNow MID Server, and activate protocol steps like REST, SOAP, and PowerShell.
+description: ServiceNow Integration Hub enables you to build reusable integrations with third-party systems and call them from anywhere in the ServiceNow AI Platform. For example, you can call external systems using integration APIs from the Action Designer Script step or run the Script step on the ServiceNow MID Server. You can also activate protocol steps such as REST, SOAP, and PowerShell.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/exploring-integration-hub.html
 release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Integration Hub, Workflow Data Fabric]
 ---
 
 # Exploring Integration Hub
 
-ServiceNow® Integration Hub enables you to build reusable integrations with third-party systems and call them from anywhere in the ServiceNow AI Platform. For example, you can request Integration Hub to call external systems using integration APIs from the Action Designer Script step, run the Script step on the ServiceNow® MID Server, and activate protocol steps like REST, SOAP, and PowerShell.
+ServiceNow® Integration Hub enables you to build reusable integrations with third-party systems and call them from anywhere in the ServiceNow AI Platform. For example, you can call external systems using integration APIs from the Action Designer Script step or run the Script step on the ServiceNow® MID Server. You can also activate protocol steps such as REST, SOAP, and PowerShell.
 
 ## Inbound and outbound integration
 

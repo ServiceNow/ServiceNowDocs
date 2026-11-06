@@ -7,7 +7,7 @@ release: zurich
 product: Financial Services Deposit Operations
 classification: financial-services-deposit-operations
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Deposit Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -32,7 +32,7 @@ The following predefined workflows for business and personal deposit account ser
 | |Remove financial account relationship|
 | |Modify financial account relationship|
 
-These workflows are built using [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/process-automation-designer.md) and [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/flow-designer-home-landing-page.md). The deposit admin can review and customize these workflows according to the needs of their organization.
+These workflows are built using [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/process-automation-designer.md) and [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/flow-designer.md). The deposit admin can review and customize these workflows according to the needs of their organization.
 
 ## General workflow for Deposit Operations
 

@@ -7,10 +7,9 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-01-08"
-reading_time_minutes: 1
-keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Search administration, Configure core features, Administer]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # AI Search
@@ -47,10 +46,18 @@ Watch this short video to see how users can find answers using AI Search.
 
 [Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details on AI Search system properties and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/reference-ais.md)
 
+</td></tr><tr><td>
+
+[AI Search Admin console \[Omitted image "bus-gender-neutral-leader-c-suite.svg"\] Alt text:Configure, test, and activate AI Search solutions across different types of search applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/search-administration/ais-admin-console.md)
+
+</td><td>
+
+[Advanced AI Search Management Tools \[Omitted image "bus-it-leader.svg"\] Alt text:Analyze trends for search query traffic, review indexed record counts and configuration settings, and preview search query results.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/search-administration/adv-ais-mgmt-tools-content-pack.md)
+
+</td><td>
+
+[External Content Connectors \[Omitted image "bus-service-aware-cmdb.svg"\] Alt text:Search content and metadata from supported external source systems.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/search-administration/ext-cont-connectors-landing-page.md)
+
 </td></tr></tbody>
 </table>**Note:** AI Search isn't available in personal developer instances \(PDIs\).
-
-## Extend AI Search with apps from the ServiceNow® Store
-
-Analyze trends for search query traffic, review indexed record counts and configuration settings, and preview search query results with [Advanced AI Search Management Tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/adv-ais-mgmt-tools-content-pack.md).
 

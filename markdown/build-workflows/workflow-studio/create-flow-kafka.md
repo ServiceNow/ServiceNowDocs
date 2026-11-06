@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Create a flow, Building flows, Use, Workflow Studio, Build workflows]
+breadcrumb: [Create a flow, Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Create a flow with a Kafka Message trigger
@@ -48,11 +48,11 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Topic
+Topic Alias
 
 </td><td>
 
-Reference to the topic to monitor for messages.
+Reference to the topic alias for the topic to monitor for messages.A topic alias is a unique topic name that can be connected to any underlying Hermes or Direct Kafka topic.
 
 </td></tr><tr><td>
 
@@ -61,7 +61,7 @@ Serialization format
 </td><td>
 
 The serialization format for the message. Select one of the following. -   **Plain Text**: Select this option for any plain-text messages. This is the default format.
--   **Encoded**: Select this option for messages in an Apache Avro format. Converting plain-text messages to an Avro format requires a schema. Select the schema registry in the **Schema registry** field. For information on schemas, see .
+-   **Encoded**: Select this option for messages in an Apache Avro format. Converting plain-text messages to an Avro format requires a schema. Select the schema registry in the **Schema registry** field. For information on schemas, see [Schema management in Stream Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/schema-management.md).
 
 
 </td></tr><tr><td>

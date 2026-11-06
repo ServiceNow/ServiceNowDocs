@@ -1,18 +1,18 @@
 ---
 title: Create cryptographic module for Column Level Encryption
-description: Create a Column Level Encryption cryptographic module to define the mechanisms used for cryptographic operations.
+description: Create a Field Encryption cryptographic module to define the mechanisms used for cryptographic operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/create-PE-cryptographic-module-2.html
 release: zurich
 topic_type: task
-last_updated: "2026-02-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Column Level Encryption, Column Level Encryption, Encryption]
 ---
 
 # Create cryptographic module for Column Level Encryption
 
-Create a Column Level Encryption cryptographic module to define the mechanisms used for cryptographic operations.
+Create a Field Encryption cryptographic module to define the mechanisms used for cryptographic operations.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ This procedure describes options that are available with Column Level Encryption
 
 1.  Navigate to **All** &gt; **System Security** &gt; **Field Encryption Modules** &gt; **New**.
 
-    \[Omitted image "parent-crypto-module.png"\] Alt text: Shows new crypto module form for Column Level Encryption Enterprise.
+    \[Omitted image "parent\_cryp\_module\_field.png"\] Alt text: Shows new crypto module form for Column Level Encryption Enterprise.
 
 2.  On the form, fill in the fields.
 
@@ -49,7 +49,7 @@ This procedure describes options that are available with Column Level Encryption
 
         If you're using the non-enterprise version of Column Level Encryption, you're limited to five fields. If you've exceeded this limit, you receive the following warning:
 
-        This insertion exceeds the number of published fields limit for Column Level Encryption  entitled with the Subscription Product. The Enterprise subscription for Column Level Encryption is required for additional ields. Please reach out to your Account team.
+        This insertion exceeds the number of published fields limit for Column Level Encryption  entitled with the Subscription Product. The Enterprise subscription for Column Level Encryption is required for additional fields. Please reach out to your Account team.
 
     A default cryptographic specification is created with the crypto purpose set to Symmetric Data Encryption/Decryption and the algorithm as AES 256 CBC. Select the algorithm for updates.
 

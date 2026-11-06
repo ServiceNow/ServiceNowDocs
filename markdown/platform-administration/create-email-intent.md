@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/create-email-intent.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure email agentic workflows, Use agentic workflows in emails, Now Assist in Notifications, Configure core features, Administer]
+breadcrumb: [Configure email agentic workflows, Use agentic workflows in emails, Notification agent and agentic workflows in Notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create email intents
@@ -45,6 +45,4 @@ Follow the [General guidelines for creating and mapping an intent](https://raw.g
 ## What to do next
 
 [Create and associate actions for intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/create-actions-for-intent.md)
-
-**Parent Topic:**[Configure email agentic workflows in Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/configuring-agentic-workflows-in-notifications.md)
 

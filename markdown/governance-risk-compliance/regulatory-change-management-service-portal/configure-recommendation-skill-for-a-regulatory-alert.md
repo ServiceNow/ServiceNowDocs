@@ -7,7 +7,7 @@ release: zurich
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Now Assist, generative AI, GenAI, ServiceNow AI Platform]
 breadcrumb: [AI-generated recommendations for a regulatory alert skill, AI in Regulatory Change Management, Regulatory Change Management, Governance, Risk, and Compliance]
@@ -120,15 +120,15 @@ Template used for this skill.
 </td></tr></tbody>
 </table>5.  Define the user roles that can access the skill by selecting **Define access** and specifying a User access option.
 
-<table id="choicetable_mvq_4wl_tgc"><thead><tr><th align="left" id="d35233e342">
+<table id="choicetable_mvq_4wl_tgc"><thead><tr><th align="left" id="d233768e342">
 
 Option
 
-</th><th align="left" id="d35233e345">
+</th><th align="left" id="d233768e345">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d35233e351">
+</th></tr></thead><tbody><tr><td id="d233768e351">
 
 **Any authenticated user**
 
@@ -136,7 +136,7 @@ Description
 
 Any user that has successfully logged in can access this skill.
 
-</td></tr><tr><td id="d35233e360">
+</td></tr><tr><td id="d233768e360">
 
 **Select Roles**
 

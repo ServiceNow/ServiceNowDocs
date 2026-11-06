@@ -7,7 +7,7 @@ release: zurich
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\), Integrate, Operational Technology Manager, Operational Technology]
 ---
@@ -34,7 +34,7 @@ Role required: admin
 
 1.  Ensure that the application scope is set to the Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\) application by using the application picker.
 
-    For more information, see .
+    For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/c_ApplicationPicker.md).
 
 2.  Navigate to **All** &gt; **Service Graph Connector Microsoft D4IoT** &gt; **Guided Setup**.
 

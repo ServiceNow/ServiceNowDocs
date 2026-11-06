@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/t\_OverrideOrRmvAUIActionForExtTbl.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [UI actions, Administer, Form administration, Forms, fields, and lists, Configure core features, Administer]
+breadcrumb: [UI actions, Administer, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Override a UI action for an extended table

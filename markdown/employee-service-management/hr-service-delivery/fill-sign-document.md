@@ -7,9 +7,9 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working on a document task, Use, Document Templates, HR Documents, HR Service Delivery, Employee Service Management]
+breadcrumb: [Working on a document task, Using Document Templates, Document Templates, HR Documents, HR Service Delivery, Employee Service Management]
 ---
 
 # Fill and sign a PDF document
@@ -19,7 +19,7 @@ Complete your document task by filling in the required details and submitting th
 ## Before you begin
 
 -   Role required: none
--   This content applies only to the document templates that are created in the Document Templates application \(sn\_doc\). Document Templates is different from HR Document Templates. For HR Document Templates, refer to [HR document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_HRDocumentTemplates.md).
+-   This content applies only to the document templates that are created in the Document Templates application \(sn\_doc\). Document Templates is different from HR Document Templates.
 
 ## Procedure
 

@@ -7,7 +7,7 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use AI agent or agentic workflows, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -20,7 +20,7 @@ Use the Monitor project tasks agentic workflow to autonomously generate a projec
 
 The Monitor project tasks agentic workflow can help to trigger a project insights email and provide real-time visibility into key project updates. Use the project insights generation skill to generate a project summary and send it as an email to the project managers.
 
-This proactive monitoring and alert system saves time and effort for project managers, ensuring that they can respond promptly to keep project schedules on track. By leveraging these AI agents, project managers can optimize their operations and enhance the overall project efficiency.
+This proactive monitoring and alert system saves time and effort for project managers, ensuring that they can respond promptly to keep project schedules on track. By using these AI agents, project managers can optimize their operations and enhance the overall project efficiency.
 
 The email summary includes the following sections:
 
@@ -37,14 +37,14 @@ If you want to change this agentic workflow, you can [duplicate it](https://raw.
 
 ## Monitor project tasks agentic workflow
 
-Autonomously generate a project insights email using AI agents. To use Monitor project tasks, make sure that the project insights generation skill is active. For more information on how to activate the skill, see [Configure Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/configuring-na-spm.md).
+Autonomously generate a project insights email using AI agents. To use Monitor project tasks, make sure that the project insights generation skill is active. For more information on how to activate the skill, see [Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/configuring-na-spm.md).
 
 To access the Monitor project tasks agentic workflow:
 
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 2.  Select **Monitor project tasks**.
 
-To configure the Monitor project tasks agentic workflow and associated AI agents, see [Configure the Monitor project tasks AI agent in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/configure-agents-project-task-monitoring.md).
+To configure the Monitor project tasks agentic workflow and associated AI agents, see [Configure the Monitor project tasks AI agent in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/configure-agents-project-task-monitoring.md).
 
 ## AI agents used in the Monitor project tasks agentic workflow
 
@@ -57,7 +57,7 @@ The following AI agents are used for the Monitor project tasks agentic workflow:
 
 For more information on other agentic workflow that are associated with the Platform workflow, see [Platform agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-use-cases.md).
 
-**Parent Topic:**[Use AI agent or agentic workflows in ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-na-spm-ai-agents.md)
+**Parent Topic:**[Use AI agent or agentic workflows in ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/using-na-spm-ai-agents.md)
 
 **Related topics**  
 

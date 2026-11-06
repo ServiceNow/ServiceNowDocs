@@ -1,20 +1,20 @@
 ---
 title: Discovery properties
-description: Discovery properties allow you to control several aspects of the horizontal discovery process.
+description: Discovery properties enable you to control several aspects of the horizontal discovery process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/r\_DiscoveryProperties.html
 release: zurich
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 29
+last_updated: "2026-09-10"
+reading_time_minutes: 30
 breadcrumb: [Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Discovery properties
 
-Discovery properties allow you to control several aspects of the horizontal discovery process.
+Discovery properties enable you to control several aspects of the horizontal discovery process.
 
 For information about the Discovery properties that Agent Client Collector uses, see [Using push-based and horizontal IP-based Discovery together](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/using-enhanced-discovery-and-agent-less-discovery-together.md).
 
@@ -121,7 +121,7 @@ glide.discovery.physical\_interface\_types
 </td><td>
 
 Physical interface types: A comma-separated list of interface types that are considered physical for the purposes of network discovery. If a router \(or device capable of routing\) has an interface of this type, the networks connected to that interface are considered locally connected to that device. The default interface types include Ethernet, 802.11, and Token Ring types. Interface type numbers are defined in the SNMP MIB-2, specifically in OID 1.3.6.1.2.1.2.2.1.3.-   Type: string
--   Default value 6,117,9,71,209
+-   Default value: 6,117,9,71,209
 
 </td></tr><tr><td>
 
@@ -151,6 +151,16 @@ com.snc.use\_external\_credentials
 
 Allows the use of external storage of credentials.-   Type: true \| false
 -   Default value: true
+
+</td></tr><tr><td>
+
+com.glide.codesigning.tracking.unsupported\_script\_tracking.enabled
+
+</td><td>
+
+Controls script tracking for code signing on Cloud Discovery. When set to true and code signing is enabled, ECC queue records inserted through unsupported scripts are not notarized, which can cause Cloud Discovery operations to fail. Set this property to **false** to enable Cloud Discovery on code-signed instances.-   Type: true \| false
+-   Default value: true
+-   Learn more: [Configure Cloud Discovery for code-signed instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/config-cloud-disco-code-sign.md)
 
 </td></tr><tr><td>
 
@@ -451,7 +461,7 @@ glide.discovery.enable\_mac\_address\_verification
 
 </td><td>
 
-Enables MAC address verification to determine if a device has changed its IP address during a discovery. If set to **true**, Discovery passes the MAC address of a device being discovered to the MID Server. Probes can then determine if the IP address has changed while Discovery is running. If the device has changed IP addresses, then Discovery stops processing that IP address and updates the Discovery log with a warning message. Discovery doesn’t stop processing other IP addresses.
+Enables MAC address verification to determine if a device has changed its IP address during a discovery. If set to **true**, Discovery passes the MAC address of a device to the MID Server. Probes use this to determine whether the IP address changed during discovery. If the device has changed IP addresses, then Discovery stops processing that IP address and updates the Discovery log with a warning message. Discovery doesn’t stop processing other IP addresses.
 
  -   Type: true \| false
 -   Default value: false
@@ -600,7 +610,7 @@ glide.discovery.hostname.snmp\_trusted
 </td><td>
 
 SNMP is trusted host name source: If set to **true**, trust the device name discovered via SNMP. If checked, any device name found via SNMP is used instead of the name found by a reverse DNS lookup. -   Type: true \| false
--   Default value: false \(For new Discovery customers starting in Zurich, default value is true.\)
+-   Default value: false \(For new Discovery customers starting in Brazil, default value is true.\)
 
 </td></tr><tr><td>
 
@@ -611,7 +621,7 @@ glide.discovery.hostname.ssh\_trusted
 SSH is trusted host name source: If set to **true**, trust the device name discovered via SSH. If checked, any device name found via SSH is used instead of the name found by a reverse DNS lookup.**Note:** For Linux, AIX, and Solaris patterns, do not use the DNS name as the host name.
 
 -   Type: true \| false
--   Default value: false \(For new Discovery customers starting in Zurich, default value is true.\)
+-   Default value: false \(For new Discovery customers starting in Brazil, default value is true.\)
 
 </td></tr><tr><td>
 
@@ -620,7 +630,7 @@ glide.discovery.hostname.wmi\_trusted
 </td><td>
 
 WMI is trusted host name source: If set to **true**, trust the device name discovered via WMI. If checked, any device name found via WMI is used instead of the name found by a reverse DNS lookup.-   Type: true \| false
--   Default value: false \(For new Discovery customers starting in Zurich, default value is true.\)
+-   Default value: false \(For new Discovery customers starting in Brazil, default value is true.\)
 
 </td></tr><tr><td>
 
@@ -642,7 +652,7 @@ IP service affinity: If set to **true**, IP service affinity is enabled. IP serv
  **Note:** You must enable ip\_service\_affinity records if you’re using multiple SSH ports.
 
  -   Type: true \| false
--   Default value: false \(For new Discovery customers starting in Zurich, default value is true.\)
+-   Default value: false \(For new Discovery customers starting in Brazil, default value is true.\)
 -   Learn More: [Check IP service affinity for Discovery and Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/t_CheckIPServiceAffinity.md)
 
 </td></tr><tr><td>
@@ -654,6 +664,15 @@ glide.discovery.L3\_mapping
 Map servers and network devices to routers and layer-3 switches If the "L3 mapping" property is enabled, it maps servers and network gears to its associated routers and layer-3 switches.-   Type: true \| false
 -   Default value: true
 -   Learn More: [Network discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/c_NetworkDiscovery.md)
+
+</td></tr><tr><td>
+
+glide.discovery.log\_debug
+
+</td><td>
+
+Controls debug logging for Discovery. When set to **false** \(default\), Discovery debug statements aren't logged. Setting the property to **true** enables debug logging for Discovery, allowing detailed debug statements to be written to the logs.-   Type: true \| false
+-   Default value: false
 
 </td></tr><tr><td>
 
@@ -915,7 +934,7 @@ glide.discovery.shazzam\_simplify\_ranges
 
 </td><td>
 
-If set to **true**, Shazzam detects if an IP is included in multiple ranges of the same Discovery schedule and removes the duplicate IP from all but one range. Deduplication is limited to schedules with a single behavior. Schedules with multiple behaviors work, but duplicate IPs aren’t removed.
+If set to **true**, Shazzam detects IPs included in multiple ranges of the same Discovery schedule and removes duplicates from all but one range. Deduplication is limited to schedules with a single behavior. Schedules with multiple behaviors work, but duplicate IPs aren’t removed.
 
  -   Type: true \| false
 -   Default value: true
@@ -1059,8 +1078,32 @@ sn\_disco\_certmgmt.enable\_csr\_generation
 
 </td><td>
 
-Enables automatic CSR generation on the Certificate Inventory and Management **Request New Certificate** and **Request New Ceriticate \(Automated\)** forms. This feature is disabled by default for security.-   Type: true \| false
+Enables automatic CSR generation on the Certificate Inventory and Management **Request New Certificate** and **Request New Ceriticate \(Automated\)** forms. This property also controls whether the PKCS12 certificate format is available, because a PKCS\#12 key store requires a private key that is generated with the CSR. This feature is disabled by default for security.-   Type: true \| false
 -   Default value: false
+
+</td></tr><tr><td>
+
+sn\_disco\_certmgmt.find\_and\_attach\_root\_certificate
+
+</td><td>
+
+Certificate Inventory and Management Finds the root certificate by its subject common name and links it to the certificate chain during discovery. This happens only when the root certificate is already in the CMDB. If no root is found, nothing is linked. Use this property when discovery retrieves only the server certificate, for example, when access to the root and intermediate certificates is restricted. When this property is enabled, discovery searches the certificates that are already in the CMDB for the root certificate of the discovered certificate and links it.
+
+ -   Type: true \| false
+-   Default value: false
+
+</td></tr><tr><td>
+
+sn\_disco\_certmgmt.mark\_self\_signed\_for\_incomplete\_chain
+
+</td><td>
+
+Certificate Inventory and Management When discovery captures an incomplete certificate chain, sets the last captured certificate as its own root issuer and issuer. For example, this happens for a server certificate discovered without its root and intermediate certificates.
+
+ This doesn't change the certificate's Is self-signed value. Set the value of the property to false to turn this behavior off. This property isn't available in the base system. To change its value, create the property in the System Property \[sys\_properties\] table.
+
+ -   Type: true \| false
+-   Default value: true \(if the property doesn't exist\)
 
 </td></tr><tr><td>
 
@@ -1151,8 +1194,17 @@ sn\_disco\_workspace.enable\_auto\_create\_schedules
 
 </td><td>
 
-Discovery Admin Workspace: Enables automatic creation and management of Discovery schedules based on IPv6 network infrastructure data in IPAM. When set to **true**, Discovery uses your IPAM data to generate schedules that target IPv6 networks without requiring manual schedule configuration.-   Type: true \| false
+Discovery Admin Workspace: Enables automatic creation and management of Discovery schedules based on IPv6 network infrastructure data in IPAM. When set to **true**, Discovery uses your IPAM data to generate schedules that target IPv4 and IPv6 networks without requiring manual schedule configuration.-   Type: true \| false
 -   Default value: false
+
+</td></tr><tr><td>
+
+sn\_disco\_workspace.enable\_error\_framework
+
+</td><td>
+
+Discovery Admin Workspace: Controls whether the Error Framework is active for Discovery. When set to **true**, Discovery uses the Error Framework to capture and display errors in Discovery Admin Workspace. When set to **false**, Discovery uses the legacy Diagnostics experience.-   Type: true \| false
+-   Default value: true
 
 </td></tr><tr><td>
 

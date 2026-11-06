@@ -7,9 +7,9 @@ release: zurich
 product: Contextual Search
 classification: contextual-search
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Feedback information on contextual search, Manage, Contextual search, Search administration, Configure core features, Administer]
+breadcrumb: [Feedback information on contextual search, Managing contextual search, Contextual search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Run a report on contextual search usage

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_SearchForInfoUsingThe-businessPortal.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Business Portal, Customer communication, Use, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Use Business Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Search for information using Business Portal
@@ -17,10 +17,6 @@ Use the search feature on the business portal header and home page to find infor
 ## Before you begin
 
 Role required: sn\_customerservice.customer, sn\_customerservice.customer\_admin, sn\_customerservice.partner, or sn\_customerservice.partner\_admin
-
-## About this task
-
-The portal has a search feature that you can use to search for information across several repositories. You can use the search feature on the home page or on the business portal header.
 
 ## Procedure
 
@@ -34,6 +30,13 @@ The portal has a search feature that you can use to search for information acros
 
 4.  Select a link to view an article.
 
+
+**Related topics**  
+
+
+[Search the knowledge base on Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_SearchForInfoUsingThe-businessPortal.md)
+
+[View common questions \(FAQs\) on Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/view-faqs-business-portal.md)
 
 ## Search the knowledge base on Business Portal
 
@@ -60,7 +63,7 @@ The business portal includes a link to the knowledge base that you can use to se
     -   Most viewed
 3.  Do one of the following,
 
-<table id="choicetable_fs5_krt_vr"><tbody><tr><td id="d288176e215">
+<table id="choicetable_fs5_krt_vr"><tbody><tr><td id="d326141e234">
 
 **Click a product to display more specific information**
 
@@ -68,7 +71,7 @@ The business portal includes a link to the knowledge base that you can use to se
 
 Displays a list of categories on the left and articles on the right. Select a category to drill down even further.
 
-</td></tr><tr><td id="d288176e224">
+</td></tr><tr><td id="d326141e243">
 
 **Click a link from one of the lists**
 
@@ -76,7 +79,7 @@ Displays a list of categories on the left and articles on the right. Select a ca
 
 Displays the article.
 
-</td></tr><tr><td id="d288176e233">
+</td></tr><tr><td id="d326141e252">
 
 **Type a topic in the __Search__ field and press the Enter key**
 
@@ -86,3 +89,10 @@ Displays a list of related articles. Select a link to display the desired articl
 
 </td></tr></tbody>
 </table>
+**Related topics**  
+
+
+[Search for information using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_SearchForInfoUsingThe-businessPortal.md)
+
+[Deflect cases with knowledge content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/provide-knowledge-community-sp-case-business-portal.md)
+

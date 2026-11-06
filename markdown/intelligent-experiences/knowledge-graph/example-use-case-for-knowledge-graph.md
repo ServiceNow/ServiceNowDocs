@@ -7,9 +7,11 @@ release: zurich
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Exploring Knowledge Graph, Knowledge Graph, Enable AI experiences]
+keywords: [Knowledge Graph, slot filling, natural language query, user context, personalized responses, permission-aware responses, people citation, Knowledge Graph schema, LLM topics, conversational catalog, user profile schema, enterprise data]
+audience: administrator
+breadcrumb: [Exploring Knowledge Graph, Knowledge Graph, Managing data for AI, Enable AI Experiences]
 ---
 
 # Knowledge Graph integration with ServiceNow Otto for Virtual Agent and ServiceNow Otto panel
@@ -18,22 +20,22 @@ Knowledge Graph integrates with ServiceNow® Otto for Virtual Agent and ServiceN
 
 In this release, the available prebuilt integrations with ServiceNow® Otto for Virtual Agent and ServiceNow Otto® panel are:
 
-1.  Integration with Now Assist for User Context: Helps requesters and fulfillers with personalized responses.
-2.  Integration with Now Assist for Slot filling: Helps requesters and fulfillers in pre-filling the slots for LLM topics and skills execution using Natural Language Querying of Knowledge Graph.
-3.  Integration with Now Assist for Natural Language Query graph: Helps requesters and fulfillers with personalized responses on people queries and Natural Language queries. Also supports people citation card.
+-   Integration with ServiceNow Otto® for Slot filling: Helps requester and fulfiller in pre-filling the slots for LLM topics and skills execution using Natural Language Querying of Knowledge Graph.
+-   Integration with ServiceNow Otto® for User Context: Helps requester and fulfiller with personalized responses.
+-   Integration with ServiceNow Otto® for Natural Language Query graph: Helps requester and fulfiller with personalized responses on people queries and Natural Language queries. Also supports people citation card.
 
 **Note:**
 
--   To enable Knowledge Graph for Virtual Agent, ensure that **sn\_vad\_genai.knowledge\_graph.enabled** and **sn\_ais\_assist.enable\_knowledge\_graph\_nlq** system properties are set to true. See [Add a Knowledge Graph schema to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/add-kg-schema-assistant.md).
+-   To enable Knowledge Graph for ServiceNow® Otto for Virtual Agent, ensure that **sn\_vad\_genai.knowledge\_graph.enabled** and **sn\_ais\_assist.enable\_knowledge\_graph\_nlq** system properties are set to true. See [Add a Knowledge Graph schema to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/add-kg-schema-assistant.md)
 -   To enable Knowledge Graph for external users, with user role `snc_external`, verify if the **sn\_kg.enable\_external\_user\_check** property is set to true.
 
 For more information see [Add a Knowledge Graph schema to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/add-kg-schema-assistant.md).
 
 **Note:**
 
--   To enable Knowledge Graph functionality in the Now Assist Virtual Agent and conversational catalog, make sure to fill the Slot Filling Schema.
--   To use Knowledge Graph for Question Answering from VA, fill out the Natural Language Query Schema in the Now Assist Panel.
--   You can only have one active Knowledge Graph schema at a time for either Slot Filling or Natural Language Query. Multiple active Knowledge Graph schemas are not supported.
+-   To enable Knowledge Graph functionality in the ServiceNow® Otto for Virtual Agent and conversational catalog, make sure to fill the Slot Filling Schema.
+-   To use Knowledge Graph for Question Answering from VA, fill out the Natural Language Query Schema in the ServiceNow Otto® panel.
+-   You can only have one active Knowledge Graph schema at a time for either Slot Filling or Natural Language Query. Multiple active Knowledge Graph schemas aren't supported.
 
 ## Integration with ServiceNow Otto® for User Context
 

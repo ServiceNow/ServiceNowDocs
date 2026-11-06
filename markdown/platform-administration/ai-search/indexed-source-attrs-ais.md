@@ -7,9 +7,9 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2025-12-12"
-reading_time_minutes: 4
-breadcrumb: [Indexed source attributes, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Indexed source attributes, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # List of AI Search indexed source attributes
@@ -46,6 +46,25 @@ Control indexing behavior for attachments from indexed records. Supported values
 -   **false**: Disable indexing of attachments for records on this table.
 
 Default value: **true**
+
+If you change the value of this attribute for an indexed source, the change doesn't take effect until you reindex content from the indexed source. For reindexing steps, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/index-single-source-ais.md).
+
+</td></tr><tr><td>
+
+index\_mms\_attachments
+
+</td><td>
+
+Control multimodal generation of searchable descriptive captions for images, tables, charts, and other visual elements found in attachments on records from this table.To learn more about multimodal caption generation, see [Activate multimodal captioning for attachments from an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/activate-multimodal-captioning.md).
+
+Supported values:
+
+-   **true**: Activate multimodal captioning for attachments on records from this table.
+-   **false**: Deactivate multimodal captioning for attachments on records from this table.
+
+Default value: **true**
+
+This attribute has no effect if **index\_attachments** is set to **false** for the indexed source.
 
 If you change the value of this attribute for an indexed source, the change doesn't take effect until you reindex content from the indexed source. For reindexing steps, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/index-single-source-ais.md).
 

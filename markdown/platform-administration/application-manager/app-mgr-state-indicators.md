@@ -7,9 +7,9 @@ release: zurich
 product: Application Manager
 classification: application-manager
 topic_type: reference
-last_updated: "2025-09-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Reference, Application Manager, Administering applications, Get started, Administer]
+breadcrumb: [Reference, Application Manager, Administering applications, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Application state indicators in Application Manager
@@ -90,7 +90,7 @@ This application has custom terms and conditions that haven't been accepted yet.
 
 </td><td>
 
-Accept the application's custom terms and conditions on the ServiceNow Store to enable installation. For more information, see [Get a free application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/get-free-app.md).
+Accept the application's custom terms and conditions on the ServiceNow Store to enable installation. For more information, see [Get a free application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/store-get-free-app.md).
 
 </td></tr><tr><td>
 

@@ -7,10 +7,10 @@ release: zurich
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [creator studio, servicenow creator studio, creator studio srvicenow, creatorstudio, creator studio app, creater studio, cretor studio, creter studio, servicenow customization, studio creator, no code, no-code, request app, citizen development, delegated development, delegate development, request app, request fulfill app, fulfllment app, fulfillment, visual development, build no code apps, building apps]
-breadcrumb: [Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Building apps with Creator Studio
@@ -32,7 +32,7 @@ When finished, your app will look like a catalog of items that people can reques
 
     A form describes one item in the catalog and provides space for questions that a requester will answer to specify details about what they want, such as the model number of a laptop. If your catalog needs multiple items, you can create multiple forms.
 
-    **Note:** You can create a form using Now Assist. To learn more, see [Generating forms with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-text-to-form.md).
+    **Note:** You can create a form using AI. To learn more, see [Generating forms with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-text-to-form.md).
 
 
 ## Automate workflows and simplify tasks with playbooks

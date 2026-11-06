@@ -7,7 +7,7 @@ release: zurich
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a demand, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -38,15 +38,15 @@ You can associate a monetary benefit plan with a non-monetary benefit plan and v
 
 5.  Associate a monetary or non-monetary benefit plan.
 
-<table id="choicetable_CreateAnEpic"><thead><tr><th align="left" id="d224339e99">
+<table id="choicetable_CreateAnEpic"><thead><tr><th align="left" id="d239103e99">
 
 Option
 
-</th><th align="left" id="d224339e102">
+</th><th align="left" id="d239103e102">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d224339e108">
+</th></tr></thead><tbody><tr><td id="d239103e108">
 
 **Associate an existing benefit plan**
 
@@ -54,7 +54,7 @@ Action
 
 On the Benefit Plan form, fill in the **Associated benefit** field with the benefit plan that you want to associate.
 
-</td></tr><tr><td id="d224339e120">
+</td></tr><tr><td id="d239103e120">
 
 **Associate a new benefit plan**
 

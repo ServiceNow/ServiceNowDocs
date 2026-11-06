@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/lists-configurable-workspace.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -24,7 +24,7 @@ Lists display multiple records in a Configurable Workspace, such as cases, task,
 
 A list page is a workspace page designed to help agents navigate, filter, and manage records. List pages for Configurable Workspace are created with the List page template in UI Builder. The List page template includes the Record List component bundle and List menu component.
 
-\[Omitted image "configurable-workspace-list-page.png"\]
+\[Omitted image "configurable-workspace-list-page.png"\] Alt text: List page for a Configurable Workspace
 
 ## Record List component bundle
 

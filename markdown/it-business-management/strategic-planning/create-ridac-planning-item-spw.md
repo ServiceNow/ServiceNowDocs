@@ -7,7 +7,7 @@ release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-07-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [create RIDAC, new risk, new issue, new decision, new action, new change]
 breadcrumb: [Use, RIDAC, Strategic Planning, Strategic Portfolio Management]

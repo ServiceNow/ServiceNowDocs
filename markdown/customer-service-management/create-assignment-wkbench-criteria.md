@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-assignment-wkbench-criteria.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure assignment workbench, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -26,13 +26,13 @@ The assignment workbench uses configurable matching criteria, such as skills and
 
 1.  Navigate to **All** &gt; **Routing and Assignment** &gt; **Criteria**.
 
-2.  Select **New**.
+2.  Click **New**.
 
 3.  Enter a **Name** and a **Description** for the criterion.
 
 4.  Select the **Type** of matching criterion.
 
-<table id="choicetable_at3_1ch_cw"><tbody><tr><td id="d212909e115">
+<table id="choicetable_at3_1ch_cw"><tbody><tr><td id="d242200e115">
 
 **Simple Match**
 
@@ -40,7 +40,7 @@ The assignment workbench uses configurable matching criteria, such as skills and
 
 Creates a one-to-one match. For example, match the time zone of an agent with the time zone of a task location.
 
-</td></tr><tr><td id="d212909e124">
+</td></tr><tr><td id="d242200e124">
 
 **Aggregate**
 
@@ -48,13 +48,13 @@ Creates a one-to-one match. For example, match the time zone of an agent with th
 
 Takes a simple query as an input and provides aggregate results. The query returns a set of users.
 
-</td></tr><tr><td id="d212909e133">
+</td></tr><tr><td id="d242200e133">
 
 **Scripted**
 
 </td><td>
 
-Includes a scripted query that returns a list of users.
+Includes a scripted query which returns a list of users.
 
 </td></tr></tbody>
 </table>5.  To create a **Simple Match** criterion, fill in the following fields.
@@ -106,7 +106,7 @@ The field from the selected task table to be displayed for the task records that
 
     |Field|Description|
     |-----|-----------|
-    |Script|Create a customized script that returns a list of users. An example script is included. The expected return from a customized script is an array of resource sys\_ids.|
+    |Script|Create a customized script which returns a list of users. An example script is included. The expected return from a customized script is an array of resource sys\_ids.|
     |Aggregate Field|The field from the selected task table to be displayed for the task records that match the query conditions.|
 
 8.  Enter a **Display Name**.
@@ -122,7 +122,7 @@ The field from the selected task table to be displayed for the task records that
     |Reference Field|The field from the selected reference table to be displayed for the records that match the filter conditions.|
     |UI Filter Label|The label for this field that appears on the assignment workbench|
 
-10. Select **Submit**.
+10. Click **Submit**.
 
 
 **Related topics**  

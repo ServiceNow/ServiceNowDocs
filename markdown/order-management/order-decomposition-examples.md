@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/order-decomposition-examples.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Order decomposition, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -127,4 +127,11 @@ The following example shows the decomposition rules for the product offering for
 When your customer places an order for the SD-WAN Bronze Plan product offering and you approve this customer order, decomposition begins with the creation of the domain orders as per the defined specification relationships and decomposition rules. Because this customer order doesn't have the values for these characteristics for Routing and WAN Optimization, the decomposition rule doesn't create the service orders.
 
 However, as a part of the order fulfillment process, the information for Routing and WAN Optimization must be available. When your fulfillment agent provides the values for these characteristics, the decomposition rule creates the necessary service orders and the order decomposition completes.
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-order-management.md)
 

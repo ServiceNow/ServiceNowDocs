@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-managing-ea-workspace.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Managing Enterprise Architecture Workspace
@@ -31,9 +31,9 @@ Technology Lifecycle Management provide visibility, governance, and actionable i
 -   **[Working with Technology Reference Model \(TRM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-work-with-trm.md)**  
 The Technology Reference Model provides a structured, centralized view of all technology products; hardware, software, and platforms used across the enterprise.
 -   **[Working with Gantt chart views in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-work-with-gantt-chart-views.md)**  
-The Gantt charts in the Enterprise Architecture Workspace allow toggling between TLM \(Technology Lifecycle Management\) and TRM \(Technology Reference Model\) views. This enables enterprise architects to visualize key lifecycle stages such as deployment, maintenance, and retirement. Identify risks like outdated configurations or unsupported technologies.
+The Gantt charts in the Enterprise Architecture Workspace allow toggling between TPM \(Technology Portfolio Management\) and TRM \(Technology Reference Model\) views. This enables enterprise architects to visualize key lifecycle stages such as deployment, maintenance, and retirement. Identify risks like outdated configurations or unsupported technologies.
 -   **[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)**  
-Enterprise Modeling and Visualization provides a structured, visual framework for understanding and managing the complex relationships between IT systems, business processes, and organizational goals.
+Enterprise Modeling and Visualization provides a structured, visual framework for managing the complex relationships between IT systems, business processes, and organizational goals.
 -   **[Working with data certification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-work-with-data-cert.md)**  
 In the Enterprise Architecture Workspace, enterprise architects can manage certifications alongside requests, assessments, and portfolio health insights without switching to separate modules. You can define rules for validating data \(for example, application lifecycle, technology standards\), automate recurring checks \(daily, monthly, quarterly\), assign certifiers to review and approve data. You can highlight overdue certifications and compliance gaps.
 -   **[Working with architecture analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-work-with-architecture-analyzer.md)**  

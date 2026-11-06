@@ -1,0 +1,72 @@
+---
+title: Change your password from the Consumer Portal
+description: Change your Consumer Portal password from your profile settings.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/password-change-consumer-portal.html
+release: zurich
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Use Consumer Portal, Customer communication, Use, Customer Service Management]
+---
+
+# Change your password from the Consumer Portal
+
+Change your Consumer Portal password from your profile settings.
+
+## Before you begin
+
+Role required: sn\_customerservice.consumer
+
+## Procedure
+
+1.  Select your user name in the portal header to display the user profile information.
+
+2.  Select **Change Password**.
+
+3.  Fill in the fields on the Change Password form.
+
+<table id="table_czw_ftc_nr"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+**Current Password**
+
+</td><td>
+
+The current password. This field is automatically filled in.
+
+</td></tr><tr><td>
+
+**New Password**
+
+</td><td>
+
+The new password. This password must:-   Be a minimum of eight characters in length
+-   Include at least one uppercase and one lowercase letter
+-   Include at least one number
+
+
+</td></tr><tr><td>
+
+**Confirm Password**
+
+</td><td>
+
+Retype the new password.
+
+</td></tr></tbody>
+</table>4.  Select **Change**.
+
+
+**Related topics**  
+
+
+[Log in to the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/log-in-to-consumer-portal.md)
+

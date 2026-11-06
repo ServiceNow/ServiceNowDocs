@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-03-06"
+last_updated: "2026-03-12"
 reading_time_minutes: 8
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -18,7 +18,7 @@ The Salesforce spoke is built by Bristlecone, Inc. Access and manage data in the
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Salesforce spoke v2.6.1 is the latest version.
+Salesforce spoke v2.6.1 is the latest version. For version history of the spoke, see [Salesforce spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-salesforce-v1.2.html).
 
 ## Supported version
 

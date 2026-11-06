@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/add-related-entity-arch-doc.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage architectural documents, Working with information portfolio, Working with Portfolio list view, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Manage architectural documents, Working with information portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Add a related entity to an architectural document

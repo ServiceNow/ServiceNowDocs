@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Services Kiosk
 classification: workplace-services-kiosk
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Workplace Services Kiosk, Workplace Service Delivery, Employee Service Management]
 ---
@@ -129,5 +129,5 @@ Visitors can use the camera to scan QR codes or to take their picture.
 8.  Select **Submit**.
 
 
-**Parent Topic:**[Configure Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-services-kiosk/configure-workplace-services-kiosk.md)
+**Parent Topic:**[Configuring Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-services-kiosk/configure-workplace-services-kiosk.md)
 

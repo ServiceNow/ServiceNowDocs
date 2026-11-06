@@ -1,20 +1,22 @@
 ---
-title: \(Deprecated\) NIST RMF Use Case Accelerator
-description: Note: Starting with version 10.1.0, the NIST RMF Use Case Accelerator will be supported only for customers who currently use the product. New and existing customers should consider using the Continuous Authorization and Monitoring application. For details, refer to Continuous Authorization and Monitoring documentation. The NIST RMF Use Case Accelerator gives customers an operational head-start when adopting the NIST RMF. When the accelerator is downloaded and activated in the GRC applications, pre-configured policies, scopes \(profile, profile type recommendations\), indicators, risks and other GRC elements appear.
+title: NIST RMF Use Case Accelerator
+description: The NIST RMF Use Case Accelerator gives customers an operational head-start when adopting the NIST RMF. When the accelerator is downloaded and activated in the GRC applications, pre-configured policies, scopes \(profile, profile type recommendations\), indicators, risks and other GRC elements appear.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/grc-and-nistrmf-usecase-accelerator.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [GRC use case accelerators, Common GRC features, Governance, Risk, and Compliance]
 ---
 
-# \(Deprecated\) NIST RMF Use Case Accelerator
+# NIST RMF Use Case Accelerator
 
-Note: Starting with version 10.1.0, the NIST RMF Use Case Accelerator will be supported only for customers who currently use the product. New and existing customers should consider using the Continuous Authorization and Monitoring application. For details, refer to Continuous Authorization and Monitoring documentation. The NIST RMF Use Case Accelerator gives customers an operational head-start when adopting the NIST RMF. When the accelerator is downloaded and activated in the GRC applications, pre-configured policies, scopes \(profile, profile type recommendations\), indicators, risks and other GRC elements appear.
+The NIST RMF Use Case Accelerator gives customers an operational head-start when adopting the NIST RMF. When the accelerator is downloaded and activated in the GRC applications, pre-configured policies, scopes \(profile, profile type recommendations\), indicators, risks and other GRC elements appear.
+
+**Note:** Starting with version 10.1.0, the NIST RMF Use Case Accelerator will be supported only for customers who currently use the product. New and existing customers should consider using the GRC: Continuous Authorization Monitoring application. For details, [Continuous Authorization and Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/grc-cam-landing-page.md).
 
 ## Who uses the NIST RMF Use Case Accelerator
 

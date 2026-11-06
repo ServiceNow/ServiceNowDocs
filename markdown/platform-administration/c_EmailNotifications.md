@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/c\_EmailNotifications.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [System notifications, Notifications, Configure core features, Administer]
+breadcrumb: [System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Email and SMS notifications
@@ -66,8 +66,8 @@ When an email is received, parse the most recent message in an email thread by c
 An email digest is a single email that summarizes the activity for a selected notification and its target records during a specified time interval. You can enable an email digest to reduce the number of notifications received when frequent updates to the associated records occur within a short time period.
 -   **[Domain separation and Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/domain-separation-notifications.md)**  
 Domain separation is supported in the Notifications application. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
--   **[Email FAQs and troubleshooting notification emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/troubleshooting-notification-emails.md)**  
-Logs and diagnostics are provided to help determine whether notification emails are being sent and received successfully, what any issues are, and who receives the email.
+-   **[Notification email logs and diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/troubleshooting-notification-emails.md)**  
+Use logs and diagnostics to monitor notification email delivery, identify issues with individual emails, and check recipient details.
 
 **Parent Topic:**[System notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-notifications-landing.md)
 

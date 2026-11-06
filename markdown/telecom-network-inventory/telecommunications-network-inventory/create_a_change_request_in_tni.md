@@ -7,7 +7,7 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Using Design &amp; Assign Network, Use, Telecommunications Network Inventory]
 ---
@@ -51,7 +51,7 @@ You can create, review, update, or close a change request task in the Telecommun
 
 6.  Select **Next**.
 
-    A record producer or a change request form is displayed depending on the decision table entry. To learn more, see [Assign record producer form to a change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create_record_producer_form_for_a_change_request.md).
+    A record producer or a change request form is displayed depending on the decision table entry. To learn more, see [Assign a record producer form to a change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create_record_producer_form_for_a_change_request.md).
 
 7.  Select **Save**.
 
@@ -75,7 +75,7 @@ You can create, review, update, or close a change request task in the Telecommun
 
     -   View and create the change tasks by selecting **New**.
 
-        To learn more, see [Create and execute a change task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create-change-task-in-tni.md).
+        To learn more, see [Create and execute a change task in Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create-change-task-in-tni.md).
 
 9.  On the **Details** tab, fill in the fields.
 
@@ -92,7 +92,7 @@ You can create, review, update, or close a change request task in the Telecommun
 
 Create, review, update, or close the change tasks.
 
-For more information, see [Create and execute a change task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create-change-task-in-tni.md).
+For more information, see [Create and execute a change task in Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create-change-task-in-tni.md).
 
 **Parent Topic:**[Instantiating your network inventory by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md)
 

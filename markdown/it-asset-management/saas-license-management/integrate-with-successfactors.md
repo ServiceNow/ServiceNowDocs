@@ -7,9 +7,9 @@ release: zurich
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 22
-breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Integrating with SAP SuccessFactors
@@ -120,7 +120,7 @@ Create a connection between your SAP SuccessFactors OData API and your ServiceNo
 
 ### Before you begin
 
-ServiceNow Role required: admin
+ServiceNow Role required: sam\_integrator
 
 ### Procedure
 
@@ -501,7 +501,7 @@ The Software Asset Management - SaaS License Management plugin \(sn\_sam\_saas\_
 
 Change the application scope to **Global**.
 
-ServiceNow Role required: sam\_integrator or admin
+ServiceNow Role required: sam\_integrator
 
 **Important:** You must select the **Software Asset Management integration with SuccessFactors** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md).
 
@@ -513,15 +513,15 @@ If you’re using Software Asset Workspace, the option to create the SuccessFact
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d46618e2331">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d49369e2331">
 
 Interface
 
-</th><th align="left" id="d46618e2334">
+</th><th align="left" id="d49369e2334">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d46618e2340">
+</th></tr></thead><tbody><tr><td id="d49369e2340">
 
 **Core UI**
 
@@ -532,7 +532,7 @@ Action
 3.  Select **SuccessFactors Integration Profile**.
 
 
-</td></tr><tr><td id="d46618e2382">
+</td></tr><tr><td id="d49369e2382">
 
 **Software Asset Workspace**
 
@@ -728,7 +728,7 @@ After creating an integration profile, view information about the profile in the
 -   Subscription Identifier Exclusion Rule
 -   Subscription User Exclusion Rule
 
-After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/subscription-exclusions.md).
+After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/subscription-exclusions.md).
 
 If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/create-child-alias-saas.md).
 

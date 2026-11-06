@@ -7,9 +7,9 @@ release: zurich
 product: Insurance Claims
 classification: insurance-claims
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Create an ad-hoc task on a claim, Use, Individual Life Claims, Claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Create an ad-hoc task on a claim, Use, Individual Life Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Claim Task form fields

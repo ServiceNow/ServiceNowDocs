@@ -7,7 +7,7 @@ release: zurich
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Processing a Mastercard dispute, Resolving disputes with Mastercard, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [Processing a Mastercard dispute, Resolving disputes with Mastercard
 # Chargeback in Mastercard transaction disputes
 
 After a chargeback is initiated, the chargeback request is sent to Mastercard, which alerts the merchant. Mastercard requests collaboration from merchants, who either provide a voucher, refund, or First-Party Trust evidence as response. If the merchant doesn’t respond, the process escalates to formal chargeback procedures.
+
+## Chargeback stages
 
 The Chargeback stage in Mastercard is described in these stages:
 
@@ -29,10 +31,16 @@ The Chargeback stage in Mastercard is described in these stages:
     -   Based on the review, either of the following applies:
         -   The agent accepts the second presentment.
         -   The agent escalates the case to pre-arbitration or arbitration.
-        -   If the merchant doesn't respond within the specified time frame, the agent manually takes an action on the disputed transaction based on Mastercard's response that displays on the agent's **Landing page**
+        -   If the merchant doesn't respond within the specified time frame, the agent manually acts on the disputed transaction based on Mastercard's response that displays on the agent's **Landing page**
 
             **Note:** The agent can access Mastercard's response from **Landing Page** &gt; **Acquirer deadline expired tasks**. For more information, see [Dispute agent workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/workspace-for-agent.md)
 
+
+## Submitting supporting documents
+
+Agents attach supporting documents as a `.zip` file for each task in the Chargeback stage as required.
+
+When integrated with Mastercard's Mastercom APIs, the system automates the submission of supporting documents for each task throughout the Chargeback stage. It automatically checks attached files against Mastercard requirements for file type and size. When agents submit multiple attachments, the system compresses them into a single zip file and alerts the agent when any attachment doesn’t meet Mastercard requirements. For more information, see [Mastercard document requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/mastercard-image-and-document-requirements.md).
 
 -   **[Initiate chargeback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/initiate-chargeback-mastercard.md)**  
 Initiate a chargeback for Mastercard transaction disputes and request collaboration from merchants.

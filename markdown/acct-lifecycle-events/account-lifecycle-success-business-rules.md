@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-success-business-rules.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
 breadcrumb: [Reference, Customer Success Management]
 ---
@@ -900,7 +900,7 @@ Color Banding
 
 </td><td>
 
-Aborts if a duplicate color exists for a record of the same type. Aborts if the max value is less than the min value. Aborts if the given min-max range overlaps with another existing record of the same type.
+Aborts if a duplicate color exists for a record of the same type. Also aborts if the max value is less than the min value, or if the min-max range overlaps with another existing record of the same type.
 
 </td></tr><tr><td>
 
@@ -1260,7 +1260,7 @@ Context Engine Data \[sn\_data\_ctx\_engine\_data\]
 
 </td><td>
 
-When an entry is added or updated in the Context Engine Data table for a calculated data source, the target table is updated. The data source must have a target table and target field defined. The system sets the data context engine value in the target field for rows where the target query field matches the context record.
+When an entry is added or updated in the Context Engine Data table for a calculated data source, the system checks the data source configuration. The system verifies if a target table and target field are defined. If so, the system sets the data context engine value in the target field. The system updates corresponding rows in the target table where the target query field matches the context record.
 
 </td></tr><tr><td>
 
@@ -1478,11 +1478,17 @@ Applicable Sold Product \[sn\_acct\_lc\_eng\_m2m\_sp\]
 
 </td><td>
 
-Trigger:​ A record is added or modified in the Applicable Sold Products table.​
+Trigger:​
 
- Actions:​ Create product usage record for a sold product if it doesn't exist. Create product usage records for all child products \(across all hierarchy levels\).​ For each usage record, update the Total Child Product Count \(reflecting only immediate children\).​
+ A record is added or modified in the Applicable Sold Products table.​
 
- Associate Capabilities:​ Use sold product model to check the product capability map for each usage record. ​If capability records exist, create corresponding capability usage records and update the Total Capability Count.​ Don’t include related capabilities, only direct capabilities are considered.​
+ Actions:​ Create a Product Usage record if one doesn't exist for the sold product. Create Product Usage records for all child products across all hierarchy levels. For each usage record, update the Total Child Product Count. This count reflects only immediate children.
+
+ Associate Capabilities:​ If a usage record does not exist for the sold product, create it.​ Create Product Usage records for all child products across all hierarchy levels.​
+
+ For each usage record, update the Total Child Product Count.​ This count reflects only immediate children.​
+
+ Associate Capabilities:​For each usage record:​Check the Product Capability Map using the sold product's product model. If capability records exist, create corresponding Capability Usage records.​ Update the Total Capability Count.​ Don’t include related capabilities—only direct capabilities are considered.​
 
 </td></tr><tr><td>
 
@@ -1498,7 +1504,7 @@ Trigger:​
 
  A new active record is added to the Product Capability Map.​
 
- Actions:​ Identify all sold products with a matching product model. Create capability usage records for each matching product. Update the Total Capabilities in Use count on the corresponding product usage record.
+ Actions:​ Identify all sold products with a matching product model.​ For each matching product, create capability usage records and update the Total Capabilities in Use count in the Product Usage record.
 
 </td></tr><tr><td>
 
@@ -1510,7 +1516,7 @@ Product Usage \[sn\_prod\_cap\_core\_prod\_usage\]
 
 </td><td>
 
-Set Activation status of the given sold product and all its parent sold products. Set status to **In Use** and update usage plan to **Activated** if not set.
+Set Activation status of the given sold product and all its parent sold products in its hierarchy to **In Use** and update Usage plan to **Activated** if Usage plan isn’t set.
 
 </td></tr><tr><td>
 
@@ -1522,7 +1528,7 @@ Product Capability Usage \[sn\_prod\_cap\_core\_prod\_cap\_usage\]
 
 </td><td>
 
-Set Activation status of the given capability usage record, its sold product and all its parent sold products. Set the status to **In Use** and update usage plan to **Activated** if not set.
+Sets Activation status to **In Use** for the capability usage record, its sold product, and all parent sold products. Sets Usage plan to **Activated** if not already set. Usage plan isn’t set
 
 </td></tr><tr><td>
 

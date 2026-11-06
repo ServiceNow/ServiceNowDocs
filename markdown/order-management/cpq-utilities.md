@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/cpq-utilities.html
 release: zurich
 topic_type: concept
-last_updated: "2025-09-17"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow CPQ, Configure, price, quote, Explore, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Utilities
@@ -26,7 +26,6 @@ More information about the items in the menu can be found in the following topic
 -   [Using CPQ user access management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cpq-using-uam.md)
 -   [Set up a runtime client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cpq-set-up-a-runtime-client.md)
 -   [Intro to admin API keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cpq-admin-api-keys.md)
--   [Using external connections with OAuth support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 -   [Setting up configurable products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configurable_products.md)
 -   [ServiceNow CPQ: User Access Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/logik_admin_user_access_control.md)
 -   [Webhooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cpq-webhooks.md)

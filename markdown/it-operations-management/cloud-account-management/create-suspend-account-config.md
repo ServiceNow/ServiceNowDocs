@@ -7,7 +7,7 @@ release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Creating configurations, Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -26,15 +26,11 @@ Role required: sn\_itom\_cam.cw\_admin
 
 2.  Select **New**.
 
-3.  On the **New Configuration** form, fill in the fields.
+3.  Enter the details in the **New Configuration** form.
 
-    For a description of the field values, see [Suspend account configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/suspend-details.md).
+    To fill the form fields, see [Suspend account configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/suspend-details.md).
 
-4.  Create a GovCloud configuration by enabling the **This is a GovCloud config** toggle.
-
-    **Note:** GovCloud is supported only for AWS cloud provider.
-
-5.  Select **Submit**.
+4.  Select **Submit**.
 
 
 ## What to do next

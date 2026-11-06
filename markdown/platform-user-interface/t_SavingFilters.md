@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/t\_SavingFilters.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Filters and breadcrumbs, Lists in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -34,7 +34,7 @@ Role required: varies depending on action. See procedure.
 
 4.  Select one of the following visibility options.
 
-<table id="choicetable_v1q_3x2_pv"><tbody><tr><td id="d57347e109">
+<table id="choicetable_v1q_3x2_pv"><tbody><tr><td id="d57310e109">
 
 **Me**
 
@@ -42,7 +42,7 @@ Role required: varies depending on action. See procedure.
 
 Creates a personal filter, which only you can access. If you don’t have Write access to the User field, this option isn't available. See your administrator for more information.
 
-</td></tr><tr><td id="d57347e121">
+</td></tr><tr><td id="d57310e121">
 
 **Everyone**
 
@@ -50,7 +50,7 @@ Creates a personal filter, which only you can access. If you don’t have Write 
 
 Creates a global filter, which all users can access. This option is available to users with the filter\_global role.
 
-</td></tr><tr><td id="d57347e130">
+</td></tr><tr><td id="d57310e130">
 
 **Group**
 

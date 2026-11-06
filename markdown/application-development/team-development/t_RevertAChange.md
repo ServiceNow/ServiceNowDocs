@@ -1,47 +1,60 @@
 ---
 title: Revert a change
-description: Undo changes to a customized record by reverting to an older version.
+description: You can undo changes to a customized record by reverting to an older version.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/t\_RevertAChange.html
 release: zurich
 product: Team Development
 classification: team-development
 topic_type: task
-last_updated: "2025-10-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with version records, Team Development, Planning your application, Building applications]
+breadcrumb: [Versions, Administer, Team Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Revert a change
 
-Undo changes to a customized record by reverting to an older version.
+You can undo changes to a customized record by reverting to an older version.
 
 ## Before you begin
 
-Role required: admin
-
-**Note:** You can revert to the most recent baseline version. You can’t revert to an older baseline version.
+Role required: none
 
 ## Procedure
 
-1.  Navigate to a list of version records for an object.
+1.  View a list of version records for an object.
 
-2.  Compare the current version to the older version to confirm that you’re reverting the desired changes.
+2.  Compare the current version to the older version to ensure that you are reverting the desired changes.
 
-3.  Select and hold \(or right-click\) the older version and select **Revert to this version**.
+3.  Right-click the older version and select **Revert to this version**.
 
-    A confirmation dialog box displays.
+    A confirmation dialog box appears.
 
-    **Note:** If reverting results in data loss, a warning message appears in the dialog box.
+    If reverting to this version results in data loss due to a database schema change, a warning message appears in the dialog box.
 
-4.  Select **OK** to confirm the action.
+4.  Click **OK** to confirm the action.
 
-    The current version is marked as a previous version.
-
-5.  A new version record is added that duplicates the version that you selected in the preceding step.
-
-    This new version is marked as the current version.
+    -   The current version is marked as a previous version.
+    -   A new version record is added that duplicates the version that you selected in the preceding step. This new version is marked as the current version.
+    **Note:** You can revert to the most recent baseline version. You cannot revert to an older baseline version.
 
 
-**Parent Topic:**[Working with version records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_Versions.md)
+**Parent Topic:**[Versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_Versions.md)
+
+**Related topics**  
+
+
+[Merge tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/diff-merge-tool.md)
+
+[Compare to the current version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_CompareToCurrentVersion.md)
+
+[Compare two versions of an article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/compare-two-article-versions.md)
+
+[Compare a pushed version to a local version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_ComparePushedVerLocalVer.md)
+
+[Resolve a collision in Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_ResolveACollision.md)
+
+[Resolve conflicts for an individual record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/um-resolve-conflict.md)
+
+[View customizations and compare with current version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/view-customer-update-records.md)
 

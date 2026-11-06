@@ -7,9 +7,9 @@ release: zurich
 product: Insurance Claims
 classification: insurance-claims
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Insurance claims

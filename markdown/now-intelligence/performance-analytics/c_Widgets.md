@@ -7,7 +7,7 @@ release: zurich
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -18,7 +18,9 @@ Widgets enable you to define visualizations for indicator scores. Widgets are sh
 
 **Note:** This feature is part of the Core UI front end. It is not supported on Platform Analytics dashboards or UI Builder pages, except to a limited extent when migrated in compatibility mode. To build Platform Analytics components, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center-data-visualizations.md) or [Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/interactive-filters-workspace.md).
 
-This feature is in maintenance mode and is no longer being augmented or changed. Only security fixes to this feature will be addressed.
+This feature is deprecated, meaning it is in maintenance mode and is no longer being augmented or changed. Only security fixes to this feature will be addressed.
+
+The pa\_admin role is required to create or edit Performance Analytics widgets, which may still be necessary in Service Portal, for example.
 
 A Performance Analytics widget ties an indicator to a visualization, such as a trend line, a set of columns, or a pie chart. Within the widget, you can filter or group indicator scores by breakdowns. You can also apply time series functions, such as 7-day sums, to the scores.
 
@@ -69,7 +71,7 @@ Upgraded instances cannot automatically follow the rules introduced in Quebec be
 
 ## Data tables for widget accessibility
 
-If under Preferences you have enabled **Accessibility** &gt; **Enable data table for charts and graphs**, tables replace the graphical charts for all Performance Analytics widgets on your instance. Workspace widgets are an exception, as they show both charts and tables. For more information about accessibility and widgets, including how to replace colors with patterns, see [Accessibility options on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/analytics-accessibility-options.md).
+If under Preferences you have enabled **Accessibility** &gt; **Enable data table for charts and graphs**, tables replace the graphical charts for all Performance Analytics widgets on your instance. Workspace widgets are an exception, as they show both charts and tables. For more information about accessibility and widgets, including how to replace colors with patterns, see [Accessibility options on Core UI dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/analytics-accessibility-options.md).
 
 \[Omitted image "widget-accessibility-table.png"\] Alt text: Workbench widget with the Data tables accessibility preference activated, showing both a chart and a table.
 

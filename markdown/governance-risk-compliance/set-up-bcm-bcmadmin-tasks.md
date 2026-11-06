@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/set-up-bcm-bcmadmin-tasks.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 breadcrumb: [Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -27,6 +27,9 @@ Business Continuity Management administrators perform these administrative tasks
 -   Configure the recovery tiers and recovery timeframes. For more information, see [Configure recovery tiers for BIA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/configure-recovery-tier-bia-uib-ws.md) and [Set up recovery timeframes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/configure-recovery-timeframe-bia-uib-ws.md).
 -   View the My tasks page configurations module, approval configurations, and properties. For more information, see [My tasks page configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/my-tasks-page-config-module.md), [Approval configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/bcm-approval-configuration.md), and [BCM properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/bcm-properties-module.md).
 -   For more information on the grid configurations and categories, see [Configure grid for BIA assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/configure-grid-configuration-uib-ws.md) and [Configure grid categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/configure-grid-category.md).
+-   Create a recovery team from the classic workspace. For more information, see [Create a recovery team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/add-recovery-team-classic-ws-admin.md).
+
+Starting with BCM release 12.x.x, the **Recovery Teams** module is also enabled in the **General Administration** module, letting you create a recovery team from the classic workspace as shown in the example.\[Omitted image "cm-bcmadmin-ui16-recovery-teams-menu.png"\] Alt text: General Administration module with the Recovery Teams menu item.
 
 ## Custom queue for the Update dependencies process
 
@@ -74,6 +77,8 @@ Configure an impact rating to assess an impact category as low, moderate, high, 
 Configure a recovery tier with a set of business applications that follow a similar range of recovery time objective \(RTO\) values. Use the **Recovery Tiers** module in the Business Continuity Management application navigator to configure a recovery tier.
 -   **[Set up recovery timeframes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/configure-recovery-timeframe-bia-uib-ws.md)**  
 Set up a recovery timeframe for a recovery tier. The recovery timeframe starts from when a disruptive event happens to the time when your business can resume usual operations. You can use the **Recovery Timeframes** module in the Business Continuity Management application to set up the timeline for the recovery timeframe.
+-   **[Set up the phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/set-up-phases.md)**  
+Set up the phases in the Business Continuity Management application to map them to recovery and event tasks effectively. Users can then tag and execute these phases in the set order.
 -   **[Configure grid categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/configure-grid-category.md)**  
 Configure a grid category such as Dependency Assessment for the grid configuration. Use the **Grid Categories** module in the Business Continuity Management application navigator to configure the grid categories.
 -   **[Configure grid for BIA assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/configure-grid-configuration-uib-ws.md)**  

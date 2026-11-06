@@ -7,7 +7,7 @@ release: zurich
 product: Rate Model
 classification: rate-model
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Rate Models, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -26,15 +26,15 @@ Create or modify a rate model that can be linked to a project or demand to deter
 
 1.  Create a rate model.
 
-<table id="create-rate-model-option"><thead><tr><th align="left" id="d177654e71">
+<table id="create-rate-model-option"><thead><tr><th align="left" id="d189444e71">
 
 Option
 
-</th><th align="left" id="d177654e74">
+</th><th align="left" id="d189444e74">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d177654e80">
+</th></tr></thead><tbody><tr><td id="d189444e80">
 
 **From Project Administration**
 
@@ -44,7 +44,7 @@ Steps
 2.  Click **New**.
 
 
-</td></tr><tr><td id="d177654e116">
+</td></tr><tr><td id="d189444e116">
 
 **From Time Sheets**
 

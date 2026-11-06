@@ -7,9 +7,9 @@ release: zurich
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 7
-breadcrumb: [Audit Supervisor Workspace, Audit Workspace, Audit Management, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Audit Supervisor Workspace, Audit Workspace overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Create an audit engagement in Audit Workspace
@@ -132,71 +132,6 @@ Approvers assigned to the engagement.
 </td></tr><tr><td class="sub-head" colspan="2">
 
 Engagement schedule
-
-</td></tr><tr><td>
-
-Audit Period Start
-
-</td><td>
-
-**Note:** The Audit period start and end is available from Yokohama patch 10 and Zurich patch 4 release. To enable this feature, see [Schedule job for audit date enhancement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/schedule-job-for-audit-date.md).
-
-To enable Audit period start and end for older version, see [Create exclusion table for audit date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/create-exclusion-table-for-audit-date.md).
-
-Enables auditing of past or future periods within an ongoing engagement. Only indicator results falling within the specified audit period will be displayed. These fields enable you to specify the time period being audited, separate from the overall Engagement time frame.
-
-</td></tr><tr><td>
-
-Engagement planned start
-
-</td><td>
-
-Estimated start date of the engagement.
-
-</td></tr><tr><td>
-
-Engagement starts
-
-</td><td>
-
-Choice to automatically determine the start date of the engagement. The choices are:-   Scope
--   Validate
--   Fieldwork
-
-
-</td></tr><tr><td>
-
-Engagement actually start
-
-</td><td>
-
-Actual date the engagement begins.
-
-</td></tr><tr><td>
-
-Engagement planned end
-
-</td><td>
-
-Estimated end date of the engagement.
-
-</td></tr><tr><td>
-
-Engagement ends
-
-</td><td>
-
-Choice to automatically determine the start date of the engagement. The choices are:-   Follow Up
--   Closed
-
-
-</td></tr><tr><td>
-
-Engagement actual end
-
-</td><td>
-
-The actual date that the engagement ends.
 
 </td></tr><tr><td>
 
@@ -361,7 +296,7 @@ Template type
 
 Type of template used to generate the audit report for the engagement record.-   Classic report template: Generates the report using the classic report templates such as HTML, script, or XML, provided the engagement record is in Follow up or Closed states.
 
-For more information, see [Create an audit report template in classic formats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/create-audit-report-temp.md) and [Generate a report for an engagement in a classic report template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/generate-report-engagement-audit-ws.md).
+For more information, see [Create an audit report template in classic formats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/create-audit-report-temp.md) and [Generate a report for an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/generate-report-engagement-audit-ws.md).
 
 -   Word report template: Generates the report using the Microsoft Word template, provided the engagement record is in Validate, Fieldwork, or Follow up states.
 
@@ -446,7 +381,7 @@ Option to enable confidentiality of the record. Only the assigned confidential u
 
     3.  Select **Add**.
 
-        The selected issues are added to the engagement as related issues and an m2m relationship is created between the engagement and the issues in the Issue to Engagement \[sn\_grc\_m2m\_issue\_engagement\] table. You can also create an issue for the engagement by selecting the **New** button, which takes you to the Create New Issue form.
+        The selected issues are added to the engagement as related issues. An m2m relationship is created between the engagement and the issues in the Issue to Engagement \[sn\_grc\_m2m\_issue\_engagement\] table. You can also create an issue for the engagement by selecting the **New** button, which takes you to the Create Issue form.
 
     4.  To remove an issue that is mapped to the engagement, select the issue and click **Remove**.
 

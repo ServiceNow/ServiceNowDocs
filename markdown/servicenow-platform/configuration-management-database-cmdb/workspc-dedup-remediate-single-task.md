@@ -7,8 +7,8 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [CI de-duplication experience in a workspace, Duplicate CIs remediation, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -21,16 +21,21 @@ Remediate a single de-duplilcation task using a de-duplication template in CMDB 
 -   Review the following topics to familiarize yourself with important concepts of duplicate CI remediation:
     -   [Duplicate CIs remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md): To learn about general duplicate CI remediation concepts, restrictions, and special cases such as remediations that involve a large number of duplicate CIs.
     -   [Properties related to remediation of duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/properties-duplicate-ci.md): To learn about important properties that affect processes of duplicate CI remediation. Including the glide.duplicate\_ci\_remediator.dry\_run property that determines if the Duplicate CI Remediator actually updates the CMDB or not.
--   To access the ServiceNow Otto remediation option in the Duplicate CI Remediation wizard, the De-duplication task resolution assistant skill must be installed and enabled. For information about setting up ServiceNow Otto for CMDB, see [ServiceNow Otto for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md).
+-   To access the ServiceNow Otto remediation option in the Duplicate CI Remediation wizard, the De-duplication task resolution assistant skill must be installed and enabled.
+
+    For information about:
+
+    -   Setting up ServiceNow Otto for CMDB, see [ServiceNow Otto for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md).
+    -   The De-duplication task resolution assistant skill, see [Resolving re-duplication tasks with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-skill-dupe-task-resolution.md).
 
 Role required:
 
--   To access the [Governance view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-governance-view.md) to perform de-duplication tasks, sn\_cmdb\_admin
--   To perform this task, cmdb\_dedup\_admin or any role containing cmdb\_dedup\_admin \(such as sn\_cmdb\_admin\)
+-   To access the [Governance view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-governance-view.md) to perform de-duplication tasks: sn\_cmdb\_editor or sn\_cmdb\_admin
+-   To perform de-duplication tasks, cmdb\_dedup\_admin or any role containing cmdb\_dedup\_admin \(such as sn\_cmdb\_admin\)
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CMDB Workspace** and then select the Governance icon in the navigation panel.
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Governance**.
 
 2.  Select the **De-duplication Dashboard** link in Management tools, in the Manage section.
 
@@ -42,15 +47,15 @@ Role required:
 
 6.  In the Remediate dialog box, choose which method you want to use for remediation, and then select **Remediate**.
 
-<table id="choicetable_khq_wpd_fzb"><thead><tr><th align="left" id="d270565e183">
+<table id="choicetable_khq_wpd_fzb"><thead><tr><th align="left" id="d272382e210">
 
 Choice
 
-</th><th align="left" id="d270565e186">
+</th><th align="left" id="d272382e213">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d270565e192">
+</th></tr></thead><tbody><tr><td id="d272382e219">
 
 **Use the Duplicate CI Remediator**
 
@@ -60,7 +65,7 @@ Use the Duplicate CI Remediator built on Core UI to remediate the task.
 
  To continue with this choice of remediation, see [Remediate a de-duplication task \(manual\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md).
 
-</td></tr><tr><td id="d270565e214">
+</td></tr><tr><td id="d272382e241">
 
 **Use the Duplicate CI Remediator \(AI\)**
 
@@ -70,7 +75,7 @@ Use the De-duplication task resolution assistant skill to make suggestions for t
 
  The De-duplication task resolution assistant skill skips directly to the final dashboard of the Duplicate CI Remediator where you can review the selections made by the skill.
 
-</td></tr><tr><td id="d270565e232">
+</td></tr><tr><td id="d272382e259">
 
 **Use the Duplicate CI Remediator in Restricted Mode**
 
@@ -80,7 +85,7 @@ Appears only if the **glide.duplicate\_ci\_remediator.enable\_restricted\_mode**
 
  To continue with this choice, see [Remediate a de-duplication task \(manual\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md). Skip to step \#5 in the procedure.
 
-</td></tr><tr><td id="d270565e264">
+</td></tr><tr><td id="d272382e291">
 
 **Remediate using a template**
 

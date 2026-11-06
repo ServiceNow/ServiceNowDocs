@@ -7,7 +7,7 @@ release: zurich
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create geographies, Territory Planning, Set up workforce, Configure, Field Service Management]
 ---
@@ -32,15 +32,15 @@ Composite Geography combines smaller geographies into a bigger, more impactful o
     -   Navigate to **All** &gt; **Field Service** &gt; **Territory Planning** &gt; **Territory Planning Console**.
 2.  Do either of the following.
 
-<table id="choicetable_jbt_4fz_szb"><thead><tr><th align="left" id="d140716e102">
+<table id="choicetable_jbt_4fz_szb"><thead><tr><th align="left" id="d154617e102">
 
 To create composite geography
 
-</th><th align="left" id="d140716e105">
+</th><th align="left" id="d154617e105">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d140716e111">
+</th></tr></thead><tbody><tr><td id="d154617e111">
 
 **From Platform**
 
@@ -48,7 +48,7 @@ Do this
 
 In the Territory Geographies page, select **New**.
 
-</td></tr><tr><td id="d140716e123">
+</td></tr><tr><td id="d154617e123">
 
 **From Territory Planning console**
 

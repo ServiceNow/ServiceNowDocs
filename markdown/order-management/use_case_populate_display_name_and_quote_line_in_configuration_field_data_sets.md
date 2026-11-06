@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/use\_case\_populate\_display\_name\_and\_quote\_line\_in\_configuration\_field\_data\_sets.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [Use cases, Using ServiceNow CPQ, Configure, price, quote apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Use cases, Using ServiceNow CPQ, ServiceNow CPQ Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
 # Use case: Populate display names and quote lines in Configuration Field Data Set objects
@@ -26,7 +26,7 @@ With a little setup of custom objects and Apex Triggers in SFDC, these fields ca
 
 ## Prerequisites
 
-Enable “Push Config Data to Logik Salesforce Object” in the Admin Settings if you have not done so already. This will start creating the Configuration Field Data Sets objects in SFDC.
+Enable “Push Config Data to CPQ Salesforce Object” in the Admin Settings if you have not done so already. This will start creating the Configuration Field Data Sets objects in SFDC.
 
 \[Omitted image "cpq-admin-settings-push-config-data.png"\] Alt text: Admin settings
 
@@ -37,7 +37,7 @@ Enable “Push Config Data to Logik Salesforce Object” in the Admin Settings i
 1.  In SFDC Setup, navigate to the Object Manager.
 2.  Create a new custom object called “LGK Label” with the following attributes:
 
-    -   Record Name: Logik Label
+    -   Record Name: CPQ Label
     -   Data Type: Auto Number
     -   Display Format: LGKLB-\{0000\}
     -   Allow Search: Checked
@@ -106,7 +106,7 @@ The framework is complete. Add the new Display Name field to the Configuration F
 
 Manual ServiceNow CPQ Label Creation
 
- 1.  Create a new Logik Label Object from the LGK Labels tab
+ 1.  Create a new CPQ Label Object from the LGK Labels tab
 2.  Enter the “variablename” to exactly match the ServiceNow CPQ variable name
 3.  Enter the “label” to be any label you wish
 

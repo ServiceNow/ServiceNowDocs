@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/retail-industry/rahi-retail-operations-reference.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Retail]
 ---
@@ -22,4 +22,10 @@ Learn about the Retail Core application by viewing the data model and role relat
 Learn about the unified retail case and task data model which helps understand the relationships between various case and task tables within retail. These extensions are designed to support distinct operational needs such as managing customer complaints, store inquiries, in-store operations, and HQ communications.
 -   **[Domain Separation in Retail Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/rahi-retail-domain.md)**  
 Domain separation is supported for Retail Core. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+-   **[Field Service for Audit data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/fsm-audit-data-model.md)**  
+The Field Service for Audit data model shows how the audit task table extends the work-management task type provided by Field Service Management.
+-   **[Roles and visibility for project tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/rahi-retail-spm-project-tasks-roles.md)**  
+Roles determine which store personas see project tasks in Retail, which surfaces they reach, and which actions they can take on a task.
+-   **[Project task data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/rahi-retail-spm-project-tasks-data-model.md)**  
+The project and project task records that Retail reads, the fields it displays, and the three fields it writes.
 

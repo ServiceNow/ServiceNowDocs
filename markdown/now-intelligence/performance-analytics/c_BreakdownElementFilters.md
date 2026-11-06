@@ -7,7 +7,7 @@ release: zurich
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Indicator breakdowns, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -25,7 +25,7 @@ An elements filter consists of a conditional filter or related list conditions a
 **Related topics**  
 
 
-[Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_UsePerformanceAnalyticsScorecards.md)
+[\(Legacy\) Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_UsePerformanceAnalyticsScorecards.md)
 
 [Examining indicators with KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/kpi-details-components.md)
 

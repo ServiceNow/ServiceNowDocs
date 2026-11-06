@@ -7,8 +7,8 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 13
+last_updated: "2026-09-10"
+reading_time_minutes: 14
 breadcrumb: [Using Stream Connect for Apache Kafka, Import and stream data, Integration Hub, Workflow Data Fabric]
 ---
 
@@ -22,10 +22,11 @@ The Stream Connect Dashboard combines several capabilities into a single environ
 -   Gain insights into how your integrations use and process data with detailed charts, lists, and statistics.
 -   View total data usage, data usage per month, and data usage per topic, for the last 13 months.
 -   Edit topics, producers, consumers, and replicators through a simplified interface.
+-   View data for Hermes and Direct Kafka environments.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Workflow Data Fabric subscription
 
@@ -66,22 +67,28 @@ The Stream activity tab has these components.
 
 -   **2. Streamed data overview**
 
-    Displays the following charts.
+    This section has several charts detailing the amount of data and messages consumed and produced. By default, the charts display data for all topics. You can view data for a single topic by selecting one from the **All Topics** list. Each topic is listed by its topic alias. For a Direct Kafka topic, the alias name is followed by the system name, in brackets. For example, a topic with an alias of my\_topic and a system name of c\_platform appears as **my\_topic \[c\_platform\]**. If plugins for both Hermes and Direct Kafka are installed, alias names for Hermes topics are followed by **\[Hermes\]**. If only the Hermes plugin is installed, topic aliases appear without the system name.
 
-    -   Consumed data: The total amount of data consumed \(in GB\).
+    You can also organize the displayed data by time, viewing data for the **Last 24 hours**, **Last 2 days**, **Last 7 days**, or by setting a **Custom range**.
+
+    This section has the following charts.
+
+    -   Consumed data: The total amount of data consumed.
     -   Messages processed: The total number of processed messages.
-    -   Produced data: The total number of data produced \(in GB\).
+    -   Produced data: The total number of data produced.
     -   Messages produced: The total number of messages produced.
-    -   Consumers data usage trends: The amount of data \(in MB\) consumers used over the last seven days.
-    -   Producers data usage trends: The amount of data \(in MB\) producers used over the last seven days.
-    You can view data for a single, selected topic, or for **All Topics** combined. You can also organize the data by time, viewing data for the **Last 24 hours**, **Last 2 days**, **Last 7 days**, or by setting a **Custom range**.
-
+    -   Consumers data usage trends: The amount of data consumers used over the last seven days.
+    -   Producers data usage trends: The amount of data producers used over the last seven days.
 
 \[Omitted image "sc-dashboard-data.png"\] Alt text: User interface for the Data usage tab of the Stream Connect dashboard overview page.
 
 The Data usage tab has these components.
 
--   **3. Month selector**
+-   **3. Kafka Cluster andMonth selectors**
+
+    Use the **Kafka Cluster** list to select data for either **Hermes usage** or **Direct Kafka usage**.
+
+    **Note:** The **Kafka Cluster** list only appears if the plugins for both Hermes and Direct Kafka are installed. If only one plugin is installed, the **Kafka Cluster** list is hidden and the dashboard displays data for either Hermes or Direct Kafka, depending on the plugin. For more information about plugins, see [Integration Hub plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/ih-plugins.md).
 
     Select a start month and end month to view data usage over time. Data usage history is available for the last 12 complete months plus the current month.
 
@@ -104,26 +111,27 @@ The Topics page has the following components.
 
 -   **5. Topics list**
 
-    Displays all topics and each topic's name, namespace, and the date it was created.
+    Displays all topics organized into tabs.
 
+    -   The **Topic Alias** tab lists each topic alias and its domain and creation date.
+    -   The **Hermes Topic** tab lists each Hermes topic with its name, topic alias, namespace, application ID, domain, and creation date. This tab only appears if you have the ServiceNow Stream Connect Hermes \(com.glide.hub.stream\_connect.hermes\) plugin installed.
+    -   The **Direct Kafka Topic** tab lists each Direct Kafka topic with its name, topic alias, Direct Kafka cluster, and creation date. This tab only appears if you have the ServiceNow Stream Connect Installer \(Direct Kafka\) \(com.glide.hub.stream\_connect.onprem\_installer\) plugin installed.
 -   **6. Action buttons**
 
-    Contains several buttons that you can use to perform different tasks. Refresh the list of topics, edit the list columns or reset the column widths, and view or edit the list filters. There are also buttons to **Edit** a topic, **Export** a topic, and create a **New** topic.
+    Contains several buttons that you can use to perform different tasks. **Create** a new topic, refresh the list of topics, or view and edit the list filters.
 
-    -   To edit a topic, select the topic from the list, select the **Edit** button, then fill in the fields on the Edit [Kafka Topic form.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/create-topic-instance-hermes.md)
-    -   To create a new topic, select **New**, then fill in the fields on the Create New [Kafka Topic form.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/create-topic-instance-hermes.md)
 
-You can select a topic from the list to view detailed information for that topic.
+You can select a topic or topic alias from the list to view more detailed information. The following image shows an example of a topic page for a Hermes topic. The pages for topic aliases and Direct Kafka topics are similar but have a few differences. For example, a topic page for a Direct Kafka topic doesn't have a **Replications** tab because Direct Kafka topics don't use them.
 
 \[Omitted image "sc-dash-topic-page.png"\] Alt text: User interface for an individual topic page on the Stream Connect dashboard.
 
-Each individual topic page also has the following components.
+The Hermes topic page has the following components.
 
 -   **7. Topic information section**
 
-    Displays details about the topic, including its name, namespace, status, number of partitions, date created, domain, and app ID. There’s also an **Edit** button so you can edit the topic directly from this page.
+    Displays details about the topic, including the topic alias, namespace, status, number of partitions, date created, domain, and app ID. There’s also an **Edit** button so you can edit the topic directly from this page.
 
--   **8. Consumers tab in the Data Insights section**
+-   **8. Consumers tab**
 
     Displays the following charts.
 
@@ -132,19 +140,19 @@ Each individual topic page also has the following components.
     -   Consumer lag \(per minute\): The consumer lag in this topic group, by consumer.
     All three charts can be filtered to display data for the **Last 5 minutes**, **Last hour**, or **Last 24 hours**. When the **Last 24 hours** is selected, the data is displayed in five minutes increments instead of every minute.
 
-    The Consumers tab also has a Consumer list, which lists the consumers associated with the topic. Each consumer is listed with its number, state, error status, max concurrency, and consumer table. You can select the consumer number to view additional details for that consumer.
+    The **Consumers** tab may also have a Consumer list, which lists the consumers associated with the topic. Each consumer is listed with its number, state, error status, max concurrency, and consumer table. You can select the consumer number to view additional details for that consumer.
 
--   **9. Producers tab in the Data Insights section**
+-   **9. Producers tab**
 
-    The Producers tab displays the following charts.
+    The **Producers** tab displays the following charts.
 
     -   Messages Produced: The total number of messages produced. Updated hourly.
     -   Bytes Produced in \(bytes\): The total number of bytes produced. Updated hourly.
     Both charts can be filtered to display data for the **Last 2 days**, **Last 7 days**, **Today**, **Yesterday**, or a **Custom range**.
 
-    The Producers tab also has a Producer list, which lists the producers associated with the topic, and each producer's name, type, Id, table, and domain. You can select a producer to view additional details.
+    The **Producers** tab also has a Producer list, which lists the producers associated with the topic, and each producer's name, type, Id, table, and domain. You can select a producer to view additional details.
 
--   **10. Replications tab in the Data Insights section**
+-   **10. Replications tab \(only on Hermes topic pages\)**
 
     Displays the topic replications associated with the topic, and each replication's name, topic name, direction, status, whether it's active, and error message. You can select the replication name to view additional details for that topic replication.
 
@@ -165,7 +173,7 @@ The Consumers page has the following components.
     -   Flow Trigger
     -   Script
     -   Transform Map
-    Each consumer is listed with its name, number, state, associated topic, date updated, and who updated it.
+    Each consumer is listed with its name, number, state, topic alias, date updated, and who updated it.
 
 -   **12. Create button**
 
@@ -182,7 +190,7 @@ Each individual consumer page has the following components.
 
 -   **13. Consumer information section**
 
-    Displays details about the consumer, including its number, status, associated topic, Kafka auto position policy, max concurrency, partition group timeout, max batch size, partitions, and an error flag.
+    Displays details about the consumer, including its number, status, topic alias, Kafka auto position policy, max concurrency, partition group timeout, max batch size, partitions, and an error flag.
 
 -   **14. Overview**
 
@@ -195,15 +203,15 @@ Each individual consumer page has the following components.
 
 -   **15. Statistics tab**
 
-    Displays consumer statistics, including the date it was created, consumed bytes, consumed messages, produced messages, lag messages, end offset, interval, offset, and partition group.
+    Displays consumer statistics, including the date it was created, the consumer ID, consumed bytes, consumed messages, produced messages, lag messages, end offset, interval, offset, and partition group.
 
 -   **16. Logs tab**
 
-    Displays the created logs and each log's level, message, and source.
+    Displays the created logs and each log's level, message, alert, and source.
 
 -   **17. Partition Groups tab**
 
-    Displays partition groups with each one's number, first and last partition, poll time, number produced per sec, queue depth, and input rate.
+    Displays partition groups with each one's number, first and last partition, and poll time.
 
 
 For a detailed explanation of consumer data and statistics, including log, and partition group information, see [Viewing Kafka subscriptions and statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/kafka-subscriptions-statistics.md).
@@ -242,14 +250,14 @@ Each individual consumer page has the following components.
     -   Topics writing to: The total number of topics the producer is writing to.
     -   Messages produced rate: The average number of messages produced per second.
     -   Bytes produced rate: The average number of bytes produced per second.
-    -   Undelivered messages: The total number of undelivered messages for the producer.
+    -   Undelivered messages: The total number of undelivered messages for the producer. If you're viewing data for a Stream Producer, this shows Pending messages instead of Undelivered messages. Pending messages refers to the messages in the staging table for this producer that are waiting to be produced.
     -   Messages produced: Shows the number of messages produced over the last seven days.
     -   Bytes Produced: Shows the number of bytes produced over the last seven days.
     This data is updated every hour. The Messages produced and Bytes produced charts can be filtered to display data for the **Last 2 days**, **Last 24 hours**, **Last 7 days**, or a **Custom range**.
 
 -   **22. Statistics**
 
-    Displays producer statistics, including the date, number of produced messages and bytes, topic, and domain.
+    Displays producer statistics, including the date, number of produced messages and bytes, topic alias, and domain. If you're viewing data for a Stream Producer, this section also shows the Stream Producer CDC Statistics.
 
 
 For a detailed description of Producer data and statistics, see [Viewing producer statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/producer-statistics.md).

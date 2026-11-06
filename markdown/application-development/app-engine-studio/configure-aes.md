@@ -7,9 +7,9 @@ release: zurich
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Configure, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Configure App Engine Studio
@@ -47,7 +47,7 @@ ServiceNow provides several additional resources on configuring and administerin
 </td></tr></tbody>
 </table>## Guided setup to configure AES
 
-To open App Engine Studio guided setup, navigate to **All** &gt; **App Engine** &gt; **Configuration** &gt; **Guided Setup**.
+To open App Engine Studio guided setup, navigate to **All** &gt; **App Engine** &gt; **App Engine Studio** &gt; **Configuration** &gt; **Guided Setup**.
 
 The landing page provides information on the different tools and user access. Select the **Get Started** button in the top, right corner to start your configuration. \[Omitted image "aes-guided-setup-sections.png"\] Alt text: App Engine Studio guided setup configuration categories
 

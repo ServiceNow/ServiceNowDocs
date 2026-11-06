@@ -7,7 +7,7 @@ release: zurich
 product: Unified Map
 classification: unified-map
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Administer, Unified Map, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,7 +28,7 @@ In the base system, extended attributes are preconfigured for many common classe
 
 \[Omitted image "um-attributes-panel-annotated.png"\] Alt text: Attributes of the selected CI.
 
-These workspace-specific configuration settings affect all users of the CMDB Unified Map page. The settings do not affect other copies of the Unified Map template. Non-admin users can customize some aspects of their personal experience with Unified Map, but can't configure instance-wide workspace-specific settings.
+These workspace-specific configuration settings affect all users of the CMDB Unified Map page. The settings don't affect other copies of the Unified Map template. Non-admin users can customize some aspects of their personal experience with Unified Map, but can't configure instance-wide workspace-specific settings.
 
 ## Procedure
 
@@ -110,10 +110,10 @@ If selected, use the following process to determine which attributes to display.
 </td></tr></tbody>
 </table>3.  Select **Submit** or **Update**.
 
-    The updated settings appear in the appropriate related list on the Configuration identifier form, as described in [Configuring Unified Map — Admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/unified-map/administer-unified-map.md).
+    The updated settings appear in the appropriate related list on the Configuration identifier form, as described in [Configuring Unified Map — admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/unified-map/administer-unified-map.md).
 
 
-**Parent Topic:**[Configuring Unified Map — Admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/unified-map/administer-unified-map.md)
+**Parent Topic:**[Configuring Unified Map — admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/unified-map/administer-unified-map.md)
 
 **Related topics**  
 

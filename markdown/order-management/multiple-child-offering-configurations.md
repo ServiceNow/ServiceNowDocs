@@ -1,18 +1,18 @@
 ---
 title: Multiple configurations
-description: As a product catalog admin, when you define a configurable product offering, you can enable agents to add multiple configurations of a child product offering. When agents add multiple configurations, they can change the quantity for each configuration of the offering, define each configuration as a separate line item, and select the appropriate options and characteristics for each configuration.
+description: As a product catalog manager, when you define a configurable product offering, you can enable agents to add multiple configurations of a child product offering. When agents add multiple configurations, they can change the quantity for each configuration of the offering, define each configuration as a separate line item, and select the appropriate options and characteristics for each configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/multiple-child-offering-configurations.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Create product offerings, Product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Create product offerings, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Multiple configurations
 
-As a product catalog admin, when you define a configurable product offering, you can enable agents to add multiple configurations of a child product offering. When agents add multiple configurations, they can change the quantity for each configuration of the offering, define each configuration as a separate line item, and select the appropriate options and characteristics for each configuration.
+As a product catalog manager, when you define a configurable product offering, you can enable agents to add multiple configurations of a child product offering. When agents add multiple configurations, they can change the quantity for each configuration of the offering, define each configuration as a separate line item, and select the appropriate options and characteristics for each configuration.
 
 ## How multiple configurations work
 
@@ -64,14 +64,10 @@ The system also uses the cardinality rules to determine when certain configurati
 
 ## Limitations for multiple configurations
 
-Multiple configurations have the following limitations:
+Multiple configurations aren’t supported for quotes of type sales agreements. Also, changes for quotes and orders with sold products or product inventory have the following limitations:
 
--   Agents use the legacy product configurator to create multiple configurations. This feature is not supported on the CPQ Configurator.
--   Quotes of type sales agreements are not supported.
--   Changes to quotes and orders with sold products or product inventory:
-    -   Sold products: When creating a modify order, the **Delete** option for multiple configurations is supported, but the **Clone** and **Split** options aren’t supported.
-    -   Product inventory: Multiple configurations are supported. But the **Split** option isn’t supported.
--   For product offerings that have an associated specification, all characteristics from the specification are rolled up to the parent product offering. Pricing occurs at the product offering level and not at the specification level, which prevents different configurations from having separate pricing. Multiple configurations aren't supported in this scenario, since the pricing model assumes only one characteristic per option.
+-   Sold products: When creating a modify order, the **Delete** option for multiple configurations is supported, but the **Clone** and **Split** options aren’t supported.
+-   Product inventory: Multiple configurations are supported. The **Split** option isn’t supported.
 
 ## Setting up multiple configurations
 
@@ -79,4 +75,11 @@ For details on enabling and creating multiple configurations for child offerings
 
 -   [Create product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-create-product-offering.md)
 -   [Create multiple configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/create-multiple-child-configs.md)
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/product-catalog-managment.md)
 

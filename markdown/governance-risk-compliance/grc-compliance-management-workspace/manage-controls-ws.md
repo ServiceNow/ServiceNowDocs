@@ -7,9 +7,9 @@ release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [Use, GRC Compliance Workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Use, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Manage controls using the Compliance Workspace
@@ -32,7 +32,7 @@ As your business changes, and your IT data, processes, and technology improve, r
 
 ## Consolidate your controls
 
-Look for opportunities to consolidate controls. Look for common, repeated controls across multiple regulatory authorities of frameworks \(for example, SOX and GLBA and AML\). Avoid operating a single control multiple times for each regulation, by cross-mapping controls and eliminating the redundant ones. This process establishes a single consolidated set of controls: control framework, performing and preserving the cross mapping of controls is critical for audits.
+Look for opportunities to consolidate controls. Look for common, repeated controls across multiple regulatory authorities of frameworks \(for example, SOX and GLBA and AML\). Avoid operating a single control multiple times for each regulation, by cross-mapping controls and eliminating the redundant ones. This process establishes a single consolidated set of controls = control framework, performing and preserving the cross mapping of controls is critical for audits.
 
 ## Define controls and business rules
 
@@ -45,14 +45,6 @@ The business rules you define up front, establish the GRC configuration settings
 -   Prepare attestations, assessments, questionnaires, and required evidence
 -   Compose likely use-cases \(who needs to interact with or view the contents of the GRC system and for what purposes\)
 -   Map authoritative sources to policies, to procedures, to controls, and to risks
-
-## Control requirements
-
-When Create control requirements option is enabled for a control objective, for every control generated under an entity type, control requirements are also created automatically. Previously, only controls were created for entity types. The number of Control Requirements equals the number of control objective requirements.
-
-## Attestation at control requirement level
-
-The Attestation at control requirement level feature allows attestation at a granular level for individual control requirements within a control. Admins can enable requirement-level attestation, assign respondents, and generate assessment tasks for each control requirement. Respondents then attest to requirements by indicating whether they are implemented or not, providing evidence or explanations as required. Failed attestations automatically generate issues, mark the parent control as non-compliant, and roll up the status to the associated entity and control objective.
 
 ## Entity Based Access \(EBA\)
 

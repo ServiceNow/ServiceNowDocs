@@ -7,7 +7,7 @@ release: zurich
 product: Innovation Management
 classification: innovation-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -23,7 +23,7 @@ Map an idea category table with an Idea module to specify the category options l
 -   **[Configure idea categories for transferring request as Idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/innovation-management/direct-transfer-req-idea.md)**  
 Configure idea states to use when directly transferring an HR case, incident, or a custom task from your department as an idea.
 -   **[Migrating from the legacy Ideas application to Idea Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/innovation-management/migrate-legacy-to-new-ideas.md)**  
-If you're upgrading to the Zurich release, complete the migration tasks after the upgrade to start using the new Idea Portal.
+If you are upgrading to the Brazil release, complete the migration tasks after the upgrade to start using the new Idea Portal.
 
 **Parent Topic:**[Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/innovation-management/innovation-management-landing.md)
 

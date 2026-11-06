@@ -1,16 +1,16 @@
 ---
-title: Install and configure Opportunity Management
+title: Configuring Opportunity Management
 description: Install the Opportunity Management application, which enables sales agents and account executives to get pre-sales product recommendations based on customer needs. You then assign the user roles and configure related features, such as needs analysis, used in Opportunity Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/configure-opportunity-mgmt.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Lead and opportunity management apps, Configure, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Install and configure Opportunity Management
+# Configuring Opportunity Management
 
 Install the Opportunity Management application, which enables sales agents and account executives to get pre-sales product recommendations based on customer needs. You then assign the user roles and configure related features, such as needs analysis, used in Opportunity Management.
 
@@ -35,18 +35,6 @@ Role
 </td><td>
 
 Install Opportunity Management from the ServiceNow® Store Store.
-
-</td><td>
-
-Admin
-
-</td></tr><tr><td>
-
-[Assign user roles in Sales Customer Relationship Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-SOM-roles.md)
-
-</td><td>
-
-Assign the user roles for Opportunity Management, Product Catalog Management, and Pricing Management.
 
 </td><td>
 
@@ -90,7 +78,7 @@ Product catalog admin
 
 </td></tr><tr><td>
 
-[Configure location-based transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/config-location-transaction.md)Configure location-based transactions
+[Configure location-based transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/config-location-transaction.md)
 
 </td><td>
 
@@ -136,5 +124,35 @@ Link one or multiple opportunity stages with a sales cycle.
 
 Opportunity setup writer
 
+</td></tr><tr><td>
+
+[Configure guided selling activities in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-guided-selling-exit-criteria.md)
+
+</td><td>
+
+Define mandatory exit criteria per opportunity stage to enforce process compliance and prevent stage advancement until required actions are complete.
+
+</td><td>
+
+Opportunity setup writer
+
+</td></tr><tr><td>
+
+[Customize the opportunity summarization skill in ServiceNow Otto for Sales Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/customize-opportunity-summarization-skill-now-assist-som.md)
+
+</td><td>
+
+Configure the opportunity summarization skill to generate AI-powered opportunity summaries in the CRM Workspace, including which data sources and fields contribute to the summary.
+
+</td><td>
+
+Admin
+
 </td></tr></tbody>
-</table>
+</table>**Related topics**  
+
+
+[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/opportunity-mgmt-using.md)
+
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/opportunity-management.md)
+

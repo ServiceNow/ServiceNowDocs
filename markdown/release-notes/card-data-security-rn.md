@@ -1,23 +1,23 @@
 ---
-title: Card data security release notes
-description: The ServiceNow Card data security application enables you to tokenize sensitive card data, such as primary account numbers \(PANs\), in Financial Services Operations dispute workflows. Card data security is a new application in the Zurich release.The ServiceNow Card data security application enables you to tokenize sensitive card data, such as primary account numbers \(PANs\), in Financial Services Operations dispute workflows. Card data security is a new application in the Zurich release.
+title: Card Data Security release notes
+description: The ServiceNow Card data security application helps you tokenize sensitive data in card disputes, such as primary account numbers \(PANs\) and documents, in Financial Services Operations dispute workflows. Card data security was enhanced and updated in the Brazil release.View, select, and download individual files within a ZIP attachment directly in the Disputes workspace, without leaving the platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/card-data-security-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Financial Services Operations release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+breadcrumb: [Financial Services Operations release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
-# Card data security release notes
+# Card Data Security release notes
 
-The ServiceNow® Card data security application enables you to tokenize sensitive card data, such as primary account numbers \(PANs\), in Financial Services Operations dispute workflows. Card data security is a new application in the Zurich release.
+The ServiceNow® Card data security application helps you tokenize sensitive data in card disputes, such as primary account numbers \(PANs\) and documents, in Financial Services Operations dispute workflows. Card data security was enhanced and updated in the Brazil release.
 
 ## About Card data security
 
--   Ensure Payment Card Industry \(PCI\) compliance and the secure handling of sensitive card data with an integrated tokenization solution for Financial Services Operations disputes.
--   Integrate with major core systems and third-party systems, including \(but not limited to\) Visa, Mastercom, Mastercom Extended, Ethoca, Verifi, and Visa Stop Payment Service. Visa and Mastercom are predefined integrations.
+-   Display sensitive documents, and mask or reveal PANs in the FSO workspace with the Card data security container.
+-   View external documents from card networks, acquirers, and merchants at the transaction level of a dispute in an updated Attachments view.
 
 See [Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/financial-services-operations/card-data-security.md) for more information.
 
@@ -27,26 +27,19 @@ See [Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 
 -   **Activation information**
 
-    Install Card data security by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Install Card data security by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/financial-services-operations-rn-landing.md)
 
-## Zurich
+## Version 2.2.1
 
-The ServiceNow® Card data security application enables you to tokenize sensitive card data, such as primary account numbers \(PANs\), in Financial Services Operations dispute workflows. Card data security is a new application in the Zurich release.
+View, select, and download individual files within a ZIP attachment directly in the Disputes workspace, without leaving the platform.
 
 ### What's new
 
--   **[Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/financial-services-operations/card-data-security.md)**
+-   **View files in ZIP attachments**
 
-    Tokenize secure card data in FSO dispute workflows by integrating with a tokenizer service through Card data security. You can configure which values to tokenize, establish connections to core systems and third-party systems like Visa and Mastercard, and manage tokenizer resource configurations.
-
-
-### What's changed
-
--   **Coral theme**
-
-    Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+    Preview and download individual files within a ZIP attachment directly in the Merchant tab of the Disputes workspace. Select a file from the file list to preview it, then download it if you need a copy.
 
 

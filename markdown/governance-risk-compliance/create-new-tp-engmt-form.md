@@ -1,18 +1,18 @@
 ---
-title: Create New Third-party engagement form
-description: On the Create New Third-party engagement form, fill in the fields.
+title: Create Third party engagement form
+description: On the Create Third-party engagement form, fill in the fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/create-new-tp-engmt-form.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create a third-party engagement and enhance digital resilience data, Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Create a third-party engagement for digital resilience, Use, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Create New Third-party engagement form
+# Create Third party engagement form
 
-On the Create New Third-party engagement form, fill in the fields.
+On the Create Third-party engagement form, fill in the fields.
 
 <table id="table_jfh_cl4_ycc"><thead><tr><th>
 
@@ -32,11 +32,11 @@ Unique name for the engagement. Ideally, mention the product or service that is 
 
 </td></tr><tr><td>
 
-Third-party
+Third party
 
 </td><td>
 
-Third-party for whom you are creating this engagement record.
+Third-party for whom you're creating this engagement record.
 
 </td></tr><tr><td>
 
@@ -115,7 +115,7 @@ Business owner
 
 </td><td>
 
-Person who is familiar with the engagement organization and the product or services that will be engaged. Select the lock to lock/unlock the field.
+Specify the person who is familiar with the engagement organization and the product or services that will be engaged. Click the lock to lock/unlock the field.
 
 </td></tr><tr><td>
 
@@ -157,7 +157,7 @@ Computed risk rating
 
 Calculated **Computed risk rating**. This field is auto-filled.
 
- Overall risk rating for the third-party, calculated after the assessment by rolling up all of the TPR assessors' risk ratings.
+ The value is overall risk rating for the third-party, calculated after the assessment by rolling up all of the TPR assessors' risk ratings.
 
 </td></tr><tr><td>
 
@@ -316,11 +316,11 @@ Digital resilience information
 </td><td>
 
 Digital resilience information for the third-party engagement. You can add the following parameters:-   Name
--   Third-party
+-   Third party
 -   Identification code of ICT third-party service provider
 -   Type of code to identify the ICT third-party service provider
 -   Name of the ICT third-party service provider
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a third-party engagement and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-drtp-reg-tp-engagement.md)
+</table>**Parent Topic:**[Create a third-party engagement for digital resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-drtp-reg-tp-engagement.md)
 

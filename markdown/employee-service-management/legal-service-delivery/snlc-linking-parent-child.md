@@ -7,7 +7,7 @@ release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -29,6 +29,8 @@ To link a contract as a parent, the following conditions must be met:
 -   Only one parent contract can be selected while linking.
 -   The parent contract must be a single contract type using own paper or third-party paper.
 
+When a renewal request is linked to a previous contract, the renewal does not inherit the previous contract's parent-child hierarchy or related-contract family structure. The renewed contract is a new contract connected to the previous one through the renewal link, not a child of it.
+
 **Parent Topic:**[Use Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-use-sn-legal-cont-landing.md)
 
 **Related topics**  
@@ -40,6 +42,8 @@ To link a contract as a parent, the following conditions must be met:
 
 [Contract amendments]()
 
+[Contract renewals]()
+
 [Internal review overview]()
 
 [Signature workflow for a request]()
@@ -47,8 +51,6 @@ To link a contract as a parent, the following conditions must be met:
 [Cancel a legal request]()
 
 [View and download a signed contract document]()
-
-[View contract requests]()
 
 [Manage Contract Management Pro for Legal Service Delivery]()
 

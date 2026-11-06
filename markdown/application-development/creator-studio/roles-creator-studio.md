@@ -7,9 +7,9 @@ release: zurich
 product: Creator Studio
 classification: creator-studio
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Configure, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Configure, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Creator Studio roles and personas
@@ -72,7 +72,7 @@ sn\_creatorstudio.user
 </td><td>
 
 -   Users can create apps in Creator Studio.
--   The user is automatically delegated as the app owner. For more information, see [Exploring Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
+-   The user is automatically delegated as the app owner. For more information, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
 -   Contains sn\_g\_app\_creator.app\_creator.
 
  **Note:** This role gets assigned the delegated\_developer role when they create or get access to an app.
@@ -117,7 +117,7 @@ now.assist.creator
 
 </td><td>
 
-Grants users access to ServiceNow Otto for Creator skills to create forms in Creator Studio.
+Grants users access to AI skills to create forms in Creator Studio.
 
 </td></tr><tr><td>
 
@@ -133,7 +133,7 @@ Granular admin role that contains the following Creator Studio granular admin ro
 -   sn\_creatorstudio.app\_configurator
 -   sn\_creatorstudio.reports\_viewer
 
-For more information on working with granular roles, see [Granular admin roles required to secure your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/roles-within-platform-security.md).
+For more information on working with granular roles, see .
 
 </td></tr><tr><td>
 

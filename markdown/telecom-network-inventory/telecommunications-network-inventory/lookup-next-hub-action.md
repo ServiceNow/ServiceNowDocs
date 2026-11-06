@@ -7,9 +7,9 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Telecommunications Network Inventory function catalog, Reference, Telecommunications Network Inventory]
+breadcrumb: [Function catalog, Reference, Telecommunications Network Inventory]
 ---
 
 # Lookup Next Hub function
@@ -39,7 +39,7 @@ The following table lists the input fields in the Lookup Next Hub action and the
 |Network Interface|Network interface record.|Reference.Network Interface|
 |If multiple records are found action|Option to select the action when multiple records are found. You can select **Return only the first record** from the list to return the details of the first physical connection record.|Choice|
 
-To learn more about the variable data types, see Flow Designer input and output data variables.
+To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/action-inputs-outputs.md).
 
 ## Output
 
@@ -56,7 +56,7 @@ The following table lists the information about the function output.
 
 -   **Use Case 1**
 
-    If the input is passed as Interface-1 of Equipment-1 as shown in the following example, the function returns empty records, because the network inventory has no physical or internal connections in the network inventory.
+    If the input is passed as Interface-1 of Equipment-1 as shown in the following example, the function returns empty records. This is because the network inventory has no physical or internal connections.
 
     \[Omitted image "cascade-action-1.png"\] Alt text: Display of use case 1 where Interface-1 is connected to Equipment-1.
 
@@ -68,9 +68,9 @@ The following table lists the information about the function output.
 
 -   **Use Case 3**
 
-    If the input is passed as Interface-1 of Equipment-1 as shown in the following example, the function returns the network interface record of Interface-2 and the physical connection record of PC-1.
+    If the input is passed as Interface-1 of Equipment-1 as shown in the following example, the function returns the network interface record of Interface-2. It also returns the physical connection record of PC-1.
 
-    \[Omitted image "cascade-action-3.png"\] Alt text: Display of use case 3 where Interface-2 and Interface-1 are connected to Equipment-1, and Interface-3 is connected to Equipment-2, and there is a physical connection between Interface 1 and 3.
+    \[Omitted image "cascade-action-3.png"\] Alt text: Diagram of use case 3 where Interface-1 and Interface-2 are connected to Equipment-1, Interface-3 is connected to Equipment-2, and a physical connection exists between Interface-1 and Interface-3.
 
 -   **Use Case 4**
 

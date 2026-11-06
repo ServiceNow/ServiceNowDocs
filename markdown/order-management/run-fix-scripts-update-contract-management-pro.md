@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/run-fix-scripts-update-contract-management-pro.html
 release: zurich
 topic_type: task
-last_updated: "2025-12-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrate with Contract Management Pro, Quote management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Integrate with Contract Management Pro, Quote Management reference, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
 
 # Run fix scripts to update Contract Management Pro
@@ -30,4 +30,6 @@ If the demo data was installed, the Request Type field in the demo data will rem
 
 3.  Click **Run Fix Script** at the top of record, in the modal that opened up select **Proceed/Proceed in background** to run the script.
 
+
+**Parent Topic:**[Integrate with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/quote-management-integrate-contract-management.md)
 

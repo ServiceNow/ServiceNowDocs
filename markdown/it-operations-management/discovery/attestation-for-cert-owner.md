@@ -21,9 +21,9 @@ You can configure the system to send certificate ownership attestation reviews b
 **Related topics**  
 
 
-[Configure certificate attestation review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/configure-certificate-attestation.md)
+[Configure certificate attestation reviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/configure-certificate-attestation.md)
 
-[Attest or reject certificate ownership via Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/attest-reject-certificate-notification.md)
+[Attest or reject certificate ownership via email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/attest-reject-certificate-notification.md)
 
 [Reassign certificate ownership](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/reassign-certificate-ownership.md)
 

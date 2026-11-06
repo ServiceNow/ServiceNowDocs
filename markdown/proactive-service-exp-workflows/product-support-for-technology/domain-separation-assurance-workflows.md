@@ -7,9 +7,9 @@ release: zurich
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Proactive Service Experience Workflows]
+breadcrumb: [Reference, Proactive Service Experience Workflows, Product Support for Technology]
 ---
 
 # Domain separation and Proactive Service Experience Workflows
@@ -28,9 +28,9 @@ For more information on support levels, see [Application support for domain sepa
 
 ## Overview of Proactive Service Experience Workflows
 
-Proactive Service Experience Workflows \(TAW\) is a series of workflows that enhance the Incident Management application and its integration with customer workflow processes, such as Case Management and Field Service Management. That means that Proactive Service Experience Workflows doesn't require any additional domain separation support because the foundation applications already provide that support. To learn more, see [Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows.md).
+Proactive Service Experience Workflows \(TAW\) is a series of workflows that enhance the Incident Management application and its integration with customer workflow processes, such as Case Management and Field Service Management. That means that Proactive Service Experience Workflows doesn't require any additional domain separation support because the foundation applications already provide that support. To learn more, see [Product Support for Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows.md).
 
-**Parent Topic:**[Proactive Service Experience Workflows reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
+**Parent Topic:**[Product Support for Technology reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
 
 **Related topics**  
 

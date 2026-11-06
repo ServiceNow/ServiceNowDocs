@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/install-synthetic-monitoring.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Landing page, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configure, Synthetic monitoring, ITOM AIOps, IT Operations Management]
 ---
 
 # Install synthetic monitoring
@@ -16,7 +16,7 @@ You can install the synthetic monitoring application \(`com.snc.uib.sow_syntheti
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [synthetic monitoring](https://store.servicenow.com/sn_appstore_store.do#!/store/application/16ade75aa323021035ce4514d31e61aa/1.0.0) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 -   Confirm that the Configuration items \(CI\) that you want to monitor exist in the CMDB HTTP Endpoints \[cmdb\_ci\_endpoint\_http\] table.
 -   Confirm that configured credentials exist in the Credentials \[discovery\_credentials\] table if your endpoint requires authentication.

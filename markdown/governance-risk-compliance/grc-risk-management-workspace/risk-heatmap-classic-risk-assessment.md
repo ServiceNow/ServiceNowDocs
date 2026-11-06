@@ -7,7 +7,7 @@ release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Analytics and reporting solutions for Risk Management, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -18,7 +18,7 @@ As an operational risk manager, if you opt to use the classic risk assessment to
 
 A risk heatmap is a data visualization tool that is used for communicating the specific risks that threaten an organization. A risk heatmap is considered a critical component of enterprise risk management because it helps to identify risks that need more attention.
 
-To view the operational risk heatmaps, ensure that you activate the GRC Risk Management \(sn\_risk\) plugin. When you select any tile of the heatmap, you can view the risk records and see the entity, the risk statement, the owning group, the owner and the calculated scores.
+To view the operational risk heatmaps, ensure that you activate the GRC Risk Management \(sn\_risk\) plugin. When you click any tile of the heatmap, you can view the risk records and see the entity, the risk statement, the owning group, the owner and the calculated scores.
 
 \[Omitted image "heatmap-classic-risk-assess.jpg"\] Alt text: Risk heatmap for classic risk assessment.
 

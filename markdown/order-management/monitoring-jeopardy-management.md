@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/monitoring-jeopardy-management.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -61,4 +61,10 @@ Navigate to **Customer Order** &gt; **Order** &gt; **Order Line Item** &gt; **Ta
 -   Red: Task is near the end of the critical percentage of allotted time.\[Omitted image "jm-sla-indicator.png"\] Alt text: The image shows a method of monitoring jeopardy risk level using the Order Task Characteristics Values table.
 
 </td></tr></tbody>
-</table>
+</table>**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-order-management.md)
+

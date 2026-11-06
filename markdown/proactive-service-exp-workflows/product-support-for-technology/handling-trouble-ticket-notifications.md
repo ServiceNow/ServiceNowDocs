@@ -1,18 +1,18 @@
 ---
-title: Handling API notifications
-description: DOC1134021 Forward port trouble ticket name change.Use the Telecommunications API notification to inform third-party systems about the incidents or cases that are created in a reactive or proactive way in the ServiceNow instance. The customer will receive notifications regarding updates on the incident.
+title: Exploring API Notification Management
+description: Use the Telecommunications API notification to inform third-party systems about the incidents or cases that are created in a reactive or proactive way in the ServiceNow instance. The customer will receive notifications regarding updates on the incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/proactive-service-exp-workflows/product-support-for-technology/handling-trouble-ticket-notifications.html
 release: zurich
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Use, Proactive Service Experience Workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [API Notification Management, Product Support for Technology]
 ---
 
-# Handling API notifications
+# Exploring API Notification Management
 
 Use the Telecommunications API notification to inform third-party systems about the incidents or cases that are created in a reactive or proactive way in the ServiceNow instance. The customer will receive notifications regarding updates on the incident.
 
@@ -33,15 +33,4 @@ The trouble ticket notification uses a generic framework to send the outbound no
     To learn more, see [Producing outbound API notifications using Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/hermes-stream-connect-kafka-workflow.md).
 
 2.  Publish messages to open message bus. This use case is message-bus agnostic and therefore supports publishing the notification to any open message bus. Both cloud and on-premise customers can use this use case. To learn more, see [Outbound trouble ticket notifications via open message bus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/trouble-ticket-workflow-using-pub-sub-model.md).
-
--   **[Producing outbound API notifications using Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/hermes-stream-connect-kafka-workflow.md)**  
-Produce an outbound notification from the ServiceNow instance using the Hermes capability. Customers can consume the details of the message from the Kafka environment in their external system.
--   **[Outbound trouble ticket notifications via open message bus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/trouble-ticket-workflow-using-pub-sub-model.md)**  
-Produce an outbound notification from the ServiceNow instance using the open message bus. Customers can consume the details of the notification from the message bus in their external system.
--   **[Using the producer framework for outbound notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/using-producer-framework-for-trouble-ticket-notification.md)**  
-The producer framework picks the event from the ServiceNow instance and sends the outbound notification to the external system. You can consume the details of the notification from the messaging service that is installed in your external system.
--   **[Deactivate API notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/deactivate-trouble-ticket-notification.md)**  
-Disable the business rules related to the incident and case tables to stop receiving trouble ticket notifications. Customers can disable the business rules if they don't want to leverage the trouble ticket notification capability.
-
-**Parent Topic:**[Using Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/use-assurance-workflows.md)
 

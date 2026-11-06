@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-11-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ACC deployment - shared between servers and endpoints, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Configure the Google Cloud Platform \(GCP\) configuration data file
@@ -37,5 +37,5 @@ The GCP configuration data file is a .json file which contains all of the metric
 4.  Select the Manage Attachments icon \(\[Omitted image "paper-clip-icon.png"\] Alt text:\) to attach the updated configuration file.
 
 
-**Parent Topic:**[Agent Client Collector deployment - shared between servers and endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-shared-deployment.md)
+**Parent Topic:**[Deploying Agent Client Collector on both servers and endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-shared-deployment.md)
 

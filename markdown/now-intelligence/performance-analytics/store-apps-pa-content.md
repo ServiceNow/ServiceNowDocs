@@ -7,7 +7,7 @@ release: zurich
 product: Performance Analytics
 classification: performance-analytics
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Platform Analytics solutions, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -28,7 +28,7 @@ A Performance Analytics administrator may need to reschedule the [data collectio
 
 ## Customer Service applications
 
--   
+-   [Conversational Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/VA-dashboard-landing-page-pae.md)
 -   [Workforce Optimization for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/configurable-wfo-cs.md)
 
 ## DevOps applications
@@ -55,7 +55,6 @@ A Performance Analytics administrator may need to reschedule the [data collectio
 
 -   [Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/cf-coaching-landing.md)
 -   [On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/viewing-performance-report-oncall.md)
--   Service Portfolio Management Premium \(Service Owner Workspace\)
 
 ## AI Experience applications
 

@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ACC certificates, ACC deployment - shared between servers and endpoints, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC certificates, ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Run Certificate Discovery via Agent Client Collector for Visibility Content
@@ -68,5 +68,5 @@ A CI relationship is created between the discovered certificates and the corresp
 
 [Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cert-inventory-mgmt.md)
 
-[Run certificate discovery via port scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/run-cert-inventory-mgmt-ports.md)
+[Run Certificate Discovery via port scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/run-cert-inventory-mgmt-ports.md)
 

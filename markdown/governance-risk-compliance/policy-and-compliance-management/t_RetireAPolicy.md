@@ -7,9 +7,9 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage control objectives and policies, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Retire a policy
@@ -34,6 +34,10 @@ A policy can be retired anytime after being approved and published to the KB. If
 
     This option is available only for policies in a published state.
 
+
+## Result
+
+When you retire a policy, the system evaluates each control objective linked to it. If a control objective isn’t linked to another Published policy or to an active citation, the system deactivates it and retires its associated controls. Otherwise, the control objective is left unchanged. Retiring a policy also cancels its policy acknowledgement campaign. For any common control retired as a result, the system deactivates its reliant entity associations.
 
 **Parent Topic:**[Manage control objectives and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/r_PoliciesAndProcedures.md)
 

@@ -7,8 +7,8 @@ release: zurich
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Use, Service Portfolio Management, IT Service Management]
 ---
 
@@ -24,7 +24,7 @@ For information on adding availability commitments, see [Add a commitment to a s
 
 ## Availability calculator
 
-Starting with the Zurich release, you can use an availability calculator **\[com.snc.availability.v2\]** for improved performance, calculations, and maintenance.
+Starting with the Brazil release, you can use an availability calculator **\[com.snc.availability.v2\]** for improved performance, calculations, and maintenance.
 
 The availability calculator is redesigned from its predecessor to ensure that you see the most updated and accurate availability data in the period that you want.
 
@@ -53,9 +53,9 @@ To set the updated system property to 'true,' admins must do the following:
 
 ## Availability reporting for application services
 
-To view availability reporting for application services, you must create and map availability commitments to an application service using the **\[service\_offering\_commitment table\]**.
+To view availability reporting for application services, you must create and map availability commitments to an application service using the **\[cmdb\_ci\_service\_auto table\]**.
 
-In the **\[service\_offering\_commitment table\]**, use the **cmdb\_ci** field in the **service\_offering\_commitment table** to associate an application service to an availability commitment.
+In the **\[cmdb\_ci\_service\_auto table\]**, use the **cmdb\_ci** field in the **service\_offering\_commitment** field to associate an application service to an availability commitment.
 
 ## Generate availability results
 

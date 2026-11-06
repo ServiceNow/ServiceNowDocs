@@ -7,7 +7,7 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
@@ -100,7 +100,7 @@ References
 
 </td><td>
 
--   [Using License and Permit Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/government-industry/psds-using-lp-playbooks.md)
+-   [Using License and Permit Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/government-industry/psds-using-lp-playbooks.md)
 -   [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/c_ApplicationScope.md)
 
 </td></tr></tbody>

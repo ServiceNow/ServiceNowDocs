@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/install-order-management-for-channel-partners.html
 release: zurich
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Partner Relationship Management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
 
 # Install Order Management for Channel Partners
@@ -16,7 +16,7 @@ Install the Order Management for Channel Partners plugin \(com.snc.partner\_rela
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 
 Depending on your entitlements, you must install demo data after installation. Demo data comprises the sample records that describe application features for the common use cases.
 
@@ -47,15 +47,15 @@ For more information on viewing components that are installed with an applicatio
 
 4.  If you want to install demo data, do one of the following depending on your entitlements.
 
-<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d67318e134">
+<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d55163e134">
 
 Demo data install task
 
-</th><th align="left" id="d67318e137">
+</th><th align="left" id="d55163e137">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d67318e143">
+</th></tr></thead><tbody><tr><td id="d55163e143">
 
 **If demo data is available and you want to install it**
 
@@ -65,7 +65,7 @@ Description
 2.  Select **Install**.
  **Important:** If you don't load the demo data during installation, it's unavailable to load later.
 
-</td></tr><tr><td id="d67318e173">
+</td></tr><tr><td id="d55163e173">
 
 **If the Load Demo Data option isn’t available but you want demo data**
 
@@ -84,4 +84,11 @@ Load the demo data after installing the Sales Common plugin.1.  Install Order Ma
 You have successfully installed the Order Management for Channel Partners \(com.snc.partner\_relationship\_management\_orm\) application.
 
 **Parent Topic:**[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-partner-relationship-management.md)
+
+**Related topics**  
+
+
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/partner-relationship-management.md)
+
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-partner-relationship-management.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/dc-all-upgrade.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Impact Value Management data collection apps, Configuring Impact, Impact]
+breadcrumb: [Enable data collection for Value Management, Guided Setup \(Legacy\), Configuring Impact, Impact]
 ---
 
 # Upgrading the Data Collection Content Pack
@@ -18,4 +18,6 @@ Since users might change artifacts within this app \(for example, indicator, ind
 
 -   Accept the customizations.
 -   Revert the customizations back to the base system, and then reapply them.
+
+**Parent Topic:**[Enable data collection for Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-toolkit.md)
 

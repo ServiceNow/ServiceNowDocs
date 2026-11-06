@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Event rules, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-**Note:** Use [Ignore automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/create-ignore-automation-sow-itom.md) and [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/enrich-alert-sow-itom.md) in Service Operations Workspace, the updated way to automatically filter out irrelevant alerts, or to transform and standardize alert data for better response.
+**Note:** Use [Ignore automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/create-ignore-automation-sow-itom.md) and [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/enrich-alert-sow-itom.md) in Service Operations Workspace, the updated way to automatically filter out irrelevant alerts, or to transform and standardize alert data for better response.
 
 View the list of available event rules on the **Event Rules** page to determine whether you want to create or edit an event rule.
 
@@ -48,13 +48,13 @@ You can refresh an existing event rule with new event data. For more information
 -   Event rules that aren’t configured to perform any action are skipped. Therefore, if the rule isn’t configured as ignore, threshold, or binding, it’s important to specify either the match or the composed fields.
 -   Make sure that you don’t change the **Classification** field value in event \[em\_event\] tables, either manually, by script, or by event rule.
 
-**Note:** To automatically filter out irrelevant alerts or transform and standardize alert data for better response, you can also use [Ignore automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/create-ignore-automation-sow-itom.md) and [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/enrich-alert-sow-itom.md).
+**Note:** To automatically filter out irrelevant alerts or transform and standardize alert data for better response, you can also use [Ignore automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/create-ignore-automation-sow-itom.md) and [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/enrich-alert-sow-itom.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Event Management** &gt; **Rules** &gt; **Event Rules** and take one of the following actions.
 
-<table id="choicetable_u5d_w1m_zt"><tbody><tr><td id="d604693e198">
+<table id="choicetable_u5d_w1m_zt"><tbody><tr><td id="d649974e196">
 
 **Create an event rule from an existing event**
 
@@ -68,7 +68,7 @@ You can refresh an existing event rule with new event data. For more information
 
 The event fields are copied to the Event Field Rules section of the rule.
 
-</td></tr><tr><td id="d604693e226">
+</td></tr><tr><td id="d649974e224">
 
 **Edit an existing event rule**
 
@@ -81,7 +81,7 @@ Rule cannot be viewed in the
           event rule designer. To modify the rule click 'Save and Upgrade'.
 ```
 
-</td></tr><tr><td id="d604693e250">
+</td></tr><tr><td id="d649974e248">
 
 **Create an event rule**
 
@@ -149,7 +149,7 @@ When the rules are running – first the global rules run and then the rules tha
 </td></tr></tbody>
 </table>4.  Define the event rule using these Event Rule Designer features.
 
-<table id="choicetable_n2q_nks_sy"><tbody><tr><td id="d604693e380">
+<table id="choicetable_n2q_nks_sy"><tbody><tr><td id="d649974e378">
 
 **Event Filter**
 
@@ -157,7 +157,7 @@ When the rules are running – first the global rules run and then the rules tha
 
 Define a filter to restrict to which events the event rule must apply. See [Filter the events that an event rule applies to](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMCreateFilter.md).
 
-</td></tr><tr><td id="d604693e396">
+</td></tr><tr><td id="d649974e394">
 
 **Transform and compose alert output**
 
@@ -165,7 +165,7 @@ Define a filter to restrict to which events the event rule must apply. See [Filt
 
 Configure the customization of alert content. See [Configure an event rule to customize alert content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMComposeOuput.md).
 
-</td></tr><tr><td id="d604693e415">
+</td></tr><tr><td id="d649974e413">
 
 **Threshold**
 
@@ -173,7 +173,7 @@ Configure the customization of alert content. See [Configure an event rule to cu
 
 Create or close alerts according to the specified threshold. See [Set a threshold to suppress alert generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMISetThresholdEvent.md).
 
-</td></tr><tr><td id="d604693e434">
+</td></tr><tr><td id="d649974e432">
 
 **Binding**
 

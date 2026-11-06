@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/customizing-sales-process-dashboard.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Lead-to-Cash Process Management, Order operations apps, Configure, Sales Customer Relationship Management]
 ---
@@ -22,4 +22,11 @@ Customize the details displayed on the node map tiles in the Lead-to-Cash Proces
 Customize the sales entities from which the tasks are displayed, icon and fields that are displayed on each task tile, and create custom options to filter and view consolidated tasks on the sales process dashboard in Lead-to-Cash Process Management using Entity View Action Mapping \(EVAM\).
 
 **Parent Topic:**[Configuring Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configuring-lead-cash-process-management.md)
+
+**Related topics**  
+
+
+[Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-lead-cash-process-management.md)
+
+[Using Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-lead-cash-process-management.md)
 

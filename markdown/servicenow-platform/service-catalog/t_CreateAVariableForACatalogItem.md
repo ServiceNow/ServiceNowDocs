@@ -7,7 +7,7 @@ release: zurich
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 15
 breadcrumb: [Service catalog variables, Service Catalog Reference, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -165,6 +165,16 @@ Record producer table
 </td><td>
 
 Table that the record producer creates a record in.This field appears if the variable belongs to a record producer.
+
+</td></tr><tr><td>
+
+Hide on grid
+
+</td><td>
+
+Configure the visibility of a variable on the grid layout within a multi-row variable set \(MRVS\) for a catalog item. By default, the check box is not selected.
+
+ If you select it, the variable doesn’t appear on the MRVS grid, but it still appears on the MRVS form.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

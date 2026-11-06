@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/translation-for-now-assist.html
 release: zurich
 topic_type: concept
-last_updated: "2026-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [Translation, Now Assist, Generative AI, GenAI, Native translation]
-breadcrumb: [Configure multilingual service for Now Assist applications, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Configure multilingual service for ServiceNow Otto applications, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Multilingual service for Now Assist
@@ -19,7 +19,7 @@ Now Assist applications use the multilingual capabilities of large language mode
 
 You can configure the multilingual services for Now Assist applications to communicate with your users in their preferred languages. The LLM detects the language used based on the user's language choice in their Language &amp; Region preferences or the contents of the text, such as a conversation message.
 
-Multilingual support is enabled for multiple LLM providers, such as Now LLM Service, Microsoft Azure OpenAI, Anthropic Claude on AWS, and Google Gemini. Azure OpenAI offers the most language support on the ServiceNow AI Platform.
+Multilingual support is enabled for multiple LLM providers, such as Now LLM Service, Microsoft Azure OpenAI, Anthropic Claude, and Google Gemini. Azure OpenAI offers the most language support on the ServiceNow AI Platform.
 
 ## How the different multilingual services work
 
@@ -41,7 +41,7 @@ P1 languages have the strongest native support across most model providers, mean
 
 P2 languages are supported natively by smaller ServiceNow models and most external providers, but not always by every model \(e.g., some exceptions for Canadian French and Dutch\). Accuracy is good, but there may be occasional gaps in nuanced understanding compared to P1 languages.
 
-P3 languages include a broader set of languages supported by major providers like Microsoft Azure OpenAI, Google Gemini, and Anthropic Claude on AWS, but not natively by ServiceNow’s own large models. While coverage is comprehensive, these languages generally have less training depth, so subtle tone or idiomatic expressions may be harder to capture perfectly.
+P3 languages include a broader set of languages supported by major providers like Microsoft Azure OpenAI, Google Gemini, and Anthropic Claude, but not natively by ServiceNow’s own large models. While coverage is comprehensive, these languages generally have less training depth, so subtle tone or idiomatic expressions may be harder to capture perfectly.
 
 -   P1
     -   English
@@ -126,5 +126,5 @@ For more information on tracking Now Assist usage, see [Monitoring Now Assist us
 
 For more information on turning on multilingual services for Now Assist applications, see [Enable translation for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md).
 
-**Parent Topic:**[Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md)
+**Parent Topic:**[Configure multilingual service for ServiceNow Otto applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md)
 

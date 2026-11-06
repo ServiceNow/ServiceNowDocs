@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/map-custom-applications-v2.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Managing custom tables and apps, Subscription Management, Get started, Administer]
+breadcrumb: [Managing custom tables and apps, Subscription Management, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Map a custom application to a product subscription in Subscription Management
@@ -32,17 +32,17 @@ As your developers create and deploy new custom applications and tables on your 
 
 3.  Update your entitlements by mapping one or more custom applications to a recommended product or a product of your choice.
 
-    When possible, Subscription Management displays recommendations for product subscriptions with available custom table entitlements in the **Recommended Product** column. Subscription Management can't display product subscription recommendations for some unmapped custom applications, which therefore aren't shown in the **Unmapped custom applications** tab. For more information about mapping missing custom applications to product subscriptions, see [Map a missing custom application to a product subscription in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/map-missing-custom-app-sub-mgt.md).
+    When possible, Subscription Management displays recommendations for product subscriptions with available custom table entitlements in the **Recommended Product** column. Subscription Management can't display product subscription recommendations for some unmapped custom applications, which therefore aren't shown in the **Unmapped custom applications** tab. For more information about mapping missing custom applications to product subscriptions, see [Map a missing custom app to a product subscription in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/map-missing-custom-app-sub-mgt.md).
 
-<table id="choicetable_nbw_q4g_cyb"><thead><tr><th align="left" id="d209691e165">
+<table id="choicetable_nbw_q4g_cyb"><thead><tr><th align="left" id="d218173e165">
 
 Option
 
-</th><th align="left" id="d209691e168">
+</th><th align="left" id="d218173e168">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d209691e174">
+</th></tr></thead><tbody><tr><td id="d218173e174">
 
 **Map to a recommended product**
 
@@ -53,7 +53,7 @@ Description
 3.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d209691e201">
+</td></tr><tr><td id="d218173e201">
 
 **Map to a product of your choice**
 

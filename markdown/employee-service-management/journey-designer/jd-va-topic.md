@@ -7,8 +7,8 @@ release: zurich
 product: Journey Designer
 classification: journey-designer
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
@@ -17,17 +17,6 @@ breadcrumb: [Use, Journey designer, Employee Journey Management, HR Service Deli
 Complete the Journey designer related tasks from Employee Center using the Now Assist Virtual Agent topics.
 
 To use the following Now Assist Virtual Agent topics in Employee Center, verify that the Journey designer and ServiceNow Otto for HRSD applications are installed from ServiceNow Store.
-
--   Parental Leave of Absence Request
--   Journey Accelerator Task
-
-## Parental Leave of Absence Request
-
-The Parental Leave of Absence Request Virtual Agent topic enables you to apply for a parental leave from Employee Center. From Employee Center, open a chat window and type in words such as, parental leave. After you have provided the required details, such as start date and end date, supporting documents if any, a case is created for the HR team to review.
-
-\[Omitted image "parental-leave.png"\] Alt text: Applying for a parental leave
-
-\[Omitted image "parental-leave-1.png"\] Alt text: Submitting your parental leave
 
 ## Create JA task
 

@@ -7,7 +7,7 @@ release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Portal Data List widget, Set up Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
 ---
@@ -20,7 +20,7 @@ Create a condition script to hide or show a category in the Portal Data List wid
 
 The UI Components for Customer Portals plugin must have been activated. For more information, see [Activate the UI Components for Customer Portals plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-config-portal-widget.md)
 
-Role required: admin or sp\_admin
+Role required: sp\_admin
 
 ## Procedure
 

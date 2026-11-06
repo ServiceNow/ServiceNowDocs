@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/fe-config-customer-supplied-keys.html
 release: zurich
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Field Encryption, Field Encryption, Encryption]
 ---
@@ -16,7 +16,7 @@ Bring your own data encryption key to the platform instead of using the one that
 
 ## Before you begin
 
-Role required: KMF Admin or KMF Cryptographic Manager
+Role required: sn\_kmf.admin or sn\_kmf.cryptographic\_manager
 
 ## About this task
 
@@ -26,7 +26,9 @@ You must have a symmetric key that has been generated outside of ServiceNow. The
 
 ## Procedure
 
-1.  In a command line on your machine \(example: Terminal\), run the following command: `openssl rand -out mykey.bin -hex 32`.
+1.  In a command line on your machine \(example: Terminal\), run the following command: `openssl rand 32 > mykey.bin`.
+
+    **Note:** When using a 128-bit key, run `openssl rand 16 > mykey.bin` instead of 32.
 
     Save the `mykey.bin` file, which will be used in following steps.
 
@@ -43,14 +45,12 @@ Use the symmetric key you've created on your instance by following these steps:
 
 1.  [Configure properties for customer-supplied key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/configure-properties-for-customer-supplied-key.md)
 2.  [Wrap your customer-supplied key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/wrap-your-customer-supplied-key.md)
-3.  [Upload your customer-supplied key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/upload-your-customer-supplied-key.md)
+3.  
 
 -   **[Configure properties for customer-supplied key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/configure-properties-for-customer-supplied-key.md)**  
 Review the system properties for the ephemeral public wrapping key that your instance uses to unwrap customer-supplied keys.
 -   **[Wrap your customer-supplied key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/wrap-your-customer-supplied-key.md)**  
 Wrap your symmetric data encryption key with an ephemeral public wrapping key before you can upload it to your instance.
--   **[Upload your customer-supplied key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/upload-your-customer-supplied-key.md)**  
-Upload your wrapped symmetric data encryption key to your instance to begin using it work encryption.
 
 **Parent Topic:**[Configuring Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/configuring-column-level-encryption.md)
 

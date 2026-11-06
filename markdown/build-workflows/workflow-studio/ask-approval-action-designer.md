@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Steps, Flows, subflows, and actions reference, Reference, Workflow Studio, Build workflows]
+breadcrumb: [Steps, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Ask for Approval step
@@ -60,16 +60,16 @@ Provide a value for each input that your action needs. To add dynamic values, yo
 
     Data type: **Approval Rules**
 
-    Approval and rejection rules to determine which users can approve or reject requests, and what happens after approval or rejection.
+    Configure which users can approve or reject requests, and what happens after the record is approved or rejected.
 
-    Approval or rejection rules include:
+    Approval or rejection user rules include:
 
-    -   Anyone approves
-    -   All users approve
-    -   All responded and anyone approves
-    -   % of users approve
-    -   \# of users approve
-    In the field beside the approval rule, add the desired approvers. To add approvers:
+    -   Anyone approves. Use this option when any user listed can approve.
+    -   All users approve. Use this option when every user listed must approve.
+    -   All responded and anyone approves. Use this option when every user must respond, but only one user must approve.
+    -   % of users approve. Use this option when a majority of users is needed to approve.
+    -   \# of users approve. Use this option when a specific number of users need to approve.
+    In the field beside the approval rule, add the desired approval users. To add approval users:
 
     -   Select individual users or groups.
     -   Drag or select a field from a record.

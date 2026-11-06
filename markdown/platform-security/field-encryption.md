@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/field-encryption.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Encryption]
 ---
@@ -52,6 +52,8 @@ Learn the details of Field Encryption Starter and Field Encryption Enterprise
 Learn how to activate and configure Field Encryption and manage migration from Encryption Support.
 -   **[Using Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/using-column-level-encryption.md)**  
 Use Field Encryption to manage access to encrypted data on your instances.
+-   **[External Key Management Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/ekms-external-key-management.md)**  
+External Key Management Service \(EKMS\) enables you to integrate Field Encryption with your own external key management systems.
 
 **Parent Topic:**[Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/encryption-landing.md)
 

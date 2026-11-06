@@ -28,7 +28,7 @@ The **sn\_spm\_ewd.allow\_admin\_access\_to\_all\_partitions** system property c
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **System Definition** &gt; **System Definition**.
+1.  Navigate to **All** &gt; **System Properties** &gt; **All Properties**.
 
 2.  Search and open the **sn\_spm\_ewd.allow\_admin\_access\_to\_all\_partitions** system property.
 

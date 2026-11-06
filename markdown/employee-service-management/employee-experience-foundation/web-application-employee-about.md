@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Setup task management, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Setup task management, Configuring Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # App Launcher
@@ -51,18 +51,6 @@ Organize applications on the App launcher for better app discovery and quick acc
 Enhance application discovery and navigation on the App launcher by configuring the access and visibility settings. Understand how access control can improve the app discovery for employees and find relevant apps that they have access to.
 
 For more information, see [Configure application visibility and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/applauncher-enable-availability.md).
-
-## Application security directive changes
-
-Enhance application security on the App launcher by configuring the following dictionary entries to **Strict Read Only** from **All** &gt; **Employee Center** &gt; **Web Applications** &gt; **Configure** &gt; **Dictionary**.
-
--   **Application ID**
--   **App source**
--   **Is record updated**
-
-\[Omitted image "applauncher-dictionary-sec.png"\] Alt text: dictionary field with strict read only
-
-For more information, see [Modify dictionary entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_ModifyADictionaryEntryFromAForm.md).
 
 ## App Launcher integration with AI search
 

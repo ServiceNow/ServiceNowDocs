@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-additional-plugins.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [Activate Field Service Management, Configure, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Activate, Configure, Field Service Management]
 ---
 
 # Additional plugins for Field Service Management
@@ -154,11 +154,11 @@ Field Service Management Configurable Dispatcher Workspace
 
 </td><td>
 
-com.snc.uib.fsm\_dispatcher\_workspace
+sn\_fsm\_disp\_wrkspc
 
 </td><td>
 
-Provides the FSM components and pages to support dispatcher flows on CSM Configurable Workspace.
+Provides the FSM components and pages to support dispatcher flows on CSM Configurable Workspace.Dispatcher Workspace replaced FSM Agent Workspace \(Deprecated\), Central Dispatch \(Deprecated\), and Field Service Map \(Deprecated\).
 
 </td></tr><tr><td>
 
@@ -363,6 +363,30 @@ com.sn\_shn
 </td><td>
 
 Enables users to quickly view important information about records.
+
+</td></tr><tr><td>
+
+Field Service Manager Mobile
+
+</td><td>
+
+com.snc.fsm\_manager\_mobile
+
+</td><td>
+
+Allows managers to use Field Service Manager Mobile
+
+</td></tr><tr><td>
+
+Proxy Actions for Field Service Management
+
+</td><td>
+
+sn\_fsm\_proxy\_actn
+
+</td><td>
+
+Enables users to take actions on behalf of other users.
 
 </td></tr></tbody>
 </table>**Related topics**  

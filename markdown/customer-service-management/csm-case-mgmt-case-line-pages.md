@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-case-mgmt-case-line-pages.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Case Lines and Workflows, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Case Lines and Workflows, Case management, Organize agent workspace
 
 The Case lines and workflows application includes record pages that display case line items, case line characteristics, and case line tasks in CRM Workspace.
 
-The following record pages use the [CSM default record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-default-record-page.md) to display case line, case line task, and case line characteristic information in CSM Configurable Workspace.
+The following record pages use the [CSM default record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-default-record-page.md) to display case line, case line task, and case line characteristic information in CRM Workspace.
 
 | | |
 |---|---|

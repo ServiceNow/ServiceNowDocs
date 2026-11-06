@@ -7,9 +7,9 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2025-07-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer]
+breadcrumb: [Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Indexed source attributes for AI Search
@@ -31,7 +31,7 @@ Configure an indexed source attribute to enable indexing of content from tags fo
 -   **[Enable indexing of attachments for an AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/enable-attachment-indexing-ais.md)**  
 Configure an indexed source attribute to enable indexing of content from attachments found on records from an indexed source.
 -   **[Activate multimodal captioning for attachments from an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/activate-multimodal-captioning.md)**  
-Generate searchable captions for images, tables, charts, and complex layouts in attachments from records in an indexed source table.
+Generate descriptive captions for images, tables, charts, and other visual elements in attachments from records in an indexed source table. You can find these attachments by searching for terms from their generated captions.
 -   **[List of AI Search indexed source attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/indexed-source-attrs-ais.md)**  
 You can adjust indexing behavior for an AI Search indexed source by configuring indexed source attributes and values.
 

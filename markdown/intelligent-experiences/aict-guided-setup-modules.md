@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/aict-guided-setup-modules.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Guided setup, Configure, AI Control Tower, Enable AI experiences]
+breadcrumb: [Guided setup, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Guided setup areas
@@ -44,8 +44,8 @@ Configure the templates and cost inputs used to calculate the value your AI asse
 
 |Setup area|Setup item|Description|
 |----------|----------|-----------|
-|Value and cost configuration|Value templates|Select from existing value templates or create custom templates to define, calculate, and track the value your AI assets deliver. For more information, see .|
-|Value and cost configuration|Cost framework|Configure cost and productivity inputs, such as hourly rates and AI costs by vendor, to calculate the net return on your AI investment. For more information, see .|
+|Value and cost configuration|Value templates|Select from existing value templates or create custom templates to define, calculate, and track the value your AI assets deliver. For more information, see [Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mv-value.md).|
+|Value and cost configuration|Cost framework|Configure cost and productivity inputs, such as hourly rates and AI costs by vendor, to calculate the net return on your AI investment. For more information, see [Cost](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mc-cost.md).|
 
 ## ServiceNow AI settings
 
@@ -53,9 +53,9 @@ Configure data sharing, deployment approval, and AI model provider settings that
 
 |Setup area|Setup item|Description|
 |----------|----------|-----------|
-|ServiceNow AI settings|Configure data control preferences|Set how your organization shares data with ServiceNow and manages data traffic during peak usage. For more information, see [Configure ServiceNow AI settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-configure-servicenow-ai-settings.md).|
-|ServiceNow AI settings|Set builder controls|Require AI steward approval before AI assets deploy, and automate approval requests when new AI assets are added. For more information, see [Configure ServiceNow AI settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-configure-servicenow-ai-settings.md).|
-|ServiceNow AI settings|Configure AI model providers|Choose which AI model providers are allowed on your instance and set fallback behavior for AI systems whose providers aren't on the allowed list. For more information, see [Configure ServiceNow AI settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-configure-servicenow-ai-settings.md).|
+|ServiceNow AI settings|Configure data control preferences|Set how your organization shares data with ServiceNow and manages data traffic during peak usage. For more information, see [Configuring data controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-configuring-data-controls.md).|
+|ServiceNow AI settings|Set builder controls|Require AI steward approval before AI assets deploy, and trigger approval requests automatically. For more information, see [Configuring builder controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-configuring-builder-controls.md).|
+|ServiceNow AI settings|Configure AI model providers|Choose which AI model providers are allowed on your instance and set fallback behavior for AI systems whose providers aren't on the allowed list. For more information, see [Configuring AI model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-configuring-ai-model-providers.md).|
 
 **Parent Topic:**[Guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-guided-setup.md)
 

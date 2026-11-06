@@ -7,9 +7,9 @@ release: zurich
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the content management system with the Service Catalog, Service Catalog customization, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Using the content management system with the service catalog, Service Catalog customization, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Manage catalogs in CMS sites
@@ -45,7 +45,7 @@ Associating catalogs with sites ensures that users can always access an appropri
 5.  Click **Update**.
 
 
-**Parent Topic:**[Using the content management system with the Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/p_ConfigureContentManagementSystem.md)
+**Parent Topic:**[Using the content management system with the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/p_ConfigureContentManagementSystem.md)
 
 **Related topics**  
 

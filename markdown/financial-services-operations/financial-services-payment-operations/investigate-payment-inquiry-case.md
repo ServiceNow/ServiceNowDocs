@@ -7,7 +7,7 @@ release: zurich
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Managing payment inquiries, Use, Payment Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---

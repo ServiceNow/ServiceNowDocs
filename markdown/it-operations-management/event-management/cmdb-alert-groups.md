@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mixed alert grouping, Alert grouping types and creation methods, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -20,7 +20,7 @@ CMDB alert groups are created based on the current relationships between CIs in 
 
 By default, all the existing connections between CIs are used to group alerts. However, given the complexity of IT systems, there are many types of relationships, and organizations can filter which ones to consider when aggregating alerts. For instance, you can filter relationship types by suggested relationships that appears in the CMDB Group CI Relations \[em\_suggested\_relation\_type\] table. You can also filter using the hosting and containment rules \(dependent relationship rules\).
 
-For example, if a server is hosting multiple applications, and there’s a problem with that server, all related alerts can be grouped together. This includes alerts for both the server and the applications it hosts. This helps the IT team quickly identify and address the root cause rather than dealing with each alert in isolation. Similarly, if different processes are running on a server, grouping alerts based on those processes allows teams to see how problems in one area might affect others. This leads to a more comprehensive understanding of the situation.
+For example, if a server is hosting multiple applications, and there’s a problem, all related alerts can be grouped together. This includes alerts for both the server and the applications it hosts. This helps the IT team quickly identify and address the root cause of the issue rather than dealing with each alert in isolation. Similarly, if different processes are running on a server, grouping alerts based on those processes allows teams to see how problems in one area might affect others. This leads to a more comprehensive understanding of the situation.
 
-The CMDB alert groups are effectively displayed in the [Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/el-cmdb-based-link-view.md) within the Service Operations Workspace, which allows teams to easily monitor and manage related alerts. This feature enhances operational efficiency by providing a clear view of alerts that are interconnected based on the current relationships among configuration items \(CIs\).
+The CMDB alert groups are effectively displayed in the [Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/el-cmdb-based-link-view.md) within the Service Operations Workspace, which allows teams to easily monitor and manage related alerts. This feature enhances operational efficiency by providing a clear view of alerts that are interconnected based on the current relationships among configuration items \(CIs\).
 

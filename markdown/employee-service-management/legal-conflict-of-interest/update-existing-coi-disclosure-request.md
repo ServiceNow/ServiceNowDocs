@@ -7,7 +7,7 @@ release: zurich
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
 topic_type: task
-last_updated: "2026-05-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Legal Conflict of Interest, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_lg\_ops.legal\_user
 
 1.  Navigate to **All** &gt; **Employee Center**.
 
-    **Note:** If you’re using Legal Service Portal, open the request by navigating to it and selecting **My Requests** &gt; **View all requests** from the header.
+    **Note:** If you’re using Legal Service Portal, open a request by navigating to the Legal Service Portal and selecting **My Requests** &gt; **View all requests** from the header.
 
 2.  Select **My Requests** from the header.
 
@@ -38,15 +38,15 @@ Role required: sn\_lg\_ops.legal\_user
 
 6.  Manage documents supporting your request.
 
-<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d370988e124">
+<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d376414e127">
 
 Option
 
-</th><th align="left" id="d370988e127">
+</th><th align="left" id="d376414e130">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d370988e133">
+</th></tr></thead><tbody><tr><td id="d376414e136">
 
 **If the Attachments tab is visible**
 
@@ -57,7 +57,7 @@ Steps
 -   To remove an attached file, select the delete icon \(\[Omitted image "delete-icon.png"\] Alt text: Delete icon.\).
 
 
-</td></tr><tr><td id="d370988e172">
+</td></tr><tr><td id="d376414e175">
 
 **If the Documents tab is visible**
 

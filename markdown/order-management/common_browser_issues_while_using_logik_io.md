@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/common\_browser\_issues\_while\_using\_logik\_io.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow CPQ, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
@@ -16,7 +16,7 @@ When cookies are blocked by the browser or by browser extensions, it can interfe
 
 If attempting to configure in ServiceNow CPQ results in an error \(configurator not loading, a 403 error is returned, or similar\) and using another browser resolves the issue, then the issue must be with the settings of the original browser.
 
-ServiceNow CPQ uses [authentication cookies](https://en.wikipedia.org/wiki/HTTP_cookie) to track active sessions across browser tabs. These cookies do not track the user and are deleted when the user closes their web browser. Their only purpose is to validate the user and their organization for the use of our software.
+ServiceNow CPQ uses [authentication cookies](https://en.wikipedia.org/wiki/HTTP_cookie) to track active sessions across browser tabs. These cookies do not track the user and are deleted when the user closes their web browser. Their only purpose is to validate the user and their organization for the use of the software.
 
 If cookies are not enabled in the browser, ServiceNow CPQ cannot configure products. The browser itself or the extensions used by the end user in this browser could be inhibiting this active cookie.
 
@@ -27,6 +27,8 @@ Here are some reasons this issue might occur.
 By default, Safari and Firefox block all cross-site cookies. This behavior interferes with the authentication cookie that jumps across ServiceNow CPQ and Salesforce. If either of these browsers is your \(or your end userʼs\) default browser, cookies must be allowed to use the configurator.
 
 If you have no control over what browsers end users use to access the ServiceNow CPQ Configurator, and you use easyXDM, submit a support case requesting a “runtimeAPI” parameter. Once the runtime clients are updated to include this parameter, the browsers should work with their default settings.
+
+**Note:** Submit a support case by using the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
 
 Consult your browser's documentation to find the settings that affect whether cookies are blocked. These settings are often found in the privacy options sections of the browser settings.
 
@@ -48,5 +50,5 @@ Other extensions such as email templates or crypto wallets can also cause issues
 
 Review your browser's plugins to check whether any other extensions could be interfering while using ServiceNow CPQ. If the end user can configure after all browser extensions are disabled, one of the extensions must be causing the issue. If you identify an extension that causes the issue and is not in the list above, please let us know.
 
-**Parent Topic:**[ServiceNow CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/servicenow-cpq-reference.md)
+**Parent Topic:**[ServiceNow CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

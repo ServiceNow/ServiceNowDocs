@@ -7,9 +7,9 @@ release: zurich
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Administering Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Optimize widget rendering time on responsive dashboards
@@ -22,19 +22,23 @@ Role required: admin
 
 **Note:** You can optimize widget rendering only for responsive dashboards.
 
+## About this task
+
+**Note:** This topic refers to Core UI dashboards. If you are looking for information about the newer Platform Analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center-dashboards.md).
+
 ## Procedure
 
 1.  Use these two system properties to optimize dashboard widget rendering.
 
-<table id="choicetable_txm_hjc_wy"><thead><tr><th align="left" id="d151422e53">
+<table id="choicetable_txm_hjc_wy"><thead><tr><th align="left" id="d158695e78">
 
 Name
 
-</th><th align="left" id="d151422e56">
+</th><th align="left" id="d158695e81">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d151422e62">
+</th></tr></thead><tbody><tr><td id="d158695e87">
 
 **glide.canvas.grid.widget\_performance\_threshold**
 
@@ -45,7 +49,7 @@ Defines the maximum number of seconds for a widget to render on a dashboard. Wid
 -   Location: **System Properties** &gt; **Dashboard Properties**
 The default value of -1 disables the threshold and widget performance isn’t evaluated. Widgets are evaluated against any value greater than or equal to 1.
 
-</td></tr><tr><td id="d151422e93">
+</td></tr><tr><td id="d158695e118">
 
 **glide.canvas.grid.widget\_render\_concurrent\_max**
 

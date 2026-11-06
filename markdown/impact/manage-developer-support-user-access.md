@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/manage-developer-support-user-access.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Developer Support, Platform Health, Using Impact, Impact]
+breadcrumb: [Debug instance customizations with Developer Support, Platform Health, Using Impact, Impact]
 ---
 
 # Manage Developer Support user access
@@ -24,7 +24,7 @@ Role required: Impact admin
 
 2.  From the **Actions** menu, select **Update role/access**.
 
-    If the user is not listed in the table, create a new user. See [Manage Impact users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/ide-user-management.md) for details.
+    If the user is not listed in the table, create a new user. See [Manage Impact Delivery Instance users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/ide-user-management.md) for details.
 
 3.  Select the **Action** icon on the right of the user.
 

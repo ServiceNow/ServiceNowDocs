@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using proxy agents in ACC, ACC deployment - servers, Agent Client Collector, IT Operations Management]
+breadcrumb: [Using proxy agents in ACC, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Create a proxy agent cluster
@@ -56,4 +56,6 @@ The **Proxy Agent Clusters** page appears and displays the agent added to the cl
 ## What to do next
 
 Select this proxy cluster to monitor CIs specified in an agent policy. For details, see [Configure an agent on a proxy server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/configure-agent-proxy-server.md).
+
+**Parent Topic:**[Using proxy agents in Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/proxy-agent.md)
 

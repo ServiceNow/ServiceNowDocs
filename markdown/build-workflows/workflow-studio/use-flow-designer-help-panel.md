@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-08-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Getting started, Flows, Explore, Workflow Studio, Build workflows]
+breadcrumb: [Getting started, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Use the Workflow Studio help panel
@@ -45,5 +45,5 @@ Role required: admin, flow\_designer, or delegated\_developer
 
 The help panel opens with help content about flows, actions, spokes, and guided tours.
 
-**Parent Topic:**[Getting started with flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/getting-started-flow.md)
+\[Omitted image "fd-help-panel-example.png"\] Alt text: The Flow Designer help panel shows you information about building flows and actions, working with data and spokes, as well as guided tours of the Flow Designer interface.
 

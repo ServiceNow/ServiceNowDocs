@@ -7,9 +7,9 @@ release: zurich
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Using the content management system with the Service Catalog, Service Catalog customization, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Using the content management system with the service catalog, Service Catalog customization, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Multiple service catalogs setup
@@ -198,7 +198,7 @@ Catalog portal page details include the owner, title, and view to use for that p
     -   Click **Edit** to select another portal page for the catalog.
     -   Select a portal page to view and edit details for that page.
 
-**Parent Topic:**[Using the content management system with the Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/p_ConfigureContentManagementSystem.md)
+**Parent Topic:**[Using the content management system with the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/p_ConfigureContentManagementSystem.md)
 
 **Related topics**  
 

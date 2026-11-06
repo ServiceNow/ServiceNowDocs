@@ -7,7 +7,7 @@ release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Rally, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -26,15 +26,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Rally.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d440275e95">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d375642e95">
 
 Option
 
-</th><th align="left" id="d440275e98">
+</th><th align="left" id="d375642e98">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d440275e104">
+</th></tr></thead><tbody><tr><td id="d375642e104">
 
 **Homepage**
 
@@ -44,7 +44,7 @@ Steps
 2.  On the  Connect to a tool  modal, select Rally from the Plan category.
 
 
-</td></tr><tr><td id="d440275e128">
+</td></tr><tr><td id="d375642e128">
 
 **Applications module**
 
@@ -56,7 +56,7 @@ Steps
 4.  On the  Connect to a tool  modal, select Rally from the Plan category.
 
 
-</td></tr><tr><td id="d440275e177">
+</td></tr><tr><td id="d375642e177">
 
 **Tools module**
 

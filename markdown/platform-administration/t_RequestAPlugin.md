@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/t\_RequestAPlugin.html
 release: zurich
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow plugins, Basic system configuration, Get started, Administer]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow plugins, Basic system configuration, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Request a plugin
@@ -90,5 +90,5 @@ The date and time to activate the plugin.
 
 [Activate a plugin]()
 
-[List of plugins \(Zurich\)]()
+[Available plugins and applications]()
 

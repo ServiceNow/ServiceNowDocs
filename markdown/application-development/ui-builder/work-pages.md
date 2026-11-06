@@ -7,9 +7,9 @@ release: zurich
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
-breadcrumb: [Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Manage UI Builder pages and page variants
@@ -94,7 +94,7 @@ See [Create a page variant](https://raw.githubusercontent.com/ServiceNow/Service
 
 ## Edit UI Builder page settings
 
-Change the settings of your UI Builder page at any time by selecting the More actions icon \[Omitted image "more-options-icon.png"\] Alt text: Three-dot more actions icon then **View settings** in the UI Builder experience view. You can change the name, path, and parameters of your page after you create a page.
+Change the settings of your UI Builder page at any time by selecting the More actions icon \[Omitted image "MoreActionsIcon.png"\] Alt text: then **View settings** in the UI Builder experience view. You can change the name, path, and parameters of your page after you create a page.
 
 \[Omitted image "edit-page-settings-link.png"\] Alt text: Settings link selected from More actions menu to edit page settings.
 
@@ -200,17 +200,21 @@ From the Menu, edit the UI Builder page as a developer on the platform. This opt
 -   **[Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/create-page.md)**  
 Create a page in UI Builder for a portal, workspace, or custom application so that you can build a web experience for your users.
 -   **[Edit a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/edit-page.md)**  
-Edit a page to change the page name, path, and parameters.
+Edit a page to change the page name, path, type, and parameters.
 -   **[Add an audience to your UI Builder page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/configure-audiences.md)**  
 Add one or more audiences to your page or page variant.
 -   **[Test values in a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/test-value.md)**  
 Add test values to your URL as a way to bring test data into a page.
 -   **[Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/create-variant.md)**  
 A page variant in UI Builder is a variation of a page that exists at the same path that targets different audiences using user criteria.
+-   **[Use pages across experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/use-across-pages.md)**  
+Use pages created in one in experience in another without needing to rebuild the page.
 -   **[Responsive authoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/responsive-authoring.md)**  
 Use responsive authoring to create UI Builder pages that adjust smoothly to different form factors \(sizes\), such as desktop, tablet, and mobile.
 -   **[Learn how to view and test your UI Builder experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/preview-page-ui-builder.md)**  
 Preview your experience in UI Builder to see how it looks and functions while building an experience. Previewing helps ensure that your experience works as expected, that the data resources are available, and that the layouts are set up correctly.
+-   **[Resolve a missing page definition in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/resolve-missing-page-definition.md)**  
+Fix UI Builder page render errors by linking a page definition in the variant record.
 
 **Parent Topic:**[Working in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/using-ui-builder.md)
 

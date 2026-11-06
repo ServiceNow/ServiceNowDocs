@@ -7,10 +7,10 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-05-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [Azure, CMDB, ITOM]
-breadcrumb: [Discovery for Microsoft Azure Cloud, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Discovery for Microsoft Azure, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Azure change processing
@@ -40,7 +40,9 @@ Starting in the Discovery and Service Mapping Patterns 1.21.0 version, the sched
 
 Starting with Discovery and Service Mapping Patterns 1.21.0 version, Azure change processing enhancement populates the following tables:
 
--   **ACP Resource Type \[sn\_itom\_pattern\_acp\_supported\_resource\_types\]**
+-   **ACP Resource Type \[sn\_itom\_pattern\_acp\_resource\_types\]**
+
+    **Note:** In Discovery and Service Mapping Patterns versions 1.21.0-1.30.2, resource type information was stored in the sn\_itom\_pattern\_acp\_supported\_resource\_types table.
 
     You can use this table to review all supported resource types, add a resource type for change processing, and disable or enable the processing for a certain resource.
 

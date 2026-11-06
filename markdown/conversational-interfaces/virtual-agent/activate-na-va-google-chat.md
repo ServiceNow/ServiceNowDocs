@@ -7,10 +7,10 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-07-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now, Assist, Otto, Microsoft, Teams, Virtual, Agent, Integration, MS, MSTeams]
-breadcrumb: [Install Conversational Integration with Google Chat, Conversational Integration with Google Chat, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Install Conversational Integration with Google Chat, Google Chat, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Activate ServiceNow Otto for Virtual Agent for Google Chat
@@ -21,7 +21,7 @@ Add ServiceNow Otto for Virtual Agent to your Google Chat bot.
 
 Role required: admin or virtual\_agent\_admin
 
-Create a self-configured bot for Google Chat. For more information, see [Integrate Virtual Agent with Google Chat using the self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/installing-ci-google-chat.md). Verify that you have updated the version of your Google Chat app in the **Version** field.
+Create a self-configured bot for Google Chat. For more information, see [Installing Conversational Integration with Google chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/installing-ci-google-chat.md). Verify that you have updated the version of your Google Chat app in the **Version** field.
 
 **Note:** Notifications are not supported for premium chat at this time.
 
@@ -51,10 +51,6 @@ Create a self-configured bot for Google Chat. For more information, see [Integra
 
 11. Select **Download** to save the manifest zip file.
 
-
-## What to do next
-
-Upload the manifest to Google Chat to make your bot experience available in the Microsoft global apps store, which will also activate the Custom Engine Agent \(CEA\) in Google Chat. For more information, see [Upload the manifest package file to publish your bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/upload-package-file-msteams.md).
 
 **Parent Topic:**[Install Conversational Integration with Google Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/install-ci-google-chat.md)
 

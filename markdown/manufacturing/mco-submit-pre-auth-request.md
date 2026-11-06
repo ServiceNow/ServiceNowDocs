@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-submit-pre-auth-request.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [pre-authorization request, warranty claim, repair claim, goodwill repair, claim jobs, dealer portal]
-breadcrumb: [Pre-authorization, Dealer portal, Use, Manufacturing Commercial Operations]
+breadcrumb: [Dealer portal, Use, Manufacturing Commercial Operations]
 ---
 
 # Submit a pre-authorization request

@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Conversational subflows, Subflows, Explore, Workflow Studio, Build workflows]
+breadcrumb: [Conversational subflows, Explore subflows, Explore flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Check for conversational compatible subflows
@@ -49,6 +49,4 @@ The system updates the list of conversational compatible subflows.
 ## What to do next
 
 To make a subflow conversational, configure its conversational settings. See [Configure subflow conversational settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/configure-subflow-conversation-settings.md).
-
-**Parent Topic:**[Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/conversational-subflows.md)
 

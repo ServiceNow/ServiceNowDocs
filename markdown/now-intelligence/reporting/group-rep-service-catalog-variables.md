@@ -7,9 +7,9 @@ release: zurich
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Report on service catalog variables, Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Report on service catalog variables, Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Group a report by service catalog variables
@@ -28,10 +28,10 @@ You can apply these steps to any report type as long as the report source has va
 
 ## Procedure
 
-1.  Perform one of the following actions:
+1.  Open the Platform Analytics Data visualization library and select **Create data visualization**, then select **Core UI** in the modal that opens.
 
-    -   On an upgraded instance that has not been fully migrated to Platform Analytics, navigate to **All** &gt; **Reports** &gt; **Create New**.
-    -   On a new instance or one that has been fully migrated to Platform Analytics, navigate to **All** &gt; **Core UI artifacts** &gt; **Reports** and select **New**.
+    The **com.snc.par.coreui.report\_create.enabled** system property must be `true`.
+
 2.  On the **Data** tab, give the report a name that reflects the information being grouped.
 
 3.  Select a report source that has variables associated with it.
@@ -55,7 +55,7 @@ You can apply these steps to any report type as long as the report source has va
 
 8.  Continue to configure and style the report according to its report type.
 
-    See [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-types-creation-details-rd.md).
+    See [Core UI Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-types-creation-details-rd.md).
 
 
 **Parent Topic:**[Report on service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/rep-service-catalog-variables.md)

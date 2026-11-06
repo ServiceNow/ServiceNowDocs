@@ -1,43 +1,38 @@
 ---
 title: Open apps and app files across scopes in ServiceNow Studio
-description: In ServiceNow Studio, you can open and edit apps and app files in any scope, global or custom. The scope that an app is associated with displays at the bottom of the screen and updates automatically when you switch to an app in a different scope.
+description: Open and edit apps and app files in any scope — global or custom — in ServiceNow Studio. The current scope displays at the bottom of the screen and updates automatically when you switch to an app in a different scope.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-studio-classic/qs-open-apps-files-across-scopes.html
 release: zurich
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [ServiceNow Studio quick start, Explore, ServiceNow Studio, Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [ServiceNow Studio quick start, Explore, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Open apps and app files across scopes in ServiceNow Studio
 
-In ServiceNow Studio, you can open and edit apps and app files in any scope, global or custom. The scope that an app is associated with displays at the bottom of the screen and updates automatically when you switch to an app in a different scope.
+Open and edit apps and app files in any scope — global or custom — in ServiceNow Studio. The current scope displays at the bottom of the screen and updates automatically when you switch to an app in a different scope.
 
-When you open any app or file in ServiceNow Studio, it may open in an integrated tab. The following diagram and list outline key information about integrated tabs in ServiceNow Studio.
+## Tabs in ServiceNow Studio
 
-\[Omitted image "sn-studio-integrated-tabs.png"\] Alt text: Integrated tabs with different types of files open are color coded and grouped. Upon hovering, see the scope the application or file is in.
+Each app or file you open in ServiceNow Studio opens in its own tab, showing the file name, file type, and scope.
 
-1.  Any file in a scoped app opens in a color-coded tab with information about what kind of file it is. In this instance, the playbook opened in an integrated tab, where you can update it using the Workflow Studio interface.
-2.  Tabs without colors indicate that the file is in the global scope. You can edit global files in ServiceNow Studio.
-3.  Any tab that's actively open in the canvas shows a contrasting color to indicate the open state.
-4.  Tabs that are color-coded and grouped are in the same scope. In this example, both actions are in the same application, so they open in the same color tab.
+\[Omitted image "sn-studio-integrated-tab-bs1.png"\] Alt text: Each file opens in its own tab within ServiceNow Studio, showing the file type and the application the record is in.
 
-See what scope a file is in by hovering over the tab. In this image, the scope is **Security Center**.
+If your browser window is narrow, open tabs may overflow. Select the more actions icon and choose **Show Opened Editors** to see a list of all open files. Select any file to open it in the canvas.
 
-\[Omitted image "sn-studio-scoped-app-tab.png"\] Alt text: Hover over a tab to see the scope it's in. In this image the scope is Security Center.
+\[Omitted image "sn-studio-open-tabs-bs1.png"\] Alt text: Use the more actions menu to open a list of all opened files.
 
-Depending on the width of your browser screen, you may see an overflow tab appear for apps or files you've opened. The scopes for each file are grouped and color coded just like the open tabs. Select any file to open it in the canvas.
+## Update sets
 
-\[Omitted image "sn-studio-overflow-tabs.png"\] Alt text: Tabs that don't fit in the browser window are available in an overflow list at the top of the screen.
+The scope and update set associated with the current file appear at the bottom of the screen. Switch update sets or create one to package your changes.
 
-You can also see the scope and update set associated with each file at the bottom of the screen. You can switch update sets here or create one to package your changes.
+\[Omitted image "sn-studio-scope-update-set-bs1.png"\] Alt text: The scope and update set associated with an open file are at the bottom of the screen.
 
-\[Omitted image "sn-studio-scope-update-set.png"\] Alt text: See the scope and update set associated with an open file at the bottom of the screen.
+Some builders override automatic scope switching. For example, when you use Table Builder to edit a form or table file, a message indicates that the scope is controlled by the builder.
 
-If you want to ungroup the tabs, select your user icon on the home page, and select **Preferences**. Use the **Organize tab groupings by scope** toggle to group or ungroup the tabs by scope.
-
-\[Omitted image "sn-studio-group-tabs.png"\] Alt text: Use your settings to group or ungroup tabs by app scope
+\[Omitted image "sn-studio-scope-builder.png"\] Alt text: Some builders control the scope for apps open in ServiceNow Studio.
 

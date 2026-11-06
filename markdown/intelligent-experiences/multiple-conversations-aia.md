@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/multiple-conversations-aia.html
 release: zurich
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Configure, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Configure, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Multiple conversations in AI agents
@@ -16,7 +16,7 @@ Multiple active conversations enable live agents to maintain separate conversati
 
 ## Multiple conversations between live agents and AI agents overview
 
-Once configured, live agents can interact with multiple AI agent conversations through the Now Assist panel.
+Once configured, live agents can interact with multiple AI agent conversations through the ServiceNow Otto panel.
 
 **Note:** By default, the ServiceNow Otto panel currently supports only a single conversation and it is required for you to enable the multiple conversation support if you intend to use it
 
@@ -30,7 +30,7 @@ Enable multiple conversations on a ServiceNow instance in the Messaging Channels
 
 With the multiple conversations feature enabled in the ServiceNow Otto panel, the first utterance from the live agent is set as the title for that conversation. For example, if the first utterance is `Explain change risk`, then Explain change risk is set as the title for that conversation in the ServiceNow Otto panel.
 
-## Starting a new conversation
+## Starting a conversation
 
 Start a new conversation by selecting the plus icon \(\[Omitted image "new-nap-chat.png"\] Alt text: New Now Assist panel chat.\) and choosing a topic. See the conversation list by selecting the All chats icon \(\[Omitted image "all-chats-nap.png"\] Alt text: List of conversations.\), to see the Active chats and Closed chats.
 

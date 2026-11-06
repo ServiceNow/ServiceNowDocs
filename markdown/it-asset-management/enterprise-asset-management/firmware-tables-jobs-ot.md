@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [References, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Enterprise Asset Management reference, Enterprise Asset Management, Asset Management]
 ---
 
 # Scheduled jobs and tables installed with normalization of firmware models
@@ -137,14 +137,6 @@ Normalizes firmware models using the newly downloaded content.
 [Enterprise asset disposal order stages]()
 
 [Terminology for linear assets]()
-
-[Installed with Enterprise Asset Management for Healthcare]()
-
-[Installed with OT Asset Management]()
-
-[Components installed with Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)]()
-
-[Components installed with Enterprise Asset Management for Providers]()
 
 [Asset put away task fields]()
 

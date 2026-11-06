@@ -7,9 +7,9 @@ release: zurich
 product: Learning Core
 classification: learning-core
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Use, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Using My Learning, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Create a Learning challenge
@@ -83,4 +83,28 @@ Number of courses that you target to finish for each tracking period.
 ## Result
 
 A Learning challenge is created along with a new widget on the Overview tab to track your progress.
+
+-   **[Complete a learning challenge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/complete-challenge-lxp.md)**  
+Complete a learning challenge whenever you're ready to finish with it.
+-   **[Restart a learning challenge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/restart-challenge-lxp.md)**  
+Restart a challenge when you want to reset the progress you have made on the challenge.
+
+**Parent Topic:**[Using My Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/manage-your-learning.md)
+
+**Related topics**  
+
+
+[Enroll in a course collection on My Learning]()
+
+[Resume a course]()
+
+[Create a personal course collection]()
+
+[View recent activity]()
+
+[Assign Learning to your team]()
+
+[Manage Learning]()
+
+[Skill sensing for learning content]()
 

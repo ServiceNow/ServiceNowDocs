@@ -1,16 +1,16 @@
 ---
-title: Roles and components of Sales Common
+title: Components installed with Sales Common for Channel Partners
 description: The Sales Common for Channel Partners plugin \(com.snc.partner\_relationship\_management\_sales\_common\) application uses roles to provide access to information, identify internal and external users, and maintain data security.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/roles-and-components-of-sales-common.html
 release: zurich
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Install Sales Common for Partner Relationship Management, Partner Relationship Management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Install Sales Common for Partner Relationship Management, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
 
-# Roles and components of Sales Common
+# Components installed with Sales Common for Channel Partners
 
 The Sales Common for Channel Partners plugin \(com.snc.partner\_relationship\_management\_sales\_common\) application uses roles to provide access to information, identify internal and external users, and maintain data security.
 
@@ -24,4 +24,11 @@ The PRM plugin \(com.snc.partner\_relationship\_management\) comes with a set of
 |sn\_prm\_sales\_partner\_sales\_relationship\_manager|This role is assigned to enterprise personnel to manage the entire sales lead to cash life cycle for the hierarchy of their channel partners.| |
 
 **Parent Topic:**[Install Sales Common for Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/install-sales-common-for-partner-relationship-management.md)
+
+**Related topics**  
+
+
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/partner-relationship-management.md)
+
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-partner-relationship-management.md)
 

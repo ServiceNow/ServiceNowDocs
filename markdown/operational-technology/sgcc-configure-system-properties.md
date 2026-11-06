@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/sgcc-configure-system-properties.html
 release: zurich
 topic_type: task
-last_updated: "2026-05-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [SGC Central, Service Graph Connector for ServiceNow Operational Technology\(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [SGC Central, Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Configure system properties on SGC Central
@@ -24,7 +24,7 @@ Role required: admin
 
     1.  Next to the Configure system properties task, select **Configure**.
 
-        \[Omitted image "image.config-system-props-all-2"\] Alt text: Configure system properties
+        \[Omitted image "config-system-props-all-2.png"\] Alt text: Configure system properties
 
     2.  The Configure System properties window opens.
     3.  Review the System properties and adjust as needed for your instance configuration.
@@ -43,7 +43,7 @@ Description
 
 </td><td>
 
-Filters the Asset import to only import assets of particular categories. For example, if you wanted to only import ICS Host and PLC category devices from the OT Discovery Console, you could set this to `PLC,IcsHost`.Default: empty
+Filters the Asset import to only import assets of particular categories. For example, if you wanted to only import ICS Host and PLC category devices from the Discovery Console for OT, you could set this to `PLC,IcsHost`.Default: empty
 
 **Note:** These are categories defined on the Console side.
 
@@ -81,4 +81,6 @@ Logging level verbosity to use for the application.Default: Info
 
 </td></tr></tbody>
 </table>    4.  Select **Save** and move to the next step.
+
+**Parent Topic:**[SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/sgc-central-for-ot-discovery.md)
 

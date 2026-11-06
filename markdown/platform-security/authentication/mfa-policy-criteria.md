@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [MFA criteria, Configure MFA, Multi-factor authentication, Access Management]
+breadcrumb: [MFA criteria, Configuring MFA, Multi-factor authentication, Authentication, Access Management]
 ---
 
 # Configure adaptive authentication policy-based multi-factor criteria
@@ -18,12 +18,12 @@ Use adaptive policies to determine which users must use two-step multi-factor \(
 
 ## Before you begin
 
-Role required: admin
+Role required: adaptive\_auth\_admin
 
 **Note:**
 
--   If the default policy is **Step-Up MFA Policy**, users will be shown with Multi-factor Authentication if policy configured in **Step-Up MFA Policy** evaluates to true. Policy takes precedence over the user or role based configuration.
--   MFA with SSO login will only be available if `glide.authenticate.mfa.with.multisso.enabled` Property is set to true.
+-   If the default policy is **Step-Up MFA Policy**, users are shown with multi-factor authentication if the policy configured in **Step-Up MFA Policy** evaluates to true. Policy takes precedence over the user or role-based configuration.
+-   MFA with SSO login is only available if `glide.authenticate.mfa.with.multisso.enabled` property is set to true.
 -   You can navigate to the Authentication Policy record to Add or Edit the 'Policy Input\(s\)' to the referenced Policy field \(**Step-Up MFA Policy** or **Step-Down MFA Policy**\).
 
 ## Procedure
@@ -43,7 +43,7 @@ Role required: admin
 
 3.  In the **Step-Up MFA Policy** field, select a policy to use with this context.
 
-4.  Click **Update**.
+4.  Select **Update**.
 
     After saving the record, the **Policy Input** and **Policy Conditions** lists update to display the policy inputs and conditions associated with the policy selected in the **Step-Up MFA Policy** field.
 

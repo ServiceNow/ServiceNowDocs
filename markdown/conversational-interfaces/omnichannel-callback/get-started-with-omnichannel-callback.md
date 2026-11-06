@@ -7,9 +7,9 @@ release: zurich
 product: Omnichannel Callback
 classification: omnichannel-callback
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Omnichannel Callback, Omnichannel Callback, Manage people and work, Conversational Interfaces]
+breadcrumb: [Configure, Omnichannel Callback, Manage people and work, Conversational Interfaces]
 ---
 
 # Get started with Omnichannel Callback

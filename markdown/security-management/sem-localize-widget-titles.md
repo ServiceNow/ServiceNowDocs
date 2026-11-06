@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sem-localize-widget-titles.html
 release: zurich
 topic_type: task
-last_updated: "2025-10-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Visualization library, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -75,6 +75,4 @@ Application for the widget. Select **Security Exposure Management**.**Note:** Cr
 
     **Important:** If you later rename a widget, search for its existing record in the Messages \[sys\_ui\_message\_list\] table, and update the **Key** and **Message** fields with the new widget title.
 
-
-**Parent Topic:**[Configure Visualization library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-configure-visualization-library.md)
 

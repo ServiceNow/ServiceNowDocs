@@ -7,10 +7,10 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-08-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [HAM data integrations tab, discovery pattern attribute coverage, Service Graph Connector integration status, improve HAM data coverage, data integration source breakdown]
-breadcrumb: [Use HAM advisor, Asset and CI management, Explore, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Use HAM advisor, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Analyzing data integrations for improving HAM data coverage

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/export-db-dv-now-assist-panel.html
 release: zurich
 topic_type: task
-last_updated: "2025-08-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [export, schedule, schedule export, Now Assist, Now Assist Panel, Platform Analytics AI]
 breadcrumb: [Platform Analytics in the ServiceNow Otto panel, ServiceNow Otto for Platform Analytics, Platform Analytics]
@@ -17,15 +17,13 @@ Export or schedule the export of dashboards and data visualizations conversation
 
 ## Before you begin
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
-
 Role required: now\_assist\_panel\_user. To schedule an export, you also need par\_scheduler. You need access to the dashboard or the data in the visualization.
 
 ## Procedure
 
 1.  Open the ServiceNow Otto panel.
 
-    \[Omitted image "nowass-open-nowass-panel.png"\] Alt text: Control for opening the Now Assist panel.
+    \[Omitted image "nowass-open-nowass-panel.png"\] Alt text: Control for opening the ServiceNow Otto panel.
 
     \[Omitted image "otto-panel-landing.png"\] Alt text: Initial ServiceNow Otto panel.
 
@@ -64,7 +62,7 @@ In your prompts for the dashboard and visualization export skill, you can descri
 **Related topics**  
 
 
-[Export a data visualization from the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/export-visualization-vd.md)
+[Export a Platform Analytics data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/export-visualization-vd.md)
 
 [Export a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/export-pae-dashboard-ppt.md)
 

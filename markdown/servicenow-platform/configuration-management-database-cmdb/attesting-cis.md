@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -60,7 +60,7 @@ Disables smart detection.
     -   **true**: Disable smart detection.
     -   **false**: Enable smart detection.
 -   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
--   Learn more: [Review CMDB Data Manager attestation tasks in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/review-data-manager-attes-task.md)
+-   Learn more: [Review attestation tasks in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/review-data-manager-attes-task.md)
 
 </td></tr><tr><td>
 
@@ -75,7 +75,7 @@ Comma-separated list of discovery sources that are excluded in smart detection p
  -   Type: string
 -   Default value: Manual Entry
 -   Location: System property
--   Learn more: [Review CMDB Data Manager attestation tasks in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/review-data-manager-attes-task.md)
+-   Learn more: [Review attestation tasks in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/review-data-manager-attes-task.md)
 
 </td></tr><tr><td>
 
@@ -88,7 +88,7 @@ Number of days \(discovery window\) that smart detection uses to determine wheth
  -   Type: integer
 -   Default value: 30
 -   Location: System property
--   Learn more: [Review CMDB Data Manager attestation tasks in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/review-data-manager-attes-task.md)
+-   Learn more: [Review attestation tasks in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/review-data-manager-attes-task.md)
 
 </td></tr></tbody>
 </table>

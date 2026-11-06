@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/config-custom-redirection-from-db.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Creating Platform Analytics pages, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -73,6 +73,8 @@ All redirections from data visualizations on that dashboard open your specified 
 [Add Platform Analytics pages to a configurable workspace]()
 
 [Add a dashboard to a Dashboards page]()
+
+[Dashboard URL parameter delegation]()
 
 [Pass global filters to the dashboard page template]()
 

@@ -1,18 +1,18 @@
 ---
 title: View approval state flows for a business impact analysis
-description: View the approval state transitions sent at each level of the approval process, and the details of the approvers as you direct the business impact analysis through multiple levels of approvals.
+description: View approval state transitions and approver details at each level as you direct the business impact analysis through the approval process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/view-approval-state-flows-bia.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Assess impact categories and dependencies of process, Structured workflows for BIA, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # View approval state flows for a business impact analysis
 
-View the approval state transitions sent at each level of the approval process, and the details of the approvers as you direct the business impact analysis through multiple levels of approvals.
+View approval state transitions and approver details at each level as you direct the business impact analysis through the approval process.
 
 ## Before you begin
 

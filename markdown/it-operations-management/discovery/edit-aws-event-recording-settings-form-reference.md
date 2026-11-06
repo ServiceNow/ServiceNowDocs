@@ -7,7 +7,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Cloud Discovery reference, Discovery reference, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -83,7 +83,7 @@ Amazon SNS topic
 </td><td>
 
 Amazon SNS topic to which the AWS Config service should publish the events.1.  Select the **Choose a topic from your account** option.
-2.  Select the Amazon SNS topic created in step [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/aws-config-service-cloud-mgt.md) from the SNS topic name drop-down list.
+2.  Select the Amazon SNS topic from the SNS topic name drop-down list.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Cloud Discovery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cloud-discovery-reference.md)

@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Field Service Marketplace, Scheduling and dispatching, Use, Field Service Management]
+breadcrumb: [Allowing contractors to bid on work orders and tasks, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Respond to a request on Field Service Marketplace
@@ -32,7 +32,7 @@ Fulfilling requests on Field Service Marketplace is only available via the Mobil
 
     **Note:** Selection options vary depending on the requestor's configuration.
 
-<table id="choicetable_jfw_j4r_21c"><tbody><tr><td id="d107717e126">
+<table id="choicetable_jfw_j4r_21c"><tbody><tr><td id="d117903e123">
 
 **Respond**
 
@@ -40,7 +40,7 @@ Fulfilling requests on Field Service Marketplace is only available via the Mobil
 
 Enables you to respond with time estimates, cost estimates, or other notes and comments. The requestor may award the task to you.
 
-</td></tr><tr><td id="d107717e135">
+</td></tr><tr><td id="d117903e132">
 
 **Accept**
 
@@ -48,7 +48,7 @@ Enables you to respond with time estimates, cost estimates, or other notes and c
 
 Accepts the request. The requestor may award the task to you.
 
-</td></tr><tr><td id="d107717e144">
+</td></tr><tr><td id="d117903e141">
 
 **Decline**
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/configuring-synthetic-monitoring.html
 release: zurich
 topic_type: concept
-last_updated: "2026-08-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Landing page, ITOM AIOps, IT Operations Management]
+breadcrumb: [Synthetic monitoring, ITOM AIOps, IT Operations Management]
 ---
 
 # Configuring synthetic monitoring
@@ -15,6 +15,13 @@ breadcrumb: [Landing page, ITOM AIOps, IT Operations Management]
 Plan and configure your implementation of synthetic monitoring.
 
 ## Configuration overview
+
+-   [Install synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/install-synthetic-monitoring.md)
+-   [Create synthetic monitoring locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/create-synthetic-monitoring-locations.md)
+-   [Create and edit a synthetic monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/create-synthetic-monitor.md)
+-   [Create synthetic monitors from incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/create-synthetic-monitors-from-incidents.md)
+-   [Create a synthetic monitor for a discovered API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/create-synthetic-monitor-for-discovered-api.md)
+-   [Manage synthetic monitors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/manage-synthetic-monitors.md)
 
 -   **[Install synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/install-synthetic-monitoring.md)**  
 You can install the synthetic monitoring application \(`com.snc.uib.sow_synthetics`\) with the admin role.

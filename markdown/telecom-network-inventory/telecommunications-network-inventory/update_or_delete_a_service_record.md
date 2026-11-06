@@ -1,5 +1,5 @@
 ---
-title: Update or delete service record
+title: Update or delete a service record
 description: Review, update, or delete a service record by using the Telecommunications Network Inventory application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/update\_or\_delete\_a\_service\_record.html
@@ -7,12 +7,12 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage your network functions, Defining inventory records, Use, Telecommunications Network Inventory]
+breadcrumb: [Manage your network functions, Define inventory records, Use, Telecommunications Network Inventory]
 ---
 
-# Update or delete service record
+# Update or delete a service record
 
 Review, update, or delete a service record by using the Telecommunications Network Inventory application.
 

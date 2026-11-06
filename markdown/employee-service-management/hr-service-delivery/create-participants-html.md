@@ -1,15 +1,15 @@
 ---
 title: Create participants for an HTML document template
-description: Define actions and the order of actions for participants. The type of action and order are considered while initiating document tasks.Insert signatures in an HTML document template by selecting participants from the list.
+description: Define actions and the order of actions for participants. The type of action and order are considered while initiating document tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/create-participants-html.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Document Templates of type HTML, Configure, Document Templates, HR Documents, HR Service Delivery, Employee Service Management]
+breadcrumb: [Document Templates of type HTML, Configuring Document Templates, Document Templates, HR Documents, HR Service Delivery, Employee Service Management]
 ---
 
 # Create participants for an HTML document template
@@ -170,30 +170,5 @@ Option to indicate the width of signature.
 
 </td></tr></tbody>
 </table>6.  Select **Submit**.
-
-
-## Insert signatures
-
-Insert signatures in an HTML document template by selecting participants from the list.
-
-### Before you begin
-
-Role required: sn\_hr\_core.admin
-
-### Procedure
-
-1.  [Configure an HTML document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-HTML-doc-template.md).
-
-2.  [Create participants for an HTML document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/create-participants-html.md).
-
-3.  Place the cursor in the desired location in the **Body** field.
-
-4.  Select **Insert Signature** to insert signature variable for a participant.
-
-5.  In the Add a signature window, select a participant.
-
-    **Note:** Signing date is not supported.
-
-6.  Click **OK**.
 
 

@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Visitor Management
 classification: workplace-visitor-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -34,7 +34,13 @@ Create a check-in or check-out flow for the Workplace Service Kiosk.
 
 [Create a record producer for visitor management]()
 
+[Configure a visitor type]()
+
+[Configure visit requirements]()
+
 [Create a visitor badge template]()
+
+[Configure the frequency of email notifications]()
 
 [Quick start test for Workplace Visitor Management]()
 

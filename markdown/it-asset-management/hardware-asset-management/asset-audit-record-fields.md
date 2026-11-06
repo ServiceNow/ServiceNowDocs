@@ -7,10 +7,10 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: reference
-last_updated: "2026-01-19"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 keywords: [asset audit, inventory audit, audit record fields]
-breadcrumb: [Reference, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Reference, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Asset audit fields
@@ -98,7 +98,7 @@ Model category
 
 </td><td>
 
-Model category for which you want to perform the audit.**Important:** This field is available with Hardware Asset Management version 15.0.0 onwards.
+Model category for which you want to perform the audit.
 
 </td></tr><tr><td>
 
@@ -114,7 +114,7 @@ Aisle and space**Note:** This field appears only if you set the **Type** field t
 
 </td><td>
 
-Aisle and space for which you want to perform the audit.**Important:** This field is available with Hardware Asset Management version 15.0.0 onwards.
+Aisle and space for which you want to perform the audit.
 
 </td></tr><tr><td>
 
@@ -129,8 +129,6 @@ Option to include consumable assets in the stockroom audit. The available option
 
  The default populated value for this field is derived using the **sn\_itam\_common.set\_default\_include\_consumables** system property. -   When this system property value is set to **yes**, the default value for the **Include consumables** field is set to **Yes**.
 -   When this system property value is set to **no**, the default value for the **Include consumables** field is set to **No**.
-
- **Important:** This field is available with Hardware Asset Management version 15.0.0 onwards.
 
 </td></tr><tr><td>
 
@@ -158,8 +156,6 @@ Depending on the selected scan method for the audit record, you can scan the ass
 
 -   To complete asset scanning for the single scan audit record, see [Complete a single scan inventory audit using the ServiceNow Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/scan-assets-agent-app.md).
 -   To complete asset scanning for multi scan audit records, see [Complete multi scan inventory audit using the ServiceNow Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/complete-multi-scan-inventory-audit-using-mobile-app.md).
-
-**Important:** This field is available with Hardware Asset Management version 15.0.0 onwards.
 
 </td></tr></tbody>
 </table>**Note:** The audit result fields such as **Expected**, **Not expected and location corrected**, **Missing**, **New**, and **Excluded from licensing** can't be edited. When the asset is scanned in the inventory using the ServiceNow Agent app, values are automatically updated in these fields. For more information about scanning assets, see [Complete a single scan inventory audit using the ServiceNow Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/scan-assets-agent-app.md) and [Complete multi scan inventory audit using the ServiceNow Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/complete-multi-scan-inventory-audit-using-mobile-app.md).

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/set-up-voice-controls-simulator-tool.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Voice Controls Simulator tool, Integrating with contact centers, Integrate, Customer Service Management]
+breadcrumb: [Voice Controls Simulator tool, Enable ICC for CCaaS calls and callbacks, Configure voice, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Set up the Voice Controls Simulator tool

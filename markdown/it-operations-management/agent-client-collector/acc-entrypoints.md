@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Operating system and application monitoring using ACC, Exploring ACC Framework, Agent Client Collector, IT Operations Management]
+breadcrumb: [Operating system and application monitoring using ACC, Exploring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Monitor HTTP points
@@ -55,6 +55,4 @@ An entry point is the access point for a service. In an Agent Client Collector p
 
     The policy monitors the entry points specified by the policy's configurations.
 
-
-**Parent Topic:**[Operating system and application monitoring using Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/itom-monitoring-for-acc.md)
 

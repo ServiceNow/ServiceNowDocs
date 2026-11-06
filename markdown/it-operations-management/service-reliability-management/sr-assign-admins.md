@@ -41,24 +41,7 @@ The SRM admin can add and create teams. They can also manage data across all SRM
 
 **Parent Topic:**[Configuring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/configuring-service-reliability-management.md)
 
-**Related topics**  
+**Previous topic:**[Install Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-install-sr-store-app.md)
 
-
-[Install Service Reliability Management from Admin Center or ServiceNow Store]()
-
-[Activate teams and services in SRM]()
-
-[Customize service approval settings]()
-
-[Customize team approval settings]()
-
-[Configure error budget actions for breached SRM SLOs]()
-
-[Approve a change request for SRM]()
-
-[Configure fields for escalation triggers]()
-
-[Configure Twilio to send notifications in SRM]()
-
-[Install the Alert Automation application]()
+**Next topic:**[Activate teams and services in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-activate-teams-and-services-in-srm.md)
 

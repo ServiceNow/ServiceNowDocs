@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/scope-resource-access.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Restricted caller access privilege settings, Application access settings, Contextual development environment, Learning about developing on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Restricted caller access privilege settings, Application access settings, Contextual development environment, Learning about developing on the ServiceNow AI Platform, Classic app development, Building applications]
 ---
 
 # Set the application scope, application resource, and event access
@@ -20,7 +20,7 @@ If you enable application administration for the target application, only applic
 
 Role required: application admin or admin
 
-**Note:** To learn about application-specific administrator roles and delegated development, see [Access control rules in application administration apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ACL-access-checks.md) and [Exploring Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
+**Note:** To learn about application-specific administrator roles and delegated development, see [Access control rules in application administration apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ACL-access-checks.md) and [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
 
 ## About this task
 
@@ -31,7 +31,7 @@ You can set the following restricted caller access privilege settings combinatio
 -   Source-to-Scope
 -   Source-to-Target
 
-**Note:** In the Rome release, we have enforced that an RCA privilege record must be present in the target application to grant access to a resource. This means that the target scope must match the application scope.
+**Note:** An RCA privilege record must be present in the target application to grant access to a resource. This means that the target scope must match the application scope.
 
 ## Procedure
 

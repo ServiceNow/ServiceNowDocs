@@ -7,7 +7,7 @@ release: zurich
 product: Health and Safety Core
 classification: health-and-safety-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Health and Safety Core, Health and Safety, Employee Service Management]
 ---
@@ -55,8 +55,6 @@ To generate a report for this table's records, you must configure its report fie
 [Create a safety report field mapping for generating reports]()
 
 [Configure groups for Health and Safety]()
-
-[Configure scheduled job to generate frequency rates]()
 
 [Assign Health and Safety profile to a user]()
 

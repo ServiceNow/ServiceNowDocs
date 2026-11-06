@@ -7,9 +7,9 @@ release: zurich
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: task
-last_updated: "2025-12-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Enterprise graph schema, Knowledge Graph, Enable AI experiences]
+breadcrumb: [Using Enterprise graph schema, Knowledge Graph, Managing data for AI, Enable AI Experiences]
 ---
 
 # Test an Enterprise Graph schema
@@ -30,7 +30,7 @@ Role required: admin
 
 3.  From the toolbar, select **Test**.
 
-    You are navigated to Test Knowledge Graph schema page.
+    You are navigated to Test Knowledge Graph Schema page.
 
     \[Omitted image "test\_enterprise\_graph.png"\] Alt text: Test Enterprise Graph schema
 

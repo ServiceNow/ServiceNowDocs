@@ -20,9 +20,9 @@ Third parties can use the Shared Assessments Standardized Information Gathering 
 
 TPRM supports the current SIG version and prior versions up to 2021. The following SIG versions are supported:
 
--   SIG Full 2025, 2024, 2023, 2022, and 2021
--   SIG Core 2025, 2023, 2022, and 2021
--   SIG Lite 2025, 2023, 2022, and 2021
+-   SIG Full 2026, 2025, 2024, 2023, 2022, and 2021
+-   SIG Core 2026, 2025, 2024, 2023, 2022, and 2021
+-   SIG Lite 2026, 2025, 2024, 2023, 2022, and 2021
 
 **Note:** SIG 2020 versions are available for reactivation. SIG 2020 versions are deactivated by default.
 

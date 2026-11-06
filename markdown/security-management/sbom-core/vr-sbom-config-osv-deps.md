@@ -7,9 +7,9 @@ release: zurich
 product: SBOM Core
 classification: sbom-core
 topic_type: concept
-last_updated: "2025-09-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure, Software Bill of Materials, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Configuring Software Bill of Materials, Software Bill of Materials, Unified Security Exposure Management, Security Operations]
 ---
 
 # Configuring the Deps.dev, OSV.dev, and PaCE integrations for Software Bill of Materials

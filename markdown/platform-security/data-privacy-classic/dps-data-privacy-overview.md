@@ -7,8 +7,8 @@ release: zurich
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Data privacy, Data Privacy, Platform Privacy]
 ---
 
@@ -16,27 +16,107 @@ breadcrumb: [Data privacy, Data Privacy, Platform Privacy]
 
 The Overview homepage is a starting point to manage your data and data privacy compliance.
 
-The Overview dashboard reports the current state of data classifications and anonymization jobs within your instance. You can view your data with the Overview dashboard to see how much data can be classified, the data classes available, the amount of data in each class, and an overall status of the anonymization jobs. The classified data is broken into different categories. Selecting a sub-category in either chart will add or remove the category from the overall chart and adjust the counts.
+The Overview dashboard reports the current state of data classifications and anonymization jobs within your instance. You can view your data with the Overview dashboard to see how much data can be classified, the data classes available, the amount of data in each class, and more.
+
+**Note:** Some classified data is broken into different categories. Selecting a sub-category in any chart will add or remove the category from the overall chart and adjust the counts.
 
 \[Omitted image "dps-overview.png"\] Alt text: Displays the data privacy overview page.
 
-## Classifiable Data
+## Basic metrics
 
-Displays the total number of data records in the instance that can be classified. The number is broken down into the total number of classified data and the total of unclassified data. This gives administrators a quick view of potential classification opportunities.
+You can view several basic privacy metrics at the top of the display.
 
-## Classified Data
+\[Omitted image "dps-basic-metrics.png"\] Alt text: Basic metrics
 
-Displays the total number of data records in the instance that have been classified. The number is broken down into the total number of classified data for each assigned data class. This provides a quick understanding how much data has been classified in each area.
+|Metric|Description|
+|------|-----------|
+|Records anonymized by job|Data in tables and column in the instance anonymized using job and user based anonymization policies.|
+|Real time records anonymized|Data in transit \(via tables/columns and real-time channels\) to the instance, anonymized using real-time anonymization policies\).|
+|Alert submissions|Notifications provided to users when sensitive data is detected in a field.|
+|Blocked submissions|Data entry submissions prevented due to sensitive data blocking policies.|
+|Quarantined attachments|Attachments containing sensitive data that have been isolated from the system for security review.|
 
-## Anonymization Jobs
+You can choose to sort the information with the time dropdown, to any of the following views:
 
-Displays data privacy jobs that are currently in process of jobs that have completed on your non-production instance for user and data class jobs.
+-   Last 7 days
+-   Last 30 days
+-   Last 90 days
+-   All time
 
-## Learn More
+Select **View more data** underneath any metric to review it in more detail.
 
-The **Learn More** sections provide a quick view into understanding classification and anonymization, as well as an easy way to get started in the process.
+## Data classification
 
-## FAQ Resources
+Displays information on data records.
 
-Access in product learning resources about classification or anonymization for additional information on how to get started securing your instance with data privacy.
+\[Omitted image "dps-data-classification.png"\] Alt text: Data classification
+
+<table id="table_pd2_sdm_k3c"><thead><tr><th>
+
+Chart
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Classifiable data
+
+</td><td>
+
+-   The total number of data records in the instance that can be classified.
+-   The number is broken down into the total number of classified data and the total of unclassified data.
+-   Gives administrators a quick view of potential classification opportunities.
+
+</td></tr><tr><td>
+
+Classified data
+
+</td><td>
+
+-   The total number of data records in the instance that have been classified.
+-   The number is broken down into the total number of classified data for each assigned data class.
+-   Provides a quick understanding how much data has been classified in each area.
+
+</td></tr></tbody>
+</table>## Data anonymization
+
+You can track anonymization methods applied to protect data.
+
+**Note:** The metrics displayed here apply to real-time anonymization and job-based anonymization when the [data pattern anonymization technique](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/dps-create-anonymization-techniques.md) is selected. Both real-time anonymization and data pattern anonymization configurations make use of active data patterns, as defined in **ALL &gt; System Security &gt; Data Discovery \(Classic\) &gt; Active Data Patterns**.
+
+\[Omitted image "dps-data-anonymization.png"\] Alt text: Data anonymization
+
+Each metric provides the following information on its data pattern:
+
+-   Total number of anonymizations for this data pattern
+-   The number of real time anonymizations for this data pattern
+-   The number of job-based anonymizations for this data pattern
+
+You can choose to sort the information with the time dropdown, to any of the following views:
+
+-   Last 7 days
+-   Last 30 days
+-   Last 90 days
+-   All time
+
+## Alerting and blocking
+
+You can track top alert and blocked data patterns.
+
+\[Omitted image "dps-alerting-blocking.png"\] Alt text: Alerting and blocking
+
+The chart shows the most frequently detected types of sensitive information found during data discovery scans. It shows whether the information was alerted or blocked.
+
+You can choose to sort the information with the time dropdown, to any of the following views:
+
+-   Last 7 days
+-   Last 30 days
+-   Last 90 days
+-   All time
+
+## Other resources
+
+For additional information on how to get started securing your instance with data privacy, you can access additional product learning resources about classification or anonymization on the right, including links to videos, documentation, and FAQs.
 

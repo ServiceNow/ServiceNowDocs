@@ -1,45 +1,36 @@
 ---
 title: Preview a remote update set
-description: Previewing compares an update set retrieved from a remote instance to updates on the local instance to detect potential problems. You must preview an update set and address all problems before you can commit the update set.The process of previewing an update set creates a preview record for each update. You can review the preview records to make sure that the correct updates are being committed.Preview an update set to detect and resolve problems that may occur if you commit the updates on the local instance.
+description: Previewing checks a retrieved update set against the local instance to find issues. Resolve all problems before committing the update set.The process of previewing an update set creates a preview record for each update. You can review the preview records to make sure that the correct updates are being committed.Preview an update set to detect and resolve problems that may occur if you commit the updates on the local instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/system-update-sets/t\_PreviewARemoteUpdateSet.html
 release: zurich
 product: System Update Sets
 classification: system-update-sets
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 6
-breadcrumb: [Transfers, System update sets, Deploying applications, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Working with update sets, System update sets, Deploying applications, Classic app development, Building applications]
 ---
 
 # Preview a remote update set
 
-Previewing compares an update set retrieved from a remote instance to updates on the local instance to detect potential problems. You must preview an update set and address all problems before you can commit the update set.
+Previewing checks a retrieved update set against the local instance to find issues. Resolve all problems before committing the update set.
 
 ## Before you begin
 
 Role required: admin
 
+If the system property glide.update\_set.auto\_preview is set to `true`, the system automatically starts the preview process after the update set is retrieved. If this property is `false`, the preview process must be started manually.
+
 ## Procedure
 
-1.  If the system property **glide.update\_set.auto\_preview** is set to **true**, the system automatically starts the preview process after the update set is retrieved.
+1.  Navigate to **System Update Sets** &gt; **Retrieved Update Sets**
 
-    If this property is **false**, the preview process must be started manually.
+2.  Select **Preview Update Set**.
 
-    1.  Navigate to **System Update Sets** &gt; **Retrieved Update Sets**.
-
-    2.  Select **Preview Update Set**.
-
-    For large update sets, the preview process requires a significant amount of time. If necessary, you can cancel the preview process by selecting the **Cancel** button on the progress dialog box.
+    For large update sets, the preview process may require a significant amount of time. If necessary, you can cancel the preview process by selecting the **Cancel** button on the progress dialog box.
 
     The Update Set Preview page shows results and lists problems. Read the information and select **Close**.
-
-2.  On the Retrieved Update Set form, make a selection.
-
-    |Option|Action|
-    |------|------|
-    |**If no problems were detected**|Select **Commit Update Set** to commit all changes on the instance without reviewing the preview results.|
-    |**If problems were detected**|Address each problem in the Update Set Preview Problems related list.|
 
 3.  Preview the records.
 
@@ -47,10 +38,14 @@ Role required: admin
 
     2.  Open the update set record and select **Run Preview Again** to run the comparisons again.
 
-    3.  Review the **Update Set Preview Problems** related list to confirm that the correct updates are being committed.
+    3.  Review the **Update Set Preview Problems** related list to verify that the correct updates are being committed.
+
+4.  On the Retrieved Update Set form, select **Commit Update Set** to commit all changes on the instance without reviewing the preview results.
+
+    If problems were detected, address each problem in the Update Set Preview Problems related list.
 
 
-**Parent Topic:**[Update set transfers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/update-set-transfers.md)
+**Parent Topic:**[Working with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/using-system-update-sets.md)
 
 ## Review a preview record for an update set
 
@@ -58,7 +53,7 @@ The process of previewing an update set creates a preview record for each update
 
 ### Before you begin
 
-Role required: admin.
+Role required: admin
 
 ### Procedure
 
@@ -66,9 +61,9 @@ Role required: admin.
 
 2.  Select the **Show All Preview Records** related link.
 
-3.  Select the **Disposition** to open a preview record and then review the information \(see table\).
+3.  Select the **Disposition** to open a preview record.
 
-4.  Fill in the fields on the form, as appropriate.
+4.  Fill in the form.
 
 <table id="table_b4g_gzw_yq"><thead><tr><th>
 
@@ -84,8 +79,10 @@ Disposition
 
 </td><td>
 
-Indicates when a collision is detected:-   **Collision/Update**, **Collision/Insert**, or **Collision/Delete:** the change is older than a change to the same object on the local instance.
--   **Update**, **Insert**, or **Delete:** the change doesn’t conflict with a change on the local instance.
+Indicates when a collision is detected. If the change predates a local modification to the same object. -   Collision
+-   Update
+-   Insert
+-   Delete
 
 
 </td></tr><tr><td>
@@ -94,7 +91,12 @@ File differences
 
 </td><td>
 
-Compares the most recent version of the object on the local instance with the update set. Differences are marked with a color key. Deletions are highlighted in red, additions in green, and modifications in yellow.
+Compares the latest local object version with the update set, marking differences with colors.
+
+-   Additions are marked green.
+-   Changes are marked yellow.
+-   Deletions are marked red.
+
 
 </td></tr><tr><td>
 
@@ -102,18 +104,20 @@ Proposed action
 
 </td><td>
 
-Indicates how to handle the change when the update set is committed.-   **Commit:** Accept the change in the remote update. The default proposed action for every preview record is Commit, even if a newer update exists on the instance.
--   **Skip:** Reject the change.
+Specifies the procedure for managing the change once the update set has been committed. -   **Commit**
 
+Accept the change in the remote update. The default proposed action for every preview record is to commit, even if a newer update exists on the instance.
+
+-   **Skip**
+
+Reject the change.
 
 </td></tr></tbody>
-</table>5.  If necessary, resolve any problems listed in the **Update Problems** related list.
+</table>5.  Resolve any problems listed in the **Update Problems** related list.
 
-6.  In the Proposed action field, select the action to take when committing the update set.
+6.  In the proposed action field, select the action to take when committing the update set.
 
 7.  Select **Update** to save the action.
-
-8.  Repeat the process for every preview record.
 
 
 ## Resolve a preview problem in an update set
@@ -122,7 +126,7 @@ Preview an update set to detect and resolve problems that may occur if you commi
 
 ### Before you begin
 
-Role required: admin.
+Role required: admin
 
 ### Procedure
 
@@ -132,70 +136,81 @@ Role required: admin.
 
 3.  Review each problem description to determine the cause and resolve the problem.
 
-    Update Set Preview Problems
+<table id="table_vqn_m1v_1hc"><thead><tr><th>
 
-    -   **Missing Object**
+Problem
 
-        Example problem text: `Could not find a record in sys_ui_policy referenced in this update`.
+</th><th>
 
-        Description: The object or a referenced object does not exist on the target instance. For example:
+Description
 
-        -   An update modifies the form layout for a table that has not been created in the local instance.
-        -   A UI policy action is included in the update set, but the parent UI policy is not.
-        -   Resolution: Create another update set on the source instance to transfer the missing object to the local instance, or create the object on the local instance. Use these **Available Actions** to assist in problem resolution:
-            -   **Find missing field** or **Find missing record**: Opens a new window and searches the source instance for the missing field \(dictionary entry\) or record.
-            -   **Find missing update**: Opens a new window and searches the source instance for the update record that corresponds to the missing field or record.
-    -   **Collision**
+</th></tr></thead><tbody><tr><td>
 
-        Example problem text: `Found a local update that is newer than this one`
+Missing Object
 
-        Description: A change in the update set is older than a change to the same object on the local instance.
+</td><td>
 
-        Resolution: Compare the two updates and determine which version to use. To use the version on the local instance, select **Skip remote update**. To use the version in the update set, select **Accept remote update**. Use these **Available Actions** to assist in problem resolution:
-
-        -   **Compare with local**: opens the preview record, which provides a comparison of the differences between the local version and the version in the update set.
-        -   **Show local field** or **Show local record**
-        -   **Show local update**
-    -   **Uncommitted update**
-
-        Example problem text: `Could not find a table field (u_case.u_reference) referenced in this update, but did find it in another uncommitted update set`
-
-        Description: The object exists in another remote update set that has not been committed.
-
-        Resolution: Commit the other remote update set first or move this update to the other update set. Use these **Available Actions** to assist in problem resolution:
-
-        -   **Show uncommitted update**: opens the update record in the other remote update set.
-        -   **Show uncommitted Update Set**: Open the other remote update set record.
-    -   **Table to be deleted has data**
-
-        Example problem text: `Found a row in the table that is going to be deleted`
-
-        Description: One difference between table deletes and other metadata deletes is that the table data is lost when the table is deleted. \(If the table is empty \(no rows\), then no problem is generated.\)
-
-        Resolution: The problem must be ignored \(delete will happen\) or skipped \(delete won’t happen\) before the update set can be committed. You can restore the table, but the restore doesn’t bring back the data.
-
-        You aren’t enabled to delete system tables \(ServiceNow tables\) or tables outside your application scope.
-
-    -   **Application scope validation issue**
-
-        Description: The previewer identifies the following combination of states as a problem:
-
-        -   The scope for the update set isn’t Global and
-        -   The application isn’t found on the target instance and
-        -   The application isn’t included with the update set and
-        -   The application isn’t found on the ServiceNow Store.
-        Resolution: Transfer the update set only to instances that include the application scope or confirm that the update set includes the application.
-
-    -   **Conflict within a single batch**
-
-        Example problem text: `This update has conflicts within the update set with the same name. Resolve the issue on the source system and re-preview or choose a specific update to use.`
-
-        Description: Two or more update sets within the same batch have conflicting changes. The **Update Set Preview Problems**list contains a record for each update set with a conflicting change.
-
-        Resolution: Compare the conflicting update sets and determine which version to use. Select the row for that set and select **Accept this collision.** otherwise, select **Compare Collisions** to compare the conflicting update sets.
-
-        \[Omitted image "UpdateSetCompare.png"\] Alt text: Compare two Updates form
-
-        From this screen, you can compare any two of the conflicting update sets and choose the update set to commit.
+The object or a referenced object doesn’t exist on the target instance. Create another update set on the source instance to transfer the missing object to the local instance, or create the object on the local instance.-   Open a new window with the **Find missing field** or **Find missing record** and search the source instance for the missing field or record.
+-   Open a new window with **Find missing update** and search the source instance for the update record that corresponds to the missing field or record.
 
 
+</td></tr><tr><td>
+
+Collision
+
+</td><td>
+
+A change in the update set is older than a change to the same object on the local instance. Compare the two updates and determine which version to use.-   To use the version on the local instance, select **Skip remote update**.
+-   To use the version in the update set, select **Accept remote update**
+-   To use the version in the update set, select Accept remote update.
+-   Open the preview record with **Compare with local** to view a comparison of the differences between the local version and the version in the update set.
+-   Show local field
+-   Show local record
+-   Show local update
+
+
+</td></tr><tr><td>
+
+Uncommitted update
+
+</td><td>
+
+The object exists in another remote update set that hasn’t been committed. Commit the other remote update set first or move this update to the other update set. -   **Show uncommitted update** opens the update record in the other remote update set.
+-   **Show uncommitted Update Set** opens the other remote update set record.
+
+
+</td></tr><tr><td>
+
+Table to be deleted has data
+
+</td><td>
+
+Deleting a table removes its data, unlike other metadata deletions. Skip or ignore related issues before committing updates. Restoring the table doesn’t recover its data.
+
+**Note:** You can't delete system tables or tables outside of your application scope.
+
+</td></tr><tr><td>
+
+Application scope validation issue
+
+</td><td>
+
+The previewer identifies the following combination of states as a problem:-   The scope for the update set isn’t Global.
+-   The application isn’t found on the target instance.
+-   The application isn’t included with the update set.
+-   The application isn’t found on the ServiceNow Store.
+Transfer the update set only to instances that include the application scope or confirm that the update set includes the application.
+
+</td></tr><tr><td>
+
+Conflict within a single batch
+
+</td><td>
+
+Two or more update sets within the same batch have conflicting changes. The **Update Set Preview Problems** list contains a record for each update set with a conflicting change.-   Compare the conflicting update sets and determine which version to use.
+-   Select **Compare Collisions** to compare the conflicting update sets.
+-   Select **Accept this collision**.
+
+
+</td></tr></tbody>
+</table>

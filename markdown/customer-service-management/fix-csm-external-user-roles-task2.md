@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/fix-csm-external-user-roles-task2.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Fix external user role assignments, User management, Set up your environment, Configure, Customer Service Management]
 ---
@@ -16,11 +16,11 @@ Review and fix roles for external users that might have intentional internal rol
 
 ## Before you begin
 
-Role required: admin
+Role required: user\_admin, sn\_crm\_foundation\_admin, system\_scheduler\_admin, and csm\_guided\_setup\_user
 
 ## About this task
 
-It is recommended that you don’t assign internal roles to external users. Use this procedure to review and fix the contacts and consumers that may have the following role assignments:
+You must not assign internal roles to external users. Use this procedure to review and fix the contacts and consumers that may have the following role assignments:
 
 -   snc\_internal role and one or more additional internal roles
 -   snc\_internal role and one or more additional internal and external roles
@@ -47,6 +47,6 @@ It is recommended that you don’t assign internal roles to external users. Use 
 
     -   For users with the snc\_internal role and one or more additional internal roles, it removes the snc\_internal role and all other internal roles, and adds the snc\_external role.
     -   For users with the snc\_internal role and one or more additional internal and external roles, it removes the snc\_internal role and all other internal roles.
-    This scheduled job runs all of the delete business rules on the User Role \[sys\_user\_has\_role\] table.
+    This scheduled job runs all the deleted business rules on the User Role \[sys\_user\_has\_role\] table.
 
 

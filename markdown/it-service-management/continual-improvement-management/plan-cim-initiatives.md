@@ -7,7 +7,7 @@ release: zurich
 product: Continual Improvement Management
 classification: continual-improvement-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Continual Improvement Management, IT Service Management]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_cim.improvement\_manager, sn\_cim.improvement\_coordinator
 
 1.  Navigate to **Continual Improvement** &gt; **Workbench**.
 
-    For more information, see .
+    For more information, see [Continual Improvement Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/continual-improvement-workbench.md).
 
 2.  In the Overview tab, review improvements in progress and select a tile to view more details.
 

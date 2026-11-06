@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Dispatcher Workspace, Assigning WOTs from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
+breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Select Territories in Dispatcher Workspace
@@ -23,6 +23,11 @@ Role required: wm\_dispatcher
 ## About this task
 
 You must turn off **Enable single select groups / territories** in settings to select multiple territories. For more information, see [Enable Dispatcher Workspace settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/dispatcher-wrkspc-settings.md).
+
+When you select a territory, its KPIs display in the contextual side panel: Utilization, Productivity, Total tasks, Work time, and Travel time.
+
+-   Utilization is calculated as \(travel time + work time\) / shift time
+-   Productivity is calculated as work time / shift time.
 
 ## Procedure
 

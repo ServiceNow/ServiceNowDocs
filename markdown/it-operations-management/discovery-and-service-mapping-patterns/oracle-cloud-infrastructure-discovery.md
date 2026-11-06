@@ -7,7 +7,7 @@ release: zurich
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2025-11-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [Patterns]
 breadcrumb: [Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
@@ -21,7 +21,7 @@ Starting with version 1.29.0, Discovery and Service Mapping Patterns supports th
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -61,131 +61,40 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the Discovery patterns. In addition to permissions, the spreadsheet also includes useful information such as pattern names, types, CI Classes, and links to vendor documentation. New patterns are available quarterly, so check periodically to be sure you have the latest version of the spreadsheet.
 
-## Data collected by Discovery during horizontal discovery
-
-The discovered Oracle configuration data includes the following table and fields.
-
-|Field|Description|
-|-----|-----------|
-|Cloud Database \(cmdb\_ci\_cloud\_database\)|
-|name|The name of the database.|
-|object\_id|Unique identifier of the database.|
-|operational\_status|Operational status of the database.|
-|vendor|The vendor, **Oracle**.|
-|type|The Oracle database type.|
-|version|Version of the database.|
-|state|State of the database.|
-|comments|The attribute is issued for the delete strategy.|
-|install\_status|Install status.|
-|Image​ \(cmdb\_ci\_os\_template\)|
-|name|The image name.|
-|object\_id|Unique identifier of the image.|
-|version|The version of the guest OS.|
-|guest\_os|The name of the guest OS.|
-|Service Account \(cmdb\_ci\_cloud\_service\_account\)|
-|name|The account name.|
-|datacenter\_type|Datacenter type.|
-|account\_id|Unique identifier of the account.|
-|object\_id|Unique identifier of the account \(same value as the account id\).|
-|discovery\_credentials|The credentials related to the service account.|
-|is\_master\_account|**true** when it is the root compartment. **false** when it is not the root compartment.|
-|Network \(cmdb\_ci\_network\)|
-|name|The network name.|
-|object\_id|Unique identifier of the network.|
-|cidr|The cidr of the network.|
-|domain\_name|The domain name.|
-|state|The state of the network.|
-|NIC \(cmdb\_ci\_nic\)|
-|name|The NIC name.|
-|object\_id|Unique identifier of the NIC.|
-|public\_ip|The public IP address.|
-|mac\_address|The MAC address.|
-|primary|Set **true**/**false** according to the setup.|
-|private\_ip|The private ip address.|
-|state|The state of the NIC.|
-|Storage Volume \(cmdb\_ci\_storage\_volume\)|
-|name|The name of the storage volume.|
-|object\_id|Unique identifier of storage volume.|
-|state|The state of the storage volume.|
-|volume\_id|Unique identifier of the storage volume \(same value as the account id\).|
-|size|The storage volume size.|
-|size\_bytes|The storage volume size in bytes.|
-|Subnet \(cmdb\_ci\_cloud\_subnet\)|
-|name|The name of the subnet.|
-|object\_id|Unique identifier of subnet.|
-|cidr|The cidr of the subnet.|
-|domain\_name|The domain name.|
-|state|The state of the subnet.|
-|Virtual Machine \(cmdb\_ci\_vm\_instance\)|
-|name|The VM name.|
-|object\_id|Unique identifier of VM.|
-|state|The state of the VM.|
-|memory|Memory size.|
-|cpus|Number of CPUs.|
-
-Tags are populated to the **cmdb\_key\_value** table and related to the relevant cmdb ci resource. In order to support it, the extension sections were created for the following resources:
-
--   Autonomous DB
--   Exadata DB
--   Image
--   Network
--   NIC
--   Storage Volume
--   Account
--   Subnet
--   Virtual Machine
-
-## CI Relationships
-
-|CI|Relationship|CI|
-|---|------------|---|
-|cmdb\_ci\_oci\_datacenter|Contains::Contained by|cmdb\_ci\_availablity\_zone|
-
-|CI|Relationship|CI|
-|---|------------|---|
-|cmdb\_ci\_vm\_instance|Use End Point To::Use End Point From|cmdb\_ci\_endpoint\_block|
-|cmdb\_ci\_endpoint\_block|Implement End Point To::Implement End Point From|cmdb\_ci\_storage\_volume|
-
-|CI|Relationship|CI|
-|---|------------|---|
-|cmdb\_ci\_oci\_datacenter|Contains::Contained by|cmdb\_ci\_availability\_zone|
-
-**Note:** When configuring a Cloud Discovery scheduler for part of the LDCs, the Oracle OCI - Fault Domain \(LP\) pattern will not trigger.
-
-|CI|Relationship|CI|
-|---|------------|---|
-|cmdb\_ci\_oci\_datacenter|Hosted on::Hosts|cmdb\_ci\_cloud\_service\_account|
-
-|CI|Relationship|CI|
-|---|------------|---|
-|cmdb\_ci\_network|Hosted on::Hosts|cmdb\_ci\_oci\_datacenter|
-
-|CI|Relationship|CI|
-|---|------------|---|
-|cmdb\_ci\_vm\_instance|Use End Point To::Use End Point From|cmdb\_ci\_endpoint\_subnet|
-|cmdb\_ci\_vm\_instance|Use End Point To::Use End Point From|cmdb\_ci\_endpoint\_vnic|
-|cmdb\_ci\_endpoint\_vnic|Implement End Point To::Implement End Point From|cmdb\_ci\_nic|
-|cmdb\_ci\_cloud\_subnet|Implement End Point To::Implement End Point From|cmdb\_ci\_endpoint\_subnet|
-
-|CI|Relationship|CI|
-|---|------------|---|
-|cmdb\_ci\_nic|Hosted on::Hosts|cmdb\_ci\_oci\_datacenter|
-
-|CI|Relationship|CI|
-|---|------------|---|
-|cmdb\_ci\_availablity\_zone|Contains::Contained by|cmdb\_ci\_storage\_volume|
-|cmdb\_ci\_storage\_volume|Hosted on::Hosts|cmdb\_ci\_oci\_datacenter|
-
-|CI|Relationship|CI|
-|---|------------|---|
-|cmdb\_ci\_network|Contains::Contained by|cmdb\_ci\_cloud\_subnet|
-
+-   **[OCI active datacenter pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-active-datacenter-pattern.md)**  
+Discovery and Service Mapping Patterns finds the datacenters \(regions\) that your tenancy is subscribed to in your OCI environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[OCI Autonomous DB pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-autonomous-db-pattern.md)**  
+Discovery and Service Mapping Patterns finds Autonomous Databases \(DB\) in your OCI environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[OCI availability domain pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-availability-domain-pattern.md)**  
+Discovery and Service Mapping Patterns finds OCI availability domains in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[OCI cloud hardware type pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-cloud-hardware-type-pattern.md)**  
 Discovery and Service Mapping Patterns finds OCI cloud hardware types \(called shapes in OCI\) in your Cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[OCI datacenter pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-datacenter-pattern.md)**  
+Discovery and Service Mapping Patterns finds all datacenters \(regions\) that are available in OCI. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[OCI DB Home pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-db-home-pattern.md)**  
+Discovery and Service Mapping Patterns finds Database Homes \(DB Homes\) in your OCI environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[OCI fault domain pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-fault-domain-pattern.md)**  
+Discovery and Service Mapping Patterns finds OCI fault domains in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[OCI network pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-network-pattern.md)**  
+Discovery and Service Mapping Patterns finds OCI Virtual Cloud Networks \(VCN\) in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[OCI NIC attachment pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-nic-attachment-pattern.md)**  
+Discovery and Service Mapping Patterns finds OCI virtual network interface cards \(VNICs\) attachment records in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[OCI NIC pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-nic-pattern.md)**  
+Discovery and Service Mapping Patterns finds OCI virtual network interface cards \(VNICs\) in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[OCI OS image pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-os-image-pattern.md)**  
 Discovery and Service Mapping Patterns finds OCI OS images on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[OCI storage attachment pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-storage-attachment-pattern.md)**  
+Discovery and Service Mapping Patterns finds storage attachments \(volume attachments\) in your OCI environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[OCI storage volume pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-storage-volume-pattern.md)**  
+Discovery and Service Mapping Patterns finds OCI storage volumes in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[OCI sub account pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-sub-account-pattern.md)**  
+Discovery and Service Mapping Patterns finds sub accounts \(compartments\) in your OCI environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[OCI subnet pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-subnet-pattern.md)**  
+Discovery and Service Mapping Patterns finds OCI subnets in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[OCI virtual machine pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-vm-pattern.md)**  
 Discovery and Service Mapping Patterns finds OCI virtual machines \(VMs\) in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[Oracle Exadata cloud as a service pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-exadata-pattern.md)**  
+Discovery and Service Mapping Patterns finds Oracle Exadata resources in your OCI environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 **Parent Topic:**[Available cloud discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/available-patterns-cloud.md)
 

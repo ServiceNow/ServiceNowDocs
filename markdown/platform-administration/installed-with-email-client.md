@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/installed-with-email-client.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Email client, Notifications, Configure core features, Administer]
+breadcrumb: [Email client, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Components installed with the email client

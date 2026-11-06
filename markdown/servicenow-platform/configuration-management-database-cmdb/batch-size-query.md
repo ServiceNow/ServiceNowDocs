@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, CMDB Query Builder, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -36,7 +36,7 @@ The batch size for query runs is allocated in the following priority order:
 If you are experiencing performance problems when running queries, you can modify the batch size value:
 
 -   Globally for all queries: By adding \(if necessary\) and setting the value of the system property [glide.cmdb.query.batch\_size](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-querybldr-sysproprties.md).
--   Per saved query: [Set batch size for a specific saved query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/batch-size-query.md)
+-   Per saved query: [Set batch size for a specific saved query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/batch-size-query.md).
 
 ## Set batch size for a specific saved query
 
@@ -44,7 +44,7 @@ Configure a custom batch size for a CMDB Query Builder saved query that takes a 
 
 ### Before you begin
 
-Role required: admin
+Role required: sn\_cmdb\_admin or admin
 
 ### About this task
 

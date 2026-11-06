@@ -1,16 +1,16 @@
 ---
-title: Manage entities in ESG Management \(formerly ESG Management\)
+title: Manage entities in Operational Sustainability Management \(formerly ESG Management\)
 description: You can learn about how Operational Sustainability Management is used by the investors and reporting agencies to evaluate different entities that they want to invest in, such as different business units in an organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/entities-in-esg.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
-# Manage entities in ESG Management \(formerly ESG Management\)
+# Manage entities in Operational Sustainability Management \(formerly ESG Management\)
 
 You can learn about how Operational Sustainability Management is used by the investors and reporting agencies to evaluate different entities that they want to invest in, such as different business units in an organization.
 
@@ -18,7 +18,7 @@ Entities can be people, processes, departments, or applications. For example, if
 
 As another example, assume you’re a company that has subsidiary companies. Your goal is to measure greenhouse gas emissions \(GHG\) in your subsidiary companies. Both your company and your subsidiary companies are your entities. Your company is the parent entity, while the subsidiary companies are the child entities. Typically, the parent entity handles reporting and measuring the GHG of the child entities.
 
-As part of your ESG Management strategy, you have to provide disclosures to your stakeholders. ESG Management disclosures refer to the disclosure of data that relate to an organization's Operational Sustainability Management performance. These disclosures concern the goals, targets, and metrics that are associated with your entities. By using these disclosures and other metrics, the investors assess and rate the performance of entities based on the operational sustainability parameters.
+As part of your Operational Sustainability Management strategy, you have to provide disclosures to your stakeholders. Operational Sustainability Management disclosures refer to the disclosure of data that relate to an organization's Operational Sustainability Management performance. These disclosures concern the goals, targets, and metrics that are associated with your entities. By using these disclosures and other metrics, the investors assess and rate the performance of entities based on the operational sustainability parameters.
 
 A parent entity that has the child entities is said to have downstream entities. Any child entity that has the parent entities is said to have upstream entities.
 
@@ -41,7 +41,7 @@ For Product, its attributes are product ID, name, cost, and currency. In the Pro
 Entities and entity types can have a one-to-many relationship. For example, an entity called Hope can have an entity type called Person and an entity type called Organization.
 
 -   **[Create an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/create-entity.md)**  
-Create an entity and measure its performance against the goals. Defining an entity ensures that the entity owners are also identified. After an entity is defined, ESG Management goals are applied to the entity.
+Create an entity and measure its performance against the goals. Defining an entity ensures that the entity owners are also identified. After an entity is defined, Operational Sustainability Management goals are applied to the entity.
 -   **[Update an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/update-an-entity.md)**  
 Update the details of an existing entity.
 -   **[Create an entity type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/create-entity-type.md)**  
@@ -53,7 +53,7 @@ Create an entity class that is to be associated with an entity. Define the paren
 -   **[Update an entity class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/update-entity-class.md)**  
 Update an existing entity class that is associated with an entity. Entity classes are used to add the conceptual information about an entity or tag the entity.
 
-**Parent Topic:**[Configure ESG Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/configuring-esg.md)
+**Parent Topic:**[Configure Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/configuring-esg.md)
 
 **Related topics**  
 

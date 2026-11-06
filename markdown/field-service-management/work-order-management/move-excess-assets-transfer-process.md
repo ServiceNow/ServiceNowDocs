@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Inventory, ServiceNow Agent mobile app, Use, Field Service Management]
+breadcrumb: [Inventory, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
 # Move excess assets through the transfer process from a mobile device
@@ -34,15 +34,15 @@ Role required: wm\_agent or wm\_dispatcher
 
 5.  Move the part to be returned to the stockroom by doing one of the following actions.
 
-<table id="choicetable_ijp_w1y_2jb"><thead><tr><th align="left" id="d103326e109">
+<table id="choicetable_ijp_w1y_2jb"><thead><tr><th align="left" id="d113369e109">
 
 Option
 
-</th><th align="left" id="d103326e112">
+</th><th align="left" id="d113369e112">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d103326e118">
+</th></tr></thead><tbody><tr><td id="d113369e118">
 
 **Drop off**
 
@@ -53,7 +53,7 @@ Description
 3.  Select the quantity that you want to return.
 
 
-</td></tr><tr><td id="d103326e142">
+</td></tr><tr><td id="d113369e142">
 
 **View part details and then drop off**
 

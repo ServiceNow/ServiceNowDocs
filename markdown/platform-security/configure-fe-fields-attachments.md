@@ -1,22 +1,22 @@
 ---
 title: Configure encrypted field configurations for fields or attachments
-description: Create an encrypted field configuration to specify which fields are encrypted on a table, and whether that tables attachments are encrypted.
+description: Create an encrypted field configuration to specify which fields are encrypted on a table, and whether that table's attachments are encrypted.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/configure-fe-fields-attachments.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Configuring Field Encryption, Field Encryption, Encryption]
 ---
 
 # Configure encrypted field configurations for fields or attachments
 
-Create an encrypted field configuration to specify which fields are encrypted on a table, and whether that tables attachments are encrypted.
+Create an encrypted field configuration to specify which fields are encrypted on a table, and whether that table's attachments are encrypted.
 
 ## Before you begin
 
-Role required: KMF Admin or KMF Cryptographic Manager, Security Admin
+Role required: security\_admin and sn\_kmf.cryptographic\_manager or sn\_kmf.admin
 
 You must have a configured field encryption module with a ServiceNow or customer-supplied key. If you have not yet configured a module, see [Configure Field Encryption modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/configure-fe-modules.md).
 
@@ -24,11 +24,11 @@ You must have a configured field encryption module with a ServiceNow or customer
 
 1.  Ensure that you are in the same application scope as the table you want to encrypt.
 
-2.  Navigate to **All** &gt; **System Security** &gt; **Field Encryption** &gt; **Encrypted Field Configurations**.
+2.  Navigate to **All** &gt; **System Security** &gt; **Field Encryption** &gt; **Field Encryption Experience** &gt; **Modules**.
 
-3.  Select **New**.
+3.  Select **Create new**.
 
-4.  In the **Encrypted Field Configuration** form, fields in the fields as needed.
+4.  In the **Encrypted Field Configuration** form, fill in the fields as needed.
 
 <table id="table_pnt_42l_f2c"><thead><tr><th>
 
@@ -83,7 +83,7 @@ Whether the configuration is active.**Important:**
 
 When active, your instance is actively encrypting new data in the selected fields or attachments. Users will not have access to this data unless they have permission via an associated Module Access Policy. Do not check if the field is not yet ready to begin encrypting and enforcing Module Access Policies.
 
-To ensure historical data is encrypted after an Encrypted Field Configuration is active, you’ll need to run a Mass Encryption Job on the column. For details, see “Schedule Mass Encryption, Decryption, or Rekeying” .
+To ensure historical data is encrypted after an Encrypted Field Configuration is active, you’ll need to run a Mass Encryption Job on the column. For details, see [Schedule mass encryption, decryption, or rekeying jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/schedule-mass-jobs.md).
 
 </td></tr><tr><td>
 
@@ -101,7 +101,7 @@ Method
 
 Select **Single Module** to ensure all fields or attachments are encrypted by a single field encryption module.
 
- Select **Multi Module** to allow for different field encryption modules to be used for different rows within a column or different attachments. For details on multi-module configuration, see .
+ Select **Multi Module** to allow for different field encryption modules to be used for different rows within a column or different attachments. For details on multi-module configuration, see[Configure multi-module encrypted field configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/multi-module-fe-config.md).
 
 </td></tr><tr><td>
 
@@ -112,7 +112,7 @@ Algorithm Equality Preserving
 Displays whether **Equality Preserving** is enabled in the field encryption module selected in the **Crypto Module** field.
 
 </td></tr></tbody>
-</table>5.  Select **Submit**.
+</table>5.  Select **Save**.
 
 
 **Parent Topic:**[Configuring Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/configuring-column-level-encryption.md)

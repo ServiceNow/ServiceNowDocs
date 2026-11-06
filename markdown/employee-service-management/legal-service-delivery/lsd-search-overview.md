@@ -7,7 +7,7 @@ release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -63,5 +63,5 @@ Q&amp;A Genius Results - Provides concise, actionable answers search results fro
 
 -   [Zing text indexing and search engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_ZingTextSearch.md)
 -   [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/overview-ais.md)
--   [ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md)
+-   [ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/now-assist-lsd-exploring.md)
 

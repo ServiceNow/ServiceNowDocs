@@ -7,9 +7,9 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Data Certification experience in a workspace, Data Certification, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Data Certification, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Review failed certification tasks
@@ -22,7 +22,7 @@ Role required: sn\_cmdb\_admin
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Service Graph Workspace** and in the navigation panel select the Tasks icon. In the Tasks navigation panel select **Certification** and on the Data Certification page, select the Certification tasks tab.:
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Tasks**. In the Tasks navigation panel select **Certification**
 
 2.  Select a drop-down to expand a task to show the records and fields that failed the certification review.
 

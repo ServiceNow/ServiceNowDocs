@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2026-03-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Working with Space Optimization, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -21,6 +21,8 @@ After creating a scenario and implementing the space allocation and assignment, 
 [Create a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 
 **Important:** If allocation changes in your instance impact the scenario, the system displays a warning on the Space Details panel. You must review the changes, edit the scenario accordingly, then select **Move to valid** before continuing. For more information about allocation changes, see [Reviewing allocation changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-space-management/reviewing-allocation-changes.md).
+
+\[Omitted image "wsd-central-review-changes.png"\] Alt text: Space details panel displaying a warning about reviewing allocation changes.
 
 Role required: sn\_wsd\_spcmgmt.space\_planner
 
@@ -44,15 +46,15 @@ When you publish a scenario, the state of the scenario changes from **Draft** st
 
     Follow any one of the following paths.
 
-<table id="choicetable_vtv_5nj_3vb"><thead><tr><th align="left" id="d111166e154">
+<table id="choicetable_vtv_5nj_3vb"><thead><tr><th align="left" id="d112304e159">
 
 Path
 
-</th><th align="left" id="d111166e157">
+</th><th align="left" id="d112304e162">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d111166e163">
+</th></tr></thead><tbody><tr><td id="d112304e168">
 
 **From the Scenarios list section**
 
@@ -66,7 +68,7 @@ A list of all the scenarios created in the application are displayed.
 
 You can use the search and filter options on the list.
 
-</td></tr><tr><td id="d111166e188">
+</td></tr><tr><td id="d112304e193">
 
 **From the Buildings list section**
 

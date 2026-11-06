@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-config-organize-agent-workspaces.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Configure, Public Sector Digital Services \(PSDS\)]
 ---
@@ -16,7 +16,7 @@ Configure agent workspaces and boost efficiency by optimizing interfaces, config
 
 <table id="table_mhz_4gb_l1c" class="nav-card"><tbody><tr><td>
 
-[Playbooks and Solutions\[Omitted image "bus-service-catalog.svg"\] Alt text:Configure playbooks to help guide government agents through the lifecycle of a public service case.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-install-playbooks-solutions.md)
+[Playbooks\[Omitted image "bus-service-catalog.svg"\] Alt text:Configure playbooks to help guide government agents through the lifecycle of a public service case.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-install-playbooks-solutions.md)
 
 </td><td>
 
@@ -35,7 +35,7 @@ Configure agent workspaces and boost efficiency by optimizing interfaces, config
 
 -   **[Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-install-playbooks-solutions.md)**
 
-    Install one or more playbook applications with Public Sector Digital Services. These tools provide an end-to-end workflow for handling public service requests submitted by consitutuents, enabling agents to resolve cases quickly and efficiently.
+    Install one or more playbook applications with Public Sector Digital Services. These tools provide an end-to-end workflow for handling public service requests submitted by constituents, enabling agents to resolve cases quickly and efficiently.
 
 -   **[CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/setting-up-csm-fsm.md)**
 

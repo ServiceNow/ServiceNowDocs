@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sem-disable-risk-reduction.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Add a compensating control to the library, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -38,8 +38,6 @@ The risk reduction for a CVE and TPE is enabled by default.
 
 3.  To enable the risk reduction requests for host vulnerable items, select **Enable risk reduction**.
 
-
-**Parent Topic:**[Add a compensating control to the library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-create-compensatory-control.md)
 
 **Related topics**  
 

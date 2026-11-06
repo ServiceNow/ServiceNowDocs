@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Agent Client Collector, IT Operations Management]
+breadcrumb: [Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
 
 # Agent Client Collector Framework reference
@@ -52,6 +52,10 @@ The following table displays the available log levels which indicate the severit
 If Agent Client Collector logs get too large, they can drain system resources. To ensure system efficiency, configure parameters in the `acc.yml` file by which to rotate logs out of the system's storage \(Windows default location = `C:\ProgramData\ServiceNow\agent-client-collector\config\acc.yml`. Linux default location = `/etc/servicenow/agent-client-collector/acc.yml`\).
 -   **[Agent Client Collector CPU protection thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-set-silent-reference.md)**  
 When an agent meets the configured thresholds specified in the agent's `acc.yml` file, it enters CPU protection mode, either for an individual check or for all checks. Agents in CPU protection mode appear in the agent logs with the syntax `Agent Protection`.
+-   **[Golden image structure and modularity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/golden-image-structure-modularity.md)**  
+The following table outlines the structure and modularity of the golden image mode for cloning agents, based on the operating system \(OS\) in use.
+-   **[Agent Client Collector health instance scan checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-instance-scan-checks.md)**  
+The Agent Client Collector \(ACC\) health instance scan suite includes checks that detect anomalies and issues on your instance. Use this reference to identify what each check does and when it applies.
 -   **[Agent onboarding configuration settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-onboarding-config-settings.md)**  
 The settings you can customize when generating an Agent Onboarding installation plan. Toggle settings to activate and enable customization.
 -   **[Agent installation plan steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/agent-installation-plan-steps.md)**  
@@ -65,5 +69,5 @@ Operating systems and package types supported for Agent Client Collector auto-up
 -   **[MSI installation parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/msi-installation-parameters.md)**  
 The following table describes the MSI parameters used when preparing an agent for installation on a gold image and used with a non-persistent virtual desktop infrastructure \(NPVDI\) machine.
 
-**Parent Topic:**[Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-landing-page.md)
+**Parent Topic:**[Agent Client Collector reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-reference.md)
 

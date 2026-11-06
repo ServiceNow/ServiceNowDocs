@@ -7,9 +7,9 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Integrate, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [GRC: Policy and Compliance integrator, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Approve the library import task
@@ -90,7 +90,7 @@ Role required: sn\_compliance.manager
 
     When the status of the library import task is Completed, the import task summary and the related links of the import sets are displayed only to the users with the import\_transformer role as shown in the following example. The import\_transformer role is a global role.
 
-
+    \[Omitted image "import-transformer-role-summary.png"\] Alt text: Task completed and import\_transformer role view summary.
 
     The import\_transformer role view summary is not available to any other users of the GRC: Policy and Compliance integrator application.
 

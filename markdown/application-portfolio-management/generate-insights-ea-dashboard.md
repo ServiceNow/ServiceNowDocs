@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/generate-insights-ea-dashboard.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Working with Dashboards, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with Dashboards, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Generate insights for Enterprise Architecture Workspace dashboard widgets
@@ -78,15 +78,15 @@ You can use the AI Data Explorer on widgets that are based on the following tabl
 
 3.  On the pop-up window, perform any of the following options.
 
-<table id="choicetable_nn3_qpl_f3c"><thead><tr><th align="left" id="d66304e283">
+<table id="choicetable_nn3_qpl_f3c"><thead><tr><th align="left" id="d61236e283">
 
 UI element
 
-</th><th align="left" id="d66304e286">
+</th><th align="left" id="d61236e286">
 
 Function
 
-</th></tr></thead><tbody><tr><td id="d66304e292">
+</th></tr></thead><tbody><tr><td id="d61236e292">
 
 **Text box**
 
@@ -94,7 +94,7 @@ Function
 
 Use this option to ask any question related to the data associated with the selected widget. This option helps you get specific information on the widget data.
 
-</td></tr><tr><td id="d66304e304">
+</td></tr><tr><td id="d61236e304">
 
 **Analyze trend**
 
@@ -102,7 +102,7 @@ Use this option to ask any question related to the data associated with the sele
 
 Use this option to analyze overall trends in the data. This option helps you to understand how the metrics have changed over time or identify growth or decline patterns.
 
-</td></tr><tr><td id="d66304e316">
+</td></tr><tr><td id="d61236e316">
 
 **Show different distribution**
 
@@ -110,7 +110,7 @@ Use this option to analyze overall trends in the data. This option helps you to 
 
 Use this option to view the same data broken down by different dimensions. This option helps you to compare data distributions across alternative categorizations and view the data from different analytical perspectives.
 
-</td></tr><tr><td id="d66304e328">
+</td></tr><tr><td id="d61236e328">
 
 **+ Add to exploration**
 

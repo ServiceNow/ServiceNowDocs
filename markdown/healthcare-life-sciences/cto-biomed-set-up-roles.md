@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/cto-biomed-set-up-roles.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up roles and responsibilities in Care Team Operations for Biomed, Configure, Care Team Operations for Biomed, Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -39,6 +39,18 @@ Biomed support department agent
 Can view/resolve all cases under their assignment group. Tracks and fulfills cases.
 
  **Note:**If view access to work orders is needed, this role can contain the wm\_read role.
+
+</td></tr><tr><td>
+
+sn\_cto\_biomed.loc\_manager
+
+</td><td>
+
+Biomed support department manager
+
+</td><td>
+
+Moniotors the tasks within their organization.
 
 </td></tr></tbody>
 </table>**Example:**

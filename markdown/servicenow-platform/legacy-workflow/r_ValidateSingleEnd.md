@@ -7,7 +7,7 @@ release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Workflow validator, Workflow validation, Workflow management, Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -37,11 +37,11 @@ As soon as an **End** activity is encountered in the workflow, the workflow comp
 
 In the case of large workflows, it is often more intuitive to read the workflow when there are multiple **End** activities. In the following example, the paths to the two **Ends** are mutually exclusive execution paths. If this was a large workflow, with many activities between **Branch** and the second **End**, the value of the multiple ends becomes apparent. Tracing a **No** response from **User is invalid** to a single **End** behind 33 other activities would be significantly more difficult. There is no risk in this workflow design because there is no reason for other activities to execute if the **End** after the **Notification** activity terminates the workflow.
 
-\[Omitted image "image.TwoEndExampleValid"\] Alt text:
+\[Omitted image "TwoEndExampleValid.png"\] Alt text:
 
 The next example has multiple **End** activities in execution paths that are not mutually exclusive. A **Yes** response from **User is valid** causes the **Set Values** activity to finish immediately. By reaching its **End** activity first, this execution path cancels the **Approval for Apps** and the **DB Task** activities, which might not be the desired outcome. If the paths are all expected to complete before **End**, the activities should come to a **Join** \(as in the previous example\) that transitions to a single **End**.
 
-\[Omitted image "image.TwoEndExampleInValid"\] Alt text:
+\[Omitted image "TwoEndExampleInValid.png"\] Alt text:
 
 **Note:** To add the second **End**, right-click to copy the original **End** activity and paste it onto the canvas. In most cases, a single **End** is the best and most reliable way to ensure that all activities expected to execute prior to workflow completion, do so successfully.
 

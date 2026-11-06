@@ -1,18 +1,18 @@
 ---
 title: Assign granular roles to a functional role
-description: Assign granular roles to a functional role to help provide authorized related parties with access to the case, and provide additional contacts and additional consumers with access to the sold product.
+description: Assign granular roles to a functional role to give authorized related parties access to the case, and enable additional contacts and consumers access to the sold product.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/assign-granular-to-func-role-cam.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Roles installed with customer access management, Configuring customer access management, User management, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Assign granular roles to a functional role
 
-Assign granular roles to a functional role to help provide authorized related parties with access to the case, and provide additional contacts and additional consumers with access to the sold product.
+Assign granular roles to a functional role to give authorized related parties access to the case, and enable additional contacts and consumers access to the sold product.
 
 ## Before you begin
 

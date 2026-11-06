@@ -7,7 +7,7 @@ release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -30,7 +30,7 @@ Up to five fields can be shown in the card layout.
 
 For chats that do not have either a contact or consumer, the layout includes only the chat subject. You control the display of the **Time to accept** count \(timer\) and the **Reject** button through the [agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-create-assignment-rule.md).
 
-See [Create or change an inbox layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-modify-inbox-layout.md) for more information on accessing and modifying an inbox layout.
+\[Omitted image "chat-inbox-layout.png"\] Alt text: Agent Workspace inbox with chat layout.
 
-**Parent Topic:**[Exploring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-overview.md)
+See [Create or change an inbox layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-modify-inbox-layout.md) for more information on accessing and modifying an inbox layout.
 

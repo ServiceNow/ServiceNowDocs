@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/gov-pol-explicit-block.html
 release: zurich
 topic_type: concept
-last_updated: "2026-08-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Policies, Explicit Block, access control]
-breadcrumb: [Explore, Controlling AI asset usage, Govern AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Explore, Controlling AI asset usage, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Explicit Block policies
@@ -31,11 +31,11 @@ Because Explicit Block covers users, departments, agents, models, and domains un
 
 ## Use cases
 
--   **Blocking access to ServiceNow Cowork**
+-   **Blocking access to ServiceNow Arc**
 
-    Employees use ServiceNow Cowork to ask instance-specific questions. The organization might need to block one person from using it, for example while a security review is underway, or prevent anyone from using it at all until that review is complete.
+    Employees use ServiceNow Arc to ask instance-specific questions. The organization might need to block one person from using it, for example while a security review is underway, or prevent anyone from using it at all until that review is complete.
 
-    An Explicit Block policy scoped to a specific person and ServiceNow Cowork ends that person's active session and prevents them from starting a new one. Publishing the same policy without naming a person blocks everyone who has used ServiceNow Cowork instead.
+    An Explicit Block policy scoped to a specific person and ServiceNow Arc ends that person's active session and prevents them from starting a new one. Publishing the same policy without naming a person blocks everyone who has used ServiceNow Arc instead.
 
 -   **Blocking access to a specific model**
 

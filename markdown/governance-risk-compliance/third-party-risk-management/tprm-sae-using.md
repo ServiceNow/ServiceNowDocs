@@ -8,7 +8,7 @@ product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 8
+reading_time_minutes: 9
 breadcrumb: [Explore, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -48,6 +48,16 @@ The new assessment experience offers the following benefits.
 -   When a question triggers a skip, downstream conditional questions are hidden and sections containing only skipped questions are visually de-emphasized. Assessments render in a continuous scroll layout, making it easier to focus on relevant questions without scrolling past hidden content.
 -   TPR assessors \[sn\_vdr\_risk\_asmt.vendor\_assessor\], TPR managers \[sn\_vdr\_risk\_asmt.vendor\_risk\_manager\] roles, and Third-party risk \(TPR\) administrators \[sn\_vdr\_risk\_asmt.vendor\_risk\_admin\], can reassign SAE questionnaires to another user.
 -   Risk rating after submission: The risk rating for an assessment is now correctly written to the assessment record after the third party submits their response.
+
+## Smart Assessment template versioning
+
+SAE templates in TPRM now support explicit versioning. Each version is a full copy of the template \(deep copy\). When a new version is published, the previously published version is automatically retired. Retired versions remain visible for reference but can't be used for new assessments.
+
+To create a new version of a template, use the **Create Version** action on the template record in the Vendor Management Workspace. Editing a published template in place is no longer supported — you must create a version instead. Template versions can also be deleted.
+
+For more information on template versioning in SAE, see [Template versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/template-versioning.md).
+
+Templates shipped through the Unified Content Management \(UCM\) module are also versioning-compatible. For more information about activating and updating templates through UCM, see [Activate or update Smart Assessment templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/activate_sae_ucm.md).
 
 ## Smart Assessment Engine limitations
 

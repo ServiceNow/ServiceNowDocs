@@ -7,9 +7,9 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Process Mining workspace, Exploring Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Workspace, Explore, Process Mining, Platform Analytics]
 ---
 
 # Process details page
@@ -106,14 +106,6 @@ Select this tab to access the following:-   **Breakdowns** tab: Create and delet
 -   **Variants** tab: View the routes distributed over the records in the data set.
 
 For more information, see [Analyst workbench page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/analyst-workbench-dashboard.md).
-
-</td></tr><tr><td>
-
-Automation Opportunities tab
-
-</td><td>
-
-Helps to identify automation opportunities for your workflows. Only available for ITSM. For more information, see [Automation opportunities page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/automation-opportunities.md).
 
 </td></tr><tr><td>
 
@@ -232,11 +224,9 @@ The notes, initiatives, and scheduled tasks panel provides tools for creating an
 -   **[Summary and insights page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/summary-insights-dashboard.md)**  
 The Summary and insights page enables you to view opportunities for optimizing your process. Access the page from a Process Mining project.
 -   **[Opportunity details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/opportunity-details.md)**  
-The Opportunity details page displays details about the improvement opportunities for a project.
+The Opportunity details page displays details about the improvement opportunities for a project. Access the page from a Process Mining project.
 -   **[Analyst workbench page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/analyst-workbench-dashboard.md)**  
 View the visualized process map with tools for managing visualizations and performing analysis tasks from a project's page.
--   **[Automation opportunities page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/automation-opportunities.md)**  
-Use the automation opportunities page to find automation opportunities using machine learning and process-based analysis.
 -   **[KPI dashboard page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/kpi-dashboard.md)**  
 On the **KPI dashboard** page, see any KPI dashboard that you have configured for your project.
 

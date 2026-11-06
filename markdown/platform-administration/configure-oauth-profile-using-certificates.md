@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/configure-oauth-profile-using-certificates.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Reading email using Microsoft Graph, Advanced email setup, Configure, Email Administration, Notifications, Configure core features, Administer]
+breadcrumb: [Read email using Microsoft Graph, Read or send emails using Microsoft Graph, Advanced email setup, Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Configure an OAuth profile to use certificates for authentication with Microsoft Azure
@@ -86,8 +86,6 @@ Create and duplicate an OAuth API script for application registry.
 
 **Related topics**  
 
-
-[Activate Email - Support for Email Processing by Microsoft Graph API]()
 
 [Configure an OAuth profile to use a client ID and secret for token generation]()
 

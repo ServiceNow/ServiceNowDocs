@@ -7,7 +7,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Discovery IP address configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -49,4 +49,5 @@ Enforce unique IP addresses: Ignores the IP address after Discovery encounters s
 -   Default value false
 
 </td></tr></tbody>
-</table>
+</table>**Note:** After you define your IP collections, you can use Discovery generic attributes to automatically set field values on CIs discovered within a schedule, range set, or IP address range. For example, you can assign different locations to CIs based on which IP range they were discovered in. For more information, see [Define CI field attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/define-ci-attributes.md).
+

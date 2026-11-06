@@ -7,10 +7,10 @@ release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Appointment window configuration, Appointment schedule]
-breadcrumb: [Create an Appointment schedule, Configure daily and advanced schedules, Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
+breadcrumb: [Configure Advanced Appointment Booking, Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Create an Appointment window configuration
@@ -40,7 +40,7 @@ Ensure that the Advanced Appointment Booking plugin is active. For more informat
 |Include break|Enable to schedule a consistent daily break period.|
 |Break from|Start time of the break window. Only appears if **Include break** is enabled.|
 |Break to|End time of the break window. Only appears if **Include break** is enabled.|
-|Repeat slot every|How often the slot repeats.|
+|Repeat slot every|How often the slot repeats. For example, if you specify the value as 1 hour, a new slot is generated every hour.|
 
 5.  Click **Submit**.
 

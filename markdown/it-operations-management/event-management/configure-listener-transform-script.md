@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -123,7 +123,7 @@ Use the URL in the format:`http://{MID_Server_IP}:{MID_Web_Server_Port}/api/mid/
 </td></tr></tbody>
 </table>4.  In the Script section:
 
-    -   If the value selected for the **Type** field is `MID`, the **Transform script** field appears. In this field, specify or search for the name of the MID script include that accepts event messages from the required external event source. The script parses the messages into the required event format. Use this naming convention for the script: `TransformEvents_<your source>`
+    -   If the value selected for the **Type** field is `MID`, the **Transform script** field appears. In this field, specify or search for the name of the MID script include. The script accepts event messages from the required external event source and parses them into the required event format. Use this naming convention for the script: `TransformEvents_<your source>`
     -   If the value selected for the **Type** field is **Instance**, the **Script** editor appears. In the **Script** editor, enter the customized script that accepts event messages that the required external event source generates and that the script parses into the required event format.
     This example shows the fields that have been transformed, being added to an event form.
 
@@ -189,7 +189,9 @@ Integrate Microsoft Azure with Event Management by adding the Azure Monitor as a
 -   **[Event collection from Microsoft Azure Monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/event-collection-MicrosoftAzure.md)**  
 The MID WebServer Event Collector enables you to collect JSON formatted event messages sent from the Microsoft Azure portal.
 -   **[Event collection from BMC TrueSight and BMC TrueSight\_v2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/event-collection-BMCTrueSight.md)**  
-The MID WebService Event Collector enables you to collect JSON formatted event messages sent from BMC TrueSight Operations Management \(TrueSight\), previously known as BMC ProactiveNet Performance Management \(BPPM\).
+The MID WebService Event Collector enables you to collect JSON formatted event messages sent from BMC TrueSight Operations Management \(TrueSight\), previously known as BMC ProactiveNet Performance Management \(BPPM\). It uses event stream notification capabilities.
+-   **[Metric collection from OpenTelemetry \(Otel\) metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/metric-collection-otel.md)**  
+The MID WebService metric Collector enables you to collect JSON and protobuf formatted metrics sent from OpenTelemetry \(Otel\).
 -   **[Integrate New Relic platform events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/new-relic-events-integration.md)**  
 Integrate New Relic with Event Management by adding a standard webhook in the New Relic old and new consoles.
 -   **[Integrate Catchpoint events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/catchpoint-event-collection.md)**  
@@ -198,12 +200,12 @@ Integrate Catchpoint with Event Management by adding an alert webhook in the Cat
 Integrate Google Cloud Platform \(GCP\) with Event Management by adding a standard webhook in the GCP console.
 -   **[Event collection from Google Cloud Platform \(GCP\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/event-collection-GCP.md)**  
 The MID WebService Event Collector enables you to collect JSON formatted event messages sent from Google Cloud Platform \(GCP\).
--   **[Integrate Grafana events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/grafana-events-integration.md)**  
-Integrate Grafana with Event Management by adding a standard webhook in the Grafana console.
+-   **[Integrate Grafana events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/grafana-integration.md)**  
+Integrate Grafana with Event Management by adding Grafana as an authenticated data source.
 -   **[Integrate Honeycomb events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/honeycomb-event-integration.md)**  
 Integrate Honeycomb with Event Management by creating a webhook and configuring it as a trigger in the Honeycomb platform.
--   **[Integrate Instana events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/instana-events-integration.md)**  
-Integrate Instana with Event Management by adding a standard webhook in the Instana console.
+-   **[Integrate Instana events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/instana-integration.md)**  
+Integrate Instana with Event Management by adding Instana as an authenticated data source.
 -   **[Integrate ServiceNow Cloud Observability Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/lightstep-event-collection.md)**  
 Integrate ServiceNow Cloud Observability with Event Management by adding a standard webhook in the ServiceNow Cloud Observability platform. Download the Event Management Connector plugin from the ServiceNow Store so you can integrate with ServiceNow Cloud Observability.
 -   **[Integrate Logicmonitor events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/logicmonitor-events-integration.md)**  

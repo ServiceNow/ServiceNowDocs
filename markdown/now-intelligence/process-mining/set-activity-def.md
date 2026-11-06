@@ -7,9 +7,9 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Scoping your analysis, Create a project or template using Project Builder, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Scoping your analysis, Create a project or template using Project Builder, Use, Process Mining, Platform Analytics]
 ---
 
 # Set activity definitions
@@ -18,13 +18,13 @@ Set activity definitions to determine what appears on the process graph, such as
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin
+Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
 
 **Note:** You can configure a maximum of five activity definitions for a table. You can’t generate more than 5000 elements for any activity definition.
 
 ## About this task
 
-Setting activity definitions is a required task to create a project.
+Setting activity definitions is a mandatory task to create a project.
 
 Process Mining gathers audit log field data for the activities that you define. Configure at least one activity to create a Process Mining project.
 
@@ -101,7 +101,7 @@ These recommendations come from the process configuration set for the table on w
 
 For more information on Process perspectives, see [Configure process details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/process-details.md).
 
-The recommendation is provided even if you don’t specify anything in the process configuration for the table. If nothing is configured on the Process details page, we recommend the fields that have high frequency of change.
+The recommendation is provided even if you don’t specify anything in the process configuration for the table. If nothing is configured on the Process details page, the fields that have high frequency of change are recommended.
 
 Select the button, and a dialog box is displayed to select from the list of recommended fields. Select the fields, and select **Select**.
 

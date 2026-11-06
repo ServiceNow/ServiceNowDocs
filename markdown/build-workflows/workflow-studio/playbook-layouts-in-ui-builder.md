@@ -9,7 +9,7 @@ classification: workflow-studio
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Designing playbooks, Use, Workflow Studio, Build workflows]
+breadcrumb: [Design Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Playbook layout bundles
@@ -70,6 +70,4 @@ You add bundles to a page from the Content panel, then select **Components** and
 
     Displays multiple activities in a horizontal arrangement \(alternative to Stacked Vertical\). Use for layouts where horizontal flow fits the workspace or screen better than a vertical stack. Has a matching page template.
 
-
-**Parent Topic:**[Designing playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-experience-admins.md)
 

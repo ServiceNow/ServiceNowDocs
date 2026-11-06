@@ -7,7 +7,7 @@ release: zurich
 product: EMR Help
 classification: emr-help
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -53,6 +53,20 @@ sn\_ind\_rmt\_help.requester
 </td><td id="help-requester">
 
 Submit and monitor a ServiceNow service request from within an EMR system.
+
+</td><td>
+
+sn\_ind\_rmt\_help.viewer
+
+</td></tr><tr><td>
+
+sn\_ind\_rmt\_help.fulfiller
+
+</td><td id="help-fulfiller">
+
+Fulfill EMR Help requests with read-only access to EMR-captured incident data.
+
+ **Note:** Assign this role to ITIL agents who fulfill EMR Help incidents. Subscription Management uses the sn\_ind\_rmt\_help.fulfiller role to identify EMR Help fulfiller licenses.
 
 </td><td>
 

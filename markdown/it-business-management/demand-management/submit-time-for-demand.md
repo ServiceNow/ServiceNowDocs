@@ -7,7 +7,7 @@ release: zurich
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a demand, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -30,15 +30,15 @@ The resource submits the time card or time sheet to record and track the work pe
 
 2.  Create a time card.
 
-<table id="choicetable_jfv_4xf_2hb"><thead><tr><th align="left" id="d166722e76">
+<table id="choicetable_jfv_4xf_2hb"><thead><tr><th align="left" id="d178140e76">
 
 Demand task assignment
 
-</th><th align="left" id="d166722e79">
+</th><th align="left" id="d178140e79">
 
 To create a time card
 
-</th></tr></thead><tbody><tr><td id="d166722e85">
+</th></tr></thead><tbody><tr><td id="d178140e85">
 
 **If a demand task is assigned to you**
 
@@ -48,7 +48,7 @@ To create a time card
 2.  Select the **Add to Time Sheet** link in the task.
 
 
-</td></tr><tr><td id="d166722e106">
+</td></tr><tr><td id="d178140e106">
 
 **If a demand task is assigned to you as an additional assignee**
 

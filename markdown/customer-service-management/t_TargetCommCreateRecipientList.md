@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_TargetCommCreateRecipientList.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Targeted communications, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_publications.author, sn\_publications.admin, sn\_customerserv
 
 ## About this task
 
-A recipient list can include internal users, accounts, contacts, or consumers. Create a recipient list using any of the following methods:
+A recipient list can include internal users, accounts, contacts, consumers, or business organizations. Create a recipient list using any of the following methods:
 
 -   By importing a list of users.
 -   By creating a dynamic list based on selected conditions.
@@ -34,7 +34,7 @@ Recipients lists can have both dynamically generated and manually added records 
 
 1.  Navigate to **All** &gt; **Targeted Communications** &gt; **Recipients Lists**.
 
-2.  Select **New**.
+2.  Click **New**.
 
 3.  Fill in the fields on the Recipients List form.
 
@@ -64,6 +64,7 @@ The type of recipients to include in the list.-   Contacts \(customer\_contacts\
 -   Internal Users \(sys\_user\)
 -   Consumers \(csm\_consumer\)
 -   Accounts \(customer\_account\)
+-   Business Organizations \(business\_organizations\)
 
 
 </td></tr><tr><td>
@@ -72,9 +73,9 @@ State
 
 </td><td>
 
-The state of the recipient list. -   **New**: The list has not yet been generated. Select **Refresh Recipient List**.
--   **In Progress**: The list is generated. \(You can see only this state when generating a large list of recipients.\)
--   **Complete**: The list has been generated.
+The state of the recipient list. -   **New**: the list has not yet been generated. Click **Refresh Recipient List**.
+-   **In Progress**: the list is currently being generated. \(You may only see this state when generating a very large list of recipients.\)
+-   **Complete**: the list has been generated.
 
 
 </td></tr><tr><td>
@@ -83,8 +84,8 @@ Method
 
 </td><td>
 
-The method used to generate the recipient list. -   **Upload File**: Create a list by uploading user information from a selected Excel .xlsx file.
--   **Dynamic Condition**: Create a list by selecting conditions in the condition builder or by adding a script.
+The method used to generate the recipient list. -   **Upload File**: create a list by uploading user information from a selected Excel .xlsx file.
+-   **Dynamic Condition**: create a list by selecting conditions in the condition builder or by adding a script.
 
 **Note:** To exclude inactive users from receiving emails, use the condition builder to exclude inactive users from the recipients list.
 
@@ -151,11 +152,11 @@ Conditions
 
 </td><td>
 
-Use the buttons in this field to build one or more conditions on the selected table. A condition is made up of a selected field, an operator, and a value. Add conditions using the AND and OR buttons. Delete conditions by selecting the **Delete**button on the right side of a condition.
+Use the buttons in this field to build one or more conditions on the selected table. A condition is made up of a selected field, an operator, and a value. Add conditions using the AND and OR buttons. Delete conditions by clicking the Delete button to the right of a condition.
 
 </td></tr></tbody>
-</table>4.  Select **Submit**.
+</table>4.  Click **Submit**.
 
-    For recipients list created by file upload, selecting **Submit** validates the records in the Excel file. Following validation, the system displays a pop-up window with the upload results, including valid and invalid user records.
+    For recipients lists created by file upload, clicking **Submit** validates the records in the Excel file. Following validation, the system displays a pop-up window with the upload results, including valid and invalid user records.
 
 

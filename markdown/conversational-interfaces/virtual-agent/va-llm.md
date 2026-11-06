@@ -7,7 +7,7 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Virtual Agent, Conversational Interfaces]
 ---
@@ -39,7 +39,7 @@ For more information about LLMs, see [Large language models on the ServiceNow AI
 
 With LLM topic discovery, topic authors no longer need to create and maintain complex NLU models and intents with backup keywords. The LLM does all of the heavy lifting for you. The only requirement is a robust, plain language topic description on the **Properties** tab in Assistant Designer Asset library. The LLM uses this description to find the best topic match for the user utterance. If there are multiple potential matches, the user will see a list of topics to choose from.
 
-For example, if a user asks Virtual Agent to calculate ride share fees, the LLM matches user utterance with an existing topic that calculates the ride share with a tip.
+For example, if a user asks Virtual Agent to calculate a ride share fee, the LLM matches the user utterance with an existing topic that can calculate the ride share with a tip.
 
 ## Entity extraction
 
@@ -55,6 +55,6 @@ Another example is when a user might ask a casual question or engage in small ta
 
 ## Additional resources
 
--   [ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md)
--   [LLM assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/llm-assistants.md)
+-   [Exploring Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/exploring-virtual-agent.md)
+-   [Create LLM assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/llm-assistants.md)
 

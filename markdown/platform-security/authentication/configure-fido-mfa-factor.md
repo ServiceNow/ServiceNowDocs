@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [FIDO2 as an MFA factor, MFA factor policies, MFA verification methods, Configure MFA, Multi-factor authentication, Access Management]
+breadcrumb: [FIDO2 as an MFA factor, MFA factor policies, MFA verification methods, Configuring MFA, Multi-factor authentication, Authentication, Access Management]
 ---
 
 # Configure FIDO2 as an MFA factor
@@ -18,7 +18,7 @@ Configure policy input and condition to display FIDO2 as an MFA factor policy fo
 
 ## Before you begin
 
-Role required: admin
+Role required: adaptive\_auth\_admin
 
 ## Procedure
 

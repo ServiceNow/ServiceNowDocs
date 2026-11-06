@@ -1,12 +1,12 @@
 ---
 title: Set up and review order lines
-description: Once products and services are added to an order in Order Management, you can set up order lines with order characteristics, pricing adjustments, and other items.OM revamp project - Oct 7, 2025 - Add links to redirect customers to the various forms in the reference section for all the available tabs. In this topic, just show how customers can view and edit values in some of these forms at this stage and what should be the status of the order lines. Check with dev.
+description: Once products and services are added to an order in Order Management, you can set up order lines with order characteristics, pricing adjustments, and other items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/som-om-setup-product-order-lines.html
 release: zurich
 topic_type: task
-last_updated: "2025-10-13"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Creating orders, Order Management, Use, Sales Customer Relationship Management]
 ---
 
@@ -31,10 +31,11 @@ Product and service order lines items contain the product or service that you ha
 -   Products Orders - lets agents create product orders and add them to the current order.
 -   Order Tasks - tasks that are assigned to complete the orders.
 -   External product Inventories - connect to external product inventories.
+-   Involved Parties - add multiple involved parties to a customer order, each with a specific role.
 
 ## Procedure
 
-1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace** .
+1.  Navigate to  **Workspaces** &gt; **CRM Workspace** .
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -57,6 +58,7 @@ Product and service order lines items contain the product or service that you ha
     |Product Orders|Shows the product orders that are part of this order. Also lets agents add products to the order.|
     |Order Tasks|Shows order tasks that must be completed.|
     |External Product Inventories|Agents can view external product inventories.|
+    |Involved Parties|Add entities assigned with defined roles in an order, such as billing, shipping, entitlement, and partner participation.|
 
 7.  To add related items for your customer orders with horizontal relationships, do the following actions.
 

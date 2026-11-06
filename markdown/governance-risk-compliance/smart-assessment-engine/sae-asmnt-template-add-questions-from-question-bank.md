@@ -7,7 +7,7 @@ release: zurich
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2026-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Question bank, Use template designer, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -20,7 +20,7 @@ Add one or more published questions from a question bank to an assessment templa
 
 Role required: sn\_smart\_asmt.template\_manager or sn\_smart\_asmt.assessment\_admin
 
-To view and select questions from a question bank, you also need the sn\_smart\_asmt.question\_bank\_reader role together with one of the roles configured in the question bank's category. For more information, see [Roles in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-roles-defined.md).
+To view and select questions from a question bank, you also need the sn\_smart\_asmt.question\_bank\_reader role together with one of the roles configured in the question bank's category. For more information, see [Roles installed in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-roles-defined.md).
 
 ## About this task
 

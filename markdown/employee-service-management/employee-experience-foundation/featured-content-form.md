@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Featured content, Setup Employee Center browse experience features, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Featured content, Setup Employee Center browse experience features, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Featured Content form
@@ -30,7 +30,7 @@ Connected Content
 
 </td><td>
 
-Connected content associated with the topic. Search for and select the connected content associated with the topic. For more information, see [Featured content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/featured-content.md)and [Associate featured content to a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/associate-featured-content-to-topic.md).**Note:** You can't add a quick link as a featured item.
+Connected content associated with the topic. Search for and select the connected content associated with the topic.**Note:** You can't add a quick link as a featured item.
 
 </td></tr><tr><td>
 
@@ -49,8 +49,66 @@ Order
 Order in which you want the featured content to appear.
 
 </td></tr></tbody>
-</table>**Related topics**  
+</table>**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/emp-center-reference.md)
+
+**Related topics**  
 
 
-[Featured content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/featured-content.md)
+[Activity Configuration form]()
+
+[Activity Configuration Detail form]()
+
+[Approvals experience reference]()
+
+[Connected Content form]()
+
+[Default Employee Profile Header Configuration record]()
+
+[Employee Center widgets]()
+
+[Employee Profile form]()
+
+[Employee Profile Header Configuration form]()
+
+[Employee Profile portal configuration form]()
+
+[Employee Profile upgrade scenarios]()
+
+[Enhanced Requests Experience forms]()
+
+[External Link form]()
+
+[Footer form]()
+
+[Footer Menus form]()
+
+[Guided Self-Service reference]()
+
+[Menu Item form]()
+
+[Overview section form]()
+
+[Portal notification configuration form]()
+
+[Portal notification content form]()
+
+[Trigger conditions form]()
+
+[Quick Link form]()
+
+[Tab widget mapping form]()
+
+[Taxonomy form]()
+
+[Topic form]()
+
+[User Criteria form]()
+
+[User Criteria output]()
+
+[Schedule appointment form]()
+
+[Location Consent form]()
+
+[Website configuration form]()
 

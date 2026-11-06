@@ -7,9 +7,9 @@ release: zurich
 product: User Administration
 classification: user-administration
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Impersonating users, Monitoring user activity, User admin, Configure core features, Administer]
+breadcrumb: [Impersonating users, Monitoring user activity, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Manage the visibility of the impersonation feature

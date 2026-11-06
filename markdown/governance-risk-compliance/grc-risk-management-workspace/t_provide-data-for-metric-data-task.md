@@ -7,9 +7,9 @@ release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, GRC: Metrics in Integrated Risk Management, Risk Management, Governance, Risk, and Compliance]
+breadcrumb: [Using GRC: Metrics to provide data, GRC: Metrics in Integrated Risk Management, Risk Management, Governance, Risk, and Compliance]
 ---
 
 # Provide data for a metric data task
@@ -22,21 +22,15 @@ Role required: sn\_grc\_metric.user, sn\_risk.reader, and sn\_compliance.reader
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace**.
+1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace** &gt; **Metrics** &gt; **My metric data tasks**.
 
-2.  Select the list \[Omitted image "list-icon-risk-workspace.png"\] Alt text: icon.
+2.  Open the task for which you want to provide the data.
 
-3.  Navigate to **Metrics** &gt; **Metrics**.
+3.  Select **Move to In Progress**.
 
-4.  Open the metrics and select the Metric data tasks tab.
+4.  On the Metric information form, under the Metric input section, fill in the following fields.
 
-5.  Open the task for which you want to provide the data.
-
-6.  Select **Move to In Progress**.
-
-7.  On the Metric information form, under the Metric input section, fill in the fields.
-
-<table id="table_ln3_y5g_3rb"><thead><tr><th>
+<table id="table_m3g_tkw_kwb"><thead><tr><th>
 
 Field
 
@@ -58,31 +52,23 @@ Unit
 
 </td><td>
 
-Unit of the data. For example, US dollar.**Note:** You can provide the data in any unit and it gets converted to the reporting unit specified in the metric definition.
+Unit of the data. For example, US gallon.**Note:** You can provide the data in any unit and it gets converted to the reporting unit specified in the metric definition.
 
 </td></tr><tr><td>
 
-Override metric data
+Response
 
 </td><td>
 
-Option to manually override the system calculated metric value. When selected, you can enter a different value for the metric.
+Response for the metric. This field appears only when **Qualitative** is selected in the **Category** field in the metric form.
 
 </td></tr><tr><td>
 
-Variance \(%\)
+I certify and acknowledge that the response I have submitted is accurate.
 
 </td><td>
 
-Percentage difference between the system-calculated metric value and the overridden value. This field is populated only when metric data is overridden.
-
-</td></tr><tr><td>
-
-I acknowledge that I have reviewed the response and evidence attached, if any
-
-</td><td>
-
-Option to confirm that you have reviewed the metric data and any supporting evidence before completing the task.
+Option to certify data accuracy.
 
 </td></tr><tr><td>
 
@@ -90,24 +76,22 @@ Additional comments \(Customer visible\)
 
 </td><td>
 
-Add notes or explanations related to the metric data task. These comments are visible to the customer and can be used to provide context or justification.
+Additional information for the metric data.
 
 </td></tr></tbody>
-</table>8.  Select **Save**.
+</table>5.  Select **Save**.
 
-9.  To provide evidence or supporting information, select Related Documents tab, and select **New**.
+6.  To provide evidence or supporting information, in the Related documents, related list, select **New**.
 
-10. On the Related Document form, and fill in the fields.
+7.  On the Related Document form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
-    |Name|Unique name for the related document. This name helps identify the document when reviewing or auditing the metric data task.|
-    |URL|Supporting link to the external document or evidence that supports the metric data.|
+    |Name|Provide a name for the supporting information.|
+    |Url|Select the lock icon to add a supporting URL.|
     |Metric data task|This field is automatically set to the name of the metric data task for which you are providing information.|
 
-11. Select **Save**.
-
-12. Select **Submit**.
+8.  Select **Submit**.
 
 
 **Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/using-metrics-irm.md)

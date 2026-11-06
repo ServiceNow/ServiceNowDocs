@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-service-definitions.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -17,6 +17,8 @@ Use service definitions to create connections between products, services, and ca
 ## Overview of service definitions
 
 The service definitions feature is available with the Customer Service Case Types plugin \(com.snc.csm\_case\_types\). [Case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-service-case-types.md) enable you to address specific types of customer requests. A case type extends the base customer service case and includes the processes, attributes, and data required to resolve a specific type of case, such as onboarding a customer or resolving a complaint.
+
+**Note:** Ensure that you are assigned to the service\_definition\_admin role
 
 A service definition describes a service that a business or organization offers to support a product or service that they sell. Service definitions work with case types to provide different types of service requests.
 
@@ -80,7 +82,7 @@ The system administrator defines the services that are offered to customers for 
 
 ## Agent experience
 
-Associating a case type with a service definition automates the case type selection process for agents. From CSM Configurable Workspace, agents can quickly [create cases of the right case type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-case-of-specific-case-type.md) based on customer context.
+Associating a case type with a service definition automates the case type selection process for agents. From CRM Workspace, agents can quickly [create cases of the right case type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-case-of-specific-case-type.md) based on customer context.
 
 When creating cases, agents can select the appropriate service for a customer based on the products that the customer owns. The Product Service Select version of the [case type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-case-type-select-modals.md) enables agents to do the following:
 

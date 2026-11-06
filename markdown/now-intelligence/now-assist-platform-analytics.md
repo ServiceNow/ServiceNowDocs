@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/now-assist-platform-analytics.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Platform Analytics]
 ---
@@ -24,9 +24,13 @@ Platform Analytics includes several applications that leverage AI to generate in
 
 [Platform Analytics in the ServiceNow Otto Panel\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Generate and export Platform Analytics artifacts from conversational interactions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-assist-landing-page.md)
 
-</td><td>
+</td></tr><tr><td>
 
 [Query Generation\[Omitted image "bus-sdlc.svg"\] Alt text:Shared back end for interpreting natural language questions as database queries and returning responses.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/query-generation.md)
+
+</td><td>
+
+[[Dashboard Summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dashboard-summary-landing.md)\[Omitted image "bus-sdlc.svg"\] Alt text:AI companion for instant insight into Platform Analytics dashboard content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dashboard-summary-landing.md)
 
 </td></tr></tbody>
 </table>

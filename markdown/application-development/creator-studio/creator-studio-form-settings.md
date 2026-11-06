@@ -7,9 +7,9 @@ release: zurich
 product: Creator Studio
 classification: creator-studio
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Reference, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Reference, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Creator Studio form settings
@@ -103,7 +103,7 @@ After you create the app, its **Template** can't be edited. If you want to chang
 
 ## Catalog location form settings
 
-Location settings define where the form appears in a catalog, how it's categorized, and what topics it appears for. You must select the edit icon \(\[Omitted image "cs-edit-form-location.png"\] Alt text: Edit form location icon\) to make changes to the catalog and topic settings.
+Location settings define where the form appears in a catalog, how it's categorized, and what topics it appears for. You must select the edit icon \[Omitted image "cs-edit-form-location.png"\] Alt text: Edit form location icon to make changes to the catalog and topic settings.
 
 Select the catalog that represents the business area the app will use. For example, you could select a service catalog that contains software and laptop cables for an IT fulfillment app. Expand the caret for each catalog to see its sub-catalogs. Then select as many items in the catalogs as you need.
 
@@ -111,7 +111,7 @@ If you associate the app's form with one or more topics, the form will appear in
 
 ## User access form settings
 
-Select the edit icon \(\[Omitted image "cs-edit-form-location.png"\] Alt text: Edit form location icon\) to define access for roles and groups for the following:
+Select the edit icon \[Omitted image "cs-edit-form-location.png"\] Alt text: Edit form location icon to define access for roles and groups for the following:
 
 -   **Available for**: Search for and select roles and groups that can access the form.
 -   **Not available for**: Search for and select roles and groups that can't access the form.

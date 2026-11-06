@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/config-sg-application-menu.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Navigation bar, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -52,15 +52,15 @@ The following is a short summary of each of the navigation tab types:
 
 6.  Select or create navigation tab types to add to your navigation bar.
 
-<table id="choicetable_opn_3z2_ccc"><thead><tr><th align="left" id="d74939e156">
+<table id="choicetable_opn_3z2_ccc"><thead><tr><th align="left" id="d78060e156">
 
 Method to add navigation tabs
 
-</th><th align="left" id="d74939e159">
+</th><th align="left" id="d78060e159">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d74939e165">
+</th></tr></thead><tbody><tr><td id="d78060e165">
 
 **Select existing navigation tabs**
 
@@ -72,7 +72,7 @@ Procedure
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d74939e198">
+</td></tr><tr><td id="d78060e198">
 
 **Create either a saved, notifications, or settings navigation tab type**
 
@@ -93,7 +93,7 @@ Procedure
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d74939e301">
+</td></tr><tr><td id="d78060e301">
 
 **Create either a launcher or screen navigation tab type**
 

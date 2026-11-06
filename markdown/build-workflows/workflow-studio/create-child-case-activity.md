@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Interactive activities, Playbooks reference, Reference, Workflow Studio, Build workflows]
+breadcrumb: [Interactive activities, Playbooks reference, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Create Child Case activity
@@ -18,7 +18,7 @@ Enable agents and fulfillers to create a child case during a playbook run.
 
 ## Roles and availability
 
-These activities are available as an application in the ServiceNow Store. Users with the playbook.admin or pd\_author role can add these activities to a playbook.
+Users with the playbook.admin or pd\_author role can add these activities to a playbook.
 
 ## Inputs
 
@@ -188,6 +188,4 @@ Option to pause the playbook until the end user manually completes or skips the 
 </table>## Outputs
 
 Your child case record.
-
-**Parent Topic:**[Interactive activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/interactive-activities.md)
 

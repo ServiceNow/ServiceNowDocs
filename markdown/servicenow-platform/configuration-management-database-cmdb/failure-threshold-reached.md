@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Tracking and troubleshooting, CMDB Health, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -38,7 +38,7 @@ Review and refine the rules defined for the metric which has reached max failure
     -   Staleness: Review the effective duration for the classes that are causing failures and adjust the duration to reduce the number of failures. For more information, see [Create a CMDB Health staleness rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/t_CreateCMDBHealthStaleRule.md).
     -   Duplicate: Review the de-duplication tasks and remediate the tasks to remove duplicate CIs and to avoid creating failure records. For more information, see [Remediate a de-duplication task \(manual\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md).
 
-For more troubleshooting information about failure threshold related issues, see [How to Resolve Max Failure Threshold Errors for CMDB Health Dashboard \[KB2487349\]](https://support.servicenow.com/kb_view_customer.do?sysparm_article=KB2487349).
+For more troubleshooting information about failure threshold related issues, see the [How to Resolve Max Failure Threshold Errors for CMDB Health Dashboard \[KB2487349\]](https://support.servicenow.com/kb_view_customer.do?sysparm_article=KB2487349) article in the Now Support Knowledge Base.
 
 **Parent Topic:**[CMDB Health process tracking and troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealthTroubleshooting.md)
 

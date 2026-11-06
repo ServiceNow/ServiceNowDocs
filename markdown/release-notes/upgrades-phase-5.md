@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/upgrades-phase-5.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Upgrade to the Zurich release, Zurich release notes]
+breadcrumb: [Upgrade to the Brazil release, Brazil release notes]
 ---
 
 # Phase 5 - If applicable: Upgrade and validate your other non-production instances, such as your test instance

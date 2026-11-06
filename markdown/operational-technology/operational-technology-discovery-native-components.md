@@ -1,49 +1,39 @@
 ---
 title: Operational Technology Native Discovery components
-description: The ServiceNow Discovery for Operational Technology \(OT\) Native components provide a solution that gives you visibility of your OT devices and imports your device data into ServiceNow using the Service Graph Connector for ServiceNow OT Discovery. Using the OT components, that is, the Discovery Console for OT, Discovery Sensor for OT, and OT Discovery Collector, you can monitor and query your devices within the OT environment.
+description: The ServiceNow Discovery for Operational Technology \(OT\) Native components give you visibility of your OT devices. The components import your device data into ServiceNow using the Service Graph Connector for ServiceNow OT Discovery. Using the OT components, that is, the Discovery Console for OT, Discovery Sensor for OT, and OT Discovery Collector, you can monitor and query your devices within the OT environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-discovery-native-components.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Operational Technology Discovery, Operational Technology]
 ---
 
 # Operational Technology Native Discovery components
 
-The ServiceNow® Discovery for Operational Technology \(OT\) Native components provide a solution that gives you visibility of your OT devices and imports your device data into ServiceNow using the Service Graph Connector for ServiceNow OT Discovery. Using the OT components, that is, the Discovery Console for OT, Discovery Sensor for OT, and OT Discovery Collector, you can monitor and query your devices within the OT environment.
+The ServiceNow® Discovery for Operational Technology \(OT\) Native components give you visibility of your OT devices. The components import your device data into ServiceNow using the Service Graph Connector for ServiceNow OT Discovery. Using the OT components, that is, the Discovery Console for OT, Discovery Sensor for OT, and OT Discovery Collector, you can monitor and query your devices within the OT environment.
 
 ## Operational Technology Native Discovery components
 
-<table id="table_iht_hgl_5yb" class="nav-card"><tbody><tr><td>
+Review and install the Service Graph Connector for ServiceNow OT Discovery then install the OT Discovery components. The first component to start with is the Discovery Console for Operational Technology \(OT\).
 
-Discover
+**Note:** For more information, see [Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/sgc-ot-discovery.md).
 
- \[Omitted image "image.BUS\_64px\_Explore\_YG"\] Alt text:
+Use the links in the Related Topics section to explore the Operational Technology Native Discovery components.
 
- [Explore the Discovery Console for Operational Technology \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/explore-ot-console.md)
+-   **[Deploy Operational Technology Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/deploy-ot-discovery-devices-landing.md)**  
+Consider deployment options for your Operational Technology Discovery components.
+-   **[Discovery Console for Operational Technology \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/ot-discovery-console-landing.md)**  
+Use the Discovery Console for OT component to discover, monitor, and query devices in your Operational Technology environment.
+-   **[Discovery Sensor for Operational Technology \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/ot-discovery-sensor-landing.md)**  
+Use the Discovery Sensor for Operational Technology \(OT\) application to discover and query devices in the Operational Technology environment.
+-   **[Operational Technology Discovery Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/ot-discovery-collectors-landing.md)**  
+Use the OT Discovery Collector component to discover devices the Discovery Sensor for OT can't reach in the OT environment.
+-   **[Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/sgc-ot-discovery.md)**  
+The Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery \(SGC\) imports data from a connected Operational Technology Discovery OT Discovery environment and leverages the Integration Hub ETL framework.
+-   **[Feedback on OT Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/feedback-on-ot-discovery.md)**  
+To provide feedback on OT Discovery you can submit a NOW idea on ServiceNow support.
 
-</td><td>
-
-Explore\[Omitted image "image.BUS\_64px\_SDLC\_YG"\] Alt text:
-
- [Explore the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/explore-ot-sensor.md)
-
-</td></tr><tr><td>
-
-Search\[Omitted image "image.BUS\_64px\_Rocketship\_YG"\] Alt text:
-
- [Explore the OT Discovery Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/exploring-ot-collectors.md)
-
-</td><td>
-
-Connect\[Omitted image "image.BUS\_64px\_Integration-and-APIs\_YG"\] Alt text:
-
- [Explore the Service Graph Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/explore-service-graph-connector.md)
-
-</td></tr></tbody>
-</table>## Troubleshoot and get help
-
-If you have any errors or difficulties while using the Operational Technology components, [Contact Customer Service and Support.](https://support.servicenow.com/now?draw=case)
+**Parent Topic:**[Operational Technology Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-discovery-landing.md)
 

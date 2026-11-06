@@ -7,7 +7,7 @@ release: zurich
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Knowledge Management reference, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -49,6 +49,4 @@ If you move a knowledge article to another knowledge base, the default value of 
 ## Email notifications for expiring knowledge articles
 
 On the first day of each month, the application sends an email notification to a list of authorized recipients to remind them about articles that are about to expire in the next month. The recipient can then extend the **Valid to** date to continue using the article. For more information, see [Managing email notifications in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/email-notifications-km.md).
-
-**Parent Topic:**[Knowledge Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/knowledge-management-reference.md)
 

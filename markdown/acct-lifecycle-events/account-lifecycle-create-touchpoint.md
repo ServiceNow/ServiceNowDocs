@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-create-touchpoint.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Basic setup, Customer success, Configure, Customer Success Management]
+breadcrumb: [Manage engagements, Customer success, Use, Customer Success Management]
 ---
 
 # Create a touchpoint
@@ -20,11 +20,11 @@ Role required: sn\_acct\_lc.customer\_success\_agent
 
 ## About this task
 
-During the lifecycle of an engagement, providers and customers may have frequent conversations, sync-up meetings, reviews, and so on. A touchpoint is meant to capture and support these discussions and share information among the various stakeholders. Additionally, customers can raise touchpoints to their provider about any number of topics, ask for support, or request details about a given objective.
+During the lifecycle of an engagement, providers and customers may have frequent conversations, synchronization-up meetings, reviews, and so on. A touchpoint is meant to capture and support these discussions and share information among the various stakeholders. Additionally, customers can raise touchpoints to their provider about any number of topics, ask for support, or request details about a given objective.
 
 ## Procedure
 
-1.  Navigate to **Workspace** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
+1.  Navigate to **Workspace** &gt; **CRM Workspace** and select the **List** icon.
 
 2.  Navigate to **Customer Success** &gt; **All Engagements**.
 
@@ -233,8 +233,8 @@ Clear the check box to make Blocked by capability work.
 </td></tr></tbody>
 </table>    **Note:** The `Meeting date` and `Meeting type` fields have been deprecated from the Yokohama release.
 
-6.  Select **Save** to create a new touchpoint.
+6.  Select **Save** to create touchpoint.
 
 
-**Parent Topic:**[Basic customer success setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-basic-config.md)
+**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-manage-engage.md)
 

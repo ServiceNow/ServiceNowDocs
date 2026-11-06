@@ -7,10 +7,10 @@ release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 keywords: [Appointment service configuration mapping, Appointment schedule]
-breadcrumb: [Create an Appointment schedule, Configure daily and advanced schedules, Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
+breadcrumb: [Configure Advanced Appointment Booking, Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Create an Appointment service configuration mapping
@@ -23,7 +23,13 @@ Role required: appointment\_booking\_admin
 
 Ensure that the Advanced Appointment Booking plugin is active. For more information, see [Activate Advanced Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/activate-adv-appt-booking.md).
 
-Ensure you have already created a **Service Configuration**
+Ensure you have already created a **Service Configuration**. For more information see, [Create or modify service configuration for Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/appt-booking-create-service-config.md).
+
+## About this task
+
+Through service configuration mapping, you can define the number of appointment slots, appointment window duration, and have flexible holiday schedules for a service or demand channels within a territory. You can configure multiple service configuration mappings for a service in a territory based on your organizational requirements.
+
+For example, consider the service Point-of-Sale Installation. You can configure different holiday schedules and appointment slots for San Jose and San Francisco territories through service configuration mapping.
 
 ## Procedure
 
@@ -63,7 +69,7 @@ Service configuration rule
 
 </td><td>
 
-The name of the service configuration rule to apply for this mapping.
+The name of the service configuration rule to apply for this mapping. For more information, see [Create service configuration rules for a service configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/create-appt-booking-service-config-rules.md).
 
 </td></tr><tr><td>
 
@@ -95,7 +101,15 @@ Demand channel
 
 </td><td>
 
-Select the demand channel for the configuration. For more information, see [Create a demand channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/create-a-demand-channel.md). **Note:** Applies only if territory plugin is installed.
+The demand channel for which the configuration applies. For more information, see [Create a demand channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/create-a-demand-channel.md). **Note:** Applies only if territory plugin is installed.
+
+</td></tr><tr><td>
+
+Holiday Schedule
+
+</td><td>
+
+The schedule that defines which days are considered as holidays and excluded from appointment availability for the territory.**Note:** Administrators can configure the form layout to add **Holiday Schedule** to the form.
 
 </td></tr></tbody>
 </table>5.  Click **Submit**.

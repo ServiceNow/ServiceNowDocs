@@ -7,9 +7,9 @@ release: zurich
 product: Team Development
 classification: team-development
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Resolving collisions, Team Development, Planning your application, Building applications]
+breadcrumb: [Explore, Team Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Resolve multiple collisions
@@ -18,25 +18,37 @@ You can resolve multiple collisions without reviewing the differences between th
 
 ## Before you begin
 
-Role required: admin
+Role required: none.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Team Development** &gt; **Team Dashboard**.
 
-2.  In the control panel, select the number of collisions.
+2.  In the control panel, click the number of collisions.
 
     A list of collisions opens.
 
-3.  Select the collisions that you want to resolve.
+3.  Select the check boxes beside the rows you want to resolve.
 
-4.  In the Actions list, use one of the following methods to resolve the collision.
+4.  In the Actions choice list, use one of the following methods to resolve the collision.
 
-    |Method|Step|
-    |------|----|
-    |To load the version pulled from the parent as the current version for all selected collisions|Select **Use Pulled Version**.|
-    |To maintain the local version \(local record\) as the current version for all selected collisions.|Select **Use Local Version**.|
+<table id="choicetable_rby_sbc_bq"><tbody><tr><td id="d427287e93">
 
-    The pulled versions are added to the version history for the records.
+**To load the version pulled from the parent as the current version for all selected collisions**
 
+</td><td>
 
+Select **Use Pulled Version**
+
+</td></tr><tr><td id="d427287e105">
+
+**To maintain the local version \(local record\) as the current version for all selected collisions. The pulled versions are added to the version history for the records.
+
+**
+
+</td><td>
+
+Select **Use Local Version**
+
+</td></tr></tbody>
+</table>

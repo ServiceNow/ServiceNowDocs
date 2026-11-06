@@ -7,7 +7,7 @@ release: zurich
 product: Sidebar
 classification: sidebar
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrate Sidebar and Slack, Sidebar and Slack, Configuring Sidebar, Sidebar, Conversational Interfaces]
 ---
@@ -44,7 +44,7 @@ Role required: none
 
 10. Select **Add New Direct URL**.
 
-11. Add these Oauth scopes from the User T:ken Scope section.
+11. Add these Oauth scopes from the User Token Scope section:
 
     |OAuth Scope|Description|
     |-----------|-----------|

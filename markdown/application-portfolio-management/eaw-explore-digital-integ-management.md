@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-explore-digital-integ-management.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Exploring digital integration management in Enterprise Architecture Workspace
@@ -24,6 +24,8 @@ The digital integration represents the integration between two business applicat
 -   Digital Interface:
     -   Defined by the providing business application.
     -   Outlines a business application model for interacting with another application \(frequently an API\).
+
+\[Omitted video\] Description: An overview video on Digital integration management in Enterprise Architecture Workspace
 
 **Parent Topic:**[Exploring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/explore-eaw.md)
 

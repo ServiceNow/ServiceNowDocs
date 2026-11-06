@@ -7,9 +7,9 @@ release: zurich
 product: Problem Management
 classification: problem-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure the problem form, Configure, Problem Management, IT Service Management]
+breadcrumb: [Configure the problem form, Configuring Problem Management, Problem Management, IT Service Management]
 ---
 
 # Redesign the problem form

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/add-intune-app-to-azure.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Intune, Device management, Considerations before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Intune, Device management, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Add an Intune integrated app to Microsoft Azure

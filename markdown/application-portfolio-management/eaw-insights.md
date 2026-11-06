@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-insights.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Viewing insights of your portfolio
@@ -21,7 +21,7 @@ You can see the details such as the following:
 -   Software products that are facing high and moderate technology risks
 -   Pending certification instances that are open and not 100% complete
 
-The last refreshed time shows when the results were refreshed in your browser. You can manually refresh the results by using the refresh icon \(\[Omitted image "icon-refresh.png"\] Alt text: Refresh icon\). You can navigate to the full list by selecting the **View list** button. You can see the details of a record by selecting it.
+The last refreshed time shows when the results were refreshed in your browser. You can manually refresh the results by using the refresh icon \(\[Omitted image "icon-refresh.png"\] Alt text: Refresh icon\). You can navigate to the full list in the Application Rationalization by selecting the **View list** button. You can see the details of a record by selecting it.
 
 \[Omitted image "insights-section.png"\] Alt text: Insights view
 

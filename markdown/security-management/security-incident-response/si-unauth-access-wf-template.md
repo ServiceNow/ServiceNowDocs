@@ -7,9 +7,9 @@ release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Security Incident Response workflow templates, Workflows and workflow template, Security Incident Response Orchestration, Security Incident Response, Enterprise security case management applications, Security Operations]
+breadcrumb: [Security Incident Response workflow templates, Understand Security Incident Response Orchestration workflows and workflow templates, Security Incident Response Orchestration, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
 # Security Incident Unauthorized Access workflow template

@@ -7,10 +7,10 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 keywords: [filter staging, audit log, review, exclusion, SAM]
-breadcrumb: [Software filter, ACC deployment - shared between servers and endpoints, Agent Client Collector, IT Operations Management]
+breadcrumb: [Software filter, ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Review filtered software

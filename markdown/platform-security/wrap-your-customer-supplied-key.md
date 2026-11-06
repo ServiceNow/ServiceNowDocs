@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/wrap-your-customer-supplied-key.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure Customer-supplied keys for Field Encryption Enterprise, Configuring Field Encryption, Field Encryption, Encryption]
 ---
@@ -16,7 +16,7 @@ Wrap your symmetric data encryption key with an ephemeral public wrapping key be
 
 ## Before you begin
 
-Role required: KMF Admin or KMF Cryptographic Operator
+Role required: security\_admin and sn\_kmf.cryptographic\_manager or sn\_kmf.admin
 
 You must have a symmetric data encryption key in a `.bin` to use these steps. For instructions on this process, see [Configure Customer-supplied keys for Field Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/fe-config-customer-supplied-keys.md).
 
@@ -32,13 +32,13 @@ You must have a cryptographic tool to wrap your key. The example in this documen
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **System Security** &gt; **Field Encryption** &gt; **Field Encryption Modules**.
+1.  Navigate to **All** &gt; **System Security** &gt; **Field Encryption** &gt; **Field Encryption Experience**.
 
-2.  Open a field encryption module that you’ve previously created.
+2.  Select**View module details** from the **Field Encryption modules overview** to open the field encryption module that you’ve previously created.
 
     **Note:** If you haven't created a field encryption module yet, you can create one using the steps in [Configure Field Encryption modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/configure-fe-modules.md).
 
-3.  In the **Module** related list, open the cryptographic specific record by selecting the name under **Key alias**.
+3.  In the **Cryptographic Specification** section, select **Manage Specification Settings**.
 
 4.  Select the **Next** button until you reach the **Key Origin** section.
 
@@ -124,7 +124,7 @@ NA
 </table>
 ## What to do next
 
-Now that your key is wrapped, you can upload it to your instance using the procedure in [Upload your customer-supplied key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/upload-your-customer-supplied-key.md).
+Now that your key is wrapped, you can upload it to your instance using the procedure in .
 
 **Parent Topic:**[Configure Customer-supplied keys for Field Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/fe-config-customer-supplied-keys.md)
 

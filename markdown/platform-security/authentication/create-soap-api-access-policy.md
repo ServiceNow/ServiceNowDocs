@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [SOAP API access policies, API access policy, Access Management]
+breadcrumb: [SOAP API access policies, API access policy, Authentication, Access Management]
 ---
 
 # Create SOAP API access policy
@@ -19,7 +19,7 @@ Create an API access policy and map an authentication profile to restrict the au
 ## Before you begin
 
 -   Make sure that an authentication profile is created. For more information, see [Create an authentication profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/create-authentication-profile.md).
--   Role required: admin
+-   Role required: api\_service\_admin, adaptive\_auth\_policy\_admin
 
 ## Procedure
 

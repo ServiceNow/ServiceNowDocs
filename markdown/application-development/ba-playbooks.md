@@ -1,6 +1,6 @@
 ---
-title: Playbook authoring with Build Agent
-description: Use Build Agent to author and manage Playbook Designer artifacts through a conversation. You can generate playbook structures, configure activities, set runtime permissions, and define launcher configurations without manually navigating the Playbook Designer UI.
+title: Playbook authoring with Build Agent and Autonomous Engineer
+description: Use Build Agent and Autonomous Engineer to author and manage Playbook Designer artifacts through a conversation. You can generate playbook structures, configure activities, set runtime permissions, and define launcher configurations without manually navigating the Playbook Designer UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ba-playbooks.html
 release: zurich
@@ -9,14 +9,14 @@ last_updated: "2026-09-18"
 reading_time_minutes: 2
 keywords: [playbook, playbook authoring, build agent playbook, playbook designer, fluent playbook, playbook launcher, runtime permissions, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 audience: developer
-breadcrumb: [Explore, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
+breadcrumb: [Explore, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
-# Playbook authoring with Build Agent
+# Playbook authoring with Build Agent and Autonomous Engineer
 
-Use Build Agent to author and manage Playbook Designer artifacts through a conversation. You can generate playbook structures, configure activities, set runtime permissions, and define launcher configurations without manually navigating the Playbook Designer UI.
+Use Build Agent and Autonomous Engineer to author and manage Playbook Designer artifacts through a conversation. You can generate playbook structures, configure activities, set runtime permissions, and define launcher configurations without manually navigating the Playbook Designer UI.
 
-Build Agent can generate and configure Playbook Designer artifacts from a conversation. Describe the playbook structure, activity logic, or configuration you need, and Build Agent produces the corresponding records and settings on your instance.
+Build Agent and Autonomous Engineer can generate and configure Playbook Designer artifacts from a conversation. Describe the playbook structure, activity logic, or configuration you need, and Build Agent or Autonomous Engineer produces the corresponding records and settings on your instance.
 
 For more information on playbooks, see [Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/process-automation-designer.md).
 
@@ -30,7 +30,7 @@ All playbook records related to a playbook definition are consolidated into a si
 
 ## What you can do from chat
 
-From the Build Agent chat panel, you can:
+From the Build Agent or Autonomous Engineer chat panel, you can:
 
 -   Generate playbook structures including stages, activities, and conditions
 -   Generate runtime permissions at the playbook level and at the stage level

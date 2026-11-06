@@ -7,7 +7,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-09-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Automated certificate renewal, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
@@ -21,8 +21,8 @@ Configure automatic certificate renewal to avoid service interruptions from expi
 Complete the following tasks to configure your system to renew your certificates automatically:
 
 1.  [Configure MID Server for automatic certificate renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/configure-mid-server-automatic-cert-renewal.md)
-2.  [Add required applications and capabilities to your MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/add-req-apps-capabilities-to-mid-server.md)
-3.  [Configure automatic certificate renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/config-sys-props-for-auto-cert-renewal.md)
+2.  [Add required applications and capabilities to MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/add-req-apps-capabilities-to-mid-server.md)
+3.  [Configure system properties for auto-renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/config-sys-props-for-auto-cert-renewal.md)
 
 Role required: pki\_admin or admin
 

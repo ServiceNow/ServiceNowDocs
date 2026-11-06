@@ -1,5 +1,5 @@
 ---
-title: Activate a scheduled job to create financial baselines
+title: Activate a scheduled job to create financial baselines for your projects and demands
 description: Define a scheduled job to automatically create financial baselines for your planning items at a required cadence.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/baseline-schedule-job-pp.html
@@ -7,12 +7,12 @@ release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure financials for Portfolio Planning, Configure, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Activate a scheduled job to create financial baselines
+# Activate a scheduled job to create financial baselines for your projects and demands
 
 Define a scheduled job to automatically create financial baselines for your planning items at a required cadence.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/socialsuite-import-log.html
 release: zurich
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [ESG Management \(formerly ESG\) reference, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Operational Sustainability Management \(formerly ESG\) reference, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Socialsuite import log
@@ -23,5 +23,5 @@ The Socialsuite import log table \(sn\_osm\_ma\_import\_log\) tracks material to
 |Data record|Reference to the material topic record created from the imported data.|
 |Comments|Additional information or error messages about the import.|
 
-**Parent Topic:**[ESG Management \(formerly ESG\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/reference-data-esg.md)
+**Parent Topic:**[Operational Sustainability Management \(formerly ESG\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/reference-data-esg.md)
 

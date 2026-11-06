@@ -7,9 +7,9 @@ release: zurich
 product: Agent Chat
 classification: agent-chat
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Agent Chat, Agent Chat, Conversational Interfaces]
+breadcrumb: [Configure, Agent Chat, Conversational Interfaces]
 ---
 
 # Associating user profiles on messaging interactions

@@ -7,7 +7,7 @@ release: zurich
 product: Operational Technology Change Management
 classification: operational-technology-change-management
 topic_type: task
-last_updated: "2026-01-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Operational Technology Change Management, Operational Technology]
 ---

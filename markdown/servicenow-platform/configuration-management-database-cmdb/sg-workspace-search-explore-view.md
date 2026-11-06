@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-02-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Explore, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -54,8 +54,11 @@ Select the Search tab to search through the service graph data. Search provides 
 
     Lets you access a ServiceNow Otto AI-driven search using natural language. ServiceNow Otto analyzes your search utterance to determine the optimum search method, shows the results, and then lets you refine the search using natural language in the ServiceNow Otto panel.
 
-    To use this AI search, the ServiceNow Otto skill Search result classifier, must be activated. The Search result classifier skill is available starting with [ServiceNow Otto for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md) version 3.0 store app, which must be installed.
+    To access all of the functionality, including follow up questions, the following requirements must be met:
 
+    -   Role: sn\_cmdb\_user and now\_assist\_panel\_user
+    -   This skill is available starting with the [ServiceNow Otto for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md) version 3.0 store app, which must be installed
+    -   The ServiceNow Otto skill Search result classifier, must be activated
     For more information, see [Search the Service Graph database using natural language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-skill-search-result-classfy.md).
 
 -   **Intelligent Search**
@@ -98,7 +101,7 @@ You can:
 -   Select **New condition set** to add a condition phrase.
 -   Select **Related List Condition** to [add a condition phrase for related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/create-related-list-query.md).
 -   Select **Search** to search through the CMDB.
--   Add and then adjust the **sn\_cmdb\_ws.list.record\_count\_limit** system property to limit the record count summation and so to minimize the performance impact of that operation. The record count shows on the Conditional search page, for example, above the results list. For more information about adding and modifying that system property, see [Components installed with CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/installed-with-cmdb-workspace.md) .
+-   Add and then adjust the **sn\_cmdb\_ws.list.record\_count\_limit** system property to limit the record count summation and so to minimize the performance impact of that operation. The record count shows on the Conditional search page, for example, above the results list. For more information about adding and modifying that system property, see [Components installed with CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/installed-with-cmdb-workspace.md).
 
 In the results list, select a CI to see its details in CI Form.
 

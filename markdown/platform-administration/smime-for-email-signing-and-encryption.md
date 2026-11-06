@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/smime-for-email-signing-and-encryption.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Email encryption, Email Administration, Notifications, Configure core features, Administer]
+breadcrumb: [Email encryption, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Setting up S/MIME for email

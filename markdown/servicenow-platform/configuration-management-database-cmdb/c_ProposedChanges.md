@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -68,7 +68,7 @@ Proposed changes to a CI can be made while viewing a change request or any task-
 
 ### Before you begin
 
-Role required: itil
+Role required: sn\_cmdb\_editor or itil
 
 ### Procedure
 
@@ -109,7 +109,7 @@ When you apply the proposed changes, all the proposed changes for that change re
 
 ### Before you begin
 
-Role required: itil
+Role required: sn\_cmdb\_editor or itil
 
 ### About this task
 
@@ -130,7 +130,7 @@ Ensure that proposed changes meet business requirements and do not introduce inv
 
 ### Before you begin
 
-Role required: asset or itil
+Role required: asset, sn\_cmdb\_editor, or itil
 
 ### About this task
 
@@ -253,7 +253,7 @@ Create a custom script that checks if a change to a class was valid according to
 
 ### Before you begin
 
-Role required: admin or itil
+Role required: sn\_cmdb\_admin, sn\_cmdb\_editor, admin, or itil
 
 ### About this task
 
@@ -298,35 +298,31 @@ To correctly determine the validity of a change, examine the parameters and appl
     |updatedBy|String|Entity responsible for the change.|
     |fieldsChanged|String|Comma-separated list of the names of all fields that were changed.|
 
-    This sample script checks who initiated the record update. It returns true if admin initiated the record update. Otherwise, the script returns false.
+    This sample script checks who initiated the record update. It returns true if sn\_cmdb\_admin or admin initiated the record update. Otherwise, the script returns false.
 
     ```
     isValidChange();
-    
-    function isValidChange(/*GlideRecord current, GlideDateTime updatedOn, String updatedBy, String changedFields*/) 
-    { 
-       //Return true if the user that updated the record has an admin role 
-       return isUserAdmin(updatedBy); 
+     
+    function isValidChange(/*GlideRecord current, GlideDateTime updatedOn, String updatedBy, String changedFields*/) {
+        //Return true if the user that updated the record has an admin role
+        return isUserAdmin(updatedBy);
     }
-    
-    function isUserAdmin(userName)
-    {
-       var grUser = new GlideRecord("sys_user");
-       grUser.addQuery('name', userName);
-       grUser.query();
-       if(grUser.next()) 
-       {
-           var roles = new GlideRecord ("sys_user_has_role");
-           roles.addActiveQuery();
-           roles.addQuery('user', grUser.sys_id);
-           roles.query();
-           while(roles.next()) 
-           {
-              if(roles.role.name == 'admin')
-                 return true;
-           }
-       }
-       return false;
+     
+    function isUserAdmin(userName){
+        var grUser = new GlideRecord("sys_user");
+        grUser.addQuery('name', userName);
+        grUser.query();
+        if(grUser.next()) {
+            var roles = new GlideRecord ("sys_user_has_role");
+            roles.addActiveQuery();
+            roles.addQuery('user', grUser.sys_id);
+            roles.query();
+            while(roles.next()) {
+                if(roles.role.name == 'sn_cmdb_admin' || roles.role.name == 'admin')
+                    return true;
+            }
+        }
+        return false;
     }
     ```
 

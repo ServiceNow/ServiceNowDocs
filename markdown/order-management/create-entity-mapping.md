@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/create-entity-mapping.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Lead to Cash Core, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Install and configure CRM Core, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create an entity mapping
@@ -48,4 +48,11 @@ Role required: admin
 
 10. Select **Submit**.
 
+
+**Related topics**  
+
+
+[Using lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-lead-cash-foundation.md)
+
+[CRM Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/lead-to-cash.md)
 

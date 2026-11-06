@@ -7,9 +7,9 @@ release: zurich
 product: Localization Workspace
 classification: localization-workspace
 topic_type: reference
-last_updated: "2026-02-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Localization Workspace reference, Localization Workspace, Translation and localization, Configure core features, Administer]
+breadcrumb: [Localization Workspace reference, Localization Workspace, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Types of Localizable content in Localization Workspace
@@ -20,9 +20,9 @@ Localization Workspace collects available translatable content from across your 
 
 The availability of a content type is subject to its table and application scope permissions. Localization Workspace retrieves untranslated or partially translated documents when the following prerequisites are fulfilled.
 
--   If you have created a custom artifact, be sure to set cross-scope privileges to ensure that a content type can be selected in Localization Workspace. For more information see [Cross-scope privileges for Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-workspace/lw-cross-scope-privilege.md).
+-   If you have created a custom artifact, set cross-scope privileges to ensure that the corresponding content type can be selected in Localization Workspace. For more information see [Cross-scope privileges for Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-workspace/lw-cross-scope-privilege.md).
 -   If the target tables are restricted, set Restricted Caller Access privileges to ensure that a content type can be selected in Localization Workspace. For more information see [Restricted Caller Access for Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-workspace/lw-restricted-caller-access.md)
--   For Content Publishing artifacts, add the role sn\_cd.content\_admin to your Localization Workspace group in the sys\_user\_group table. This role is needed to see artifacts related to Content Publishing from Localization Workspace.
+-   For Content Publishing material, add the role sn\_cd.content\_admin to your Localization Workspace group in the sys\_user\_group table. This role is needed to access Content Publishing items from Localization Workspace.
 
 ## Translatable content
 
@@ -30,9 +30,9 @@ A document may be considered partially translated when its original is updated a
 
 ## Content available by default
 
-The following table lists the artifact types that are available by default when you install Localization Workspace. These are preconfigured with artifact records and cross-scope permissions.
+The following table lists the content types that are available by default when you install Localization Workspace. These are preconfigured with artifact records and cross-scope permissions.
 
-You can also configure your own custom artifacts. For more information, see [Dynamic artifact detection in Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-workspace/lw-dynamic-artifact-detection.md).
+You can also configure your own custom artifacts. For more information, see [Create and configure a custom artifact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/create-configure-custom-artifact.md).
 
 In this table the **Filter** column shows the query used to retrieve untranslated or partially translated content.
 

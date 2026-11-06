@@ -7,18 +7,14 @@ release: zurich
 product: Time Configuration
 classification: time-configuration
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Timeline pages, Viewing record information over time, Reference, Time configuration, Configure core features, Administer]
+breadcrumb: [Timeline pages, Viewing record information over time, Reference, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create a timeline page
 
 Create a timeline page to track any activity bounded by two dates.
-
-## Before you begin
-
-Role required: None
 
 ## Procedure
 

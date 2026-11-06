@@ -1,13 +1,13 @@
 ---
 title: Autonomous Workforce release notes
-description: Your ServiceNow Autonomous Workforce is made up of AI specialists, coordinated systems of AI agents that collaborate, reason, and execute end-to-end work as a collective. See the following sections for release notes by version.
+description: Your ServiceNow Autonomous Workforce is made up of AI specialists, coordinated systems of AI agents that collaborate, reason, and execute end-to-end work as a collective. See the following sections for release notes by version.New enhancements to routing criteria, document intelligence, advanced search, and follow-up metrics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/autonomous-workforce-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2026-08-19"
-reading_time_minutes: 1
-breadcrumb: [AI Experiences release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [AI Experiences release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Autonomous Workforce release notes
@@ -33,7 +33,7 @@ See [Autonomous Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceN
 
 -   **Additional requirements**
 
-    Your instance must be on Zurich Patch 10.
+    Your instance must be on Brazil EA.
 
 
 ## Accessibility and localization
@@ -43,10 +43,47 @@ See [Autonomous Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceN
     AI specialist supports multiple languages for user interaction. Because language detection and generation are based on an underlying large language model, not all languages have the same level of fluency. See [Multilingual support for AI specialists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/lang-support-aiw.md) for more information.
 
 
--   **[Version 3.2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/autonomous-workforce-rn-2026-09.md)**  
-New enhancements to routing criteria, document intelligence, advanced search, and follow-up metrics.
--   **[Version 3.1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/autonomous-workforce-rn-2026-08.md)**  
-Version 3.1 is the first release of Autonomous Workforce. Contact your ServiceNow account manager for more information about access to this application.
-
 **Parent Topic:**[AI Experiences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/intelligent-experiences-rn-landing.md)
+
+## Version 3.2
+
+New enhancements to routing criteria, document intelligence, advanced search, and follow-up metrics.
+
+### What's new
+
+-   **Updated routing criteria configuration**
+
+    Enable hand-offs between the AI specialist and human agents if work is better handled by a different group or requires additional human oversight.
+
+-   **Document intelligence added to AI specialist**
+
+    Add context to the work assigned to an AI specialist, allowing it to read attachments such as screenshots, PDFs, and error logs to generate responses.
+
+-   **[Configurable profile for a unified AI persona](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/modify-aiw-profile.md)**
+
+    Customize your AI specialist's name and icon to fit your brand, and decide on its role and assignment group to determine what data and work it can access.
+
+-   **[Multiple task configurations for fine-tuning AI specialist processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/modify-aiw-tasks.md)**
+
+    Configure pre-built tasks, adding your own routing behavior, response templates, search profiles, and knowledge sources, with no prompt engineering required.
+
+-   **[AI specialist activity and performance monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-workforce-ais-use.md)**
+
+    Track every record your AI specialist touches and measure its performance to see the value it brings to your team across multiple metrics.
+
+-   **[User-based work assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/work-assign-aiw.md)**
+
+    Create assignment rules to automatically route work to your AI specialist for triage and resolution. It only acts on requests it's confident it can resolve, proposing a solution directly. Anything less certain gets handed off to a human agent.
+
+
+### What's changed
+
+-   **Advanced search turned on by default**
+
+    See more richer and more relevant results to searches performed by the AI specialist.
+
+-   **Follow-up metric added to AI specialist performance dashboard**
+
+    Monitor where requests stall and where guidance can be clearer by tracking the follow-ups necessary after an initial response by the AI specialist.
+
 

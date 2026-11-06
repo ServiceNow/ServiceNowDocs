@@ -7,7 +7,7 @@ release: zurich
 product: Task Mining
 classification: task-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Task Mining, Platform Analytics]
 ---
@@ -18,7 +18,7 @@ You can install the Task Mining Core application \(sn\_tm\_core\) if you have th
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the Task Mining Core application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 Role required: admin

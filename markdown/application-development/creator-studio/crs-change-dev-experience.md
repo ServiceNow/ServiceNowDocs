@@ -7,9 +7,9 @@ release: zurich
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Build apps, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Change your development experience
@@ -30,7 +30,7 @@ Role required: admin, delegated developer, or any additional role that your admi
 
     All the apps built in Creator Studio appear on the home page.
 
-2.  Display the experience switcher by selecting the arrow icon \(\[Omitted image "crs-arrow-switcher.png"\] Alt text:\) next to the Creator Studio logo in the banner at the top of any page in Creator Studio.
+2.  Display the experience switcher by selecting the arrow icon \[Omitted image "crs-arrow-switcher.png"\] Alt text: next to the Creator Studio logo in the banner at the top of any page in Creator Studio.
 
     \[Omitted image "crs-experience-switcher.png"\] Alt text: Selecting a different development experience from the switcher
 
@@ -47,8 +47,8 @@ The development experience you selected opens in the same browser tab.
 
 Alternatively, you can open a specific app in ServiceNow Studio in the following ways:
 
--   On the home page by selecting the more actions icon \(\[Omitted image "cs-more-actions-icon.png"\] Alt text: More options enable you to take action on an app\) on the app's tile and choosing to **Open in ServiceNow Studio**.
--   After you open the app by selecting the more actions icon \(\[Omitted image "sn-studio-more-options-icon.png"\]\) in the navigation panel and then select **Open in ServiceNow Studio**.
+-   On the home page by selecting the more actions icon \[Omitted image "cs-more-actions-icon.png"\] Alt text: More options enable you to take action on an app on the app's tile and choosing to **Open in ServiceNow Studio**.
+-   After you open the app by selecting the more actions icon \[Omitted image "sn-studio-more-options-icon.png"\] in the navigation panel and then select **Open in ServiceNow Studio**.
 
 \[Omitted image "crs-open-in-sns-link.png"\] Alt text: Select more options to get the Open in SNS link
 

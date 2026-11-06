@@ -1,5 +1,5 @@
 ---
-title: Create and execute a change task
+title: Create and execute a change task in Telecommunications Network Inventory
 description: Created topic as per DOC1072352 - STRY55259624Create a change task after you create a change request in the Telecommunications Network Inventory application. By creating a change task, you can complete the requested change.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/create-change-task-in-tni.html
@@ -7,12 +7,12 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Using Design &amp; Assign Network, Use, Telecommunications Network Inventory]
 ---
 
-# Create and execute a change task
+# Create and execute a change task in Telecommunications Network Inventory
 
 Create a change task after you create a change request in the Telecommunications Network Inventory application. By creating a change task, you can complete the requested change.
 
@@ -20,7 +20,7 @@ Create a change task after you create a change request in the Telecommunications
 
 -   1.  Navigate to **Telecom Network Inventory** &gt; **Inventory Models**, create your inventory models, and define their relationships.
 
-    To learn more, see [Manually create and review your network asset instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/creating-telecommunications-network-inventory.md).
+    To learn more, see [Manually creating and reviewing your network asset instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/creating-telecommunications-network-inventory.md).
 
 2.  Navigate to **Telecom Network Inventory** &gt; **Network Inventory Templates**, create the inventory templates for your equipment, and establish the template relationships.
 
@@ -30,7 +30,7 @@ Create a change task after you create a change request in the Telecommunications
 
 ## About this task
 
-Based on the details in the change request form, a change task is created automatically. You can view, create, update, or close the change tasks from the **Overview** tab or from the **Change Tasks** tab of a change request. You can also assign a record producer form to a change task. To learn more, see [Assign record producer form for a request type of a change task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/assign_record_producer_form_for_a_change_task_of_a_change_request.md).
+Based on the details in the change request form, a change task is created automatically. You can view, create, update, or close the change tasks from the **Overview** tab or from the **Change Tasks** tab of a change request. You can also assign a record producer form to a change task. To learn more, see [Assign a record producer form for a request type of a change task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/assign_record_producer_form_for_a_change_task_of_a_change_request.md).
 
 ## Procedure
 

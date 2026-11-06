@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Agent mobile app, Use, Field Service Management]
+breadcrumb: [ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
 # Push notifications on ServiceNow Agent
@@ -21,6 +21,7 @@ Push notifications provide several advantages:
 -   Agents and technicians can receive actionable push notifications about tasks on their mobile devices.
 -   Dispatchers and managers can use push notifications to assign tasks to groups or to individual agents and to send reminders.
 -   Agents and technicians can perform push notification actions from their mobile devices without opening the application, such as accepting or rejecting tasks, part requests, and replying to customer comments on tasks.
+-   By default, technicians receive the following break related notifications: five minutes before a break starts, when a break starts, and when a break ends.
 
 **Related topics**  
 
@@ -29,5 +30,5 @@ Push notifications provide several advantages:
 
 [Configure actionable push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/actionable-push-notification.md)
 
-[Mobile push notification components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/configure-mobile-push-notifications.md)
+[Configure the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/mobile-experience-for-field-service-management-glide-family/configure-field-service-mobile.md)
 

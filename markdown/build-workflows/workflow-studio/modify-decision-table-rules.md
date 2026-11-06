@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Using decision tables, Use, Workflow Studio, Build workflows]
+breadcrumb: [Use, Decision tables, Workflow Studio, Build workflows]
 ---
 
 # Modify decision table rules in Workflow Studio
@@ -57,7 +57,7 @@ Modify conditions and results to update decision rules in a decision table in Wo
 
 ### Before you begin
 
-Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see Delegate developers using App Engine Studio.
+Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see [Delegate developers using App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/aes-app-dev-workflow.md).
 
 ### Procedure
 
@@ -74,7 +74,7 @@ Role required: admin, decision\_table\_admin, or delegated developer permissions
         -   Select the condition value and provide a new value.
         -   Update both the operator and the condition value.
     -   To modify a result, select the result value and provide a new value.
-5.  To modify a decision table condition in Decision rule view, select the Decision rule row menu options icon \(\[Omitted image "ellipses.png"\] Alt text: Decision rule row menu options.\) to the left of the row number, and then select **Open in Decision rule view**.
+5.  To modify a decision table condition in Decision rule view, select the Decision rule row menu options icon \[Omitted image "ellipses.png"\] Alt text: to the left of the row number, and then select **Open in Decision rule view**.
 
     Decision rule view supports complex conditions that may not fit into the table structure.
 
@@ -118,7 +118,7 @@ Determine or change the sequence in which your decision rules are evaluated by r
 
 ### Before you begin
 
-Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see Delegate developers using App Engine Studio.
+Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see [Delegate developers using App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/aes-app-dev-workflow.md).
 
 ### Procedure
 
@@ -130,7 +130,7 @@ Role required: admin, decision\_table\_admin, or delegated developer permissions
 
 4.  Reorder the rows using either of the following methods.
 
-<table id="choicetable_zvf_qr5_sbc"><tbody><tr><td id="d166655e563">
+<table id="choicetable_zvf_qr5_sbc"><tbody><tr><td id="d171690e562">
 
 **Reorder by changing the Rank number**
 
@@ -142,7 +142,7 @@ Role required: admin, decision\_table\_admin, or delegated developer permissions
 
  This method is most effective for reordering rows in large decision tables.
 
-</td></tr><tr><td id="d166655e596">
+</td></tr><tr><td id="d171690e595">
 
 **Reorder by dragging and dropping a row**
 

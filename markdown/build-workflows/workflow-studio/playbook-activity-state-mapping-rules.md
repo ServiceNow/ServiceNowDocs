@@ -7,14 +7,16 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Playbook activity state mapping, Stages and activities, Building playbooks, Use, Workflow Studio, Build workflows]
+breadcrumb: [Playbook activity state mapping, Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Playbook activity state-mapping rules
 
 Map playbook activity states to states from the given experience record.
+
+\[Omitted image "activity-state-mapping.gif"\] Alt text: Changing how a Pending state is mapped from flow to playbook activity
 
 Activity state-mapping rules are required for each Experience Status Table. These rules determine how to update the status for an experience record whenever a playbook user updates the state of an activity, such as when they complete an activity.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/generate-doc-from-diagram.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Exploring generating documents from diagrams

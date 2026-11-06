@@ -7,9 +7,9 @@ release: zurich
 product: System Events
 classification: system-events
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring system events, System Events, Configure core features, Administer]
+breadcrumb: [Configuring system events, System Events, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Implement automated job scheduling
@@ -149,4 +149,6 @@ Optional field to describe about this queue related information
 
     If any queue with your suggested queue name already exists in the manual jobs scheduling configuration, the configurations of the existing queue are retrieved. You can then validate and update them as required.
 
+
+**Parent Topic:**[Configuring System events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-events/configuring-system-events.md)
 

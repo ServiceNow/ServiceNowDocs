@@ -1,5 +1,5 @@
 ---
-title: Sourcing parts
+title: Source parts
 description: Sourcing a part is the process of reserving and obtaining an asset described in a part requirement record by transferring it from one stockroom to another.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/c\_SourceParts.html
@@ -7,12 +7,12 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Part requirements, Inventory, Manage work order tasks, Prepare work orders, Use, Field Service Management]
+breadcrumb: [Part requirements, Manage inventory in FSM, Manage work order tasks, Prepare work orders, Use, Field Service Management]
 ---
 
-# Sourcing parts
+# Source parts
 
 Sourcing a part is the process of reserving and obtaining an asset described in a part requirement record by transferring it from one stockroom to another.
 
@@ -39,7 +39,7 @@ The technician can create a part requirement and use a part from their personal 
 
 ## Advanced part sourcing
 
-With advanced part sourcing, the technician can source multiple assets at once from a single or multiple stockrooms. For more information, see [Request multiple parts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/request-inventory.md).
+With advanced part sourcing, the technician can source multiple assets at once from a single or multiple stockrooms. For more information, [Request multiple parts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/request-inventory.md).
 
 **Related topics**  
 

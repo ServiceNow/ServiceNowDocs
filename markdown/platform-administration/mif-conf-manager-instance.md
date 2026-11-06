@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/mif-conf-manager-instance.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Cross-instance application trust configuration, Configure, Multi-instance Management, Get started, Administer]
+breadcrumb: [Cross-instance application trust configuration, Multi-Instance Management, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Configure Manager Instances
@@ -36,15 +36,15 @@ Role required: admin or sn\_mif.mif\_admin.
 
 4.  On the Manager Instances form, fill up the following.
 
-<table id="choicetable_sps_q3z_42c"><thead><tr><th align="left" id="d291040e94">
+<table id="choicetable_sps_q3z_42c"><thead><tr><th align="left" id="d302808e94">
 
 Entry
 
-</th><th align="left" id="d291040e97">
+</th><th align="left" id="d302808e97">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d291040e103">
+</th></tr></thead><tbody><tr><td id="d302808e103">
 
 **Manager Instance**
 
@@ -52,7 +52,7 @@ Description
 
 Select a manager instance from the list of instance names using the lookup option.**Note:** Only production instances should be designated as the primary managers for both production and sub-production instances. Sub-production instances may manage other sub-production instances under specific, defined conditions.
 
-</td></tr><tr><td id="d291040e114">
+</td></tr><tr><td id="d302808e114">
 
 **Application**
 
@@ -63,6 +63,4 @@ Select the appropriate application from the application list using the lookup op
 </td></tr></tbody>
 </table>5.  Select **Submit**.
 
-
-**Parent Topic:**[Cross-instance application trust configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/grant-access-v2.md)
 

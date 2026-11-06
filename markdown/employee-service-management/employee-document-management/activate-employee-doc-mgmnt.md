@@ -1,20 +1,20 @@
 ---
 title: Activate Employee Document Management
-description: You can activate the Employee Document Management \[com.sn\_employee\_document\_management\] plugin with the admin role. This plugin includes demo data and activates related plugins if they are not already active.The Employee Document Management Bulk Uploads requires separate subscriptions to the Orchestration \[com.snc.runbook\_automation\] and ServiceNow IntegrationHub Installer \[com.glide.hub.integrations\] plugins. These plugins must be activated by ServiceNow personnel.
+description: You can activate the Employee Document Management \[com.sn\_employee\_document\_management\] plugin with the admin role. This plugin includes demo data and activates related plugins if they aren't already active.The Employee Document Management Bulk Uploads requires separate subscriptions to the Orchestration \[com.snc.runbook\_automation\] and ServiceNow IntegrationHub Installer \[com.glide.hub.integrations\] plugins. These plugins must be activated by ServiceNow personnel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-document-management/activate-employee-doc-mgmnt.html
 release: zurich
 product: Employee Document Management
 classification: employee-document-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, Employee Document Management, HR Documents, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configuring Employee Document Management, Employee Document Management, HR Documents, HR Service Delivery, Employee Service Management]
 ---
 
 # Activate Employee Document Management
 
-You can activate the Employee Document Management \[com.sn\_employee\_document\_management\] plugin with the admin role. This plugin includes demo data and activates related plugins if they are not already active.
+You can activate the Employee Document Management \[com.sn\_employee\_document\_management\] plugin with the admin role. This plugin includes demo data and activates related plugins if they aren't already active.
 
 ## Before you begin
 
@@ -30,7 +30,7 @@ Role required: admin
 
 3.  Select **Install** to start the installation process.
 
-    **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
+    **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/find-components.md).
 
@@ -42,7 +42,7 @@ Role required: admin
 
 [Defining and setting for employee documents]()
 
-## Request bulk uploads in Employee Document Management
+## Request employee document management bulk uploads
 
 The Employee Document Management Bulk Uploads requires separate subscriptions to the Orchestration \[com.snc.runbook\_automation\] and ServiceNow IntegrationHub Installer \[com.glide.hub.integrations\] plugins. These plugins must be activated by ServiceNow personnel.
 

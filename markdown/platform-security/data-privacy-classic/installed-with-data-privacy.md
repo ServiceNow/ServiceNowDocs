@@ -7,9 +7,9 @@ release: zurich
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Activate data privacy \(Classic\), Data privacy \(Classic\), Data Privacy, Platform Privacy]
+breadcrumb: [Data privacy \(Classic\), Data Privacy, Platform Privacy]
 ---
 
 # Installed with data privacy \(Classic\)

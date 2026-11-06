@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/set-up-google-maps-api.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [ServiceNow provided integrations, Integration options, Integration with third-party applications and data sources, Integrations, Configure core features, Administer]
+breadcrumb: [ServiceNow provided integrations, Integration options, Integration with third-party applications and data sources, Integrations, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Set up Google Maps API
@@ -32,15 +32,15 @@ Update your configuration to authenticate using an API key only \(that is, set *
 
     **Note:** You are required to use your own Google Maps JavaScript API Key from Google and not use any ServiceNow AI Platform® generated key.
 
-<table id="choicetable_okq_vnj_smb"><thead><tr><th align="left" id="d109769e112">
+<table id="choicetable_okq_vnj_smb"><thead><tr><th align="left" id="d114230e112">
 
 Existing Google Maps API for Business license available?
 
-</th><th align="left" id="d109769e118">
+</th><th align="left" id="d114230e118">
 
 Tasks
 
-</th></tr></thead><tbody><tr><td id="d109769e124">
+</th></tr></thead><tbody><tr><td id="d114230e124">
 
 **Existing license available**
 
@@ -55,7 +55,7 @@ Tasks
 
 The Google Maps Client ID–based configuration is being deprecated. Client ID authentication will not be supported starting May 2026, and configurations relying on it will no longer work.
 
-</td></tr><tr><td id="d109769e198">
+</td></tr><tr><td id="d114230e198">
 
 **No license available**
 

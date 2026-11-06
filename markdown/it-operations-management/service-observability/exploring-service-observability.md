@@ -7,7 +7,7 @@ release: zurich
 product: Service Observability
 classification: service-observability
 topic_type: concept
-last_updated: "2026-06-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Service Observability, ITOM AIOps, IT Operations Management]
 ---
@@ -47,7 +47,7 @@ After connecting an observability vendor to Service Observability, you map servi
 
 With this data mapping, Service Observability displays metrics for entities such as host, database, or network components, along with details about related CI information. Operators use these metrics and contextual information, including current incidents and alerts, to assess service health.
 
-**Note:** Operators can also use the [Analyze a dashboard in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/analyze-a-dashboard-in-service-observability.md) and the [Analyze service health in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/analyze-service-health-in-service-observability.md) AI skills to generate an analysis for them.
+**Note:** Operators can also use the [Analyze a dashboard in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/analyze-a-dashboard-in-service-observability.md) and the [Analyze service health in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/analyze-service-health-in-service-observability.md) AI skills to generate an analysis for them.
 
 For example, you use Dynatrace to monitor your `checkout` service, databases, and hosts. Metrics from all these entities use the tag `checkout-service` to denote requests coming from that service. By mapping the `checkout` service CI to the Dynatrace data tagged with `checkout-service`, Service Observability retrieves metrics for those databases, hosts, and related CIs. It then displays them together. Operators can pinpoint issues on entities related to the service and narrow down the mitigation process without having to leave the SOW.
 
@@ -164,8 +164,8 @@ Use generative AI to analyze metric data and find insights to help determine ser
 
 </td><td>
 
--   [Analyze a dashboard in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/analyze-a-dashboard-in-service-observability.md)
--   [Analyze service health in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/analyze-service-health-in-service-observability.md)
+-   [Analyze a dashboard in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/analyze-a-dashboard-in-service-observability.md)
+-   [Analyze service health in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/analyze-service-health-in-service-observability.md)
 
 </td><td>
 

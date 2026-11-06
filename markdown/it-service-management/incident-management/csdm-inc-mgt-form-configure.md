@@ -7,9 +7,9 @@ release: zurich
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Applying CSDM guidelines to Incident Management, Configure, Incident Management, IT Service Management]
+breadcrumb: [Applying CSDM guidelines to Incident Management, Configuring Incident Management, Incident Management, IT Service Management]
 ---
 
 # Set up the Incident Management form
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Incident Management leverages the CSDM data structure to display information that assists in solving the incident.
+Incident Management uses the CSDM data structure to display information that assists in solving the incident.
 
 [Go to the 1:00:00 mark on this video](https://www.youtube.com/watch?v=EbuHgr10P98&list=PLkGSnjw5y2U7QNr9jL6TAgwQvYBI_LEtK&index=57) to learn about setting up the Incident form to include the related lists that leverage the CSDM framework.
 
@@ -37,9 +37,11 @@ Incident Management leverages the CSDM data structure to display information tha
     -   **Populate the Service Offering related list for incidents**
     The properties are fully described in [Incident Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/incident-management-properties.md).
 
-3.  Ensure that the **Principle Class** option is selected for the CI or CI class as described in [Create a CI class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/t_CreateCIType.md) and [Update class list in the Principal Class filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/update-principal-class-filter.md).
+3.  Ensure that the **Principal Class** option is selected for the CI or CI class as described in [Create a CI class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/t_CreateCIType.md) and [Update class list in the Principal Class filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/update-principal-class-filter.md).
 
 4.  Navigate to **All** &gt; **Incident** &gt; **Open** and fill in the following fields:
+
+    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
 
 <table id="table_qyz_qjm_pwb"><thead><tr><th>
 
@@ -75,9 +77,9 @@ Configuration Item
 
 </td><td>
 
-The CI or the affected service. \(Hardware, application, and cloud \[physical CIs\] or application service \[logical CIs\]\)
+The CI or the affected service, such as hardware, application, and cloud CIs \(physical CIs\) or application services \(logical CIs\).
 
- You can then use the CI to identify details for incident routing. For example, you can use the CI data like Support Group and provide information about the service impact by using dependency relationships.
+ You can then use the CI to identify details for incident routing. For example, you can use CI data, such as the support group, and provide information about the service impact by using dependency relationships.
 
 </td></tr></tbody>
 </table>5.  Review the information.

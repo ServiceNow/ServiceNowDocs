@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/move-agent-calendar-event.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Agent calendar, Agent calendar, Schedules and sites, Use, Customer Service Management]
+breadcrumb: [Use agent calendar, Agent calendar, Schedules and sites, Use, Customer Service Management]
 ---
 
 # Move an event on the agent calendar
@@ -26,7 +26,7 @@ Role required: agent\_schedule\_user
     -   **Field Service** &gt; **Agent** &gt; **My Schedule**
 2.  Use one of the following methods to move an event.
 
-<table id="choicetable_ezl_bqb_hx"><tbody><tr><td id="d226899e110">
+<table id="choicetable_ezl_bqb_hx"><tbody><tr><td id="d257306e110">
 
 **Click an event and drag it to a new day or time**
 
@@ -34,7 +34,7 @@ Role required: agent\_schedule\_user
 
 The **When** and **To** fields in the event record are updated with the new information.
 
-</td></tr><tr><td id="d226899e125">
+</td></tr><tr><td id="d257306e125">
 
 **Double-click an event to open the event record**
 

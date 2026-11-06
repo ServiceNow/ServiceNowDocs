@@ -7,9 +7,9 @@ release: zurich
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-08"
 reading_time_minutes: 6
-breadcrumb: [Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Starting a project
@@ -24,17 +24,17 @@ Role required: it\_project\_manager
 
 When you change the **State** field on the Project form to **Work in Progress**, the Actual start date of the project changes to the planned start date.
 
-You can create a project from the Projects list or from the project planning console. You must have the Agile Development 2.0 plugin to create an Agile or Hybrid project and the Test Management plugin to create a test phase for your project.
+You can create a project from the Projects list or from the Project Workspace. You must have the Agile Development 2.0 plugin to create an Agile or Hybrid project and the Test Management plugin to create a test phase for your project.
 
 **Note:** You can also create a project from the [demand workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/t_CrtArtftDmdMnu.md).
 
 After you start the project:
 
 -   The read-only **Actual start date** field of the project is populated with the planned date.
--   If tasks are scheduled to start immediately upon project start \(meaning that their time constraints are set to **Start ASAP** and they have no other start dependencies\). In this case, the actual start dates of those tasks also get populated with the planned date.
+-   If a task or set of tasks are scheduled to start immediately upon project start, their actual start dates also get populated with the planned date. This applies when their time constraints are set to **Start ASAP** and they have no other start dependencies.
 -   The planned start dates of all other tasks adjust accordingly based on the time you started the project. Their new planned start dates depend on several factors, including dependent relationships with other tasks and the duration for each task.
 
-    **Note:** Once a project is in the **Work in Progress** state, it does not mean that the state of every task will start updating automatically based on planned start date. Other than the project tasks that you schedule to start **ASAP** when the project starts, project tasks are not started automatically. Continue to manage the project and change the state of each task to **Work in Progress**.
+    **Note:** Once a project is in the **Work in Progress** state, it does not mean that the state of every task will start updating automatically based on planned start date. Other than the project tasks that you schedule to start **ASAP** when the project starts, project tasks aren't started automatically. Continue to manage the project and change the state of each task to **Work in Progress**.
 
 
 You can also use the multi-currency feature to create a project in a local currency different from your functional currency. You must enable the PPM Standard Multicurrency plugin \(com.snc.ppm\_multicurrency\) and switch to the Project Currency view for the additional fields in the **Financials** tab of the Project form. For more information, see [Multi-currency in project financials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/multicurrency-pps.md).
@@ -43,30 +43,35 @@ You can also use the multi-currency feature to create a project in a local curre
 
 1.  Create a project in any of the following ways.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d261865e159">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d282171e150">
 
 Location
 
-</th><th align="left" id="d261865e162">
+</th><th align="left" id="d282171e153">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d261865e168">
+</th></tr></thead><tbody><tr><td id="d282171e159">
 
 **From the Projects list**
 
 </td><td>
 
-Navigate to **All** &gt; **Project** &gt; **Projects** &gt; **Create New**.
+1.  Navigate to **All** &gt; **Project** &gt; **Projects** &gt; **All**.
+2.  In the Project list, select **New**.
+**New**.
 
-</td></tr><tr><td id="d261865e194">
+</td></tr><tr><td id="d282171e198">
 
 **From the project workspace**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Project** &gt; **Projects** &gt; **Project Workspace**.
-2.  From Projects page, select the **New**.
+
+**Note:** Starting with Brazil release, Project Workspace opens in Next Experience view.
+
+2.  Select **New Project**.
 3.  In the Create a project modal, fill in the details and select **Confirm**.
 
 
@@ -91,11 +96,15 @@ Associate monetary and non-monetary benefit plans, so that you can capture the p
 -   **[Create a project cost plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/t_CreateAProjectCostPlan.md)**  
 Create a cost plan to specify the unit cost of a cost type for a fiscal period. Project cost plans capture the costs of projects.
 -   **[Recalculating costs of all resource plans in a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/recalculate-resource-costs-of-a-project.md)**  
-Recalculate the resource costs of all resource plans in a project whenever the hourly rates change in the associated rate model . This keeps the plan costs up to date.
+Recalculate resource costs for all resource plans in a project when hourly rates change in the associated rate model.
 -   **[Create an expense line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/t_CreateAExpenseLine.md)**  
 A project expense line is cost associated with a specific source, such as a user, fixed asset, or a CI. Expense lines are part of project cost plans.
 -   **[Create and manage waterfall projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/c_CreateAndManageWaterfallProjects.md)**  
 Plan, create, and manage projects using the Waterfall methodology.
+-   **[Schedule a project from a start date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/schedule-a-project-pm.md)**  
+Schedule a project from a start date and plan tasks and milestones based on your project requirements.
+-   **[Apply or change a task constraint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/change-task-constraint-project-management.md)**  
+Apply a constraint to control when an automatically scheduled task starts or finishes. Set the constraint type and the associated constraint date if required.
 -   **[Update a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/t_UpdateAProjectInProgress.md)**  
 Update the project and make adjustments in fields to handle scope, cost, and schedule. While a project is underway, keep actual values as current as possible. Continue to measure actual values, analyze the impact of any potential project risks.
 -   **[Copy a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/t_CopyAProject.md)**  
@@ -131,6 +140,8 @@ Migrate the financial baselines of your project to Next Experience to manage the
 
 
 [Project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/create-a-project-form.md)
+
+[Schedule a project from a start date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/schedule-a-project-pm.md)
 
 [Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ppm-collaboration/c_ProjectPortfolioSuite.md)
 

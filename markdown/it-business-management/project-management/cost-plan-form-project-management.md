@@ -7,9 +7,9 @@ release: zurich
 product: Project Management
 classification: project-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Form field information for Project Management, Reference, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Form field information for Project Management, Project Management reference, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Cost Plan form
@@ -151,7 +151,7 @@ Functional currency
 
 </td><td>
 
-Currency that is obtained from the [**glide.system.locale** property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/currency-properties.md).For upgraded customers, if the selected currency is different from the functional currency configured in the Financial Management application. The corresponding [budget reference rate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ppm-collaboration/c_BudgetReferenceRates.md) is used to calculate the total planned cost, planned capital, planned operating of the project.
+Currency that is obtained from the [**glide.system.locale** property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/currency-properties.md).For upgraded customers, if the selected currency is different from the functional currency configured in the Financial Management application, the corresponding [budget reference rate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ppm-collaboration/c_BudgetReferenceRates.md) is used to calculate the total planned cost, planned capital, planned operating of the project.
 
  **Note:** If budget reference rates are not defined, then exchange rate is considered as 1. For example, if functional currency is USD, entered cost is EUR, and no exchange rate is defined, then 1000 USD equals to 1000 EUR.
 
@@ -177,10 +177,12 @@ Estimate at Completion
 
 </td><td>
 
-Sum of all actuals for past fiscal periods added to the functional cost for future fiscal periods.For example, the duration of a project is from January 01 to December 31. If you check the Estimate at Completion in the month of May, the calculation is as follows. `Sum of actuals from Jan to April + Sum of functional cost from May to December`.
+Sum of all actuals for past fiscal periods added to the functional cost for future fiscal periods.For example, if a project is from January 01 to December 31, and if you check the Estimate at Completion in the month of May, it is calculated as: `Sum of actuals from Jan to April + Sum of functional cost from May to December`.
 
 </td></tr></tbody>
-</table>**Related topics**  
+</table>**Parent Topic:**[Form field information for Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/form-field-information-for-project-management.md)
+
+**Related topics**  
 
 
 [Create a project cost plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/t_CreateAProjectCostPlan.md)

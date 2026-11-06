@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-aicontroltower-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 33
+last_updated: "2026-11-06"
+reading_time_minutes: 34
 breadcrumb: [Products combined by family]
 ---
 
@@ -643,6 +643,12 @@ Starting with the September 2026 release, Gemma 4 joins our growing portfolio of
 -   **[Traceloop Warehouse HTTPS connection removed](https://www.servicenow.com/docs/access?context=gov-sec-configure-pi-sensitive-metrics&family=zurich&ft:locale=en-US)**
 
 The base system Traceloop Warehouse HTTPS connection \(sn\_ai\_security.Traceloop\_API alias\) is removed. If you're upgrading and use Traceloop-based external AI metrics, create a new HTTPS connection under that alias and re-create your credential with connection URL `https://api.traceloop.com`.
+
+-   **[V1 AI asset onboarding playbook](https://www.servicenow.com/docs/access?context=aict-playbooks-reference&family=zurich&ft:locale=en-US)**
+
+Starting with the Brazil Early Availability release, the V1 AI asset onboarding playbook no longer receives updates and isn't active for new customers. New customers use the V2 AI asset onboarding playbook. Existing customers who use or customized the V1 playbook can continue to use it or migrate to the V2 playbook.
+
+For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 
  The AI Gateway application is deprecated in the Australia release and is no longer supported.

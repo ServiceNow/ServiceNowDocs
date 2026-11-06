@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/add-dashboard-to-workspace.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Creating Platform Analytics pages, Platform Analytics experience, Platform Analytics]
 ---
@@ -34,7 +34,7 @@ To add a dashboard to a page in UI Builder, create the page from the Dashboards 
 
 3.  Create a page in the workspace using the Dashboards page template, or open an existing page created from the template.
 
-    For more information, see  and [Add Platform Analytics pages to a configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/add-analytics-center-to-experience.md).
+    For more information, see [Create a page from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/reuse-page-definitions.md) and [Add Platform Analytics pages to a configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/add-analytics-center-to-experience.md).
 
     **Note:** You cannot add a Dashboard component to a page. You can only create a page from the Dashboards template. This page will include a Dashboard component.
 
@@ -81,6 +81,8 @@ Select event handlers to configure the actions \(events\) provided with the dash
 [Add Platform Analytics pages to a configurable workspace]()
 
 [Configure custom redirection from a dashboard component]()
+
+[Dashboard URL parameter delegation]()
 
 [Pass global filters to the dashboard page template]()
 

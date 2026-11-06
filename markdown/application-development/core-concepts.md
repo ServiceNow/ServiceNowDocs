@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-29"
 reading_time_minutes: 6
 keywords: [Core concepts, Core building blocks, Coordination mechanisms, Region DSL, How it all renders]
-breadcrumb: [Lux architecture, Exploring Lux, Lux Development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Lux architecture, Exploring Lux, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Core concepts
@@ -69,7 +69,7 @@ A region has one spacing value and no padding. The `gap` and `padding` attribute
 
 **Important:**
 
-A widget is a leaf. A widget in a region holds no children. An element inside one throws at parse time, and text children are rejected outright. `<slot>` is a blocked tag, because a slot projects the host element's light DOM and a region doesn't own that. `<raw>` is not the workaround: it emits whatever markup it is given, widget tags included, but its content is unsanitized trusted-input-only markup. A widget nested that way is invisible to both the editor and the structural rules. Composition hosts \(`aiux-layout-host`\) were removed outright. To compose one widget inside another, write plain Lit `html` with Tailwind classes. For more information about widgets, see [Lux Widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/widgets.md).
+A widget is a leaf. A widget in a region holds no children. An element inside one throws at parse time, and text children are rejected outright. `<slot>` is a blocked tag, because a slot projects the host element's light DOM and a region doesn't own that. `<raw>` is not the workaround: it emits whatever markup it is given, widget tags included, but its content is unsanitized trusted-input-only markup. A widget nested that way is invisible to both the editor and the structural rules. Composition hosts \(`aiux-layout-host`\) were removed outright. To compose one widget inside another, write plain Lit `html` with Tailwind classes. For more information about widgets, see [Lux widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/widgets.md).
 
 ## How it all renders
 

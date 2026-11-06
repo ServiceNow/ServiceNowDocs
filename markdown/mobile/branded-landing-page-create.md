@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/branded-landing-page-create.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Branded landing page, Mobile instances, Configuring the Mobile Platform, Mobile Platform]
 ---

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/configure-event-handler-filter-lists-data-vis.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Technical dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -33,7 +33,7 @@ Role required: ui\_builder\_admin, admin
 
 2.  Navigate to the UI Builder State section and add a state variable named *parFilters* of type JSON with a simple array initial value `[]`.
 
-    For more information, see Create and bind a client state parameter to a component.
+    For more information, see [Create and bind a client state parameter to a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/state-parameters.md).
 
     \[Omitted image "add-parFilters.png"\] Alt text: Adding the parFilters client state parameter to a UIB page.
 

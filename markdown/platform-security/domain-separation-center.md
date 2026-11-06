@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/domain-separation-center.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Domain separation for service providers, Access Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Domain separation for service providers, Access Management]
 
 Audit your domains regularly to reveal problems.
 
-## overview
+## Overview
 
 The Domain Separation Center is a dashboard where you can schedule and configure audits for all of the domains stored in your domain\_audit\_definition table. The dashboard enables you to review audit results and dig deeper into domain errors and warnings. You can find the Domain Separation Center dashboard at `<ServiceNow-instance-name>/domaincenter`.
 

@@ -1,5 +1,5 @@
 ---
-title: Integrate CIM using extension point
+title: Integrate Continual Improvement Management using extension point
 description: Integrate CIM with other applications by using the CIMIntegrationAPI extension point. It defines the inbound and outbound extension points for integrating CIM with other applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/continual-improvement-management/integrate-extension-api.html
@@ -7,12 +7,12 @@ release: zurich
 product: Continual Improvement Management
 classification: continual-improvement-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Overview, Continual Improvement Management, IT Service Management]
+breadcrumb: [Integrated applications, Overview, Continual Improvement Management, IT Service Management]
 ---
 
-# Integrate CIM using extension point
+# Integrate Continual Improvement Management using extension point
 
 Integrate CIM with other applications by using the CIMIntegrationAPI extension point. It defines the inbound and outbound extension points for integrating CIM with other applications.
 
@@ -57,5 +57,5 @@ The CIMIntegrationAPI defines the inbound and outbound extension points for inte
     For more information, see [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_EditingAUIAction.md).
 
 
-**Parent Topic:**[Continual Improvement Management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/get-started-cim.md)
+**Parent Topic:**[Applications integrated with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/cim-integration.md)
 

@@ -1,20 +1,20 @@
 ---
 title: Enable analytics for a workspace in Workspace Builder
-description: Enable the Analytics Center for a workspace in Workspace Builder. The Analytics Center enables users to track and analyze records and usage with dashboards, data visualizations, and insights on the instance.
+description: Enable the Analytics Overview for a workspace in Workspace Builder. The Analytics Overview enables users to track and analyze records and usage with dashboards, data visualizations, and insights on the instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/workspace-builder/configure-analytics-workspace.html
 release: zurich
 product: Workspace Builder
 classification: workspace-builder
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, Workspace Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Use, Workspace Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Enable analytics for a workspace in Workspace Builder
 
-Enable the Analytics Center for a workspace in Workspace Builder. The Analytics Center enables users to track and analyze records and usage with dashboards, data visualizations, and insights on the instance.
+Enable the Analytics Overview for a workspace in Workspace Builder. The Analytics Overview enables users to track and analyze records and usage with dashboards, data visualizations, and insights on the instance.
 
 ## Before you begin
 
@@ -25,9 +25,9 @@ Role required:
 
 ## About this task
 
-If Analytics Center page/route doesn't exist for a workspace, Workspace Builder is still available, but the Analytics Center tab doesn't appear in the workspace.
+If Analytics Overview page/route doesn't exist for a workspace, Workspace Builder is still available, but the Analytics Overview tab doesn't appear in the workspace.
 
-The Analytics Center always displays current, refreshed content.
+The Analytics Overview always displays current, refreshed content.
 
 ## Procedure
 
@@ -39,14 +39,14 @@ The Analytics Center always displays current, refreshed content.
 
     You must be in the **Navigation configuration** tab. If you're already in the **Navigation configuration** tab, you can't select it.
 
-    A mock-up of the Analytics Center appears in the preview panel.
+    A mock-up of the Analytics Overview appears in the preview panel.
 
 3.  In the configuration panel, select the **Activate Analytics Center** toggle option.
 
-4.  Make additional configuration updates to the Analytics Center by selecting the **Open in UI Builder** link in the canvas header.
+4.  Make additional configuration updates to the Analytics Overview by selecting the **Open in UI Builder** link in the canvas header.
 
 
 ## Result
 
-For more information on working with the Analytics Center, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/analytics-center-dashboards.md).
+For more information on working with the Analytics Overview, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/analytics-center-dashboards.md).
 

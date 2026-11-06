@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/io-long-pending-job-alert-card.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Performance, Overview of Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Real-time Instance health monitoring and analysis, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
 # Analyze job details for long pending jobs
@@ -76,5 +76,7 @@ Beyond pending jobs, this telemetry not only helps you to know how long a job ta
 
 ## What to do next
 
-You can also set alert card for pending jobs. For more information, see [Configure long pending jobs alert by job priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-long-pending-jobs.md).
+You can also set alert card for pending jobs. For more information, see [Configure long pending jobs alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-long-pending-jobs.md).
+
+**Parent Topic:**[Real-time Instance health monitoring and analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/instance-observer-performance.md)
 

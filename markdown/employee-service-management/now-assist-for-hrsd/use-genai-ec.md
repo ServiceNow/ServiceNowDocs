@@ -1,20 +1,20 @@
 ---
 title: Configure Gen AI Virtual Agent for HRSD
-description: Enable your requesters to have a streamlined, conversational experience that is based on generative AI as they submit a catalog item request in Virtual Agent. By offering this generative AI experience, your organization can increase self-service and reduce operating costs.
+description: Requesters can use a conversational, generative AI experience to submit catalog item requests in Virtual Agent. This streamlined experience increases self-service and reduces operating costs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-hrsd/use-genai-ec.html
 release: zurich
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
 # Configure Gen AI Virtual Agent for HRSD
 
-Enable your requesters to have a streamlined, conversational experience that is based on generative AI as they submit a catalog item request in Virtual Agent. By offering this generative AI experience, your organization can increase self-service and reduce operating costs.
+Requesters can use a conversational, generative AI experience to submit catalog item requests in Virtual Agent. This streamlined experience increases self-service and reduces operating costs.
 
 ## Before you begin
 

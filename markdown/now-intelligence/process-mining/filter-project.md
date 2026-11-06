@@ -7,9 +7,9 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Analyzing and getting process insights, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Analyzing and getting process insights, Use, Process Mining, Platform Analytics]
 ---
 
 # Filtering project data
@@ -33,8 +33,8 @@ Process Mining has these filtering tools for refining a process map, accessible 
 Filter analyst workbench projects that you create, shared with you or all.
 -   **[Create a filter set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/create-filter-set.md)**  
 Create a filter set to be able to apply your current filter selections to the same process map later.
--   **[Apply a transition filter on an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/node-to-node-conditions.md)**  
-Activity transitions filtering enables you to get closer views of the different routes that records go through.
+-   **[Applying a process step filter on an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/node-to-node-conditions.md)**  
+Process step filtering enables you to get closer views of the different routes that records go through.
 -   **[Apply metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/apply-metrics.md)**  
 Refine your project visualization to show the KPIs and metrics that are more relevant to your process goals.
 -   **[Filtering activities and connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/node-filtering.md)**  

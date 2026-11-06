@@ -7,7 +7,7 @@ release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Universal Request for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -37,15 +37,15 @@ Legal Request Management version 6.1 installs the service set, service set assig
 
 2.  Review and configure the following settings as per your business needs.
 
-<table id="choicetable_bnc_s4k_c5b"><thead><tr><th align="left" id="d588293e105">
+<table id="choicetable_bnc_s4k_c5b"><thead><tr><th align="left" id="d599066e105">
 
 Setting
 
-</th><th align="left" id="d588293e108">
+</th><th align="left" id="d599066e108">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d588293e114">
+</th></tr></thead><tbody><tr><td id="d599066e114">
 
 **Service set**
 
@@ -55,7 +55,7 @@ A service set represents a department in your organization. The service set conf
 
  For more information, see [Create a service set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-create-service-set.md).
 
-</td></tr><tr><td id="d588293e144">
+</td></tr><tr><td id="d599066e144">
 
 **Service for Universal Request**
 
@@ -63,7 +63,7 @@ A service set represents a department in your organization. The service set conf
 
 Register your service name for your service specific table and associate it with a service set \(department\) to use the Universal Request capabilities for a specific service in your organization.For more information, see [Create your service for Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-register-service.md)
 
-</td></tr><tr><td id="d588293e169">
+</td></tr><tr><td id="d599066e169">
 
 **Mapping configuration**
 
@@ -73,7 +73,7 @@ The mapping configuration enables you to configure a target table from the servi
 
  You can update the `LegalUniversalRequest` script include to map additional legal request and universal request fields in addition to the default mapped fields.
 
-</td></tr><tr><td id="d588293e194">
+</td></tr><tr><td id="d599066e194">
 
 **Service set assignment group**
 
@@ -83,7 +83,7 @@ A service set must be assigned an assignment group for automatically routing uni
 
  For more information, see [Assign assignment group to your service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/assign-group-to-service.md).
 
-</td></tr><tr><td id="d588293e219">
+</td></tr><tr><td id="d599066e219">
 
 **State mapping**
 
@@ -93,7 +93,7 @@ The state mapping enables you to map the states of the legal request and the uni
 
  For more information, see [Universal Request state mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-state-mapping.md).
 
-</td></tr><tr><td id="d588293e241">
+</td></tr><tr><td id="d599066e241">
 
 **Transfer Configuration**
 

@@ -7,7 +7,7 @@ release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Collaborate with Docs, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -35,15 +35,15 @@ Role required:
 
 5.  Create a blank page, start with a predefined template, or duplicate a page.
 
-<table id="choicetable_yrn_2mf_zjc"><thead><tr><th align="left" id="d267960e105">
+<table id="choicetable_yrn_2mf_zjc"><thead><tr><th align="left" id="d288458e105">
 
 Goal
 
-</th><th align="left" id="d267960e108">
+</th><th align="left" id="d288458e108">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d267960e114">
+</th></tr></thead><tbody><tr><td id="d288458e114">
 
 **Create a blank page**
 
@@ -51,7 +51,7 @@ Actions
 
 Select **Create page**.
 
-</td></tr><tr><td id="d267960e126">
+</td></tr><tr><td id="d288458e126">
 
 **Create a page from a template**
 
@@ -61,7 +61,7 @@ Select **Create page**.
 2.  In the card for the template that you want to use, select **Use**.
 
 
-</td></tr><tr><td id="d267960e153">
+</td></tr><tr><td id="d288458e153">
 
 **Duplicate a page**
 

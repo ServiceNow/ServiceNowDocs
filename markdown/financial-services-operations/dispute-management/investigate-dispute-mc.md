@@ -7,7 +7,7 @@ release: zurich
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Investigate, Processing a Mastercard dispute, Resolving disputes with Mastercard, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -46,7 +46,7 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
     -   **No**: Don’t pursue chargeback from the merchant. The dispute life-cycle ends and the next task is displayed based on the policy and the task moves to Closed Complete. For more information about tasks related to policy, see [About Financial adjustments in Mastercard disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/financial-adjustments.md).
 8.  Select **Add file** to attach supporting documents to the task.
 
-    **Note:** You must upload a single `.zip` file whenever you submit documents to Mastercard.
+    **Note:** You must upload a single `.zip` file whenever you submit documents to Mastercard. For more information, see [Mastercard document requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/mastercard-image-and-document-requirements.md).
 
 9.  Select **Continue**.
 

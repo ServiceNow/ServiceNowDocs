@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Import enterprise models and assets manually, Bulk import of your enterprise models and assets, Manage enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Import enterprise models and assets manually, Bulk import of your enterprise models and assets, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Download seeded templates for manual bulk imports
@@ -85,6 +85,4 @@ Enter all enterprise model or asset details in the spreadsheet.
 -   **Supported by**
 
 **Note:** The optional **Location full name** field helps verify that assets are linked to the correct location. If you provide values for both the **Location full name** and **Location** fields, and the two values don't match, an error message appears and the import for that specific asset is not processed. Similarly, if the specified location can't be found or if multiple locations are found with the same name, an error message appears and the import for that specific asset is also not processed.
-
-**Parent Topic:**[Manually import enterprise models and assets in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/bulk-import-eam.md)
 

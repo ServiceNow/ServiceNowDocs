@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-integrate-with-fsm.html
 release: zurich
 topic_type: task
-last_updated: "2026-04-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [FSM integration, Integrate, Manufacturing Commercial Operations]
 ---

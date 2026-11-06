@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Create and manage enterprise assets, Manage enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Asset performance reports, Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Monitor enterprise asset performance with Asset KPIs report
@@ -53,5 +53,5 @@ The Asset KPIs report is available for an enterprise asset under the following c
     -   **End**: The date and time when the asset KPI values were last calculated.
     -   **Outages During Interval** tab: A list of outages with details like start and end time of the outage and the duration of the outage. For more details on outage record creation and handling, see [Asset performance reports in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/asset-performance-reports-eam.md).
 
-**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
+**Parent Topic:**[Asset performance reports in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/asset-performance-reports-eam.md)
 

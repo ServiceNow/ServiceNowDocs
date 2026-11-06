@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/retail-industry/rahi-retail-retail-mobile.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Retail]
 ---
@@ -36,8 +36,8 @@ The key features that are available on the home page of the Retail mobile applic
 
 For information on using Retail mobile app, see the following topics:
 
--   [Create a store inquiry case from the Retail mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/rahi-retail-creating-request-mobile.md)
--   [Manage a store inquiry case from the Retail mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/rahi-retail-fulfill-retail-store-service-case-mobile.md)
+-   [Create a store inquiry case from a mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/rahi-retail-creating-request-mobile.md)
+-   [Manage a store inquiry case from a mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/rahi-retail-fulfill-retail-store-service-case-mobile.md)
 
 **Parent Topic:**[Exploring Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/rahi-retail-operations-explore.md)
 

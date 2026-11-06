@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/refreshing\_a\_logik\_connected\_salesforce\_org.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
-reading_time_minutes: 1
+last_updated: "2026-03-12"
+reading_time_minutes: 2
 breadcrumb: [ServiceNow CPQ integration with Salesforce B2B Commerce, ServiceNow CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
 
@@ -18,7 +18,9 @@ When a ServiceNow CPQ connected Salesforce org is refreshed, the database sync b
 
 These ID changes are used for many integration points between the two systems, such as the Refresh Token User Runtime APIs that depend on a User ID, the product, the Pricebook, Pricebook entry sync, and the user access set up for the ServiceNow CPQ Admin.
 
-To complete the ServiceNow CPQ side of the refresh, create a Support case. Provide the following information:
+To complete the ServiceNow CPQ side of the refresh, create a support case by using the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
+
+When you submit the support case, provide the following information:
 
 -   The current ServiceNow CPQ Environment URL
 -   The date the refresh will be performed
@@ -29,12 +31,12 @@ To complete the ServiceNow CPQ side of the refresh, create a Support case. Provi
 -   The SFDC My Domain URL \(if changed\)
 -   The SFDC Usernames for users that will need ServiceNow CPQ Admin access
 -   Whether you want to change the ServiceNow CPQ environment host name, and if so, what it should be
--   The provisioning username with the email address of [provisioning@logik.io](mailto:provisioning@logik.io) and system administrator privileges.
+-   The provisioning username with the email address and system administrator privileges.
 
 Once the environment is refreshed, you will need to:
 
 -   Send the new SFDC org ID
--   Navigate to Salesforce Setup &gt; Custom Settings &gt; Manage Logik tenant and modify the ServiceNow CPQ URLs.
+-   Navigate to Salesforce Setup &gt; Custom Settings &gt; Manage ServiceNow CPQ tenant and modify the ServiceNow CPQ URLs.
 
     Navigate to SFDC &gt; Setup &gt; Custom Settings &gt; Manage ServiceNow CPQ Tenant &gt; Edit, and change the Runtime Configuration URL and Administration URL.
 

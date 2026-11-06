@@ -7,9 +7,9 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [References, Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Licensing rules for BYOL and BYOS
@@ -82,9 +82,9 @@ Shared host
 -   Enough eligible core licenses must be allocated to cover all cores on the virtual machines \(VMs\) that are running.
 -   Each processor license is equivalent to 16 core licenses.
 -   A minimum of eight core licenses are allocated for using AHB.
--   Windows DC enables concurrent or dual use rights.
+-   Windows DC allows concurrent or dual use rights.
 
-**Note:** Microsoft Windows Server Data Center provides the option of dual use rights, enabling you to use your Windows Server licenses simultaneously on Microsoft Azure and on licensed servers within your data centers. Azure Hybrid Benefit is only available on Microsoft Azure. For more information, see [Azure Hybrid Benefit for Windows Server](https://learn.microsoft.com/en-us/windows-server/get-started/azure-hybrid-benefit?tabs=azure).
+**Note:** Microsoft Windows Server Data Center provides the option of dual use rights, enabling you to utilize your Windows Server licenses simultaneously on Microsoft Azure and on licensed servers within your data centers. This feature, Azure Hybrid Benefit is only available on Microsoft Azure. For more information, see [Azure Hybrid Benefit for Windows Server](https://learn.microsoft.com/en-us/windows-server/get-started/azure-hybrid-benefit?tabs=azure).
 
 -   Edition flexibility: Windows Standard can license Windows DC.
 
@@ -378,7 +378,7 @@ Four vCPUs are equivalent to one socket, and one socket requires one license.
 
 The number of vCPUs is rounded up to the nearest multiple of four. For example, an Oracle WebLogic server that is running on seven vCPUs requires a total of two licenses.
 
--   **Oracle WebLogic Server Enterprise Edition**
+-   **Oracle WebLogic Server Enterprise and Suite Edition**
 
 If hyper-threading is enabled, one license is required for every two vCPUs on which you install or run an Oracle WebLogic Server. If hyper-threading isn’t enabled, one license is required for every vCPU on which you install or run an Oracle WebLogic server.
 
@@ -395,7 +395,7 @@ One license is required for every user or physical device that accesses an Oracl
 
 You must have a minimum of either 10 licenses per eight vCPUs or the total number of users and devices that are accessing this WebLogic Server version. The licensing minimum is set to the larger of the two values.
 
--   **Oracle WebLogic Server Enterprise Edition**
+-   **Oracle WebLogic Server Enterprise and Suite Edition**
 
 If hyper-threading is enabled, you must have a minimum of either 10 licenses per two vCPUs or the total number of users and devices that are accessing this WebLogic Server edition.
 

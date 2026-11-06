@@ -1,0 +1,45 @@
+---
+title: SD-WAN Alerts Dashboard
+description: Monitor and analyze SD-WAN network alerts across customers and devices, with views for today's alerts, 30-day alert history, and alert trends over time.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-service-ops/telecommunications-service-operations-management/sd-wan-alerts-dashboard.html
+release: zurich
+product: Telecommunications Service Operations Management
+classification: telecommunications-service-operations-management
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Fault Management: Events and alerts, Telecom Assurance, Explore, Telecommunications Service Operations Management]
+---
+
+# SD-WAN Alerts Dashboard
+
+Monitor and analyze SD-WAN network alerts across customers and devices, with views for today's alerts, 30-day alert history, and alert trends over time.
+
+## Access the SD-WAN Alerts Dashboard
+
+Access the SD-WAN Alerts Dashboard by navigating to **All** &gt; **Platform Analytics &gt; Dashboards** and searching for or selecting SD-WAN Alerts Dashboard. By default, the **Alert Summary** tab is selected.
+
+## Alert Summary
+
+The **Alert Summary** tab provides the capability to filter SD-WAN alert activity by severity, state, customer, or CI.
+
+\[Omitted image "sd-wan-alert-dashboard.png"\] Alt text: SD-WAN Alert Summary tab
+
+|Title|Type|Description|
+|-----|----|-----------|
+|All alerts created today|Bar chart|The number of alerts created today, grouped by CI|
+|All alerts created the last 30 days|Bar chart|The number of alerts created in the last 30 days, grouped by CI|
+|Alert Trends Over Time|Line graph|The trend of alert activity over time|
+
+## Alert Categorization
+
+The **Alert Categorization** tab displays SD-WAN alerts grouped by customer and severity.
+
+\[Omitted image "Events-Dashboard.png"\] Alt text: SD-WAN Alert Categorization
+
+|Title|Type|Description|
+|-----|----|-----------|
+|Alerts per Customer|Donut chart|Distribution of alerts grouped by customer|
+|Alert Severity HeatMap|Heat map|Distribution of alerts by severity \(for example, Critical, Major, Minor, Warning, and Clear\) over time|
+

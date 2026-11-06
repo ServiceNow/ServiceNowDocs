@@ -1,5 +1,5 @@
 ---
-title: HR Service Delivery Advanced Integration with Workday Reference
+title: Reference
 description: Reference topics provide additional information about the HR Service Delivery Advanced Integration with Workday, including lists and forms.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/reference-hr-service-delivery-advanced-integration-with-workday.html
@@ -7,17 +7,19 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [HR Service Delivery Advanced Integration with Workday, Integrate with third-party systems, HR Service Delivery, Employee Service Management]
+breadcrumb: [HR Service Delivery Advanced Integration with Workday, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
-# HR Service Delivery Advanced Integration with Workday Reference
+# Reference
 
 Reference topics provide additional information about the HR Service Delivery Advanced Integration with Workday, including lists and forms.
 
 -   **[Components installed with HR Service Delivery Advanced Integration with Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/installed-with-awd.md)**  
 Several types of components are installed with activation of the HR Service Delivery Advanced Integration with Workday, including tables, user roles, and scheduled jobs.
+-   **[Create connection and credential form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/cereate-connection-and-cred-form.md)**  
+The Create Connection and Credential form enables you to create a connection and credential record for the Workday HR spoke to authorize actions.
 -   **[Subflow-agent mapping for HR Service Delivery Advanced Integration with Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/awd-agent-mapping.md)**  
 View the subflow-agent mapping for HR Service Delivery Advanced Integration with Workday.
 

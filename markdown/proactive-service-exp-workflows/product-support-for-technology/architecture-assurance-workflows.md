@@ -7,9 +7,9 @@ release: zurich
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, Proactive Service Experience Workflows]
+breadcrumb: [Explore, Proactive Service Experience Workflows, Product Support for Technology]
 ---
 
 # Proactive Service Experience Workflows architecture
@@ -58,5 +58,5 @@ The following diagram shows the steps involved in the Proactive Service Experien
 -   **[Enhancing customer impact visibility for PSEW processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/enhance-customer-impact-visibility-psew-process.md)**  
 Use the customer impact tab to reduce navigation time, and enhance tracking and management of PSEW processes. This visibility enables you to quickly assess business impact and take informed actions.
 
-**Parent Topic:**[Exploring the Proactive Service Experience Workflows architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/explore-assurance-workflows.md)
+**Parent Topic:**[Exploring the Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/explore-assurance-workflows.md)
 

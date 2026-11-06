@@ -1,51 +1,45 @@
 ---
 title: IT Service Management release notes
-description: IT Service Management has new and updated features in the Zurich release.
+description: IT Service Management has new and updated features in the Brazil release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/it-service-management-rn-landing.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+breadcrumb: [Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # IT Service Management release notes
 
-IT Service Management has new and updated features in the Zurich release.
+IT Service Management has new and updated features in the Brazil release.
 
+-   **[ServiceNow Otto for IT Service Management \(ITSM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-for-itsm-rn.md)**  
+The ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Brazil release.
 -   **[Change Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/change-management-rn.md)**  
-The ServiceNow® Change Management application provides a systematic approach to control the life cycle of all changes, facilitating beneficial changes to be made with minimum disruption to IT services. Change Management was enhanced and updated in the Zurich release.
--   **[Continual Improvement Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/continual-improvement-management-rn.md)**  
-The ServiceNow® Continual Improvement Management application enables organizations to plan and implement service, process, and function improvements proactively. Continual Improvement Management was enhanced and updated in the Zurich release.
+The ServiceNow® Change Management application provides a systematic approach to control the life cycle of all changes, facilitating beneficial changes to be made with minimum disruption to IT services. See the following sections for release notes by version.
 -   **[DevOps Change Velocity release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/devops-change-velocity-rn.md)**  
-The ServiceNow® DevOps Change Velocity application improves visibility into your DevOps data in a single system, automates and accelerates change processes, and helps you gain insights to measure the performance of your DevOps environment. DevOps Change Velocity was enhanced and updated in the Zurich release.
--   **[Digital End-User Experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/digital-end-user-experience-rn.md)**  
-The ServiceNow® Digital End-User Experience \(DEX\) application is a cloud-based tool providing IT with comprehensive visibility and monitoring for user applications, networks, and devices. The DEX suite helps you resolve device and application issues proactively and provides easy access to self-service options. DEX was enhanced and updated in the Zurich release.
--   **[Digital Portfolio Management \(DPM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/digital-portfolio-management-rn.md)**  
-The ServiceNow® Digital Portfolio Management \(DPM\) enables you to view and manage the full life cycle of your services and applications. DPM was enhanced and updated in the Zurich release.
+The ServiceNow® DevOps Change Velocity application improves visibility into your DevOps data in a single system, automates and accelerates change processes, and helps you gain insights to measure the performance of your DevOps environment. See the following sections for release notes by version.
+-   **[Digital Product Release release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/digital-product-release-rn.md)**  
+ServiceNow® Digital Product Release is a release management solution that helps release managers, product managers, and program managers manage the release process. See the following sections for release notes by version.
+-   **[Employee Slate for ITSM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/itsm-employeeslate-moveworks-rn.md)**  
+The ServiceNow® Employee Slate for ITSM application surfaces active outages and degradations for employees. It also lets employees check in for walk-in IT help or book an appointment. See the following sections for release notes by version.
 -   **[Incident Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/incident-management-rn.md)**  
-The ServiceNow® Incident Management application facilitates you to restore normal service operations while minimizing the impact to business operations and maintaining quality. Incident Management was enhanced and updated in the Zurich release.
+The ServiceNow® Incident Management application helps you to restore normal service operations while minimizing the impact to business operations and maintaining quality. Incident Management was enhanced and updated in the Brazil release. See the following sections for release notes by version.
 -   **[ITSM MCP Server release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/itsm-mcp-server-rn.md)**  
 The ServiceNow® ITSM MCP Server application connects an AI-enabled Model Context Protocol \(MCP\) client application to your ServiceNow environment using the ITSM MCP Server. This connection enables incident and change management for service desk agents and IT managers, and enables requesters to check and manage their own tickets.
 -   **[L1 IT Service Desk AI Specialist release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/l1-it-service-desk-ai-specialist-rn.md)**  
-The ServiceNow® L1 IT Service Desk AI Specialist application is an autonomous worker that investigates and resolves incidents end-to-end without human intervention. It's designed to support high-volume, repeatable L1 incidents enabling a live human agent to handle more complex issues. For incidents that come in as requests, the appropriate request item, such as software access, is proposed. The L1 IT Service Desk AI Specialist is a new application in the Zurich release. See the following sections for release notes by version.
--   **[On-Call Onboarding release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/on-call-onboarding-rn.md)**  
-The ServiceNow® On-Call Onboarding for the On-Call Scheduling app enables you to create schedules for many groups at once.
+The ServiceNow® L1 IT Service Desk AI Specialist application is an autonomous worker that investigates and resolves incidents end-to-end without human intervention. It's designed to support high-volume, repeatable L1 incidents enabling a live human agent to handle more complex issues. For incidents that come in as requests, it proposes the appropriate request item, such as a software access. See the following sections for release notes by version.
 -   **[On-Call Scheduling release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/on-call-scheduling-rn.md)**  
-The ServiceNow® On-Call Scheduling application helps you verify that dedicated support team members are available to resolve issues when they occur. On-Call Scheduling was enhanced and updated in the Zurich release.
+The ServiceNow® On-Call Scheduling application enables you to verify that dedicated support team members are available to resolve issues when they occur. On-Call Scheduling was enhanced and updated in the Brazil release.
+-   **[Process Mining for ITSM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/process-mining-itsm-rn.md)**  
+The ServiceNow® Process Mining for ITSM application helps analysts and process owners quickly analyze and optimize their business processes. See the following sections for release notes by version.
 -   **[Request Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/request-management-rn.md)**  
-The ServiceNow® Request Management application enables catalog items to be requested and fulfilled based on defined flows. Request Management was enhanced and updated in the Zurich release.
--   **[Service Level Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/service-level-management-rn.md)**  
-The ServiceNow® Service Level Management application helps to gather service requirements, and monitor and report the quality and speed of the services provided. Service Level Management was enhanced and updated in the Zurich release.
+The ServiceNow® Request Management application enables catalog items to be requested and fulfilled based on defined flows.. See the following sections for release notes by version.
 -   **[Service Operations Workspace for ITSM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/service-operations-workspace-itsm-rn.md)**  
-The ServiceNow® Service Operations Workspace application is a configurable workspace that provides a unified agent experience for multiple IT Service Management and IT Operations Management capabilities. Service Operations Workspace for IT Service Management was enhanced and updated in the Zurich release.
--   **[ServiceNow Otto for IT Service Management \(ITSM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-for-itsm-rn.md)**  
-The ServiceNow® ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Zurich release.
--   **[Service Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/service-portfolio-management-rn.md)**  
-The ServiceNow® Service Portfolio Management application enables you to plan, design, build, and implement your services, service offerings, and service portfolios. Service Portfolio Management was enhanced and updated in the Zurich release.
--   **[Walk-up Experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/walkup-experience-rn.md)**  
-The ServiceNow® Walk-up Experience application enables you to create and manage an on-site support channel. Walk-up Experience was enhanced and updated in the Zurich release.
+The ServiceNow® Service Operations Workspace \(SOW\) application is a configurable workspace that provides a unified agent experience for multiple IT Service Management and IT Operations Management capabilities. See the following sections for release notes by version.
+-   **[Workforce Optimization for ITSM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/workforce-optimization-for-itsm-rn-2026-09.md)**  
+The ServiceNow® Workforce Optimization for ITSM application helps IT managers automate the management, monitoring, and mentoring of their teams. This application is currently supported for the Brazil release, but it will be deprecated in a future release.
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/new-features-changes.md)
 

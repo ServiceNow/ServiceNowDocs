@@ -7,7 +7,7 @@ release: zurich
 product: Legal Request Management
 classification: legal-request-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Work on a legal request, Managing legal requests, Use, Legal Request Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -26,15 +26,15 @@ Role required: approver\_user and legal\_user
 
 1.  Open the approval record from the email notification, Legal Counsel Center, Self-Service, or Employee Center portal.
 
-<table id="choicetable_ix4_gbl_trb"><thead><tr><th align="left" id="d454885e59">
+<table id="choicetable_ix4_gbl_trb"><thead><tr><th align="left" id="d462017e59">
 
 Options
 
-</th><th align="left" id="d454885e62">
+</th><th align="left" id="d462017e62">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d454885e68">
+</th></tr></thead><tbody><tr><td id="d462017e68">
 
 **From the email notification**
 
@@ -42,7 +42,7 @@ Steps
 
 Click the link in the email to open the record that needs approval.
 
-</td></tr><tr><td id="d454885e77">
+</td></tr><tr><td id="d462017e77">
 
 **From Legal Counsel Center**
 
@@ -56,7 +56,7 @@ Click the link in the email to open the record that needs approval.
 4.  In the Items Pending Approval list, click a record to open for approval.
 
 
-</td></tr><tr><td id="d454885e138">
+</td></tr><tr><td id="d462017e138">
 
 **From Self-Service**
 
@@ -66,7 +66,7 @@ Click the link in the email to open the record that needs approval.
 2.  In the My Approvals list, click a record to open for approval.
 
 
-</td></tr><tr><td id="d454885e168">
+</td></tr><tr><td id="d462017e168">
 
 **From Employee Center**
 

@@ -7,9 +7,9 @@ release: zurich
 product: Agent Chat
 classification: agent-chat
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Exploring Agent Chat, Agent Chat, Conversational Interfaces]
+breadcrumb: [Explore, Agent Chat, Conversational Interfaces]
 ---
 
 # Chat surveys
@@ -19,6 +19,8 @@ Display conversational questionnaires to your end users to gather important info
 ## How chat surveys work
 
 Instead of using forms to collect information from your requesters, you can create different questionnaires that run in the chat client to capture preliminary user information or post-chat feedback. The questions in the following pre-chat survey example ask users to identify their service issue and to provide additional details.
+
+\[Omitted image "pre-chat-survey-example.png"\] Alt text: Web chat client with pre-chat surveys highlighted.
 
 Survey administrators and administrators use [Survey Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/c_SurveyDesigner.md) to:
 
@@ -37,6 +39,8 @@ You can also turn pre-chat surveys on and off specifically for Now Assist Self S
 
 Setting up chat surveys involves these main steps:
 
+\[Omitted image "survey-implementation-steps.png"\] Alt text: Infographic describing steps for setting up pre-chat and post-chat conversational surveys.
+
 -   **[1. \(Optional\) Define chat context.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/ac-configure-context-variables.md)**
 
     Configure the chat context variables for storing survey responses using **Context Variables** in Chat Settings.
@@ -49,7 +53,7 @@ Setting up chat surveys involves these main steps:
 
     Determine the pre-chat questionnaire to be presented to your requesters based on conditions that you apply.
 
--   **[4. Define post-chat survey configurations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/define-post-chat-survey-config.md)**
+-   **[4. Define post-chat survey configurations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/define-post-chat-survey-config.md)**
 
     Control the post-chat questionnaire displayed to your requesters to gather feedback on their experience with live agents.
 

@@ -1,20 +1,20 @@
 ---
 title: Set up a triage board in Agile Development 2.0
-description: Set up your own triage board to view and manage records that are important to your product in one place. These records include problems, incident tasks, defects, and change requests.
+description: Set up your own triage board to view and manage records that are important to your product. These records include problems, incident tasks, defects, or change requests, viewable at one place easily.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/agile-development/setup-triage-board.html
 release: zurich
 product: Agile Development
 classification: agile-development
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Managing your product development using Agile Development 2.0, Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
 
 # Set up a triage board in Agile Development 2.0
 
-Set up your own triage board to view and manage records that are important to your product in one place. These records include problems, incident tasks, defects, and change requests.
+Set up your own triage board to view and manage records that are important to your product. These records include problems, incident tasks, defects, or change requests, viewable at one place easily.
 
 ## Before you begin
 
@@ -104,7 +104,7 @@ A triage board is created and can be accessed from the Backlog section of the Ag
 
 -   [Triage items and add them to a backlog in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/add-triage-board-items-to-backlog-agile-development-2.md)
 
-**Parent Topic:**[Using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/using-agile-development-2-0.md)
+**Parent Topic:**[Managing your product development using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/using-agile-development-2-0.md)
 
 **Related topics**  
 

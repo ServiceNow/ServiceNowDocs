@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/classify-tasks.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-28"
+last_updated: "2026-10-27"
 reading_time_minutes: 8
-breadcrumb: [Platform agentic workflows, Agentic workflows, AI assets, Enable AI experiences]
+breadcrumb: [Platform agentic workflows, Agentic workflows, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Platform Classify tasks agentic workflow
@@ -177,7 +177,13 @@ Options include Record-based and Utterance-based. Record-based derives search te
 </td></tr></tbody>
 </table>## Accessing the Classify tasks agentic workflow
 
-To access the agentic workflow:
+To access the agentic workflow in AI Agent Studio:
+
+1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Agentic Solutions**.
+2.  Select the **Agentic workflows** tab.
+3.  Select **Classify tasks**.
+
+To access the agentic workflow in the legacy AI Agent Studio:
 
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 2.  Select **Classify tasks**.

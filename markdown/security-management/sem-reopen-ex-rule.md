@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sem-reopen-ex-rule.html
 release: zurich
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Configuring an exception rule, Configure rules to manage findings, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -34,6 +34,4 @@ You can then update and resubmit the rule for approval.
 
 5.  Update the form and resubmit it for approval.
 
-
-**Parent Topic:**[Configuring an exception rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-configure-exception-rule.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Service Provider \(SP\) system properties, SAML, Multi-Provider single sign-on \(SSO\), Access Management]
+breadcrumb: [Service Provider \(SP\) system properties, SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---
 
 # \(Optional\) Enable providing an authentication context class for SAML
@@ -18,7 +18,7 @@ You can enable the instance to send an authentication context class request to t
 
 ## Before you begin
 
-Role required: admin
+Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
 
 ## About this task
 

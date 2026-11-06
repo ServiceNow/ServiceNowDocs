@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/deal-registration-management.html
 release: zurich
 topic_type: concept
-last_updated: "2026-10-09"
-reading_time_minutes: 5
-breadcrumb: [Partner Relationship Management, Configure, Sales Customer Relationship Management]
+last_updated: "2026-11-06"
+reading_time_minutes: 4
+breadcrumb: [Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
 
 # Deal Registration
@@ -63,7 +63,7 @@ Deal registrations and deal registration line items help to manage and track the
 
 Deal registration approvals provide a configurable workflow to verify that deals are reviewed and approved by the appropriate team members.
 
-Deal registration approvals use the  framework to create multi-step, configurable approval chains. This framework lets you define when approvals are required and who must approve at each step.
+Deal registration approvals use the [Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-advanced-approval-for-sales.md) framework to create multi-step, configurable approval chains. This framework lets you define when approvals are required and who must approve at each step.
 
 The approval process has two layers: configuration and runtime. During configuration, an administrator sets up approval configurations, trigger conditions \(when approvals are needed\), approval rules \(who approves\), and approval chains \(the sequence of approvers\). At runtime, users submit deals for approval, and the system routes approval requests to the appropriate approvers based on the configuration.
 
@@ -94,19 +94,13 @@ Key task concepts:
 Install the plugin \(com.snc.deal\_registration\_management\), along with the demo data and installations that are related to ServiceNow® Store applications and plugins.
 -   **[Data model for Deal Registration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/data-model-for-deal-registration-management.md)**  
 The deal registration management data model provides a framework for channel partners to establish a consistent and organized engagement model with channel partners.
--   **[Roles and components of Deal Registration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/roles-and-components-of-deal-registration-management.md)**  
-The Deal Registration Management application \(com.snc.deal\_registration\_management\) uses roles to provide access to information, identify internal and external users, and maintain data security.
--   **[Deal registration approvals and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/deal-registration-approvals-and-tasks-overview.md)**  
-Deal registration approvals enable multi-step, configurable approval chains for deal records, while deal registration tasks let you manage work directly on deals without external task systems.
--   **[Deal registration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/deal-registration-tasks.md)**  
-Create and manage tasks associated with a deal registration to organize work, track progress, and delegate deal-related activities.
 
 **Parent Topic:**[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-partner-relationship-management.md)
 
 **Related topics**  
 
 
-[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/partner-relationship-management.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/partner-relationship-management.md)
 
-[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-partner-relationship-management.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-partner-relationship-management.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Working with Space Optimization, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -24,6 +24,8 @@ After publishing a scenario plan, deploy the scenario on your production.
 -   Make sure that the scenario is assigned to you. You can only deploy scenarios that you own.
 
 **Important:** If allocation changes in your instance impact the scenario, the system displays a warning on the Space Details panel. You must review the changes, edit the scenario accordingly, then select **Move to valid** before continuing. For more information about allocation changes, see [Reviewing allocation changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-space-management/reviewing-allocation-changes.md).
+
+\[Omitted image "wsd-central-review-changes.png"\] Alt text: Space details panel displaying a warning about reviewing allocation changes.
 
 Role required: sn\_wsd\_spcmgmt.space\_planner
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-household-contracts.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring households, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_customerservice\_manager, admin
 
 ## About this task
 
-System administrators and customer service managers can create contracts for a household. These contracts apply to the current members of that household.
+Administrators and customer service managers can create contracts for a household. These contracts apply to the current members of that household.
 
 When a case is created for a household or a consumer, the **Contract** field on the Case form lists the available contracts:
 
@@ -32,13 +32,13 @@ When a case is created for a household or a consumer, the **Contract** field on 
 
 1.  Navigate to **All** &gt; **Customer Service** &gt; **Contracts** &gt; **Service Contracts**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  Select a household in the **Household** field.
 
     When you select a household, the head of household is automatically added to the **Consumer** field.
 
-    **Note:** You may need to configure the form layout and add the **Household** field.
+    **Note:** You must configure the form layout and add the **Household** field.
 
 4.  If desired, select a different household member in the **Consumer** field.
 
@@ -46,7 +46,7 @@ When a case is created for a household or a consumer, the **Contract** field on 
 
     For more information, see [Create service contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-csm-service-contracts.md).
 
-6.  Click **Submit**.
+6.  Select **Submit**.
 
     The contract is added to the Contracts related list on the Household form.
 

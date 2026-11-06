@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/r\_PushNotificationProperties.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Push notifications, System notifications, Notifications, Configure core features, Administer]
+breadcrumb: [Push notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Push notification properties
@@ -55,6 +55,8 @@ Add these properties to the System Properties \[sys\_properties\] table.
 [Push notification system]()
 
 [Activate push notifications]()
+
+[Enable push notifications for logged-out users]()
 
 [Installed with push notifications]()
 

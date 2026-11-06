@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/activate-entitlements-sb-consumer.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Service Exchange Order Management for Providers, Order Management for providers with Service Exchange, Integrate, Sales Customer Relationship Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_sb.admin or admin
 
 ## Procedure
 
-1.  In the consumer instance, navigate to **All** &gt; **Service Bridge Consumer** &gt; **Provider Connections**.
+1.  In the consumer instance, navigate to **All** &gt; **Service Exchange Consumer** &gt; **Provider Connections**.
 
 2.  Select the Number link to navigate to the Provider connection record.
 

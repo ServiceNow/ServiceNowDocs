@@ -1,24 +1,24 @@
 ---
 title: Define trigger conditions
-description: Define trigger conditions that start a sequence by configuring simple triggers or combining multiple triggers for initiating workflows from multiple record-based events.
+description: Define trigger conditions that start a sequence by configuring simple triggers, or combining multiple triggers for initiating workflows from multiple record-based events.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/define-trigger-conditions.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create sequences, Customer Engagement Sequences, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Create sequences, Customer Engagement Sequences, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Define trigger conditions
 
-Define trigger conditions that start a sequence by configuring simple triggers or combining multiple triggers for initiating workflows from multiple record-based events.
+Define trigger conditions that start a sequence by configuring simple triggers, or combining multiple triggers for initiating workflows from multiple record-based events.
 
 ## Before you begin
 
-**Note:** Multi-trigger capability is available only with at least Playbooks version 28.1 on the Zurich release. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/process-automation-designer-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/process-automation-designer-rn.md).
+**Note:** Multi-trigger capability is available only with Playbooks versions 28.1 and higher on the Zurich release. For more information, see [Playbooks in Workflow Studio release notes](https://www.servicenow.com/docs/r/zurich/release-notes/process-automation-designer-rn.html).
 
-Delegated developer roles must be assigned to designated users. For more information, see [Grant delegated developer permissions for managing sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/grant-delegated-developer-permissions.md).
+Assign delegated developer roles to designated users. For more information, see [Grant delegated developer permissions for managing sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/grant-delegated-developer-permissions.md).
 
 Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
@@ -26,7 +26,7 @@ Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -36,12 +36,12 @@ Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
 5.  On the left sidebar, select the Triggers icon \[Omitted image "triggers-icon.png"\] Alt text:.
 
-6.  Select an option that indicates when the playbook should run from the **Add trigger** drop-down list.
+6.  Select an option that indicates when the playbook should run from the to**Add trigger** drop-down list.
 
     The available options are:
 
     -   When record is created
-    -   When record is updated
+    -   When record is update
     -   When record is created or updated
 7.  In the **Conditions** field, add conditions that must be met to trigger your playbook.
 
@@ -51,16 +51,16 @@ Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
 8.  Select **Save and close**.
 
-9.  Create a multi-trigger sequence by selecting **Add triggers** from the Triggers pane and repeating the steps of defining the trigger conditions.
+9.  To create a multi-trigger sequence, select **Add triggers** from the Triggers pane and repeat the steps of defining the trigger conditions.
 
-    When adding additional triggers, if you select a child table or any other table from the **Trigger table** field, you must use the data pill picker to select the parent record.
+    When adding additional triggers, if you select a child table or any other table from the **Trigger table** field, then you must use the data pill picker to select the parent record.
 
     **Tip:** You can add up to 10 triggers.
 
 
 ## Result
 
-The new triggers appear in the Record based triggers section of the Triggers pane.
+The triggers that you've created appear under the Record based triggers section on the Triggers pane.
 
 **Parent Topic:**[Create a customer engagement sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/create-customer-engagement-sequence.md)
 

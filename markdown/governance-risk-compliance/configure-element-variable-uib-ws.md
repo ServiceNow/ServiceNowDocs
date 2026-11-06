@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/configure-element-variable-uib-ws.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [General administration setup for BCM, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -35,6 +35,8 @@ Element variables are custom elements that are used in the Grid configuration. A
 3.  On the form, fill in the fields.
 
     For more information on the fields in the form, see [Element variable record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/element-variable-record-form.md).
+
+    For example, select `Database servers` in the **Element definition** field, enter `Backup window` in the **Question** field, and set **Type** to `Single-line text`.
 
 4.  Select **Submit**.
 

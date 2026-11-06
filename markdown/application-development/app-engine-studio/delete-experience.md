@@ -7,9 +7,9 @@ release: zurich
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Editing an experience, Add an experience, Enhance your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Editing an experience, Add an experience, Enhance your app, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Delete an experience
@@ -18,7 +18,7 @@ Delete an experience, such as a portal or record producer form, that you no long
 
 ## Before you begin
 
-Role required: sn\_app\_eng\_studio.user, sn\_app\_eng\_studio.admin, or delegated\_developer. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## Procedure
 

@@ -7,8 +7,9 @@ release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [system features, health alerts, core components, service map, configuration items, feature settings, system health monitoring, component model, feature activation, health status]
 breadcrumb: [Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 

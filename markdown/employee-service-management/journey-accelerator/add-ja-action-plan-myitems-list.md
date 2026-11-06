@@ -1,20 +1,20 @@
 ---
-title: Add a Journey Accelerator action plan to My active items
-description: Add a menu item for Journey Accelerator action plans to My active items in the Employee Center.
+title: Add a Journey Accelerator action plan link to My Active Items list
+description: Add a menu item for Journey Accelerator action plans to the header menus in the Employee Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-accelerator/add-ja-action-plan-myitems-list.html
 release: zurich
 product: Journey Accelerator
 classification: journey-accelerator
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure action plan access in the Employee Center, Configure, Journey Accelerator, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
-# Add a Journey Accelerator action plan to My active items
+# Add a Journey Accelerator action plan link to My Active Items list
 
-Add a menu item for Journey Accelerator action plans to My active items in the Employee Center.
+Add a menu item for Journey Accelerator action plans to the header menus in the Employee Center.
 
 ## Before you begin
 

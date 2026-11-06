@@ -1,20 +1,20 @@
 ---
 title: Monitoring Technology Dashboard for AWS
-description: With the AWS Monitoring Technology Dashboard, you can monitor the health and performance of your AWS infrastructure. You can identify the CIs and servers with the highest metric readouts. You can also view the most recent active alerts on those CIs and servers.
+description: With the AWS Monitoring Technology Dashboard, you can monitor the health and performance of your AWS infrastructure. Identify the configuration items \(CIs\) and servers with the highest metric readouts. View the most recent active alerts on those CIs and servers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/monitor-tech-dashboard-aws.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Understanding the Monitoring Technology Dashboard, ACC deployment - endpoints, Agent Client Collector, IT Operations Management]
+breadcrumb: [Understanding the Monitoring Technology Dashboard, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Monitoring Technology Dashboard for AWS
 
-With the AWS Monitoring Technology Dashboard, you can monitor the health and performance of your AWS infrastructure. You can identify the CIs and servers with the highest metric readouts. You can also view the most recent active alerts on those CIs and servers.
+With the AWS Monitoring Technology Dashboard, you can monitor the health and performance of your AWS infrastructure. Identify the configuration items \(CIs\) and servers with the highest metric readouts. View the most recent active alerts on those CIs and servers.
 
 ## Overview of the dashboard
 
@@ -61,4 +61,6 @@ Use the **Time range filter** to filter the time range for which you want metric
 Use the **Metrics by selected CI filter** to select the CIs for which you want to view metrics.
 
 You can customize the appearance of the individual widgets on the AWS Monitoring Technology Dashboard. For example, you could change the time that the EC2 metrics appear. You can also include the customized widgets when you are creating a custom dashboard. For more information, see [Customize the Monitoring Technology Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/customize-dashboard-widgets.md).
+
+**Parent Topic:**[Understanding the Monitoring Technology Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/monitor-tech-dashboard-concept.md)
 

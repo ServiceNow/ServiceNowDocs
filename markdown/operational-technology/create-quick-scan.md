@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/create-quick-scan.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Auto Query page, Using the Discovery Console, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Auto Query page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Create a Quick Scan
@@ -28,7 +28,7 @@ A Quick Scan has fewer options to choose from, but it also runs quickly at appro
 
 2.  Select the **Action** button.
 
-    \[Omitted image "image.action-button-quick-scan"\] Alt text: Quick Scans
+    \[Omitted image "action-button-quick-scan.png"\] Alt text: Quick Scans
 
 3.  From the Action drop-down menu, select **Quick Scans**.
 
@@ -57,6 +57,8 @@ A Quick Scan has fewer options to choose from, but it also runs quickly at appro
 
     On the Confirmation page, a warning is displayed.
 
-    \[Omitted image "image.quick-scan-warning"\] Alt text: Confirmation warning
+    \[Omitted image "quick-scan-warning.png"\] Alt text: Confirmation warning
 
+
+**Parent Topic:**[Auto Query page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/auto-query-console.md)
 

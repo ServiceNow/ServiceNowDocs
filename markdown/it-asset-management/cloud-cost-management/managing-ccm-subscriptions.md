@@ -7,9 +7,9 @@ release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: concept
-last_updated: "2026-03-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Manage Cloud Cost Management subscriptions
@@ -18,7 +18,7 @@ Reduce your licensing costs by choosing only the Cloud Cost Management Resource 
 
 **Note:** Starting with the Australia release, subscription in only past 30 days are counted as managed by the Cloud Cost Management application.
 
-The Cloud Cost Management application uses Subscription Units to calculate the cost of resource categories that you use. A Subscription Unit is a unit of measure applied to Managed IT Resources using Defined Ratios. A Subscription Unit allows for a single unit price to be applied via ratios to different IT resource types to reflect varying customer value. Virtual Machines, databases, and storage volumes that are discovered as part of the billing download in the past 90 days are counted as managed by the Cloud Cost Management application.
+The Cloud Cost Management application uses Subscription Units to calculate the cost of resource categories that you use. A Subscription Unit is a unit of measure applied to Managed IT Resources using Defined Ratios. A Subscription Unit allows for a single unit price to be applied via ratios to different IT resource types to reflect varying customer value. Virtual Machines, databases, and storage volumes that are discovered as part of the billing download in the past 30 days are counted as managed by the Cloud Cost Management application.
 
 For further information on managed IT resources and Subscription Unit ratios, see [Subscription Unit Overview for Cloud Cost Management](https://www.servicenow.com/products/entitlements-packages.html).
 

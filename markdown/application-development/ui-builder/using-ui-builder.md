@@ -7,9 +7,9 @@ release: zurich
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Working in UI Builder
@@ -36,8 +36,8 @@ Themes enable you to change the visual style of your UI Builder experiences so t
 UI Builder provides real-time collaboration tools and user presence indicators for more efficient and intuitive UI development.
 -   **[Find and fix issues in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/builder-assistant.md)**  
 UI Builder can help identify common configuration issues and guidance on how to fix them.
--   **[Getting help with the Now Assist panel in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/uib-now-assist-panel.md)**  
-Get Now Assist's AI-driven guidance while working in UI Builder.
+-   **[How to use the Now Assist panel in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/uib-now-assist-panel.md)**  
+Use the Now Assist panel in UI Builder to request guidance, streamline page building, and better understand the content on your pages.
 
 **Parent Topic:**[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/ui-builder-overview.md)
 

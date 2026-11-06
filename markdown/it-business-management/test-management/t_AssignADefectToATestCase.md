@@ -7,7 +7,7 @@ release: zurich
 product: Test Management
 classification: test-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Test Management 1.0, Test Management applications, Strategic Portfolio Management]
 ---
@@ -18,17 +18,14 @@ Assign an existing defect to a test case to track the relationship between defec
 
 ## Before you begin
 
--   [Activate Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/activate-agile-development.md)
-
-    The ability to assign a defect is available only if the Agile Development 2.0 plugin is activated.
-
+-   The ability to assign a defect is available only if the Agile Development 2.0 plugin is activated.
 -   A defect record must exist in your instance. If no defect exists, create one first. For more information, see [Report a defect from a failed test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/t_ReportADefectFromAFailedTest.md).
 -   Perform tests and update the test status. For more information, see [Performing tests and updating the test status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/c_Tester.md).
 -   Role required: tm\_tester
 
 ## About this task
 
-When you link a defect to a test case, a reference to the defect is added to both the test case and its test plan.
+When you link a defect to a test case, a reference to the defect is added to the test case and the test plan of this test case.
 
 ## Procedure
 

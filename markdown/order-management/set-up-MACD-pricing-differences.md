@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/set-up-MACD-pricing-differences.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing the price basis for MACD products, Pricing Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Managing the price basis for MACD products, Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create rules for calculating pricing of sold products with MACD changes

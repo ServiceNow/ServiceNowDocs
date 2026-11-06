@@ -18,7 +18,7 @@ Use the playbook in SGC Central to set up the Service Graph Connector for Tanium
 
 ## Before you begin
 
-Install Service Graph Connector for Tanium Atlas from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_InstallApplications.md).
+Install Service Graph Connector for Tanium Atlas from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/installing-applications-in-application-manager.md).
 
 ## About this task
 

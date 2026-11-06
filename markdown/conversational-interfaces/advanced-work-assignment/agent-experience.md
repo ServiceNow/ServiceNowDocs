@@ -7,7 +7,7 @@ release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -18,10 +18,13 @@ Control certain elements of the agent experience in Agent Workspace. Define the 
 
 ## Agent presence states
 
+
+
+\[Omitted image "agent-availability.png"\] Alt text: Agent Workspace inbox availability states.
+
 AWA admins can define the presence states that agents choose in their inbox to indicate their availability. The default states are
 
 -   Available: Solid green bubble indicates that the agent is available to receive work.
--   s
 -   Away: Solid yellow bubble indicates that the agent is not available to receive work.
 -   Offline: Solid grey bubble indicates that the agent is not available to receive work.
 
@@ -33,6 +36,4 @@ AWA developers with the awa\_integration\_user role can also use JavaScript or R
 ## Agent rejection controls
 
 AWA admins can give agents the option to reject work assignments and specify the reason for rejecting it. The **Reject** button displays on work assignment cards. When an agent rejects an assignment, a pop-up window enables the agent to select a reason for declining the work item.
-
-**Parent Topic:**[Exploring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-overview.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Indicator vs Table data source selection
-description: After you submit a query to AI Data Explorer, the system checks the query for specific keywords that indicator whether to use table or indicator data. If there are no such keywords, it falls back on a default set in a system property.
+description: After you submit a query to AI Data Explorer, the system checks the query for specific keywords that indicate whether to use table or indicator data. If there are no such keywords, it falls back on a default set in a system property.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/indicator-vs-table-data-source-selection.html
 release: zurich
@@ -13,9 +13,9 @@ breadcrumb: [Questions and responses in an exploration, Use, AI Data Explorer, S
 
 # Indicator vs Table data source selection
 
-After you submit a query to AI Data Explorer, the system checks the query for specific keywords that indicator whether to use table or indicator data. If there are no such keywords, it falls back on a default set in a system property.
+After you submit a query to AI Data Explorer, the system checks the query for specific keywords that indicate whether to use table or indicator data. If there are no such keywords, it falls back on a default set in a system property.
 
-Tables on the ServiceNow AI Platform® contain current data. To view trends in this data over time, you need an [indicator \(KPI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md). Indicators are calculated from table values that are collected over time.
+Tables on the ServiceNow AI Platform® contain current data. To view trends in this data over time, you need an [indicator \(KPI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md). Indicators are calculated from table values that are collected over time. They may be calculated directly from table data or from other indicators in a formula.
 
 **Important:** AI Data Explorer supports [automated indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md)and [formula indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md). It does not support manual or external indicators, [targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md), [thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md), or [forecasts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md). Benchmarking indicators are excluded from indicator search results, whether the benchmarking indicator is itself automated or is a contributor within a formula indicator.
 

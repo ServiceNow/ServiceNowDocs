@@ -7,9 +7,9 @@ release: zurich
 product: Collaboration Services
 classification: collaboration-services
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Add a collaborative communication task, Process flow for Slack communication, Explore, Collaboration services, IT Service Management]
+breadcrumb: [Add a collaborative communication task, Process flow for Slack communication, Collaboration services, IT Service Management]
 ---
 
 # Create a Slack channel for a collaborative communication task
@@ -55,6 +55,4 @@ Role required: major\_incident\_manager
 
     For more information on how to import messages, see [import-messages-from-incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/collaboration-services/import-messages-from-incident.md).
 
-
-**Parent Topic:**[Add a collaborative communication task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/collaboration-services/add-collaborate-task.md)
 

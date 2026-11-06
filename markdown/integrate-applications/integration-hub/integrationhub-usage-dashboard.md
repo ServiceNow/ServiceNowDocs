@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Integration Hub, Workflow Data Fabric]
 ---
@@ -17,6 +17,8 @@ breadcrumb: [Configure, Integration Hub, Workflow Data Fabric]
 Get insights on the usage of Integration Hub data from the Integration Hub Usage Dashboard. For example, view the average number of monthly transactions in the last year or the data egress from Integration Hub via REST and SOAP API protocols.
 
 The Integration Hub Usage Dashboard gives insights in the form of reports. Access to the dashboard is role-based. The reports are available under various sections in the **Transactions** and **Data Egress** tabs. You can customize the data that you want to view by using filters or drilling down reports.
+
+**Note:** The Integration Hub Usage Dashboard provides reports of usage by protocol. For more information about the service accounts contributing to each protocol, see [Monitor inbound API integration usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/inbound-api-integration-usage-dashboard.md).
 
 \[Omitted image "ih-dashboard-layout.png"\] Alt text: Integration Hub Dashboard elements and layout.
 

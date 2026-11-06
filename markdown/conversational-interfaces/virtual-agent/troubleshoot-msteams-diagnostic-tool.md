@@ -7,10 +7,10 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Microsoft Teams, MSTeams, Conversational Interfaces, Diagnostic tool, health report]
-breadcrumb: [VA feature support in Teams conversations, Conversational Integration with Microsoft Teams, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [VA feature support in Teams conversations, Microsoft Teams, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Capture common errors and provide resolution steps for Microsoft Teams using the Conversational Interfaces Diagnostic Tool
@@ -61,7 +61,7 @@ Resolving errors using the CI Diagnostic Tool includes the following steps:
     -   Dependant plugins are available
     -   OIDC token verification records are available
     -   Provider reference is missing in the \[sys\_cs\_provider\_application\] table
-    After successful health check scan, verifications such as recent installation errors, recent syslog errors, and recent HTTP transactions are presented to the user.
+    After successful health check scan, verifications such as recent installation errors, recent syslog errors, and recent HTTP transactions are presented to the user.\[Omitted image "msteams-health-check-diagnostic-tool.png"\] Alt text: Microsoft Teams health check in Now Support using Diagnostic tool.
 
 4.  The health check report also provides you with an option to view existing Knowledge Base articles that may be associated with your issue. Enter **Yes** and provide a few words to describe your issue.
 
@@ -71,7 +71,7 @@ Resolving errors using the CI Diagnostic Tool includes the following steps:
 
 5.  The CI Diagnostic Tool provides you with an additional support topic available for the Microsoft Teams plugin. Select **Yes** to proceed.
 
-    You are presented with the following issue types to select from.
+    You are presented with the following issue types to select from.\[Omitted image "msteams-troubleshoot-type.png"\] Alt text: Virtual Agent chat window showing diagnostic support and issue type selection for the Microsoft Teams plugin.
 
     For example, if you select any one of the issue types, the CI Diagnostic Tool provides you with the resolution steps pertaining to that issue type to identify the cause of the issue and to resolve it. You will also be presented with the relevant Knowledge Base articles to get further details about the issue.
 

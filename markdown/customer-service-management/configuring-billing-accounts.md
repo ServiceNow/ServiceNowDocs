@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configuring-billing-accounts.html
 release: zurich
 topic_type: concept
-last_updated: "2026-10-09"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Customer data, Set up your environment, Configure, Customer Service Management]
 ---
 
@@ -56,6 +56,10 @@ Use billing accounts when your organization needs to:
 
 **Related topics**  
 
+
+[Billing account data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/billing-account-data-model.md)
+
+[Customer Data Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-data-foundation.md)
 
 [Data management for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-data-management.md)
 

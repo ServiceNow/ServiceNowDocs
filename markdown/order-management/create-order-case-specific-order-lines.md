@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/create-order-case-specific-order-lines.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Business Portal, Use, Sales Customer Relationship Management]
+breadcrumb: [Order case self-service, Business Portal, Use, Sales Customer Relationship Management]
 ---
 
 # Request updates for items in a single order
@@ -125,4 +125,13 @@ Optional brief description.
 ## Result
 
 The order case is created with the order case line items corresponding to the order line items you updated, and the state of the order case changes to New.
+
+**Parent Topic:**[Order case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-case-self-service.md)
+
+**Related topics**  
+
+
+[Configuring the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-management-configure-business-portal.md)
+
+[Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-self-service-business-portal.md)
 

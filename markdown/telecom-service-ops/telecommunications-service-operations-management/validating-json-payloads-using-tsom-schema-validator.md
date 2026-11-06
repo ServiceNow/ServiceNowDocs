@@ -7,7 +7,7 @@ release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Telecommunications Service Operations Management]
 ---
@@ -105,7 +105,7 @@ Example Output
 **Related topics**  
 
 
-[Configuring the Telecom Discovery Builder framework ETL in a connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/configuring-the-telco-generic-schema-etl.md)
+[Configure the Telecom Discovery Builder ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/configuring-the-telco-generic-schema-etl.md)
 
 [Telecom Discovery Builder framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/exploring-the-telco-generic-schema-etl-framework.md)
 

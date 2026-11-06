@@ -1,59 +1,95 @@
 ---
-title: Retail applications release notes
-description: The ServiceNow retail applications optimize operations efficiently at retail locations. Retail applications were enhanced and updated in the Zurich release.
+title: Retail release notes
+description: The ServiceNow retail applications streamline frontline operations and customer experiences. See the following sections for release notes by version.Store associates and managers can view and act on the Strategic Portfolio Management project work behind a store opening, closing, renovation, or relocation without leaving Retail.Store staff can find their store and devices and raise, track, and update break-fix and store inquiry cases directly from their AI assistant with the new Retail MCP Server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/retail-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+last_updated: "2026-10-05"
+reading_time_minutes: 4
+keywords: [SPM-RO Better Together, OCRR, App SPM Retail, Retail MCP Server, MCP, Model Context Protocol, AI assistant, break-fix, store inquiry]
+breadcrumb: [Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
-# Retail applications release notes
+# Retail release notes
 
-The ServiceNow® retail applications optimize operations efficiently at retail locations. Retail applications were enhanced and updated in the Zurich release.
+The ServiceNow® retail applications streamline frontline operations and customer experiences. See the following sections for release notes by version.
 
-## About Retail applications
+## About Retail
 
--   Use the store inquiry AI agent to help retail store support agents quickly find clear, traceable answers, flag uncertain cases for human review, and benefit from tailored suggestions that improve with every resolved inquiry.
--   Simplify frontline staff access for faster response times and improved accuracy with the Retail Mobile application.
--   Initiate and coordinate large-scale actions across multiple stores with the HQ Communications case type.
--   Standardize the reporting, tracking, and resolution of in-store issues with the Retail In-store Operations case type.
--   Resolve customer complaints quickly and accurately with the Retail Customer Complaint case type.
--   Bridge the gap between stores and HQ with an intuitive request and support system using the Store Inquiry case type for stores.
+-   Enable HQ users and regional managers to create operational store plans involving cases and tasks for multiple stores through a guided, streamlined user experience.
+-   Schedule and manage recurring tasks such as daily store opening procedures with parent cases for store-level tracking.
+-   Fulfillment of store case and task for regional managers and store teams through Retail mobile app.
+-   Let store associates and managers view and act on the Strategic Portfolio Management project work behind a store opening, closing, renovation, or relocation, without leaving the Retail application.
+-   Let store staff raise, track, and update break-fix and store inquiry cases from their AI assistant using the Retail MCP Server.
 
 See [Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/retail-industry/rahi-retail-operations-overview.md) for more information.
 
+-   **[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/c_CustomerServiceManagement.md)**
+
+    The ServiceNow ® Customer Service Management \(CSM\) application provides the foundation for the Retail Core application. Leverage the functionality of CSM applications to provide support to customers as well as retail sites.
+
+-   **[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/field-service-management/fsm-application-landing-page.md)**
+
+    The ServiceNow ® Field Service Management application aligns with Retail Core by providing capabilities such as work orders for use by each retail location that uses the Retail Core application.
+
+
 ## Activation and other requirements
 
-**Important:** Retail applications are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Important:** Retail is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 -   **Activation information**
 
-    Install the Retail applications by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Install the Retail applications by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
--   **Upgrade information**
-
-    Starting with this release onwards, the retail base case has been made abstract. \(An abstract case or abstract case type is a base configuration of a case that is intended to be extended by specialized case types rather than used directly.\) After upgrading to the Zurich release and for any version updates beginning with the Yokohama release, if you are using the retail base case table you will no longer be able to create new cases or update existing cases. Use the following case types instead:
-
-    -   Store Inquiry
-    -   Retail Customer Complaint
-    -   In-store Operations
-    -   HQ Communications
-    You can also extend your own case types. For more information on these changes, see the [Impact analysis and guidance: Retail case table updates \[KB2216547\]](https://support.servicenow.com/nav_to.do?uri=%2Fkb_knowledge.do%3Fsys_id%3Da312916e978aa650f03d739c1253af88%26sysparm_view%3D%26sysparm_domain%3Dnull%26sysparm_domain_scope%3Dnull) article in the Now Support Knowledge Base.
-
-
-## Accessibility and localization
-
--   **Accessibility information**
-    -   **Dark theme**
-
-        The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
-
--   **[ServiceNow Otto for Retail Service Management \(RSM\) release notes]()**  
-The ServiceNow® ServiceNow Otto for Retail Service Management \(RSM\) application supports retail personas in efficiently managing and resolving cases. ServiceNow Otto for RSM is a new application in the Zurich release.
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/new-features-changes.md)
+
+## September 2026 store release
+
+Store associates and managers can view and act on the Strategic Portfolio Management project work behind a store opening, closing, renovation, or relocation without leaving Retail.
+
+### What's new
+
+-   **SPM-RO Better Together**
+
+    SPM-RO Better Together surfaces Customer Service Management and Strategic Portfolio Management project data inside Retail. Store personas can browse the store opening, closing, renovation, and relocation \(OCRR\) projects for their store, drill into individual project tasks, and assign, take, or close those tasks.
+
+    The experience is available in the Retail Service Portal and in Retail Mobile. It is a consumption layer over the CSM/SPM project tables — Retail adds no tables, roles, or access control rules of its own, and project visibility remains governed by the CSM/SPM access control layer.
+
+-   **Track Plan dashboard**
+
+    Track the progress of a store plan in a single view from the **Track Plan** tab of a plan. The plan progress summary shows the percentage of store cases closed and the number of open, overdue, closed, and all store cases for the selected occurrence, and you can filter the summary by occurrence. Select a metric to open the matching list of cases.
+
+    The hierarchical list view provides a navigation tree of the cases and tasks in a plan, with **Open**, **Overdue**, **Closed**, and **All** tabs. The tree is plan-type agnostic and adapts to current and future plan types, including the plan types that you configure. The plan progress summary applies to the base-system HQ Communications and Store Audit plan types. Plan types with custom configurations or custom case or task states might require additional configuration.
+
+
+### What's changed
+
+-   **Template item column for store plan cases**
+
+    New cases that are created from a store plan or a store audit plan will populate the **Template item** column, while the **Origin** field will no longer be populated for newly created cases.
+
+    **Note:** If you have a custom implementation that relies on the **Origin** field to determine the template item that a case was created from, those use cases will need to be updated accordingly.
+
+
+### Plugin information
+
+-   **New plugins**
+
+    App SPM Retail \(com.snc.spm\_retail\): Enables the SPM-RO Better Together experience. When this plugin is not active, the OCRR project and task surfaces do not appear in the Retail Service Portal or Retail Mobile, and there is no separate setting to turn the feature on or off.
+
+
+## October 2026 store release
+
+Store staff can find their store and devices and raise, track, and update break-fix and store inquiry cases directly from their AI assistant with the new Retail MCP Server.
+
+### What's new
+
+-   **Retail MCP Server**
+
+    The Retail MCP Server exposes Retail Service Management capabilities as Model Context Protocol \(MCP\) tools, so store staff can work with their AI assistant instead of switching to the portal. The assistant finds the user's store and its devices, then raises, tracks, and updates break-fix and store inquiry cases on the user's behalf.
+
+    Each tool runs as the calling user and returns only records that the user can already read in the platform. MCP-compatible clients such as ServiceNow Otto, Now Assist, and Claude discover and connect to a single registered server, so future retail tools become available to the assistant without any new server setup. For setup steps, see Set up the Retail MCP Server.
+
 

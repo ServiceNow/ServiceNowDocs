@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sem-create-exception-rule.html
 release: zurich
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Configuring an exception rule, Configure rules to manage findings, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -61,6 +61,4 @@ Email notifications are sent at every stage of the exception rule work flow. The
 
     The status of the request changes to In review. Until you submit the exception rule, it remains in the Draft state.
 
-
-**Parent Topic:**[Configuring an exception rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-configure-exception-rule.md)
 

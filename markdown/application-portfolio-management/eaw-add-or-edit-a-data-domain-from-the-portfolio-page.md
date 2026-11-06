@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-add-or-edit-a-data-domain-from-the-portfolio-page.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage data domains, Working with information portfolio, Working with Portfolio list view, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Manage data domains, Working with information portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Add or edit a data domain from the Portfolio page
@@ -39,7 +39,7 @@ Role required: sn\_apm.apm\_admin
     -   To update details of an existing data domain, select the data domain.
 6.  On the form, fill in the fields.
 
-    For field information, see [Data Domain form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/data-domain-form.md).
+    For field information, see [Data Domain form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-data-domain-form.md).
 
 7.  Select **Save**.
 

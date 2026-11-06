@@ -7,7 +7,7 @@ release: zurich
 product: Journey Accelerator
 classification: journey-accelerator
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Journey Accelerator, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
@@ -28,6 +28,6 @@ Install the latest Employee Center app from the ServiceNow Store. After you inst
 
     Update the Employee Center service portal settings to use the latest theme and menus.
 
-3.  -   [Add a Journey Accelerator action plan to My active items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-accelerator/add-ja-action-plan-myitems-list.md)
--   [Add a Journey Accelerator action plan to the menu in the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-accelerator/add-ja-action-plan-menu-ec-header.md)
+3.  -   [Add a Journey Accelerator action plan link to My Active Items list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-accelerator/add-ja-action-plan-myitems-list.md)
+-   [Add a Journey Accelerator action plan menu to the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-accelerator/add-ja-action-plan-menu-ec-header.md)
 

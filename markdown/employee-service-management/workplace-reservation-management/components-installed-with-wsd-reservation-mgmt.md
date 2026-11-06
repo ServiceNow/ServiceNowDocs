@@ -7,8 +7,8 @@ release: zurich
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: reference
-last_updated: "2025-12-01"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Reference, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -353,14 +353,6 @@ Reservable Module Time Slot\[sn\_wsd\_rsv\_m2m\_reservable\_module\_time\_slot\]
 </td><td>
 
 Stores information about all the time slots of Quick Reservation Widget.
-
-</td></tr><tr><td>
-
-Reservation Waiting Lists\[sn\_wsd\_rsv\_waitlist\]
-
-</td><td>
-
-Stores waitlist record entries along with their weights \(priority\) and statuses.For more information, see [Manage and configure reservation waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/subscribe-waitlist-overview.md).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Workplace Reservation Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/rsv-mgmt-references.md)

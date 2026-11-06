@@ -1,20 +1,20 @@
 ---
-title: Authorization code grant workflow
-description: ServiceNow handles both authentication and API access by acting as the authorization and resource server. When single sign-on \(SSO\) is enabled, it redirects users to the configured IdP for authentication and issues tokens after successful login.
+title: Complete the authorization code grant workflow
+description: ServiceNow handles both authentication and API access by acting as the authorization and resource server. When single sign-on \(SSO\) is enabled, it redirects users to the configured identity provider \(IdP\) for authentication and issues tokens after successful login.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/authorization-workflow.html
 release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 5
-breadcrumb: [Auth Code Grant, Inbound Integrations, OAuth inbound, OAuth authentication, Access Management]
+breadcrumb: [Auth Code Grant, Inbound integrations, OAuth inbound, OAuth authentication, Authentication, Access Management]
 ---
 
-# Authorization code grant workflow
+# Complete the authorization code grant workflow
 
-ServiceNow handles both authentication and API access by acting as the authorization and resource server. When single sign-on \(SSO\) is enabled, it redirects users to the configured IdP for authentication and issues tokens after successful login.
+ServiceNow handles both authentication and API access by acting as the authorization and resource server. When single sign-on \(SSO\) is enabled, it redirects users to the configured identity provider \(IdP\) for authentication and issues tokens after successful login.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: `oauth_admin, mi_admin, admin`
 
 ## About this task
 
-This topic collection provides information about how ServiceNow manages authentication and API access when acting as both the authorization server and the resource server. It describes the behavior when SSO is enabled, including redirection to the identity provider \(IdP\) for user authentication and the issuance of an authorization code by ServiceNow after successful authentication. The usage of authorization code ensures that ServiceNow retains control over token issuance and access to protected resources.
+This topic collection provides information about how ServiceNow manages authentication and API access when acting as both the authorization server and the resource server. It describes the behavior when SSO is enabled, including redirection to the identity provider \(IdP\) for user authentication and the issuance of an authorization code by ServiceNow after successful authentication. The usage of authorization code verifies that ServiceNow retains control over token issuance and access to protected resources.
 
 \[Omitted image "mic-authorization-flow.png"\] Alt text: Authorization Workflow
 
@@ -34,14 +34,12 @@ This topic collection provides information about how ServiceNow manages authenti
 
 2.  Initiate the authorization request.
 
-    The client redirects the user to the ServiceNow authorization endpoint. The method of initiating the authorization request depends on the type of client: Public or Private.
+    The client redirects the user to ServiceNow authorization endpoint to initiate the authorization request. The authorization request can be initiated either by including the `Client Secret` or `PKCE Code Challenge` in the request body, based on the client type \(private or public\). In the authorization request body, include `Client Secret` for private clients, and `PKCE Code Challenge` for public clients.
 
-    -   **Public Clients**
+    -   **For private clients**
 
-        Public clients \(Example: Mobile or Single-page applications\) cannot securely store a client secret. Therefore, they must use **Proof Key for Code Exchange \(PKCE\)** to enhance security.
+        Include the `Client Secret` in the request body, while initiating the token request for private clients. Follow the procedure to initiate the authorization request using `Client Secret` for private clients.
 
-        -   In the authorization request, include the **PKCE code challenge** and specify the **code challenge method**.
-        -   During the token request, the client must send the **code verifier** to validate the authorization code.
         Perform a GET request to the authorization endpoint with the following parameters:
 
         ```
@@ -49,7 +47,91 @@ This topic collection provides information about how ServiceNow manages authenti
         Endpoint: https://<servicenow_base_url>/oauth_auth.do
         ```
 
-<table id="table_oz1_lh2_lgc"><thead><tr><th>
+<table id="table_jg5_5rh_vfc"><thead><tr><th>
+
+Parameter
+
+</th><th>
+
+Required
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+`response_type`
+
+</td><td>
+
+Yes
+
+</td><td>
+
+Set the value to `code` to initiate the authorization code flow.
+
+</td></tr><tr><td>
+
+`client_id`
+
+</td><td>
+
+Yes
+
+</td><td>
+
+The unique identifier for your client application.Format: YOUR\_CLIENT\_ID
+
+</td></tr><tr><td>
+
+`redirect_uri`
+
+</td><td>
+
+Yes
+
+</td><td>
+
+The URI to which ServiceNow sends the authorization code.Example: https://yourapp.com/callback
+
+</td></tr><tr><td>
+
+`scope`
+
+</td><td>
+
+Yes
+
+</td><td>
+
+A space-delimited list of requested scopes.Example: `incident_read incident_write`.
+
+</td></tr><tr><td>
+
+`state`
+
+</td><td>
+
+Yes
+
+</td><td>
+
+A client-generated value used to avoid Cross-Site Request Forgery \(CSRF\) attacks. The value is returned unchanged in the redirect URI, enabling the client to validate it.
+
+</td></tr></tbody>
+</table>    -   **For public clients**
+
+        Include the `PKCE Code Challenge` in the request body, while initiating the token request for public clients. Follow the procedure to initiate the authorization request using `PKCE Code Challenge` for public clients.
+
+        Perform a GET request to the authorization endpoint with the following parameters:
+
+        ```
+        Method: GET
+        Endpoint: https://<servicenow_base_url>/oauth_auth.do
+        ```
+
+<table id="table_ez2_nsh_vfc"><thead><tr><th>
 
 Parameter
 
@@ -127,7 +209,7 @@ Specifies the transformation method used for the code challenge. Set to `S256`.
 
 </td><td>
 
-Optional
+Yes
 
 </td><td>
 
@@ -148,95 +230,9 @@ A client-generated value used to avoid CSRF attacks. The value is returned uncha
 </td></tr></tbody>
 </table>        **Note:** Starting with the Madrid release, the system property `glide.oauth.state.parameter.required` mandates the use of the `state` parameter in the OAuth requests. The `state` property is set to `true` by default in the new instances, and `optional` in upgraded instances. In case of missing `state` parameter, the authorization request fails and the following error is displayed: `Missing State parameter in request`.
 
-    -   **Private Clients**
+3.  Grant access consent to the client application.
 
-        Private clients \(Example: Server-side applications\) can securely store a client secret and do not require PKCE.
-
-        -   The authorization request is initiated by redirecting the user to the authorization endpoint. **No client secret or PKCE code challenge is required** in this step.
-        -   During the token request, the client includes the **client secret** along with the **authorization code** to obtain the access token.
-        Perform a GET request to the authorization endpoint with the following parameters:
-
-        ```
-        Method: GET
-        Endpoint: https://<servicenow_base_url>/oauth_auth.do
-        ```
-
-<table id="table_jg5_5rh_vfc"><thead><tr><th>
-
-Parameter
-
-</th><th>
-
-Required
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-`response_type`
-
-</td><td>
-
-Yes
-
-</td><td>
-
-Set the value to `code` to initiate the authorization code flow.
-
-</td></tr><tr><td>
-
-`client_id`
-
-</td><td>
-
-Yes
-
-</td><td>
-
-The unique identifier for your client application.Format: YOUR\_CLIENT\_ID
-
-</td></tr><tr><td>
-
-`redirect_uri`
-
-</td><td>
-
-Yes
-
-</td><td>
-
-The URI to which ServiceNow sends the authorization code.Example: https://yourapp.com/callback
-
-</td></tr><tr><td>
-
-`scope`
-
-</td><td>
-
-Optional
-
-</td><td>
-
-A space-delimited list of requested scopes.Example: `incident_read incident_write`.
-
-</td></tr><tr><td>
-
-`state`
-
-</td><td>
-
-Yes
-
-</td><td>
-
-A client-generated value used to avoid Cross-Site Request Forgery \(CSRF\) attacks. The value is returned unchanged in the redirect URI, enabling the client to validate it.
-
-</td></tr></tbody>
-</table>3.  Log in and grant access consent to the client application.
-
-    Log in to ServiceNow \(or IdP, if SSO is enabled\), and grant access consent to the client application.
+    Access the ServiceNow login page \(or IdP, if SSO is enabled\), and grant access consent to the client application.
 
 4.  ServiceNow \(or IdP, if SSO is enabled\) validates the credentials and ServiceNow returns an authorization code to the client.
 
@@ -247,117 +243,15 @@ A client-generated value used to avoid Cross-Site Request Forgery \(CSRF\) attac
     
     ```
 
-5.  Initiate the authorization request.
+5.  Exchange the authorization code for an access token \(and a refresh token, if it’s a private client\) by making a call to the ServiceNow token endpoint.
 
-    The client redirects the user to the ServiceNow authorization endpoint for an access token. The method of initiating the authorization request depends on the type of client: Public or Private.
+    The authorization code for an access token can be initiated either by including the `Client Secret` or `PKCE Code Challenge` in the request body, based on the client type \(private or public\). In the token request body, include `Client Secret` for private clients, and `PKCE Code Challenge` for public clients.
 
-    -   **Public Clients**
+    -   **For private clients**
 
-        Public clients \(Example: Mobile or Single-page applications\) cannot securely store a client secret. Therefore, they must use **Proof Key for Code Exchange \(PKCE\)** to enhance security.
+        Include the `Client Secret` in the request body, while initiating the token request for private clients. Follow the procedure to initiate the token request using `Client Secret` for private clients.
 
-        -   In the authorization request, include the **PKCE code challenge** and specify the **code challenge method**.
-        -   During the token request, the client must send the **code verifier** to validate the authorization code.
-        The client sends a POST request to token endpoint with the following parameters:
-
-        ```
-        
-        Method: POST  
-        Endpoint: https://<servicenow_base_url>/oauth_token.do  
-        Headers: Content-Type: application/x-www-form-urlencoded
-        ```
-
-<table id="table_ztk_z32_lgc"><thead><tr><th>
-
-Parameter
-
-</th><th>
-
-Required
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-`grant_type`
-
-</td><td>
-
-Yes
-
-</td><td>
-
-Set the value to `authorization_code` to exchange the code for a token.
-
-</td></tr><tr><td>
-
-`code`
-
-</td><td>
-
-Yes
-
-</td><td>
-
-The authorization code received from the authorization endpoint.
-
-</td></tr><tr><td>
-
-`redirect_uri`
-
-</td><td>
-
-Yes
-
-</td><td>
-
-The URI used in the initial authorization request.Example: https://yourapp.com/callback
-
-</td></tr><tr><td>
-
-`client_id`
-
-</td><td>
-
-Yes
-
-</td><td>
-
-The unique identifier for your client application.
-
-</td></tr><tr><td>
-
-`code_verifier`
-
-</td><td>
-
-Yes
-
-</td><td>
-
-The original string used to generate the PKCE `code_challenge`.
-
-</td></tr><tr><td>
-
-`state`
-
-</td><td>
-
-Yes
-
-</td><td>
-
-A client-generated value used to help prevent CSRF attacks. The value is returned unchanged in the redirect URI, enabling the client to validate it.
-
-</td></tr></tbody>
-</table>    -   **Private Clients**
-
-        Private clients \(Example: Server-side applications\) can securely store a client secret and do not require PKCE.
-
-        -   The authorization request is initiated by redirecting the user to the authorization endpoint. **No client secret or PKCE code challenge is required** in this step.
-        -   During the token request, the client includes the **client secret** along with the **authorization code** to obtain the access token.
-        Perform a POST request to the authorization endpoint with the following parameters:
+        In case of private clients, the client sends a `POST` request to token endpoint with the following parameters:
 
         ```
         
@@ -437,6 +331,104 @@ Yes
 </td><td>
 
 The client’s secret used to authenticate with the token endpoint.
+
+</td></tr><tr><td>
+
+`state`
+
+</td><td>
+
+Yes
+
+</td><td>
+
+A client-generated value used to help prevent CSRF attacks. The value is returned unchanged in the redirect URI, enabling the client to validate it.
+
+</td></tr></tbody>
+</table>    -   **For public clients**
+
+        Include the `PKCE Code Challenge` in the request body, while initiating the token request for public clients. Follow the procedure to initiate the authorization request using `PKCE Code Challenge` for public clients.
+
+        The client sends a POST request to token endpoint with the following parameters:
+
+        ```
+        
+        Method: POST  
+        Endpoint: https://<servicenow_base_url>/oauth_token.do  
+        Headers: Content-Type: application/x-www-form-urlencoded
+        ```
+
+<table id="table_qzd_gk3_vfc"><thead><tr><th>
+
+Parameter
+
+</th><th>
+
+Required
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+`grant_type`
+
+</td><td>
+
+Yes
+
+</td><td>
+
+Set the value to `authorization_code` to exchange the code for a token.
+
+</td></tr><tr><td>
+
+`code`
+
+</td><td>
+
+Yes
+
+</td><td>
+
+The authorization code received from the authorization endpoint.
+
+</td></tr><tr><td>
+
+`redirect_uri`
+
+</td><td>
+
+Yes
+
+</td><td>
+
+The URI used in the initial authorization request.Example: https://yourapp.com/callback
+
+</td></tr><tr><td>
+
+`client_id`
+
+</td><td>
+
+Yes
+
+</td><td>
+
+The unique identifier for your client application.
+
+</td></tr><tr><td>
+
+`code_verifier`
+
+</td><td>
+
+Yes
+
+</td><td>
+
+The original string used to generate the PKCE `code_challenge`.
 
 </td></tr><tr><td>
 

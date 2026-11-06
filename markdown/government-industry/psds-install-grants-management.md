@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-install-grants-management.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Grants Management, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
@@ -16,7 +16,7 @@ You can install the Grants Management application \(com.sn.gsm\_grants\) if you 
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Certain features in the Grants Management application are available based on your ServiceNow entitlements and may require installation of other ServiceNow applications and activation of specific plug-ins.
 
     **Note:** Install the [Playbooks for Customer Service Management](https://store.servicenow.com/sn_appstore_store.do#!/store/application/7be17355874010108ef7a7da0acb0bb5/2.1.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%26q%3DPlaybooks%2520for%2520Customer%2520Service%2520Management&sl=sh) application to enable the playbook experience.

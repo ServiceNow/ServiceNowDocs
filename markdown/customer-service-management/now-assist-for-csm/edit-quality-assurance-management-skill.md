@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-02-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Automated quality assurance, Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -23,15 +23,15 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Skills**.
 
-    If you’re already in the AI Admin Hub, select the **AI Skills** tab.
+    If you're already in the AI Admin Hub, select the **AI Skills** tab.
 
 2.  In the navigation pane, select the **Customer** workflow, and **CSM** as the product.
 
 3.  On the feature card that contains the default **Automated quality assurance** skill, select **View details**.
 
-4.  In the **All available skills** or **Active skills** section, select the **Options** icon \[Omitted image "csm-ws-dashboards-more-actions-icon.png"\] next to the Automated quality assurance skill that you want to configure.
+4.  In the **All available skills** or **Active skills** section, select the **Options** icon \[Omitted image "csm-ws-dashboards-more-actions-icon.png"\] Alt text: More options next to the Automated quality assurance skill that you want to configure.
 
 5.  Select **Edit**.
 

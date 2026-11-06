@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [REST API access policies, API access policy, Access Management]
+breadcrumb: [REST API access policies, API access policy, Authentication, Access Management]
 ---
 
 # Create an authentication profile
@@ -18,7 +18,7 @@ Create an authentication profile and add one or more authentication policies to 
 
 ## Before you begin
 
-Role required: admin
+Role required: api\_service\_admin, adaptive\_auth\_policy\_admin
 
 **Note:** You can apply authentication policies, IP range, role-based, user-based, and so on with mutual authentication and customized authentication.
 
@@ -55,7 +55,7 @@ Role required: admin
 
     Authenticate Header \[WWW-Authenticate\].
 
-    When REST API Access Policy is active we will return the most recently mapped authentication profile in the authenticate header. In the case you want the server to return all the authentication schemes, use the `glide.security.response.authenticate.header.auth_profile.first_scheme_only` property and set it to **false**. The response is returned with multiple header. For example:
+    When REST API Access Policy is active, the system returns the most recently mapped authentication profile in the authenticate header. To return all the authentication schemes, use the `glide.security.response.authenticate.header.auth_profile.first_scheme_only` property and set it to **false**. The response is returned with multiple headers. For example:
 
     ```
     < WWW-Authenticate: BEARER realm="Service-now"

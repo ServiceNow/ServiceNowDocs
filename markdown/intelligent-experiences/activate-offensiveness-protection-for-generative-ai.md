@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/activate-offensiveness-protection-for-generative-ai.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Generative AI, Gen AI, Now Assist, Admin, Guardian, offensiveness protection]
-breadcrumb: [AI Guardian, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [AI Guardian, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Activate offensiveness protection for generative AI
@@ -21,9 +21,9 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 ## About this task
 
-Generative AI output is probabilistic, which means that the same input can produce different outputs. Some of the AI generated content may be offensive, which includes toxic, sexist, or other harmful language. AI Guardian detects offensive content in both inputs and outputs, and logs the event when it is detected. You can also configure it to block offensive material so that users see a standard error message instead of the generated response.
+Generative AI output is probabilistic, which means that the same input can produce different outputs. Some of the AI generated content may be offensive, which includes toxic, sexist, or other harmful language. AI Guardian enables you to detect offensive content in both inputs and outputs, and logs the event when it is detected. You can also cofigure it to block offensive material so that users see a standard error message instead of the generated response.
 
-**Note:** Offensiveness detection applies only to specific AI skills and workflows. It is not available for all generative AI applications. For more information about the list of skills that support offensiveness detection, see [Now Assist Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-guardian.md).
+**Note:** Offensiveness detection applies only to specific AI skills and workflows.. For more information about the list of skills that support offensiveness detection, see [Now Assist Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-guardian.md).
 
 You can export logs for review. For more information, see [Export Now Assist Guardian logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/export-now-assist-guardian-logs.md).
 
@@ -31,28 +31,21 @@ You can export logs for review. For more information, see [Export Now Assist Gua
 
 1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Settings**.
 
-2.  In the side panel, select the **AI Guardian** &gt; **Offensiveness** tab.
+2.  In the side panel, select the **Now Assist Guardian** &gt; **Offensiveness** tab.
 
 3.  Go to the **Available for you** tab to see which workflows you can choose from.
 
     Offensiveness guardrails that are already activated appear in the **Active** tab.
 
-4.  Select **Activate** for the workflow on which you want to enable offensiveness detection.
+4.  Select **Activate** for the workflow that you want to enable offensiveness detection.
 
-5.  In the **Choose an action when offensive content is detected** section, select one of the following options.
+5.  Select your impact detection.
 
-    -   To record the events when offensive content is detected while keeping the content visible to the user, select **Log the output**. The offensive content is still shown to the user.
-    -   To record the event and prevents the content from being shown to the user, select **Block the response and log the output**. The user sees a standard error message instead.
-    \[Omitted image "na-guardian-activate-offensiveness.png"\] Alt text: Offensiveness guardrail for with the "Log the output" action and "Low" severity level selected.
+    -   Select **Log only** to record the events when offensive content is detected. The content is still shown to the user.
+    -   Select **Block and log** to record the event and prevents the content from being shown to the user. The user sees a standard error message instead.
+    \[Omitted image "na-guardian-activate-offensiveness.png"\] Alt text: Offensiveness guardrail for AI Guardian with option "log only" selected
 
-6.  In the **Select content severity level to check for offensiveness** section, select one of the following options.
-
-    -   To flag even the slightest hints of offensive content, select **Low**.
-    -   To flag clear or moderate offensive content, select **Medium**.
-    -   To flag only highly offensive content, select **High**.
-7.  Select **Save and activate**.
-
-8.  Select **Save**.
+6.  Select **Save**.
 
 
 ## Result
@@ -65,7 +58,7 @@ You can enable offensiveness detection for separately for each supported generat
 
 To change the detection impact for an active workflow, select more options \(\[Omitted image "more-options-menu-item.png"\] Alt text: More options icon.\) icon in the list of active workflows and then select **Edit**.
 
-To deactivate offensiveness protection for a workflow, select more options \(\[Omitted image "more-options-menu-item.png"\] Alt text: More options icon.\) icon in the list of active workflows and then select **Deactivate**.
+To deactivate offensiveness protection for a workflow, select more options \(\[Omitted image "more-options-menu-item.png"\] Alt text: More options icon.\) icon in the list of active workflows and then select **Deactivate** .
 
 **Parent Topic:**[AI Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-guardian.md)
 

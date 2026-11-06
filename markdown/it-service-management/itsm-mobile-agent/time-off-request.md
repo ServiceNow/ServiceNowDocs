@@ -7,9 +7,9 @@ release: zurich
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [My Team applet, ITSM Mobile Agent, IT Service Management]
+breadcrumb: [Managing teams and incidents using the My Team applet, ITSM Mobile Agent, IT Service Management]
 ---
 
 # Manage time-off requests with On-Call Scheduling

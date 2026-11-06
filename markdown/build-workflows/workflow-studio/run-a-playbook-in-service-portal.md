@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Playbooks in Service Portal, Designing playbooks, Use, Workflow Studio, Build workflows]
+breadcrumb: [Playbooks in Service Portal, Design Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Run a playbook in Service Portal
@@ -29,6 +29,8 @@ Keep track of where you're at in an overall process more easily, and pause and r
 1.  Navigate to your Service Portal instance.
 
 2.  In the home screen, search for the playbook and select it.
+
+    \[Omitted image "service-portal-home-screen.png"\] Alt text: A Service Portal home screen
 
     The playbook launches.
 
@@ -57,6 +59,4 @@ Keep track of where you're at in an overall process more easily, and pause and r
 |No filtered results|When using the playbook filter, no results can be shown for a particular stage.|
 
 For client-side issues, check local browser console.logs which might show a runtime issue using the browser's inspector.
-
-**Parent Topic:**[Playbooks in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbooks-service-portal.md)
 

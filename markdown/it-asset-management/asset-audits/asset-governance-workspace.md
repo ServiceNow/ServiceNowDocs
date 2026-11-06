@@ -7,9 +7,9 @@ release: zurich
 product: Asset Audits
 classification: asset-audits
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, Asset Audit Response, IT Asset Management]
+breadcrumb: [Explore, Asset Audit Response, IT Asset Management, Asset Management]
 ---
 
 # Asset Governance Workspace

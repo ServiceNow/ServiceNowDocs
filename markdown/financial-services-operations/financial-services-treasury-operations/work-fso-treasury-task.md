@@ -7,7 +7,7 @@ release: zurich
 product: Financial Services Treasury Operations
 classification: financial-services-treasury-operations
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Treasury Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -44,15 +44,15 @@ If assignment rules are configured, the task is automatically assigned to a trea
 
 3.  Open the task from the case playbook or the treasury task list.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d43179e150">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d44505e150">
 
 Option
 
-</th><th align="left" id="d43179e153">
+</th><th align="left" id="d44505e153">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d43179e159">
+</th></tr></thead><tbody><tr><td id="d44505e159">
 
 **From the case playbook**
 
@@ -65,7 +65,7 @@ Steps
 
 **Note:** The Due diligence activity is available only for an RDC treasury case.
 
-</td></tr><tr><td id="d43179e200">
+</td></tr><tr><td id="d44505e200">
 
 **From the Treasury task list**
 

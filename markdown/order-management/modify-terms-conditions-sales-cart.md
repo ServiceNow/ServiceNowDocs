@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/modify-terms-conditions-sales-cart.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Business Portal, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configuring Sales Cart for Business Portal, Business Portal, Configure, Sales Customer Relationship Management]
 ---
 
 # Modify terms and conditions for the sales cart

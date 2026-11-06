@@ -7,7 +7,7 @@ release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 4
 breadcrumb: [Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -70,7 +70,7 @@ Pending Requests
 When you submit a request for a stack, the **Activities** page displays the progress and status of the stack request, and a **Pending Requests** link and count appears. Click the link to view a summary of pending stack requests. See [Track a stack request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cloudmgt-track-stack-request.md).
 
 </td></tr></tbody>
-</table>**Important:** Starting with the Zurich release, the Current Month Spend and Budget widgets are deprecated for non domain-separated instances.
+</table>**Important:** Starting with the Brazil release, the Current Month Spend and Budget widgets are deprecated for non domain-separated instances.
 
 <table id="table-boxes"><tbody><tr><td>
 

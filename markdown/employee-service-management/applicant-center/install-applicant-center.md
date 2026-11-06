@@ -7,7 +7,7 @@ release: zurich
 product: Applicant Center
 classification: applicant-center
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Applicant Center, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ You can install the Applicant Center application \(sn\_ta\_applicant\) if you ha
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [Applicant Center](https://store.servicenow.com/store/app/20596fae1be06a50a85b16db234bcba2) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 Role required: admin

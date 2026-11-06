@@ -7,9 +7,9 @@ release: zurich
 product: Localization Workspace
 classification: localization-workspace
 topic_type: task
-last_updated: "2026-06-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Requesting translations in Localization Workspace, Localization Workspace, Translation and localization, Configure core features, Administer]
+breadcrumb: [Requesting translations in Localization Workspace, Localization Workspace, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Request translations in Localization Workspace: Estimate and Due Date
@@ -43,9 +43,9 @@ Consult your provider's documentation. For details about the pricing of Google C
 From version 2.0.2, an optional due date field is available in the Estimate step. It can be used to trigger [email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-workspace/lw-email-notif-due-dates.md). \(Notifications require configuration by an admin\).
 
 -   The due date corresponds to the Localization Framework Project due date.
--   For TMS service providers, the default due date is two weeks later than the current date.
+-   From version 3.0.0: when submitting to a TMS, the system suggests a due date based on the word count. For details about intelligent due dates see [Requesting translations in Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-workspace/requesting-translations-localization-workspace.md).
 -   For machine translation service providers, the default due date is the current date.
--   You can choose a date that is later than the default due date, but you can't choose a date that is earlier than the default.
+-   You can use the calendar picker to choose a date that is later than the default or suggested due date, but you can't choose an earlier date.
 
 ## Procedure
 
@@ -57,9 +57,11 @@ From version 2.0.2, an optional due date field is available in the Estimate step
 
     The estimate includes total cost and word count for the entire translation request. Also included is a breakdown of the cost and word count per language.
 
+    **Note:** The UI displays Word counts, not Character counts, even when the target language has been configured as character-based. However, any underlying calculations \(such as intelligent due date suggestions\) use the actual character count for character-based languages.
+
 3.  Enter a due date for the project by selecting the Due Date field.
 
-    Selecting this field opens a calendar date picker. You can choose a date that is later than the default due date, but you can't choose a date that is earlier than the default.
+    Selecting this field opens a calendar date picker. You can choose a date that is later than the suggested \(or default\) due date, but you can't choose a date that is earlier.
 
 4.  Use the **Previous** button to modify the estimate by returning to earlier steps and removing documents from your request.
 
@@ -71,12 +73,13 @@ From version 2.0.2, an optional due date field is available in the Estimate step
 
     **Note:**
 
-    -   Larger translation requests take longer to create. The process may take several minutes for very large requests.
-    -   Submitting the translation request sends the documents to your third-party service providers, so you can't cancel a submitted translation request.
+    -   When you submit a translation request, the system first creates a Localization Framework project. During the creation of the project, the Due Date field doesn't contain any value. The due date is available after project creation.
+    -   The larger the translation request, the longer it takes to create its project. The process may take several minutes for very large requests.
+    -   When the translation request's project is finished, the system sends the packaged documents to your third-party service provider. You can cancel a translation request after submitting, but Localization Workspace does not contact your service provider. You should notify your provider directly regarding any cancellations.
 
 ## What to do next
 
-You can view translation request records in list format on the [Home page of Localization Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-workspace/lw-status-synchronization.md).
+You can view translation request records in list format on the [Home page of Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-workspace/lw-status-synchronization.md).
 
 **Note:** When displayed in the Requests list on the Home page, the **Cost** is rounded up to the decimal place that is set in your **Display Value Currency** field. However, the calculation of the informational cost estimate for a translation request does not use the currency's display value. The calculation uses the actual rate that you have configured in Localization Workspace. For more information, see [Identify the FX Currency field and its display parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/currency-administration/fx-currency-display-parameters.md).
 

@@ -7,9 +7,9 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Inventory number allocation, Defining inventory records, Use, Telecommunications Network Inventory]
+breadcrumb: [Inventory number allocation, Define inventory records, Use, Telecommunications Network Inventory]
 ---
 
 # Define your inventory numbering
@@ -40,7 +40,7 @@ The numbering that you define in this process creates VLAN and LAG number ranges
 
 6.  Select **Save**.
 
-    The related tabs appear on the form. You can view or modify the related tab information. To learn more about the related tabs, see [Related tabs in the network inventory forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/inventory-related-tab.md).
+    The related tabs appear on the form. You can view or modify the related tab information. To learn more about the related tabs, see [Related tabs in the Network inventory forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/inventory-related-tab.md).
 
 
 ## What to do next

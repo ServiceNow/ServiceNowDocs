@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/use-sales-territory-management.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Using Sales Territory Management​
@@ -23,7 +23,7 @@ You can update the primary territory on a lead in which Sales Territory Manageme
 -   **[Assign a territory on consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/assign-territory-consumer.md)**  
 You can update the primary territory on a consumer in which Sales Territory Management​ has been implemented.
 
-**Parent Topic:**[Using lead and opportunity management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-lead-opportunity-mgt.md)
+**Parent Topic:**[Using sales automation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-lead-opportunity-mgt.md)
 
 **Related topics**  
 

@@ -7,7 +7,7 @@ release: zurich
 product: Alumni Center
 classification: alumni-center
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [System notifications, Alumni Center, HR Service Delivery, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ Use **Notifications**, to configure the emails that send the user ID and passwor
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_asc.admin
 
 ## Procedure
 

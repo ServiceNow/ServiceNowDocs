@@ -7,9 +7,10 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Software Spend Detection, Software Asset Management, IT Asset Management]
+keywords: [software spend detection, software asset management content service, content service, Software Asset Management Content Service Program]
+breadcrumb: [Software Spend Detection, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Opt in to Content Service
@@ -32,7 +33,7 @@ If you opt in after you've already imported data into Software Spend Detection, 
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Software Spend Detection** &gt; **Administration** &gt; **Content Service Setup**.
+1.  Navigate to **All** &gt; **Software Asset** &gt; **Content Service Setup**.
 
 2.  Select the check the box to accept the opt-in agreement and then select **Opt-in**.
 

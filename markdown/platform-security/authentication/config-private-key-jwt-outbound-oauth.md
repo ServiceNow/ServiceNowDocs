@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Private Key JWT Support for OAuth 2.0 Client Authentication, OAuth outbound, OAuth authentication, Access Management]
+breadcrumb: [Private key JWT support for OAuth 2.0 client authentication, OAuth outbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Configure Private Key JWT for Outbound OAuth
@@ -18,7 +18,7 @@ Configure Private Key JWT for outbound OAuth integrations.
 
 ## Before you begin
 
-Role required: admin
+Role required: oauth\_admin
 
 Before configuring Private Key JWT for outbound OAuth integrations, you must perform the following tasks:
 
@@ -31,9 +31,9 @@ Before configuring Private Key JWT for outbound OAuth integrations, you must per
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **System OAuth** &gt; **Application Registry** and then click **New**.
+1.  Navigate to **All** &gt; **System OAuth** &gt; **Application Registry** and then select **New**.
 
-2.  On the interceptor page, click **Connect to a third-party OAuth provider** and then fill in the form.
+2.  On the interceptor page, select **Connect to a third-party OAuth provider** and then fill in the form.
 
     **Note:** You must add **Send Credentials** and **JWT Provider** fields to the form to use the Private Key JWT for Outbound OAuth authentication requests.
 
@@ -179,7 +179,7 @@ Use mutual authentication
 
 </td><td>
 
-Check the box to use mutual authentication for token request and revocation. This feature requires a mutual authentication profile to be specified.
+Select the check box to use mutual authentication for token request and revocation. This feature requires a mutual authentication profile to be specified.
 
 </td></tr><tr><td>
 

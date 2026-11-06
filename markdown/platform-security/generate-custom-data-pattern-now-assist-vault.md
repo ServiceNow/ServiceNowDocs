@@ -1,16 +1,16 @@
 ---
-title: Generate a custom data pattern by using Now Assist for Vault
+title: Generate a custom data pattern by using ServiceNow Otto for Vault
 description: Use the generate custom data pattern skill to create a custom regular expression data pattern from your description and add it as an active data pattern to your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/generate-custom-data-pattern-now-assist-vault.html
 release: zurich
 topic_type: task
-last_updated: "2025-12-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Now Assist for Vault, Now Assist for Vault]
+breadcrumb: [Use generative AI skills, ServiceNow Vault]
 ---
 
-# Generate a custom data pattern by using Now Assist for Vault
+# Generate a custom data pattern by using ServiceNow Otto for Vault
 
 Use the generate custom data pattern skill to create a custom regular expression data pattern from your description and add it as an active data pattern to your instance.
 
@@ -29,10 +29,10 @@ This skill improves your efficiency by reducing the time required to understand 
 
 1.  Navigate to **All** &gt; **Vault** &gt; **Vault console**.
 
-2.  In the Ask Now Assist panel, select **Generate custom data pattern** and specify the details.
+2.  In the ServiceNow Otto panel, select **Generate custom data pattern** and specify the details.
 
     Example prompt: `I need help creating a regex to detect sensitive data for a Netherlands drivers license.`
 
 
-**Parent Topic:**[Using Now Assist for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/using-now-assist-vault.md)
+**Parent Topic:**[Use generative AI skills in ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/using-now-assist-vault.md)
 

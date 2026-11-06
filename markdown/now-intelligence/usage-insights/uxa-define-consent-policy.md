@@ -1,20 +1,20 @@
 ---
-title: View assigned consent policies
-description: View the list of tracking consent policies and select a consent policy to see all countries which are assigned to it. Within the consent policies list, you can assign the same tracking consent policy for all countries or reset all countries to the default value of No Consent Required.
+title: Define consent policies according to country
+description: Define the tracking consent policies for users within different countries. You can either select the same tracking consent policy for all countries, use the allocated default values, or define different consent policies for individual countries.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/usage-insights/uxa-define-consent-policy.html
 release: zurich
 product: Usage Insights
 classification: usage-insights
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Types of tracking consent policies, User privacy, tracking, and consent, Configure, Usage Insights, Platform Analytics]
+breadcrumb: [Types of tracking consent policies, User privacy, tracking, and consent, Configuring Usage Insights, Usage Insights, Platform Analytics]
 ---
 
-# View assigned consent policies
+# Define consent policies according to country
 
-View the list of tracking consent policies and select a consent policy to see all countries which are assigned to it. Within the consent policies list, you can assign the same tracking consent policy for all countries or reset all countries to the default value of No Consent Required.
+Define the tracking consent policies for users within different countries. You can either select the same tracking consent policy for all countries, use the allocated default values, or define different consent policies for individual countries.
 
 ## Before you begin
 
@@ -22,27 +22,27 @@ Role required: analytics\_admin
 
 ## About this task
 
-This task details how to set the various tracking consent policy options you have in the User Experience Analytics Consent Policies page. You have an option to return the policies to the default values. By default, all countries are set to No Consent Required. For a detailed explanation about the types of consent policies available, see [Types of tracking consent policies in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/usage-insights/uxa-tracking-types.md).
+This task details how to set the various tracking consent policy options you have in the Usage Insights Consent Policies page. You have an option to return the policies to the default values. By default, all countries are set to No Consent Required. For a detailed explanation about the types of consent policies available, see [Types of tracking consent policies in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/usage-insights/uxa-tracking-types.md).
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **UX Analytics Settings** &gt; **Consent Policies**.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Usage Insights Settings** &gt; **Consent Policies**.
 
-    The User Experience Analytics Consent Policies page displays.
+    The Usage Insights Consent Policies page displays.
 
     **Note:** Select a policy to view a list of all countries associated with the selected policy.
 
 2.  Perform one of the following actions.
 
-<table id="choicetable_dgs_bbb_gyb"><thead><tr><th align="left" id="d68852e95">
+<table id="choicetable_dgs_bbb_gyb"><thead><tr><th align="left" id="d71848e99">
 
 User consent policy options
 
-</th><th align="left" id="d68852e98">
+</th><th align="left" id="d71848e102">
 
  
 
-</th></tr></thead><tbody><tr><td id="d68852e103">
+</th></tr></thead><tbody><tr><td id="d71848e107">
 
 **Action**
 
@@ -50,7 +50,7 @@ User consent policy options
 
 Procedure
 
-</td></tr><tr><td id="d68852e112">
+</td></tr><tr><td id="d71848e116">
 
 **Apply the same tracking consent policy to all countries.
 
@@ -63,7 +63,7 @@ Procedure
 3.  Select the confirmation check box and then select **Apply**.
 
 
-</td></tr><tr><td id="d68852e139">
+</td></tr><tr><td id="d71848e143">
 
 **Return to the default settings.
 
@@ -71,7 +71,7 @@ Procedure
 
 </td><td>
 
-1.  Select the **Reset to Default** button in the User Experience Analytics Consent Policies page. An alert message displays.
+1.  Select the **Reset to Default** button in the Usage Insights Consent Policies page. An alert message displays.
 2.  Select the confirmation check box, and then select **Reset**.
 
 

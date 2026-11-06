@@ -1,28 +1,26 @@
 ---
-title: Consumption Report
-description: The Consumption Report provides an overview of your Impact tier features and their usage.View a concise summary of the consumption report in the Impact store application including adoption of recommended applications, active Now Support cases with response times, and usage of developer support and instance observer seats.
+title: Consumption Report in Impact Delivery Instance
+description: Get an overview of your Impact tier features and their usage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/ide-consumption-report.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [Using Impact, Impact]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Impact Delivery Instance reference, Impact reference, Impact]
 ---
 
-# Consumption Report
+# Consumption Report in Impact Delivery Instance
 
-The Consumption Report provides an overview of your Impact tier features and their usage.
+Get an overview of your Impact tier features and their usage.
 
 The Consumption Report provides an overview of Impact features and their usage so you can identify underutilized benefits or benefits you have not yet used to make the most of your plan.
 
 The Consumption Report filters usage to an adjustable specific period of time, and defaults to a year long range.
 
-**Note:** Impact Guided customers will not be able to view the Premium role or Advisory Sessions section.
+**Note:** Impact Guided customers will not see the Premium role or Advisory Sessions section.
 
-## Impact Delivery Instance Consumption Report
-
-To access the consumption report in Impact Delivery Instance, navigate to**Impact** &gt; **Impact Benefits &amp; Usage** &gt; **Consumption Report**.
+You can find this report within the Impact menu under **Impact &gt; Impact Benefits &amp; Usage**.
 
 <table id="table_thg_wf5_gwb"><thead><tr><th>
 
@@ -46,9 +44,7 @@ Accelerators
 
 </td><td>
 
-Identify unused or underused accelerators by reviewing the status details for ongoing, completed, and not yet started accelerators and initiatives associated with your plan.
-
- View details for the accelerators including name, owner,state, creation and completion dates.
+Identify unused or underused Accelerators by reviewing the status details for ongoing, completed, and not yet started Accelerators and Initiatives associated with your plan.View Accelerator details including name, owner, state, creation and completion dates.
 
 </td></tr><tr><td>
 
@@ -56,9 +52,7 @@ Other Initiatives
 
 </td><td>
 
-Identify unused or underused accelerators by reviewing the status details for ongoing, completed, and not yet started initiatives associated with your plan.
-
- View details for the accelerators including name, owner,state, creation and completion dates.
+Identify unused or underused initiatives by reviewing the status details for ongoing, completed, and not yet started Initiatives associated with your plan.View initiative details including name, owner, state, creation and completion dates.
 
 </td></tr><tr><td>
 
@@ -72,101 +66,11 @@ Check the overview of additional features including:-   Enhanced case response t
 -   Users with premium access
 
 </td></tr></tbody>
-</table>## Impact Store Application Consumption Report
+</table>## Upgrade to the Impact Store Application
 
-To access the consumption report in Impact store application, navigate to **All** &gt; **Impact** &gt; **Consumption Report**, and then select the **Consumption Report** menu item in the Impact workspace.
+This feature is in the Impact Delivery Instance. Download Impact from the ServiceNow store to take advantage of the latest features directly in your instance. See [Install Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/install-impact-innovation-lab.md) for more information.
 
-<table id="table_k1r_nz3_dhc"><thead><tr><th>
+**Note:** The Impact Delivery Instance, \[impact.servicenow.com\], won't include new features.
 
- 
-
-</th><th>
-
- 
-
-</th></tr></thead><tbody><tr><td>
-
-**Accelerator and initiatives Usage**
-
-</td><td>
-
-Identify unused or underused accelerators by reviewing the status details for ongoing, completed, and not yet started accelerators and initiatives associated with your plan.
-
- The In progress usage section provides an overview of the number of Architecture, Strategy, and Technical accelerators that are currently in use or remain unused.
-
-</td></tr><tr><td>
-
-**Company Active cases breakdown**
-
-</td><td>
-
-Track the number of active Now Support cases for your company by priority level ranging from P1 \(Severe\) to P4 \(Low\). Links enable you to access details for the cases in the case level groups on the Now Support portal.
-
-</td></tr><tr><td>
-
-**Enhanced Case Response Time**
-
-</td><td>
-
-Check the overview of the enhanced case response time for Impact P1 and P2 support cases for your account. The **View response time** link provides access to a case list on the Now Support portal.
-
-</td></tr><tr><td>
-
-**Instance Observer Users**
-
-</td><td>
-
-View the Instance observer seats that grant users the ability to monitor, analyze and gain insights from ServiceNow instances.
-
- View additional details about instance observer users such as username, access status, locked status, and access permissions by selecting the **View Users** link.
-
-</td></tr><tr><td>
-
-**Developer Support Users**
-
-</td><td>
-
-See who is available to assist with real-troubleshooting and get timely support for issues with your customizations by viewing detailed information on your developer support user seats.
-
- View additional details about developer support users such as username, access status, locked status, and access permissions by selecting the **View Users** link.
-
-**Note:** Impact developer support users are managed in Impact Delivery Instance. For more information, see [Developer Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/developer-support.md).
-
-</td></tr></tbody>
-</table>## Gen AI based consumption report summarization
-
-View a concise summary of the consumption report in the Impact store application including adoption of recommended applications, active Now Support cases with response times, and usage of developer support and instance observer seats.
-
-### Before you begin
-
-Configure the Now Assist consumption report summarization for Impact application to use the generative AI skills. For more information, see [Activate Now Assist skills in Now Assist for Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/activate-now-assist-skills-in-now-assist-for-impact_0.md).
-
-**Note:** Access to the AI-based consumption report summarization feature requires a Pro Plus license for any ServiceNow product.
-
-Role required: Impact App Admin, Impact Platform Owner, Impact Portfolio Owner.
-
-### About this task
-
-Use the Gen AI based consumption report summary to view the following:
-
--   Details of accelerator usage and its alignment with business objectives.
--   Overview of active Now Support cases, with details on response times for P1 and P2 cases and current resolution progress.
--   Current usage overview for Developer Support and Instance Observer seats highlighting any over or under allocations.
-
-### Procedure
-
-1.  Navigate to **All** &gt; **Impact** &gt; **Consumption Report**.
-
-2.  Select **Summarize**.
-
-    Now Assist generates and displays summary information for the outcome, as shown in the following example.
-
-    \[Omitted image "consumptionreport\_summarization.png"\] Alt text: Consumption report feature overview.
-
-3.  Provide feedback for the summary by selecting the thumbs-up \[Omitted image "thumbs-up-outline-24.svg"\] or thumbs-down \[Omitted image "thumbs-down-outline-24.svg"\] icons.
-
-4.  Copy the summary to use its information outside the app, for example, for including in an email or editing before forwarding, by selecting the Copy to clipboard icon \[Omitted image "copytoclipboard.png"\] Alt text: Copy to clipboard.
-
-5.  If you think that data might have changed after you viewed the summary, refresh the summary information by selecting the redo icon \[Omitted image "refresh\_aisummary.png"\] Alt text: Refresh.
-
+**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/idi-reference.md)
 

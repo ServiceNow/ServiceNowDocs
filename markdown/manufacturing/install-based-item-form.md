@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/install-based-item-form.html
 release: zurich
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Reference, Manufacturing Commercial Operations]
+breadcrumb: [Repair form, Reference, Manufacturing Commercial Operations]
 ---
 
 # Install based item form
@@ -153,7 +153,7 @@ Specification
 Specification that is associated with an install base item. Option that helps in fulfilling orders to create an install base item and its hierarchy.**Note:** The **Specification** field appears only to CSM agents, managers, and contributor persona.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/manufacturing-reference.md)
+</table>**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/repair-form.md)
 
 **Related topics**  
 

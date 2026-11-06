@@ -7,7 +7,7 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2024-08-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [integrate with UCF Common Controls Hub, Configure UCF integration using UCF CCH, Manage UCF integration, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -20,7 +20,7 @@ In order for compliance managers to download UCF authority documents from the UC
 
 Role required: sn\_compliance.admin or sn\_compliance.manager
 
-**Note:** The current design of UCF supports the downloading of mandated and implied controls. The downloading of implementation controls is not supported. See the Unified Compliance Documentation [How do I distribute an authority document list to other accounts?](https://support.unifiedcompliance.com/migrated/how-do-i-distribute-an-authority-document-list-to-other-accounts).
+**Note:** The current design of UCF supports the downloading of mandated and implied controls. The downloading of implementation controls is not supported. See the Unified Compliance Documentation [How do I distribute an authority document list to other accounts?](https://support.commoncontrolshub.com/hc/en-us/articles/208151063-How-do-I-Distribute-an-Authority-Document-List-to-other-Accounts-).
 
 All data imported from UCF Authority Documents is read-only and must be protected. Do not customize the authority documents, citations, or control objectives on any UCF fields on the GRC tables.
 

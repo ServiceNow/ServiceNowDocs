@@ -7,7 +7,7 @@ release: zurich
 product: Dependency Views
 classification: dependency-views
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Administer, Dependency Views, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ You can set a custom predefined filter as the default predefined filter for view
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_cmdb\_admin or admin
 
 ## Procedure
 

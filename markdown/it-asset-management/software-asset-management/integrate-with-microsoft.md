@@ -7,9 +7,9 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
-breadcrumb: [Microsoft 365 integration, Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Microsoft 365 integration, Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Integrating with Microsoft 365
@@ -82,10 +82,7 @@ Optional
 
 </td><td>
 
--   Reports.Read.All
--   Tenant.Read.All
-
- **Important:** Use Tenant.Read.All only for Power BI delegated permissions.
+Reports.Read.All
 
 </td><td>
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/list-of-related-party-configurations.html
 release: zurich
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Create related party configurations, Configuring customer access management, User management, Set up your environment, Configure, Customer Service Management]
 ---
@@ -112,5 +112,5 @@ Types and responsibilities for service organizations are listed in the following
 **Note:**
 
 -   Whenever a related party record is created, the **Responsibility** field gets auto-populated from the default responsibility associated with the selected party type​. Similarly, the **Order** field gets auto-populated from the default order associated with the selected party type​.
--   Listed role types don’t have any responsibility. Since the correct role and responsibility determine access, related parties are not granted access if the **Responsibility** field is left empty.​
+-   Listed role types don’t have any responsibility. Since the correct role and responsibility determine access, related parties aren’t granted access if the **Responsibility** field is left empty.​
 

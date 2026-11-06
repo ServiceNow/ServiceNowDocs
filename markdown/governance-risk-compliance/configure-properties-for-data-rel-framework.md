@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/configure-properties-for-data-rel-framework.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data Relationships Framework, Reference, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_grc\_rel\_config.admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Data Relationships Framework** &gt; **Administration** &gt; **Properties**.
+1.  Navigate to **All** &gt; **Data Relationships Framework** &gt; **Properties**.
 
 2.  Update the properties in the form.
 

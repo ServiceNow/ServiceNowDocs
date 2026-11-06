@@ -7,9 +7,9 @@ release: zurich
 product: Asset Audits
 classification: asset-audits
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Asset Audit Response, IT Asset Management]
+breadcrumb: [Reference, Asset Audit Response, IT Asset Management, Asset Management]
 ---
 
 # Installed with Asset Audit Response

@@ -7,16 +7,16 @@ release: zurich
 product: Atlassian Jira Integrations Common
 classification: atlassian-jira-integrations-common
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Integrate, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Strategic Portfolio Management]
 ---
 
 # Atlassian Jira Integration for Agile Development
 
 Enable bidirectional synchronization of records between Atlassian Jira and ServiceNow® Agile Development by integrating the two applications.
 
-If the source of your work is in the ServiceNow platform while the progress of the work is tracked in Jira. You can perform integrated tracking of your product development efforts by integrating Agile Development 2.0 with Jira.
+If the source of your work is in the ServiceNow platform while the progress of the work is tracked in Jira, you can integrate Agile Development 2.0 with Jira. This integration provides tracking of your product development efforts across both platforms.
 
 For example, if you update a record in Jira, you can find that update in Agile Development 2.0. Similarly, if you update a record in Agile Development 2.0, you can find the same update in Jira.
 
@@ -49,8 +49,10 @@ Before importing Jira projects that are of the Kanban type, consider the followi
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
+-   **[Components installed with Atlassian Jira integration for Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/atlassian-jira-integrations-common/components-installed-with-atlassian-jira-integration-for-agile-development.md)**  
+Several types of components are installed with activation of the Atlassian Jira integration for Agile Development application, including tables, user roles, and scheduled jobs.
 -   **[Setting up the integration between Jira and Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/atlassian-jira-integrations-common/setting-up-the-integration-between-jira-and-agile-development.md)**  
 Understand the setup process of Atlassian Jira Integration for Agile Development 2.0.
 -   **[Importing and exporting issues between Agile Development 2.0 and Jira](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/atlassian-jira-integrations-common/import-export-issues-sn-jira-workflow.md)**  
@@ -58,5 +60,5 @@ Understand the workflow for the import and export of issues between Agile Develo
 -   **[Troubleshooting issues of Jira integration with Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/atlassian-jira-integrations-common/agile-jira-integration-troubleshooting.md)**  
 Resolve common issues that you might face while working with the integration of Jira and Agile Development 2.0.
 
-**Parent Topic:**[Integrating Agile Development 2.0 with third-party applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/integrating-agile-dev-with-third-party-apps.md)
+**Parent Topic:**[Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/r_ITBusinessManagement.md)
 

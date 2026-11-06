@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sem-approve-requests.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -117,10 +117,7 @@ The approval flow for risk reduction is same as the exception approvals \(deferr
 </td></tr></tbody>
 </table>See [Vulnerability Response personas and granular roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-response/vr-persona-overview.md) and [Assign the Vulnerability Response persona roles using Setup Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-response/vr-assign-personas_SA.md) for more information about assigning persona roles to users and users to groups.
 
-**Note:**
-
--   Starting with v30.3.3 of Exception Management for USEM and v26.6.2 of Vulnerability Response, approvers can select multiple requests at once and approve or reject them in a single action, rather than handling each request individually.
--   Add users to the approval groups before you submit approval requests. If you create requests before you add users to the approval groups, the requests might not be visible to those users that have the approval permission.
+**Note:** Add users to the approval groups before you submit approval requests. If you create requests before you add users to the approval groups, the requests might not be visible to those users that have the approval permission.
 
 ## Procedure
 
@@ -128,7 +125,7 @@ The approval flow for risk reduction is same as the exception approvals \(deferr
 
     If an approver doesn’t have access to the workspace, approvals can be processed at **Vulnerability Response** &gt; **My Approvals** in the classic environment.
 
-2.  Select the List view icon.
+2.  Select the List view icon \(\[Omitted image "icon-polaris-list-workspace.png"\] Alt text: LIst view icon.\).
 
     The List page is displayed.
 
@@ -140,15 +137,15 @@ The approval flow for risk reduction is same as the exception approvals \(deferr
 
 5.  Choose one of the following options to approve or reject the request.
 
-<table id="choicetable_p3t_h5x_wqb"><thead><tr><th align="left" id="d63842e327">
+<table id="choicetable_p3t_h5x_wqb"><thead><tr><th align="left" id="d64472e324">
 
 Option
 
-</th><th align="left" id="d63842e330">
+</th><th align="left" id="d64472e327">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d63842e336">
+</th></tr></thead><tbody><tr><td id="d64472e333">
 
 **Click the Details tab, enter text in the Comments field, and click Reject**
 
@@ -160,7 +157,7 @@ Description
 -   The Vulnerability State Change Approval record is no longer displayed on your Approvals list view in the workspace.
 
 
-</td></tr><tr><td id="d63842e360">
+</td></tr><tr><td id="d64472e357">
 
 **From either the __Request__ or __Details__ tabs, click Approve**
 
@@ -174,5 +171,3 @@ Description
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/using-unified-security-exposure-management.md)
-

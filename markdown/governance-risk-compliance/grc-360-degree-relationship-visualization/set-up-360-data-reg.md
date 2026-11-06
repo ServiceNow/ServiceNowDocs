@@ -1,20 +1,20 @@
 ---
 title: Setting up the 360º views
-description: To effectively use the 360° Relationship Visualization application, you must register existing relationships between the types of data you want to view, and then configure how the 360º view displays that data.The first step in setting up your data registry is to register the relationships you want displayed in the 360° Relationship Visualization.These screen shots illustrate the various relationship types you can register.After the data registry has been defined, you can configure the 360° Relationship Visualization to effectively display the relations you created.
+description: To effectively use the 360° Relationship Visualization application, you need to register existing relationships between the types of data you want to view, and then configure how the 360º view displays that data.The first step in setting up your data registry is to register the relationships you want displayed in the 360° Relationship Visualization.These screen shots illustrate the various relationship types you can register.After the data registry has been defined, you can configure the 360° Relationship Visualization to effectively display the relations you created.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-360-degree-relationship-visualization/set-up-360-data-reg.html
 release: zurich
 product: GRC: 360 Degree Relationship Visualization
 classification: grc-360-degree-relationship-visualization
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [360° Relationship Visualization, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Setting up the 360º views
 
-To effectively use the 360° Relationship Visualization application, you must register existing relationships between the types of data you want to view, and then configure how the 360º view displays that data.
+To effectively use the 360° Relationship Visualization application, you need to register existing relationships between the types of data you want to view, and then configure how the 360º view displays that data.
 
 **Parent Topic:**[360° Relationship Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-360-degree-relationship-visualization/grc-360-deg-rel-vis.md)
 
@@ -32,7 +32,7 @@ Role required: Data registry administrator
 
     \[Omitted image "relationship-registries.png"\] Alt text: Relationship Registries
 
-2.  Select **New**.
+2.  Click **New**.
 
     \[Omitted image "relationship-registry-new.png"\] Alt text: New relationship registry
 
@@ -68,7 +68,7 @@ Relationship type
 
 </td><td>
 
-The type of relationship you're defining:-   One-to-many
+The type of relationship you are defining:-   One-to-many
 -   Many-to-many
 -   Scripted: a custom relationship from the ServiceNow AI Platform
 -   One-to-one: any relationship that is available as a field in the selected table
@@ -88,7 +88,7 @@ Relationship
 
 </td><td>
 
-The relationship table of the selected relationship type. For example, if you're defining relationships for the Entity table and select a many-to-many relationship type, the list of relationship tables consists of all many-to-many relationships that apply to the Entity table.
+The relationship table of the selected relationship type. For example, if you are defining relationships for the Entity table and select a many-to-many relationship type, the list of relationship tables consists of all many-to-many relationships that apply to the Entity table.
 
 </td></tr><tr><td>
 
@@ -99,7 +99,7 @@ Relationship table
 The table name you selected in the **Relationship** field.
 
 </td></tr></tbody>
-</table>4.  Select **Submit**.
+</table>4.  Click **Submit**.
 
 5.  Repeat this process for all of the relationships you want to appear in the 360° Relationship Visualization interface.
 
@@ -142,7 +142,7 @@ Multiple 360° Relationship views can be configured for a table. For example, th
 
     \[Omitted image "config-360-views.png"\] Alt text: Configure a 360º view
 
-2.  Select **New**.
+2.  Click **New**.
 
     \[Omitted image "new-360-views.png"\] Alt text: New 360º view
 
@@ -152,7 +152,7 @@ Multiple 360° Relationship views can be configured for a table. For example, th
     |-----|-----------|
     |View|A descriptive name for this view.|
     |Table|The table for which you want to define the view.|
-    |Default|Select if this is the first view you're defining or your only view.|
+    |Default|Select if this is the first view you are defining or your only view.|
     |Active|Select if this 360º view is active.|
     |Primary field and secondary field|The primary and secondary fields in the selected table to be used to display the title and secondary title of the main object, as illustrated.\[Omitted image "main-object.png"\] Alt text: Primary and secondary fields|
     |Description|A description of the 360º view.|
@@ -166,7 +166,7 @@ Multiple 360° Relationship views can be configured for a table. For example, th
 
     \[Omitted image "relationship-registry.png"\] Alt text: Relationship registries
 
-5.  Select **Select Relationships**.
+5.  Click **Select Relationships**.
 
 6.  On the form, fill in the fields.
 
@@ -245,7 +245,7 @@ Based on the **Order** value given the position of element in the 360º view wil
  For example, if you change the order value from 0 to 1 for an element, the position will be moved to next in the 360ºview.
 
 </td></tr></tbody>
-</table>7.  Select **Submit**.
+</table>7.  Click **Submit**.
 
     The new view you have defined is now available on the 360º view.
 

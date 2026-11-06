@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Manage onboarding of hardware products using Application Portfolio Management
@@ -28,4 +28,6 @@ You can view the following TRM-related information for a hardware product model 
 
 -   The TRM phase using the **TRM product phase** field on the **Details** tab of the hardware product model.
 -   TRM life-cycle information using the **TRM Product Lifecycles** related tab of the hardware product model.
+
+**Parent Topic:**[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/exploring-ham.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/configure-relationship-registries-views.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -80,7 +80,7 @@ Relationship
 
 </td><td>
 
-The relationship table of the selected relationship type. For example, if you are defining relationships for the Entity table and select a many-to-many relationship type, the list of relationship tables consists of all many-to-many relationships that apply to the Entity table.
+The relationship table of the selected relationship type. For example, if you are defining relationships for the Entity table and select a many-to-many relationship type, the list shows all applicable many-to-many relationships.
 
 </td></tr><tr><td>
 

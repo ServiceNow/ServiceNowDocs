@@ -7,7 +7,7 @@ release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -32,8 +32,6 @@ A list of default policies provided for scanning the cloud accounts.
 Access control lists \(ACLs\), groups, and roles in Cloud Account Management control how access permissions are organized and managed within a cloud environment.
 -   **[Permissions required for Azure Service Principal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/permissions-required-for-azure-service-principal.md)**  
 This table provides the permissions needed to create, close or cancel an Azure subscription, download billing details, and tag subscriptions.
--   **[Managing the Cloud Workspace asset details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/manage-cam-ci-details.md)**  
-This page allows the user to view, edit, and manage a comprehensive set of details of a cloud asset such as its attributes, its health, and its records.
 -   **[Cloud Asset Collection table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/cloud-asset-collection-table.md)**  
 Stores metadata of cloud assets collected from providers for IT operations.
 -   **[Cloud account details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/cloud-accounts-details.md)**  

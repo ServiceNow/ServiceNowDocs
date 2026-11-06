@@ -7,9 +7,9 @@ release: zurich
 product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Generative AI Controller, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Generative AI Controller, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Configuring Generative AI Controller
@@ -26,6 +26,8 @@ Generative AI Controller enables you to choose between several AI providers or a
 -   Google Vertex AI
 -   IBM watsonx
 -   Amazon Bedrock
+
+After you configure Generative AI Controller, activate and manage generative AI skills through the AI Admin Hub console to deliver generative AI capabilities to your users. For more information, see [Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/platai-generative-ai-skills.md).
 
 -   **[Configure API credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/generative-ai-controller/configuring-api-credentials-for-generative-ai-capabilities.md)**
 

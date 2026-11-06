@@ -7,9 +7,9 @@ release: zurich
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2025-12-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Workplace Reservations for Microsoft Outlook Add-in, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Use, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Delegate reservations in Microsoft Outlook add-in
@@ -58,10 +58,4 @@ Role required: admin
 
     \[Omitted image "delegate-fields-all-reservations-page.png"\] Alt text: Workplace Reservations page showing updated reservations for an employee. If you have provided delegate access, it shows the column values for the delegate and the organizer.
 
-
-**Parent Topic:**[Using Workplace Reservations for Microsoft Outlook Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/using-outlook-addin.md)
-
-**Previous topic:**[Edit reservation details in Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/outlook-edit-rsv.md)
-
-**Next topic:**[Analytics and Reporting Solutions for Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/analytics-reporting-for-rsv-mgmt.md)
 

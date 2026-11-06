@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/configure-customer-product-data-management.html
 release: zurich
 topic_type: task
-last_updated: "2025-10-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring order fulfillment, Order management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configure order fulfillment, Order management, Configure, Sales Customer Relationship Management]
 ---
 
 # Configure customer product data management
@@ -46,7 +46,7 @@ The following table lists the values that you can set for the sn\_ind\_tmt\_orm.
 7.  Select **Update**.
 
 
-**Parent Topic:**[Configuring order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-order-fulfillment.md)
+**Parent Topic:**[Configure order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-order-fulfillment.md)
 
 **Related topics**  
 

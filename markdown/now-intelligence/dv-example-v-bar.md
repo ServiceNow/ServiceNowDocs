@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/dv-example-v-bar.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Bar visualization examples, Horizontal and vertical bar visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -16,7 +16,7 @@ Vertical bar visualizations enable you to show the comparative size or frequency
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -54,7 +54,7 @@ Use the vertical bar visualization type to compare different categories or group
 
         When **Show header** is selected, you can add a title and a description. The chart title isn't necessarily the same as the visualization name. The visualization name identifies it in the Visualization Designer and in a list. The chart title appears within the visualization.
 
-    3.  Enter a description of the visualization: `CMDB outages grouped by when they began and stacked by type.`.
+    3.  Enter a description of the visualization: `CMDB outages grouped by when they began and stacked by type`.
 
         While the description and title fields aren't required, this information makes the visualization easier to understand on a dashboard and easier to identify in a list.
 
@@ -82,11 +82,9 @@ Use the vertical bar visualization type to compare different categories or group
 
         For example, if dashboard filters limit the value of the visualization, the icon indicates that you're seeing the number of open incidents that match the filters. You can then check to see which filters are in effect.
 
-    3.  Select **Enable drilldown** to let viewers navigate to relevant information by selecting a data point in the chart.
+    3.  Under Chart interaction, select **Allow chart interaction**.
 
-        Some visualizations only drill down to the list of associated data. Table data is generally restricted by access control lists \(ACLs\) and viewers may not see all of the associated records.
-
-        This control mirrors **Allow chart interaction**. Under Chart Interaction, you can also select the destination of drilling down.
+        From the Action menu, select **Drill down to chart** to let viewers navigate to relevant information by selecting a data point in the chart. Some visualizations only drill down to the list of associated data. Table data is generally restricted by access control lists \(ACLs\) and viewers may not see all of the associated records.
 
 8.  Chart variations show the data one of three different ways:
 

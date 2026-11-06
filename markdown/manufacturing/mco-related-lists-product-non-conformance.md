@@ -1,17 +1,17 @@
 ---
-title: Product non-conformance without playbook
+title: Product non-conformance
 description: In the workspace, you can use the product non-conformance related list to log the case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-related-lists-product-non-conformance.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [product non-conformance, related list, case task, root cause analysis, RCA, corrective actions, containment actions, Cost of Poor Quality, CoPQ, task SLA, Manufacturing Commercial Operations]
 breadcrumb: [Product non-conformance, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
-# Product non-conformance without playbook
+# Product non-conformance
 
 In the workspace, you can use the product non-conformance related list to log the case.
 
@@ -30,8 +30,14 @@ In the workspace, you can use the product non-conformance related list to log th
 Create a non-conformance case report for products that had an issue.
 -   **[Create a root cause analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-root-cause-analysis-task.md)**  
 Create a root cause analysis \(RCA\) to identify the underlying cause of an issue and implement effective, long-term solutions.
+-   **[Associating a task cause](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-task-cause-associations.md)**  
+Associate a cause to a RCA for the root cause analysis of the product non-conformance.
 -   **[Create a correction action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-correction-actions.md)**  
 Create a correction actions for the non-conformance report.
+-   **[Create a CoPQ expense line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-copq-expense-line.md)**  
+Create CoPQ \(Cost of Poor Quality\) expense line enables you to capture the actual costs incurred due to poor quality. These costs include rework, scrap, warranty claims, or customer returns.
+-   **[Impacted asset action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-impacted-asset-action.md)**  
+Create the list of assets that are impacted under non-conformance cases.
 -   **[Create a containment action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-containment-actions.md)**  
 Create a containment action report to address issues for the impacted assets.
 -   **[Create a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-create-work-order.md)**  
@@ -40,6 +46,8 @@ When off-site work is required, create a work order to provide field service age
 Create one or more Service Level Agreement \(SLA\) definitions and use them to create an SLA record. This SLA record enables you to use an SLA system for your organization's task.
 -   **[Create a parent-child relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-relationships.md)**  
 Create the relationship between parent and child and assign the type of relationship.
+-   **[Schedule a meeting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-schedule-meeting.md)**  
+Schedule a meeting from PNCC to coordinate follow-up actions with relevant stakeholders.
 
 **Parent Topic:**[Product non-conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-product-non-conformances.md)
 

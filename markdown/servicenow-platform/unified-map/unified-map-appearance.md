@@ -1,22 +1,22 @@
 ---
 title: Controlling Unified Map contents and appearance
-description: Controlling the contents and layout of a map can greatly assist with becoming familiar with and optimizing your CMDB. You can control which elements appear on the map, isolate and analyze relationships between CIs, and simplify the map to isolate issues.
+description: Manipulating the contents and layout of a map can greatly assist with envisioning and optimizing your CMDB. You can control which elements appear on the map, isolate and analyze relationships between CIs, and simplify the map to isolate issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/unified-map/unified-map-appearance.html
 release: zurich
 product: Unified Map
 classification: unified-map
 topic_type: reference
-last_updated: "2025-10-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Use, Unified Map, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Controlling Unified Map contents and appearance
 
-Controlling the contents and layout of a map can greatly assist with becoming familiar with and optimizing your CMDB. You can control which elements appear on the map, isolate and analyze relationships between CIs, and simplify the map to isolate issues.
+Manipulating the contents and layout of a map can greatly assist with envisioning and optimizing your CMDB. You can control which elements appear on the map, isolate and analyze relationships between CIs, and simplify the map to isolate issues.
 
-**Important:** This topic describes changes that you can make to your view of the map. The changes do not affect other users. In contrast, administrators can configure general settings that affect all users in the workspace, as described in [Configuring Unified Map — Admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/unified-map/administer-unified-map.md).
+**Important:** This topic describes changes that you can make to your view of the map. The changes do not affect other users. In contrast, administrators can configure general settings that affect all users in the workspace, as described in [Configuring Unified Map — admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/unified-map/administer-unified-map.md).
 
 ## Save a map as a PDF document
 
@@ -67,7 +67,7 @@ Configure a filter to display only pertinent items
 
 Select the Filter icon \[Omitted image "icon-um-filter.png"\]
 
- When a user applies a shared preset or a user preset, all filter settings are overridden. Filter attributes from a shared preset or a user preset that do not apply to the current map are listed in the **Unused filter attributes** section of the filter panel. The order of filter-setting precedence from the various sources is as follows:
+ When a user applies a shared preset or a user preset, all filter settings are overridden. Filter attributes from a shared preset or a user preset that don't apply to the current map are listed in the **Unused filter attributes** section of the filter panel. The order of filter-setting precedence from the various sources is as follows:
 
 1.  user presets
 2.  shared presets
@@ -130,7 +130,7 @@ Highlight the relationships between CIs
 
 </td><td>
 
-Move to a CI to animate the connections between CIs. Connected nodes are highlighted for a few seconds.
+Point to a CI to animate the connections between CIs. Connected nodes are highlighted for a few seconds.
 
  Two CIs might be connected by one or more relationships \(stored in the CI Relationship \[cmdb\_rel\_ci\] table\). For example, two CIs might be connected by the **Runs On::Runs**, **Depends On::Discovered From**, and by the **Owned By::Owns** relationships.
 

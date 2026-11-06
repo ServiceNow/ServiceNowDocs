@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [IRE support for non-CMDB tables, CMDB Identification and Reconciliation \(IRE\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ To use Identification and Reconciliation Engine \(IRE\) features with supported 
 
 ## Before you begin
 
-Role required: itil has read access, itil\_admin \(on top of itil\) has full access
+Role required: sn\_cmdb\_editor and itil have read access, sn\_cmdb\_admin and itil\_admin \(on top\) have full access
 
 ## About this task
 
@@ -174,7 +174,7 @@ A filter to narrow the set of records that will be searched for a matching recor
 
  Available only if the **glide.identification\_engine.enable\_identifier\_optional\_condition** system property is set to **true** \(**false** by default\). In the base system, identifier entries of various classes are pre-configured with advanced options conditions. All these pre-configured conditions in regular identifier entries will automatically apply when you set this property to **true**. Therefore, to prevent unexpected behavior, review those predefined conditions in regular identifier entries before setting this property to **true**.
 
- For more details about this property, see [Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/properties-id-reconciliation.md).
+ For more details about this property, see [Properties for Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/properties-id-reconciliation.md).
 
 </td></tr></tbody>
 </table>    **Note:** If criterion attributes have only two attributes and **sys\_class\_name** is one of them \(for example \[name, sys\_class\_name\], \[ip\_address, sys\_class\_name\]\), then the other attribute can't be NULL, even if **Allow null attribute** is enabled. This restriction is due to**sys\_class\_name** being considered a special system matching attribute.

@@ -7,7 +7,7 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -30,15 +30,15 @@ Role required: it\_project\_manager
 
 2.  Create task dependencies in one of the following ways.
 
-<table id="choicetable_qhm_kty_hsb"><thead><tr><th align="left" id="d195694e89">
+<table id="choicetable_qhm_kty_hsb"><thead><tr><th align="left" id="d209356e86">
 
 Option
 
-</th><th align="left" id="d195694e92">
+</th><th align="left" id="d209356e89">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d195694e98">
+</th></tr></thead><tbody><tr><td id="d209356e95">
 
 **From the data grid**
 
@@ -52,7 +52,7 @@ Use the dependency type-ahead feature.
 4.  Select the lag period to be applied to the dependency.
 
 
-</td></tr><tr><td id="d195694e124">
+</td></tr><tr><td id="d209356e121">
 
 **From the timeline view**
 
@@ -70,9 +70,9 @@ Draw a dependency line.
 
 ## What to do next
 
-You can edit the dependency. For more information, see [Update task dependency details in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/update-the-dependency-details-for-tasks-from-project-workspace.md).
+You can edit the dependency. For more information, see [Update task dependency details from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/update-the-dependency-details-for-tasks-from-project-workspace.md).
 
--   **[Update task dependency details in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/update-the-dependency-details-for-tasks-from-project-workspace.md)**  
+-   **[Update task dependency details from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/update-the-dependency-details-for-tasks-from-project-workspace.md)**  
 Update the details of the dependency including its type and lag time from Project Workspace.
 
 **Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/use-projects-pw.md)

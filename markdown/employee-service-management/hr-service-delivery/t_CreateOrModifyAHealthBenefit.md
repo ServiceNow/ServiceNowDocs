@@ -1,5 +1,5 @@
 ---
-title: Enroll in a health plan
+title: Enroll an employee in a health plan
 description: As an employee, you can submit a question about or enroll in a company health plan such as medical, dental, or vision from the Employee Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/t\_CreateOrModifyAHealthBenefit.html
@@ -7,12 +7,12 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use HR Profile, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [HR Profile, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
-# Enroll in a health plan
+# Enroll an employee in a health plan
 
 As an employee, you can submit a question about or enroll in a company health plan such as medical, dental, or vision from the Employee Center.
 
@@ -41,5 +41,5 @@ Alternatively, a manager can submit an enrollment request by opening an HR case:
     The system creates an HR case and assigns it to the configured HR person. View the status of your request from the **My Requests** tab.
 
 
-**Parent Topic:**[Use HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)
+**Parent Topic:**[HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)
 

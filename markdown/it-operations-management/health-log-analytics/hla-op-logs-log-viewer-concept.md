@@ -1,20 +1,21 @@
 ---
 title: Review alert-related logs on the Log Viewer
-description: The Log Viewer tab lets you browse the logs for an alert by timestamp or time range, and visualize anomaly frequency within a specific time period. Customizing the displayed data and adjusting time filters enables you to better understand the framework in which the anomaly occurred, helping you find the root cause faster.
+description: The Log Viewer tab in Health Log Analytics lets you browse the logs for an alert by timestamp or time range, and visualize anomaly frequency within a specific time period. Customizing the displayed data and adjusting time filters enables you to better understand the framework in which the anomaly occurred, helping you find the root cause faster.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-op-logs-log-viewer-concept.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+keywords: [Log Viewer, alert logs, anomaly frequency, root cause analysis, time filtering, log data visualization, search queries, log analysis, alert investigation, log filtering]
 breadcrumb: [Analyzing and resolving alerts, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # Review alert-related logs on the Log Viewer
 
-The **Log Viewer** tab lets you browse the logs for an alert by timestamp or time range, and visualize anomaly frequency within a specific time period. Customizing the displayed data and adjusting time filters enables you to better understand the framework in which the anomaly occurred, helping you find the root cause faster.
+The **Log Viewer** tab in Health Log Analytics lets you browse the logs for an alert by timestamp or time range, and visualize anomaly frequency within a specific time period. Customizing the displayed data and adjusting time filters enables you to better understand the framework in which the anomaly occurred, helping you find the root cause faster.
 
 The Log Viewer presents all data connected with the Log Analytics alert. It shows the query that relates to the anomaly, the selected component, and the appropriate time filter. You can personalize the displayed data, and manually adjust the time range without affecting the other settings. The applied filters appear in the **Filters** pane. You can add or remove filters as needed to show only the data you want to view.
 
@@ -24,23 +25,23 @@ As you analyze the logs for an alert on the **Log Viewer**, you can modify the q
 
 You can perform the following tasks on the **Log Viewer**:
 
--   [View log data for an alert in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-logs-log-viewer-sow.md)
+-   [View log data for an alert in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-logs-log-viewer-sow.md)
 
     View a chart of the frequency of anomalous log lines and the associated log data.
 
--   [Define, save, and share a log data search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-search-queries-manage-sow.md)
+-   [Define, save, and share a log data search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-search-queries-manage-sow.md)
 
     Fine-tune the search query to help determine the causes of the issue, and save and share useful searches.
 
--   [Use or modify a saved log data search in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-search-queries-saved-sow.md)
+-   [Use or modify a saved log data search in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-search-queries-saved-sow.md)
 
     Use a saved search. As the owner of a saved search, you can modify the search values and save your changes.
 
--   [Filter search results on the Log Viewer in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-log-viewer-filter-sow.md)
+-   [Filter search results on the Log Viewer in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-log-viewer-filter-sow.md)
 
     Apply filters to show only the data you want to view.
 
--   [Customize the Log Viewer table in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-log-viewer-table-sow.md)
+-   [Customize the Log Viewer table in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-log-viewer-table-sow.md)
 
     Add or remove columns in the table to show only the data you want to view.
 

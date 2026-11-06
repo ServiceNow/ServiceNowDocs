@@ -7,7 +7,7 @@ release: zurich
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Digital Product Release, IT Service Management]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_dpr\_model.product\_manager
 
 Watch the following video to learn how release planning in Digital Product Release helps you define the scope of a release.
 
-\[Omitted video\] Description: Video showing how to plan digital product releases, define scope, set timelines, and configure phases in the Digital Product Release Workspace.
+\[Omitted video\] Description: Release planning in Digital Product Release.
 
 **Note:** When a Plan Version from the DevOps data model is mapped to a Software Model in DPR, any Work Items associated with that Plan Version get automatically listed in the Release scope page. If a work item is associated with a product enhancement, it shows as a child under that product enhancement in the list. You can track these work items on the Release scope page of the release.
 
@@ -44,5 +44,5 @@ The mappings between plan versions and software models are stored in the Plan Ve
 
     -   [Add a product feature to a product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-create-product-feature.md)
     -   [Add an enhancement to a product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-create-product-enhancement.md)
-    -   [Add a product enhancement from an epic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-add-product-enhancement-from-epic.md)
+    -   [Add a product enhancement from a work item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-add-product-enhancement-from-epic.md)
 

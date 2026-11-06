@@ -1,16 +1,16 @@
 ---
-title: Activate business locations
+title: Activate the Business Location plugin
 description: Activate the Business Location plugin to manage customer service for business locations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/activate-business-location.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-10-04"
 reading_time_minutes: 1
-breadcrumb: [Activating plugins for Customer Service Management \(CSM\), Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
+breadcrumb: [Activate plugins, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
-# Activate business locations
+# Activate the Business Location plugin
 
 Activate the Business Location plugin to manage customer service for business locations.
 
@@ -34,5 +34,5 @@ The Business Location plugin \(com.snc.business\_location\) enables support for 
 **Related topics**  
 
 
-[Activate customer service household](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/activate-customer-service-household.md)
+[Activate customer household data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/activate-customer-service-household.md)
 

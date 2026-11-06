@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/create-business-object-group-define-entity-relationship.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Lead-to-Cash Process Management, Order operations apps, Configure, Sales Customer Relationship Management]
 ---
@@ -90,4 +90,11 @@ Role required: Business object writer \[sn\_bo\_core.business\_object\_writer\]
 ## Result
 
 Business object group and business object types are available in Business process and Business entity lists respectively in the Create new sales process record form in the CRM Workspace.
+
+**Related topics**  
+
+
+[Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-lead-cash-process-management.md)
+
+[Using Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-lead-cash-process-management.md)
 

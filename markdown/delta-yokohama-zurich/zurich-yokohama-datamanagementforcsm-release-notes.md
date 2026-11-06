@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-datamanagementforcsm-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 15
 breadcrumb: [Products combined by family]
 ---
@@ -189,9 +189,9 @@ Added new granular roles with the sn\_install\_base.install\_base\_admin admin r
 These roles provide you with more control over administrative tasks like read, write, create, delete, data view, and case view related to install base and sold product related entities.
 
 
- -   **CPQ integration with MACD workflows**
+ -   **ServiceNow CPQ integration with MACD workflows**
 
-Introduced new data model changes to enable CPQ configurator usage for MACD workflows.
+Introduced new data model changes to enable ServiceNow CPQ configurator usage for MACD workflows.
 
 
  -   **Using [CSM Data Classification application](https://www.servicenow.com/docs/access?context=using-csm-data-classification&family=zurich&ft:locale=en-US)**

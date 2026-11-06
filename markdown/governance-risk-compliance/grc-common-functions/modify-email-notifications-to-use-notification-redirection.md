@@ -7,9 +7,9 @@ release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-02-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, GRC notification redirection, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [GRC notification redirection, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Modify email notifications to use notification redirection
@@ -46,7 +46,7 @@ To enable redirection for a notification, replace the standard URL variables wit
 
 When users select links in the modified notification, the system automatically directs them based on their workspace access. If they have workspace access, they're directed to workspace view. If they don't have workspace access, they're directed to classic view.
 
-**Parent Topic:**[Configure GRC notification redirection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/configure-email-notification-redirection.md)
+**Parent Topic:**[GRC notification redirection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/email-notification-redirection.md)
 
 **Related topics**  
 

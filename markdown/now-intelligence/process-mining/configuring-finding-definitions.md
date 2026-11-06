@@ -7,9 +7,9 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a project using Classic view, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Create a project using Classic view, Use, Process Mining, Platform Analytics]
 ---
 
 # Configuring improvement opportunities
@@ -29,7 +29,7 @@ Rule-based improvement opportunities are created where you can change the table 
 
 Automated improvement opportunities are simpler to create. The process is short and can be completed in a few steps.
 
-For more information on creating finding definitions, see [Setting improvement opportunities from Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/impr-opp-classic-project.md).
+For more information on creating finding definitions, see [Setting improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/working-with-imp-opp.md).
 
 **Parent Topic:**[Create a project using Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/create-proj.md)
 

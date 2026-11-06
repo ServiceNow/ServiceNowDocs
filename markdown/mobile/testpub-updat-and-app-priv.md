@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/testpub-updat-and-app-priv.html
 release: zurich
 topic_type: task
-last_updated: "2026-08-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Update a branded app, Request, test, &amp; publish, Custom branded apps, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -48,7 +48,7 @@ Role required: admin
     -   For information about ServiceNow® mobile apps version history and changes, see:
         -   Now Mobile
         -   ServiceNow Agent
-    -   Update your app before you update your ServiceNow family version, or at least once per year to keep your push notifications working and to leverage the most up to date ServiceNow mobile features. For more information, see [Tested devices and supported versions for ServiceNow mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/mobile-supported-devices.md).
+    -   Update your app before you update your ServiceNow family version, or at least once per year to keep push notifications working. For the latest ServiceNow mobile features and supported devices, see [Tested devices and supported versions for ServiceNow mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/mobile-supported-devices.md).
 
 **Parent Topic:**[Update a branded app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/update-branded-app.md)
 

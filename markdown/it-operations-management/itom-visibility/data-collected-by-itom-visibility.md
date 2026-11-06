@@ -7,7 +7,7 @@ release: zurich
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
 breadcrumb: [ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---

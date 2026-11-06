@@ -7,7 +7,7 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure HR Success Dashboard indicators, HR Success Dashboard indicators, HR Service Delivery, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ Install the HR Success Dashboard indicators application to get performance and s
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Install the following plugins before installing the HR Success Dashboard indicators application.
     -   Performance Analytics - Content Pack - Human Resources Scoped App \(com.sn\_hr\_pa\)
     -   Performance Analytics - Premium \(com.snc.pa.premium\)

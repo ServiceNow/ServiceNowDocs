@@ -7,9 +7,9 @@ release: zurich
 product: Cost Management
 classification: cost-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Cost overview module, Cost Management, Strategic Portfolio Management]
+breadcrumb: [Activate Cost Management, Cost Management, Strategic Portfolio Management]
 ---
 
 # Cost overview module roles
@@ -25,5 +25,5 @@ Only certain roles can customize Cost Overview modules. In addition to viewing, 
 |procurement\_user|View|
 |sam|View|
 
-**Parent Topic:**[Cost overview module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/cost-management/c_CostOverviewModule.md)
+**Parent Topic:**[Activate Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/cost-management/t_ActivatingCostManagement.md)
 

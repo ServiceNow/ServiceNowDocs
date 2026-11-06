@@ -7,9 +7,9 @@ release: zurich
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2026-06-09"
-reading_time_minutes: 2
-breadcrumb: [Manage and configure reservation waitlist, Manage reservations, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Manage and configure reservation waitlist, Reserve workplace items, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Purge a waitlist
@@ -65,10 +65,6 @@ Waitlist entries that are cancelled, expired, or fulfilled are purged automatica
 
 **Related topics**  
 
-
-[Reservation Waitlist data model]()
-
-[Create a reservation waitlist]()
 
 [Create a schedule job for waitlist]()
 

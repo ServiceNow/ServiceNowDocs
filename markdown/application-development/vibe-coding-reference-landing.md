@@ -5,17 +5,17 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/vibe-coding-reference-landing.html
 release: zurich
 topic_type: concept
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [reference]
-breadcrumb: [Agentic development, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
+breadcrumb: [Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Agentic development reference
 
 Find reference material for agentic development on the ServiceNow AI Platform, including a list of tools and prompt examples.
 
--   **[ServiceNow Now Assist skills: Developer-oriented list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/vibe-coding-skills-list-2.md)**  
+-   **[ServiceNow Otto skills: Developer-oriented list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/vibe-coding-skills-list-2.md)**  
 The ServiceNow AI Platform offers a range of skills that support efficiency in each development workflow.
 -   **[Example prompts for agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/vibe-coding-example-prompts.md)**  
 Use these example prompts to build data models, implement security, create business rules, and generate user interfaces when building an app with ServiceNow AI Platform agentic development tools.

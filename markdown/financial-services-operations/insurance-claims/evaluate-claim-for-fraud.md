@@ -7,9 +7,9 @@ release: zurich
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, Commercial Lines Claims, Claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Commercial Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Evaluate a commercial claim for fraud
@@ -34,7 +34,7 @@ When business rule logic identifies a claim case as a 'close proximity' claim- a
 
 3.  Open the task from the special investigation tasks list.
 
-<table id="choicetable_bn1_2hs_25b"><tbody><tr><td id="d59191e94">
+<table id="choicetable_bn1_2hs_25b"><tbody><tr><td id="d62887e94">
 
 **From the Special Investigation tasks list**
 

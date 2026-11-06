@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-09-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Company events, Creating employee communications, Manage, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Company events, Creating employee communications, Authoring and managing employee communications, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Create a company event
@@ -41,9 +41,9 @@ The company event content type is built using the Rich Content Editor and publis
 
     |Field|Description|
     |-----|-----------|
-    |Event content record name|The name that describes the content you’re creating.|
-    |Order|The order in which the event appears in a widget. An event with a smaller value appears first.|
-    |Active|Indicates that the content is active and available for use.|
+    |Event content record name|The name that describes the content you are creating.|
+    |Order|The order in which the event appears in a widget. An event with a lesser value appears first.|
+    |Active|Indicates the content is active and available for use.|
 
 <table id="table_g3n_mv2_ggc"><thead><tr><th>
 
@@ -67,7 +67,7 @@ Event start date and time
 
 </td><td>
 
-The date and time when the article becomes available for viewing on the portal.**Note:** The article becomes visible to specific users on a set date, based on the published plan configurations.
+The date and time when the article becomes available for viewing on the portal.**Note:** The article becomes visible to specific users on a set date, based on the publish plan configurations.
 
 </td></tr><tr><td>
 
@@ -84,14 +84,6 @@ Optimize performance for high traffic volume
 </td><td>
 
 Supports an audience of up to 10,000 viewers.
-
-</td></tr><tr><td>
-
-Surge modal redirect
-
-</td><td>
-
-Handles high concurrency events on the employee portal home page by showing a pop-up modal if there’s a live company event.
 
 </td></tr></tbody>
 </table><table id="table_wlv_5v2_ggc"><thead><tr><th>
@@ -124,7 +116,7 @@ Featured image
 
 </td><td>
 
-The image that appears in the company event and as a thumbnail in the News feed widget in the Employee Center Pro.4:3 ratio for images is recommended.
+The image that will appear in the company event and as a thumbnail in the News feed widget in the Employee Center Pro.We recommend a 4:3 ratio for images.
 
 </td></tr><tr><td>
 
@@ -140,7 +132,7 @@ Content template \(Optional\)
 
 </td><td>
 
-Option to use a preconfigured template that provides a content layout and generates a publish plan. See [Content templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-content-templates.md).
+Option to use a preconfigured template which provides a content layout and generates a publish plan. See [Content templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-content-templates.md).
 
 </td></tr><tr><td>
 
@@ -156,28 +148,23 @@ Social engagement settings
 
 </td><td>
 
-If the Content Admin enabled social engagement, the following settings appear in the form to enable employees to engage with the event:-   Enable comments
--   Enable reactions
+If the Content Admin enabled social engagement, the following settings appear in the form to allow employees to engage with the event:-   Allow comments
+-   Allow reactions
 -   Show page view count
 
 
 </td></tr></tbody>
-</table>6.  Select **Save and continue** to proceed to publishing the event.
+</table>6.  Click **Save and continue** to proceed to publishing the event.
 
-    If you change the Content template after saving the Company event, the system deletes the auto-generated publish plans and generates new plans according to the newly selected Content template.
+    If you change the Content template after saving the Company event, the system deletes the auto-generated publish plans and generates new plans per the newly-selected Content template.
 
-    You’re redirected to the **Publish** tab.
+    You are redirected to the **Publish** tab.
 
 
 ## What to do next
 
--   Review how the event appears in the portal by selecting **Preview on portal**.
+-   Review how the event will appear in the portal by clicking **Preview on portal**.
 -   [Publish the company event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-publish-company-events.md)
 
 **Parent Topic:**[Company events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-company-events.md)
-
-**Related topics**  
-
-
-[Surge Modal Redirect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec_home_surge_modal_redirect.md)
 

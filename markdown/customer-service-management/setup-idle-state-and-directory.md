@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/setup-idle-state-and-directory.html
 release: zurich
 topic_type: task
-last_updated: "2025-10-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up the Voice Controls Simulator tool, Voice Controls Simulator tool, Integrating with contact centers, Integrate, Customer Service Management]
+breadcrumb: [Set up the Voice Controls Simulator tool, Voice Controls Simulator tool, Enable ICC for CCaaS calls and callbacks, Configure voice, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Setting idle state
@@ -33,6 +33,8 @@ Role required: admin
 4.  Use the **Edit** icon to update entries.
 
     By default, the **Outbound call**, **Logout**, and **Phone directory** options are enabled. You can clear any options as needed. See [Configuring Transfer capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-transfer-capability.md).
+
+    When you have the **Outbound call** feature enabled in the simulator, a system notification displays stating that outbound calls create new Interactions.
 
 5.  Select **Save and continue** to set the chosen options that opens the Global call window with the updated values.
 

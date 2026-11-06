@@ -7,9 +7,9 @@ release: zurich
 product: Time Configuration
 classification: time-configuration
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Resolve time, Task fields for measuring work time, Default date and time fields, Date and Date/Time fields, Explore, Time configuration, Configure core features, Administer]
+breadcrumb: [Resolve time, Task fields for measuring work time, Default date and time fields, Date and Date/Time fields, Explore, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Display resolve time as a duration

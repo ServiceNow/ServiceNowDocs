@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage hardware asset repair tasks, Manage hardware asset tasks using the Mobile Agent application, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage hardware asset repair tasks using the Mobile Agent application, Manage hardware asset tasks using the Mobile Agent application, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Close a hardware asset repair task using the Mobile Agent application
@@ -48,15 +48,15 @@ You can close any task that belongs to the following task types:
 
 7.  On the Repair task input form screen, enter the result of your task.
 
-<table id="choicetable_g14_wv2_yxb"><thead><tr><th align="left" id="d41299e174">
+<table id="choicetable_g14_wv2_yxb"><thead><tr><th align="left" id="d43559e168">
 
 Task
 
-</th><th align="left" id="d41299e177">
+</th><th align="left" id="d43559e171">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d41299e183">
+</th></tr></thead><tbody><tr><td id="d43559e177">
 
 **Troubleshoot asset**
 
@@ -67,7 +67,7 @@ In the **Troubleshoot result** field, select any of the following:-   **Repairab
 -   **Redeployable**
 
 
-</td></tr><tr><td id="d41299e209">
+</td></tr><tr><td id="d43559e203">
 
 **Repair asset**
 
@@ -78,7 +78,7 @@ In the **Repair result** field, select any of the following: -   **Repaired**
 -   **Redeployable**
 
 
-</td></tr><tr><td id="d41299e235">
+</td></tr><tr><td id="d43559e229">
 
 **Evaluate asset**
 

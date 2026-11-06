@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/registering-ot-sensor.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure the Discovery Sensor for OT, Discovery Sensor for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Configure the Discovery Sensor for OT, Discovery Sensor for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Register the Discovery Sensor for OT
@@ -34,7 +34,7 @@ Confirm you that you have installed the Sensor. You must register the Sensor to 
 
     Be sure to make a note of the DMI URL displayed after the Sensor is installed. You can use this URL for the DMI. This image shows the DMI URL as https://172.16.241.131:443.
 
-    \[Omitted image "image.dmi-url"\] Alt text: DMI URL
+    \[Omitted image "dmi-url.png"\] Alt text: DMI URL
 
 2.  In the DMI, log in using your credentials.
 
@@ -88,4 +88,6 @@ Confirm you that you have installed the Sensor. You must register the Sensor to 
 ## Result
 
 The Sensor and the Console can now communicate and generate queries.
+
+**Parent Topic:**[Configure the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/configure-discovery-sensor-ot.md)
 

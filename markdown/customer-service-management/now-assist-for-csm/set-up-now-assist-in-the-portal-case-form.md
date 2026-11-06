@@ -111,5 +111,5 @@ AI in the portal case form is now configured.
 **Related topics**  
 
 
-[Using generative AI in portal case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/using-ai-search-with-q-a-within-the-portal-form.md)
+[Using Now Assist in portal case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/using-ai-search-with-q-a-within-the-portal-form.md)
 

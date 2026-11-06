@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/associate-criteria-remote-catalog.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Service Exchange Order Management for Providers, Order Management for providers with Service Exchange, Integrate, Sales Customer Relationship Management]
 ---
@@ -16,13 +16,13 @@ In the provider instance, associate the appropriate consumer criteria to the rem
 
 ## Before you begin
 
-By default remote record producers are available to all consumers. If you have specific criteria for certain users, define the consumer criteria for Service Exchange those users. For more information, see [Creating entitlements in Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-exchange/service-bridge-v2-entitlements.md).
+By default remote record producers are available to all consumers. If you have specific criteria for certain users, define the consumer criteria for Service Exchange users. For more information, see [Creating entitlements in Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-exchange/service-bridge-v2-entitlements.md).
 
-Role required: sn\_sb.Admin or admin
+Role required: sn\_sb.admin or admin
 
 ## Procedure
 
-1.  In your provider instance, navigate to **All** &gt; **Service Bridge Provider** &gt; **Administration** &gt; **Remote Catalog Items**.
+1.  In your provider instance, navigate to **All** &gt; **Service Exchange Provider** &gt; **Administration** &gt; **Remote Catalog Items**.
 
 2.  Select the remote record producer for the product offering or service specification that your product catalog admin or manager created.
 

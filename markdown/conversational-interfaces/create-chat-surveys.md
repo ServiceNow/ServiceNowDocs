@@ -1,19 +1,17 @@
 ---
-title: Create chat surveys
+title: \(Legacy\) Create chat surveys
 description: Use Survey Designer to build conversational questionnaires for gathering pre-chat information and post-chat feedback from end users. These questionnaires run in the chat client for Virtual Agent and Agent Chat.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/create-chat-surveys.html
 release: zurich
-product: Conversational Interfaces
-classification: conversational-interfaces
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Survey Designer, Virtual Agent, Agent Chat, surveys, questionnaires, pre-chat, post-chat]
-breadcrumb: [General chat settings, Configuring Conversational Interfaces, Conversational Interfaces Console, Conversational Interfaces]
+breadcrumb: [General chat settings, Conversational Interfaces Home for NLU, Configure NLU, \(Legacy\) Virtual Agent for NLU, Conversational Interfaces]
 ---
 
-# Create chat surveys
+# \(Legacy\) Create chat surveys
 
 Use Survey Designer to build conversational questionnaires for gathering pre-chat information and post-chat feedback from end users. These questionnaires run in the chat client for Virtual Agent and Agent Chat.
 
@@ -83,6 +81,4 @@ The survey controls map to corresponding Virtual Agent Designer input controls t
 ## What to do next
 
 Define the pre-chat and post-chat survey configurations that control the surveys to be presented to your requesters.
-
-**Parent Topic:**[General chat settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/ci-configuring-chat-features.md)
 

@@ -1,19 +1,19 @@
 ---
 title: View fixes in USEM Workspace
-description: Open the Fix list and form in Unified Security Exposure Management Workspace to review the fixes that Fix Intelligence for SEM has identified, and see the findings and assets each one resolves.
+description: Review the fixes that Fix Intelligence for SEM has identified, and see the findings and assets each one resolves. A Fix record represents a single remediation action that resolves one or more findings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/view-fixes-in-workspace.html
 release: zurich
 topic_type: task
-last_updated: "2026-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [view fixes, Security Exposure Management Workspace, Fix list]
-breadcrumb: [Use, Fix Intelligence for Security Exposure Management, Integrations, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Use, Fix Intelligence for Security Exposure Management, Integrate, Unified Security Exposure Management, Security Operations]
 ---
 
 # View fixes in USEM Workspace
 
-Open the Fix list and form in Unified Security Exposure Management Workspace to review the fixes that Fix Intelligence for SEM has identified, and see the findings and assets each one resolves.
+Review the fixes that Fix Intelligence for SEM has identified, and see the findings and assets each one resolves. A Fix record represents a single remediation action that resolves one or more findings.
 
 ## Before you begin
 
@@ -21,7 +21,8 @@ Role required: `sn_vul_fix.read`, or a Vulnerability Response role that contains
 
 Prerequisites:
 
--   ServiceNow Support has configured the Armis Centrix™ for ViPR integration, and at least one sync has completed. See [Install Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/install-fix-intel.md).
+-   Install Fix Intelligence for SEM. See [Install Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/install-fix-intel.md).
+-   Install the Unified Exposure Pipeline application.
 
 ## About this task
 

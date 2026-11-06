@@ -7,7 +7,7 @@ release: zurich
 product: \[Legacy\] Retail Task Management
 classification: legacy-retail-task-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Retail Task Management, Retail]
 ---
@@ -66,7 +66,7 @@ Case creation entity
 
 Specifies which field should create multiple cases.
 
- Select **Service Organization**.
+ Select **Organization Core**.
 
 </td></tr></tbody>
 </table>4.  Select **Save**.

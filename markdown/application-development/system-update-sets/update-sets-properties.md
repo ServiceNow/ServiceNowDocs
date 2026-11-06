@@ -7,9 +7,9 @@ release: zurich
 product: System Update Sets
 classification: system-update-sets
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, System update sets, Deploying applications, Building applications]
+breadcrumb: [Reference, System update sets, Deploying applications, Classic app development, Building applications]
 ---
 
 # Update sets properties
@@ -49,4 +49,5 @@ Grant access to the update set picker: By default, only administrators can use t
 -   Location: System Property \[sys\_properties\] table
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Update sets reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/update-sets-reference.md)
+

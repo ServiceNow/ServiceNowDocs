@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/case-action-status-triggers.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Administering case action status, Administer, Customer Service Management]
+breadcrumb: [Case action status, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Actionable case flows
@@ -63,6 +63,4 @@ The case action status feature provides the following flows for customer service
 If a problem is associated with a case with the **Need task resolution** blocking reason, a case flow is provided to resolve the blocking task when a fix is communicated or the problem record is closed or cancelled.
 
 If a problem is associated with a case with the **Need PRB workaround** blocking reason, a case flow is provided to resolve the blocking task when a workaround is provided or the problem record is closed or cancelled.
-
-**Parent Topic:**[Administering case action status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-service-case-action-status.md)
 

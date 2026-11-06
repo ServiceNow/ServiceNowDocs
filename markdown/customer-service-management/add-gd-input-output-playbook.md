@@ -1,18 +1,18 @@
 ---
 title: Add Guided Decision with inputs/outputs to Playbook
-description: Add the Guided Decision with Inputs and Outputs activity in the Guided Decisions Experience application to your playbook to pass input parameters to a decision tree and use its output values in subsequent playbook activities or conditions, helping agents resolve cases more efficiently.
+description: Add decision trees created using the Guided Decision with Inputs and Outputs activity in the Guided Decisions Experience application to a playbook, so customer service agents can work through it to resolve cases more efficiently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/add-gd-input-output-playbook.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring guidances and decision trees, Guided Decisions configuration, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Add Guided Decision with inputs/outputs to Playbook
 
-Add the Guided Decision with Inputs and Outputs activity in the Guided Decisions Experience application to your playbook to pass input parameters to a decision tree and use its output values in subsequent playbook activities or conditions, helping agents resolve cases more efficiently.
+Add decision trees created using the Guided Decision with Inputs and Outputs activity in the Guided Decisions Experience application to a playbook, so customer service agents can work through it to resolve cases more efficiently.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: admin, pd\_content\_author
 
 ## About this task
 
-The Guided Decision with Inputs and Outputs activity is a playbook activity that enables decision trees to be used in playbooks with the ability to pass input parameters and retrieve output values. This Guided Decision with Inputs and Outputs activity allows you to select a specific decision tree version and configure input parameters that map to the questions defined in the first node of the decision tree. The activity supports versioning, where each activation of the decision tree builder creates a new version, and playbook activities continue using their configured version until updated. When a decision tree is activated to create a new version, you receive a notification message listing all playbooks and activities that reference the decision tree, with direct links to facilitate version updates.
+The Guided Decision with Inputs and Outputs activity is a playbook activity that enables decision trees to be used in playbooks with the ability to pass input parameters and retrieve output values. This activity allows you to select a specific decision tree version and configure input parameters that map to the questions defined in the first node of the decision tree. The activity supports versioning, where each activation of the decision tree builder creates a new version, and playbook activities continue using their configured version until manually updated. When a decision tree is activated to create a new version, you receive a notification message listing all playbooks and activities that reference the decision tree, with direct links to facilitate version updates.
 
 For more details on playbooks for Customer Service Management, see [Playbooks for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-service-case-playbooks.md).
 
@@ -83,7 +83,7 @@ Start rule
 Defines when to start the process the activity. Select one of the following:-   When stage starts: Your stage starts running as soon as the playbook starts.
 -   After specific activities: Your stage starts running after specified stage\(s\) have finished running.
 
-Starts after:
+Starts after
 
 </td></tr><tr><td>
 
@@ -113,7 +113,7 @@ Defines how the activity runs when the playbook is restarted. -   Skip on restar
 
 
 </td></tr></tbody>
-</table>6.  In the Automation tab, fill in the following fields.
+</table>6.  In the Automation tab, fill in the following fields and select **Save and close** button.
 
 <table id="table_rqy_cbj_c3c"><thead><tr><th>
 
@@ -170,7 +170,12 @@ Outputs of the action, subflow, or flow that is driving the activity.
 </td></tr></tbody>
 </table>    **Note:** The activity provides a refresh capability that allows you to update to the latest decision tree version while preserving existing input mappings and adding any new input fields that were introduced in the newer version.
 
-7.  Select **Save and close**.
+7.  In the UI Layout tab for knowledge articles, fill in the following fields and select **Save and control**.
+
+    |Field|Description|
+    |-----|-----------|
+    |Article height|Default height of the article.|
+    |Collapse knowledge article|When selected, the article appears collapsed in the playbook.|
 
 8.  In the main header, select **Activate**.
 
@@ -179,7 +184,7 @@ Outputs of the action, subflow, or flow that is driving the activity.
 
 ## Result
 
-The decision tree is added to the playbook. Depending on the context of the case, customer service agents can access the decision trees from cases on Agent Workspace.
+The decision tree is added to the playbook. Depending on the context of the case, customer service agents can access the decision trees from cases on Agent Workspace. An agent can restart this activity by selecting the **Restart Activity** option in a playbook. For more information on how to restart an activity, see [Restart a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/restart-a-playbook.md).
 
 **Related topics**  
 

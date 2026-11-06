@@ -7,9 +7,9 @@ release: zurich
 product: Project Management
 classification: project-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Applying templates to projects, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Applying templates to projects, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Project template configuration

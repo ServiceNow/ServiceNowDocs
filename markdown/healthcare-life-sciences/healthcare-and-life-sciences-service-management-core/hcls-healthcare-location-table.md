@@ -7,7 +7,7 @@ release: zurich
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data model tables, Reference, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -24,9 +24,9 @@ The Healthcare Location \[sn\_hcls\_location\] table provides the ability to map
 -   Maps with devices via the Medical device install base item \[sn\_hcls\_medical\_device\_install\_base\_item\] table.
 -   Maps with practitioners via the Practitioner location \[sn\_hcls\_practitioner\_facility\] table.
 -   Contains the Location field, which references the common location \[cmn\_location\] table.
--   To associate healthcare locations with healthcare organizations, see [Associate healthcare locations with a healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-sm-associate-healthcare-locations-organization.md).
+-   To associate healthcare locations with healthcare organizations, see [Associate healthcare locations with a healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-operations-core/hcls-sm-associate-healthcare-locations-organization.md).
 
-For more information on how healthcare locations and healthcare organizations function, see [Setting up healthcare locations and healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/understanding-healthcare-locations-and-healthcare-organizations.md).
+For more information on how healthcare locations and healthcare organizations function, see [Setting up healthcare locations and healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-operations-core/understanding-healthcare-locations-and-healthcare-organizations.md).
 
 Role required to configure the table: sn\_hcls.admin.
 

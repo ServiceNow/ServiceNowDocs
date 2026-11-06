@@ -1,17 +1,17 @@
 ---
-title: Edit an existing application using Build Agent
+title: Edit an existing application using Build Agent default mode
 description: Use natural language prompts to modify an existing application in Build Agent. You can describe changes in plain language and review, refine, and approve updates before the application is built and installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/edit-an-existing-application-using-build-agent.html
 release: zurich
 topic_type: task
-last_updated: "2026-08-19"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
+breadcrumb: [Use, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
-# Edit an existing application using Build Agent
+# Edit an existing application using Build Agent default mode
 
 Use natural language prompts to modify an existing application in Build Agent. You can describe changes in plain language and review, refine, and approve updates before the application is built and installed.
 
@@ -91,9 +91,7 @@ The application is built and installed.
 
 ## What to do next
 
-Review the application and its metadata in ServiceNow Studio using the change log. For more information, see [Checkpoints and conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-conversational-change-log.md). You can also review the application using the File Navigator in ServiceNow Studio. For more information, see [Find an app or app file using the Navigator panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/qs-find-app-app-file-using-navigator-panel.md).
-
-When you're ready, deploy the app. For more information, see [Deploying what you built with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-deployment.md).
+For information on deploying your application, see [Deploying what you built with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-deployment.md).
 
 If you want to view source code, open the ServiceNow IDE within ServiceNow Studio and select the **Explorer** view from the Navigator panel. The ServiceNow Fluent application code and other source code in the `src` directory appears.
 

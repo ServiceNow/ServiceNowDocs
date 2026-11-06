@@ -46,11 +46,7 @@ The field map is added to the SG-OT Excel Pre Import \[sn\_otsm\_sgc\_sg\_ot\_ex
 
 ## What to do next
 
-Upload an updated Microsoft Excel spreadsheet to populate the custom column. For more information, see the following tasks:
-
--   [Create an import task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/create-import-task-excel-sgc.md)
--   [Validate imported staging records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/run-validations.md)
--   [Trigger a CMDB import for valid staging records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/trigger-cmdb-import.md)
+Complete the custom column import by uploading a Microsoft Excel spreadsheet with the custom column data. For more information, see [Complete the custom column import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/complete-custom-column-import-sgc-excel.md).
 
 **Parent Topic:**[Add a custom column to the staging table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-manager/add-custom-column-staging-table.md)
 

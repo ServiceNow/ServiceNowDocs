@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Activity definitions, Stages and activities, Building playbooks, Use, Workflow Studio, Build workflows]
+breadcrumb: [Activity definitions, Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Create an action as an activity automation plan
@@ -21,7 +21,7 @@ Create an example action to configure and run as an activity from Playbooks.
 Role required:
 
 -   This task requires some knowledge of creating flows in Workflow Studio environment. For more information, see [Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flows.md).
--   This task requires some knowledge of server-side scripting. For more information, see Server-side scripting.
+-   This task requires some knowledge of server-side scripting. For more information, see [Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/c_ServerScripting.md).
 -   admin
 
 ## About this task

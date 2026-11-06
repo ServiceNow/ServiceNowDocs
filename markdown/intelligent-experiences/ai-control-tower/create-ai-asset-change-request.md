@@ -7,9 +7,9 @@ release: zurich
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2025-11-05"
-reading_time_minutes: 6
-breadcrumb: [Creating requests for AI assets, Use, AI Control Tower \(legacy\), Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Creating requests for AI assets, Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create change requests for AI assets
@@ -309,6 +309,4 @@ Alternatively, navigate to **Lifecycle** &gt; **Deploy**.
         **Note:** The **Change tasks** tab is not available if the change request was created for a dataset.
 
     -   If you rejected the request, the Status changes to Rejected and the State changes to Completed.
-
-**Parent Topic:**[Creating requests for AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/creating-ai-asset-requests.md)
 

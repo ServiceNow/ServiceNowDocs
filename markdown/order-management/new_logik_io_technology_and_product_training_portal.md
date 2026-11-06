@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/new\_logik\_io\_technology\_and\_product\_training\_portal.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 breadcrumb: [ServiceNow CPQ, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
@@ -58,7 +58,7 @@ In the Student Home page you can view the Course Catalog and select courses, mon
 
 [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)[Training Portal Demo](https://drive.google.com/file/d/1GD-brNEYjrGT31VFyTG1_EkaGCkhsvJ_/view?usp=sharing)
 
-For more information about the Training Portal and how to purchase a subscription to the Portal, contact ServiceNow CPQ Training at [training@logik.io](mailto:training@logik.io) or your ServiceNow CPQ Sales Representative.
+For more information about the Training Portal and how to purchase a subscription to the Portal, contact ServiceNow CPQ Training or your ServiceNow CPQ Sales Representative.
 
-**Parent Topic:**[ServiceNow CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/servicenow-cpq-reference.md)
+**Parent Topic:**[ServiceNow CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

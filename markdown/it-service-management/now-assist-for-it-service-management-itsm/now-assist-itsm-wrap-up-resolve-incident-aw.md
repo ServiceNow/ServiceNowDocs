@@ -7,10 +7,10 @@ release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 keywords: [Now Assist, agentic AI, generative AI, Gen AI]
-breadcrumb: [Agentic AI in the Incident Management application, Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Incident Management, Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # ITSM Wrap-up and resolve incident agentic workflow
@@ -137,6 +137,4 @@ In the agentic workflow record:
 Based on the query, the different AI agents work on the incident record. Depending on the various workflow stages and the resolution codes selected for an incident, the AI agents can either operate individually in sequence or collaborate simultaneously to deliver the desired outcome.
 
 For example, when generating resolution notes, adding resolution notes and codes or updating duplicate incident information to the incident record, the Incident resolution details AI agent is used. For more information on how to query using the ServiceNow Otto panel, see [Request the generative AI capabilities in ITSM by using the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/request-gen-ai-capabilities-itsm-now-assist-panel.md).
-
-**Parent Topic:**[Agentic AI ServiceNow Otto for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/using-agentic-ai-workflow-im.md)
 

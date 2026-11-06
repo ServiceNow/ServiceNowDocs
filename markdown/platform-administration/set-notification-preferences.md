@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/set-notification-preferences.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Preferences in Next Experience, Notification Preferences, Notifications, Configure core features, Administer]
+breadcrumb: [Preferences in Next Experience, Notification Preferences, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Set notification preferences
@@ -28,15 +28,15 @@ Role required: none
 
 3.  Set global notification preferences.
 
-<table id="choicetable_rgl_1dh_vvb"><thead><tr><th align="left" id="d128194e91">
+<table id="choicetable_rgl_1dh_vvb"><thead><tr><th align="left" id="d134134e91">
 
 Option
 
-</th><th align="left" id="d128194e94">
+</th><th align="left" id="d134134e94">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d128194e100">
+</th></tr></thead><tbody><tr><td id="d134134e100">
 
 **Allow Notifications**
 
@@ -44,7 +44,7 @@ Description
 
 Enable or disable all notifications.
 
-</td></tr><tr><td id="d128194e109">
+</td></tr><tr><td id="d134134e109">
 
 **Advanced Preferences**
 
@@ -52,7 +52,7 @@ Enable or disable all notifications.
 
 Customize notification preferences for system notifications, custom notifications, and delivery channels.
 
-</td></tr><tr><td id="d128194e118">
+</td></tr><tr><td id="d134134e118">
 
 **System notifications**
 
@@ -60,7 +60,7 @@ Customize notification preferences for system notifications, custom notification
 
 Enable or disable system notification categories, for example, Approval or Connect notifications.
 
-</td></tr><tr><td id="d128194e130">
+</td></tr><tr><td id="d134134e130">
 
 **Custom notifications**
 
@@ -68,7 +68,7 @@ Enable or disable system notification categories, for example, Approval or Conne
 
 Enable or disable custom notifications.
 
-</td></tr><tr><td id="d128194e140">
+</td></tr><tr><td id="d134134e140">
 
 **Delivery Channels**
 

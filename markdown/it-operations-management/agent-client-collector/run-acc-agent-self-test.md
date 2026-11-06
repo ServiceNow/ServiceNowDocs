@@ -7,10 +7,10 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 keywords: [agent, diagnostic, self-test, validation]
-breadcrumb: [ACC deployment - servers, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Run Agent Client Collector self-diagnostic tests
@@ -40,4 +40,6 @@ Role required: agent\_client\_collector\_admin
 
     For details on the diagnostic self-tests that the agent runs, see [Agent Client Collector diagnostic self tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-agent-self-tests.md).
 
+
+**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-server-deployment.md)
 

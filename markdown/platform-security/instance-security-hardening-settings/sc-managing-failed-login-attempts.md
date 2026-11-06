@@ -1,5 +1,5 @@
 ---
-title: Managing unlock timeout after failed logins \[Updated in Security Center 1.3\]
+title: Limit Allowed Number of Failed Login Attempts Before Lockout
 description: Two script actions are available that enable a site administrator to manage the number of times a user can provide an incorrect password before being locked out from the ServiceNow AI Platform. You can enable either of these script actions to manage failed login attempts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-managing-failed-login-attempts.html
@@ -7,34 +7,119 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authentication, Hardening settings, Platform Security]
 ---
 
-# Managing unlock timeout after failed logins \[Updated in Security Center 1.3\]
+# Limit Allowed Number of Failed Login Attempts Before Lockout
 
 Two script actions are available that enable a site administrator to manage the number of times a user can provide an incorrect password before being locked out from the ServiceNow AI Platform. You can enable either of these script actions to manage failed login attempts.
 
+The **SNC User Lockout Check** or **SNC User Lockout Check with Auto Unlock** script actions enable the administrator to manage the number of failed login attempts for a user. Two script actions are available that enable a site administrator to manage the number of times a user can provide correct password before getting locked out from the Now Platform.
+
+Additionally, the **glide.user.max\_unlock\_attempts** system property controls the number of allowed failed login attempts. If the value of **glide.user.max\_unlock\_attempts** is increased above the recommended value of `5`, it increases the number of login attempts an attacker could make against a given user.
+
+Ensure at least one of the script actions: **SNC User Lockout Check** or **SNC User Lockout Check with Auto Unlock** is enabled to manage failed login attempts. These script actions are stored in the Script Actions \[sysevent\_script\_action\] table.
+
+Additionally, ensure the property **glide.user.max\_unlock\_attempts** is set to `5` or less.
+
 ## More information
 
-|Attribute|Description|
-|---------|-----------|
-|Property/Plugin Name|N/A|
-|Configuration type|System Policy &gt; Script Actions|
-|Category|[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-authentication.md)|
-|Purpose|To enforce strict policy for failed login attempts to avoid brute forcing of credentials.|
-|Recommended value|Active|
-|Security risk rating|7.3|
-|Functional impact|This remediation would enable administrator of the instance to monitor and report any malicious user access. No functionality impact, only User experience change.|
-|Security risk|\(Moderate\) Apply a defined logging and auditing strategy so that you can identify and act on suspicious activity in a timely manner.|
+<table id="table_ajc_b43_3kb"><thead><tr><th>
 
-## Steps to configure
+Attribute
 
-1.  Navigate to **System Policy** &gt; **Script Actions.**
-2.  Search for the name **\*SNC User**.
-3.  To enable management of failed login attempts, change the Active state of either the **SNC User Lockout Check with Auto Unlock** or **SNC User Lockout Check** scripts actions from **false** to **true**.
-4.  To reset the failed login counter after a successful login, you can activate the **SNC User Clear** script action.
+</th><th>
 
-**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-authentication.md)
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Configuration name
+
+</td><td>
+
+-   **SNC User Lockout Check** \(Script action\)
+-   **SNC User Lockout Check with Auto Unlock** \(Script action\)
+-   **glide.user.max\_unlock\_attempts**\(System property\)
+
+</td></tr><tr><td>
+
+Configuration type
+
+</td><td>
+
+-   Script Action \(/sysevent\_script\_action.do\)
+-   System Properties \(/sys\_properties\_list.do\)
+
+</td></tr><tr><td>
+
+Data type
+
+</td><td>
+
+Integer \(for system property\)
+
+</td></tr><tr><td>
+
+Recommended value
+
+</td><td>
+
+-   The Script Actions \[sysevent\_script\_action\] table has the record with sys\_id `5e44f9bf0a0a0a0a019a6440b2137767` and/or the record with sys\_id `d92636b2975301008e00958e3b297567` set to **active**
+-   **glide.user.max\_unlock\_attempts** system property is set to an integer less than or equal to 5.
+
+</td></tr><tr><td>
+
+Default value
+
+</td><td>
+
+&lt;none&gt;
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+5 \(for system property\)
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-authentication.md)
+
+</td></tr><tr><td>
+
+Security risk
+
+</td><td>
+
+-   Severity score: 7.3
+-   CVSS rating: High
+-   Security risk details: Allowing more attempts gives attackers additional opportunities to guess passwords, increasing the likelihood of unauthorized access and credential compromise. Proper lockout configuration is critical to maintaining strong authentication security.
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+Dependencies and prerequisites
+
+</td><td>
+
+None
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Join or end conference call on incident communication task
+title: Join or end an incident communication conference call
 description: After a conference call is initiated, join the call to participate in the discussion or end the call when the conference is no longer required.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-communications-management/join-end-conf-call.html
@@ -7,12 +7,12 @@ release: zurich
 product: Incident Communications Management
 classification: incident-communications-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage, Incident Communications Management, IT Service Management]
+breadcrumb: [Managing incident communications, Incident Communications Management, IT Service Management]
 ---
 
-# Join or end conference call on incident communication task
+# Join or end an incident communication conference call
 
 After a conference call is initiated, join the call to participate in the discussion or end the call when the conference is no longer required.
 
@@ -25,7 +25,7 @@ Role required:
 
 ## Procedure
 
-1.  Navigate to **Incident** &gt; **All**.
+1.  Navigate to **All** &gt; **Incident** &gt; **All**.
 
 2.  Open an incident record.
 
@@ -35,31 +35,31 @@ Role required:
 
 5.  In the related links, perform any of the following actions.
 
-<table id="choicetable_qdq_fjq_thb"><thead><tr><th align="left" id="d205011e89">
+<table id="choicetable_qdq_fjq_thb"><thead><tr><th align="left" id="d349761e91">
 
 Option
 
-</th><th align="left" id="d205011e92">
+</th><th align="left" id="d349761e94">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d205011e98">
+</th></tr></thead><tbody><tr><td id="d349761e100">
 
 **Join Conference Call**
 
 </td><td>
 
-If the logged in user is not already a part of the conference call, the user can join the conference.
+Join the conference call if you aren't already a participant.
 
-</td></tr><tr><td id="d205011e107">
+</td></tr><tr><td id="d349761e109">
 
 **End Conference Call**
 
 </td><td>
 
-End the conference when the discussion is over.**Note:** The work notes get updated with the details of the conference call such as duration and participants.
+End the conference when the discussion is over.**Note:** The work notes are updated with the details of the conference call, such as duration and participants.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Managing Incident Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-communications-management/working-with-inci-comm-mgmt.md)
+**Parent Topic:**[Managing incident communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-communications-management/working-with-inci-comm-mgmt.md)
 

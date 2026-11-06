@@ -7,7 +7,7 @@ release: zurich
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Investigation, Resolving disputes without network integration, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -40,9 +40,9 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 6.  In the transaction level playbook of the **Processing** tab, select the transaction ID.
 
-7.  Select the **Investigate transactions** activity under the Investigation playbook stage.
+7.  Select the **Investigate transactions** task under the Investigation playbook stage.
 
-8.  Review the chargeback eligibility and chargeback eligibility reasons for the disputed transaction.
+8.  Review the chargeback eligibility and chargeback ineligibility reasons for the disputed transaction.
 
 9.  Select whether to create a chargeback request in the **Pursue chargeback** drop-down list.
 

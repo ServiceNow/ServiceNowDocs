@@ -7,9 +7,9 @@ release: zurich
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2026-05-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Available templates, Use an app template, Create your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Available templates, Use an app template, Create your app, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Time Off template
@@ -17,8 +17,6 @@ breadcrumb: [Available templates, Use an app template, Create your app, Build, A
 Build an application in App Engine Studio \(AES\) using the Time Off Requests template to schedule employee vacations and time-off.
 
 To use the Time Off template, install this application from the ServiceNow Store.
-
-\[Omitted image "template-time-off.png"\] Alt text: Time off template
 
 Create a time off application to streamline the process for employees to request time off through a single mobile or web-based form. Managers are notified via email when a request is submitted. They can use a mobile app or a web-based portal to view historical and pending requests by month or year for an employee or their entire team. This allows the manager to make informed decisions, improve planning for upcoming work, or identify where shifts must be covered. Employees are automatically notified when their requests are approved or rejected and why. If plans change and updates to an approved request are required, the employee can edit and resubmit their requests for approval through the portal.
 

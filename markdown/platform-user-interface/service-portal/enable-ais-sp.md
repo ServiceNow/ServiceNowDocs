@@ -7,7 +7,7 @@ release: zurich
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [AI Search in Service Portal, Configuring search in a portal, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -26,7 +26,7 @@ Role required: sp\_admin or admin
 
 AI Search is enabled in Service Portal for all new and zBoot customers by default.
 
-If you are upgrading to Zurich as an existing customer, AI Search is disabled in Service Portal by default. You can enable it by updating the portal record.
+If you are upgrading to Brazil as an existing customer, AI Search is disabled in Service Portal by default. You can enable it by updating the portal record.
 
 If you leave AI Search disabled, the portal uses the legacy search experience.
 

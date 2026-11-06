@@ -1,24 +1,24 @@
 ---
-title: Configure AI Search for Business Portal
-description: Configure Business Portal to use AI Search.
+title: Configure AI Search for Business and Consumer Portal
+description: Enable AI Search on a Business or Consumer Portal by updating the portal record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/config\_AI\_search\_business-portal.html
 release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Business Portal, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Configure Business and Consumer Portal, Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
-# Configure AI Search for Business Portal
+# Configure AI Search for Business and Consumer Portal
 
-Configure Business Portal to use AI Search.
+Enable AI Search on a Business or Consumer Portal by updating the portal record.
 
 ## Before you begin
 
-Role required: admin, sp\_admin
+Role required: sp\_admin
 
 ## About this task
 
@@ -28,7 +28,7 @@ AI Search is disabled by default. You can enable it by updating the portal recor
 
 1.  Navigate to **All** &gt; **Service Portal** &gt; **Portals** and open a portal record.
 
-2.  Select **Business Portal**.
+2.  Select **Business portal** or **Consumer portal**.
 
 3.  Select the **Enable AI Search** check box.
 

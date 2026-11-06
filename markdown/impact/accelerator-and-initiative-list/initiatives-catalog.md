@@ -7,16 +7,16 @@ release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Initiatives catalog
 
 This is a complete catalog of Impact initiatives.
 
-Refer to [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-packages.md) for additional information on initiative consumption.
+Refer to [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-packages1.md) for additional information on initiative consumption.
 
 <table id="table_dcj_bbv_bdc" class="nav-card presentation"><tbody><tr><td>
 
@@ -24,7 +24,7 @@ Refer to [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceN
 
 </td><td>
 
-[Getting started with Developer Support\[Omitted image "bus-it-leader.svg"\] Alt text:Gain an understanding of the Developer Support offering and identification of named contacts for requesting Developer Support.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/accelerator-and-initiative-list/getting-started-developer-support.md)
+[Getting started with Developer Support\[Omitted image "bus-it-leader.svg"\] Alt text:Know about the Developer Support offering and identification of named contacts for requesting Developer Support.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/accelerator-and-initiative-list/getting-started-developer-support.md)
 
 </td><td>
 

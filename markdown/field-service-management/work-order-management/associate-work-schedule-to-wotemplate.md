@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Work plans, Planned Work Management, Work orders and tasks, Configure, Field Service Management]
+breadcrumb: [Configure work plans, Planned Work Management, Set up work orders and tasks, Configure, Field Service Management]
 ---
 
 # Associate a work order template to a work schedule
@@ -24,15 +24,17 @@ Role required: sn\_fsm\_planned\_wm.planned\_work\_admin and model\_manager
 
 For example, to fulfill the maintenance requirement of two MRI machines from different brands, at the same time. You must create a schedule for these machines and then map it to different work order templates. Add conditions so that the schedule can identify the appropriate template to generate work orders that are specific to each MRI machine.
 
+**Note:** When grouping of work orders is enabled for a work plan, you can add conditions only on the fields that are selected as criteria for grouping of work orders. For more information, see [Add grouping criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/add-grouping-criteria.md).
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Field Service** &gt; **Planned Work Management** &gt; **Plans**.
 
 2.  Open a plan from the list of work plans.
 
-3.  In the **Planned Work Schedules** related list, select a schedule to which you want to associate a work order template.
+3.  In the Planned Work Schedules related list, select a schedule to which you want to associate a work order template.
 
-4.  In the **Planned Work Schedule Templates** related list, select **New**.
+4.  In the Planned Work Schedule Templates related list, select **New**.
 
 5.  On the form, fill in the fields.
 

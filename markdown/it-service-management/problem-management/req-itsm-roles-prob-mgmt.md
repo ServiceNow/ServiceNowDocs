@@ -7,9 +7,9 @@ release: zurich
 product: Problem Management
 classification: problem-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Problem Management plugins, Configure, Problem Management, IT Service Management]
+breadcrumb: [Problem Management plugins, Configuring Problem Management, Problem Management, IT Service Management]
 ---
 
 # Request ITSM Roles — Problem Management
@@ -84,5 +84,5 @@ Several user roles are installed with activation of the ITSM Roles — Problem M
 **Related topics**  
 
 
-[List of Zurich plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/list-of-plugins.md)
+[List of Brazil plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/list-of-plugins.md)
 

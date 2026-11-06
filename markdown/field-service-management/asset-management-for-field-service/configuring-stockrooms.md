@@ -7,7 +7,7 @@ release: zurich
 product: Asset Management for Field Service
 classification: asset-management-for-field-service
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Inventory and asset management, Configure, Field Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Inventory and asset management, Configure, Field Service Management
 
 Configure stockrooms to strategically arrange and organise physical or virtual spaces to store and manage inventory items, such as assets or parts.
 
-Stockrooms are used to store and manage the inventory items required for field service activities, such as required parts, assets, equipment, and supplies. Each user, irrespective of their role as an agent or manager, is initially assigned a personal stockroom by default. The Enterprise Asset Management application provides different types of stockroom to help users locating parts from nearby facilities beyond their personal stockroom. These includes warehouse stockrooms, PUDO \(Pick Up Drop Off\) stockrooms, FSL \(Forward Shipping Location\) stockrooms, and more.
+Stockrooms are used to store and manage the inventory items required for field service activities, such as required parts, assets, equipment, and supplies. Each user, irrespective of their role as an agent or manager, is initially assigned a personal stockroom by default. The Enterprise Asset Management application provides different types of stockroom to help users locate parts from nearby facilities beyond their personal stockroom. These includes warehouse stockrooms, PUDO \(Pick Up Drop Off\) stockrooms, FSL \(Forward Shipping Location\) stockrooms, and more.
 
 ## Configuration overview
 

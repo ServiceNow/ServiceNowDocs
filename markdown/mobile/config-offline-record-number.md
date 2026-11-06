@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/config-offline-record-number.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Offline mode, Considerations before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Supported screens, Align apps, screens, and functions, Offline mode setup options, Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Define the number of displayed records in offline mode
@@ -16,7 +16,23 @@ Define the number of records to display to users in offline mode. Choose between
 
 ## Before you begin
 
-Role required: admin
+Role required: mobile\_admin, admin
+
+## About this task
+
+Define the number of records to display in offline mode, up to a maximum of 1000 records per segment of a screen. For example, you can display the top 200 most relevant records. Limiting the number of displayed records can help prevent oversized local databases and slow device performance.
+
+This is an example of how the number of records is calculated:
+
+-   One record is equivalent to one row: Each top-level record counts as one row.  For example, a record from the main table used in the list.
+-   Child/related records:  
+    -   If child records are embedded in the main record through an association, they may contribute to the payload size. However, they don’t count as additional rows toward the 1,000-record limit.  
+    -   Child records fetched separately through another data item are displayed independently, for example, as a nested list or detail view, and subject to their own caching logic and limits. They aren't counted as part of the parent screen's 1,000-record limit.
+
+-   **Example**
+
+    A list screen can show 1,000 work orders \(parent\) with five embedded Work Order Tasks \(child\) each within the 1000-record limit. In this scenario, the child tasks don’t count towards the row total. However, if the Work Order Tasks are configured as separate data items, they are subject to their own 1,000-record limit.
+
 
 ## Procedure
 
@@ -39,5 +55,5 @@ Role required: admin
 6.  Select **Save**.
 
 
-**Parent Topic:**[Offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/mobile-offline-mode.md)
+**Parent Topic:**[Supported screens for offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/screens-offline.md)
 

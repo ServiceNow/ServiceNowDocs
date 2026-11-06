@@ -1,20 +1,20 @@
 ---
 title: Request Incident Management — Core
-description: Incident Management - Core plugin \(com.snc.incident\_management\) is a new incident state model that includes demo data and activates related plugins if they are not already active.
+description: Request the Incident Management — Core plugin \(com.snc.incident\_management\), which provides the incident state model. The plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/activate-incident-management-core-plugin.html
 release: zurich
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Incident Management plugins, Reference, Incident Management, IT Service Management]
 ---
 
 # Request Incident Management — Core
 
-Incident Management - Core plugin \(com.snc.incident\_management\) is a new incident state model that includes demo data and activates related plugins if they are not already active.
+Request the Incident Management — Core plugin \(com.snc.incident\_management\), which provides the incident state model. The plugin includes demo data and activates related plugins if they are not already active.
 
 ## Before you begin
 
@@ -22,9 +22,9 @@ Role required: admin
 
 ## About this task
 
-Incident Management - Core \(com.snc.incident\_management\) is available by default in new instances. Customers upgrading from Geneva or earlier versions must request the plugin. For more information, see [KB0564465](https://support.servicenow.com/kb_view.do?sysparm_article=KB0564465).
+Incident Management — Core \(com.snc.incident\_management\) is available by default in new instances. Customers upgrading from Geneva or earlier versions must request the plugin. For more information, see [KB0564465](https://support.servicenow.com/kb_view.do?sysparm_article=KB0564465) article in the Now Support Knowledge Base.
 
-**Note:** If the new state model is installed on upgraded instances, then ensure that the old states are mapped to the new ones. The mapping is especially important if you have made customizations, implemented workflows, added script includes, and added business rules.
+**Note:** If the new state model is installed on upgraded instances, map the old states to the new ones. The mapping is especially important if you have made customizations, implemented workflows, added script includes, or added business rules.
 
 ## Procedure
 
@@ -81,5 +81,5 @@ Select the date and time to activate the plugin.
 **Related topics**  
 
 
-[List of Zurich plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/list-of-plugins.md)
+[List of Brazil plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/list-of-plugins.md)
 

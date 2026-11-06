@@ -1,5 +1,5 @@
 ---
-title: Risk Management Framework \(RMF\) step 4 - Assess implemented controls and document findings
+title: RMF steps 4, 5, and 6 - Assess, authorize, and monitor
 description: After you have implemented controls, you can assess internal and external controls, generate Plans of Action and Milestones \(POA&amp;M\), and manage change requests and vulnerable items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/continuous-risk-monitoring/assess-control-effectiveness.html
@@ -7,18 +7,24 @@ release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
-# Risk Management Framework \(RMF\) step 4 - Assess implemented controls and document findings
+# RMF steps 4, 5, and 6 - Assess, authorize, and monitor
 
 After you have implemented controls, you can assess internal and external controls, generate Plans of Action and Milestones \(POA&amp;M\), and manage change requests and vulnerable items.
 
 ## Before you begin
 
-Role required: sn\_irm\_cont\_auth.system\_owner, sn\_irm\_cont\_auth.info\_system\_sec\_officer, sn\_irm\_cont\_auth.authorization\_official, sn\_irm\_cont\_auth.info\_system\_sec\_manager, sn\_irm\_cont\_auth.admin
+Role required:
+
+-   sn\_irm\_cont\_auth.system\_owner
+-   sn\_irm\_cont\_auth.info\_system\_sec\_officer
+-   sn\_irm\_cont\_auth.authorization\_official
+-   sn\_irm\_cont\_auth.info\_system\_sec\_manager
+-   sn\_irm\_cont\_auth.admin
 
 ## About this task
 
@@ -74,6 +80,10 @@ The Assess state adds **Control Assessments** and **Risk Summary** related lists
 
     3.  Select the **Attach File** link to attach an evidence document as a proof of the test.
 
+    4.  Select the **Notes** field to enter additional assessment details.
+
+        \[Omitted image "cam-assessment-proc-ws.png"\] Alt text: Assessment procedure record view.
+
 7.  In the Default view, select an audit task and perform the Design Test and Operation Test to judge the control's effectiveness.
 
     For details on this process, see [Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/c_Engagements.md).
@@ -81,5 +91,13 @@ The Assess state adds **Control Assessments** and **Risk Summary** related lists
     **Note:** Any issues that arise during the Assess phase appear in the **POA&amp;M** tab. Additionally, any open Change Requests or Vulnerable Items targeting the system elements in the package appear under those tabs.
 
 8.  The system owner must review and document any POA&amp;M issues, change requests, and vulnerable items that potentially threaten your systems.
+
+9.  When the review is complete, select **Authorize**.
+
+    **Note:** In the Monitor state, continuous monitoring is achievable if you have indicators. If not, you can manually review the controls. For more information, see [Manage control indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/manage-indicators-policy-comp.md).
+
+    You can select **Generate Report\(s\)** to generate a FedRAMP System Security Plan \(SSP\) document for the authorization package in PDF format.
+
+    The package transitions to the **Authorize** state. When you’re satisfied that all is in order, select **Request Approval**. An approval request is sent to the Authorizing Official, who will access **My Approvals** from the navigation pane and review the information in the package. When the approval is received, the package transitions to the **Monitor** state.
 
 

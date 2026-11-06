@@ -1,5 +1,5 @@
 ---
-title: Associate an initiative
+title: Associate an initiative with a project
 description: Associate an existing improvement initiative with a project.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/associate-initiative.html
@@ -7,18 +7,18 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Creating and tracking improvement initiatives, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Creating and tracking improvement initiatives, Use, Process Mining, Platform Analytics]
 ---
 
-# Associate an initiative
+# Associate an initiative with a project
 
 Associate an existing improvement initiative with a project.
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin
+Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
 
 ## Procedure
 

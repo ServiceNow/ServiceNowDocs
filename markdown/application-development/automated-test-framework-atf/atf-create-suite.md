@@ -7,9 +7,9 @@ release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Building and running automated test suites, Test building and execution, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+breadcrumb: [Building and running automated test suites, Automated Test Framework \(ATF\) test building and execution, Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # Create an automated test suite
@@ -34,7 +34,7 @@ Role required: atf\_test\_admin or atf\_test\_designer
 
 4.  Select the tests to be included in this suite.
 
-<table id="choicetable_tzr_ryh_5fb"><tbody><tr><td id="d318681e104">
+<table id="choicetable_tzr_ryh_5fb"><tbody><tr><td id="d426287e104">
 
 **Filter**
 
@@ -44,7 +44,7 @@ Add tests dynamically using a filter:1.  In the **Filter** field, use the condit
 2.  Click **Save**.
  All tests that match the filter conditions appear in the **Test Suite Tests** related list. Because the suite is dynamic, any new test that matches the conditions is automatically added to the suite.
 
-</td></tr><tr><td id="d318681e134">
+</td></tr><tr><td id="d426287e134">
 
 **Test Suite Tests**
 
@@ -61,7 +61,7 @@ Add tests manually:
 
 6.  In the **Test Suite Tests** related list, specify options for a test.
 
-<table id="choicetable_hmg_313_5fb"><tbody><tr><td id="d318681e186">
+<table id="choicetable_hmg_313_5fb"><tbody><tr><td id="d426287e186">
 
 **Execution order**
 
@@ -69,7 +69,7 @@ Add tests manually:
 
 Enter a value to specify the order in which this test should execute within the test suite.
 
-</td></tr><tr><td id="d318681e195">
+</td></tr><tr><td id="d426287e195">
 
 **Abort on Failure**
 

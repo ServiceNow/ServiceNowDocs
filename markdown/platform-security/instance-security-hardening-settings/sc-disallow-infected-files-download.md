@@ -1,5 +1,5 @@
 ---
-title: Disallow infected file download \[Updated in Security Center 1.5 and 2.0\]
+title: Disallow infected file download
 description: Control whether users can download non-scanned attachments if the antivirus service is down or unreachable.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-disallow-infected-files-download.html
@@ -7,18 +7,20 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [File and resources, Hardening settings, Platform Security]
 ---
 
-# Disallow infected file download \[Updated in Security Center 1.5 and 2.0\]
+# Disallow infected file download
 
 Control whether users can download non-scanned attachments if the antivirus service is down or unreachable.
 
-When the **com.glide.snap.infected\_download\_allowed** property is set to true, users can still download non-scanned attachments in the event that the antivirus service is down or unreachable. This situation potentially exposes users to the risk of downloading a malicious file, thereby risking the infection of their desktop, especially if there is no other endpoint protection installed on the device.
+When the property **com.glide.snap.infected\_download\_allowed** is set to **true**, users can still download non-scanned attachments if the antivirus service is down or unreachable.
 
-Ensure the property **com.glide.snap.infected\_download\_allowed** is set to false.
+A user may download a malicious file to their desktop.
+
+Set the property **com.glide.snap.infected\_download\_allowed** to **false**.
 
 ## More information
 
@@ -72,6 +74,14 @@ false
 
 </td></tr><tr><td>
 
+Fallback value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
 Category
 
 </td><td>
@@ -86,7 +96,7 @@ Security risk
 
 -   Severity score: 6.7
 -   CVSS score: Medium
--   Security risk details: Not setting this property to the recommended value of false could expose your instance to downloading malicious files.
+-   Security risk details: A user may download a malicious file to their desktop.
 
 </td></tr><tr><td>
 
@@ -95,6 +105,14 @@ Dependencies and prerequisites
 </td><td>
 
 None
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+Users can download non-scanned attachments if the antivirus service is down or unreachable.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-file-resources.md)

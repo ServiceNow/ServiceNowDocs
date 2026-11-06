@@ -7,7 +7,7 @@ release: zurich
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore My Stacks tab, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Explore the details of the configuration items, services, and other tasks that a
 
 ## Before you begin
 
-Role required: admin, feature admin \(sn\_cmp.cmp\_root\_admin\)
+Role required: admin
 
 ## About this task
 

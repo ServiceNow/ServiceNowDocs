@@ -7,7 +7,7 @@ release: zurich
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a demand, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -26,15 +26,15 @@ Role required: it\_demand\_manager
 
 2.  Migrate baselines using one of the following options.
 
-<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d216958e85">
+<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d231665e85">
 
 Choice
 
-</th><th align="left" id="d216958e88">
+</th><th align="left" id="d231665e88">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d216958e94">
+</th></tr></thead><tbody><tr><td id="d231665e94">
 
 **Using list actions**
 
@@ -45,7 +45,7 @@ Description
 3.  On the migrate budget confirmation window, select **OK**.
 
 
-</td></tr><tr><td id="d216958e124">
+</td></tr><tr><td id="d231665e124">
 
 **Using related links**
 
@@ -56,7 +56,7 @@ Description
 3.  On the migrate budget confirmation window, select **OK**.
 
 
-</td></tr><tr><td id="d216958e151">
+</td></tr><tr><td id="d231665e151">
 
 **Activate a scheduled job**
 

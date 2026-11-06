@@ -7,8 +7,8 @@ release: zurich
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2025-12-09"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Timeline-oriented releases, Manage releases for digital products and services, Use, Digital Product Release, IT Service Management]
 ---
 
@@ -62,7 +62,7 @@ You can monitor the progress of an individual product release, or you can track 
 
 8.  Select a product or service to work on its release from the **View by** drop-down list.
 
-    Based on the selected option, you can see different sections as follows:
+    Based on the selected option, you can view and work on different sections as follows:
 
 <table id="table_rnl_swl_b2c"><thead><tr><th>
 
@@ -78,7 +78,9 @@ All products or services
 
 </td><td>
 
-You can see the following sections:-   **Release execution**: Work on the main release, which involves starting the release, [retargeting the release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-work-release-readiness-target.md), and [executing the release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-work-release.md) to manage phases, tasks, key dates, policies, and approvals. All of these actions apply to all releases.
+You can work on the following sections applicable to all releases:-   **Release timeline**: Work on the main release, which involves [retargeting the release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-work-release-readiness-target.md), and [executing the release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-work-release.md) to manage phases, tasks, key dates, policies, and approvals. All of these actions apply to all releases.
+-   **Release tasks**: Manage release tasks in a release phase. When you add a task to a phase, it is added to each product's release.
+-   **Release policies**: Manage mapping of policies to a release phase or run the existing ones for compliance checks.
 -   **Change requests**: View a list of all change requests across releases for all products or service.
 
 
@@ -88,16 +90,18 @@ Included product
 
 </td><td>
 
-You can see the following sections for the selected product's release:-   **Overview**: View the progress and quality of the release on the respective dashboards. For more information, see [Release Overview dashboard for a multi-product release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-release-overview-dashboard-multi.md) and [Release Quality dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-release-quality-dashboard.md).
--   **Release execution**: View the details of phases of the release or run policies mapped to its phases for compliance checks. For more information, see [Execute the release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-work-release.md).
+You can work on the following sections for the selected product's release:-   **Overview**: View the progress, review risk score, and quality of the release on the respective dashboards. For more information, see [Release Overview dashboard for a multi-product release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-release-overview-dashboard-multi.md) and [Release Quality dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-release-quality-dashboard.md).
+-   **Release timeline**: View the details of phases of the release. For more information, see [Execute the release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-work-release.md).
 
-**Note:** In the **Details** tab, the **Policy status** field displays a combined compliance status for all releases.
+**Note:** In the **Summary** section, the **Policy status** field displays a combined compliance status for all releases.
 
+-   **Release tasks**: View release tasks in a release phase.
+-   **Release policies**: View mapping of policies to a release phase or run the existing ones for compliance checks.
 -   **Release scope**: View and [update the scope of the release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-work-release-scope.md), including product enhancements, planning items, and related tasks such as incidents and problems associated with the release.
 -   **Configuration items**: View and [manage configuration items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-work-release-config-items.md) related to the release.
 -   **Change requests**: View and [manage change requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-work-release-change-request.md) related to the release.
 -   **Release notes**: Create, publish, and share release notes for the release. You can add release notes manually or generate using AI. For more information, see [Generate AI-powered release notes for a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-generate-release-notes.md).
-On the Release form header, select the number under the **Artifacts** label to manage artifacts in the release. The **Artifacts** label is available in the **Overview**, **Release scope**, **Configuration items**, and **Change requests** sections. For more information, see [Manage artifacts in a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-work-release-artifact.md).
+On the Release form header, select the number under the **Artifacts** label to manage artifacts in the release. The **Artifacts** label is available only in the **Overview**, **Release scope**, **Configuration items**, and **Change requests** sections. For more information, see [Manage artifacts in a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-work-release-artifact.md).
 
 </td></tr></tbody>
 </table>9.  Close a release after verifying its completeness.

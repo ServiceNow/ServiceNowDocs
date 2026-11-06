@@ -1,22 +1,22 @@
 ---
 title: Create and run manual value jobs
-description: Set up manual value jobs for AI systems that you onboard manually, so that the AI Control Tower calculates their value on a monthly or quarterly cadence.
+description: Set up manual value jobs for AI systems that you onboard manually, so that AI Control Tower calculates their value on a monthly or quarterly cadence.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/mv-create-and-run-manual-value-jobs.html
 release: zurich
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Value, Configure, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
+breadcrumb: [Value, Configure, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create and run manual value jobs
 
-Set up manual value jobs for AI systems that you onboard manually, so that the AI Control Tower calculates their value on a monthly or quarterly cadence.
+Set up manual value jobs for AI systems that you onboard manually, so that AI Control Tower calculates their value on a monthly or quarterly cadence.
 
 ## Before you begin
 
-Role required:sn\_ai\_governance.ai\_steward
+Role required: sn\_ai\_governance.ai\_steward.
 
 ## About this task
 
@@ -30,9 +30,9 @@ Some AI systems don't have discovery integration but still need to be managed in
 
 2.  Create the manual indicators with a monthly or quarterly cadence.
 
-    The AI Control Tower derives the run cadence from the indicator type. A monthly indicator runs as a monthly job, and a quarterly indicator runs as a quarterly job to capture productivity gains. For more information, see .
+    The AI Control Tower derives the run cadence from the indicator type. A monthly indicator runs as a monthly job, and a quarterly indicator runs as a quarterly job to capture productivity gains. For more information, see [Manual indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/t_CreateAManualIndicator.md).
 
-3.  Rerun the job.
+3.  Rerun a scheduled value job.
 
     1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home**.
 
@@ -40,7 +40,7 @@ Some AI systems don't have discovery integration but still need to be managed in
 
     3.  Select the job that you want to rerun, and then select **Re-run**.
 
-        You can't rerun a daily cadence system.
+        The **Re-run** option is not available for jobs with a daily cadence.
 
 
 ## Result

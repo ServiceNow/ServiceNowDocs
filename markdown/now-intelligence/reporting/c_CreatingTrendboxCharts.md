@@ -7,14 +7,16 @@ release: zurich
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 16
-breadcrumb: [Report types, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Core UI Report types, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Trendbox reports
 
 Trendbox reports visualize the distribution of data between groups over a specific time period.
+
+**Note:** This topic is about creating Core UI reports, not Platform Analytics data visualizations. You can still create Core UI reports in the Platform Analytics experience, depending on how your instance is configured. For more information, see [Create a Core UI report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/t_CreateYourOwnReport.md).
 
 A trendbox report is similar to a box report, but it also allows you to specify a time period for the report. When defining the report, use a descriptive title that indicates the use of the time period. Use trendbox reports when you have multiple small data sets from different sources that are related to each other. Examples include incident resolution times for different product features, or incident resolution times for different priorities.
 
@@ -139,7 +141,7 @@ Month 6
 
 **Note:** When accessibility is enabled, this visualization includes a report that screen readers can interpret. For more information, see [Enabling accessibility features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/c_SetUpSect508ComplianceFeature.md).
 
-**Parent Topic:**[Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-types-creation-details-rd.md)
+**Parent Topic:**[Core UI Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-types-creation-details-rd.md)
 
 ## Create a trendbox report
 
@@ -151,19 +153,19 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 ### About this task
 
+**Note:** This topic is about creating Core UI reports, not Platform Analytics data visualizations. You can still create Core UI reports in the Platform Analytics experience, depending on how your instance is configured. For more information, see [Create a Core UI report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/t_CreateYourOwnReport.md).
+
 ### Procedure
 
-1.  Perform one of the following actions:
+1.  Open the Platform Analytics Data visualization library and select **Create data visualization**, then select **Core UI** in the modal that opens.
 
-    -   On an upgraded instance that has not been fully migrated to Platform Analytics, navigate to **All** &gt; **Reports** &gt; **Create New**.
-    -   On a new instance or one that has been fully migrated to Platform Analytics, navigate to **All** &gt; **Core UI artifacts** &gt; **Reports** and select **New**.
-2.  On instances with Unified Analytics enabled, and on new Zurich instances, both Core UI reports and Platform Analytics experience data visualizations are found in the Platform Analytics library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select **New**. For more information, see [Differences between Core UI and Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/differences-between-core-ui-ne-dbs.md).
+    The **com.snc.par.coreui.report\_create.enabled** system property must be `true`.
 
-3.  On the **Data** tab, give the report a name that reflects the information being grouped.
+2.  On the **Data** tab, give the report a name that reflects the information being grouped.
 
-4.  Select the applicable source for the report.
+3.  Select the applicable source for the report.
 
-<table id="choicetable_t31_tst_1x"><tbody><tr><td id="d32941e433">
+<table id="choicetable_t31_tst_1x"><tbody><tr><td id="d33632e423">
 
 **Data source**
 
@@ -171,15 +173,15 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 Also called a report source, a data source is a table with filters applied to provide a single source of information for all users. For more information, see [Report sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_ReportSources.md).**Note:** If you select a data source used by existing reports, a notification prompts you to view them.
 
-</td></tr><tr><td id="d32941e452">
+</td></tr><tr><td id="d33632e442">
 
 **Table**
 
 </td><td>
 
-The raw data from a table with no filters applied. When you select a table, its short description appears below the table name. For trend reporting, you can also select a remote table, which aggregates, in memory, data retrieved from an external source. Then select a **Trend by** field option to aggregate its data. To learn more about remote tables, see [Retrieving external data using remote tables and scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/remote-tables.md)
+The raw data from a table with no filters applied. When you select a table, its short description appears below the table name.For trend reporting, you can also select a remote table, which aggregates, in memory, data retrieved from an external source. Then select a **Trend by** field option to aggregate its data. To learn more about remote tables, see [Retrieving external data using remote tables and scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/remote-tables.md).
 
-</td></tr><tr><td id="d32941e471">
+</td></tr><tr><td id="d33632e461">
 
 **External import**
 
@@ -187,7 +189,7 @@ The raw data from a table with no filters applied. When you select a table, its 
 
 Choose an existing imported report source, or select the Upload icon \(\[Omitted image "upload-icon.png"\] Alt text: Upload icon\) to import a new file. See [Create a Core UI report from an imported Microsoft Excel document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/create-report-with-imported-data-source.md).
 
-</td></tr><tr><td id="d32941e496">
+</td></tr><tr><td id="d33632e486">
 
 **MetricBase**
 
@@ -196,13 +198,11 @@ Choose an existing imported report source, or select the Upload icon \(\[Omitted
 MetricBase enables you to collect, retain, analyze, and visualize custom time series data on the ServiceNow AI Platform. For more information, see [MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/metricbase.md).
 
 </td></tr></tbody>
-</table>5.  Select **Next**.
-
-6.  On the **Type** tab, enter **Trendbox** in the filter, select the report type, and click **Next**.
+</table>4.  On the **Type** tab, enter **Trendbox** in the filter, select the report type, and click **Next**.
 
     The application shows a preliminary version of the report. To view the updated report at any time, select **Run**.
 
-7.  On the **Configure** tab, fill in the following fields and select **Next**.
+5.  On the **Configure** tab, fill in the following fields and select **Next**.
 
 <table id="table_pkb_xbg_1p"><thead><tr><th>
 
@@ -218,7 +218,7 @@ Group by
 
 </td><td>
 
-Group report data using the values of this field. For example, in an incident report grouped by **Assignment group**, all incidents that belong to Software, Service Desk, and Network are placed in separate groups. To group by fields on extended tables, see [How to report on extended tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/t_AccessFieldExtendedTable.md). Select the info icon \(\[Omitted image "icon-info.png"\] Alt text: Info icon\) for a description of the selected field. Configured function fields appear in this list after you save the report.
+Group report data using the values of this field. For example, in an incident report grouped by **Assignment group**, all incidents that belong to Software, Service Desk, and Network are placed in separate groups. To group by fields on extended tables, see [How to report on extended tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/t_AccessFieldExtendedTable.md). Select the info icon \[Omitted image "icon-info.png"\] for a description of the selected field. Configured function fields appear in this list after you save the report.
 
  **Note:**
 
@@ -233,7 +233,7 @@ Additional group by
 
 </td><td>
 
-Extra fields to group the report by. When you select **Additional group by** fields or function fields, the report includes a control at the bottom that allows you to group the report by any one of the additional fields. To group by fields on extended tables as well, see [How to report on extended tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/t_AccessFieldExtendedTable.md). Click the info icon \(\[Omitted image "icon-info.png"\] Alt text: Info icon\) for descriptions of the selected fields Configured function fields appear in this list after you save the report.
+Extra fields to group the report by. When you select **Additional group by** fields or function fields, the report includes a control at the bottom that allows you to group the report by any one of the additional fields. To group by fields on extended tables as well, see [How to report on extended tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/t_AccessFieldExtendedTable.md). Select the info icon \[Omitted image "icon-info.png"\] for descriptions of the selected fields Configured function fields appear in this list after you save the report.
 
 **Note:**
 
@@ -255,7 +255,7 @@ Trend by
 
 </td><td>
 
-Table field whose values you want to show in a time sequence. Select the info icon \(\[Omitted image "icon-info.png"\] Alt text: Info icon\) for a description of the selected field. **Note:** If you selected a remote table in the **Table** field, the option you select in this field aggregates the data that was retrieved from an external source and aggregated in memory. To learn more about remote tables, see [Retrieving external data using remote tables and scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/remote-tables.md).
+Table field whose values you want to show in a time sequence. Select the info icon \[Omitted image "icon-info.png"\] for a description of the selected field. **Note:** If you selected a remote table in the **Table** field, the option you select in this field aggregates the data that was retrieved from an external source and aggregated in memory. To learn more about remote tables, see [Retrieving external data using remote tables and scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/remote-tables.md).
 
 </td></tr><tr><td>
 
@@ -279,14 +279,14 @@ Mathematical calculation to perform on the data. The default is **Count**, which
 
  Select **Minimum** or **Maximum** to show the maximum or minimum value for each segment of the report.
 
- For more information on aggregation options, see [Aggregation in reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/aggregation-reporting.md).
+ For more information on aggregation options, see [Aggregation in Core UI reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/aggregation-reporting.md).
 
  If you choose **Average**,**Sum**, **Count Distinct**, **Minimum**, or **Maximum**, you may be able to aggregate on fields from extended tables. See [How to report on extended tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/t_AccessFieldExtendedTable.md).
 
  For information about aggregating on FX currency values, see [FX Currency values in reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/fx-currency-values-reporting.md).
 
 </td></tr></tbody>
-</table>8.  Configure the sort order of the applicable fields in the report \(column, row, Group by, Stack by or Trend by depending on the report type\).
+</table>6.  Configure the sort order of the applicable fields in the report \(column, row, Group by, Stack by or Trend by depending on the report type\).
 
     Select the filter icon \(\[Omitted image "List\_FilterIcon.png"\] Alt text: Filter icon for lists\) and choose **Add Sort**.
 
@@ -302,15 +302,15 @@ Mathematical calculation to perform on the data. The default is **Count**, which
 
     \[Omitted image "choice-list-sort-order.png"\] Alt text: Report sorted by priority choice list
 
-9.  To limit the information displayed in the report, select the filter icon \(\[Omitted image "List\_FilterIcon.png"\] Alt text: Filter icon\) and specify conditions to filter the report data.
+7.  To limit the information displayed in the report, select the filter icon \(\[Omitted image "List\_FilterIcon.png"\] Alt text: Filter icon\) and specify conditions to filter the report data.
 
     To learn how to construct conditions, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/c_ConditionBuilder.md).
 
     **Note:** In aggregated and list reports, language-dependent filter conditions may return zero results on localized instances.
 
-10. On the **Style** tab, fill in the fields as appropriate to configure the appearance of the report.
+8.  On the **Style** tab, fill in the fields as appropriate to configure the appearance of the report.
 
-11. Select **Save** to continue editing the visualization, or **Save and close** to return to the Analytics Center main screen.
+9.  Select **Save** to continue editing the visualization, or **Save and close** to return to the Analytics Overview main screen.
 
 
 ### What to do next
@@ -327,7 +327,7 @@ Mathematical calculation to perform on the data. The default is **Count**, which
 
 Change the look of your trendbox report.
 
-When you create or edit a report, click the **Style** tab for options to configure the look of your report. The options are organized under two or more of the following tabs: **General**, **Title**, **Legend**, and **Axis**. To see how the report looks with the changed settings, click **Save**.
+When you create or edit a report, select the **Style** tab for options to configure the look of your report. The options are organized under two or more of the following tabs: **General**, **Title**, **Legend**, and **Axis**. To see how the report looks with the changed settings, select **Save**.
 
 <table id="table_h1l_1jh_yq"><thead><tr><th>
 
@@ -379,7 +379,7 @@ Decimal precision
 
 </td><td id="decimalPrecisionEntry">
 
-Number of decimal places to show. You can show from zero to four decimal places. Default value: 2. To change the default value, create the system property glide.chart.decimal.precision and specify the value. **Note:** Percentage labels do not change accordingly with the decimal precision specified.
+Number of decimal places to show. You can show from zero to four decimal places. Default value: 2. To change the default value, create the system property glide.chart.decimal.precision and specify the value. **Note:** Percentage labels don't change accordingly with the decimal precision specified.
 
  \[Omitted image "DecimalPrecision-BarReport.png"\] Alt text: Decimal precision - Bar report \[Omitted image "DecimalPrecision-DonutReport.png"\] Alt text: Decimal precision - Donut report
 
@@ -527,7 +527,7 @@ From
 
 </td><td>
 
-Specify a minimum Y-axis value to limit the amount of information in the report. If you select an aggregation field that is not of the type **Number**, the **From** and **To** fields are not available.**Note:**
+Specify a minimum Y-axis value to limit the amount of information in the report. If you select an aggregation field that is not of the type **Number**, the **From** and **To** fields aren't available.**Note:**
 
 Depending on configured [Highcharts](https://api.highcharts.com/highcharts/yAxis.min) settings, the minimum value may be rounded up or down. If you require the settings that affect this changed, contact the administrator.
 
@@ -537,7 +537,7 @@ To
 
 </td><td>
 
-Specify a maximum Y-axis value to limit the amount of information in the report. If you select an aggregation field that is not of the type **Number**, the **From** and **To** fields are not available.**Note:**
+Specify a maximum Y-axis value to limit the amount of information in the report. If you select an aggregation field that is not of the type **Number**, the **From** and **To** fields aren't available.**Note:**
 
 Depending on configured [Highcharts](https://api.highcharts.com/highcharts/yAxis.min) settings, the minimum value may be rounded up or down. If you require the settings that affect this changed, contact the administrator.
 

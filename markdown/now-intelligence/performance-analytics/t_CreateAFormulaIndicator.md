@@ -1,20 +1,20 @@
 ---
 title: Create a formula indicator
-description: Create a formula indicator to produce a new computed score from one or more other indicators. Besides indicator scores, the formula can include calculations such as the gap between an indicator score and the indicator target.
+description: Calculate scores from the scores of one or more other indicators. Apply mathematical operations or a preset method, such as the method to calculate the gap between an indicator score and the indicator target.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/t\_CreateAFormulaIndicator.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Formula indicators, Indicators, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Create a formula indicator
 
-Create a formula indicator to produce a new computed score from one or more other indicators. Besides indicator scores, the formula can include calculations such as the gap between an indicator score and the indicator target.
+Calculate scores from the scores of one or more other indicators. Apply mathematical operations or a preset method, such as the method to calculate the gap between an indicator score and the indicator target.
 
 ## Before you begin
 
@@ -217,8 +217,12 @@ Show real-time score
 If all contributing indicators have **Show real-time score** enabled, select this option to use real-time scores to calculate the formula.
 
 </td></tr></tbody>
-</table>9.  In the **Forecasting** tab, set the forecast method, the number of data collection periods to forecast, the amount of historical data to base the forecast on, and the upper and lower limits of forecast values.
+</table>9.  In the **Forecasting** tab, set the following fields:
 
+    -   Forecast method
+    -   The number of data collection periods to forecast
+    -   The amount of historical data to base the forecast on
+    -   The upper and lower limits of forecast values
     For more information, see [Performance Analytics scores forecasts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_ForecastingData.md).
 
 10. Expand the context menu and select **Save**.

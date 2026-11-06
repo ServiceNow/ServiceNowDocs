@@ -1,0 +1,65 @@
+---
+title: Generate a playbook summary
+description: Generate an AI-generated summary of the stages, activities, triggers, and inputs of a playbook from the Workflow Studio canvas.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/generate-playbook-summary.html
+release: zurich
+product: Workflow Studio
+classification: workflow-studio
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Playbook summarization, Creating and managing Playbooks, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
+---
+
+# Generate a playbook summary
+
+Generate an AI-generated summary of the stages, activities, triggers, and inputs of a playbook from the Workflow Studio canvas.
+
+## Before you begin
+
+Verify that the ServiceNow Otto for Creator plugin is installed and the **Playbook Summarization** skill is turned on. For more information about turning on the AI skills for Playbooks, see [Turn on AI skills for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/turn-on-playbook-generation-skill.md).
+
+**Note:** AI skills are available in **Admin** &gt; **AI Admin Hub** &gt; **AI Skills** &gt; **Creator**.
+
+For information about installing ServiceNow Otto for Creator, see 
+
+The playbook must have at least one stage and activity before a summary can be generated.
+
+Role required: pd\_author
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
+
+2.  Open the playbook for which you want to generate the summary.
+
+3.  From the More Actions menu \[Omitted image "triggers-more-actions.png"\] Alt text:, select **Summarize**.
+
+    The Playbook Summary pane displays.
+
+4.  On the Playbook Summary panel, select **Summarize playbook**.
+
+    \[Omitted image "playbook-summary-otto.png"\] Alt text: Generate a playbook summary from the summarize playbook button.
+
+5.  Select a summary format: **Standard**, **Short**, or **Elaborate**.
+
+    The summary is generated and displayed in the panel. The first paragraph provides a brief overview of the playbook, followed by a description of each stage.
+
+
+## What to do next
+
+After generating a summary, you can perform the following actions:
+
+-   To refine the summary, enter a custom instruction in the AI chat field.
+-   To copy the summary to the playbook description field, select **Set as description**, then select **Save and close**.
+-   To regenerate the summary after playbook changes, select **Refresh**. If the playbook structure has changed since the last summary was generated, a warning appears prompting you to refresh.
+
+**Parent Topic:**[Playbook summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-summarization.md)
+
+**Related topics**  
+
+
+[Playbook summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-summarization.md)
+

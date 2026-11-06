@@ -7,7 +7,7 @@ release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Internal review overview, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -24,15 +24,15 @@ Role required: sn\_cm\_core.contract\_reviewer
 
 1.  Open the review task.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d703031e55">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d714027e55">
 
 Method
 
-</th><th align="left" id="d703031e58">
+</th><th align="left" id="d714027e58">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d703031e64">
+</th></tr></thead><tbody><tr><td id="d714027e64">
 
 **My Work listing**
 
@@ -44,7 +44,7 @@ Steps
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d703031e111">
+</td></tr><tr><td id="d714027e111">
 
 **Delegated to me listing**
 
@@ -56,7 +56,7 @@ Steps
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d703031e158">
+</td></tr><tr><td id="d714027e158">
 
 **Contract Review Tasks listing**
 
@@ -68,7 +68,7 @@ Steps
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d703031e205">
+</td></tr><tr><td id="d714027e205">
 
 **Contract Request Reviews tab**
 
@@ -107,15 +107,15 @@ Steps
 
     The reviewer can make edits to the document, suggest changes through comments, and approve or reject any redlines.
 
-<table id="choicetable_qqw_xjr_5bc"><thead><tr><th align="left" id="d703031e356">
+<table id="choicetable_qqw_xjr_5bc"><thead><tr><th align="left" id="d714027e356">
 
 Type of storage
 
-</th><th align="left" id="d703031e359">
+</th><th align="left" id="d714027e359">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d703031e365">
+</th></tr></thead><tbody><tr><td id="d714027e365">
 
 **Internal storage**
 
@@ -131,7 +131,7 @@ Steps
 5.  Select **Submit**.
 
 
-</td></tr><tr><td id="d703031e409">
+</td></tr><tr><td id="d714027e409">
 
 **External storage**
 

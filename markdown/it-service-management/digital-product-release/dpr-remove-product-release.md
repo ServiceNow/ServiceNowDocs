@@ -7,7 +7,7 @@ release: zurich
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2026-02-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [remove product from release, remove included product, cancel child release]
 breadcrumb: [Manage releases for digital products and services, Use, Digital Product Release, IT Service Management]

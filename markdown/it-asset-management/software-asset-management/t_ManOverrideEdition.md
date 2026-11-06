@@ -7,9 +7,9 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [View normalization suggestions in Software Asset Management classic, Using Software Asset Management classic, Software Asset Management, IT Asset Management]
+breadcrumb: [View normalization suggestions in Software Asset Management classic, Using Software Asset Management classic, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Manually override edition value in Software Asset Management classic

@@ -7,9 +7,9 @@ release: zurich
 product: Time Configuration
 classification: time-configuration
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Viewing record information over time, Reference, Time configuration, Configure core features, Administer]
+breadcrumb: [Viewing record information over time, Reference, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Timeline pages

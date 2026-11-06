@@ -1,38 +1,38 @@
 ---
 title: Internet of Things \(IoT\) extension classes
-description: The CMDB CI Class Models store app adds or updates classes for the Internet of Things \(IoT\).
+description: The CMDB CI Class Models app adds or updates classes for the Internet of Things \(IoT\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-iot.html
 release: zurich
 product: CMDB CI Class Models
 classification: cmdb-ci-class-models
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [CMDB CI class models, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB CI class models, CMDB hierarchy, Explore, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Internet of Things \(IoT\) extension classes
 
-The CMDB CI Class Models store app adds or updates classes for the Internet of Things \(IoT\).
+The CMDB CI Class Models app adds or updates classes for the Internet of Things \(IoT\).
 
-The CMDB CI Class Models app adds class models that extend the CMDB class hierarchy, including class descriptions, identification rules, identifier entries, and, if applicable, dependent relationships. You can use the added classes just like any other CMDB class. Applications such as Discovery and Service Mapping Patterns can use the class extensions to populate CIs and discover technologies and software.
+CMDB CI Class Models is a ServiceNow Store app that adds class models that extend the CMDB class hierarchy. The new or updated classes include class descriptions, identification rules, identifier entries, and, if applicable, dependent relationships. You can use the added classes just like any other CMDB class. Applications such as Discovery and Service Mapping Patterns can use the class extensions to populate CIs and discover technologies and software.
 
-See the CMDB CI Class Models release notes.
+See the release notes for all CMDB CI class models.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Internet of Things \(IoT\)
 
-IoT is a system of interrelated computing devices, mechanical and digital machines, objects, animals or people that are provided with unique identifiers and the ability to transfer data over a network without requiring human-to-human or human-to-computer interaction. The classes added in this release, extend the Data Model to provide a foundation for the representation of IoT CI classes. This foundation underpins workflows for Enterprise Asset Management \(EAM\), Governance Risk Compliance \(GRC\), Component Supply Management \(CSM\), and Field Service Management \(FSM\) surrounding the management of IoT devices and the transport vehicles that some reside in.
+IoT is a system of interrelated computing devices, mechanical and digital machines, objects, animals or people that are provided with unique identifiers and the ability to transfer data over a network without requiring human-to-human or human-to-computer interaction. The classes added in this release, extend the Data Model to provide a foundation for the representation of IoT CI classes. This foundation underpins workflows for Enterprise Asset Management \(EAM\), Governance Risk Conformance \(GRC\), Component Supply Management \(CSM\), and Field Service Management \(FSM\) surrounding the management of IoT devices and the transport vehicles that some reside in.
 
 \[Omitted image "cmdb\_iot\_diagram.png"\] Alt text: IoT extension classes integrated with the CMDB class hierarchy.
 
 ## Classes
 
-This section lists the classes that the CMDB CI Class Models store app adds or updates. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
+This section lists the classes that the CMDB CI Class Models app adds or updates. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
 
 CMDB CI Class Models: Release 1.6.0 adds the following classes for IoT.
 
@@ -372,7 +372,7 @@ Medical Device\[cmdb\_ci\_medical\]
 
 </td><td>
 
-Specialized tools that aid in the treatment, rehabilitation, or management of health conditions. Can range from orthopedic supports to cardiac implants and neurostimulation devices.
+Specialized tools assists in the treatment, rehabilitation, or management of health conditions. Can range from orthopedic supports to cardiac implants and neurostimulation devices.
 
 </td></tr><tr><td>
 
@@ -384,7 +384,7 @@ Manufacturing Device\[cmdb\_ci\_manufacturing\]
 
 </td><td>
 
-A logic controller that is network connected which is used in manufacturing. For example, devices made by Siemens and Allen Bradley.
+A network-connected logic controller that is used in manufacturing. For example, devices made by Siemens and Allen Bradley.
 
 </td></tr><tr><td>
 
@@ -396,7 +396,7 @@ Manufacturing Device\[cmdb\_ci\_manufacturing\]
 
 </td><td>
 
-An HMI that is network connected which is used in manufacturing. For example, devices made by Siemens and Allen Bradley.
+A network-connected HMI that is used in manufacturing. For example, devices made by Siemens and Allen Bradley.
 
 </td></tr><tr><td>
 
@@ -408,7 +408,7 @@ Multimedia Device\[cmdb\_ci\_multimedia\]
 
 </td><td>
 
-A device that is network connected which is used to play games or stream media. For example, an Xbox or Playstation.
+A network-connected device that is used to play games or stream media. For example, an Xbox or Playstation.
 
 </td></tr><tr><td>
 
@@ -420,7 +420,7 @@ Multimedia Device\[cmdb\_ci\_multimedia\]
 
 </td><td>
 
-A device that is network connected which is used to play digital media content. For example, Amazon Fire TV.
+A network-connected device that is used to play digital media content. For example, Amazon Fire TV.
 
 </td></tr><tr><td>
 
@@ -432,7 +432,7 @@ Multimedia Device\[cmdb\_ci\_multimedia\]
 
 </td><td>
 
-A device that is network connected that controls the display of media on a monitor. For example, a Crestron Media Controller.
+A network-connected device that controls the display of media on a monitor. For example, a Crestron Media Controller.
 
 </td></tr><tr><td>
 
@@ -444,7 +444,7 @@ Payment Device\[cmdb\_ci\_payment\]
 
 </td><td>
 
-A device that is network connected which is used in the purchase of goods or services. For example, a credit card reader.
+A network-connected device that is used in the purchase of goods or services. For example, a credit card reader.
 
 </td></tr></tbody>
 </table>**Related topics**  

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/create-email-account-ms-graph.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reading email using Microsoft Graph, Advanced email setup, Configure, Email Administration, Notifications, Configure core features, Administer]
+breadcrumb: [Read email using Microsoft Graph, Read or send emails using Microsoft Graph, Advanced email setup, Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create an email account for Microsoft Graph \(receive\)
@@ -52,7 +52,7 @@ Type
 
 </td><td>
 
-Microsoft Graph \(Receive\).
+Microsoft Graph \(Receive\)
 
 </td></tr><tr><td>
 
@@ -106,8 +106,6 @@ Option to create node logs for the raw data that is exchanged with the email ser
 
 **Related topics**  
 
-
-[Activate Email - Support for Email Processing by Microsoft Graph API]()
 
 [Configure an OAuth profile to use a client ID and secret for token generation]()
 

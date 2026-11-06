@@ -1,31 +1,35 @@
 ---
-title: Now Assist for Vault
-description: With Now Assist for Vault, you can generate custom data patterns, check role access for an encrypted column, and schedule data discovery jobs. Now Assist for Vault can make it easier for you to perform common tasks without going to multiple systems.
+title: ServiceNow Otto for Vault
+description: With ServiceNow Otto for Vault, you can generate custom data patterns, check role access for an encrypted column, and schedule data discovery jobs. ServiceNow Otto for Vault can make it easier for you to perform common tasks without going to multiple systems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/now-assist-vault-landing.html
 release: zurich
 topic_type: reference
-last_updated: "2025-12-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 ---
 
-# Now Assist for Vault
+# ServiceNow Otto for Vault
 
-With Now Assist for Vault, you can generate custom data patterns, check role access for an encrypted column, and schedule data discovery jobs. Now Assist for Vault can make it easier for you to perform common tasks without going to multiple systems.
+With ServiceNow Otto for Vault, you can generate custom data patterns, check role access for an encrypted column, and schedule data discovery jobs. ServiceNow Otto for Vault can make it easier for you to perform common tasks without going to multiple systems.
 
 ## Get started
 
 <table id="table_dm1_dr1_nhc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the generative AI skills that are available in Now Assist for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/exploring-now-assist-vault.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the generative and agentic AI skills that are available in ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/exploring-now-assist-vault.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the generative AI skills in Now Assist for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/configuring-now-assist-vault.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the generative and agentic AI skills in ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/configuring-now-assist-vault.md)
+
+</td></tr><tr><td>
+
+[Use\[Omitted image "bus-ai-otto.svg"\] Alt text:Use the generative AI capabilities in ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/using-now-assist-vault.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use the generative AI capabilities in Now Assist for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/using-now-assist-vault.md)
+[Use\[Omitted image "bus-workflow.svg"\] Alt text:Use the agentic AI capabilities in ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/use-now-assist-vault-agentic-ai.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -86,4 +90,6 @@ This application requires data to be transferred from ServiceNow customers' indi
 ## Data collection
 
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+
+For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-products.md).
 

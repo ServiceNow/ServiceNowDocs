@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: concept
 last_updated: "2026-09-28"
 reading_time_minutes: 3
-breadcrumb: [Administer, AI Search, Search administration, Configure core features, Administer]
+breadcrumb: [Administer, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Lemma and Unicode normalization

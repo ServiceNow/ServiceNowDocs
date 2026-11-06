@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure your password policy, Password complexity requirements, Local authentication, Access Management]
+breadcrumb: [Configure your password policy, Password complexity requirements, Local authentication, Authentication, Access Management]
 ---
 
 # Exclude passwords through password policies on your instance
@@ -18,7 +18,7 @@ Add passwords to the Excluded Password table to prohibit specific passwords from
 
 ## Before you begin
 
-Role required: admin
+Role required: password\_policy\_admin
 
 ## About this task
 
@@ -35,9 +35,9 @@ You can ban as many passwords as necessary. Some of the examples are as follows:
 
 1.  Navigate to **All** &gt; **Password Policy** &gt; **Excluded Passwords**.
 
-2.  To add a password to your exclude list, click **New** and enter the password.
+2.  To add a password to your exclude list, select **New** and enter the password.
 
-3.  Navigate to **Password Policy** &gt; **Exclusion List Management** to govern your users' password and prevent users from using bad password for the instance.
+3.  Navigate to **Password Policy** &gt; **Exclusion List Management** to govern your users' password and help prevent users from using bad password for the instance.
 
     The **Exclusion List Management** has about 5000 commonly used passwords.
 

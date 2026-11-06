@@ -7,7 +7,7 @@ release: zurich
 product: Service Catalog
 classification: service-catalog
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 breadcrumb: [Service Catalog Reference, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -65,6 +65,19 @@ Active
 </td><td>
 
 Check box to make the item active \(available to be ordered\).**Note:** Inactive catalog items added to order guides do not appear in the order guide. Use **Visible On Guide**, **Visible elsewhere** to hide the item and show only in the order guide.
+
+</td></tr><tr><td>
+
+Secondary owner
+
+</td><td>
+
+Add user criteria records to this field. Users who meet the specified criteria can edit catalog items.
+
+ **Note:**
+
+-   If you want more people to edit a catalog item, then you can use this field. You can provide a user criteria to this field, and a user who matches with this user criteria, would be able to edit the item.
+-   Only catalog admin or owner of the item can modify the value in the field.
 
 </td></tr><tr><td>
 
@@ -584,7 +597,7 @@ Catalog Client Scripts
 
 </td><td>
 
-[Catalog client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/t_CreateACatalogClientScript.md) associated with this item.
+[Catalog client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/c_CatalogClientScriptCreation.md) associated with this item.
 
 </td></tr><tr><td>
 

@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [SuccessFactors Learning Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -38,7 +38,7 @@ Role required: admin
     |Active|Option to actively use the credential record.|
     |Username|Username to log in to the local ServiceNow instance.|
     |Company ID|Company ID information provided by the client.|
-    |User type|Defines the role or classification of the user \(For example: Admin\)|
+    |User type|Password to log in to the local ServiceNow instance.|
     |Resource type|Resource type information provided by the client.|
     |Client ID|A unique string representing the registration information provided by the client.|
     |Client Secret|A secret code known only to the application and the authorization server.|

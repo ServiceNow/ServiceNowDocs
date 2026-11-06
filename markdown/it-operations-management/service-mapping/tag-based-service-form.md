@@ -7,7 +7,7 @@ release: zurich
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2025-10-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Tag mapping in the workspace, Exploring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -40,6 +40,4 @@ The **Service CIs** tab lists the configuration items \(CIs\) that are part of t
 ## Tagged CIs tab
 
 The **Tagged CIs** tab lists all CIs that meet the criteria for a tag-based application service, up to 4,000. The **sa.it\_service.list\_cis\_max\_count** property controls this limit. This list includes CIs belonging to the application service \(also listed on the **Service CIs** tab\) and up to 3,000 additional CIs. This tab is useful for building new tag-based application services or troubleshooting existing services with a preview of relevant CIs. However, no CIs beyond the 4000 limit are displayed.
-
-**Parent Topic:**[Tag-based mapping in the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/tag-based-mapping-dashboard.md)
 

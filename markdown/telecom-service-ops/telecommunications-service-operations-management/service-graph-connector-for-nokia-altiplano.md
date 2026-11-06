@@ -7,8 +7,8 @@ release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Indirect Discovery with SGCs, Telecom Discovery, Telecom Visibility, Explore, Telecommunications Service Operations Management]
 ---
 
@@ -21,7 +21,7 @@ Designed for service providers and telecom enterprises, this connector enables c
 ## Key benefits
 
 -   Accurate inventory synchronization: Automatically populate the CMDB with up-to-date physical and logical inventory from Nokia Altiplano using secure, REST API-based ingestion. This includes OLTs, ONUs/ONTs, interface cards, ports, slots, and logical connections.
--   Telecom-Aware CI modeling: Model your network infrastructure in a telecom-aligned format using purpose-built CI classes and relationships. The connector ensures the accurate representation of devices and their dependencies—mirroring your actual network topology.
+-   Telecom-Aware CI modeling: Model your network infrastructure in a telecom-aligned format using purpose-built CI classes and relationships. The connector verifies the accurate representation of devices and their dependencies—mirroring your actual network topology.
 -   Simplified and Guided Setup: Reduce time-to-value with a built-in guided setup that walks you through connection configuration, data source management, and import scheduling with ease.
 -   Flexible discovery options: Choose how and when to run discovery based on your needs—whether it’s full bulk loads, targeted filtered discovery, or phased OLT-only imports. Apply custom filters by device IP or name.
 -   Multi-Instance support: Scale effortlessly by onboarding multiple Altiplano instances independently. Configure connection aliases and define import schedules per instance for complete operational flexibility.
@@ -30,24 +30,182 @@ Designed for service providers and telecom enterprises, this connector enables c
 
 ## Nokia Altiplano SGC Architecture
 
-The following infographic helps you understand the architecture of Nokia Altiplano service graph connector.
+The following table illustrates the architecture of Nokia Altiplano service graph connector.
 
-## Use cases
+<table><thead><tr><th>
+
+\#
+
+</th><th>
+
+Stage
+
+</th><th>
+
+Location
+
+</th><th>
+
+Components or sub-flow
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+1
+
+</td><td>
+
+Source
+
+</td><td>
+
+Network/IT
+
+</td><td>
+
+Altiplano Controller \(REST\)
+
+</td><td>
+
+External system holding OLT and ONU data. REST is the active protocol for this connector.
+
+</td></tr><tr><td>
+
+2
+
+</td><td>
+
+Altiplano data source \(custom script\)
+
+</td><td>
+
+MID Server
+
+</td><td>
+
+-   REST action \(get access token\)
+-   REST action \(get list of OLT devices\)
+-   REST sub-flow \(get OLT and its related ONUs, physical and logical details\)
+-   Bulk data source
+-   Filtering data source
+-   Filter devices list
+
+</td><td>
+
+REST actions run on the MID Server to get the access token from Altiplano, retrieve the device list for discovery, and get full device details.
+
+</td></tr><tr><td>
+
+3
+
+</td><td>
+
+Import sets
+
+</td><td>
+
+ServiceNow instance
+
+</td><td>
+
+Altiplano import set
+
+</td><td>
+
+Imports data from external sources, triggered by *Scheduled Data Import*. The bulk data source pulls all Altiplano data; the filtering data source pulls only data for OLTs that match the filter criteria. *Use Connection* selects the Altiplano connection alias.
+
+ The import set includes:
+
+ -   OLT physical and logical
+-   ONU physical and logical
+-   Logical ports relationships
+-   Logical connections between OLTs and ONUs
+
+</td></tr><tr><td>
+
+4
+
+</td><td>
+
+IH-ETL RTE
+
+</td><td>
+
+ServiceNow instance
+
+</td><td>
+
+-   Clean, transform, enrich data
+-   Map to CMDB classes and add relationships
+-   Prepare payloads for IRE
+
+</td><td>
+
+Determines which classes are populated based on discovered data and models. Handles transform maps, references of models and BW, CI relationships, and CI references.
+
+</td></tr><tr><td>
+
+5
+
+</td><td>
+
+IRE
+
+</td><td>
+
+ServiceNow instance
+
+</td><td>
+
+-   IRE rules execution
+-   CMDB integration
+
+</td><td>
+
+RTE output is automatically passed to the IRE as a payload. The IRE matches to existing CIs based on identification rules and creates new CIs if no match is found.
+
+</td></tr><tr><td>
+
+6
+
+</td><td>
+
+CMDB compliance
+
+</td><td>
+
+ServiceNow instance
+
+</td><td>
+
+-   Audit
+-   Follow-on tasks
+-   Remediation \(writes to CMDB and TNI\)
+
+</td><td>
+
+Detects CMDB discrepancies, such as relationship mismatches or CIs present in the CMDB but not discovered. Creates a discrepancy report. Resolves discrepancies automatically or manually through the remediation workflow.
+
+</td></tr></tbody>
+</table>## Use cases
 
 The following are examples on how you can use the Nokia Altiplano Service Graph Connector:
 
--   Automatically ingest and structure network data into ServiceNow CMDB for both physical and logical network elements: This creates a telecom-model-aligned CMDB view that mirrors your live network environment.
+-   Automatically ingest and structure network data into ServiceNow’s CMDB for both physical and logical network elements: This creates a telecom-model-aligned CMDB view that mirrors your live network environment.
     -   Physical Components: OLTs, ONUs/ONTs, slots, subslots, cards, and ports
     -   Logical Components: Logical ports, VLANs, Link Aggregation Groups \(LAGs\), and logical paths between devices
 -   Maintain the integrity of your network data with scheduled, automated reconciliation that:
     -   Detects and responds to real-time changes
-    -   Avoids data drift or stale records
+    -   Prevents data drift or stale records
     -   Supports operational processes like service assurance, order fulfillment, and network planning
 -   Discover beyond physical infrastructure by capturing and managing logical connectivity within ServiceNow:
     -   Identify and model logical ports, LAGs, and logical paths like PON and VLAN connections
     -   Link logical CIs with physical components using parent-child and member-of relationships
     -   Enhance diagnostics, impact analysis, and service modeling by visualizing end-to-end logical topologies
--   Leverage ServiceNow built-in Extract, Transform, Load \(ETL\) framework to simplify and accelerate integration:
+-   Leverage ServiceNow’s built-in Extract, Transform, Load \(ETL\) framework to simplify and accelerate integration:
     -   Predefined transformation maps and CI class definitions reduce development overhead
     -   Reuse existing CMDB structures to minimize customization
     -   Rapidly onboard new Altiplano instances and scale across your network infrastructure
@@ -57,7 +215,7 @@ The following are examples on how you can use the Nokia Altiplano Service Graph 
 |Capability|Description|Supporting component|
 |----------|-----------|--------------------|
 |Telecom-aware CMDB modeling|Maps Altiplano physical and logical inventory \(OLT, ONU/ONT, ports, slots, cards, interfaces\) into CMDB with telecom-specific CI classes and relationships.|RTE, IRE, CMDB tables \(`cmdb_ci_optical_line_terminal`, `cmdb_ci_optical_network_terminal`, etc.\)|
-|Automated data ingestion|Retrieves device inventory from Nokia Altiplano via REST APIs with secure, scheduled imports.|MID Server, Data Sources \(Nokia Altiplano Bulk/Filtered Discovery for SGC\)|
+|Automated data ingestion|Retrieves device inventory from Nokia Altiplano via REST APIs with secure, scheduled imports.|MID Server, Data Sources \(SGC-Nokia Altiplano Bulk/Filtered Discovery\)|
 |Custom discovery control|Choose OLT-only or include ONU data, apply filters by IP or name, schedule jobs per instance.|Import Schedules, System Properties \(`sn_sgc_altiplano.enable_onu_discovery`, etc.\)|
 |Multi-instance support|Configure and manage discovery independently for multiple Altiplano controllers.|Connection Aliases, Credential Aliases|
 |Parallel data processing|Improve performance by running concurrent data-source jobs for large datasets.|System Property: `sn_sgc_altiplano.parallel_number_of_data_source_jobs`, Enable Parallel Loading|

@@ -7,7 +7,7 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 breadcrumb: [Mandatory setup, Implement, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Mandatory setup, Implement, Policy and Compliance Management, Gover
 
 Attestations are surveys that gather evidence to prove that a control is implemented. Attestations document how the control is measured. This method is frequently used during the Draft and Monitor state.
 
-The attestation designer provides a single interface that users can use to create, and edit attestations, as well as change scoring parameters. The question bank offers a library of questions for various categories, so you do not have to build each questionnaire from scratch.
+The attestation designer provides a single interface that users can use to create and edit attestations, as well as change scoring parameters. The question bank offers a library of questions for various categories, so you do not have to build each questionnaire from scratch.
 
 **Note:** To know more about control attestations, see [An overview of policy life cycle in Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/pc-policy-life-cycle-ovrvw.md).
 
@@ -44,7 +44,7 @@ The attestation designer provides a single interface that users can use to creat
 
 All attestation records are stored in assessment tables and displayed in Attestation views of those tables.
 
-**Parent Topic:**[Classic UI for Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/using-policy-compliance-legacy-ui.md)
+**Parent Topic:**[Classic UI for Policy and Control Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/using-policy-compliance-legacy-ui.md)
 
 ## Create a control attestation using the Attestation Designer
 
@@ -231,28 +231,17 @@ N
 </td></tr></tbody>
 </table>    **Note:** Set the correct answer for the metric that you want to be scored. Scored metrics determine the compliance status of the controls.
 
-5.  Point to the menu icon in the upper right of the Attestation Designer to select one of the following options.
+5.  Point to the menu icon in the upper right of the Attestation Designer and select **New Attestation**.
 
-    **Note:** The availability of each option depends on the status of the attestation that is opened in the designer.
+    A fresh canvas opens for you to build a new attestation.
 
-<table id="choicetable_gdn_d5c_rw"><tbody><tr><td id="d92482e535">
+6.  To edit an existing attestation, point to the menu icon in the upper right of the Attestation Designer and select **Load Attestation**.
 
-**New Attestation**
+    You can modify questions, adjust scoring parameters, and change the scale factor. Save your changes when complete.
 
-</td><td>
+    **Note:** The availability of the New Attestation and Load Attestation options depend on the status of the attestation that is opened in the designer.
 
-Opens a fresh canvas for a new attestation.
-
-</td></tr><tr><td id="d92482e544">
-
-**Load Attestation**
-
-</td><td>
-
-Opens a list of existing attestations that you can select and edit.
-
-</td></tr></tbody>
-</table>    Unlike other types of assessments, control attestations do not appear in the **Self-Service** &gt; **My assessments &amp; surveys** module, because many control attestations could be generated at once. Instead, controls attestations are shown as a list in the **Policy and Compliance** &gt; **Controls** &gt; **My Attestations** module and **All Attestations** module.
+    Unlike other types of assessments, control attestations don't appear in the **Self-Service** &gt; **My assessments &amp; surveys** module, because many control attestations could be generated at once. Instead, controls attestations are shown as a list in the **Policy and Compliance** &gt; **Controls** &gt; **My Attestations** module and **All Attestations** module.
 
 
 ### What to do next
@@ -314,7 +303,9 @@ If you do not want your users to access to this capability, navigate to **All** 
 
 2.  Select the attestations you want to group.
 
-3.  From the **Actions on selected rows** choice list, click **Group Assessments**.
+3.  From the **Actions on selected rows** choice list, select **Group Assessments**.
+
+    \[Omitted image "group-assessments.png"\] Alt text: Group assessments
 
 4.  In **Response Type**, select **Provide same response for all assessments**.
 
@@ -362,8 +353,6 @@ The **Preview** shows the number of attestations to be grouped. Depending on the
 
     A confirmation message displays, along with a link to the attestation group.
 
-    \[Omitted image "message.png"\] Alt text: Assessment created message
-
     **Note:** When attestation groups are created, you can view them by navigating to **Policy and Compliance** &gt; **Controls** &gt; **My Grouped Attestations**. If you open a grouped attestation, you have the option of removing one or more attestations from the group. This is achieved by selecting the ones you want removed, and selecting **Ungroup Assessment** from the **Actions on selected rows** choice list. If you remove attestations from a group to the point where there is only one attestation, the group is removed.
 
 7.  When you are ready to take the assessment, click the link in the confirmation message or the attestation number in **My Grouped Attestations**.
@@ -397,7 +386,9 @@ When you consolidate control attestations or risk assessments using the Differen
 
 2.  Select the attestations you want to group.
 
-3.  From the **Actions on selected rows** choice list, click **Group Assessments**.
+3.  From the **Actions on selected rows** choice list, select **Group Assessments**.
+
+    \[Omitted image "group-assessments.png"\] Alt text: Group assessments
 
 4.  In **Response Type**, select **Provide different response for each assessment**.
 
@@ -444,8 +435,6 @@ The **Preview** shows the number of attestations to be grouped. Depending on the
 </table>6.  When you are satisfied with the attestations or risk assessments to be consolidated, click **Group**.
 
     A confirmation message displays, along with a link to the attestation group.
-
-    \[Omitted image "message.png"\] Alt text: Assessment created message
 
     **Note:** When attestation groups are created, you can view them by navigating to **Policy and Compliance** &gt; **Controls** &gt; **My Grouped Attestations**. If you open a grouped attestation, you have the option of removing one or more attestations from the group. This is achieved by selecting the ones you want removed, and selecting **Ungroup Assessment** from the **Actions on selected rows** choice list. If you remove attestations from a group to the point where there is only one attestation, the group is removed.
 

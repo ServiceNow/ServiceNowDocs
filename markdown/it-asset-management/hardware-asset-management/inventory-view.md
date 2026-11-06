@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Hardware Asset Workspace, Explore, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Hardware Asset Workspace, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Inventory view
@@ -61,4 +61,8 @@ You can use the following important action cards related to service locations, d
 -   Shipment data discrepancy: List of shipment records with the Carrier status as delivered and the Stage as In Transit.
 -   Carrier integration failures: List of integration profiles that failed to connect three consecutive times.
 -   Unmapped carrier profiles: List of integration profiles that aren’t associated with a carrier.
+
+**Note:** You can view **Stale shipments**, **Carrier integration failures**, and **Unmapped carrier profiles** important action cards with asset, inventory\_admin, or ham\_admin role.
+
+**Parent Topic:**[Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/using-ham-workspace.md)
 

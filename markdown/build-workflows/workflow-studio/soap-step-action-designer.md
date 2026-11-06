@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Steps, Flows, subflows, and actions reference, Reference, Workflow Studio, Build workflows]
+breadcrumb: [Steps, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # SOAP step
@@ -192,7 +192,7 @@ Attachment
 
 </td><td>
 
-Attachment record that contains the request. You can look up or create this record in a prior step and define it as an input variable. Create it by using the JSONStreamingBuilder and XMLStreamingBuilder APIs in the Script step. **Note:** This field is available when the **Request Type** is **Binary**.
+Attachment record that contains the request. You can look up or create this record in a prior step and define it as an input variable. Create it by using the [JSONStreamingBuilder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/JSONStreamingBuilderScopedAPI.md) and [XMLStreamingBuilder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/XMLStreamingBuilderScopedAPI.md) APIs in the Script step. **Note:** This field is available when the **Request Type** is **Binary**.
 
 </td></tr><tr><td>
 

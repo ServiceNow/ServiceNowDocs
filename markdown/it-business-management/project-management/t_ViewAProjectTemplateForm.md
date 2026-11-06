@@ -7,9 +7,9 @@ release: zurich
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Applying templates to projects, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Applying templates to projects, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Create a project template
@@ -28,15 +28,15 @@ When you create a template from a project, all the project attachments and check
 
 1.  Create a template.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d340790e68">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d365453e68">
 
 Option
 
-</th><th align="left" id="d340790e71">
+</th><th align="left" id="d365453e71">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d340790e77">
+</th></tr></thead><tbody><tr><td id="d365453e77">
 
 **From an existing template**
 
@@ -48,7 +48,7 @@ Steps
 4.  The Copy Template dialog box opens. The **Template** field is auto-filled with the current template name.
 
 
-</td></tr><tr><td id="d340790e122">
+</td></tr><tr><td id="d365453e122">
 
 **From a project**
 

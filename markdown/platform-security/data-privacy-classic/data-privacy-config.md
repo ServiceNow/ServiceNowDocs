@@ -7,7 +7,7 @@ release: zurich
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data privacy \(Classic\), Data Privacy, Platform Privacy]
 ---
@@ -15,8 +15,6 @@ breadcrumb: [Data privacy \(Classic\), Data Privacy, Platform Privacy]
 # Data privacy \(Classic\) configuration
 
 Learn how to create data privacy techniques and policies, and how to create and execute data privacy jobs.
-
-**Important:** This section is for Data Privacy\(Classic\). See [Data privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/dps-data-privacy.md) for the latest up to date store version.
 
 ## Data privacy techniques
 

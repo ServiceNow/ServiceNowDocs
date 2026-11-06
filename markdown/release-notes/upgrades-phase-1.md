@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/upgrades-phase-1.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Upgrade to the Zurich release, Zurich release notes]
+breadcrumb: [Upgrade to the Brazil release, Brazil release notes]
 ---
 
 # Phase 1 - Read the release notes and plan your upgrade
@@ -30,9 +30,9 @@ Role required: admin.
 
     Review upgrade and migration tasks that you will need to complete before or after your upgrade.
 
-    -   ServiceNow provides release notes for every release. The release notes offer valuable information about new functionality, notable changes, and fixes available in a particular version. Read the [Zurich release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/family-release-notes.md) to determine whether the upgrade contains functionality you need and fixes that resolve any issues affecting your instance. The release notes can also help you determine whether items you previously customized are being upgraded.
-    -   For Zurich -specific upgrade considerations, see [Pre- and post-upgrade tasks for various products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/upgrade-and-migration-tasks.md).
-    -   If you are thinking about upgrading to the Zurich family, problem \(PRB\) fixes can be an important factor in your upgrade plans. You can generate a list of . Compare the lists of fixed problems across various Zurich upgrade scenarios to help you decide which release version to upgrade to.
+    -   ServiceNow provides release notes for every release. The release notes offer valuable information about new functionality, notable changes, and fixes available in a particular version. Read the [Brazil release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/family-release-notes.md) to determine whether the upgrade contains functionality you need and fixes that resolve any issues affecting your instance. The release notes can also help you determine whether items you previously customized are being upgraded.
+    -   For Brazil -specific upgrade considerations, see [Pre- and post-upgrade tasks for various products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/upgrade-and-migration-tasks.md).
+    -   If you are thinking about upgrading to the Brazil family, problem \(PRB\) fixes can be an important factor in your upgrade plans. You can generate a list of . Compare the lists of fixed problems across various Brazil upgrade scenarios to help you decide which release version to upgrade to.
 2.  Complete the preparation and planning tasks in Phase 2 of the [Upgrade planning checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/upgrades-planning-checklist.md).
 
     The checklist contains a list of planning tasks that guide you through various aspects of upgrade preparation. You are guided through tasks such as scoping, gathering stakeholders, identifying features to disable and enable, and creating test plans to use throughout the upgrade. Follow these steps to ensure that all aspects of your organization are ready for the upgrade.

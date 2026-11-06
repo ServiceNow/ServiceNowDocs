@@ -7,7 +7,7 @@ release: zurich
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 25
 breadcrumb: [Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -20,7 +20,7 @@ You can use the patterns on the ServiceNow AI Platform using London Patch 7, Mad
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -241,7 +241,7 @@ Option for enabling this schedule for Discovery. Select this check box to enable
     
     ```
 
-    Use the following EVAL function to get information for all the organizations assigned to the IBM cloud account. The function iterates to get the unique region.
+    Use the following EVAL function to get information for all the organizations that are assigned to the IBM cloud account. Iteration for getting the unique region is performed.
 
     ```
     var cloudcall = new CloudRestAPIClient();

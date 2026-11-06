@@ -7,9 +7,9 @@ release: zurich
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Optimizing automations, Working with automations, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Working with automations, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Update an automation attribute
@@ -92,5 +92,5 @@ Time saved after each run of the automation.
 </table>6.  Select **Update**.
 
 
-**Parent Topic:**[Optimizing automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/optimizing-automations.md)
+**Parent Topic:**[Working with automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/automations.md)
 

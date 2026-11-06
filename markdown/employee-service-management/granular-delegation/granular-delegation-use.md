@@ -7,7 +7,7 @@ release: zurich
 product: Granular Delegation
 classification: granular-delegation
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Granular Delegation, Employee Service Management]
 ---
@@ -373,7 +373,7 @@ You can use the ServiceNow® mobile to view tasks delegated to you.
 
 Role required: sn\_hr\_core.case\_writer
 
-Notification of delegated tasks are sent to your email address if your HR profile contains that information. For more information, see [Use HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_HRProfileRecords.md).
+Notification of delegated tasks are sent to your email address if your HR profile contains that information. For more information, see [HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_HRProfileRecords.md).
 
 **Note:** If your company uses Connect, you can choose what notifications you receive. For more information on notifications, see [Enable or disable Connect notifications globally](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/t_EnableDisableConnectNotifications.md).
 

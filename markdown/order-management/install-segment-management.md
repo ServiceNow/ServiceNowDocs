@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/install-segment-management.html
 release: zurich
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
-breadcrumb: [Configure Segment Management, Partner Relationship Management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configure Segment Management, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
 
 # Install Segment Management
@@ -16,7 +16,7 @@ Install the Segment Management plugin \(com.snc.segment\_mgmt\), along with the 
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 
 Depending on your entitlements, you must install demo data after installation. Demo data comprises the sample records that describe application features for the common use cases.
 
@@ -45,15 +45,15 @@ For more information on viewing components that are installed with an applicatio
 
 4.  If you want to install demo data, do one of the following depending on your entitlements.
 
-<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d38899e131">
+<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d36348e131">
 
 Demo data install task
 
-</th><th align="left" id="d38899e134">
+</th><th align="left" id="d36348e134">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d38899e140">
+</th></tr></thead><tbody><tr><td id="d36348e140">
 
 **If demo data is available and you want to install it**
 
@@ -63,7 +63,7 @@ Description
 2.  Select **Install**.
  **Important:** If you don't load the demo data during installation, it's unavailable to load later.
 
-</td></tr><tr><td id="d38899e170">
+</td></tr><tr><td id="d36348e170">
 
 **If the Load Demo Data option isn’t available but you want demo data**
 
@@ -87,8 +87,6 @@ You have successfully installed the Segment Management \(com.snc.segment\_mgmt\)
 
 
 [Configure Segment Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-segment-management.md)
-
-[Segment Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/segment-management.md)
 
 [Data model for Segment Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/data-model-for-segment-management.md)
 

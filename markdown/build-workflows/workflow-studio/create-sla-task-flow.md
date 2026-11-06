@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create a flow, Building flows, Use, Workflow Studio, Build workflows]
+breadcrumb: [Create a flow, Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Create a flow with an SLA Task trigger
@@ -18,11 +18,13 @@ Configure your Service Level Agreement \(SLA\) definition to run a flow as the a
 
 ## Before you begin
 
-Role required: flow\_designer or admin
+-   Role required: flow\_designer or admin
 
 ## About this task
 
 An SLA Task trigger only runs when a task record matches the conditions of a Service Level Agreement \(SLA\) definition. For example, you can run a flow whenever an incident record matches the **Priority 1 resolution \(8 hour\)** SLA Definition.
+
+SLA task flows run synchronously, which may lock the triggering task record from further changes while the flow is running.
 
 ## Procedure
 

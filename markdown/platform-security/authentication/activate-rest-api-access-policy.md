@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [REST API access policies, API access policy, Access Management]
+breadcrumb: [REST API access policies, API access policy, Authentication, Access Management]
 ---
 
 # Activate REST API access policy
@@ -18,13 +18,11 @@ You can activate the REST API Access Policy plugin \(com.glide.rest.policy\) if 
 
 ## Before you begin
 
-Role required: admin.
-
 ## About this task
 
 The following items are installed with REST API Access Policy:
 
--   Plugins: com.gilde.auth.profile, com.snc.adaptive\_authentication, com.snc.platform.security.oauth
+-   Plugins: com.glide.auth.profile, com.snc.adaptive\_authentication, com.snc.platform.security.oauth
 -   Tables: sys\_api\_access\_policy, sys\_auth\_profile\_mapping, auth\_policy\_mapping, inbound\_auth\_profile, std\_http\_auth.
 
 For more information, see [Adaptive authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/adaptive-authentication.md).
@@ -39,7 +37,7 @@ For more information, see [Adaptive authentication](https://raw.githubuserconten
 
 3.  Select **Install** to start the installation process.
 
-    **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
+    **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/find-components.md).
 

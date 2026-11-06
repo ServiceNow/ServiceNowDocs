@@ -7,9 +7,9 @@ release: zurich
 product: Contract Management
 classification: contract-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Asset Management, IT Service Management]
+breadcrumb: [Asset Management common applications, IT Service Management]
 ---
 
 # Contract Management
@@ -43,7 +43,7 @@ Condition check definitions enable you to define logical conditions that indicat
 -   **[Domain separation and Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/contract-management/domain-separation-contract-mgmt.md)**  
 Domain separation is unsupported in Contract Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
-**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/asset-management/c_AssetManagement.md)
+**Parent Topic:**[Asset Management common applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/asset-management-core.md)
 
 **Related topics**  
 

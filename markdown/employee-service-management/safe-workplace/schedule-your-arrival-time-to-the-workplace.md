@@ -7,7 +7,7 @@ release: zurich
 product: Safe Workplace
 classification: safe-workplace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting and tracking arrivals at the workplace, Workplace Core, Safe Workplace, Health and Safety, Employee Service Management]
 ---

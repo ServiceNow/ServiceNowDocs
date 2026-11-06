@@ -7,8 +7,8 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 13
+last_updated: "2026-09-10"
+reading_time_minutes: 14
 breadcrumb: [Manage work order tasks, Prepare work orders, Use, Field Service Management]
 ---
 
@@ -176,7 +176,7 @@ Assignment group
 
 Group that has the individual agent or vendor who will complete the task. By default, this field shows the recommended assignment groups based on the location, asset, and skills for the task. If the field is empty, the system searches for the group covering the territory that includes the location of the task.**Note:** If there are multiple assignment groups that can be serviced for a work order task, then the potential assignment groups are calculated and automatically populated based on the location and assignment groups if there are more than one that can be serviced for a work order task. Applicable only when:
 
--   The **sn\_fsm.update\_potential\_assignment\_groups** system property is set to true.
+-   The **sn\_fsm.update\_potential\_assignment\_groups** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/r_PropInstallWFieldServMgmnt.md) is set to true.
 -   More than one assignment group is found for the location.
 -   Territory model is inactive.
 
@@ -353,6 +353,16 @@ Estimated end
 </td><td>
 
 Date when the work on the task will end. The date is automatically calculated based on the **Scheduled start** and **Estimated work duration**.
+
+</td></tr><tr><td>
+
+Window end buffer duration
+
+</td><td>
+
+Option to specify an additional time buffer beyond the defined window end. This buffer allows the optimization process to include tasks that slightly exceed the original window, ensuring they remain in the schedule rather than being excluded.**Important:**
+
+**Window end buffer duration** is only used by Schedule Optimization
 
 </td></tr><tr><td>
 
@@ -592,4 +602,9 @@ Penalty cost incurred every minute after penalty due date has passed. The penalt
 ## Result
 
 When a work order task is created, customers receive SMS and email notifications. If the task is in a territory and **sn\_fsm.use\_query\_rules** is enabled, only linked agents, dispatchers, and qualifiers can see it. Access is based on entitlement, controlled by administrators through **sn\_fsm.use\_query\_rules** system property.
+
+**Related topics**  
+
+
+[Skills table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/skills-table-fields.md)
 

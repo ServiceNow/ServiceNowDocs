@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-05-12"
 reading_time_minutes: 2
 keywords: [connector, connector properties, relationship type, ArchiMate]
-breadcrumb: [Exploring Enterprise Modeling and Visualization in the EA Workspace, Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Exploring Enterprise Modeling and Visualization in the EA Workspace, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Shape connector properties in Enterprise Modeling and Visualization
@@ -27,7 +27,7 @@ When both connected shapes are ArchiMate shapes, the toolbar shows the following
 |**Swap direction**|Reverses the connector orientation, switching the left and right sides.|
 |**T+**|Adds a text label to the connector.|
 
-\[Omitted image "connector-line-archimate.png"\] Alt text: ArchiMate connector toolbar showing the relationship type list, Flip control, and T+ button above a connector linking two shapes.
+\[Omitted image "connector-line-archimate.png"\] Alt text: ArchiMate connector toolbar showing the relationship type list, Flip control, and T+ button before a connector linking two shapes.
 
 The **Relationship type** drop-down provides the standard ArchiMate 3.2 relationship types, including Access, Aggregation, Assignment, Association, Composition, Flow, Influence, Realization, Serving, Specialization, Triggering, and Used by.
 

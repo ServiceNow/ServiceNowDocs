@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/fix-csm-external-user-roles-task3.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Fix external user role assignments, User management, Set up your environment, Configure, Customer Service Management]
 ---
@@ -16,19 +16,17 @@ Review and fix roles for external users that have intentional internal role assi
 
 ## Before you begin
 
-Role required: admin
+Role required: user\_admin, sn\_crm\_foundation\_admin, system\_scheduler\_admin and csm\_guided\_setup\_user
 
 ## About this task
 
-It is recommended that you do not assign internal roles to external users. Use this procedure to review and fix the contacts and consumers that have the following role assignments:
-
-snc\_internal role that is contained by another role.
+You must not assign internal roles to external users. Use this procedure to review and fix the contacts and consumers that have the snc\_internal role contained by another role.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Customer Service** &gt; **Administration** &gt; **Guided Setup** and click **Get Started**.
+1.  Navigate to **All** &gt; **Customer Service** &gt; **Administration** &gt; **Guided Setup** and select **Get Started**.
 
-2.  In the Fix External User Role Assignment category, click **Get Started** and then click **External users with intentional internal role assignments**.
+2.  In the Fix External User Role Assignment category, select **Get Started** and then select **External users with intentional internal role assignments**.
 
 3.  Run the scheduled job to tag users that have intentional user role assignments.
 

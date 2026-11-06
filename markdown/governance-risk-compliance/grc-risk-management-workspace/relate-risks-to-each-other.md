@@ -7,7 +7,7 @@ release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -28,7 +28,7 @@ Role required: sn\_risk.manager or sn\_risk.admin
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_aj1_ssb_4w"><tbody><tr><td id="d142930e77">
+<table id="choicetable_aj1_ssb_4w"><tbody><tr><td id="d297695e77">
 
 **To specify that the current risk is downstream of another risk**
 
@@ -36,7 +36,7 @@ Role required: sn\_risk.manager or sn\_risk.admin
 
 Click the **Add** button in the **Upstream Risks** related list.
 
-</td></tr><tr><td id="d142930e92">
+</td></tr><tr><td id="d297695e92">
 
 **To specify that the current risk is upstream of another risk**
 

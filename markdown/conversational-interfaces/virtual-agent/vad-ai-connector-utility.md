@@ -7,10 +7,10 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-03-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Virtual Agent, Designer, AI Connector, utility, LLM, GenAI, Generative AI, Now Assist, Custom skills]
-breadcrumb: [Assistant Designer Asset library utilities, Assistant Designer Asset library interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer utilities, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # AI Connector utility
@@ -86,5 +86,5 @@ No-code condition statement or low-code script that specifies a condition for pr
 
 \[Omitted image "vad-ai-connector-utility-properties-with-skill.png"\] Alt text: AI Connector utility with Web Search skill selected. All input and output mappings derive from the custom skill.
 
-**Parent Topic:**[Assistant Designer Asset library utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-utilities.md)
+**Parent Topic:**[Assistant Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-utilities.md)
 

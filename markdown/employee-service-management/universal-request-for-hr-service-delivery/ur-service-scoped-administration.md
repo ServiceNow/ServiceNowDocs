@@ -1,20 +1,20 @@
 ---
 title: Register application administration enabled scoped application
-description: If your application is an admin enabled scoped application, register the application with Universal Request \(UR\) to make your application’s service and service set data available for the Universal Request application to work.
+description: If your application is an application admin enabled scoped application, register the application with Universal Request \(UR\) to make your application’s service and service set data available for the Universal Request application to work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-service-scoped-administration.html
 release: zurich
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure service to use Universal Request, Configure, Universal Request, Employee Service Management]
+breadcrumb: [Configure service to use Universal Request, Setting up and configuring Universal Request, Universal Request, Employee Service Management]
 ---
 
 # Register application administration enabled scoped application
 
-If your application is an admin enabled scoped application, register the application with Universal Request \(UR\) to make your application’s service and service set data available for the Universal Request application to work.
+If your application is an application admin enabled scoped application, register the application with Universal Request \(UR\) to make your application’s service and service set data available for the Universal Request application to work.
 
 ## Before you begin
 

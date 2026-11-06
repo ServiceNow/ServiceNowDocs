@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/tb-edit-components.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [edit individual components, theme hooks, accessibility compliance standards, change components]
 breadcrumb: [Component styles, Manage or edit a theme, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
@@ -17,7 +17,9 @@ Edit Theme Builder individual components to better suit your brand and to suppor
 
 ## Before you begin
 
-Role required: admin
+Role required: ui\_builder\_admin
+
+For information on granular roles, see .
 
 ## About this task
 

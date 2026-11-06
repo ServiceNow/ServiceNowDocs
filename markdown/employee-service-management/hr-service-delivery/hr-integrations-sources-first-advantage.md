@@ -7,9 +7,9 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [First Advantage service, HR Integrations, Integrate with third-party systems, HR Service Delivery, Employee Service Management]
+breadcrumb: [Integrating with the First Advantage service, HR Integrations, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
 # Provide source credentials for the First Advantage service
@@ -118,9 +118,9 @@ Enables the debug log to display responses from the third-party system. Turn on 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Integrate with First Advantage service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-integrations-with-first-advantage.md)
+**Parent Topic:**[Integrating with the First Advantage service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-integrations-with-first-advantage.md)
 
-**Previous topic:**[Integrate with First Advantage service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-integrations-with-first-advantage.md)
+**Previous topic:**[Integrating with the First Advantage service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-integrations-with-first-advantage.md)
 
 **Next topic:**[Verify integration for the First Advantage service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/verify-base-inbound-integration-for-first-advantage.md)
 

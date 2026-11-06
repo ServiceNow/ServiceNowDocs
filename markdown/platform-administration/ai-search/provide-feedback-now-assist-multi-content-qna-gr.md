@@ -7,10 +7,10 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2025-09-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
+breadcrumb: [ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Provide feedback on Summary Genius Result answers

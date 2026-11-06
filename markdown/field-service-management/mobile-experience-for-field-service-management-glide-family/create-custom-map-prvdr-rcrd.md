@@ -7,7 +7,7 @@ release: zurich
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Site Mapping for Field Service Management, Setting up Field Service Mobile Agent, Configure, Field Service Management]
 ---
@@ -20,7 +20,9 @@ Configure map providers to identify buildings agents can view indoor maps for.
 
 Ensure Indoor Maps are set up. For more information, see [Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/Indoor-mapping.md).
 
-Role required: admin
+Role required: admin, or wm\_admin
+
+Users with the admin or wm\_admin role can access the module menu and create, read, upload, and delete access control list \(ACL\) in **Custom Map Providers**.
 
 ## Procedure
 

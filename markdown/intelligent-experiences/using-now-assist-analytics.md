@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-30"
 reading_time_minutes: 1
 keywords: [Now Assist Analytics, dashboard, GenAI, GenerativeAI, sn\_na\_analytics\_admin, sn\_na\_analytics\_viewer]
-breadcrumb: [Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Using AI Analytics
@@ -28,8 +28,6 @@ The following pages explain the available analytics in more detail.
 The Usage and adoption dashboard page contains key usage and performance indicators that help you evaluate AI adoption in your organization.
 -   **[Skills performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/skill-usage.md)**  
 Use the Skills performance dashboard page to view usage and performance indicators of active AI skills.
--   **[Custom skill details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/custom-skill-details.md)**  
-Use the Custom skill details dashboard page to view usage and performance indicators of custom skills.
 -   **[AI Guardian analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-guardian-analytics.md)**  
 Monitor the performance of guardrails enabled through AI Guardian.
 -   **[User search analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/user-search-analyser.md)**  

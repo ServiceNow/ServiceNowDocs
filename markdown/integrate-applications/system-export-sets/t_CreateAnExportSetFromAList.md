@@ -7,7 +7,7 @@ release: zurich
 product: System Export Sets
 classification: system-export-sets
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create an export set, Export sets, Exports, Workflow Data Fabric]
 ---

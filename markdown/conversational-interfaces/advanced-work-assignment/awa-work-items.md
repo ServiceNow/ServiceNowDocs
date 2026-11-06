@@ -7,7 +7,7 @@ release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -17,9 +17,4 @@ breadcrumb: [Explore, Advanced Work Assignment, Manage people and work, Conversa
 View Advanced Work Assignment work items using the Work Items menu options.
 
 Work items are a single piece of work handled by an agent from start to finish. For example, one chat or one case is an object that is routed and assigned to agents. Only users with awa\_manager privileges can access the Management menu options.
-
--   **[Work item queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-queues.md)**  
-In Advanced Work Assignment, queues store a specific type of work item for a service channel.
-
-**Parent Topic:**[Exploring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-overview.md)
 

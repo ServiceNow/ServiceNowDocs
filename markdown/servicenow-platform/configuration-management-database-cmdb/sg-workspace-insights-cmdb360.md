@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-02-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Insights view, Explore, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,9 +28,9 @@ The CMDB 360 insights page provides aggregations and analysis of CMDB 360 data w
 
 **Note:** Most cards on the CMDB 360 insights dashboard support non-CMDB tables in their aggregation, or can be configured to provide support. However, the CIs not reported by discovery sources card, for example, doesn't apply to non-CMDB tables. Creating queries for non-CMDB tables is also supported. For information about support for non-CMDB tables, see [IRE support for non-CMDB tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/ire-support-non-cmdb-tables.md).
 
--   For concepts and other background information about CMDB 360, see [CMDB 360/Multisource CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md).
+-   For concepts and other background information about CMDB 360, see [CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md).
 -   For information about all CMDB 360 dashboard settings, see [Configure the CMDB 360 dashboard in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md).
--   For information about using the CMDB 360 view, see [CMDB 360 experience in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb360-exp-cmdb-workspace.md).
+-   For information about using the CMDB 360 view, see [CMDB 360 experience in CMDB Workspace and in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb360-exp-cmdb-workspace.md).
 
 **Parent Topic:**[Insights view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-view.md)
 

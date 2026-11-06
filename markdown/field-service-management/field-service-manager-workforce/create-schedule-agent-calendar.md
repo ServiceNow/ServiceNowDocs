@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Agent availability and calendars, Workforce, Use, Field Service Management]
+breadcrumb: [Agent availability and calendars, Managing workforce, Use, Field Service Management]
 ---
 
 # Create a schedule to use with the agent calendar

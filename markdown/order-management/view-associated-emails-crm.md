@@ -1,0 +1,50 @@
+---
+title: Track emails linked from Microsoft Outlook
+description: View emails that have been linked to CRM records using the Microsoft Outlook directly from the CRM Workspace.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/view-associated-emails-crm.html
+release: zurich
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Activity Management, Sales automation apps, Use, Sales Customer Relationship Management]
+---
+
+# Track emails linked from Microsoft Outlook
+
+View emails that have been linked to CRM records using the Microsoft Outlook directly from the CRM Workspace.
+
+## Before you begin
+
+Email promotion must be configured before you can view the associated emails on the Emails tab of the Lead, Opportunity, Accounts, or Contacts record. For more information, see [Configure email promotion rules for Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/promote-crm-outlook-emails.md).
+
+The User Mailbox Integration plugin \(com.glide.email.user\_mailbox.integration\) must be installed on your ServiceNow instance to enable agents to send emails from the touchpoint record. For setup instructions, see .
+
+Role required: sn\_crm\_outlook.crm\_outlook\_user
+
+## Procedure
+
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
+
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
+
+3.  Navigate to CRM entity with which you associated the email.
+
+    To view emails associated with a Lead, you'd navigate to **Leads** &gt; **All** and select a LEAD record.
+
+4.  Open the CRM entity record that you want to work with.
+
+5.  Navigate to the **Emails** tab.
+
+6.  View email by selecting a timestamp link from the Created column.
+
+
+**Parent Topic:**[Using Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-activity-management.md)
+
+**Related topics**  
+
+
+[Configuring Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configuring-activity-management.md)
+
+[Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-activity-management.md)
+

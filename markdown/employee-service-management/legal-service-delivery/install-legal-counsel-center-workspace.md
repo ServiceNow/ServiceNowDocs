@@ -7,7 +7,7 @@ release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Legal Counsel Center Workspace, Legal Counsel Center, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ You can install the Legal Counsel Center application \(sn\_lg\_cf\_workspace\) i
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [Legal Counsel Center](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8c75e92b65e20110f877006cf4ea583e) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 Role required: admin

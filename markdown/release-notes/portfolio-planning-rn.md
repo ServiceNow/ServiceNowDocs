@@ -1,100 +1,141 @@
 ---
 title: Portfolio Planning release notes
-description: The ServiceNow Portfolio Planning application helps you enhance traditional product and portfolio management by visualizing the alignment of work with organizational objectives. Portfolio Planning was enhanced and updated in the Zurich release.The ServiceNow Portfolio Planning application helps you enhance traditional product and portfolio management by visualizing the alignment of work with organizational objectives. Portfolio Planning was enhanced and updated in the Zurich release.The ServiceNow Portfolio Planning application helps you enhance traditional product and portfolio management by visualizing the alignment of work with organizational objectives. Portfolio Planning was enhanced and updated in the Zurich release.
+description: The ServiceNow Portfolio Planning application helps you enhance traditional product and portfolio management by visualizing the alignment of work with organizational objectives. See the following sections for release notes by version.Version 8.19.0 introduces Enterprise-Wide Deployment partitioning for demands, demand experiences, and resource planning for demands. Roadmap exports to PowerPoint now support a 3-year date range. Program portfolio plans also include updates to program details, the Goals tab, and the default Prioritization layout.The version 8.18.0 release consolidates governance in dedicated RIDAC pages within portfolio plans to reduce context-switching and improve portfolio visibility. Programs enhanced experience provides automatic dedicated planning views for every program with zero setup required. Additional enhancements include scenario approval email notifications, automated cost recalculation with exchange rate detection, and in-context financial field explanations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/portfolio-planning-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [Strategic Portfolio Management release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+breadcrumb: [Strategic Portfolio Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Portfolio Planning release notes
 
-The ServiceNow® Portfolio Planning application helps you enhance traditional product and portfolio management by visualizing the alignment of work with organizational objectives. Portfolio Planning was enhanced and updated in the Zurich release.
+The ServiceNow® Portfolio Planning application helps you enhance traditional product and portfolio management by visualizing the alignment of work with organizational objectives. See the following sections for release notes by version.
 
 ## About Portfolio Planning
 
--   View the planned costs of your planning items for the past fiscal periods.
--   Use **Display mode** to switch between different views of the financials record page.
--   Experience consistent roadmap bar colors for choice list attribute values across all portfolio plans. View the roadmap-level milestone row while scrolling down the Roadmap page. Use different icons to distinguish item-level milestones.
--   Apply filters using string-type and Boolean field values to view the desired data.
--   Customize and apply a theme to your roadmap to match your organization’s standards.
--   Create and manage monetary benefit plans to capture and track projected and actual benefits.
--   Manage and run projects in various global currencies besides the functional currency using multicurrency.
--   Generate labor cost on sub-projects based on the resource assignments.
+-   Prioritize, roadmap, and score planning items using portfolio plans with support for multiple lenses, private or shared views, and free-form roadmaps to align work with organizational strategy.
+-   Plan and manage portfolio financials with rolled-up cost and benefit data, financial baselines, budget approvals, and scenario planning to optimize portfolio decisions and drive cost-effective outcomes.
+-   Capture, assess, and prioritize demands through configurable playbooks, using AI to summarize and identify similar items, before converting them into work items with full financial tracking.
+-   Track Risks, Issues, Decisions, Actions, and Changes \(RIDAC\), monitor capacity, and gain actionable insights through dashboards to maintain portfolio health and keep stakeholders informed.
 
 See [Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/portfolio-planning-app-landing-page.md) for more information.
 
 ## Activation and other requirements
 
-**Important:** Portfolio Planning is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
-
 -   **Activation information**
 
-    Install Portfolio Planning by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Install Portfolio Planning by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store.
 
 
 **Parent Topic:**[Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/it-business-management-rn-landing.md)
 
-## December 2025
+## Version 8.19.0
 
-The ServiceNow® Portfolio Planning application helps you enhance traditional product and portfolio management by visualizing the alignment of work with organizational objectives. Portfolio Planning was enhanced and updated in the Zurich release.
-
-### What's new
-
--   **[Dynamic data linking in Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/docs-for-planning-items-in-ppw.md)**
-
-    Keep record information in your documentation always current and reduce manual effort with the Dynamic data linking feature in Docs. You can now reference any ServiceNow application record and Docs will automatically reflect the latest updates from those records. For example, if you add a reference to a Project record, the reference will show the latest field information of the project in Docs without requiring manual edits. Clicking the project reference opens up the project form so that you can view the full details of the project record and make any necessary changes. Dynamic linking also enables adding references to a particular field of a record, such as Assigned to of an Incident record.
-
-    You can add references from any ServiceNow table you have access to, with no setup or configuration needed, thereby eliminate the hassle of switching between applications to copy and paste data from various records into Docs.
-
--   **[Scenario planning enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/enable-scenario-planning-in-portfolio-planning.md)**
-
-    With the sn\_align\_core.apw\_admin role, you can enable or disable the scenario planning feature. The **sn\_align\_ws.is\_scenario\_planning\_disabled** system property allows you to enable or disable the scenario planning feature.
-
-
-## Zurich
-
-The ServiceNow® Portfolio Planning application helps you enhance traditional product and portfolio management by visualizing the alignment of work with organizational objectives. Portfolio Planning was enhanced and updated in the Zurich release.
+Version 8.19.0 introduces Enterprise-Wide Deployment partitioning for demands, demand experiences, and resource planning for demands. Roadmap exports to PowerPoint now support a 3-year date range. Program portfolio plans also include updates to program details, the Goals tab, and the default Prioritization layout.
 
 ### What's new
 
--   **[Roadmap enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/planning-roadmaps-in-portfolio-planning.md)**
-    -   Create custom themes for your roadmap bar colors to align with your organization’s standards.
-    -   Experience consistent roadmap bar colors for choice list attribute values across all portfolio plans.
-    -   View the roadmap-level milestone row while scrolling down the Roadmap page.
-    -   Use different icons to distinguish item-level milestones.
--   **[Quick filters enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/quick-fiters-prioitization-roadmap-ppw.md)**
+-   ****
 
-    Apply filters using string-type and Boolean field values across the Planning page to view the required dataset. These filters are saved as part of your user preferences, enabling you to access the same filtered data when you log back in and continue your planning seamlessly.
+    Partition demand data by any criteria, such as department or business unit, using Enterprise-Wide Deployment \(EWD\) partitioning on the Demand table and related entities. Demands are stamped with a matching partition, and users see only the demands, list views, search results, and dashboards for the partitions their role grants them.
 
--   **[Financial enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/using-financials-pp.md)**
-    -   View only the planned costs of your planning items to track the total cost of projects or demands.
-    -   Use **Display mode** to switch between focused views to better plan and track the financials of your planning items.
-    -   Manage the planned and actual monetary benefit plans for your projects to identify the financial performance of your project using the Cost and benefits screen.
-    -   Use multicurrency to view and manage financial records of the project in Investment currency, which can be different from your functional currency. Manage multiple financial records such as planned and actual expenses, planned and actual benefits, and so on.
-    -   Generate and track labor cost for sub-projects, based on the resource assignments of your sub-projects and planning items such as features and capabilities.
+    EWD for demands includes the following functionalities:
+
+    -   Demand experiences: Define the way a particular demand should work including its form view, modules, and dynamic attributes. For example, a particular view or certain functions available on a demand or menu items hidden or visible for different types of demands.
+    -   Demand partitions: Control the data visible to different users.
+    -   Demand partitions dashboard: Dedicated dashboard for different demand partitions.
+-   ****
+
+    Smart assessments are now available for demands, which are triggered on moving the demand to screening. These assessments are controlled by the **sn\_align\_ws.enable\_smart\_assessments** system property. After this property is enabled, smart assessments are triggered for the new demands and the ones that aren't yet in the screening state.
+
+    The smart assessment form is more intuitive and supports text-based questions. The assessments are available at the individual demand record and in a consolidated Smart Assessments module in the main navigation menu. This module displays all assigned smart assessments across demands.
+
+-   **Resource profiling for demands**
+
+    Plan and manage resource assignments for a demand from the **Resources** tab in Next Experience for Demand Management. The resource board shows assignments alongside resource capacity so you can confirm availability before converting a demand to a project. Create, copy, move, split, end, or reassign resource assignments directly from the grid, group by primary group, role, or skill, and use the allocation heatmap to identify over-allocated and available resources. Use the Resource Finder to get fit-scored, ranked resource recommendations with rationale for unassigned work.
+
 
 ### What's changed
 
--   **Coral theme**
+-   **[Roadmap export range](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/export-portfolio-plan-status-to-ppt-portfolio-planning-workspace.md)**
 
-    Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+    The maximum date range for exporting a roadmap to PowerPoint increased from 1 year to 3 years, within the start and end dates of the portfolio. The exported timescale adjusts to the range you select: months for a range of 1 year or less, and quarters for a range longer than 1 year.
 
--   **[Financials in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/using-financials-pp.md)**
-    -   Use the new **Display mode** in the Financials record page to select and view forecast, compare planned vs actual costs, planned costs, or allocate budget.
-    -   Renamed **Cost** tab as **Costs and benefits** to manage cost plans and benefit plans in one view.
-    -   Renamed **Baselines** as **Baseline comparison** to create and compare financial baselines.
-    -   Renamed **Time scope** as **Filter time scope** to adjust the time scope to view a focused and customized financial snapshot.
-    -   New **Generate labor costs** button to generate labor costs based on the resource assignments.
-    -   New **Currency** list option to switch between functional and investment currency.
-    -   New **Edit investment currency** option to define investment currency for your projects.
-    -   **New monetary benefit plan** option to create new forecast benefit plans.
-    -   New **Planned Benefits** widget displays the total forecasted benefits.
-    -   New **Total Return** widget displays the total actual benefits form the projects.
-    -   New **Record type** column to classify the financial records between benefits and costs.
-    -   Renamed **Estimate At Completion** widget to **EAC Cost**.
-    -   Renamed **Actual Cost To Date** to **Actuals \(Incl. current fiscal period\)**.
+-   **[Program portfolio plan enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/program-portfolio-plan-ppw.md)**
+    -   **Program details** — Select the information icon next to the program name to view the planning item types, program timeline, and program manager.
+    -   **Program value for new items** — When you create a demand or project from a program portfolio plan, the **Program** field is prefilled with that program.
+    -   **Prioritization default layout** — The default **Prioritization** view shows the Rank, Name, Planning state, Planning item type, Status, Cost status, Resource status, Schedule status, Scope status, Percent complete, Primary goal, and Owner columns.
+    -   **Goals tab** — Program portfolio plans include the **Goals** tab, which shows all primary and non-primary goals linked to the planning items in the plan, along with goals assigned directly to the program.
+    -   **Public views** — Any user who can access a program portfolio plan can create and update its public views. Previously, only plan editors could create or update public views.
+-   **[Resource assignment offsets when converting a demand to a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/data-migrated-from-demand-project-dw.md)**
+
+    When a demand with resource assignments is converted to a project, assignment offsets are recalculated against the project's schedule, which counts only the working days defined in the project schedule, instead of the demand, which has no schedule and counts every calendar day.
+
+-   **[Execution URL on planning item demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/update-execution-urls-for-existing-demands.md)**
+
+    Run the **Update Demand Planning Item Execution URL** scheduled job to update the execution URLs on your existing demands to the latest format.
+
+
+## Version 8.18.0
+
+The version 8.18.0 release consolidates governance in dedicated RIDAC pages within portfolio plans to reduce context-switching and improve portfolio visibility. Programs enhanced experience provides automatic dedicated planning views for every program with zero setup required. Additional enhancements include scenario approval email notifications, automated cost recalculation with exchange rate detection, and in-context financial field explanations.
+
+### What's new
+
+-   **[RIDAC for portfolio plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/portfolio-plan-ridac-ppw.md)**
+
+    Access portfolio risks, issues, decisions, actions, and requested changes \(RIDAC\) directly from the portfolio plan using the dedicated RIDAC page within the portfolio plan. View all portfolio governance items in a single, integrated interface without navigating to the separate RIDAC menu. The RIDAC page reduces context-switching and improves portfolio visibility by consolidating governance data. The portfolio plan RIDAC displays the RIDAC items that match the portfolio plan's criteria or belong to the planning items of that portfolio plan.
+
+-   **[Show or hide RIDAC page of a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/show-or-hide-the-features-for-your-portfolio-plan-ppw.md)**
+
+    As a portfolio manager, show or hide the RIDAC page of your portfolio plan. This capability helps you share only the portfolio plan data that matters to your stakeholders and restrict access to the other data.
+
+-   **[Programs enhanced experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/program-portfolio-plan-ppw.md)**
+
+    Access dedicated program planning views automatically created with zero setup. Navigate to the new Programs menu and click any program to open its dedicated plan with Prioritization, Roadmap, and Financials views. New programs get plans instantly; existing programs receive them through an automatic one-time backfill \(500 at a time, newest first\). Role-based access ensures users with the sn\_align\_core.ap\_read\_only role can read, users with the sn\_align\_core.apw\_user role can manage items, and program managers are automatic plan owners.
+
+-   **[Program-scoped data with fiscal calendar support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/program-portfolio-plan-ppw.md)**
+
+    View and manage program-scoped planning data in a focused, streamlined interface. Program plans display only that program's planning items. The Financials tab defaults to your fiscal calendar; if the fiscal calendar doesn't span the program dates, the system gracefully falls back to Gregorian with an explanatory message. Making the portfolio plan public and scenario planning for these program portfolio plans are hidden.
+
+-   **[Automated email notification for scenario approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/approve-a-scenario-in-portfolio-planning.md)**
+
+    Receive email notification when a scenario is approved. The system sends the notification to the scenario approver and portfolio owner. During the approval process, the portfolio plan becomes read-only to prevent unintended modifications and maintain data integrity.
+
+-   ****
+
+    Tailor demand summaries to your organization's process by copying the base demand summarization skill and customizing it with your own input fields, related entities, and prompt. When you activate a copy of the demand summarization skill, the previously active skill, either the base skill or an earlier copy, is automatically deactivated. Only one version of the skill can be active at a time.
+
+-   **[Work with demands in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/my-demands-widget-ppw.md)**
+
+    Create and track demands without leaving the conversation-first Employee Slate workspace. Describe the demand in a conversation to have matching catalog items identified and relevant fields prepopulated from your message, then track its status, activity, and progress using the new My Demands widget on your canvas or the standard Requests widget. Demands appear in Employee Slate only when both Project Workspace and Employee Slate Core apps are installed.
+
+
+### What's changed
+
+-   **Financials**
+
+    Added in-context help \(hover info icons\) on the Financials page widgets, explaining how the key fields like Budget, EAC, Planned Cost, Actuals, Return, ROI, and NPV are calculated.
+
+-   **[Program planning updates and enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/program-portfolio-plan-ppw.md)**
+    -   **Programs menu addition** — A new Programs menu has been added to the workspace as L2 menu, positioned below Portfolio Plan. This menu lists every program in your portfolio and provides single-click navigation to each program's enhanced planning view.
+    -   **Role-based access for program planning** — Users with the sn\_align\_core.ap\_read\_only role have read access to program plans \(where they already have program-level read access\). Users with the sn\_align\_core.apw\_admin and program manager roles receive full access to create, update, and manage planning items within program plans.
+-   **[Summarize demands with the demand summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/summarize-demands-in-ppw.md)**
+
+    The default trigger is not set to **Automatic** for demands in any state. You can select how you want the skill to be triggered for any state.
+
+
+### What's deprecated or removed
+
+-   **Now LLM Service**
+
+    Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+-   **Process Mining**
+
+    Starting Brazil release, Process Mining Content Pack for SPM \(`com.snc.itbm_po`\) will be migrated to Process Mining Content Pack store application. Upgrade your instance to Brazil or higher releases. For more information, see [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/process-mining.md) documentation.
+
 

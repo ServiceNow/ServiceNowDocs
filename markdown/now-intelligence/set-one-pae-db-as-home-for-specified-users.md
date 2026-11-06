@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/set-one-pae-db-as-home-for-specified-users.html
 release: zurich
 topic_type: task
-last_updated: "2026-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set dashboards as home for all users, Configure, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -40,7 +40,7 @@ The dashboard that you configure should be available to all users.
 
 7.  Select **Submit**.
 
-8.  Select the context menu \(\[Omitted image "Form\_MenuIcon.png"\] Alt text: Context menu icon\) and choose **Insert and Stay**.
+8.  Select the 3-dot menu \(\[Omitted image "Form\_MenuIcon.png"\] Alt text: 3-dot menu icon\) and choose **Insert and Stay**.
 
     This action duplicates the user preference so that you can specify another user this dashboard will be home for. You can also specify a different sys\_ID on the duplicated record.
 

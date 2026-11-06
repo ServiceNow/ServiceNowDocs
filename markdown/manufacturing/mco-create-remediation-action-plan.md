@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-create-remediation-action-plan.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Remediation action plans, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
@@ -20,7 +20,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **List** &gt; **Remediation Action Plan**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **List** &gt; **Remediation Action Plan**.
 
 2.  Select **New**.
 
@@ -30,11 +30,6 @@ Role required: admin
 
 4.  Select **Save**.
 
-
--   **[Create a CoPQ financial request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-copq-financial-requests.md)**  
-Create a CoPQ financial request for remediation action plan.
--   **[Cause action plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-cause-action-plans.md)**  
-Create a cause action plan for the remediation action.
 
 **Parent Topic:**[Remediation action plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-remediation-action-plans.md)
 

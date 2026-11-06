@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/enable-query-generation.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
@@ -23,6 +23,8 @@ Role required: sn\_query\_gen.admin or higher
 ## About this task
 
 Query Generation skills are not used directly. Instead, they enable other applications that call Query Generation, such as AI Data Explorer
+
+**Important:** These generative AI skills are turned on by default. The skills will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Procedure
 

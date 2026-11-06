@@ -1,20 +1,20 @@
 ---
-title: Using Asset Management
-description: Use the Asset Management application to manage your assets efficiently.
+title: Using Base Asset Management
+description: Use the Base Asset Management application to manage your assets efficiently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/asset-management/using-asset-management.html
 release: zurich
 product: Asset Management
 classification: asset-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Asset Management, IT Asset Management]
+breadcrumb: [Base Asset Management, Common applications, Asset Management]
 ---
 
-# Using Asset Management
+# Using Base Asset Management
 
-Use the Asset Management application to manage your assets efficiently.
+Use the Base Asset Management application to manage your assets efficiently.
 
 -   **[Work with Asset and CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/work-with-asset-ci.md)**  
 Asset and configuration item \(CI\) management refers to creating assets, setting appropriate states and substates, synchronizing assets and CIs, managing consumables, and retiring assets.
@@ -33,5 +33,5 @@ Manage the asset movement from one stockroom to the other using transfer order.
 -   **[Use Organization Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/org-mgmt.md)**  
 The Organization Management application provides an easy way to perform such asset management tasks as updating users and adding vendors.
 
-**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/am-landing-page.md)
+**Parent Topic:**[Base Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/am-landing-page.md)
 

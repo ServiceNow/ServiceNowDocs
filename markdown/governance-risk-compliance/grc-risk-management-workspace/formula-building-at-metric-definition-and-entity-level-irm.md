@@ -7,9 +7,9 @@ release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, GRC: Metrics in Integrated Risk Management, Risk Management, Governance, Risk, and Compliance]
+breadcrumb: [Configuring metrics, GRC: Metrics in Integrated Risk Management, Risk Management, Governance, Risk, and Compliance]
 ---
 
 # Formula building in a calculated metric definition
@@ -27,6 +27,8 @@ When you build a formula in a calculated metric definition, you can choose to bu
 Specify the formula context, the tables, and the identifiers before you can build a formula.
 -   **[Create a formula](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/create-a-formula-irm.md)**  
 Build your own formula using either entities or metric definitions.
+-   **[Edit a calculated metric definition formula](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/edit-a-calculated-metric-definition-formula-irm.md)**  
+Edit a formula in a calculated metric definition to update the calculation logic or apply changes to historical data.
 
 **Parent Topic:**[Configuring metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/configuring-irm-metrics.md)
 

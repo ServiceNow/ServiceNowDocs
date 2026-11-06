@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/reviewing-customer-accounts.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -27,4 +27,11 @@ As an order agent, manager, or fulfiller, you can use your customer's or partner
 Review a customer or partner's account by using the 360 View in the Order Management application. You can track the service contracts of your customers or partners. You can also view customer and service orders, cases, products, and equipment to see how you can improve your customer service.
 
 **Parent Topic:**[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-order-management.md)
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-order-management.md)
 

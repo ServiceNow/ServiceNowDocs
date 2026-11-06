@@ -1,28 +1,28 @@
 ---
 title: Agent Chat release notes
-description: The ServiceNow Agent Chat application enables agents to interact directly with end users through chat. Agent Chat was enhanced and updated in the Zurich release.The ServiceNow Agent Chat application enables agents to interact directly with end users through chat. Agent Chat was enhanced and updated in the Zurich release.
+description: The ServiceNow Agent Chat application enables agents to interact directly with end users through chat. See the following sections for release notes by version.Ensure that you don't miss any assignments, even when you're working outside of the workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/agent-chat-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Conversational Interfaces release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+breadcrumb: [Conversational Interfaces release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Agent Chat release notes
 
-The ServiceNow® Agent Chat application enables agents to interact directly with end users through chat. Agent Chat was enhanced and updated in the Zurich release.
+The ServiceNow® Agent Chat application enables agents to interact directly with end users through chat. See the following sections for release notes by version.
 
 ## About Agent Chat
 
-Integrate and use Agent Chat with third-party chat apps.
+-   Agents interact using natural language, reducing the learning curve and allowing them to handle customer inquiries more intuitively without navigating complex menus or forms.
+-   Agent Chat connects directly to ServiceNow workflows, enabling agents to access customer context, update records, and resolve issues without switching between systems.
+-   AI-powered responses and automation handle routine inquiries, freeing agents to focus on complex, high-value interactions and improving overall productivity and job satisfaction.
 
-See [Using Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/ci-agent-chat-using.md) for more information.
+See [Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/ci-use-agent-chat.md) for more information.
 
 ## Activation and other requirements
-
-**Important:** Agent Chat is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 -   **Activation information**
 
@@ -31,18 +31,14 @@ See [Using Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
 
 **Parent Topic:**[Conversational Interfaces release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/conversational-interfaces-rn-landing.md)
 
-## Zurich
+## Brazil Early Availability
 
-The ServiceNow® Agent Chat application enables agents to interact directly with end users through chat. Agent Chat was enhanced and updated in the Zurich release.
+Ensure that you don't miss any assignments, even when you're working outside of the workspace.
 
 ### What's new
 
--   **[Third-party chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/ci-agent-chat-using.md)**
+-   **Customize Agent Chat inbox**
 
-    Use the new customer message area for third-party chat integrations to see these features:
+    Receive notifications of newly assigned work items in your inbox, even when you're working outside of the workspace. This new notification flag ensures that you don't miss assignments.
 
-    -   Third-party chat providers can update messages in real time.
-    -   Individual messages from third-party bots are correctly attributed to the appropriate customer and agent.
-    -   Agent and queue transfers to third-party chat systems are supported.
-    -   Show or hide capabilities for specific Contact Center as a Service \(CCaaS\) chat integration requirements can be configured.
 

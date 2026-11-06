@@ -7,9 +7,9 @@ release: zurich
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Handling API notifications, Use, Proactive Service Experience Workflows]
+breadcrumb: [Use, API Notification Management, Product Support for Technology]
 ---
 
 # Outbound trouble ticket notifications via open message bus
@@ -18,7 +18,7 @@ Produce an outbound notification from the ServiceNow instance using the open mes
 
 In this event-driven architecture, the notifications are produced to the open message bus from your ServiceNow instance. The framework contains topic synchronization and topic picker mechanisms. The topic synchronization mechanism synchronizes the topics that you have created in the ServiceNow instance with the open message bus. When the event occurs in the framework, the topic picker mechanism picks the relevant topic and publishes the message to the topic using a REST proxy. Customers can consume the outbound notification from the message bus in their external system.
 
-In the Zurich release, the following events are supported for trouble ticket notification.
+In the Brazil release, the following events are supported for trouble ticket notification.
 
 -   Create Trouble Ticket Event
 -   Trouble Ticket State Change Event
@@ -57,7 +57,7 @@ The workflow for producing the outbound notification by using the open message b
 
 7.  The customers can consume the message in their message bus REST Proxy.
 
-**Parent Topic:**[Handling API notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/handling-trouble-ticket-notifications.md)
+**Parent Topic:**[Using API Notification Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/use-api-notification-management.md)
 
 **Related topics**  
 

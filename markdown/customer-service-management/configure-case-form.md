@@ -1,16 +1,16 @@
 ---
-title: Configure a case form view
+title: Configure a Case form view
 description: The Case form contains detailed information about a customer issue or problem. Configure a Case form view to display the desired fields and related lists.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configure-case-form.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# Configure a case form view
+# Configure a Case form view
 
 The Case form contains detailed information about a customer issue or problem. Configure a Case form view to display the desired fields and related lists.
 
@@ -34,7 +34,7 @@ Role required: admin
 
     **Note:** If you are using Customer Service Install Base Management and Proactive Customer Service Operations, add the **Affected Install Base Items** related list.
 
-4.  Select **Submit**.
+4.  Click **Submit**.
 
 
 **Related topics**  

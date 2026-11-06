@@ -7,9 +7,9 @@ release: zurich
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 5
-breadcrumb: [Plugins, Configure, Change Management, IT Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Change Management plugins, Configure, Change Management, IT Service Management]
 ---
 
 # Activate Change Management - Collision Detector
@@ -19,6 +19,8 @@ You can activate the Change Management - Collision Detector plugin \(com.snc.cha
 ## Before you begin
 
 Role required: admin
+
+**Note:** This plugin is now activated automatically when you upgrade to the Brazil release.
 
 ## About this task
 
@@ -32,7 +34,7 @@ Role required: admin
 
 3.  Select **Install** to start the installation process.
 
-    **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
+    **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/find-components.md).
 
@@ -45,7 +47,7 @@ Several types of components are installed with Change Management - Collision Det
 **Related topics**  
 
 
-[Request ITSM Roles- Change Management]()
+[Request ITSM Roles - Change Management]()
 
 [Activate Business Stakeholder]()
 
@@ -63,11 +65,11 @@ Several types of components are installed with Change Management - Collision Det
 
 [Activate Change Management - Mass Update CI]()
 
-[Activate Change Management -Approval policy]()
+[Activate Change Management - Approval policy]()
 
 [Activate Change Management - CAB Workbench]()
 
-[Activate Change Management ATF Tests]()
+[Activate Change Management - ATF Tests]()
 
 [Activate Change Management - Core]()
 
@@ -75,7 +77,7 @@ Several types of components are installed with Change Management - Collision Det
 
 [Request Change Management - Standard Change Template Intelligence]()
 
-[Change Management - Predictive Intelligence Core]()
+[Request Change Management - Predictive Intelligence Core]()
 
 [Activate Change Management - Change Flows]()
 
@@ -83,9 +85,9 @@ Several types of components are installed with Change Management - Collision Det
 
 [Activate Change Management - Change Models]()
 
-[Activate Change Management Success Probability]()
+[Activate Change Management - Success Probability]()
 
 [Activate Change Management - Data Archiving]()
 
-[List of plugins \(Zurich\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/list-of-plugins.md)
 

@@ -1,16 +1,16 @@
 ---
-title: Add or remove business capabilities from value stream stages
+title: Add or remove business capabilities from a value stream stage
 description: You can add an existing business capability to a value stream stage to map your organizational capabilities to the stages of your value streams. You can also remove associated business capability if they’re no longer relevant for the value stream stage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/add-or-remove-a-bc-from-vs-stage.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage value stream stages, Using business architecture, Working with Portfolio list view, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Manage value stream stages, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Add or remove business capabilities from value stream stages
+# Add or remove business capabilities from a value stream stage
 
 You can add an existing business capability to a value stream stage to map your organizational capabilities to the stages of your value streams. You can also remove associated business capability if they’re no longer relevant for the value stream stage.
 

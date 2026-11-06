@@ -7,8 +7,8 @@ release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Explore, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
 
@@ -56,6 +56,4 @@ In AWA, you can enable skill-based assignment and if needed, evaluate skill leve
 5.  Create a scripted business rule that includes the skill in the table associated with the relevant service channel \(for example, the Case table\).
 
 During work assignment, AWA routes and assigns work items to the Agent Workspace inbox of the most qualified agent based on the agents skills and if applicable, skill level and mandatory skill settings.
-
-**Parent Topic:**[Exploring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-overview.md)
 

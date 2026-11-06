@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-data-cert-run-certification.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with data certification, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with data certification, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Run certification for a policy
@@ -16,7 +16,9 @@ Run certification for published policies to generate a new certification instanc
 
 ## Before you begin
 
-Role required: System admin, cmdb admin + analyst, com.snc\_apm\_analyst
+\[Omitted video\] Description: Run certification for a policy in Enterprise Architecture Workspace
+
+Role required: sn\_apm.apm\_analyst
 
 ## Procedure
 

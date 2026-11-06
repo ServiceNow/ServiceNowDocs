@@ -7,7 +7,7 @@ release: zurich
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: task
-last_updated: "2026-03-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure the Admin Center, Configure, Digital Portfolio Management, IT Service Management]
 ---
@@ -20,7 +20,7 @@ Send periodic emails of KPI metrics to the DPM solution owners.
 
 Role required: sn\_dpm.dpm\_admin
 
-\[Omitted video\] Description: Configure the Admin Center and schedule email reports
+\[Omitted video\] Description: Let's review the Digital Portfolio Management Admin Center.
 
 ## Procedure
 

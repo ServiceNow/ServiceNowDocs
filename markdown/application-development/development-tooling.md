@@ -1,6 +1,6 @@
 ---
 title: Development tooling
-description: Three tools can build a Lux experience: Lux Lab, ServiceNow AI Experience Lab for VS Code, and the ServiceNow SDK. Lux and ServiceNow AI Experience Lab for VS Code build on the ServiceNow SDK foundation.
+description: Three tools can build a Lux experience: Lux Lab, ServiceNow Lux Lab for VS Code, and the ServiceNow SDK. Lux and ServiceNow Lux Lab for VS Code build on the ServiceNow SDK foundation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/development-tooling.html
 release: zurich
@@ -8,12 +8,12 @@ topic_type: concept
 last_updated: "2026-09-29"
 reading_time_minutes: 2
 keywords: [Development tooling, Tool comparison]
-breadcrumb: [Exploring Lux, Lux Development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Exploring Lux, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Development tooling
 
-Three tools can build a Lux experience: Lux Lab, ServiceNow® AI Experience Lab for VS Code, and the ServiceNow SDK. Lux and ServiceNow® AI Experience Lab for VS Code build on the ServiceNow SDK foundation.
+Three tools can build a Lux experience: Lux Lab, ServiceNow Lux Lab for VS Code, and the ServiceNow SDK. Lux and ServiceNow Lux Lab for VS Code build on the ServiceNow SDK foundation.
 
 ## Tool comparison
 
@@ -25,9 +25,9 @@ The tools differ in how much of the ServiceNow SDK CLI they wrap in a UI, and wh
 |[Lux Lab for VS Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/lux-lab-for-vs-code.md)|An extension adding Instance Explorer, Script Runner, Quick Preview, and `Lux:` commands to VS Code|Inside Visual Studio Code|Working in VS Code with Lux tooling alongside an existing setup|
 |[ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-sdk.md)|The CLI that scaffolds, builds, and deploys a Lux application \(`now-sdk init` / `build` / `install`\)|Terminal, in any editor|Full control, scripting, and continuous integration \(CI\) pipelines|
 
-Lux Lab and ServiceNow® AI Experience Lab for VS Code are separate products that ship side by side. Pick whichever fits your workflow. Neither is a track you graduate from.
+Lux Lab and ServiceNow Lux Lab for VS Code are separate products that ship side by side. Pick whichever fits your workflow. Neither is a track you graduate from.
 
-Both wrap the ServiceNow SDK rather than replacing it. Lux Lab runs `now-sdk` commands on your behalf when you build and deploy. The VS Code extension requires ServiceNow SDK 4.12 or later to be installed.
+Both wrap the ServiceNow SDK rather than replacing it. Lux Lab runs `now-sdk` commands on your behalf when you build and deploy. The VS Code extension requires ServiceNow SDK 4.14 or later to be installed.
 
 ## Next steps
 

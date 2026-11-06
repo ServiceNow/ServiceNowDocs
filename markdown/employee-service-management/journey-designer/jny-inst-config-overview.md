@@ -7,7 +7,7 @@ release: zurich
 product: Journey Designer
 classification: journey-designer
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
@@ -17,7 +17,7 @@ breadcrumb: [Journey designer, Employee Journey Management, HR Service Delivery,
 The Journey designer app has multiple versions that have different installation instructions and configuration options.
 
 -   **[Install Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-install-version-3.md)**  
-Install the Journey designer \[sn\_jny\] application to enable administrators and managers to create and manage various professional and personal events and journeys.
+Install the Journey designer version 3 \[sn\_jny\] application to enable administrators and managers to create and manage various professional and personal events and journeys.
 -   **[Add or repair demo data for applications and plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-dsgnr-install-repair-app-plugin.md)**  
 If the demo data wasn’t added during the initial installation, administrators can add demo data to a plugin using **Repair** install.
 -   **[Fix Restricted Caller Access \(RCA\) approval requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-manual-rca-fix.md)**  

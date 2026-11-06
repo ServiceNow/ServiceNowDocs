@@ -7,10 +7,10 @@ release: zurich
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 8
+last_updated: "2026-09-10"
+reading_time_minutes: 9
 keywords: [smartsheet, integration profile, saas]
-breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Integrating with Smartsheet
@@ -62,7 +62,7 @@ Create a Smartsheet integration profile to track software subscriptions and opti
 
 To create a Smartsheet integration profile, request the Software Asset Management - SaaS License Management plugin \(sn\_sam\_saas\_int\) from the [ServiceNow Store](https://store.servicenow.com/).
 
-ServiceNow Role required: sam\_integrator or admin
+ServiceNow Role required: sam\_integrator
 
 **Important:** You must select the **Smartsheet Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md).
 
@@ -80,23 +80,21 @@ The Smartsheet integration supports two licensing models:
 
 After the first subscription data is pulled, the integration determines which licensing model is in use. If the API returns the seat type data, the integration uses the USM model. If no seat type data is returned, the integration uses the legacy subscription model.
 
-**Note:** The USM model is supported starting from Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) version 16.9.0.
-
 If you’re using Software Asset Workspace, the option to create the Smartsheet integration profile in Core UI is inactive.
 
 ### Procedure
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d296372e424">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d314948e416">
 
 Interface
 
-</th><th align="left" id="d296372e427">
+</th><th align="left" id="d314948e419">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d296372e433">
+</th></tr></thead><tbody><tr><td id="d314948e425">
 
 **Core UI**
 
@@ -107,7 +105,7 @@ Action
 3.  Select **Smartsheet Integration Profile**.
 
 
-</td></tr><tr><td id="d296372e475">
+</td></tr><tr><td id="d314948e467">
 
 **Software Asset Workspace**
 
@@ -165,13 +163,19 @@ Type of integration profile. This field is automatically set to **Smartsheet Sub
 
         **Note:** The **Download subscriptions** check box is selected by default and you can't clear it.
 
+        The Download Subscriptions subflow retrieves subscription data based on the licensing model in use:
+
+        -   Legacy subscription model: Retrieves users classified as paid or free.
+        -   USM: Retrieves users for each supported seat type by iterating through the seat type subscription identifiers. Only Member users consume paid entitlements. Contributor, Guest, Provisional member, and Viewer users are classified as free.
+        If the USM subscription identifiers aren't present in your instance, the integration falls back to the legacy model behavior. Subscription identifiers are updated automatically by a scheduled job. If you experience issues with subscription data, verify that the scheduled job has run successfully.
+
     2.  In the Calculate Activity Subflow section, verify that the **Subflow** field is set to **Smartsheet Update User Activity**.
 
         The **Download Activity** check box is selected by default. If you clear it, the activity scheduled job **SAM - Refresh &lt;displayname&gt; Events** isn't created.
 
         **Important:** To enable detailed event tracking, procure an Event Reporting add-on from Smartsheet.
 
-        In the **Analyze user activity** field, you can also select the date and time starting from when you want to analyze the user activity. By default, you can analyze user activity up to 60 days prior to the current date and view events performed by individual users from the time you create this profile.
+        In the **Analyze user activity from** field, you can also select the date and time starting from when you want to analyze the user activity. By default, you can analyze user activity up to 60 days before the current date and view events performed by individual users from the time you create this profile.
 
         **Note:** Software Asset Management pulls the events from the time that you start analyzing user activity irrespective of the profile creation date.
 
@@ -181,6 +185,10 @@ Type of integration profile. This field is automatically set to **Smartsheet Sub
 
         **Note:** The **Reclaim subscriptions** check box is selected by default. If you don't want to reclaim subscriptions, you can clear this check box. If you clear it, the removal candidates are created but the reclaim subscription subflow isn't triggered or the reclamation process isn't initiated.
 
+        The Reclaim Subscription subflow reclaims licenses based on the licensing model in use:
+
+        -   Legacy subscription model: Removes the user from the Smartsheet organization account.
+        -   USM: Downgrades the user from a paid Member seat to a free seat type instead of removing the user. This downgrade preserves the user's data and sheet access on the Smartsheet portal.
 4.  Select **Save** after completing all the required fields.
 
     Your ServiceNow instance creates a draft integration profile. The integration profile uses the Smartsheet Download Subscriptions, Smartsheet Update User Activity, and Smartsheet Reclaim Subscription subflows to retrieve user data from the Smartsheet application.
@@ -251,7 +259,7 @@ API key for your Smartsheet application. Enter an API key in the `api-access-tok
 
 After the integration connects, your ServiceNow instance automatically creates software models, reclamation rules, and software subscriptions that are refreshed daily.
 
-After creating an integration profile, view information about the profile in the Software Asset Workspace by navigating to **License operations** &gt; **User subscription** &gt; **Direct integration profiles**. You can select an integration profile to view the following related lists. If the following related lists aren't visible for an integration profile in the default view, you can select the custom integration view from the Details tab:
+After creating an integration profile, view information about the profile in the Software Asset Workspace by navigating to **License operations** &gt; **User subscription** &gt; **Direct integration profiles**. You can select an integration profile to view the following related lists. If all of the following related lists aren't visible for an integration profile in the default view, you can select the custom integration view from the Details tab:
 
 -   Software Models
 -   Unrecognized Subscription Identifiers
@@ -261,7 +269,7 @@ After creating an integration profile, view information about the profile in the
 -   Subscription Identifier Exclusion Rule
 -   Subscription User Exclusion Rule
 
-After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/subscription-exclusions.md).
+After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/subscription-exclusions.md).
 
 If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/create-child-alias-saas.md).
 

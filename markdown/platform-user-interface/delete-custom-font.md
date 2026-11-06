@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/delete-custom-font.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [theme builder, delete custom font, delete font face]
 breadcrumb: [Upload custom font, Global styles, Manage or edit a theme, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
@@ -17,7 +17,9 @@ Delete and remove a custom font family or font face you no longer need from your
 
 ## Before you begin
 
-Role required: admin
+Role required: ui\_builder\_admin
+
+For information on granular roles, see .
 
 ## Procedure
 
@@ -40,8 +42,6 @@ Role required: admin
     The **View custom font family** or **View font face** modal appears.
 
 5.  Select **Delete**.
-
-    \[Omitted image "tb-custom-font-delete-modal.png"\] Alt text: Custom font family preview modal with Delete button selected.
 
     Your font family or font face is no longer displayed.
 

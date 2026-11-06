@@ -1,5 +1,5 @@
 ---
-title: Working with reliability metrics
+title: Reliability metrics in SLO Management
 description: Learn about the reliability metrics and features that can help you track service health, respond to issues, and support business goals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-level-objective-management/sr-work-SLI-SLO.html
@@ -7,12 +7,12 @@ release: zurich
 product: Service Level Objective Management
 classification: service-level-objective-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Exploring SLO Management, Service Level Objective Management, ITOM AIOps, IT Operations Management]
 ---
 
-# Working with reliability metrics
+# Reliability metrics in SLO Management
 
 Learn about the reliability metrics and features that can help you track service health, respond to issues, and support business goals.
 

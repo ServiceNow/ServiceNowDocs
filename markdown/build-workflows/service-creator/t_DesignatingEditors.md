@@ -7,7 +7,7 @@ release: zurich
 product: Service Creator
 classification: service-creator
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage a service, Service Creator, Build workflows]
 ---
@@ -18,7 +18,7 @@ Editors can create and modify services within a service category.
 
 ## Before you begin
 
-Role required: none
+Role required: none.
 
 ## About this task
 
@@ -32,13 +32,13 @@ The service category manager can designate editors for a published service categ
 
 2.  Select a record with a **State** of **Published to Catalog**.
 
-3.  Select the lock icon beside the **Editors** field.
+3.  Click the lock icon beside the **Editors** field.
 
 4.  Select users to designate as editors using the reference lookup icon.
 
     Only users in the appropriate department are available for selection.
 
-5.  After adding all editors, select **Update**.
+5.  After adding all editors, click **Update**.
 
     Editors receive the Catalog Editor role.
 

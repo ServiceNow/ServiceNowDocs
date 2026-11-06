@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-using-mobile-agent.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
 breadcrumb: [Use, Public Sector Digital Services \(PSDS\)]
 ---
@@ -24,7 +24,7 @@ Use the Mobile Agent to review your case details and complete your case tasks. W
 
 The following video highlights some of the capabilities of the ServiceNow® Mobile Agent app.
 
-**Note:** To use the Mobile Agent, the required plugins must be enabled by an administrator. If you're an administrator, see [Configure Mobile Agent for Service Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-mobile-agent.md) to get the information on configuring the Mobile Agent. For instructions on how to get started with the app after an administrator configures these settings, see [Get started with the Customer Service mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/install-customer-service-mobile-app.md).
+**Note:** To use the Mobile Agent, the required plugins must be enabled by an administrator. If you're an administrator, see [Configure Mobile Agent for Service Request Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-mobile-agent.md) to get the information on configuring the Mobile Agent. For instructions on how to get started with the app after an administrator configures these settings, see .
 
 ## Mobile Agent homepage
 
@@ -39,9 +39,9 @@ The applet launcher includes all the applets that you need to address or resolve
 | | |
 |---|---|
 |New Service Request Cases|All service request cases that are assigned to you in the **New** state.|
-|Active Service Request Cases|All service request cases that you have access to but haven’t been resolved or cancelled, including the cases in the **Open**, **Awaiting Info**, and **Resolved** states.|
+|Active Service Request Cases|All service request cases that you have access to but haven’t been resolved or canceled, including the cases in the **Open**, **Awaiting Info**, and **Resolved** states.|
 |New Information Request Cases|All service request cases that are assigned to you in the **New** state.|
-|Active Information Request Cases|All information request cases that you have access to but haven’t been resolved or cancelled, including the cases in the **Open**, **Awaiting Info**, and **Resolved** states.|
+|Active Information Request Cases|All information request cases that you have access to but haven’t been resolved or canceled, including the cases in the **Open**, **Awaiting Info**, and **Resolved** states.|
 
 To launch an applet, select it in the app.
 
@@ -61,7 +61,7 @@ You can narrow down or sort the list of cases by using the filter icon \(\[Omitt
 
 ## Service Request case cards in the Mobile Agent app
 
-The case cards in the Mobile Agent app display information that is similar to what you would see if you were viewing a case in the CRM Workspace. For a full list of service request case fields and their descriptions, see [Service Request case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/service-request-case-form-new.md).
+The case cards in the Mobile Agent app display information that is similar to what you would see if you were viewing a case in the Public Sector Workspace. For a full list of service request case fields and their descriptions, see [Service Request case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/service-request-case-form-new.md).
 
 The following example shows the case details card view. In this view, you can see the case number, case opened date, application type, priority, constituent, channel, primary purpose, and which agency is assigned to the case.
 
@@ -83,7 +83,7 @@ For more information on the agent tasks in the Mobile Agent app, see [Using the 
 
 ## Information Request case cards in the Mobile Agent
 
-The case cards in the Mobile Agent display information that is similar to what you would see if you were viewing a case in the CRM Workspace. For a full list of information request case fields and their descriptions, see [Information Request case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/information-request-case-form.md).
+The case cards in the Mobile Agent display information that is similar to what you would see if you were viewing a case in the Public Sector Workspace. For a full list of information request case fields and their descriptions, see [Information Request case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/information-request-case-form.md).
 
 The following example shows the case details card view. In this view, you can see the case number, case opened date, application type, priority, contact, channel, primary purpose, and which agency is assigned to the case.
 

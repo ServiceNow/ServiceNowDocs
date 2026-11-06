@@ -7,9 +7,9 @@ release: zurich
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configuring advanced settings for your ML solutions, Configure Predictive Intelligence, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Configuring advanced settings for your ML solutions, Configure Predictive Intelligence, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Configure class recall for a classification solution
@@ -79,6 +79,8 @@ You can apply a recall value to one class per solution definition.
 ## What to do next
 
 Train your saved classification solution so that your updates are incorporated.
+
+**Parent Topic:**[Configuring advanced settings for your ML solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/predictive-intelligence/configuring-advanced-settings-ml-solutions.md)
 
 **Related topics**  
 

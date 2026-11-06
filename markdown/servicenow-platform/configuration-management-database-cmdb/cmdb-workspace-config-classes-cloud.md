@@ -1,20 +1,20 @@
 ---
-title: Configure classes for Cloud vs Non-cloud resources
-description: Include or exclude pairs of CI Class/Type in the Cloud vs Non-cloud resources chart in CMDB Workspace.
+title: Configure classes for Cloud vs Non-cloud resources in CMDB Workspace
+description: Include or exclude pairs of CI Class/Type in the Cloud vs Non-cloud resources chart that appears in CMDB Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-config-classes-cloud.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Configure classes for Cloud vs Non-cloud resources
+# Configure classes for Cloud vs Non-cloud resources in CMDB Workspace
 
-Include or exclude pairs of **CI Class**/**Type** in the Cloud vs Non-cloud resources chart in CMDB Workspace.
+Include or exclude pairs of **CI Class**/**Type** in the Cloud vs Non-cloud resources chart that appears in CMDB Workspace.
 
 ## Before you begin
 
@@ -36,9 +36,6 @@ A **CI Class**/**Type** pair appears or doesn't appear according to its **Active
 
     For example, set **Active** to **false** for the **Applications**/**Non-cloud** pair. This setting will exclude from the chart all CIs in the Applications class which are determined to be non-cloud.
 
-
--   **[Configure datacenters for Cloud vs Non-cloud resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-config-datacenter.md)**  
-The Cloud vs Non-cloud resources chart in CMDB Workspace determines which CIsand application services are stored on a cloud and which aren't in the organization. In addition to base system classifications, you can add cloud versus non-cloud classifications that reflect specific datacenter deployments in the organization.
 
 **Parent Topic:**[Configuring CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/configuring-cmdb-workspace.md)
 

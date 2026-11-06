@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-case-install-base-business-portal.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Business Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Business Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Create a case for install base from the Business Portal
@@ -89,4 +89,11 @@ A more detailed description of the customer question, issue, or problem.
 
     The case is created, assigned a case number, and added to the user's case list. Select **My Cases** at the top of the customer portal to view the Cases list.
 
+
+**Related topics**  
+
+
+[View install base information from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/view-install-base-info-business-portal.md)
+
+[View or modify a case from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_ViewOrModCaseFrom-businessportal.md)
 

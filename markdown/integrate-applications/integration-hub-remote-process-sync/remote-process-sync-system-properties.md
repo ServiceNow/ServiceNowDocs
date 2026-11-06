@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub Remote Process Sync
 classification: integration-hub-remote-process-sync
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Integration Hub Remote Process Sync, Workflow Data Fabric]
 ---
@@ -134,7 +134,7 @@ glide.hub.process.sync.record.successful.status
 
 </td><td>
 
-If set to `true`, the Status field for outbound queues will be updated to Success when there are no errors processing the record in the queue.-   Default value: `false`
+If set to `true`, the Status field for outbound queues will be updated to Success when there are no errors processing the record in the queue.-   Default value: `true`
 -   Minimum value: Not applicable
 -   Maximum value: Not applicable
 

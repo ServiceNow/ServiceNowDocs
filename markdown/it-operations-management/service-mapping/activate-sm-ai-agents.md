@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [activate AI Agent, Service Mapping home page, AI Agent configuration, Now Assist, ITOM, Otto]
-breadcrumb: [AI Agents for Service Mapping, AI in Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
+breadcrumb: [Configuring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
 # Activate AI Agents for Service Mapping
@@ -23,7 +23,6 @@ Before you begin, verify the following:
 
 -   ITOM AI agents for Service Mapping \[sn\_sm\_gen\_ai, version 1.3.1 or later\] is installed as part of ServiceNow Otto for ITOM.
 -   Service Mapping Plus version 1.20.0 or later is installed. The AI Agent UI is delivered through Service Mapping Plus.
--   Zurich Patch 9 or Australia Patch 2.
 
 Role required: service\_mapping\_admin
 
@@ -51,6 +50,4 @@ The AI Agents are inactive by default. You can activate one or both AI Agents. A
 ## What to do next
 
 To deactivate an AI Agent, select **Deactivate** on the respective card. The button returns to **Activate**.
-
-**Parent Topic:**[AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/service-mapping-ai-agents.md)
 

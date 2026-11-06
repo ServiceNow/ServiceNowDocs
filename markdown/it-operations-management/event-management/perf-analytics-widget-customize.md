@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-12-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Event Management Platform Analytics Solutions, Reference, Event Management, ITOM AIOps, IT Operations Management]
 ---

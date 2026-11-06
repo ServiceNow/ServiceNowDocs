@@ -7,8 +7,9 @@ release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+keywords: [import structured file, CSV import, XLSX import]
 breadcrumb: [Import Intelligence in TISC, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
@@ -192,4 +193,6 @@ Select this check box if you wish to over ride the source values for TLP, Confid
 [Import data using raw text]()
 
 [Import data using unstructured file format]()
+
+[Import data using AI]()
 

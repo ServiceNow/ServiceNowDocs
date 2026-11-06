@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/create-email-layout.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Email layouts, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer]
+breadcrumb: [Email layouts, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create an email layout
@@ -25,9 +25,9 @@ Create an email layout to specify the HTML content you want to appear in the bod
 
     The system displays the list of existing email layouts.
 
-2.  Select **New**.
+2.  Click **New**.
 
-    The system displays a empty email layout form.
+    The system displays a blank email layout form.
 
 3.  Fill in the form.
 
@@ -92,7 +92,7 @@ Use this field to manually enter HTML code. The system displays HTML from this f
  **Note:** To enter text in this field, select **Click here to disable syntax highlighting and script formatting**.
 
 </td></tr></tbody>
-</table>4.  Select **Submit**.
+</table>4.  Click **Submit**.
 
     The system creates the email layout record.
 
@@ -106,7 +106,7 @@ Use this field to manually enter HTML code. The system displays HTML from this f
 
 7.  In **Email layout**, select the email layout you want to use to format the body of email messages.
 
-8.  Select **Update**.
+8.  Click **Update**.
 
     The email template uses the selected email layout to format the body of email messages.
 

@@ -7,9 +7,9 @@ release: zurich
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Continuous authorization and monitoring tasks in the CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Monitor and manage CAM tasks
@@ -36,7 +36,7 @@ Role required:
 
 1.  Navigate to **All** &gt; **CAM Workspace**.
 
-2.  Select \[Omitted image "TasksIcon.jpg"\] Alt text: Tasks icon. from the sidebar.
+2.  Select\[Omitted image "TasksIcon.jpg"\] Alt text: Tasks icon. from the sidebar.
 
 3.  Navigate to the appropriate tab.
 

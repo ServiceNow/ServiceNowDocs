@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/enable-ai-search-catalog.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [AI Search for product catalog, Product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [AI Search for product catalog, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Enable AI Search in product catalog
@@ -16,7 +16,7 @@ Use the **enable\_ai\_search\_in\_catalog** property to enable AI Search in the 
 
 ## Before you begin
 
-Role required: Role required: sn\_prd\_pm\_product\_catalog\_admin
+Role required: Role required: admin
 
 ## About this task
 
@@ -36,4 +36,11 @@ The **enable\_ai\_search\_in\_catalog** system property checks that the Product 
 
     If you enable this property, AI Search features are available in the product catalog interface.
 
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/product-catalog-managment.md)
 

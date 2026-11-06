@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Implement a nonce, Local authentication, Access Management]
+breadcrumb: [Implement a nonce, Local authentication, Authentication, Access Management]
 ---
 
 # Nonce process flow

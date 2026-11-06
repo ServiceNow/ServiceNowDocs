@@ -1,20 +1,20 @@
 ---
-title: Add translations for playbooks
-description: Make playbooks available in multiple languages during runtime, to support worldwide business processes.
+title: Add translations for Playbooks
+description: Make Playbooks available in multiple languages during runtime, to support worldwide business processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/add-translations-playbooks.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-25"
-reading_time_minutes: 2
-breadcrumb: [Playbooks in Workflow Studio, Building playbooks, Use, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Creating and managing Playbooks, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
-# Add translations for playbooks
+# Add translations for Playbooks
 
-Make playbooks available in multiple languages during runtime, to support worldwide business processes.
+Make Playbooks available in multiple languages during runtime, to support worldwide business processes.
 
 ## Before you begin
 
@@ -70,20 +70,5 @@ When the playbook runs, the translated content appears for agents in their user 
 
 \[Omitted image "playbook-translation-runtime.png"\] Alt text: The message translated into Spanish.
 
-**Parent Topic:**[Playbooks in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-definitions.md)
-
-**Related topics**  
-
-
-[Create a playbook]()
-
-[Playbook variants]()
-
-[Test a playbook]()
-
-[Enabling playbook restart]()
-
-[Duplicate Playbooks]()
-
-[View all buttons without hover]()
+**Parent Topic:**[Creating and managing Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/creating-managing-playbooks.md)
 

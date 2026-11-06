@@ -7,7 +7,7 @@ release: zurich
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [My Calendar, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -26,7 +26,7 @@ Role required: resource\_manager
 
 2.  Do one of the following.
 
-<table id="choicetable_g3t_jz2_zs"><tbody><tr><td id="d135379e80">
+<table id="choicetable_g3t_jz2_zs"><tbody><tr><td id="d143605e80">
 
 **From the User list**
 
@@ -34,7 +34,7 @@ Role required: resource\_manager
 
 Right-click a user name in the Users list and select **View Calendar**.
 
-</td></tr><tr><td id="d135379e92">
+</td></tr><tr><td id="d143605e92">
 
 **From the User form**
 

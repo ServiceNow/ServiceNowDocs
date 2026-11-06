@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_TargetCommViewApproverList.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Targeted communications, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -26,7 +26,7 @@ Role required: sn\_publications.author or sn\_publications.admin
     -   **Targeted Communications** &gt; **Draft Publications**
 2.  Open the desired publication.
 
-3.  Select the tab for the **Approvers** related list.
+3.  Click the tab for the **Approvers** related list.
 
     The Approvers list includes the users with the publications approver role that have been added as approvers to the publication workflow.
 

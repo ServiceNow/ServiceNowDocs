@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sem-create-widget.html
 release: zurich
 topic_type: task
-last_updated: "2025-10-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Visualization library, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -36,12 +36,10 @@ Role required: admin
 
 ## Result
 
-The widget is now saved to the Visualization Library and can be used when creating or editing dashboards.
+The widget is now saved to the **Visualization Library** and can be used when creating or editing dashboards.
 
 **Note:**
 
--   You can create or update widgets in the Findings view, but not in the Remediation overview page. Widgets in the Remediation overview are predefined and cannot be created or edited. You can only change their display order or activate or deactivate them.
--   Only the widgets marked as **Active** appear in the dashboard creation view.
-
-**Parent Topic:**[Configure Visualization library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-configure-visualization-library.md)
+-   You can create or update widgets in the **Findings view**, but not in the **Remediation overview** page. Widgets in the **Remediation overview** are predefined and cannot be created or edited. You can only change their display order or activate or deactivate them.
+-   Only the widgets marked **Active** = true appear in the dashboard creation view.
 

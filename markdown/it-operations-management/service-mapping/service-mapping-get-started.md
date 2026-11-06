@@ -7,8 +7,8 @@ release: zurich
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
@@ -54,14 +54,10 @@ To view a list of Service Mapping plugin dependencies, see [Plugins or applicati
 
 -   **[Choose the right method for discovering and mapping services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/choose-mapping-method.md)**  
 Service Mapping deploys different methods for collecting information about configuration items \(CIs\) and organizing them into application services. The available mapping methods are: pattern-based, tag-based, traffic-based, and discovery based on Predictive Intelligence. Learn about the mapping methods to use the ones that best suit the needs of your organization.
--   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/service-mapping-use-case.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/service-mapping-use-case.md)**  
-
 -   **[Discovery of application services on cloud using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/cloud-discovery-service-mapping.md)**  
 Service Mapping in cloud environments provides critical visibility into application dependencies and connections. By identifying how different application components interact within IaaS and PaaS environments, your organization can gain better insight into its application services and improve overall service management.
 -   **[Service Mapping flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/service-mapping-flow.md)**  
 Learn about high-level tasks users having different roles perform in Service Mapping.
--   **[Tag-based mapping in the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/tag-based-mapping-dashboard.md)**  
-The Tag-based service mapping dashboard offers an intuitive way to manage tag-based services. Use the widgets, data visualizations, and list navigation to review and update your services, or create new tag-based services in a few steps. The dashboard enhances the Service Mapping Workspace, offering an efficient and user-friendly interface for organizing and optimizing your service mappings.
 -   **[Traversal rules in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/traversal-rules-service-mapping.md)**  
 Traversal rules identify and map relationships between configuration items to create comprehensive application service maps. They connect relevant configuration items based on predefined relationships, promoting accurate service mapping and visualization.
 

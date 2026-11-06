@@ -1,5 +1,5 @@
 ---
-title: Validate SOAP content type \[Updated in Security Center 1.3\]
+title: Validate SOAP content type
 description: Use the glide.soap.require\_content\_type\_xml property to enable validation of a content type as text/xml and protect against invalid SOAP requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-soap-content-type-checking.html
@@ -7,17 +7,18 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [API and web service, Hardening settings, Platform Security]
 ---
 
-# Validate SOAP content type \[Updated in Security Center 1.3\]
+# Validate SOAP content type
 
 Use the **glide.soap.require\_content\_type\_xml** property to enable validation of a content type as text/xml and protect against invalid SOAP requests.
 
--   When set to **true**, the ServiceNow AI Platform validates the content type as text/xml and protects against invalid SOAP requests.
--   If set to **false**, any content-type value is allowed.
+If the **glide.soap.require\_content\_type\_xml** system property is not set to the recommended value of **true**, then there is no validation for the SOAP request.
+
+Ensure that the property **glide.soap.require\_content\_type\_xml** is set to **true**.
 
 **Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It is non-revertible.
 
@@ -33,7 +34,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Property name
+Configuration name
 
 </td><td>
 
@@ -49,19 +50,11 @@ System Properties \(/sys\_properties\_list.do\)
 
 </td></tr><tr><td>
 
-Category
+Data type
 
 </td><td>
 
-[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
-
-</td></tr><tr><td>
-
-Purpose
-
-</td><td>
-
-Protect against invalid SOAP requests
+Boolean
 
 </td></tr><tr><td>
 
@@ -81,11 +74,29 @@ true
 
 </td></tr><tr><td>
 
-Security risk rating
+Fallback value
 
 </td><td>
 
-8.8
+false
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
+
+</td></tr><tr><td>
+
+Security risk
+
+</td><td>
+
+-   Severity score: 8.8
+-   CVSS rating: High
+-   Security risk details: This lack of validation can enable Cross-Site Request Forgery \(CSRF\) attacks, allowing malicious actors to trick authenticated users into sending unauthorized SOAP requests.
 
 </td></tr><tr><td>
 
@@ -98,22 +109,12 @@ This remediation enables validation of SOAP content type for all the inbound SOA
 
 </td></tr><tr><td>
 
-Security risk
+Dependencies and prerequisites
 
 </td><td>
 
-\(Moderate\) When accepting inbound SOAP requests, the appropriate validation is performed to ensure that the relevant content type is being defined as a part of the request. It restricts the invalid SOAP responses that can be viewed as a security risk.
-
-</td></tr><tr><td>
-
-Reference
-
-</td><td>
-
-[Content types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/c_ContentTypes.md)
+None
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
-
-**Parent Topic:**[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
+</table>**Parent Topic:**[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
 

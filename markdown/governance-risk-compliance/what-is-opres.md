@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/what-is-opres.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -43,7 +43,7 @@ For more information on the updated roles, see [Roles installed with Operational
 
 ## Operational Resilience workflow
 
-The Operational Resilience application provides a continuous four-stage workflow that helps your resilience managers and administrators to achieve your organization’s safety and well-being. You can prepare for and cope with the adverse events by anticipating, preventing, recovering from, and adapting to such events. The stages of operational resilience are explained in the following example.
+The Operational Resilience application provides a continuous four-stage workflow that helps your resilience managers and administrators to achieve your organization’s safety and well-being. You can prepare for and cope with the adverse events by anticipating, preventing, recovering from, and adapting to such events. The stages of operational resilience are shown in the following example.
 
 To build resilience for your organization, analyze each stage in the resilience life cycle:
 

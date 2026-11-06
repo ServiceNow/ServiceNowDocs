@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/explore-scheduling-configurable-wfo-cs.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
@@ -57,8 +57,6 @@ As an agent, you can:
 
 ## Example
 
-Understand how you can set up and publish agent schedules and how your agents can manage their own schedule based on an example.
-
 A manager for a large Customer Service operation is responsible for 12 teams. Each team has from 8 through 15 agents. At any given point, the manager needs visibility into the teams' schedule. The manager must also be able to create shifts, and approve or reject shift-swap or time-off requests from the team.
 
 The manager can manage the teams' schedule using **Scheduling**. Team members can also manage their own schedules effectively by requesting shift-swaps or time off.
@@ -81,7 +79,7 @@ Get an overview of how agents use the workspace to manage their schedule. For mo
 
 For detailed information on creating and managing schedules using Workforce Optimization for Customer Service, refer to [Scheduling in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/scheduling-configurable-wfo-cs.md).
 
-**Parent Topic:**[Using Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/use-configurable-wfo-cs.md)
+**Parent Topic:**[Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/use-configurable-wfo-cs.md)
 
 **Related topics**  
 

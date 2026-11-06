@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Interactive activities, Playbooks reference, Reference, Workflow Studio, Build workflows]
+breadcrumb: [Interactive activities, Playbooks reference, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # View Approval Requests activity
@@ -18,7 +18,7 @@ Display a list of approval requests from within Playbook Experience.
 
 ## Roles and availability
 
-These activities are available as an application in the ServiceNow Store. Users with the playbook.admin or pd\_author role can add these activities to a playbook.
+Users with the playbook.admin or pd\_author role can add these activities to a playbook.
 
 ## Inputs
 
@@ -134,6 +134,4 @@ After configuring the required inputs for your activity, you can also choose to 
 |Order by|String|Field you want to use to sort a list of records.|
 |Sort Type|Choice|Option to sort records alphabetically or reverse alphabetically.|
 |Max Results|Integer|Maximum number of results to display to end users.|
-
-**Parent Topic:**[Interactive activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/interactive-activities.md)
 

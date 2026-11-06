@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/planned-work-components.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Components installed with additional plugins, Reference, Field Service Management]
 ---
@@ -264,7 +264,7 @@ Schedule Suppression\[wm\_m2m\_schedule\_suppression\]
 
 </td><td>
 
-Suppresses schedule occurrences by comparing planned work schedule templates.
+ 
 
 </td></tr><tr><td>
 
@@ -276,7 +276,19 @@ Schedule Suppression\[wm\_m2m\_schedule\_suppression\]
 
 </td><td>
 
-Blocks duplicate and cyclic dependencies.
+ 
+
+</td></tr><tr><td>
+
+Suppress SO by schedule suppression
+
+</td><td>
+
+Schedule Suppression\[wm\_m2m\_schedule\_suppression\]
+
+</td><td>
+
+ 
 
 </td></tr><tr><td>
 
@@ -288,7 +300,7 @@ Schedule Occurrence \[wm\_plan\_work\_schedule\_occurrence\]
 
 </td><td>
 
-Checks and suppresses a schedule occurrence.
+ 
 
 </td></tr><tr><td>
 
@@ -300,7 +312,7 @@ Schedule Occurrence \[wm\_plan\_work\_schedule\_occurrence\]
 
 </td><td>
 
-Runs suppression logic based on suppressBy schedule added.
+ 
 
 </td></tr><tr><td>
 
@@ -312,7 +324,7 @@ Schedule Occurrence \[wm\_plan\_work\_schedule\_occurrence\]
 
 </td><td>
 
-Cancels the work orders of a schedule occurrence when you inactivate the schedule occurrence.
+ 
 
 </td></tr><tr><td>
 
@@ -324,7 +336,7 @@ Schedule Occurrence \[wm\_plan\_work\_schedule\_occurrence\]
 
 </td><td>
 
-Validates if the earliest start date a schedule occurrence is before the requested due date.
+ 
 
 </td></tr><tr><td>
 
@@ -336,7 +348,7 @@ Schedule Occurrence \[wm\_plan\_work\_schedule\_occurrence\]
 
 </td><td>
 
-Updates work orders with the latest values from schedule occurrences.
+ 
 
 </td></tr></tbody>
 </table>-   **[Planned Work Management system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/planned_work_management_sys_properties.md)**  

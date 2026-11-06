@@ -7,9 +7,9 @@ release: zurich
 product: Agile Development
 classification: agile-development
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Scrum Programs for Agile Development 2.0, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Scrum Programs for Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
 
 # Create a scrum program

@@ -7,7 +7,7 @@ release: zurich
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Cart layout, Service Catalog customization, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -51,7 +51,7 @@ Using Service Catalog, customize the shopping cart screen that is displayed on m
 
 **Important:**
 
-Mobile Classic Is Deprecated.
+Mobile Classic Is Deprecated!
 
 The App Has Been Removed From The Stores And Can No Longer Be Activated. We Are Not Offering Enhancements, Bug Fixes, Or Support For The App. See ServiceNow Classic Mobile App Deprecation Effective September 15, 2022.
 

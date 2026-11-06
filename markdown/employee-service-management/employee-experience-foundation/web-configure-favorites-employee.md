@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Use, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Using Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Manage favorites
@@ -57,7 +57,7 @@ You can add the frequently used content to your favorites list. Click the favori
     -   View the favorites in grid and list views
     **Note:** You can configure user permissions such as **Available for** and **Not Available for**. When the favorited topic is not marked available, the topic isn't visible from **My Favorites** and on the favorites widget. You can see the following message: `You don't have access to <count> of your favorited items`. For more information, see [Enable user criteria for topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/enable-user-criteria-topics.md).
 
-    For more information, see .
+    For more information, see [Cross-channel favorites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
 
 
 **Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/using-emp-center.md)
@@ -70,8 +70,6 @@ You can add the frequently used content to your favorites list. Click the favori
 [Topic managers and contributors for topic page management]()
 
 [Use the My To-dos page]()
-
-[View advanced portal navigation]()
 
 [Use approval experience]()
 

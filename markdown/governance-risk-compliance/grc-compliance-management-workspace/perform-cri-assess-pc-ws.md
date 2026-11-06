@@ -7,9 +7,9 @@ release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage control objectives and policies, Use, GRC Compliance Workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage control objectives and policies, Use, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Perform CRI profile assessment per CRI guidelines using control assessment engine
@@ -24,7 +24,7 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst, sn\_compliance
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  Select \[Omitted image "ws-list-icon.png"\] Alt text: List icon.from the sidebar.
+2.  Select the lists \(\[Omitted image "ws-list-icon.png"\] Alt text: List icon.\) icon.
 
 3.  Select **All entities** from the Scoping list on the left pane and click the entity record for which you completed the CRI tiering questionnaire.
 
@@ -33,6 +33,10 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst, sn\_compliance
     The CRI profile assessment is created based on the tier value, and you can view the assessments in the **CRI profile assessment** related list, which takes a few seconds to be generated. The controls are also created simultaneously.
 
     **Note:** When the tier assessment is in progress, you will not be able to trigger either tier assessment or CRI profile assessment. When one CRI profile assessment is in the process of creation, then you will not be able to trigger another CRI tier assessment. If one CRI assessment is open, then the tier assessment option is also not visible.
+
+    When a CRI profile assessment is initiated, the assessment is generated using the latest published version of the template.
+
+    For more information, see [Assessment template versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/template-versioning.md)
 
 5.  Select the CRI profile assessments related list and refresh the page to view the assessment.
 

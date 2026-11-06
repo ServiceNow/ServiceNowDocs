@@ -7,7 +7,7 @@ release: zurich
 product: Automation Center
 classification: automation-center
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Automation Center, Workflow Data Fabric]
 ---
@@ -27,7 +27,7 @@ After the UiPath spoke is installed, the following two options are available:
 
 If an issue occurs while processing the UiPath data, an error message along with the actual payload is inserted as a record in the Import Error Log \[sn\_ac\_import\_error\_log\] table.
 
-**Note:** The number of days the error records will be stored in the table is defined in the Automation Center purge system property \(`sn_ac.purge_automation_data_in_days`\).
+**Note:** The number of days the error records will be stored in the table is defined in the Automation Center purge system property \(sn\_ac.purge\_automation\_data\_in\_days\).
 
 -   **[Create UiPath webhook registry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/webhook-registry.md)**  
 Create UiPath webhook registries to establish a connection between UiPath and Automation Center.

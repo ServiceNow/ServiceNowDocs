@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: concept
-last_updated: "2026-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Using ServiceNow Otto for Virtual Agent, ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
@@ -41,4 +41,14 @@ While searching for a space and making a reservation, the reservation agent cons
     If the workplace profile isn’t available, the reservation agent considers the past reservation data of an employee. It shows space suggestions based on the past reservation data \(most frequently reserved spaces, date, and time\). If the reservation agent isn’t able to fetch or predict a location, it asks employees to enter manually their preferred workplace locations in the Virtual Agent chat interface. It provides space suggestions based on employee prompt inputs.
 
 -   **Workplace Locations** tab information in a Reservable Module. The application provides suggestions from the configured workplace locations only. For example, if about 10 building locations are added to the Workplace Locations tab in a Reservable Module, employees can select a space from one of these buildings. Employees can’t reserve a space, which isn’t added to the workplace locations. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/config-reservable-module.md).
+
+-   **[Reserve a space using the reservation agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/create-rsv-agent.md)**  
+The Create a reservation agent enables employees to reserve a space with a single prompt query or utterance.
+
+**Parent Topic:**[Using ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/create-rsv-agent-ovw.md)
+
+**Related topics**  
+
+
+[Using the workplace collaboration Agent for space suggestions]()
 

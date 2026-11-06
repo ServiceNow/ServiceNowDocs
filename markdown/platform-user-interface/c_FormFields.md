@@ -1,11 +1,11 @@
 ---
 title: Form fields
-description: A field represents an individual item of data on a record.Indicators are used on some fields to denote a special field type.
+description: A field represents an individual item of data on a record.Indicators are used on some fields to denote a special field type.The AI indicator visually identifies form fields in configurable workspace and Core UI that have been updated with AI-generated content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/c\_FormFields.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Forms in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -46,7 +46,7 @@ Populated — savedPopulated — unsaved
 
 </td><td>
 
-Required field contains a value that was saved or must be saved. Default color is gray.
+Required field contains a value that was saved or must be saved.
 
 </td></tr></tbody>
 </table>\[Omitted image "FieldStatusIndicatorsUI15.png"\] Alt text: Core UI field status indicators
@@ -55,4 +55,10 @@ Required field contains a value that was saved or must be saved. Default color i
 
 
 [Define field styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_DefineFieldStyles.md)
+
+## AI indicator
+
+The AI indicator visually identifies form fields in configurable workspace and Core UI that have been updated with AI-generated content.
+
+The AI indicator, \[Omitted image "AI-indicator-sparkle.png"\] Alt text: AI indicator sparkle, an icon featuring "AI" and the ServiceNow Otto logo, displays next to relevant fields. It serves as a notification that the field's content was generated or updated by a predictive AI agent. When you manually update a field with the AI indicator, the icon is cleared, indicating that the field is no longer AI-generated. For more information, see .
 

@@ -7,9 +7,9 @@ release: zurich
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2026-05-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Available templates, Use an app template, Create your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Available templates, Use an app template, Create your app, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Event Registration template
@@ -17,8 +17,6 @@ breadcrumb: [Available templates, Use an app template, Create your app, Build, A
 Build an application in App Engine Studio \(AES\) using the Event Registration template to manage scheduling, booking, and registration for company events.
 
 To use the Event Registration template, install this application from the ServiceNow Store.
-
-\[Omitted image "template-event-registration.png"\] Alt text: Event Registration template
 
 An internal event registration app allows your event organizers to publish a list of events to employees and collect attendees in a centralized database. The app helps streamline the event discovery and registration process.
 

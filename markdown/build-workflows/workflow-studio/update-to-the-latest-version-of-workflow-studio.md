@@ -7,7 +7,7 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Workflow Studio, Build workflows]
 ---
@@ -36,7 +36,7 @@ You can also find and update each individual Workflow Studio application depende
 
 2.  Search for the Workflow Studio application using the search bar.
 
-    Check the **Updates** and the **Installed** tabs to locate Workflow Studio \(app id: sn\_workflow\_studio\).
+    Check the **Updates** and **Installed** tabs to locate Workflow Studio \(app id: sn\_workflow\_studio\).
 
 3.  Select **Workflow Studio**.
 

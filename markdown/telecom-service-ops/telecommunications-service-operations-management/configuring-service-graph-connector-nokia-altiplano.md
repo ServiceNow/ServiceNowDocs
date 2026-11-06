@@ -1,20 +1,20 @@
 ---
 title: Configure Nokia Altiplano service graph connector
-description: Configure the Nokia Altiplano service graph connector to import physical and logical inventory data from the Nokia Altiplano Access Network SDN Controller into your ServiceNow Configuration Management Database \(CMDB\).
+description: Configure the Nokia Altiplano service graph connector to import physical and logical inventory data from the Nokia Altiplano Access Network SDN Controller into your CMDB.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-service-ops/telecommunications-service-operations-management/configuring-service-graph-connector-nokia-altiplano.html
 release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Set up Telecom Visibility, Configure, Telecommunications Service Operations Management]
+breadcrumb: [Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
 
 # Configure Nokia Altiplano service graph connector
 
-Configure the Nokia Altiplano service graph connector to import physical and logical inventory data from the Nokia Altiplano Access Network SDN Controller into your ServiceNow Configuration Management Database \(CMDB\).
+Configure the Nokia Altiplano service graph connector to import physical and logical inventory data from the Nokia Altiplano Access Network SDN Controller into your CMDB.
 
 This integration uses REST APIs \(via a MID Server\) to ensure the CMDB reflects accurate, up-to-date telecom inventory aligned with the TM Forum-based data model.
 
@@ -25,6 +25,7 @@ This integration uses REST APIs \(via a MID Server\) to ensure the CMDB reflects
 |Plugin|ID|
 |------|---|
 |Telecom Service Operations Core|`sn_tsom_core`|
+|Service Graph Connector for Nokia Aliplano|sn\_tsom\_altiplano\_connector|
 
 **Note:** External requirements:
 
@@ -33,12 +34,12 @@ This integration uses REST APIs \(via a MID Server\) to ensure the CMDB reflects
 
 ## Configuration tasks overview
 
-The following sections are available under the Nokia Altiplano navigation pane. Use the following table for post-guided setup or perform manual configurations.
+The following sections are available under the Nokia Altiplano navigation pane. Use the following table for post-guided setup or to perform manual configurations.
 
 |Section|Description|
 |-------|-----------|
 |Setup|Configure MID Server, define Altiplano connections, and schedule imports.|
-|Data Sources|Predefined data sources for bulk and filtered discovery \(SGC-Nokia Altiplano Bulk Discovery, SGC-Nokia Altiplano Filtering Discovery\). Enable parallel loading if needed. For more information on parallel loading, see [Configure concurrent import and parallel loading for Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/configure-concurrent-import-and-parallel-loading.md).|
+|Data Sources|Predefined data sources for bulk and filtered discovery \(SGC-Nokia Altiplano Bulk Discovery, SGC-Nokia Altiplano Filtering Discovery\). Enable parallel loading if needed. For more information on parallel loading, see [Configure concurrent import and parallel loading](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/configure-concurrent-import-and-parallel-loading.md).|
 |Import Schedules|Manage scheduling for each Altiplano connection alias. Run jobs manually or at defined intervals.|
 |Connections &amp; Credential Aliases|Define aliases for each Altiplano instance. Store connection metadata and credentials.|
 |Connections|Define Altiplano instance details, such as URL, selected MID Server, credential reference, and connection alias reference.|
@@ -67,11 +68,11 @@ Use the guided setup to simplify the configuration process. This setup provides 
 
 [Set up multiple Nokia Altiplano instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/multi-instance-setup.md)
 
-[Configure concurrent import and parallel loading for Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/configure-concurrent-import-and-parallel-loading.md)
+[Configure concurrent import and parallel loading](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/configure-concurrent-import-and-parallel-loading.md)
 
 [Mapping Nokia Altiplano CIs and Relationships in CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/data-mapping.md)
 
-[Run and verify import for Nokia Altiplano Service Graph Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/run-and-verify-import-for-nokia-altiplano-service-graph-connector.md)
+[Run and verify a Nokia Altiplano import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/run-and-verify-import-for-nokia-altiplano-service-graph-connector.md)
 
 [System components installed with Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/properties-installed-with-nokia-altiplano.md)
 

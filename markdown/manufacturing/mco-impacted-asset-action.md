@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-impacted-asset-action.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a correction action, Product non-conformance without playbook, Product non-conformance, MCO workspace, Use, Manufacturing Commercial Operations]
+breadcrumb: [Product non-conformance, Product non-conformance, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Impacted asset action
@@ -20,7 +20,7 @@ Role required: Quality Issue Management Admin or product non-conformance resolve
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **List** &gt; **Product Non Conformance Case** &gt; **Correction Actions** &gt; **Impacted Asset Action**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **List** &gt; **Product Non Conformance Case** &gt; **Correction Actions** &gt; **Impacted Asset Action**.
 
 2.  Select **New**.
 
@@ -34,5 +34,5 @@ Role required: Quality Issue Management Admin or product non-conformance resolve
 4.  Select **Save**.
 
 
-**Parent Topic:**[Create a correction action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-correction-actions.md)
+**Parent Topic:**[Product non-conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-related-lists-product-non-conformance.md)
 

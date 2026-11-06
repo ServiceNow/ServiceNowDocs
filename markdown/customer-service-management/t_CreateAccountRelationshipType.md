@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_CreateAccountRelationshipType.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Bi-directional account relationships, Create customer relationships, Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -16,7 +16,12 @@ Create an account relationship type by defining the types of source and target a
 
 ## Before you begin
 
-Role required: admin
+Role required: One of the following roles:
+
+-   sn\_crm\_foundation\_admin
+-   sn\_crm\_foundation\_data\_manager
+-   sn\_crm\_account\_relationship\_data\_manager,
+-   admin
 
 ## About this task
 

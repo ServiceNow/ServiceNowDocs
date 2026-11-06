@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/getting-apps-on-prem.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [servicenow store, store, app store, application store, app store user documentation, servicenow app store, spoke store, integration store]
-breadcrumb: [ServiceNow Store, Administering applications, Get started, Administer]
+breadcrumb: [ServiceNow Store, Administering applications, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Getting apps as an on-premise customer

@@ -7,9 +7,9 @@ release: zurich
 product: Asset Management
 classification: asset-management
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 6
-breadcrumb: [Reference, Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Reference, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Installed with Model Management
@@ -19,19 +19,6 @@ Several types of components are installed with Model Management.
 Demo data is available with Model Management.
 
 **Parent Topic:**[Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/references-asset-management.md)
-
-**Related topics**  
-
-
-[Domain separation and Asset Management]()
-
-[Quick start test for Asset Management]()
-
-[Installed with Asset Management]()
-
-[Transfer order line fields]()
-
-[Summary of transfer order line tasks]()
 
 ## Business rules installed with Model Management
 

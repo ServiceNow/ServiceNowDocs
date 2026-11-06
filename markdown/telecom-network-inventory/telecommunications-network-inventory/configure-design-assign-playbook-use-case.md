@@ -7,9 +7,9 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
-breadcrumb: [Design and Assign function, Configure, Telecommunications Network Inventory]
+breadcrumb: [Configure Design and Assign function, Configure, Telecommunications Network Inventory]
 ---
 
 # Configure a Design and Assign function example
@@ -391,10 +391,10 @@ The following example is the Design and Assign function that you created.
 
 \[Omitted image "design-assign-playbook-example.png"\] Alt text: Playbook view with the list of activities
 
-**Parent Topic:**[Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md)
+**Parent Topic:**[Configuring Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md)
 
 **Related topics**  
 
 
-[Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md)
+[Configuring Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md)
 

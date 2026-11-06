@@ -7,18 +7,20 @@ release: zurich
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Drilling down within Core UI reports
 
 You can drill down within a report to visualize a subset of its data. For example, you can click on the critical section of a report sorted by priority to view the categories of those critical incidents.
 
+**Note:** This topic refers to Core UI reports, not Platform Analytics data visualizations.
+
 For reports with a defined drilldown, click on a portion of the chart to display a subset of data. The subset may use a different chart type. In the example, the user clicks on the critical incidents in a bar chart to reveal the categories of critical incidents in a semi-donut chart.
 
-**Note:** This topic refers to Reporting in the Core UI. For instances migrated to Platform Analytics experience and new Zurich instances, see [Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dv-chart-interactions.md).
+**Note:** This topic refers to Reporting in the Core UI. For instances migrated to Platform Analytics experience and new Brazil instances, see [Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dv-chart-interactions.md).
 
 \[Omitted image "drilldown-example-2.png"\] Alt text: Drilldown example with two report types
 
@@ -34,7 +36,7 @@ You can define a report drilldown to enable reporting users to view subsets of t
 
 ### Before you begin
 
-Role required: itil, report\_user, report\_group, report\_global, report\_admin, or admin.
+Role required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. To create a meaningful report, you must have the right to access the data you want to report on.
 
 The report that you want to define a drilldown for must exist.
 
@@ -60,7 +62,7 @@ This topic refers to Reporting in the Core UI. If your instance is migrated to P
 
 6.  Select the report **Type** to display the data and click **Next**.
 
-    See [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-types-creation-details-rd.md). The drilldown report type can be different than the parent report.
+    See [Core UI Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-types-creation-details-rd.md). The drilldown report type can be different than the parent report.
 
 7.  Configure the drilldown report the same way you would configure any other report.
 

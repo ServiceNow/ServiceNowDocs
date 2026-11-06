@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/dashboard-elements.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Explore, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -14,9 +14,9 @@ breadcrumb: [Explore, Dashboards, Platform Analytics experience, Platform Analyt
 
 Elements refer to the visual objects you can place on a dashboard, including filters.
 
-Dashboards contain a combination of visual [elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dashboards-glossary.md) to show data.
+Dashboards contain a combination of visual [elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dashboards-glossary.md) or funnels to show data. Available elements include Data visualization, Divider, Filter, Filter Group, Heading, Image, List, Process Mining - Map, Rich Text, Workbench, and Usage Insights funnel.
 
-\[Omitted image "inline-db-elements.png"\] Alt text: Untitled dashboard with the Add new element menu expanded to show elements you can add to the dashboard
+\[Omitted image "uxa-view-funnnel-pa.png"\] Alt text: Untitled dashboard with the Add new element menu expanded to show elements you can add to the dashboard
 
 -   **[Data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center-data-visualizations.md)**
 
@@ -26,15 +26,17 @@ Dashboards contain a combination of visual [elements](https://raw.githubusercont
 
 -   **[Filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/interactive-filters-workspace.md)**
 
-    [Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dashboards-glossary.md) enable users to filter the visualizations on a dashboard based on specified criteria. You can put filters either on the individual tabs or above the tabs so that the filter applies to elements every tab. Filters include both data filters and domain filters. You can create filters in the dashboard designer or select them from the library.
+    Filters enable users to filter the visualizations on a dashboard based on specified criteria. You can put filters either on the individual tabs or above the tabs so that the filter applies to elements every tab. Filters include both data filters and domain filters. You can create filters in the dashboard designer or select them from the library.
 
 -   **[Filter group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-filter-group.md)**
 
-    A [filter group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dashboards-glossary.md) is a set of filters that you can apply simultaneously. Use when you have multiple filters that can apply to multiple visualizations.
+    A set of [filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dashboards-glossary.md) that you can apply simultaneously. Use when you have multiple filters that can apply to multiple visualizations.
 
 -   **[Heading](https://developer.servicenow.com/dev.do#!/reference/now-experience/xanadu/now-components/now-heading/usage)**
 
     Headings provide a place for text at the top of a dashboard or section of a dashboard. Formatting for headings is limited to six heading levels.
+
+    You can align headers from the start, end, or center of the allotted space. Select **Justify** to align the text across the entire allotted space.
 
 -   **[Image](https://developer.servicenow.com/dev.do#!/reference/now-experience/xanadu/now-components/now-image/uib-config)**
 
@@ -50,7 +52,17 @@ Dashboards contain a combination of visual [elements](https://raw.githubusercont
 
 -   **Rich text**
 
-    Rich text elements hold text that you can format either as text or as html, including font selection, text size, highlighting, and hyperlinks. Note that to edit in HTML markup, you open the HTML editor in the Configuration panel, and select the code tag icon &lt; &gt;.
+    Rich text elements hold text that you can format either as text or as HTML, including font selection, text size, highlighting, and hyperlinks. Note that to edit in HTML markup, you open the HTML editor in the Configuration panel, and select the code tag icon &lt; &gt;.
+
+    Select **Allow translation** to add the content of a rich text element to the platform translation pipeline. Users will see the element in their session language if a translation record exists.
+
+-   **Workbench**
+
+    The workbench option is available if the property com.snc.pae.workbench\_enabled is set to true. Workbench elements are migrated from Core UI in iframes. Choose from existing workbench elements.They can only be created in Core UI and are added to Platform Analytics experience in iframes.
+
+-   **Funnel**
+
+    Dashboards can display [funnels that you created](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/usage-insights/create-funnel.md) in Usage Insights. Funnels can show conversion rates and trends in aggregate user behavior to uncover the reasons behind success or failure of a specific in-application user goal. Investigating a conversion funnel can help you measure and optimize the conversion rates of relevant processes within your application.
 
 
 ## Default element dimensions

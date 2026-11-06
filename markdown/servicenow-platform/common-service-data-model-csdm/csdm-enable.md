@@ -7,7 +7,7 @@ release: zurich
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -25,6 +25,8 @@ Activate the CSDM plugin so you can begin implementing the CSDM data model.
 ## Procedure
 
 1.  Activate the `com.snc.cmdb.csdm.activation` plugin as described in [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_ActivateAPlugin.md).
+
+    For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/find-components.md).
 
 
 **Parent Topic:**[Configuring CSDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/configure-csdm.md)

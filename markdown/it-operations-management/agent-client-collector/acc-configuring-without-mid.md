@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ACC deployment - endpoints, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Configuring MID-less Agent Client Collector
@@ -21,5 +21,5 @@ Use a single-line command to set up a MID-less Agent Client Collector. You can a
 -   **[Installing MID-less Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-itom-cloud-services.md)**  
 Installing MID-less Agent Client Collector \(ACC\) enables you to send data from the agent to the instance through the cloud. Sending information through the cloud allows the MID Server to be used for more persistent resources.
 
-**Parent Topic:**[Agent Client Collector deployment - endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-endpoint-deployment.md)
+**Parent Topic:**[Deploying Agent Client Collector on endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-endpoint-deployment.md)
 

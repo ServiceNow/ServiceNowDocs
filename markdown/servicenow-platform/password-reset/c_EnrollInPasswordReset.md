@@ -7,9 +7,9 @@ release: zurich
 product: Password Reset
 classification: password-reset
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Enrolling in the Password Reset application to reset your password
@@ -55,19 +55,4 @@ End users might enroll for any combination of the following methods:
 -   **Verify your identity using security questions verification**
     -   To enroll, you choose multiple questions that only you can answer \(like the name of your first pet\) and then supply answers. The system stores your answers securely.
     -   Later, when you want to reset your password, the system presents one or more of the questions. You answer the questions to verify your identity.
-
--   **[Enroll for the Password Reset program using an authenticator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/password-reset/authenticator-app-verification.md)**  
-Verify your identity while resetting your password by enrolling for the Password Reset program using a third-party authenticator app.
--   **[Enroll for the Password Reset program using SMS codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/password-reset/t_EnrollUsingSMS.md)**  
-To verify your identity while resetting your password, you can use a code \(the SMS code\) that was delivered to your mobile phone or device. You can enroll on a mobile device.
--   **[Enroll for the Password Reset program using emailed codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/password-reset/enroll-email-verification.md)**  
-To verify your identity while resetting your password, you enter a code that was sent to your email address. You can enroll for this program on a mobile device.
--   **[Enroll for the Password Reset program using questions and answers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/password-reset/t_EnrollUsingASecurityQuestion.md)**  
-Your organization might ask you to select the questions to use when resetting your password. You select the questions and provide answers that only you know. At another time, when you reset your password, your answers verify your identity. You can enroll on a mobile device.
--   **[Enroll for the Password Reset program using Soft PIN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/password-reset/enroll-pwr-program-soft-pin.md)**  
-Verify your identity while resetting your password by using a Soft PIN. To use it, you must enroll for the verification using a Soft PIN.
--   **[Reset your password on Windows systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/password-reset/t_RsttPassDeskRst.md)**  
-If your organization uses the Password Reset Windows Application, you can reset your password directly from your Windows login screen.
-
-**Parent Topic:**[Configuring Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/password-reset/password-reset-admin-guide.md)
 

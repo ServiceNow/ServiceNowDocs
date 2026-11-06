@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/table-extension.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Applying database rotation techniques, Manage data growth, Data Management, Tables and data, Configure core features, Administer]
+breadcrumb: [Applying database rotation techniques, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Table extension
@@ -20,7 +20,7 @@ An advantage of table extension is to partition data across tables. It also allo
 
 The disadvantage is that table extension requires a union query when you query for a time range that spans multiple tables. Union queries are less efficient than queries against a single table.
 
-Consider using table extension when you have sequentially-written tables or insert-only type tables. Table extension is also useful in tables where data is needed for long periods of time and queries consistently use date-range filters.
+Consider using table extension when you have sequentially-written tables or insert-only type tables \(there are exceptions to this parameter\). Table extension is also useful in tables where data is needed for long periods of time.
 
 -   **[Apply table extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_TableExtensionExample.md)**  
 Preserve data sets using table extension.

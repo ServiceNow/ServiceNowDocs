@@ -7,7 +7,7 @@ release: zurich
 product: MID Server
 classification: mid-server
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 16
 breadcrumb: [MID Server reference, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -64,7 +64,7 @@ In addition to **mid.version.override**, the MID Server version can also be cont
     -   When the instance is upgraded and the MID Server for that version is different than the version currently on the MID Server. The instance sends **autoUpgrade**system command to the connected MID servers.
     -   Every hour, the MID Server checks with the instance to see if there is a different version available for upgrade. You cannot modify this time period.
 
-        **Note:** &lt;note&gt;Hourly version checks can occur at different times because they are based on when each MID Server started. During an instance upgrade, all connected MID Servers receive the upgrade command at the same time and can attempt to upgrade concurrently.&lt;/note&gt;
+        **Note:** Hourly version checks can occur at different times because they are based on when each MID Server started. During an instance upgrade, all connected MID Servers receive the upgrade command at the same time and can attempt to upgrade concurrently.
 
 -   **Manual**
 
@@ -104,7 +104,7 @@ In addition to **mid.version.override**, the MID Server version can also be cont
     -   **From Rome onward**: The MID Server avoids using operating system defined temporary folders during MID Server upgrade. The zip files are extracted in a folder in the **work/upgrade\_temp** folder under the agent folder. The folder name format is a randomly generated number. If you want to switch to the previous behavior and use an operating system defined temporary folder you can add **mid.upgrade.use\_os\_temp\_folder**to MID Server’s **config.xml** file and set it to true. To switch the behavior for all MID Servers, you can add it to the MID Server property \[ecc\_agent\_property\] with MID Server field blank.
     **Note:** If you are using [KB0747569](https://support.servicenow.com/nav_to.do?uri=%2Fkb%3Fid%3Dkb_article_view%26sysparm_article%3DKB0747569) to change the**java.io.tmpdir**and you want to keep it for future upgrades from Rome, set **mid.upgrade.use\_os\_temp\_folder**to true after upgrading to Rome. If **mid.upgrade.use\_os\_temp\_folder** is not set to true then **java.io.tmpdir** isn’t applied during the MID Server upgrade and the folder under`agent\work\upgrade_temp` will be used.
 
-5.  **Replace old packages with the upgraded packages:**After downloading and extracting the upgrade packages, the MID Server replaces old files with the new files and starts with the new version. To replace the packages, the MID Server starts a process named "ServiceNow AI Platform" Distribution Upgrade and shuts down. ServiceNow AI Platform Distribution Upgrade waits for the MID Server to shut down properly, then replaces the required files as follows:
+5.  **Replace old packages with the upgraded packages:**After downloading and extracting the upgrade packages, the MID Server replaces old files with the new files and starts with the new version. To replace the packages, the MID Server starts a process named **ServiceNow AI Platform Distribution Upgrade** and shuts down. ServiceNow AI Platform Distribution Upgrade waits for the MID Server to shut down properly, then replaces the required files as follows:
 
     -   **Before Rome:**The process deletes all files and folders in the bin, lib and jre folders and copies the new files into those folders.
     -   **From Rome onward:** The process replaces the files in the bin, lib and jre only if the new version of the file is different from the old version. **ServiceNow Platform Distribution Upgrade** does not clean the upgrade files and the unchanged files are kept.

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/configure-next-experience-user-experience.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [user experience, user experience preference, next experience user experience]
-breadcrumb: [Preferences, Working in Next Experience, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Preferences, Use, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Configure Next Experience user experience preferences

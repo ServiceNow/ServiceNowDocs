@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Central
 classification: workplace-central
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Reference, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -108,4 +108,8 @@ When you select a building, the building is opened in a stack plan view where yo
 [Neighborhood User Assignment Rule form]()
 
 [User Workplace Profile form]()
+
+[]()
+
+[]()
 

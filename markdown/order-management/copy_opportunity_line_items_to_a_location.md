@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/copy\_opportunity\_line\_items\_to\_a\_location.html
 release: zurich
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Location-based transactions, Opportunity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Location-based transactions, Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Copy opportunity line items to a location
@@ -30,15 +30,15 @@ Role required: sales\_agent
 
 5.  In the **Copy line items** dialog box, choose one of the options.
 
-<table id="choicetable_cdb_2hf_zcc"><thead><tr><th align="left" id="d92008e99">
+<table id="choicetable_cdb_2hf_zcc"><thead><tr><th align="left" id="d150449e99">
 
 Option
 
-</th><th align="left" id="d92008e102">
+</th><th align="left" id="d150449e102">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d92008e108">
+</th></tr></thead><tbody><tr><td id="d150449e108">
 
 **Keep original location**
 
@@ -46,7 +46,7 @@ Description
 
 New line items for the selected opportunity are created and the source location is retained.
 
-</td></tr><tr><td id="d92008e117">
+</td></tr><tr><td id="d150449e117">
 
 **Choose new location**
 
@@ -62,5 +62,10 @@ This copies the line items to a new location.In the **Service location** filter,
 6.  Select **Copy**.
 
 
-**Parent Topic:**[Location-based transactions for Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/location_based_transactions_for_opportunity.md)
+**Related topics**  
+
+
+[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-opportunity-mgmt.md)
+
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/opportunity-management.md)
 

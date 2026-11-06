@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Exploring Employee Center
@@ -67,7 +67,7 @@ Use Employee Center to streamline your IT ticket management and other service ma
 |-------|-------|
 |Access any of your single sign-on \(SSO\) and non-SSO web applications from the portal home page.|[App Launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/web-application-employee-about.md)|
 |Book and manage appointments across multiple business units.|[Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/appointment-booking.md)|
-|One-click access to frequently-used internal and external sites.||
+|One-click access to frequently-used internal and external sites.|[Cross-channel favorites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)|
 |Access self-serve capabilities through guided experiences to improve productivity and efficiency.|[Guided Self-Service in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/gss-guided-self-service-overview.md)|
 | | |
 | | |

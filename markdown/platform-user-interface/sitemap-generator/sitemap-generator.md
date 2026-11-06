@@ -7,7 +7,7 @@ release: zurich
 product: Sitemap Generator
 classification: sitemap-generator
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Improving search engine optimization for portals, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -20,7 +20,7 @@ Use the ServiceNow® Sitemap Generator application to define and automatically g
 
 You can activate the Sitemap Generator application \(sn\_ux\_seo\_sitemap\) from your instance. For more information, see [Activate Sitemap Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/sitemap-generator/activate-sitemap-generator.md).
 
-You can also activate Sitemap Generator from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+You can also activate Sitemap Generator from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Sitemap requirements
 

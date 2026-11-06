@@ -7,7 +7,7 @@ release: zurich
 product: Workflow Activities
 classification: workflow-activities
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Workflow activities, Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -36,7 +36,7 @@ To turn approval engines off for the table, navigate to the **System Properties 
 **Related topics**  
 
 
-[Approval and rollback workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/workflow-activities/c_ApprovalAndRollbackActivities.md)
+[Approval and rollback workflow activities]()
 
 [Classic approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/approvals/r_Approvals.md)
 

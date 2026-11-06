@@ -7,7 +7,7 @@ release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing cloud accounts, Use, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -32,4 +32,6 @@ Role required: sn\_itom\_cam.cw\_requester
 
 5.  Select **Yes** to confirm.
 
+
+**Parent Topic:**[Managing cloud accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/managing-an-account.md)
 

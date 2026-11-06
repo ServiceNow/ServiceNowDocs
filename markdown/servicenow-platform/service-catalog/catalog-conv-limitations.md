@@ -7,7 +7,7 @@ release: zurich
 product: Service Catalog
 classification: service-catalog
 topic_type: reference
-last_updated: "2026-04-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Catalog Agent, Conversational Catalog Requests reference, Conversational Catalog Requests, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---

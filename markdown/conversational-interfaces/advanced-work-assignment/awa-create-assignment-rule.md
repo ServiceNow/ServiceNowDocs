@@ -7,7 +7,7 @@ release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [auto assign, awa auto assign, auto assign handling, reject handling, skill handling]
 breadcrumb: [Configure, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
@@ -46,9 +46,4 @@ Role required: awa\_admin or admin
 
     The assignment rule is added to or updated in the Assignment Rules \[awa\_assignment\_rule\] table.
 
-
--   **[Tutorial: Automatically assign work to agents by skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/skills-routing-tutorial.md)**  
-Learn how you can configure Advanced Work Assignment to automatically route cases to agents who speak German. Use this tutorial as a guideline to help you understand how you can route work items to agents according to their designated skills.
-
-**Parent Topic:**[Configuring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/installing-awa.md)
 

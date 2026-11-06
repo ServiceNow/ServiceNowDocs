@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/auto-query-console.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using the Discovery Console, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Auto Query page
@@ -36,15 +36,13 @@ The Auto Query page contains a list of all the automatic asset queries available
 
 The following image shows an example of the Auto Query page.
 
-\[Omitted image "image.auto-query-full-page"\] Alt text: Auto Query page
+\[Omitted image "auto-query-full-page.png"\] Alt text: Auto Query page
 
-**Note:** When a query is enabled but not running, the Status column displays idle icon \[Omitted image "idle.png"\] Alt text: to indicate it is idle. When related or all Sensors are offline, the All Sensors Offline icon \[Omitted image "image.offline"\] Alt text: displays.
+**Note:** When a query is enabled but not running, the Status column displays idle icon \[Omitted image "idle.png"\] Alt text: to indicate it is idle. When related or all Sensors are offline, the All Sensors Offline icon \[Omitted image "offline.png"\] Alt text: displays.
 
-## Actions
+Use the drop-down **Actions** button to select additional options.
 
-The **Actions** button is a drop-down menu that includes the following options.
-
-\[Omitted image "image.actions-menu-quick-scan-small"\] Alt text: Auto Query Action button
+\[Omitted image "actions-menu-quick-scan-small.png"\] Alt text: Auto Query Action button
 
 -   **Show Detail Columns**: Toggles between Show and Hide. When showing the Detail Columns, additional columns display on the page. The additional columns shown include:
     -   Run Count
@@ -56,16 +54,24 @@ The **Actions** button is a drop-down menu that includes the following options.
     -   Exec Time
 -   **Select Multiple**: Opens check boxes by each query in the list. You can check a box and the **Delete Selected** option is activated. This option deletes the selected queries. To turn off this option, select the **Actions** button again and select **Cancel Select Multiple**.
 
-    \[Omitted image "image.cancel-multiples-action-menu"\] Alt text: Cancel multiple deletion
+    \[Omitted image "cancel-multiples-action-menu.png"\] Alt text: Cancel Select Multiples
 
 -   **Create Default Auto Queries**: There are 5 default queries to choose from. Selecting this option opens the Create Auto Queries window. Select from the following default auto queries:
-
     -   **Console Hostname Lookup**: Reverses the DNS look up performed by Console.
     -   **Asset ICS Discovery**: Finds the ICS assets based on common open ports and queries using native protocols.
     -   **Location Set**: Sets a label and a location field using the Site name.
     -   **SNMP**: Queries to discover SNMP service. This tries only the SNMP port.
     -   **OS Detection**: Use with caution, especially in production environments. This query can disrupt or crash poorly configured or sensitive assets. Queries Linux / Windows endpoint for any discoverable services.
-    \[Omitted image "image.default-auto-queries-new"\] Alt text: Create default auto queries
+-   **Quick Scans**: When selected, this selection displays a list of any current Quick Scans. You can create a Quick Scan by selecting the add icon \[Omitted image "add-icon-msi.jpg"\] Alt text:. Set the parameters of the Quick Scan in the Create Quick Scan page. Quick Scans are meant to run quickly and only once. Quick Scan targets can be assets selected by their URLs, IP Addresses, or IP ranges. For more information on Quick Scans, see [Create a Quick Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/create-quick-scan.md).
 
--   **Quick Scans**: When selected, this selection displays a list of any current Quick Scans. You can create a Quick Scan by selecting the add icon \[Omitted image "add-icon-msi.jpg"\] Alt text:. Set the parameters of the Quick Scan in the Create Quick Scan page. Quick Scans are meant to run quickly and only once. Quick Scan targets can be assets selected by their URLs, IP Addresses, or IP ranges. See [Create a Quick Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/create-quick-scan.md) for more information on Quick Scans.
+-   **[Create an Auto Query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/add-auto-query-console.md)**  
+Create an Auto Query that you can run on demand for different Discovery Console for OT Assets.
+-   **[Create an Auto Query ignore list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/create-ignore-auto-query.md)**  
+Create an Auto Query to exclude specified asset IP addresses from receiving scanning traffic.
+-   **[Edit an Auto Query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/editing-an-auto-query.md)**  
+Edit an Auto Query to change or add parameters to your scan.
+-   **[Create a Quick Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/create-quick-scan.md)**  
+Create a **Quick Scan** from the Auto Query page.
+
+**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/using-discovery-console.md)
 

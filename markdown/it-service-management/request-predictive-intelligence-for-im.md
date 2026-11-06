@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/request-predictive-intelligence-for-im.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ML solutions for ITSM, IT Service Management]
+breadcrumb: [Machine learning solutions for IT Service Management, IT Service Management]
 ---
 
 # Request Predictive Intelligence for Incident
@@ -32,11 +32,11 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Predictive Intelligence for Contextual Search\[com.snc.contextual\_search\_ml\]
+Predictive Intelligence for Contextual Search\(com.snc.contextual\_search\_ml\)
 
 </td><td>
 
-Enables customers to leverage machine-learning algorithms for searching with Contextual Search. For example: Similar Open Incidents. Activation of this plugin on production instances may require a separate license. Contact ServiceNow for details.
+Enables customers to use machine-learning algorithms for searching with Contextual Search. For example: Similar Open Incidents. Activation of this plugin on production instances may require a separate license. Contact ServiceNow for details.
 
 </td></tr></tbody>
 </table>## Procedure
@@ -90,12 +90,12 @@ Select the date and time to activate the plugin.
 
 
 -   **[Predictive Intelligence for Incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/pi-for-incident.md)**  
-Use your instance records to build Incident Management -specific solutions.
+Use your instance records to build Incident Management -specific solutions that recommend similar open problems and change requests to link to an incident.
 
 **Parent Topic:**[Machine learning solutions for IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/machine-learning-itsm.md)
 
 **Related topics**  
 
 
-[List of plugins \(Zurich\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/list-of-plugins.md)
 

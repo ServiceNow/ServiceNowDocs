@@ -1,5 +1,5 @@
 ---
-title: Risk Management Framework \(RMF\) step 2 - Select controls for an authorization package
+title: RMF step 2 - Select controls for an authorization package
 description: When the impact levels for the package have been approved, it is time to select baseline controls.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/continuous-risk-monitoring/select-controls.html
@@ -7,12 +7,12 @@ release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2025-07-29"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
-# Risk Management Framework \(RMF\) step 2 - Select controls for an authorization package
+# RMF step 2 - Select controls for an authorization package
 
 When the impact levels for the package have been approved, it is time to select baseline controls.
 

@@ -7,7 +7,7 @@ release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2025-12-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Explore entities, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -98,9 +98,6 @@ Risks
 
 The Risks tab on the entity record page displays the following:-   **Directly related risks**: List all risks that are directly associated with the entity.
 -   **Suggested risks**: List all risks suggested by the Risk Suggestion AI Agent.
-
-**Note:** The **Suggested risks** option is only available when ServiceNow Otto for Integrated Risk Management \(IRM\) plugin is installed.
-
 -   **All risks**: List all directly related risks and downstream risks.
 
 </td></tr><tr><td>
@@ -165,7 +162,7 @@ Content references
 
 </td><td>
 
-Details of the content reference such as Content reference, Description, and version. You can select **Add** to add the content references.
+Details of the content reference such as Content reference, Description, and version. You can click **Add** to add the content references.
 
 </td></tr><tr><td>
 

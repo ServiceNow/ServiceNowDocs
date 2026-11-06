@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sem-create-recurringRE-steal-VI.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Use Remediation Effort records, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -67,15 +67,15 @@ Starting with version 18.0, because you can’t create a recurring remediation e
 
 9.  In step 3, Recurrence, select the frequency.
 
-<table id="choicetable_q1j_wyh_yxb"><thead><tr><th align="left" id="d465562e238">
+<table id="choicetable_q1j_wyh_yxb"><thead><tr><th align="left" id="d469735e238">
 
 Option
 
-</th><th align="left" id="d465562e241">
+</th><th align="left" id="d469735e241">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d465562e247">
+</th></tr></thead><tbody><tr><td id="d469735e247">
 
 **Quarterly \(Every 3 months\)**
 
@@ -85,7 +85,7 @@ Schedules Remediation Effort once in every three month.**Note:**
 
 If the month you select has only 30 days, the remediation effort is created on that last date of the month.
 
-</td></tr><tr><td id="d465562e261">
+</td></tr><tr><td id="d469735e261">
 
 **Monthly**
 
@@ -93,7 +93,7 @@ If the month you select has only 30 days, the remediation effort is created on t
 
 Schedules Remediation Effort once in every month.
 
-</td></tr><tr><td id="d465562e270">
+</td></tr><tr><td id="d469735e270">
 
 **Weekly**
 
@@ -101,7 +101,7 @@ Schedules Remediation Effort once in every month.
 
 Schedules Remediation Effort once in every week.**Note:** This option is available starting from the version 19.0 of Vulnerability Response.
 
-</td></tr><tr><td id="d465562e284">
+</td></tr><tr><td id="d469735e284">
 
 **Daily**
 
@@ -126,6 +126,4 @@ Schedules Remediation Effort everyday.**Note:** This option is available startin
 
     The date the remediation effort will be created is shown on the corresponding watch topic. For more information on how the Remediation Tasks associated with the Remediation Efforts are impacted by records transfer, see [Life cycles of remediation efforts, remediation tasks, and records in the Vulnerability Response Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-manager-workspace/vr-ws-re-lifecycle.md).
 
-
-**Parent Topic:**[Use Remediation Effort records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-ws-remed-eff-rcd.md)
 

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/domain-separation-now-assist-center.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Reference, AI Admin Center, Enable AI experiences]
+breadcrumb: [Reference, AI Admin Center, Getting started with AI, Enable AI Experiences]
 ---
 
 # Domain separation and AI Admin Center
@@ -62,8 +62,6 @@ The following domain-separated fields are supported:
 
 
 [Components installed with AI Admin Center]()
-
-[AI Admin Center glossary]()
 
 [AI Admin Center roles]()
 

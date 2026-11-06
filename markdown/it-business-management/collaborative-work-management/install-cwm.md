@@ -7,7 +7,7 @@ release: zurich
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ You can install the Collaborative Work Management \(CWM\) application \(sn\_cwm\
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [Collaborative Work Management](https://store.servicenow.com/sn_appstore_store.do#!/store/application/cdd2c7fdc393a110174cd0c57d40dd25) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 Role required: admin

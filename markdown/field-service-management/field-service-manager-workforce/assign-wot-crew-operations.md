@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Crew operations, Workforce, Use, Field Service Management]
+breadcrumb: [Using Crew operations, Managing workforce, Use, Field Service Management]
 ---
 
 # Assign work order tasks to crews
@@ -53,15 +53,15 @@ Task assignment methods:
 
 5.  Assign the task either manually or through auto-assignment.
 
-<table id="choicetable_urr_4n2_yrb"><thead><tr><th align="left" id="d42443e150">
+<table id="choicetable_urr_4n2_yrb"><thead><tr><th align="left" id="d46113e150">
 
 Option
 
-</th><th align="left" id="d42443e153">
+</th><th align="left" id="d46113e153">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d42443e159">
+</th></tr></thead><tbody><tr><td id="d46113e159">
 
 **To assign a task manually**
 
@@ -71,7 +71,7 @@ Description
 2.  Select **Update**.
 
 
-</td></tr><tr><td id="d42443e183">
+</td></tr><tr><td id="d46113e183">
 
 **To auto-assign a task**
 

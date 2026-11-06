@@ -7,7 +7,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2025-10-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Running discoveries in your network, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Running discoveries in your network, Using Discovery, Discovery, IT
 
 Network Discovery discovers the internal IP networks and subnets within your organization.
 
-**Note:** If you already know the IP address ranges in your network, it's not necessary to run Network Discovery. It is intended for organizations that don't have complete knowledge of the IP addresses available for Discovery in their networks.
+**Note:** If you already know the IP address ranges in your network, it's not necessary to run Network Discovery. It's intended for organizations that don't have complete knowledge of the IP addresses available for Discovery in their networks.
 
 ## How network discovery works
 
@@ -96,7 +96,7 @@ glide.discovery.physical\_interface\_types
 </td><td>
 
 Physical interface types: A comma-separated list of interface types that are considered physical for the purposes of network discovery. If a router \(or device capable of routing\) has an interface of this type, the networks connected to that interface are considered locally connected to that device. The default interface types include Ethernet, 802.11, and Token Ring types. Interface type numbers are defined in the SNMP MIB-2, specifically in OID 1.3.6.1.2.1.2.2.1.3.-   Type: string
--   Default value 6,117,9,71,209
+-   Default value: 6,117,9,71,209
 
 </td></tr><tr><td>
 

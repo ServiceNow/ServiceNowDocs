@@ -1,253 +1,159 @@
 ---
 title: Create a business continuity plan
-description: Create a business continuity plan in BCM UIB Workspace.
+description: Create a business continuity plan in ServiceNow Business Continuity Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/create-bcp-plan-in-uib-ws.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 11
+last_updated: "2026-11-06"
+reading_time_minutes: 8
 breadcrumb: [Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Create a business continuity plan
 
-Create a business continuity plan in BCM UIB Workspace.
+Create a business continuity plan in ServiceNow Business Continuity Management.
 
 ## Before you begin
 
-Role required: sn\_bcp.plan\_contributor or sn\_bcp.plan\_manager
+Role required: sn\_bcm.program\_manager or sn\_bcm.planner. For plan owner group filter: sn\_bcp.plan\_contributor or sn\_bcp.plan\_manager
 
-The BCP Plan Manager \(sn\_bcp.plan\_manager\) now includes the Doc writer \(sn\_doc.writer\) role that provides read and write permissions to the document templates.
+**Warning:** The BCP Plan Manager \(`sn_bcp.plan_manager`\) now includes the Doc writer \(`sn_doc.writer`\) role that provides read and write permissions to the document templates.
+
+## About this task
+
+You can assign ownership of a business continuity plan to an individual owner, to an owner group, or to both. When you create a plan, you're added as the Plan owner by default.
+
+**Warning:** You must provide either a **Plan owner** or **Plan owner group** to save the record.
+
+When you select an owner group, the **Plan owner** field is limited to members of that group. To assign the plan to a group only, clear the **Plan owner** field. All members of the owner group have the same edit rights on the plan as the owner.
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Business Continuity Workspace**.
+1.  Navigate to **Workspaces** &gt; **Business Continuity Workspace** &gt; **Planning** in the list view and select **New**.
 
-2.  Navigate to **Planning** in the list view and select **New**.
+    The Create Plan form is displayed.
 
-    The **Create New Plan** form is displayed as shown in the example.
+2.  Fill in the required fields in the **Details** tab of the Create Plan form.
 
-    \[Omitted image "create-new-plan-blank-form.png"\] Alt text: Create New Plan form.
+    |Field|Description|
+    |-----|-----------|
+    |**Name**|Name of the business continuity plan|
+    |**Template**|BCP template to use as a basis for the plan|
+    |**Type**|Classification of the plan \(for example, IT, Departmental, Enterprise\)|
+    |**Business Unit**|Business unit responsible for the plan|
+    |**Department**|Department responsible for the plan|
+    |**Expires**|Expiration date for the plan review|
 
-3.  Fill in the required fields in the **Details** tab of the **Create New Plan** form.
+3.  Assign plan ownership by selecting the appropriate ownership model in the **User Administration** or **Assignment details** section.
 
-    For more information on the fields, see [Create New Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-plan-bcp-uib-ws-reference-form.md).
+    1.  Select the **Plan owner group** field, select a group from the list \(filtered to show only groups with the Plan Owner or equivalent BCM Manager role\), and leave the **Plan owner** field empty.
 
-    The business continuity plan \(BCP\) is created in the **Draft** state and it’s displayed in the List view. The state and details of the business continuity plan are displayed in the tabs.
+        Group ownership only: The plan is owned by the group as a whole, with any member able to take action on the record.
 
-<table id="table_x2h_znl_hhc"><thead><tr><th>
+    2.  Select the **Plan owner** field, select a user, and save the record.
 
-Tab
+        The legacy ownership model remains fully supported.
 
-</th><th>
+        Group and individual ownership: Select the **Plan owner group** field and choose a group. Then select the **Plan owner** field and select a user from the filtered list \(showing only members of the selected group\). The record is owned by the group with a specific individual designated as the point of contact.
 
-Description
+    3.  Select the individual first in the **Plan owner** field, then select the group in the **Plan owner group** field, and save.
 
-</th></tr></thead><tbody><tr><td>
+        Use this option if you want to assign an individual owner who is not a member of the selected group. This accommodates cases where an individual outside the group is responsible for the record.
 
-**Overview**
+    **Note:** If the individual owner leaves the group, the group ownership remains intact, and another member can assume the role of individual owner by updating the **Plan owner** field.
 
-</td><td>
+4.  Add an asset to the scope of the plan in the **Scope** tab and view the primary elements defined in the plan template.
 
-Current state and overall state progression of the BCP.
+    Enter details based on the primary asset in the plan record. It includes Recovery Time Objective \(RTO\), Recovery Point Objective \(RPO\), Recovery Tier, and BIA link. Updating the dependencies refreshes the asset details with information from the latest unarchived BIA record.
 
-</td></tr><tr><td>
+    You can mark an asset as a primary scope or assign it as a related asset. You can link a related asset to a primary scope within the plan. This simplifies the classification of asset types and enables you to view the relationships directly on the plan record page. You can see which assets are impacted when the primary scope is operationally down.
 
-**Details**
+    The Asset dependencies tab displays detailed information about the assets. It replaces the Primary scope and Related asset toggles previously found in the Scope tab. The Type column has been renamed to Types to allow an asset to be categorized as both a primary scope and a related asset. The BIA column has been updated from a document ID type to a reference type. You can now select and access the BIA record and dot-walk to the plan record.
 
-</td><td>
+5.  Update the dependencies by selecting the **Update dependencies** button.
 
-Details of the plan. Contains details such as its Name, Template, Type, Plan owner, BCM lead, Business unit, Department, Expires, Description, comments, and Activity panel.
+    The system pulls both related assets and their relationships. A message indicates that the dependencies are being updated, and you must refresh the page to view the updated dependencies. You can view dependency updates in the snapshot record.
 
-</td></tr><tr><td>
+    When you add a dependency in the Scope tab, the system retrieves the most recent Business Impact Analysis \(BIA\). The system uses the BIA's "Finalized RTO" and "Finalized RPO" values for that specific dependency. Values for "Recovery Tier" and "BIA" are also retrieved and displayed in the plan record.
 
-**Scope**
+    If you update the BIA's RTO and RPO values after fetching a dependency, select **Update dependencies** to fetch the latest values.
 
-</td><td>
+6.  Review the **Finalized RTO** and **Finalized RPO** values columns in the **Scope** tab.
 
-Contains the asset types list. For the selected asset type, shows the Item, Types, Recovery time objective, Recovery point objective, Recovery tier. BIA, Status in source, Synchronized on columns for detailed info.
+    The Finalized RTO and Finalized RPO fields are populated from the most recent Business Impact Analysis record when you add a dependency.
 
- **Note:**
+7.  Add contributors to the business continuity plan by launching the **Contributors** panel from the side-bar.
 
-The **source\_table\_fields** configuration applies to the **Scope** tab in the BCPs. These columns appear when you select **Add primary scope** or **Add related asset**.
+    BCP contributors with the `sn_bcp.plan_contributor` role have read, write, and delete access to the business continuity plan. If you have the BCP manager, BCM lead, or plan contributor role, you can add or remove contributors. BCP contributors can edit the list of contributors and edit the BCP.
 
- Add an asset to the scope of the plan and view the primary elements that are defined in the plan template. Beginning with the Xanadu release, the **Asset dependencies** tab now displays detailed information about the assets, replacing the Primary scope and Related asset toggles previously found in the **Scope** tab of the plan record. Additionally, the Type column in the **Scope** tab of the plan records has been renamed to Types column, enabling an asset to be categorized both as a primary scope and a related asset. The BIA column in the **Scope** tab has been updated from a document ID type to a reference type, enabling administrators to select and access the BIA record, update its information, and dot-walk to the plan record. It simplifies the process and saves time and effort. When two business impact analyses have identical asset dependencies, the most recent BIA is acknowledged as the source for these relationships.
+8.  In the **Documentation** tab, record the recovery capabilities of the plan in the documentation sections.
 
- When creating a business continuity plan, you can enter details such as the Recovery Time Objective \(RTO\), Recovery Point Objective \(RPO\), Recovery Tier, and BIA link based on the primary asset in the plan record. Updating the dependencies refreshes the asset details in these columns with information from the latest unarchived BIA record. If the asset originates from a downstream BIA, the columns for Recovery Timeframe and Required Data Backup are revised to display the latest data for that asset.
+    This tab contains details of the plan in the Sections panel and the Create new section tab. It includes informational fields such as Title, Description, Order, and Contents.
 
-</td></tr><tr><td>
+9.  Define recovery teams, loss scenarios, and recovery tasks for the plan in the respective tabs:
 
-**Add primary scope** UI action
+    -   Recovery teams – Assign recovery teams with their Name, Description, Groups, and Users.
 
-</td><td>
+        **Note:** Prior to BCM core 12.x.x, local recovery teams could be added to the plans. Starting with BCM core 12.x.x, you can add global recovery teams to the plans.
 
-**Add primary scope** and **Add related asset** UI actions: You can mark an asset as a primary scope, assign it as a related asset, or link it as a related asset to a primary scope within the plan. This approach simplifies the classification of asset types and enables you to view the relationships directly on the plan record page. It shows which assets are impacted when the primary scope is operationally down, thereby saving time and effort. You can monitor the gaps in the primary and related items.
+    -   Loss scenarios – Define applicable loss scenarios with Name and Description
+    -   Recovery tasks – Create recovery tasks with Planned order, Short description, Owner, Dependencies, Planned duration, Phase, and Asset recovery level. Recovery tasks are organized based on their dependencies; the system determines the sequence based on assigned dependencies, allowing independent tasks to be handled simultaneously.
+    **Important:** A cyclic dependency occurs when two or more recovery tasks rely on each other, either directly or indirectly. To prevent cyclic dependencies, verify that the same plan is not triggered multiple times. If plans are activated beyond 10 levels or hierarchical links involve more than 10 levels of plans, an error message is displayed.
 
-The example shows that the IAD datacenter is added as both a related asset of a primary scope and as a primary scope itself.
+10. Complete the remaining required fields on the Plan record form and select **Save**.
 
-\[Omitted image "pri-related-assets-scope-tab.png"\] Alt text: Primary scope.The **source\_table\_fields** configuration applies to the **Scope** tab in the BCPs. These columns appear when you select **Add primary scope**.
+    The plan is saved in the Draft state and displayed in the List view of the Planning records.
 
-</td></tr><tr><td>
+11. Review and confirm the group ownership fields in the PDF and Microsoft Word reports.
 
-**Add related asset** UI action
+    You can generate reports by selecting **More actions** &gt; **Generate PDF** or **More actions** &gt; **Generate MS Word**.
 
-</td><td>
+    Starting with BCM Core version 12.x.x, issues and group ownership details related to plans appear in separate sections in the PDF and Microsoft Word reports.
 
-The **Add related asset** action enables you to add a related asset and then relate it to a primary asset. For example, Abel Tuter, employed at the IAD datacenter, is added as a related asset.
+12. View your Plan group's pending tasks and Plan owner's assigned items in the **My tasks** page.
 
-\[Omitted image "related-asset-scope-tab.png"\] Alt text: Related asset scope tab.The **source\_table\_fields** configuration applies to the **Scope** tab in the BCPs. These columns appear when you select **Add related asset**.
 
-</td></tr><tr><td>
+## Result
 
-**Asset dependencies**
+The business continuity plan is created in the Draft state with assigned ownership \(individual, group, or both\). The state and details of the business continuity plan are accessible through the following tabs:
 
-</td><td>
+|Tab|Description|
+|---|-----------|
+|**Overview**|Current state and overall state progression of the BCP|
+|**Details**|Plan details including Name, Template, Type, Plan owner, Plan owner group, BCM lead, Business unit, Department, Expires, Description, comments, and Activity panel|
+|**Scope**|Asset types list with Item, Types, Recovery time objective, Recovery point objective, Recovery tier, BIA, Status in source, and Synchronized on columns for detailed information. Asset dependencies tab displays hierarchical relationships between parent and child assets.|
+|**Documentation**|Recovery capabilities of the plan recorded in documentation sections|
+|**Associated plans**|Associated plan types including Upstream plans, Downstream plans, and Related plans|
+|**Recovery teams**|Recovery teams assigned for the business continuity plan|
+|**Loss scenarios**|Loss scenarios applicable to the business continuity plan|
+|**Recovery tasks**|Details of recovery tasks including Planned order, Short description, Owner, Dependencies, Planned duration, Phase, and Asset recovery level|
 
-Displays the Asset, BIA, Recovery time objective \(RTO\), Recovery point objective \(RPO\), Recovery tier, required Recovery Timeframe, Required Data backup, Primary source, Relationship source.
+## What to do next
 
-The **Asset dependencies** tab provides a Hierarchical view illustrating the relationships between parent assets and their child assets. In this example, it's shown that Abel Tuter is a related asset to the IAD data center.
+After creating the business continuity plan, you can perform additional actions by selecting **More actions**:
 
-\[Omitted image "asset-dep-tab-hierarchy-view.png"\] Alt text: Related asset.Since the user, Abel Tuter, was added manually, the Primary source column indicates it as a manual source.
+-   **Discuss** – Add a subject and participants to discuss the plan
+-   **Generate MS Word** – Generate a downloadable Word document report
+-   **Generate PDF** – Generate a downloadable PDF report \(with Smart assessment details and dependencies\)
+-   **Copy** – Create a copy of the BCP with all details, assessments, and questions.
 
-You can track dependencies in the Hierarchical view and List view. You have the option to switch from the Hierarchical view to the List view, where all assets are displayed in the list format. The Hierarchical view displays all primary assets and up to 20 child assets. If a primary asset includes more than 20 assets, you can select the primary or related asset and it navigates you to the record view. Related assets are only present for the primary assets.
+    The copied plan inherits both the original **Plan owner** and **Plan owner group**.
 
-\[Omitted image "list-view.png"\] Alt text: List view.For example, the Business Application: Acrobat is considered a primary asset, while the Company: Adobe systems is identified as its related asset. The source of the asset is displayed in the Primary source column.
+-   **360º view** – Generate 360° relationships for a graphical presentation of the BCP and its relationships
+-   **Delete** – Delete the BCP record \(related records may also be deleted\)
 
-\[Omitted image "pri-source-column.png"\] Alt text: Primary source.You can add details from the dependent items in the plan as shown in the example.
+To revert an archived business continuity plan to the Draft state, select the **Edit** button on the form. \(Available in release 9.0.x and later\)
 
-\[Omitted image "add-details-from-dep-items-bcp.png"\] Alt text: Add details from dependent items.
-
-</td></tr><tr><td>
-
-**Documentation**
-
-</td><td>
-
-Record the recovery capabilities of the plan in the documentation sections. Contains details of the plan in the Sections panel and the **Create new section** tab. Similarly, contains informational fields on the plans such as Title, Description, Order, Contents.
-
-</td></tr><tr><td>
-
-**Associated plans**
-
-</td><td>
-
-Contains the associated plan types such as Upstream plans, Downstream plans, Related plans. For more information, see [Add associated plans and recovery teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/add-related-plans-recovery-teams-bcp-uib-ws.md).
-
-</td></tr><tr><td>
-
-**Recovery teams**
-
-</td><td>
-
-Recovery teams assigned for the business continuity plan. Contains the Name, Description, Groups, Users columns.
-
-</td></tr><tr><td>
-
-**Loss scenarios**
-
-</td><td>
-
-Loss scenarios that are applicable to the business continuity plan. Contains the Name and Description columns.
-
-</td></tr><tr><td>
-
-**Recovery tasks**
-
-</td><td>
-
-Details of the recovery tasks such as Planned order, Short description, Owner, Dependencies, Planned duration, Phase, Asset recovery level columns.
-
-You can create a recovery task within the business continuity plan.\[Omitted image "recovery-tasks-tab.png"\] Alt text: Recovery tasks tab.A cyclic dependency occurs when two or more recovery tasks rely on each other, either directly or indirectly. Beginning with the Xanadu release, it’s possible to help prevent cyclic dependencies in recovery tasks, verifying that the same plan is not triggered multiple times.
-
-\[Omitted image "plan-record-tabs.png"\] Alt text: Plan record tabs.For example, if the recovery task in Plan 1 triggers Plan 2, Plan 2 then triggers Plan 3, and Plan 3 subsequently triggers Plan 1, this sequence creates a cyclic dependency. An error message, similar to the example provided, is displayed to inform users that triggering the plan has resulted in a cyclic dependency and suggests selecting an alternative related plan. Choosing a different related plan in such cases helps avoid these issues during an event.
-
-\[Omitted image "cyclic-plan-error-message.png"\] Alt text: Cyclic plan error message.If plans are activated beyond 10 levels or hierarchical links involving more than 10 levels of plans are established, an error message is displayed, advising the removal of the plan before the record can be saved.
-
-\[Omitted image "cyclic-plan-levels.png"\] Alt text: Plan levels.Beginning with the Xanadu release, the recovery tasks are organized based on their dependencies. You have the flexibility to assign dependencies to the tasks, and the application then determines a sequence for these tasks based on the assigned dependencies. If there are tasks without any dependencies linking them, they can be handled simultaneously. You can edit the **sn\_bcp.sync\_order\_calculation\_task\_limit** property to change the count for the recovery task order so that it’s calculated synchronously.
-
-\[Omitted image "recovery-tasks-order.png"\] Alt text: Order.The sequence of tasks depicted in the illustration is clarified with the example:
-
-1.  Task 1 and Task 3 are independent of each other, enabling them to be executed at the same time, and they’re both assigned a planned order of 1.
-2.  Task 5 depends on both Task 1 and Task 3 and therefore, it’s assigned a planned order of 2.
-3.  Task 6 depends on Task 4, which has a planned order of 3. The planned order for Task 6 is then set at 4.
-Tasks can be performed simultaneously, enabling several users to collaborate on the same plan at once. When a dependency is updated for a task and the task is saved, the planned order for the tasks is recalculated based on the removed dependency.
-
-If you have over 500 recovery tasks and the dependencies are updated, the planned order of these recovery tasks is not updated instantly. Rather, an informational message is displayed, suggesting that the planned order of the recovery tasks be updated using the **Refresh tasks order** UI action.
-
-\[Omitted image "refresh-tasks-order.png"\] Alt text: Refresh tasks UI action.The option to refresh the task order is also accessible from the menu in the plan record, as illustrated in the example.
-
-\[Omitted image "refresh-tasks-order-in-plan-record.png"\] Alt text: Refresh tasks in plan.When you must reorder recovery tasks within a plan, a message is displayed that the reordering process may take some time. You can use the **Refresh tasks order** UI action to update the tasks order.
-
-</td></tr></tbody>
-</table>4.  Add a primary scope and its related assets in the **Scope** tab.
-
-    1.  Update the dependencies by selecting the **Update dependencies** button.
-
-    It pulls both related assets and their relationships. A message is displayed that the dependencies are being updated and you must refresh the page to view the updated dependencies.
-
-    \[Omitted image "update-dependencies-plan-record.png"\] Alt text: Updated dependencies.
-
-    You can view dependency updates in the snapshot record.
-
-    \[Omitted image "updated-snapshot-plan-record.png"\] Alt text: Snapshot.
-
-    The Parent item column in the **Added** tab shows the parent item of the new asset. All items that are dependent on the parent item are shown in the Item column as shown in the example. The Source column shows whether the source is from CMDB, Manual, or Downstream dependency in BIA. It’s used for BIA downstream. Selecting the BIA record link shows you that the dependencies are derived from this BIA record.
-
-    \[Omitted image "parent-item-snapshot-record.png"\] Alt text: Parent item.
-
-5.  Review the **Finalized RTO** and **Finalized RPO** values columns in the **Scope** tab.
-
-    With GRC: Business Impact Analysis, version 9.2.x, the **Finalized RTO** and **Finalized RPO** fields are introduced in the **Scope** tab.
-
-    \[Omitted image "finalized-rpo-rto-plan.png"\] Alt text: Finalized RPO.
-
-    When you add a dependency in the **Scope** tab, the system retrieves the most recent Business Impact Analysis \(BIA\) and uses its "Finalized RTO" and "Finalized RPO" values for that specific dependency.
-
-    Additionally, values for "Recovery Tier" and "BIA" are also retrieved and displayed in the plan record.
-
-    When you add "Acrobat" as a primary scope to the plan record, the "Finalized RTO" and "Finalized RPO", "Recovery Tier", and "BIA' values are retrieved from the BIA and populated in the columns.
-
-    \[Omitted image "acrobat-rto-plan.png"\] Alt text: Finalized RPO.
-
-    If you've already fetched a dependency and later update the BIA's RTO and RPO values and if the corresponding RTO fields for that dependency are empty, select**Update dependencies** to fetch the latest values from the BIA.
-
-6.  To add a contributor from the list to the business continuity plan record, launch the **Contributors** panel by selecting the **Contributors** icon in the side-bar.
-
-    The BCP contributors with the sn\_bcp.plan\_contributor role have read, write, and delete access to the business continuity plan. If you have the BCP manager, BCM lead, or plan contributor role, you can add or remove the contributors. The BCP contributors can edit the list of the contributors and edit the BCP.
-
-7.  To revert an archived business continuity plan \(BCP\) to the **Draft** state, select the **Edit** button.
-
-    Starting with BCM release 9.0.x, you can revert an archived business continuity plan \(BCP\) to the **Draft** state by selecting the **Edit** button on the form. It helps you to have more flexibility in managing business continuity plans and related records.
-
-8.  To perform more actions on the BCP, select **More actions**.
-
-    |Step|Description|
-    |----|-----------|
-    |**Select __Discuss__.**|Add the subject for the discussion and add participants that have access to the record. Include a brief message for the participants and select **Start discussion**.|
-    |**Select __Generate MS Word__.**|Generate a report of the BIA, BCP, exercise, or crisis record in Microsoft Word format. The Microsoft Word copy of the BCP record is successfully generated that you can download.|
-    |**Select __Generate PDF__.**|Generate a PDF of the BCP with the legacy or Smart Assessment. The PDF of the BCP record is successfully generated that you can download. In the Impact Assessments section of the PDF, details of the Smart assessment are covered, including questions and answers for RPO and RTO in a tabular format, along with dependencies, contributors, and attachments.|
-    |**Select __Copy__.**|Create a copy of the BCP. BCP details, including its state, assessments, questions, and answers, are copied into the instance and displayed on the home page in the BCP section and BCP list. Confirm the name of the new BCP.|
-    |**Select __360º view__.**|Generate 360º relationships for the BCP. A graphical presentation of the BCP and its relationships is displayed. Refresh the planned order for the recovery task|
-    |**Select __Delete__.**|Delete the BCP record. A warning message is displayed that deleting the record results in an automatic deletion of related records, which may also cause a cascade of additional records to be deleted.|
-
-9.  Select **Save**.
-
-    The plan is saved in the **Draft** state and it’s displayed in the List view of the Planning records.
-
-10. Select the **360º view** button to refresh the planned order for the recovery task.
-
-11. Select the **Generate PDF** button to generate the BCP in a PDF format.
-
-12. To create a copy of the BCP, select the **Copy** button.
-
-13. Select **360º view** to generate the 360º relationships for the plan.
-
-14. Select **Delete** to delete the plan.
-
-
--   **[Create New Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-plan-bcp-uib-ws-reference-form.md)**  
-Use the Create New Plan form in BCM UIB Workspace to add the details about the business continuity plan \(BCP\).
+-   **[Create Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-plan-bcp-uib-ws-reference-form.md)**  
+Use the Create Plan form in BCM UIB Workspace to add the details about the business continuity plan \(BCP\).
 
 **Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
+
+**Related topics**  
+
+
+[Group ownership in BIA, plan, and event records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/group-ownership-bias.md)
+
+[Add or create an issue from a plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/add-or-create-issue-from-plan-uib-ws.md)
 

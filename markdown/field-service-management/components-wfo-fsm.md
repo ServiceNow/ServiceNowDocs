@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/components-wfo-fsm.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
 breadcrumb: [Components installed with additional plugins, Reference, Field Service Management]
 ---
@@ -50,8 +50,7 @@ Grants administrative rights to create, read, update, and delete \(CRUD\) additi
 
 </td><td>
 
--   agent\_schedule\_admin
--   sn\_wfo\_fsm.manager
+sn\_wfo.user
 
 </td></tr><tr><td>
 
@@ -84,13 +83,9 @@ Grants administrative rights to create, read, update, and delete \(CRUD\) coachi
 
 </td><td>
 
--   sn\_team\_perf.team\_performance\_admin
--   sn\_coaching.admin
--   skill\_model\_admin
--   sn\_channel\_mgmt.admin
--   sn\_csm\_wfo\_workspa.manager
--   sn\_mgr\_workspace.admin
--   sn\_sre.admin
+-   agent\_schedule\_admin
+-   sn\_wfo\_fsm.manager
+-   sn\_coaching\_admin
 
 </td></tr></tbody>
 </table>## Scheduling

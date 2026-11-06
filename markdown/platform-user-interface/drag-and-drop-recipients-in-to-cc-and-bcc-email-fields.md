@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/drag-and-drop-recipients-in-to-cc-and-bcc-email-fields.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Communicating via email in Workspace, Responding to issues in an open record in Workspace, Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Emails, Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Edit and move email recipients

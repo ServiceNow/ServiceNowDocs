@@ -1,0 +1,42 @@
+---
+title: Chat anonymously with an agent from the Consumer Portal
+description: Start a chat session with an agent from the Consumer Portal without logging in to your account.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/start-anonymous-chat-with-agent-consumer-portal.html
+release: zurich
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Use Consumer Portal, Customer communication, Use, Customer Service Management]
+---
+
+# Chat anonymously with an agent from the Consumer Portal
+
+Start a chat session with an agent from the Consumer Portal without logging in to your account.
+
+## Before you begin
+
+Role required: none
+
+## Procedure
+
+1.  Navigate to the Consumer Portal.
+
+2.  Select the Chat icon \( \[Omitted image "chat-icon.png"\] Alt text: Chat icon.\) in the Consumer Portal to start a conversation.
+
+3.  Fill in the information and select the send icon \(\[Omitted image "agent-chat-send-button.png"\] Alt text: send icon\).
+
+    A virtual agent or a customer service agent responds.
+
+4.  Select \[Omitted image "contact-support-icon.png"\] Alt text: Connect Support icon. and then **Call Support** to talk to a person instead of a virtual agent.
+
+5.  Select **End Conversation** to close the chat.
+
+
+**Related topics**  
+
+
+[Chat with an agent from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/start-chat-agent-on-consumer-portal.md)
+
+[Guest users experience on Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/guest-users-experience-consumer-portal.md)
+

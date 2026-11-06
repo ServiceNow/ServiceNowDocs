@@ -7,7 +7,7 @@ release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configure, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -287,6 +287,8 @@ After the template is published, send it to the entity or processing activity ow
 After responses are submitted, review and approve the assessment. For more information, see [Review a privacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/review-a-privacy-assessment.md).
 
 To map assessment responses to a processing activity, see [Map the processing activity fields to a question response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/copy-responses-to-ropa.md).
+
+To publish a new version of an existing privacy assessment template, see [Update a privacy assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/create-new-smart-asmt-version.md).
 
 -   **[Write a processing activity script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/configure-a-processing-activity-script.md)**  
 Write custom scripts on the assessment templates to update the processing activity fields using a script. The script runs when the assessment response is completed. You can write multiple scripts for both screening assessments and impact assessments.

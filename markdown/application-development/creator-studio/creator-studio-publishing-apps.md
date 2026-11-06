@@ -7,10 +7,10 @@ release: zurich
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [app deployment, deploy app]
-breadcrumb: [Build apps, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Deploying your Creator Studio app

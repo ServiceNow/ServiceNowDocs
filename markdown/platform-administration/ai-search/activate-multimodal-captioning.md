@@ -1,38 +1,42 @@
 ---
 title: Activate multimodal captioning for attachments from an indexed source
-description: Generate searchable captions for images, tables, charts, and complex layouts in attachments from records in an indexed source table.
+description: Generate descriptive captions for images, tables, charts, and other visual elements in attachments from records in an indexed source table. You can find these attachments by searching for terms from their generated captions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/activate-multimodal-captioning.html
 release: zurich
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-05-19"
-reading_time_minutes: 2
-breadcrumb: [Indexed source attributes, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Indexed source attributes, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Activate multimodal captioning for attachments from an indexed source
 
-Generate searchable captions for images, tables, charts, and complex layouts in attachments from records in an indexed source table.
+Generate descriptive captions for images, tables, charts, and other visual elements in attachments from records in an indexed source table. You can find these attachments by searching for terms from their generated captions.
 
 ## Before you begin
 
-An administrator must have activated the plugin on your instance. For details on this procedure, see [Activate the Platform Multimodal Service plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/activate-platform-multimodal-service-plugin.md).
+An administrator must have activated the Platform Multimodal Service plugin on your instance. For details on this procedure, see [Activate the Platform Multimodal Service plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/activate-platform-multimodal-service-plugin.md).
+
+**Note:** An AI Search administrator can select the VLM \(visual learning model\) provider and model used by the Platform Multimodal Service. For details on this process, see [Configure multimodal captioning for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/search-administration/configure-multimodal-captioning-for-ai-search.md).
 
 Role required: ais\_admin
 
 ## About this task
 
-When indexing attachments for search, AI Search includes the attachment's text but ignores its images by default. For tables, charts, and complex layouts, indexing extracts text but doesn't necessarily preserve the context of that text.
+By default, when indexing attachments for search, AI Search includes the attachment's text but ignores its images. For tables, charts, and other visual elements, indexing extracts text but doesn't necessarily preserve the context of that text.
 
-To improve search recall, you can configure the to automatically generate descriptive captions for images, tables, charts, and complex layouts in attachments found on records from an indexed source table. With the service activated, you can find indexed source content attachments with these entity types by searching for terms that match the generated captions.
+To improve search recall, you can configure the Platform Multimodal Service to automatically generate descriptive captions for images, tables, charts, and other visual elements in attachments found on records from an indexed source table. With the service activated, you can find indexed source content attachments with these entity types by searching for terms that match the generated captions.
 
 As an example, an attachment might include an image that yields the generated caption `woman in office`. Searches for `woman` or `office` can match the caption terms. Such searches return the attachment as a search result even if its text doesn't otherwise contain either of those terms.
 
-**Note:**
+**Note:** Multimodal captioning is only supported for Knowledge \[kb\_knowledge\] table records from the Knowledge Table indexed source and for content retrieved by external content connectors.
 
-Multimodal captioning runs as a separate process after text indexing is completed for the attachment in question. Records with attachments that contain images, tables, charts, or complex layouts won't show generated captions until multimodal captioning completes.
+The multimodal captioning feature has been validated and tested for English-language content. For content in other languages, it may function but hasn't been evaluated for caption quality or accuracy. Multimodal captioning for non-English content is not currently supported.
+
+Multimodal captioning runs as a separate process after text indexing is completed for the attachment in question. Records with attachments that contain images, tables, charts, and other visual elements won't show generated captions until multimodal captioning completes.
 
 **Note:** Activating multimodal captioning for attachments found in an indexed source has no effect if the **index\_attachments** attribute is set to **false** for that indexed source. Make sure this attribute is set to **true** if you want to index attachments and generate captions for their content.
 
@@ -42,7 +46,7 @@ Multimodal captioning runs as a separate process after text indexing is complete
 
 2.  Open the indexed source that you want to activate multimodal captioning for.
 
-    **Note:** Multimodal captioning is currently only supported for records from the Knowledge Table indexed source \(for the Knowledge \[kb\_knowledge\] table\).
+    **Note:** Multimodal captioning is currently only supported for the Knowledge Table indexed source that indexes records on the Knowledge \[kb\_knowledge\] table.
 
 3.  In the Advanced Configuration related list, check for an existing **index\_mms\_attachments** attribute.
 

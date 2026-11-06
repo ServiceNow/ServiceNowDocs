@@ -6,9 +6,9 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/
 release: zurich
 topic_type: task
 last_updated: "2026-09-29"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [Create a page, Goal, Prerequisites, Verify, See also]
-breadcrumb: [Build with Lux, Lux Development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Build with Lux, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Create a page
@@ -165,7 +165,7 @@ Create a working page that renders at a URL in your app, optionally fetching dat
 
 ## What to do next
 
--   [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/page-collections.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/page-collections.md): serving different page implementations from the same route
--   [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/layouts-and-editable-regions.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/layouts-and-editable-regions.md): wiring a page into the app's shell and navigation
+-   [Page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/page-collections.md): serving different page implementations from the same route
+-   [Layouts and editable regions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/layouts-and-editable-regions.md): wiring a page into the app's shell and navigation
 -   [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/data-and-apis.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/data-and-apis.md): the full loader contract and `ctx` shape
 

@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using MFA, Multi-factor authentication, Access Management]
+breadcrumb: [Using MFA, Multi-factor authentication, Authentication, Access Management]
 ---
 
 # Web Authentication
@@ -38,7 +38,7 @@ Hardware keys are physical hardware that you can use to authenticate. Hardware k
 Biometric authenticators use fingerprint or facial recognition to identify users. Your users can use these authenticators on their devices as part of the multi-factor login process. For details on registering biometric authenticators, see [Register a biometric authenticator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/mfa-setup-bio-auth.md).
 
 </td></tr></tbody>
-</table>Choose the second factor that you wish to authentication and authenticate to your instance.
+</table>Choose the second factor that you want to use to authenticate to your instance.
 
 \[Omitted image "biometirc-mfa.png"\] Alt text: MFA - Biometric or Hardware
 

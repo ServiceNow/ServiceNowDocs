@@ -7,9 +7,9 @@ release: zurich
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: concept
-last_updated: "2026-08-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure, ServiceNow AI Lens, Enable AI experiences]
+breadcrumb: [Configure, ServiceNow AI Lens, Generative AI skills, Enable AI Experiences]
 ---
 
 # Enabling ServiceNow AI Lens in Virtual Agent
@@ -122,7 +122,7 @@ Role required: virtual\_agent\_admin or admin
 
     \[Omitted image "nav-va-designer.png"\] Alt text: Designer module for Virtual Agent under Conversational Interfaces.
 
-2.  In the Topic tab, select **ServiceNow Lens** topic.
+2.  In the Topic tab, select **ServiceNow AI Lens** topic.
 
     \[Omitted image "va-designer-lens-topic.png"\] Alt text: ServiceNow AI Lens topic in Virtual Agent Designer.
 

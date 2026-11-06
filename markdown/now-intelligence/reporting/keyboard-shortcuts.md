@@ -7,9 +7,9 @@ release: zurich
 product: Reporting
 classification: reporting
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reporting reference, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Core UI Reporting reference, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Report Designer keyboard shortcuts
@@ -22,10 +22,10 @@ You can use the following keyboard shortcuts.
 |--------|--------|
 |Run the current report|`Control + Alt (Option) + R`|
 |Save the current report|`Control + Alt (Option) + S`|
-|Open the domain picker. \(This shortcut only works if domain separation is enabled.|`Control + Alt (Option) + D`|
+|Open the domain picker. \(This shortcut only works if domain separation is enabled.\)|`Control + Alt (Option) + D`|
 |Opens the **Data** tab|`Control + Alt (Option) + 1`|
 
-**Parent Topic:**[Reporting reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/reporting-reference.md)
+**Parent Topic:**[Core UI Reporting reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/reporting-reference.md)
 
 **Related topics**  
 

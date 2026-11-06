@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Overriding default binding, Binding alerts to CIs, Event rules, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -48,7 +48,7 @@ There may be cases where no match is found because the column names in the event
 
 7.  Select **Submit**.
 
-    **Note:** You can also use the Service Operations Workspace to define binding rules. For more information, see [Create Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/enrich-alert-sow-itom.md).
+    **Note:** You can also use the Service Operations Workspace to define binding rules. For more information, see [Create Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/enrich-alert-sow-itom.md).
 
 
 **Related topics**  

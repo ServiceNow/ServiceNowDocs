@@ -7,9 +7,9 @@ release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up access to AWS billing and usage data, Configure Cloud Cost Management for AWS, Configure, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Set up access to AWS billing and usage data, Configure Cloud Cost Management for AWS, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Create a record of AWS credentials in Cloud Cost Management
@@ -18,7 +18,7 @@ Create a record of the AWS credentials in Cloud Cost Management.
 
 ## Before you begin
 
-Role required: insights\_admin \[sn\_clin\_core.insights\_admin\] or admin
+Role required: admin
 
 ## Procedure
 

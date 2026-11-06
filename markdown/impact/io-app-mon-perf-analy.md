@@ -1,16 +1,16 @@
 ---
-title: Analyze user experience and monitor application performance in Instance Observer
+title: Use Platform Performance Analyzer to view server details
 description: Get visibility into the operational metrics of applications and their performance. You can find out the number of applications per instance, the number of pages within each application, page-level response time, user interaction frequency with each application, and page access frequency by users within each application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/io-app-mon-perf-analy.html
 release: zurich
 topic_type: task
-last_updated: "2025-10-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Analytics, Overview of Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [User Experience, IO analytics, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
-# Analyze user experience and monitor application performance in Instance Observer
+# Use Platform Performance Analyzer to view server details
 
 Get visibility into the operational metrics of applications and their performance. You can find out the number of applications per instance, the number of pages within each application, page-level response time, user interaction frequency with each application, and page access frequency by users within each application.
 
@@ -62,4 +62,6 @@ Role required: admin
 
 13. Select any link in the **Interaction ID** column to view the details of either the slowest or fastest instance details.
 
+
+**Parent Topic:**[User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/user-experience-insights.md)
 

@@ -1,18 +1,18 @@
 ---
 title: Using Interaction Controls Component \(ICC\) call controls with Amazon Connect
-description: Agents can access the Active call controls directly from their CRM Workspace to manage phone interactions. This reduces context switching, improves productivity with Amazon Connect.
+description: Agents can access the Active call controls directly from their CRM Workspace to manage phone interactions. This reduces context switching and improves productivity with Amazon Connect.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/amazon-connect-for-voice-calls.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Integrating with contact centers, Integrate, Customer Service Management]
 ---
 
 # Using Interaction Controls Component \(ICC\) call controls with Amazon Connect
 
-Agents can access the Active call controls directly from their CRM Workspace to manage phone interactions. This reduces context switching, improves productivity with Amazon Connect.
+Agents can access the Active call controls directly from their CRM Workspace to manage phone interactions. This reduces context switching and improves productivity with Amazon Connect.
 
 ## Amazon Connect for voice calls overview
 
@@ -28,7 +28,7 @@ To use this feature, complete the steps in the **Enable Interaction Controls** s
 
 -   **Real-time agent presence updates:**
 
-    Agent status in Amazon Connect, is automatically updated in real-time based on Workspace status change. Amazon Connect status change by system or supervisor reflects in real-time in the agent Workspace.
+    Agent status is automatically updated in real-time based on the Amazon Connect status change.
 
 -   **Access to the phone directory for dialing calls:**
 
@@ -39,13 +39,13 @@ An agent performs the following key actions within their Workspace:
 
 ## Log in to Amazon Connect
 
-Log in to Amazon Connect and set your status to 'Available', within your Workspace. You’re now available and ready to receive inbound customer calls.
+Log in to Amazon Connect and set your status to 'available', within your Workspace, and your presence status updates in real-time based on your Amazon Connect status change. You’re now available and ready to receive inbound customer calls.
 
-## State presence
+## State Presence
 
-Your presence status synchronizes with Amazon Connect. Any change in your status due to system events or supervisor actions is reflected in real-time within your inbox verifying that your availability is updated.
+Your presence status synchronizes with Amazon Connect. Any changes in your status due to system events or supervisor actions are reflected in real-time within your inbox verifying that your availability is updated.
 
-**Note:** Presence states values configured must match between ServiceNow and Amazon Connect to ensure bi-directional synchronization.
+**Note:** Presence states values must match between ServiceNow and Amazon Connect to ensure bi-directional synchronization.
 
 ## Receiving and accepting inbound calls
 
@@ -57,7 +57,9 @@ After Call Work \(ACW\) refers to the tasks agents complete after finishing a ca
 
 ## Initiating outbound calls
 
-Make outbound calls by using the keypad, phone directory, or click-to-call. An outbound call creates an Interaction record that displays in the agent’s Workspace displaying the call details.
+Make outbound calls by using the keypad, phone directory, or click-to-call. You can also use letters corresponding to the numbers in the keypad to make outbound calls.
+
+An outbound call creates an Interaction record that displays in the agent’s Workspace displaying the call details.
 
 ## Transferring a call to an agent or queue
 

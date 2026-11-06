@@ -7,7 +7,7 @@ release: zurich
 product: Dependency Views
 classification: dependency-views
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Administer, Dependency Views, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ To modify an existing menu option, first you create a copy of the original menu 
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_cmdb\_admin or admin
 
 ## About this task
 

@@ -7,8 +7,8 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Configure, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
 
@@ -18,7 +18,7 @@ You can install the Hiring Connector application \(sn\_ta\_connector\) to integr
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [Hiring Connector](https://store.servicenow.com/store/app/7c8cafae1b246a50a85b16db234bcbac) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 Role required: sn\_ta\_hiring\_core.admin, import\_admin, or import\_transformer
@@ -51,8 +51,4 @@ For more information, see [Components installed with Hiring Connector](https://r
 
 6.  Select **Install**.
 
-
-## What to do next
-
-**Note:** Users who need to run ATS data imports must have one of the following roles assigned: import\_admin, import\_transformer, or sn\_ta\_hiring\_core.admin. Ensure the appropriate role is granted before attempting any data import to avoid permission issues.
 

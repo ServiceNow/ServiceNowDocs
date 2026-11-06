@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/government-service-case-type.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 10
+last_updated: "2026-09-10"
+reading_time_minutes: 9
 breadcrumb: [Case Management, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
@@ -22,9 +22,9 @@ The base Government Service case type is called a public service case, and is an
 
 As an administrator, you can extend from existing base case types that are provided in applications out-of-the-box to create additional case types for various government services that your agency offers, or you can create and configure an entirely new case type that extends the Case table, in order to implement specific case application types, and enabling you to take advantage of prebuilt roles, business rules, and other business logic.
 
-Creating a new case type can include creating a new table that is an extension of an existing case, or creating an entirely new case type. Typically this involves creating new roles, modules, workspaces, and other required entities. For additional information on case types, see [Customer Service Case Types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/customer-service-case-types.md)
+Creating a new case type can include creating a new table that is an extension of an existing case, or creating an entirely new case type. Typically this involves creating new roles, modules, workspaces, and other required entities. For additional information on case types, see Customer Service Case Types
 
-All Public Sector Digital Services applications have a base case type table. Use the base case type table when adding a new case type for that application. For example, if you need a new case type in License and Permit Playbook, extend the License and Permit Base Case table, which is itself an extension of the Government Service base case table and was created to capture more specific information related only to a License and Permit case. However, if there is need for a new case type for which there is no base application in PSDS that works, extend the base PSDS case \[sn\_govservice\_case\] table.For more information on the base tables installed with each Public Sector Digital Services application, see [Public Sector Digital Services Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/public-sector-digital-services-data-model.md).
+All Public Sector Digital Services applications have a base case type table. Use the base case type table when adding a new case type for that application. For example, if you need a new case type in License and Permit Administration, extend the License and Permit Base Case table, which is itself an extension of the Government Service base case table and was created to capture more specific information related only to a License and Permit case. However, if there is need for a new case type for which there is no base application in PSDS that works, extend the base PSDS case \[sn\_govservice\_case\] table.For more information on the base tables installed with each Public Sector Digital Services application, see [Public Sector Digital Services Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/public-sector-digital-services-data-model.md).
 
 You can use both case types and service definitions to define the data and processes that are needed to resolve a government service request. For more information on service definitions in Public Sector Digital Services, see [Service definitions for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-service-definitions.md)
 
@@ -34,28 +34,12 @@ When you are evaluating whether you need to create a new case type in Public Sec
 -   Does an application already exist that I can use for my use case?
 -   Which base PSDS case type should I extend when creating the new case type?
 
-## Grants Management case types
-
-The Grants Management Case \(aka Grants Proposal\) is designed as a case type which extends the Government Service Case and functions as the primary transactional entity for receiving Grant Applications/Proposals. When proposals are submitted, they are entered into this dedicated table. A workflow is then initiated, which is presented to users as a Proposal Playbook. This structured process ensures the efficient management and review of grant proposals.
-
-By default, the Grants Management case type includes several key attributes that capture essential details about each proposal. These attributes are:
-
--   Proposed funding start date: The date when the requested grant funding period is intended to begin.
--   Proposed funding end date: The date when the requested grant funding period is intended to end.
--   Project abstract: A summary of the proposed project.
--   Project title: The name or title of the proposed project.
--   Detailed narrative: A comprehensive description of the project, outlining objectives, methods, and anticipated outcomes.
--   Final score: The score assigned to the proposal following evaluation.
--   Allocated budget: The budget amount allocated to the proposal, if approved.
--   Rank: The ranking position of the proposal relative to others under consideration.
--   Funding status: The status of the proposal’s funding, which may include the following values: Undecided, Pending proposal, Propose award, Propose decline, Awarded, Declined, and Ineligible.
-
 ## Case type tasks for administrators
 
 You can configure a case type by creating a table for the new case type that extends the government service base case table. Then, you can set up a series of processes and components for that case type.
 
 -   To get an overview of this process, see the Government Service Case Types Guided Setup.
--   For more details on how to configure case types using Guided Setup, see [Configuring customer service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/configure-csm-case-types.md).
+-   For more details on how to configure case types using Guided Setup, see .
 
 An agent can then use this custom case type to create a case to resolve a constituent or business request. .
 
@@ -116,7 +100,7 @@ Provides an end-to-end workflow for handling applications for one or more social
 
 </td></tr><tr><td>
 
-License and Permit Playbook\(sn\_gsm\_license\_permit\)
+License and Permit Administration\(sn\_gsm\_license\_permit\)
 
 </td><td>
 
@@ -132,7 +116,7 @@ Playbook that provides step-by-step guidance through the life cycle of an inform
 
 </td></tr><tr><td>
 
-Service Request Playbook \(sn\_gsm\_srvc\_req\)
+Service Request Administration \(sn\_gsm\_srvc\_req\)
 
 </td><td>
 

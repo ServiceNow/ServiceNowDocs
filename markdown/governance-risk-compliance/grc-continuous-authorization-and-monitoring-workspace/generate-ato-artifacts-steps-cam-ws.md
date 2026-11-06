@@ -7,9 +7,9 @@ release: zurich
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: task
-last_updated: "2025-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [ATO artifacts for an authorization package, CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [ATO artifacts for an authorization package, Continuous authorization and monitoring tasks in the CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Generate ATO artifacts
@@ -22,7 +22,6 @@ Role required:
 
 -   sn\_irm\_cont\_auth.admin
 -   sn\_irm\_cont\_auth.authorization\_official
--   sn\_irm\_cont\_auth.executive\_read
 -   sn\_irm\_cont\_auth.info\_system\_sec\_manager
 -   sn\_irm\_cont\_auth.info\_system\_sec\_officer
 -   sn\_irm\_cont\_auth.system\_owner
@@ -93,7 +92,7 @@ Authorize or Monitor
 </td></tr></tbody>
 </table>4.  To generate an SSP report for the package, select **Generate SSP**.
 
-5.  To generate the following report, select the drop-down action icon \(\[Omitted image "cam-ato-artifacts-dropdown-icon.png"\] Alt text: Drop-down actions icon\):
+5.  To generate the following report, select from the following options:
 
     -   To generate an SAR report for the package, select **Generate SAR**.
     -   To generate an POA&amp;M report for the package, select **Generate POA&amp;M**.

@@ -7,14 +7,16 @@ release: zurich
 product: Localization Workspace
 classification: localization-workspace
 topic_type: concept
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Localization Workspace, Localization Workspace, Translation and localization, Configure core features, Administer]
+breadcrumb: [Configuring Localization Workspace, Localization Workspace, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Language setup in Localization Workspace
 
 Language setup enables you to flexibly configure target languages and their third-party translation service providers. When your users create translation requests, they can select the languages and providers you have configured.
+
+**Note:** From version 3.0.0, two guided tours are available. One guided tour assists with configuring a language provider, and is accessible to users with the Localization administrator role \(localization\_admin\). The other guided tour assists with configuring language groups, and is accessible to the Localization administrator and the Localization requester role \(localization\_requestor\). Find the guided tours by selecting the Help Center icon \[Omitted image "Banner\_HelpIcon.png"\] on the Localization Workspace [Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-workspace/lw-status-synchronization.md) screen.
 
 Navigate to **All** &gt; **Localization Workspace** &gt; **Language setup**. The **Language Provider** tab opens by default, or you can select the **Language Groups** tab.
 

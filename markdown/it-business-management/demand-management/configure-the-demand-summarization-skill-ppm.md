@@ -7,7 +7,7 @@ release: zurich
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -47,7 +47,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
     -   Automatic: The skill is initiated without user interaction.
     -   User trigger: The skill is initiated when by an user action.
 7.  For the demand summarization skill, the triggers behaving in the following ways:
-    -   Automatic: The skill is initiated without user interaction. When users navigate to a demand record page, the summary of the record is auto-generated. By default, this trigger is set for demands in the Submitted, Screening, Qualified, and Approved states.
+    -   Automatic: The skill is initiated without user interaction. When users navigate to a demand record page, the summary of the record is auto-generated.
     -   User trigger: The skill is initiated when users select the **Summarize** action on a demand record.
 8.  Define and review the user accesses.
 
@@ -63,6 +63,9 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 11. Review the configuration and select **Activate**.
 
+
+-   **[Copy and customize the demand summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/clone-customize-the-demand-summarization-skill-ppm.md)**  
+Copy the base demand summarization skill and customize it with your own fields, related entities, and prompt to summarize demands.
 
 **Parent Topic:**[Configuring Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/configuring-demand-management.md)
 

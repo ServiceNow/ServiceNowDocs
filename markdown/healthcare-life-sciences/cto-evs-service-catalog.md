@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/cto-evs-service-catalog.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Care Team Operations for Environmental Services, Healthcare Operations, Healthcare and Life Sciences]
 ---

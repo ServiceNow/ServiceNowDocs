@@ -7,8 +7,9 @@ release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+keywords: [alert analysis, alert resolution, health log analytics, log anomaly detection, troubleshooting alerts, log investigation, anomaly analysis, alert remediation, log viewer, root cause analysis, log correlators, alert monitoring, operator workflow, log data analysis, incident response]
 breadcrumb: [Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
@@ -18,17 +19,19 @@ Analyze and resolve Log Analytics alerts by investigating log data and taking ac
 
 ## Overview of analyzing and resolving a Log Analytics alert
 
-As an Operator, you are responsible for analyzing and resolving the alerts that Health Log Analytics generates. When HLA creates an alert, you review the alert's severity, the affected Configuration Item \(CI\), the log data associated with the anomaly, and the impacted services. You try to identify the root cause by investigating the logs that surround the anomaly.
+As an Operator, you're responsible for analyzing and resolving the alerts that Health Log Analytics generates. When HLA creates an alert, you review the alert's severity, the affected configuration item \(CI\), the log data associated with the anomaly, and the impacted services. You try to identify the root cause by investigating the logs that surround the anomaly.
 
 In the Express List, review alert details and use ServiceNow Otto to get an in-depth analysis of the alert and potential resolutions in straightforward, human-readable language. By drilling down into the alert, you can quickly identify the issue and proceed to resolve it before it affects your users.
 
 Using the Log Viewer, you can browse the alert logs by timestamp or range for further investigation. You can visualize the frequency of anomalous log lines in a chart.
 
+More detailed information on tasks and procedures for analyzing and resolving Log Analytics is available via the following links.
+
 -   [Start remediation of a Log Analytics alert from the Overview tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-overview-tab-view.md)
 
     Begin the remediation process of a Log Analytics alert from the alert **Overview** tab. This tab provides information on the alert, log data associated with the anomalous behavior, CIs associated with the alert, and services impacted by it.
 
--   [Analyze the logs that surround the anomaly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-surrounding-logs-view-concept.md)
+-   [Analyze log lines around an anomaly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-surrounding-logs-view-sow.md)[Analyze the logs that surround the anomaly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-surrounding-logs-view-concept.md)
 
     Review the log lines surrounding the anomaly for clues about the state of faulting systems. This information can help you narrow down the root cause of the alert.
 
@@ -36,15 +39,17 @@ Using the Log Viewer, you can browse the alert logs by timestamp or range for fu
 
     Identify relationships between alerts to help you determine whether an alert is part of a larger issue.
 
--   Navigate to the [Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/express-list.md) and select an alert from the Alerts list. Use ServiceNow Otto to get an in-depth analysis of the alert and potential resolutions. By drilling down into the alert, you can quickly identify the issue and proceed to resolve it.
+-   Navigate to the [Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/express-list.md) and select an alert from the Alerts list. Use ServiceNow Otto to get an in-depth analysis of the alert and potential resolutions. By drilling down into the alert, you can quickly identify the issue and proceed to resolve it.
 -   [Review the logs for an alert on the Log viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-logs-log-viewer-concept.md)
 
-    Navigate to the **Log Viewer** to browse alert logs by timestamp or time range and visualize anomaly frequency.
+    For further investigation, navigate to the **Log Viewer** to browse the alert logs by timestamp or time range. You can visualize anomaly frequency within a time period for a comprehensive view of log data over a specified time range.
 
 -   [Add a KB article to a Log Analytics alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-alert-add-kb.md)
 
-    When you have resolved an alert that Health Log Analytics generated, you can add a knowledge base \(KB\) article to it. For example, provide information that might help others resolve similar issues.
+    When you have resolved an alert that Health Log Analytics generated, you can add a knowledge base \(KB\) article to it. For example, you can provide information that might help others resolve similar issues.
 
+
+For a brief explanation of key terms and concepts used in HLA, see the [Health Log Analytics terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-glossary.md).
 
 ## Use cases
 

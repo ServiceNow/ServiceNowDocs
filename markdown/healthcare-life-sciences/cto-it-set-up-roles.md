@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/cto-it-set-up-roles.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up roles and responsibilities in Care Team Operations for Healthcare IT, Configure, Care Team Operations for Healthcare IT, Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -39,6 +39,18 @@ IT Support Agent
 </td><td>
 
 Views/resolves all cases under their assignment group. Tracks and fulfills cases.
+
+</td></tr><tr><td>
+
+sn\_cto\_hcit.loc\_manager
+
+</td><td>
+
+Healthcare IT services support department manager
+
+</td><td>
+
+Monitors the tasks within their organizations.
 
 </td></tr></tbody>
 </table>**Example:**

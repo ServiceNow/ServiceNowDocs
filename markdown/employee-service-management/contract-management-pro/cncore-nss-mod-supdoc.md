@@ -7,9 +7,9 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use non-self-served contract request, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Third-Party paper contract request, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Modify supporting documents in the contract request
@@ -28,15 +28,15 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 3.  Modify the supporting documents.
 
-<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d686085e67">
+<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d697365e67">
 
 Action
 
-</th><th align="left" id="d686085e70">
+</th><th align="left" id="d697365e70">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d686085e76">
+</th></tr></thead><tbody><tr><td id="d697365e76">
 
 **Add supporting documents**
 
@@ -44,7 +44,7 @@ Steps
 
 [Add supporting documents to the contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-ss-add-suprt-doc.md)
 
-</td></tr><tr><td id="d686085e97">
+</td></tr><tr><td id="d697365e97">
 
 **Reclassify supporting documents**
 
@@ -52,7 +52,7 @@ Steps
 
 [Reclassify supporting documents in the contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-nss-reclassify-supdoc.md)
 
-</td></tr><tr><td id="d686085e111">
+</td></tr><tr><td id="d697365e111">
 
 **Remove the supporting document**
 
@@ -67,5 +67,5 @@ Steps
 </table>4.  Select **Save** to save the record.
 
 
-**Parent Topic:**[Use non-self-served contract request]()
+**Parent Topic:**[Third-Party paper contract request]()
 

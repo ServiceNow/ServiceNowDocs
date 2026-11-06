@@ -7,7 +7,7 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-07-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Process Mining for Workday and Salesforce, Import external data, Process Mining, Platform Analytics]
 ---
@@ -18,7 +18,7 @@ Use the data available in Workday or Salesforce to optimize your processes and s
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_admin
+Role required: sn\_process\_mining\_admin
 
 ## Procedure
 

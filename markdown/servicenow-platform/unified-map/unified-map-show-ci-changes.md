@@ -7,7 +7,7 @@ release: zurich
 product: Unified Map
 classification: unified-map
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Unified Map, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -35,7 +35,7 @@ Changes are also indicated on the timeline. For more information, see [Viewing r
 
     All changes for the selected CI appear on the panel.
 
-    \[Omitted image "um-changes-panel.png"\] Alt text: Changes for the CI are indicated by strikeout text.
+    \[Omitted image "um-changes-panel.png"\] Alt text: Details of changes for the CI.
 
     -   Select **Show more / Show less** for details on a card.
     -   To flag a change as important, hold the cursor over a change and then select the Flag as important icon.
@@ -48,7 +48,7 @@ Changes are also indicated on the timeline. For more information, see [Viewing r
         -   Field changes
         -   Flagged
         -   Filter sets
-    -   Select the Search icon \[Omitted image "icon-um-change-search.png"\] and enter text in the **Search Activity Stream** field to find specific changes by entering terms.
+    -   Select the Search icon \[Omitted image "icon-um-change-search.png"\] and enter text in the **Search Activity stream** field to find specific changes by entering terms.
     -   Select the ascending \[Omitted image "icon-um-open-filter-panel.png"\] or descending sort icon \[Omitted image "icon-um-change-sort.png"\] to toggle between ascending or descending sort.
     -   Create a filter set to supplement the existing filtering options on the Changes panel. You can save filter settings for reuse. For more information, see [Create or manage a user preset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/unified-map/unified-map-manage-preset-filter.md).
 

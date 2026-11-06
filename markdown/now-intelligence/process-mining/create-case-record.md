@@ -7,7 +7,7 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with external datasets, Import external data, Process Mining, Platform Analytics]
 ---
@@ -22,7 +22,7 @@ Create case records for the imported data as it is important for creating a proj
 -   [Import data into the audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/import-data.md)
 -   [Verify the imported data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/verify-data.md)
 
-Role required: sn\_process\_optimization\_admin
+Role required: sn\_process\_mining\_admin
 
 ## Procedure
 

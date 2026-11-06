@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Dynamic inputs, Create an action in Workflow Studio, Building actions, Use, Workflow Studio, Build workflows]
+breadcrumb: [Dynamic inputs, Create an action in Workflow Studio, Build actions, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Create a data gathering action for a dynamic choice
@@ -21,7 +21,7 @@ Create a data gathering action to generate a list of choice options for a dynami
 -   Role required: action\_designer or admin
 -   Create credentials and connections for your REST endpoint
 
-**Note:** Dynamic inputs are not available in the base system. To use dynamic inputs in Workflow Studio, you must Request an Integration Hub plugin.
+**Note:** Dynamic inputs are not available in the base system. To use dynamic inputs in Workflow Studio, you must [Request an Integration Hub plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/request-integrationhub.md).
 
 ## Procedure
 
@@ -51,7 +51,7 @@ Create a data gathering action to generate a list of choice options for a dynami
 
         -   **Parse the input variable as JSON**
 
-            You can use the  API to transform the input variable from a string to a JSON object.
+            You can use the [JSON - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_JSONAPI.md) API to transform the input variable from a string to a JSON object.
 
         -   **Create a new JSON object formatted for a dynamic choice**
 

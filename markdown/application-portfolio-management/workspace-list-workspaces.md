@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/workspace-list-workspaces.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # List of workspaces reference conkeyrefs
@@ -22,7 +22,7 @@ A workspace is a suite of tools that provides agents, case managers, help desk p
 
 -   **[Audit Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/audit-management-overview-ws.md)**
 
-    Audit workspace is a single-pane view for audit supervisors and auditors to view the overall audit timeline and status. You can track budget and resources for engagements, trace high priority observations and issues, and monitor ongoing control testing and audit task progress.
+    Audit workspace is a single-pane view for audit supervisors and auditors. View the overall audit timeline and status, track budget and resources for engagements, and trace high priority observations and issues. Monitor ongoing control testing and audit task progress.
 
 -   **[Cloud Discovery Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/cow-landing-page.md)**
 
@@ -40,17 +40,13 @@ A workspace is a suite of tools that provides agents, case managers, help desk p
 
     Continuous Authorization and Monitoring employs the seven steps defined by the Risk Management Framework \(RMF\) to allow you to make better-informed decisions about your security posture.
 
--   **[CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-workspaces-configure.md)**
+-   **[CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-workspaces-configure.md)**
 
-    CSM Configurable Workspace is a user interface that provides agents with the tools they need to answer customer questions and resolve customer issues.
+    CRM Workspace is a user interface that provides agents with the tools they need to answer customer questions and resolve customer issues.
 
 -   **[Digital Portfolio Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/dpm-landing.md)**
 
     Manage and maintain all your solutions \(services, service offerings, business applications, and application services\) from a single location using the ServiceNow Digital Portfolio Management \(DPM\) Workspace. DPM pulls in data from across the ServiceNow platform so you see impacts in the context of solutions that you own or care about.
-
--   **[DEX Application &amp; Device Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/use-dex-console.md)**
-
-    DEX Application &amp; Device Health is a centralized workspace, dedicated to monitoring the performance, security, and compliance of the digital workplace.
 
 -   **[Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/explore-eaw.md)**
 
@@ -71,10 +67,6 @@ A workspace is a suite of tools that provides agents, case managers, help desk p
 -   **[Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/sow-landing-page-itom.md)**
 
     Service Operations Workspace is a configurable workspace that provides a unified experience for multiple IT Operations Management workflows. Configure your experience using the easy-to-navigate interface of Service Operations Workspace.
-
--   **[Vendor Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/vendor-management-workspace-landing-page.md)**
-
-    Monitor the performance of your company's vendors and manage all vendor-related information using the Vendor Management Workspace. Assess the performance of your vendors using key performance indicators \(KPIs\) that you can configure to create vendor metrics.
 
 -   **[Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/workforce-optimization-itsm-landing-page.md)**
 

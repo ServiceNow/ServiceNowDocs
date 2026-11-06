@@ -7,9 +7,9 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Search application configurations, Configure, AI Search, Search administration, Configure core features, Administer]
+breadcrumb: [Search application configurations, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Using search scripted post-processors in AI Search application configurations
@@ -34,7 +34,7 @@ Role required: search\_application\_admin
 
     1.  Select **All**.
 
-    2.  In the Filter field, enter `sys_search_scripted_processor.list`.
+    2.  In the navigation filter, enter `sys_search_scripted_processor.list`.
 
     3.  Press Enter.
 

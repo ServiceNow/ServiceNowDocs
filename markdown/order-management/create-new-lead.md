@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/create-new-lead.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Lead Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Lead Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Create a lead
@@ -26,19 +26,105 @@ Role required: sales\_agent
 
 3.  On the form, fill in the fields.
 
-    |Field|Description|
-    |-----|-----------|
-    |First Name|First name of the lead.|
-    |Last Name|Last name of the lead.|
-    |Email|Email address of the lead.|
-    |Mobile Phone|Mobile number of the lead.|
-    |Business Phone|Business phone number of the lead.|
-    |Title|Title of the lead.|
-    |Company|Company name of the lead.|
-    |Stage|Stage of the lead.|
-    |Lead Source|Source of the lead.|
+<table id="table_l5h_plz_hcc"><thead><tr><th>
 
-4.  Select **Create Lead**.
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+First Name
+
+</td><td>
+
+First name of the lead.
+
+</td></tr><tr><td>
+
+Last Name
+
+</td><td>
+
+Last name of the lead.
+
+</td></tr><tr><td>
+
+Email
+
+</td><td>
+
+Email address of the lead.
+
+</td></tr><tr><td>
+
+Mobile Phone
+
+</td><td>
+
+Mobile number of the lead.
+
+</td></tr><tr><td>
+
+Business Phone
+
+</td><td>
+
+Business phone number of the lead.
+
+</td></tr><tr><td>
+
+Title
+
+</td><td>
+
+Title of the lead.
+
+</td></tr><tr><td>
+
+Company
+
+</td><td>
+
+Company name of the lead.
+
+</td></tr><tr><td>
+
+Stage
+
+</td><td>
+
+Current stage of the lead in the sales lifecycle. The available options are:-   New
+-   Contacted
+-   Nurturing
+-   Qualified
+-   Disqualified
+
+
+</td></tr><tr><td>
+
+Lead Source
+
+</td><td>
+
+Channel or origin through which the lead was acquired. The available options are: -   Inbound Phone
+-   Inbound Web
+-   Partner Referral
+-   3rd Party Referral
+-   Employee Referral
+-   List
+-   Trade Show
+-   Pr
+-   Display Ad
+-   Billboard
+-   AI-Suggested
+-   Other
+
+
+</td></tr></tbody>
+</table>4.  Select **Create Lead**.
 
     A message confirms that the lead was created. To continue working on the lead, select the link in the message.
 
@@ -50,4 +136,11 @@ Role required: sales\_agent
 Start adding more information to your lead. To learn more, see [Add and view the details of a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/lead-management-details-tab.md).
 
 **Parent Topic:**[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/lead-management-using.md)
+
+**Related topics**  
+
+
+[Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-lead-management.md)
+
+[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/lead-management.md)
 

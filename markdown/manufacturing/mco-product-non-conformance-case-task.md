@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-product-non-conformance-case-task.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Product non-conformance without playbook, Product non-conformance, MCO workspace, Use, Manufacturing Commercial Operations]
+breadcrumb: [Product non-conformance, Product non-conformance, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a product non-conformance case
@@ -20,7 +20,7 @@ Role required: Quality Issue Management Admin or Product Non-conformance Triager
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **List** &gt; **Product Non Conformance Case**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **List** &gt; **Product Non Conformance Case**.
 
 2.  Select **New**.
 
@@ -58,5 +58,5 @@ Role required: Quality Issue Management Admin or Product Non-conformance Triager
 11. Select **Save**.
 
 
-**Parent Topic:**[Product non-conformance without playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-related-lists-product-non-conformance.md)
+**Parent Topic:**[Product non-conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-related-lists-product-non-conformance.md)
 

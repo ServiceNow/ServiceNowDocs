@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-config-households-create-update.html
 release: zurich
 topic_type: task
-last_updated: "2026-01-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure households, Customer data, Set up your environment, Configure, Public Sector Digital Services \(PSDS\)]
 ---
@@ -34,7 +34,7 @@ Service Model Foundation uses the household form to store details about a consum
 
 3.  On the form, fill in the fields.
 
-    For more information on the fields on the Household form, see [Household form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/data-model-household-form.md).
+    For more information on the fields on the Household form, see .
 
 4.  Select **Submit**.
 

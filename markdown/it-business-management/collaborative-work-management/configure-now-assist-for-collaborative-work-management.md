@@ -7,8 +7,8 @@ release: zurich
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Configure, Collaborative Work Management, Strategic Portfolio Management]
 ---
 
@@ -19,6 +19,7 @@ If you have the admin role, you can configure the implementation for the Service
 ## Before you begin
 
 -   The minimum version of CWM application that is required to support ServiceNow Otto for CWM features is v6.0.0 and later. If you're on earlier versions, upgrade your app through Application Manager. See [Update an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/update-application-app-mgr.md).
+-   Install the Collaborative Work Management - Advanced plugin \(sn\_ai\_cwm\_advanced\). ServiceNow Otto for Collaborative Work Management \(CWM\) skills require this plugin and aren't supported without it.
 -   Install the ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\) plugin \(sn\_cwm\_ai\). See [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 -   [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
@@ -31,11 +32,12 @@ Use the AI Admin Hub console to configure ServiceNow Otto for SPM. All ServiceNo
 Use the AI Admin Hub console to activate the following skills of ServiceNow Otto for CWM.
 
 -   CWM Doc generation and insights
+-   CWM Text to formula generation
 -   Acceptance criteria generation
 -   Tasks generation
 -   CWM Scrum tasks generation
 
-**Note:** Now LLM Service is the default provider for this Now Assist application's skills.
+**Note:** Now LLM Service is the default provider for ServiceNow Otto for Collaborative Work Management \(CWM\) application's skills, and Gemma 4 is the default model.
 
 ## Procedure
 
@@ -67,7 +69,7 @@ Use the AI Admin Hub console to activate the following skills of ServiceNow Otto
     5.  Select **Save and continue**.
     6.  Select display:
         -   In-product desktop: Enabling this option shows the skill within the CWM workspace.
-        -   ServiceNow Otto panel: Enabling this option shows the skill within the Now Assist panel.
+        -   ServiceNow Otto panel: Enabling this option shows the skill within the ServiceNow Otto panel.
         -   ServiceNow Otto context menu: Enabling this option shows the skill within a form field in the CWM workspace.
     7.  Select **Save and continue**.
     8.  Review and activate: Review your selections for the skill.

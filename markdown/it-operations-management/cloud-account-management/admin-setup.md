@@ -7,9 +7,9 @@ release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up AWS API configuration information in ServiceNow, Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Setup AWS API configuration information, Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Set up Terraform API key in ServiceNow

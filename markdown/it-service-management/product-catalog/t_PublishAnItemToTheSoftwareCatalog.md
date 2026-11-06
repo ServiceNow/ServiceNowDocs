@@ -7,9 +7,9 @@ release: zurich
 product: Product Catalog
 classification: product-catalog
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a vendor catalog item, Vendor catalog items, Product Catalog, Asset Management, IT Service Management]
+breadcrumb: [Create a vendor catalog item, Vendor catalog items, Product Catalog, Asset Management common applications, IT Service Management]
 ---
 
 # Publish an item to the software catalog

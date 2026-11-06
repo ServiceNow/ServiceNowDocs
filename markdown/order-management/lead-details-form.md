@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/lead-details-form.html
 release: zurich
 topic_type: reference
-last_updated: "2026-04-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Lead and opportunity management, Reference, Sales Customer Relationship Management]
+breadcrumb: [Lead Management reference, Sales automation, Reference, Sales Customer Relationship Management]
 ---
 
 # Lead details form
@@ -116,7 +116,7 @@ Industry
 
 </td><td>
 
-Industry vertical of the lead's organization. Options include: -   Manufacturing
+Industry vertical of the lead's organization. The available options are: -   Manufacturing
 -   Healthcare
 -   Technology Services
 -   Banking
@@ -145,7 +145,7 @@ Stage
 
 </td><td>
 
-Current stage of the lead in the sales lifecycle. Options include:-   New
+Current stage of the lead in the sales lifecycle. The available options are:-   New
 -   Contacted
 -   Nurturing
 -   Qualified
@@ -157,7 +157,7 @@ Lead Type
 
 </td><td>
 
-Category of the lead. Options include:-   New Business
+Category of the lead. The available options are:-   New Business
 -   Existing Business
 
 </td></tr></tbody>
@@ -175,7 +175,7 @@ Lead Source
 
 </td><td>
 
-Channel or origin through which the lead was acquired. Options include: -   Inbound Phone
+Channel or origin through which the lead was acquired. The available options are: -   Inbound Phone
 -   Inbound Web
 -   Partner Referral
 -   3rd Party Referral
@@ -202,7 +202,7 @@ Lead Rating
 
 </td><td>
 
-Rating that indicates the quality or priority of the lead. Options include: -   Cold
+Rating that indicates the quality or priority of the lead. The available options are: -   Cold
 -   Warm
 -   Hot
 -   Super Hot
@@ -263,5 +263,5 @@ Consumer record associated with the lead.
 |Notes|General notes related to the lead.|
 |Work Notes|Internal notes related to the lead, visible only to agents and administrators.|
 
-**Parent Topic:**[Lead and opportunity management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/reference-lead-opportunity-mgt.md)
+**Parent Topic:**[Lead Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/lead-management-reference.md)
 

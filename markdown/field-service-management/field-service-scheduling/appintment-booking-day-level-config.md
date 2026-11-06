@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Configure daily and advanced schedules, Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configure Appointment Booking, Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Create appointment booking advanced configuration
@@ -20,7 +20,7 @@ Create advanced appointment schedules to offer customers specific time slots—l
 
 Role required: sn\_apptmnt\_booking.appointment\_booking\_admin
 
-Ensure you have already created a **Service Configuration** and enabled the **Advanced Configuration** option.
+Ensure you have already enabled the **Advanced Configuration** option in the service configuration and created a service configuration rule.
 
 ## About this task
 
@@ -129,16 +129,6 @@ Work duration
 </td><td>
 
 Estimated time needed to complete the tasks created by the record producer. Work duration for a task is set when the task is created and is used to determine the availability.
-
-</td></tr><tr><td>
-
-Use duration from template or task
-
-</td><td>
-
-Ignore the configured work duration and use the duration from the template or task.-   FALSE \(default\): Use the duration as set in the Work duration field.The sum of work and travel durations must be less than or equal to the appointment window to show available slots.
--   TRUE: Ignore manually configured work and travel durations. Instead, use values from templates or tasks.
-
 
 </td></tr><tr><td>
 

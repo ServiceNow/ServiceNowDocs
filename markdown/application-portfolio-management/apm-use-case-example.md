@@ -1,16 +1,16 @@
 ---
-title: Enterprise Architecture \(formerly Application Portfolio Management\) use case - Legacy
+title: Enterprise Architecture use case
 description: Enterprise Architecture lets you define a single, version-agnostic entity that represents all instances, technologies, and data used for planning and reporting.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/apm-use-case-example.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Enterprise Architecture and CSDM framework - Legacy, Configure - Legacy, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Enterprise Architecture and CSDM framework, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Enterprise Architecture \(formerly Application Portfolio Management\) use case - Legacy
+# Enterprise Architecture use case
 
 Enterprise Architecture lets you define a single, version-agnostic entity that represents all instances, technologies, and data used for planning and reporting.
 
@@ -54,7 +54,7 @@ The CSDM framework provides a consistent data structure. This consistent data st
 
 Because of the way the CSDM framework is structured, you can leverage many products from ITOM, Service Management \(Service Portfolio Management\), and IT Application Management \(ITAM\).
 
-The risks of using EOL technologies are calculated based on the life cycle of each software and hardware product model. These models are identified in the CMDB.
+The risks of using EOL technologies are calculated based on the life cycle of each software and hardware product model identified in the CMDB.
 
 You can enter the life-cycle data manually, import it from an external source, or use the data provided with your Software Asset Management Professional or Hardware Asset Management license.
 
@@ -82,5 +82,5 @@ The following information is used to determine the EOL impact to business applic
     The Software Model Life cycle table is named \[sam\_sw\_model\_lifecycle\].
 
 
-**Parent Topic:**[Enterprise Architecture \(EA\) \(formerly Application Portfolio Management\) and the CSDM framework - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/apm-use-case-product-view.md)
+**Parent Topic:**[Enterprise Architecture \(EA\) and the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/apm-use-case-product-view.md)
 

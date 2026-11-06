@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/configuring-jeopardy-management.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Order management, Configure, Sales Customer Relationship Management]
 ---
@@ -48,7 +48,7 @@ Enable Jeopardy Management for product and service using the Order Jeopardy Enab
 
 </td></tr><tr><td>
 
-[Create Service Level Agreement definitions in Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/create-sla-definitions.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/create-sla-definitions.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/create-sla-definitions.md)
 
 </td><td>
 
@@ -66,7 +66,7 @@ Set up decision policy tables to retrieve jeopardy information. Policy tables in
 
 </td></tr><tr><td>
 
-Set business hours for tasks in Jeopardy Management
+[Set business hours for tasks in Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/set-business-hrs-jmtasks.md)
 
 </td><td>
 
@@ -97,4 +97,11 @@ If you have a Telecommunications subscription, the following fulfillment subflow
 -   Disconnect Network Interfact Profile
 -   EVC Configuration Fulfillment
 -   Disconnect EVC Configuration Service
+
+**Related topics**  
+
+
+[Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/jeopardy-management.md)
+
+[Monitoring order jeopardy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/monitoring-jeopardy-management.md)
 

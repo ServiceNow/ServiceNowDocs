@@ -7,8 +7,8 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 15
+last_updated: "2026-09-10"
+reading_time_minutes: 16
 breadcrumb: [Administer CMDB Data Manager, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -22,8 +22,8 @@ Create a CMDB Data Manager policy in CMDB Workspace to automatically process CIs
 
     For more information about retirement definitions, see [Retirement definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/life-cycle-rules.md).
 
--   Verify that any custom subflow that you want to associate with a policy exists:
-    1.  Navigate to **Workspaces** &gt; **CMDB Workspace**. Then, in the navigation panel, select the Governance icon. Then, in the Governance pane, select **Data Manager**.
+-   Verify that any custom subflow that you want to associate with a policy, exists:
+    1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Governance**. Then, in the Governance navigation pane, select **Data Manager**.
     2.  Select **Subflows** in the navigation bar on the left.
     3.  Review the subflows on the Data Manager subflows page, and drill down to a subflow to open it in Workflow Studio.
     4.  Select **Create new subflow** to [create a new subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/subflows.md).
@@ -44,7 +44,7 @@ For more information about life-cycle state definitions and other concepts for w
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CMDB Workspace**. Then, in the navigation panel, select the Governance icon. Then, in the Governance pane, select **Data Manager**.
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Governance**. Then, in the Governance navigation pane, select **Data Manager**.
 
 2.  Select **Policies** in the left-side bar.
 
@@ -360,7 +360,7 @@ After you publish a policy:
     If the policy is configured to require an approval for its tasks, then email notifications are sent to members of the assignment group in the **Managed by Group** attribute of the CI. If the policy is associated with a subflow, then a policy task triggers the policy subflow only after the task is approved.
 
 -   If the policy is associated with a subflow, then after a policy task is complete, the policy subflow closes the task. For an Attestation policy \(which isn't associated with a subflow\), a user must process all CIs in the task and submit the task to close it.
--   For Attestation policies, attestation tasks are assigned to users as specified, and those tasks appear in the [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)and  when those users log in.
+-   For Attestation policies, attestation tasks are assigned to users as specified, and those tasks appear in the [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)and Service Graph Workspace when those users log in.
 -   For some policy types, such as **Delete**, the list of the target CIs is rolled up in a CSV file that is then attached to the task for tracking purposes.
 -   Stale tasks are set to **Closed Canceled** by a daily scheduled job. A task becomes stale when it's still open and not approved after at least 90 days. The number of days after which a task is considered stale is determined by the **cmdb.data.manager.stale.task.life.in.days** system property.
 
@@ -370,6 +370,14 @@ After you publish a policy:
 -   On the Policies page, in the Published policies list view, select a policy to see policy details on a policy form. Select **View Policy** to see the settings in all of the policy form pages.
 -   On the Policies page, in the Published policies list view, select a policy that you want to deactivate. On a policy form select **Deactivate Policy** to temporarily prevent the policy from running.
 -   Select **View Open Tasks** in the Open Policy Tasks tile to track the processing of policy tasks in the CMDB Data Management Task Control list view. The Success Percent column shows the percentage of CIs in the task for which the task is completed. A CI is counted as complete in an archival task only after the archival process has been fully completed for the CI \(and isn't counted as complete while the CI is initially staged for archival for example\).
+-   Review the outcome of policy execution in the policy record in the CMDB Data Management Policy Executions \[cmdb\_data\_management\_policy\_execution\] table. Examine the **Work Notes** and the **Activities** fields to see the number of CIs that weren't processed.
+
+    A CI might be skipped during processing for reasons such as:
+
+    -   The CI is already included in another task.
+    -   The policy Run As user doesn’t have adequate access privileges to the CI or to the CI’s class.
+    Use this information to mitigate issues, for example, by updating policy configurations or updating user permissions.
+
 -   Run a policy on-demand. In general, the system generates a scheduled job for on-demand policies, prefixed with the policy name.
 
     -   Run the scheduled job:
@@ -378,7 +386,7 @@ After you publish a policy:
         3.  On the scheduled job form, select **Execute Now**.
     -   [Run a certification policy on-demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/run-cert-policy-ondemand.md) directly from Service Graph Workspace or from CMDB Workspace.
     -   [Run an attestation policy on-demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/run-attestation-policy-ondemand.md) directly from Service Graph Workspace or from CMDB Workspace.
--   Users log int o [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)or to  to [review and process attestation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/review-data-manager-attes-task.md) assigned to them.
--   Users log in to [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)or to  to [review and process non-attestation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/data-manager-review-task-wrkspc.md) assigned to them.
+-   Users log in to [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)or to Service Graph Workspace to [review and process attestation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/review-data-manager-attes-task.md) assigned to them.
+-   Users log in to [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)or to Service Graph Workspace to [review and process non-attestation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/data-manager-review-task-wrkspc.md) assigned to them.
 -   You can use update sets to transfer a policy between instances, in which case that policy is imported as a draft policy at the destination instance. You can later continue to configure the draft policy at the destination instance and then [publish it when it's ready](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/data-manager-publish-draft-policy.md).
 

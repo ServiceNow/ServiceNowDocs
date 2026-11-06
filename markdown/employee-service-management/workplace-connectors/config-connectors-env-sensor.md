@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Connectors
 classification: workplace-connectors
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setup Workplace Connectors for environmental data, Configure, Workplace Connectors, Workplace Service Delivery, Employee Service Management]
 ---
@@ -39,5 +39,5 @@ Role required: admin
 
 **Previous topic:**[Set up the Units of measure data table for environmental sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/wsd-enviromental-unit-measure.md)
 
-**Next topic:**[Extension point for occupancy and environment data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/extension-point-for-occupancy-environment-data.md)
+**Next topic:**[Archive and purge Environmental data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/archive-purge-environmental-data.md)
 

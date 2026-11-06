@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/republish-trm-cat.html
 release: zurich
 topic_type: task
-last_updated: "2026-02-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with the publishing center, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with the publishing center, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Republish a TRM catalog after updates
@@ -56,5 +56,5 @@ The knowledge base catalog reflects the latest TRM data and publishing configura
 
 [Edit a published TRM catalog configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/modify-trm-cat-pub-config.md)
 
-[Publishing results and knowledge base output](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/understand-publishing-output.md)
+[Understanding the publishing results and knowledge base output](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/understand-publishing-output.md)
 

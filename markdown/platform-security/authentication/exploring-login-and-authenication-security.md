@@ -1,5 +1,5 @@
 ---
-title: Explore Login and authentication security
+title: Explore login and authentication security
 description: Configure login security options to control access to your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/exploring-login-and-authenication-security.html
@@ -7,12 +7,12 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Login and authentication security, Local authentication, Access Management]
+breadcrumb: [Login and authentication security, Local authentication, Authentication, Access Management]
 ---
 
-# Explore Login and authentication security
+# Explore login and authentication security
 
 Configure login security options to control access to your instance.
 

@@ -7,14 +7,14 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Data Certification experience in a workspace, Data Certification, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Data Certification, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Review certification tasks
 
-Review the values of record fields and CI attributes in certification tasks assigned to you, and then certify, edit, or fail the review according to your findings.For managers, tasks of direct reports are included, and for user group managers, tasks of members in the group are also included.
+Review the values of record fields and CI attributes in certification tasks assigned to you, and then certify, edit, or fail the review according to your findings. For managers, tasks of direct reports are included, and for user group managers, tasks of members in the group are also included.
 
 ## Before you begin
 
@@ -33,7 +33,7 @@ If a certification task isn't properly assigned, you can reassign it to another 
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Service Graph Workspace** and in the navigation panel select the Tasks icon. In the Tasks navigation panel select **Certification** and on the Data Certification page, select the Certification tasks tab.
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Tasks**. In the Tasks navigation panel select **Certification**.
 
 2.  In the Certification tasks list, select multiple tasks to reassign tasks in bulk.
 
@@ -43,17 +43,13 @@ If a certification task isn't properly assigned, you can reassign it to another 
             -   **Assignment group**: Select the assignment group the user belongs to.
             -   **Assign to:** Search for the appropriate reviewer to reassign this task to.
             -   **Submit a reason for this action**: Enter a reason why you are reassigning the task.
-        -   Select the **Reassign** drop-down menu then select **Assign to me**: Assign the task that isn't assigned, to yourself, if you are the appropriate reviewer for this task.
+        -   Select the **Reassign** drop-down menu then select **Assign to me**: Assign the task that isn't assigned, to yourself, if you're the appropriate reviewer for this task.
         -   Select the **Reassign** drop-down menu then select **Request reassignment**: Request to reassign the task, that is assigned to you incorrectly, to someone else. Enter a reason why the task needs to be reassigned, then select **Submit**.
     2.  Select **Proceed**.
 
 3.  In the Certification tasks tab, select the certification task that you want to review.
 
-4.  Review the details of the certification task, then select **Review records to certify**.
-
-    **Note:** You can reassign the tasks on this page, see Step 2 to review the reassignment options.
-
-5.  Select the records that you want to conclude the review for in the Review not completed tab, and then select **Certify** or **Fail**.
+4.  Select the records that you want to conclude the review for in the Review not completed tab, and then select **Certify** or **Fail**.
 
     You can select all the records showing on the page for bulk processing by selecting the check box in the first column header, and then selecting the **Select all &lt;n&gt; item/s in this list** link that appears.
 
@@ -65,7 +61,7 @@ If a certification task isn't properly assigned, you can reassign it to another 
     -   Select the Attachments icon to attache files such as supporting documents for various findings, to the task.
     -   Select **Reassign** to reassign the tasks on this page, see Step 2 to review the reassignment options.
     -   Select **Reset** to restart the certification process for the task. For more information, see [Reset a certification task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/data-certific-reset-task-wrkspc.md).
-6.  Select the records that you want to review in details and then select **Review records**.
+5.  Select the records that you want to review in detail and then select **Review records**.
 
     A check mark next to a column header, denotes the fields whose values are included in this certification review \(certification fields\). All other columns show additional fields that are included only to help you identify records \(display fields\).
 
@@ -77,9 +73,9 @@ If a certification task isn't properly assigned, you can reassign it to another 
     |**Certify selected fields**|Select this to confirm field values that are correct. When you're finished, the records will move to the Review completed tab.|
     |**Edit fields**|Select this to update the fields whose value is incorrect. When you're finished, select **Update**. You can continue and certify the updated fields.|
 
-7.  Select **Submit** when all the records have been reviewed.
+6.  Select **Submit** when all the records have been reviewed.
 
-    The **Submit** button isn't available until all the records in the task are reviewed and the task is complete.Alternatively, you can select the **Submit task** link in the 'Ready to submit' notification.
+    The **Submit** button isn't available until all the records in the task are reviewed and the task is complete. Alternatively, you can select the **Submit task** link in the 'Ready to submit' notification.
 
 
 ## What to do next

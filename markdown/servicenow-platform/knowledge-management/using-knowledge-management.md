@@ -7,7 +7,7 @@ release: zurich
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -59,5 +59,5 @@ Enable users to quickly and easily reuse information from an incident in a knowl
 -   **[Knowledge content migration from v2 to v3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/t_KMv3MigrateKnowledgeContent.md)**  
 To use the new functionality available in knowledge v3 with legacy articles, you must migrate these articles out of the default knowledge base.
 
-**Parent Topic:**[Manage content capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/manage-content.md)
+**Parent Topic:**[Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/knowledge-management.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Service Exchange
 classification: service-exchange
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Service Exchange]
 ---
@@ -276,10 +276,4 @@ None
 None
 
 </td></tr></tbody>
-</table>-   **[Service Exchange for Providers data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/service-bridge-v2-datamodel-provider.md)**  
-The Service Exchange for Providers data model provides insight into how the tables that are used in the Service Exchange for Providers application relate to each other.
--   **[Service Exchange for Consumers data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/service-bridge-v2-datamodel-customers.md)**  
-The Service Exchange for Consumers data model provides insight into how the tables that are used in the Service Exchange for Consumers application relate to each other.
-
-**Parent Topic:**[Service Exchange reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/service-bridge-v2-reference.md)
-
+</table>

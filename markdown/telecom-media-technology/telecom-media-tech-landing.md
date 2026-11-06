@@ -1,65 +1,116 @@
 ---
 title: Telecommunications, Media, and Technology \(TMT\)
-description: The ServiceNow Telecommunications, Media, and Technology \(TMT\) product suite brings together customer care, operations, order management, and partner ecosystems. Service providers can scale their business to capitalize on the fast-growing “everything-as-a-service" opportunity.
+description: The ServiceNow Telecommunications, Media, and Technology \(TMT\) unifies customer care, order management, network operations, and partner ecosystems on one AI-powered platform to modernize service provider operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/telecom-media-tech-landing.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 ---
 
 # Telecommunications, Media, and Technology \(TMT\)
 
-The ServiceNow® Telecommunications, Media, and Technology \(TMT\) product suite brings together customer care, operations, order management, and partner ecosystems. Service providers can scale their business to capitalize on the fast-growing “everything-as-a-service" opportunity.
+The ServiceNow® Telecommunications, Media, and Technology \(TMT\) unifies customer care, order management, network operations, and partner ecosystems on one AI-powered platform to modernize service provider operations.
 
-<table id="table_cry_rvq_pvb" class="nav-card"><tbody><tr><td>
+Built for service providers and technology companies, it enables businesses to scale and capitalize on the fast-growing "everything-as-a-service" opportunity. It streamlines complex processes, automates workflows, and improves service delivery across customer, network, and partner interactions.
 
-[Customer Success Management \[Omitted image "bus-events-tmt.svg"\] Alt text: Streamline, automate, and measure critical workflows across the enterprise.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/acct-lifecycle-events/account-lifecycle-events-landing.md)
+TMT brings together legacy systems, streamlines service fulfillment workflows through automation, enables real-time management of network inventory, and coordinates complex processes involving customers, the network, and partners.
+
+-   **Key benefits**
+    -   Reduce operational costs through process automation and system consolidation.
+    -   Accelerate time-to-market with default workflows for service activation and order management.
+    -   Improve customer experience with real-time visibility, intelligent alerting, and proactive issue resolution across the entire customer life cycle.
+    -   Improve agent efficiency with real-time visibility across systems that enables first-contact resolution and reduces escalations.
+
+<table id="table_azp_d1d_whc"><thead><tr><th>
+
+Solutions
+
+</th><th>
+
+Overview
+
+</th><th>
+
+Applications
+
+</th></tr></thead><tbody><tr><td>
+
+[Telecom Service Management \(TSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/tsm-about.md)
 
 </td><td>
 
-[Field Service Management for Telecommunications\[Omitted image "bus-field-service-technician.svg"\] Alt text:Manage the field service workflow for the telecommunication industry customers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/field-service-management-for-telecommunications/field-service-management-telecommunications.md)
+Telecommunications Service Management \(TSM\) breaks down siloed legacy systems with a unified AI platform that connects service and network operations. Built with industry standards and AI capabilities, TSM enables faster adoption, reduces operational costs, and enhances customer loyalty for telecommunications providers.
 
 </td><td>
 
-[Now Assist for Sales CRM for Telecommunications\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Helps customers to automate enrichment, fulfillment tasks, and move order.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/somt-now-assist.md)
+-   [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spmc.md)
+-   [Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/acct-lifecycle-events/account-lifecycle-events-landing.md)
+-   [Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-exchange/tmt-service-bridge-both-landing-page.md)
+-   [Product Support for Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/proactive-service-exp-workflows/assurance-workflows.md)
+-   [Customer Service Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/cspm-landing-page.md)
+-   [Service Test Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/stm-landing-page.md)
+-   [Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/c360-land-page.md)
 
 </td></tr><tr><td>
 
-[Now Assist for Telecommunications, Media, and Technology\[Omitted image "bus-1-1-meetings.svg"\] Alt text:Helps to summarize service problem cases, generate the case resolution notes, and summarize tests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spmc.md)
+Additional capabilities
 
 </td><td>
 
-[Proactive Service Experience Workflows\[Omitted image "bus-workflow-tmt.svg"\] Alt text: Deliver end-to-end workflows to resolve network related incidents, and proactively notify impacted customers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/proactive-service-exp-workflows/assurance-workflows.md)
+Telecommunications applications that enable you to automate operations and manage your infrastructure include network inventory, service operations, portfolio planning, field work, ad order management.
 
 </td><td>
 
-[Sales Customer Relationship Management for Telecommunications\[Omitted image "bus-customer-and-contract-management-tmt.svg"\] Alt text:Capture, manage, and fulfill customer and external service orders.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/somt.md)
+-   [Data Center and Network Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/exploring-dcnam.md)
+-   [Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/telecom-network-inventory.md)
+-   [Telecommunications Service Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/telecommunications-service-operations-management.md)
+-   [Sales Customer Relationship Management for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/sales-crm.md)
+-   [Field Service Management for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/field-service-management-for-telecommunications/field-service-management-telecommunications.md)
+-   [Strategic Portfolio Management for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/strategic-portfolio-management-for-telecom/spmt-overview.md)
 
 </td></tr><tr><td>
 
-[Service Exchange \[Omitted image "bus-service-portal.svg"\] Alt text:Help customers and providers connect and track service requests directly between their instances.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-exchange/tmt-service-bridge-both-landing-page.md)
+[Technology Provider Service Management \(TPSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/tpsm-about.md)
 
 </td><td>
 
-[Strategic Portfolio Management for Telecommunications\[Omitted image "bus-case-study.svg"\] Alt text:Define and customize the tasks and requirements for your Fiber Rollout and 5G projects.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/strategic-portfolio-management-for-telecom/spmt-overview.md)
+Technology Provider Service Management \(TPSM\) automates work for technology providers to reduce contact center volumes, boost agent productivity, and maximize customer lifetime value. By embedding continuous AI innovation across customer-facing and internal workflows, TPSM enables as-a-service business models that accelerate value, fuel growth, and reduce costs.
 
 </td><td>
 
-[Telecommunications Network Inventory \[Omitted image "bus-server-tmt.svg"\] Alt text: Build and monitor your physical, logical networks, and provisioned services.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-network-inventory/telecom-network-inventory.md)
+-   [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spmc.md)
+-   [Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/acct-lifecycle-events/account-lifecycle-events-landing.md)
+-   [Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-exchange/tmt-service-bridge-both-landing-page.md)
+-   [Product Support for Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/proactive-service-exp-workflows/assurance-workflows.md)
 
 </td></tr><tr><td>
 
-[Telecommunications Service Operations Management\[Omitted image "bus-siem-tmt.svg"\] Alt text: Proactively monitor the health of your networks and services to prevent downtime.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-service-ops/telecommunications-service-operations-management.md)
+Additional capabilities
 
 </td><td>
 
- 
+Sales CRM for Technology Providers unifies sales, order management, and post-sales services on a single platform. Define new services quickly through catalog-driven orchestration, capture orders accurately, and automate fulfillment to reduce costs and improve customer retention.
 
 </td><td>
 
- 
+[Sales CRM for Technology Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/order-mgt-overview.md)
+
+</td></tr></tbody>
+</table>## Developer reference
+
+<table id="id_pjw_hng_bjc"><tbody><tr><td>
+
+[TMF APIs for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/tmt-api-reference.md)
+
+</td><td>
+
+Open Digital Architecture-aligned REST APIs available across TMT solutions — a shared API surface for integrations.
+
+</td><td>
+
+[Browse APIs by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/api-product-type.md)
 
 </td></tr></tbody>
 </table>## Additional resources
@@ -70,6 +121,6 @@ The ServiceNow® Telecommunications, Media, and Technology \(TMT\) product suite
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/now-learning-get-certified?id=amap_detail&achievement_id=3436f09887952e9024e0bb39dabb3504&s=1&ssa=3).
 -   Find useful resources related to your role and explore general guidelines at [ServiceNow Impact](https://www.servicenow.com/success.html).
 -   Connect with Telecommunications, Media, and Technology users at the ServiceNow Community:
-    -   [Telecommunications](https://www.servicenow.com/community/telecom/ct-p/telecommunication) users.
-    -   [Technology Providers](https://www.servicenow.com/community/technology-provider/ct-p/technology).
+    -   [Telecommunications](https://www.servicenow.com/community/telecom/ct-p/telecommunication)
+    -   [Technology Providers](https://www.servicenow.com/community/technology-provider/ct-p/technology)
 

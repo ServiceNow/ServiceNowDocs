@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/t\_CreateANotification.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 21
-breadcrumb: [Email and SMS notifications, System notifications, Notifications, Configure core features, Administer]
+breadcrumb: [Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create an email notification
@@ -167,7 +167,7 @@ Conditions
 
 </td><td>
 
-Use the condition builder to select the conditions under which this notification is sent. For example, select &gt; &gt; **Priority** &gt; **greater than** &gt; **3 - Moderate** to send the notification only for High and Critical priority incidents.
+Use the condition builder to select the conditions under which this notification is sent. For example, select **Priority** &gt; **greater than** &gt; **3 - Moderate** to send the notification only for High and Critical priority incidents.
 
 </td></tr><tr><td>
 
@@ -527,7 +527,7 @@ Digest Separator \(text\)
 \[Optional\] Use the dash character as a line to separate each item summarized in the digest. This field appears when you set the content type to **HTML and plain text** or **Plain text only**.
 
 </td></tr></tbody>
-</table>    When you save or update the notification, the [email **Digest** option is available for the notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/enable-email-digest.md) in the notification settings of your users.
+</table>    When you save or update the notification, the [email **Digest**option is available for the notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/enable-email-digest.md) in the notification settings of your users.
 
 8.  When you finish creating the notification, select **Submit** or, if you’re done modifying the notification, select **Update**.
 
@@ -566,11 +566,13 @@ Adding the **$\{URI\}** parameter to an outbound email body or template creates 
 -   **[Email unsubscribe links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/email-unsubscribe.md)**  
 Administrators can enable your users to stop receiving particular email messages by adding unsubscribe links to notifications.
 -   **[Scripting for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/c_ScriptingForEmailNotifications.md)**  
-Email scripts allow for business rule-like scripting within an outbound email message.
+Email scripts enable you to use business rule-like scripting within an outbound email message.
 -   **[Baseline email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/r_BaselineEmailNotifications.md)**  
 The baseline system provides several email notifications.
--   **[Notification examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/notification-examples.md)**  
-View the following examples to create notifications that notify an assignment group when there are updates to high-priority incidents or notifications for task assignees.
+-   **[Notification example: notify an assignment group of updates to Priority 1 Incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_Ex4Priority1IncUpdateNotif.md)**  
+Notify users by email when there are updates to high priority incidents.
+-   **[Notification example: notify task assignees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_NotificationExAssignmentNotif.md)**  
+Notify users who are assigned a Task \[task\] record.
 
 **Parent Topic:**[Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/c_EmailNotifications.md)
 
@@ -597,5 +599,5 @@ View the following examples to create notifications that notify an assignment gr
 
 [Domain separation and Notifications]()
 
-[Email FAQs and troubleshooting notification emails]()
+[Notification email logs and diagnostics]()
 

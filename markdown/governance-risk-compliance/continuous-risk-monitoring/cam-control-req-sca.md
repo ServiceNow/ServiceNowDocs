@@ -1,5 +1,5 @@
 ---
-title: Define Control Requirements
+title: Define control requirements
 description: You can break down a control at a more granular level as requirements when you generate the control at the control objective level.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/continuous-risk-monitoring/cam-control-req-sca.html
@@ -7,12 +7,12 @@ release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Implement, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Implement controls and assessment objectives, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
-# Define Control Requirements
+# Define control requirements
 
 You can break down a control at a more granular level as requirements when you generate the control at the control objective level.
 

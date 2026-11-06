@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/add-loss-scenario-recovery-task-bcp-uib-ws.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -54,7 +54,7 @@ If the plan was created from a plan template, loss scenarios may already be pre-
 
     The related asset dependencies are listed on the **Related asset dependencies** tab.
 
-    Starting with the Zurich release of the application, the Loss scenario record has the following related lists:
+    Starting with the Brazil release of the application, the Loss scenario record has the following related lists:
 
     -   Task template groups
     -   Task templates

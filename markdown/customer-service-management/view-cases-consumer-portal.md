@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/view-cases-consumer-portal.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the Consumer Service Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Consumer Service Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # View a case from the Consumer Service Portal
@@ -31,12 +31,19 @@ Selecting a case opens a form with the following sections:
 
 1.  Log in to the Consumer Service Portal.
 
-2.  Click **Support** &gt; **Cases** in the portal header to view a list of cases related to the current user.
+2.  Select **Support** &gt; **Cases** in the portal header to view a list of cases related to the current user.
 
-3.  Click the case number to view more information about the case.
+3.  Select the case number to view more information about the case.
 
-4.  If desired, type a message to the agent and click **Send**.
+4.  If desired, type a message to the agent and select **Send**.
 
     Your message becomes part of the case conversation. All responses from the agent are also included in the conversation.
 
+
+**Related topics**  
+
+
+[Accept or reject a case solution from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/resolve-cases-consumer-portal.md)
+
+[Create a case from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-case-consumer-portal.md)
 

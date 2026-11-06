@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Software models and Software entitlements, Explore, Software Asset Management, IT Asset Management]
+breadcrumb: [Software models and software entitlements, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Custom publisher part numbers \(PPN\)
@@ -45,5 +45,5 @@ The propagation of the Content Service DMAP results in the following changes:
     -   Any custom components that were added are deleted, as stated in a warning.
     -   Life cycles get overwritten \(with a warning message\).
 
-**Parent Topic:**[Software models and Software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-models-and-entitlements.md)
+**Parent Topic:**[Software models and software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-models-and-entitlements.md)
 

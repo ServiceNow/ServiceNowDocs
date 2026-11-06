@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/cto-facilities-case-overview.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Care Team Operations for Facilities, Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -24,7 +24,7 @@ Any updates, comments, or status changes made to the work order reflect in the c
 
 ## Work order auto-creation
 
-\[Omitted image "cto-facilities-work-order-creation.png"\] Alt text:
+\[Omitted image "cto-facilities-work-order-creation.png"\] Alt text: Work order auto creation.
 
 Work orders are created automatically in synchronization with Healthcare Facilities cases. All information from the Healthcare Facilities case is carried over into the work order.
 
@@ -41,4 +41,6 @@ Comments on the Healthcare Facilities case are viewable on the work order. Comme
 The state of both the work order and the healthcare case remains in synchronization throughout the entire fulfillment process. Use the Care Team Portal to track your case state in real time through viewing case details in the portal.
 
 **Note:** In Care Team Operations for Facilities, case data only synchronizes with work orders and doesn’t synchronize with work order tasks. Only updates made to the work order affect the associated case data.
+
+**Note:** Care team members can also create these cases conversationally, by chat in Care Team Portal or Care Team Mobile, or by phone, using ServiceNow Otto. For more information, see [AI in Care Team Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-operations-core/hco-otto-landing.md).
 

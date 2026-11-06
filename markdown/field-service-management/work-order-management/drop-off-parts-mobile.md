@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Inventory, ServiceNow Agent mobile app, Use, Field Service Management]
+breadcrumb: [Inventory, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
 # View schedule and track the parts for drop-off
@@ -22,7 +22,7 @@ Role required: wm\_agent or wm\_dispatcher
 
 ## About this task
 
-The transfer order line for drop-off must be in **Draft** or **Requested** state. For more information on transfer order line stages, refer to .
+The transfer order line for drop-off must be in **Draft** or **Requested** state.
 
 ## Procedure
 

@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Integration Hub - Import, Import and stream data, Integration Hub, Workflow Data Fabric]
 ---
@@ -21,6 +21,8 @@ Specify how source data is transformed to your target tables.
 [Configure a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/configure-data-source.md).
 
 Role required: admin or ih\_import.
+
+\[Omitted video\] Description: Video that shows how to map source data to a target table in Integration Hub - Import
 
 ## Procedure
 

@@ -7,9 +7,9 @@ release: zurich
 product: User Administration
 classification: user-administration
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Creating users, Creating users, companies, departments, User admin, Configure core features, Administer]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Creating users, Creating users, companies, departments, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # User self-registration
@@ -20,7 +20,10 @@ A user can request an account by navigating to the instance. If the plugin is in
 
 The user can complete and submit the self-registration form, and see a confirmation that it was submitted. The user receives an email when the account is registered.
 
-**Note:** If the email address entered in the self-registration form is already in the system, the request is not submitted.
+**Note:**
+
+-   Starting with the Brazil release, User Registration Request plugin \(`com.snc.user_registration`\) is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. External User Self-Registration plugin \(`com.snc.external_user_self_registration`\) provides the latest experience for this functionality.
+-   If the email address entered in the self-registration form is already in the system, the request is not submitted.
 
 **Parent Topic:**[Creating users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/ua-creating-users.md)
 

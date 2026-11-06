@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/open-dv-on-db-in-vd.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Edit a data visualization in an inline dashboard, Share, edit, or delete, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -43,7 +43,7 @@ While working in the dashboard editor, you may find that you want to reconfigure
 
 ## What to do next
 
-Proceed to edit the data visualization as described in [Edit a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/edit-dv-ac-center.md).
+Proceed to edit the data visualization as described in [Edit a data visualization in the library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/edit-dv-ac-center.md).
 
 **Parent Topic:**[Edit a data visualization in an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/editing-dv-in-line-db.md)
 

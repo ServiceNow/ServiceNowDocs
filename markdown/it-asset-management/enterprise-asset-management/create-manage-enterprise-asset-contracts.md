@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
 
 # Create and manage contracts for enterprise assets
@@ -33,5 +33,5 @@ Create a contract to define the lease details of your enterprise assets.
 -   **[Managing expiring contracts for leased enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/managing-expiring-contracts-leased-assets.md)**  
 You can use the Contract and lease management view to track and take action on leased enterprise assets that are nearing the end of their contracts. You can choose to return your leased enterprise assets, buy out your leased enterprise assets, or extend your lease contracts.
 
-**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/it-asset-management.md)
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/asset-management-landing-page.md)
 

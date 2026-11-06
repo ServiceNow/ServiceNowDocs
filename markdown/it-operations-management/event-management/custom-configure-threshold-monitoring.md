@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Self-health monitors for Event Management, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -287,11 +287,10 @@ Ensure that the custom script includes:Run the monitor function, which is called
 
 
 </td></tr></tbody>
-</table>    You can use the following tables for self-health monitoring:
+</table>    You can use the Monitoring Configurations \[em\_monitor\_conf\] table for self-health monitoring configuration, the Health Monitor Scripts \[em\_monitor\_scripts\] table for scripts. Use the Monitoring States \[em\_monitor\_state\] table for displaying the results of the monitor.
 
-    -   Monitoring Configurations \[em\_monitor\_conf\] for configuration
-    -   Health Monitor Scripts \[em\_monitor\_scripts\] for scripts
-    -   Monitoring States \[em\_monitor\_state\] for displaying monitor results, as initialized inside **runInsertHealthMonitorScripts**
+    These tables are initialized inside **runInsertHealthMonitorScripts**.
+
     For more information about script includes and APIs, see:Script includes that are [installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/r_InstalledWithEventManagement.md)
 
 5.  Click **Submit**.

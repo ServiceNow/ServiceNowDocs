@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/add-db-data-viz-to-library.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Edit a data visualization in an inline dashboard, Share, edit, or delete, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -30,9 +30,9 @@ You may want to add a data visualization that exists only as a local copy on an 
 
     See [Creating data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/creating-data-visualizations.md).
 
-3.  Expand the data visualization context menu.
+3.  Expand the data visualization 3-dot menu.
 
-    \[Omitted image "dv-context-menu-add-to-lib.png"\] Alt text: Context menu for data visualization with Add to library highlighted.
+    \[Omitted image "dv-context-menu-add-to-lib.png"\] Alt text: 3-dot menu for data visualization with Add to library highlighted.
 
 4.  Select **Add to library**.
 

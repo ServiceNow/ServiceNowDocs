@@ -40,17 +40,17 @@ Role required: flow\_designer and connection\_admin
 
 5.  For the **Jamf External Trigger** end point, click **Configure**.
 
-    \[Omitted image "image.jamf-ext-trigger"\] Alt text:
+    \[Omitted image "jamf-ext-trigger.jpg"\] Alt text:
 
 6.  Select the user who can trigger the endpoint and click **Activate**.
 
-    \[Omitted image "image.jamf-conf-trigger-user"\] Alt text:
+    \[Omitted image "jamf-conf-trigger-user.jpg"\] Alt text:
 
     The values **Token** and **URL** are generated.
 
 7.  Copy the generated endpoint URL for later use.
 
-    \[Omitted image "image.jamf-conf-trigger4"\] Alt text:
+    \[Omitted image "jamf-conf-trigger4.jpg"\] Alt text:
 
 
 ## Create an outbound webhook

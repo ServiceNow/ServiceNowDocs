@@ -1,37 +1,37 @@
 ---
 title: Guided tours in Zero Copy Connector for ERP
-description: Learn about Zero Copy Connector for ERP guided tours, including how to access and take them to build your knowledge of Zero Copy Connector for ERP.
+description: Zero Copy Connector for ERP guided tours are interactive walkthroughs that show you how to use product features, such as configuring a connection or working with models.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/guided-tours-in-erp-canvas.html
 release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-08-05"
+reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, learn, practice, guide, tour, adoption]
-breadcrumb: [Explore, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Guided tours in Zero Copy Connector for ERP
 
-Learn about Zero Copy Connector for ERP guided tours, including how to access and take them to build your knowledge of Zero Copy Connector for ERP.
+Zero Copy Connector for ERP guided tours are interactive walkthroughs that show you how to use product features, such as configuring a connection or working with models.
 
-## What guided tours are
+## Guided tours overview
 
-Guided tours are part of the default ServiceNow platform. There are guided tours available to take and you can use the Guided Tours application to create custom tours yourself in your own instances.
+Guided tours are part of the default ServiceNow platform. Some guided tours are available to take, and you can use the Guided Tours application to create custom tours in your own instances.
 
 Tours contain interactive steps to help train and teach users. Some tours show various features in the user interface, such as an overview of a home page. Other tours help complete a task, such as configuring a connection or working with candidate details. For more information about what guided tours are and how to create them, see [Exploring Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/exploring-guided-tours.md).
 
-## How to access and use Zero Copy Connector for ERP guided tours
+## Accessing and using Zero Copy Connector for ERP guided tours
 
 To start a tour, select the show help icon \[Omitted image "Banner\_HelpIcon.png"\], and then select **Take a Tour**.
 
-\[Omitted image "image.erpc-guided-tour-start"\] Alt text: Zero Copy Connector for ERP systems page with show help option and take a tour button highlighted.
+\[Omitted image "erpc-guided-tour-start.png"\] Alt text: Zero Copy Connector for ERP systems page with show help option and take a tour button highlighted.
 
 You're led through a series of steps. Read the text for each step and perform the required action or select a button such as **Begin Tour** or **Next**.
 
-\[Omitted image "image.erpc-guided-tour-first-callout"\] Alt text: Zero Copy Connector for ERP systems page with first step of guided tour displayed.
+\[Omitted image "erpc-guided-tour-first-callout.png"\] Alt text: Zero Copy Connector for ERP systems page with first step of guided tour displayed.
 
 To stop a tour at any time, select the **X** on a tour step.
 
@@ -75,7 +75,7 @@ Zero Copy Connector for ERP individual model page
 
 </td><td>
 
-Navigate to **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**, select the models icon \[Omitted image "image.erpc-data-model-icon"\] Alt text:, and select a model.
+Navigate to **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**, select the models icon \[Omitted image "erpc-data-model-icon.png"\] Alt text:, and select a model.
 
 </td></tr><tr><td>
 
@@ -87,7 +87,7 @@ Zero Copy Connector for ERP manage model page
 
 </td><td>
 
-Navigate to **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**, select the models icon \[Omitted image "image.erpc-data-model-icon"\] Alt text:, select a model, and select **Manage Model**.
+Navigate to **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**, select the models icon \[Omitted image "erpc-data-model-icon.png"\] Alt text:, select a model, and select **Manage Model**.
 
 </td></tr><tr><td>
 
@@ -99,7 +99,7 @@ Zero Copy Connector for ERP manage model page
 
 </td><td>
 
-Navigate to **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**, select the models icon \[Omitted image "image.erpc-data-model-icon"\] Alt text:, select a model, and select **Manage Model**.
+Navigate to **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**, select the models icon \[Omitted image "erpc-data-model-icon.png"\] Alt text:, select a model, and select **Manage Model**.
 
 </td></tr><tr><td>
 
@@ -111,7 +111,7 @@ Zero Copy Connector for ERP individual remote table page
 
 </td><td>
 
-Navigate to **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**, select the remote tables icon \[Omitted image "image.erpc-remote-table-icon"\], and select a remote table.
+Navigate to **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**, select the remote tables icon \[Omitted image "erpc-remote-table-icon.png"\], and select a remote table.
 
 </td></tr><tr><td>
 
@@ -123,7 +123,7 @@ Zero Copy Connector for ERP individual extraction page
 
 </td><td>
 
-Navigate to **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**, select the extraction tables icon \[Omitted image "image.erpc-extraction-table-icon"\], and select an extraction table.
+Navigate to **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**, select the extraction tables icon \[Omitted image "erpc-extraction-table-icon.png"\], and select an extraction table.
 
 </td></tr><tr><td>
 
@@ -135,8 +135,7 @@ Zero Copy Connector for ERP models list page
 
 </td><td>
 
-Navigate to **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home** and select the models icon \[Omitted image "image.erpc-data-model-icon"\] Alt text:.
+Navigate to **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home** and select the models icon \[Omitted image "erpc-data-model-icon.png"\] Alt text:.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/exploring-erp-integration.md)
-
+</table>

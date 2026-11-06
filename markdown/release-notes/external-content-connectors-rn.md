@@ -1,14 +1,13 @@
 ---
 title: External Content Connectors release notes
-description: The ServiceNow External Content Connectors applications make content and metadata from external content repositories such as Atlassian Confluence Cloud and Microsoft SharePoint Online searchable using AI Search. See the following sections for release notes by version.The ServiceNow External Content Connectors application enables AI Search applications to search content and metadata from supported external source systems, such as Atlassian Confluence Cloud and Microsoft SharePoint Online. External Content Connectors was enhanced and updated in the Zurich release.The ServiceNow External Content Connectors application enables AI Search applications to search content and metadata from supported external source systems, such as Atlassian Confluence Cloud and Microsoft SharePoint Online. External Content Connectors was enhanced and updated in the Zurich release.The ServiceNow External Content Connectors application enables AI Search applications to search content and metadata from supported external source systems, such as Atlassian Confluence Cloud and Microsoft SharePoint Online. External Content Connectors was enhanced and updated in the Zurich release.The ServiceNow External Content Connectors application enables AI Search applications to search content and metadata from supported external source systems, such as Atlassian Confluence Cloud and Microsoft SharePoint Online. External Content Connectors was enhanced and updated in the Zurich release.The ServiceNow External Content Connectors application enables AI Search applications to search content and metadata from supported external source systems, such as Atlassian Confluence Cloud and Microsoft SharePoint Online. External Content Connectors was enhanced and updated in the Zurich release.
+description: The ServiceNow External Content Connectors applications make content and metadata from external content repositories such as Atlassian Confluence Cloud and Microsoft SharePoint Online searchable using AI Search. See the following sections for release notes by version.Version 9.2 adds the Custom Connector Gateway external content connector, support for additional binary file formats, secure search for the Amazon S3 external content connector, and a more descriptive analytics metric name.Version 9.0 adds a connector health dashboard, an index inspector tool, regulatory market conformance for the Amazon S3 external content connector, and delta content crawl support for the Google Drive external content connector.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/external-content-connectors-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2026-09-03"
-reading_time_minutes: 8
-keywords: [Now Assist, AI Agents, generative AI, agentic AI, Now Assist, AI Agents, generative AI, agentic AI, Now Assist, AI Agents, generative AI, agentic AI, Now Assist, AI Agents, generative AI, agentic AI, Now Assist, AI Agents, generative AI, agentic AI, Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [ServiceNow AI Platform administration release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [ServiceNow AI Platform administration release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # External Content Connectors release notes
@@ -29,7 +28,7 @@ See [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/S
 
     Install External Content Connectors by requesting the External Content Connectors Application Suite plugin from the ServiceNow Store. If you want to activate the ServiceNow product documentation external content connector or the Webcrawler external content connector, you must request activation of those plugins after the Application Suite is activated.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 -   **Browser requirements**
 
@@ -42,253 +41,66 @@ See [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/S
 
 **Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-platform-admin-rn-landing.md)
 
-## Version 8.1
+## Version 9.2
 
-The ServiceNow® External Content Connectors application enables AI Search applications to search content and metadata from supported external source systems, such as Atlassian Confluence Cloud and Microsoft SharePoint Online. External Content Connectors was enhanced and updated in the Zurich release.
-
-### What's new
-
--   **[Filter content by label for a Google Drive external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/filter-content-label-google-drive-external-content-connector.md)**
-
-    Configure your Google Drive external content connectors to only retrieve content items that have one or more of a specified set of label values applied.
-
-
-## Version 6.0
-
-The ServiceNow® External Content Connectors application enables AI Search applications to search content and metadata from supported external source systems, such as Atlassian Confluence Cloud and Microsoft SharePoint Online. External Content Connectors was enhanced and updated in the Zurich release.
+Version 9.2 adds the Custom Connector Gateway external content connector, support for additional binary file formats, secure search for the Amazon S3 external content connector, and a more descriptive analytics metric name.
 
 ### What's new
 
--   **[Adobe Acrobat Sign external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/adobe-acrobat-sign-external-content-connector.md)**
+-   **Custom Connector Gateway external content connector**
 
-    Retrieve searchable content and metadata from your Adobe Acrobat Sign source system.
+    Retrieve content, metadata, and users from any source system using your own custom connector, running in your local or cloud environment. Send your retrieved data to a gateway connector running on your instance by submitting Custom Connector Gateway API requests to an ingest gateway host. The gateway connector indexes your retrieved data and makes it searchable in the ServiceNow AI Platform®.
 
--   **[Aha! Roadmaps external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/aha-roadmaps-external-content-connector.md)**
+-   **[Support for Markdown and email message binary files and attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/file-extensions-ext-cont-connector.md)**
 
-    Retrieve searchable content and metadata from your Aha! Roadmaps source system.
-
--   **[Cornerstone external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/cornerstone-external-content-connector.md)**
-
-    Retrieve searchable content and metadata from your Cornerstone source system.
-
--   **[Fluid Topics external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/fluid-topics-external-content-connector.md)**
-
-    Retrieve searchable content and metadata from your Fluid Topics source system.
-
--   **[ManageEngine external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/manageengine-external-content-connector.md)**
-
-    Retrieve searchable content and metadata from your ManageEngine source system.
-
--   **[Workvivo external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/workvivo-external-content-connector.md)**
-
-    Retrieve searchable content and metadata from your Workvivo source system.
+    Extract searchable text from Markdown \(.md\) and email message \(.eml, .msg\) files and attachments retrieved by your external content connectors.
 
 
 ### What's changed
 
--   **[Sitemap support in the Webcrawler external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/webcrawler-external-content-connector.md)**
+-   **[Secure search for the Amazon S3 external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/amazon-s3-external-content-connector.md)**
 
-    Retrieve content and links from URLs found in sitemaps defined for your web source system when running content crawls for the Webcrawler external content connector. A content crawl only retrieves sitemap URLs that include the crawl's starting point URL.
-
--   **[Start point links for scheduled partial content crawls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/create-content-crawl-external-content-connector.md)**
-
-    View the start point for a scheduled partial content crawl via a link in its entry in the the external content connector's list of crawls.
-
--   **[Start point links in partial content crawl history entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/review-crawl-ext-cont-connector.md)**
-
-    View the start point for a scheduled partial content crawl via a link in its crawl history entries.
-
--   **[Limited Role-Based Access Control \(RBAC\) support in the Atlassian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/atlassian-confluence-cloud-external-content-connector.md) Confluence Cloud external content connector**
-
-    Map source system user and group permissions assigned via RBAC roles to users in your ServiceNow AI Platform instance.
-
-
-## Version 5.0
-
-The ServiceNow® External Content Connectors application enables AI Search applications to search content and metadata from supported external source systems, such as Atlassian Confluence Cloud and Microsoft SharePoint Online. External Content Connectors was enhanced and updated in the Zurich release.
-
-### What's new
-
--   **[Connector admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/installed-with-ext-content-connectors.md)**
-
-    Users with the sn\_ext\_conn.xcc\_admin role can create, configure, and review details for external content connectors and crawls.
-
--   **[Adobe Experience Manager as a Cloud Service external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/adobe-expmgr-cs-external-content-connector.md)**
-
-    Retrieve searchable content and metadata from your Adobe Experience Manager as a Cloud Service source system.
-
--   **[Asana external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/asana-external-content-connector.md)**
-
-    Retrieve searchable content and metadata from your Asana source system.
-
--   **[Docusign external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/docusign-external-content-connector.md)**
-
-    Retrieve searchable content and metadata from your Docusign source system.
-
--   **[Dropbox external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/dropbox-external-content-connector.md)**
-
-    Retrieve searchable content and metadata from your Dropbox source system.
-
--   **[GitHub Enterprise Cloud external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/github-enterprise-cloud-external-content-connector.md)**
-
-    Retrieve searchable content and metadata from your GitHub Enterprise Cloud source system.
-
--   **[HubSpot external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/hubspot-external-content-connector.md)**
-
-    Retrieve searchable content and metadata from your HubSpot source system.
-
--   **[Lucidchart external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/lucidchart-external-content-connector.md)**
-
-    Retrieve searchable content and metadata from your Lucidchart source system.
-
--   **[Miro external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/miro-external-content-connector.md)**
-
-    Retrieve searchable content and metadata from your Miro source system.
-
--   **[monday.com external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/monday-com-external-content-connector.md)**
-
-    Retrieve searchable content and metadata from your monday.com source system.
-
--   **[Notion external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/notion-external-content-connector.md)**
-
-    Retrieve searchable content and metadata from your Notion source system.
-
--   **[SAP DMS external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/sap-dms-external-content-connector.md)**
-
-    Retrieve searchable content and metadata from your SAP DMS source system.
-
--   **[Smartsheet external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/smartsheet-external-content-connector.md)**
-
-    Retrieve searchable content and metadata from your Smartsheet source system.
-
--   **[Trello external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/trello-external-content-connector.md)**
-
-    Retrieve searchable content and metadata from your Trello source system.
-
--   **[WordPress external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/wordpress-external-content-connector.md)**
-
-    Retrieve searchable content and metadata from your WordPress source system.
-
--   **[Workday external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/workday-external-content-connector.md)**
-
-    Retrieve searchable content and metadata from your Workday source system.
-
--   **[Zoom external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/zoom-external-content-connector.md)**
-
-    Retrieve searchable content and metadata from your Zoom source system.
-
--   **[Configure user permission settings for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/configure-user-mapping-settings-external-content-connector.md)**
-
-    Specify the source system and User \[sys\_user\] table fields to examine for matches when an external content connector maps source system users to your ServiceNow AI Platform users.
-
--   **[Statistics for external content connector content crawls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/document-statistics-external-content-connectors.md)**
-
-    Review statistics about the documents \(items or files with searchable content and metadata\) retrieved by a content crawl.
-
--   **[Statistics for external content connector user permission crawls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/permission-statistics-external-content-connectors.md)**
-
-    Review statistics about the permissions \(user and group-membership security principals\) retrieved by a user permission crawl.
+    The Amazon S3 external content connector adds support for secure search. The **Settings** tab for this connector includes a new **User mapping settings** screen. On this screen, you can select one of three permission modes for the connector and optionally configure user mappings. You can also configure user permission crawls for the connector if using a permission mode that requires them.
 
 -   **[Analytics for external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/analytics-external-content-connectors.md)**
 
-    Review metrics that show how your external content connector has run over time.
+    The **Quota usage** metric has been renamed **Connector limit** for clarity.
 
 
-### What's changed
+### Plugin information
 
--   **[Connector creation UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/creating-ext-cont-connectors.md)**
+-   **New plugins**
 
-    The connector creation UI now includes optional steps for configuring user permission crawls \(for connectors that support them\) and for linking connector search sources to your search profiles. If you want to change these settings for an existing connector, you can configure these settings from the connector editor.
-
-
--   **[Analytics for external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/analytics-external-content-connectors.md)**
-
-    Analyze connector performance and behavior in a selected time period using the redesigned Analytics page. You can access this page from the connector editor.
-
--   **[Atlassian Jira Cloud connection settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/create-ext-cont-connector-jira.md)**
-
-    The Atlassian Jira Cloud external content connector no longer requires your Atlassian Jira Cloud instance ID as a connection setting.
-
--   **[Microsoft OneDrive connection settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/create-ext-cont-connector-microsoft-onedrive.md)**
-
-    The Microsoft OneDrive external content connector now accepts certificate SHA1 thumbprint hashes in hexadecimal format as well as in base64-encoded format.
-
--   **[Microsoft SharePoint Online connection settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/create-ext-cont-connector-mspo.md)**
-
-    The Microsoft SharePoint Online external content connector now accepts certificate SHA1 thumbprint hashes in hexadecimal format as well as in base64-encoded format.
-
--   **[Microsoft Teams connection settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/create-ext-cont-connector-msteams.md)**
-
-    The Microsoft Teams external content connector now accepts certificate SHA1 thumbprint hashes in hexadecimal format as well as in base64-encoded format.
+    External Content Connectors Custom Connector \(com.sn\_ext\_conn\_ccg\): Plugin for the Custom Connector Gateway external content connector. This plugin is included when you install the External Content Connectors Application Suite plugin.
 
 
-## Version 4.1
+## Version 9.0
 
-The ServiceNow® External Content Connectors application enables AI Search applications to search content and metadata from supported external source systems, such as Atlassian Confluence Cloud and Microsoft SharePoint Online. External Content Connectors was enhanced and updated in the Zurich release.
+Version 9.0 adds a connector health dashboard, an index inspector tool, regulatory market conformance for the Amazon S3 external content connector, and delta content crawl support for the Google Drive external content connector.
 
 ### What's new
 
--   **[Amazon S3 external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/amazon-s3-external-content-connector.md)**
+-   **Connector health dashboard**
 
-    Retrieve searchable content and metadata from buckets in your Amazon S3 source system.
+    View and resolve connector health issues using the connector health dashboard.
 
--   **[Box external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/box-external-content-connector.md)**
+-   **Index inspector tool**
 
-    Retrieve searchable content and metadata from user boxes in your Box source system.
+    Verify indexing status and error counts for individual content items using the index inspector tool. Optionally review additional item details, see which users and groups can view the item in secure search, and view retrieval and indexing errors for the item.
 
--   **[GitLab external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/gitlab-external-content-connector.md)**
+-   **[Advanced connection settings for the Amazon S3 external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/create-ext-cont-connector-amazon-s3.md)**
 
-    Retrieve searchable content and metadata from issues, wikis, merge requests, tags, branches, and commits in your GitLab source system's groups, projects, and repositories.
+    Optionally specify advanced connection settings including the AWS region and Amazon S3 endpoint you want the connector to use. You can also specify a list of Amazon S3 buckets to retrieve content from, or leave this list empty to enable auto-discovery of buckets.
 
--   **[Microsoft OneDrive external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/microsoft-onedrive-external-content-connector.md)**
+-   **Delta content crawls for the Google Drive connector**
 
-    Retrieve searchable content and metadata from individual drives in your Microsoft OneDrive source system.
-
--   **[Microsoft Viva Engage external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/microsoft-viva-engage-external-content-connector.md)**
-
-    Retrieve searchable content and metadata from conversations in your Microsoft Viva Engage source system's communities.
-
--   **[ServiceNow® instance external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/servicenow-instance-external-content-connector.md)**
-
-    Retrieve searchable content and metadata from KB articles in your ServiceNow AI Platform instance.
-
--   **[Webcrawler external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/webcrawler-external-content-connector.md)**
-
-    Retrieve searchable content and metadata from pages and subdomains in public web sources. Select a predefined web source or specify a custom web source.
-
--   **[Zendesk Guide external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/zendesk-guide-external-content-connector.md)**
-
-    Retrieve searchable content and metadata from articles in your Zendesk Guide source system's knowledge bases.
-
--   **[Statistics for external content connector content crawls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/document-statistics-external-content-connectors.md)**
-
-    Review statistics for searchable items retrieved by a content crawl.
-
--   **[Statistics for external content connector user permission crawls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/permission-statistics-external-content-connectors.md)**
-
-    Review statistics for user and group permissions retrieved by a user permission crawl.
+    Reduce content crawl time with delta content crawls. Unlike full content crawls, delta content crawls ignore unchanged content items in a connector's source system. Delta content crawls are supported for the Google Drive external content connector.
 
 
 ### What's changed
 
--   **[Connector creation UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/creating-ext-cont-connectors.md)**
+-   **Crawl schedules tab renamed**
 
-    The connector creation UI now includes optional steps for configuring the new connector's crawl settings and creating and scheduling crawls for it. You can still configure these settings from the connector's editor, so you can skip these steps during connector creation if you want to configure crawl settings and create crawls later on.
-
-
--   **[Webcrawler external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/webcrawler-external-content-connector.md)**
-
-    The predefined web sources external content connector has been subsumed into the new Webcrawler external content connector, which enables you to specify a custom web source or select a predefined one.
-
-
-## Version 4.0
-
-The ServiceNow® External Content Connectors application enables AI Search applications to search content and metadata from supported external source systems, such as Atlassian Confluence Cloud and Microsoft SharePoint Online. External Content Connectors was enhanced and updated in the Zurich release.
-
-### What's changed
-
--   **Coral theme**
-
-    Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+    In the external content connector editor, the **Crawl schedules** tab has been renamed to **Manage crawls**.
 
 

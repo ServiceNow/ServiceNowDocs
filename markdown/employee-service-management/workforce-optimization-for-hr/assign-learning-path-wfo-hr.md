@@ -7,9 +7,9 @@ release: zurich
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Learning in Workforce Optimization for HR, Coaching in Workforce Optimization for HR, Use, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
+breadcrumb: [Learning in Workforce Optimization for HR, Coaching in Workforce Optimization for HR, Using Workforce Optimization for HR, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
 ---
 
 # Assign a learning path to agents
@@ -40,15 +40,15 @@ Role required: sn\_hr\_wfo.admin
 
 6.  In the **Assign learning path** window, assign the learning path to groups or team members.
 
-<table id="choicetable_ksc_2y2_svb"><thead><tr><th align="left" id="d615523e153">
+<table id="choicetable_ksc_2y2_svb"><thead><tr><th align="left" id="d626941e147">
 
 To
 
-</th><th align="left" id="d615523e156">
+</th><th align="left" id="d626941e150">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d615523e162">
+</th></tr></thead><tbody><tr><td id="d626941e156">
 
 **Assign the path to all groups that you directly and additionally manage**
 
@@ -56,7 +56,7 @@ Do this
 
 Select **To my groups**.
 
-</td></tr><tr><td id="d615523e174">
+</td></tr><tr><td id="d626941e168">
 
 **Assign the path to specific groups or team members**
 

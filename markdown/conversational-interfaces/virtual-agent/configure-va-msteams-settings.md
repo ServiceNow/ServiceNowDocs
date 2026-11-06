@@ -7,9 +7,9 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Conversational Integration with Microsoft Teams, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Microsoft Teams, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Configure Virtual Agent for Microsoft Teams
@@ -78,8 +78,6 @@ You must configure conditional access in Microsoft Azure to restrict users from 
 Set language preferences so that Virtual Agent is in the same language as the user's preferred Microsoft Teams language.
 -   **[Localize the bot messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/localize-bot-messg.md)**  
 Localize the bot messages to receive them in a language of your choice during your conversations with the bot.
--   **[Customize Virtual Agent welcome messages in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/customize-va-welcome-msg-msteams.md)**  
-Alter the default welcome message to send a custom greeting in Virtual Agent conversations integrated with Microsoft Teams.
 
 **Parent Topic:**[Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/teams-conv-integration.md)
 

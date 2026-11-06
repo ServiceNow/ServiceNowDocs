@@ -7,9 +7,9 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Manage mobile experience for GRC Policy and Compliance, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Managing mobile experience for GRC Policy and Compliance, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Assign Policy and Compliance Management indicator tasks with the GRC Mobile application
@@ -64,15 +64,15 @@ Assign a task from the list of records. Alternatively, view the details of the r
 
 9.  With the fields on the record displayed, choose one in the following table to continue.
 
-<table id="choicetable_qsy_bdy_xhb"><thead><tr><th align="left" id="d193888e236">
+<table id="choicetable_qsy_bdy_xhb"><thead><tr><th align="left" id="d114817e236">
 
 Option
 
-</th><th align="left" id="d193888e239">
+</th><th align="left" id="d114817e239">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d193888e245">
+</th></tr></thead><tbody><tr><td id="d114817e245">
 
 **Details tab**
 
@@ -80,7 +80,7 @@ Description
 
 With the Details tab selected, view the details of the task. At the top right of the screen, tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Top menu icon.\) to assign the task. On the screen that is displayed, tap a user. Alternatively, enter text in the Search field. Tap the send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon.\) or **Submit** to save and submit your changes.
 
-</td></tr><tr><td id="d193888e269">
+</td></tr><tr><td id="d114817e269">
 
 **Activity Stream tab**
 
@@ -90,7 +90,7 @@ With the Activity Stream tab selected, choose one to continue.-   View work note
 -   At the top right of the screen, tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Top menu icon.\) to assign the task. On the screen that is displayed, tap a user. Alternatively, enter text in the Search field. Tap the send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon.\) or **Submit** to save and submit your changes.
 
 
-</td></tr><tr><td id="d193888e308">
+</td></tr><tr><td id="d114817e308">
 
 **Screen icons at the bottom of the screen.**
 
@@ -105,5 +105,5 @@ On the bottom of the screen, choose one to continue.-   Tap the Policy and Compl
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Manage mobile experience for GRC Policy and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/mobile-policy_compliance-ovrvw.md)
+**Parent Topic:**[Managing mobile experience for GRC Policy and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/mobile-policy_compliance-ovrvw.md)
 

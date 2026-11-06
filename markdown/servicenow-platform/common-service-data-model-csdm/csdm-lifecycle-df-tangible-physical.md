@@ -7,7 +7,7 @@ release: zurich
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Tangible/physical life cycle, Reference, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -34,6 +34,13 @@ The tangible/physical life-cycle states represent the overall life cycle of phys
 
     -   **On Order**: The asset has been ordered from a vendor but has not yet been received. 
     -   **Preallocated**: The asset is already assigned to a specific purpose or user before its arrival. 
+-   **Design life cycle stage**
+
+    The item is in the initial planning and setup phase.
+
+    -   **Design**: The layout and system requirements are being defined.
+    -   **Chartered**: The item is approved for development, but no physical item has yet been created.
+    -   **Build**: The item is under construction, setup, or is being prepared for operational use.
 -   **Inventory life cycle stage**
 
     The asset is received and stored in inventory before deployment.
@@ -42,8 +49,8 @@ The tangible/physical life-cycle states represent the overall life cycle of phys
     -   **Reserved**: The asset is set aside for a specific request but is not yet deployed. 
     -   **Preallocated**: The asset is assigned to a request but is not yet physically allocated. 
     -   **Pending Repair \(CI\)**: The asset is in stock but requires repairs before being usable such as on-site visit from manufacturer or RMA swap. 
-    -   **Legal Hold \(CI\)**: The asset cannot be deployed due to legal restrictions or compliance reasons. 
-    -   **Quarantine \(CI\)**: The asset is isolated due to potential security risks, failures, or non-compliance. 
+    -   **Legal Hold \(CI\)**: The asset cannot be deployed due to legal restrictions or conformance reasons. 
+    -   **Quarantine \(CI\)**: The asset is isolated due to potential security risks, failures, or non-conformance. 
 -   **Deploy life cycle stage**
 
     The asset is prepared and moved to operational use.
@@ -68,7 +75,7 @@ The tangible/physical life-cycle states represent the overall life cycle of phys
 
     -   **Pending Evaluation**: Non-operational intermediate status in which a product is evaluated to determine its next stage and stage status.
     -   **Pending Return**: Non-operational status before the asset is returned and the provider received the returned asset in an end of life stage: **RMA**, **Vendor Credit**, **Buyout** or **Lease Return**. 
-    -   **In Transit**: Non-operational, transitional status to support re-purposing the asset and true end-of-life.
+    -   **In Transit**: Non-operational, transitional status to support repurposing the asset and true end-of-life.
     -   **Pending Resale**: Intermediate status before selling the asset to a third-party entity .
     -   **Pending Certificate**: Intermediate status before receiving a certificate of disposal.
     -   **Pending Disposal**: Intermediate status before the **Disposed** end of life stage.

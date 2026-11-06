@@ -7,9 +7,9 @@ release: zurich
 product: Procurement
 classification: procurement
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Create a purchase order, Procurement purchase order management for assets, Procurement, IT Asset Management]
+breadcrumb: [Create a purchase order, Procurement purchase order management for assets, Procurement, Common applications, Asset Management]
 ---
 
 # Create a purchase order line item
@@ -221,7 +221,7 @@ Select this check box to create a requisition for an item that is not present in
 -   This field isn't visible on the form if you haven't published a procurement integration profile. For more information, see [Integrating with external procurement applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/procurement/integrate-ext-proc-ser.md).
 -   If you select only a software model in the Product model field, this check box gets displayed on the form.
 -   If you select an item in the Product Catalog field, the check box gets automatically unchecked.
--   If you haven't selected any item in the Product Catalog field, this check box is automatically checked, which indicates you are submitting a non-catalog request.
+-   If you haven't selected any item in the Product Catalog field, this check box is automatically checked, which indicates you're submitting a non-catalog request.
 
 
 </td></tr><tr><td>

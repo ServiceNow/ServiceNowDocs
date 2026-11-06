@@ -1,5 +1,5 @@
 ---
-title: Components installed with voice
+title: Components installed with Voice
 description: Information about the roles, tables, and scheduled jobs that are installed with Voice Agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-hrsd/components-installed-voice-agents.html
@@ -7,12 +7,12 @@ release: zurich
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
-# Components installed with voice
+# Components installed with Voice
 
 Information about the roles, tables, and scheduled jobs that are installed with Voice Agents.
 

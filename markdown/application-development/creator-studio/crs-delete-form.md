@@ -7,9 +7,9 @@ release: zurich
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2025-10-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Deleting forms and questions, Forms in apps, Build apps, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Deleting forms and questions, Forms in apps, Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Delete a form in Creator Studio

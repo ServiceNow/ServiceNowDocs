@@ -7,9 +7,9 @@ release: zurich
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure FDS for provider, Use for providers, Service Exchange for Providers, Service Exchange]
+breadcrumb: [Configure outbound FDS as providers, Configure for providers, Service Exchange for Providers, Service Exchange]
 ---
 
 # Publish a foundation data subscription

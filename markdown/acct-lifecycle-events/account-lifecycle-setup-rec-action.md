@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-setup-rec-action.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Account onboarding, Configure, Customer Success Management]
+breadcrumb: [Account onboarding playbook, Configure, Customer Success Management]
 ---
 
 # Set up recommended actions for account onboarding
@@ -37,5 +37,5 @@ Role required: sn\_acct\_lc.agent
     For more information, see [Creating guidance and field recommendation in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/ra-csm-config-recommendations.md).
 
 
-**Parent Topic:**[Account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-configure.md)
+**Parent Topic:**[Configure the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-configure.md)
 

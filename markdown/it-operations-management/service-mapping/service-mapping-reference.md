@@ -7,7 +7,7 @@ release: zurich
 product: Service Mapping
 classification: service-mapping
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -18,6 +18,8 @@ Reference topics provide additional information about mapping and fine-tuning ap
 
 -   **[Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/sm-dashboard.md)**  
 The Service Mapping workspace provides a central location to streamline the process of mapping your application services. Use the visualizations and reports to analyze, monitor, and update your resources, create application services, and manage your service mapping tasks efficiently.
+-   **[Service Mapping AI Agent activity list tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/sm-ai-agent-activity-columns.md)**  
+Use this reference to interpret the tables in the Service Mapping AI Agent activity list.
 -   **[Predefined traversal rules for application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/default-traversal-rules.md)**  
 Service Mapping uses traversal rules to bring in related configuration items and expand the application service map. Several predefined rules are provided by default to help find and correctly map these relationships.
 -   **[Traversal Rules for Application Services form completion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/traversal_rules_form_completion.md)**  

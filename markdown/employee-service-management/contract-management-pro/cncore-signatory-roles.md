@@ -7,8 +7,8 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: reference
-last_updated: "2026-06-24"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 keywords: [signatory role, signer, viewer, receiver, approver, signatory status]
 breadcrumb: [Reference, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -94,6 +94,8 @@ Controls the visibility of the **Role** field in internal signatory rules, and t
 
 [Contract request State and Contract document status in Contract Management Pro]()
 
+[Amendment and renewal interaction messages]()
+
 [Clause Variation form]()
 
 [Contract Configuration form]()
@@ -111,6 +113,14 @@ Controls the visibility of the **Role** field in internal signatory rules, and t
 [Obligation form]()
 
 [Obligation Management notifications]()
+
+[Contract Analysis Playbook form]()
+
+[Contract analysis playbook tool messages]()
+
+[Contract request ticket page actions]()
+
+[Default availability of out-of-the-box record producers]()
 
 [Contract Management Pro glossary]()
 

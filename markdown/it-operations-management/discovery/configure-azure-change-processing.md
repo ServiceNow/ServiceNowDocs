@@ -7,9 +7,9 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-08-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Azure change processing, Discovery for Microsoft Azure Cloud, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Azure change processing, Discovery for Microsoft Azure, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Enable Azure change processing

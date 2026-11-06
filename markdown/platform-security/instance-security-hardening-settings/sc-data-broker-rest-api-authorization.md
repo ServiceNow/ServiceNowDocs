@@ -1,5 +1,5 @@
 ---
-title: Require authorization for data broker rest API \[Updated in Security Center 1.3\]
+title: Require authorization for data broker rest API
 description: Use the glide.basicauth.required.databrokerrestapiprocessor property to require basic authorization for all inbound Data Broker Rest API requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-data-broker-rest-api-authorization.html
@@ -7,16 +7,16 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Architecture, design, and threat modeling, Hardening settings, Platform Security]
 ---
 
-# Require authorization for data broker rest API \[Updated in Security Center 1.3\]
+# Require authorization for data broker rest API
 
 Use the **glide.basicauth.required.databrokerrestapiprocessor** property to require basic authorization for all inbound Data Broker Rest API requests.
 
-If this property is set to **true**, then authorization is applied. If it is set to **false**, then no authorization is used which could lead to sensitive information being leaked from your instance.
+If the **glide.basicauth.required.databrokerrestapiprocessor** system property is not set to the recommended value of **true**, then basic authorization is not required for all inbound Data Broker Rest API requests.
 
 **Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It is non-revertible.
 
@@ -72,6 +72,14 @@ true
 
 </td></tr><tr><td>
 
+Fallback value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
 Category
 
 </td><td>
@@ -85,8 +93,16 @@ Security risk
 </td><td>
 
 -   Severity score: 8.6
--   CVSS score: High
--   Security risk details: If property is set to **false**, then API authentication will not be applied enabling a bad-actor to access sensitive data.
+-   CVSS rating: High
+-   Security risk details: This could lead to unauthenticated information disclosure from the instance.
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+None
 
 </td></tr><tr><td>
 

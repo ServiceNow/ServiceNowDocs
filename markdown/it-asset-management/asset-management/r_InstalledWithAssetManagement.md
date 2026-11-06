@@ -1,5 +1,5 @@
 ---
-title: Installed with Asset Management
+title: Installed with Base Asset Management
 description: Several tables, user roles, UI policies, script includes, client scripts, and business rules are installed with Asset Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/asset-management/r\_InstalledWithAssetManagement.html
@@ -7,12 +7,12 @@ release: zurich
 product: Asset Management
 classification: asset-management
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 13
-breadcrumb: [Reference, Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 14
+breadcrumb: [Reference, Base Asset Management, Common applications, Asset Management]
 ---
 
-# Installed with Asset Management
+# Installed with Base Asset Management
 
 Several tables, user roles, UI policies, script includes, client scripts, and business rules are installed with Asset Management.
 
@@ -20,7 +20,7 @@ Demo data is available with asset management. The demo data provides information
 
 ## Tables
 
-Asset Management includes the following tables.
+Base Asset Management includes the following tables.
 
 <table id="table_q2k_3xf_jq"><thead><tr><th>
 
@@ -161,7 +161,7 @@ Enables ServiceNow to categorize the User Entitlement table and enforce how enti
 </td></tr></tbody>
 </table>## User roles
 
-Asset Management includes the following user roles.
+Base Asset Management includes the following user roles.
 
 <table id="table_cck_nyf_jq"><thead><tr><th>
 
@@ -239,9 +239,199 @@ sam
 -   Controls the Software Asset Management IBM PVU Process Pack, if activated.
 
 </td></tr></tbody>
+</table>## Granular roles
+
+<table id="table_rrq_kzw_h3c"><thead><tr><th>
+
+Asset Management functionality
+
+</th><th>
+
+Granular admin role
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Asset job log and asset job log detail
+
+</td><td>
+
+asset\_system\_admin
+
+</td><td>
+
+Provides read access to Asset job log \[asset\_job\_log\] and Asset job log detail \[asset\_job\_log\_detail\] tables and their reports.
+
+</td></tr><tr><td>
+
+Asset task
+
+</td><td>
+
+asset\_task\_admin
+
+</td><td>
+
+Allows create and delete operations on Asset task \[asset\_task\] table.
+
+</td></tr><tr><td>
+
+Content audit
+
+</td><td>
+
+asset\_system\_admin
+
+</td><td>
+
+Provides access to read and view reports on Asset content audit \[asset\_content\_audit\] table.
+
+</td></tr><tr><td>
+
+Transfer order
+
+</td><td>
+
+asset\_system\_admin
+
+</td><td>
+
+-   Provides access to write, delete, and create records on the following tables:
+    -   Custom Template Task \[alm\_custom\_template\_task\]
+    -   Template Subtask \[alm\_template\_subtask\]
+-   Provides access to modules that include **Transfer Order Lines**, **Template Tasks**, and **Template Subtasks**.
+-   Provides access to manage transfer order operations including copying default templates, closing tasks and subtasks.
+
+</td></tr><tr><td>
+
+Procurement - Consume Asset Task
+
+</td><td>
+
+procurement\_system\_admin
+
+</td><td>
+
+Provides access to create and delete records on Consume asset task \[consume\_asset\_task\] table, and perform close task UI action.
+
+</td></tr><tr><td>
+
+Procurement-related system property
+
+</td><td>
+
+procurement\_system\_admin
+
+</td><td>
+
+Provides access to the **glide.model.catalog\_item\_currency** system property.
+
+</td></tr><tr><td>
+
+Contract
+
+</td><td>
+
+contract\_system\_admin
+
+</td><td>
+
+-   Provides access to **Condition check definitions** menu. Navigation path-**All** &gt; **Contract** &gt; **Administration** &gt; **Condition check definitions**
+-   Provides read access to Condition check \[clm\_condition\_check\] table
+-   Provides list edit access for Asset Covered \[clm\_m2m\_contract\_asset\] table
+-   Provides access to the following system properties:
+    -   **com.sn\_itam.enable\_flow\_designer.contract\_approval**
+    -   **contract\_compliance\_check\_job.batchSize**
+    -   **contract\_compliance\_check\_job.enable\_override**
+    -   **contract\_compliance\_check\_job.batching**
+
+</td></tr><tr><td>
+
+Asset Management system properties
+
+</td><td>
+
+asset\_system\_admin
+
+</td><td>
+
+Access to the following system properties:-   **glide.ui.cmdb\_model\_category\_activity.fields**
+-   **glide.create\_alm\_asset.async**
+-   **glide.ui.alm\_license\_activity.fields**
+-   **glide.ui.sn\_itam\_common\_rfid\_asset\_activity.fields**
+-   **sn\_itam\_trigger\_depreciation\_job\_after\_days**
+-   **glide.cmdb\_model.display\_name.shorten**
+-   **glide.ui.alm\_asset\_activity.fields**
+-   **glide.ui.alm\_pallet\_activity.fields**
+-   **sn\_itam\_exclude\_ibi\_asset\_reporting**
+-   **glide.ui.alm\_consumable\_activity.fields**
+-   **sn\_itam\_workspace.asset\_overview\_enable\_lazy\_loading**
+-   **sn\_itam\_enable\_cache\_for\_asset\_ci\_mapping**
+-   **sn\_itam\_workspace.asset\_estate\_enable\_lazy\_loading**
+-   **glide.ui.alm\_hardware\_activity.fields**
+-   **glide.asset.create\_ci\_with\_ire**
+-   **sn\_itam\_enable\_caching\_for\_depreciation**
+-   **sn\_itam\_tol\_bulk\_update\_max\_count**
+-   **sn\_itam\_stockrulejob\_batch\_size**
+-   **sn\_itam\_workspace.customExtendedAssetClasses**
+-   **sn\_itam\_depreciation\_job\_last\_run**
+-   **glide.asset.procurement.sourcing.local\_stock\_transfer**
+-   **sn\_itam\_enable\_pid\_recalculation\_for\_child\_asset**
+
+</td></tr><tr><td>
+
+ITAM Licensing
+
+</td><td>
+
+asset\_licensing\_admin
+
+</td><td>
+
+-   Provides access to the following menu options under **ITAM licensing**:
+    -   **ITAM Subscription Summary**
+    -   **ITAM License Report**
+-   Allows read and report view access for records in the following tables:
+    -   ITAM Asset Usage \[itam\_asset\_usage\]
+    -   ITAM CI Usage \[itam\_ci\_usage\]
+    -   ITAM Licensing Resource Counts \[itam\_licensing\_resource\_counts\]
+
+</td></tr><tr><td>
+
+Recommendations
+
+</td><td>
+
+asset\_recommendation\_admin
+
+</td><td>
+
+Provides create, read, update, delete, and report view access to the following tables: -   Important Action Card \[sn\_itam\_recomm\_action\_card\]
+-   Important Actions Dashboard \[sn\_itam\_recomm\_dashboard\]
+-   Important Actions Dashboard Result \[sn\_itam\_recomm\_dashboard\_result\]
+-   Important Actions Setup \[sn\_itam\_recomm\_setup\]
+-   Important Actions Setup Result \[sn\_itam\_recomm\_setup\_result\]
+-   Important Actions Workspace \[sn\_itam\_recomm\_workspace\]
+
+</td></tr><tr><td>
+
+Model Management
+
+</td><td>
+
+asset\_system\_admin
+
+</td><td>
+
+Provides access to create assets from model categories.
+
+</td></tr></tbody>
 </table>## UI policies
 
-Asset Management includes the following UI policies.
+Base Asset Management includes the following UI policies.
 
 <table id="table_l1r_4zf_jq"><thead><tr><th>
 
@@ -379,7 +569,7 @@ Shows the Stockroom field if either of the following conditions is true:-   The 
 </td></tr></tbody>
 </table>## Script includes
 
-Asset Management includes the following script includes.
+Base Asset Management includes the following script includes.
 
 |Name|Description|
 |----|-----------|
@@ -405,7 +595,7 @@ Asset Management includes the following script includes.
 
 ## Client scripts
 
-Asset Management includes the following client scripts.
+Base Asset Management includes the following client scripts.
 
 <table id="table_m1b_pcg_jq"><thead><tr><th>
 
@@ -628,7 +818,7 @@ Verifies that stock exists to fulfill the quantity requested when the From stock
 </td></tr></tbody>
 </table>## Business rules
 
-Asset Management includes the following business rules.
+Base Asset Management includes the following business rules.
 
 <table id="table_rjq_j2g_jq"><thead><tr><th>
 
@@ -1166,17 +1356,4 @@ Verifies that the selected default stockroom isn’t of the Field Agent type.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/references-asset-management.md)
-
-**Related topics**  
-
-
-[Domain separation and Asset Management]()
-
-[Quick start test for Asset Management]()
-
-[Installed with Model Management]()
-
-[Transfer order line fields]()
-
-[Summary of transfer order line tasks]()
 

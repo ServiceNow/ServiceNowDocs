@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/quote-management-int-contracts-pro.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Quote Management, Configure, price, quote, Explore, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow Quote Experience, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Quote Management integration with Contract Management Pro

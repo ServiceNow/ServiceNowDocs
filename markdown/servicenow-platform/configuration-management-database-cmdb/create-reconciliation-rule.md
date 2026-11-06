@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Reconciliation rules, Configure, CMDB Identification and Reconciliation \(IRE\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -33,7 +33,7 @@ A static reconciliation rule specifies class attributes that discovery sources a
 
 ### Before you begin
 
-Role required: itil has read access, itil\_admin \(on top of itil\) has full access.
+Role required: sn\_cmdb\_editor and itil have read access, sn\_cmdb\_admin and itil\_admin \(on top\) have full access
 
 ### About this task
 
@@ -70,7 +70,7 @@ If there is a dynamic reconciliation rule for the same CI attribute as in a stat
 
 6.  Select the **Static Reconciliation Rule** tile if it appears.
 
-    If [CMDB 360/Multisource CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md) is not enabled, you can't create a dynamic reconciliation rule and the tiles to choose the rule type do not appear.
+    If [CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md) is not enabled, you can't create a dynamic reconciliation rule and the tiles to choose the rule type do not appear.
 
 7.  Fill out the fields on the **Add Data Sources &amp; Prioritize** tab, and then select **Next**.
 
@@ -151,7 +151,7 @@ Conditions that CIs must meet for the rule to be applicable.
     -   **Attributes**: To show only reconciliation rules for a specific attribute.
     -   **Discovery sources**: To show only reconciliation rules for a specific discovery source.
 -   Select **Preview Rule** to see per attribute, the precedence order between any discovery sources that are authorized to update that attribute and any dynamic reconciliation rules.
--   If [CMDB 360/Multisource CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md) is enabled, you can:
+-   If [CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md) is enabled, you can:
     -   Select **Preview Data** to see all attributes for a specific CI. Also, for each attribute, the current CMDB value and discovery sources reported values for the attribute.
     -   Select **Recompute** to [recompute CI attribute values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/recompute-attribute-values.md) after changing reconciliation rules.
 -   Navigate to **All** &gt; **Configuration** &gt; **Identification/Reconciliation** &gt; **Reconciliation Definitions** to see a list view of all definitions of reconciliation rules.
@@ -162,9 +162,9 @@ A dynamic reconciliation rule uses CMDB 360 data to choose a value such as the l
 
 ### Before you begin
 
-[CMDB 360/Multisource CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md) must be enabled.
+[CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md) must be enabled.
 
-Role required: itil has read access, itil\_admin \(on top of itil\) has full access
+Role required: sn\_cmdb\_editor and itil have read access, sn\_cmdb\_admin and itil\_admin \(on top\) have full access
 
 ### About this task
 

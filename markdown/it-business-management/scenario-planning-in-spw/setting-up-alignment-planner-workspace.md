@@ -7,7 +7,7 @@ release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -58,7 +58,7 @@ Use the following steps as guidelines to set up Strategic Planning. Some of thes
 
 11. Enable financial planning for epics and customise the Financials screen view.
 
-    See [Configure financials for planning items in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/config-fin-spw.md).
+    See [Configure financials for planning items Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/config-fin-spw.md).
 
 
 ## Guided Setup to configure Strategic Planning

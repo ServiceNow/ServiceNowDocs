@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Request repair of defective enterprise assets, Manage repair of defective assets in your stockroom in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Manage enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Request repair of defective enterprise assets, Manage repair of defective assets in your stockroom in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
 
 # Request repair of enterprise assets using Service Catalog
@@ -63,7 +63,7 @@ Stockroom that has assets to be repaired.
 
         You can add one or more assets to the request.
 
-    3.  Select the Lock icon \[Omitted image "unlock-icon.png"\] Alt text: Unlock capabilities icon..
+    3.  Select the Lock icon \[Omitted image "unlock-icon.png"\] Alt text:.
 
 4.  Select **Submit**.
 

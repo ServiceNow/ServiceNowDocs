@@ -7,9 +7,9 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Reference, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Policy and Compliance Management reference, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Domain separation in GRC: Policy and Compliance Management
@@ -51,9 +51,9 @@ While GRC supports separation of data, separation of logic and process is not fu
 
     ```
     * Global
-                        * Top
-                             * Domain A
-                             * Domain B
+                      * Top
+                          * Domain A
+                          * Domain B
     ```
 
 

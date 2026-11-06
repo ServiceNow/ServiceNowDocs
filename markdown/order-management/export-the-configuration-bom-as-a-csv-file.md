@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/export-the-configuration-bom-as-a-csv-file.html
 release: zurich
 topic_type: task
-last_updated: "2025-10-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ProductList.Type options: Accessory and Component, ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ProductList.Type options: Accessory and Component, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Export the configuration BOM to a CSV file

@@ -1,20 +1,20 @@
 ---
-title: Fulfill repair orders in the Enterprise Asset Workspace
-description: Fulfill a repair order by completing all the open repair asset tasks associated with its repair order lines.
+title: Manually fulfill repair orders in the Enterprise Asset Workspace
+description: Manually fulfill a repair order by completing all the open repair asset tasks associated with its repair order lines.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/fulfill-eam-repair-orders-in-ws.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage repair of defective assets in your stockroom in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Manage enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Fulfilling repair orders in the Enterprise Asset Workspace, Manage repair of defective assets in your stockroom in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
 
-# Fulfill repair orders in the Enterprise Asset Workspace
+# Manually fulfill repair orders in the Enterprise Asset Workspace
 
-Fulfill a repair order by completing all the open repair asset tasks associated with its repair order lines.
+Manually fulfill a repair order by completing all the open repair asset tasks associated with its repair order lines.
 
 A repair order can have one or more repair order lines depending on the number of assets to be repaired through that repair order. A repair order is fulfilled only when all its repair order lines are completed.
 
@@ -41,12 +41,5 @@ Cancel a repair order that no longer needs to be fulfilled.
 -   **[Cancel a repair order line in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/cancel-repair-order-line-eam-ws.md)**  
 Cancel a repair order line that no longer needs to be fulfilled.
 
-**Parent Topic:**[Manage repair of defective assets in your stockroom in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/manage-repair-of-defective-eam-assets.md)
-
-**Related topics**  
-
-
-[Request repair of defective enterprise assets]()
-
-[Record time worked on asset repair tasks in the Enterprise Asset Workspace]()
+**Parent Topic:**[Fulfilling repair orders in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/fulfilling-repair-orders-eam.md)
 

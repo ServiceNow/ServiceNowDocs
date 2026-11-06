@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/email-notifications-dashboard.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Email and SMS notifications, System notifications, Notifications, Configure core features, Administer]
+breadcrumb: [Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Email notifications dashboard
@@ -187,5 +187,5 @@ Configure data collection jobs for the email notification dashboard.
 
 [Domain separation and Notifications]()
 
-[Email FAQs and troubleshooting notification emails]()
+[Notification email logs and diagnostics]()
 

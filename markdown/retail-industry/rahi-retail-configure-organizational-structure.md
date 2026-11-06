@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/retail-industry/rahi-retail-configure-organizational-structure.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Retail]
 ---
@@ -16,7 +16,7 @@ Configure the structure of your retail organization within Retail Core.
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_rtl.retail\_admin
 
 ## About this task
 
@@ -34,7 +34,7 @@ Depending on the size of the retailer, support teams can be organized at various
 
 2.  Select the Retail organization that you want to configure the structure of.
 
-3.  Edit the **Parent Service Organization** field as needed.
+3.  Edit the **Parent Organization** field as needed.
 
 4.  In **Related Links**, you can set up your organizational hierarchy via adding a child organization to the current retail organization by selecting **New** in the Company Owned or Franchise tabs.
 

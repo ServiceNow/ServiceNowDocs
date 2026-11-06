@@ -1,5 +1,5 @@
 ---
-title: Feedback
+title: Feedback in Strategic Planning
 description: Build a customer-centric feedback management system and optimize the process of creating and associating feedback and product ideas with Feedback application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/product-feedback/product-feedback-landing.html
@@ -7,12 +7,12 @@ release: zurich
 product: Product Feedback
 classification: product-feedback
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Feedback
+# Feedback in Strategic Planning
 
 Build a customer-centric feedback management system and optimize the process of creating and associating feedback and product ideas with Feedback application.
 
@@ -24,7 +24,7 @@ The Feedback application is available for users with a Strategic Portfolio Manag
 
 The Feedback application simplifies the process of gathering and analyzing user feedback to make informed decisions on your product. The intuitive interface provides real-time feedback on your product features, usability, and performance and help users to share their thoughts. With Feedback application, you create feedback or product ideas and link them with a feedback or product idea or planning or non-planning items.
 
-Leverage the multi-feedback summarization skill to quickly summarize one or multiple feedback and streamline feedback analysis. Create planning or non-planning items by copying the generated summary and save time on manual item creation. Use the Planning item Gen AI Docs skill to generate a summary from selected content in Docs.
+Leverage the multi-feedback summarization skill to quickly summarize one or multiple feedback and streamline feedback analysis. Create planning or non-planning items by copying the generated summary and save time on manual item creation. Use the Planning Item Doc Summarization and Actions skill to generate a summary from selected content in Docs.
 
 ## Get started
 

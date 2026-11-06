@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-10-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing inbound asset orders for requested DaaS assets, Enterprise Asset Management for Providers, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Managing inbound asset orders for requested DaaS assets, Enterprise Asset Management for Providers, Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
 ---
 
 # Create an inbound asset order line for a requested Device as a Service \(DaaS\) asset
@@ -26,15 +26,15 @@ Role required: sn\_eam\_provider.provider\_asset\_manager
 
 2.  Open the Inbound asset order lines list.
 
-<table id="choicetable_my1_vjg_bhc"><thead><tr><th align="left" id="d175773e78">
+<table id="choicetable_my1_vjg_bhc"><thead><tr><th align="left" id="d186130e78">
 
 Navigation option
 
-</th><th align="left" id="d175773e81">
+</th><th align="left" id="d186130e81">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d175773e87">
+</th></tr></thead><tbody><tr><td id="d186130e87">
 
 **Provider inbound asset order**
 
@@ -45,7 +45,7 @@ Procedure
 3.  On the inbound asset order record, select the **Inbound asset order lines** tab.
 
 
-</td></tr><tr><td id="d175773e120">
+</td></tr><tr><td id="d186130e120">
 
 **Provider inbound asset order line**
 

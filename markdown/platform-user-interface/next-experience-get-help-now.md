@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/next-experience-get-help-now.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working in Next Experience, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Explore, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Get help with Next Experience

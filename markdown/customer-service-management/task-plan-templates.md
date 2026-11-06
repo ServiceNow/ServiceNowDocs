@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/task-plan-templates.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 8
+last_updated: "2026-09-04"
+reading_time_minutes: 10
 breadcrumb: [Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
@@ -55,11 +55,14 @@ The Task Plan Templates application adds the Task Plan Templates module to the a
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Creating task plan templates
 
-A business process owner can create a task plan template by following these steps.
+Business process owners can create a task plan template in either of the following ways:
+
+-   **Manually**: Add the template, template items, conditions, and dependencies field by field. Follow the steps in this section.
+-   **From an uploaded document**: Upload a process document or diagram and let the AI agentic workflow extract the tasks and dependencies to generate a draft template. For more information, see [Create a task plan template from a document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-task-plan-template-from-document.md).
 
 <table id="table_p2k_vsl_rfc"><thead><tr><th>
 
@@ -167,9 +170,13 @@ You can apply task plan templates to existing cases or to new cases. When a case
 
 Task plan templates can be applied manually or automatically to an existing entity.
 
+Before generating records for multiple business organizations, populate the tracking fields on each template item, or on the template item configuration that the template item references. These fields record the template item, the template execution, and the business organization for each generated record. For more information, see [Template item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/task-plan-template-item-form.md).
+
+When records are generated for multiple business organizations, task dependencies and document references defined on the template items carry through to the generated records. Dependencies are paired within each business organization, and each generated record keeps the document references of its source template item. For more information, see [Task Dependencies for Task Plan Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/task-dependencies-for-task-plan-templates.md) and [Document References in Task Plan Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/adding-and-managing-document-references-in-task-plan-templates.md).
+
 ## Get Started tab in the contextual side panel
 
-The Get Started tab in the contextual side panel in CSM Configurable Workspace displays information about task plan templates, template items, and template item conditions.
+The Get Started tab in the contextual side panel in CRM Workspace displays information about task plan templates, template items, and template item conditions.
 
 This tab is available for the following tables:
 

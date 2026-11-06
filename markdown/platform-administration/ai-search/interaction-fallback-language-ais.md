@@ -7,9 +7,9 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Internationalization support, Administer, AI Search, Search administration, Configure core features, Administer]
+breadcrumb: [Internationalization support, Administer, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # AI Search interaction with fallback languages
@@ -22,11 +22,11 @@ If you set a fallback language for the user's ServiceNow AI Platform® session l
 
 As an example, suppose you configure Spanish as the fallback language for Mexican Spanish. With this configuration, users searching in Mexican Spanish sessions can find knowledge articles in both Mexican Spanish and Spanish. AI Search uses the Mexican Spanish and Spanish dictionaries and result improvement rules when matching articles in Mexican Spanish. It uses the Spanish dictionaries and result improvement rules when matching articles in Spanish.
 
-
+\[Omitted image "diagram-fallback-language.png"\] Alt text: Diagram showing es-MX user session language and es fallback language.
 
 If you configure a global fallback locale in addition to a fallback language, AI Search returns matching results for translated content in the user's session language, the fallback language, and the global fallback locale's language. As an example, suppose you configure French as the fallback language for Canadian French, and also configure English as the global fallback locale. Users searching in Canadian French sessions can search knowledge articles in Canadian French, French, and English.
 
-
+\[Omitted image "diagram-fallback-language-locale.png"\] Alt text: Diagram showing fr-CA user session language, fr fallback language, and en global fallback locale.
 
 For details on configuring a global fallback locale, see [Enable a global fallback locale for translated content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/enable-global-fallback-lang-ais.md).
 

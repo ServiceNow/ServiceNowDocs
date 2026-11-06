@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/create-product-recommendations.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure needs analysis, Product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configuring needs analysis, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a needs-based product offering recommendation
@@ -22,7 +22,7 @@ Role required: sn\_prd\_pm.product\_catalog\_manager, sn\_prd\_pm.product\_catal
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Needs** &gt; **Needs Based Offering Recommendation** and select **New**.
 
@@ -42,4 +42,11 @@ Role required: sn\_prd\_pm.product\_catalog\_manager, sn\_prd\_pm.product\_catal
 ## What to do next
 
 [Create a decision tree for a needs template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-needs-decision-tree.md).
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/product-catalog-managment.md)
 

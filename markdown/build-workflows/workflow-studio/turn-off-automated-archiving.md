@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Archive process contexts, Administering playbooks, Playbooks, Configure, Workflow Studio, Build workflows]
+breadcrumb: [Archive process contexts, Administering Playbooks, Configure, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Turn off automated archiving
@@ -38,6 +38,10 @@ If you want to change the number of days to before a playbook is archived instea
 
     Automated archiving is turned off.
 
+
+## Turn off archiving
+
+\[Omitted image "turn-off-archiving.gif"\] Alt text: The process to edit the archiving property.
 
 **Parent Topic:**[Archive process contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/archive-process-executions.md)
 

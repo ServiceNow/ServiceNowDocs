@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/vc-refine-using-ide.html
 release: zurich
 topic_type: concept
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Build Agent overview, Develop, Agentic development, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
+breadcrumb: [Build Agent overview, Develop, Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Agentic development app refinement in the ServiceNow IDE
@@ -22,9 +22,9 @@ For full documentation on using the ServiceNow IDE, see [ServiceNow IDE](https:/
 
 ## Agentic development workflow in the ServiceNow IDE
 
-To refine your vibe-coded app in the ServiceNow IDE, follow these steps:
+To refine your app in the ServiceNow IDE, follow these steps:
 
-1.  Create a workspace. Use Build Agent to create or edit application metadata. For more information, see [ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator-landing.md).
+1.  Create a workspace. Use Build Agent to create or edit application metadata. For more information, see [ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-creator/now-assist-for-creator-landing.md).
 2.  Create an app.
     -   Use Build Agent to create the app.
     -   You can choose to edit an existing app.
@@ -32,7 +32,7 @@ To refine your vibe-coded app in the ServiceNow IDE, follow these steps:
     -   Review business rules, script includes, and flow logic.
     -   Apply general guidelines for performance and security.
 4.  Inspect the metadata objects and adjust the data model.
-    -   Launch the ServiceNow IDE and load the app created by Now Assist or Build Agent.
+    -   Launch the ServiceNow IDE and load the app created by ServiceNow Otto or Build Agent.
     -   The ServiceNow IDE Metadata Explorer displays all generated metadata, including tables, scripts, forms, flows, UI components, and ACLs.
     -   Verify field types, choice lists, default values, and relationships.
     -   Confirm indexes and unique keys are set appropriately for your use case.
@@ -58,7 +58,7 @@ To refine your vibe-coded app in the ServiceNow IDE, follow these steps:
 
 ## ServiceNow Fluent and agentic development
 
-ServiceNow Fluent is a development framework and SDK for ServiceNow that connects traditional coding with AI-assisted workflow automation.
+ServiceNow Fluent is a development framework and SDK for ServiceNow that connects traditional coding with agentic workflow automation.
 
 With ServiceNow Fluent, you can:
 
@@ -70,12 +70,12 @@ With ServiceNow Fluent, you can:
 
 ServiceNow Fluent works with agentic development and Build Agent. You can generate an app or flow using conversational prompts, then refine, extend, and harden it using the ServiceNow Fluent code-centric tools. Both pro-code and low-code developers can collaborate and iterate, using the strengths of agentic and modern development.
 
-**Important:** Build Agent only creates metadata supported by ServiceNow® Fluent. For more information, see [ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-fluent.md). For the latest API reference, see [https://servicenow.github.io/sdk/](https://servicenow.github.io/sdk/)
+**Important:** Build Agent and Autonomous Engineer only create metadata supported by ServiceNow® Fluent. For more information, see [ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-fluent.md). For the latest API reference, see [https://servicenow.github.io/sdk/](https://servicenow.github.io/sdk/)
 
 ## When to choose the ServiceNow IDE or ServiceNow Studio
 
 1.  ServiceNow IDE: Best for file‑centric, code‑heavy edits, rapid iteration, and pairing with the ServiceNow SDK for local dev/CI. Suitable for developers familiar with the ServiceNow AI Platform.
 2.  ServiceNow Studio: Best for metadata‑centric review \(tables, ACLs, roles\) and cross‑scope editing with a visual overview of app artifacts; keeps Now Assist in‑context for conversational adjustments. Suitable for developers with various levels of experience on the ServiceNow AI Platform.
 
-**Parent Topic:**[AI-assisted ServiceNow AI Platform development with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/vc-build-agent-landing.md)
+**Parent Topic:**[Agentic ServiceNow AI Platform development with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/vc-build-agent-landing.md)
 

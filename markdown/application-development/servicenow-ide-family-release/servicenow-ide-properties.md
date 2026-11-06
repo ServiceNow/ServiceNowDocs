@@ -7,9 +7,9 @@ release: zurich
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Reference, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Reference, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # ServiceNow IDE properties
@@ -52,7 +52,7 @@ sn\_glider.fluent\_convert\_enabled
 
 </td><td>
 
-Enables converting existing scoped applications that weren't created with the ServiceNow IDE or ServiceNow SDK to support development in source code from the ServiceNow IDE.-   Type: true \| false
+Enables converting existing applications that weren't created with the ServiceNow IDE or ServiceNow SDK to support development in source code from the ServiceNow IDE.-   Type: true \| false
 -   Default value: true
 -   Location: Add the property to the System Property \[sys\_properties\] table
 -   Learn more: [Convert an application with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-ide-family-release/convert-application-servicenow-ide.md)

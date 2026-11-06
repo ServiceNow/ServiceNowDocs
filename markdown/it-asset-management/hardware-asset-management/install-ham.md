@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Installing Hardware Asset Management, Configure, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Installing Hardware Asset Management, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Install Hardware Asset Management from the ServiceNow Store
@@ -54,4 +54,6 @@ For more information, see [Installed with Hardware Asset Management](https://raw
 
 6.  Select **Install**.
 
+
+**Parent Topic:**[Installing Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/installing-ham-app.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/add-or-create-issue-from-plan-uib-ws.html
 release: zurich
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [BCM, issues, plan]
 breadcrumb: [Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
@@ -31,15 +31,15 @@ The **Issues** related list appears on a plan record when GRC: Profiles is insta
 
 2.  Complete the following steps to create or manage an issue from a plan record.
 
-<table id="choicetable_p55_b3s_jkc"><thead><tr><th align="left" id="d295056e109">
+<table id="choicetable_p55_b3s_jkc"><thead><tr><th align="left" id="d163571e109">
 
 Step
 
-</th><th align="left" id="d295056e112">
+</th><th align="left" id="d163571e112">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d295056e118">
+</th></tr></thead><tbody><tr><td id="d163571e118">
 
 **Create or add an issue from the plan record**
 
@@ -72,7 +72,7 @@ Use this option when you want to associate an existing issue with the plan as an
 
 The issue association is removed from the plan; the issue record isn't deleted from the instance.
 
-</td></tr><tr><td id="d295056e193">
+</td></tr><tr><td id="d163571e193">
 
 **Link a plan from the issue record**
 

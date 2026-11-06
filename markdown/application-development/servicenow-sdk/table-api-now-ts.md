@@ -7,9 +7,9 @@ release: zurich
 product: ServiceNow SDK
 classification: servicenow-sdk
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 17
-breadcrumb: [ServiceNow Fluent API reference, Reference, ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 18
+breadcrumb: [ServiceNow Fluent API reference, Reference, ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Table API - ServiceNow Fluent
@@ -602,6 +602,25 @@ Flag that indicates whether you can edit the field value.Valid values:
 -   false: You can change the field value.
 
 Default: false
+
+</td></tr><tr><td>
+
+readOnlyOption
+
+</td><td>
+
+String
+
+</td><td>
+
+Control the ability to edit read-only fields by configuring read-only options.Valid values:
+
+-   instance\_configured: Maintains backwards compatibility and testing read-only behavior in non-production instances.
+-   display\_read\_only: Displays the field as read-only in the UI, but allows changes to the read-only field through client scripts and server-side operations such as TableAPI, GraphQL, and GlideRecordSecure\(\).
+-   client\_script\_modifiable: Displays the field as read-only in the UI, and allows changes to read-only fields through client scripts but not through background scripts or server-side APIs like TableAPI, GraphQL, and GlideRecordSecure\(\).
+-   strict\_read\_only: Displays the field as read-only in the UI, but prevents any changes from both client scripts and server-side APIs.
+
+For more information, see .
 
 </td></tr><tr><td>
 

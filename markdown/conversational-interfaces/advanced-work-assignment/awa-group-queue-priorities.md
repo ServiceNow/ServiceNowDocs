@@ -7,7 +7,7 @@ release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: concept
-last_updated: "2026-02-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Explore, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -153,5 +153,4 @@ Outcome
 -   Agent 1 gets the last two items from Queue C
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-overview.md)
-
+</table>

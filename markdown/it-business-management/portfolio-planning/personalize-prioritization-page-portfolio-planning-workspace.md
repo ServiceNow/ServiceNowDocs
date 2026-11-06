@@ -7,7 +7,7 @@ release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Personalizing views for prioritization, Prioritize portfolio plan work, Portfolio Planning, Strategic Portfolio Management]
@@ -53,15 +53,15 @@ Personalization preferences are saved as the portfolio plan's settings in Portfo
 
     Use one of the following ways to group the planning items. Repeat the action to group the list by multiple attributes.
 
-<table id="choicetable_mwf_cgk_htb"><thead><tr><th align="left" id="d131172e191">
+<table id="choicetable_mwf_cgk_htb"><thead><tr><th align="left" id="d138794e191">
 
 Choice
 
-</th><th align="left" id="d131172e194">
+</th><th align="left" id="d138794e194">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d131172e200">
+</th></tr></thead><tbody><tr><td id="d138794e200">
 
 **Drag and drop**
 
@@ -73,7 +73,7 @@ Drag and drop a column name to the **Grouped by** bar above the list.
 
  \[Omitted image "backlog-grouping-animation.gif"\] Alt text: Animation showing grouping the backlog list by planning item type.
 
-</td></tr><tr><td id="d131172e228">
+</td></tr><tr><td id="d138794e228">
 
 **Use Column actions**
 

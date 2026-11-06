@@ -1,5 +1,5 @@
 ---
-title: Configuring decision tables
+title: Configuring decision tables for Telecommunications Network Inventory
 description: You can configure decision tables to resolve complex tasks in the Telecommunications Network Inventory application. For example, you can create, review, or delete an entry for tasks in a decision table in Decision Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/decision\_tables.html
@@ -7,16 +7,16 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Telecommunications Network Inventory]
 ---
 
-# Configuring decision tables
+# Configuring decision tables for Telecommunications Network Inventory
 
 You can configure decision tables to resolve complex tasks in the Telecommunications Network Inventory application. For example, you can create, review, or delete an entry for tasks in a decision table in Decision Builder.
 
-By using a decision table, you can add the required conditions to automate your tasks. Decision tables in Decision Builder embed business logic into a series of if-then decision rules. Decision tables read data from the inputs and evaluate the data according to the specified conditions. When all the conditions for a decision rule are met, the decision table returns one or more results. To learn more, see .
+By using a decision table, you can add the required conditions to automate your tasks. Decision tables in Decision Builder embed business logic into a series of if-then decision rules. Decision tables read data from the inputs and evaluate the data according to the specified conditions. When all the conditions for a decision rule are met, the decision table returns one or more results. To learn more, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/decision-table.md).
 
 You can use the decision tables in the Telecommunications Network Inventory application to do the following tasks:
 
@@ -26,9 +26,9 @@ You can use the decision tables in the Telecommunications Network Inventory appl
 
 -   **[Order Management for Telecommunications integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/decision_table_for_tni_omt_integration.md)**  
 Use a Telecommunications Network Inventory decision table to integrate the Telecommunications Network Inventory and Order Management for Telecommunications applications.
--   **[Assign record producer form to a change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create_record_producer_form_for_a_change_request.md)**  
+-   **[Assign a record producer form to a change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create_record_producer_form_for_a_change_request.md)**  
 Assign a record producer to a change request by using a decision table in the Telecommunications Network Inventory application.
--   **[Assign record producer form for a request type of a change task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/assign_record_producer_form_for_a_change_task_of_a_change_request.md)**  
+-   **[Assign a record producer form for a request type of a change task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/assign_record_producer_form_for_a_change_task_of_a_change_request.md)**  
 Assign a record producer to a change task of a change request with the help of a decision table in Telecommunications Network Inventory application.
 -   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/clone-and-revise-a-ci.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/clone-and-revise-a-ci.md)**  
 

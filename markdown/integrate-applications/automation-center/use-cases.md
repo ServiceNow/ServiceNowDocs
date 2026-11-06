@@ -7,9 +7,9 @@ release: zurich
 product: Automation Center
 classification: automation-center
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Applying Common Service Data Model guidelines to Automation Center, Configure, Automation Center, Workflow Data Fabric]
+breadcrumb: [CSDM guidelines, Configure, Automation Center, Workflow Data Fabric]
 ---
 
 # Automation Center use cases
@@ -29,6 +29,8 @@ When flows are tracked as automations, the data is populated in the cmdb\_ci\_fl
 ServiceNow Robotic Process Automation data is populated in the cmdb\_ci\_rpa\_process table. All third-party Robotic Process Automation data is stored in the cmdb\_ci\_base\_rpa\_process table. The data from these two tables is then reflected in the automation\_attribute table. The automation field in the automation\_attribute table is referenced in the cmdb\_ci table. It is from here that the data is displayed in the Automation Center dashboard.
 
 ServiceNow robot data is populated in the cmdb\_ci\_rpa\_robot table. All third-party robot data is stored in the cmdb\_ci\_base\_rpa\_robot table. The data from these two tables is then reflected in the automation\_attribute table. The automation field in the automation\_attribute table is referenced in the cmdb\_ci table. It is from here that the data is displayed in the Automation Center dashboard.
+
+\[Omitted image "cmdb-table.png"\] Alt text: CMDB tables in Automation Center
 
 **Parent Topic:**[Applying Common Service Data Model guidelines to Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/applying-csdm.md)
 

@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-10-01"
 reading_time_minutes: 1
 keywords: [Agent Client Collector for Visibility, ACC-VC, non-persistent VDI, NPVDI, system properties]
-breadcrumb: [Agent Client Collector for Visibility Content reference, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC-VC reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
 
 # ACC-VC NPVDI system properties
@@ -65,4 +65,6 @@ Any other value is ignored.The following inventory areas run on every check and 
 
 </td></tr></tbody>
 </table>When you update either property, the instance regenerates the NPVDI configuration file \(`NPVDIConfig.json`\) that ACC-VC uses on NPVDI agents. A daily scheduled job also refreshes this file.
+
+**Parent Topic:**[Agent Client Collector for Visibility Content reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/agent-client-collector-for-visibility-references.md)
 

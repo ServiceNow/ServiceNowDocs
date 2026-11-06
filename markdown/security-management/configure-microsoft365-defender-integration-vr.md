@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/configure-microsoft365-defender-integration-vr.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [what are requirements for integration, how to configure microsoft defender for office 365 integration, how to set up phishing simulation]
 breadcrumb: [Security Simulation and Training Integration for Security Operations, Cybersecurity Executive Dashboard, Security Operations]

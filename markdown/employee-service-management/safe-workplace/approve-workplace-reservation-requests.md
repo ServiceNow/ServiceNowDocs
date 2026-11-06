@@ -7,7 +7,7 @@ release: zurich
 product: Safe Workplace
 classification: safe-workplace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workplace Core, Safe Workplace, Health and Safety, Employee Service Management]
 ---
@@ -26,15 +26,15 @@ Role required: approver\_user
 
 1.  Navigate to a reservation approval task.
 
-<table id="choicetable_dpt_bjp_zlb"><thead><tr><th align="left" id="d706352e71">
+<table id="choicetable_dpt_bjp_zlb"><thead><tr><th align="left" id="d717359e71">
 
 Application
 
-</th><th align="left" id="d706352e74">
+</th><th align="left" id="d717359e74">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d706352e80">
+</th></tr></thead><tbody><tr><td id="d717359e80">
 
 **Now Mobile**
 

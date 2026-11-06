@@ -7,7 +7,7 @@ release: zurich
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Migrating automations from third-party applications, Use, Automation Center, Workflow Data Fabric]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
 
 1.  Navigate to **Workspaces** &gt; **Automation Center Workspace**.
 
-2.  Select the Migration accelerator icon \(\[Omitted image "mig-acc-icon.png"\] Alt text: Migration accelerator icon\) on the side bar.
+2.  Select the Migration accelerator icon \(\[Omitted image "mig-acc-icon.png"\] Alt text: Migration accelerator icon\) on the sidebar.
 
 3.  Select the report whose details you want to view.
 

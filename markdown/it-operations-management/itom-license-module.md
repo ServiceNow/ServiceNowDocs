@@ -1,22 +1,23 @@
 ---
 title: Subscriptions for IT Operations Management
-description: The ServiceNow AI Platform uses a licensing method where your organization is billed for using the following IT Operations Management products: ServiceNow ITOM Visibility, ServiceNow ITOM Discovery, ServiceNow ITOM AIOps, ServiceNow Health Log Analytics, ServiceNow ITOM Optimization, and ServiceNow ITOM Cloud Accelerate.
+description: The ServiceNow AI Platform uses a licensing method where your organization is billed for using the following IT Operations Management products: ServiceNow ITOM Visibility, ServiceNow ITOM Discovery, ServiceNow ITOM AIOps, ServiceNow Health Log Analytics, ServiceNow ITOM Optimization, ServiceNow ITOM Cloud Accelerate, ServiceNow Service Reliability Management, ServiceNowSLO Management, ServiceNow Service Observability, and ServiceNow synthetic monitoring.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-license-module.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 4
-breadcrumb: [Explore ITOM/OT SU Licensing, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
+last_updated: "2026-10-18"
+reading_time_minutes: 6
+breadcrumb: [Explore, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---
 
 # Subscriptions for IT Operations Management
 
-The ServiceNow AI Platform® uses a licensing method where your organization is billed for using the following IT Operations Management products: ServiceNow® ITOM Visibility, ServiceNow® ITOM Discovery, ServiceNow® ITOM AIOps, ServiceNow® Health Log Analytics, ServiceNow® ITOM Optimization, and ServiceNow® ITOM Cloud Accelerate.
+The ServiceNow AI Platform® uses a licensing method where your organization is billed for using the following IT Operations Management products: ServiceNow® ITOM Visibility, ServiceNow® ITOM Discovery, ServiceNow® ITOM AIOps, ServiceNow® Health Log Analytics, ServiceNow® ITOM Optimization, ServiceNow® ITOM Cloud Accelerate, ServiceNow® Service Reliability Management, ServiceNow®SLO Management, ServiceNow® Service Observability, and ServiceNow® synthetic monitoring.
 
 For licensing purposes, licensable resources are assigned to CI categories. License usage is measured using subscription units, which may cover a different number of resources, depending on the resource CI category. The customer contract for your organization determines the CI categories from the available options, and also the ratios of CI allocation for subscription units in each CI category. Information from the customer contract is synchronized with the ServiceNow platform. The latest version of ServiceNow® ITOM/OT SU Licensing supports the following CI categories:
 
 -   Containers
+-   Container images
 -   PaaS
 -   FaaS
 -   Servers
@@ -25,6 +26,11 @@ For licensing purposes, licensable resources are assigned to CI categories. Lice
 -   End User Devices
 -   IoT
 -   Customer Prem Devices
+-   APIs
+-   AI agents
+-   GPUs
+-   Service Instances
+-   UMOs
 
 You have the option to buy subscriptions for individual ITOM products separately \(a la carte\) or as part of a bundle with multiple products. You can also purchase both—a bundle subscription that covers most required applications and an a la carte subscription for applications that consume more subscription units. For more information, see [ITOM/OT SU Licensing subscription types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-licensing-subscription-types.md).
 
@@ -32,7 +38,7 @@ ServiceNow® charges for the following IT Operations Management products:
 
 -   **ITOM Visibility**
 
-    The ServiceNow® ITOM Visibility product consists of ServiceNow® [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r-discovery.md), ServiceNow® [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/c_ServiceMappingOverview.md), Certificate Inventory and Management, Service Graph Connectors, CMDB 360, and Firewall Audits and Reporting. Discovery and Service Mapping give you a unified, connected view of your entire IT network and the services that it supports.
+    The ServiceNow® ITOM Visibility product consists of ServiceNow® [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r-discovery.md), [Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/firewall-audit-reporting.md), [Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cert-inventory-mgmt.md), [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/c_ServiceMappingOverview.md), [Cryptographic Asset Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/CAC-landing-page.md), [AI Agent Topology Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/ai-agent-topology-mapping-landing.md), [ITOM Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/discovery-content-services.md), [Tag Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/tag-governance/landing-page-tag-governance.md), [Cloud Discovery Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-discovery-workspace/cow-landing-page.md), and [Cloud License Estimator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-license-estimator/cloud-license-estimator-landing.md) applications. Discovery and Service Mapping give you a unified, connected view of your entire IT network and the services that it supports. The [Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/cmdb-sgc-available.md) and [CMDB 360/Multisource CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/multisource-cmdb.md) applications provide data to ITOM Visibility.
 
     In addition, Service Graph Connectors populate the CMDB by bringing in data from third-party monitoring and management systems. CMDB 360 enables you to track how the CMDB contains various discovery sources at the CI attribute level. Use Certificate Inventory and Management to avoid service outages due to expired TLS certificates. Firewall Audits and Reporting helps you to discover and manage your firewall security policies to heighten the security awareness for firewall audits.
 
@@ -61,6 +67,13 @@ ServiceNow® charges for the following IT Operations Management products:
     The ITOM Cloud Accelerate product consists of the following workflow applications: Tag Governance, Cloud Migration Assessment, Cloud Configuration Governance, and Cloud Action Library. In Tag Governance, you can update CI tags in the cloud environment, in addition to updating them in the CMDB.
 
     For licensing purposes, the ITOM Cloud Accelerate license provides the CI count for CIs managed and monitored by Cloud Migration Assessment, Cloud Configuration Governance, or Cloud Action Library. If different ITOM Cloud Accelerate features report the same CIs as their resources, the CI count is manipulated to remove the duplication.
+
+    **Note:** Starting with the brazil release, the following applications are being prepared for future deprecation. They will be hidden and no longer installed on new instances but will continue to be supported:
+
+    -   Cloud Configuration Governance
+    -   CCG Content Pack
+    -   Cloud Action Library
+    For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 -   **ITOM Optimization**
 

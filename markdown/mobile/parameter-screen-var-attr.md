@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/parameter-screen-var-attr.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 20
 breadcrumb: [Configure inputs, Configure an input form screen, Input form screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -518,25 +518,25 @@ Specify a render type for the number input.-   **integer**
 
 Displays whole integers, such as `3`, `1003`, or `57`. When **integer** is used, end users can only enter integers and can't enter decimals.
 
-\[Omitted image "ifs-number-box2.png"\] Alt text: The render type called integer showing a input called Number of outlets with a value of 60.
+\[Omitted image "ifs-number-box2.png"\] Alt text: The render type called integer showing an input called Number of outlets with a value of 60.
 
 -   **line**
 
 Displays the input as a line field.
 
-\[Omitted image "ifs-number-line.png"\] Alt text: The render type called line showing a input called Subscription duration in months with a value of 73.
+\[Omitted image "ifs-number-line.png"\] Alt text: The render type called line showing an input called Subscription duration in months with a value of 73.
 
 -   **percentage**
 
 Displays a percent symbol\(%\) after the number in the input.
 
-\[Omitted image "ifs-number-percent.png"\] Alt text: The render type called percentage showing a input called Interest rate in percentage with a value of 8%.
+\[Omitted image "ifs-number-percent.png"\] Alt text: The render type called percentage showing an input called Interest rate in percentage with a value of 8%.
 
 -   **slider**
 
 Displays the input as slider value and a box input. For more information about sliders and how to configure them, see [Configure a slider option for a number input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/configure-slider.md).
 
-\[Omitted image "ifs-slider-float-step-size.png"\] Alt text: The render type called slider showing a input called Weight of package in kilograms with a value of 44.25.
+\[Omitted image "ifs-slider-float-step-size.png"\] Alt text: The render type called slider showing an input called Weight of package in kilograms with a value of 44.25.
 
 
 **Note:** For a table showing which attributes can be used with which render type, see [Number render types and compatible input attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/number-compatible-input-attributes.md).

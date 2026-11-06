@@ -7,9 +7,9 @@ release: zurich
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [References for VTB, Visual Task Boards, Personalize your experience, Configure user experiences]
+breadcrumb: [Visual Task Boards reference, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Installed with Visual Task Boards

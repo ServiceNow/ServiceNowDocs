@@ -1,5 +1,5 @@
 ---
-title: Service Exchange Remote Catalog items
+title: Fulfill a consumer request
 description: Service Exchange Remote Catalog items are ordered from the consumer's ServiceNow instance, and they create provider tasks in each instance. The provider's agent fulfills these provider tasks in their ServiceNow instance. The data in these tasks is synchronized between instances so that they both can track the progress.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/service-exchange/service-bridge-v2-proactive-customer-care-csp.html
@@ -7,12 +7,12 @@ release: zurich
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use for providers, Service Exchange for Providers, Service Exchange]
 ---
 
-# Service Exchange Remote Catalog items
+# Fulfill a consumer request
 
 Service Exchange Remote Catalog items are ordered from the consumer's ServiceNow instance, and they create provider tasks in each instance. The provider's agent fulfills these provider tasks in their ServiceNow instance. The data in these tasks is synchronized between instances so that they both can track the progress.
 
@@ -42,6 +42,8 @@ Some common Service Exchange Remote Catalog items are as follows:
     The Actions menu displays the following options, **Accept**, **Reject**, or **Cancel**.
 
 9.  If the consumer accepts the resolution, the state of the provider task on the consumer's instance, and the state of the request on the provider's instance, are updated to **Closed**.
+
+**Parent Topic:**[Using Service Exchange for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/service-bridge-v2-administer.md)
 
 **Related topics**  
 

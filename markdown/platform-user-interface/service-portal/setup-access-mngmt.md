@@ -7,7 +7,7 @@ release: zurich
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Access Management Automation, Configure a catalog in Service Portal, Create a portal, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -63,7 +63,7 @@ Set up the Access Management Automation application by configuring the Service P
         -   Access Mgmt. Incident User Assignment Policy
         -   Access Mgmt. Requested Item Group Approval Policy
         -   Access Mgmt. Requested Item User Approval Policy
-        If select the Create Incident subflow in the Access Mgmt. Failed Automation Flow Policy decision table, you should configure the incident assignment decision tables. If you choose the Create Event subflow, ignore the incident assignment decision tables.
+        If select the Create Incident subflow in the Access Mgmt. Failed Automation Flow Policy decision table, you should configure the incident assignment decision tables. If you choose the Create Event subflow, you can ignore the incident assignment decision tables.
 
 2.  Configure the Service Portal page.
 

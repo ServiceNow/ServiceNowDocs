@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-configure-dms.html
 release: zurich
 topic_type: task
-last_updated: "2026-07-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [DMS integration, SOAP API, repair claims, warranty claims, data mapping]
 breadcrumb: [DMS integration, Integrate, Manufacturing Commercial Operations]
@@ -75,5 +75,5 @@ Integrating your DMS with MCO enables real-time synchronization of warranty and 
 
 [Set up outbound DMS integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-outbound-dms-integration.md)
 
-[manufacturing-integrate]
+[MCO Integration APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/manufacturing-integrate.md)
 

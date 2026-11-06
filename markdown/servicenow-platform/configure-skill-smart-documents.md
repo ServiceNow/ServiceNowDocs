@@ -1,18 +1,18 @@
 ---
 title: Configure the smart documents skill
-description: The smart documents skill is activated by default on all the tables. Configure it to customize access control, specify which tables use it, or adjust display preferences to get document insights through conversational interactions
+description: The smart documents skill is activated by default on all the tables. Configure it to customize access control, specify which tables use it, or adjust display preferences to get document insights through conversational interactions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configure-skill-smart-documents.html
 release: zurich
 topic_type: task
-last_updated: "2025-10-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Assist in Document Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure, ServiceNow Otto in Document Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Configure the smart documents skill
 
-The smart documents skill is activated by default on all the tables. Configure it to customize access control, specify which tables use it, or adjust display preferences to get document insights through conversational interactions
+The smart documents skill is activated by default on all the tables. Configure it to customize access control, specify which tables use it, or adjust display preferences to get document insights through conversational interactions.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 **Note:** From Zurich Patch 11 and Australia Patch 4 onwards, Smart documents skill is enabled by default for all tables. Disable it if not required on any table.
 
-For earlier versions, see [Activate the smart documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/activate-smart-documents.md).
+For earlier versions, see .
 
 ## Procedure
 
@@ -28,7 +28,7 @@ For earlier versions, see [Activate the smart documents skill](https://raw.githu
 
 2.  In the workflow list, select **Platform**.
 
-3.  In the Now Assist skills for Platform, locate the **Smart Documents** skill.
+3.  In the ServiceNow Otto skills for Platform, locate the **Smart Documents** skill.
 
     **Note:** The smart documents skill is enabled by default. You can configure it to specify which tables should have the feature, manage user access, or customize display settings.
 
@@ -54,6 +54,6 @@ For earlier versions, see [Activate the smart documents skill](https://raw.githu
 
 12. Review your selection and select **Done**.
 
-    Your changes are applied. The smart documents skill is now enabled only on the tables you specified or on all the tables if left empty. The Ask Now Assist button displays according to your display preferences and role-based access settings.
+    Your changes are applied. The smart documents skill is now enabled only on the tables you specified or on all the tables if left empty. The Ask ServiceNow Otto button displays according to your display preferences and role-based access settings.
 
 

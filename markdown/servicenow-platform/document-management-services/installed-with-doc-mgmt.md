@@ -7,8 +7,8 @@ release: zurich
 product: Document Management Services
 classification: document-management-services
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [References, Document Management, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -199,4 +199,6 @@ Stores the permalink and expiration date for the document.
 [Document Management roles]()
 
 [Domain separation and Document Management]()
+
+[Granular admin roles in Document Management]()
 

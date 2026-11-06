@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/create-next-experience-landing-page.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Landing pages, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -43,8 +43,6 @@ To customize a Next Experience landing page for different audiences and use case
 5.  Create a variant of the default landing page by duplicating it.
 
     1.  From the left vertical bar, select the context menu and then select **Duplicate variant**.
-
-        \[Omitted image "duplicate-landing-page.png"\] Alt text: Duplicate the Next Experience default landing page
 
     2.  In the **Name** field, enter a name for the page variant.
 

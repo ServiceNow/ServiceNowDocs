@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/parse-email.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Email and SMS notifications, System notifications, Notifications, Configure core features, Administer]
+breadcrumb: [Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Parse an email thread
@@ -131,5 +131,5 @@ Language of the reply separator.**Note:** All email clients don't indicate a lan
 
 [Domain separation and Notifications]()
 
-[Email FAQs and troubleshooting notification emails]()
+[Notification email logs and diagnostics]()
 

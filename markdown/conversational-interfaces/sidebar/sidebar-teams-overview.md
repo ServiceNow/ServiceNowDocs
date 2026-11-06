@@ -7,7 +7,7 @@ release: zurich
 product: Sidebar
 classification: sidebar
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [Virtual Agent, Microsoft Teams, MSTeams, Sidebar, integration, monetization]
 breadcrumb: [Configuring Sidebar, Sidebar, Conversational Interfaces]

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/configuring-subscription-management-v2.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Subscription Management, Get started, Administer]
+breadcrumb: [Subscription Management, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Configuring Subscription Management
@@ -28,6 +28,6 @@ Subscription Management is free and active by default for all production instanc
 
 3.  [Configure subscription allocation status in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/configure-subscription-allocation-status-v2.md)
 
-    Configure the allocation status threshold using a percentage value that represents what near capacity means for your instance.
+    Configure the consumption status threshold using a percentage value that represents what near capacity means for your instance.
 
 

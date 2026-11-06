@@ -7,7 +7,7 @@ release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
@@ -58,7 +58,7 @@ You must [Configure Schedule Optimization](https://raw.githubusercontent.com/Ser
 
     4.  Select **Submit**.
 
-        If your Task Filter references a custom field or a custom table, you must grant the sharedservice.worker user read access to those elements. For example, this applies if you use a table other than the default work order task table to submit work orders. For details, see [Schedule Optimization integration user access requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/schedule-optimization-integration-user-access-requirements.md).
+        If your task filter references a custom field or a custom table, you must grant the sharedservice.worker user read access to those elements. For example, this applies if you use a table other than the default work order task table to submit work orders. For details, see [User access requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/schedule-optimization-integration-user-access-requirements.md).
 
         The **Optimization Restricted** tab is displayed after the task filter record is created. This read-only field shows the conditions of work order tasks that are excluded from the optimization run.
 

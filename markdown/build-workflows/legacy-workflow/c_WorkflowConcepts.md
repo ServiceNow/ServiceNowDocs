@@ -7,7 +7,7 @@ release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Classic Workflow, Build workflows]
 ---
@@ -21,7 +21,7 @@ You can do many things using the Workflow Editor.
 -   Modify core [activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-activities/c_WorkflowActivities.md) and [exit conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/legacy-workflow/getting-started-workflows.md).
 -   Create custom activities and reuse the data for other workflows.
 
-    See Orchestration activity designer.
+    See [Orchestration activity designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/c_WorkflowActivityDesigner.md).
 
 -   Download activity packs from the ServiceNow Store and create packs for upload.
 -   [Edit workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/legacy-workflow/workflow-editor.md) graphically.

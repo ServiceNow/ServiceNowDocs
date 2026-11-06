@@ -7,7 +7,7 @@ release: zurich
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Intangible/logical life cycle, Reference, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -30,7 +30,7 @@ The intangible/logical life-cycle value pairs represent the overall life cycle o
 
     After the software is approved, the organization procures the necessary licenses or subscriptions.
 
-    -   **On Order**: Licenses or software subscriptions have been purchased but are not yet available for use.
+    -   **On Order**: Licenses or software subscriptions have been purchased but aren't yet available for use.
     -   **Preallocated**: Licenses are assigned to users or departments before they are officially deployed. 
 -   **Inventory life cycle stage**
 
@@ -42,8 +42,8 @@ The intangible/logical life-cycle value pairs represent the overall life cycle o
 
     For software development or major configurations, this phase defines the logical and architectural structure.
 
-    -   **Chartered**: A project is initiated to design or configure software solutions. 
     -   **Design**: The logical architecture and system requirements are being defined.
+    -   **Chartered**: A project is initiated to design or configure software solutions. 
     -   **Build**: The software is being developed, customized, or configured for deployment.
 -   **Deploy life cycle stage**
 

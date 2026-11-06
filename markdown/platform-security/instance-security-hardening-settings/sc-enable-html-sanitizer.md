@@ -1,40 +1,119 @@
 ---
-title: Enable HTML Sanitizer within Virtual Agent \[Updated in Security Center 1.3 and 1.5\]
-description: Use the com.glide.cs.html.sanitizer.enabled property to enable HTMLSanitizerService.
+title: Enable HTML sanitizer within Virtual Agent
+description: Use the com.glide.cs.html.sanitizer.enabled property to enable HTML sanitizer service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-enable-html-sanitizer.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
 
-# Enable HTML Sanitizer within Virtual Agent \[Updated in Security Center 1.3 and 1.5\]
+# Enable HTML sanitizer within Virtual Agent
 
-Use the **com.glide.cs.html.sanitizer.enabled** property to enable HTMLSanitizerService.
+Use the **com.glide.cs.html.sanitizer.enabled** property to enable HTML sanitizer service.
 
-This property controls the whether the HtmlSanitizerService is enabled. If **com.glide.cs.html.sanitizer.enabled** is not set to true, then a Stored Cross-Site Scripting \(XSS\) attack is possible in the VA web client.
+The **com.glide.cs.html.sanitizer.enabled** system property controls the whether the HtmlSanitizerService is enabled. If **com.glide.cs.html.sanitizer.enabled** is not set to **true**, then a Stored Cross-Site Scripting \(XSS\) attack is possible in the VA web client.
 
-## More information
+Ensure that the property **com.glide.cs.html.sanitizer.enabled** is set to **true**.
 
 **Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It is non-revertible.
 
-|Attribute|Description|
-|---------|-----------|
-|Property name|**com.glide.cs.html.sanitizer.enabled**|
-|Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)|
-|Purpose|Prevents application against cross site scripting and HTML injection attacks.|
-|Recommended value|true|
-|Default value|true|
-|Security risk rating|8|
-|Functional impact|This remediation enforces HTML-output encoding mechanism before the user data is rendered back to the user. If customer has any customization that involves rendering of the HTML attribute or content data, then there is a functionality impact.|
-|Security risk|\(High\) User input should be securely treated when the data is being stored and processed on the application. This reduces client-side cross-site scripting attacks by output encoding the data.|
+## More information
 
-To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+<table id="table_ajc_b43_3kb"><thead><tr><th>
 
-**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
+Attribute
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Configuration name
+
+</td><td>
+
+**com.glide.cs.html.sanitizer.enabled**
+
+</td></tr><tr><td>
+
+Configuration type
+
+</td><td>
+
+System Properties \(/sys\_properties\_list.do\)
+
+</td></tr><tr><td>
+
+Data type
+
+</td><td>
+
+Boolean
+
+</td></tr><tr><td>
+
+Recommended value
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
+Default value
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
+
+</td></tr><tr><td>
+
+Security risk
+
+</td><td>
+
+-   Severity score: 8.0
+-   CVSS rating: High
+-   Security risk details: An XSS vulnerability can facilitate privilege escalation to higher-level roles, such as administrator, enabling broader lateral movement within the system.
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+This remediation enforces HTML-output encoding mechanism before the user data is rendered back to the user. If customer has any customization that involves rendering of the HTML attribute or content data, then there is a functionality impact.
+
+</td></tr><tr><td>
+
+Dependencies and prerequisites
+
+</td><td>
+
+None
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

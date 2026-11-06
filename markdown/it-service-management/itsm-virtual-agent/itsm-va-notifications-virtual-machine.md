@@ -7,9 +7,9 @@ release: zurich
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Pre-built actionable notifications, ITSM Virtual Agent, IT Service Management]
+breadcrumb: [ITSM Virtual Agent pre-built actionable notifications, ITSM Virtual Agent, IT Service Management]
 ---
 
 # Actionable notifications for virtual machines in ITSM Virtual Agent

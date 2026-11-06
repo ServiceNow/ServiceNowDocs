@@ -1,20 +1,20 @@
 ---
 title: Managing financials for your projects
-description: Manage budget, cost plans as forecasts, actual expenses as expense lines, and generate labor costs. Create financial baselines, and view, analyze, and compare the financial performance of your projects at required cadence in Project Workspace.
+description: Manage budget, cost plans as forecasts, actual expenses as expense lines, generate labor costs, create financial baselines. View, analyze, and compare the financial performance of your projects at required cadence in Project Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-workspace/using-financials-prj-wrkspc.html
 release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 17
 breadcrumb: [Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Managing financials for your projects
 
-Manage budget, cost plans as forecasts, actual expenses as expense lines, and generate labor costs. Create financial baselines, and view, analyze, and compare the financial performance of your projects at required cadence in Project Workspace.
+Manage budget, cost plans as forecasts, actual expenses as expense lines, generate labor costs, create financial baselines. View, analyze, and compare the financial performance of your projects at required cadence in Project Workspace.
 
 The comprehensive financials view helps you to understand planned and actual costs for the selected item. These costs include Forecast \(previously EAC - Estimate At Completion\), Remaining Estimates \(previously ETC - Estimate To Completion\), Actual \(previously Actuals to date\), and so on. You can manage cost plans and associate the expense lines and process them to reflect the actuals for a planning item.
 
@@ -308,6 +308,8 @@ Allocate, manage, and approve budget for your projects. Lean budgeting allocates
 Create or edit expense lines to capture the actual costs. You can associate the expense lines with a cost plan or create standalone expense lines to record unplanned expenses.
 -   **[Generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/gen-labor-costs-prj-wrkspc.md)**  
 Generate labor costs for projects and sub-projects based on the attribute-based resource assignments and the financial attributes configured in the planning attributes page.
+-   **[Recalculate planned costs for projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/fin-recalculate-costs-pws.md)**  
+Recalculate cost plans, benefit plans, and their rolled-up investment-level values when labor rates or budget reference rates change.
 -   **[Create and compare financial baselines for your projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-compare-baselines-pws.md)**  
 Create and compare financial baselines to get a snapshot of the project expenses and compare the planned costs with the actual expenses.
 -   **[Create monetary benefit plans for your projects in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/fin-manage-monetary-benefit-plans-pws.md)**  

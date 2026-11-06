@@ -7,7 +7,7 @@ release: zurich
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dispute Rules Content Pack for Visa, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -20,12 +20,16 @@ Dispute agents use the Dispute Rules Content Pack for Visa's questionnaire to he
 
 When an agent disputes a transaction on behalf of a customer, a dispute service case begins and triggers the dispute card transactions flow. This flow includes various tasks specific to the case details, and each task is created when an agent closes the previous task.
 
-1.  Initiate the dispute service process by entering the initial case information and creating a dispute case on behalf of a customer.
+1.  [Initiate a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/create-case-with-intake-workspace.md)\\.
 
-2.  Enter the dispute details, including the account being referenced, the dispute amount, and the type of dispute. Provide the necessary information for the available options in the type of dispute \(Consumer disputes, Fraud, Authorization, Processing errors\).
+    Initiate the dispute service process by entering the initial case information and creating a dispute case on behalf of a customer.
 
-3.  Submit the case for investigation by updating the dispute amount and determine your eligibility for a chargeback through the questionnaire and reason code mapping.
+2.  [Enter dispute details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/create-case-with-intake-workspace.md).
 
+    Enter the dispute details, including the account being referenced, the dispute amount, and the type of dispute. Provide the necessary information for the available options in the type of dispute \(Consumer disputes, Fraud, Authorization, Processing errors\).
 
-For more information, see [Initiate a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/create-case-with-intake-workspace.md).
+3.  [Submit for investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/create-case-with-intake-workspace.md).
+
+    Submit the case for investigation by updating the dispute amount and determine your eligibility for a chargeback through the questionnaire and reason code mapping.
+
 

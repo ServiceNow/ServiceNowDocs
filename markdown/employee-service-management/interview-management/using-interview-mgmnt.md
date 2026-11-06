@@ -7,7 +7,7 @@ release: zurich
 product: Interview Management
 classification: interview-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Interview Management, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -38,6 +38,8 @@ As a recruiter or recruitment coordinator, provide feedback for interviews that 
 As an interviewer, when requested by recruiters, share your scheduling preferences to help them schedule interviews accordingly.
 -   **[Managing interviews as an interviewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/interview-management/manage-interviews-interviewer.md)**  
 As an interviewer, view and manage interviews that you’re part of.
+-   **[Provide interview feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/interview-management/provide-interview-feedback-hm-interviewer.md)**  
+As an interviewer or hiring manager, provide feedback for interviews that you're part of.
 
 **Parent Topic:**[Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/interview-management/interview-management-landing.md)
 

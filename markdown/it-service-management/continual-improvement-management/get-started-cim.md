@@ -7,7 +7,7 @@ release: zurich
 product: Continual Improvement Management
 classification: continual-improvement-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Continual Improvement Management, IT Service Management]
 ---
@@ -46,7 +46,7 @@ The workflow of improvements from an improvement request to final approval Conti
 2.  The **Improvement Manager** reviews the improvement, accepts it, and assigns it to an Improvement Coordinator for implementation. The Improvement Manager also runs prioritization meetings with Improvement Coordinators and uses the Continual Improvement workbench to monitor, manage, and plan overall progress of improvements. When all tasks are complete, the Improvement Manager reviews improvements for closure.
 3.  After the improvement request is assigned, the **Improvement Coordinator** along with the Improvement manager creates phases and tasks to complete the improvement. The Improvement Coordinator also meets with task owners to track progress and timely completion.
 
-For more information about CIM roles, see [CIM roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/cim-roles.md).
+For more information about CIM roles, see [Continual Improvement Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/cim-roles.md).
 
 ## Integration with other applications
 
@@ -60,12 +60,12 @@ For more information about the applications integrated with CIM, see [Applicatio
 
 You can create improvements separately in a specific domain, or in the global domain.
 
--   **[Applications integrated with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/cim-integration.md)**  
-CIM provides integrations with other ServiceNow® applications to enable you to create improvement initiatives from these applications. You can also create records for integrated applications from improvement initiatives.
--   **[Integrate CIM using extension point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/integrate-extension-api.md)**  
-Integrate CIM with other applications by using the CIMIntegrationAPI extension point. It defines the inbound and outbound extension points for integrating CIM with other applications.
 -   **[Domain separation and Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/cim-domain-separation.md)**  
 Domain separation in Continual Improvement Management is configured to apply to all features of the application. Separation of data is configured along with separation of logic and process. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+-   **[Applications integrated with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/cim-integration.md)**  
+CIM provides integrations with other ServiceNow® applications to enable you to create improvement initiatives from these applications. You can also create records for integrated applications from improvement initiatives.
+-   **[Continual Improvement Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/continual-improvement-workbench.md)**  
+The Continual Improvement Workbench provides a consolidated view to plan, approve, monitor, and review improvements using a flexible user interface.
 
 **Parent Topic:**[Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/cim-landing-page.md)
 

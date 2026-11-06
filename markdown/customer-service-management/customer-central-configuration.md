@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-central-configuration.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Customer Central, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
@@ -28,7 +28,7 @@ This property can be set for the following record pages:
 To configure this property on the Front-line case page:
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
-2.  Select the **CSM/FSM Configurable Workspace** experience.
+2.  Select the **CRM Workspace** experience.
 3.  Open the Front-line case page.
 4.  Select the **Customer History** component.
 5.  Navigate to the Properties panel.
@@ -86,7 +86,7 @@ Admins can choose from two new presets for the Customer History component on the
 To apply a preset:
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
-2.  Select the **CSM/FSM Configurable Workspace** experience.
+2.  Select the **CRM Workspace** experience.
 3.  Open the Front-line case page.
 4.  Select the **Customer History** component.
 5.  Select the existing preset in the configuration panel.
@@ -95,7 +95,7 @@ To apply a preset:
 
 Default values are set for all fields to help prevent errors by ensuring that fields are never left null or empty.
 
-## New empty state for context fields
+## Empty state for context fields
 
 \[Omitted image "cust-central-empty-state-field-feature.png"\] Alt text: New empty state for context fields
 
@@ -112,12 +112,12 @@ The **Show with activity creation date** property, available in UI Builder, enab
 
 ## Activity time period
 
-The **Activity time period** field in the Customer History component enables admins to define how customer activities are grouped for agents in the CSM Workspace. By default, activities appear by day, but you can change this to group them by quarter or by year.
+The **Activity time period** field in the Customer History component enables admins to define how customer activities are grouped for agents in CRM Workspace. By default, activities appear by day, but you can change this to group them by quarter or by year.
 
 To configure the filter in the Front-line case page:
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
-2.  Select the **CSM/FSM Configurable Workspace** experience.
+2.  Select the **CRM Workspace** experience.
 3.  Open the Front-line case page.
 4.  Select the **Customer History** component.
 5.  Navigate to the Properties panel.
@@ -137,15 +137,4 @@ To configure this property on the CSM default record page:
     -   **Monthly**: Groups activities by month.
     -   **Quarter**: Groups activities by calendar quarter.
     -   **Year**: Groups activities by calendar year.
-
-## Display search field
-
-The Display search field property controls whether the search bar in the Customer History component appears when the page loads.
-
--   The property is enabled by default on the Front-line case page, CSM default record page, and Default Interaction page, so agents see the search bar open automatically.
--   It is disabled by default for all other pages, where only the search icon appears.
-
-Agents can always toggle the search icon to view the search bar, regardless of the setting.
-
-You can modify the default behavior by enabling or disabling the property for specific pages, depending on how you want the agents to access the search bar.
 

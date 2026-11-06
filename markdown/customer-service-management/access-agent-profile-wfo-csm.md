@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/access-agent-profile-wfo-csm.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workforce Optimization for CSM Agent Workspace, Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
@@ -36,15 +36,15 @@ Access your profile to analyze information such as:
 
 2.  Click the Lists icon.
 
-<table id="choicetable_sy3_vzm_vnb"><thead><tr><th align="left" id="d256441e134">
+<table id="choicetable_sy3_vzm_vnb"><thead><tr><th align="left" id="d290916e134">
 
 To
 
-</th><th align="left" id="d256441e137">
+</th><th align="left" id="d290916e137">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d256441e143">
+</th></tr></thead><tbody><tr><td id="d290916e143">
 
 **Access your profile from a case record**
 
@@ -54,7 +54,7 @@ Do this
 2.  In the **Assigned** column, select your name.
 The profile page appears. In that page, you can access all the information related to your profile.
 
-</td></tr><tr><td id="d256441e170">
+</td></tr><tr><td id="d290916e170">
 
 **Create your profile for centralized access**
 
@@ -69,7 +69,7 @@ The profile page appears. In that page, you can access all the information relat
 7.  Click **Create**.
  The workspace adds your profile to the **My Lists** tab.
 
-For information on creating a list, see [Create My Lists in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/create-filtered-list-agent-workspace.md).
+For information on creating a list, see [Administering lists for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/administer-lists-configurable-workspace.md)
 
 </td></tr></tbody>
 </table>

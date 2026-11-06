@@ -7,7 +7,7 @@ release: zurich
 product: Indoor Mapping
 classification: indoor-mapping
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Synchronize Indoor Mapping with CMN Locations, Manage map objects and data, Indoor Mapping, Workplace Service Delivery, Employee Service Management]
 ---
@@ -52,7 +52,7 @@ Role required: admin
 
 9.  Select **Indoor Mapping**.
 
-    \[Omitted image "c8d60e8ca80a331395121d2208ac42546b7e15fd.png"\] Alt text: Application scope changed to Indoor MMapping.
+    \[Omitted image "450e12934b971c1c837f926bbc47c2c4e9ae25b4.png"\] Alt text: Application scope changed to Indoor MMapping.
 
 10. Navigate to the **All** &gt; **Indoor Mapping** &gt; **Place types** table.
 

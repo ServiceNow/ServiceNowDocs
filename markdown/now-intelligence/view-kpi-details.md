@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/view-kpi-details.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring KPI Details, KPI Details, Platform Analytics experience, Platform Analytics]
+breadcrumb: [Exploring, KPI Details, Platform Analytics experience, Platform Analytics]
 ---
 
 # View KPI Details

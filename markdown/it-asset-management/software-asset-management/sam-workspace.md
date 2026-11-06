@@ -7,9 +7,9 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Explore, Software Asset Management, IT Asset Management]
+breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software Asset Workspace
@@ -24,10 +24,10 @@ The Software Asset Workspace contains the following views:
 
 -   [Software asset overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-workspace-landing.md): The landing page of the Software Asset Workspace. You can create entitlements, run reconciliation, view key metrics and get time sensitive alerts and notifications regarding your software assets.
 -   [License usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-workspace-workbench.md): You can view the compliance status of all your publishers, review reconciliation results, reclaim unused software, and view and run reports.
--   [License operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/operations-workspace.md): Lists all the entitlements, software models, import entitlement errors, discovery models.
+-   [License operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/operations-workspace.md): Lists all the entitlements, software models, import entitlement errors, discovery models, user subscriptions, engineering applications data, contract, and IBM ASP and ILMT integrations.
 -   [Software asset analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/analytics-workspace.md): View consolidated dashboards for SaaS, discovered inventory, optimization, lifecycle management, cloud cost simulator, Engineering License, and normalization and content.
 -   [Success portal view in Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/success-portal-view.md): Assess the performance of the Software Asset Management application in your environment.
 -   [Renewals calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/renewal-calendar-view.md): View the entitlements nearing their expiry date and contracts nearing their expiry date or are already expired.
 -   [Overlapping usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/app-ration.md): View the feature level usage of your SaaS and SSO applications.
--   [Content lookup portal for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/content-search-portal.md): View the data stored in the Software Asset Management Content Service.
+-   [Content Library portal for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/content-search-portal.md): View the data stored in the Software Asset Management Content Service.
 

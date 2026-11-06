@@ -1,30 +1,30 @@
 ---
 title: Suspend an entitlement
-description: Suspend an entitlement by creating an order on the CSM Configurable Workspace. By suspending an entitlement, you are suspending or disabling the services and characteristics associated with that entitlement.
+description: Suspend an entitlement by creating an order on the CRM Workspace. By suspending an entitlement, you are suspending or disabling the services and characteristics associated with that entitlement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/cce-suspend-entitlement.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Contracts and Entitlements Workflows, Customer Contracts and Entitlements, Configure, price, quote apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Suspend, Using Contracts and Entitlements Workflows, Customer Contracts and Entitlements, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
 # Suspend an entitlement
 
-Suspend an entitlement by creating an order on the CSM Configurable Workspace. By suspending an entitlement, you are suspending or disabling the services and characteristics associated with that entitlement.
+Suspend an entitlement by creating an order on the CRM Workspace. By suspending an entitlement, you are suspending or disabling the services and characteristics associated with that entitlement.
 
 ## Before you begin
 
 You can suspend an entitlement when the associated root sold product is in Active state. For product inventory records, you can suspend an entitlement when the associated product inventory record is in Active state.
 
-**Note:** You can only suspend entitlements associated with an account. You cannot suspend entitlements associated to service contract lines.
+**Note:** You can only suspend entitlements associated with an account. You cannot suspend entitlements associated to customer contract lines.
 
 Role required: sn\_customerservice\_manager and sn\_ind\_tmt\_orm.order\_agent
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  In the list view, select **Customer** &gt; **Accounts**.
 
@@ -52,6 +52,4 @@ Role required: sn\_customerservice\_manager and sn\_ind\_tmt\_orm.order\_agent
 ## Result
 
 If you specify an end date and time, a resume order line item is created as a part of the same order. After this period of suspension, the entitlement will be in Active state again. After the end date of the entitlement, the suspended entitlement will move to Expired state.
-
-**Parent Topic:**[Using Contracts and Entitlements Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-customer-cnt-ent-wf.md)
 

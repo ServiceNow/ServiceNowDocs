@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/r\_AttachmentLimitProperties.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Email size limits, Reference, Email Administration, Notifications, Configure core features, Administer]
+breadcrumb: [Email size limits, Reference, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Attachment limit properties

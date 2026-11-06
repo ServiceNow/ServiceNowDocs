@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-central.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -77,13 +77,13 @@ For more information about the Customer history component, see the following top
 
 ## Customer Central plugin
 
-The Customer Central application \(com.sn\_csm\_customer\_central\) is activated with the CRM Workspace application \(com.snc.uib.csm\_agent\_workspace\). The CRM Workspace application is activated with the Customer Service plugin \(com.sn\_customerservice\).
+The Customer Central application \(com.sn\_csm\_customer\_central\) is activated with the CRM Workspace application \(com.snc.uib.csm\_agent\_workspace\). The CRM Workspace application is activated with the Case Management Core plugin \(com.sn\_customerservice\).
 
 Starting with the Yokohama release, the Customer Central application \(com.sn\_csm\_customer\_central\) has moved to the ServiceNow Store. Any new enhancements to this application are delivered through the Customer Central store app.
 
 ## Request apps from the ServiceNow Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 **Related topics**  
 

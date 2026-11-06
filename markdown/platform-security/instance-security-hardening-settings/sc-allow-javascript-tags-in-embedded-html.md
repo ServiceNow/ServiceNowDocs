@@ -1,5 +1,5 @@
 ---
-title: Disable JavaScript tags in embedded HTML \[Updated in Security Center 1.3\]
+title: Disable JavaScript tags in embedded HTML
 description: Use the glide.ui.security.codetag.allow\_script property to disable support for embedding HTML JavaScript code created using of the \[code\] tag.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-allow-javascript-tags-in-embedded-html.html
@@ -7,19 +7,18 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
 
-# Disable JavaScript tags in embedded HTML \[Updated in Security Center 1.3\]
+# Disable JavaScript tags in embedded HTML
 
 Use the **glide.ui.security.codetag.allow\_script** property to disable support for embedding HTML JavaScript code created using of the \[code\] tag.
 
-The ServiceNow AI Platform mitigates many injection and cross-site attacks by implementing escaping and encoding techniques. As a result, users can't write and submit HTML formatted inputs for journal fields. However, journal fields can render text enclosed within code tags as HTML. Ensure the**glide.ui.security.codetag.allow\_script** property exists in the sys\_properties table and is set to false.
+If **glide.ui.security.codetag.allow\_script** is not set to the recommended value of **false**, then this property allows rendered HTML in journal fields and forms which opens room for XSS attacks. Malicious HTML needs to be put between code tags for example \[code\]\[/code\].
 
--   However, there is an associated security risk. If set to **true**, malicious users can write harmful HTML JavaScript code that may be executed on a different client browser after rendering of journal fields.
--   Set this property to **false** so that administrators can prevent journal fields from rendering HTML JavaScript code by disabling support for the `[code]` tag.
+Ensure that the **glide.ui.security.codetag.allow\_script** property exists in the System Properties \[sys\_properties\] table and is set to **false**.
 
 **Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It is non-revertible.
 
@@ -35,7 +34,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Property name
+Configuration name
 
 </td><td>
 
@@ -51,19 +50,11 @@ System Properties \(/sys\_properties\_list.do\)
 
 </td></tr><tr><td>
 
-Category
+Data type
 
 </td><td>
 
-[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
-
-</td></tr><tr><td>
-
-Purpose
-
-</td><td>
-
-Protects against cross-site scripting and malicious script execution
+Boolean
 
 </td></tr><tr><td>
 
@@ -83,19 +74,19 @@ false
 
 </td></tr><tr><td>
 
-Security risk rating
+Fallback value
 
 </td><td>
 
-8.8
+true
 
 </td></tr><tr><td>
 
-Functional impact
+Category
 
 </td><td>
 
-This remediation enforces JavaScript escaping to occur on the UI and renders the encoded results to the user. It can have a functionality impact based on the instance user interaction with the resulted data.
+[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 
 </td></tr><tr><td>
 
@@ -103,22 +94,26 @@ Security risk
 
 </td><td>
 
-\(High\) Input validation must occur in the application to defend against cross-site scripting attacks. These attacks enable foreign scripts to execute on the user session in the logged in browser's context. Attackers can use it to steal session information and sensitive data.
+-   Severity score: High
+-   CVSS rating:8.8
+-   Security risk details: Uncontrolled JavaScript risks Cross-Site Scripting \(XSS\) attacks, enabling malicious actors to inject and execute harmful scripts in the user's browser. Such attacks can lead to session hijacking, credential theft, and compromise of sensitive data.
 
 </td></tr><tr><td>
 
-References
+Functional impact
 
 </td><td>
 
-[Restrict the CODE tag in journal fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_RestrictTheCODETagInJrnalFlds.md)
+None
 
- [Render journal field entries as HTML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/render-journal-field-entries-as.md.md)
+</td></tr><tr><td>
 
- [High Security Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/c_HighSecuritySettings.md)
+Dependencies and prerequisites
+
+</td><td>
+
+None
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
-
-**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
+</table>**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Manage, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # ServiceNow integrations with Microsoft Teams in Service Operations Workspace
@@ -33,8 +33,6 @@ From the **Collaborate** panel of the task record, you can perform any of the fo
 An agent can view the user presence before contacting the user. For information about the refresh duration for user presence in Service Operations Workspace, see [Specify the refresh duration for user presence in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/specify-refresh-duration-user-presence.md).
 
 \[Omitted image "collaborate-panel.png"\] Alt text: Collaborate panel from the sidebar
-
-**Note:** You can select from the list of participant recommendations. The participants \(users\) recommendations are retrieved from the fields of the specific tables such as incident using **ITSMParticipantSuggestionsExtPoint** script includes.
 
 For more information about Service Operations Workspace through ServiceNow integrations with Microsoft Teams, see [ServiceNow for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/c_ServiceNowForMSTeams.md).
 

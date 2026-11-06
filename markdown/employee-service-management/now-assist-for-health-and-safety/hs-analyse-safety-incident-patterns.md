@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Incident pattern analysis, Use generative AI skills, ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
 ---
@@ -35,7 +35,7 @@ The tab is designed to help the safety teams quickly understand where risks are 
 
 Navigate to **Workspaces** &gt; **Health and safety Workspaces** and select the **Incident pattern** tab on the Health and Safety dashboard.
 
-\[Omitted image "na-hs-incident-pattern-dashboard.png"\] Alt text:
+\[Omitted image "na-hs-incident-pattern-dashboard.png"\] Alt text: Health and Safety Dashboard with Incident patterns tab opened. For details, refer to the surrounding text.
 
 ## Metrics on the incident pattern tab
 

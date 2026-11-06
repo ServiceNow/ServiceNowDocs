@@ -1,22 +1,22 @@
 ---
 title: Using Knowledge Graph Designer
-description: Use Knowledge Graph Designer to create customized Knowledge Graph schemas that consist of nodes and edges.
+description: Use Knowledge Graph Designer to create customized Knowledge Graph schema that consist of nodes and edges.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/knowledge-graph/using-knowledge-graph-designer.html
 release: zurich
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Knowledge Graph, Enable AI experiences]
+breadcrumb: [Knowledge Graph, Managing data for AI, Enable AI Experiences]
 ---
 
 # Using Knowledge Graph Designer
 
-Use Knowledge Graph Designer to create customized Knowledge Graph schemas that consist of nodes and edges.
+Use Knowledge Graph Designer to create customized Knowledge Graph schema that consist of nodes and edges.
 
-Knowledge Graph schemas are the customized Knowledge graphs that consist of nodes and edges.
+Knowledge Graph schema are the customized Knowledge graphs that consist of nodes and edges.
 
 Like tables, nodes also denote and store details about entities such as user, location, department. You can add nodes to the Knowledge Graph schema so that the system can reach out to all the relevant tables to fetch the data. You can also edit node properties such as data source, start node, end node, and connected nodes.
 
@@ -26,13 +26,13 @@ The relationship or connections between these nodes are referred to as edges. Yo
 
 With Knowledge Graph Designer, you can create, edit, duplicate, or delete a Knowledge Graph schema.
 
-Apart from ServiceNow tables, you can also create Knowledge Graph schema using Workflow Data Fabric tables to retrieve data from different systems in real time without moving it.
+Apart from ServiceNow tables, you can also create Knowledge Graph schema using WorkFlow Data Fabric tables to retrieve data from different systems in real time without moving it.
 
 There’s an option to test a Knowledge Graph schema by generating and running a query.
 
-## View Knowledge Graph schemas
+## View Knowledge Graph schema
 
-By default, ServiceNow published Knowledge Graph schemas are available with the product. View the prebuilt schemas provided by ServiceNow, or the schemas created by your organization admin. There are currently two prebuilt schemas available that are read-only but can be cloned and edited:
+By default, ServiceNow published Knowledge Graph schema is available with the product. View the prebuilt schema provided by ServiceNow, or the schema created by your organization admin. There are currently two prebuilt schema available that are read-only but can be cloned and edited:
 
 1.  User profile schema
 2.  Employee schema

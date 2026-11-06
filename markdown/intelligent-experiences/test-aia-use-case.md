@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/test-aia-use-case.html
 release: zurich
 topic_type: task
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create an agentic workflow, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Create an agentic workflow, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Manually test the execution of an agentic workflow
@@ -16,7 +16,7 @@ Test your agentic workflow in AI Agent Studio to analyze how it functions while 
 
 ## Before you begin
 
-Role required: sn\_aia.admin and either admin or at least one role required by the ACL of the agentic workflow being testing and each of the ACLs of its downstream components
+Role required: sn\_aia\_admin and either admin or at least one role required by the ACL of the agentic workflow being testing and each of the ACLs of its downstream components
 
 ## About this task
 
@@ -36,7 +36,7 @@ When manually testing performance, you can see how the agentic workflow and its 
 
 3.  In the **Choose a test type** drop-down menu, select **AI agent or workflow**.
 
-    If you want to test user access security controls, see [Test agentic workflow user access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/test-aw-access.md).
+    If you want to test user access security controls, see [Test AI agent user access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/test-aia-access.md).
 
 4.  Select an agentic workflow that you want to test by entering the name of a workflow or choosing from the drop-down menu.
 
@@ -52,7 +52,7 @@ When manually testing performance, you can see how the agentic workflow and its 
 
     **Note:** In the task summary, include a reference number for a specific record for better results during your testing.
 
-    \[Omitted image "test-aw-manually-new.png"\] Alt text: Complete the testing form
+    \[Omitted image "image.test-aw-manually-new"\] Alt text: Complete the testing form.
 
 8.  Select **Continue to Test Chat Response**.
 

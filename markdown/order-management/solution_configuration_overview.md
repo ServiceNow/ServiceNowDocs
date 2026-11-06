@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/solution\_configuration\_overview.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
-reading_time_minutes: 4
-breadcrumb: [Solution configuration setup, ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+last_updated: "2026-03-12"
+reading_time_minutes: 5
+breadcrumb: [Solution configuration setup, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Solution configuration terms and considerations

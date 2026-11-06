@@ -7,9 +7,9 @@ release: zurich
 product: Atlassian Jira Integrations Common
 classification: atlassian-jira-integrations-common
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up the integration between Jira and Agile Development 2.0, Atlassian Jira Integration for Agile Development, Integrate, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Setting up the integration between Jira and Agile Development 2.0, Atlassian Jira Integration for Agile Development, Strategic Portfolio Management]
 ---
 
 # Customizing map configuration for your Jira projects
@@ -30,7 +30,7 @@ Add a custom table or field, which is applicable to all your Jira projects of a 
 Create a business rule to enable export from your new custom Agile Development 2.0 table map configuration to your Jira projects.
 -   **[Allow import and export of attachments on a custom Agile Development 2.0 table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/atlassian-jira-integrations-common/jira-allow-import-and-export-of-attachments-on-custom-table-maps.md)**  
 Enable import and export of attachments between Jira and Agile Development 2.0 for a custom Agile 2.0 table that you added to the map configuration.
--   **[Populate Jira identifier reference fields for Agile Development 2.0 custom table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/atlassian-jira-integrations-common/jira-populate-external-identifier-reference-fields-on-a-custom-table.md)**  
+-   **[Populate Jira project identifier reference fields for Agile Development 2.0 custom table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/atlassian-jira-integrations-common/jira-populate-external-identifier-reference-fields-on-a-custom-table.md)**  
 Enable Jira identifier reference fields for your Agile Development 2.0 custom table that you added to the map configuration.
 
 **Parent Topic:**[Setting up the integration between Jira and Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/atlassian-jira-integrations-common/setting-up-the-integration-between-jira-and-agile-development.md)

@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Simplified Navigation, Advanced Portal Navigation, Setup Employee Center browse experience features, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Simplified Navigation, Advanced Portal Navigation, Setup Employee Center browse experience features, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure simplified left navigation
@@ -58,9 +58,4 @@ Using advanced portal navigation, you can enable single-click sync across all AP
 ## Result
 
 Simplified navigation record is saved. Your employees can view the new left navigation from Employee Center.
-
-**Related topics**  
-
-
-[Configure advanced portal navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/config-adv-portal-nav-as-menu.md)
 

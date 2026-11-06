@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Enterprise Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Enterprise Asset Management, Asset Management]
 ---
 
 # Enterprise Asset Management reference
@@ -54,18 +54,10 @@ A list of all the fields that are inherited from the parent asset group to a sub
 An enterprise asset disposal order goes through various stages in the disposal process before it’s completed. With each stage, the task that's associated with that stage changes too.
 -   **[Terminology for linear assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/terms-eam.md)**  
 Terms commonly used for linear assets in the Enterprise Asset Management application.
--   **[Installed with Enterprise Asset Management for Healthcare](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/installed-with-eam-healthcare.md)**  
-Several types of components are installed with activation of the com.sn\_eamhc plugin, including user roles and applications.
--   **[Installed with OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/installed-with-otam.md)**  
-Several types of components are installed with activation of the com.sn\_otam plugin, including user roles and applications.
--   **[Components installed with Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/installed-with-eam-dcnam.md)**  
-Several types of components are installed with activation of the com.sn\_eam\_dcnam plugin, including user roles and applications.
--   **[Components installed with Enterprise Asset Management for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/installed-with-eam-providers.md)**  
-Several types of components are installed with activation of the com.sn\_eam\_provider plugin, including user roles, applications, and tables.
 -   **[Scheduled jobs and tables installed with normalization of firmware models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/firmware-tables-jobs-ot.md)**  
 Scheduled jobs that run during the normalization of firmware models embedded into Operational Technology \(OT\) assets and tables that store firmware normalization details are installed with the OT Asset Management application.
 -   **[Asset put away task fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/put-away-task-form-eam.md)**  
 Fields on the Asset put away task form help you create a put away task for the in stock assets.
 
-**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/it-asset-management.md)
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/asset-management-landing-page.md)
 

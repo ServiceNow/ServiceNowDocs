@@ -1,15 +1,15 @@
 ---
 title: Modifying and adding calendar report system properties
-description: Specify system property values to override Task table highlighting in calendar events, limit the number of events in a calendar cell, or change the day the calendar week starts.Highlighting for calendar report events is configured with field styles, which are defined for a particular table. You can configure whether calendar reports use field styles from the tables or report sources that they are based on.In calendar reports, you can configure the maximum number of events that appear in some calendar views.By default, weeks for calendar reports start on Sunday. You can add a system property to start weeks on Monday or another day instead.Configure a system property to specify how calendar week numbers are determined.By default, calendar reports save up to 10,000 records. Change this limit by setting the glide.ui.max\_calendar\_records system property. If the number of records fetched exceeds this limit, you are prompted to filter the data and run the report again.
+description: Specify system property values to override Task table highlighting in calendar events, limit the number of events in a calendar cell, or change the day the calendar week starts.Highlighting for calendar report events is configured with field styles, which are defined for a particular table. You can configure whether calendar reports use field styles from the tables or report sources that they are based on.In calendar reports, you can configure the maximum number of events that appear in some calendar views.By default, weeks for calendar reports start on Sunday. You can add a system property to start weeks on Sunday or another day instead.Configure a system property to specify how calendar week numbers are determined.By default, calendar reports save up to 10,000 records. Change this limit by setting the glide.ui.max\_calendar\_records system property. If the number of records fetched exceeds this limit, you are prompted to filter the data and run the report again.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/reporting/modify-add-calendar-sys-props.html
 release: zurich
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Customize calendar reports, Administering reports, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Customize calendar reports, Administering Core UI reports, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Modifying and adding calendar report system properties
@@ -79,7 +79,7 @@ You can configure these settings for the following calendar views:
 
 ## Change the day that calendar weeks start on
 
-By default, weeks for calendar reports start on Sunday. You can add a system property to start weeks on Monday or another day instead.
+By default, weeks for calendar reports start on Sunday. You can add a system property to start weeks on Sunday or another day instead.
 
 ### Before you begin
 
@@ -99,7 +99,7 @@ If you change the **glide.ui.filter.first\_day\_of\_week** property after collec
 
 2.  Set one of the following integer values.
 
-<table id="choicetable_mmt_yv3_55"><tbody><tr><td id="d216894e340">
+<table id="choicetable_mmt_yv3_55"><tbody><tr><td id="d227578e356">
 
 **Start weeks on Sunday**
 
@@ -107,7 +107,7 @@ If you change the **glide.ui.filter.first\_day\_of\_week** property after collec
 
 Set **Value** to `1`
 
-</td></tr><tr><td id="d216894e355">
+</td></tr><tr><td id="d227578e371">
 
 **Start weeks on Monday**
 
@@ -115,7 +115,7 @@ Set **Value** to `1`
 
 Set **Value** to `2`
 
-</td></tr><tr><td id="d216894e370">
+</td></tr><tr><td id="d227578e386">
 
 **Start weeks on Tuesday**
 
@@ -123,7 +123,7 @@ Set **Value** to `2`
 
 Set **Value** to `3`
 
-</td></tr><tr><td id="d216894e385">
+</td></tr><tr><td id="d227578e401">
 
 **Start weeks on Wednesday**
 
@@ -131,7 +131,7 @@ Set **Value** to `3`
 
 Set **Value** to `4`
 
-</td></tr><tr><td id="d216894e400">
+</td></tr><tr><td id="d227578e416">
 
 **Start weeks on Thursday**
 
@@ -139,7 +139,7 @@ Set **Value** to `4`
 
 Set **Value** to `5`
 
-</td></tr><tr><td id="d216894e416">
+</td></tr><tr><td id="d227578e432">
 
 **Start weeks on Friday**
 
@@ -147,7 +147,7 @@ Set **Value** to `5`
 
 Set **Value** to `6`
 
-</td></tr><tr><td id="d216894e431">
+</td></tr><tr><td id="d227578e447">
 
 **Start weeks on Saturday**
 
@@ -190,7 +190,7 @@ Role required: admin
 
 3.  Set one of the following string values.
 
-<table id="choicetable_mmt_yv3_55"><tbody><tr><td id="d216894e578">
+<table id="choicetable_mmt_yv3_55"><tbody><tr><td id="d227578e598">
 
 **iso\_week**
 
@@ -198,7 +198,7 @@ Role required: admin
 
 Week 1 is the week with January 4, the first business day, or the first Thursday in it. \(These are mutually equivalent.\) There is no Week 00.
 
-</td></tr><tr><td id="d216894e587">
+</td></tr><tr><td id="d227578e607">
 
 **sunday\_week**
 
@@ -206,7 +206,7 @@ Week 1 is the week with January 4, the first business day, or the first Thursday
 
 Week 1 is the week with the first Sunday of the year. Days before it are in Week 0.
 
-</td></tr><tr><td id="d216894e596">
+</td></tr><tr><td id="d227578e616">
 
 **monday\_week**
 
@@ -214,7 +214,7 @@ Week 1 is the week with the first Sunday of the year. Days before it are in Week
 
 Week 1 is the week with the first Monday of the year. Days before it are in Week 0.
 
-</td></tr><tr><td id="d216894e605">
+</td></tr><tr><td id="d227578e625">
 
 **jan1\_week**
 
@@ -240,7 +240,7 @@ Role required: admin.
 
 2.  Complete the form with the following values.
 
-<table id="choicetable_xm2_5rq_y1b"><tbody><tr><td id="d216894e700">
+<table id="choicetable_xm2_5rq_y1b"><tbody><tr><td id="d227578e724">
 
 **Name**
 
@@ -248,7 +248,7 @@ Role required: admin.
 
 **glide.ui.max\_calendar\_records**
 
-</td></tr><tr><td id="d216894e712">
+</td></tr><tr><td id="d227578e736">
 
 **Description**
 
@@ -256,7 +256,7 @@ Role required: admin.
 
 Enter a phrase that describes the function of the property, such as `Maximum number of calendar records saved`.
 
-</td></tr><tr><td id="d216894e724">
+</td></tr><tr><td id="d227578e748">
 
 **Type**
 
@@ -264,7 +264,7 @@ Enter a phrase that describes the function of the property, such as `Maximum num
 
 Integer
 
-</td></tr><tr><td id="d216894e733">
+</td></tr><tr><td id="d227578e757">
 
 **Value**
 

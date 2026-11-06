@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Assign a proxy agent cluster to a policy, Using proxy agents in ACC, ACC deployment - servers, Agent Client Collector, IT Operations Management]
+breadcrumb: [Assign a proxy agent cluster to a policy, Using proxy agents in ACC, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Enable load balancing between proxy agents in a cluster
@@ -38,4 +38,6 @@ Role required: agent\_client\_collector\_user
 
     A pop-up window displays the distribution of monitored CIs among agents within the policy.
 
+
+**Parent Topic:**[Assign a proxy agent cluster to a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/assign-proxy-cluster-policy.md)
 

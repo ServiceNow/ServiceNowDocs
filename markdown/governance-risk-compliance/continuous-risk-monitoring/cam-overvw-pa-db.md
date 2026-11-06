@@ -7,7 +7,7 @@ release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Analytics and Reporting, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
@@ -42,7 +42,7 @@ To open the dashboard, navigate to **All** &gt; **Continuous Authorization &amp;
 |Orphan authorization boundaries|Single Score| |The number of authorization boundaries not related to an authorization package.|
 |Boundaries status|Bar chart| |The number of authorization boundaries in each state.|
 |Authorization packages tab|
-|Packages with overridden impact|Single Score| |The number of authorization packages with an impact that have been overridden. For more information, see [Risk Management Framework \(RMF\) step 1 - Categorize the authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/categorize.md).|
+|Packages with overridden impact|Single Score| |The number of authorization packages with an impact that have been overridden. For more information, see [RMF step 1 - Categorize the authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/categorize.md).|
 |Packages pending approval|Single Score| |The number of authorization packages for which approval has been requested, but that haven’t yet received approval.|
 |Packages by impact|Bar chart| |The number of authorization packages categorized by impact levels.|
 |Packages by step|Bar chart| |The number of authorization packages categorized by steps \(for example, Monitor, Access, Select, and so on\).|

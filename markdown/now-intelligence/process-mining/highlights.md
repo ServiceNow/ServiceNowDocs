@@ -7,9 +7,9 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring ServiceNow Otto for Process Mining, ServiceNow Otto for Process Mining, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Configure, ServiceNow Otto for Process Mining, Use, Process Mining, Platform Analytics]
 ---
 
 # Working with process inefficiency highlights using AI

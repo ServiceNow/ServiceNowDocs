@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/exploring-data-management.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Data Management, Tables and data, Configure core features, Administer]
+breadcrumb: [Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Exploring Data Management
@@ -47,18 +47,18 @@ This infographic depicts how an administrator uses a data management policy to c
 |Benefit|Feature|Users|
 |-------|-------|-----|
 |Monitor data usage on your instance over time|[Analyzing data usage on your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/viewing-data-usage.md)|Instance admin|
-|Archive older records|[Data archiving](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/c_ArchiveData.md)|Instance admin|
+|Archive older records|[System Archive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/c_ArchiveData.md)|Instance admin|
 |Delete older or unwanted records automatically|[Table cleaner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-cleaner.md)|Instance admin|
-|Preview and update records safely|[Updating records safely](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/updating-records-safely.md)|Instance admin|
-|Preview and delete records safely|[Deleting records safely](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/deleting-records-safely.md)|Instance admin|
+|Preview and update records safely|[Updating records safely in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/updating-records-safely.md)|Instance admin|
+|Preview and delete records safely|[Deleting records safely in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/deleting-records-safely.md)|Instance admin|
 
 ## What to explore next
 
 To learn more about using Data Management, see:
 
 -   [Analyzing data usage on your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/viewing-data-usage.md)
--   [Managing the growth of data on your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/data-management-policies.md)
--   [Updating records safely](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/updating-records-safely.md)
--   [Deleting records safely](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/deleting-records-safely.md)
+-   [Managing data growth in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/data-management-policies.md)
+-   [Updating records safely in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/updating-records-safely.md)
+-   [Deleting records safely in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/deleting-records-safely.md)
 -   [Data Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/data-management-reference.md)
 

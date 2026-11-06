@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2025-10-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enterprise Asset Management for Providers, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Enterprise Asset Management for Providers, Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
 ---
 
 # Managing inbound asset orders for requested Device as a Service \(DaaS\) assets

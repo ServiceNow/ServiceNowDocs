@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Complex data, Building actions, Use, Workflow Studio, Build workflows]
+breadcrumb: [Complex data, Build actions, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Create a custom action to generate an object from a record
@@ -35,7 +35,7 @@ Use this example to see demonstrations of these operations and steps.
 
 1.  Create an application to store your work.
 
-    Use the Guided Application Creator.
+    Use the [Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/guided-app-creator.md).
 
     For example, create `My Application`.
 

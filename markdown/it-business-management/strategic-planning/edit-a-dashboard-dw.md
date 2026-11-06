@@ -7,9 +7,9 @@ release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, Demands Dashboard, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Use, Monitor and track demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Edit a dashboard

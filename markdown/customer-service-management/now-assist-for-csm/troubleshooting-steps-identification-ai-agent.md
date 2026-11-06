@@ -1,21 +1,21 @@
 ---
 title: Using Troubleshooting steps identification AI agent
-description: The Troubleshooting steps identification AI agent analyzes case context by comparing it with knowledge articles, similar cases, and standard operating documents. It then proposes additional troubleshooting steps.
+description: The Troubleshooting steps identification AI agent fetches the context from a case, identifies the missing context by comparing it with knowledge articles, similar cases, and standard operating documents, and then proposes additional troubleshooting steps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/troubleshooting-steps-identification-ai-agent.html
 release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 keywords: [AI Agents, Agentic AI]
-breadcrumb: [Use generative AI skills, ServiceNow Otto for CSM, Customer Service Management]
+breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Using Troubleshooting steps identification AI agent
 
-The Troubleshooting steps identification AI agent analyzes case context by comparing it with knowledge articles, similar cases, and standard operating documents. It then proposes additional troubleshooting steps.
+The Troubleshooting steps identification AI agent fetches the context from a case, identifies the missing context by comparing it with knowledge articles, similar cases, and standard operating documents, and then proposes additional troubleshooting steps.
 
 ## Troubleshooting steps identification AI agent overview
 
@@ -47,16 +47,6 @@ The document types supported for AI Search and document processing are:
 
 
 When fetching text from knowledge articles, this AI agent can fetch only the **article\_body** field from the kb\_knowledge table.
-
-## Access control lists \(ACLs\)
-
-Access Control Lists \(ACLs\) are preconfigured for the troubleshooting steps identification AI Agent, including their associated flows and actions. By default, ACLs are configured for the sn\_esm\_agent role. Customers can modify these ACLs to align with their specific business requirements and security policies.
-
-To manually update ACLs for custom roles:
-
-1.  Go to the **sys\_security\_acl** table.
-2.  Use filters to locate ACLs related to your use case, AI agent, and internal flows or actions.
-3.  Add your custom role to each relevant ACL record.
 
 **Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 

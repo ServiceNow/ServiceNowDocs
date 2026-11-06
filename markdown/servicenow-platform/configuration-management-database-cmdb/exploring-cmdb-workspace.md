@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -39,7 +39,7 @@ When you drill down to CI details, how those details appear depends on system se
     For more information, see:
 
     -   [Components installed with CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/installed-with-cmdb-workspace.md): **sn\_cmdb\_ws.explore\_ci.record.enabled** system property.
-    -   [Manage CI details in CI Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/ci-form-cmdb-workspace.md).
+    -   [Manage CI details using CI Form in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/ci-form-cmdb-workspace.md).
 -   **CI details pane**
 
     If **sn\_cmdb\_ws.explore\_ci.record.enabled** is set to **false**, then the CI details pane is used for viewing CI details.When you drill down to a CI record in CMDB Workspace views and pages, the following details for the CI appear:
@@ -210,7 +210,7 @@ To learn more about configuring and using CMDB Workspace, see:
 
 -   **[Home view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-home-view.md)**  
 Home view is the default view in CMDB Workspace. It shows important tasks that you should tend to, various counts for activities in CMDB such as new CIs, CMDB Health aggregations, and various charts. The Home view also provides several links with immediate access to key CMDB tools.
--   **[SGC view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-ingestion-view.md)**  
+-   **[SGC Central view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-ingestion-view.md)**  
 The Overview page in the SGC Central view in CMDB Workspace provides a centralized dashboard view for administrators to monitor the installation, performance, and error handling of Service Graph Connectors.
 -   **[Governance view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-governance-view.md)**  
 Governance view in CMDB Workspace provides administrators with important information, actions, and links to tools that are used to manage, monitor, and administer data ingestion and other CMDB functions.

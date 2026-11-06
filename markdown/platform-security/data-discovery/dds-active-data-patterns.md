@@ -7,7 +7,7 @@ release: zurich
 product: Data Discovery
 classification: data-discovery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data Discovery sources, Data Discovery Store, Data Discovery, Platform Privacy]
 ---

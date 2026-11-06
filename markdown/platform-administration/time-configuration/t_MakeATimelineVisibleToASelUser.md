@@ -7,18 +7,14 @@ release: zurich
 product: Time Configuration
 classification: time-configuration
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Timeline pages, Viewing record information over time, Reference, Time configuration, Configure core features, Administer]
+breadcrumb: [Timeline pages, Viewing record information over time, Reference, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Make a timeline visible to a selected user
 
 Create a custom module within an application and defining the roles that can access it, to make selected timelines available to users.
-
-## Before you begin
-
-Role required: None
 
 ## About this task
 
@@ -30,13 +26,13 @@ To create a timeline page module:
 
 ## Procedure
 
-1.  Select the **Edit application** icon on an application \(such as Incident\) in the navigation pane.
+1.  Click the **Edit application** icon on an application \(such as Incident\) in the navigation pane.
 
-2.  In the application Modules related list, select **New**.
+2.  In the application Modules related list, click **New**.
 
 3.  Configure the Module form to add the **Timeline page** field.
 
-4.  Fill in the form as described in the table and select **Submit**.
+4.  Fill in the form as described in the table and click **Submit**.
 
     The Module form provides the following fields.
 

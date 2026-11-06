@@ -8,8 +8,8 @@ product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 3
-breadcrumb: [Bulk import of your enterprise models and assets, Manage enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+reading_time_minutes: 2
+breadcrumb: [Bulk import of your enterprise models and assets, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Manually import enterprise models and assets in the Enterprise Asset Workspace
@@ -68,9 +68,4 @@ The Flow Designer application is used to initiate the EAM Bulk Import subflow to
 
 12. Fix the error, upload the spreadsheet, and import the record again.
 
-
--   **[Download seeded templates for manual bulk imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/download-seeded-template-manual-bulk-imports.md)**  
-Download seeded templates that you can use for your manual enterprise model and asset imports. You can use the templates as is or modify them based on your organization's needs.
-
-**Parent Topic:**[Bulk import of your enterprise models and assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/overview-bulk-import-eam.md)
 

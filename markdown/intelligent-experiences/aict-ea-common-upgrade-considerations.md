@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-09-17"
 reading_time_minutes: 3
 keywords: [upgrade, plugin dependency, Enterprise Architecture for AICT]
-breadcrumb: [Reference, AI Control Tower, Enable AI experiences]
+breadcrumb: [Reference, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Enterprise Architecture for AICT plugin installation and upgrade considerations

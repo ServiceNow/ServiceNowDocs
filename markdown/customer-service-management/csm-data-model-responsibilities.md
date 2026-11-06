@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-data-model-responsibilities.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Service Model Foundation overview, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
@@ -25,142 +25,9 @@ The following responsibilities are provided with the Service Model Foundation pl
 
 **Note:** Responsibilities are stored in the Responsibility Definition \[sn\_customerservice\_responsibility\_def\] table.
 
-<table id="table_wzl_3yr_ptb"><thead><tr><th>
+For the list of responsibilities included in the base system, see [List of responsibilities provided with the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/list-of-reponsibilities-provided-with-base-system.md). To create a responsibility, see [Create a responsibility definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_CreateAResponsibilityDefinition.md).
 
-Responsibility
-
-</th><th>
-
-Name
-
-</th></tr></thead><tbody><tr><td>
-
-Location Agent**Note:** This role only applies to the internal business location.
-
-</td><td>
-
-sn\_customerservice.svc\_location\_agent
-
-</td></tr><tr><td>
-
-Location Consumer Agent**Note:** This role only applies to the internal business location.
-
-</td><td>
-
-sn\_customerservice.svc\_location\_consumer\_agent
-
-</td></tr><tr><td>
-
-Location Contributor
-
-</td><td>
-
-sn\_customerservice.service\_organization\_contributor
-
-</td></tr><tr><td>
-
-Location Manager Contributor
-
-</td><td>
-
-sn\_customerservice.svc\_location\_manager\_contributor
-
-</td></tr><tr><td>
-
-Location Manager Fulfiller**Note:** This role only applies to the internal business location.
-
-</td><td>
-
-sn\_customerservice.svc\_location\_manager
-
-</td></tr><tr><td>
-
-Location Relationship Manager**Note:** This role only applies to the external business location.
-
-</td><td>
-
-sn\_bus\_loc.location\_relationship\_manager
-
-</td></tr><tr><td>
-
-Location Support Agent
-
-</td><td>
-
-sn\_bus\_loc.svc\_location\_support\_agent
-
-</td></tr></tbody>
-</table><table id="table_ygc_wsk_jlb"><thead><tr><th>
-
-Responsibility
-
-</th><th>
-
-Used in relationship
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Account Manager
-
-</td><td>
-
-Account Team Member
-
-</td><td>
-
-Use the Account Manager responsibility to create a relationship between an agent and an account. With this relationship, the agent can: -   Create and manage cases for their accounts.
--   View account information, including the related entities for an account.
--   Create and manage contacts and additional addresses for their accounts.
-
-</td></tr><tr><td>
-
-Relationship Manager
-
-</td><td>
-
--   Consumer Team Member
--   Household Team Member
-
-</td><td>
-
-Use the Relationship Manager responsibility to create a relationship between:-   An agent and a consumer.
--   An agent and a household.
-
- With this relationship, the agent can do the following:
-
--   For a consumer:
-    -   Create and manage cases for the consumer.
-    -   View household information, including the related entities for that consumer.
--   For a household:
-    -   Create and manage cases for the household.
-    -   View household information, including the related entities for that household.
-    -   Create and manage household members.
-
-</td></tr><tr><td>
-
-Authorized Representative
-
-</td><td>
-
--   Consumer to Consumer Relationship
--   Household Member Relationship
-
-</td><td>
-
-Use the Authorized Representative responsibility to create a relationship between two consumers, regardless of household, or between two consumers within the same household.With this relationship, a consumer can:
-
--   Create and manage cases for another consumer.
--   View the information of another consumer.
--   View the install base information of another consumer and create cases for:
-    -   Sold products
-    -   Install base items
-
-</td></tr></tbody>
-</table>## Customizing responsibility definitions
+## Customizing responsibility definitions
 
 You can use the responsibility definitions provided with Service Model Foundation plugins. You can also modify these definitions or create your own definitions to meet your business requirements.
 
@@ -170,22 +37,6 @@ If you have an existing account manager responsibility definition, you must eval
 
 **Note:** Creating and using responsibility definitions is a feature available in releases before Paris. Customers can create responsibility definitions using the Responsibility Definition \(sn\_customerservice\_responsibility\_def\) table and use those definitions to create account teams using the Account Team Member \(sn\_customerservice\_team\_member\) table. For more information, see [Create account teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-csm-account-teams.md).
 
-## Create a responsibility definition
-
-Users with the administrator role can create responsibility definitions.
-
-1.  Navigate to **Customer Service** &gt; **Administration** &gt; **Responsibility Definitions**.
-2.  Select **New** and fill in the fields on the Responsibility Definition form.
-3.  In the **Type** field, select **User** if this responsibility is to be used in the following relationships:
-    -   Account Team Member
-    -   Consumer Team Member
-    -   Household Team Member
-4.  If this responsibility is to be used in the following consumer relationships, set the **Type** field to **None**.
-    -   Consumer to Consumer
-    -   Household Member
-
-For more information, see [Create a responsibility definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_CreateAResponsibilityDefinition.md).
-
 ## Create a unique responsibility definition
 
 A responsibility definition can be unique, meaning that the responsibility can only be assigned to one user. To make a responsibility definition unique:
@@ -193,7 +44,7 @@ A responsibility definition can be unique, meaning that the responsibility can o
 1.  Navigate to **Customer Service** &gt; **Administration** &gt; **Responsibility Definitions**.
 2.  Select a responsibility definition.
 3.  Enable the **Unique** check box on the Responsibility Definition form.
-4.  Click **Update**.
+4.  Select **Update**.
 
 When creating or updating records in the following tables, the system checks for and enforces unique responsibilities.
 
@@ -201,7 +52,7 @@ When creating or updating records in the following tables, the system checks for
 -   Consumer Team Member \[sn\_customer\_rel\_consumer\_to\_user\]
 -   Account Team Member \[sn\_customerservice\_team\_member\]
 
-For example, the following table describes the table type, an associated responsibility and the applied unique behaviour.
+For example, the following table describes the table type, an associated responsibility and the applied unique behavior.
 
 <table id="table_r3g_dyr_jlb"><thead><tr><th>
 
@@ -251,6 +102,42 @@ Relationship Manager
 
 A household can have only one Relationship Manager but a user with the Relationship Manager responsibility can manage multiple households.
 
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+Org Hierarchy Contributor
+
+</td><td>
+
+Creates and tracks cases but can't fulfill.
+
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+Org Hierarchy Agent
+
+</td><td>
+
+Fulfills and resolves business-customer cases
+
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+Org Hierarchy Consumer Agent
+
+</td><td>
+
+Fulfills and resolves consumer cases.
+
 </td></tr></tbody>
-</table>**Note:** The unique behavior of a responsibility definition is not enforced when the responsibility is used for relationships between consumers or household members.
+</table>**Note:** The unique behavior of a responsibility definition isn’t enforced when the responsibility is used for relationships between consumers or household members.
 

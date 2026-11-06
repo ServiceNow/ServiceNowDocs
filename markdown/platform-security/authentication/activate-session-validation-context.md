@@ -1,24 +1,24 @@
 ---
-title: Activate Session Validation Context
-description: Use Session Validation Context to restrict access to ServiceNow when hijackers copy a user's session cookies from one device to another to impersonate the session or restricts the user's session access if they’re using an insecure network.
+title: Activate session validation context
+description: Use session validation context to restrict access to ServiceNow when hijackers copy a user's session cookies from one device to another to impersonate the session or restrict the user's session access if they’re using an insecure network.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/activate-session-validation-context.html
 release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Session validation context, Authentication policy contexts, Adaptive authentication, Authentication, Access Management]
 ---
 
-# Activate Session Validation Context
+# Activate session validation context
 
-Use Session Validation Context to restrict access to ServiceNow® when hijackers copy a user's session cookies from one device to another to impersonate the session or restricts the user's session access if they’re using an insecure network.
+Use session validation context to restrict access to ServiceNow® when hijackers copy a user's session cookies from one device to another to impersonate the session or restrict the user's session access if they’re using an insecure network.
 
 ## Before you begin
 
-Role required: admin
+Role required: adaptive\_auth\_admin
 
 To use the session validation, you must perform the following steps:
 
@@ -32,7 +32,7 @@ To use the session validation, you must perform the following steps:
 
 4.  Set the conditions to **true** or **false** for the filters that you’ve added.
 
-5.  Select the **Active** check box to activate the policy after you set up the Session Validation Policy is set up with policy inputs and conditions.
+5.  Select the **Active** check box to activate the policy after you set up the Session Validation Policy with policy inputs and conditions.
 
 6.  Select a **Force AuthnRequest** check box for the default identity provider in the sso\_properties table if the instance has SSO configured.
 
@@ -45,5 +45,5 @@ To use the session validation, you must perform the following steps:
 
 ## Result
 
-The Session Validation feature is activated. You can configure the policy inputs and conditions for the policy to use the feature. To learn more, see [Tutorial: Configuring session validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/use-ip-session-context.md).
+The Session Validation feature is activated. You can configure the policy inputs and conditions for the policy to use the feature. To learn more, see [Configure session validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/use-ip-session-context.md).
 

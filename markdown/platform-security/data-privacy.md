@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/data-privacy.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Platform Privacy]
 ---
 
@@ -24,11 +24,10 @@ Identify and classify your sensitive data according to pre-defined criteria dete
 
 As an administrator, you define whether to anonymize all information for all users or for a subset of users. When anonymized, data for the selected user records is replaced with randomized values or values you define. When replacing values, the data structure can be preserved using various techniques.
 
-## Data Privacy
+## Data privacy options
 
-Use [Data privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/dps-data-privacy.md) to classify sensitive data and to remove personally identifiable information \(PII\) from user data in a production instance and anonymize data in non-production instances.
-
-**Note:** You can also use the legacy plugin [Data privacy \(Classic\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/data-privacy-classic.md).
+-   [Data privacy \(Classic\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/data-privacy-classic.md): First use the data classification app to group your data by type, using pre-defined or user-defined data classifications. Then create data privacy techniques and jobs to anonymize PII.
+-   [Data privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/dps-data-privacy.md) \(Store App\): Classify and anonymize your data all from within the data privacy app.
 
 ## Installation details
 

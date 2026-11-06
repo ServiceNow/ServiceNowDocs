@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Crew operations, Using Dispatcher Workspace, Assigning WOTs from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
+breadcrumb: [Crew operations, Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Search for tasks that need a crew on Dispatcher Workspace
@@ -28,7 +28,7 @@ You can filter and sort work order tasks based on the Crew Tasks filter configur
 
 1.  Navigate to **All** &gt; **Field Service** &gt; **Dispatching** &gt; **Dispatcher Workspace**.
 
-2.  Click **Dispatcher Workspace**.
+2.  Select **Dispatcher Workspace**.
 
 3.  In the tasks panel, select **Crew Tasks** from the list.
 

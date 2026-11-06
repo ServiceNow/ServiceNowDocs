@@ -7,9 +7,9 @@ release: zurich
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with VTB cards, Use, Visual Task Boards, Personalize your experience, Configure user experiences]
+breadcrumb: [Working with Visual Task Board cards, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Archive a Visual Task Board card
@@ -28,7 +28,7 @@ Role required: none
 
 -   Perform one of the following actions.
 
-<table id="choicetable_pxj_ytk_kv"><tbody><tr><td id="d131957e73">
+<table id="choicetable_pxj_ytk_kv"><tbody><tr><td id="d129685e67">
 
 **Archive one card from the lane view**
 
@@ -38,7 +38,7 @@ Role required: none
 2.  In the confirmation dialog, click **Archive**.
 
 
-</td></tr><tr><td id="d131957e97">
+</td></tr><tr><td id="d129685e91">
 
 **Archive one card from the card details**
 
@@ -49,7 +49,7 @@ Role required: none
 3.  In the confirmation dialog, click **Confirm**.
 
 
-</td></tr><tr><td id="d131957e130">
+</td></tr><tr><td id="d129685e124">
 
 **Archive all the cards in a lane**
 

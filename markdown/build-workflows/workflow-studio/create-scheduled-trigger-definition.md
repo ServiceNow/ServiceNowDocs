@@ -1,5 +1,5 @@
 ---
-title: Create a scheduled trigger for playbook
+title: Create a scheduled trigger for Playbook
 description: Create a scheduled trigger that starts your playbook at the required time and interval. You can schedule a trigger in any time zone, with or without an end date for the schedule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/create-scheduled-trigger-definition.html
@@ -7,12 +7,12 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Triggers, Building playbooks, Use, Workflow Studio, Build workflows]
+breadcrumb: [Triggers, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
-# Create a scheduled trigger for playbook
+# Create a scheduled trigger for Playbook
 
 Create a scheduled trigger that starts your playbook at the required time and interval. You can schedule a trigger in any time zone, with or without an end date for the schedule.
 
@@ -136,10 +136,6 @@ Your scheduled trigger is created.
 
 **Related topics**  
 
-
-[Create a trigger definition]()
-
-[Add and configure a trigger in a playbook]()
 
 [Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-automation-designer-triggers.md)
 

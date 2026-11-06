@@ -7,8 +7,8 @@ release: zurich
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Use for providers, Service Exchange for Providers, Service Exchange]
 ---
 
@@ -30,7 +30,7 @@ Register a new consumer by creating a registration task for the company and inst
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Service Exchange Provider** &gt; **Consumer Registrations** and click **New**.
+1.  Navigate to **All** &gt; **Service Exchange Provider** &gt; **Consumer Registrations** and select **New**.
 
 2.  Enter the following details:
 
@@ -39,9 +39,37 @@ Register a new consumer by creating a registration task for the company and inst
 
         **Note:** This contact must be an admin user in the consumer instance, otherwise the registration process cannot be completed. On the provider instance, only a Service Exchange Consumer role is required.
 
-    -   Click the **Lock** icon on the URL field and enter the URL of the consumer ServiceNow instance.
-3.  Click **Save**.
+    -   Select the **Lock** icon on the URL field and enter the URL of the consumer ServiceNow instance.
+3.  Select **Save**.
 
-    An email is generated and sent to the Consumer Contact specified during registration if email sending is enabled. If not, the admin must either copy the link from the work notes and manually send it to the consumer admin. The Consumer Contact must follow the steps listed in the [Connect to a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/service-bridge-v2-register.md) to complete the registration process on the consumer instance.
+    After you save the registration record, the state changes to **Awaiting Validation** while the pre-onboarding scan suite runs validation checks in the background.
 
+    The validation state changes to either Open or Validation Failed.
+
+    -   If all validation checks pass, the state changes to **Open**. An email is generated and sent to the consumer contact specified during registration if email sending is enabled. If email sending is not enabled, the admin must copy the link from the work notes and manually send it to the consumer admin. The consumer contact must follow the steps listed in the [Connect to a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/service-bridge-v2-register.md) to complete the registration process on the consumer instance.
+    -   If any validation checks fail, the state changes to **Validation Failed**. The registration record displays a validation failed banner indicating that one or more Pre-Onboarding suite checks did not pass with a link to the Health Dashboard. The consumer registration link is not generated until all issues are resolved.
+
+If the state is **Validation Failed**, you must resolve all issues identified during the pre-onboarding checks.
+
+1.  Select the **Health Dashboard** links validation failed banner at the top of the registration record.
+2.  Review and resolve all the pre-onboarding scan issues.
+
+    After all issues are resolved, the state automatically changes to Open and the registration process resumes.
+
+
+-   **[Upgrade authorization on a provider instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/se-upgrade-authorization-provider.md)**  
+Upgrade a consumer Service Exchange connection from the Resource Owner Password Credentials \(ROPC\) OAuth grant type to the client credentials grant type without offboarding or re-onboarding the connection.
+-   **[Off-board a Service Exchange consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/service-bridge-v2-offboard-consumer.md)**  
+Off-board an onboarded consumer and remove all related records.
+
+**Parent Topic:**[Using Service Exchange for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/service-bridge-v2-administer.md)
+
+**Related topics**  
+
+
+[Service Exchange Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/se-se-center.md)
+
+[Instance scan checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/service-bridge-v2-scan-checks.md)
+
+[Connect to a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/service-bridge-v2-register.md)
 

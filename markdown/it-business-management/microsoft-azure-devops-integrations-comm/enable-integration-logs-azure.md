@@ -7,9 +7,9 @@ release: zurich
 product: Microsoft Azure DevOps Integrations Comm
 classification: microsoft-azure-devops-integrations-comm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Troubleshooting issues for Azure DevOps integration with Agile Development, Microsoft Azure DevOps Integration for Agile Development, Integrate, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Troubleshooting issues for Azure DevOps integration with Agile Development, Microsoft Azure DevOps Integration for Agile Development, Strategic Portfolio Management]
 ---
 
 # Enable detailed project logging in Microsoft Azure DevOps Integration with Agile Development 2.0

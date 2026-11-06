@@ -1,26 +1,26 @@
 ---
 title: Change Management release notes
-description: The ServiceNow Change Management application provides a systematic approach to control the life cycle of all changes, facilitating beneficial changes to be made with minimum disruption to IT services. Change Management was enhanced and updated in the Zurich release.The ServiceNow Change Management application provides a systematic approach to control the life cycle of all changes, facilitating beneficial changes to be made with minimum disruption to IT services. Change Management was enhanced and updated in the Zurich release.
+description: The ServiceNow Change Management application provides a systematic approach to control the life cycle of all changes, facilitating beneficial changes to be made with minimum disruption to IT services. See the following sections for release notes by version.The Brazil Early Availability release introduces compliance dynamic schema, change lockdown, lockdown conflict detection, and scaled change for Change Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/change-management-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [IT Service Management release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+breadcrumb: [IT Service Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Change Management release notes
 
-The ServiceNow® Change Management application provides a systematic approach to control the life cycle of all changes, facilitating beneficial changes to be made with minimum disruption to IT services. Change Management was enhanced and updated in the Zurich release.
+The ServiceNow® Change Management application provides a systematic approach to control the life cycle of all changes, facilitating beneficial changes to be made with minimum disruption to IT services. See the following sections for release notes by version.
 
 ## About Change Management
 
--   Review and authorize change requests and review recently implemented changes in the Change Advisory Board Workbench in the Service Operations Workspace \(SOW\).
--   Track conflict detection using the Change - Conflict Detection flow and the Change Management Worker table instead of Progress Workers.
--   Limit the number of conflict records for each conflict type through the **change.conflict.max\_count** system property.
--   Coral is the new default theme for Next Experience and Core UI, offering a more modern experience.
-
+-   Control the full change lifecycle from request to closure using a structured workflow that reduces IT service disruption.
+-   Define change models using custom state models, state transitions, and transition conditions. Out-of-the box change models include ITIL change models for Standard, Normal, or Emergency changes with dedicated approval paths.
+-   Use machine learning to assess change risk and suggest standard change templates.
+-   Run agentic AI workflows through a conversational interface. Use it to plan changes, assess conflicts, assess change quality, schedule changes, suggest configuration items, create outages, and generate standard change template proposals.
+-   Track team performance with the Change Success Score, which uses historical data to predict successful change completion. This feature requires an ITSM Professional subscription.
 
 See [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/c_ITILChangeManagement.md) for more information.
 
@@ -28,55 +28,56 @@ See [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
 
 -   **Activation information**
 
-    Change Management is a ServiceNow AI Platform feature that is active by default.
+    Change Management is a ServiceNow AI Platform feature that is active by default. The Change Management plugins listed are activated by default.
 
 -   **Upgrade information**
 
-    As part of the update to use Flow instead of Progress Workers for conflict detection, the Conflict Checker Progress UI Formatter record references a new UI macro, change\_conflict\_worker\_progress\_gate. This macro checks the **change.conflict.useprogressworker** system property to determine the conflict detection mechanism and then displays the corresponding UI macro to work with either Progress Workers or the Change Management Worker table. For more information, see [Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/c_ConflictDetection.md).
-
-    The ITSM Enhanced Security Features plugin \(com.snc.itsm.enhanced\_security\) is now activated automatically when you upgrade to the Zurich release. Previously, the plugin was activated only on new instances. Activating the plugin adds "deny unless authenticated" access control list \(ACL\) rules to several IT Service Management tables.
+    The ITSM Enhanced Security Features plugin \(com.snc.itsm.enhanced\_security\) is now activated automatically when you upgrade to the Brazil release. Previously, the plugin was activated only on new instances. Activating the plugin adds "deny unless authenticated" access control list \(ACL\) rules to several IT Service Management tables.
 
     To revert to the pre-upgrade behavior, contact ServiceNow Support for a list of ACLs to deactivate on specific tables. As a last resort, Support can run a script that deactivates all the new ACLs.
+
+    The Change Management - Collision Detector plugin \(com.snc.change.collision\) is now activated automatically when you upgrade to the Brazil release.
 
 
 ## Accessibility and localization
 
 -   **Accessibility information**
-    -   **Dark theme**
 
-        The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+    Reflow support for the Create a change request page: Content can be zoomed up to 400% through your browser settings, with page layouts automatically transforming into a vertical, stacked view without loss of content or functionality. This enhancement helps users with low vision or who have trouble seeing web content due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages.
 
 
 **Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/it-service-management-rn-landing.md)
 
-## Zurich
+## Brazil Early Availability
 
-The ServiceNow® Change Management application provides a systematic approach to control the life cycle of all changes, facilitating beneficial changes to be made with minimum disruption to IT services. Change Management was enhanced and updated in the Zurich release.
+The Brazil Early Availability release introduces compliance dynamic schema, change lockdown, lockdown conflict detection, and scaled change for Change Management.
 
 ### What's new
 
--   **[Control opening of CAB meetings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/attend-cab-meeting-using-cab-workbench.md)**
+-   ****
 
-    Control the opening of a CAB meeting from the CAB Meeting calendar in the CAB Meeting workbench in Service Operations Workspace or in the Core UI through the **sn\_change\_cab.com.snc.change\_management.cab.use\_sow\_meeting** system property. For more information, see [Change Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/r_ChangeManagementProperties.md).
+    Store risk and compliance details on change requests without adding columns to the Change Request table. Compliance dynamic schema saves these details as name and value pairs in a single field using the platform Dynamic Schema feature. Regulated industries can capture information such as whether a change handles personal data, whether an audit trail is required, and how long a rollback takes. The base system includes example dynamic categories such as Risk and Compliance, Financial Risk and Compliance, and SaaS/Cloud Security Compliance, and example attributes covering areas such as audit trail, downtime, estimated impacted users, lead time, rollback time, and compliance. You can deactivate the examples and define categories and attributes that match your organization's compliance requirements. You can also read and update attribute values from scripts, including risk condition scripts and business rules, using the dynamic schema scripting API.
 
--   **[Track conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/c_ConflictDetection.md)**
+-   ****
 
-    Track the progress of conflict detection using the Change - Conflict Detection flow \(that runs as a system user\) and the Change Management Worker table instead of Progress Workers. You can choose between the Flow and Progress Worker options by updating the **change.conflict.useprogressworker** system property.A new UI formatter **change\_conflict\_worker\_progress\_gate.xml** has been introduced to the change request form to replace the existing **change\_request\_conflict\_progress.xml**. This update supports the **change.conflict.useprogressworker** system property when you upgrade to Zurich. The new formatter displays the same Conflict tab but selects the macro version to render the form according to the value of the new system property.
+    Change lockdown allows change managers to pause all or a subset of in-flight change requests. Use it during major unplanned IT, critical, or financial events.
 
--   **[Define the maximum records for conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/configure-conflict-properties.md)**
+    **Note:** The Change lockdown depends on Change Management - Collision Detector plugin \(com.snc.change.collision\), this plugin is now activated automatically when you upgrade to the Brazil release.
 
-    Limit the maximum number of conflict records that can be generated for each conflict type when conflict detection runs through the **change.conflict.max\_count** system property; create this system property if it is not already present.
+-   ****
 
+    Automatically flag change requests that overlap an active lockdown period. Conflict detection runs alongside maintenance window and blackout window checks. Any change request inside a lockdown is marked as an Inside Change Lockdown conflict and placed on hold. Reschedule it outside the lockdown period to clear the conflict and continue processing.
 
-### What's changed
+-   ****
 
--   **Coral theme**
+    Scaled Change extends change management to complex environments with many configuration items. A single Scaled Change generates and coordinates child change records for every affected configuration item. It uses scheduling intelligence, conflict detection, and approval workflows to keep large-scale changes on track from planning through closure.
 
-    Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+-   ****
 
+    Assign an ITIL change process to a change model so the ChangeRequest API uses that model when it creates a matching change request.
 
--   **[Propose a standard change template in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/propose-standard-change-sow.md)**
+-   ****
 
-    As a user with the itil role, you can create a standard change template proposal in Service Operations Workspace.
+    Use state field policies to make change request fields mandatory or read-only at each state in a change model. Policies are enforced on the form when a change request is created or updated.
 
 

@@ -7,7 +7,7 @@ release: zurich
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Service Portfolio Management, IT Service Management]
 ---
@@ -56,7 +56,7 @@ When an outage is opened against a business or technical service, all child offe
 
     -   Select the **Begin** and **End** dates and times with the calendar or
     -   Enter the **Duration** as a function of days and hours.
-6.  Select and hold in the form header to save the record or select **Submit** or **Update** if editing an existing outage record.
+6.  Select and hold \(or right-click\) in the form header to save the record or select **Submit** or **Update** if editing an existing outage record.
 
     **Note:**
 

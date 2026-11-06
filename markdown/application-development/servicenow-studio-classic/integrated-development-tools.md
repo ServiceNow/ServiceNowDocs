@@ -1,71 +1,55 @@
 ---
 title: Integrated development tools for ServiceNow Studio
-description: ServiceNow Studio provides instant access to several tools available in the ServiceNow AI Platform development suite. As you create apps using ServiceNow Studio, you can extend their capabilities with these powerful development tools.
+description: Use the development tools in ServiceNow Studio to build apps, flows, tables, forms, and more — all without leaving the platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-studio-classic/integrated-development-tools.html
 release: zurich
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Explore, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Explore, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Integrated development tools for ServiceNow Studio
 
-ServiceNow Studio provides instant access to several tools available in the ServiceNow AI Platform development suite. As you create apps using ServiceNow Studio, you can extend their capabilities with these powerful development tools.
+Use the development tools in ServiceNow Studio to build apps, flows, tables, forms, and more — all without leaving the platform.
 
-## Development tools
+## What development tools are available in ServiceNow Studio?
 
-Use the following integrated development tools to build apps, flows, processes, tables, and more in ServiceNow Studio.
-
-While some tools have the word "Builder" attached to their name and others don't, all tools listed below enable you to build different parts of apps. Some builders are automation tools, while others enable you to build your user interface. For more information about builders, see [Builders in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/builders-in-servicenow-studio.md).
+Use the following development tools to build apps, flows, processes, tables, and more in ServiceNow Studio. Some tools include the word "Builder" in their name, but all tools listed here enable you to build different parts of an app. Some are automation tools; others are for building your user interface. For more information about builders, see [Builders in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/builders-in-servicenow-studio.md).
 
 ## AI
 
 |Builder|Description|
 |-------|-----------|
-|[AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-agent-studio.md)|Create, manage, or test AI agents and agentic workflows so that you can create self-executing workflows to help you achieve your business goals.|
-|[AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skill-kit-landing.md)|The Now Assist Skill Kit plugin for Now Assist enables you to create and activate custom prompts and skills for Now Assist.|
+|[AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-agent-studio.md)|Create, manage, and test AI agents and agentic workflows to automate self-executing processes and achieve business goals.|
+|[AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skill-kit-landing.md)|Create and activate custom prompts and skills for Now Assist using the Now Assist Skill Kit plugin.|
+|[Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent.md)|Use Build Agent, an autonomous AI agent, for creating and updating ServiceNow® applications. You can also ask Build Agent general ServiceNow development questions.|
 
 ## Automation
 
 |Builder|Description|
 |-------|-----------|
-|[Decision tables in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/decision-designer-overview.md)|Decision tables in Workflow Studio embed business logic into a series of if-then decision rules. Decision tables read data from inputs and evaluate the data according to specified conditions. When all the conditions for a decision rule are met, the decision table returns one or more results.|
-|[Flows, subflows, and actions in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/exploring-flows.md)|Flows, subflows, and actions enable process owners to automate work. Build multi-step flows from reusable components without having to code.|
-|[Playbooks in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/process-automation-designer.md)|Playbooks enable process owners to author cross-enterprise workflows and create a single, unified process. You can also use playbooks to provide end users with a simplified, task-oriented view of your process.|
+|[Decision tables in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/decision-designer-overview.md)|Embed business logic into if-then decision rules. Decision tables read data from inputs, evaluate conditions, and return one or more results when all conditions for a rule are met.|
+|[Flows, subflows, and actions in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/exploring-flows.md)|Automate work using multi-step flows built from reusable components, without writing code.|
+|[Playbooks in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/process-automation-designer.md)|Author cross-enterprise workflows and create a unified process. Use playbooks to provide end users a simplified, task-oriented view of your process.|
 
 ## Data
 
 |Builder|Description|
 |-------|-----------|
-|[Form Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/form-builder-glide-family-release/access-form-builder.md)|Customize any ServiceNow AI Platform record or form using Form Builder. Form Builder is accessed most often through Table Builder on the Forms tab.|
+|[Form Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/form-builder-glide-family-release/access-form-builder.md)|Customize any ServiceNow AI Platform record or form. Form Builder is most often accessed through Table Builder on the Forms tab.|
 |[Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/form-builder-glide-family-release/tb-landing-page.md)|Design tables, forms, and flows visually using a single user interface.|
 
 ## Integration
 
-<table id="table_a54_mxv_zcc"><thead><tr><th>
+|Builder|Description|
+|-------|-----------|
+|[Integration Hub Imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/importing-streaming-data-ih.md)|Configure, run, and schedule data imports through a single interface. Integration Hub Imports consolidates data integration capabilities in one environment, eliminating the need to manage multiple forms across the platform, and guides you through configuring data sources, target tables, and data mapping.|
 
-Builder
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-[Integration Hub Imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/importing-streaming-data-ih.md)
-
-</td><td>
-
-Integration Hub - Import enables you to configure, run, and schedule your data imports all through a single simplified interface.
-
- It also consolidates multiple data integration capabilities into a single environment, eliminating the need to create and manage several forms throughout the platform. Its step-by-step experience guides you through the configuration of data sources, target tables, and data mapping. You can schedule your data imports or run them on demand.
-
-</td></tr></tbody>
-</table>## Mobile builder
+## Mobile builder
 
 |Builder|Description|
 |-------|-----------|
@@ -75,16 +59,16 @@ Integration Hub - Import enables you to configure, run, and schedule your data i
 
 |Builder|Description|
 |-------|-----------|
-|[Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/set-up-cat-builder.md)|You can create or edit a catalog item \(catalog item or record producer\) using a visual and guided experience along with specified restrictions. The catalog builder experience enables you to delegate the creation and maintenance of the catalog.|
+|[Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/set-up-cat-builder.md)|Create or edit a catalog item \(catalog item or record producer\) using a visual, guided experience with specified restrictions. Catalog Builder enables you to delegate the creation and maintenance of the catalog.|
 |[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/c_ServicePortal.md)|Create or update the portal page layout and add or remove widgets on the page.|
 |[Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/service-catalog.md)|Create or edit a catalog item, which can be a record producer, an order guide, or a content item.|
 |[Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/c_SurveyDesigner.md)|Create survey categories and questions, configure their details, and publish the survey to specific users or groups.|
-|[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/ui-builder-overview.md)|UI Builder is a web user interface builder. Use UI Builder to build pages for App Engine Studio generated workspaces or custom web experiences using Next Experience Components and custom web components.|
-|[Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/workspace-builder/workspace-builder-landing.md)|Workspace Builder enables you to automate processes in a single design environment.|
+|[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/ui-builder-overview.md)|Build pages for workspaces generated by App Engine Studio or custom web experiences using Next Experience Components and custom web components.|
+|[Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/workspace-builder/workspace-builder-landing.md)|Automate processes in a single design environment using Workspace Builder.|
 
 ## Other tools
 
 |Builder|Description|
 |-------|-----------|
-|[Script Debugger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/script-debugger.md)|The Script Debugger enables users with the script\_debugger role to debug server-side JavaScript.|
+|[Script Debugger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/script-debugger.md)|Debug server-side JavaScript for users with the script\_debugger role.|
 

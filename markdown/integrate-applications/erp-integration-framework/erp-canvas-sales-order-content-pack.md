@@ -1,26 +1,19 @@
 ---
-title: Zero Copy Connector for ERP Quote to Cash data product
-description: Find details about the models and process extensions in the Zero Copy Connector for ERP Sales Order data product.
+title: Zero Copy Connector for ERP Quote to Cash content pack
+description: The Zero Copy Connector for ERP Quote to Cash content pack contains models and process extensions sales order processing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/erp-canvas-sales-order-content-pack.html
 release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-10-21"
 reading_time_minutes: 1
-keywords: [erp, canvas, erp canvas, content, pack, content pack, model]
-breadcrumb: [Data products, Building models, Use, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+keywords: [quote to cash, sales order, content pack, process extensions, erp canvas]
+breadcrumb: [Available SAP content packs, Content packs, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
-# Zero Copy Connector for ERP Quote to Cash data product
+# Zero Copy Connector for ERP Quote to Cash content pack
 
-Find details about the models and process extensions in the Zero Copy Connector for ERP Sales Order data product.
-
--   **[Zero Copy Connector for ERP Quote to Cash data product models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-content-pack-sales-order-models.md)**  
-The Zero Copy Connector for ERP Quote to Cash data product contains models that you may need when interacting with an SAP system.
--   **[Zero Copy Connector for ERP Quote to Cash data product process extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-content-pack-sales-order-process-extensions.md)**  
-The Zero Copy Connector for ERP Quote to Cash data product contains process extensions that you may need when interacting with an SAP system.
-
-**Parent Topic:**[Zero Copy Connector for ERP data products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-content-packs.md)
+The Zero Copy Connector for ERP Quote to Cash content pack contains models and process extensions sales order processing.
 

@@ -1,5 +1,5 @@
 ---
-title: Associate RIDAC records for a project
+title: Associate existing RIDAC records for a project
 description: Link existing RIDAC records \(risks, issues, actions, decisions, and request changes\) to one another for your project. Associating RIDAC records with each other enables you to keep a record of risks or issues and their outcome for analysis at project closure and planning. It also helps to track the risks and issues throughout the project life cycle.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-management/reassociate-ridac-project.html
@@ -7,12 +7,12 @@ release: zurich
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Adding RIDAC records for a project, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Adding RIDAC records for a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Associate RIDAC records for a project
+# Associate existing RIDAC records for a project
 
 Link existing RIDAC records \(risks, issues, actions, decisions, and request changes\) to one another for your project. Associating RIDAC records with each other enables you to keep a record of risks or issues and their outcome for analysis at project closure and planning. It also helps to track the risks and issues throughout the project life cycle.
 

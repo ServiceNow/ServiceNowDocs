@@ -7,9 +7,9 @@ release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Employee Document Management, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
+breadcrumb: [Employee Document Management for Agent Workspace for HR Case Management, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Create or upload employee documents using Agent Workspace for HR Case Management

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/auto-extract-technique-rules.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [MITRE-ATT&amp;CK administration, MITRE-ATT&amp;CK framework overview, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -132,7 +132,7 @@ Source Engine
 
 </td><td>
 
-If a value is specified in this field, then the rule will be applied exclusively to the threat lookup results that include the specified source engine in the source engine field.
+Source engine.
 
 </td></tr><tr><td>
 

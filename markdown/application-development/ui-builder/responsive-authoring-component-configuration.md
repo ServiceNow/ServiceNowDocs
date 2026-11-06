@@ -7,9 +7,9 @@ release: zurich
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Responsive authoring, Manage UI Builder pages and page variants, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Responsive authoring, Manage UI Builder pages and page variants, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Configuring components for responsive authoring
@@ -53,6 +53,12 @@ A method of increasing page usability is to tailor the look and feel of componen
 10. View the page at the desktop form factor.
 
 11. Select the mobile form factor icon.
+
+    \[Omitted image "responsive-author-icon-mobile.png"\] Alt text: Black arrow pointing to mobile form factor icon at the top of a UI Builder page in editor view.
+
+    At the mobile form factor, the list component is crowded and contains both vertical and horizontal scroll bars.
+
+    Make some simple configuration changes to improve the usability and appearance for the mobile form factor.
 
 12. Select **List 1** in the content tree.
 

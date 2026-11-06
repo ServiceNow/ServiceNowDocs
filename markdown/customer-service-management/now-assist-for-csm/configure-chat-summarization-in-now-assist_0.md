@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
@@ -47,7 +47,7 @@ Chat summarizations are generated when:
     |Trigger|Description|
     |-------|-----------|
     |Virtual Agent to Live Agent handoff|Chat summary that is generated when the chat handoff is done from Virtual Agent to a live agent.|
-    |Live Agent to Live Agent handoff|Chat summary that is generated when the chat handoff is done from a live agent to a live agent.|
+    |Live Agent to Live Agent handoff|Chat summary that is generated when the chat handoff is done from a live agent to a live agent.|
     |Quick action|Chat summary that is generated when the live agent performs the `/summarize` quick action.|
     |Chat wrap-up|Chat summary that is generated when the live agent ends the chat. The **Chat Summary** field is updated for the interaction.|
     |Short description|**Short description** field that is updated for the interaction when the live agent ends the chat.|
@@ -161,7 +161,7 @@ Input fields
     Default and Custom Roles:
 
     -   If no changes are made, the default roles sn\_customerservice\_agent and sn\_customerservice.consumer\_agent will automatically appear in **Define Access** and **Select Display**.
-    -   If custom roles were added before the upgrade, they’ll be updated automatically by a script.
+    -   If custom roles were added before the upgrade, they will be updated automatically by a script.
     -   If new roles are created after the upgrade, you must manually add them in both the **Define Access** and **Select Display**.
 
         **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you still must manually select it in **Select Display** to make it active.

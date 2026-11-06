@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-related-items.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Account onboarding, Use, Customer Success Management]
 ---
@@ -18,7 +18,7 @@ The Related Items component uses an expandable accordion format. You can expand 
 
 Several related items including account squad, onboarding tasks, emails, documents, and projects are displayed. Related Items include the following actions:
 
--   Create: opens a blank record in a sub tab that you can use to create a new item.
+-   Create: opens a empty record in a sub tab that you can use to create item.
 -   View all: opens a list of records in a sub tab.
 -   Show more: is displayed for lists that have more than five items.
 
@@ -31,6 +31,10 @@ Several related items including account squad, onboarding tasks, emails, documen
 \[Omitted image "account-lifecycle-related-item-projects.png"\] Alt text: Account onboarding project related item
 
 When you create a project for your account onboarding case, the case is mapped to the project table.
+
+Related items of **Data import task**.
+
+\[Omitted image "account-lifecycle-related-data-import.png"\] Alt text: Data import task related lists.
 
 **Parent Topic:**[Account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-use.md)
 

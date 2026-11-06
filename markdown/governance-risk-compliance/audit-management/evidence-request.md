@@ -7,7 +7,7 @@ release: zurich
 product: Audit Management
 classification: audit-management
 topic_type: concept
-last_updated: "2026-08-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
@@ -25,6 +25,7 @@ An evidence request is frequently introduced during the audit preparation or the
 -   Enables simplified manager approval of evidence requests based on various criteria, such as confidentiality and criticality. Improved confidentiality constraints prevent unauthorized persons from viewing request information.
 -   Allows assignees to store evidence in a common evidence folder, such as Box or SharePoint.
 -   Enables requesters to create a simplified two-step flow \(Evidence request → Evidence response\) by selecting **Skip collection detail**. Assignees can add evidence directly using the **New** button on the Evidence related list. For more information, see [Request evidence for audit using two-step process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/request-evidence.md).
+-   Store supporting documents in Microsoft Word or PDF formats on evidence, engagement, and control test records. Use the ServiceNow Otto® panel to ask questions or summarize documents. Use voice assist to enable voice chat and audio summaries. For more information, see [Using Document Management System in Audit Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/manage-documents-panel.md).
 
 Evidence can be requested from an engagement and all audit tables. To understand how to request evidence, refer to [Request evidence for audit using two-step process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/request-evidence.md).
 

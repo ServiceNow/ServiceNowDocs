@@ -1,20 +1,20 @@
 ---
 title: Service Catalog
-description: Use the ServiceNow Service Catalog application to create service catalogs that provide your customers with self-service opportunities. Customize portals where your customers can request catalog items such as service and product offerings. You can also standardize request fulfillment to ensure the accuracy and availability of the items in the catalogs.
+description: Use the ServiceNow Service Catalog application to develop comprehensive service catalogs that empower customers with self-service capabilities. Tailor portals to enable customers to request a range of catalog items, including services and product offerings. Additionally, you can standardize request fulfillment processes to ensure the accuracy and availability of items within the catalogs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/service-catalog.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Service Catalog
 
-Use the ServiceNow® Service Catalog application to create service catalogs that provide your customers with self-service opportunities. Customize portals where your customers can request catalog items such as service and product offerings. You can also standardize request fulfillment to ensure the accuracy and availability of the items in the catalogs.
+Use the ServiceNow Service Catalog application to develop comprehensive service catalogs that empower customers with self-service capabilities. Tailor portals to enable customers to request a range of catalog items, including services and product offerings. Additionally, you can standardize request fulfillment processes to ensure the accuracy and availability of items within the catalogs.
 
 ## Get started
 

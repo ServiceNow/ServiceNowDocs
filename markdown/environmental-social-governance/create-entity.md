@@ -1,18 +1,18 @@
 ---
 title: Create an entity
-description: Create an entity and measure its performance against the goals. Defining an entity ensures that the entity owners are also identified. After an entity is defined, ESG Management goals are applied to the entity.
+description: Create an entity and measure its performance against the goals. Defining an entity ensures that the entity owners are also identified. After an entity is defined, Operational Sustainability Management goals are applied to the entity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/create-entity.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage entities in ESG Management \(formerly ESG Management\), Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Manage entities in Operational Sustainability Management \(formerly ESG Management\), Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Create an entity
 
-Create an entity and measure its performance against the goals. Defining an entity ensures that the entity owners are also identified. After an entity is defined, ESG Management goals are applied to the entity.
+Create an entity and measure its performance against the goals. Defining an entity ensures that the entity owners are also identified. After an entity is defined, Operational Sustainability Management goals are applied to the entity.
 
 ## Before you begin
 
@@ -60,5 +60,5 @@ The entity is created. The New Entity form is displayed with the **Details** tab
 
 [Update an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/update-an-entity.md)
 
-**Parent Topic:**[Manage entities in ESG Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/entities-in-esg.md)
+**Parent Topic:**[Manage entities in Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/entities-in-esg.md)
 

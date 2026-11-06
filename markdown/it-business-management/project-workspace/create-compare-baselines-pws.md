@@ -7,7 +7,7 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage financials, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -34,15 +34,15 @@ Role required: it\_project\_manager
 
 3.  Create or compare baselines.
 
-<table id="choicetable_xd3_bdk_2zb"><thead><tr><th align="left" id="d231962e127">
+<table id="choicetable_xd3_bdk_2zb"><thead><tr><th align="left" id="d249318e127">
 
 Option
 
-</th><th align="left" id="d231962e130">
+</th><th align="left" id="d249318e130">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d231962e136">
+</th></tr></thead><tbody><tr><td id="d249318e136">
 
 **Create a baseline**
 
@@ -59,7 +59,7 @@ Create financial baseline window appears with the Name field is auto-populated w
 
  **Note:** You can [activate a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/baseline-scheduler-job.md) to automatically create financial baselines.
 
-</td></tr><tr><td id="d231962e187">
+</td></tr><tr><td id="d249318e187">
 
 **Compare baselines**
 

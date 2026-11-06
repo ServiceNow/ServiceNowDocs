@@ -7,16 +7,16 @@ release: zurich
 product: Workplace Core
 classification: workplace-core
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure Workplace Core, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Configuring spreadsheets to import workplace data
 
 Import work location data in bulk through spreadsheets into the Workplace Core application to avoid manually entering redundant data for each workplace, which saves time and effort.
 
-By using a spreadsheet that contains the global information for your work sites, you can enter only the distinguishing space information instead of having to manually repeat information such as the region, site, building, and floor. You can either create an Excel spreadsheet from the data you've entered into the Workplace Core application or modify an existing workplaces spreadsheet.
+By using a spreadsheet that contains the global information for your work sites, you can enter only the distinguishing space information instead of manually repeating information such as region, site, building, and floor. You can either create an Excel spreadsheet from the data already entered into the Workplace Core application or modify an existing workplace spreadsheet.
 
 **Parent Topic:**[Configure Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/configure-wsd.md)
 

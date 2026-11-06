@@ -7,9 +7,9 @@ release: zurich
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Notify flows, Reference, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Notify flows, Notify reference, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Create a custom Notify subflow

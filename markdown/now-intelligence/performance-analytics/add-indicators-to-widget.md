@@ -7,7 +7,7 @@ release: zurich
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Performance Analytics widgets, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -20,13 +20,13 @@ Add any number of secondary indicators to an existing time series or list widget
 
 The widget must exist. If you want to add indicators to a widget that you are creating, save the widget instead of submitting it. The form remains open and the Widget Indicators related list appears at the bottom.
 
-Role required: pa\_power\_user or admin
+Role required: pa\_admin or admin
 
 ## About this task
 
 **Note:** This feature is part of the Core UI front end. It is not supported on Platform Analytics dashboards or UI Builder pages, except to a limited extent when migrated in compatibility mode. To build Platform Analytics components, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center-data-visualizations.md) or [Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/interactive-filters-workspace.md).
 
-This feature is in maintenance mode and is no longer being augmented or changed. Only security fixes to this feature will be addressed.
+This feature is deprecated, meaning it is in maintenance mode and is no longer being augmented or changed. Only security fixes to this feature will be addressed.
 
 When you create a time series widget, you associate it with a single, main indicator. If you want to compare this indicator to another indicator in the same widget, add the additional indicator to the existing widget. This procedure is necessary when you create a Stacked Column visualization for a time series.
 

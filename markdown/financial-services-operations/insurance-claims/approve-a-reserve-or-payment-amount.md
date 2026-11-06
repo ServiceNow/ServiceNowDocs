@@ -7,9 +7,9 @@ release: zurich
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, Insurance claims, Claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Insurance claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Approve a reserve or payment amount for an Insurance claims case
@@ -32,15 +32,15 @@ This procedure references service definitions and products that are used in the 
 
 2.  Open the task in one of the following ways.
 
-<table id="choicetable_crj_rkc_vcc"><thead><tr><th align="left" id="d80528e103">
+<table id="choicetable_crj_rkc_vcc"><thead><tr><th align="left" id="d89231e103">
 
 Option
 
-</th><th align="left" id="d80528e106">
+</th><th align="left" id="d89231e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d80528e112">
+</th></tr></thead><tbody><tr><td id="d89231e112">
 
 **From the landing page**
 
@@ -48,7 +48,7 @@ Description
 
 Select the task from the My pending tasks list.
 
-</td></tr><tr><td id="d80528e121">
+</td></tr><tr><td id="d89231e121">
 
 **From the Insurance claims approvals list**
 
@@ -64,15 +64,15 @@ Select the task from the My pending tasks list.
 </td></tr></tbody>
 </table>3.  Close the task from the Claim reserve or Claim payment task form.
 
-<table id="choicetable_tyn_clc_vcc"><thead><tr><th align="left" id="d80528e173">
+<table id="choicetable_tyn_clc_vcc"><thead><tr><th align="left" id="d89231e173">
 
 Approval task
 
-</th><th align="left" id="d80528e176">
+</th><th align="left" id="d89231e176">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d80528e182">
+</th></tr></thead><tbody><tr><td id="d89231e182">
 
 **Submit an approval**
 
@@ -80,7 +80,7 @@ Action
 
 Approve the reserve or payment amount by selecting **Approve**.
 
-</td></tr><tr><td id="d80528e194">
+</td></tr><tr><td id="d89231e194">
 
 **Submit a rejection**
 

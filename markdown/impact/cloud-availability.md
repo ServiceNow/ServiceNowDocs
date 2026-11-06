@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/cloud-availability.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Availability, Overview of Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [View instance-level availability, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
 # Cloud availability
@@ -27,4 +27,6 @@ See which data center is available and if there is an outage or a specific trend
 \[Omitted image "data-center-details.png"\] Alt text: Shows the data center details page after expanding from the cloud map.
 
 Go directly to Instance Observer, view summaries of the availability, and details of the last 90 days service issues.
+
+**Parent Topic:**[View instance-level availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-availability.md)
 

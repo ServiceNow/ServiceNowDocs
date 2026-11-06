@@ -1,5 +1,5 @@
 ---
-title: Capacity management
+title: Configuring capacity management
 description: Create and configure the capacity management function, definition, and metric in the Telecommunications Network Inventory application. By using capacity management, you can calculate the maximum, occupied, and available capacity of your network assets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/configuring-capacity-management.html
@@ -7,12 +7,12 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Telecommunications Network Inventory]
 ---
 
-# Capacity management
+# Configuring capacity management
 
 Create and configure the capacity management function, definition, and metric in the Telecommunications Network Inventory application. By using capacity management, you can calculate the maximum, occupied, and available capacity of your network assets.
 

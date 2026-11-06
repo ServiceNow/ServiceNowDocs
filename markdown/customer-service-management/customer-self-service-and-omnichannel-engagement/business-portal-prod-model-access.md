@@ -1,5 +1,5 @@
 ---
-title: Limit access to product model data on the Business Portal
+title: Limit access to product model data on the Business and Consumer Portal
 description: Use a system property to limit customer access to data in the Product Models table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/business-portal-prod-model-access.html
@@ -7,18 +7,22 @@ release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Business Portal, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Configure Business and Consumer Portal, Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
-# Limit access to product model data on the Business Portal
+# Limit access to product model data on the Business and Consumer Portal
 
 Use a system property to limit customer access to data in the Product Models table.
 
-External users can access the product model data from the Business Portal with the sn\_esm\_user role. System administrators can use the **csm\_cmdb\_model.customer\_visible\_flag** system property and the **Customer Visible** field on the Product Models table \(cmdb\_model\) and child tables to limit this access.
+External users can access the product model data from the Business and Consumer Portal with the sn\_esm\_user role. System administrators can use the **csm\_cmdb\_model.customer\_visible\_flag** system property and the **Customer Visible** field on the Product Models table \(cmdb\_model\) and child tables to limit this access.
 
-The **csm\_cmdb\_model.customer\_visible\_flag** system property enables the **Customer Visible** field for the tables listed below. By default, this property is set to false. When set to true, the system uses the setting in the **Customer Visible** field to determine access to product model data on the Business Portal.
+The **csm\_cmdb\_model.customer\_visible\_flag** system property enables the **Customer Visible** field for the tables listed below.
+
+By default, this property is set to True.
+
+When set to true, the system uses the setting in the **Customer Visible** field to determine access to product model data on the Business and Consumer Portal.
 
 -   Product Models table \(cmdb\_model\)
 -   Software Models table \(cmdb\_software\_product\_model\)

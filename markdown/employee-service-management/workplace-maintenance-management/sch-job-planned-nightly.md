@@ -7,9 +7,9 @@ release: zurich
 product: Workplace Maintenance Management
 classification: workplace-maintenance-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Manage plans, Workplace Maintenance Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Manage, Workplace Maintenance Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Workplace planned maintenance scheduled job
@@ -75,5 +75,5 @@ For meter-based cases, the **Workplace Planned Maintenance Nightly Run** schedul
 
 **Previous topic:**[Create or copy a maintenance schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/create-maint-schedule.md)
 
-**Next topic:**[Workplace maintenance cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/create-maint-cases.md)
+**Next topic:**[Create workplace services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/create-workplace-services.md)
 

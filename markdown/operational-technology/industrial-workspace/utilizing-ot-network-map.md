@@ -7,7 +7,7 @@ release: zurich
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: concept
-last_updated: "2026-01-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Explore, Industrial Workspace, Operational Technology]
 ---

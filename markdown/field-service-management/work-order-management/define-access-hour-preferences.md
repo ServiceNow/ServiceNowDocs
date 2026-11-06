@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Auto-population of access hours, Work orders and tasks, Configure, Field Service Management]
+breadcrumb: [Auto-population of access hours, Set up work orders and tasks, Configure, Field Service Management]
 ---
 
 # Define access hour preferences for a work order task

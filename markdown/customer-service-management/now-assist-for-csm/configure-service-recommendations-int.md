@@ -1,13 +1,13 @@
 ---
 title: Configure service recommendations for interactions
-description: Configure the service recommendations for interactions skill in the to streamline case creation. This skill reduces cognitive effort, saves time, and promotes accurate case routing.
+description: Configure the service recommendations for interactions skill in the AI Admin Hub console to streamline case creation. This skill reduces cognitive effort, saves time, and promotes accurate case routing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/configure-service-recommendations-int.html
 release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2025-11-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Generative AI, Generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -15,7 +15,7 @@ breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM
 
 # Configure service recommendations for interactions
 
-Configure the service recommendations for interactions skill in the  to streamline case creation. This skill reduces cognitive effort, saves time, and promotes accurate case routing.
+Configure the service recommendations for interactions skill in the AI Admin Hub console to streamline case creation. This skill reduces cognitive effort, saves time, and promotes accurate case routing.
 
 ## Before you begin
 
@@ -23,11 +23,11 @@ Role required: admin
 
 ## About this task
 
-Use the  for configuring the service recommendations for interactions skill by specifying the roles permitted to use the skill and the role restrictions.
+Use the AI Admin Hub console for configuring the service recommendations for interactions skill by specifying the roles permitted to use the skill and the role restrictions.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Skills**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
 
     Access the skills configuration page.
 

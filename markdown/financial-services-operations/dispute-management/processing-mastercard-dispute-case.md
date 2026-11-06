@@ -7,7 +7,7 @@ release: zurich
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Resolving disputes with Mastercard, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -26,7 +26,7 @@ After a dispute case is submitted, each disputed transaction is displayed in a *
 -   The **Closed** tab displays all the tasks that have been closed.
 -   The activity stream for the transaction is displayed below the task.
 -   The dispute transaction and financial transaction details are displayed in **Disputed transaction details** and **Financial transaction details** widget.
--   The **Attachments** displays files attached to the case.
+-   The **Attachments** displays files attached to the case. If Card Data Security is installed and configured, **Attachments** in the contextual side panel will handle files differently in transaction records. For more information, see [Manage attachments in Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/manage-attachments-in-card-data-security.md).
 
 -   **[About Financial adjustments in Mastercard disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/financial-adjustments.md)**  
 Financial adjustments are tasks or activities displayed based on the policy of the transaction. In Mastercard, there are two types of financial adjustments: Financial adjustments 1 and Financial adjustments 2.

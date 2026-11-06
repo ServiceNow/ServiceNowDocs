@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Installing OT Asset Management, Configure, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Installing OT Asset Management, OT Asset Management, Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
 ---
 
 # Install OT Asset Management from the Admin Home page
@@ -18,7 +18,7 @@ You can install the OT Asset Management application \(com.sn\_otam\) if you have
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 
 Role required: admin
 

@@ -7,7 +7,7 @@ release: zurich
 product: Automation Center
 classification: automation-center
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Automation Center, Workflow Data Fabric]
 ---
@@ -24,7 +24,7 @@ ServiceNow® Automation Center Workspace is a web-based platform with three dash
 
 -   **[Automation Center Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/overview-dash.md)**  
 The Automation Center Workspace landing page is the Overview dashboard, which contains basic score cards, lists, and reports.
--   **[Automation Center Executions dashboarb](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/executions-dash.md)**  
+-   **[Automation Center Executions dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/executions-dash.md)**  
 The Automation Center Executions dashboard helps you manage the health of automations in one central place. You can also​ import automation metrics and data from third-party providers regardless of the technology used.
 -   **[Automation Center Value dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/value-dash.md)**  
 The Automation Center Value dashboard provides summary information about the states of goals and automations along with the actual and estimated cost and time saved for all active and future automations.

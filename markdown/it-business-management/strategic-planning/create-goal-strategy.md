@@ -7,7 +7,7 @@ release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage enterprise goals, Strategy and Goals, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -30,15 +30,15 @@ Role required: sn\_apw\_advanced.spw\_goal\_user
 
 3.  Create a goal using one of the following methods depending on your board type.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d333160e83">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d357518e83">
 
 Option
 
-</th><th align="left" id="d333160e86">
+</th><th align="left" id="d357518e86">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d333160e92">
+</th></tr></thead><tbody><tr><td id="d357518e92">
 
 **From the Strategy page**
 
@@ -52,7 +52,7 @@ The strategic priority details page opens.
 3.  Select **New**.
 
 
-</td></tr><tr><td id="d333160e121">
+</td></tr><tr><td id="d357518e121">
 
 **From the Goals page**
 

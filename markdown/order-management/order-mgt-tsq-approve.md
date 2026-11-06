@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/order-mgt-tsq-approve.html
 release: zurich
 topic_type: task
-last_updated: "2025-10-15"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Service qualification requests, Managing service orders, Order Management, Use, Sales Customer Relationship Management]
 ---
 
@@ -20,7 +20,7 @@ Role required: sn\_ind\_tmt\_orm.order\_fulfilment\_manager, sn\_ind\_tmt\_orm.o
 
 ## Procedure
 
-1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace** .
+1.  Navigate to  **Workspaces** &gt; **CRM Workspace** .
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -67,7 +67,7 @@ Role required: sn\_ind\_tmt\_orm.order\_fulfilment\_manager, sn\_ind\_tmt\_orm.o
 
     You can manually update the Result field in two ways:
 
-    -   Update the `qualificationresult`field inn the `api/sn_ord_qual_mgmt/qualification/checkServiceQualification/processResult` API for all the order line items.
+    -   Update the `qualificationresult` field inn the `api/sn_ord_qual_mgmt/qualification/checkServiceQualification/processResult` API for all the order line items.
     -   Update the Result field on the Domain Order, Order Line Item, and top Order Line Item forms. The Result field on the Customer Order is also updated.
     **Data model changes**
 
@@ -86,4 +86,11 @@ Role required: sn\_ind\_tmt\_orm.order\_fulfilment\_manager, sn\_ind\_tmt\_orm.o
         -   Unavailability reason
 
 **Parent Topic:**[Service qualification requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-tsq-about.md)
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-order-management.md)
 

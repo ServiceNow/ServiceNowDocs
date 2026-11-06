@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ba-conversational-change-log.html
 release: zurich
 topic_type: concept
-last_updated: "2026-07-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
+breadcrumb: [Use, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Checkpoints and conversation change log
@@ -25,8 +25,6 @@ Use the conversation change log to do the following actions:
 
 When viewing the conversation change log, you can also view update sets created by Build Agent from within the chat panel. Each checkpoint includes a button that opens the relevant update set in a new tab. For information on how the change log and checkpoints work with update sets, see [Update sets and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-update-sets.md).
 
-\[Omitted image "ba-change-log.png"\] Alt text: Checkpoint selection with Checkpoint 1 selected and a generated change log summary for an app. \[Omitted image ""\] Alt text:
-
 The change log displays the following:
 
 -   The **Files** list displays all the files that Build Agent updated during your conversation. The categories mirror the ones in the ServiceNow Studio Navigator panel.
@@ -40,12 +38,13 @@ Changes from each checkpoint in the conversation are packaged together into an u
 
 Checkpoints are groups of changes that you made to an application that you can revert to at any time during your conversation with Build Agent. Checkpoints are created automatically after you approve each task plan.
 
-**Note:** With Australia Patch 3 and earlier, checkpoint 0 creates an update set in global scope, and subsequent checkpoints created update sets in your application scope. However, update sets that exist across different scopes and can't be merged.
+**Note:**
 
-With Australia Patch 4 and later:
-
+-   Checkpoint 0 creates an update set in global scope, and subsequent checkpoints created update sets in your application scope. However, update sets that exist across different scopes and can't be merged.
 -   Checkpoint 0 doesn't create an update set. Instead, it serves as a placeholder in the UI that you can use to restore your application to its initial state.
 -   Checkpoint 1 is the base update set for your application. The checkpoint 1 update set is the parent, or chain root, for all subsequent update sets created during the conversation. Because all update sets exist in the same application scope, you can merge them together when you're ready to move your changes to another environment. For information on update sets, see [Update sets and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-update-sets.md).
+
+\[Omitted image "ba-checkpoints.png"\] Alt text: Checkpoints panel with Checkpoint 5 expanded, listing six updated test step files and Restore and Review buttons.
 
 When Build Agent prepares to create the next checkpoint, it checks whether any changes exist in the manual edit update set. If no changes are present, Build Agent removes the update set. If changes exist, Build Agent completes the update set and renders it with the other update sets from your conversation. You can access manual edit update sets directly from the checkpoints panel in your Build Agent conversation.
 

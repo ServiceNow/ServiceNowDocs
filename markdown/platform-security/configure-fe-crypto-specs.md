@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/configure-fe-crypto-specs.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring Field Encryption, Field Encryption, Encryption]
 ---
@@ -16,7 +16,7 @@ Use cryptographic specifications to define the purpose, algorithm, key length, m
 
 ## Before you begin
 
-Role required: KMF Admin or KMF Cryptographic Manager
+Role required: security\_admin and sn\_kmf.cryptographic\_manager or sn\_kmf.admin
 
 ## About this task
 
@@ -26,17 +26,17 @@ For customer-supplied key configuration, see [Configure Customer-supplied keys f
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **System Security** &gt; **Field Encryption** &gt; **Field Encryption Modules**.
+1.  Navigate to **All** &gt; **System Security** &gt; **Field Encryption** &gt; **Field Encryption Experience**.
 
-2.  In the **Cryptographic Modules** list, open the module record you want to configure.
+2.  Select **View module details** from the **Field Encryption modules** overview to open the module record you want to configure.
 
     **Note:** The names displayed in the list are appended with the scope, for example, `global.[your Field Encryption Module name]`.
 
-3.  In the **Crypto Specifications** related list, open the cryptographic specific record by selecting the name under **Key alias**.
+3.  In the **Cryptographic Specifications** section, select **Manage Specification Settings**.
 
-    \[Omitted image "crypto-spec-list-1.png"\] Alt text: Cryptographic Specifications related list
+    \[Omitted image "crypto-specs-tab.png"\] Alt text: Displays the Key alias section of the Crypto Specifications tab.
 
-4.  In the Cryptographic Specifications form, fill out the fields as needed.
+4.  In the Crypto Specifications form, fill out the fields as needed.
 
     **Note:** The fields are divided into sections. Select the **Next** or **Back** buttons to navigate between sections.
 

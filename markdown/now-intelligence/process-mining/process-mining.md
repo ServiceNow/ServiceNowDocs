@@ -7,8 +7,8 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Platform Analytics]
 ---
 
@@ -25,8 +25,8 @@ Create automated business process flows from your data that enable you to monito
 -   Audit processes to immediately detect critical changes and potential problems before they create negative consequences on the business.
 -   Integrate with ServiceNow® Performance Analytics and Continual Improvement Management to discover opportunities for improving your processes. For more information see, [Integration with indicator data sources \(PA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/integrate-pa.md) and [Integration with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/integrate-with-continuous-i.md).
 -   Compare processes to investigate performance differences or deviations. For more information see, [Comparing projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/comparing-models.md).
--   Link connected processes for a more comprehensive view of what impacts your main business. For more information see, [Activate Process Mining content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/po-content-pack.md).
--   View activity transitions to see the top contributing activity transitions across specific metrics. For more information see, [Apply a transition filter on an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/node-to-node-conditions.md)
+-   Link connected processes for a more comprehensive view of what impacts your main business. For more information see, [Activate content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/activate-po-content-pack.md).
+-   View activity transitions to see the top contributing activity transitions across specific metrics. For more information see, [Applying a process step filter on an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/node-to-node-conditions.md)
 -   Perform advanced calculations with the scalability of machine learning and AI.
 -   Perform Machine Learning \(ML\) based Cluster Analysis to find similar groupings, or patterns, of instances or records. For more information see, [Cluster analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/cluster-analysis.md).
 

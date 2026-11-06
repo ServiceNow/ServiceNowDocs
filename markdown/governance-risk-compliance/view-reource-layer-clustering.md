@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/view-reource-layer-clustering.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Crisis Management map, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -34,7 +34,7 @@ Asset locations that are nearby to each other are clustered and a cumulative cou
 
     The layers on the map appear just as pins on a Google map and are configurable. All the layer details like the asset locations, assets, datacenters, and core companies are displayed on the map by their configured icons.
 
-    Use the layers control to view only the selected or all assets that can be toggled on and off on the map. As a crisis manager, when viewing the active alerts you can make an informed decision by concentrating on a single asset that can be critical at that moment from the rest.
+    Use the layers control to view only the selected or all assets that can be toggled on and off on the map. When viewing active alerts, you can focus on a single critical asset to make informed decisions.
 
 4.  To display a selective resource or asset on the map, select the check box of that asset.
 
@@ -46,7 +46,7 @@ Asset locations that are nearby to each other are clustered and a cumulative cou
 
     For example, if you click a datacenter icon \(\[Omitted image "BCMDatacenterIcon.png"\] Alt text: datacenter icon.\) that has no number or a count next to it, a pop over appears with the display information that you have configured in the Resource Configuration table \[sn\_fam\_resource\_config\].
 
-    If you have configured **Power** and **Power consumption** fields of the datacenter table \[cmdb\_co\_datacenter\] as the display fields in the Resource Configuration form, then the power consumption details of that datacenter are displayed on the pop over along with its location coordinates.
+    You can configure **Power** and **Power consumption** fields of the datacenter table \[cmdb\_co\_datacenter\] as display fields in the Resource Configuration form. The pop over then displays the power consumption details of that datacenter along with its location coordinates.
 
 6.  Click an asset icon with a number next to it.
 

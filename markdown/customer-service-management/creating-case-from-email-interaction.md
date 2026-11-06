@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/creating-case-from-email-interaction.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Email Interaction for CSM, Email Interaction for CSM]
 breadcrumb: [Using Email Interaction for CSM, Customer communication, Use, Customer Service Management]
@@ -16,6 +16,10 @@ breadcrumb: [Using Email Interaction for CSM, Customer communication, Use, Custo
 Create a case from an inbound email interaction when the customer query requires further investigation. The case and interaction are linked to each other. All communication and case details are easily accessible for more efficient resolutions.
 
 After a case is created from an email interaction, the email interaction is automatically closed.
+
+When a case is created, sending an email to the customer creates an outbound interaction. This outbound email interaction is for reporting purposes only, and no emails are linked to it.
+
+Closing the case also closes the outbound interaction.
 
 ## Create a case
 
@@ -33,7 +37,7 @@ When you create a case from an inbound interaction, the system links the interac
 
 1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon \(\[Omitted image "List\_icon.jpg"\] Alt text: List icon\).
+2.  Select the List icon \(\[Omitted image "List\_icon\_eaai\_new.png"\] Alt text: List icon\).
 
 3.  In the Interactions section, select **My Interactions**.
 

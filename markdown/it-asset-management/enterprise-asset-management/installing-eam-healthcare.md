@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Enterprise Asset Management for Healthcare, Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
 ---
 
 # Installing Enterprise Asset Management for Healthcare
@@ -21,5 +21,10 @@ You can install the Enterprise Asset Management for Healthcare application \(com
 -   **[Install Enterprise Asset Management for healthcare from the Admin Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/install-eam-healthcare-admin-home-page.md)**  
 You can install the Enterprise Asset Management for Healthcare application \(com.sn\_eamhc\) if you have the admin role. The application installs related ServiceNow® Store applications and plugins if they are not already installed.
 
-**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/it-asset-management.md)
+**Parent Topic:**[Enterprise Asset Management for Healthcare](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/eam-for-healthcare.md)
+
+**Related topics**  
+
+
+[Installed with Enterprise Asset Management for Healthcare]()
 

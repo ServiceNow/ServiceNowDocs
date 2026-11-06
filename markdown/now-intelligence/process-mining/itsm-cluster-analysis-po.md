@@ -7,28 +7,28 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Content pack for ITSM, Activate Process Mining content packs, Activating Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [ITSM, Automatic content pack delivery, Activate content packs, Activate, Process Mining, Platform Analytics]
 ---
 
 # Cluster analysis configurations for ITSM work items
 
 The Process Mining application provides solution definitions for incidents, problems, change requests, and requested items. You can use these definitions to configure cluster analysis for those work items.
 
-**Important:** This feature is available with the ServiceNow Store Process Mining ITSM content pack v1.2. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+**Important:** This feature is included with the Process Mining ITSM content pack, which is delivered automatically when ITSM is installed on your instance. For more information, see [Automatic delivery of content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/process-mining-content-pack-delivery.md).
 
 ## Clustering solution definition configurations
 
-A Process Mining administrator \(sn\_process\_optimization\_admin\) can access the ITSM work item solution definition configurations by navigating to **Predictive Intelligence** &gt; **Clustering** &gt; **Solution Definitions**.
+A Process Mining administrator \(sn\_process\_mining\_admin\) can access the ITSM work item solution definition configurations by navigating to **Predictive Intelligence** &gt; **Clustering** &gt; **Solution Definitions**.
 
 **Note:** By default, these solution definitions are configured as follows:
 
 -   The **Fields** field is configured to Short description.
 -   The **Minimum number of records per cluster** field is set to a value of 150.
--   The **Word Corpus** field is configured to the corresponding word corpus record, For example, the Incident clustering definition is configured to the incident word corpus record. Each of the word corpus record gathers all description and short description data for the last 12 months.
+-   The **Word Corpus** field is configured to the corresponding word corpus record, for example, the Incident clustering definition is configured to the incident word corpus record. Each of the word corpus record gathers all description and short description data for the last 12 months.
 
-The clustering solution definitions also contain the purity fields listed in the table below.
+The clustering solution definitions also contain the purity fields listed in the following table .
 
 <table id="table_ax4_nzk_2qb"><thead><tr><th>
 

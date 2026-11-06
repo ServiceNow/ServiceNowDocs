@@ -1,20 +1,20 @@
 ---
 title: Pull changes from a repository
-description: App developers using ServiceNow Studio can pull changes from a linked Git repository to apply remote changes to the local instance.
+description: Pull changes from a linked Git repository in ServiceNow Studio to apply remote updates to the local instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-studio-classic/sns-sc-pull-changes-from-repository.html
 release: zurich
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Work with changes in Git, Source control in ServiceNow Studio, Applications in ServiceNow Studio, Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Work with changes in Git, Metadata source control in ServiceNow Studio, Source control integration, Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Pull changes from a repository
 
-App developers using ServiceNow Studio can pull changes from a linked Git repository to apply remote changes to the local instance.
+Pull changes from a linked Git repository in ServiceNow Studio to apply remote updates to the local instance.
 
 ## Before you begin
 
@@ -32,17 +32,17 @@ Role required: admin
 
 4.  Select **Source control** &gt; **Pull from repository**.
 
-5.  Choose whether you want to stash or discard local changes.
+5.  Choose whether to stash or discard local changes before pulling.
 
-<table id="choicetable_evb_nr3_t5"><thead><tr><th align="left" id="d177140e150">
+<table id="choicetable_evb_nr3_t5"><thead><tr><th align="left" id="d328419e152">
 
 Option
 
-</th><th align="left" id="d177140e153">
+</th><th align="left" id="d328419e155">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d177140e159">
+</th></tr></thead><tbody><tr><td id="d328419e161">
 
 **Stash local changes**
 
@@ -50,13 +50,13 @@ Description
 
 Saves local changes before switching to an alternate branch. You can later merge or discard the saved changes.
 
-</td></tr><tr><td id="d177140e168">
+</td></tr><tr><td id="d328419e170">
 
 **Discard local changes**
 
 </td><td>
 
-Permanently deletes all local changes before switching to an alternate branch. If you choose to discard, you will not be able to recover those files.**Note:** Use caution when discarding local changes. Since all application developers share repository credentials, there is no way to discard just one set of user changes.
+Permanently deletes all local changes before switching to an alternate branch. Discarded changes cannot be recovered.**Note:** Use caution when discarding local changes. Because all application developers share repository credentials, there is no way to discard only one set of user changes.
 
 </td></tr></tbody>
 </table>    \[Omitted image "sn-studio-pull-from-repo.png"\] Alt text: Before you pull from the repository, select whether you want to stash or discard local changes.
@@ -74,7 +74,7 @@ The following operations occur:
 
 If there are conflicts, the system displays the **Resolve Conflicts** window.
 
-Delta loading is enabled by default in sys\_properties so your data isn't removed. You can disable this feature if you want data automatically deleted.
+Delta loading is enabled by default in sys\_properties so your data is not removed. Disable this feature if you want data automatically deleted.
 
 **Parent Topic:**[Work with changes in Git](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/sns-sc-work-with-changes-in-git.md)
 

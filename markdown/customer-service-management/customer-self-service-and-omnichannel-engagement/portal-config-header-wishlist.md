@@ -7,7 +7,7 @@ release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure the Portal Polaris Header widget for your portal, Portal Polaris Header widget, Set up Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
 ---
@@ -18,7 +18,7 @@ Display a wishlist and cart on your portal header.
 
 ## Before you begin
 
-Role required: sp\_admin or admin
+Role required: sp\_admin
 
 ## Procedure
 

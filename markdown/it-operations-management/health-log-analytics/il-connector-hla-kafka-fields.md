@@ -7,10 +7,10 @@ release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Kafka, data input, integration, configuration, field, description, ServiceNow, Health Log Analytics, HLA]
-breadcrumb: [Integration configuration field descriptions, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Integration configuration fields, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # Apache Kafka integration configuration fields
@@ -41,7 +41,7 @@ Execute on
 
 </td><td>
 
-Option to select whether to use a specific MID Server or a MID Server cluster. This field is required.
+Option to select whether to use a specific MID Server or a specific MID Server cluster. This field is required.
 
 </td></tr><tr><td>
 
@@ -250,5 +250,5 @@ Option to discard logs if there is a load on the MID Server.
 False
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Integration configuration field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
+</table>**Parent Topic:**[Integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

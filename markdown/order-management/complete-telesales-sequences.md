@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/complete-telesales-sequences.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-10"
-reading_time_minutes: 1
-breadcrumb: [Customer Engagement Sequences, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Customer Engagement Sequences, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Fulfill a telesales sequence
@@ -20,7 +20,7 @@ Role required: Sequence executor \[sn\_crm\_sequence.executor\]
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -33,6 +33,8 @@ Role required: Sequence executor \[sn\_crm\_sequence.executor\]
 6.  Review detailed call task information by selecting **Call task details**.
 
 7.  Select the Call icon \[Omitted image "phone-fill-24.svg"\] Alt text: next to the **Callback number** field to start an outbound call.
+
+    **Note:** The Call icon \[Omitted image "phone-fill-24.svg"\] Alt text: does not appear on the **Callback number** field in Xanadu or in Yokohama if you created the schedule call activity using the Schedule call - Deprecated activity. For compatibility information, see [Compatibility information for Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/compatibility-matrix-upgrade-info.md).
 
 8.  Complete the activity by setting the following fields.
 
@@ -51,7 +53,7 @@ Reason
 </td><td>
 
 Call outcome. The available options are:-   Resolved: The call task was successfully completed and the goal met.
--   Timeout: The task expired because it was not accepted or acted upon within the allowed time.
+-   Timeout: The task expired because it was not accepted or acted upon in the allowed time.
 -   Max attempts exceeded: Multiple attempts to connect or complete the task failed, reaching the configured limit.
 -   No show: The customer did not join the scheduled call.
 -   Cancelled by agent: The assigned agent manually cancelled the task before completion.

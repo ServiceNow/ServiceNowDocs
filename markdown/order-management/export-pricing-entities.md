@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/export-pricing-entities.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Pricing entities, Pricing Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Exporting and importing pricing entities, Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Export pricing entities

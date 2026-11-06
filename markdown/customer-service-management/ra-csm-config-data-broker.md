@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/ra-csm-config-data-broker.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring the Recommended Actions application, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -83,20 +83,20 @@ Refresh All Users
 
 </td><td>
 
-Refreshes recommendations for all the active agents, when set to true. By default, the value is set to false.This property is of Boolean type.
+Refreshes recommendations for all the active agent, when set to true. By default, the value is set to false.This property is of Boolean type.
 
 </td></tr></tbody>
 </table>7.  In the **When to trigger** drop-down, select one of the following.
 
-<table id="choicetable_eqc_b33_yfc"><thead><tr><th align="left" id="d79636e231">
+<table id="choicetable_eqc_b33_yfc"><thead><tr><th align="left" id="d88560e231">
 
 Option
 
-</th><th align="left" id="d79636e234">
+</th><th align="left" id="d88560e234">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d79636e240">
+</th></tr></thead><tbody><tr><td id="d88560e240">
 
 **Always**
 
@@ -104,7 +104,7 @@ Description
 
 Triggers the refresh every time there’s an update.
 
-</td></tr><tr><td id="d79636e249">
+</td></tr><tr><td id="d88560e249">
 
 **Conditional**
 

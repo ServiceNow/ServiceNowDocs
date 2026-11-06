@@ -1,37 +1,32 @@
 ---
 title: Push a version
-description: You can push a version from the development instance to the parent instance.
+description: Pushing promotes changes from the development instance to the parent instance and commits the current version of a customized record on the development instance as the current version on the parent instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/t\_PushAVersion.html
 release: zurich
 product: Team Development
 classification: team-development
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Pushing changes, Working with changes, Team Development, Planning your application, Building applications]
+breadcrumb: [Explore, Team Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Push a version
 
-You can push a version from the development instance to the parent instance.
+Pushing promotes changes from the development instance to the parent instance and commits the current version of a customized record on the development instance as the current version on the parent instance.
 
 ## Before you begin
 
-Role required: admin
+Role required: none
 
 ## About this task
 
-Pushing adds only the current development version to the parent, not all the development versions. Updates to records from different applications can’t be pushed/pulled in the same push/pull.
+Pushing adds only the current development version to the parent, not all the development versions.
 
-You can resolve the error in the case that updates to other applications are mixed in:
+**Note:** Updates to records from different applications cannot be pushed/pulled in the same push/pull. To resolve the error in the case that updates to other applications are mixed in: De-queue the updates to other applications. Push for one application. Re-queue the updates to one application. Push and then repeat as needed.
 
-1.  Stop the updates to other applications.
-2.  Push for one application.
-3.  Requeue the updates to one application.
-4.  Push and then repeat as needed.
-
-Pushing creates a local update set on the parent that is marked as complete. Pushed changes are also tracked as local changes on the parent. You can promote changes through your development and test hierarchy by transferring the Update Set. You can also push the local changes. Each push is recorded in the Push or Pull table on the development instance.
+Pushing creates a local Update Set on the parent that is marked as complete. Pushed changes are also tracked as local changes on the parent. Therefore, you can promote changes through your development and test hierarchy by transferring the Update Set or by pushing the local changes. Each push is recorded in the Push or Pull table on the development instance.
 
 ## Procedure
 
@@ -41,50 +36,65 @@ Pushing creates a local update set on the parent that is marked as complete. Pus
 
 3.  [Pull versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_PullAVersion.md) from the parent instance and [resolve any collisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_ResolveACollision.md).
 
-    If collisions are detected, you can’t push changes to the parent instance.
+    You cannot push changes to the parent instance if collisions are detected.
 
-4.  In the control panel, select **Push**.
+4.  In the control panel, click **Push**.
 
     The Push Changes page opens.
 
 5.  Provide a Name for the changes.
 
-6.  Review the list of changes to confirm that the correct changes are included.
+6.  Review the list of changes to ensure that the correct changes are included.
 
-    -   To remove changes.
+<table id="choicetable_qtn_cmc_bq"><tbody><tr><td id="d313911e150">
 
-        Select the changes and select **Do Not Push** from the Actions list.
+**To remove changes that you do not want to push**
 
-    -   To add changes.
+</td><td>
 
-        Select **Cancel** and then select the changes to add.
+Select the check boxes beside the rows and select **Do Not Push** from the Actions choice list
 
-7.  Enter comments.
+</td></tr><tr><td id="d313911e165">
+
+**To add changes**
+
+</td><td>
+
+Click **Cancel** and repeat the procedure from [step 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_PushAVersion.md)
+
+</td></tr></tbody>
+</table>    \[Omitted image "PushVersions.png"\] Alt text: Push versions
+
+7.  Edit the name.
+
+    The name identifies the push record on the development instance and the local Update Set record on the parent instance.
+
+8.  Enter comments.
 
     The comments are added to the push record on the development instance and the local Update Set record on the parent instance.
 
-8.  Select **Push Changes**.
+9.  Click **Push Changes**.
 
-    The system initiates a pull to confirm that there are no collisions before the push proceeds.
+    The system initiates a pull to ensure that there are no collisions before the push proceeds.
 
     -   If collisions are detected, the push is automatically canceled and you must repeat the procedure from [step 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_PushAVersion.md).
-    -   If no collisions are detected, the changes are staged on the parent instance. On the parent, each version is validated and then committed in the correct order to maintain dependencies between records. For example, a new table is committed before a field on that table to confirm the field is properly created.
-    **Note:** You can’t push if there’s a version conflict between instances or the pushing instance has changes in the Awaiting Code Review stage.
+    -   If no collisions are detected, the changes are staged on the parent instance. On the parent, each version is validated and then committed in the correct order to maintain dependencies between records. For example, a new table is committed before a field on that table to ensure the field is properly created.
+    **Note:** You cannot push if there is a version conflict between instances or the pushing instance has changes in the Awaiting Code Review stage.
 
-9.  On the completion page, select **Show Results**.
+10. On the completion page, click **Show Results**.
 
-10. Review the push record for any errors or skipped changes.
+11. Review the push record for any errors or skipped changes.
 
     -   Changes with a state of Pushed were committed on the parent instance.
-    -   Changes with a state of Skipped weren’t committed on the parent instance and remain queued as local changes on the development instance.
-11. For each skipped change, review the log message to determine why the change was skipped.
+    -   Changes with a state of Skipped were not committed on the parent instance and remain queued as local changes on the development instance.
+12. For each skipped change, review the log message to determine why the change was skipped.
 
-    Develop any changes that are necessary to commit the desired version on the parent instance, and then push them. Some examples of why a change is skipped include:
+    Develop any changes that are necessary to commit the desired version on the parent instance, and then push them. Some examples of why a change may be skipped include:
 
-    -   A table doesn’t exist on the parent because it was created when you activated a plugin on the development instance. Confirm that the plugin is activated on the parent and push the change again.
+    -   A table does not exist on the parent because it was created when you activated a plugin on the development instance. Ensure the plugin is activated on the parent and push the change again.
     -   An error occurred during the push. Try to push again.
-    -   The current version is invalid. Revert to a previous version and make the change again to confirm the version is valid
-    -   An error occurred on the parent during the push. The Log field on the push record contains the exception message. Review the system logs in the parent instance and troubleshoot any problems with the instance.
+    -   The current version is invalid. Revert to a previous version and make the change again to ensure the version is valid
+    -   An error occurred on the parent during the push. The Log field on the push record contains the exception message. Review the system logs on the parent instance and troubleshoot any problems with the instance.
+    \[Omitted image "PushHistory.png"\] Alt text: Push history
 
-**Parent Topic:**[Pushing changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/pushing-changes.md)
 

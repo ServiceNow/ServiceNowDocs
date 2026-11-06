@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/exploring-l1-sd-ai-specialist.html
 release: zurich
 topic_type: concept
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [explore]
 breadcrumb: [L1 IT Service Desk AI Specialist, IT Service Management]

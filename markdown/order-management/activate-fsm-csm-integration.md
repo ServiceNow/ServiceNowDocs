@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/activate-fsm-csm-integration.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring order fulfillment, Order management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configure order fulfillment, Order management, Configure, Sales Customer Relationship Management]
 ---
 
 # Integrate with Field Service Management
@@ -36,5 +36,5 @@ After the plugin is installed, Field Service Management application is integrate
 -   **[Integrating with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/csm-fsm-integration.md)**  
 The Customer Service with Field Service Management plugin \(com.snc.csm\_fsm\_integration\) provides an integration between the Customer Service Management and Field Service Management applications.
 
-**Parent Topic:**[Configuring order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-order-fulfillment.md)
+**Parent Topic:**[Configure order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-order-fulfillment.md)
 

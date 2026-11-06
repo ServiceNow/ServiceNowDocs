@@ -1,20 +1,20 @@
 ---
 title: Add a source type manually in Health Log Analytics
-description: Create a source type manually to stream log data to a specific source type instead of using the source type automatically extracted during mapping.
+description: Create a source type manually before you configure a data input if you want to stream log data to a specific source type. By default, Health Log Analytics automatically extracts the source type during the mapping process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-source-types-manual.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Additional data input setup tasks, Set up data inputs manually, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # Add a source type manually in Health Log Analytics
 
-Create a source type manually to stream log data to a specific source type instead of using the source type automatically extracted during mapping.
+Create a source type manually before you configure a data input if you want to stream log data to a specific source type. By default, Health Log Analytics automatically extracts the source type during the mapping process.
 
 ## Before you begin
 
@@ -103,7 +103,7 @@ Option for indicating that Learning mode for the source type is ongoing. The AI 
 
 ## What to do next
 
-Configure a data input and then map it to the new source type. For more information, see [Set up data inputs in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-setup-manual.md) and [Map raw log data in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-mapping.md).
+Configure a data input and then map it to the new source type. For more information, see [Set up data inputs in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-setup-manual.md) and [Map raw log data manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-mapping.md).
 
 **Parent Topic:**[Additional data input setup tasks in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-setup-extra.md)
 

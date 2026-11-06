@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-cancel-case.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up playbook, Account onboarding, Configure, Customer Success Management]
+breadcrumb: [Manage account onboarding cases, Account onboarding, Use, Customer Success Management]
 ---
 
 # Close or cancel an account onboarding case
@@ -20,16 +20,17 @@ Role required: sn\_acct\_lc.agent
 
 ## Procedure
 
-1.  Navigate to **Workspace** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
+1.  Navigate to **Workspace** &gt; **CRM Workspace** and select the **List** icon.
 
 2.  Navigate to the **Customer Success** &gt; **All Onboarding Cases** and open the onboarding case you want to cancel.
 
-3.  Select the **Record details** to view the account onboarding case form.
+3.  Select the **Record details** toggle butto to view the account onboarding case form.
 
 4.  To cancel the account onboarding case, follow these steps:
 
-    -   Change the State to **Canceled**. A pop-up message asking to confirm the cancellation is displayed. Select **Yes** to confirm. The Resolution code is automatically updated to `Voided/Canceled`.
-    -   Verify that all the required fields are filled out and select **Save**. The account onboarding case is canceled.
+    -   Change the State to **Canceled**.
+    -   Verify that all the required fields are filled out and select **Save**.
+    -   A pop-up message asking to confirm the cancellation is displayed. Select **Yes** to confirm. The Resolution code is automatically updated to `Voided/Canceled` and the account onboarding case is canceled.
 5.  To close the account onboarding case, follow these steps:
 
     -   Change the State to **Closed**.
@@ -43,5 +44,5 @@ Role required: sn\_acct\_lc.agent
         **Note:** Before you close an account onboarding case, you must close or cancel or the related account onboarding case tasks. If an associated child task is still open, a warning message is displayed. You must first close or cancel the child tasks and then proceed with closing the account onboarding case.
 
 
-**Parent Topic:**[Set up the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-use-playbook.md)
+**Parent Topic:**[Manage account onboarding cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-manage-acct-onboard.md)
 

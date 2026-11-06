@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/bulk-edit-risk-reduction.html
 release: zurich
 topic_type: concept
-last_updated: "2026-06-04"
+last_updated: "2026-09-30"
 reading_time_minutes: 1
 keywords: [bulk edit, risk modification, compensating controls, vulnerable items, Security Exposure Management]
 breadcrumb: [Using bulk edit in the Security Exposure Management Workspace, Bulk edit in the Security Exposure Management Workspace, Use, Unified Security Exposure Management, Security Operations]
@@ -28,6 +28,4 @@ Work notes added during the bulk edit reflect the compensating controls and risk
 ## Eligible item states
 
 The bulk edit action applies only to items in an **Open**, **Under Investigation**, or **Awaiting Review** state. Items in other states are excluded from the update regardless of their selection status.
-
-**Parent Topic:**[Using bulk edit in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-using-bulk-edit.md)
 

@@ -5,20 +5,20 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/voice-control-simulator-tool.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Integrating with contact centers, Integrate, Customer Service Management]
+breadcrumb: [Enable ICC for CCaaS calls and callbacks, Configure voice, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Voice Controls Simulator tool
 
 The Voice Controls Simulator tool enables CCaaS partners and customers to simulate and test voice control UI flows within the CRM Workspace.
 
-## Voice Controls Simulator tool overview
-
 CCaaS partners can test and validate call features within the UI to preview capabilities and verify readiness for Interaction Controls Component \(ICC\) voice integration. For example, CCaaS admins integrating with ICC voice capability can use this tool to view available voice features and their appearance in the UI.
 
-\[Omitted image "int-voice-controls-simulator-icon.png"\] Alt text: Voice Controls Simulator tool \[Omitted image ""\] Alt text:
+Review the Voice Controls Simulator tool video to get an overview of how the tool works.
+
+\[Omitted video\] Description: Voice Controls Simulator tool overview
 
 ## Key features
 

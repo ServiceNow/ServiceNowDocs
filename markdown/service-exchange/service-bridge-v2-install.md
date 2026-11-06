@@ -1,5 +1,5 @@
 ---
-title: Installing and configuring Service Exchange for Consumers
+title: Configure Service Exchange for Consumers
 description: As a consumer, follow these steps to set up the Service Exchange for Consumers application in your own instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/service-exchange/service-bridge-v2-install.html
@@ -7,12 +7,12 @@ release: zurich
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Service Exchange for Consumers, Service Exchange]
 ---
 
-# Installing and configuring Service Exchange for Consumers
+# Configure Service Exchange for Consumers
 
 As a consumer, follow these steps to set up the Service Exchange for Consumers application in your own instance.
 
@@ -31,4 +31,11 @@ As a consumer, follow these steps to set up the Service Exchange for Consumers a
 |Create transforms.|See [Create a transform in Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/service-bridge-v2-create-transform.md).|
 |Create remote tasks to sync data.|See [Create remote tasks to sync data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/service-bridge-v2-remote-task-create.md).|
 |Configure settings.|See [Configure settings on the consumer instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/service-bridge-v2-configure-consumer-settings.md).|
+
+**Related topics**  
+
+
+[Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/tmt-service-bridge-both-landing-page.md)
+
+[Use for consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/se-consumer-using.md)
 

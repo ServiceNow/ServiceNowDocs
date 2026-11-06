@@ -1,5 +1,5 @@
 ---
-title: Manage product adoption roadmaps for the Impact Store Application
+title: Create product adoption roadmaps in Impact
 description: Create a product adoption roadmap \(PAR\) using either a predefined template or a custom roadmap.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/impact-product-adoption-roadmap/create-product-adoption-roadmap.html
@@ -7,12 +7,12 @@ release: zurich
 product: Impact Product Adoption Roadmap
 classification: impact-product-adoption-roadmap
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-20"
 reading_time_minutes: 2
-breadcrumb: [Product Adoption Roadmaps, Product Adoption, Using Impact, Impact]
+breadcrumb: [Build implementation plans with product adoption roadmaps, Product adoption, Using Impact, Impact]
 ---
 
-# Manage product adoption roadmaps for the Impact Store Application
+# Create product adoption roadmaps in Impact
 
 Create a product adoption roadmap \(PAR\) using either a predefined template or a custom roadmap.
 
@@ -22,6 +22,8 @@ Create a product adoption roadmap \(PAR\) using either a predefined template or 
 -   Add or remove capabilities as needed to align with business outcomes specific to your organization.
 -   View notes specific to a capability that span across phases.
 -   View notes for a capability specific to that phase to see pre-requisites, plan training, and evaluate additional implementation considerations.
+
+The complete product adoption roadmap experience requires integration between the Impact Delivery Instance and Impact Store App, enabled through Service Exchange, which synchronizes data between instances. If your environment isn't integrated, a banner displays indicating that full product adoption functionality is limited. You can create a product adoption roadmap using a template or manually without a Service Exchange integration. Additional features like editing and viewing existing product adoption roadmaps are available only once an integration is established.
 
 Role required: Impact admin, Platform Owner, Impact Portfolio Owner, and Impact Executive.
 
@@ -33,19 +35,19 @@ Role required: Impact admin, Platform Owner, Impact Portfolio Owner, and Impact 
 
 3.  Select **Create roadmap**.
 
-4.  On the Create new product adoption roadmap, page provide a name in the **Roadmap owner** field.
+4.  On the Create new product adoption roadmap page, provide a name in the **Roadmap owner** field.
 
 5.  In the **How do you want to start?** section, indicate whether you want to create the roadmap from a template or manually.
 
-<table id="choicetable_ncv_thk_s2c"><thead><tr><th align="left" id="d86830e177">
+<table id="choicetable_ncv_thk_s2c"><thead><tr><th align="left" id="d114826e200">
 
 How do you want to start?
 
-</th><th align="left" id="d86830e180">
+</th><th align="left" id="d114826e203">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d86830e186">
+</th></tr></thead><tbody><tr><td id="d114826e209">
 
 **Create from a Template**
 
@@ -56,7 +58,7 @@ Actions
 
 **Note:** You can access product adoption roadmap templates with pre-defined sequence of capabilities for ITSM, ITOM, Security Operations, Customer Service Management, Risk and Field Service Management.
 
-</td></tr><tr><td id="d86830e212">
+</td></tr><tr><td id="d114826e235">
 
 **Create a roadmap manually**
 
@@ -71,17 +73,13 @@ Actions
 
 7.  Select a capability to view its details page, and to view or edit phase level notes.
 
-    \[Omitted image "select-capability-PARs.png"\] Alt text: Select a capability in a created map to view its details and edit phases.
-
-    Select the **About** tab to view capability notes and phase specific notes for that capability. See [Capability Details Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-product-adoption-roadmap/capability-details.md).
-
 8.  Select **Edit Roadmap Details** to edit the name, description and owner of the map.
 
 9.  Select **Manage capabilities** for a phase to add or remove capabilities.
 
 10. Select the ellipsis icon for a phase to modify a phase and do the following. 
 
-    1.  Select **Add new phase** to add a new phase to a capability.
+    1.  Select **Add new phase** to add a phase to the selected capability.
 
     2.  Select **Delete phase** to delete a phase.
 

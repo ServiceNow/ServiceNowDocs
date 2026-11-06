@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-playbook-overview.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Customer Success Management]
 ---
@@ -13,8 +13,6 @@ breadcrumb: [Explore, Customer Success Management]
 # Account onboarding
 
 The account onboarding feature enables technology industry providers to define a structured, repeatable, onboarding experience. It enables collaboration, transparency, and insight for both internal staff members and external customers involved in the onboarding process.
-
-**Important:** Account Lifecycle Events has been renamed to Customer Success Management in Zurich.
 
 The account onboarding feature includes a playbook, an account onboarding case type, and defined case tasks that support this important process. You can use the playbook as a template or as a starting hover over build your onboarding experience.
 
@@ -32,5 +30,14 @@ The account onboarding workflow involves the following stages:
 -   The account onboarding playbook is launched.
 -   The case is managed by the onboarding manager who uses the playbook to manage the end-to-end workflow.
 
-\[Omitted image "account-lifecycle-workflow.png"\] Alt text: Account onboarding lifecycle
+\[Omitted image "0124-MMASSET0022090.svg"\] Alt text: Account onboarding workflow
+
+-   **[Onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-onboard-playbook.md)**  
+The onboarding playbook has preconfigured activities to help bootstrap the creation of the onboarding experience.
+-   **[Onboarding case and case tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-case-case-tasks.md)**  
+The onboarding case is a central record that manages new customer account setup, activation, and subsequent updates like product additions, account modifications, and data maintenance.
+-   **[Data import and validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-data-import-valid.md)**  
+Use this feature to streamline the migration and onboarding of customer data into the ServiceNow AI Platform.
+
+**Parent Topic:**[Explore Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-explore.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Journey Designer
 classification: journey-designer
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Recommended learning in journey configurations, Configure Journey designer features, Configure, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Reference, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Task template fields
@@ -144,5 +144,5 @@ Condition that is used to trigger when a task is assigned. This condition is eva
 For example: If the `Relative Due Date Trigger = Start On`, `Date Offset type = After`, and `Number of offset days = 5 days`, the task is configured to trigger 5 days after the publish date of the plan.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Recommended learning in journey configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-dsgnr-ml-learning-recom.md)
+</table>**Parent Topic:**[Journey designer reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-dsnr-reference.md)
 

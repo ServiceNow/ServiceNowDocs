@@ -1,20 +1,20 @@
 ---
 title: Create a work order for an enterprise asset
-description: Create a work order to track and manage work for an enterprise asset, linear asset, or linear segment.
+description: Create a work order to track and manage work for an enterprise asset, linear asset, linear segment, or asset group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/create-eam-work-order.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Manage work orders for your enterprise assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Manage work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Create a work order for an enterprise asset
 
-Create a work order to track and manage work for an enterprise asset, linear asset, or linear segment.
+Create a work order to track and manage work for an enterprise asset, linear asset, linear segment, or asset group.
 
 ## Before you begin
 
@@ -165,7 +165,7 @@ Scheduling
 
 </td></tr><tr><td>
 
-Due date
+Due by
 
 </td><td>
 
@@ -177,10 +177,7 @@ Date and time at which the work order must be completed.
     -   The work order is created in the Draft state.
     -   Work order tasks and parts requirements associated with the work order automatically appear on the **Work Order Tasks** and the **Part Requirements** tabs.
     -   Assets associated with the work order are listed on the **Affected assets** tab. If you selected an asset group, assets from parent asset groups and subgroups are also listed.
-
-        **Note:** The Affected assets tab is available with Enterprise Asset Management version 10.0 and later.
-
-5.  To add additional work order tasks, select **New**in the **Work Order Tasks** tab.
+5.  To add additional work order tasks, select **New** in the **Work Order Tasks** tab.
 
     See [Create a work order task for an Enterprise Asset Management work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-eam-work-order-task.md) for detailed instructions.
 

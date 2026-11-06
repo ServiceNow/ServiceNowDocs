@@ -7,9 +7,9 @@ release: zurich
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with VTB cards, Use, Visual Task Boards, Personalize your experience, Configure user experiences]
+breadcrumb: [Working with Visual Task Board cards, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Configure the card limit for Visual Task boards

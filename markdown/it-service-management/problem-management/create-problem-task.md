@@ -7,9 +7,9 @@ release: zurich
 product: Problem Management
 classification: problem-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage, Problem Management, IT Service Management]
+breadcrumb: [Managing Problems, Problem Management, IT Service Management]
 ---
 
 # Create a problem task

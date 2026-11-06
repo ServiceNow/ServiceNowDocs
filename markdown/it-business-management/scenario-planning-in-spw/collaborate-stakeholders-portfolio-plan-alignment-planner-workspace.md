@@ -7,7 +7,7 @@ release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage portfolio plans, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -38,15 +38,15 @@ The attachments and comments that you add from the portfolio plan's header, they
 
 4.  Add comments or attachments to the portfolio plan.
 
-<table id="choicetable_yrk_wkj_gvb"><thead><tr><th align="left" id="d167760e124">
+<table id="choicetable_yrk_wkj_gvb"><thead><tr><th align="left" id="d179178e124">
 
 Choice
 
-</th><th align="left" id="d167760e127">
+</th><th align="left" id="d179178e127">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d167760e133">
+</th></tr></thead><tbody><tr><td id="d179178e133">
 
 **Attachments**
 
@@ -54,7 +54,7 @@ Action
 
 In the Attachments tab, select **Browse** and upload a file.
 
-</td></tr><tr><td id="d167760e148">
+</td></tr><tr><td id="d179178e148">
 
 **Comments**
 

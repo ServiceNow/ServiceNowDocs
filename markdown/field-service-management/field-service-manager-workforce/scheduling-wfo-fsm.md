@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Workforce Optimization, Workforce, Use, Field Service Management]
+breadcrumb: [Workforce Optimization, Managing workforce, Use, Field Service Management]
 ---
 
 # Scheduling in Workforce Optimization for Field Service
@@ -29,8 +29,6 @@ With Scheduling, you can do the following:
 -   Use historical adherence reports to analyze and recommend coaching opportunities for your agents.
 
 For more information about key performance indicators and sidebars, see [Exploring indicators with KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/kpi-details-components.md).
-
-**Note:** You can't create holiday schedules when Workforce Optimization for Field Service is used.
 
 ## Schedule adherence
 

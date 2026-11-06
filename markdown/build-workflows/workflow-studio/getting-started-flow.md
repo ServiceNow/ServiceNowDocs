@@ -7,16 +7,16 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-08-07"
-reading_time_minutes: 3
-breadcrumb: [Flows, Explore, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Getting started with flows
 
 Create a sample flow with a trigger and base system actions that requires an approval.
 
-Watch this 3:34-minute video for an introduction to creating a flow in Workflow Studio.
+Watch this 3:34-minute video for an introduction to using Workflow Studio.
 
 ## Before you begin
 
@@ -30,82 +30,49 @@ A flow can include these components:
 -   Conditions: Statements that determine when or how an action runs. For example, run an action only if a field is over a certain value.
 -   Actions: Operations executed by the system, such as a field value updated, approval requested, or a value logged.
 
-To understand basic flows, create an catalog item approval flow. This flow:
+To understand basic flows, create an expense approval flow. This flow:
 
-1.  Runs when a catalog item is requested.
-2.  Sends an email to notify the requester.
-3.  Initiates manager approval if it is over a specified dollar amount.
+1.  Runs when an Expenses record is created.
+2.  Uses the total amount to determine which action to run.
+3.  Approves the request if it is under the specified dollar amount.
+4.  Requires manager approval if it is over a specified dollar amount. Another approver can be manually added.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow studio**.
 
-2.  On the Workflow Studio Homepage, select **New** &gt; **Flow**.
+2.  From the Workflow Studio Homepage, select **New** &gt; **Flow**.
 
 3.  Specify a name, description, and optionally specify additional properties for the flow.
 
 4.  Select **Build flow**.
 
-5.  After the flow is built, add a trigger to start the flow.
+5.  Select **Add a trigger**.
 
-    1.  Select **Add a trigger**.
-
-    2.  From the list of triggers, select **Application** &gt; **Service catalog**.
-
-    3.  Select **Done**.
+6.  From the list of triggers, select **Application** &gt; **Service catalog**.
 
     The flow runs whenever a user requests a service catalog item.
 
-6.  Select **Add an Action, Flow logic, or Subflow**.
+7.  Select **Done**.
 
-    First, we will add a Send Email action that sends an email when a catalog item is requested, followed by an IF flow logic and an Ask for approval action that will initiate approval if the item cost is more than 1000 USD.
+8.  Select **Add an Action, Flow logic, or Subflow**.
 
-7.  Add a Send Email action to send an email to the requester when a catalog item is requested.
+9.  From Action, select **ServiceNow Core** &gt; **Send Email**.
 
-    1.  From **Action**, select **ServiceNow Core** &gt; **Send Email**.
+10. Configure the action.
 
-    2.  Configure the action.
+    1.  **Target Record**: On the Data pane, expand **Trigger - Service Catalog** and drag the **Requested Item Record** data pill.
 
-        |Field|Action|
-        |-----|------|
-        |**Target Record**|On the Data pane, expand **Trigger - Service Catalog** and drag the **Requested Item Record** data pill.|
-        |**To**|Expand the **Requested Item Record** data pill and drag the Email data pill.|
-        |**Subject**|Add a subject for the email notification.|
-        |**Body**|Add the email body.|
+    2.  **To**: Expand the **Requested Item Record** data pill and drag the Email data pill.
 
-8.  Add an IF flow logic and an Ask for approval action so that we can initiate the approval if the item cost is more than 1000 USD.
+    3.  **Subject**: Add a subject for the email notification
 
-    1.  Select **Add an Action, Flow logic, or Subflow** &gt; **Flow logic** &gt; **If**.
-
-    2.  In **Condition 1**, dot-walk or drag the **Requested Item Record** &gt; **Price** data pill.
-
-    3.  Select **greater than**.
-
-    4.  Enter `1000`.
+    4.  **Body**: Add the email body.
 
     5.  Select **Done**.
-
-    6.  Select **Action** &gt; **Ask For Approval**.
-
-    7.  In **Record**, dot-walk or drag the **Requested Item Record** data pill.
-
-    8.  Specify the **Rules** as **Approve** when **Anyone approves** and dot-walk or drag the **Requested Item Record** &gt; **Opened by** &gt; **Manager** data pill.
-
-    9.  Select **Done**.
-
-9.  **Test** and **Activate** the flow.
 
 
 ## What to do next
 
 Transform the Ask for Approval action into a reusable action using Workflow Studio. Actions enable flow designers to add complex actions to multiple flows with minimal configuration. See [Getting started with actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/getting-started-action.md).
-
--   **[Build your first flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/build-your-first-flow.md)**  
-Step through an example of how to build, test, and activate a sample flow in Workflow Studio.
--   **[Build a flow from a template in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/build-flow-from-template.md)**  
-Step through an example of how to build, test, and activate a flow using a flow template in App Engine Studio.
--   **[Use the Workflow Studio help panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/use-flow-designer-help-panel.md)**  
-Browse topics in the side help panel to learn more about building flows and actions, working with data and spokes, and stepping through guided tours in Workflow Studio.
-
-**Parent Topic:**[Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/exploring-flows.md)
 

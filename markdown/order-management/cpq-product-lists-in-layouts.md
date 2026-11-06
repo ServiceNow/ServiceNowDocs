@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/cpq-product-lists-in-layouts.html
 release: zurich
 topic_type: concept
-last_updated: "2025-09-18"
-reading_time_minutes: 3
-breadcrumb: [Set up layouts, ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+last_updated: "2026-03-12"
+reading_time_minutes: 4
+breadcrumb: [Set up layouts, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Product lists in layouts
@@ -60,15 +60,23 @@ In the layout CSV file, define your product list column rows with the following 
     -   If specifying a width, using a percentage is recommended for a modal or bottom-docked product list.
     -   The use of fixed units such as **px** \(pixels\) is recommended for left-docked or right-docked product lists, since the width of the product list is fixed. Using **ch** is not recommended.
 
+\[Omitted image "cpq-product-list-column-properties.png"\] Alt text: Product list column properties
+
 ## Layout editor
 
 The product list and its properties can be edited by using the layout editor in the ServiceNow CPQ UI. The product list layout element is at the bottom of the page:
 
-\[Omitted image "cpq-layout-editor-product-list.png"\] Alt text: Product lists in layouts
+\[Omitted image "cpq-product-list-layout.png"\] Alt text: Product list layout
 
-You can edit this part of the layout by clicking the gear that appears in the top right of the product list layout element when you move your mouse into it. The product list has a settings screen that contains all the properties referenced earlier.
+You can edit **Product List** element by selecting the gear that appears in the top right of the product list layout element. The product list has a settings screen that contains all the properties referenced earlier.
 
-\[Omitted image "cpq-layout-editor-product-list-settings.png"\] Alt text: Product lists in layouts
+For advanced BOM, enable **Use resizable columns** option to allow re-sizable columns. Control column management features in the product list using these properties:
+
+-   `disableColumnFreeze`: Disable column freeze option
+-   `disableColumnReorder`: Disable column reorder option on product list or an individual column
+-   `disableHide`: Disable column hide option for an individual column
+
+\[Omitted image "cpq-product-list-setup.png"\] Alt text: Product list properties
 
 For more information, see [Displaying multiple product lists in layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/displaying_multiple_productlists_in_layouts.md).
 

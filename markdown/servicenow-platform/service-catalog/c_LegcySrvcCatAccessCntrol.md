@@ -7,9 +7,9 @@ release: zurich
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Service Catalog security, Service Catalog configuration, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Service Catalog security, Configuring Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Legacy service catalog access controls
@@ -29,6 +29,18 @@ The following [entitlements](https://raw.githubusercontent.com/ServiceNow/Servic
 Access controls are checked in the following order: roles, then scripts, then Company, Department, Group, User, or Location.
 
 **Note:** The functionality described here is superseded by access controls using user criteria. Migrate to user criteria for a more flexible and reusable way to define access controls.
+
+A User Criteria record is considered empty if none of the following attributes are defined:
+
+-   Roles
+-   Groups
+-   Departments
+-   Location
+-   Company
+-   Script \(or any other user attribute conditions\)
+
+    **Note:** An empty User Criteria matches only authenticated users. Unauthenticated users are no longer matched by an empty User Criteria. Note that this behavior applies only to the Australia release.
+
 
 -   **[Service Catalog administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/t_ServiceCatalogAdministration.md)**  
 Service Catalog enables an administrator to configure the service catalog.

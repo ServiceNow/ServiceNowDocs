@@ -7,9 +7,9 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Scoping your analysis, Create a project or template using Project Builder, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Scoping your analysis, Create a project or template using Project Builder, Use, Process Mining, Platform Analytics]
 ---
 
 # Set filter conditions
@@ -18,7 +18,7 @@ Set filter conditions to limit the scope of your analysis.
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin
+Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
 
 ## About this task
 
@@ -95,9 +95,9 @@ Example: If a project is set with the State as the activity definition, you have
 
 If a start condition is specified on the first occurrence of Work in Progress and a stop condition is specified on the last occurrence of resolved, then the model would look like this: **Work in Progress -&gt; Resolved -&gt; Work in Progress -&gt; Resolved**.
 
--   **Transition**: A transition filter focuses on process paths that contain a specific transition between selected steps. For example, mine records that transitioned from **State: Work in Progress** `eventually followed by` **State: On Hold**.
+-   **Transition**: A transition filter focuses on process paths that contain a specific transition between selected steps. For example, mine records that transitioned from **State: Work in Progress** `At some point followed by` **State: On Hold**.
 
-To provide the transition filter, you must set up the filter condition, with a start condition that is "eventually followed by" or "directly followed by" step 2.
+To provide the transition filter, you must set up the filter condition, with a start condition that is "at some point followed by" or "directly followed by" step 2.
 
 You can provide only 2 steps here.
 

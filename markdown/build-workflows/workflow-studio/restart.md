@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-06-01"
-reading_time_minutes: 3
-breadcrumb: [Playbooks in Workflow Studio, Building playbooks, Use, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Creating and managing Playbooks, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Enabling playbook restart
@@ -54,22 +54,10 @@ Follow these design considerations when configuring restart for your playbook, s
 -   **[Configure restart for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/enable-define-restart.md)**  
 Configure restart so that agents and fulfillers in Playbook Experience can restart a playbook from the beginning, or from a specific stage or activity.
 
-**Parent Topic:**[Playbooks in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-definitions.md)
+**Parent Topic:**[Creating and managing Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/creating-managing-playbooks.md)
 
 **Related topics**  
 
-
-[Create a playbook]()
-
-[Playbook variants]()
-
-[Test a playbook]()
-
-[Duplicate Playbooks]()
-
-[Add translations for playbooks]()
-
-[View all buttons without hover]()
 
 [Configure restart for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/enable-define-restart.md)
 

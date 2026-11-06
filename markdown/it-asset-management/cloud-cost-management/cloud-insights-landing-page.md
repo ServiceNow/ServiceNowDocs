@@ -7,9 +7,9 @@ release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [IT Asset Management]
+breadcrumb: [IT Asset Management, Asset Management]
 ---
 
 # Cloud Cost Management
@@ -49,13 +49,9 @@ Use the Asset Management Executive dashboard to track critical performance indic
 
 [Cloud Cost Management Infra Stack\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Learn the key features and business value that the Cloud Cost Management Infra Stack application offers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/ccm-infra-stack.md)
 
-</td><td>
+</td><td colspan="2">
 
 [Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about the roles, domain separation, and service categories in Cloud Cost Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/reference-cloudinsights.md)
-
-</td><td>
-
- 
 
 </td></tr></tbody>
 </table>## Learn

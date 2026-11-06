@@ -1,20 +1,20 @@
 ---
 title: TuneUp Your AI Search
-description: This accelerator provides guidance on fine-tuning artificial intelligent \(AI\) Search to optimize performance and value.
+description: This Accelerator provides guidance on fine-tuning artificial intelligent \(AI\) Search to optimize performance and value.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/tuneup-ai-search.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # TuneUp Your AI Search
 
-This accelerator provides guidance on fine-tuning artificial intelligent \(AI\) Search to optimize performance and value.
+This Accelerator provides guidance on fine-tuning artificial intelligent \(AI\) Search to optimize performance and value.
 
 ## Accelerator Overview
 
@@ -22,7 +22,9 @@ TuneUp Your AI Search Accelerator provides Impact customers with an assessment o
 
 See [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/overview-ais.md) for additional information on AI Search.
 
-**Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
 
 Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 

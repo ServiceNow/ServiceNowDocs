@@ -7,7 +7,7 @@ release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Visual representation of Security Incident Response reporting, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

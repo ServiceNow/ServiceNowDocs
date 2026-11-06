@@ -7,7 +7,7 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Use, Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
@@ -123,7 +123,7 @@ Details about the ER case.**Note:** Interviews are under the **more** tab.
 
     -   **Interviews**
 
-        Interview record for an involved party. For more information, see .
+        Interview record for an involved party. For more information, see [Schedule an interview in Employee Relations using the legacy UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-er-interview.md).
 
     -   **Evidence**
 

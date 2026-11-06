@@ -7,9 +7,9 @@ release: zurich
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, Universal Request, Employee Service Management]
+breadcrumb: [Setting up and configuring Universal Request, Universal Request, Employee Service Management]
 ---
 
 # Universal Request plugins
@@ -20,8 +20,8 @@ Request and activate the following plugins to use Universal Request in your appl
 You can activate the Universal Request plugin \(com.snc.universal\_request\) if you have the admin role. This plugin is not active by default, and you must install it to use the Universal Request application. This plugin includes demo data and activates related plugins if they are not already active.
 -   **[Activate Universal Request Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/activate-ur-awa-plugin.md)**  
 You can activate the Universal Request: Advanced Work Assignment plugin \(com.snc.universal\_request.awa\) if you have the admin role. Activating this plugin enables you to use Advanced Work Assignment and automatically assign work items to your agents, based on their availability in the Universal Request application. This plugin includes demo data and activates related plugins if they are not already active.
--   **[Activate Universal Request Integration for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/activate-ur-integration-for-incident.md)**  
-You can activate the Universal Request: Integration for Incident Management plugin \(com.snc.incident.universal\_request\) if you have the admin role. Activating this plugin enables ServiceNow Incident Management application integration with Universal Request. This plugin includes demo data and activates related plugins if they are not already active.
+-   **[Activate Universal Request Integration for Incident management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/activate-ur-integration-for-incident.md)**  
+You can activate the Universal Request: Integration for Incident management plugin \(com.snc.incident.universal\_request\) if you have the admin role. Activating this plugin enables ServiceNow Incident Management application integration with Universal Request. This plugin includes demo data and activates related plugins if they are not already active.
 -   **[Activate Universal Request NLU Model for Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/activate-ur-nlu-model.md)**  
 You can activate the Universal Request: NLU Model for Virtual Agent Conversations plugin \(com.snc.universal\_request.nlu\) if you have the admin role. Activating this plugin allows you to use NLU for virtual agent conversations in Universal Request. This plugin includes demo data and activates related plugins if they are not already active.
 -   **[Activate Universal Request Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/activate-ur-reporting.md)**  

@@ -7,9 +7,9 @@ release: zurich
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-07"
 reading_time_minutes: 7
-breadcrumb: [Starting a project, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Change the planned start date of a project
@@ -38,15 +38,15 @@ Changing the planned start date of a project to a new date also moves all its ta
 
 1.  Change the planned start date of a project using either of the following options.
 
-<table id="choicetable_bx2_kjj_wfb"><thead><tr><th align="left" id="d333578e118">
+<table id="choicetable_bx2_kjj_wfb"><thead><tr><th align="left" id="d358200e114">
 
 Option
 
-</th><th align="left" id="d333578e121">
+</th><th align="left" id="d358200e117">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d333578e127">
+</th></tr></thead><tbody><tr><td id="d358200e123">
 
 **From the Planning console**
 
@@ -57,7 +57,7 @@ Steps
 3.  In the Planning Console, select the more actions icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: More Actions icon\) and then select the **Move project** option.
 
 
-</td></tr><tr><td id="d333578e172">
+</td></tr><tr><td id="d358200e168">
 
 **From the Project form**
 
@@ -74,7 +74,7 @@ Steps
 3.  Select or clear the **Move all tasks regardless of constraint type** check box.
 
     -   Clearing the check box moves the tasks with Start ASAP constraint only to the new project date.
-    -   Selecting the check box moves the project tasks irrespective of their constraints to the new project date with the same offset except the task with Start ASAP constraint.
+    -   Selecting the check box moves all project tasks to the new project date with the same offset, regardless of their constraints. Tasks with Start ASAP constraint are excluded.
     This check box is selected by default.
 
     **Note:** The tasks in WIP and Close states are not moved.
@@ -94,7 +94,7 @@ Steps
 -   If the **Change Resource Plan and Cost Plan Start Date with Demand or Project Start Date Change** property is selected, all related entities like cost plan, resource plan, and benefit plans are moved relative to the project start date. For more information on how to set this property, see [Properties installed with Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/r_InstalledWithProjectManagement.md).
 
 -   **[Pre-date a project task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/pre-date-prj-dt.md)**  
-Move the planned start date of a task prior to the planned start date of a project. Adding a pre-dated task allows you to accommodate tasks which need to start before the planned start date of a project.
+Move the planned start date of a task before the planned start date of a project. Adding a pre-dated task allows you to accommodate tasks which need to start before the planned start date of a project.
 
 **Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/t_CreateAProject.md)
 
@@ -118,6 +118,10 @@ Move the planned start date of a task prior to the planned start date of a proje
 [Create an expense line]()
 
 [Create and manage waterfall projects]()
+
+[Schedule a project from a start date]()
+
+[Apply or change a task constraint]()
 
 [Update a project]()
 

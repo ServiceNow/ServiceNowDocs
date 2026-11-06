@@ -7,10 +7,10 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [generative AI for Employee Center, generative AI for UEX, Summarization for Employee Center, Summarization]
-breadcrumb: [Use, ServiceNow Otto for Employee Experience, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Use, ServiceNow Otto for Employee Experience, EmployeeWorks, Employee Service Management]
 ---
 
 # View summarization for approvals

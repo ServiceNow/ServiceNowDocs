@@ -8,9 +8,9 @@ product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
 last_updated: "2026-10-01"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [Agent Client Collector for Visibility, ACC-VC, non-persistent VDI, NPVDI, system properties]
-breadcrumb: [ACC-VC NPVDI endpoints, ACC deployment - endpoints, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC-VC NPVDI endpoints, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Configure ACC-VC data collection for NPVDI endpoints
@@ -61,4 +61,6 @@ Two system properties control how ACC-VC collects data on NPVDI endpoints. These
 ## Result
 
 When you update either property, the instance regenerates the NPVDI configuration file \(`NPVDIConfig.json`\) that ACC-VC uses on NPVDI agents. A daily scheduled job also refreshes this file.
+
+**Parent Topic:**[ACC-VC NPVDI endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/accvc-npvdi-support.md)
 

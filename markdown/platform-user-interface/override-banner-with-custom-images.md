@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/override-banner-with-custom-images.html
 release: zurich
 topic_type: task
-last_updated: "2025-10-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Banner illustrations, Image styles, Manage or edit a theme, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -16,7 +16,9 @@ Modify or override the default banner illustrations with your own custom images 
 
 ## Before you begin
 
-Role required: admin
+Role required: ui\_builder\_admin
+
+For information on granular roles, see .
 
 Verify that your custom images use the desired colors and meet your branding requirements before uploading to Theme Builder.
 
@@ -50,7 +52,7 @@ Verify that your custom images use the desired colors and meet your branding req
 
 7.  Select the default banner illustration file name.
 
-    \[Omitted image "tb-customer-general-banner.png"\] Alt text: Customer general banner illustration properties panel with Images tab selected and file name listed.
+    For example, the file name listed for this illustration is **banner\_customer\_general.svg**.
 
     The upload images modal appears.
 

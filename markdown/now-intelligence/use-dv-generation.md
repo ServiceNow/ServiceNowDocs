@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/use-dv-generation.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Platform Analytics in the ServiceNow Otto panel, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
@@ -52,7 +52,7 @@ Role required: now\_assist\_panel\_user and either now\_assist\_analytics\_gener
 
 8.  To edit the visualization, select **Edit visualization**.
 
-    If you have the viz\_creator role, you can save the visualization to the Data Visualizations library. For more information, see [Edit a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/edit-dv-ac-center.md).
+    If you have the viz\_creator role, you can save the visualization to the Data Visualizations library. For more information, see [Edit a data visualization in the library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/edit-dv-ac-center.md).
 
 9.  Under **What would you like to do next**, you see several suggestions:
 

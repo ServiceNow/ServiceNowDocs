@@ -5,16 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/mcp-reference.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Model Context Protocol Client, Model Context Protocol Client, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Configuring Model Context Protocol Client, Model Context Protocol Client, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Model Context Protocol Client reference
 
 Find more information about user roles, tables, and the different properties that are installed with the Model Context Protocol Client application.
 
-## MCP Client roles
+## MCP Client Roles
 
 The following roles are installed with the Model Context Protocol Client plugin \[sn\_mcp\_client\].
 
@@ -86,7 +86,7 @@ MCP Execution Logs \[sn\_mcp\_execution\_logs\]
 
 </td><td>
 
-Lists the request and response, the method, a tool call or list call, that was carried out along with the mapped session.The execution logs table also helps debug and shows if there are any errors.
+Lists the request and response, the method \(tool call or tool list\) that was carried out along with the mapped session.The execution logs table also helps to debug and shows if there are any errors.
 
 </td></tr><tr><td>
 
@@ -98,11 +98,11 @@ Lists the sessions mapped to the server based on the capabilities support.
 
 </td></tr><tr><td>
 
-Model Context Protocol Servers \[sn\_mcp\_server\]
+Model Context Protocol Severs \[sn\_mcp\_server\]
 
 </td><td>
 
-Lists the MCP servers.
+Lists the MCP Servers.
 
 </td></tr></tbody>
 </table>

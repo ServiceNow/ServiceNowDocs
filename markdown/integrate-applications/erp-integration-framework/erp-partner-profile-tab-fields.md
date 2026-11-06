@@ -1,29 +1,27 @@
 ---
 title: Zero Copy Connector for ERP partner profile tab column descriptions
-description: The partner profile tab on a system record in Zero Copy Connector for ERP contains information that defines inbound and outbound communications with a partner.
+description: The partner profile tab on a system record in Zero Copy Connector for ERP \(Enterprise Resource Planning\) contains information that defines inbound and outbound communications with a partner.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/erp-partner-profile-tab-fields.html
 release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, partner, profile, tab, field, inbound, outbound, communication]
-breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Zero Copy Connector for ERP partner profile tab column descriptions
 
-The partner profile tab on a system record in Zero Copy Connector for ERP contains information that defines inbound and outbound communications with a partner.
+The partner profile tab on a system record in Zero Copy Connector for ERP \(Enterprise Resource Planning\) contains information that defines inbound and outbound communications with a partner.
 
 For process details, see [View Zero Copy Connector for ERP partner profile information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/view-erp-system-partner-profile-information.md).
 
-This feature is available starting with the Zurich Patch 4 release.
-
 <table id="table_fdq_5sh_bhc"><thead><tr><th>
 
-Field
+Column
 
 </th><th>
 
@@ -56,5 +54,4 @@ Updated
 Date and time the partner profile was most recently saved.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
-
+</table>

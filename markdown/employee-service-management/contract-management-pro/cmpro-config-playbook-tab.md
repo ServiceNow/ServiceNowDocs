@@ -7,7 +7,7 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Playbook tab, data broker, Script Include, tab visibility, contract repository, AI extracted metadata, AI extracted obligations]
 breadcrumb: [Configure CM Pro for your workspace, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
@@ -17,7 +17,7 @@ breadcrumb: [Configure CM Pro for your workspace, Configure, Contract Management
 
 Configure the visibility of the Playbook tab on contract repository records so contract managers can review and act on AI‑extracted metadata and obligations.
 
-The playbook appears on the contract repository record when the Now Assist in Contract Management plugin is installed for your workspace. If the playbook tab is not configured in the base system for your workspace, you must configure the playbook tab to control its visibility.
+The playbook appears on the contract repository record when the ServiceNow Otto for Contract Management Pro plugin is installed for your workspace. If the playbook tab is not configured in the base system for your workspace, you must configure the playbook tab to control its visibility.
 
 The visibility of the Playbook tab is controlled by a data broker. The conditional logic is provided as a script method, `sn_cm_gen_ai.ContractsMetadataExtractionHelper()` in a Script include file. To invoke this action, create a method in one of your Script include files for your workspace, which can be accessed by the data broker linked to your workspace on the UI Builder.
 
@@ -49,9 +49,9 @@ Create a page in UI Builder that uses a viewport component to dynamically load o
 
 [Add Contract requests tab to the contract request record]()
 
-[Add amendment tabs to contract repository record]()
-
 [Add Contract documents tab to the contract repository record]()
+
+[Add amendment tabs to contract repository record]()
 
 [Copy fields from parent request to contract request]()
 
@@ -59,7 +59,7 @@ Create a page in UI Builder that uses a viewport component to dynamically load o
 
 [Add access to obligation management from contract repository records]()
 
-[Configure the contract request form header for your workspace]()
+[Configure the contract request form header]()
 
 [Assign a role for configuring template mappings]()
 

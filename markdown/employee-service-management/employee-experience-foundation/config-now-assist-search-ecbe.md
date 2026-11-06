@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Browser Extension for Employee Center, Setup task management, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Browser Extension for Employee Center, Setup task management, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Set up Now Assist search in Browser Extension for Employee Center
@@ -39,5 +39,5 @@ Now Assist Virtual Agent plugin \(sn\_nowassist\_va\) version 9.0 must be instal
 
 ## Result
 
-You have configured the Now Assist search bar on the Browser Extension for Employee Center.
+You have configured the Now Assist search bar in the Browser Extension for Employee Center.
 

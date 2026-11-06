@@ -7,8 +7,9 @@ release: zurich
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [set up rest message record, tokenized rest message, rest message endpoint, update endpoint url, visa resolve online rest message, mastercom rest message, system web services outbound, tokenizer connection base uri, rest message function setup]
 breadcrumb: [Configure, Card Data Security, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
@@ -18,7 +19,7 @@ To use tokenized data with a Third-Party System, update the endpoint URL for the
 
 ## Before you begin
 
-Set up your Third-Party System connections in our tokenizer service. For more information, see [Set up connections to the tokenizer service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/set-up-outbound-connections.md).
+Set up your Third-Party System connections in our tokenizer service. For more information, see [Initial setup for Vault schema, Connections and Service Account for Card data security \(KB2830577\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2830577).
 
 Install and set up integrations to the Third-Party Systems \(such as Visa Spoke or Mastercard Spoke\). Card Data Security requires these integrations to function correctly. For more information, see [Integrating with spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/spokes.md).
 
@@ -28,17 +29,15 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **System Web Services** &gt; **Outbound** &gt; **REST Message**.
 
-2.  Create a new REST Message record for your Third-Party System, or open the record if it exists.
+2.  Open the Visa Resolve Online or Mastercom record.
 
-    For more information, see [Create a REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/t_ConfiguringARESTMessage.md).
+    Create a new REST Message record if you don't see one for your Third-Party System. For more information, see [Create a REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/t_ConfiguringARESTMessage.md).
 
-    You will see records for Visa Resolve Online or Mastercom if Visa Spoke or Mastercard Spoke are installed.
+3.  For the **Endpoint** field in the REST message form, enter the connection's base URI from the tokenizer service.
 
-3.  For the **Endpoint** field in the REST message form, enter the connection's base path from our tokenizer service.
+    \[Omitted image "rest-message-endpoint.png"\] Alt text: Image showing the Endpoint field containing the connection base URL from the tokenizer service.
 
-    \[Omitted image "rest-message-endpoint.png"\] Alt text: Image showing the Endpoint field containing the connection base URL from our tokenizer service.
-
-    The connection's base path can be viewed in our tokenizer service administration website by navigating to **Connections**, expanding the connection, and selecting **Sample Request** on a route. The base URL is the domain name of the value in the **Path** field.
+    The connection's base path can be viewed in the tokenizer service administration website by navigating to **Connections**, expanding the connection, and selecting **Sample Request** on a route. The base URL is the domain name of the value in the **Path** field.
 
     \[Omitted image "connection-base-path.png"\] Alt text: Image showing the location of the base URL.
 

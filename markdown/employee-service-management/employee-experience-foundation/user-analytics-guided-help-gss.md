@@ -1,24 +1,24 @@
 ---
-title: Guided Self-Service user experience analytics
-description: Visually analyze Guided Self-Service usage, user behavior, and other information from the user experience dashboard.
+title: Guided Self-Service Usage Insights
+description: Visually analyze Guided Self-Service usage, user behavior, and other information from the Usage Insights dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/user-analytics-guided-help-gss.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Guided Self-Service in Employee Center, Setup Employee Center browse experience features, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Guided Self-Service in Employee Center, Setup Employee Center browse experience features, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
-# Guided Self-Service user experience analytics
+# Guided Self-Service Usage Insights
 
-Visually analyze Guided Self-Service usage, user behavior, and other information from the user experience dashboard.
+Visually analyze Guided Self-Service usage, user behavior, and other information from the Usage Insights dashboard.
 
 You can use the dashboard to view the information about the Guided Self-Service usage, engagement, and adoption.
 
-Navigate to **User Experience Analytics** &gt; **Dashboard** &gt; **Guided Self-Service** for a detailed view and analysis. Click the respective widget or chart for more information. You can create a funnel to track session adoption and abandonment.
+Navigate to **Usage Insights** &gt; **Dashboard** &gt; **Guided Self-Service** for a detailed view and analysis. Click the respective widget or chart for more information. You can create a funnel to track session adoption and abandonment.
 
 \[Omitted image "user-exp-analytics-guided-self-service.png"\] Alt text: Guided Self-Service dashboard
 

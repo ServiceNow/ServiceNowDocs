@@ -7,7 +7,7 @@ release: zurich
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -37,15 +37,15 @@ For details on assigning KMF roles, see [Roles installed with Key Management Fra
 
 2.  Control access to topics by configuring Access Control Lists \(ACLs\) at the namespace or topic-level.
 
-<table id="choicetable_ebz_1jn_zyb"><thead><tr><th align="left" id="d386324e128">
+<table id="choicetable_ebz_1jn_zyb"><thead><tr><th align="left" id="d390549e128">
 
 Option
 
-</th><th align="left" id="d386324e131">
+</th><th align="left" id="d390549e131">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d386324e137">
+</th></tr></thead><tbody><tr><td id="d390549e137">
 
 **Apply ACLs to namespaces**
 
@@ -58,7 +58,7 @@ Description
 5.  Select **Add**.
 
 
-</td></tr><tr><td id="d386324e179">
+</td></tr><tr><td id="d390549e179">
 
 **Apply ACLs to defined topics**
 
@@ -116,4 +116,8 @@ You can now create a secure connection to the Hermes Messaging Service.
 [Activating the Hermes Messaging Service]()
 
 [Revoke a Hermes certificate]()
+
+[Restricting access to Hermes]()
+
+[Enable encryption at rest for a Hermes topic]()
 

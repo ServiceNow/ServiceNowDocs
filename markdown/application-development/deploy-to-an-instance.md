@@ -1,6 +1,6 @@
 ---
 title: Deploy to an instance
-description: Getting a change onto a ServiceNow instance is a three-step pipeline: build the app, deploy its records, then verify the service and the app. The same pipeline runs from the command line, from Lux Lab, or ServiceNow AI Experience Lab for VS Code.
+description: Getting a change onto a ServiceNow instance is a three-step pipeline: build the app, deploy its records, then verify the service and the app. The same pipeline runs from the command line, from Lux Lab, or ServiceNow Lux Lab for VS Code.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/deploy-to-an-instance.html
 release: zurich
@@ -8,12 +8,12 @@ topic_type: task
 last_updated: "2026-09-29"
 reading_time_minutes: 3
 keywords: [Deploy to an instance, Prerequisites, Steps, What gets installed where, Release and promotion, Roll back a deploy, Promote between instances, Install through an update set, Deploying from Lux Lab, Deploying from ServiceNow IDE, Deploying through Maven, Diagnose a failed deploy, Ship checklist, Next steps]
-breadcrumb: [Test and deploy a Lux app, Lux Development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Test and deploy a Lux app, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Deploy to an instance
 
-Getting a change onto a ServiceNow instance is a three-step pipeline: build the app, deploy its records, then verify the service and the app. The same pipeline runs from the command line, from Lux Lab, or ServiceNow® AI Experience Lab for VS Code.
+Getting a change onto a ServiceNow instance is a three-step pipeline: build the app, deploy its records, then verify the service and the app. The same pipeline runs from the command line, from Lux Lab, or ServiceNow Lux Lab for VS Code.
 
 ## Before you begin
 

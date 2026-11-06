@@ -7,9 +7,9 @@ release: zurich
 product: Adoption Services
 classification: adoption-services
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Embedded Help planning, Configure Embedded Help, Embedded Help, In-product help, Adoption services, Configure user experiences]
+breadcrumb: [Embedded Help planning, Configuring Embedded Help, Embedded Help, In-product help, Adoption services, Configure user experiences]
 ---
 
 # Embedded Help roles
@@ -18,7 +18,7 @@ Embedded help content can be targeted to users with a specified role who access 
 
 For example, if you add embedded help content for the itil role that describes your business process for entering incidents, the itil\_admin role also sees the content. If you write a different topic with the itil\_admin role, the itil\_admin sees that content instead of the itil content.
 
-## Embedded Help role priority
+## Embedded help role priority
 
 The embedded help role priority is stored in the Embedded Help Role Priority \[sys\_embedded\_help\_role\] table. Each role is assigned a default priority order number based on the role name in the Roles \[sys\_user\_role\] table.
 
@@ -65,15 +65,15 @@ itil \(only\)
 All other roles or no role \(ESS user\)Examples: approver\_user, financial\_management\_user, personalize\_form, template\_editor
 
 </td></tr></tbody>
-</table>The priority executes from the lowest number to the highest, meaning that embedded help content with no role displays only if no other content is available for the UI page and the user's role. All base-system content is targeted to a role unless the content is intended for all users, including ESS users. When you add a role, such as a role for a custom application, it is automatically added to the Embedded Help Role Priority \[sys\_embedded\_help\_role\] table with the appropriate default order. You can modify the order of priority as needed.
+</table>The priority executes from the lowest number to the highest, meaning that embedded help content with no role displays only if no other content is available for the UI page and the user's role. All base system content is targeted to a role unless the content is intended for all users, including ESS users. When you add a role, such as a role for a custom application, it is automatically added to the Embedded Help Role Priority \[sys\_embedded\_help\_role\] table with the appropriate default order. You can modify the order of priority as needed.
 
 If a page requires different help content for different roles, separate topics must be added. For example, users with any role can access the `incident.do` page, and it opens with a view appropriate for their role.
 
-The following list describes how content for different roles can be targeted for the incident form.
+The following list describes how content for different roles can be targeted for the Incident form.
 
 -   **Admin**
 
-    Provides information and links to help with configuring the incident form.
+    Provides information and links to help with configuring the Incident form.
 
 -   **itil\_admin**
 
@@ -85,11 +85,11 @@ The following list describes how content for different roles can be targeted for
 
 -   **No role**
 
-    Explains what the user can review and modify in the Self-Service view of the incident form.
+    Explains what the user can review and modify in the Self-Service view of the Incident form.
 
 
 -   **[Modify embedded help role priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/modify-embedded-help-role-priority.md)**  
-You can modify the default order of priority that is assigned to a role in the Embedded Help role priority \[sys\_embedded\_help\_role\] table. The priority order determines what Embedded Help content a user accesses on a UI page, based on roles assigned to the user.
+You can modify the default order of priority that is assigned to a role in the Embedded Help Role Priority \[sys\_embedded\_help\_role\] table. The priority order determines what embedded help content a user accesses on a UI page, based on roles assigned to the user.
 
 **Parent Topic:**[Embedded Help planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/embedded-help-planning.md)
 

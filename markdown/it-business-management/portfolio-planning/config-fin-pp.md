@@ -7,7 +7,7 @@ release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -64,10 +64,10 @@ Role required: admin
 
 11. Activate and define scheduled job to automatically create financial baselines for your planning items at a defined cadence.
 
-    For more information, see [Activate a scheduled job to create financial baselines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/baseline-schedule-job-pp.md).
+    For more information, see [Activate a scheduled job to create financial baselines for your projects and demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/baseline-schedule-job-pp.md).
 
 12. Activate and define a scheduled job to generate labor costs for your projects and demands based on the attribute-based resource assignments.
 
-    For more information, see [Activate a scheduled job to generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/gen-labor-costs-scheduled-job-pp.md).
+    For more information, see [Activate a scheduled job to generate labor costs for your projects and demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/gen-labor-costs-scheduled-job-pp.md).
 
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/retail-industry/rahi-retail-track-store-inquiry-case.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage store inquiries, Retail]
 ---
@@ -16,15 +16,13 @@ Track the status of a store inquiry case from the Retail portal. By tracking you
 
 ## Before you begin
 
-Role required: sn\_rtl\_stre\_servcs.contributor
+Role required: Store associate or Store manager
 
 ## Procedure
 
 1.  In the Retail portal, select **Home** &gt; **Cases &amp; Tasks** from the menu bar.
 
-2.  Select the case number that you want to track.
-
-    If the case number isn't available, search the case keywords by using the search bar on the home page or by using filters on the case list.
+2.  Select the case number to track the case.
 
 
 **Parent Topic:**[Manage store inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/rahi-retail-manage-store-inquiries.md)

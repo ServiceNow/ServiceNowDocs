@@ -7,7 +7,7 @@ release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
-last_updated: "2026-03-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Use the Service Graph Connector for Wiz to ingest CMDB data from projects within
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Key features
 
@@ -46,9 +46,9 @@ Last tested on February 20, 2026
 
 </td><td>
 
--   Yokohama
 -   Zurich
 -   Australia
+-   Brazil
 
 </td></tr></tbody>
 </table>## Use cases

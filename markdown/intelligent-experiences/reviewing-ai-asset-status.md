@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/reviewing-ai-asset-status.html
 release: zurich
 topic_type: concept
-last_updated: "2026-07-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Working with AI asset records, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Working with AI asset records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Reviewing AI asset status
@@ -64,6 +64,8 @@ Review this asset's activity stream from the **Activity** list. Use the filter a
 
 -   **[Recommendations for your AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/recommendations-aisteward-newexperience.md)**  
 Recommendations for AI assets are automatically generated for you to review and act on.
+-   **[Deactivate a managed AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/disc-contain-managed-asset.md)**  
+Deactivate a managed AI agent directly from its asset record using kill switch protocol, even if the agent has no associated security event.
 
 **Parent Topic:**[Working with AI asset records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/disc-managing-ai-assets.md)
 

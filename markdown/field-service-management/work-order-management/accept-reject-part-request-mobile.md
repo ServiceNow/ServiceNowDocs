@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Inventory, ServiceNow Agent mobile app, Use, Field Service Management]
+breadcrumb: [Inventory, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
 # Accept or reject part requests from peer agents
@@ -38,15 +38,15 @@ Role required: wm\_agent
 
 3.  Check the part availability in your personal stockroom and determine whether you want to accept or reject the part request.
 
-<table id="choicetable_ar5_wkb_35b"><thead><tr><th align="left" id="d138201e147">
+<table id="choicetable_ar5_wkb_35b"><thead><tr><th align="left" id="d151991e147">
 
 Part availability
 
-</th><th align="left" id="d138201e150">
+</th><th align="left" id="d151991e150">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d138201e156">
+</th></tr></thead><tbody><tr><td id="d151991e156">
 
 **The part is not available**
 
@@ -54,7 +54,7 @@ Action
 
 Tap **Reject**.
 
-</td></tr><tr><td id="d138201e168">
+</td></tr><tr><td id="d151991e168">
 
 **You cannot transfer the part because you have an insufficient quantity or need the part yourself**
 
@@ -62,7 +62,7 @@ Tap **Reject**.
 
 Tap **Reject**.
 
-</td></tr><tr><td id="d138201e180">
+</td></tr><tr><td id="d151991e180">
 
 **The part is available to fulfill the request**
 

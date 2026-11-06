@@ -7,16 +7,16 @@ release: zurich
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use, Proactive Service Experience Workflows]
+breadcrumb: [Use, Proactive Service Experience Workflows, Product Support for Technology]
 ---
 
 # About identifying affected accounts with Proactive Service Experience Workflows in Incident Management
 
 An incident record is created when an event management system generates an alert and the affected accounts can be viewed in the Service Operations Workspace.
 
-When the technical support engineer logs in to the Service Operations Workspace, the affected configuration item, services, and customers are listed in the Overview section. These details are automatically updated when the Configuration Item in the Incident record is updated. When the Configuration Item is updated, the **Refresh Impacted Services** script is automatically triggered and retrieves services that are experiencing an outage or degradation. The impacted services associated with the accounts are identified and updated. Additionally, if a CSM agent associates a case with the incident record, the Affected Account list is also updated. When the Affected Account list is updated, the customer impact is visible to the support teams working on the incident record.
+When the technical support engineer logs in to the Service Operations Workspace, the affected configuration item and services are listed in the Overview section. The details about customer and consumer accounts are listed in the Customer impact tab. These details are automatically updated when the Configuration Item in the Incident record is updated. When the Configuration Item is updated, the **Refresh Impacted Services** script is automatically triggered and retrieves services that are experiencing an outage or degradation. The impacted services associated with the accounts are identified and updated. Additionally, if a CSM agent associates a case with the incident record, the Affected account list is also updated. When the Affected account list is updated, the customer impact is visible to the support teams working on the incident record. To learn more about the Customer impact tab, see [Enhancing customer impact visibility for PSEW processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/enhance-customer-impact-visibility-psew-process.md).
 
 The following diagram shows the steps involved in creating an incident record.
 

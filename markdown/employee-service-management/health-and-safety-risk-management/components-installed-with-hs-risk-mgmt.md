@@ -7,7 +7,7 @@ release: zurich
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
 topic_type: reference
-last_updated: "2026-05-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Reference, Health and Safety Risk Management, Health and Safety, Employee Service Management]
 ---
@@ -804,7 +804,7 @@ Intelligent policy author
 
 </td><td>
 
-Intelligent policy author for Health and Safety permit to work who can-   View permits and their child records \(e.g., permit checklists\)
+Intelligent policy author for Health and Safety permit to work who can-   View permits and their child records, for example, permit checklists
 -   Create and update documents in the Health and Safety document library where the approval policy lives
 -   Approve permits
 

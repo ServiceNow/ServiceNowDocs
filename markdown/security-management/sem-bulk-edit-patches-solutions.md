@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sem-bulk-edit-patches-solutions.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using bulk edit in the Security Exposure Management Workspace, Bulk edit in the Security Exposure Management Workspace, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -51,11 +51,4 @@ In the Bulk edit modal, while adding a preferred solution and patch, you can als
 ## Result
 
 A bulk edit asynchronous job updates the selected host vulnerable items \(VITs\). The preferred solution and patch are added to the relevant host vulnerable items \(VITs\). Open a host vulnerable item, and view the preferred solution and patch in the Remediation section of the Details tab.
-
-**Parent Topic:**[Using bulk edit in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-using-bulk-edit.md)
-
-**Related topics**  
-
-
-[Bulk edit form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-bulk-edit-request-exception-form.md)
 

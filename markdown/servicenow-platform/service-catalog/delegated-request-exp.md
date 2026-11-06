@@ -7,9 +7,9 @@ release: zurich
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Service Catalog configuration, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configuring Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Delegated request experience
@@ -18,7 +18,7 @@ You can request a catalog item on behalf of another user or multiple users using
 
 Delegated request experience comprises of the following entities:
 
--   Requested For variable for a catalog item. For information about this variable, see [Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/r_VariableTypes.md).
+-   Requested For variable for a catalog item. For information about this variable, see [Requested For](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/requested-for.md).
 -   Requested For field on a requested item \(RITM\)
 
     **Note:** The form views, list views, and email notifications are not updated to reflect the Requested For field on a RITM.

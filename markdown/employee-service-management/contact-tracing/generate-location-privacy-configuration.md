@@ -7,7 +7,7 @@ release: zurich
 product: Contact Tracing
 classification: contact-tracing
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up data privacy consent settings for Contact Tracing, Setting up Contact Tracing, Contact Tracing, Safe Workplace, Health and Safety, Employee Service Management]
 ---
@@ -38,15 +38,15 @@ You can generate a location-based, default privacy configuration for each countr
 
 4.  Configure the privacy consent text if necessary.
 
-<table id="choicetable_w2c_2lg_gmb"><thead><tr><th align="left" id="d411347e101">
+<table id="choicetable_w2c_2lg_gmb"><thead><tr><th align="left" id="d417105e101">
 
 Privacy consent status
 
-</th><th align="left" id="d411347e104">
+</th><th align="left" id="d417105e104">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d411347e110">
+</th></tr></thead><tbody><tr><td id="d417105e110">
 
 **Consent is not required for the location**
 
@@ -54,7 +54,7 @@ Action
 
 Clear the **Needs privacy consent** check box.
 
-</td></tr><tr><td id="d411347e122">
+</td></tr><tr><td id="d417105e122">
 
 **Consent is required for the location**
 

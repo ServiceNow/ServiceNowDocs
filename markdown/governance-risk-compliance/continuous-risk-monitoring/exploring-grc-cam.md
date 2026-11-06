@@ -1,5 +1,5 @@
 ---
-title: Exploring CAM
+title: Explore
 description: Learn about the CAM benefits and workflows for users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/continuous-risk-monitoring/exploring-grc-cam.html
@@ -7,12 +7,12 @@ release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
-# Exploring CAM
+# Explore
 
 Learn about the CAM benefits and workflows for users.
 
@@ -41,7 +41,7 @@ RMF was mandated by the U.S. Federal government to provide the necessary resilie
 
 The RMF System Life Cycle consists of seven interconnected phases that work together to provide a comprehensive approach to managing information system security risks. Each phase has a specific focus area and contributes to the overall authorization and continuous monitoring of the system.
 
-## RMF phases
+## RMF Phases
 
 |Phase|Phase Name|Scope|Description|
 |-----|----------|-----|-----------|
@@ -57,13 +57,13 @@ The RMF System Life Cycle consists of seven interconnected phases that work toge
 
 To learn more about configuring and using CAM, see:
 
--   [Configuring CAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/configuring-grc-cam.md)
--   [Risk Management Framework \(RMF\) step 0 - Prepare the authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/prepare-auth-pkg.md)
--   [Risk Management Framework \(RMF\) step 1 - Categorize the authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/categorize.md)
--   [Risk Management Framework \(RMF\) step 2 - Select controls for an authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/select-controls.md)
--   [Risk Management Framework \(RMF\) step 3 - Implement controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/implement-controls.md)
--   [Risk Management Framework \(RMF\) step 4 - Assess implemented controls and document findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/assess-control-effectiveness.md)
--   [Implementing controls and assessment objectives in CAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/cam-assessment-objectives.md)
+-   [Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/configuring-grc-cam.md)
+-   [RMF step 0 - Prepare the authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/prepare-auth-pkg.md)
+-   [RMF step 1 - Categorize the authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/categorize.md)
+-   [RMF step 2 - Select controls for an authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/select-controls.md)
+-   [RMF step 3 - Implement controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/implement-controls.md)
+-   [RMF steps 4, 5, and 6 - Assess, authorize, and monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/assess-control-effectiveness.md)
+-   [Implement controls and assessment objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/cam-assessment-objectives.md)
 -   [Continuous authorization and monitoring tasks in the CAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-ws-continuous-auth-monitor.md)
--   [CAM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/reference-grc-cam.md)
+-   [Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/reference-grc-cam.md)
 

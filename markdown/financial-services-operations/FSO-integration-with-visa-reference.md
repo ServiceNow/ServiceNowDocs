@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/FSO-integration-with-visa-reference.html
 release: zurich
 topic_type: concept
-last_updated: "2025-11-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Visa, Integrate, Financial Services Operations \(FSO\)]
 ---

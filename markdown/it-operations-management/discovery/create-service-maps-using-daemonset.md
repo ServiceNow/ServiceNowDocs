@@ -7,7 +7,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enabling application service maps, Configure, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -28,15 +28,15 @@ If you use a ServiceNow DaemonSet, a pod is running on each Kubernetes node and 
 
 -   Set parameters either during Helm chart archive installation or by modifying the Kubernetes YAML file provided by ServiceNow.
 
-<table id="choicetable_ucg_fpk_bgc"><thead><tr><th align="left" id="d167582e90">
+<table id="choicetable_ucg_fpk_bgc"><thead><tr><th align="left" id="d180543e95">
 
 Method
 
-</th><th align="left" id="d167582e93">
+</th><th align="left" id="d180543e98">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d167582e99">
+</th></tr></thead><tbody><tr><td id="d180543e104">
 
 **During Helm chart archive installation**
 
@@ -61,7 +61,7 @@ Docker tagservicenowdocker/informer_ds:X.X.X COMPANY_REPO:X.X.X
 
 `--set image.dsRepository=COMPANY_REPO –set image.dsTag=X.X.X`
 
-</td></tr><tr><td id="d167582e142">
+</td></tr><tr><td id="d180543e147">
 
 **Modifying the `k8s_informer.yaml` file**
 

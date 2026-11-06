@@ -7,9 +7,9 @@ release: zurich
 product: Problem Management
 classification: problem-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Legacy: Problem Management Platform Analytics Solutions, Reference, Problem Management, IT Service Management]
+breadcrumb: [Legacy: Problem Management Platform Analytics Solutions, Problem Management, IT Service Management]
 ---
 
 # Legacy: Problem Premium dashboard
@@ -305,5 +305,4 @@ Heatmap \[Omitted image "heatmap.png"\] Alt text: Heatmap icon
 Open problems where the Change request has a State value of 3, meaning the request is closed, grouped on a matrix of State and Assignment Group
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Legacy: Problem Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/problem-content-pack.md)
-
+</table>

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/teams-configurable-wfo-cs.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Teams, Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
@@ -43,7 +43,7 @@ Analyze the data by drilling down into the data for a team, a specific team memb
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Select the Teams \[Omitted image "teams-new.png"\] Alt text: Teams icon icon.
+2.  Click the Teams \[Omitted image "teams-new.png"\] Alt text: Teams icon icon.
 
 3.  Select a date range to view your teams' performance for that time period.
 
@@ -69,8 +69,8 @@ Analyze indicator performance
 
 </td><td>
 
--   To analyze the indicator performance for the team, select an indicator value for the team in the header row.
--   To analyze indicator performance for a team member, select an indicator value for the team member.
+-   To analyze the indicator performance for the team, click an indicator value for the team in the header row.
+-   To analyze indicator performance for a team member, click an indicator value for the team member.
 
 
 </td></tr><tr><td>
@@ -79,7 +79,7 @@ Track cases
 
 </td><td>
 
-Select the **Tasks** tab and analyze all cases related to the team.-   To view the cases details, select a case.
+Click the **Tasks** tab and analyze all cases related to the team.-   To view the cases details, select a case.
 -   To view the a team member's details, select a team member.
 
 

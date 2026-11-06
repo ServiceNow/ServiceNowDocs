@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Chief Financial Officer \(CFO\) Dashboard, Executive dashboard overview, Dashboards, Platform Analytics experience, Platform Analytics]
+breadcrumb: [Chief Financial Officer \(CFO\) Dashboard, Executive dashboard overview, Platform Analytics]
 ---
 
 # Install the Chief Financial Officer \(CFO\) Dashboard

@@ -7,9 +7,9 @@ release: zurich
 product: Walk-Up Experience
 classification: walk-up-experience
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Walk-up Experience, IT Service Management]
+breadcrumb: [Walk-up Experience reference, Walk-up Experience, IT Service Management]
 ---
 
 # View Badge Scanner Integration scan logs

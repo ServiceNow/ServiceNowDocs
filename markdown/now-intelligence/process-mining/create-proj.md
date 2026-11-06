@@ -7,9 +7,9 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Use, Process Mining, Platform Analytics]
 ---
 
 # Create a project using Classic view
@@ -18,7 +18,7 @@ Configure and manage the project status and outline of the process you want to a
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin
+Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
 
 You must enable [Audit Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/t_EnableAuditingForATable.md) for the table that you’ve selected to generate a model for a project.
 
@@ -55,10 +55,8 @@ Import improvement opportunities as templates into the project associated with t
 After you’ve configured the data you want to visualize, you can begin mining the project.
 -   **[Schedule a Process Mining job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/schedule-mining-job.md)**  
 Schedule a Process Mining job to mine one or more projects later.
--   **[Edit a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/edit-project.md)**  
-Edit a project from the Project Definition form to generate an updated process map.
--   **[Delete a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/delete-project-navigator.md)**  
-Delete a project if you are not using it and want to clean up data. Deleting a project deletes the project's configurations and versions or projects it has generated. You can delete a project from the Process Mining Workspace.
+-   **[Manage a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/edit-project.md)**  
+Edit or delete a project. Delete a project if you aren't using it and want to clean up data. Deleting a project deletes the project's configurations and versions or projects it has generated.
 
 **Parent Topic:**[Using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/use-process-mining.md)
 

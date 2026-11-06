@@ -1,5 +1,5 @@
 ---
-title: Enable password reset policy checks \[Updated in Security Center 2.0\]
+title: Enable password reset policy checks
 description: Use the glide.enable.password\_policy property to enable password policy checks whenever a user changes their password using the user interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-enable-password-reset-policy-checks.html
@@ -7,42 +7,117 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authentication, Hardening settings, Platform Security]
 ---
 
-# Enable password reset policy checks \[Updated in Security Center 2.0\]
+# Enable password reset policy checks
 
 Use the **glide.enable.password\_policy** property to enable password policy checks whenever a user changes their password using the user interface.
 
-To define which password policy to use once this property is enabled, see [Enable password policies on your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/enable-password-policies.md). Ensure the Glide Property **glide.enable.password\_policy** exists and is set to the value true. If the property does not appear in the sys\_properties table, add a new record.
+Use the **glide.enable.password\_policy** property to customize password strength validation rules for the Change Password form. Customize the length and complexity values to match your organization's security policy. If **glide.enable.password\_policy** is not set to the recommended value of **true**, then password standards will not be enforced.
 
-**Note:** The **glide.enable.password\_policy** does not apply when an administrator changes a password or adds a user through script.
+Ensure that the **glide.enable.password\_policy** system property exists in the System Properties \[sys\_properties\] table and is set to the value **true**. If the property does not appear in the System Properties \[sys\_properties\] table, add a new record.
+
+**Important:** The **glide.enable.password\_policy** does not apply when an administrator changes a password or adds a user through script.
 
 **Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It is non-revertible.
 
 ## More information
 
-|Attribute|Description|
-|---------|-----------|
-|Property name|**glide.enable.password\_policy**|
-|Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-authentication.md)|
-|Purpose|To apply password policy at time of password change.|
-|Recommended value|true \(for higher strength passwords\)|
-|Security risk rating|7.4|
-|Functional impact|Setting the property to true turns on password policy checks when a user resets their password.|
-|Security risk|\(Moderate\) Without a password policy, a user can create a weak password which increases the likelihood of an adversary gaining access to the instance.|
+<table id="table_ajc_b43_3kb"><thead><tr><th>
 
-## Steps to configure
+Attribute
 
-If you configure this setting in the Hardening Compliance Configuration page in the Instance Security Center:
+</th><th>
 
-1.  Under **Medium**, Select **Session Management**.
-2.  In the **Enable Password Reset Policy Check** setting, select **Medium** for medium strength passwords, or **Strong** for more robust, higher strength passwords. Selecting one of these options sets the **glide.enable.password\_policy** property to true and starts a workflow that automatically updates your password policy.
+Description
 
-Additionally, you can set the **glide.apply.password\_policy.on\_login** system property to enable password policy checks at the time of log in.
+</th></tr></thead><tbody><tr><td>
+
+Configuration name
+
+</td><td>
+
+**glide.enable.password\_policy**
+
+</td></tr><tr><td>
+
+Configuration type
+
+</td><td>
+
+System Properties \(/sys\_properties\_list.do\)
+
+</td></tr><tr><td>
+
+Data type
+
+</td><td>
+
+Boolean
+
+</td></tr><tr><td>
+
+Recommended value
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
+Default value
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-authentication.md)
+
+</td></tr><tr><td>
+
+Security risk
+
+</td><td>
+
+-   Severity score: 7.4
+-   CVSS rating: High
+-   Security risk details: Enforcing password complexity is critical to maintaining strong authentication and reducing exposure to account takeover.
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+Dependencies and prerequisites
+
+</td><td>
+
+None
+
+</td></tr></tbody>
+</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 **Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

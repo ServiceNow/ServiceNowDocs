@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -65,7 +65,7 @@ This connector has the **debug** and **logPayloadForDebug** log parameters enabl
 
         Optional. Controls the content type the connector uses to communicate with the vRealize Operations API. When set to false \(default\), the connector sends requests and parses responses as JSON. Set to true to use the legacy XML format. Default value = false. The useXMLResponse option is available only when using vRealize\_V2.
 
-5.  Select **Test connector** to verify the connection between the MID Server and the vRealize Operations connector.
+5.  Click **Test connector** to verify the connection between the MID Server and the vRealize Operations connector.
 
 6.  If the test fails, follow the instructions that are issued by the error to correct the problem and then run another test.
 

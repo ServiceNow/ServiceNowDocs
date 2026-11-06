@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/activate-order-management-for-business-locations.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Activate business locations, Activating plugins for Customer Service Management \(CSM\), Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
+breadcrumb: [Business location plugin, Activate plugins, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Activate Order Management for Business Locations
@@ -28,7 +28,7 @@ The following items are installed with Order Management for Business Locations:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Roles and responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/personas-roles-and-tables-post-integration.md).
+For more information, see [Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/personas-roles-and-tables-post-integration.md).
 
 ## Procedure
 
@@ -40,7 +40,7 @@ For more information, see [Roles and responsibilities](https://raw.githubusercon
 
 3.  Select **Install** to start the installation process.
 
-    **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
+    **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/find-components.md).
 
@@ -48,5 +48,5 @@ For more information, see [Roles and responsibilities](https://raw.githubusercon
 **Related topics**  
 
 
-[Order Management for business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/order-managment-for-business-location.md)
+[Order Management for business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/order-managment-for-business-location.md)
 

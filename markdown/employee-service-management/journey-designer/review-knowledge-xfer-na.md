@@ -7,8 +7,8 @@ release: zurich
 product: Journey Designer
 classification: journey-designer
 topic_type: task
-last_updated: "2026-03-04"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Offboarding knowledge transfer plan generation agentic workflow, AI in Journey designer, Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
@@ -18,7 +18,7 @@ Departing employees working for organizations using the offboarding knowledge tr
 
 ## Before you begin
 
-The manager must have completed the knowledge transfer request for the departing employee. For more information about this process, see [Generate offboarding knowledge transfer plans using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/generate-knowledge-xfer-na.md).
+The manager must have completed the knowledge transfer request for the departing employee. For more information about this process, see [Generate offboarding knowledge transfer plans using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/generate-knowledge-xfer-na.md).
 
 Role required: employee
 

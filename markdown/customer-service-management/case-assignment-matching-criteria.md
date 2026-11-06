@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/case-assignment-matching-criteria.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Assignment workbench overview, Administer, Customer Service Management]
+breadcrumb: [Assignment workbench overview, Agent management, Use, Customer Service Management]
 ---
 
 # Matching criteria for case assignment

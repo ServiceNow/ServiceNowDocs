@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/using-search-next-experience.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [global search, next experience global search]
-breadcrumb: [Using the Unified Navigation, Working in Next Experience, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Unified Navigation, Explore, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Using search in Next Experience

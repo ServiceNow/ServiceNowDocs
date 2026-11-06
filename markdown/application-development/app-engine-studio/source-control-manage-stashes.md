@@ -7,9 +7,9 @@ release: zurich
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Stash changes, Use AES with a Git source control repository, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Stash changes, Use AES with a Git source control repository, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Manage stashes
@@ -34,7 +34,7 @@ App developers can apply or delete stashed changes from App Engine Studio \(AES\
 
 4.  Select the action next to the stash you want to manage.
 
-<table id="choicetable_vkd_kx5_lv"><tbody><tr><td id="d201908e109">
+<table id="choicetable_vkd_kx5_lv"><tbody><tr><td id="d174255e109">
 
 **Apply**
 
@@ -42,7 +42,7 @@ App developers can apply or delete stashed changes from App Engine Studio \(AES\
 
 Commits the stashed changes to the application and checks for conflicts.
 
-</td></tr><tr><td id="d201908e118">
+</td></tr><tr><td id="d174255e118">
 
 **Delete**
 

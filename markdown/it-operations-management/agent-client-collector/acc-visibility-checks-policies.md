@@ -7,10 +7,10 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-10-09"
 reading_time_minutes: 8
 keywords: [Agent Client Collector, Agent Client Collector for Visibility, ACC for Visibility]
-breadcrumb: [Agent Client Collector for Visibility Content reference, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC-VC reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
 
 # Agent Client Collector for Visibility Content default checks and policies
@@ -184,6 +184,18 @@ Oracle GLAS HW data collection
 
 </td></tr><tr><td>
 
+Software discovery via running processes
+
+</td><td>
+
+A background policy which discovers software without executable files in the configuration table \(**sn\_acc\_vis\_content\_process\_based\_sw\_config**\) and stores them in agent's local DB. The SAM discovery policy \(for Windows and macOS\) and Software Installed Policy \(for Linux\) gathers the information collected by this policy and saves it in the **cmdb\_sam\_sw\_install** table.
+
+</td><td>
+
+Software discovery via running processes
+
+</td></tr><tr><td>
+
 VISC Get application metric
 
 </td><td>
@@ -273,16 +285,9 @@ Enhanced Discovery
 
 </td><td>
 
-Synced to all agents based on the policy filter defined by ACC-VC. The Check definition is configured to run with certain assets and determines what gets synced between the agent and the MID Server. For more details on policies, see [Checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/checks-policies.md).**Note:**
+Synced to all agents based on the policy filter defined by ACC-VC. The Check definition is configured to run with certain assets and determines what gets synced between the agent and the MID Server. For more information, see [Checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/checks-policies.md).**Note:**
 
-For the agent to retrieve the OS serial numbers and TCP connections along with associated running processes, sudo access for **dmidecode** and **ss** commands is required on Linux systems. For example, this content could be added to /etc/sudoers or to an individual file in `/etc/sudoers.d/`:
-
-```
-Cmnd_Alias AGENT_ACC_V = /usr/sbin/dmidecode -s baseboard-serial-number,/usr/sbin/dmidecode -s chassis-serial-number,/usr/sbin/dmidecode -s system-serial-number,/usr/sbin/dmidecode -s system-uuid,/usr/sbin/ss -tanp
-servicenow ALL=(root) NOPASSWD:AGENT_ACC_V
-```
-
-For the sudoers configuration example, the **must\_sudo** check parameter, and the equivalent macOS and Windows privilege requirements, see the "Privileges for running check commands" section in [Checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/checks-policies.md).
+For the agent to retrieve the OS serial numbers and TCP connections along with associated running processes, sudo access for **dmidecode** and **ss** commands is required on Linux systems. For more information, see [Install Agent Client Collector on a Linux system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/install-acc-linux.md).
 
 </td></tr><tr><td>
 
@@ -357,4 +362,6 @@ Gathers per-day usage metrics for the monitored URL from each managed device, an
 </table>## Business rule
 
 The **Enhanced Discovery – On CI Delete** business rule triggers the Endpoint Discovery Check when the CI associated with a given CI is deleted from sn\_agent\_cmdb\_ci\_agent.
+
+**Parent Topic:**[Agent Client Collector for Visibility Content reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/agent-client-collector-for-visibility-references.md)
 

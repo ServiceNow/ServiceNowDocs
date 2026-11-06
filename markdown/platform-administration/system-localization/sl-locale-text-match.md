@@ -7,9 +7,9 @@ release: zurich
 product: System Localization
 classification: system-localization
 topic_type: concept
-last_updated: "2026-06-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configuring System Localization, System Localization, Translation and localization, Configure core features, Administer]
+breadcrumb: [Configuring System Localization, System Localization, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Set case and accent sensitivity on a per-column basis
@@ -23,6 +23,8 @@ By default, text searching in table columns is insensitive to case \(example: A 
 As an admin, you can modify this behavior for the fields you specify by setting the column attribute **i18n\_locale\_text\_match** and a sys property **com.glide.db.ui\_i18n\_locale\_text\_match**. When set to true, text search on the column retrieves only exact matches for case and accent.
 
 Locale text match is available from Zurich Patch 9 and Australia Patch 2.
+
+Consider the following points when using the locale text match feature.
 
 -   Setting locale text match overrides the collation of SQL queries for the specific column.
 -   You can't set the **i18n\_locale\_text\_match** column attribute when the following attribute is set on the same column: **i18n\_session\_language\_sortable** or if property **com.glide.db.session\_language\_collation\_feature**=true. For more information see [Sorting according to the session language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-localization/sorting-session-language.md).
@@ -39,11 +41,11 @@ The default behavior is i18n\_locale\_text\_match=false. Set the column attribut
 3.  Open the dictionary entry, and confirm the column's Type. This attribute can be added to **String**, **Translated Text**, or **Translated Field** types.
 4.  In the Attributes field of the column, add `i18n_locale_text_match=true`. Use a comma separator without spaces. \(You might need to switch to the Advanced view of the record to see the Attributes field\).
 
-    \[Omitted image "image.sl-locale-text-match-advanced-view"\] Alt text: An example Dictionary Entry in Advanced view, showing the Short description column of the Task table. The Attributes field contains several values including i18n\_locale\_text\_match=true.
+    \[Omitted image "sl-locale-text-match-advanced-view.png"\] Alt text: An example Dictionary Entry in Advanced view, showing the Short description column of the Task table. The Attributes field contains several values including i18n\_locale\_text\_match=true.
 
 5.  As an alternative to the previous step, open the Attributes tab in Related Links, then select New. In the Attributes field search for `locale text match`, then set the Value field to True.
 
-    \[Omitted image "image.sl-locale-text-match-column-attribute"\] Alt text: The form for a Dictionary Attribute new record. In this example, the Attribute field displays "Locale text match" and the Value field displays "true".
+    \[Omitted image "sl-locale-text-match-column-attribute.png"\] Alt text: The form for a Dictionary Attribute new record. In this example, the Attribute field displays "Locale text match" and the Value field displays "true".
 
 6.  Select Update or Submit.
 

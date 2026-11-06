@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/parameter-screen-config.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 11
+last_updated: "2026-09-10"
+reading_time_minutes: 10
 breadcrumb: [Input form screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
 
@@ -122,7 +122,9 @@ Hide action execution messages button
 
 Option to hide the error indicator button \[Omitted image "ifs-error-indicator.png"\] Alt text: Error indicator icon. displayed in the top menu bar indicating that the submitted input form contains at least one error. The input form can’t be submitted until the errors are fixed. The icon remains available when working through all input form screen pages.
 
-Tapping the icon opens a page that lists the validation errors, enabling users to correct these errors and submit an error-free input form. The list refreshes only after it is resubmitted.\[Omitted image "ifs-error-list.png"\] Alt text: Error indicator page in an input form screen listing 3 error messages and 3 info messages.
+Tapping the icon opens a page that lists the validation errors, enabling users to correct these errors and submit an error-free input form. The list refreshes only after it is resubmitted.
+
+\[Omitted image "ifs-error-list.png"\] Alt text: Error indicator page in an input form screen listing 3 error messages and 3 info messages.
 
 </td></tr><tr><td>
 
@@ -234,20 +236,6 @@ Header only on first page
 </td><td>
 
 Option to make the header visible only on the first page of the input form screen.
-
-</td></tr><tr><td>
-
-Hide page progress menu
-
-</td><td>
-
-Option to display the page progress menu after tapping the page indicator button\[Omitted image "ifs-page-progress.png"\] Alt text: Page indicator button showing that the user is on page one of three..The page indicator button displays when an input form contains more than 2 pages. Tapping the button opens a page progress menu that lists all available pages and their level of completeness. The level of completeness is measured by the number of completed mandatory fields. This list helps users track their progress when completing an input form.
-
-When the user taps on any of the pages listed in the page progress menu, they are redirected to that page on the input form.
-
-**Note:** For the option to navigate directly to a page from the menu, you need to enable the **Proceed with unfilled mandatory inputs** field.
-
-\[Omitted image "ifs-progress-menu.png"\] Alt text: Page progress menu showing items that need completing on six pages of an input form screen.
 
 </td></tr><tr><td>
 

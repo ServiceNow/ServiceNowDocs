@@ -7,9 +7,9 @@ release: zurich
 product: Microsoft Azure DevOps Integrations Comm
 classification: microsoft-azure-devops-integrations-comm
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Azure DevOps integration with SAFe, Setting up the integration between Microsoft Azure DevOps and Agile Development 2.0, Microsoft Azure DevOps Integration for Agile Development, Integrate, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Configuring Azure DevOps integration with SAFe, Setting up the integration between Microsoft Azure DevOps and Agile Development 2.0, Microsoft Azure DevOps Integration for Agile Development, Strategic Portfolio Management]
 ---
 
 # Configuring Azure DevOps projects for SAFe
@@ -26,7 +26,7 @@ After creating map configuration for SAFe entities, [import areas, teams, and it
     For the example shown in the following screenshot, **Fabrikam** must be selected as the ART Iteration path.
 
 
-The application then automatically identifies PI 1 as the program increment. It also identifies Sprint 1, Sprint 2, and so on as the corresponding SAFe sprints in the ServiceNow instance.
+The application will then automatically identify PI 1 as the program increment. Sprint 1, Sprint 2, and so on, are identified as the corresponding SAFe sprints in the ServiceNow instance.
 
 \[Omitted image "safe-pi-sprint.png"\] Alt text: Azure DevOps SAFe project example.
 

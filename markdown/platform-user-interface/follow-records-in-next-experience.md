@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/follow-records-in-next-experience.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working in Next Experience, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Use, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Follow records in Next Experience
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-Following a record in Next Experience is more streamlined. You receive instant confirmation when you start following or unfollowing a record via a banner message and persistent alerts under the notifications menu for updates such as Work Notes and Additional Comments.
+Following records is currently supported from the classic form UI only, even when your instance uses Next Experience.
 
 ## Procedure
 

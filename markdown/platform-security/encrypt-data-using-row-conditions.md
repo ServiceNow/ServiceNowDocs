@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/encrypt-data-using-row-conditions.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Using multiple encryption modules, Using Field Encryption, Field Encryption, Encryption]
 ---
@@ -16,7 +16,7 @@ Encrypt fields with multiple Field Encryption modules using Row Conditions to de
 
 ## Before you begin
 
-Role required: sn\_kmf.cryptographic\_manager or sn\_kmf.admin
+Role required: security\_admin  and sn\_kmf.cryptographic\_manager  or sn\_kmf.admin
 
 ## About this task
 
@@ -39,7 +39,7 @@ The field is encrypted by the encryption module of the first user to enter data.
 
     Make sure that you grant different roles to the different cryptographic modules through the access policies.
 
-2.  Navigate to **System Security** &gt; **Field Encryption** &gt; **Encrypted Field Configurations** &gt; **New**.
+2.  Navigate to **System Security** &gt; **Field Encryption** &gt; **Encrypted Field Experience** &gt; **Create new module**.
 
     If you need more information on Encrypted Field Configurations, see [Set encrypted field configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/set-encrypted-field-config.md).
 
@@ -51,15 +51,15 @@ The field is encrypted by the encryption module of the first user to enter data.
 
     If this box isn’t selected and records that are added don't meet a row condition, they aren’t encrypted.
 
-    For example, a Row Condition can be defined to encrypt records to declare that the "Department" field on the record equals "IT." Then, the records in which the "Department" field doesn’t equal "IT" wouldn’t be encrypted unless **Encrypt by default** is selected. This example utilizes a custom created "Department" Choice field on the sn\_customerservice\_case table, but other custom or default fields, if they are a supported data type of Row Conditions.
+    For example, a Row Condition can be defined to encrypt records to declare that the "Department" field on the record equals "IT." Then, the records in which the "Department" field doesn’t equal "IT" wouldn’t be encrypted unless **Encrypt by default** is selected. This example utilizes a custom created "Department" Choice field on the sn\_customerservice\_case table, but other custom or default fields, if they are a supported data type of Row Conditions. The **Encrypt by default** option is selected by default. To create a configuration without this option selected, create the EFC from the **Configurations** page.
 
-    \[Omitted image "EFC-encrypt-by-default.png"\] Alt text: Encrypt by default and associated Crypto module selected.
+    \[Omitted image "fe-encrypt-by-default.png"\] Alt text: Encrypt by default and associated Crypto module selected.
 
 5.  Select **Submit**.
 
-6.  Navigate to the condition builder **All** &gt; **System Security** &gt; **Field Encryption** &gt; **Encrypted Field Configurations** and select the newly created Encrypted Field Configuration \(EFC\).
+6.  Select the newly created Encrypted Field Configuration \(EFC\) from the **Configurations** tab.
 
-7.  Select **New** under the **Encrypted Row Configurations** related list.
+7.  Select the **Add Row Conditions** box and **Add Condition**.\[Omitted image "fe-add-rcs.png"\] Alt text: Create Row Conditions.
 
 8.  Define Row Conditions by filling out the required fields.
 

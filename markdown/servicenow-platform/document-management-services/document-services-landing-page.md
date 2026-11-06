@@ -7,7 +7,7 @@ release: zurich
 product: Document Management Services
 classification: document-management-services
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -50,7 +50,7 @@ Document Services provides a broad range of services related to document managem
     Integrate providers with your ServiceNow instance to store files, upload, add versions, and download information with document providers.
 
 
--   [Upgrade to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/upgrade.md)
+-   [Upgrade to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/upgrade.md)
 -   [Developer training](https://developer.servicenow.com/app.do#!/training/article/app_store_learnv2_automatingapps_paris_notifications/app_store_learnv2_automatingapps_paris_notifications_objectives?v=paris)
 -   [Domain separation and Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/domain-separation-document-services.md)
 

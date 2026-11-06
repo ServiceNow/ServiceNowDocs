@@ -7,7 +7,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [IPAM Discovery integration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -23,7 +23,7 @@ Confirm the following:
 -   You have installed and configured Service Graph Connector Central \(SGC Central\) v2.4.0. For more information, see [Configuring SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/sgcc-configuring.md).
 -   You have installed and configured Service Graph Connector for Infoblox v1.5.0. For more information, see [Configure Service Graph Connector for Infoblox using SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/sgcc-configure-infoblox-integ.md).
 -   You're using Discovery Admin Workspace v1.13.0.
--   You're using the Zurich, ZP9 or later, or YP13 or later version of the ServiceNow AI Platform.
+-   You're using the Brazil, ZP9 or later, or YP13 or later version of the ServiceNow AI Platform.
 
 Role required: discovery\_admin
 

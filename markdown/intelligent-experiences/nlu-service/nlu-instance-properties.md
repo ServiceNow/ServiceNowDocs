@@ -1,5 +1,5 @@
 ---
-title: NLU Workbench properties
+title: \(Legacy\) NLU Workbench properties
 description: Refer to these system properties for the Natural Language Understanding \(NLU\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/nlu-service/nlu-instance-properties.html
@@ -7,12 +7,12 @@ release: zurich
 product: NLU Service
 classification: nlu-service
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Exploring Natural Language Understanding, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) Exploring Natural Language Understanding, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# NLU Workbench properties
+# \(Legacy\) NLU Workbench properties
 
 Refer to these system properties for the Natural Language Understanding \(NLU\) application.
 

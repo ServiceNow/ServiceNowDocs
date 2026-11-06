@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/advanced-form-administration.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Administer, Form administration, Forms, fields, and lists, Configure core features, Administer]
+breadcrumb: [Administer, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Advanced form configuration
@@ -136,7 +136,7 @@ When you organize fields in this manner and the user is viewing the form on a sm
 
 3.  Enter the following information.
 
-<table id="choicetable_qyc_wqq_pt"><tbody><tr><td id="d282637e616">
+<table id="choicetable_qyc_wqq_pt"><tbody><tr><td id="d294392e616">
 
 **Name**
 
@@ -144,7 +144,7 @@ When you organize fields in this manner and the user is viewing the form on a sm
 
 glide.ui.form\_multiple\_splits
 
-</td></tr><tr><td id="d282637e625">
+</td></tr><tr><td id="d294392e625">
 
 **Description**
 
@@ -152,7 +152,7 @@ glide.ui.form\_multiple\_splits
 
 Enable multiple form splits
 
-</td></tr><tr><td id="d282637e634">
+</td></tr><tr><td id="d294392e634">
 
 **Type**
 
@@ -160,7 +160,7 @@ Enable multiple form splits
 
 true \| false
 
-</td></tr><tr><td id="d282637e643">
+</td></tr><tr><td id="d294392e643">
 
 **Value**
 

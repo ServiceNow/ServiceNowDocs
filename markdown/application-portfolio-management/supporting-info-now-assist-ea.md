@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/supporting-info-now-assist-ea.html
 release: zurich
 topic_type: concept
-last_updated: "2026-07-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, ServiceNow Otto for Enterprise Architecture \(EA\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Explore, ServiceNow Otto for Enterprise Architecture \(EA\), Enterprise Architecture]
 ---
 
 # Supporting information for ServiceNow Otto for Enterprise Architecture \(EA\)

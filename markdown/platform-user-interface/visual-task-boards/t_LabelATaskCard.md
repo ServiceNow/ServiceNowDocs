@@ -7,9 +7,9 @@ release: zurich
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with VTB cards, Use, Visual Task Boards, Personalize your experience, Configure user experiences]
+breadcrumb: [Working with Visual Task Board cards, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Label a Visual Task Board card
@@ -34,7 +34,7 @@ You can add one or more labels to a task card.
 
 1.  Do one of the following actions.
 
-<table id="choicetable_t2r_5jd_pt"><tbody><tr><td id="d126707e97">
+<table id="choicetable_t2r_5jd_pt"><tbody><tr><td id="d124207e91">
 
 **Add a label to a card from the quick panel**
 
@@ -44,7 +44,7 @@ You can add one or more labels to a task card.
 2.  Drop the label in the drop zone.
 
 
-</td></tr><tr><td id="d126707e115">
+</td></tr><tr><td id="d124207e109">
 
 **Add a label to a card from the card details**
 

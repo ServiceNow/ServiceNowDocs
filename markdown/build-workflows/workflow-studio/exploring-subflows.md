@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-08-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Explore, Workflow Studio, Build workflows]
+breadcrumb: [Explore flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Exploring subflows
@@ -72,9 +72,4 @@ Subflows provide process owners and developers these benefits:
 |Run an automated operation on demand.|Action|Application developer, integration owner, or process owner|
 |Use one or more inputs as data to run an automated operation.|Action|Application developer, integration owner, or process owner|
 |Store one or more outputs as data for use by other automated operations.|Action|Application developer, integration owner, or process owner|
-
--   **[Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/conversational-subflows.md)**  
-Run a Workflow Studio subflow from a Now Assist conversation. Create and configure the conversational skill from Workflow Studio.
-
-**Parent Topic:**[Exploring Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/exploring-workflow-studio.md)
 

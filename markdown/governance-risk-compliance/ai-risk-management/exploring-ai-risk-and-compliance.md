@@ -7,8 +7,9 @@ release: zurich
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+keywords: [AI Risk and Compliance, AI governance, AI risk management]
 breadcrumb: [AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
@@ -22,15 +23,13 @@ The AI risk and compliance team is responsible for identifying and assessing ris
 
 ## AI Risk and Compliance users
 
-The users listed in the following table represent generic roles. Each of these roles may be identified by different titles and names in various organizations. For specific roles within the AI Risk and Compliance application, refer to [Roles installed with AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/roles-installed-with-ai-risk-and-compliance.md).
-
 <table id="table_pyh_bxl_p2c"><thead><tr><th>
 
 User
 
 </th><th>
 
-Description
+Responsibilities
 
 </th></tr></thead><tbody><tr><td>
 
@@ -40,7 +39,6 @@ AI product owner, Business user, IT asset owner, AI practitioner
 
 -   Initiates requests to create AI use cases, models, and datasets through the workspace or the Employee Center.
 -   Monitors AI system performance drives continuous improvements, and assesses business impact.
--   Maintains compliance with governance, ethical, and legal standards throughout the AI product life cycle.
 -   Actively engages in responsible AI practices at key development and administration points, and accesses approved AI Assets for discovery and reuse.
 
 </td></tr><tr><td>
@@ -53,15 +51,7 @@ AI steward
 -   Promotes fairness in AI decision-making by identifying and addressing biases in training data, algorithms, and outcomes, and conducts periodic impact and risk assessments.
 -   Oversees the entire life cycle of AI models, from ideation to retirement, and acts as a liaison between teams to integrate governance across departments, ensuring compliance with data privacy, security, and intellectual property protection.
 -   Identifies and mitigates potential risks, such as privacy concerns and technological malfunctions, through regular testing, monitoring, and updates, and quickly adapts to changes in policies and regulations through workflow updates and issue management.
-
-</td></tr><tr><td>
-
-Chief risk officer
-
-</td><td>
-
--   Establishes frameworks for responsible AI use, ensuring adherence to ethical guidelines, industry regulations, and risk management policies.
--   Manages the AI strategy implementation.
+-   Monitors AI system performance drives continuous improvements, and assesses business impact.
 
 </td></tr><tr><td>
 
@@ -69,7 +59,13 @@ AI risk and compliance analyst
 
 </td><td>
 
-Views and manages compliance and risk inventories, for example, authority documents, risk statements, policies, and controls, as well as accesses the Advanced Risk dashboards.
+-   Build AI Risk and Compliance library of regulations, requirements, control measures, entities, policies, risk statements.
+-   Reviews impact assessment response to validate applicability of AI risks and controls.
+-   Performs risk assessment.
+-   Initiates request for control attestation.
+-   Manage Issues, Policy Exceptions, AI Cases.
+-   Manage continuous controls monitoring of AI systems.
+-   Views and manages compliance and risk inventories, for example, authority documents, risk statements, policies, and controls, as well as accesses the Advanced Risk dashboards.
 
 </td></tr><tr><td>
 
@@ -82,7 +78,9 @@ AI risk and compliance admin
 -   Defines AI case types, applies business rules for form fields and assignments, and designs reporting templates to meet business needs.
 
 </td></tr></tbody>
-</table>## AI Risk and Compliance workflow
+</table>For specific roles within the AI Risk and Compliance application, refer to [Roles and responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/roles-installed-with-ai-risk-and-compliance.md).
+
+## AI Risk and Compliance workflow
 
 The following section describes the steps involved when an AI asset is created in the AI Control Tower application and the risks for the assets are assessed in the AI Risk and Compliance application until the asset is deployed and moves to being monitored.
 
@@ -97,10 +95,10 @@ Based on these evaluations, the AI system is either approved or rejected for dep
 The workflow for an AI asset creation and deployment is the following:
 
 1.  Business users use the Employee Center or the AI Control Tower workspace and submit a new AI use case.
-2.  A new inventory record is automatically created in the workspace.
+2.  A new inventory record is automatically created in the AI Control Tower workspace.
 3.  The AI Center of Excellence \(COE\) team reviews the submitted use case.
-4.  Relevant assets are added to the inventory to help determine if the use case should proceed to the next stage.
-5.  In the AI Risk and Compliance workspace, either an AI impact assessment or an AI conformity assessment is initiated.
+4.  AI assets such as AI models \(Claude, OpenAI, LLMs, etc.\), Datasets \(Public, Private, Transactions, etc.\), Prompts \(Decisions\) are added to the inventory to help determine if the use case should proceed to the next stage.
+5.  In the AI Risk and Compliance workspace, either an AI impact assessment is initiated.
 6.  The assigned business user completes the assessment in the workspace.
 7.  Based on the assessment results, potential risks and necessary controls are identified and mapped.
 8.  After the assessment is approved, the AI use case is built by the appropriate teams.
@@ -122,11 +120,11 @@ The following table lists the benefits of using the AI Risk and Compliance appli
 
 <table id="table_ejf_j3j_fcc"><thead><tr><th>
 
-Benefits
+Feature
 
 </th><th>
 
-Feature
+Benefits
 
 </th><th>
 
@@ -134,11 +132,11 @@ Role
 
 </th></tr></thead><tbody><tr><td>
 
-Manage AI systems, models, and datasets across their entire life-cycle with consistent governance for better visibility, control, and compliance.
+[AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-asset-lifecycle.md)
 
 </td><td>
 
-[AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-asset-lifecycle.md)
+Manage AI systems, models, and datasets across their entire life-cycle with consistent governance for better visibility, control, and compliance.
 
 </td><td>
 
@@ -146,11 +144,11 @@ AI steward
 
 </td></tr><tr><td>
 
-Perform impact assessments for AI systems, models, and datasets to identify high-risk AI assets.
+[Perform impact assessment on an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/perform-impact-assessment-of-ai-use-case.md)
 
 </td><td>
 
-[Perform impact assessment on an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/perform-impact-assessment-of-ai-use-case.md)
+Perform impact assessments for AI systems, models, and datasets to identify high-risk AI assets.
 
 </td><td>
 
@@ -159,11 +157,11 @@ The roles required are as follows:-   AI Control Tower: AI Asset Owner
 
 </td></tr><tr><td>
 
-Perform risk assessments on AI system and individual risks associated with an AI asset based on additional information and testing.
+[Perform risk assessments on AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/perform-risk-assessments-on-ai-systems.md)[Initiate risk assessment on AI asset's risks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/request-risk-assessments-for-ai-systems.md)
 
 </td><td>
 
-[Perform risk assessments on AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/perform-risk-assessments-on-ai-systems.md)[Initiate risk assessment on AI asset's risks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/request-risk-assessments-for-ai-systems.md)
+Perform risk assessments on AI system and individual risks associated with an AI asset based on additional information and testing.
 
 </td><td>
 
@@ -171,13 +169,13 @@ AI Risk and Compliance Analyst
 
 </td></tr><tr><td>
 
-Manage and oversee AI-related cases and issues through a structured case management process.
-
-</td><td>
-
 [Create an AI case in the AI Risk and Compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/create-ai-case-in-the-ai-risk-and-compliance-workspace.md)
 
  [Create an AI issue in the AI Risk and Compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/create-ai-issue-in-the-ai-risk-and-compliance-workspace.md)
+
+</td><td>
+
+Manage and oversee AI-related cases and issues through a structured case management process.
 
 </td><td>
 
@@ -186,12 +184,13 @@ The roles required are as follows:-   AI case: AI Case Analyst and AI Case Manag
 
 </td></tr><tr><td>
 
-Build a compliance-ready AI asset inventory aligned with regulatory requirements using the AI framework content pack.
+[AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-assets.md)
+
+ [Create control attestations for an AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/attest-controls-for-ai-systems.md)
 
 </td><td>
 
--   [AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-assets.md)
--   [Create control attestations for AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/attest-controls-for-ai-systems.md)
+Build a compliance-ready AI asset inventory aligned with regulatory requirements using the AI framework content pack.
 
 </td><td>
 
@@ -202,7 +201,19 @@ AI Risk and Compliance Analyst
 
 To learn more about configuring and using AI Risk and Compliance, see:
 
+-   [AI governance life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/ai-gov-lifecycle.md)
 -   [Configuring AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/configuring-ai-risk-and-compliance.md)
 -   [Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
 -   [AI Risk and Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance-reference.md)
+
+**Related topics**  
+
+
+[AI governance life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/ai-gov-lifecycle.md)
+
+[Configuring AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/configuring-ai-risk-and-compliance.md)
+
+[Intake requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/airc-intake.md)
+
+[Roles and responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/roles-installed-with-ai-risk-and-compliance.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a change request, Use, Change Management, IT Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: itil, admin, or sn\_change\_write
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Configuration** and select a CIs class.
+1.  Navigate to **All** &gt; **Configuration** and select a CI class.
 
     For example, select **Servers** or **Service**.
 
@@ -32,7 +32,7 @@ Role required: itil, admin, or sn\_change\_write
 
 3.  Select one of the following options from the Actions list.
 
-<table id="choicetable_b3q_mzg_mw"><tbody><tr><td id="d336338e95">
+<table id="choicetable_b3q_mzg_mw"><tbody><tr><td id="d182800e91">
 
 **Add to existing Change Request**
 
@@ -40,7 +40,7 @@ Role required: itil, admin, or sn\_change\_write
 
 Select this option to associate the CIs with an existing change request.
 
-</td></tr><tr><td id="d336338e104">
+</td></tr><tr><td id="d182800e100">
 
 **Add to new Change Request**
 
@@ -53,7 +53,7 @@ Select this option to associate the CIs with a new change request.
 
     **Note:** CIs with a **Business Service** CI class are added to the **Impacted Services/CIs** related list on the change request. The remaining CIs are added to the **Affected CIs** related list.
 
-    Depending on your selection, either an existing change requested is updated with the selected CIs or a new change request record is created with the selected CIs.
+    Depending on your selection, either an existing change request is updated with the selected CIs or a new change request record is created with the selected CIs.
 
 4.  Continue to create or modify the change record as required.
 

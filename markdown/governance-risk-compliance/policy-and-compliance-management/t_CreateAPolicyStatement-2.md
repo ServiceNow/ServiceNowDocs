@@ -7,7 +7,7 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Mandatory setup, Implement, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -109,20 +109,6 @@ Option that indicates that controls are automatically created from the control o
 
 </td></tr><tr><td>
 
-Create control requirements
-
-</td><td>
-
-Option to generate control requirements automatically for every control generated under an entity.
-
-**Note:**
-
--   If no control objective requirements exist, then no control requirements are generated.
--   The number of control requirements equals the number of control objective requirements.
-
-
-</td></tr><tr><td>
-
 Category
 
 </td><td>
@@ -216,9 +202,7 @@ Description
 Description of the control objective.
 
 </td></tr></tbody>
-</table>    **Note:** If Attestation, Attestation method, Category, Classification, Description, Name, Reference, Supplemental guidance, and Type fields on the control objective are modified, the controls inherited from it will be moved back to Draft status.
-
-4.  Click **Submit**.
+</table>4.  Click **Submit**.
 
     The control objective is created and all related lists are visible.
 

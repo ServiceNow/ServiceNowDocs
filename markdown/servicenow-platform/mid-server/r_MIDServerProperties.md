@@ -7,8 +7,8 @@ release: zurich
 product: MID Server
 classification: mid-server
 topic_type: reference
-last_updated: "2025-09-19"
-reading_time_minutes: 22
+last_updated: "2026-09-10"
+reading_time_minutes: 23
 breadcrumb: [MID Server reference, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -18,7 +18,7 @@ Properties control the behavior of all MID Servers or a particular MID Server.
 
 <table id="table_gwj_2sf_khb"><tbody><tr><td>
 
-![Links to each of the MID Server sections](../image/MIDRefIconBar.png)
+![MID Server reference navigation](../image/MIDRefIconBar.png)
 
 </td></tr></tbody>
 </table>The MID Server properties are in the MID Server Property \[ecc\_agent\_property\] table and can be accessed by navigating to **MID Server** &gt; **Properties**. To set these properties, you must add them, if they are not already present.
@@ -43,36 +43,14 @@ Properties control the behavior of all MID Servers or a particular MID Server.
 
     -   Type: true \| false
     -   Default value: false
--   **glide.http.proxy\_host**
-
-    Set the proxy server hostname or IP address.
-
-    -   Type: string
-    -   Default value: none
--   **glide.http.proxy\_port**
-
-    Set the port number for the proxy server.
-
-    -   Type: integer
-    -   Default value: none
--   **glide.http.proxy\_username**
-
-    Set the proxy server username. If the proxy server is authenticating using user name and password, enter a value for this property.
-
-    -   Type: string
-    -   Default value: none
--   **glide.http.proxy\_password**
-
-    Set the proxy server password. If the proxy server is authenticating using user name and password, enter a value for this property.
-
-    -   Type: string
-    -   Default value: none
 -   **mid.discovery.max\_ci\_count\_per\_page**
 
     Defines the maximum CI count per page.
 
     -   Type: integer \(bytes\)
     -   Default value: 500
+    You can also configure this as a [configuration parameter on a individual MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/mid-server-parameters.md).
+
 -   **mid.discovery.max\_related\_count\_per\_page**
     -   Type: integer
     -   Default: 100
@@ -136,6 +114,8 @@ Properties control the behavior of all MID Servers or a particular MID Server.
 
     -   Type: integer \(bytes\)
     -   Default value: 50000000
+    You can also configure this as a [configuration parameter on a individual MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/mid-server-parameters.md).
+
 -   **mid.discovery.max\_payload\_size**
 
     Specifies the maximum string length of Discovery results that the MID Server sends to the instance. If the Discovery probe results exceed the limit, the MID Server discards them and returns a warning message.
@@ -146,6 +126,8 @@ Properties control the behavior of all MID Servers or a particular MID Server.
 
     -   Type: integer \(bytes\)
     -   Default value: 5000000
+    You can also configure this as a [configuration parameter on a individual MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/mid-server-parameters.md).
+
 -   **mid.discovery.multiprobe.skip\_others\_on\_error**
 
     Prevents probes in a [multi-probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/r_MultiprobesIncludedWithDiscovery.md) from iterating through available credentials when another member probe has already failed or timed out. If this property is set to **false**, each probe in the multi-probe attempts to connect to the target with the same invalid credentials. This condition results in longer probe execution times on the MID Server.
@@ -190,6 +172,8 @@ Properties control the behavior of all MID Servers or a particular MID Server.
 
     -   Type: integer \(bytes\)
     -   Default value: 20000000
+    You can also configure this as a [configuration parameter on a individual MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/mid-server-parameters.md).
+
 -   **mid.http\_classy.allow\_credentials\_over\_http**
 
     Enables the HTTP Classify probe to send credentials over the HTTP protocol during discovery.
@@ -303,6 +287,17 @@ Properties control the behavior of all MID Servers or a particular MID Server.
 
     -   Type: True \| False
     -   Default value: true
+-   **mid.sa.ssh.allowable\_failures**
+
+    Specifies the number of allowable failures before the MID Server stops executing the pattern. Once the limit is reached, the next failure terminates the pattern. A failure occurs when an SSH command can't complete successfully due to issues such as authentication failure or connection timeout.
+
+    -   Type: integer
+    -   Default value: 2
+    -   Values:
+        -   0: The first failure terminates the pattern immediately.
+        -   1: The first failure is tolerated; the second failure terminates the pattern.
+        -   2: Two failures are tolerated; the third failure terminates the pattern.
+        -   -1: No maximum limit on failures; the pattern continues regardless of the number of failures.
 -   **mid.sa.ssh.use\_sncssh**
 
     Toggles SSH between non-interactive and interactive modes. True corresponds to non-interactive mode and allows probes to open sessions with the device without waiting for a prompt. False corresponds to interactive mode, which requires interactive sessions with the device for network devices and servers.

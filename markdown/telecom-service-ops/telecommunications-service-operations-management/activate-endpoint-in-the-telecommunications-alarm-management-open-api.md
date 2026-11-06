@@ -1,5 +1,5 @@
 ---
-title: Activate the endpoint of the Telecommunications Alarm Management Open API connection
+title: Activate the Telecommunications Alarm Management Open API endpoint
 description: Activate the endpoint of the Telecommunications Alarm Management Open API connection. By activating the endpoint, you receive the incoming notifications from the external system for the topic that you registered.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-service-ops/telecommunications-service-operations-management/activate-endpoint-in-the-telecommunications-alarm-management-open-api.html
@@ -7,12 +7,12 @@ release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure API notifications, Configure, Telecommunications Service Operations Management]
+breadcrumb: [Configure API notifications, Configure Telecom Assurance, Configure, Telecommunications Service Operations Management]
 ---
 
-# Activate the endpoint of the Telecommunications Alarm Management Open API connection
+# Activate the Telecommunications Alarm Management Open API endpoint
 
 Activate the endpoint of the Telecommunications Alarm Management Open API connection. By activating the endpoint, you receive the incoming notifications from the external system for the topic that you registered.
 
@@ -31,10 +31,16 @@ You activate the subscribed endpoints of the Telecommunications Alarm Management
 
 1.  Navigate to **All** &gt; **Process Automation** &gt; **Flow Designer**.
 
-2.  On the **Connections** tab, select **Telecommunications Alarm Management Open API**.
+2.  Select the **Integrations** tab, then select **Connections**.
 
-3.  Open the endpoint record that you want to activate.
+3.  Switch the toggle to **Inbound**.
 
-4.  Select **Activate**.
+4.  Select **Telecommunications Alarm Management Open API**.
 
+5.  Open the endpoint record that you want to activate.
+
+6.  Select **Activate**.
+
+
+**Parent Topic:**[Configuring Telecommunications API notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/configuring-telecommunications-api-notifications.md)
 

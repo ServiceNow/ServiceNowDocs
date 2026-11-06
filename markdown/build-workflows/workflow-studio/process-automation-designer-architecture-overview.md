@@ -1,61 +1,22 @@
 ---
 title: Playbook Experience
-description: Understand how Workflow Studio Playbooks work in the ServiceNow AI Platform to automate cross-functional processes and consolidate them into task-oriented views for your end users.
+description: Understand how Playbook work in the ServiceNow AI Platform to automate cross-functional processes and consolidate them into task-oriented views for your end users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/process-automation-designer-architecture-overview.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 5
-breadcrumb: [Playbook, Explore, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Explore, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Playbook Experience
 
-Understand how Workflow Studio Playbooks work in the ServiceNow AI Platform® to automate cross-functional processes and consolidate them into task-oriented views for your end users.
+Understand how Playbook work in the ServiceNow AI Platform® to automate cross-functional processes and consolidate them into task-oriented views for your end users.
 
-**All** &gt; **Process Automation** &gt; **Workflow Studio** &gt; **Playbooks**is the design environment where playbook owners build playbooks. Meanwhile, the runtime experience is where end users, such as playbook agents, follow the playbook to complete a business process.
-
-## Design environment
-
-The Playbooks design environment in Workflow Studio consists of these components:
-
--   **Playbooks**
-
-    A playbook is where a playbook owner configures and organizes multiple instances of Workflow Studio content into a coherent business process. A playbook consists of a trigger and a sequence of stages, which are made up of a sequence of activities.
-
--   **Trigger definitions**
-
-    A trigger definition specifies the conditions that must be met to run a playbook. A user with the admin, playbook.admin, or pd\_trigger\_author role typically creates and configures a trigger definition that playbook authors can use as a template. A trigger definition specifies the record operation and table conditions that must be met to start running a playbook. A playbook owner typically selects a trigger template when creating a playbook.
-
--   **Trigger instances**
-
-    A trigger instance is produced when you select a trigger template. The trigger instance stores the conditions that a record must meet to start running the playbook.
-
--   **Stages**
-
-    A stage is a logical grouping of activities in a playbook. A playbook owner creates a stage to group activities and specify the start rule for when the stage should start running. A stage in your overall business process.
-
--   **Activity definitions**
-
-    An activity definition maps [subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/exploring-subflows.md) and [action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/exploring-actions.md) inputs and outputs to an activity instance. An activity definition contains:
-
-    -   The automation plan to map the triggering input record data to action or subflow inputs
-    -   The activity experience to map action or subflow outputs to a user-facing view of the playbook
-    A user with the admin, playbook.admin, or pd\_content\_author roles typically specifies the automation plan and activity experience when creating an activity definition.
-
--   **Activity instances**
-
-    An activity instance is produced when you add an activity to a playbook. The activity instance stores the automation plan data mappings from the activity definition. You can change these data mappings when the default values do not fit your playbook. The playbook can specify the start rules for when the activity should start running.
-
--   **Start rules**
-
-    A start rule specifies when a stage or an activity starts running. A playbook owner can use start rules to specify what parts of a playbook run simultaneously and what parts run serially.
-
-
-For more information about how to use and navigate the Workflow Studio user interface, see [Playbook builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/exploring-process-automation-designer.md).
+**All** &gt; **Process Automation** &gt; **Workflow Studio** &gt; **Playbooks** is the design environment where playbook owners build playbooks. Meanwhile, the runtime experience is where end users, such as playbook agents, follow the playbook to complete a business process. To learn more about the Playbook designer, see [Playbook builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/exploring-process-automation-designer.md).
 
 ## Runtime experience
 
@@ -71,7 +32,7 @@ Workflow Studio produces these runtime components for Playbooks:
 
 -   **Playbook runtime**
 
-    Playbook runtime is when a playbook runs for an agent or fulfiller. A playbook runs for agents only after Playbook Experience administrators configure how and where the playbook appears. See Set up a Playbook.
+    Playbook runtime is when a playbook runs for an agent or fulfiller. A playbook runs for agents only after Playbook Experience administrators configure how and where the playbook appears.
 
 
 During runtime for a playbook, your instance:
@@ -91,7 +52,7 @@ Your instance processes a playbook during runtime by evaluating trigger conditio
 
 Playbooks protects against cross-site scripting and code injection by evaluating all string data for HTML markup. The system only preserves HTML markup that is present in its inclusion list. All other HTML markup is removed from string data.
 
-The inclusion list supports these HTML elements and attributes, which cannot be modified.
+The inclusion list supports these HTML elements and attributes, which can't be modified.
 
 |HTML element|Included Attributes|
 |------------|-------------------|

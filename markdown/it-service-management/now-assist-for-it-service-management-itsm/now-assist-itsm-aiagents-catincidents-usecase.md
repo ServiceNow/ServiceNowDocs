@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [ITSM, Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -174,7 +174,7 @@ As a user, do the following in the Otto panel:
 
         The orchestrator then moves to the next available agent.
 
-        \[Omitted image "now-assist-itsm-inc-cat-nap.png"\] Alt text:
+        \[Omitted image "now-assist-itsm-inc-cat-nap.png"\] Alt text: Orchestrator then moves to the next available agent
 
 3.  The second agent, which is the Classify Service and CI AI agent updates the following fields in the incident record after the execution:
 

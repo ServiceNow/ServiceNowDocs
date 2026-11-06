@@ -7,7 +7,7 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
@@ -55,7 +55,7 @@ Quantity
 
 </td><td>
 
-Total number of required phone numbers.**Note:** This field disappears for deallocate action.
+Total number of required phone numbers.**Note:** This field disappears for a deallocated action.
 
 </td></tr><tr><td>
 
@@ -63,7 +63,7 @@ Line number
 
 </td><td>
 
-Enter your required line number in `xxxx-xxxx` or `xxx-xxx` or `xxx, xxx-xxx` format. Line number field can accept multiple values, as long as they are separated by commas. **Note:** Multiple telephone number allocations are created if the line number isn’t in a series of numbers. Also, the status of these numbers gets updated to either assigned or ported-in and the availability is No.
+Enter your required line number in xxxx-xxxx or xxx-xxx or xxx, xxx-xxx format.**Note:** Multiple telephone number allocations are created if the line number isn’t in a series of numbers. Also, the status of these numbers gets updated to either assigned or ported-in and the availability is No.
 
 </td></tr><tr><td>
 
@@ -99,9 +99,4 @@ Geographic area code that forms part of the telephone number.**Note:** This fiel
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
-
-**Related topics**  
-
-
-[Allocate phone number](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/allocate-phone-number.md)
 

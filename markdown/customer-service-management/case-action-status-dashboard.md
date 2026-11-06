@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/case-action-status-dashboard.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administering case action status, Administer, Customer Service Management]
+breadcrumb: [Case action status, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Case action status analytics
@@ -22,9 +22,7 @@ The dashboard includes the **Open Backlog - Blocked** widget which breaks down t
 
 As blocking tasks for a case get created and resolved, this dashboard widget tracks the case time spent with each of these users. The breakdown is set for:
 
--   Blocked internally
--   Blocked by customer
--   Blocked internally and by customer
-
-**Parent Topic:**[Administering case action status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-service-case-action-status.md)
+-   Blocked internally: Caused by an open task, which can be an incident, problem, change request, or case task. This resolves when the task closes.
+-   Blocked by customer: Waiting for the customer to respond before the agent can act.
+-   Blocked internally and by customer: Both conditions are true at the same time: there's an open internal blocking task and the case is waiting for the customer to respond.
 

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/next-experience-start-option.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 keywords: [next experience start page options]
-breadcrumb: [Working in Next Experience, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Configuring Next Experience start page options
@@ -23,7 +23,7 @@ Any page can have redirect rules as the page is loading to take the user to a di
 
 -   **Next Experience default landing page**
 
-    The default landing page provides information to help orient you to your tasks in an instance enabled with Next Experience. Variants of this page are available, depending on your setup. For more information, see [Exploring your Next Experience default landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/exploring-your-next-experience-homepage.md).
+    The default landing page provides information to help orient you to your tasks. Variants of this page are available, depending on your setup. For more information, see [Exploring your Next Experience default landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/exploring-your-next-experience-homepage.md).
 
 -   **Configurable workspace home**
 
@@ -54,5 +54,12 @@ The different options for start pages serve different purposes. For example, cho
 
 ## Upgrade considerations
 
-When you upgrade to an instance with Next Experience enabled, it's best to convert homepages to responsive dashboards, so that you don't lose editing capabilities. Homepages are turned off by default when Next Experience is enabled. For more information, see [Homepage deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/homepage-deprecation-help-tool.md).
+When you upgrade to an instance with Next Experience enabled, it's best to convert homepages to responsive dashboards, so that you don't lose editing capabilities. In instances using Next Experience, legacy Homepages are turned off by default. For more information, see [Homepage deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/homepage-deprecation-help-tool.md).
+
+-   **[Next Experience administrator start options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/ne-start-options-admin.md)**  
+As an administrator, you can configure where users start when they log in to ServiceNow.
+-   **[Next Experience user start options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/ne-start-options-user.md)**  
+As a user, you can specify where you want to start when you log in to ServiceNow.
+
+**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/next-experience-ui-admin.md)
 

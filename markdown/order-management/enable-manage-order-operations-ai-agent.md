@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/enable-manage-order-operations-ai-agent.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, ServiceNow Otto for Order Management]
+breadcrumb: [Configuring the Manage Order Operations application, Business Portal, Configure, Sales Customer Relationship Management]
 ---
 
 # Enable the manage order operations agent on Business Portal
@@ -58,7 +58,7 @@ The chat assistant is activated in the Business Portal.
 
 Customize the subject, content, or formatting of the default email templates for order cases. For more information, see [Email notifications for order cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-case-email-notifications.md).
 
-**Parent Topic:**[Configuring ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-for-order-management-configuring.md)
+**Parent Topic:**[Configuring the Manage Order Operations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configuring-manage-order-operations.md)
 
 **Related topics**  
 

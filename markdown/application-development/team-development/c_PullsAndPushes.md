@@ -1,40 +1,28 @@
 ---
-title: Pulling changes
-description: Developers synchronize their instances to the parent instance by pulling and pushing versions of customized records.
+title: Pulls and pushes
+description: Developers synchronize their instances to the parent instance by pulling and pushing versions of customized records and resolving collisions between versions on the parent instance and the development instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/c\_PullsAndPushes.html
 release: zurich
 product: Team Development
 classification: team-development
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with changes, Team Development, Planning your application, Building applications]
+breadcrumb: [Administer, Team Development, Planning your application, Classic app development, Building applications]
 ---
 
-# Pulling changes
+# Pulls and pushes
 
-Developers synchronize their instances to the parent instance by pulling and pushing versions of customized records.
+Developers synchronize their instances to the parent instance by pulling and pushing versions of customized records and resolving collisions between versions on the parent instance and the development instance.
 
-Pulling retrieves all versions that haven’t already been pulled onto the development instance, including historical versions that have customer updates. You must resolve any collisions before proceeding with further pulls or pushes.
+Developers can compare peer instances to one another and share code or resolve collisions before pushing versions to the parent instance.
 
-**Note:** You can’t choose specific versions to pull.
+Pulling from the parent retrieves versions of records that have customer updates. Pulling retrieves all versions that have not already been pulled onto the development instance, including historical versions, and you cannot choose which versions to pull. You must resolve any collisions before proceeding with further pulls or pushes.
 
-Comparing reports the differences between two peer instances. You can choose which versions to pull from a peer instance. You can learn about comparing instances [Compare to peer instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_CompareToAPeerInstance.md).
+Pushing to the parent adds only the current development version to the parent, not all the development versions. You can choose which changes to push to the parent. Pushing creates a local Update Set on the parent that is marked as complete. Pushed versions are also tracked as local changes on the parent. Therefore, you can promote changes through your development and test hierarchy by transferring the Update Set or by pushing the local changes.
 
--   You can learn about pulling a version [Pull a version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_PullAVersion.md).
+Comparing reports the differences between two peer instances. You can choose which versions to pull from a peer instance.
 
-    Pulling retrieves versions of customized records from the parent instance and adds them on the development instance.
-
--   You can learn about the pull exceptions here [Pull exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/r_PullExceptions.md).
-
-    Pulling ignores versions when certain conditions occur.
-
-
-The pushes and pulls related list on the [Team dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/r_TeamDashboard.md) displays the user who created a change and the remote instance where the change was created.
-
--   **[Pull a version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_PullAVersion.md)**  
-Pulling retrieves versions of customized records from the parent instance and adds them on the development instance. Pulling doesn’t retrieve any versions for changes made by system upgrades.
-
-**Parent Topic:**[Local changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_LocalChanges.md)
+The Pushes and Pulls related list on the team dashboard displays the user who created a change and the remote instance where the change was created.
 

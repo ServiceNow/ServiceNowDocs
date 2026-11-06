@@ -1,24 +1,24 @@
 ---
 title: Request offline mode
-description: To activate this feature, request activation of the SG Offline support plugin \(com.glide.sg.offline\).
+description: Activate offline mode for mobile by requesting the activation of the SG Offline support plugin \(com.glide.sg.offline\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/sg-request-work-offline.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Offline mode, Considerations before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Install and enable, Offline mode setup options, Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Request offline mode
 
-To activate this feature, request activation of the SG Offline support plugin \(com.glide.sg.offline\).
+Activate offline mode for mobile by requesting the activation of the SG Offline support plugin \(com.glide.sg.offline\).
 
 ## Before you begin
 
 **Note:** Offline mode is supported on on-premise instances.
 
-Role required: admin
+Role required: mobile\_admin, admin
 
 ## Procedure
 
@@ -70,10 +70,10 @@ Select the date and time to activate the plugin.
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
-**Parent Topic:**[Offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/mobile-offline-mode.md)
+**Parent Topic:**[Install and enable offline capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/enable-offline.md)
 
 **Related topics**  
 
 
-[List of plugins \(Zurich\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/list-of-plugins.md)
 

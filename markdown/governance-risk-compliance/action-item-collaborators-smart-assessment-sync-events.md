@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/action-item-collaborators-smart-assessment-sync-events.html
 release: zurich
 topic_type: concept
-last_updated: "2026-08-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [BCM, action item, Smart Assessment, collaborators]
 breadcrumb: [Creating action items in events, Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]

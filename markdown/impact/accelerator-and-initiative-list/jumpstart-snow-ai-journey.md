@@ -7,9 +7,9 @@ release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your ServiceNow AI Journey
@@ -20,34 +20,41 @@ This Accelerator provides guidance on how to achieve your organization's goals a
 
 Jumpstart Your ServiceNow AI Journey helps Impact customers navigate ServiceNow's expansive catalog of AI and automation capabilities with prescriptive guidance tailored to organizational objectives. This includes building a personalized roadmap to adopt the ServiceNow capabilities that are aligned with your strategic goals and recommending Impact AI Accelerators to accelerate and enhance adoption.
 
-**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages
+## Package Availability
 
-## What You Get
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
+
+## What you get
 
 -   **Session Preparation**
 
-    -   Provision a temporary instance 
-    -   Run AI Adoption Scan to assess current usage of AI and related products
-    -   Activate and run [Automation Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/automation-discovery.md) to identify opportunities.
-    ​
+    The Technical Accelerator Consultant:
 
--   **Customer Coaching Session \#1\(upto 1.5 hours\)**
+    -   Provisions an instance copy
+    -   Runs AI Adoption Scan on the instance copy to assess current usage of AI and related products
+    -   Activates and runs AI-powered data exploration tools
+-   **Customer Discovery Session \#1\(up to 1.5 hours\)**
 
     Discovery session to:
 
-    -   Set Accelerator expectations
-    -   Conduct rapid SWOT Analysis
-    -   Discuss strategic goals and objectives
--   **Customer Coaching Session \#2 \(Up to 1 hour\)**
+    -   Establish a Terminology Baseline
+    -   Understand the Anatomy of an Objective
+    -   Define Objective
+    -   Brainstorm and refine use case
+    -   Discuss and agree on next steps
+-   **Customer Delivery Session \#2 \(Up to 1 hour\)**
 
-    Review of:
+    Delivery session to review:
 
     -   Business objectives
     -   AI Adoption Brief
     -   Impact AI Accelerators Roadmap
--   **Customer Coaching Session \#3  \(Optional upon Customer request - up to 1 hour\)**
-    -   Opportunity for Questions and Answers related to ServiceNow AI Journey
-    -   Begin the newly created Impact AI Accelerator roadmap
+-   **Outputs**
+    -   30-day access to the instance copy, where applicable
+    -   Technical Accelerator Consultant with whom you met for any further questions or in-depth explorations
+    -   Copy of the Delivery Session Deck containing the roadmap created during the engagement
+    -   AI Adoption Scan results
+    -   AI-powered data exploration results \(if applicable\)
 
 ## Requested Customer Resources
 
@@ -60,16 +67,15 @@ Jumpstart Your ServiceNow AI Journey helps Impact customers navigate ServiceNow'
 
 ## Requested Information/Access
 
--   Objectives &amp; horizon – 3 outcomes you want in the next 3–6–12 months
--   Scope boundaries – units/products/geographies In vs. Out
--   Top 3–5 use cases – name, stage \(idea/pilot/prod\), owner
--   Constraints – budget/timebox, key staffing/tools limits
--   Obligations – top laws/standards/contracts that are important
--   Risk appetite &amp; red lines – what’s acceptable/not
--   Success &amp; safety metrics – 2–3 draft thresholds \(for example, accuracy ≥X, bias ≤Y, drift alert at Z\)
--   Current-state snapshot – yes/no on: inventory exists, policy exists, risk review exists, monitoring exists.
-
-## Requested Information/Access
-
 **Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
+
+-   Objectives &amp; horizon – 3 outcomes you want in the next 3–6–12 months.
+-   Scope boundaries – units/products/geographies in vs. out.
+-   Top 3–5 use cases – name, stage \(idea/pilot/prod\), owner.
+-   Constraints – budget/time box, key staffing/tools limits.
+-   Success metrics – how do you quantify success \(MTTR, etc.\)
+
+## Exclusions
+
+ServiceNow is not responsible for implementing recommendations on Customer’s sub-production or production instances.
 

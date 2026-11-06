@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Export and import a CMDB query, CMDB Query Builder, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Export a saved query definition to an XML file as an update set, which you can l
 
 ## Before you begin
 
-Role required: To export — cmdb\_query\_builder \(contained in itil and asset\). To import — user with permission to import an update set.
+Role required: To export — cmdb\_query\_builder. To import — user with permission to import an update set.
 
 Domain in the exported query must be visible in both, source and destination instances.
 

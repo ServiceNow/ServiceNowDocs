@@ -7,9 +7,9 @@ release: zurich
 product: Task Intelligence
 classification: task-intelligence
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage machine learning models with Task Intelligence, Task Intelligence, Enable AI experiences]
+breadcrumb: [Manage machine learning models with Task Intelligence, Task Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Export a Task Intelligence model
@@ -24,15 +24,15 @@ Role required: admin or tia\_admin
 
 1.  Navigate to **All** &gt; **Task Intelligence for CSM** &gt; **Setup** or **All** &gt; **Task Intelligence for ITSM** &gt; **Setup**, depending on which application and context you want to export for.
 
-2.  In the **Models** list, select the more options menu of the model you want to export.
+2.  In the **Models** list, click the more options menu of the model you want to export.
 
-    \[Omitted image "export-ti-modelT1-brand2.0.png"\] Alt text: Export model button in the Models list.
+    \[Omitted image "export-ti-modelT1.png"\] Alt text: Export model button in the Models list.
 
-3.  Select **Export model**.
+3.  Click **Export model**.
 
     A new tab opens with authentication steps.
 
-4.  Select **Allow**.
+4.  Click **Allow**.
 
 
 ## Result

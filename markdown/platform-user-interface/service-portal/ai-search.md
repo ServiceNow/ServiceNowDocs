@@ -7,7 +7,7 @@ release: zurich
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configuring search in a portal, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -53,7 +53,7 @@ AI Search is a ServiceNow AI Platform feature that is active by default.
 
 AI Search is enabled in Service Portal for all new and zBoot customers by default.
 
-If you are upgrading to Zurich as an existing customer, AI Search is disabled in Service Portal by default. You can enable it by updating the portal record. For more information, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/enable-ais-sp.md).
+If you are upgrading to Brazil as an existing customer, AI Search is disabled in Service Portal by default. You can enable it by updating the portal record. For more information, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/enable-ais-sp.md).
 
 **Note:** Search widgets that you cloned or customized before a system upgrade may not be compatible with AI Search. You can resolve this issue by running a fix script that reclassifies search widget instances. For more information, see [Reclassify cloned or customized search widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/reclassify-search-widgets.md).
 

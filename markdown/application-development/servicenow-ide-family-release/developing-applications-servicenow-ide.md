@@ -7,16 +7,16 @@ release: zurich
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Developing applications with the ServiceNow IDE
 
 Create and develop applications in source code with the ServiceNow IDE. Build applications to make your changes available across an instance and collaborate with users of any skill set.
 
-In the ServiceNow IDE, you create scoped applications or convert existing applicationsand develop them in source code using ServiceNow Fluent to define application metadata \[sys\_metadata\]. Optionally, you can create JavaScript modules and use third-party libraries to organize and reuse code within scoped applications.
+In the ServiceNow IDE, you create applications or convert existing applicationsand develop them in source code using ServiceNow Fluent to define application metadata \[sys\_metadata\]. Optionally, you can create JavaScript modules and use third-party libraries to organize and reuse code within application scopes.
 
 When your changes are saved and ready, build an application to compile the source code to application metadata and make your changes available to users across the instance. As other users modify the application metadata, you can synchronize the changes into the source code.
 

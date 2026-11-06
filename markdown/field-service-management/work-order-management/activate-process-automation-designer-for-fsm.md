@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Playbooks, Work orders and tasks, Configure, Field Service Management]
+breadcrumb: [Playbooks, Set up work orders and tasks, Configure, Field Service Management]
 ---
 
 # Activate Playbooks for Field Service Management

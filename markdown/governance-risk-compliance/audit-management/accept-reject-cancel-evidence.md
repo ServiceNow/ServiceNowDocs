@@ -7,7 +7,7 @@ release: zurich
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Evidence request workflow, Audit evidence request, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
@@ -32,5 +32,13 @@ Role required: sn\_audit.user and sn\_compliance.manager
     |**Request Revision**|Request for the evidence to be reviewed, if it is not appropriate, or modified.|
     |**Cancel**|Cancel the evidence request task.|
     |**Delete**|Delete the evidence request task.|
+
+3.  Attach a document with the record in the Document panel.
+
+4.  Ask questions about the document in the ServiceNow Otto® panel.
+
+5.  Use voice assist to navigate documents with voice commands and receive audio summaries.
+
+    For more information, see [Using Document Management System in Audit Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/manage-documents-panel.md).
 
 

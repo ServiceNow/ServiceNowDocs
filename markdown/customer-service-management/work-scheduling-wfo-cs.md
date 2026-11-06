@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/work-scheduling-wfo-cs.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
@@ -13,6 +13,10 @@ breadcrumb: [Workforce Optimization for Customer Service, Agent management, Use,
 # Work scheduler in Workforce Optimization for Customer Service
 
 Manage the work of all your teams from a central location. You can get visibility into your entire teams’ workload. From your team's calendar, you can assess the task complexity level and work capacity, and assign or reassign work.
+
+**Important:**
+
+Starting with the Brazil release, Work scheduler is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 The following image provides a high-level overview of Work scheduler.\[Omitted image "work-scheduler.png"\] Alt text: Overview of Work scheduler
 
@@ -43,5 +47,5 @@ Easily find tasks you need to complete in the Scheduling module.
 |Set up Work scheduler for the Work scheduler managers so that assign work items based on their teams' skills, availability, and capacity.|[Work scheduler admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/components-installed-configurable-wfo-cs.md)|[Set up Work scheduler in Workforce Optimization for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/setting-up-work-scheduler-wfo-cs.md)|
 |Manage your teams' work assignments easily by customizing your work queue to display the most relevant work items.|[Work scheduler manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/components-installed-configurable-wfo-cs.md)|[Use Work scheduler in Workforce Optimization for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/work-scheduler-wfo-cs.md)|
 
-**Parent Topic:**[Using Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/use-configurable-wfo-cs.md)
+**Parent Topic:**[Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/use-configurable-wfo-cs.md)
 

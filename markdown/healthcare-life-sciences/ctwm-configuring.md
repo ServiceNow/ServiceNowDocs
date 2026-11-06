@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/ctwm-configuring.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Care Team Work Management, Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -20,11 +20,11 @@ Set up the Care Team Work Management application.
 
     Activate the Care Team Work Management application \[com.sn\_cto\] if you have the admin role.
 
-2.  [Setting up roles and responsibilities in Care Team Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/ctwm-understanding-roles-responsibilities.md)
+2.  [Roles and responsibilities in Care Team Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/ctwm-understanding-roles-responsibilities.md)
 
     To manage access effectively in Care Team Work Management, first understand how roles and responsibilities work together. These concepts build on the Service Model Foundation \(SMF\) but are adapted for Healthcare Operations-specific use cases.
 
-3.  [Setting up healthcare locations and healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/understanding-healthcare-locations-and-healthcare-organizations.md)
+3.  [Setting up healthcare locations and healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-operations-core/understanding-healthcare-locations-and-healthcare-organizations.md)
 
     Understand how healthcare locations and healthcare organizations function and should be organized to set up your care teams and the physical locations they operate in correctly.
 

@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Integrate, ServiceNow for Microsoft Teams and Microsoft 365, Unified Employee Experience, Employee Service Management]
+breadcrumb: [ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
 # Integrating ServiceNow with Microsoft Teams and Microsoft 365
@@ -73,12 +73,5 @@ Identify the need and plan your installation for ServiceNow® for Microsoft Team
 -   **[Setting up the ServiceNow instance for Microsoft Teams integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/setup-tenants.md)**  
 Set up your ServiceNow® instance for the Microsoft Teams integrations.
 
-**Parent Topic:**[Configure integrations for Microsoft Teams and Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/integrations-all-snteams.md)
-
-**Related topics**  
-
-
-[Integrating ServiceNow with Microsoft Teams for GCC-H or DoD]()
-
-[Integrating ServiceNow with Microsoft 365 applications for Employee Experience]()
+**Parent Topic:**[ServiceNow for Microsoft Teams and Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/c_ServiceNowForMSTeams.md)
 

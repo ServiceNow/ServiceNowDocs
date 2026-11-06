@@ -7,7 +7,7 @@ release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a privacy assessment, Configure, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -43,15 +43,15 @@ You can relate risk statements to an assessment question only if the questions a
 
 3.  Open the question for which you want to add risk statement
 
-<table id="choicetable_rlk_wqh_sqb"><thead><tr><th align="left" id="d211367e110">
+<table id="choicetable_rlk_wqh_sqb"><thead><tr><th align="left" id="d337207e110">
 
 Type of questions
 
-</th><th align="left" id="d211367e113">
+</th><th align="left" id="d337207e113">
 
 Steps to map risk statements
 
-</th></tr></thead><tbody><tr><td id="d211367e119">
+</th></tr></thead><tbody><tr><td id="d337207e119">
 
 **Boolean, Template**
 
@@ -66,7 +66,7 @@ To create and apply risk statements for a response, perform the following steps.
 4.  Click **Save**.
 
 
-</td></tr><tr><td id="d211367e154">
+</td></tr><tr><td id="d337207e154">
 
 **Choice, Image scale, Numeric, Ranking**
 

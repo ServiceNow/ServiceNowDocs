@@ -1,25 +1,36 @@
 ---
-title: Impact Value Management Data Collection Content Pack for IRM
+title: Impact Value Management Data Collection Content Pack for Governance, Risk, and Compliance
 description: Install and configure the Data Collection Content Pack for IRM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/data-collection-irm.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Impact Value Management data collection apps, Configuring Impact, Impact]
+breadcrumb: [Enable data collection for Value Management, Guided Setup \(Legacy\), Configuring Impact, Impact]
 ---
 
-# Impact Value Management Data Collection Content Pack for IRM
+# Impact Value Management Data Collection Content Pack for Governance, Risk, and Compliance
 
 Install and configure the Data Collection Content Pack for IRM.
 
 Perform the steps in the following order:
 
-1.  [Install the Data Collection Pack for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-irm-install.md)
-2.  [Configure Data Collection for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-irm-config.md)
-3.  [Activate Data Collection for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-irm-activate.md)
-4.  [Review IRM artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-irm-install-artifacts.md)
+1.  [Install the Data Collection Pack for Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-irm-install.md)
+2.  [Configure Data Collection for Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-irm-config.md)
+3.  [Activate Data Collection for Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-irm-activate.md)
+4.  [Review Governance, Risk, and Compliance artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-irm-install-artifacts.md)
 
 You can also modify the configuration at any point, and maintain customizations when you are ready to upgrade. For more information, see [Modifying the Data Collection configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-all-modify.md) and [Upgrading the Data Collection Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-all-upgrade.md).
+
+-   **[Install the Data Collection Pack for Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-irm-install.md)**  
+To enable the Data Collection Pack, you must install dependent plugins and activate Data Collection jobs.
+-   **[Configure Data Collection for Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-irm-config.md)**  
+Configure Data Collection for Governance, Risk, and Compliance.
+-   **[Activate Data Collection for Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-irm-activate.md)**  
+Activate the Data Collection Pack for Governance, Risk, and Compliance after you enable and configure it.
+-   **[Review Governance, Risk, and Compliance artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-irm-install-artifacts.md)**  
+The Data Collection app contains a pre-build data metric structure for the ServiceNow Performance/Platform Analytics application.
+
+**Parent Topic:**[Enable data collection for Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-toolkit.md)
 

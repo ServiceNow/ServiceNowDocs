@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_SearchTheCommunity.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Search for information, Use Customer Service Portal, Customer communication, Use, Customer Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_customerservice.customer, sn\_customerservice.customer\_admin
 
 1.  Navigate to the customer service portal.
 
-2.  Click **Ask the Community**.
+2.  Select **Ask the Community**.
 
     This brings up the Ask a Question page.
 
@@ -34,8 +34,15 @@ Role required: sn\_customerservice.customer, sn\_customerservice.customer\_admin
 
 6.  If desired, add one or more tags to your question in the **Tags** field.
 
-7.  Click **Post Question**.
+7.  Select **Post Question**.
 
     The question appears on the search results page under the **Questions** category.
 
+
+**Related topics**  
+
+
+[Search the knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_SearchTheKnowledgeBase.md)
+
+[Search for information on customer service portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_SearchForInfoUsingThePortal.md)
 

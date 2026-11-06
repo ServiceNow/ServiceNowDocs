@@ -7,9 +7,9 @@ release: zurich
 product: Career Conversations
 classification: career-conversations
 topic_type: task
-last_updated: "2025-10-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, Career Conversations, Growth Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using the Career Conversations application, Career Conversations, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Close a conversation
@@ -51,7 +51,6 @@ Growth conversation page
 1.  Use the **Your team's conversation** widget to select the conversation that you want to close.
 2.  Select the more options button and select **Complete conversation**.
 
-\[Omitted image "close-growth-conversation2.png"\] Alt text: Open conversation with employee with the option to complete or cancel the conversation
 
 </td></tr><tr><td>
 
@@ -62,7 +61,6 @@ Conversations landing page
 1.  Navigate to the conversation that you want to close.
 2.  Select the more options button and select **Complete conversation**.
 
-\[Omitted image "close-growth-conversation.png"\] Alt text: Open conversation with employee with the option to complete or cancel the conversation
 
 </td></tr></tbody>
 </table>3.  In the **Closing thoughts** window, enter last thoughts to share with the employee and select **Complete conversation**.

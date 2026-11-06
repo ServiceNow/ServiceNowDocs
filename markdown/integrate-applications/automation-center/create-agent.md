@@ -1,24 +1,31 @@
 ---
 title: Create an agent for Task Mining requests
-description: Create an automation request agent to efficiently manage the tasks of the automation request without manual intervention.
+description: Create an automation request agent to efficiently manage the tasks of the Task Mining automation request without manual intervention.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/automation-center/create-agent.html
 release: zurich
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2026-02-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integration with Task Mining, Integration with Task Mining, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Working with automations, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Create an agent for Task Mining requests
 
-Create an automation request agent to efficiently manage the tasks of the automation request without manual intervention.
+Create an automation request agent to efficiently manage the tasks of the Task Mining automation request without manual intervention.
 
 ## Before you begin
 
-Role required: sn\_aia.admin, sn\_ac.automation\_admin, sn\_ac.automation\_technical\_user
+Role required: sn\_ac.automation\_admin, sn\_ac.automation\_technical\_user
+
+## Limitations and requirements
+
+Consider the following when using this feature:
+
+-   Only requests created from Task Mining are supported. For more information, see [Integration with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/integration-with-automation-center.md).
+-   User task step summarization skill must be activated and the automation request must be in **In progress** state. For more information about the skill, see [Activate skills for ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/activate-skill.md).
 
 ## Procedure
 
@@ -28,13 +35,13 @@ Role required: sn\_aia.admin, sn\_ac.automation\_admin, sn\_ac.automation\_techn
 
 3.  Open an automation request.
 
-    Ensure that you have repeatable steps documented in the **Details Sequence of Steps** section of the form. This ensures that the agent can perform the tasks. If the steps are either missing or not appropriate, then an error message is displayed.
+    Verify that you have repeatable steps documented in the **Details Sequence of Steps** section of the form. This confirms that the agent can perform the tasks. If the steps are either missing or not appropriate, then an error message is displayed.
 
     \[Omitted image "agent-detail.png"\] Alt text: Details Sequence of Steps
 
 4.  Select **Create agent** from the options at the top.
 
-    **Note:** The **Create agent** option is available only if the User task step summarization skill is installed and the automation request is in **In progress** state.
+    **Note:** The **Create agent** option is available only if the User task step summarization skill is activated and the automation request is in **In progress** state.
 
     The **Choose destination instance** dialog box is displayed.
 
@@ -42,7 +49,7 @@ Role required: sn\_aia.admin, sn\_ac.automation\_admin, sn\_ac.automation\_techn
 
 5.  Choose an instance to create the agent in, and select **Continue**.
 
-    You can select the current instance or any other instance. Ensure that the instance you choose has Automation Center installed.
+    You can select the current instance or any other instance. Verify that the instance you choose has Automation Center installed.
 
     To configure an instance, set the connection alias for the **AC Agent Enablement connection** alias. For information on configuring an instance, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connection-alias.md).
 
@@ -50,10 +57,10 @@ Role required: sn\_aia.admin, sn\_ac.automation\_admin, sn\_ac.automation\_techn
 
 6.  Select **Create agent in AI studio** after reviewing the content.
 
-    For the detailed procedure to create an agent in AI studio, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configure-next-best-action-agent.md).
+    For the detailed procedure to create an agent in AI Agent Studio, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configure-next-best-action-agent.md).
 
     The agent is created for the automation request.
 
 
-**Parent Topic:**[Integration with Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/integrating-with-task-mining.md)
+**Parent Topic:**[Working with automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/automations.md)
 

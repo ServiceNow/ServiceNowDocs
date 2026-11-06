@@ -1,20 +1,20 @@
 ---
-title: Exclude Field Service agents from being assigned work order tasks
-description: Exclude Field Service agents from being assigned work order tasks with dynamic scheduling, or Schedule Optimization.
+title: Exclude Field Service technicians from being assigned work order tasks
+description: Exclude Field Service technicians from being assigned work order tasks with dynamic scheduling, or Schedule Optimization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/exclude-agents-from-being-assigned-tasks.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage work order tasks, Prepare work orders, Use, Field Service Management]
 ---
 
-# Exclude Field Service agents from being assigned work order tasks
+# Exclude Field Service technicians from being assigned work order tasks
 
-Exclude Field Service agents from being assigned work order tasks with dynamic scheduling, or Schedule Optimization.
+Exclude Field Service technicians from being assigned work order tasks with dynamic scheduling, or Schedule Optimization.
 
 ## Before you begin
 
@@ -32,7 +32,7 @@ If you’re using Technician Preferences for dynamic scheduling, then you must h
 
 4.  Select **New**.
 
-5.  Add the agent details and set **Assignment Preference** to **Excluded Agent**.
+5.  Add the technician details and set **Assignment Preference** to **Excluded**.
 
 6.  Select **Submit**.
 

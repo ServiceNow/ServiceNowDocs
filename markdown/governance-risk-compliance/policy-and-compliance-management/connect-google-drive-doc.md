@@ -7,9 +7,9 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Create and associate policy document in Google Drive, Create and associate policy texts, Policy authoring and redlining, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Create and associate a policy text document in Google Drive, Creating and associating policy texts from Cloud documents, Policy authoring and redlining in Compliance Workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Connect an existing document from Google Drive to policy
@@ -18,7 +18,7 @@ Connect a document that exists in your Google Drive folder to a policy that you 
 
 ## Before you begin
 
-Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_user
+Role required: sn\_compliance\_ws.corporate\_compliance\_analyst, mp\_document\_user
 
 **Important:** Starting from version 19.1.1 Google documents are supported in the connect document policy.
 
@@ -26,7 +26,7 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  Select\[Omitted image "ws-list-icon.png"\] Alt text: Lists icon. from the sidebar.
+2.  Select \[Omitted image "ws-list-icon.png"\] Alt text: Lists icon. from the sidebar.
 
 3.  Navigate to **Compliance library** &gt; **My policies**.
 
@@ -39,6 +39,8 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_
 6.  To connect a document that is in your Google Drive folder.
 
     1.  Navigate to My Drive in [https://drive.google.com/](https://drive.google.com/)
+
+        You can also connect documents stored in a Shared Drive. Navigate to the Shared Drive where the document resides, locate the document, and copy the link in the same way as for My Drive documents.
 
     2.  Select the document that you want to connect to the policy.
 
@@ -56,10 +58,14 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_
 
 10. Select **Connect**.
 
-    You should be able to connect the document from the Google Drive to the policy record.
+    1.  If personal authentication is enabled, an authentication prompt appears requesting that you select and authenticate with your Google account. Unlike SharePoint, Google Drive does not automatically pick your logged-in session. You must explicitly select the account you want to use from the account picker.
+    2.  Google Drive requires two separate authentication steps: first for Google Drive access, and then for Google Docs access. Complete both authentication prompts and grant the requested permissions for each.
+    3.  After both authentications are complete, the document is linked to the policy record and registered under your personal account identity.
+    4.  You should be able to connect the document from the Google Drive to the policy record.
 
-    **Note:** However, you can’t connect a Google document if it exceeds 10 MB.
+        **Note:** However, you can’t connect a Google document if it exceeds 10 MB.
 
+    5.  The access on any previously linked document is removed and access on the newly connected document is granted. Because document access updates run asynchronously, there may be a short delay before the updated access is reflected.
 11. Select **Update**.
 
     The Policy text field displays the text from the Google Drive document in the ServiceNow policy record.

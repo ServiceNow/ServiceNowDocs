@@ -7,7 +7,7 @@ release: zurich
 product: Journey Designer
 classification: journey-designer
 topic_type: task
-last_updated: "2026-02-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Offboarding knowledge transfer plan generation agentic workflow, AI in Journey designer, Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-add-business-process-to-business-unit.html
 release: zurich
 topic_type: task
-last_updated: "2026-08-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [business process, business unit, enterprise architecture]
-breadcrumb: [Manage business units, Using business architecture, Working with Portfolio list view, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Manage business units, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Add a business process to a business unit

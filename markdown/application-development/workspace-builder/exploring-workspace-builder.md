@@ -7,9 +7,9 @@ release: zurich
 product: Workspace Builder
 classification: workspace-builder
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-23"
 reading_time_minutes: 1
-breadcrumb: [Workspace Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Workspace Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Exploring Workspace Builder
@@ -27,7 +27,7 @@ To learn more about configuring and using Workspace Builder, see:
 -   **[Accessing Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/workspace-builder/accessing-workspace-builder-aes-crs.md)**  
 You can access Workspace Builder in both ServiceNow Studio or App Engine Studio \(AES\).
 -   **[Sample workspaces you can build](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/workspace-builder/types-of-workspaces.md)**  
-Workspace Builder provides a basic workspace that includes a home page, record pages, lists, an Analytics Center, and other functions.
+Workspace Builder provides a basic workspace that includes a home page, record pages, lists, an Analytics Overview, and other functions.
 -   **[Parts of a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/workspace-builder/wb-parts-of-a-workspace.md)**  
 Every workspace has parts that enable workspace users to complete their tasks.
 -   **[Layout for Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/workspace-builder/wb-layout.md)**  

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/case-alert-workspace.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Proactive Customer Service Operations to monitor your customers' products and services to address issues proactively, Automate and optimize, Use, Customer Service Management]
+breadcrumb: [Using Proactive Customer Service Operations, Automate and optimize, Use, Customer Service Management]
 ---
 
 # Create a proactive case from an alert

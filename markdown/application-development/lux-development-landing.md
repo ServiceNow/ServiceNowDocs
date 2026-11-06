@@ -7,7 +7,7 @@ release: zurich
 topic_type: reference
 last_updated: "2026-10-01"
 reading_time_minutes: 1
-breadcrumb: [Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Lux Development
@@ -38,7 +38,7 @@ Lux is a framework for building modern widget-based UI experiences that run on a
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Lux reference material](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Lux reference material](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automation-center/reference.md)
 
 </td></tr></tbody>
 </table>## Key benefits of Lux

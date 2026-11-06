@@ -7,14 +7,18 @@ release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Predictive intelligence for Legal Service Delivery
 
 The Predictive Intelligence for Legal Service Delivery uses machine-learning algorithms for the predicting Subcategory and Assignment group for legal requests.
+
+**Important:** Starting with the Australia release, Predictive intelligence for Legal Service Delivery is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. There is no replacement for this plugin.
+
+For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 ## Get started
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/view-resource-layer-clustering-uib-ws.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Structured workflows for Crisis map, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -36,7 +36,7 @@ Role required: sn\_bcm.admin or sn\_bcm.program\_manager
 
     For example, when you select a datacenter icon without a count indicator, a popover displays the information configured in the Resource Configuration table \[sn\_fam\_resource\_config\].
 
-    If you configure the **Power** and **Power consumption** fields from the datacenter table \[cmdb\_co\_datacenter\] as display fields in the Resource Configuration form, the popover shows the datacenter's power consumption details and location coordinates.
+    You can configure the **Power** and **Power consumption** fields from the datacenter table \[cmdb\_co\_datacenter\] as display fields in the Resource Configuration form. The popover then shows the datacenter's power consumption details and location coordinates.
 
 5.  Select the **Asset** icon with a number next to it.
 

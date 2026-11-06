@@ -1,26 +1,24 @@
 ---
 title: Criteria for matching email to inbound actions
-description: The system matches incoming email to the conditions of the active inbound actions.
+description: Default conditions of active inbound actions are used to manage incoming email. Inbound email actions are classified as forward, reply, or new based on subject line, record matching, and email headers
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/inbound-action-type-criteria.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-07"
-reading_time_minutes: 1
-breadcrumb: [Inbound email actions, Inbound email, Notifications, Configure core features, Administer]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Inbound email actions, Inbound email, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Criteria for matching email to inbound actions
 
-The system matches incoming email to the conditions of the active inbound actions.
+Default conditions of active inbound actions are used to manage incoming email. Inbound email actions are classified as forward, reply, or new based on subject line, record matching, and email headers
 
-The default inbound actions create or update task record under these conditions.
+\[Omitted image "inbound-email-action-type.png"\] Alt text: Flowchart showing how inbound email actions are classified as forward, reply, or new based on subject line, record matching, and email headers
 
-\[Omitted image "inbound-email-action-type-old.png"\] Alt text: Flowchart showing how inbound email actions are classified as forward, reply, or new based on subject line, record matching, and email headers
+If you customize or deactivate the default inbound actions, the conditions of the active inbound actions are checked. If an inbound action with matching conditions cannot be found, the state is set to Processed.
 
-If you customize or deactivate the default inbound actions, the system checks the conditions of the active inbound actions. If the system cannot find an inbound action with matching conditions, it sets the state to **Processed**.
-
-\[Omitted image "processing-email-no-matching-inbound-action.png"\] Alt text: Workflow for matching email to custom inbound actions
+\[Omitted image "processing-email-no-matching-inbound-action.png"\] Alt text: Flowchart showing how inbound emails are processed when default inbound email actions are enabled or when an email matches an active inbound email action.
 
 <table id="table_axb_pk4_m4"><thead><tr><th>
 
@@ -44,7 +42,7 @@ Forward
 
 </td><td>
 
-The email contains the following conditions: -   A subject starting with a recognized forward prefix \(even if a watermark or an In-Reply-To header is present\).
+The email contains the following conditions: -   A subject starting with a recognized forward prefix even if a watermark or an In-Reply-To header is present
 -   From &lt;user email&gt; appears anywhere in the email body.
 
 </td><td>
@@ -62,8 +60,11 @@ Reply
 </td><td>
 
 The email contains one of the following conditions and the table specified in the email matches the table of the inbound action: 1.  A valid watermark that matches an existing record.
-2.  A subject line starting with a recognized reply prefix \(when neither a watermark nor an In-Reply-To header is present\) and a valid record number that matches an existing record.
-3.  An In-Reply-To email header \(when no watermark is present\) that matches an existing record.
+2.  A subject line starting with a recognized reply prefix when no watermark is present and a valid record number that matches an existing record.
+3.  An In-Reply-To email header when neither a watermark nor a valid record number is present that matches an existing record.
+4.  A thread-index in an email header when the email does not meet any of the previous conditions that matches an existing record.
+
+**Note:** To enable thread indexing, create the system property **glide.inbound.email.classify.by.thread\_index** and set it to **true**.
 
 </td><td>
 
@@ -90,7 +91,7 @@ Create Incident
 Create new record
 
 </td></tr></tbody>
-</table>If more than one inbound action is available for a particular type, the instance uses the Table field to match the email to a particular table. If there is also more than one action for the inbound action's table, the instance uses the **Order** field to determine the order in which the actions run.
+</table>If more than one inbound action is available for a particular type of email, the instance uses the Table field to match the email to a particular table. If there is also more than one action for the inbound action's table, the instance uses the **Order** field to determine the order in which the actions run.
 
 **Parent Topic:**[Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/actions-inbound-email.md)
 

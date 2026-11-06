@@ -1,5 +1,5 @@
 ---
-title: User Form activity
+title: Record Form activity
 description: Use this activity to surface a record to the end user. This activity requires you to select a table and record, and the desired form view that should be surfaced to the end user in your playbook. The end user can then interact with this record accordingly. Display a form during runtime to collect input values for your playbook.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/user-form-activity.html
@@ -7,12 +7,12 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Playbooks reference, Reference, Workflow Studio, Build workflows]
+breadcrumb: [Playbooks reference, Playbooks, Workflow Studio, Build workflows]
 ---
 
-# User Form activity
+# Record Form activity
 
 Use this activity to surface a record to the end user. This activity requires you to select a table and record, and the desired form view that should be surfaced to the end user in your playbook. The end user can then interact with this record accordingly. Display a form during runtime to collect input values for your playbook.
 
@@ -413,6 +413,4 @@ These outputs can provide data to other activities in your playbook. You can acc
 |------|----|-----------|
 |Table|Table Name|Name of the table associated with the activity.|
 |Record|Reference.Task\[task\]|Reference to the record associated with the activity.|
-
-**Parent Topic:**[Playbooks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-automation-designer-reference.md)
 

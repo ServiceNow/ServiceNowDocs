@@ -7,9 +7,9 @@ release: zurich
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Report on service catalog variables, Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Report on service catalog variables, Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Use service catalog variables in a report
@@ -18,7 +18,7 @@ In reports on service catalog data, stack and group by variables, use variables 
 
 ## Before you begin
 
-Role required: itil, report\_user, report\_global for global reports, or report\_group for group reports.
+Role required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. To create a meaningful report, you must have the right to access the data you want to report on.
 
 Users with the report\_admin role can report on service catalog variables. Add the report\_admin role to the ACLs for the Options \[sc\_item\_option\], Variable Ownership \[sc\_item\_option\_mtom\], and Variables \[item\_option\_new\] tables.
 
@@ -43,7 +43,7 @@ Use a variable as an extra **Group by**, as a column in a list report, or as a c
 
 2.  Do one of the following.
 
-<table id="choicetable_p2g_2qf_v5"><tbody><tr><td id="d205832e117">
+<table id="choicetable_p2g_2qf_v5"><tbody><tr><td id="d215605e123">
 
 **Add as a column in a list report**
 
@@ -51,7 +51,7 @@ Use a variable as an extra **Group by**, as a column in a list report, or as a c
 
 On the **Configure** tab, move **Variables+** to the **Selected** column.
 
-</td></tr><tr><td id="d205832e135">
+</td></tr><tr><td id="d215605e141">
 
 **Add as an extra __Group by__**
 
@@ -59,7 +59,7 @@ On the **Configure** tab, move **Variables+** to the **Selected** column.
 
 On the **Configure** tab, click **Additional group by**, then move **Variables+** at the bottom of the **Selected** of the **Additional group by** list.
 
-</td></tr><tr><td id="d205832e162">
+</td></tr><tr><td id="d215605e168">
 
 **Add as a column or row in a multilevel pivot table**
 

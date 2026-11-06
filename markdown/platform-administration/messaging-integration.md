@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/messaging-integration.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [System notifications, Notifications, Configure core features, Administer]
+breadcrumb: [System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Notifications in messaging applications
@@ -70,7 +70,7 @@ The Message Actions \[messaging\_observer\_handler\] table processes communicati
 
 The Inbound and Outbound message logs contain information on actions, events, and activities between ServiceNow and the third-party application. Use the logs to identify the content, state, and origin of communications to and from your instance.
 
--   **[Request Messaging Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/request-messaging-notification.md)**  
+-   **[Request the Messaging Notification plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/request-messaging-notification.md)**  
 To activate this feature, request the Messaging Notification plugin \(com.glide.notification.messaging\) through the HI Customer Service system. This plugin activates related plugins if they are not already active.
 -   **[Install the Now Actions messaging app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/install-now-actions.md)**  
 As an administrator for both ServiceNow and the third-party application, find and install the Now Actions app. Install the application in ServiceNow to associate the app with your instance.

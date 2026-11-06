@@ -7,9 +7,9 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Reference, Manager Hub, HR Service Delivery, Employee Service Management]
+breadcrumb: [Reference for Manager Hub, Manager Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # Use the View menu icon in Manager Hub
@@ -106,7 +106,7 @@ View articles visible to an employee.**Note:** You can only view articles visibl
 
 [Default configurations for daily stats]()
 
-[Default configurations for to-dos]()
+[Default configurations for To do's]()
 
 [Default proactive prompts for Manager Hub]()
 

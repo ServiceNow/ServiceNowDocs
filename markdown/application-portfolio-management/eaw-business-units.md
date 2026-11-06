@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-business-units.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring the business architecture, Exploring Portfolio list view, Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Exploring the business architecture, Exploring Portfolio list view, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Exploring business units
@@ -20,7 +20,7 @@ Using the Enterprise Architecture Workspace, business units can manage their bus
 
 You can also associate a business unit with the business processes it owns and the business capabilities it uses. This shows how your organizational structure maps to what your organization does and how it does it.
 
-**Note:** Before Zurich Patch 12, a business capability or business process could be associated with only one business unit, using a **Business Unit** field on the form. This field has been removed from the default form view and replaced with the **Related business units** related list, which lets you associate a business capability with multiple business units. The Business Unit field still exists on the table — administrators can add it back to the form from Form Layout if needed. Associations that existed before the upgrade are not automatically migrated; you must explicitly add the business unit to the Related business units related list.
+**Note:** Before Australia Patch 5, a business capability or business process could be associated with only one business unit, using a **Business Unit** field on the form. This field has been removed from the default form view and replaced with the **Related business units** related list, which lets you associate a business capability with multiple business units. The Business Unit field still exists on the table — administrators can add it back to the form from Form Layout if needed. Associations that existed before the upgrade are not automatically migrated; you must explicitly add the business unit to the Related business units related list.
 
 **Parent Topic:**[Exploring the business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-business-architecture.md)
 

@@ -203,7 +203,7 @@ Description
 
 </td><td>
 
-Guides a requester through a multi-step workflow to create a new incident or request a catalog item. The workflow includes knowledge base deflection \(searches for self-service articles\), catalog item redirection \(searches for matching service catalog items\), duplicate detection \(identifies similar open incidents by the requester\), and incident creation with field review. Returns an incident number with portal link or a request item number depending on the path taken.**Note:** This tool uses the [Create incident AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/itsm-create-incident-ai-agent.md) as an MCP tool. To configure, see[Configure an AI agent as an MCP tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/configure-ai-agent-as-mcp-tool.md).
+Guides a requester through a multi-step workflow to create a new incident or request a catalog item. The workflow includes knowledge base deflection \(searches for self-service articles\), catalog item redirection \(searches for matching service catalog items\), duplicate detection \(identifies similar open incidents by the requester\), and incident creation with field review. Returns an incident number with portal link or a request item number depending on the path taken.**Note:** This tool uses the  as an MCP tool. To configure, see [Configure an AI agent as an MCP tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/configure-ai-agent-as-mcp-tool.md).
 
 </td></tr><tr><td>
 
@@ -292,7 +292,7 @@ Returns the authenticated user's current session time zone and the current date 
 
 </td><td>
 
-Approves or rejects the caller's oldest pending approval for a change request or request item.
+Approves or rejects the caller's oldest pending approval for a change request or incident.
 
 </td></tr></tbody>
 </table>

@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Amazon RDS Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -44,15 +44,15 @@ Role required: admin
 
 5.  On the form, fill these fields.
 
-<table id="choicetable_prq_ckx_glb"><thead><tr><th align="left" id="d286225e190">
+<table id="choicetable_prq_ckx_glb"><thead><tr><th align="left" id="d496482e190">
 
 Field
 
-</th><th align="left" id="d286225e193">
+</th><th align="left" id="d496482e193">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d286225e199">
+</th></tr></thead><tbody><tr><td id="d496482e199">
 
 **Name**
 
@@ -60,7 +60,7 @@ Description
 
 Name to uniquely identify the connection record. For example, enter `AWS Credentials`.
 
-</td></tr><tr><td id="d286225e211">
+</td></tr><tr><td id="d496482e211">
 
 **Active**
 
@@ -68,7 +68,7 @@ Name to uniquely identify the connection record. For example, enter `AWS Credent
 
 Option to actively use the credential record.
 
-</td></tr><tr><td id="d286225e220">
+</td></tr><tr><td id="d496482e220">
 
 **Access Key ID**
 
@@ -76,7 +76,7 @@ Option to actively use the credential record.
 
 Access Key ID of the user with full access to Amazon RDS.
 
-</td></tr><tr><td id="d286225e229">
+</td></tr><tr><td id="d496482e229">
 
 **Secret Access Key**
 
@@ -84,7 +84,7 @@ Access Key ID of the user with full access to Amazon RDS.
 
 Secret Access Key of the user with full access to Amazon RDS.
 
-</td></tr><tr><td id="d286225e239">
+</td></tr><tr><td id="d496482e239">
 
 **Credential alias**
 
@@ -92,7 +92,7 @@ Secret Access Key of the user with full access to Amazon RDS.
 
 Associated credential record.
 
-</td></tr><tr><td id="d286225e248">
+</td></tr><tr><td id="d496482e248">
 
 **Authentication Algorithm**
 

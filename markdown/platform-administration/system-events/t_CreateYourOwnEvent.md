@@ -7,9 +7,9 @@ release: zurich
 product: System Events
 classification: system-events
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Managing system events, System Events, Configure core features, Administer]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Managing system events, System Events, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create an event
@@ -233,6 +233,8 @@ Add custom script that:
 ## What to do next
 
 Create a script action or notification to process the event.
+
+**Parent Topic:**[Managing system events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-events/managing-system-events.md)
 
 **Related topics**  
 

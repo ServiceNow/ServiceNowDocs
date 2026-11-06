@@ -7,9 +7,9 @@ release: zurich
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Collaborate to build apps, Build apps, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Collaborate to build apps, Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Manage collaborators for an app in Creator Studio
@@ -32,8 +32,8 @@ You can invite collaborators or manage collaborators depending on your permissio
 
 3.  Access the Collaborators with others modal in one of two ways:
 
-    -   From the Creator Studio home page, select the app's more actions icon \(\[Omitted image "cs-more-options-icon.png"\] Alt text: Option to manage collaborators\) and select **Manage collaborators** from the menu that appears.
-    -   Open the app, select the more actions icon \(\[Omitted image "sn-studio-more-options-icon.png"\]\) in the navigation panel, and select **Manage collaborators** from the menu that appears.
+    -   From the Creator Studio home page, select the app's more actions icon \[Omitted image "cs-more-options-icon.png"\] Alt text: Option to manage collaborators and select **Manage collaborators** from the menu that appears.
+    -   Open the app, select the more actions icon \[Omitted image "sn-studio-more-options-icon.png"\] in the navigation panel, and select **Manage collaborators** from the menu that appears.
 
         \[Omitted image "crs-manage-collab.png"\] Alt text: Select the more options menu to manage collaborators
 

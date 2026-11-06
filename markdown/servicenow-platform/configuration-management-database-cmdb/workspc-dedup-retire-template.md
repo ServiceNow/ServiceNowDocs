@@ -1,20 +1,20 @@
 ---
 title: Retire a de-duplication template
-description: Retire a template that is no longer needed for remediating de-duplication tasks.
+description: Retire a template that is no longer needed for processing its de-duplication tasks which remediate duplicate CIs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/workspc-dedup-retire-template.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CI de-duplication experience in a workspace, Duplicate CIs remediation, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Retire a de-duplication template
 
-Retire a template that is no longer needed for remediating de-duplication tasks.
+Retire a template that is no longer needed for processing its de-duplication tasks which remediate duplicate CIs.
 
 ## Before you begin
 
@@ -22,12 +22,12 @@ The template that you want to retire must be in an [unpublished state](https://r
 
 Role required:
 
--   To access the [Governance view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-governance-view.md) to perform de-duplication tasks, sn\_cmdb\_admin
--   To perform this task, cmdb\_dedup\_admin or any role containing cmdb\_dedup\_admin \(such as sn\_cmdb\_admin\)
+-   To access the [Governance view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-governance-view.md) to perform de-duplication tasks: sn\_cmdb\_editor or sn\_cmdb\_admin
+-   To perform de-duplication tasks, cmdb\_dedup\_admin or any role containing cmdb\_dedup\_admin \(such as sn\_cmdb\_admin\)
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CMDB Workspace** and then select the Governance icon in the navigation panel.
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Governance**.
 
 2.  Select the **De-duplication Template Library** link in Management tools, in the Manage section.
 

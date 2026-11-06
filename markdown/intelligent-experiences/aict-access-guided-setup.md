@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/aict-access-guided-setup.html
 release: zurich
 topic_type: task
-last_updated: "2026-07-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Guided setup, Configure, AI Control Tower, Enable AI experiences]
+breadcrumb: [Guided setup, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Access guided setup
@@ -27,15 +27,15 @@ The **Get started with AI Control Tower** widget on the **Home** page is visible
 
 1.  Launch the guided setup experience from the **Home** page in AI Control Tower or the **Admin Home** page.
 
-<table><thead><tr><th align="left" id="d128642e89">
+<table><thead><tr><th align="left" id="d175828e89">
 
 Option
 
-</th><th align="left" id="d128642e92">
+</th><th align="left" id="d175828e92">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d128642e98">
+</th></tr></thead><tbody><tr><td id="d175828e98">
 
 **Home page in AI Control Tower**
 
@@ -45,7 +45,7 @@ Steps
 2.  In the **Get started with AI Control Tower** widget, select **Set up now** to open guided setup, or select **Continue** to pick up where you left off.
 
 
-</td></tr><tr><td id="d128642e139">
+</td></tr><tr><td id="d175828e139">
 
 **Admin Home**
 

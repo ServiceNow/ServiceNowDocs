@@ -7,7 +7,7 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [HR Service Delivery, Employee Service Management]
 ---
@@ -25,4 +25,12 @@ Apps that support documents in HR.
 [Document Templates\[Omitted image "bus-contract.svg"\] Alt text:Provides embedded signature capability for HTML and PDF document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/document-templates-overview.md)
 
 </td></tr></tbody>
-</table>
+</table>[HR e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-e-signature.md)
+
+HR e-signature is a **non-embedded signature** capability for managed documents, and knowledge articles, attached to an HR task for fulfillment. It supports three signing types \(Acknowledgment, Credential, and Signature\) and two document types \(Managed Documents and Knowledge Articles\).
+
+**Note:**
+
+-   HR e-signature must be used for internal, non-legal acknowledgment use cases.
+-   HR e-signature is a legacy product with no active development.
+

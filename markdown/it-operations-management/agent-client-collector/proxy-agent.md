@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ACC deployment - servers, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Using proxy agents in Agent Client Collector
@@ -33,7 +33,7 @@ You can configure the proxy agent to do a custom check when it is monitoring ext
 
 You can create a cluster of proxy agents on multiple proxy servers to monitor the services that are external to the host server. To learn how to create a proxy agent cluster, see [Create a proxy agent cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/configure-agent-proxy-cluster.md).
 
-Use a Proxy Auto-Configuration \(PAC\) file to dynamically determine the appropriate proxy server to use. PAC files provide flexible and automated proxy configuration. They enable the agent to use different proxies for different destinations, connect directly to internal resources, implement complex proxy routing logic, and automatically handle proxy failover. For details on the parameters used for PAC file configuration, see [Configuration file options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-yml-options.md).
+Use a Proxy Auto-Configuration \(PAC\) file to dynamically determine the appropriate proxy server to use. PAC files provide flexible and automated proxy configuration. They enable the agent to use different proxies for different destinations, connect directly to internal resources, and implement complex proxy routing logic. They also automatically handle proxy failover. For details on the parameters used for PAC file configuration, see [Configuration file options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-yml-options.md).
 
 Following is a sample PAC file:
 
@@ -51,6 +51,15 @@ function FindProxyForURL (url, host) {
 }
 
 ```
+
+-   **[Configure an agent on a proxy server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/configure-agent-proxy-server.md)**  
+Configure an Agent Client Collector on a proxy server when monitoring services external to the host server, such as URLs or external databases in the cloud.
+-   **[Create a proxy agent cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/configure-agent-proxy-cluster.md)**  
+Create a cluster of agents on multiple proxy servers to monitor services external to the host server. Creating a cluster of agents enables you to assign that cluster to multiple policies instead of having to assign the agents individually to every policy.
+-   **[Assign a proxy agent cluster to a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/assign-proxy-cluster-policy.md)**  
+Assign a proxy agent cluster to a policy when monitoring services external to the host server, such as URLs or external databases in the cloud. The agents in the cluster monitor all of the policy's CIs.
+
+**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-server-deployment.md)
 
 **Related topics**  
 

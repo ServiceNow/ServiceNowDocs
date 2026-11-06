@@ -7,7 +7,7 @@ release: zurich
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [ITOM Visibility, IT Operations Management]
 ---
@@ -24,7 +24,7 @@ Verify the following:
 -   You have installed the ServiceNow Otto for Platform plugin \(sn\_genai\_platform\).
 -   You have installed the Generative AI Controller plugin \(sn\_generative\_ai\).
 -   You have installed the AI Skill Kit plugin \(sn\_skill\_builder\).
--   You have installed the ServiceNow Otto for IT Operations Management \(ITOM\) plugin. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/install-now-assist-itom.md).
+-   You have installed the ServiceNow Otto for IT Operations Management \(ITOM\) plugin. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/install-now-assist-itom.md).
 -   You have activated the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
 -   You have activated the following assistants:
 

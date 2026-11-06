@@ -7,7 +7,7 @@ release: zurich
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Legal Conflict of Interest, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -23,7 +23,7 @@ You can install the Legal Conflict of Interest application \(sn\_lg\_coi\) if yo
 -   The Legal Conflict of Interest application is installed automatically when you install the Legal Simple Compliance suite.
 -   The Legal and Contracts Common Utilities \(sn\_lco\_cmn\) application is automatically installed when you install Legal Conflict of Interest.
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [Legal Conflict of Interest](https://store.servicenow.com/sn_appstore_store.do#!/store/application/0db5f16173320010844489b954f6a710) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 Role required: admin

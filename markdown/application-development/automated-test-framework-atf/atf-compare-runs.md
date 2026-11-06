@@ -1,15 +1,15 @@
 ---
 title: Compare results and execution times for different automated test and suite results
-description: You can compare execution times for different runs of an automated test or automated test suite. You can also compare results over time for a single automated test suite.Compare how long it took the system to execute each test step across different runs of the same test.Compare how long it took the system to execute each test across different runs of the same test suite.Compare how many tests passed versus failed across different runs of the same test suite.
+description: You can compare execution times for different runs of an automated test or automated test suite. You can also compare results over time for a single automated test suite.Compare how long it took the system to execute each test across different runs of the same test suite.Compare how many tests passed versus failed across different runs of the same test suite.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/automated-test-framework-atf/atf-compare-runs.html
 release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administer, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+breadcrumb: [Administering the Automated Test Framework \(ATF\), Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # Compare results and execution times for different automated test and suite results
@@ -20,13 +20,7 @@ You can compare execution times for different runs of an automated test or autom
 
 Role required: atf\_test\_admin or atf\_test\_designer
 
-**Parent Topic:**[Administering the Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-admin-overview.md)
-
-## Compare execution times for different runs of an automated test
-
-Compare how long it took the system to execute each test step across different runs of the same test.
-
-### Procedure
+## Procedure
 
 1.  Navigate to **Automated Test Framework** &gt; **Tests**.
 
@@ -43,9 +37,15 @@ Compare how long it took the system to execute each test step across different r
     The system displays the Compare test result execution times bar graph.
 
 
+**Parent Topic:**[Administering the Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-admin-overview.md)
+
 ## Compare execution times for different runs of the same automated test suite
 
 Compare how long it took the system to execute each test across different runs of the same test suite.
+
+### Before you begin
+
+Role required: none.
 
 ### Procedure
 
@@ -67,6 +67,10 @@ Compare how long it took the system to execute each test across different runs o
 ## Compare results for automated test suite runs \(aging report\)
 
 Compare how many tests passed versus failed across different runs of the same test suite.
+
+### Before you begin
+
+Role required: none.
 
 ### Procedure
 

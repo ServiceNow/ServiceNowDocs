@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-04-02"
-reading_time_minutes: 3
-breadcrumb: [Subflows, Explore, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Explore subflows, Explore flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Conversational subflows
@@ -82,13 +82,6 @@ Conversational subflows and actions support a limited number of input data types
 |string|String|
 |string\_full\_utf8|String \(Full UTF-8\)|
 |table\_name|Table Name|
-
--   **[Available conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/available-conversational-subflows.md)**  
-Workflow Studio provides a set of subflows that are preconfigured to be compatible with and callable by conversational interfaces such as Now Assist.
--   **[Check for conversational compatible subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/check-for-conversational-compatible-subflows.md)**  
-Run a compatibility check on new or all subflows to determine if they are conversation compatible. Review the inputs of a subflow to determine if their data types are compatible.
-
-**Parent Topic:**[Exploring subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/exploring-subflows.md)
 
 **Related topics**  
 

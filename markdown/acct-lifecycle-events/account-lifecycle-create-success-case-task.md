@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-create-success-case-task.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create a customer play record, Create a customer play, Manage playbooks, Customer success, Configure, Customer Success Management]
+breadcrumb: [Create a customer play, Manage playbooks, Customer success, Use, Customer Success Management]
 ---
 
 # Create a customer play task
@@ -20,11 +20,11 @@ Role required: sn\_acct\_lc.customer\_success\_agent
 
 ## Procedure
 
-1.  Navigate to **Workspace** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
+1.  Navigate to **Workspace** &gt; **CRM Workspace** and select the **List** icon.
 
 2.  Navigate to the **Customer Success** &gt; **All Customer Plays**.
 
-3.  Open a customer play, navigate to the Success Tasks tab, and select **New**
+3.  Open a customer play, select the Related Items option in the contextual side panel, expand the Customer Play Tasks related item, and select **Create**.
 
 4.  On the form, fill in the fields.
 
@@ -201,7 +201,7 @@ Additional comments
 Any additional information that must be provided to the customer. This information is visible to the customer.
 
 </td></tr></tbody>
-</table>5.  Select **Save** to create a new customer play.
+</table>5.  Select **Save** to create customer play.
 
 
 ## What to do next
@@ -209,5 +209,5 @@ Any additional information that must be provided to the customer. This informati
 -   Select **Discuss** to start a sidebar discussion about this customer play task. In the pop-up window, select the participants who must participate in the discussion, enter a brief message, and select **Start discussion**. A window appears with a link to the record for this initiative. Select **Open record** and start the discussion. When the discussion has been completed, you can see the details in the **Activity stream**.
 -   Create success play: See [Create a success play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-success-play.md).
 
-**Parent Topic:**[Create a customer play record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-success-case.md)
+**Parent Topic:**[Create a customer play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-success-case-playbook.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [PPM Collaboration application overview, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Collaborate with your project teams using PPM Collaboration application, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Create a Microsoft team for your project
@@ -54,5 +54,5 @@ If you are unable to create a team, retry the procedure after sometime. If the i
 **Related topics**  
 
 
-[PPM Collaboration application overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/ppm-collab-overview.md)
+[Collaborate with your project teams using PPM Collaboration application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/ppm-collab-overview.md)
 

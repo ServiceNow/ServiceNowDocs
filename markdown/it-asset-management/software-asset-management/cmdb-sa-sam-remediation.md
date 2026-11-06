@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-30"
 reading_time_minutes: 2
 keywords: [SAM remediation actions panel, improve SAM data quality, stale CI remediation, duplicate CI remediation, software asset data quality issues]
-breadcrumb: [Use SAM advisor, Software Asset Management, IT Asset Management]
+breadcrumb: [Use SAM advisor, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Improving CMDB data quality for SAM

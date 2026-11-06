@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-dig-interface-add-sdlc-comp.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with digital interfaces, Working with digital integration management in Enterprise Architecture Workspace, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with digital interfaces, Working with digital integration management in Enterprise Architecture Workspace, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Relate an SDLC component to a digital interface
@@ -28,7 +28,7 @@ Role required: sn\_apm.apm\_analyst
 
 2.  In the left navigation, open the Portfolio List view by selecting the Portfolio icon \(\[Omitted image "portfolio-icon.png"\] Alt text: Portfolio icon\).
 
-3.  Select the expand row icon \(\[Omitted image "new-expand-icon-coral.png"\] Alt text:\) next to **Application Portfolio**.
+3.  Select the expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon\) next to **Application Portfolio**.
 
 4.  Select **Digital Interfaces**.
 

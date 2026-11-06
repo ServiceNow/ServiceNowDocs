@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Understanding the Monitoring Technology Dashboard, ACC deployment - endpoints, Agent Client Collector, IT Operations Management]
+breadcrumb: [Understanding the Monitoring Technology Dashboard, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Customize the Monitoring Technology Dashboard
@@ -48,4 +48,6 @@ Role required: agent\_client\_collector\_admin
 ## Result
 
 Your customized widgets are saved in the Data Visualizations library, and can be used to configure a customized dashboard \(see [Create a dashboard with the In-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/create-db-in-ac.md)\).
+
+**Parent Topic:**[Understanding the Monitoring Technology Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/monitor-tech-dashboard-concept.md)
 

@@ -1,24 +1,24 @@
 ---
-title: Request Ad Hoc Approval activity
-description: Enable agents and fulfillers to specify which user\(s\) should complete approval request\(s\) during a playbook run.
+title: Ask for Ad Hoc Approval activity
+description: Enable agents and fulfillers to specify which users must complete approval requests during a playbook run.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/request-adhoc-approval-activity.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Interactive activities, Playbooks reference, Reference, Workflow Studio, Build workflows]
+last_updated: "2026-11-02"
+reading_time_minutes: 1
+breadcrumb: [Interactive activities, Playbooks reference, Playbooks, Workflow Studio, Build workflows]
 ---
 
-# Request Ad Hoc Approval activity
+# Ask for Ad Hoc Approval activity
 
-Enable agents and fulfillers to specify which user\(s\) should complete approval request\(s\) during a playbook run.
+Enable agents and fulfillers to specify which users must complete approval requests during a playbook run.
 
 ## Roles and availability
 
-These activities are available as an application in the ServiceNow Store. Users with the playbook.admin or pd\_author role can add these activities to a playbook.
+Users with the playbook.admin or pd\_author role can add these activities to a playbook.
 
 ## Inputs
 
@@ -153,6 +153,4 @@ Associated record for the approval requests.
 
 -   Records of your approval requests.
 -   The states of your approval requests.
-
-**Parent Topic:**[Interactive activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/interactive-activities.md)
 

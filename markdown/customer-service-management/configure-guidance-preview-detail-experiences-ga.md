@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configure-guidance-preview-detail-experiences-ga.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a guidance in the Core UI, Configuring guidances and decision trees, Guided Decisions configuration, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_gd\_guidance.guidance\_manager
 
 ## About this task
 
-The detail information appears in playbooks, or in a contextual side panel or in a subtab for Recommended Actions for Customer Service.
+The detail information appears in playbooks, or in a contextual side panel or in a subtab for Recommended Actions for Service.
 
 ## Procedure
 
@@ -44,5 +44,5 @@ The detail information appears in playbooks, or in a contextual side panel or in
 -   [Customize a guidance preview experience in the UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customize-ra-preview-experience.md)
 -   [Customize a guidance detail experience in the UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customize-ra-detail-experience.md)
 
-The process for configuring a guidance is the same in the Guided Decisions Experience application and the Recommended Actions for Customer Service application.
+The process for configuring a guidance is the same in the Guided Decisions Experience application and the Recommended Actions for Service application.
 

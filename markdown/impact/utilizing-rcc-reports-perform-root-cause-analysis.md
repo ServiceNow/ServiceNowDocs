@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/utilizing-rcc-reports-perform-root-cause-analysis.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Generative AI powered Root cause analysis, Overview of Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
 # Use the Root cause analysis history
@@ -44,4 +44,6 @@ Role required: admin
 
     The table contains information on the alerts.
 
+
+**Parent Topic:**[Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-overview.md)
 

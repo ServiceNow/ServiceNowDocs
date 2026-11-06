@@ -1,5 +1,5 @@
 ---
-title: Configuring Data Privacy for Now Assist
+title: Configuring Data Privacy for ServiceNow Otto
 description: Configure a data privacy advanced configuration to de-identify personally identifiable information \(PII\) in generative AI applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/data-privacy-classic/configure-now-assist-data-privacy.html
@@ -7,12 +7,12 @@ release: zurich
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Data Privacy for Now Assist, Data Privacy, Platform Privacy]
+breadcrumb: [Data Privacy for ServiceNow Otto, Data Privacy, Platform Privacy]
 ---
 
-# Configuring Data Privacy for Now Assist
+# Configuring Data Privacy for ServiceNow Otto
 
 Configure a data privacy advanced configuration to de-identify personally identifiable information \(PII\) in generative AI applications.
 
@@ -29,13 +29,13 @@ Installing the latest version of the Generative AI controller will auto install 
 
 Role required: now\_assist\_data\_privacy\_admin
 
-**Important:** You do not need a full active license to configure Data Privacy for Now Assist.
+**Important:** You do not need a full active license to configure Data Privacy for ServiceNow Otto.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Data Privacy \(Classic\)** &gt; **Privacy Policy Advanced Configuration**.\[Omitted image "image.dpna-config"\] Alt text: The advanced policy configuration page
+1.  Navigate to **All** &gt; **Data Privacy \(Classic\)** &gt; **Privacy Policy Advanced Configuration**.
 
-    If you previously used the Sensitive Data Handler to help de-identify data for generative AI, you may already see a privacy policy configured. Your previously configured regular expressions have been migrated as part of your upgrade. If you already have a data policy for Now Assist, skip to step 6.
+    If you previously used the Sensitive Data Handler to help de-identify data for generative AI, you may already see a privacy policy configured. Your previously configured regular expressions have been migrated as part of your upgrade. If you already have a data policy for ServiceNow Otto, skip to step 6.
 
 2.  Select **New**.
 
@@ -55,9 +55,9 @@ Role required: now\_assist\_data\_privacy\_admin
 
 6.  After you’re redirected to the list of policy advanced configurations, open the record you created.
 
-    Open the existing record with the Now Assist data channel if one is already present.
+    Open the existing record with the ServiceNow Otto data channel if one is already present.
 
-7.  To add a data pattern to de-identify, select **Select Data Patterns**.\[Omitted image "image.dpna-patterns"\] Alt text: The data patterns configuration panel
+7.  To add a data pattern to de-identify, select **Select Data Patterns**.
 
 8.  To create your own data pattern, see [Configure Data Discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-discovery/configure-data-discovery-patterns.md).
 
@@ -65,8 +65,6 @@ Role required: now\_assist\_data\_privacy\_admin
 
 
 ## Result
-
-\[Omitted image "image.dpna-drilldown"\] Alt text: An advanced configuration policy with several data patterns active.
 
 Data caught by the regular expressions selected in the data patterns is de-identified for generative AI applications. In this example policy, it is configured to catch a series of active data patterns and then use the data extraction data channel.
 

@@ -7,7 +7,7 @@ release: zurich
 product: Audit Management
 classification: audit-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
@@ -16,11 +16,11 @@ breadcrumb: [Audit Management overview, Audit Management, Governance, Risk, and 
 
 You can set the confidentiality flag at the record level for an issue, engagement, observation, control test, activity, interview, and walkthrough records. The users whom you determine to view and update these records are allowed users.
 
-When the **Confidential** option is selected, a list of users who can be an engagement lead, auditors, and approvers are auto-populated as **Allowed users**.
+When the **Confidential** option is selected, a list of users who can be engagement leads, auditors, or approvers is auto-populated as **Allowed users**.
 
-As a system admin, you can add more audit users or GRC business users to the list or remove some of the existing users based on your access control criteria and can set them as allowed users.
+As a system admin, you can add more audit users or GRC business users to the list. You can also remove existing users based on your access control criteria.
 
-Also, you can also add random users to the record, who are not audit users or GRC business users. However, an email notification is sent to all allowed users who have neither an audit user nor a GRC business user role intimating them to acquire the confidential role \(sn\_grc.confidential\_user\) from the admin if they are to access the record.
+You can also add users to the record who are not audit users or GRC business users. An email notification is sent to these allowed users. The notification informs them to acquire the confidential role \(sn\_grc.confidential\_user\) from the admin to access the record.
 
 You can also select groups as **Allowed groups** who can access the record as well.
 

@@ -7,9 +7,9 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Contract metadata extraction, Use AI skills, Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Extract contract metadata, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Metadata extraction results
@@ -24,5 +24,5 @@ The Extraction results tab in the contract repository record displays the proces
 |Failed - Invalid value|The extracted metadata does not match the expected format or type for the mapped contract repository field. For example, a contract repository field expects an integer, but the extracted value is not a numeric value.|
 |Failed - Processing error|The extracted metadata for the mapped field violated a business rule on the repository, leading to the process being aborted.|
 
-**Parent Topic:**[Contract metadata extraction using Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-metadata-extract-land.md)
+**Parent Topic:**[Extract contract metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-metadata-extract-land.md)
 

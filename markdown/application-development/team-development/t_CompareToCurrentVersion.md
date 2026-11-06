@@ -1,73 +1,93 @@
 ---
 title: Compare to the current version
-description: Compare a version to the current version for any customizable object that is modified, such as a form layout or business rule. Team Development can be used to compare the local and current pulled version of an object.
+description: You can compare a version to the current version for any customizable object that a user has modified, such as a form layout or business rule. You can also compare the local and current pulled version of an object in Team Development. Administrators can suppress versions for specific tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/t\_CompareToCurrentVersion.html
 release: zurich
 product: Team Development
 classification: team-development
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Working with version records, Team Development, Planning your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Versions, Administer, Team Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Compare to the current version
 
-Compare a version to the current version for any customizable object that is modified, such as a form layout or business rule. Team Development can be used to compare the local and current pulled version of an object.
+You can compare a version to the current version for any customizable object that a user has modified, such as a form layout or business rule. You can also compare the local and current pulled version of an object in Team Development. Administrators can suppress versions for specific tables.
 
 ## Before you begin
 
-Role required: admin
+Role required: none
 
 ## About this task
 
+To compare a version to the current version of an object:
+
 ## Procedure
 
-1.  Open the Compare to Current page using one of the options in the table.
+1.  Open the Compare to Current page using one of the methods given in the below table.
 
     |Option|Action|
     |------|------|
-    |**From [a Versions list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_NavigatingVersionRecords.md)**|Navigate to **All** &gt; **Team Development** &gt; **Versions**. Select and hold \(or right-click\) the version and select **Compare to Current**.|
-    |**From the Update Versions form**|Select the **Compare to Current** related link.|
+    |**From [a Versions list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_NavigatingVersionRecords.md)**|Right-click the version and select **Compare to Current**.|
+    |**From the Update Versions form**|Click the **Compare to Current** related link.|
 
-2.  Review any differences in the fields.
+    \[Omitted image "CompareToCurrentForm.png"\] Alt text: The Compare to Current page includes a diff/merge tool that highlights the fields that differ.
 
-<table id="choicetable_er4_v12_5s"><thead><tr><th align="left" id="d145208e145">
+2.  On the Compare to Current page, review the fields that differ.
+
+<table id="choicetable_er4_v12_5s"><thead><tr><th align="left" id="d308181e134">
 
 Option
 
-</th><th align="left" id="d145208e148">
+</th><th align="left" id="d308181e137">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d145208e154">
+</th></tr></thead><tbody><tr><td id="d308181e143">
 
 **To resolve the differences by choosing the previous version**
 
 </td><td>
 
--   Team Development: Select **Revert to Selected Version**.
--   Object version: Select **Use Local Version** to maintain the local record as the current version. The pulled version is added to the version history for the record.
+-   Team Development: Click **Revert to Selected Version**.
+-   For a version of an object: Click **Use Local Version** to maintain the local record as the current version. The pulled version is added to the version history for the record.
 
 
-</td></tr><tr><td id="d145208e180">
+</td></tr><tr><td id="d308181e167">
 
-**To resolve the differences by modifying the current version and saving the merged changes**
+**To resolve the differences by modifying the current version and saving the merged changes__Note:__ Some types of record do not support this method. See [Limitations on updating records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/r_LimitationsOnResolvingCollisions.md) for more information.
+
+**
 
 </td><td>
 
-You can either update the setting in the current record or move a setting from the selected version to the current version. To move a change, select the **&gt;** button for the field in the diff/merge tool. To work with scripts and text fields, select in the field and modify the text as needed. When the records meet your needs, select:-   Team Development: Select **Save Merge** to save the changes to the current version.
--   Team Development: Select **Use Pulled Version** or **Use Local Version** option to accept or reject all changes, as appropriate.
--   Upgrade history: Select **Revert to Base System**
- **Note:** Some types of record don’t support this method. See [Limitations on updating records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/r_LimitationsOnResolvingCollisions.md) for more information.
+You can either update the setting in the current record or move a setting from the selected version to the current version. To move a change, click the **&gt;** \(Move Right\) button for the field in the diff/merge tool. To work with scripts and text fields, click in the field and modify the text as needed. When the records meet your needs, click:-   Team Development: Click **Save Merge** to save the changes to the current version.
+-   Team Development: Click **Use Pulled Version** or **Use Local Version** option to accept or reject all changes, as appropriate.
+-   On the upgrade history Compare to Current form, the only option is **Revert to Base System**
+
 
 </td></tr></tbody>
-</table>3.  For more information on how to compare see [Merge tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/diff-merge-tool.md).
+</table>
+**Parent Topic:**[Versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_Versions.md)
+
+**Related topics**  
 
 
--   **[Merge tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/diff-merge-tool.md)**  
-The Diff Merge tool enables you to compare differences between two versions of a record.
+[Merge tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/diff-merge-tool.md)
 
-**Parent Topic:**[Working with version records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_Versions.md)
+[Compare to the current version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_CompareToCurrentVersion.md)
+
+[Compare a pushed version to a local version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_ComparePushedVerLocalVer.md)
+
+[Compare two versions of an article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/compare-two-article-versions.md)
+
+[Resolve conflicts for an individual record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/um-resolve-conflict.md)
+
+[Resolve a collision in Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_ResolveACollision.md)
+
+[Revert a change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_RevertAChange.md)
+
+[View customizations and compare with current version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/view-customer-update-records.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/global-queue.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Concepts for service providers, Exploring domain separation, Domain separation for service providers, Access Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Concepts for service providers, Exploring domain separation, Domain
 
 The global queue concept provides a single virtual view of tasks that reside in multiple instances. The concept creates a custom application to provide a fulfiller view of work that resides in multiple instances without having to replicate tasks or data.
 
-## Global queue overview
+## Overview
 
 \[Omitted image "global-queue.png"\] Alt text: Global queue
 

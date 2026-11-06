@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/threekit-visualization-integration.html
 release: zurich
 topic_type: concept
-last_updated: "2025-09-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Integrating ServiceNow CPQ with visualization tools, ServiceNow CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
@@ -38,7 +38,6 @@ Notes:
       }
     }
     ```
-
 
 -   `authToken`: an authorization token provided by the Threekit application environment.
 

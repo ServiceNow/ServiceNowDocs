@@ -1,32 +1,26 @@
 ---
 title: Versions transferring
-description: Administrators transfer version records between instances by moving customizations with update sets or the Team Development application.
+description: Administrators transfer version records between instances by moving customizations with Update Sets or the Team Development application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/c\_TransferringVersions.html
 release: zurich
 product: Team Development
 classification: team-development
 topic_type: concept
-last_updated: "2025-10-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Versions and local changes, Working with version records, Team Development, Planning your application, Building applications]
+breadcrumb: [Versions, Administer, Team Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Versions transferring
 
-Administrators transfer version records between instances by moving customizations with update sets or the Team Development application.
+Administrators transfer version records between instances by moving customizations with Update Sets or the Team Development application.
 
-## Update sets
+-   Update sets: committing an Update Set adds versions. For each update in the Update Set, the version that corresponds to the update is added on the local instance.
+-   Team Development:
+    -   Pulling retrieves from the parent instance all versions of customized records that have not already been pulled and then adds them on the local instance.
+    -   Pushing adds to the parent instance only the current local version, not all the local versions.
+    -   Loading changes from peer instances adds selected versions to the local instance.
 
-Committing an update set adds a version record. For each update in the Update Set, the version that corresponds to the update is added on the local instance.
-
-## Version transfers
-
-|Transfer type|Description|
-|-------------|-----------|
-|Pulling|Retrieves all versions of customized records that haven’t already been pulled from the parent instance. Customized records are added on the local instance.|
-|Pushing|Adds only the current local version to the parent instance. All local versions aren't added.|
-|Loading|Changes from peer instances add selected versions to the local instance.|
-
-**Parent Topic:**[Versions and local changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_VersionsAndLocalChanges.md)
+**Parent Topic:**[Versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_Versions.md)
 

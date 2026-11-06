@@ -1,5 +1,5 @@
 ---
-title: Use HR Profile
+title: HR Profile
 description: The HR Profile application stores confidential employee data, such as name, personal contact information, email addresses, employment history, and contacts, in the scoped version of HR.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/c\_HRProfileRecords.html
@@ -7,12 +7,12 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
-# Use HR Profile
+# HR Profile
 
 The HR Profile application stores confidential employee data, such as name, personal contact information, email addresses, employment history, and contacts, in the scoped version of HR.
 
@@ -42,22 +42,22 @@ Employees can directly edit some information in their HR profile, such as emerge
 You can add or modify contact information to an HR profile and specify who to contact in an emergency through the Contacts module or related list.
 -   **[Who is covered](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_WhosCovered.md)**  
 You can create or modify who is covered under an employee benefit plan using the HR Health Benefits module.
--   **[Add or modify a beneficiary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_CreateOrModifyABeneficiary.md)**  
-As an employee, you add a beneficiary to your benefit plan from the Employee Center.
--   **[Enroll in a health plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_CreateOrModifyAHealthBenefit.md)**  
+-   **[Add a beneficiary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_CreateOrModifyABeneficiary.md)**  
+Add a beneficiary to a human resources profile.
+-   **[Enroll an employee in a health plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_CreateOrModifyAHealthBenefit.md)**  
 As an employee, you can submit a question about or enroll in a company health plan such as medical, dental, or vision from the Employee Center.
--   **[Add or modify Life, AD&amp;D insurance benefits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_CreateOrModifyInsuranceBenefit.md)**  
+-   **[Add or modify Life or AD&amp;D insurance benefits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_CreateOrModifyInsuranceBenefit.md)**  
 You can add or modify an insurance benefit for an employee using the HR Benefits module.
--   **[Enroll in the company retirement plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_CreateOrModifyARetirementBenefit.md)**  
-As an employee, you can submit a question about, or enroll in the company retirement plan from the Employee Center.
+-   **[Enroll an employee in the company retirement plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_CreateOrModifyARetirementBenefit.md)**  
+Enroll an employee in the company retirement plan using the retirement benefits module.
 -   **[Add or modify disability insurance benefits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_CreateOrModifyDisabilityBenefit.md)**  
 You can add or modify a disability insurance benefit for an employee using the Disability Insurance Benefits module.
--   **[Setup or update your direct deposit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_CreateOrModifyADirectDeposit.md)**  
-As an employee, setup or update direct deposit from the Employee Center.
--   **[Request tuition reimbursement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_CreateOrModifyTuitionReimburse.md)**  
-As an employee, you can submit a question about, or request tuition reimbursement from the Employee Center.
+-   **[Setup direct deposit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_CreateOrModifyADirectDeposit.md)**  
+Setup direct deposit for a employee.
+-   **[Add tuition reimbursement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_CreateOrModifyTuitionReimburse.md)**  
+Add tuition reimbursement to a human resources profile.
 -   **[Add or modify accommodations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/add_modify_accommodations.md)**  
 You can add, modify, or view accommodation requests for an HR profile. Accommodations are requests from your employees related to their work situation.
 
-**Parent Topic:**[Configuring Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configuring-ckm.md)
+**Parent Topic:**[Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/case-knowledge-management-landing-page.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/manage-table-cleaner-resource-usage.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Deleting older or unwanted records, Manage data growth, Data Management, Tables and data, Configure core features, Administer]
+breadcrumb: [Deleting older or unwanted records in Core UI, Manage data growth in Core UI, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Manage table cleaner resource usage
@@ -30,9 +30,9 @@ You can mitigate the impact to system performance by starting a table cleaner ru
 
 2.  Select the DMTableCleaner job record.
 
-3.  Select **Update**.
+3.  Contact ServiceNow Support to change the number of producers or consumers devoted to creating or deleting chunks of records.
 
-4.  Contact ServiceNow Support to change the number of producers or consumers devoted to creating or deleting chunks of records.
+4.  Select **Update**.
 
 
 ## Result
@@ -43,5 +43,5 @@ Table cleaner begins the next run using the updated DMTableCleaner job configura
 
 Check the status of the next table cleaner run by checking the values in the Chunks Errored column in the DMJob Runs \[sys\_dm\_run\] table. If a problem occurs, determine whether the issue occurred in all chunks or a single chunk. View the status of the individual chunks in the DMJob Chunks \[sys\_dm\_chunk\] table by checking the values in the Message and State columns.
 
-**Parent Topic:**[Deleting older or unwanted records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/deleting-older-records.md)
+**Parent Topic:**[Deleting older or unwanted records in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/deleting-older-records.md)
 

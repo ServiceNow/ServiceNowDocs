@@ -1,5 +1,5 @@
 ---
-title: Require obfuscation of mobile app UI \[Updated in Security Center 1.3\]
+title: Require obfuscation of mobile app UI
 description: Configure the glide.sg.blur\_ui\_when\_backgrounded property so that the UI of the app is blurred when the app is running in the background.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-mobile-app-ui-obfuscation.html
@@ -7,16 +7,16 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authentication, Hardening settings, Platform Security]
 ---
 
-# Require obfuscation of mobile app UI \[Updated in Security Center 1.3\]
+# Require obfuscation of mobile app UI
 
 Configure the **glide.sg.blur\_ui\_when\_backgrounded** property so that the UI of the app is blurred when the app is running in the background.
 
-If this property is not set to the recommended value of **true**, the mobile app's user interface is visible when viewed from the app switcher. The UI is still visible even when the app is running in background which provides a lower level of security and confidentiality to end users.
+If the **glide.sg.blur\_ui\_when\_backgrounded** system property is not set to the recommended value of **true**, then the mobile app's UI is visible when viewed from the app switcher once the app has been backgrounded.
 
 ## More information
 
@@ -84,7 +84,7 @@ Security risk
 
 -   Severity score: 2.4
 -   CVSS score: Low
--   Security risk details: Setting the value to **true** provides a higher level of confidentiality and privacy on the local device by blurring the UI when the app is running in the background.
+-   Security risk details: Blurring mobile backgrounding screenshots provides a higher level of confidentiality and privacy on the local device by blurring this view when backgrounded.
 
 </td></tr><tr><td>
 

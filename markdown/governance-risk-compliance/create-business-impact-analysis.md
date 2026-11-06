@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/create-business-impact-analysis.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Structured workflows for BIA, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -119,7 +119,7 @@ Person who owns and is responsible for completing the BIA. BCM lead can review t
 
     -   **Archived**
 
-        When the BIA is archived, it becomes read only. All the underlying tables like impact dependency groups, impact category results, and dependencies from where the BIA retrieves data to populate in the impact assessment and dependency assessment tabs become read only. You can no longer edit the information in these tabs. In this state, you can also generate a PDF of the BIA.
+        When the BIA is archived, it becomes read only. All the underlying tables like impact dependency groups, impact category results, and dependencies become read only. The BIA retrieves data from these tables to populate the impact assessment and dependency assessment tabs. You can no longer edit the information in these tabs. In this state, you can also generate a PDF of the BIA.
 
     **Note:** A scheduled job runs weekly to move the BIAs that have expired to **Archived** state.
 

@@ -7,7 +7,7 @@ release: zurich
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Investigation, Resolving disputes without network integration, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -44,7 +44,7 @@ A temporary credit is provided to the card holder to notify that the case is und
 
 6.  In the **Processing** tab, select the transaction ID.
 
-7.  In the **Issue provisional credit** activity, enter the refund amount and details.
+7.  In the **Issue provisional credit** task, enter the refund amount and details.
 
 8.  In the  **Remarks** field, enter any comments.
 

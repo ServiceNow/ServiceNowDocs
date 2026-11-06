@@ -7,18 +7,18 @@ release: zurich
 product: Upgrade Center
 classification: upgrade-center
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Monitor an upgrade to an instance, Scheduling and monitoring an upgrade, Use, Upgrade Center, Upgrade, Administer]
+breadcrumb: [Monitor an upgrade to an instance, Scheduling and monitoring an upgrade, Using Upgrade Center, Upgrade Center, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
 # Upgrade Progress
 
 When an upgrade is underway, Upgrade Progress displays progress bars and other information to help you monitor the process.
 
-You can view the status of every stage during the upgrade process, to determine which stage you're at.
+You can view the status of each of the stages during an upgrade process. It helps you to know exactly which stage you are in at any point of the upgrade process.
 
-\[Omitted image "uc-atf-app.png"\] Alt text: ATF store app advertisement banner
+\[Omitted image "uc-atf-app.png"\] Alt text: Image showing ATF store app advertisement banner
 
 If you have the ATF Test Generator and Cloud Runner store application installed, you can schedule test generation runs from the Upgrade Monitor page. The above message shows up during an upgrade process when the following conditions are met.
 
@@ -28,7 +28,7 @@ If you have the ATF Test Generator and Cloud Runner store application installed,
 
 **Note:** You can now confidently upgrade your instance by using the [ATF Test Generator and Cloud Runner](https://store.servicenow.com/sn_appstore_store.do#!/store/application/db1676d7421441106f046193880e0b37) store app. See [Exploring ATF Test Generator and Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/atf-tg-cr-landing.md) for more information.
 
-Once the database upgrade starts, the following details show up. \[Omitted image "uc-upgrade-progress.png"\] Alt text: Status of an in-progress upgrade
+Once the database upgrade starts, the following details show up. \[Omitted image "uc-upgrade-progress.png"\] Alt text: Image showing the status of an in-progress upgrade
 
 |Field|Input Value|
 |-----|-----------|

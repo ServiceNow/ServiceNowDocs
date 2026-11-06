@@ -7,9 +7,9 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 6
-breadcrumb: [Software Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 11
+breadcrumb: [Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software Asset Management references
@@ -32,6 +32,8 @@ View the license usage breakdown for CrowdStrike products to understand how your
 Discovery Models form and related list field descriptions.
 -   **[Software installation fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-installation-fields.md)**  
 Software Installation form and related list field descriptions.
+-   **[Software spend transaction fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-spend-transaction-fields.md)**  
+Software spend transaction form fields and their descriptions.
 -   **[Normalization statuses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/normalization-status.md)**  
 Description of normalization statuses for discovery models.
 -   **[License metrics for Microsoft products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/mapping-ms-license-metrics.md)**  
@@ -61,7 +63,7 @@ Entitlement Import Error form action descriptions.
 -   **[Impact of different license types on software reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/license-types-impact-reconciliation.md)**  
 Each license type has entitlements and conditions outlined on the entitlement form, and more importantly, these license types have a significant impact on the Software Asset Management \(SAM\) reconciliation process.
 -   **[Publisher optimizations for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/pub-opt-sap.md)**  
-View licensing optimizations for SAP by selecting **SAP** from the **Publisher** drop-down list.
+Identify cost-saving opportunities for SAP licenses by reviewing usage data across users, engines, digital access, and cloud consumption.
 -   **[Publisher optimizations for Red Hat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/pub-opt-redhat.md)**  
 View licensing optimizations for Red Hat by selecting **Red Hat** from the **Publisher** drop-down list.
 -   **[Publisher optimizations for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/pub-opt-microsoft.md)**  
@@ -116,6 +118,40 @@ Fields on the User Resolutions Rules page help you create a rule to map the **Us
 Domain separation is supported in Software Asset Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 -   **[Quick start tests for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/quick-tests-sam.md)**  
 Validate that Software Asset Management still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
+-   **[Contract entitlement data extraction skill - Triggers and Inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/contract-entitlement-extraction-triggers-inputs.md)**  
+Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to extract contract entitlement data. A trigger initiates an action, such as when the system generates an entitlement from a contract.
+-   **[Error log summarization skill - Triggers and Inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/error-log-summarization-triggers-inputs.md)**  
+Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to generate an error log summary. A trigger initiates an action, such as when the system generates an error log summary.
+-   **[Error resolution recommendation skill - Triggers and Inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/error-resolution-recommendation-triggers-inputs.md)**  
+Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to generate error resolution recommendations. A trigger initiates an action, such as when the system generates error resolution recommendations.
+-   **[Skill inputs and triggers for ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/now-assist-sam-skills-inputs.md)**  
+Get a quick overview of the skill inputs and triggers for ServiceNow Otto for Software Asset Management \(SAM\). By configuring the inputs or triggers for a skill, you can determine how and when a skill is used.
+-   **[Product compliance summarization skill - Triggers and Inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/product-compliance-sum-triggers-inputs.md)**  
+Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to generate a product compliance summary. A trigger initiates an action, such as when the system generates a product compliance summary.
+-   **[Product match review skill - Triggers and Inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/product-match-review-triggers-inputs.md)**  
+Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to normalize spend transactions. A trigger initiates an action, such as when the system normalizes spend transactions.
+-   **[Product match reviewer skill - Triggers and Inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/product-match-reviewer-triggers-inputs.md)**  
+Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to normalize spend transactions. A trigger initiates an action, such as when the system normalizes spend transactions.
+-   **[Product resolution skill - Triggers and inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/product-resolution-triggers-inputs.md)**  
+Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to normalize spend transactions. A trigger initiates an action, such as when the system normalizes spend transactions.
+-   **[Product search tags generation skill - Triggers and inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/product-search-tags-generation-triggers-inputs.md)**  
+Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to normalize spend transactions. A trigger initiates an action, such as when the system normalizes spend transactions.
+-   **[Publisher compliance summarization skill - Triggers and Inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/publisher-compliance-sum-triggers-inputs.md)**  
+Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to generate a publisher summary. A trigger initiates an action, such as when the system generates a publisher summary.
+-   **[Publisher match review - Triggers and inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/publisher-match-review-triggers-inputs.md)**  
+Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to normalize spend transactions. A trigger initiates an action, such as when the system normalizes spend transactions.
+-   **[Publisher search tags generation skill - Triggers and inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/publisher-search-tags-generation-triggers-inputs.md)**  
+Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to normalize spend transactions. A trigger initiates an action, such as when the system normalizes spend transactions.
+-   **[Recommended actions skill - Triggers and Inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/recommended-actions-triggers-inputs.md)**  
+Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to generate recommended actions. A trigger initiates an action, such as when the system generates recommended actions.
+-   **[SaaS user resolution skill - Triggers and Inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/saas-user-resolution-triggers-inputs.md)**  
+Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to resolve SaaS users. A trigger initiates an action, such as when the system generates user resolution rules.
+-   **[Software normalization skill - Triggers and Inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-normalization-triggers-inputs.md)**  
+Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to normalize spend transactions. A trigger initiates an action, such as when the system normalizes spend transactions.
+-   **[Spend transaction software classification skill - Triggers and Inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/spend-txn-classification-triggers-inputs.md)**  
+Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to classify spend transactions. A trigger initiates an action, such as when the system classifies spend transactions.
+-   **[Spend transaction software normalization skill - Triggers and Inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/spend-txn-normalization-triggers-inputs.md)**  
+Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to normalize spend transactions. A trigger initiates an action, such as when the system normalizes spend transactions.
 
 **Parent Topic:**[Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/c_SoftwareAssetMgmt.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Universal Task
 classification: universal-task
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, Universal Task, Employee Service Management]
+breadcrumb: [Setting up and configuring Universal Task, Universal Task, Employee Service Management]
 ---
 
 # Configuring your service for Universal Task
@@ -41,5 +41,5 @@ Hide the template bar for the Universal Task form because it does not include Un
 12. [Remove the Universal Task admin role from the admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-task/ut-remove-admin-role.md)  
 After system configuration, remove the Universal Task Admin role \(sn\_uni\_task.admin\) from IT System Administrator role \(admin\) to help prevent IT System Administrators from viewing sensitive information via forms, lists and UI.
 
-**Parent Topic:**[Configuring Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-task/set-up-universal-task.md)
+**Parent Topic:**[Setting up and configuring Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-task/set-up-universal-task.md)
 

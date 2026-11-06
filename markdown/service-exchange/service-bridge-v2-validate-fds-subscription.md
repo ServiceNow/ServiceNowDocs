@@ -7,9 +7,9 @@ release: zurich
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Configure FDS as a consumer, Install and configure for consumers, Service Exchange for Consumers, Service Exchange]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Configure inbound FDS as consumers, Configure for consumers, Service Exchange for Consumers, Service Exchange]
 ---
 
 # Validate foundation data sync subscription items
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-After you create an FDS offering request, the provider acknowledges the request and sends you a sample payload. This payload helps you understand the structure and type of data you’ll receive.
+After you create an FDS offering request, the provider acknowledges the request and sends you a sample payload. This payload helps you understand the structure and type of data you will receive.
 
 After the provider sends the sample, a subscription is generated for each offering in the FDS offering request and each subscription contains a subscription item for each table the provider is sharing. You must configure the incoming sample data to validate the FDS subscription items.
 
@@ -36,17 +36,40 @@ After the provider sends the sample, a subscription is generated for each offeri
 
 4.  From the Subscription Items related list, open the subscription item by selecting the record number in the **Number** column.
 
-5.  Configure incoming data using either IntegrationHub ETL or a transform map depending on whether you are working with a Configuration Management Database \(CMDB\) or a non-CMDB table.
+5.  Resolve missing relationships on your instance.
 
-<table id="choicetable_msz_gll_sfc"><thead><tr><th align="left" id="d24809e111">
+    When the source instance includes relationships that aren't present on your instance, the subscription item displays a warning banner.
+
+    Do the following steps to resolve the missing relationships:
+
+    1.  Select **Review and resolve**.
+
+    2.  In the **Missing Relationships** window, review the listed relationships, and select a resolution option.
+
+        -   **Fix automatically**: The system creates the missing relationships to match the source instance.
+        -   **Resolve manually**: You create and configure the missing relationships.
+
+            **Note:** If you select **Resolve manually**, the ETL Transform Map Assistant doesn't automatically map the missing relationships. Create and configure them manually in the CMDB so that the data syncs correctly.
+
+    3.  Select **Confirm**.
+
+        The system posts a work note recording the relationships it created or your manual resolution choice.
+
+        For unresolved relationships, the banner remains until you complete the configuration.
+
+6.  Configure incoming data using either IntegrationHub ETL or a transform map depending on table you selected.
+
+    Some non-CMDB tables have names that start with `cmdb_`, such as Product Model \[cmdb\_model\], Hardware Model \[cmdb\_hardware\_product\_model\], and Consumable Model \[cmdb\_consumable\_product\_model\]. Configure these tables using the non-CMDB table option. Refer to the following table for detailed steps.
+
+<table id="choicetable_msz_gll_sfc"><thead><tr><th align="left" id="d27101e186">
 
 Option
 
-</th><th align="left" id="d24809e114">
+</th><th align="left" id="d27101e189">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d24809e120">
+</th></tr></thead><tbody><tr><td id="d27101e195">
 
 **Configure data integration for CMDB tables**
 
@@ -54,7 +77,7 @@ Description
 
 1.  Select the **ETL Transform Map Assistance** button.
 
-A message is displayed stating that you’re about to navigate to the ETL Transform Map Assistant guided setup.
+A message is displayed stating that you're about to navigate to the ETL Transform Map Assistant guided setup.
 
 2.  Confirm your choice by selecting **OK**.
 3.  Use the guided setup to complete the mapping to integrate third-party data into CMDB. For details, see [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/integrationhub-etl.md).
@@ -64,7 +87,22 @@ A message is displayed stating that you’re about to navigate to the ETL Transf
 4.  Close the browser tab to return to the Subscription Item page.
 
 
-</td></tr><tr><td id="d24809e164">
+</td></tr><tr><td id="d27101e239">
+
+**Configure data integration for CMDB tables \(__Maintain sysID__ enabled by the provider\)**
+
+</td><td>
+
+1.  Select the **Transform Map** button.
+
+A message is displayed stating that you're about to navigate to the Transform Map to complete the configuration.
+
+2.  Confirm your choice by selecting **OK**.
+3.  Complete the configuration. For details, see [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/t_CreateATransformMap.md).
+4.  Close the browser tab to return to the Subscription Item page.
+
+
+</td></tr><tr><td id="d27101e281">
 
 **Configure data integration for non-CMDB table**
 
@@ -72,7 +110,7 @@ A message is displayed stating that you’re about to navigate to the ETL Transf
 
 1.  Select the **Transform Map** button.
 
-A message is displayed stating that you’re about to navigate to the Transform Map to complete the configuration.
+A message is displayed stating that you're about to navigate to the Transform Map to complete the configuration.
 
 2.  Confirm your choice by selecting **OK**.
 3.  Complete the configuration. For details, see [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/t_CreateATransformMap.md).
@@ -81,6 +119,14 @@ A message is displayed stating that you’re about to navigate to the Transform 
 
 </td></tr></tbody>
 </table>    You must configure incoming data for each subscription item except dependent subscription items.
+
+7.  If a consumer table does not exist on the provider, do the following.
+
+    1.  On the provider, create the subscription item.
+
+    2.  On the provider, create a transform map that routes the incoming data to a target table, either default or custom.
+
+    3.  In the transform map, map each incoming field to a target column.
 
 
 ## Result

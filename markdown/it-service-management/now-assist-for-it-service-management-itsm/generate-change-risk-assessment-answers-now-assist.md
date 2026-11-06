@@ -50,7 +50,7 @@ This AI capability for generating change risk assessment answers and reasoning r
 
     A loading indicator appears while the answers generate. When generation is complete, the pre-filled assessment page opens with a suggested answer and a **Reasoning** field for each supported question. The **Reasoning** field explains why AI selected the answer, based on the change request context.
 
-    \[Omitted image "Image\_change\_risk\_answer\_generator.png"\] Alt text: Change risk assessment page pre-filled with Now Assist suggested answers and a Reasoning field for each supported Likert-scale question.
+    \[Omitted image "image.Image\_change\_risk\_answer\_generator"\] Alt text: Change risk assessment page pre-filled with Now Assist suggested answers and a Reasoning field for each supported Likert-scale question.
 
     **Note:** To complete the assessment manually instead, select **Skip generation**. The empty assessment page opens so you can fill in the answers manually.
 
@@ -68,15 +68,15 @@ This AI capability for generating change risk assessment answers and reasoning r
     -   Select **Generate** to create a new risk assessment.
 6.  After you submit the risk assessment in Service Operations Workspace for ITSM, view, edit, or regenerate the saved answers.
 
-<table id="choicetable_sow_options"><thead><tr><th align="left" id="d472122e322">
+<table id="choicetable_sow_options"><thead><tr><th align="left" id="d432663e326">
 
 Option
 
-</th><th align="left" id="d472122e325">
+</th><th align="left" id="d432663e329">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d472122e331">
+</th></tr></thead><tbody><tr><td id="d432663e335">
 
 **View the saved answers**
 
@@ -84,7 +84,7 @@ Procedure
 
 In the **Record information** panel, select **View risk assessment**. The **Change Risk Assessment** dialog opens in read-only mode and shows the saved answers and reasoning for each question.
 
-</td></tr><tr><td id="d472122e349">
+</td></tr><tr><td id="d432663e353">
 
 **Edit the saved answers**
 
@@ -92,7 +92,7 @@ In the **Record information** panel, select **View risk assessment**. The **Chan
 
 Select **Assess Risk** again. The **Change Risk Assessment** dialog opens with the answers from the previous assessment copied in. Update any answers as needed, then submit the assessment.When you edit an assessment, the plain assessment page opens with the existing answers and no **Reasoning** field.
 
-</td></tr><tr><td id="d472122e369">
+</td></tr><tr><td id="d432663e373">
 
 **Regenerate the answers with the current change request context**
 

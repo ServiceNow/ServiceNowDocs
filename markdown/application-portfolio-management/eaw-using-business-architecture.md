@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-using-business-architecture.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Working with Portfolio list view, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Using business architecture
@@ -20,7 +20,7 @@ Manage business units in the Enterprise Architecture Workspace to define your or
 Add or edit departments, add users to the departments in the Enterprise Architecture Workspace.
 -   **[Manage goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-manage-goals.md)**  
 Manage goals to track and optimize your investments in business applications. Add a quantitative and qualitative targets to the goals in the Enterprise Architecture Workspace.
--   **[Manage with value streams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-manage-value-streams.md)**  
+-   **[Manage value streams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-manage-value-streams.md)**  
 A value stream is a high-level representation of the steps an organization takes to deliver value to a customer whether internal or external. These steps are organized into value stream stages, each of which contributes incrementally to the final value delivered.
 -   **[Manage value stream stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-manage-value-stream-stages.md)**  
 Value stream stages are the building blocks of a value stream, each adding an incremental value. Add or edit value stream stages in the Enterprise Architecture Workspace.

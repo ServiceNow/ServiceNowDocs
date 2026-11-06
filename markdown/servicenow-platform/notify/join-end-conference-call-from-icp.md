@@ -7,9 +7,9 @@ release: zurich
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Notify with Incident Communications Management, Use, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Using Notify with Incident Communications Management, Using Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Join and end a conference call from incident communications management
@@ -30,15 +30,15 @@ Role required: notify\_view, ia\_admin or notify\_setup\_admin
 
 4.  For the relevant incident communications task, under **Actions**, perform one of the following actions.
 
-<table id="choicetable_erb_xlq_thb"><thead><tr><th align="left" id="d644310e92">
+<table id="choicetable_erb_xlq_thb"><thead><tr><th align="left" id="d652248e92">
 
 Option
 
-</th><th align="left" id="d644310e95">
+</th><th align="left" id="d652248e95">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d644310e101">
+</th></tr></thead><tbody><tr><td id="d652248e101">
 
 **Join Conference Call**
 
@@ -46,7 +46,7 @@ Description
 
 If you are not already logged into the conference call, you can join the conference.
 
-</td></tr><tr><td id="d644310e112">
+</td></tr><tr><td id="d652248e112">
 
 **End Conference Call**
 

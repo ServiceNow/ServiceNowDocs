@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -18,7 +18,7 @@ Manage invoices, ledger, and records in an Oracle Financial Cloud instance from 
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Oracle Financial Cloud spoke v1.7.1 is the latest version.
+Oracle Financial Cloud spoke v1.7.1 is the latest version. For version history of the spoke, see [Oracle Financial Cloud spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-oracle-financial-cloud.html).
 
 ## Supported versions
 
@@ -36,7 +36,7 @@ This spoke was built for Oracle Financial Cloud API version 11.13.18.05.
 
 If you’re having trouble installing the app, ensure that these dependent plugins are installed:
 
--   [Utility Actions Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/utilityact-spoke.md)
+-   [Utility Actions Spoke]()
 -   ServiceNow IntegrationHub Action Step - REST \(com.glide.hub.action\_step.rest\)
 -   ServiceNow IntegrationHub Runtime \(com.glide.hub.integration.runtime\)
 -   ServiceNow Flow Designer - Dynamic Inputs \(com.glide.hub.dynamic\_inputs\)

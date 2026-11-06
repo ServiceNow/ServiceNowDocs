@@ -7,9 +7,9 @@ release: zurich
 product: Talent Development Core
 classification: talent-development-core
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Solve the challenge of adoption with Proactive Prompts, Explore, Skills Foundation, Growth Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Solve the challenge of adoption with Proactive Prompts, Exploring Skills Foundation, Skills Foundation, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Pre-seeding employee skills

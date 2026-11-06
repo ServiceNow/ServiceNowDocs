@@ -1,37 +1,37 @@
 ---
 title: Configuring Delegated Development
-description: Configure Delegated Development to assign, delete, display, or hide permissions.
+description: Configure Delegated Development to assign, delete, display or hide permissions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/delegated-development-and-deployment/configuring-delegated-development.html
 release: zurich
 product: Delegated Development and Deployment
 classification: delegated-development-and-deployment
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Delegated Development, Planning your application, Building applications]
+breadcrumb: [Delegated Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Configuring Delegated Development
 
-Configure Delegated Development to assign, delete, display, or hide permissions.
+Configure Delegated Development to assign, delete, display or hide permissions.
 
 ## Configuration overview
 
 -   [Assign source control permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/delegated-dev-source-control.md)
 
-    You can assign full access to source control for a particular scope to a delegated developer.
+    Ability to assign full access to source control for a particular scope to a delegated developer. The Source Control menu is only visible if you have the correct permissions for the application that you are working in. Before you begin.
 
 -   [Assign delete permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/assign-delete-permissions.md)
 
-    You can assign the ability to delete an application to a delegated developer.
+    Assign the ability to delete an application to a delegated developer.
 
--   [Delegated Development System Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/delegated-development-system-properties.md)
+-   [Display or hide update set deployment permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/display-or-hide-deployment-permissions.md)
 
-    You can display or hide permissions with system properties that control the visibility of the **Publish To Update Set** and **Manage Update Sets** permissions. By default, both deployment permissions for update sets are hidden.
+    Display or hide deployment permissions for update sets from the Manage Developers dialog.
 
 -   [Instance-specific deployment user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/delegated_deployment_user_roles.md)
 
-    You can assign roles that enable non-admin users install or upgrade all applications in specific instances. You delegate these tasks by manually assigning specific user roles to an instance.
+    Assign roles that enable non-admin users install or upgrade all applications in specific instances. You delegate these tasks by manually assigning specific user roles per instance.
 
 

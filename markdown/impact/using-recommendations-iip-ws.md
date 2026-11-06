@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/using-recommendations-iip-ws.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Impact, Impact]
 ---
@@ -61,5 +61,5 @@ Role required: All Impact roles
 
 ## What to do next
 
-For more information on a given recommendation, see [Manage Recommendation details in Impact Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/recommendation-details-page-in-impact-store.md).
+For more information on a given recommendation, see [Manage work items from Recommendation details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/recommendation-details-page-in-impact-store.md).
 

@@ -7,9 +7,9 @@ release: zurich
 product: ServiceNow Large Language Model \(Now LLM\)
 classification: servicenow-large-language-model-now-llm
 topic_type: concept
-last_updated: "2025-10-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Large language models on the ServiceNow AI Platform, Enable AI experiences]
+breadcrumb: [Large language models, Large language models and providers, Enable AI Experiences]
 ---
 
 # Providers and Models
@@ -23,9 +23,6 @@ Bringing your own large language model enables:
 -   Integration Flexibility: Connect easily with existing infrastructure and preferred cloud providers.
 -   Cost Control: Use existing contracts and optimize resource usage to avoid extra charges.
 -   Strategic Autonomy: Maintain vendor neutrality and avoid lock-in for future-proofing.
-
--   **[Create a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-large-language-model-now-llm/create-model.md)**  
-You can create a custom large language model \(LLM\) using ServiceNow models or models from different providers.
 
 **Parent Topic:**[Large language models on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md)
 

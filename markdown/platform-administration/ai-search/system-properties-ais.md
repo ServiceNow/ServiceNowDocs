@@ -7,9 +7,9 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2026-07-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
-breadcrumb: [Reference, AI Search, Search administration, Configure core features, Administer]
+breadcrumb: [Reference, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # AI Search system properties
@@ -189,7 +189,7 @@ Option to allow indexing of searchable content from role-restricted catalog vari
 Option to allow indexing of searchable content from globally accessible catalog variables on Catalog Item records. To allow indexing of searchable content from catalog variables that require specific roles to access, see **glide.ais.ingestion.ignore\_catalog\_variables\_read\_roles**.
 
 -   Type: true \| false
--   Default value: **false** in base system, **true** if ServiceNow Otto® for AI Search application is installed
+-   Default value: **false** in base system, **true** if ServiceNow® Otto for AI Search application is installed
 -   Supported values:
     -   **false**: Prevent indexing of searchable content from catalog variables on Catalog Item records.
     -   **true**: Allow indexing of searchable content from globally accessible catalog variables on Catalog Item records.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/agent-shift-signup-wfo-csm.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Schedule, Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_shift\_planning.admin
 
 When a schedule plan is enabled for sign-up, you can receive notifications. You can also receive notifications when the schedule plan that's open for sign up is due on the current day or when it's due soon.
 
-**Important:** The maximum number of agents who receive notifications is controlled by the `glide.ui_notification.max_recipients` system property. Notifications are sent only up to the configured limit.
+**Important:** Your administrator must set the value in the **glide.ui\_notification.max\_recipients** property to the maximum number of agents for which you want to send the notifications.
 
 ## Procedure
 
@@ -34,7 +34,7 @@ When a schedule plan is enabled for sign-up, you can receive notifications. You 
 
     1.  Select the **Team Calendar** tab.
 
-    2.  In the Contextual side panel, select the Show Schedules icon \[Omitted image "show-schedules-icon.png"\] Alt text: Show Schedules icon. to display the schedules.
+    2.  In the Contextual side panel, click the Show Schedules icon \[Omitted image "show-schedules-icon.png"\] Alt text: Show Schedules icon. to display the schedules.
 
         **Tip:** Select the filter icon \(\[Omitted image "show-filter-icon.png"\] Alt text: Filter schedule\) and then select the desired sign-up state and sign-up dates to narrow down the schedule plans enabled for sign-up.
 
@@ -117,15 +117,15 @@ Do this
         -   The system will automatically close the sign ups after the sign-up due date.
 5.  Add agents to the work shifts.
 
-<table id="choicetable_ejp_3fs_dvb"><thead><tr><th align="left" id="d138183e377">
+<table id="choicetable_ejp_3fs_dvb"><thead><tr><th align="left" id="d157108e373">
 
 To
 
-</th><th align="left" id="d138183e380">
+</th><th align="left" id="d157108e376">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d138183e386">
+</th></tr></thead><tbody><tr><td id="d157108e382">
 
 **Auto-assign agents**
 
@@ -133,7 +133,7 @@ Do this
 
 Enable the **Enabled for auto-assignment for agents** check box. Your agents who have set the shift to be their top preference is auto-assigned. The number of shifts auto-assigned is based on the value set in the **sn\_shift\_planning.max\_shifts\_to\_autoassign** system property.
 
-</td></tr><tr><td id="d138183e401">
+</td></tr><tr><td id="d157108e397">
 
 **Assign agents manually**
 

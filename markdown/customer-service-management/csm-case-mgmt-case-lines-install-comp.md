@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-case-mgmt-case-lines-install-comp.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Reference, Customer Service Management]
 ---
 
@@ -170,6 +170,18 @@ This is an existing role.The customer service agent role has read, write, and up
 -   Case Line
 -   Case Line Task
 -   Case Line Characteristic
+
+</td><td>
+
+For more information, see [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/r_RolesInstalledWithCustomerService.md).
+
+</td></tr><tr><td>
+
+Customer contactsn\_customerservice.customer
+
+</td><td>
+
+This is an existing role.The customer contact has read and write permissions in the Case Line Characteristic table
 
 </td><td>
 

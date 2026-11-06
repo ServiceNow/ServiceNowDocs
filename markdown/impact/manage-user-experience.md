@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/manage-user-experience.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Analytics, Overview of Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [User Experience, IO analytics, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
 # Manage User Experience
@@ -52,7 +52,9 @@ Role required: admin
 
     For more information, see
 
-    -   [Track the response time of applications to monitor their performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/monitor-apps-user-experience-io.md).
-    -   [Analyze user experience and monitor application performance in Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-app-mon-perf-analy.md)
+    -   [Track of application response time to monitor performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/monitor-apps-user-experience-io.md).
+    -   [Use Platform Performance Analyzer to view server details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-app-mon-perf-analy.md)
     -   .
+
+**Parent Topic:**[User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/user-experience-insights.md)
 

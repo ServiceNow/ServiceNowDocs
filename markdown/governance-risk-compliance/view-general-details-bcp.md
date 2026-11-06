@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/view-general-details-bcp.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Structured workflows for Business Continuity Planning, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -51,7 +51,8 @@ Role required: sn\_bcm.admin, sn\_bcm.program\_manager, or sn\_bcm.planner
     2.  Click **Confirm**.
 
         -   The copy action creates an exact replica of the plan with the name that you enter in the Copy plan pop-up. The copied plan is moved to **Draft** state.
-        -   The action copies the plan assets, plan documentation sections, recovery teams, loss scenarios, its related asset dependencies and recovery strategies, and recovery tasks of the original plan to the copied plan.
+        -   The action copies the plan assets, plan documentation sections, recovery teams, and loss scenarios to the copied plan. It also copies the related asset dependencies, recovery strategies, and recovery tasks.
         -   The documentation sections of the copied plan are in **Pending** state. Edit each section, if required, and move it to **Complete** state.
         -   Dependencies are populated when the plan is copied.
+        -   The copied plan retains the original plan's **Plan owner** and **Plan owner group** values.
 

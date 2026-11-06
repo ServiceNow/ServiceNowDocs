@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/revise-existing-opportunities-post-upgrade.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Opportunity management, Lead and opportunity management apps, Configure, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Opportunity Management, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Revise existing opportunities after an upgrade
@@ -57,4 +57,11 @@ For open, synced opportunities:
 2.  The **Product Specification** field, new hierarchy, and pricing fields for this line are updated only if any change is done on the corresponding synced quote line.
 
 **Note:** After upgrading to the Yokohama Q2 release, run the scheduled job before working with Opportunity. Failure to do so results in inconsistent behavior in Opportunity and the related tables.
+
+**Related topics**  
+
+
+[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/opportunity-mgmt-using.md)
+
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/opportunity-management.md)
 

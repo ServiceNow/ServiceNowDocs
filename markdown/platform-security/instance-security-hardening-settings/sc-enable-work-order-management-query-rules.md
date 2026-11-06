@@ -1,5 +1,5 @@
 ---
-title: Enable work order management query rules for service organizations \[New in Security Center 1.5 and updated in 2.0\]
+title: Enable work order management query rules for service organizations
 description: Use the sn\_fsm.use\_query\_rules property to apply rules and filters to the Field Service Management tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-enable-work-order-management-query-rules.html
@@ -7,12 +7,12 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Enable work order management query rules for service organizations \[New in Security Center 1.5 and updated in 2.0\]
+# Enable work order management query rules for service organizations
 
 Use the **sn\_fsm.use\_query\_rules** property to apply rules and filters to the Field Service Management tables.
 
@@ -60,7 +60,7 @@ Recommended value
 
 </td><td>
 
-true
+false
 
 </td></tr><tr><td>
 

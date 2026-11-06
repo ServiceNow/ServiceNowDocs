@@ -1,20 +1,20 @@
 ---
-title: Establish an SAP connection
-description: After you have deployed the Advanced Business Application Programming \(ABAP\) program in your SAP system, create a connection profile to establish a connection between your SAP system and your ServiceNow instance.
+title: Establish an SAP connection using basic authentication
+description: After you have deployed the Advanced Business Application Programming \(ABAP\) program in your SAP system, create a connection profile to establish a connection between your SAP system and your ServiceNow instance using basic authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/add-sap-connection.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 5
-breadcrumb: [Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
-# Establish an SAP connection
+# Establish an SAP connection using basic authentication
 
-After you have deployed the Advanced Business Application Programming \(ABAP\) program in your SAP system, create a connection profile to establish a connection between your SAP system and your ServiceNow instance.
+After you have deployed the Advanced Business Application Programming \(ABAP\) program in your SAP system, create a connection profile to establish a connection between your SAP system and your ServiceNow instance using basic authentication.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Before establishing a connection between SAP and your ServiceNow instance, check
 
 If you already have a MID Server installed in the network and connected to your ServiceNow instance, this SAP connection automatically uses it.
 
-Role required: admin
+Role required: sam\_admin
 
 ## Procedure
 
@@ -52,7 +52,17 @@ Default price list
 
 </td><td>
 
-Default price list that should be considered for reconciliation.
+Default price list that should be considered for reconciliation. **Note:** If connecting to SAP S/4HANA Cloud Private Edition, select **SAP S/4HANA Private Cloud**. For more information, see [Price Lists for Private Cloud](https://support.sap.com/en/my-support/systems-installations/glac/private-cloud-metering/price-lists-pce.html).
+
+</td></tr><tr><td>
+
+Connection type
+
+</td><td>
+
+Values include:-   Basic Auth
+-   OAuth 2.0
+**Important:** The Basic Auth authentication method is planned for deprecation by SAP. You should use the OAuth 2.0 authentication for a secure and compliant integration. For more information, see [Establish an SAP connection using OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/add-sap-connection-oauth.md).
 
 </td></tr><tr><td>
 
@@ -60,7 +70,9 @@ WSDL
 
 </td><td>
 
-Web Service Description Language \(WSDL\) URL from the SOA manager that includes an IP address that is used to connect to the SAP system.**Note:** Don’t change the SAP WSDL name. The WSDL service definition name must be /NOW/SAMP and the service binding name must be NOW\_SAMP. The only WSDL name that can be changed is the WSDL generation name.
+Web Service Description Language \(WSDL\) URL from the SOA manager that includes an IP address that is used to connect to the SAP system.This is the same value that you generated in the [Create a WSDL for the SAP service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/create-wsdl-sap-service.md) procedure.
+
+**Note:** Don’t change the SAP WSDL name. The WSDL service definition name must be /NOW/SAMP and the service binding name must be NOW\_SAMP. The only WSDL name that can be changed is the WSDL generation name.
 
 </td></tr><tr><td>
 
@@ -115,7 +127,7 @@ Use USMM Role Optimization
 
 </td><td>
 
-Check box to specify USMM role-based optimization that must be applied during reconciliation.
+The option to specify USMM role-based optimization that must be applied during reconciliation.
 
 </td></tr><tr><td>
 
@@ -123,7 +135,7 @@ Last run
 
 </td><td>
 
-Date and time that data was last pulled for the SAP connection.
+Date and time when the data was last pulled for the SAP connection.
 
 </td></tr><tr><td>
 
@@ -149,6 +161,14 @@ Active
 
 Option that indicates that the SAP connection is active.
 
+</td></tr><tr><td>
+
+Connection type
+
+</td><td>
+
+This field is automatically populated based on your connection type.
+
 </td></tr><tr><td colspan="2">
 
 User Mapping
@@ -167,7 +187,7 @@ User field
 
 </td><td>
 
-ServiceNow user field.**Note:** Changing the values in the User Mapping fields after data is pulled causes the mapping between discovered users and system users to be lost. The mapping between discovered users and the **Rights used by** and **Rights needed by** fields is also lost.
+ServiceNow user field.**Note:** Changing the values in the User Mapping fields after data is pulled results in the loss of the mapping between discovered users and system users. The mapping between discovered users and the **Rights used by** and **Rights needed by** fields is also lost.
 
 </td></tr><tr><td colspan="2">
 
@@ -214,25 +234,33 @@ Fetch user transactions
 Controls the data pull from SAP for user transaction activity data.
 
 </td></tr></tbody>
-</table>5.  In the SAP Credentials related list, view the credentials you used to create the connection.
+</table>5.  View the credentials that you used to create the connection in the SAP Credentials related list.
 
     **Note:** Only one credential record should be active for a given SAP connection. To determine the roles associated with your credentials, contact your SAP Basis administrator. Your administrator assigns respective roles to your SAP user ID credentials.
 
-6.  To test your SAP connection and if you're running the latest version of the ABAP program, select the **Test SAP Connection and Version** related link.
+6.  If you're running the latest version of the ABAP program, test your SAP connection by selecting the **Test SAP Connection and Version** related link.
 
     **Note:** If you upgrade your ServiceNow instance, you must download and deploy the new version of the ABAP program and reconfigure a service provider with the SOA Manager.
 
-7.  To send a request to the custom ABAP program to collect the SAP data into the custom tables again, select the **Refresh data in SAP** related link.
+7.  Send a request to the custom ABAP program to collect the SAP data into the custom tables again by selecting the **Refresh data in SAP** related link.
 
-8.  If the SAP data you pulled is corrupted and you want to see current data, select the **Pull all SAP Data to ServiceNow** related link.
+8.  If the SAP data you pulled is corrupted, you can view current data by selecting the **Pull all SAP Data to ServiceNow** related link.
 
     SAP data is scheduled to be pulled regularly.
 
-9.  View SAP clients in the **SAP Clients** related list.
+9.  Update connection information or switch to a different authentication method by selecting the **Update connection** related link.
+
+    1.  In the Update Connection dialog box, select the authentication method.
+
+    2.  Enter the connection details based on the authentication method that you select.
+
+    3.  Select **Submit**.
+
+10. View SAP clients in the **SAP Clients** related list.
 
     The SAP clients are generated when SAP data is pulled during the scheduled job.
 
-10. Select **Update**.
+11. Select **Update**.
 
 
 ## Result
@@ -244,13 +272,17 @@ You can start creating software models and entitlements.
 **Related topics**  
 
 
+[SAP publisher pack integration architecture]()
+
 [Tables installed with the SAP publisher pack]()
 
-[Deploy the ABAP program for SAP]()
+[Set up SAP integration to establish a connection with SAP]()
 
-[Create entitlements for SAP]()
+[Establish an SAP connection using OAuth 2.0]()
 
 [Create software models for SAP]()
+
+[Create entitlements for SAP]()
 
 [Create a custom SAP named user type]()
 

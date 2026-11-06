@@ -7,9 +7,9 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create conversational custom chat integration, Conversational custom chat integrations, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Create conversational custom chat integration, Create custom chat integrations, Configure, Virtual Agent, Conversational Interfaces]
 ---
 
 # Configure a provider for your custom chat integration
@@ -18,7 +18,7 @@ Create a new provider for your custom chat integration. Providers are defined in
 
 ## Before you begin
 
-[Create a new channel for your custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-channel-va-cccif.md).
+[Create a channel for your custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-channel-va-cccif.md).
 
 Role required: admin
 
@@ -135,6 +135,4 @@ Name of the contextual action script. The contextual action script supports cust
 ## What to do next
 
 [Set up message authentication for your custom chat configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/set-up-msg-auth-va-cccif.md)
-
-**Parent Topic:**[Create a Virtual Agent conversational custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-adapter-for-virtual-agent.md)
 

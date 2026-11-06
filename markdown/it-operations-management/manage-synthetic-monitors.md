@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/manage-synthetic-monitors.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Landing page, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configure, Synthetic monitoring, ITOM AIOps, IT Operations Management]
 ---
 
 # Manage synthetic monitors
@@ -24,15 +24,15 @@ Role required: sn\_sow\_synthetics.synthetics\_editor
 
 2.  Follow these instructions to edit a monitor.
 
-<table id="choicetable_wmz_vv2_h2c"><thead><tr><th align="left" id="d317325e79">
+<table id="choicetable_wmz_vv2_h2c"><thead><tr><th align="left" id="d343946e81">
 
 Option
 
-</th><th align="left" id="d317325e82">
+</th><th align="left" id="d343946e84">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d317325e88">
+</th></tr></thead><tbody><tr><td id="d343946e90">
 
 **Edit multiple monitor configurations**
 
@@ -42,7 +42,7 @@ From the synthetic monitoring landing page, select one or more monitors and sele
 
 If you want to edit properties other than credentials, location, or alert settings, you must edit a single monitor at a time from the **Details** tab.
 
-</td></tr><tr><td id="d317325e117">
+</td></tr><tr><td id="d343946e119">
 
 **Edit a single monitor configuration**
 
@@ -50,7 +50,7 @@ If you want to edit properties other than credentials, location, or alert settin
 
 From the synthetic monitoring landing page, select a monitor to open it and then select the **Details** tab to edit. See [Create and edit a synthetic monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/create-synthetic-monitor.md) for more information.
 
-</td></tr><tr><td id="d317325e139">
+</td></tr><tr><td id="d343946e141">
 
 **Delete monitors**
 

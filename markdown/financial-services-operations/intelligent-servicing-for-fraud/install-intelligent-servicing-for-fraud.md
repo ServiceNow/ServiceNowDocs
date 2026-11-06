@@ -7,8 +7,9 @@ release: zurich
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [install intelligent servicing for fraud, sn\_bom\_fraud, install fraud application, fraud application installation, servicenow store installation, fraud demo data, admin role required, install fraud plugins]
 breadcrumb: [Intelligent Servicing for Fraud, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
@@ -18,7 +19,7 @@ You can install the Intelligent Servicing for Fraud application \(sn\_bom\_fraud
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 Role required: admin

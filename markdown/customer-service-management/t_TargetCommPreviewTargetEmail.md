@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_TargetCommPreviewTargetEmail.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Targeted communications, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_publications.author or sn\_publications.admin
 
 ## About this task
 
-Users can preview the following information for an email notification when the Customer Service plugin \(com.sn\_customerservice\) is installed:
+Users can preview the following information for an email notification when the Case Management Core plugin \(com.sn\_customerservice\) is installed:
 
 -   The recipient list
 -   The subject of the publication
@@ -34,11 +34,11 @@ Users can preview the following information for an email notification when the C
     -   **Targeted Communications** &gt; **Draft Publications**
 2.  Select the desired publication.
 
-3.  Select the **Preview Target Email** related link.
+3.  Click the **Preview Target Email** related link.
 
 4.  View the email notification in the Notification Preview window.
 
-5.  If desired, view the publication on the customer portal by selecting the link in the body of the email.
+5.  If desired, view the publication on the customer portal by clicking the link in the body of the email.
 
 6.  Close the Notification Preview window.
 

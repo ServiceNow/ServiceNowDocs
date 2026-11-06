@@ -1,31 +1,38 @@
 ---
 title: Import OSCAL SSP
-description: Import Open Security Controls Assessment Language \(OSCAL\) files in the System Security Plan \(SSP\) model into Continuous Authorization and Monitoring workspace. Import OSCAL SSP enables you import authorization packages, authorization boundary, controls, and others in OSCAL format.
+description: From the New Import playbook experience page, you can import OSCAL files in the System Security Plan \(SSP\) model into CAM workspace. This action enables you to seamlessly upload authorization package data in OSCAL format.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/import-oscal-ssp-cam-ws.html
 release: zurich
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 5
-breadcrumb: [Import in OSCAL format, CAM OSCAL, CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Import in OSCAL format, CAM OSCAL, Continuous authorization and monitoring tasks in the CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Import OSCAL SSP
 
-Import Open Security Controls Assessment Language \(OSCAL\) files in the System Security Plan \(SSP\) model into Continuous Authorization and Monitoring workspace. Import OSCAL SSP enables you import authorization packages, authorization boundary, controls, and others in OSCAL format.
+From the New Import playbook experience page, you can import OSCAL files in the System Security Plan \(SSP\) model into CAM workspace. This action enables you to seamlessly upload authorization package data in OSCAL format.
 
 ## Before you begin
 
-Role required: sn\_irm\_cont\_auth.info\_system\_sec\_manager, sn\_irm\_cont\_auth.info\_system\_sec\_officer, or sn\_irm\_cont\_auth.admin
+Role required:
+
+-   Information System Security Manager \(sn\_irm\_cont\_auth.info\_system\_sec\_manager\)
+-   Information System Security Officer \(sn\_irm\_cont\_auth.info\_system\_sec\_officer\)
+-   CAM Administrator \(sn\_irm\_cont\_auth.admin\)
 
 **Note:**
 
--   The catalog, catalog overlay, System Security Plan \(SSP\), and profile file to be imported must be in JSON format and validated using the OSCAL-CLI tool [https://github.com/usnistgov/oscal-cli](https://github.com/usnistgov/oscal-cli) for any validation error.
+-   The catalog, catalog overlay, SSP, and profile file to be imported must be in JSON format and validated using the OSCAL-CLI tool [https://github.com/usnistgov/oscal-cli](https://github.com/usnistgov/oscal-cli) for any validation error.
 -   Recipients are notified through email on completion of the import process.
+-   User who should be mapped for CAM specific personas.
 
-The OSCAL SSP import is an asynchronous process.
+The OSCAL SSP import is a synchronous process.
+
+## Enter OSCAL import details
 
 ## Procedure
 
@@ -41,123 +48,93 @@ The OSCAL SSP import is an asynchronous process.
 
 6.  Enter the **Import status recipients** name.
 
-    Recipients receive an email notification about the import status.
+    You can list the users you want to be notified once the OSCAL import is complete. The recipient receives an email notification on the import status.
 
 7.  Select **Next** to continue to the next step in the OSCAL import process.
 
-    You’re directed to the **Attachments** tab to attach the SSP files.
+    You’ll be directed to the **Attachments** tab to attach the SSP files.
 
-8.  In the **Attachments** tab, attach the Catalog, Profile, SSP, and Plans of Action and Milestones \(POA&amp;M\) files and then select **Next** to upload the SSP files.
+8.  Attach the individual files in the **Attachments** tab, then select **Next** to upload the Overlay file.
 
-    **Note:** Catalog, Profile, and SSP are required files to attach.
+    **Note:** Catalog, Profile, and SSP are mandatory files.
 
     -   **Catalog**: Contains the details of the control objectives and its related objects.
-    -   **Profile**: Contains a baseline of selected controls from one or more control or overlay catalogs.
-    -   **Catalog Overlay**: Contains information regarding overlay policies and its control objectives and behavior of the overlay. This behavior depends on the addition or subtraction in which the overlay is included in the Authorization Package. For more information, see [Apply overlays to the baseline controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/apply-overlay-to-baseline.md). You can also upload multiple overlay files.
+    -   **Profile**: Contains a baseline of selected controls from one or more control catalogs.
     -   **SSP**: Contains the details of the authorization boundary, authorization package, system elements, information types, controls, common controls, inherit, hybrid controls, and others.
-    -   **Data flow diagram**, **Boundary diagram**, **Network diagram**, and **Enterprise architecture**: These diagrams are attached to the authorization boundary.
-    -   **POA&amp;Ms**: Contains a structured list of issues, milestones, and acceptance tasks.
-9.  Select **Add file** to attach the Overlay file, then select **Next**.
+    -   **Data flow diagram**, **Boundary diagram**, **Network diagram** and **Enterprise Architecture**: These diagrams are attached to the authorization boundary.
+9.  Select **Next** to continue with the attachments.
 
-    You can also upload multiple overlay files.
+    -   Overlay attachments: Attach one or more overlay files.
+    -   POA&amp;M attachments: Add one or more POA&amp;M files.
+    -   Authorization boundary attachments: Attach diagrams and other supporting documentation relevant to the authorization boundary, such as boundary assessment documents or architectural diagrams.
+    -   Authorization package attachments: Add specific authorization package documents. You can add the following files:
 
-10. Select **Add file** to attach the POA&amp;Ms file, then select **Next**.
+        -   SSP Report
+        -   SAP Report
+        -   SAR Report
+        -   ATO Letter
+        -   POA&amp;M Report
+        -   Executive Summary
+        These documents attach to specific authorization package document fields.
 
-    **Note:**
+        In addition, under the Attachments section, you can add general supporting documents, such as PDFs, Word documents, or images. These aren't linked to a specific field.
 
-    -   You can upload multiple POA&amp;M files.
-    -   You can’t import a POA&amp;M file, which is already linked to another active authorization package.
-    -   If there are any errors in the uploaded files for import, an error message is displayed, select **Restart** to upload a valid file.
-    -   If a warning appears, you can choose to skip it and select **Next** to proceed with the import process.
-    You’re directed to the **User and Group Mapping** tab to map the users for the import process.
+10. Select **Next** to continue to **Roles and Responsibilities**, where you can assign users to specific roles for the imported files.
 
-11. Select the users in the **User mapping** section, then select **Next**.
+    These users will retain their roles throughout each step in the authorization package.
 
-    The **OSCAL Users** listed in the OSCAL file match the **ServiceNow Users** in your instance, and all roles are automatically mapped in the **Listed as** section.
+11. Select **Next** to continue to **User mapping**, where the system maps users from the OSCAL file to ServiceNow users.
 
-12. Select the users in the **Group mapping** section, then select **Next**.
+    These users will retain their roles throughout each step in the authorization package.
 
-    The **OSCAL Group** listed in the OSCAL file match the **ServiceNow Group** in your instance, and all roles are automatically mapped in the **Listed as** section.
+    When usernames match, the system auto-maps them. When usernames do not match or the user does not exist in ServiceNow, you must manually select the corresponding ServiceNow user. The user mapping step verifies that all required roles are assigned \(System Owner, ISSO, ISSM, Engagement Lead, Auditors\). If mandatory roles are missing after auto-mapping, you must manually assign users before proceeding.
 
-13. Select the users in the **Roles and responsibility** section, then select **Next**.
+12. Select **Next** to continue to **Preview and Override**, where you can verify the files you uploaded.
 
-    Assign users to specific roles for the imported files. These users retain their roles throughout each step in the authorization package.
-
-14. You can also select the attachments, package mapping, or user and group mapping action icon on the **Attachments** or **User and Group Mapping** tab to select **Restart Stage** to restart the particular stage.
-
-15. Select **Next** to verify the files you uploaded.
-
-    **Preview and Override** tab displays.
-
-16. In the **Preview and Override** tab, review the details that are to be created, skipped, or overridden and then perform one of the following:
+13. In the **Preview and Override** tab, review the details that are to be created, skipped, or overridden and then perform one of the following:
 
     -   Select **Import** to import the SSP model.
 
-        **Note:** When all the data is new and must be imported, the import action creates records for the respective data. In this case, you can’t skip or override the files. However, if you import a file with the same source and matching records, you have the option to skip the data.
+        **Note:** When all the data is new and must be imported, the import action creates new records for the respective data. In this case, you can’t skip or override the files. However, if you import a file with the same source and matching records, you’ll have the option to skip the data.
 
-    -   To override the object, perform the following actions:
-        1.  Select **Select list to override** drop-down to choose the object to override.
+    -   To override data, perform the following actions:
+        1.  Select **Select list to override** to choose the data to override.
 
-        2.  Select **Skipped** to list the object that is to be overridden.
-        3.  Select the object from the list that you want to override.
+        2.  Select **Skipped** to list the reference that is to be skipped.
+
+            **Note:** Based on the data you select from the drop-down: If the data is in the **Will be skipped** state, you can only override it. When you override a control objective, all associated control objective requirements will also be overridden.
+
+        3.  Select the reference from the list that you want to override.
 
             \[Omitted image "cam-oscal-import-ssp6.png"\] Alt text: Overriding skipped files.
 
-        4.  Select **Override** to override one or more selected object.
+        4.  Select **Override** to override one or more selected references.
 
-            The selected object is flagged as overridden and the **Overridden** count is increased in the preview list.
+            The selected reference is flagged as overridden and the **Overridden** count is increased in the preview list.
 
-            **Note:** Based on the object you select from the drop-down: If the object is in the **Will be skipped** state, you can only override it.
+    -   To skip data, perform the following actions:
+        1.  Select **Select list to override** to choose the data to skip.
 
-            -   When you override an Authorization Boundary, the following related objects are overridden and can’t be skipped.
+        2.  Select **Overridden** to list the reference that is to be skipped.
 
-                -   System elements
-                -   Authorization packages
-                -   Baseline controls
-                -   Information types
-                -   Inherited controls
-                -   Hybrid controls
-                -   Not applicable controls
-                **Note:** A new authorization boundary isn’t created but related records are recreated.
+            **Note:** If it is in the **Overridden** state, you can only skip it.
 
-            -   When you choose to override an authorization package, the following related objects are overridden and can’t be skipped.
-                -   Baseline controls
-                -   Information types
-                -   Inherited controls
-                -   Hybrid controls
-                -   Not applicable controls
-            -   When you override an authorization package, a new authorization package is created and marks the existing authorization package as inactive.
-            -   When you override a control objective, its related control objective requirements are also overridden.
-            -   When you override a test template, its related assessment procedures are also overridden.
-            -   For POA&amp;M, skipped Acceptance tasks and milestones appear in the skipped list, but they can’t be overridden individually. To override them, the mapped POA&amp;M must be overridden. If the POA&amp;M status changes from **Override** to **Skip**, the linked Acceptance tasks and milestones follow.
-    -   To skip the object, perform the following actions:
-        1.  Select **Select list to override** drop-down to choose the object to skip.
+        3.  Select the reference from the list that you want to skip.\[Omitted image "cam-oscal-import-ssp7.png"\] Alt text: Skipping overridden files.
+        4.  Select **Skip** to override one or more selected references.
 
-        2.  Select **Overridden** to list the object that is to be skipped.
+            The selected reference is flagged as skip and the **Will be skipped** count is increased in the preview list.
 
-            **Note:**
+14. Select **Import** to import the SSP files.
 
-            -   You can only skip it if it is in the **Overridden** state.
-            -   When you skip a control objective, you can still independently override its related control objective requirements.
-        3.  Select the object from the list that you want to skip.
+    **Note:** If an error occurs during the import process, review the error message displayed in the pop-up and take the necessary corrective action.
 
-            \[Omitted image "cam-oscal-import-ssp7.png"\] Alt text: Skipping overridden files.
+    You can view the import status report in the **All OSCAL import** landing page.
 
-        4.  Select **Skip** to skip one or more selected references.
+15. If an error occurs during the import process, review the error message displayed in the pop-up and take the necessary corrective action.
 
-            The selected object is flagged as skip and the **Will be skipped** count is increased in the preview list.
+    You can also select the More Actions icon on the **Attachments** and **Roles and Responsibilities** tabs to select **Restart Stage** to restart the particular stage.
 
-17. Select **Import** to import the SSP files.
-
-    **Note:** You can also select the playbook action icon \(\[Omitted image "cam-oscal-import-action-icon.png"\] Alt text: Restart playbook icon\) to select **Restart Playbook** to restart the playbook.
-
-    -   A pop-up message appears on the commencement of the import process. Select **Close** and you 're directed to the OSCAL import landing page.
-
-        \[Omitted image "cam-oscal-landing-final\_ssp1.png"\] Alt text: OSCAL import process begins.
-
-    -   You can view the import status report in the **All OSCAL import** list.
-
-        \[Omitted image "cam-oscal-landing-final\_ssp2.png"\] Alt text: OSCAL import status.
+    **Note:** You can also select the playbook action icon to select **Restart Playbook** to restart the playbook.
 
 
 **Parent Topic:**[Import in OSCAL format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/import-oscal.md)

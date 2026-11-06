@@ -1,20 +1,20 @@
 ---
 title: Mobile experience for Workforce Optimization for Field Service
-description: Manage work order tasks from your mobile device with the ServiceNow Agent application. You can stay connected and access information in real time so that you can complete your tasks quickly.
+description: Manage work order tasks from your mobile device with the Now Mobile Agent application. You can stay connected and access information in real time so that you can complete your tasks quickly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-manager-workforce/mobile-interface-wfo-fsm.html
 release: zurich
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Workforce Optimization, Workforce, Use, Field Service Management]
+breadcrumb: [Workforce Optimization, Managing workforce, Use, Field Service Management]
 ---
 
 # Mobile experience for Workforce Optimization for Field Service
 
-Manage work order tasks from your mobile device with the ServiceNow Agent application. You can stay connected and access information in real time so that you can complete your tasks quickly.
+Manage work order tasks from your mobile device with the Now Mobile Agent application. You can stay connected and access information in real time so that you can complete your tasks quickly.
 
 If you're an agent \(sn\_fieldservice\_agent​\) or a manager \(sn\_wfo\_fsm.manager\), you both can use real-time notifications from the application to take action on an issue. ​Before you can do so, you must activate the Field Service Mobile plugin \(com.sn\_fsm\_mobile\). For more information, see [Mobile experience for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/mobile-experience-fsm.md).
 

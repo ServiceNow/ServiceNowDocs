@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-risk\_signal\_solution.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Risk portfolio dashboard, Customer success, Use, Customer Success Management]
+breadcrumb: [Risk portfolio dashboard, Dashboards, Customer success, Use, Customer Success Management]
 ---
 
 # Associate risk signals
@@ -76,6 +76,9 @@ Select the risk signal for which the solution is being associated.
 
     This enables you to track the risk and view the proposed solutions to address the risk.
 
+
+-   **[Draft close notes for a risk signal using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/draft-risk-close-notes.md)**  
+Automatically generate closure notes and close eligible risk signals at the end of each day based on the status of their associated risk solutions.
 
 **Parent Topic:**[Risk portfolio dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-risk-portfolio.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Build apps, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Work with bookmarked apps in Creator Studio
@@ -20,7 +20,7 @@ Bookmark an app to quickly find it in Creator Studio, as well as ServiceNow Stud
 
 All apps that are made and bookmarked in Creator Studio are bookmarked and available to work on in ServiceNow Studio. However, apps that are made in ServiceNow Studio are not available to work on in Creator Studio.
 
-**Note:** If you already have the app open, you select the bookmark icon \(\[Omitted image "crs-bookmark-icon.png"\] Alt text:\) in the navigation panel.
+**Note:** If you already have the app open, you select the bookmark icon \[Omitted image "crs-bookmark-icon.png"\] Alt text: in the navigation panel.
 
 \[Omitted image "crs-bookmark-nav-panel.png"\] Alt text: Select the bookmark icon in the navigation panel
 
@@ -38,7 +38,7 @@ To work on an app, your system administrator has to assign you the role of sn\_c
 
     For details, check out [Find existing apps in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/view-apps-creator-studio-home-page.md).
 
-3.  Select the bookmark icon \(\[Omitted image "crs-bookmark-icon.png"\] Alt text:\) for the app that you want to bookmark.
+3.  Select the bookmark icon \[Omitted image "crs-bookmark-icon.png"\] Alt text: for the app that you want to bookmark.
 
     \[Omitted image "crs-bookmark-app.png"\] Alt text: Select the bookmark icon to bookmark the app
 

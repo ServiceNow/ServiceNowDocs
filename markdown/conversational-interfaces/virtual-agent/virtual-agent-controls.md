@@ -1,5 +1,5 @@
 ---
-title: Assistant Designer Asset library controls
+title: Assistant Designer controls
 description: A Virtual Agent topic consists of a collection of controls within a topic flow. Use these controls to collect, process, and present information to your users. Controls can also read, create, and update records on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/virtual-agent-controls.html
@@ -7,13 +7,13 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Virtual Agent, Designer, controls, topic flow, read, create, update, records]
-breadcrumb: [Assistant Designer Asset library interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
-# Assistant Designer Asset library controls
+# Assistant Designer controls
 
 A Virtual Agent topic consists of a collection of controls within a topic flow. Use these controls to collect, process, and present information to your users. Controls can also read, create, and update records on your instance.
 
@@ -36,7 +36,7 @@ For controls that have prompts, messages, default values, or confirmation messag
 
 ## Data pills
 
-Use data pills to quickly and easily add dynamic information to your controls without using a script. Select the data pill icon \[Omitted image "variable-reference-picker.png"\] Alt text: Data pill icon. to open the data pill picker interface. In this interface, you can select data from script variables and from input variables set by your User Input controls.
+Use data pills to quickly and easily add dynamic information to your controls without using a script. Select the data pill icon \[Omitted image "variable-reference-picker.png"\] Alt text: to open the data pill picker interface. In this interface, you can select data from script variables and from input variables set by your User Input controls.
 
 Using data pills enables you to quickly and easily access the data in your variables. In contrast, scripting provides more complex options, like handling translation. The following examples illustrate how to use a text bot response that includes the name of the customer, handled both as a data pill and a script.
 
@@ -86,5 +86,5 @@ Sample script for conditionally showing the node:
 </td></tr></tbody>
 </table>In this example, a condition script returns a value of true if the current user is able to create incident records. This condition prevents a utilities control from creating an incident when the user does not have permission to do so.
 
-**Parent Topic:**[Assistant Designer Asset library interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-reference.md)
+**Parent Topic:**[Assistant Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-reference.md)
 

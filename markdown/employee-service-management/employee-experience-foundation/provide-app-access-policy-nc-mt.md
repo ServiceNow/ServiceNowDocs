@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Integrate, Integration for Agent Experience, Setup for integrating pre-published apps, Setup the Servicenow instance, MS Teams and Microsoft 365, Integrate, ServiceNow for Microsoft Teams and Microsoft 365, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Integrate, Integration for Agent Experience, Setup for integrating pre-published apps, Setup the Servicenow instance, Integrating ServiceNow with Microsoft Teams and Microsoft 365, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
 # Create a Service user to make calls from Microsoft Teams
@@ -124,9 +124,9 @@ Role required: Microsoft Azure admin
 
         \[Omitted image "powershell-user-permissions.png"\] Alt text: User permissions
 
-6.  Configure Microsoft Teams.
+6.  As a user with sn\_notify\_msteams.admin role, configure Microsoft Teams.
 
-    1.  Open your ServiceNow instance as a user with the role sn\_notify\_msteams.admin.
+    1.  Open your ServiceNow instance.
 
     2.  Navigate to **Notify** &gt; **Microsoft Teams** &gt; **Configuration**.
 

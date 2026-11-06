@@ -7,9 +7,9 @@ release: zurich
 product: Impact Activity Center
 classification: impact-activity-center
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Activity Center, Exploring Impact, Impact]
+breadcrumb: [Activity Center, Impact Delivery Instance reference, Impact reference, Impact]
 ---
 
 # Activity Center All Recommendations
@@ -26,4 +26,6 @@ View AI driven and expert suggested recommendations for training, content, and e
     -   Provide feedback on the recommended content.​
 
 Filter for specific recommendations and publish contextual recommendations or clean-up unused recommendations.
+
+**Parent Topic:**[Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-activity-center/impact-activity-center.md)
 

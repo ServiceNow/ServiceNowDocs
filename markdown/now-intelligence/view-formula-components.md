@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/view-formula-components.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Examining indicators with KPI Details, KPI Details, Platform Analytics experience, Platform Analytics]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Examining indicators, KPI Details, Platform Analytics experience, Platform Analytics]
 ---
 
 # View contributing indicators to a formula in KPI Details
@@ -17,8 +17,6 @@ If you’re viewing a formula indicator in KPI Details, you can list the contrib
 The Information icon \[Omitted image "Form\_ReferenceLookupIcon.png"\] Alt text: Information icon. next to the name of the indicator opens an information pane. If the indicator is a formula indicator, the information pane includes the formula.
 
 \[Omitted image "kpi-details-formula-info.png"\] Alt text: Information pane for formula indicator showing formula with contributing indicators.
-
-\[Omitted image "kpi-signals-no-signal.png"\] Alt text:
 
 Depending on how the UI Builder admin has configured the KPI Details component you’re viewing, the names of the [contributing indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md) can be clickable. If clickable, selecting an indicator name opens that indicator in KPI Details. Again depending on the configuration, the indicator can open either in the same KPI Details tab or a new tab in the same workspace.
 
@@ -33,7 +31,13 @@ Depending on how the UI Builder admin has configured the KPI Details component y
 
 [Select time aggregation in KPI Details]()
 
-[Filter KPI Details by breakdown elements]()
+[Configure trend for a native Data snapshots indicator in KPI Details]()
+
+[Configure display properties for a Data snapshots indicator]()
+
+[Filter indicator scores by breakdown elements in KPI Details]()
+
+[Filter native Data snapshots indicator scores in KPI Details]()
 
 [Access indicator record or scoresheet from KPI Details]()
 

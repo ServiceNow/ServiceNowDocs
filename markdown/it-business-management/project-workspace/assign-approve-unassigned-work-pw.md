@@ -7,9 +7,9 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-02-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Resource assignments in Project Workspace, Plan resources, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Resource assignments in Project Workspace, Resource planning with Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Access, assign, and approve unassigned work in Project Workspace
@@ -22,7 +22,7 @@ Role required: it\_project\_manager
 
 ## About this task
 
-In Project Workspace, when you select **Resources** page from the left menu, you are redirected to a page that displays the project associated resources and their resource assignments for better resource planning. By embedding the resource page through interoperability, the Project Workspace application supports these actions:
+In Project Workspace, when you select **Resources** page from the left menu, you’re redirected to a page that displays the project associated resources and their resource assignments for better resource planning. By embedding the resource page through interoperability, the Project Workspace application supports these actions:
 
 -   View assigned and unassigned work from the resource page.
 -   Assign unassigned work using automatic or manual effort distribution.
@@ -39,23 +39,23 @@ In Project Workspace, when you select **Resources** page from the left menu, you
 
 3.  Enable the Unassigned tasks toggle \(\[Omitted image "rmw-unassigned-tasks-toggle.png"\] Alt text: Unassigned tasks toggle.\) to view the unassigned work requests in the lower pane.
 
-    \[Omitted image "resource-board-pw.png"\] Alt text: Resource board view of a Project in Project Workspace.
+    \[Omitted image "resource-board-pw.png"\] Alt text: Resource board viewof a Project in Project Workspace.
 
-    You can create resource assignments based on the primary attributes \(Group, Skill, or Role\). You can see a comprehensive view resource allocations and group them by primary group, skill, role, owner, and parent item.
+    You can create resource assignments based on the primary attributes \(Group, Skill, or Role\). You can see a comprehensive view of resource allocations and group them by primary group, skill, role, owner, and parent item.
 
 4.  From unassigned tasks pane, select the context menu row \(\[Omitted image "row-context-menu-icon.png"\] Alt text: 3 vertical dots denoting the row context menu.\) for any task and select **Assign Work**.
 
 5.  You can assign work using one of the following ways.
 
-<table id="choicetable_qth_yqy_khc"><thead><tr><th align="left" id="d239384e158">
+<table id="choicetable_qth_yqy_khc"><thead><tr><th align="left" id="d257721e170">
 
 Assign work choices
 
-</th><th align="left" id="d239384e161">
+</th><th align="left" id="d257721e173">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d239384e167">
+</th></tr></thead><tbody><tr><td id="d257721e179">
 
 **Auto Assign**
 
@@ -63,13 +63,13 @@ Description
 
 The system automatically identifies all resources based on the selected primary attributes and distributes the work equally among the resources.In the Assign resources window, select **Assign resources automatically** from the Assign resources list.
 
-</td></tr><tr><td id="d239384e181">
+</td></tr><tr><td id="d257721e193">
 
 **Manual Assign**
 
 </td><td>
 
-Enables you to choose specific resources and decide how much effort to allocate. There are two sub options which you can choose.1.  Select the required resources from the Select resources list. You can assign efforts using one of the following sub options:
+Enables you to choose specific resources and decide how much effort to allocate. There are two sub options, which you can choose.1.  Select the required resources from the Select resources list. You can assign efforts using one of the following sub options:
     1.  Select the **Distribute entire efforts equally** option to distribute the entire requested effort equally among the selected users.
     2.  Select the **Distribute partial effort equally** option and enter the required efforts in the field.
 2.  Partial Effort Equally: Assign only the entered efforts equally among the selected resources.

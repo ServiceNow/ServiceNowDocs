@@ -7,7 +7,7 @@ release: zurich
 product: Service Exchange
 classification: service-exchange
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Exchange]
 ---
@@ -24,3 +24,13 @@ As a consumer, you can:
 -   Bidirectionally integrate your tasks with your provider's tasks.
 -   Receive proactive tasks from providers for transparency and collaboration.
 
+<table id="table_k52_dyx_yxb" class="nav-card"><tbody><tr><td>
+
+[Configure for consumers\[Omitted image "bus-optimize-manage-sb.svg"\]Learn how to install and configure Service Exchange for consumers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/service-bridge-v2-install.md)
+
+</td><td>
+
+[User for consumers\[Omitted image "bus-try-a-demo.svg"\] Alt text:Learn how to use Service Exchange for consumers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/se-consumer-using.md)
+
+</td></tr></tbody>
+</table>

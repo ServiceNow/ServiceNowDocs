@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Alert impact calculation, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -30,7 +30,7 @@ You can view and adjust the impact rules of CIs from the application service map
 
 1.  Open the application service map from either the Event Management dashboard or the Application service list.
 
-<table id="choicetable_mbd_wfk_35"><tbody><tr><td id="d584859e129">
+<table id="choicetable_mbd_wfk_35"><tbody><tr><td id="d638439e131">
 
 **From the Event Management dashboard**
 
@@ -40,7 +40,7 @@ You can view and adjust the impact rules of CIs from the application service map
 2.  Double-click the tile of the application services.
 
 
-</td></tr><tr><td id="d584859e159">
+</td></tr><tr><td id="d638439e161">
 
 **From the Application Service list**
 

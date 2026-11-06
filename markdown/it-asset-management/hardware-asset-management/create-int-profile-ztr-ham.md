@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage Zero Touch request flow, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Configure Zero Touch request flow, Integrations and advanced configuration, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a provider integration profile
@@ -20,7 +20,7 @@ Create a provider integration profile to convert any format of Scratchpad update
 
 You must have the Script Include with the method **transformScratchPadToHAMZTRFormat**. For details, see [Create a Script Include to transform Scratchpad updates from the provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/creating-script-include-for-provide-ztr.md).
 
-Role required: admin
+Role required: asset\_integration\_admin or admin
 
 ## Procedure
 
@@ -44,4 +44,6 @@ Role required: admin
 ## Result
 
 The provider integration profile is created and added to the Provider integration profiles list.
+
+**Parent Topic:**[Configure Zero Touch request flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/configure-ztr-flow.md)
 

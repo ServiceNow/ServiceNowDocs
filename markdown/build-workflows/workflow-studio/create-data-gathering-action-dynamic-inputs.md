@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Dynamic inputs, Create an action in Workflow Studio, Building actions, Use, Workflow Studio, Build workflows]
+breadcrumb: [Dynamic inputs, Create an action in Workflow Studio, Build actions, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Create a data gathering action for a dynamic inputs type input
@@ -20,7 +20,7 @@ Create a data gathering action to create arbitrary action inputs using a dynamic
 
 Role required: admin
 
-**Note:** Dynamic inputs are not available in the base system. To use dynamic inputs in Workflow Studio, you must Request an Integration Hub plugin.
+**Note:** Dynamic inputs are not available in the base system. To use dynamic inputs in Workflow Studio, you must [Request an Integration Hub plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/request-integrationhub.md).
 
 ## Procedure
 

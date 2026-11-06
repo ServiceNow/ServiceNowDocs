@@ -7,7 +7,7 @@ release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Routing work items, Channels, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -40,15 +40,15 @@ The active work items remain in the queue pending manual allocation for one of t
 
 3.  Do any of the following to manually allocate the work items.
 
-<table id="choicetable_pjv_3lx_ft"><thead><tr><th align="left" id="d159045e118">
+<table id="choicetable_pjv_3lx_ft"><thead><tr><th align="left" id="d269307e118">
 
 Navigate To
 
-</th><th align="left" id="d159045e121">
+</th><th align="left" id="d269307e121">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d159045e127">
+</th></tr></thead><tbody><tr><td id="d269307e127">
 
 **Active Work Items tab**
 
@@ -56,7 +56,7 @@ Do this
 
 Select the work item and click **Allocate**.
 
-</td></tr><tr><td id="d159045e139">
+</td></tr><tr><td id="d269307e139">
 
 **Service Channel page**
 
@@ -68,7 +68,7 @@ Select the work item and click **Allocate**.
 4.  Click **Allocate**.
 
 
-</td></tr><tr><td id="d159045e169">
+</td></tr><tr><td id="d269307e169">
 
 **All Queues tab**
 

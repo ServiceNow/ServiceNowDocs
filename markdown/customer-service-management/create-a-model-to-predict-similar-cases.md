@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-a-model-to-predict-similar-cases.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Task Intelligence for Customer Service, Machine learning solutions, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -25,7 +25,7 @@ Test and edit the pre-trained similar cases model for predicting similarity in c
     -   Major Case identifier
     -   Similar Open Cases
     -   Similar Resolved Cases
-    To get recommendations for a major case identifier that includes propose major cases and similar major cases, install the [Major Issue Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/activate-major-issue-mgmt.md) plugin and activate the feature as needed to get recommendations. When you install the Task Intelligence for CSM plugin in your production instance, the plugin automatically installs and trains the similar open cases, similar resolved cases, and major case identifier models using your data. These models are then auto-deployed. The similar open case and similar resolved case models show predictions on recommended actions on case form. However, recommendations aren’t enabled for the major case identifier model in the base system.
+    To get recommendations for a major case identifier that includes propose major cases and similar major cases, install the major issue management plugin. Activate the feature as needed to get recommendations. When you install the Task Intelligence for CSM plugin in your production instance, the plugin automatically installs and trains three models using your data: similar open cases, similar resolved cases, and major case identifier. These models are then auto-deployed. The similar open case and similar resolved case models show predictions on recommended actions on case form. However, recommendations aren’t enabled for the major case identifier model in the base system.
 
 
 ## Steps to activate Major Case identifier recommendation

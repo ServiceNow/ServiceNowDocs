@@ -18,7 +18,7 @@ The SAP ECC RFC spoke is built by Bristlecone, Inc. Manage items, journals, proc
 
 ## Request apps on Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html). Starting on March 1st 2022, all SAP spokes will be available only on the Store.
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html). Starting on March 1st 2022, all SAP spokes will be available only on the Store.
 
 ## Integration Hub subscription
 
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-SAP ECC RFC spoke v2.12.0 is the latest version.
+SAP ECC RFC spoke v2.12.0 is the latest version. For version history of the spoke, see [SAP ECC RFC spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-sap-ecc-rfc.html).
 
 ## Supported versions
 
@@ -80,7 +80,7 @@ The SAP ECC RFC spoke provides sample flows to demonstrate automating the SAP EC
 
 The SAP ECC RFC spoke provides actions to automate SAP ECC RFC tasks when events occurs in your ServiceNow instance. Available actions include:
 
-<table id="table_ilw_qd4_5kc"><thead><tr><th>
+<table id="table_o3f_np4_xmb"><thead><tr><th>
 
 Category
 

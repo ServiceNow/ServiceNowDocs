@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/managing-service-orders.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -24,4 +24,11 @@ A communication service provider \(CSP\) can define 5G services in the technical
 Use the Technical Service Qualification API to evaluate a service request for feasibility and availability before you submit an order for fulfillment in the Order Management application.
 
 **Parent Topic:**[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-order-management.md)
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-order-management.md)
 

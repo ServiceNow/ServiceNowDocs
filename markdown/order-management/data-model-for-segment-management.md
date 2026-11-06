@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/data-model-for-segment-management.html
 release: zurich
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Configure Segment Management, Partner Relationship Management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configure Segment Management, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
 
 # Data model for Segment Management
@@ -132,9 +132,9 @@ Domain to which the segment belongs.
 
 Perform the following configuration tasks to set up the data model tables to establish an association between segment management and Partner Relationship Management.
 
--   [Configure Program Segment Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-program-segment-mapping.md)
--   [Configure Program Segment Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-program-segment-criteria.md)
--   [Configure Program Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-program-criteria.md)
+-   
+-   
+-   
 
 **Parent Topic:**[Configure Segment Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-segment-management.md)
 

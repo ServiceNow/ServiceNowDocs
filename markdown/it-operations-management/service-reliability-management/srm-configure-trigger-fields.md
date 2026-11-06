@@ -7,8 +7,8 @@ release: zurich
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2025-11-18"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Configuring Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -34,15 +34,15 @@ Configure additional fields that teams can use when setting up escalation trigge
 
     **Note:** Selecting fields not listed in the table might cause performance issues.
 
-<table id="choicetable_uxy_qdw_3hc"><thead><tr><th align="left" id="d408101e108">
+<table id="choicetable_uxy_qdw_3hc"><thead><tr><th align="left" id="d442763e110">
 
 Table
 
-</th><th align="left" id="d408101e111">
+</th><th align="left" id="d442763e113">
 
 Supported fields
 
-</th></tr></thead><tbody><tr><td id="d408101e117">
+</th></tr></thead><tbody><tr><td id="d442763e119">
 
 **em\_alert**
 
@@ -57,7 +57,7 @@ Supported fields
 -   Overall Event Count
 
 
-</td></tr><tr><td id="d408101e151">
+</td></tr><tr><td id="d442763e153">
 
 **incident**
 
@@ -84,24 +84,7 @@ To set up an escalation trigger, see [Create an escalation trigger](https://raw.
 
 **Parent Topic:**[Configuring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/configuring-service-reliability-management.md)
 
-**Related topics**  
+**Previous topic:**[Approve a change request for SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-approve-change-req.md)
 
-
-[Install Service Reliability Management from Admin Center or ServiceNow Store]()
-
-[Assign an administrator to Service Reliability Management]()
-
-[Activate teams and services in SRM]()
-
-[Customize service approval settings]()
-
-[Customize team approval settings]()
-
-[Configure error budget actions for breached SRM SLOs]()
-
-[Approve a change request for SRM]()
-
-[Configure Twilio to send notifications in SRM]()
-
-[Install the Alert Automation application]()
+**Next topic:**[Configure Twilio to send notifications in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-add-twilio-key.md)
 

@@ -1,16 +1,16 @@
 ---
-title: Configure Technology Lifecycle Management
+title: Configure Technology Portfolio Management
 description: Configure Technology Lifecycle Management in Enterprise Architecture Workspace. By configuring TLM, you can get application lifecycle risk insights and rationalize applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-config-tech-portfolio-mgmt.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure EA Workspace using the Setup page, Configure, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Configure EA Workspace using the Setup page, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Configure Technology Lifecycle Management
+# Configure Technology Portfolio Management
 
 Configure Technology Lifecycle Management in Enterprise Architecture Workspace. By configuring TLM, you can get application lifecycle risk insights and rationalize applications.
 
@@ -22,7 +22,7 @@ Activate the Technology Lifecycle Management \(TLM\) store application that you 
 **Related topics**  
 
 
-[Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-tpm.md)
+[Exploring Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-tpm.md)
 
 [Working with Technology Lifecycle Management \(TLM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-work-with-tpm.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/wfo-configurable-mobile-interface.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
@@ -96,5 +96,5 @@ Tap the notification. The case record appears.
 Review the case record and take appropriate action.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/use-configurable-wfo-cs.md)
+</table>**Parent Topic:**[Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/use-configurable-wfo-cs.md)
 

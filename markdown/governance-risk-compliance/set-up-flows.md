@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/set-up-flows.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Using Digital resilience incident reporting, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---

@@ -7,7 +7,7 @@ release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-01-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Portal Data List widget, Set up Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
 ---

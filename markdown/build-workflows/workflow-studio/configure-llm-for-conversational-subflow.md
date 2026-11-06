@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Building subflows, Use, Workflow Studio, Build workflows]
+breadcrumb: [Build subflows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Configure LLM to generate descriptions for conversational subflows
@@ -24,7 +24,7 @@ Role required: admin
 
 In the conversational subflow settings, you can use generative AI to generate descriptions for skills, inputs, and outputs of a conversational subflow. You can select a default LLM to generate these descriptions out of any of the following preconfigured LLMs:
 
--   Anthropic Claude on AWS
+-   Anthropic Claude
 -   Azure OpenAI
 -   Google Gemini
 -   Now LLM

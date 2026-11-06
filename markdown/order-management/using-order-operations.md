@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/using-order-operations.html
 release: zurich
 topic_type: concept
-last_updated: "2025-11-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Sales Customer Relationship Management]
 ---
@@ -22,4 +22,11 @@ Case management provides a structured and efficient approach to handling a wide 
 Sales process managers can use Lead-to-Cash Process Management to create sales process records and monitor and track sales processes through a consolidated dashboard.
 
 **Parent Topic:**[Using Sales Customer Relationship Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-using.md)
+
+**Related topics**  
+
+
+[Configuring the order operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configuring-order-operations.md)
+
+[Order operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-operations-landing.md)
 

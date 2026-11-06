@@ -7,9 +7,9 @@ release: zurich
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Remote record producers, Create remote catalogs, Install and configure for provider, Service Exchange for Providers, Service Exchange]
+breadcrumb: [Create remote catalogs, Configure for providers, Service Exchange for Providers, Service Exchange]
 ---
 
 # Create a remote record producers in a remote catalog in Service Exchange for Providers

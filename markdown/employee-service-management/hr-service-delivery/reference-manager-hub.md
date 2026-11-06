@@ -7,7 +7,7 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manager Hub, HR Service Delivery, Employee Service Management]
 ---
@@ -32,7 +32,7 @@ Predefined set of team data configurations are available to use after you have a
 Predefined set of filter group configurations are available to use after you have activated Manager Hub from ServiceNow Store.
 -   **[Default configurations for daily stats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/config-daily-stats.md)**  
 Predefined set of daily stat configurations are available to use once you have activated Manager Hub from ServiceNow Store.
--   **[Default configurations for to-dos](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/manager-hub-todos.md)**  
+-   **[Default configurations for To do's](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/manager-hub-todos.md)**  
 Default set of To do's configurations are available to use after you have activated Employee Center Core. These configurations display managerial tasks and requests in Manager Hub.
 -   **[Default proactive prompts for Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/prompts-mh.md)**  
 Default signal configurations, signal categories, and an action URL are available to use on activating Manager Hub and Proactive Prompts.

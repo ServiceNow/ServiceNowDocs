@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/core-business-suite/instance-option-helpt.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Core Business Suite]
 ---
@@ -28,4 +28,6 @@ Role required: sn\_cbs.admin
 
     For a description of the field values, see [Help topics instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/core-business-suite/helpt-instance-form.md).
 
+
+**Parent Topic:**[Configure Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/core-business-suite/configure-cbs.md)
 

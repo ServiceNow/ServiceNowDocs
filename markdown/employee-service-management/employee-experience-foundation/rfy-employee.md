@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Using Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # View the Recommended for you content
@@ -22,7 +22,7 @@ As an employee, you can access the recommended knowledge articles or catalog ite
 -   Catalog item recommendations are based on the number of times it is requested for.
 -   The recommendations associated to the portal taxonomy are displayed on the home page.
 
-
+\[Omitted image "standard-ec-homepage.jpg"\] Alt text: recommended for you
 
 For more information, see [Recommended for you](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/rfy-ec.md)
 
@@ -36,8 +36,6 @@ For more information, see [Recommended for you](https://raw.githubusercontent.co
 [Topic managers and contributors for topic page management]()
 
 [Use the My To-dos page]()
-
-[View advanced portal navigation]()
 
 [Use approval experience]()
 

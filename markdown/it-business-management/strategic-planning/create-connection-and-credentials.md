@@ -1,20 +1,20 @@
 ---
 title: Create connection and credentials for SPW Jira Integrations
-description: Using your Jira instance details, create a connection and credential for the child alias. This alias enables the two-way sync of work item updates between Strategic Planning Workspace and Jira.
+description: Using your Jira instance details, create a connection and credential for the child alias. This alias is used to enable the two-way sync of work item updates between Strategic Planning Workspace and Jira.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/strategic-planning/create-connection-and-credentials.html
 release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2025-12-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up a Jira instance, Configure, SPW Jira Integrations, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Create connection and credentials for SPW Jira Integrations
 
-Using your Jira instance details, create a connection and credential for the child alias. This alias enables the two-way sync of work item updates between Strategic Planning Workspace and Jira.
+Using your Jira instance details, create a connection and credential for the child alias. This alias is used to enable the two-way sync of work item updates between Strategic Planning Workspace and Jira.
 
 ## Before you begin
 

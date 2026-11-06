@@ -7,9 +7,9 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Set up dynamic approval configuration for policy, Enhancement steps, Implement, Policy and Compliance Management, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Set up dynamic approval configuration on a policy record, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Policy dynamic approval setup
@@ -57,6 +57,4 @@ A user with the sn\_compliance\_ws.corporate\_compliance\_manager role can creat
 
     If the policy gets rejected at any level, it is reset to the **Draft** state. When all levels are approved, the policy moves to the **Published** state.
 
-
-**Parent Topic:**[Set up dynamic approval configuration on a policy record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/dynamic-approval-config-for-a-policy.md)
 

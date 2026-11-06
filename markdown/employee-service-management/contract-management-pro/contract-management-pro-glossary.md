@@ -7,8 +7,8 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 13
 breadcrumb: [Reference, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
@@ -33,6 +33,8 @@ Glossary terms are grouped alphabetically.
 
 [Contract request State and Contract document status in Contract Management Pro]()
 
+[Amendment and renewal interaction messages]()
+
 [Signatory roles]()
 
 [Clause Variation form]()
@@ -53,6 +55,14 @@ Glossary terms are grouped alphabetically.
 
 [Obligation Management notifications]()
 
+[Contract Analysis Playbook form]()
+
+[Contract analysis playbook tool messages]()
+
+[Contract request ticket page actions]()
+
+[Default availability of out-of-the-box record producers]()
+
 [Contract Management solutions]()
 
 ## A
@@ -64,6 +74,26 @@ A predefined sequence of automated or manual steps that a contract must go throu
 ### audit trail
 
 A record of all changes made to a contract.
+
+### ad hoc obligation task
+
+An obligation task in Contract Management Pro that is required only once or at irregular intervals to fulfill a contract obligation, created manually rather than on a schedule.
+
+### AI Contract Administrator
+
+A Contract Management Pro role that provides administrative access to Now Assist in Contract Management Pro, including installing the plugin and activating required skills.
+
+### AI Contract Configurator
+
+A Contract Management Pro role that configures the use case mappings for Now Assist in Contract Management Pro.
+
+### AI Contract Fulfiller
+
+A Contract Management Pro role that uses Now Assist in Contract Management Pro to analyze contract documents for deviations, extract metadata from signed contracts, and query the contract repository through conversational search.
+
+### amendment request
+
+A request type in Contract Management Pro used to modify an existing contract by adding, removing, or updating terms, without replacing the entire contract; supports both own-paper and third-party paper contracts.
 
 ## C
 
@@ -107,6 +137,102 @@ A centralized interface within ServiceNow where contract-related activities are 
 
 Predefined templates that are used to expedite the contract creation process and maintain consistency across agreements. These templates include placeholders for clauses, fields, dynamic tables, and signature blocks, which are automatically updated based on the information in a contract request.
 
+### change request
+
+In Contract Management Pro, a user-submitted request asking a contract fulfiller to revise a contract document's content, tracked through its own status; distinct from a ServiceNow ITSM change request.
+
+### clause
+
+In Contract Management Pro, a clause is a collection of clause variations, each containing a block of content; the applicable variation is selected automatically when a contract document is generated.
+
+### clause variation
+
+A version of a clause's content in Contract Management Pro that is inserted into a contract document only when its defined condition, such as a field value, user criteria, or script, is met.
+
+### collaborator
+
+A user added to a contract request in Contract Management Pro who can access and work on it like an assignee, but can't modify the Assigned to, Assignment group, or Assignment group permission fields.
+
+### Contract Administrator
+
+A Contract Management Pro role that provides administrative access to Contracts Core and its underlying data.
+
+### Contract Analytics Pack
+
+The plugin that installs the roles and scheduled jobs needed to activate and populate the Contract Dashboard in Contract Management Pro with contract volume, work-distribution, and renewal analytics.
+
+### contract configuration
+
+An admin record in Contract Management Pro that determines which contract template and contract repository are used to generate a contract document, based on conditions evaluated against the contract request.
+
+### Contract Configurator
+
+A Contract Management Pro role that provides access to configure data for contract templates and contract configurations, without access to transactional data.
+
+### contract family hierarchy
+
+The set of parent, child, sibling, and grandchild contract and amendment requests related to a contract request in Contract Management Pro, linked together with optional field inheritance and viewable in the Related Contract Requests tab.
+
+### Contract Fulfiller
+
+A Contract Management Pro role required to initiate actions while fulfilling an assigned contract execution, such as creating revisions, adding signers, or canceling a signer.
+
+### contract history
+
+An automatically maintained set of prior versions of a contract record in Contract Management Pro, created whenever the contract's end date or its terms and conditions change.
+
+### contract reminder date
+
+A date in Contract Management Pro that's automatically calculated from the contract end date, the presence of an auto-renewal clause, and the notice period, used to notify designated recipients about an upcoming contract renewal or termination.
+
+### Contract Report Publisher
+
+A Contract Management Pro role that provides restricted access to contract requests and signed contracts data for publishing related reports.
+
+### Contract Report Viewer
+
+A Contract Management Pro role that provides restricted access to view reports for contract requests and signed contracts data on the Contracts Dashboard.
+
+### contract repository rule
+
+A configurable rule in Contract Management Pro, tied to a contract repository field such as expiration level, that determines when automated actions like expiring-contract reminder emails are triggered.
+
+### Contract Reviewer
+
+A Contract Management Pro role that reviews contract documents, tracks review tasks, and uses the clause library to add appropriate clauses.
+
+### contract status
+
+A field on the contract request in Contract Management Pro that tracks the granular processing state of the contract document, such as awaiting approval or awaiting signature, tracked separately from the request's overall State field.
+
+### contract template rule
+
+A rule in Contract Management Pro that determines which contract document template is used to generate a document for a request, based on conditions and a priority order.
+
+### Contract User
+
+A Contract Management Pro role required to initiate and track contract and amendment requests.
+
+### Contract Workspace Administrator
+
+A Contract Management Pro role that grants administrators permission to change the Contract Workspace to fit business or user requirements.
+
+### Contract Workspace User
+
+A Contract Management Pro role that provides access to the Contract Workspace.
+
+### Contracts Core
+
+The underlying ServiceNow application that provides the foundational contract management capabilities used by Contract Management Pro, including clause variations, electronic signature requests, notifications, and external storage integration.
+
+### Contracts PA Admin
+
+A Contract Management Pro role that provides permission to activate and configure the Contract Analytics Pack application.
+
+### Conversational Contract Search and Insights
+
+A named skill in Contract Management Pro that lets users search and retrieve information from contracts using natural-language, dialogue-driven queries.
+
 ## E
 
 ### e-signature
@@ -121,6 +247,20 @@ A portal for submitting contract requests.
 
 Third-party cloud storage platforms such as OneDrive or Google Drive that can be integrated with ServiceNow for contract document management.
 
+### expected response mapping
+
+A Yes/No answer mapped to a field, or prompt question, within a Contract Management Pro contract analysis use case; AI compares its generated answer to the expected response to decide whether a clause is standard or non-standard.
+
+### expiring contracts condition
+
+A rule in Contract Management Pro that specifies when a contract-expiration email notification is triggered, based on a table field condition and the configured number of days before expiry.
+
+## I
+
+### internal signatory rule
+
+A configuration in Contract Management Pro that automatically maps an internal user as a signatory on a contract document generated from a template, based on conditions such as assignment group; it takes precedence over participant-based mapping when both apply.
+
 ## M
 
 ### metadata extraction
@@ -130,6 +270,18 @@ A Now Assist skill used to extract metadata from signed contracts and add the in
 ### Microsoft Word Add-in
 
 A program that integrates with Microsoft Word that enables a user to add content controls for metadata, clauses, signature blocks, and dynamic tables.
+
+### manage contract repository
+
+The named agentic AI workflow in Contract Management Pro that runs after a contract is signed, using AI agents to extract key metadata and obligations from the signed contract and calculate the contract reminder date.
+
+### modify signatories
+
+An option in Contract Management Pro that pauses an in-progress contract signature process so a fulfiller can add, edit, reorder, or remove pending signatories; changes are automatically reverted if not resumed within a configured time window.
+
+### multiple contracts
+
+A contract request type in Contract Management Pro that supports more than one contract type or document within a single request, as opposed to a single contract, enabling actions like reclassifying documents between contract types.
 
 ## N
 
@@ -159,11 +311,45 @@ A technology that converts scanned contract documents or PDFs into searchable an
 
 A contract request initiated and managed by the requester where the contract document is created using templates and clauses that have already been verified and approved by the internal contract team, reducing dependency on legal teams and accelerating processing.
 
+### Obligation Administrator
+
+A Contract Management Pro role that provides administrative access to Obligation Management and its underlying data.
+
+### Obligation Fulfiller
+
+A Contract Management Pro role required to perform actions while managing an obligation, such as creating, approving, rejecting, or canceling obligation tasks.
+
+### Obligation User
+
+A Contract Management Pro role required to update and submit obligation tasks.
+
+### offline signature
+
+A signature type in Contract Management Pro recording that a contract was signed outside the application, such as on paper or via a third-party application; no signature-request emails are sent, and the signed document is uploaded directly.
+
+## P
+
+### participant
+
+A placeholder configured in a Contract Management Pro contract template for a person who will later be assigned an action, such as filling, signing, or reviewing, on the generated document.
+
+### playbook
+
+A tab on a contract repository record in Contract Management Pro that opens a step-by-step interface where contract managers and fulfillers review, edit, approve, or reject AI-extracted metadata and obligations from a signed contract.
+
 ## R
 
 ### record producer
 
 A catalog item that allows end users to create records from the Service Catalog.
+
+### recurring obligation task
+
+An obligation task in Contract Management Pro that is required at regular intervals to fulfill a contract obligation, generated automatically based on a defined schedule.
+
+### regenerate
+
+An action in Contract Management Pro that creates a new version of the contract document directly from the template with the latest metadata, signatories, and tables, discarding changes made in the previous revision.
 
 ## S
 
@@ -175,11 +361,35 @@ A contract request that is initiated and managed by the requester. The contract 
 
 A marketplace where users can find and install applications, plugins, and enhancements for ServiceNow, including contract management extensions.
 
+### Search Contracts AI Agent
+
+The AI agent in Contract Management Pro that finds and interprets legal contracts and documents, returning results for natural-language questions as part of conversational search and Q&amp;A.
+
+### signatory role
+
+A configuration field in Contract Management Pro that assigns a signing role, such as Signer, Viewer, Receiver, or Approver, to a contract signatory; active only for contracts using the DocuSign electronic signature provider.
+
+### signature block
+
+A contract template mode in Contract Management Pro where signature fields are embedded directly in the document as an alternative to a participant-based template; the number of blocks generated is based on the signatories specified in the contract request.
+
+### sync document
+
+An action in Contract Management Pro that creates a new contract document revision with updated metadata and signatories while retaining edits made in the previous revision.
+
 ## T
 
 ### third-party contract request
 
 A contract request that requires the legal team to draft, negotiate, or finalize the contract.
+
+### table mapping
+
+A contract template configuration in Contract Management Pro that links a data source table in the instance to a table placeholder in the template, so matching records are dynamically inserted into the generated contract document.
+
+### template mapping
+
+A contract template configuration in Contract Management Pro that pre-fills metadata, signature, and signatory values into the generated document based on fields tagged with content control prefixes, distinct from AI-driven metadata extraction.
 
 ## W
 

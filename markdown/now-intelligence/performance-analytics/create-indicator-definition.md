@@ -7,9 +7,9 @@ release: zurich
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 6
-breadcrumb: [Defining indicators and reports, Design your indicator solution, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [Design your indicator solution, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Create an indicator definition
@@ -17,6 +17,10 @@ breadcrumb: [Defining indicators and reports, Design your indicator solution, Co
 You can create a new KPI Composer indicator definition directly from the relevant artifact in the Data Definition tab. Fill the indicator definition with the necessary information for creating a Performance Analytics indicator.
 
 ## Before you begin
+
+**Important:**
+
+This application is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 You have an existing [KPI Composer project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/kpi-composer-projects.md) with a complete draft of the [KPI tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/design-kpi-tree.md) in the Analytics tab. You also need technical knowledge of Performance Analytics indicators.
 
@@ -66,15 +70,15 @@ You can create an indicator definition for every artifact in your project, wheth
 
 8.  Decide whether an Automated, Formula, or Manual indicator best represents the information in the artifact.
 
-<table id="choicetable_tkh_r5y_4jb"><thead><tr><th align="left" id="d168959e272">
+<table id="choicetable_tkh_r5y_4jb"><thead><tr><th align="left" id="d177607e289">
 
 Indicator Type
 
-</th><th align="left" id="d168959e275">
+</th><th align="left" id="d177607e292">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d168959e281">
+</th></tr></thead><tbody><tr><td id="d177607e298">
 
 **Automated**
 
@@ -82,15 +86,15 @@ Description
 
 An automated indicator uses an indicator source as its data set. The indicator source specifies a table or database view, conditions for filtering records from that source, and the frequency at which you expect to display the data. The indicator applies an aggregator and optional conditions to this data.
 
-</td></tr><tr><td id="d168959e293">
+</td></tr><tr><td id="d177607e310">
 
 **Formula**
 
 </td><td>
 
-Create a formula indicator to produce a new computed score from one or more other indicators. Besides indicator scores, the formula can include calculations such as the gap between an indicator score and the indicator target.
+Calculate scores from the scores of one or more other indicators. Apply mathematical operations or a preset method, such as the method to calculate the gap between an indicator score and the indicator target.
 
-</td></tr><tr><td id="d168959e305">
+</td></tr><tr><td id="d177607e322">
 
 **Manual**
 
@@ -123,7 +127,7 @@ In the following short animation, the user defines a formula indicator for the m
 
 \[Omitted image "kpi-comp-create-indicator-def.gif"\] Alt text: Creating an indicator definition for a measurement
 
-**Parent Topic:**[Defining indicators and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/designing-indicators.md)
+**Parent Topic:**[Design your Performance Analytics solution with KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/designing-pa-solution.md)
 
 **Related topics**  
 

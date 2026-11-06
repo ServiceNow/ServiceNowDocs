@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-related-records-list-widget.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enable external customers to access problem, change, and request records, Setting up CSM integration with IT Service Management, Integrate with IT Service Management, Integrate, Customer Service Management]
 ---

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/config-offline-properties-action-funct.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Offline mode, Considerations before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Supported functions, Align apps, screens, and functions, Offline mode setup options, Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Configure offline mode properties for action functions
@@ -16,7 +16,9 @@ Determine which fields and functions are available to users when working in offl
 
 ## Before you begin
 
-Role required: admin
+Role required: mobile\_admin, admin
+
+**Note:** Mobile scripting can be configured for button functions. This option is available via the ServiceNow AI Platform. For more information see [Mobile scripting in offline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/mobile-script-concept.md) and .
 
 ## Procedure
 
@@ -52,7 +54,7 @@ Hide fields
 
 </td><td>
 
-Use this field to determine which fields are not available after the user performs an action in offline mode. For example, after a user assigns a task to themselves, you could hide the **Assigned to** field.
+This configuration applies to the record screen.Details screen segment: Use this field to determine which fields are not available after the user performs an action in offline mode. For example, after a user assigns a task to themselves, you could hide the **Assigned to** field.
 
 </td></tr><tr><td>
 
@@ -60,7 +62,7 @@ Show fields
 
 </td><td>
 
-Use this field to determine which fields are available after the user performs an action in offline mode. For example, after a user assigns a task to themselves, you could show the **Work notes** field.
+This configuration applies to the record screen.Details screen segment: Use this field to determine which fields are available after the user performs an action in offline mode. For example, after a user assigns a task to themselves, you could show the **Work notes** field.
 
 </td></tr><tr><td>
 
@@ -84,20 +86,13 @@ Disable after online edit
 
 </td><td>
 
-Use this field to define sections to gray out when a user performs an action.In offline mode, an indicator appears next to a record after a user makes a change. Setting a screen marked as "Disable after online edit" mimics the online behavior, where a record is grayed out in the list after a user makes a change.
+This setting controls which screens should visually reflect that a record was modified while the user was online and is no longer applicable once they go offline. When a user performs an action on a record while online, that record can be marked as “not available” for offline use. As soon as the user goes offline, the record appears with a strikethrough effect to indicate that it is no longer active or interactable.Use the **Select target record** field to select where the "not available" state should display.
 
- Use the **Select target record** field to select the screens that you want to gray out.
-
- \[Omitted image "OnlineZombieMode.png"\] Alt text: Mobile screen shot showing a record in a list that has been grayed out.
+ \[Omitted image "offline-changes-pre-sync.png"\] Alt text: Online behavior in "Disable after online edit" mode
 
 </td></tr></tbody>
 </table>7.  Select **Save**.
 
 
--   **[Display and hide buttons in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/buttons-offline.md)**  
-Define whether to show or hide buttons while users are in offline mode on their Mobile Agent app.
--   **[Trigger offline cache download](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/trigger-offline-cache-download.md)**  
-**Trigger offline cache download** is an optional button attribute \(**sys\_sg\_button\_atribute\_name**\) that will generate an offline cache after a successful completion of the assigned writeback action.
-
-**Parent Topic:**[Offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/mobile-offline-mode.md)
+**Parent Topic:**[Supported functions for offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/functions-offline.md)
 

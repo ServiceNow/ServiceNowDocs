@@ -9,7 +9,7 @@ classification: learning-core
 topic_type: task
 last_updated: "2026-08-04"
 reading_time_minutes: 2
-breadcrumb: [Configure, Learning Core overview, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Learning Core, HR Service Delivery, Employee Service Management]
 ---
 
 # Install Learning Core
@@ -18,7 +18,7 @@ You can install the Learning Core application \(sn\_lc\) if you have the admin r
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [Learning Core](https://tpp.servicenow.com/sn_appstore_store.do#!/tpp/application/editapplication/ab9c649197de4310005276671153afb2) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 Role required: admin

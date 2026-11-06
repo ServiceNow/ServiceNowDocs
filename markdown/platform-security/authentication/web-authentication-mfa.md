@@ -1,20 +1,20 @@
 ---
 title: Web Authentication - MFA
-description: Use the Integration - Web Authentication \(com.snc.integration.webauthn\) to allow hardware key or biometric reader authentication on your instance.
+description: Use the Integration - Web Authentication \(com.snc.integration.webauthn\) to enable hardware key or biometric reader authentication on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/web-authentication-mfa.html
 release: zurich
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [MFA verification methods, Configure MFA, Multi-factor authentication, Access Management]
+breadcrumb: [MFA verification methods, Configuring MFA, Multi-factor authentication, Authentication, Access Management]
 ---
 
 # Web Authentication - MFA
 
-Use the **Integration - Web Authentication \(com.snc.integration.webauthn\)** to allow hardware key or biometric reader authentication on your instance.
+Use the **Integration - Web Authentication \(com.snc.integration.webauthn\)** to enable hardware key or biometric reader authentication on your instance.
 
 <table id="table_wdw_nyp_dpb"><tbody><tr><td>
 

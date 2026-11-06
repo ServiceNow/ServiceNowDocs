@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
 topic_type: task
-last_updated: "2026-07-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use ServiceNow Otto in Knowledge Management, ServiceNow Otto in Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -85,7 +85,7 @@ Role required: author
     -   If no similar tasks exist, this modal doesn't appear and the article is created. The generated article is linked to both the parent task and all the relevant cases selected.
     -   You can modify the draft before saving. The article appears in a new tab with a unique ID and is attached to the parent record.
     -   After reviewing the generated article, select **Save** or **Publish**. The success message disappears, indicating the article is no longer AI-generated.
-    -   If Now LLM Service fails to generate a result, an error message appears.
+    -   If the LLM fails to generate a result, an error message appears.
     -   After the article generation process is triggered, it can't be stopped. Generation continues even if you close the modal.
 6.  Review the generated article and select **Save** or **Publish**.
 

@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [CI relationship editor, CI relationships in the CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -31,7 +31,7 @@ By default, the system displays a list of all suggested relationships for the ty
 -   **Hide CI relationship** -- Hides any relationships between this CI and another CI \(e.g. "Receives data from"\).
 -   **Hide user relationships** -- Hides any relationships between this CI and a user \(e.g. "Logs reviewed by"\).
 -   **Hide group relationships** -- Hides any relationships between this CI and a group \(e.g. "Backups done by"\).
--   **Show all relationships** -- If you have the appropriate role \(out of the box this is itil\_admin\) you will have an additional check box labeled "Show all relationships." If you click that check box, the system will let you choose any relationship defined in the system, regardless of where it is on the "suggested" list for this type of CI.
+-   **Show all relationships** -- If you have the appropriate role \(sn\_cmdb\_admin or itil\_admin in the base system\) you will have an additional check box labeled "Show all relationships." If you click that check box, the system will let you choose any relationship defined in the system, regardless of where it is on the "suggested" list for this type of CI.
 
 ## Select CI relationship targets
 

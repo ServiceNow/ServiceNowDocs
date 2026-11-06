@@ -7,9 +7,9 @@ release: zurich
 product: Password Reset
 classification: password-reset
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Explore, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Exploring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Password Reset Windows Application
@@ -51,9 +51,4 @@ After the successful verification, the users go to the Reset step. Based on the 
     \[Omitted image "unlock-button-reset-password.png"\] Alt text: Reset password
 
 -   After the reset password process is complete, based on the configured type, the user either gets the auto-generated password on the pop-up window or an email containing the instructions to reset the password is sent to the user.
-
-**Related topics**  
-
-
-[Installing and configuring Password Reset Windows Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/password-reset/install-configure-password-reset-windows-app.md)
 

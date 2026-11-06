@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/jeopardy-management.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Order management, Explore, Sales Customer Relationship Management]
 ---
@@ -76,7 +76,7 @@ The following table shows how Jeopardy Management assesses risk levels for tasks
 
 Jeopardy Management assesses all tasks in a workflow and adjusts the risk level for tasks that occur later in the workflow. In the delayed scenario, a delay in Task B causes the fulfillment time for all successor tasks to become uncertain, and the product order duration can no longer be determined.
 
-## What to do next
+## What to explore next
 
 For information on configuring and using Jeopardy Management, see:
 

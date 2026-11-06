@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/create-select-filter-workspace.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Filters, Platform Analytics experience, Platform Analytics]
 ---
@@ -20,7 +20,7 @@ Let users filter a dashboard tab on one or more values from a set of choices, su
 
 Role required: In the inline dashboard editor: dashboard\_admin, or you must be the dashboard owner or have had editing rights shared with you.
 
-In the Filter Designer \(**Library** &gt; **Filters** &gt; **New**\): analytics\_filter\_admin, admin
+In the Filter Designer \(**Library** &gt; **Filters** &gt; **New**\): analytics\_filter\_admin or higher
 
 ## About this task
 
@@ -63,11 +63,15 @@ A Multiple select filter lets users select multiple values of a field or breakdo
 
         -   You can only select a breakdown that is used by at least one indicator.
         -   Scripted breakdowns on data visualizations are not supported.
-        -   Only two levels of breakdown can be applied to an indicator at the same time. On a dashboard, this could be two filters or one filter and a breakdown specified in the data visualization. However, if data snapshots are enabled on this indicator, this restriction does not apply. For more information, see [Data snapshots and multiple breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/multi-level-breakdowns.md).
+        -   Only two levels of breakdown can be applied to an indicator at the same time. On a dashboard, this could be two filters or one filter and a breakdown specified in the data visualization.
         If you create a multiple select filter, you can select multiple elements of a breakdown. The effect of such a filter on what a data visualization shows depends on whether a breakdown has been specified in that data visualization's **Group by** section. If no breakdown is specified in the visualization configuration, the visualization shows an aggregate score of all selected elements. If a breakdown is specified in the visualization configuration, the visualization shows each element separately. If you then select elements in the filter, only those elements are shown. For more information, see [Viewing multiple breakdown elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/view-multiple-breakdown-elements.md).
 
     -   If you selected a Usage Insights filter, select a UX Analytics property.
-4.  To limit the values that the runtime user can choose to filter by, select **Configure values \(number\)**.
+4.  If you selected a Table source and a user hierarchy is defined for the table, you have the option of creating a filter on that hierarchy.
+
+    \[Omitted image "filter-hierarchy.png"\] Alt text: Filter source configuration pane showing filter hierarchy fields.
+
+5.  To limit the values that the runtime user can choose to filter by, select **Configure values \(number\)**.
 
     A list of possible values opens. Clear a value to prevent runtime users from filtering by it.
 
@@ -77,19 +81,19 @@ A Multiple select filter lets users select multiple values of a field or breakdo
 
     **Note:** If the filter source is a reference to a table, you don’t have a list of values to configure. Instead, you can build a condition to set the values in the filter. You can also set a related list condition.
 
-5.  Select the default value or values for the filter.
+6.  Select the default value or values for the filter.
 
     The dashboard applies these values when a user opens the dashboard.
 
-6.  Select the data to filter.
+7.  Select the data to filter.
 
     Some data to filter is chosen automatically depending on the filter source. For example, if you select the Category indicator breakdown from the Incident.Category breakdown source, the filter automatically filters the Category field on the Incident table and any indicators with the Category breakdown. You can edit the automatic data selection or add more data to filter.
 
     **Note:** Your selection of filter source can impact which data you can filter. For more information, see Step [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-select-filter-workspace.md).
 
-7.  Under **Other filters to follow**, if the conditions are met, you can select another filter for the current filter to follow in a hierarchy, creating a cascade.
+8.  Under **Other filters to follow**, if the conditions are met, you can select another filter for the current filter to follow in a hierarchy, creating a cascade.
 
-    **Note:** You can only set **Other filters to follow** when you are configuring filters on a dashboard, not from the filter designer.
+    **Note:** You can only set **Other filters to follow** when you're configuring filters on a dashboard, not from the filter designer.
 
     When you set the filter to follow another filter, the choices available in the following filter are limited by the choices made in the followed filter. For more information, see the example [Cascading filters for Manager and Assignment Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-select-filter-workspace.md).
 
@@ -102,17 +106,17 @@ A Multiple select filter lets users select multiple values of a field or breakdo
 
     -   Some filters have a many-to-many relationship, where values on both filters can match multiple values on the other filter. One such filter can follow another only through a connecting table. Only admins can set up these cascading filters. For more information, see [Set a filter to follow another filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/set-filter-to-follow-filter.md).
     -   Two filters can follow each other, but there are additional requirements. For more information, see [Conditions for two filters to follow each other](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/filters-follow-each-other.md).
-8.  Select the **Sort direction**.
+9.  Select the **Sort direction**.
 
     If you select **Ascending**, the lowest filtered values are shown first. If you select **Descending**, the highest values are shown first. The user can change this value.
 
-9.  To let users clear the values they selected for the filter, enable **Allow filter clearance**.
+10. To let users clear the values they selected for the filter, enable **Allow user to clear filter**.
 
-10. Set the maximum number of elements that are loaded initially and at each page refresh.
+11. Set the maximum number of elements that are loaded initially and at each page refresh.
 
     The default value is 500.
 
-11. Select **Save**.
+12. Select **Save**.
 
 
 ## Result

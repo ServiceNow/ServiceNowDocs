@@ -7,9 +7,9 @@ release: zurich
 product: Password Reset
 classification: password-reset
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Configure your Password Reset process, Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure your Password Reset process, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Password Reset verifications
@@ -110,7 +110,7 @@ Soft PIN Verification
 
 </td><td>
 
-Implements a self-service Password Reset model that relies on a Soft PIN that's a six-digit number. Users can enroll for the Soft PIN verification for a process and reset the Soft PIN. ServiceNow® Virtual Agent supports the Soft PIN verification method.
+Implements a self-service Password Reset model that relies on a Soft PIN that's a six-digit number. Users can enroll for the Soft PIN verification for a process and reset the Soft PIN.**Note:** The out-of-the-box Reset Password \(Template\) and Unlock Account \(Template\) Virtual Agent topics don't support Soft PIN verification.
 
 </td></tr></tbody>
 </table>-   **[Personal data identification types and confirmation type verifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/password-reset/c_PersonalDataAndPDConfirmVerifs.md)**  

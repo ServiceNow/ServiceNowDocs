@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/non-admin\_user\_permissions\_for\_logik\_in\_salesforce.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Assigning non-Admin user permissions for ServiceNow CPQ in Salesforce
@@ -67,5 +67,5 @@ To check whether the user has the necessary permissions for these fields, go to 
 
 The full list of objects and fields contained in the ServiceNow CPQ packages can be found by navigating to SFDC Setup and searching for "Installed Packages". "ServiceNow CPQ Managed Package" is used for parts of our SFDC Integration and custom objects, while ServiceNow CPQ Extension for Salesforce CPQ" contains the fields used in the standard user flow.
 
-Selecting one of these packages and clicking "View Components" will show a list of SFDC objects and fields created by that package along with their name, type, and parent object \(if any\). Specifically, the fields in **Logik Extension for Salesforce CPQ** are the fields a user will need to have access to in order to properly configure and reconfigure ServiceNow CPQ - enabled products in Salesforce CPQ.
+Selecting one of these packages and clicking "View Components" will show a list of SFDC objects and fields created by that package along with their name, type, and parent object \(if any\). Specifically, the fields in **ServiceNow CPQ Extension for Salesforce CPQ** are the fields a user will need to have access to in order to properly configure and reconfigure ServiceNow CPQ - enabled products in Salesforce CPQ.
 

@@ -7,9 +7,9 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Integrating with Microsoft 365, Microsoft 365 integration, Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Integrating with Microsoft 365, Microsoft 365 integration, Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a Microsoft 365 integration profile
@@ -18,7 +18,7 @@ Create an integration profile to track software subscriptions and optimize stale
 
 ## Before you begin
 
-ServiceNow Role required: sam\_integrator or admin
+ServiceNow Role required: sam\_integrator
 
 To integrate with Microsoft 365, activate the following plugins:
 
@@ -36,15 +36,15 @@ If you’re using Software Asset Workspace, the option to create the direct inte
 
 1.  From a web browser, open your ServiceNow instance.
 
-<table id="choicetable_w41_4c4_2cc"><thead><tr><th align="left" id="d187492e127">
+<table id="choicetable_w41_4c4_2cc"><thead><tr><th align="left" id="d199155e127">
 
 Interface
 
-</th><th align="left" id="d187492e130">
+</th><th align="left" id="d199155e130">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d187492e136">
+</th></tr></thead><tbody><tr><td id="d199155e136">
 
 **Core UI**
 
@@ -52,7 +52,7 @@ Action
 
 Navigate to **All** &gt; **Software Asset** &gt; **SaaS License** &gt; **Direct Integration Profiles**
 
-</td></tr><tr><td id="d187492e159">
+</td></tr><tr><td id="d199155e159">
 
 **Software Asset Workspace**
 
@@ -152,7 +152,7 @@ The type of permission for the integration profile to access data correctly and 
 
     If the connection is successfully validated, the integration profile downloads subscriptions and activity data.
 
-    **Note:** If the **Download Activity** field is selected without configuring the optional Power BI settings, the Validate connection feature will issue the following warning message: "All required APIs are validated successfully, but the optional Power BI API validation has failed."
+    **Note:** If the **Download Activity** field is selected without configuring the optional Power BI settings, the Validate connection feature issues the following warning message: "All required APIs are validated successfully, but the optional Power BI API validation has failed."
 
 8.  Check the status of the user subscription job by navigating to **Software Asset** &gt; **Administration** &gt; **Job Results**.
 
@@ -171,7 +171,7 @@ After creating an integration profile, view information about the profile in the
 -   Subscription Identifier Exclusion Rule
 -   Subscription User Exclusion Rule
 
-After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/subscription-exclusions.md).
+After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/subscription-exclusions.md).
 
 When you create an integration profile, a reclamation rule is automatically created for the software. It's important that you review the reclamation rule to ensure that it meets your specifications. You can view all automatically generated reclamation rules for Office 365 by navigating to **Software Asset** &gt; **Administration** &gt; **Reclamation Rules**. Reclamation rules are applied based on the Microsoft System Center Configuration Management \(SCCM\) usage data that is pulled through the Microsoft SCCM usage integration. For more information on these reclamation rules, see [Create a reclamation rule to import Microsoft SCCM usage data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/create-reclamation-rule-sccm.md).
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-create-trm-phase.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure TRM phases, Configure EA Workspace using the Setup page, Configure, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Configure TRM phases, Configure EA Workspace using the Setup page, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Add or edit a TRM phase
@@ -47,7 +47,7 @@ The color and shape of a phase are used to represent the phase of the TRM produc
     -   To update details of an existing TRM phase, select the TRM phase.
 6.  On the form, fill in the fields.
 
-    For field information, see [TRM Phase form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/trm-phase-form.md).
+    For field information, see [TRM Phase form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-trm-phase-form.md).
 
 7.  Select **Save**.
 

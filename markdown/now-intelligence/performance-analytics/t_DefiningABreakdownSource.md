@@ -1,20 +1,20 @@
 ---
 title: Define a breakdown source
-description: Specify a facts table to serve as a data source for breakdowns. Apply conditions to specify the elements for this breakdown source.
+description: Specify a facts table to serve as a data source for breakdowns. External data is supported via Workflow Data Fabric tables. Apply conditions to specify the elements for this breakdown source.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/t\_DefiningABreakdownSource.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Breakdown sources, Indicator breakdowns, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Define a breakdown source
 
-Specify a facts table to serve as a data source for breakdowns. Apply conditions to specify the elements for this breakdown source.
+Specify a facts table to serve as a data source for breakdowns. External data is supported via Workflow Data Fabric tables. Apply conditions to specify the elements for this breakdown source.
 
 ## Before you begin
 
@@ -23,8 +23,6 @@ Roles required: pa\_data\_collector, pa\_admin, or admin. The breakdown source c
 ## About this task
 
 Always use a facts table with a field that has a unique value for every record, usually **Sys ID**. For example, the Incident.Category breakdown source takes its elements from the **Choice** table. The elements are identified by the **Sys ID** field. The breakdown source filters the choices to those that are on the **Incident** table, in English, and not inactive.
-
-Some tables, such as Workflow Data Fabric tables, are not supported.
 
 **Tip:** As in this example, if you use Choice \[sys\_choice\] for the facts table, put conditions on the Table, Element, and Language fields. Also filter out Inactive records.
 
@@ -46,7 +44,7 @@ The breakdown source uses the following records from the Choice table:
 
 4.  Add a detailed **Description** to help others understand the use and purpose of this breakdown source and to help them avoid creating duplicates.
 
-5.  For the **Facts Table**, select the table that the breakdown source gets elements from.
+5.  For the **Facts Table**, select the table \(including database view or Workflow Data Fabric table\) that the breakdown source gets elements from.
 
     For example, for the breakdown source to specify user groups as elements, select **Group \[sys\_user\_group\]**.
 

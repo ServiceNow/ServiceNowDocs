@@ -7,9 +7,9 @@ release: zurich
 product: Usage Insights
 classification: usage-insights
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
-breadcrumb: [Use, Usage Insights, Platform Analytics]
+breadcrumb: [Using Usage Insights, Usage Insights, Platform Analytics]
 ---
 
 # Bulk export of Usage Insights data via REST API
@@ -60,7 +60,7 @@ Submit an export request to the Usage Insights data export API to extract usage 
 -   **[Setting up a secure connection to Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/usage-insights/data-export-setup-hermes.md)**  
 Configure SSL encryption for your Kafka consumers by generating an instance-signed certificate and configuring your Kafka client with SSL to securely connect to the managed Hermes cluster and consume data export results.
 -   **[Consuming data export results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/usage-insights/consuming-data-export-results.md)**  
-Consume the results of usage data exported via REST API, from the Kafka topic.
+Consume the results of usage insights data exported via REST API, from the Kafka topic.
 
 **Parent Topic:**[Using Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/usage-insights/using-uxa.md)
 

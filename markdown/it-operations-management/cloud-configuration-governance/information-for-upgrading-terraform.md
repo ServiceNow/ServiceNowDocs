@@ -7,7 +7,7 @@ release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Cloud Services Catalog Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -40,7 +40,7 @@ Upgrade the existing Terraform Open Source installation to a newer supported ver
 
 For more information on upgrading Terraform, see Upgrade Guides in [Terraform documentation](https://www.terraform.io/docs).
 
-Cloud Services Catalog Terraform Connector supports Terraform Open Source versions 1.1.0 through 1.1.9 and 1.2.0 or higher.
+Cloud Services Catalog Terraform Connector supports Terraform Open Source versions 1.1.0 through 1.1.9 and 1.2.0 or higher
 
 2.  Test and modify the existing Terraform templates to ensure compatibility with the target Terraform Open Source version.
 3.  Update the Terraform Open Source version mentioned in the Terraform Open Source config provider.
@@ -55,7 +55,7 @@ Set up a new Terraform server with the desired Terraform Open Source version
 Perform the following actions to set up a new Terraform server with the desired Terraform Open Source version:1.  Create a Linux or Windows server for Terraform Open Source installation.
 2.  Install a Terraform Open Source version that is supported by the Cloud Services Catalog Terraform Connector.
 
-Cloud Services Catalog Terraform Connector supports Terraform Open Source versions 1.1.0 through 1.1.9 and 1.2.0 or higher.
+Cloud Services Catalog Terraform Connector supports Terraform Open Source versions 1.1.0 through 1.1.9 and 1.2.0 or higher
 
 3.  Copy the existing Terraform templates to the new Terraform server.
 

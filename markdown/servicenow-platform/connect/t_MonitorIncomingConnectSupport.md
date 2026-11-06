@@ -7,7 +7,7 @@ release: zurich
 product: Connect
 classification: connect
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Connect Support, Connect, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -38,7 +38,7 @@ Role required: none
 
 3.  Accept a conversation in one of the following ways.
 
-<table id="choicetable_rtc_4wl_wt"><tbody><tr><td id="d98870e124">
+<table id="choicetable_rtc_4wl_wt"><tbody><tr><td id="d98495e124">
 
 **Accept a conversation from a queue**
 
@@ -46,7 +46,7 @@ Role required: none
 
 Under **Queues**, click **Accept** by the queue.The conversation opens in the conversation pane and an entry appears in the **Cases** section of the sidebar.
 
-</td></tr><tr><td id="d98870e145">
+</td></tr><tr><td id="d98495e145">
 
 **Accept a transfer request**
 

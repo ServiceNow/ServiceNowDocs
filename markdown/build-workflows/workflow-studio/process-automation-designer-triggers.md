@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Building playbooks, Use, Workflow Studio, Build workflows]
+breadcrumb: [Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Triggers
@@ -107,8 +107,8 @@ Refer to these design considerations when working with triggers:
 Define the type of trigger that determines when to start running your playbook.
 -   **[Add and configure a trigger in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/add-configure-trigger.md)**  
 Begin building your playbook by adding and configuring the trigger.
--   **[Create a scheduled trigger for playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-scheduled-trigger-definition.md)**  
+-   **[Create a scheduled trigger for Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-scheduled-trigger-definition.md)**  
 Create a scheduled trigger that starts your playbook at the required time and interval. You can schedule a trigger in any time zone, with or without an end date for the schedule.
 
-**Parent Topic:**[Building playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/building-a-process.md)
+**Parent Topic:**[Understanding the playbook components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-building-blocks.md)
 

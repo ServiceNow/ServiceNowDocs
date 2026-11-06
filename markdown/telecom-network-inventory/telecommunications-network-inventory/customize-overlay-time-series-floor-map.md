@@ -7,9 +7,9 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Floor map overlays, Configure, Telecommunications Network Inventory]
+breadcrumb: [Overlays on floor map, Configure, Telecommunications Network Inventory]
 ---
 
 # Customize overlay time series on the floor map
@@ -36,15 +36,15 @@ For the time duration configuration, if the time value is set to one second, the
 
 4.  Do one of the following.
 
-<table id="choicetable_tyg_2bt_nfc"><thead><tr><th align="left" id="d51372e101">
+<table id="choicetable_tyg_2bt_nfc"><thead><tr><th align="left" id="d51985e101">
 
 Action
 
-</th><th align="left" id="d51372e104">
+</th><th align="left" id="d51985e104">
 
 Details
 
-</th></tr></thead><tbody><tr><td id="d51372e110">
+</th></tr></thead><tbody><tr><td id="d51985e110">
 
 **Add time duration for a new overlay**
 
@@ -58,7 +58,7 @@ Details
 6.  In the Condition section, add the time duration values for the new overlay.
 
 
-</td></tr><tr><td id="d51372e159">
+</td></tr><tr><td id="d51985e159">
 
 **Edit time duration for an existing overlay**
 
@@ -66,7 +66,7 @@ Details
 
 In the Time Duration Value section, edit the time duration for the overlay that you want to customize.
 
-</td></tr><tr><td id="d51372e168">
+</td></tr><tr><td id="d51985e168">
 
 **Delete time duration for an overlay**
 
@@ -85,5 +85,5 @@ In the Time Duration Value section, edit the time duration for the overlay that 
 
 Customized time duration options are available on the floor map.
 
-**Parent Topic:**[Floor map overlays](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configure-overlays-floor-map.md)
+**Parent Topic:**[Configuring overlays on floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configure-overlays-floor-map.md)
 

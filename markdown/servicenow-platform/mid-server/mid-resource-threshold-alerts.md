@@ -7,7 +7,7 @@ release: zurich
 product: MID Server
 classification: mid-server
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Resolving MID Server issues, MID Server reference, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -174,7 +174,7 @@ Usage percentage of the total memory resources that initiates a threshold breach
 </td></tr></tbody>
 </table>## MID Server resource reporting
 
-The [MID Server dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/c_MIDServerDashboard.md) contains two reports that give you views into the consumption of CPU and JVM memory resources. These reports show usage over the previous 30 days.
+The [MID Server dashboard]() contains two reports that give you views into the consumption of CPU and JVM memory resources. These reports show usage over the previous 30 days.
 
 -   **Avg Percentage of CPU Used**: Trending the daily average on CPU usage helps illustrate the amount of CPU processing that the MID Server host consumes. MID Servers deployed on the same host will report the same CPU usage.
 -   **Avg Percentage of Max Memory Used**: The maximum used percentage \(**max\_used\_pct**\) is a useful metric for determining if the MID Server has enough memory resources. This metric is a percentage of the max used memory over the total available memory. Trending this over time provides a visualization of how much memory is needed by the MID Server.

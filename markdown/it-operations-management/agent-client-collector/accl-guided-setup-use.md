@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ACC Log Analytics setup, ACC deployment - servers, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC Log Analytics setup, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Set up Agent Client Collector Log Analytics using guided setup
@@ -19,7 +19,7 @@ Configure Agent Client Collector Log Analytics on your ServiceNow instance using
 ## Before you begin
 
 -   Agent Client Collector Log Analytics has a dependency on the ServiceNow® Event Management application. Set up Event Management before you configure Agent Client Collector Log Analytics. For more information, see [Event Management setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/c_EMConfiguration.md).
--   ServiceNow Service Operations Workspace ITOM Apps must be installed. If it is not installed already, install it manually. For more information, see [Install Service Operations Workspace for ITOM application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/install-sow-itom-apps.md).
+-   ServiceNow Service Operations Workspace ITOM Apps must be installed. If it is not installed already, install it manually. For more information, see [Install Service Operations Workspace for ITOM application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/install-sow-itom-apps.md).
 
 Role required: agent\_client\_collector\_admin
 
@@ -66,4 +66,6 @@ Agent Client Collector Log Analytics guided setup provides a sequence of tasks t
 
     4.  Select **Mark as Complete** to complete the Agent Client Collector Log Analytics configuration.
 
+
+**Parent Topic:**[Agent Client Collector Log Analytics setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/accl-setup.md)
 

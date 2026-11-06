@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/installing-collector-on-windows.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-27"
-reading_time_minutes: 2
-breadcrumb: [Configure the OT Discovery Collector, OT Discovery Collector, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Configure the OT Discovery Collector, Operational Technology Discovery Collector, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Install the OT Discovery Collector on a Windows system
@@ -19,6 +19,8 @@ Install the OT Discovery Collector on a Windows system. The OT Discovery Collect
 The required Windows \(10 or 11\) environment for the OT Discovery Collector is x86\_64. No ARM/Apple Silicon devices are supported.
 
 Role required: admin
+
+**Note:** You can now download and install Containerized Collector packages. For a Windows OS machine, be sure to select the compatible Collector OS. For more information, see [Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/air-gapped-networks-installation.md).
 
 ## Procedure
 
@@ -32,7 +34,7 @@ Role required: admin
 
 4.  Select **Configure** and the **Downloads** page opens.
 
-    \[Omitted image "image.downloads-page-containerized2"\] Alt text: Downloads page
+    \[Omitted image "downloads-page-containerized2.png"\] Alt text: Downloads page
 
     **Note:** Read the End User License Agreement \(EULA\) carefully and then check **Agree**.
 
@@ -91,7 +93,7 @@ Role required: admin
 
     When complete, the ServiceNow OT Discovery Collector Installer window displays `Installation Complete`.
 
-    \[Omitted image "image.install-complete-collector"\] Alt text: Installation complete screen
+    \[Omitted image "install-complete-collector.png"\] Alt text: Installation complete screen
 
 21. Navigate to your local disk program files folder, so that you can see the `SNDiscoveryCollector` folder is present.
 
@@ -114,4 +116,6 @@ To update the OT Discovery Collector version, do the following steps.
 4.  Select the **Install/Update OT Discovery Collector** button.
 
 The updated version is installed.
+
+**Parent Topic:**[Configure the OT Discovery Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/configuring-the-collector.md)
 

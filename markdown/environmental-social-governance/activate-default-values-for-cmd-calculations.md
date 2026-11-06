@@ -1,70 +1,43 @@
 ---
-title: Set default values for CMD formula operands
-description: Set default values for formula operands so CMD calculations continue when operand data is missing or undefined.
+title: Activate default values for CMD calculations
+description: Activate default values for missing operands in CMD formulas using the Calculated Metric Definition Settings table, or configure new records as needed. This ensures uninterrupted calculations and allows customization for specific operand requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/activate-default-values-for-cmd-calculations.html
 release: zurich
 topic_type: task
-last_updated: "2025-10-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Formula building in a calculated metric definition, Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Reviewing calculation details with formula trees, Using GRC: Metrics to provide data, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
-# Set default values for CMD formula operands
+# Activate default values for CMD calculations
 
-Set default values for formula operands so CMD calculations continue when operand data is missing or undefined.
+Activate default values for missing operands in CMD formulas using the Calculated Metric Definition Settings table, or configure new records as needed. This ensures uninterrupted calculations and allows customization for specific operand requirements.
 
 ## Before you begin
 
 Role required: sn\_esg.program\_manager
 
-## About this task
-
-If a formula operand has no value because metric data has not yet been collected for an entity, the calculation fails for that operand. You can specify default values in a metric definition mapping record so that the system completes the calculation even when data is unavailable.
-
 ## Procedure
 
-1.  Navigate to **All** &gt; **Operational Sustainability Management** &gt; **Administration** &gt; **Metric Definition Mapping**.
+1.  Navigate to **All** &gt; **Operational Sustainability Management** &gt; **Administration** &gt; **Metric Definition Settings**.
 
-2.  Create a new mapping record or modify an existing one.
+2.  To setup default values you can do one of the following:
 
-<table id="choicetable_wzf_jzt_53c"><thead><tr><th align="left" id="d24511e81">
+    -   Select the default record on the list and activate the record.
 
-Option
+        **Note:** If required you can make updates to the default record.
 
-</th><th align="left" id="d24511e84">
+    -   Select **New**.
+3.  On the form, fill in the fields.
 
-Actions
+    For information on the fields of the form, see [Metric definition setting record fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/metric-definition-setting-record-fields.md).
 
-</th></tr></thead><tbody><tr><td id="d24511e90">
-
-**Update an existing record**
-
-</td><td>
-
-1.  Select the record from the list.
-2.  Make the necessary edits.
-3.  Select **Update**.
+4.  Select **Submit**.
 
 
-</td></tr><tr><td id="d24511e114">
+-   **[Metric definition setting record fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/metric-definition-setting-record-fields.md)**  
+The fields of the metric definition setting record form are explained in this topic.
 
-**Create a new record**
-
-</td><td>
-
-1.  Select **New**.
-2.  On the form, fill in the fields.
-
-For a description of the field values, see [Metric definition setting record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/metric-definition-setting-record-fields.md).
-
-3.  Select **Submit**.
-
-
-</td></tr></tbody>
-</table>
--   **[Metric definition setting record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/metric-definition-setting-record-fields.md)**  
-Field descriptions for creating a metric definition setting record.
-
-**Parent Topic:**[Formula building in a calculated metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/formula-building-at-metric-definition-and-entity-level.md)
+**Parent Topic:**[Reviewing calculation details with formula trees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/reviewing-formula-tree.md)
 

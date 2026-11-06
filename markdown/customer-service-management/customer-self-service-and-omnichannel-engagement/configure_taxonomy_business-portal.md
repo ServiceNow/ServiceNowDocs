@@ -1,28 +1,28 @@
 ---
-title: Configure a taxonomy on Business Portal to define topics relevant to your users
-description: Configure a taxonomy on Business Portal to organize topics that are relevant to your users, such as orders, returns, or payments.
+title: Configure a taxonomy on Business and Consumer Portal to define topics relevant to your users
+description: Configure a taxonomy on the Business or Consumer Portal to organize topics that are relevant to your users, such as orders, returns, or payments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/configure\_taxonomy\_business-portal.html
 release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Business Portal, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Configure Business and Consumer Portal, Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
-# Configure a taxonomy on Business Portal to define topics relevant to your users
+# Configure a taxonomy on Business and Consumer Portal to define topics relevant to your users
 
-Configure a taxonomy on Business Portal to organize topics that are relevant to your users, such as orders, returns, or payments.
+Configure a taxonomy on the Business or Consumer Portal to organize topics that are relevant to your users, such as orders, returns, or payments.
 
 ## Before you begin
 
-Role required: admin or sp\_admin
+Role required: sp\_admin
 
 ## About this task
 
-Add or edit taxonomy and child topics to the business portal. Taxonomy enables you to define topics which are relevant to your users.
+Add or edit taxonomy and child topics to the Business and Consumer portal. Taxonomy enables you to define topics which are relevant to your users.
 
 For example, topics relevant to an e-commerce site can be orders, returns, payments, and others. Your users can find the relevant topic and then use available articles and catalog items of that topic.
 
@@ -30,9 +30,9 @@ For example, topics relevant to an e-commerce site can be orders, returns, payme
 
 1.  Navigate to **All** &gt; **Service Portal** &gt; **Portals**.
 
-2.  Search and select `*business portal`in the Title column on the Service Portals page.
+2.  Search and select `*business portal` or `*consumer portal` in the Title column on the Service Portals page.
 
-3.  Select **Business Portal**.
+3.  Select **Business Portal** or **Consumer Portal**.
 
     If a message appears about the application scope, select **here** to be able to edit the record.
 

@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 5
-breadcrumb: [Use, Hardware Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Manage hardware asset tasks using the Mobile Agent application
@@ -28,67 +28,17 @@ Scan and put away the assets from the receiving bay in the designated aisle-spac
 **Related topics**  
 
 
-[Work with hardware normalization]()
+[Procurement and fulfillment]()
 
-[Manage asset bundles from your inventory]()
+[Inventory and stockroom operations]()
 
-[Manage your inventory through pallet assets]()
+[Repair and maintenance]()
 
-[Manage loaner assets]()
+[Asset lifecycle and disposal]()
 
-[Donate assets to charity organizations]()
+[Attestation and conformance]()
 
-[Use Advanced Shipment Notification]()
+[Reporting and performance]()
 
-[Manage RMA requests]()
-
-[Create an inventory stock order request]()
-
-[Create a disposal order]()
-
-[Use a hardware asset request flow]()
-
-[Audit hardware asset inventory]()
-
-[Request a Hardware Asset Refresh]()
-
-[Manage your expiring contracts for leased hardware assets]()
-
-[Reclaim hardware assets]()
-
-[View RFID information of assets]()
-
-[Manage the lifecycle of hardware models with calculated lifecycle templates]()
-
-[Create an internal lifecycle in the Hardware Asset Workspace]()
-
-[Calculate the active lifecycle phase for a model]()
-
-[Receive asset warranty details from Lenovo]()
-
-[Manage stockrooms]()
-
-[Track shipments using the integration framework]()
-
-[Track asset location using indoor maps]()
-
-[Assess performance of Hardware Asset Management]()
-
-[Manage refresh of assets using Zero Touch Refresh]()
-
-[Configure the Total Cost of Ownership of assets]()
-
-[Manage Hardware Asset Management subscriptions]()
-
-[Manage repair of defective assets in your stockroom in the Hardware Asset Workspace]()
-
-[Manage picking hardware assets within your stockroom for Hardware Asset Management workflows]()
-
-[Manage asset put away using the Hardware Asset Workspace]()
-
-[Audit your hardware assets by using Asset Attestation]()
-
-[Acknowledge receipt of assets on the Employee Center portal]()
-
-[Update associated Decision tables for HAM flows]()
+[Employee self-service]()
 

@@ -20,7 +20,7 @@ Service Reliability Management \(SRM\) works with integrations to prioritize and
 
 **Note:** You might want multiple tool integrations to monitor eachtechnology management service and receive events from those tools. See [Working with integrations in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-work-integrations.md) for more information.
 
-In addition, you can create reliability metrics for the service. See [Working with reliability metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-level-objective-management/sr-work-SLI-SLO.md).
+In addition, you can create reliability metrics for the service. See [Reliability metrics in SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-level-objective-management/sr-work-SLI-SLO.md).
 
 Tying a team and policies to that service makes it easier to divide responsibilities and track technical outcomes. It also makes it easier to automate response routines and focus on who you notify and when.
 
@@ -85,10 +85,7 @@ Connect your services to monitoring tools using the Integrations Launchpad . Int
 
 **Parent Topic:**[Using Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/using-service-reliability-management.md)
 
-**Related topics**  
+**Previous topic:**[Using Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/using-service-reliability-management.md)
 
-
-[Working with SRM teams]()
-
-[Working with SRM reliability tasks]()
+**Next topic:**[Add a service to SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-add-service.md)
 

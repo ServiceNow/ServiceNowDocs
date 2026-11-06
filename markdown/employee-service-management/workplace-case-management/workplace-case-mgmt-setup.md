@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -28,7 +28,7 @@ As a workplace case admin or a case manager, you can perform the following actio
 -   Create Workplace Service Activities such as tasks, approvals, and child cases.
 
 -   **[Install Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-case-management/install-workplace-case-mgmt.md)**  
-Install the Workplace Case Management application from ServiceNow Store applications. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Install the Workplace Case Management application from ServiceNow Store applications. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 -   **[Create a Workplace case template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-case-management/wsd-case-template.md)**  
 Create a Workplace case template for use when creating workplace services.
 -   **[Create a Workplace task template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-case-management/wsd-task-template.md)**  
@@ -48,7 +48,7 @@ Configure a record producer to integrate it with Workplace Reservation Managemen
 -   **[Create an SLA Definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-case-management/create-sla-defn-case-mgmt.md)**  
 Configure SLAs to ensure that cases are resolved according to the expectations of customers. SLAs set up performance parameters, such as specifying minimum uptime or the amount of time that a task needs in order to reach a certain condition. 
 -   **[Create a Workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-case-management/create-workplace-service.md)**  
-Create a workplace service with pre-defined steps of fulfillment. Select the fulfillment type required based on the workplace service. Create workplace services like catering, office supply request, parking, or any service to support employees needs.
+Create a workplace service with predefined steps of fulfillment. Select the fulfillment type required based on the workplace service. Create workplace services like catering, office supply request, parking, or any service to support employees needs.
 -   **[Add a workplace service item to a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-case-management/add-workplace-service-items.md)**  
 Configure a workplace item that an employee can order along with a workplace service request or as part of the reservation. For example, while making a reservation, an employee can order a workplace service item such as catering, an additional chair, whiteboard, marker, and more.
 -   **[Create a workplace template configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-case-management/create-workplace-template-confguration.md)**  

@@ -7,8 +7,8 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -22,7 +22,7 @@ Role required: it\_project\_user
 
 If you have users with custom roles that need access to this skill, you must update ACLs for those roles.
 
-The Project doc generation and insights skill is activated by default. For more information on how to activate the skill if it isn't automatically activated or if you want to change the skill configuration, see [Configure Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/configuring-na-spm.md).
+The Project doc generation and insights skill is activated by default. For more information on how to activate the skill if it isn't automatically activated or if you want to change the skill configuration, see [Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/configuring-na-spm.md).
 
 ## About this task
 
@@ -34,15 +34,15 @@ Minimize the time that you spend reading documents, meeting notes, project repor
 
 2.  From the Docs, perform one of these action according to your requirements.
 
-<table id="choicetable_oq5_fqw_1dc"><thead><tr><th align="left" id="d330956e104">
+<table id="choicetable_oq5_fqw_1dc"><thead><tr><th align="left" id="d355442e101">
 
 Gen AI actions
 
-</th><th align="left" id="d330956e107">
+</th><th align="left" id="d355442e104">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d330956e113">
+</th></tr></thead><tbody><tr><td id="d355442e110">
 
 **Summarize**
 
@@ -58,7 +58,7 @@ Summarize the entire page or complete content from the **Docs** tab:
 2.  Select **Summarize**.
 
 
-</td></tr><tr><td id="d330956e164">
+</td></tr><tr><td id="d355442e161">
 
 **Elaborate**
 
@@ -66,7 +66,7 @@ Summarize the entire page or complete content from the **Docs** tab:
 
 Elaborate the selected text by selecting **Elaborate**.
 
-</td></tr><tr><td id="d330956e176">
+</td></tr><tr><td id="d355442e173">
 
 **Shorten**
 
@@ -74,7 +74,7 @@ Elaborate the selected text by selecting **Elaborate**.
 
 Shorten the selected text by selecting **Shorten**.
 
-</td></tr><tr><td id="d330956e188">
+</td></tr><tr><td id="d355442e185">
 
 **Insert below**
 
@@ -87,15 +87,15 @@ Add the generated summary after the selected content by selecting **Insert below
 
 3.  When you're finished summarizing the page in Docs, you can provide feedback, copy, or view information about it.
 
-<table id="choicetable_nly_n5h_1dc"><thead><tr><th align="left" id="d330956e215">
+<table id="choicetable_nly_n5h_1dc"><thead><tr><th align="left" id="d355442e212">
 
 Option
 
-</th><th align="left" id="d330956e218">
+</th><th align="left" id="d355442e215">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d330956e224">
+</th></tr></thead><tbody><tr><td id="d355442e221">
 
 **Provide feedback for the summary**
 
@@ -103,7 +103,7 @@ Procedure
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful-feedback.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-nt-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d330956e247">
+</td></tr><tr><td id="d355442e244">
 
 **More information on summary**
 
@@ -111,7 +111,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 If you want to check some details about the summary, select the more info icon \(\[Omitted image "icon-more-information-spm.png"\] Alt text: More information icon.\).
 
-</td></tr><tr><td id="d330956e262">
+</td></tr><tr><td id="d355442e259">
 
 **Copy the Docs summary**
 
@@ -122,7 +122,7 @@ Select the copy to clipboard icon \(\[Omitted image "icon-copy-spm.png"\] Alt te
 </td></tr></tbody>
 </table>    **Note:** Because the information in these fields is AI generated, it's a good idea to review the text and make sure it's accurate.
 
-    Only an administrator can activate the generative AI skills. For more information, see [Configure Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/configuring-na-spm.md).
+    Only an administrator can activate the generative AI skills. For more information, see [Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/configuring-na-spm.md).
 
     The Project doc generation and insights skill checks the doc content to determine if enough information is available to generate a summary. If there isn't enough content to summarize, you can add more content and retry.
 

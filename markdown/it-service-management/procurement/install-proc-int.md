@@ -7,9 +7,9 @@ release: zurich
 product: Procurement
 classification: procurement
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating with external procurement applications, Procurement, Asset Management, IT Service Management]
+breadcrumb: [Integrating with external procurement applications, Procurement, Asset Management common applications, IT Service Management]
 ---
 
 # Install Asset Management - Procurement Integration
@@ -18,7 +18,7 @@ You can install the Asset Management - Procurement Integration application \(app
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [Asset Management - Procurement Integration](https://store.servicenow.com/sn_appstore_store.do#!/store/application/6bc356601b9e1101cf85dd75dd6abe9e) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 Role required: Now Support

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/location-tracking-manual-config.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enabling/selecting options, Location tracking, Considerations before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Enabling/selecting options, Location tracking in the Now Mobile Agent app, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Configuring manual location tracking
@@ -36,15 +36,15 @@ There are two system properties which control how location tracking registers us
 
 2.  Select the location tracking mobile properties that you want to configure.
 
-<table id="choicetable_dtv_3vz_2wb"><thead><tr><th align="left" id="d39612e104">
+<table id="choicetable_dtv_3vz_2wb"><thead><tr><th align="left" id="d40898e104">
 
 System property
 
-</th><th align="left" id="d39612e107">
+</th><th align="left" id="d40898e107">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d39612e113">
+</th></tr></thead><tbody><tr><td id="d40898e113">
 
 **glide.geolocation.tracking.frequency**
 
@@ -54,7 +54,7 @@ Procedure
 2.  In the **Value** field for the selected system property, select the value and change it to your desired amount.
 
 
-</td></tr><tr><td id="d39612e140">
+</td></tr><tr><td id="d40898e140">
 
 **glide.geolocation.proximity**
 

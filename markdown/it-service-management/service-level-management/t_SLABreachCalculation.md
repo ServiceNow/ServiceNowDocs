@@ -7,9 +7,9 @@ release: zurich
 product: Service Level Management
 classification: service-level-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [SLA calculation, Use, Service Level Management, IT Service Management]
+breadcrumb: [SLA calculation, Using Service Level Management, Service Level Management, IT Service Management]
 ---
 
 # Use exact times in SLA calculations

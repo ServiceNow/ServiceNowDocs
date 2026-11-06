@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/vibe-coding-audience.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Explore, Agentic development, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
+breadcrumb: [Explore, Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Who should use this guide
@@ -20,7 +20,7 @@ This guide is for a range of people building apps agentically on the ServiceNow 
 
 -   ServiceNow developers who want to use AI to accelerate app development on ServiceNow. You may be:
     -   New to ServiceNow but experienced with full-stack development
-    -   Familiar with AI-assisted coding tools and wanting to understand the capabilities of the ServiceNow AI Platform
+    -   Familiar with agentic coding tools and wanting to understand the capabilities of the ServiceNow AI Platform
     -   Looking to evaluate how AI can fit into your development workflow
     -   Interested in understanding when to use different AI development approaches
 -   ServiceNow developers who want to incorporate AI into their existing workflows. You may be:
@@ -64,4 +64,6 @@ As you explore this documentation, consider the following questions:
 -   Your use case: Are you building custom applications from scratch, extending existing ServiceNow functionality, or automating specific workflows?
 
 Different AI development approaches and tools will be better suited to different needs. This guide helps you identify the right approach for your situation.
+
+**Parent Topic:**[Exploring agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/exploring-vibe-coding.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Conversational actions, Actions, Explore, Workflow Studio, Build workflows]
+breadcrumb: [Conversational actions, Explore actions, Explore flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Check for conversational compatible actions
@@ -49,6 +49,4 @@ The system updates the list of conversational compatible actions.
 ## What to do next
 
 To make an action conversational, configure its conversational settings. See [Configure action conversational settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/configure-action-conversation-settings.md).
-
-**Parent Topic:**[Conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/conversational-actions.md)
 

@@ -1,20 +1,20 @@
 ---
-title: Configure Localization Framework settings
-description: Configure Localization Framework settings to request translations in the activated languages.
+title: Configure the Localization Framework preferences
+description: Configure the preferences to request the translation in the activated languages.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/localization-framework/define-translation-preferences.html
 release: zurich
 product: Localization Framework
 classification: localization-framework
 topic_type: task
-last_updated: "2025-11-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Localization Framework settings, Configure the Localization Framework, Localization Framework, Translation and localization, Configure core features, Administer]
+breadcrumb: [Localization Framework settings, Configure the Localization Framework, Localization Framework, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Configure Localization Framework settings
+# Configure the Localization Framework preferences
 
-Configure Localization Framework settings to request translations in the activated languages.
+Configure the preferences to request the translation in the activated languages.
 
 ## Before you begin
 
@@ -137,7 +137,7 @@ Email subflow
 
 </td><td>
 
-The default email subflow is **Send LF Email For Translation**. If you have created a your own subflow in Workflow Studio, you can select it here.
+Available subflows for your email. Automatically, a subflow exists. To choose another subflow, create a subflow before setting up the translation preference.
 
 </td></tr><tr><td>
 
@@ -145,7 +145,7 @@ Default file format
 
 </td><td>
 
-Select a file format to send and receive the content. File formats XLIFF 1.2 and CSV are supported.
+Option to select a file format to send and receive the content. By default, XLIFF 1.2 and CSV file formats are supported.
 
 </td></tr><tr><td>
 
@@ -153,7 +153,7 @@ Default recipient\(s\) list
 
 </td><td>
 
-List of recipient email addresses to which the content is sent.
+List of recipient email addresses through which the content is sent to the translator for translation.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -173,7 +173,7 @@ Default file format
 
 </td><td>
 
-Available file formats to send and receive the content. File formats XLIFF 1.2 and CSV file are supported.
+Available options of file formats to send and receive the content. By default, XLIFF 1.2 and CSV file formats are supported.
 
 </td></tr></tbody>
 </table>6.  Select the **Workflow Preferences** tab.

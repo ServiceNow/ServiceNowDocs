@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/fso-int\_guide-agt\_table\_lookup.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Integration use cases, Developer resources, Financial Services Operations \(FSO\)]
 ---
@@ -20,13 +20,17 @@ Using the consumer and financial account information, a script within the Servic
 
 **Note:** This use case assumes the bank application exposes the REST endpoint GET /api/getTransactions that returns the requested consumer details and their associated financial account.
 
+\[Omitted image "fso-remote\_look\_sys\_record.png"\] Alt text: Workflow that shows how to lookup financial transaction details on a remote banking system of record.
+
 The following is an example of what the financial transaction details received from the remote bank application might look like when they appear on the FSO case form:
+
+\[Omitted image "fso-remote\_look\_trans\_detail.png"\] Alt text: FSO case form that shows the transaction details received from the remote bank application.
 
 The following diagram shows the application flow for this use case scenario and provides brief remarks on any required processing. In this implementation, the data obtained from the remote bank application is store in remote tables. [Remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/remote-tables.md) are only cached in memory, they are never stored in the ServiceNow database tables. You can also implement this scenario by writing the remote data to the corresponding ServiceNow database tables. The [s](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-int_guide-agt_submit_case.md) scenario illustrates how to store data in the ServiceNow database tables using the [GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) API.
 
 <table id="table_rmq_ywq_bpb"><tbody><tr><td>
 
- 
+\[Omitted image "fso-remote\_table\_sys\_record.png"\] Alt text: Workflow that shows a case, where the agent enters the required information and uses the REST API calls to lookup financial transaction details on a remote banking system.
 
 </td><td>
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/opportunity-management-opportunity-stages.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Opportunity management, Lead and opportunity management apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Opportunity Management, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create opportunity stages
@@ -26,15 +26,22 @@ Role required: sn\_opty\_mgmt\_core.opportunity\_setup\_writer
 
 3.  Fill in the fields in the Opportunity Stage form.
 
-    |Fields|Descriptions|
-    |------|------------|
+    |Field|Description|
+    |-----|-----------|
     |Name|Name of the opportunity stage. For example, Qualify or Develop or Propose or Negotiate.|
-    |Order|Number of orders that is in the opportunity stage.|
+    |Order|Sequence number that determines this stage's position relative to other stages in the sales cycle. When you map this stage to a sales cycle type, fill in the same value for the Order field in the Sales Cycle Stages list.|
     |Type|Type of the opportunity stages. For example, Open or Closed.|
-    |Active|When the checkbox is selected, the opportunity stage is active.|
+    |Active|When selected, the opportunity stage is active.|
 
 4.  Select **Submit**.
 
-    The sales cycle stage has now been created for the opportunity.
+    The sales cycle stage is created for the opportunity.
 
+
+**Related topics**  
+
+
+[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/opportunity-mgmt-using.md)
+
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/opportunity-management.md)
 

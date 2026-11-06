@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/quote\_line\_unique\_ids.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Quote line unique IDs
@@ -22,7 +22,7 @@ ServiceNow CPQ passes the unique identifier of a product in ServiceNow CPQ back 
 
 ## Prerequisites
 
-Have the Logik Extension for CPQ package version 2.2 or later installed on the org.
+Have the ServiceNow CPQ Extension for CPQ package version 2.2 or later installed on the org.
 
 Add the Unique Line ID field to the quote line page layout through Setup&gt;Object Manager&gt;Quote Line&gt;Page Layouts.
 
@@ -44,7 +44,7 @@ Use cases include ramping deals, such as subscription-based pricing that applies
 
 ## Use case: Adding extended data to identical product code products in SFDC using flows
 
-Out of the box, the ServiceNow CPQ-created flow “Configuration Line Item to Quote Line” is set up to write the extended information of each product to its respective quote line in the BOM Data field.
+Out of the box, the Configuration Line Item to Quote Line flow created by ServiceNow CPQ is set up to write the extended information of each product to its respective quote line in the BOM Data field.
 
 \[Omitted image "cpq-quote-line-bom-data.png"\] Alt text: Quote line user interface
 

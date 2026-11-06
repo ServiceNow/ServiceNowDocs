@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-config-gmp-pgr-lifecycle-stepper.html
 release: zurich
 topic_type: task
-last_updated: "2026-06-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [program lifecycle stepper, grants management, stepper configuration]
 breadcrumb: [Set up a grant program, Grants Management, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
@@ -36,7 +36,7 @@ Each step has one of the following display states:
 -   **Partial** \(Highlighted\): The step is in progress. This is the current active step.
 -   **Done** \(Checkmark\): The step is complete. The program has advanced past this step.
 
-\[Omitted image "image.psds-gm-stepper"\] Alt text: Grant program lifecycle stepper
+\[Omitted image "psds-gm-stepper.png"\] Alt text: Grant program lifecycle stepper
 
 The steps advance automatically based on the program state.
 

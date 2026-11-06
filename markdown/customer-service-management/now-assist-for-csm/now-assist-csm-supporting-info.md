@@ -7,8 +7,8 @@ release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Explore, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
@@ -20,9 +20,11 @@ Get a quick overview of the important information that is related to the Service
 
 ServiceNow Otto for CSM is supported starting with Vancouver Patch 4.
 
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
+
 ## Supported language models
 
-You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in AI Control Tower to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 ## Supported user interfaces
 
@@ -94,7 +96,7 @@ Imagine a user assigned roles A, B, and C, where each role grants access to a sp
 
 **Role Masking Considerations for ServiceNow Otto for CSM Skills**
 
-When a CSM skill runs, its features are initially controlled by ACL permissions, ensuring users only access authorized data and functions. If the skill uses a large language model \(LLM\) to perform its task, role masking adds an extra layer of control. Role masking filters the LLM-generated output according to the user’s active role.
+When a CSM skill runs, its features are initially controlled by ACL permissions, ensuring users only access authorized data and functions. If the skill uses a large language model \(LLM\) to perform its task, role masking adds an extra layer of control. Role masking filters the LLM-generated output according to the user's active role.
 
 Consider a user with roles A, B, and C, each granting different privileges. If the ACLs defined in the Case Summarization are roles A, B, and C and the masking role defined is role A, If the user activates the Case Summarization skill, and selects Summarize, the process occurs in two steps:
 
@@ -132,7 +134,7 @@ Activate the ServiceNow Otto for CSM store app \(sn\_csm\_gen\_ai\) to use the c
 
 This store app has the following dependencies:
 
--   Customer Service \(com.sn\_customerservice\)
+-   Case Management Core \(com.sn\_customerservice\)
 -   UXC Generative AI \(sn\_uxc\_gen\_ai\)
 
 Activate the applications in the following order:

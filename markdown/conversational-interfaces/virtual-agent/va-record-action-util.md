@@ -7,9 +7,9 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Assistant Designer Asset library utilities, Assistant Designer Asset library interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer utilities, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Record Action utility
@@ -98,5 +98,5 @@ No-code condition statement or low-code script that specifies a condition for pr
 
 \[Omitted image "va-record-action-utility-properties-vancouver.png"\] Alt text: Record Action utility displaying the various basic properties for updating a record.
 
-**Parent Topic:**[Assistant Designer Asset library utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-utilities.md)
+**Parent Topic:**[Assistant Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-utilities.md)
 

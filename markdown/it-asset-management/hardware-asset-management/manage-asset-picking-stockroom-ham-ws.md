@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 5
-breadcrumb: [Use, Hardware Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Inventory and stockroom operations, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Manage picking hardware assets within your stockroom for Hardware Asset Management workflows
@@ -23,72 +23,22 @@ Add details of aisles and spaces in a stockroom to provide granular location det
 -   **[View the open hardware asset pick tasks for your stockroom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/view-open-pick-tasks-ham.md)**  
 View the open hardware asset pick tasks for your stockroom to get the details of the tasks that need action.
 
-**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/using-ham-classic.md)
+**Parent Topic:**[Inventory and stockroom operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/manage-your-stockrooms.md)
 
 **Related topics**  
 
 
-[Work with hardware normalization]()
-
-[Manage asset bundles from your inventory]()
-
-[Manage your inventory through pallet assets]()
-
-[Manage loaner assets]()
-
-[Donate assets to charity organizations]()
-
-[Use Advanced Shipment Notification]()
-
-[Manage RMA requests]()
-
-[Create an inventory stock order request]()
-
-[Create a disposal order]()
-
-[Use a hardware asset request flow]()
-
-[Audit hardware asset inventory]()
-
-[Request a Hardware Asset Refresh]()
-
-[Manage your expiring contracts for leased hardware assets]()
-
-[Reclaim hardware assets]()
-
-[View RFID information of assets]()
-
-[Manage the lifecycle of hardware models with calculated lifecycle templates]()
-
-[Create an internal lifecycle in the Hardware Asset Workspace]()
-
-[Calculate the active lifecycle phase for a model]()
-
-[Receive asset warranty details from Lenovo]()
-
-[Manage stockrooms]()
-
-[Track shipments using the integration framework]()
-
-[Track asset location using indoor maps]()
-
-[Assess performance of Hardware Asset Management]()
-
-[Manage refresh of assets using Zero Touch Refresh]()
-
-[Configure the Total Cost of Ownership of assets]()
-
-[Manage Hardware Asset Management subscriptions]()
-
-[Manage repair of defective assets in your stockroom in the Hardware Asset Workspace]()
-
-[Manage hardware asset tasks using the Mobile Agent application]()
+[Manage the receiving of assets at stockrooms in the Hardware Asset Workspace]()
 
 [Manage asset put away using the Hardware Asset Workspace]()
 
-[Audit your hardware assets by using Asset Attestation]()
+[Audit hardware asset inventory]()
 
-[Acknowledge receipt of assets on the Employee Center portal]()
+[View RFID information of assets]()
 
-[Update associated Decision tables for HAM flows]()
+[Track asset location using indoor maps]()
+
+[Manage your inventory through pallet assets]()
+
+[View stockroom details]()
 

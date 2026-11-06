@@ -1,5 +1,5 @@
 ---
-title: Configure team column data in Manager Hub
+title: Configure team column data
 description: Configure column titles that you want to display on the Team members tab in Your team menu in Employee Center. For example, configure a column title to denote the current status of an employee such as new hire, or on leave.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/configure-team-columndata.html
@@ -7,12 +7,12 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [Configure, Manager Hub, HR Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Configure Manager Hub, Manager Hub, HR Service Delivery, Employee Service Management]
 ---
 
-# Configure team column data in Manager Hub
+# Configure team column data
 
 Configure column titles that you want to display on the Team members tab in Your team menu in Employee Center. For example, configure a column title to denote the current status of an employee such as new hire, or on leave.
 
@@ -103,23 +103,21 @@ Order in which you want to display the column display fields on the Team members
 
 [RCA approvals for Manager Hub]()
 
-[Activate a scheduled job in Manager Hub]()
+[Activate a scheduled job]()
 
-[Configure important dates in Manager Hub]()
+[Configure important dates]()
 
-[Configure manager insights for ServiceNow Otto for HRSD]()
+[Configure team requests]()
 
-[Configure team requests in Manager Hub]()
+[Configure team data]()
 
-[Configure team data in Manager Hub]()
-
-[Configure team filters in Manager Hub]()
+[Configure team filters]()
 
 [Set up View as Direct Reports]()
 
-[Configure daily stats in Manager Hub]()
+[Configure daily stats]()
 
-[Configure to do mappings in Manager Hub]()
+[Configure to do mappings]()
 
-[Configure widgets in Manager Hub]()
+[Configure widgets]()
 

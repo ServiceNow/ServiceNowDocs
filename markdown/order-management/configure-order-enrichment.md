@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/configure-order-enrichment.html
 release: zurich
 topic_type: task
-last_updated: "2025-10-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Order management, Configure, Sales Customer Relationship Management]
 ---
@@ -42,4 +42,11 @@ Add rows to the Order Enrichment Flow Policy decision table to specify which pro
 A list of subflows appear in the results section. These sub flows create the enrichment tasks for an order line item during the enrichment process. For more information, see [Decision Builder user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/decision-builder-user-interface.md).
 
 **Parent Topic:**[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-configuring.md)
+
+**Related topics**  
+
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-order-management.md)
+
+[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-order-management.md)
 

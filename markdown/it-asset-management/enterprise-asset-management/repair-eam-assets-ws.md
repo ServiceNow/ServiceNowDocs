@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Fulfill repair orders in the Enterprise Asset Workspace, Manage repair of defective assets in your stockroom in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Manage enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Fulfill repair orders manually, Fulfilling repair orders in the Enterprise Asset Workspace, Manage repair of defective assets in your stockroom in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
 
 # Complete the repair asset task in the Enterprise Asset Workspace
@@ -55,7 +55,7 @@ Role required: sn\_eam.enterprise\_asset\_technician
     -   If the asset can be redeployed, select **Redeployable**.
 12. In the **Failure code** field, select the code that corresponds to the reason for the asset failure.
 
-    This field shows the failure code that you selected in the Troubleshoot task. However, you can update this field if the reason for the asset failure differs from what was identified in the Troubleshoot task. For more details on codes, see [Failure and resolution codes in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/failure-resolution-codes-eam.md).
+    This field shows the failure code that you selected in the Troubleshoot task. However, you can update this field if the reason for the asset failure differs from what was identified in the Troubleshoot task. For more details on codes, see [Manage failure and resolution codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/manage-failure-res-codes-eam.md).
 
     **Note:** The Failure code field value that you selected is also displayed in the Evaluate Asset task and the repair order line.
 
@@ -91,7 +91,7 @@ Role required: sn\_eam.enterprise\_asset\_technician
 
 [Evaluate the repaired asset in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/evaluate-repaired-eam-asset-ws.md).
 
-**Parent Topic:**[Fulfill repair orders in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/fulfill-eam-repair-orders-in-ws.md)
+**Parent Topic:**[Manually fulfill repair orders in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/fulfill-eam-repair-orders-in-ws.md)
 
 **Related topics**  
 

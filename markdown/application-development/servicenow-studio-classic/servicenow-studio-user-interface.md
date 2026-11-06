@@ -1,73 +1,69 @@
 ---
 title: ServiceNow Studio user interface
-description: Learn about the ServiceNow Studio user interface and how to customize it to your specifications.
+description: Use the ServiceNow Studio interface to build, manage, and deploy custom, base system, or global applications and global metadata records. Customize the interface to match your workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-studio-classic/servicenow-studio-user-interface.html
 release: zurich
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Explore, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Explore, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # ServiceNow Studio user interface
 
-Learn about the ServiceNow Studio user interface and how to customize it to your specifications.
+Use the ServiceNow Studio interface to build, manage, and deploy custom, base system, or global applications and global metadata records. Customize the interface to match your workflow.
 
-ServiceNow Studio is an application that enables you to build, manage, and deploy applications all in one interface. You must be an admin or a delegated developer with access to an application to access ServiceNow Studio.
+Access requires an admin or delegated\_developer role with access to at least one application.
 
-## ServiceNow Studio home page
+## What is on the ServiceNow Studio home page?
 
-From the home page, you can access all of the tools and services in ServiceNow Studio.
+The home page provides access to all tools and services in ServiceNow Studio.
 
--   The Navigator panel enables you to see a quick view of all your apps, files, bookmarks, recents, and tools. You can filter or sort the lists, and you can open any list in the platform view by selecting **Open list**.
+-   The main home page shows the Build Agent chat panel, where you can begin creating, updating, or enhancing applications with AI. For more information, see [Exploring Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/exploring-build-agent.md).
+
+    \[Omitted image "sn-studio-ba-chat.png"\] Alt text: Start creating and updating apps directly from the home page.
+
+-   The Navigator panel enables you to access Build Agent, apps, metadata records, recently opened files, and more. Plan and create apps, create collections, and manage deployments from the Navigator panel. Filter or sort the lists, or select **Open list** to open any list in the platform view.
+
+    \[Omitted image "sn-studio-full-nav-panel.png"\] Alt text: The navigator panel contains apps, metadata records, collections, and much more.
+
+-   The Activity bar enables you to switch between features to access development tools.
+
+    \[Omitted image "sn-studio-activity-bar.png"\] Alt text: Access the activity bar in the navigator panel.
 
     |Icon|Navigation item|Description|
     |----|---------------|-----------|
-    |\[Omitted image "sn-studio-menu-icon.png"\] Alt text:|Open/Hide Navigator panel|Option to expand or collapse the Navigator panel.|
-    |\[Omitted image "sn-studio-search-icon.png"\] Alt text:|Search|Option to search for any file, app, metadata, or tool in any scope on the platform.|
-    |\[Omitted image "sn-studio-create-icon.png"\] Alt text:|Create|Option to create a new app or file.|
-    |\[Omitted image "sn-studio-apps-icon.png"\] Alt text:|Apps|Option to view all apps.|
-    |\[Omitted image "sn-studio-files-icon.png"\] Alt text:|File Categories|Option to view, sort, and filter all files and metadata.|
-    |\[Omitted image "sn-studio-bookmark-icon.png"\] Alt text:|Bookmarks|Access point for all your favorite files and apps.|
-    |\[Omitted image "sn-studio-recents-icon.png"\] Alt text:|Recent|Access point for all your most recently accessed files.|
+    |\[Omitted image "sn-studio-home-icon.png"\] Alt text:|Home|Return home to the ServiceNow Studio homepage from other tabs.|
+    |\[Omitted image "sn-studio-explorer-icon.png"\] Alt text:|Explorer|Work on apps in source code.|
+    |\[Omitted image "sn-studio-conversations-icon.png"\] Alt text:|Conversations|Navigate to conversations you have had with Build Agent.|
+    |\[Omitted image "sn-studio-plans-icon.png"\] Alt text:|Plans|View all the plans Build Agent has created during conversations.|
+    |\[Omitted image "sn-studio-search-icon.png"\] Alt text:|Search|Search for any file, app, metadata, or tool in any scope on the platform.|
+    |\[Omitted image "sn-studio-create-icon.png"\] Alt text:|Create|Create an app or file.|
+    |\[Omitted image "sn-studio-apps-icon.png"\] Alt text:|Apps|View all apps.|
+    |\[Omitted image "sn-studio-file-categories-icon.png"\] Alt text:|File Categories|View, sort, and filter all files and metadata.|
+    |\[Omitted image "sn-studio-collections-icon.png"\] Alt text:|Collections|Access organized collections of bookmarks, files, and apps.|
+    |\[Omitted image "sn-studio-recent-icon.png"\] Alt text:|Recent|Access recently opened files.|
+    |\[Omitted image "sn-studio-deployment-icon.png"\] Alt text:|Deployment|Access a list of deployment requests, update sets, and applications.|
+    |\[Omitted image "sn-studio-changes-icon.png"\] Alt text:|Changes|View changes associated with source control.|
+    |\[Omitted image "sn-studio-settings-icon.png"\] Alt text:|User profile|Open the user profile menu, where you can elevate your role and view the ServiceNow Studio command palette, keyboard shortcuts, and user preferences.|
 
--   You can show/hide and pin/unpin the Navigator panel in ServiceNow Studio by using the icons in the side panel. You might want to hide the panel for full-screen editing capabilities when you're working on an app.
+-   The **User profile** icon \[Omitted image "sn-studio-settings-icon.png"\] Alt text: in the activity bar provides access to the ServiceNow Studio command palette, a list of keyboard shortcuts, and user preferences. You can elevate your role, select light or dark theme, andchoose whether you want to use Build Agent as your default AI-assisted app generation tool.
 
-    \[Omitted image "sn-studio-pin-hide-panel.png"\] Alt text: Show and hide the Navigator panel, and pin or unpin it for easy access.
+    **Note:** For more information about elevating your role to security\_admin, see [Elevate your role in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/elevate-your-role-in-servicenow-studio.md).
 
--   The toolbar provides another access point for the home page, Tools page, and Deployment.
+    For more information, see [ServiceNow Studio settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/servicenow-studio-settings.md).
 
-    \[Omitted image "sn-studio-tool-bar.png"\] Alt text: ServiceNow Studio tool bar
-
-    |Page|Description|
-    |----|-----------|
-    |Home|Main landing page for ServiceNow Studio. Access the Navigator panel, recently opened files and apps, and other tools and resources.|
-    |Tools|Access point for documentation related to the tools and builders integrated into ServiceNow Studio. For more information, see [Integrated development tools for ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/integrated-development-tools.md).|
-    |Deployment|Landing page for viewing, managing, and deploying apps using update sets and accessing applications for deployment through pipelines or the Application Repository. If you create a new update set, you can see it on the **Deployment** page. Applications can also be deployed directly from the App details page for each app.|
-
--   The user preferences menu provides access to ServiceNow Studio preferences, where you can select light or dark theme andgroup your tabs by scope.
-
-    \[Omitted image "sn-studio-user-menu.png"\] Alt text: The user preferences menu enables you to access ServiceNow Studio settings.
-
-    \[Omitted image "sn-studio-themes.png"\] Alt text: Choose light or dark theme to personalize your interface and organize groups of tabs by scope.
-
--   The Create button enables you to quickly create apps and app filesor to import a new app from source control.
-
-    \[Omitted image "sn-studio-create-options.png"\] Alt text: In the Create menu, you can create a new app or file or import a new app from source control.
-
--   The Resources section at the bottom of the home page has links to the ServiceNow Community site, the App Gallery, and the Script Debugger tool. In addition, you can access the product documentation for ServiceNow Studio and Creator Studio applications.
-
-    \[Omitted image "sn-studio-resources-zs2.png"\] Alt text: The Resources section provides several links to tools, products, and documentation.
+    \[Omitted image "sn-studio-settings-menu.png"\] Alt text: The user profile menu provides access to the Command palette, keyboard shortcuts, and preferences.
 
 
-## See scope and update set
+## How do I view the scope and update set?
 
-If you're in an app or file, you can see the scope of the file in the status bar. You can also see the update set associated with the application in the status bar. If you need to change the update set or create a new one, open the default update set and change your selection right within the app.You can also see a list of the updates associated with the current update set by selecting **View update set**.
+When you have an app or file open, the status bar shows the current scope and the update set associated with the application. To change the update set or create one, open the default update set and select a different one directly within the app.To see all updates associated with the current update set, select **View update set**.
 
-\[Omitted image "sn-studio-scope-update-set-zs1.png"\] Alt text: Each app shows its scope and update set at the bottom of the canvas. If you want to change the update set, select a new one or create new.
+For more information, see [Update sets in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/working-with-update-sets-in-servicenow-studio.md).
 
-For more information, see [Working with update sets in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/working-with-update-sets-in-servicenow-studio.md).
+\[Omitted image "sn-studio-scope-update-set-bs1.png"\] Alt text: Each app shows its scope and update set at the bottom of the canvas. Select a new update set or create one to change it.
 

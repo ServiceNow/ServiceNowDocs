@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/configure-tile-icon-colors.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Tile icon illustrations, Image styles, Manage or edit a theme, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -16,11 +16,13 @@ Configure and control the colors automatically applied to tile icon illustration
 
 ## Before you begin
 
-Role required: admin
+Role required: ui\_builder\_admin
+
+For information on granular roles, see .
 
 ## About this task
 
-As a category, all tile icon illustrations share color hook mappings. Color hook mappings link theme colors to specific parts of an illustration. As a result, the colors that you apply to one tile icon illustration type are also applied to the entire tile icon illustration category.
+As a category, all tile icon illustrations share color hook mappings. As a result, the colors that you apply to one tile icon illustration type are also applied to the entire tile icon illustration category.
 
 **Important:** Configuring tile icon illustration colors applies to Workspaces and isn’t supported in the Core UI.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/expl-view-recommended-actions.html
 release: zurich
 topic_type: task
-last_updated: "2026-01-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---

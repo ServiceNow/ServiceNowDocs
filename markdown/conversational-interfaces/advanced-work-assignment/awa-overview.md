@@ -7,8 +7,8 @@ release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 8
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
 
@@ -125,33 +125,4 @@ awa\_admin or admin
 ## Reassigning messaging conversations
 
 If you want messaging conversations to be automatically reassigned if the current Assigned To agent on the conversation isn’t available, set the **glide.messaging.reassign.enabled** system property to `true`. The system property only affects messaging conversations and the Assigned To agent is considered not available if the AWA Inbox status isn’t set to "Available."
-
--   **[Advanced Work Assignment home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-admin-console-home.md)**  
-Explore, implement, and maintain ServiceNow® Advanced Work Assignment using a home-page experience. Discover AWA, install relevant plugins, and configure settings for AWA through the Advanced Work Assignment home page available to admins.
--   **[Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-service-channels.md)**  
-Provide customer support by automatically routing incoming work to agents through service channels.
--   **[Service channel capacity and utilization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-service-channel-capacity.md)**  
-In Advanced Work Assignment, capacity is the number of work items automatically assigned to agents supporting a service channel. Utilization is the condition that identifies the work item states supported in the channel.
--   **[Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/conversation-sms-service-channel-store-app.md)**  
-Using the Conversational SMS service channel app on the ServiceNow Store, workspace agents can provide support for long-running SMS conversations and conversations that use multiple service channels.
--   **[Work items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-work-items.md)**  
-View Advanced Work Assignment work items using the Work Items menu options.
--   **[Work assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-assignment.md)**  
-After routing work items to the appropriate queues and corresponding agent groups, Advanced Work Assignment \(AWA\) pushes work to the most qualified agent using the assignment criteria that you specify. Assignment criteria revolve around the type of assignment rule \(most capacity or last assigned\) and whether skills are defined.
--   **[External routing overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-external-routing-overview.md)**  
-External Routing involves routing to external queue based on the service channel and queue conditions, and then the assignment is completed by the third-party system.
--   **[Inbox layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-inbox-layout.md)**  
-The inbox layout determines the information shown on work item cards displayed in an agent's inbox.
--   **[Agent Inbox controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/agent-experience.md)**  
-Control certain elements of the agent experience in Agent Workspace. Define the agent presence \(availability\) states and the work item rejection reasons used by agents to decline work assignments in their Agent Workspace inbox.
--   **[Advanced Work Assignment Inbox Sentiment display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-inbox-sentiment-display.md)**  
-Surface the sentiment in AWA Inbox for agents to get the visibility of requester sentiment \( if available\) during live agent handoff or agent transfer for all channels.
--   **[Wrap up overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/wrap-up-overview.md)**  
-When agents close an interaction, the wrap up feature enables them to enter closing details and wrap up codes for future reference.
--   **[Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/management.md)**  
-Configure Advanced Work Assignment properties using the Management menu options.
--   **[AWA group queue priorities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-group-queue-priorities.md)**  
-Use the group queue priority feature to set a queue or work item preference for a given group of agents. For a given group or agent with limited capacity, this feature controls which queues should be preferred if matching work items are found in both.
-
-**Parent Topic:**[Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-application-landing-page.md)
 

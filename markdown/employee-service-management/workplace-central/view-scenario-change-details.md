@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Working with Space Optimization, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -42,15 +42,15 @@ View details of every change made in the scenario. You can view details such as 
 
 3.  Open the scenario that you want to view by using any of the following paths.
 
-<table id="choicetable_vtv_5nj_3vb"><thead><tr><th align="left" id="d774294e142">
+<table id="choicetable_vtv_5nj_3vb"><thead><tr><th align="left" id="d785829e142">
 
 Path
 
-</th><th align="left" id="d774294e145">
+</th><th align="left" id="d785829e145">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d774294e151">
+</th></tr></thead><tbody><tr><td id="d785829e151">
 
 **From the Scenarios list section**
 
@@ -64,7 +64,7 @@ A list of all the scenarios created in the application is displayed.
 
 You can use the search and filter options on the list.
 
-</td></tr><tr><td id="d774294e176">
+</td></tr><tr><td id="d785829e176">
 
 **From the Buildings list section**
 

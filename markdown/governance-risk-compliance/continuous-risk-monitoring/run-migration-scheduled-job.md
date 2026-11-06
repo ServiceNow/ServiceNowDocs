@@ -7,7 +7,7 @@ release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2025-12-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CAM workflow configuration, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
@@ -32,11 +32,4 @@ Role required: sn\_irm\_cont\_auth.admin
 
 5.  Select **Execute Now** to confirm execution.
 
-
-**Related topics**  
-
-
-[GRC state model configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/cam-create-state-model.md)
-
-[Workflow configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/work-configuration.md)
 

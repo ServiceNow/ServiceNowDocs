@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/solution-configuration-setup.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-22"
-reading_time_minutes: 3
-breadcrumb: [ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Solution configuration setup
@@ -20,11 +20,14 @@ Configurable product actions are a new type of product action that can be added 
 
 ## Benefits
 
--   Benefits to administrators include the following:
+-   For administrators:
     -   Independent deployment: Each blueprint can be deployed independently, which allows for finer granularity when making changes or updates to a blueprint.
     -   Separation of concerns: Administrators can segment out logical components from a configuration and allow different groups to work on blueprints without conflicting.
     -   Blueprint reusability: Blueprints can be reused both as part of a solution, multiple solutions, or as an independently configurable product. This leads to less duplication when a blueprint is needed for multiple contexts and less overhead for maintenance.
--   End users can seamlessly work through multiple configurations without needing to re-launch ServiceNow CPQ each time.
+-   For end users:
+    -   End users can seamlessly work through multiple configurations without needing to re-launch ServiceNow CPQ each time.
+    -   You can clone the child configuration if it is a set-based configuration. The original node in a set must be in the valid state. Cloned nodes are independent of the original edits to a cloned node do not affect the source node.
+    -   You can also add a blank node or remove node from the navigation sidebar.
 
 ## The end user experience
 
@@ -51,6 +54,14 @@ Field mapping defines which fields have data passed to or from them. Field mappi
 
 Entire sets and product pickers cannot be mapped.
 
+## Node cloning for solution configurations
+
+Node cloning lets you duplicate an existing, valid solution configuration node to use as the starting point for a new node. When you clone a node, both the fields and their values are copied — so you don't have to re-enter configuration data for each new node from scratch.
+
+Cloned nodes are fully independent of the original. Changes you make to a cloned node don't affect the source node, and changes to the source node don't affect the clone.
+
+Cloning is available from the solution configuration in a set using the navigation sidebar. A node must be in a valid state before you can clone it — this prevents incomplete configurations from being duplicated. When you clone a node that has a dependent set, a corresponding child node is created as part of the cloning operation.
+
 ## Layout
 
 Each solution component displays its own layout from the layouts associated with the current blueprint.
@@ -70,4 +81,9 @@ The BOM hierarchy is still defined via the parent product and the unique identif
 -   Sets make it easy to handle large numbers of rows with potentially different configurations. They support cloning rows, while set repeater layout options provide visual similarity.
 -   Product pickers work well with lightly configurable products and can be customized with additional fields and bulk actions.
 -   Depending on the downstream system, making multiple independent configurations may provide more flexibility than a single solution configuration.
+
+**Related topics**  
+
+
+[Node cloning for solution configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/node-cloning-for-solution-configuration.md)
 

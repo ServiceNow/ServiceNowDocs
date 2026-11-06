@@ -1,5 +1,5 @@
 ---
-title: Admin Center references
+title: Admin Center reference
 description: Find all the miscellaneous information about Admin Center and its applications in the reference section.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/admin-center/ac-reference.html
@@ -7,12 +7,12 @@ release: zurich
 product: Admin Center
 classification: admin-center
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Admin Center, Get started, Administer]
+breadcrumb: [Admin Center, Get started, Administer the ServiceNow AI Platform]
 ---
 
-# Admin Center references
+# Admin Center reference
 
 Find all the miscellaneous information about Admin Center and its applications in the reference section.
 

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/access-build-agent.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-02"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 keywords: [Build Agent, ServiceNow Studio, ServiceNow IDE, access, development, AI agent, chat panel, Personal Development Instance, PDI, ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
+breadcrumb: [Use, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Accessing Build Agent in ServiceNow Studio
@@ -34,7 +34,7 @@ You can start a Build Agent session with an active working set already loaded by
 
 ## Build Agent environments
 
-You can use Build Agent in both ServiceNow Studio, which contains the ServiceNow IDE if you want to create apps in source code.
+You can use Build Agent in both ServiceNow Studio, which contains the ServiceNow IDE if you want to create apps in source code. For more information, see [Building apps in source code in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/building-apps-in-source-code-sn-studio.md).
 
 Your choice on where to access Build Agent depends on your role and workflow.
 

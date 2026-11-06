@@ -1,41 +1,33 @@
 ---
-title: Configuring Entity View Action Mapper
-description: The Entity View Action Mapper \(EVAM\) enables you to map specific actions to entity views, enabling customized behavior and streamlined workflows. Learn how to configure EVAM so you can define, configure, and apply mappings to enhance user interactions with data in the platform.
+title: Configuring entity view action mapper
+description: The Entity View Action Mapper \(EVAM\) allows you to map specific actions to entity views, enabling customized behavior and streamlined work-flows. Learn how to define, configure, and apply mappings to enhance user interactions with data in the platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/entity-view-action-mapper-evam/configuring-entity-view-action-mapper.html
 release: zurich
 product: Entity View Action Mapper \(EVAM\)
 classification: entity-view-action-mapper-evam
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [EVAM, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Entity view action mapper, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Configuring Entity View Action Mapper
+# Configuring entity view action mapper
 
-The Entity View Action Mapper \(EVAM\) enables you to map specific actions to entity views, enabling customized behavior and streamlined workflows. Learn how to configure EVAM so you can define, configure, and apply mappings to enhance user interactions with data in the platform.
+The Entity View Action Mapper \(EVAM\) allows you to map specific actions to entity views, enabling customized behavior and streamlined work-flows. Learn how to define, configure, and apply mappings to enhance user interactions with data in the platform.
 
 ## Configuration overview
 
-To get started with EVAM, you need the following plugins for UI Builder:
+-   [Create an EVAM action definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/entity-view-action-mapper-evam/define-evam-action.md)
 
--   sn\_ui\_builder
--   sn\_ui\_builder\_icons
--   sn\_ui\_builder\_properties\_pane
+    You can associate a declarative action with a view template. EVAM also enables user interactions to trigger a server script or UXF client action.
 
-EVAM also relies on:
+-   [Create an EVAM definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/entity-view-action-mapper-evam/define-composite-dataset.md)
 
--   Now Design System \(NDS\) components
--   @devsnc/sn-layout \(com.devsnc\_sn\_layout\): Layout
+    Define the list of data sources to render. The EVAM definition is the main record for an EVAM configuration.
 
--   -   -   
--   **[Define a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/entity-view-action-mapper-evam/define-evam-datasource.md)**  
-The data source is an entity that has associated data that you intend to display. For example, a community post or a user.
--   **[Define an EVAM view template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/entity-view-action-mapper-evam/define-evam-template.md)**  
-You can configure multiple view templates per data source based on conditions to customize how data displays for users. The view template maps fields from the view configuration to component.
--   **[Define an EVAM configuration bundle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/entity-view-action-mapper-evam/define-view-configuration-bundle.md)**  
-Create a view configuration to combine conditions, database fields, and declarative actions with an associated view template using the Entity View Action Mapper \(EVAM\).
+-   [Create a multi-data source list display in Entity View Action Mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/entity-view-action-mapper-evam/tutorial-create-evam.md)
 
-**Parent Topic:**[Manage instance data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/manage-data-sources.md)
+    Use EVAM to take in different data sources, configure views, and show them in a card display view.
+
 

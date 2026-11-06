@@ -1,38 +1,36 @@
 ---
-title: Manage a store inquiry case from the Retail mobile app
-description: Manage a store inquiry case from the Retail mobile app by accepting or rejecting a proposed solution. By managing a case from this mobile app, you can immediately get visibility into the progress, issues, or status of your case without having to use a computer.
+title: Manage a store inquiry case from a mobile app
+description: Manage a store inquiry case from a mobile app by accepting or rejecting a proposed solution. By managing a case from a mobile app, you can immediately get visibility into the progress, issues, or status of your case without having to use a computer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/retail-industry/rahi-retail-fulfill-retail-store-service-case-mobile.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage store inquiries, Retail]
 ---
 
-# Manage a store inquiry case from the Retail mobile app
+# Manage a store inquiry case from a mobile app
 
-Manage a store inquiry case from the Retail mobile app by accepting or rejecting a proposed solution. By managing a case from this mobile app, you can immediately get visibility into the progress, issues, or status of your case without having to use a computer.
+Manage a store inquiry case from a mobile app by accepting or rejecting a proposed solution. By managing a case from a mobile app, you can immediately get visibility into the progress, issues, or status of your case without having to use a computer.
 
 ## Before you begin
 
-Role required: sn\_rtl\_stre\_servcs.contributor
+Role required: Store associate or Store manager
 
 ## Procedure
 
-1.  In the Retail mobile app, select **My Store** &gt; **All cases** from the menu bar.
+1.  On the Retail mobile app, select **My Store** &gt; **All cases** from the menu bar.
 
-2.  Select the case from the case list.
+2.  Select the case.
 
-3.  Add notes, close a case, or reopen a case.
+3.  Select **Actions** &gt; **Close case**
 
-    |Option|Description|
-    |------|-----------|
-    |**Notes**|Add notes if the HQ agent requests more information.|
-    |**Accept solution**|Close the case. If the HQ agent proposes a solution with the resolution, you can accept the solution or reject the solution.|
-    |**Reject solution**|Reopen the case if you reject the solution.|
+    If the HQ agent requests more information, add more details. If the HQ agent proposes a solution with the resolution, you can accept the solution or reject the solution.
 
-4.  If you're the requester and the case is in the open state, close the case by selecting **Actions** &gt; **Close case**.
+4.  Select **Accept** to close the case.
+
+5.  Select **Reject** to reopen the case.
 
 
 **Parent Topic:**[Manage store inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/rahi-retail-manage-store-inquiries.md)

@@ -7,7 +7,7 @@ release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workflows used as subflows, Workflow management, Classic Workflow, Build workflows]
 ---

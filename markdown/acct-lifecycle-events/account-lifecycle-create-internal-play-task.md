@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-create-internal-play-task.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create an internal play record, Create an internal play, Manage playbooks, Customer success, Configure, Customer Success Management]
+breadcrumb: [Create an internal play, Manage playbooks, Customer success, Use, Customer Success Management]
 ---
 
 # Create an internal play task
@@ -20,11 +20,11 @@ Role required: sn\_acct\_lc.customer\_success\_agent
 
 ## Procedure
 
-1.  Navigate to **Workspace** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
+1.  Navigate to **Workspace** &gt; **CRM Workspace** and select the **List** icon.
 
 2.  Navigate to the **Customer Success** &gt; **All Internal Plays**.
 
-3.  Open an internal play, navigate to the Internal Play Tasks tab and click **New**
+3.  Open an internal play, select the Related Items option in the contextual side panel, expand the Internal Play Tasks related item, and select **Create**.
 
 4.  On the form, fill in the fields.
 
@@ -173,13 +173,13 @@ Work notes
 Any notes to internal team members regarding this internal play.
 
 </td></tr></tbody>
-</table>5.  Click **Save** to create a new internal play task.
+</table>5.  Select **Save** to create internal play task.
 
 
 ## What to do next
 
--   Click **Discuss** to start a sidebar discussion about this internal play task. In the popup window, select the participants who need to participate in the discussion, enter a brief message, and click **Start discussion**. A window appears with a link to the record for this initiative. Click **Open record** and start the discussion. When the discussion has been completed, you can see the details in the Activity stream.
+-   Select **Discuss** to start a sidebar discussion about this internal play task. In the pop-up window, select the participants who need to participate in the discussion, enter a brief message, and select **Start discussion**. A window appears with a link to the record for this initiative. Select **Open record** and start the discussion. When the discussion has been completed, you can see the details in the Activity stream.
 -   Create success play: See [Create a success play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-success-play.md).
 
-**Parent Topic:**[Create an internal play playbook record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-internal-play.md)
+**Parent Topic:**[Create an internal play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-internal-play-playbook.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-landing-page.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Explore, Manufacturing Commercial Operations]
 ---
@@ -26,7 +26,7 @@ The Manufacturing Commercial Operations workspace provides role-based landing pa
 
 **Note:** Users without AI plugins installed can view the non-AI experience.
 
-\[Omitted image "image.agents-ws-portal"\] Alt text: MCO workspace \[Omitted image ""\] Alt text:
+\[Omitted image "agents-ws-portal.png"\] Alt text: MCO workspace \[Omitted image ""\] Alt text:
 
 The agent workspace landing page includes different sections and components. It has the following capabilities:
 

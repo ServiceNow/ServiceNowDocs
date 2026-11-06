@@ -7,9 +7,9 @@ release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Landing page redirection in Service Operations Workspace for ITSM, Getting started with Service Operations Workspace for ITSM, Configure, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Landing page redirection in Service Operations Workspace for ITSM, Getting started with Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Disable auto-redirection for all agents to Service Operations Workspace
@@ -18,7 +18,7 @@ Verify that the agents aren't automatically redirected to Service Operations Wor
 
 ## Before you begin
 
-Role required: sn\_sow\_admin.sn\_sow\_admin, or admin
+Role required: admin
 
 ## Procedure
 

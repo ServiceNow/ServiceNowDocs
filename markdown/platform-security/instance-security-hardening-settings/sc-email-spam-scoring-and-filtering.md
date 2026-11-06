@@ -1,5 +1,5 @@
 ---
-title: Enable email spam scoring and filtering \[Updated in Security Center 1.3\]
+title: Enable email spam scoring and filtering
 description: Install the Email Filter \(com.glide.email\_filter\) plugin to install email filtering within the instance. This filtering identifies existing headers, which enables you to decide what to do with the email based on the associated header. Alternatively, set com.glide.email\_filter to false.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-email-spam-scoring-and-filtering.html
@@ -7,24 +7,20 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [File and resources, Hardening settings, Platform Security]
 ---
 
-# Enable email spam scoring and filtering \[Updated in Security Center 1.3\]
+# Enable email spam scoring and filtering
 
 Install the Email Filter \(**com.glide.email\_filter**\) plugin to install email filtering within the instance. This filtering identifies existing headers, which enables you to decide what to do with the email based on the associated header. Alternatively, set **com.glide.email\_filter** to false.
 
-Every message sent through ServiceNow AI Platform email servers is assessed for the likelihood of being spam.
+The Email Filter \(**com.glide.email\_filter**\) plugin installs email filtering within the instance. This filter identifies existing headers, which enables the administrator to decide what to do with the email based on the associated header. The plugin adds a header to each message, which can be used for filtering within the instance. This feature is very helpful for filtering out spam.
 
-**Note:** If an instance uses a private email server, this topic is not applicable. For more information, see Email Spam Scoring and Filtering.
+**Note:** Please make sure prerequisite property **glide.email.read.active** is set to **true**, as this control only applies when inbound email is enabled.
 
-## Prerequisites
-
-Before setting this property:
-
-Set the **glide.email.read.active** property to true. To learn more, see [Enable using your own POP3 server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_ConfAltEmailConfPOP3Server.md).
+Ensure that the plugin **com.glide.email\_filter** is activated when the property **glide.email.read.active** is set to **true**.
 
 ## More information
 
@@ -38,11 +34,12 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Plugin Name
+Configuration name
 
 </td><td>
 
-com.glide.email\_filter, glide.email.read.active
+-   **com.glide.email\_filter**
+-   **glide.email.read.active**
 
 </td></tr><tr><td>
 
@@ -50,7 +47,43 @@ Configuration type
 
 </td><td>
 
-System Definition &gt; Plugins
+-   Plugin \(**All** &gt; **System Definition** &gt; **Plugins**\)
+-   System Properties \(/sys\_properties\_list.do\)
+
+</td></tr><tr><td>
+
+Data type
+
+</td><td>
+
+-   Plugin
+-   Boolean
+
+</td></tr><tr><td>
+
+Recommended value
+
+</td><td>
+
+-   Plugin is active
+-   true
+
+</td></tr><tr><td>
+
+Default value
+
+</td><td>
+
+&lt;none&gt;
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+-   N/A
+-   true
 
 </td></tr><tr><td>
 
@@ -62,38 +95,13 @@ Category
 
 </td></tr><tr><td>
 
-Purpose
+Security risk
 
 </td><td>
 
-To enforce filtering to avoid spamming of emails.
-
-</td></tr><tr><td>
-
-Recommended value
-
-</td><td>
-
-Either:-   The **glide.email.read.active** property to **false**
--   The **glide.email.read.active** property to **true** and activate the **Email Filter** \(com.glide.email\_filter\) plugin.
-
-Active
-
-</td></tr><tr><td>
-
-Default value
-
-</td><td>
-
-None. This is a plugin, not a Glide property so there is no default value.
-
-</td></tr><tr><td>
-
-Security risk rating
-
-</td><td>
-
-8.1
+-   Severity score: 8.1
+-   CVSS rating: High
+-   Security risk details: Enabling and configuring email filtering is essential for reducing exposure to spam and maintaining system integrity.
 
 </td></tr><tr><td>
 
@@ -105,24 +113,14 @@ Email is never filtered, blocked, or quarantined from the instance as part of sp
 
 </td></tr><tr><td>
 
-Security risk
+Dependencies and prerequisites
 
 </td><td>
 
-\(Moderate\) Email filters enable administrators to use a condition builder or conditional script to specify when to ignore malicious incoming emails from known/unknown sender.
+Before setting this property:
 
-</td></tr><tr><td>
-
-References
-
-</td><td>
-
-[Email filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_EmailFilters.md)
-
- [https://support.servicenow.com/kb\_view.do?sysparm\_article=KB0549426](https://support.servicenow.com/kb_view.do?sysparm_article=KB0549426)
+ Set the **glide.email.read.active** property to true. To learn more, see [Enable using your own POP3 server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_ConfAltEmailConfPOP3Server.md).
 
 </td></tr></tbody>
-</table>To learn more about activating a plugin, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_ActivateAPlugin.md).
-
-**Parent Topic:**[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-file-resources.md)
+</table>**Parent Topic:**[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-file-resources.md)
 

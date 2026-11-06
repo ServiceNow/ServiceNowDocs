@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-define-data-source-table.html
 release: zurich
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 3
-breadcrumb: [Define the data source, Set up the Data Context Engine, Customer success, Configure, Customer Success Management]
+breadcrumb: [Define the data source, Data context engine, Customer success, Configure, Customer Success Management]
 ---
 
 # Define a table data source
@@ -161,9 +161,4 @@ A few examples on how to configure the data source are given below:
 ## What to do next
 
 After defining the data source, the next step is to configure the context engine mapper. See [Configure the Context Engine Mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-define-context-engine-mapper.md) for details.
-
--   **[Define a Workflow Data Fabric table data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-define-data-source-data-fabric-table.md)**  
-Enable data collection and analysis from external tables by integrating the Data Context Engine with Workflow Data Fabric to generate actionable insights.
-
-**Parent Topic:**[Define the data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-define-data-source.md)
 

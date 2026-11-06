@@ -7,9 +7,9 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2025-07-28"
-reading_time_minutes: 5
-breadcrumb: [AI Search, Search administration, Configure core features, Administer]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # AI Search reference
@@ -33,7 +33,7 @@ List of fields available on records in the AI Search index. AI Search populates 
 -   **[AI Search Country To Search Language form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ais-country-kb-srch-lang-form.md)**  
 The AI Search Country To Search Language form enables you to define a knowledge article search language for a country.
 -   **[AI Search External Search User Mapping Table Data Source Relationship form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ext-usr-map-idx-src-form-ais.md)**  
-The AI Search External Search User Mapping Table Data Source Relationship form contains enables you to link a user mapping table to an indexed source for external content in AI Search.
+The AI Search External Search User Mapping Table Data Source Relationship form enables you to link a user mapping table to an indexed source for external content in AI Search.
 -   **[AI Search Genius Result Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/genius-result-cfg-form-ais.md)**  
 The AI Search Genius Result Configuration form enables you to create a Genius Result configuration for use in your AI Search search profiles.
 -   **[AI Search Genius Result Configuration NLU Model Mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/gr-cfg-nlu-model-mapping-ais.md)**  
@@ -86,10 +86,6 @@ The Semantic Index Field form enables you to define a semantic index field for u
 The Sort Option form enables you to create a search result sort option in the search application configuration for an AI Search application.
 -   **[Suggestion Reader Group form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/sugg-reader-group-form-ais.md)**  
 The Suggestion Reader Group form enables you to modify settings for an auto-complete suggestion type in the search application configuration for an AI Search application.
--   **[Generative AI model configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ais-rag-gen-ai-model-config-form.md)**  
-The Generative AI model configuration form contains information about a custom embedding model that your AI Search Retrieval Augmented Generation \(RAG\) application uses to generate embeddings for semantic indexing. Use this form when creating or modifying a custom embedding model.
--   **[AWS Credentials form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/aws-credentials-form.md)**  
-The AWS Credentials form contains information about security credentials defined for search application configurations in AI Search to connect to AWS. Use this form when creating or modifying a AWS credentials.
 
 **Parent Topic:**[AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/overview-ais.md)
 

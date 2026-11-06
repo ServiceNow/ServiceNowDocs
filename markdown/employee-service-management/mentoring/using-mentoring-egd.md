@@ -1,18 +1,18 @@
 ---
 title: Using Mentoring
-description: Use Mentoring in Employee Center to access your learnings and achievements.
+description: Employees can participate as mentors or mentees from the Employee Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/mentoring/using-mentoring-egd.html
 release: zurich
 product: Mentoring
 classification: mentoring
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mentoring, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Using Mentoring
 
-Use Mentoring in Employee Center to access your learnings and achievements.
+Employees can participate as mentors or mentees from the Employee Center.
 

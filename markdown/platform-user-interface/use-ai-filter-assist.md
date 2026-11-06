@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/use-ai-filter-assist.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working on records in your Workspace, Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Lists, Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Use AI filter assist
@@ -16,7 +16,7 @@ AI filter assist enables you to convert everyday language into an AI-generated e
 
 ## Before you begin
 
-**Important:** The AI filter assist feature is available with ServiceNow® Pro Plus licensing. Discuss licensing with your ServiceNow® account representative for information specific to your contract.
+**Important:** Check your entitlements to determine whether you have access to the AI filter assist feature. Discuss licensing with your ServiceNow® account representative for information specific to your contract.
 
 Role required: workspace\_user
 

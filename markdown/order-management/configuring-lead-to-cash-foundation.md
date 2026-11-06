@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/configuring-lead-to-cash-foundation.html
 release: zurich
 topic_type: concept
-last_updated: "2025-11-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Sales Customer Relationship Management]
 ---
@@ -20,12 +20,19 @@ Installing and configuring the following applications involve installing the app
 
     Create product offerings and the associated product catalogs that can be used by Sales Customer Relationship Management agents for pre-sales activities, order capture, and post-sales engagement.
 
-2.  [Install and configure Lead to Cash Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/install-and-configure-lead-to-cash.md)
+2.  [Install and configure CRM Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/install-and-configure-lead-to-cash.md)
 
-    Install the Lead to Cash Core application which enables you to compose and build workflows that your organization maintains for the life cycle of a sold product.
+    Install the CRM Core application which enables you to compose and build workflows that your organization maintains for the life cycle of a sold product.
 
-3.  \(Optional\) [Sales and Service API Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-services-api-core.md)
+3.  \(Optional\) [CRM API Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-services-api-core.md)
 
-    Configure the Sales and Service API Core plugin to enable seamless tracking and management of Sales Customer Relationship Management workflows through structured inbound and outbound request handling, configurable flow processing, and integration with external systems.
+    Configure the CRM API Core plugin to enable tracking and management of Sales Customer Relationship Management workflows through structured request handling, flow processing, and external system integration.
 
+
+**Related topics**  
+
+
+[Using lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-lead-cash-foundation.md)
+
+[Lead-to-cash foundation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/reference-lead-cash-foundation.md)
 

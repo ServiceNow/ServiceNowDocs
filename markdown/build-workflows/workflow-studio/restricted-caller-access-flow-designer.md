@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Flows, Configure, Workflow Studio, Build workflows]
+breadcrumb: [Configure flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Restricted caller access to Workflow Studio flows
@@ -31,8 +31,6 @@ The Restricted Caller Access Privileges table has dedicated source types to iden
     For example, suppose you create a custom action that runs the Look Up Records step on a cross-scope table. When caller restriction is enabled for the cross-scope table, the Look Up Records step generates a request to perform a read operation. When you allow the custom action to perform read operations on the cross-scope table you can run the custom action from any context. For example, you can add the custom action to multiple flows or call the custom action from a script. As long as the custom action performs the operation on the allowed target cross-scope resource, the system allows the custom action to run. If you configure the custom action to access another cross-scope table, the custom action generates a separate access privilege request for approval.
 
 
-**Parent Topic:**[Configuring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/configuring-flow-designer.md)
-
 ## Upgrade restricted caller access privileges for flows and actions
 
 Allow instances upgraded from San Diego and earlier releases to generate restricted caller access privilege requests for flows and actions.
@@ -43,7 +41,7 @@ If you enable application administration for the target application, only applic
 
 Role required: application admin or admin
 
-**Note:** To learn about application-specific administrator roles and delegated development, see Access control rules in application administration apps and Delegated development and deployment.
+**Note:** To learn about application-specific administrator roles and delegated development, see [Access control rules in application administration apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ACL-access-checks.md) and [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/c_DelegatedDevelopment.md).
 
 ### About this task
 
@@ -63,7 +61,7 @@ In San Diego and earlier releases, the Restricted Caller Access Privileges table
     |Type|**true\|false**|
     |Value|true|
 
-2.  Define cross-scope access to an application resource .
+2.  [Define cross-scope access to an application resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/set-RCA-level.md) .
 
     Enable Caller Restriction for the tables you want flows and actions to request access to.
 
@@ -77,7 +75,7 @@ In San Diego and earlier releases, the Restricted Caller Access Privileges table
 
     Cross-scope flows and actions generate access privilege requests to the tables set to caller restriction.
 
-5.  Allow flows and actions to access your application resources .
+5.  [Allow flows and actions to access your application resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/scope-resource-access.md) .
 
     Identify access privilege requests with these source types.
 

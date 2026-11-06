@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [References, Enterprise Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Enterprise Asset Management reference, Enterprise Asset Management, Asset Management]
 ---
 
 # Domain separation and Enterprise Asset Management
@@ -23,7 +23,7 @@ Domain separation is supported in Enterprise Asset Management. Domain separation
 -   Business logic: The service provider \(SP\) creates or modifies processes per customer. The use cases reflect proper use of the application by multiple SP customers in a single instance.
 -   The instance owner must configure the minimum viable product \(MVP\) business logic and data parameters per tenant as expected for the specific application.
 
-Sample use case: An Admin must be able to make comments required when a record closes for one tenant, but not for another.
+Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/domain-separated-apps.md).
 
@@ -92,14 +92,6 @@ To learn more, see [Domain separation explained](https://raw.githubusercontent.c
 [Enterprise asset disposal order stages]()
 
 [Terminology for linear assets]()
-
-[Installed with Enterprise Asset Management for Healthcare]()
-
-[Installed with OT Asset Management]()
-
-[Components installed with Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)]()
-
-[Components installed with Enterprise Asset Management for Providers]()
 
 [Scheduled jobs and tables installed with normalization of firmware models]()
 

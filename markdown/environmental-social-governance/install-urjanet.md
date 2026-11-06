@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/install-urjanet.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating ESG Management \(formerly ESG\) with Urjanet, Integrating ESG Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Integrating Operational Sustainability Management \(formerly ESG\) with Urjanet, Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Install Operational Sustainability Integration with Urjanet
@@ -16,7 +16,7 @@ You can install the Operational Sustainability Integration with Urjanet applicat
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Ensure that you create an Urjanet account and obtain the login credentials.
 
 Role required: sn\_esg.admin
@@ -56,5 +56,5 @@ For more information, see [Components installed with Operational Sustainability 
 6.  Select **Install**.
 
 
-**Parent Topic:**[Integrating ESG Management \(formerly ESG\) with Urjanet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/integrating-esg-management-with-urjanet.md)
+**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Urjanet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/integrating-esg-management-with-urjanet.md)
 

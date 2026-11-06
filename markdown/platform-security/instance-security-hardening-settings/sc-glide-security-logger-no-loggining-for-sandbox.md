@@ -1,5 +1,5 @@
 ---
-title: Disable logger for low privilege users in script sandbox \[Updated in Security Center 1.3\]
+title: Disable logger for low privilege users in script sandbox
 description: Manage Glide System's ability to log scripts being executed in the sandbox environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-glide-security-logger-no-loggining-for-sandbox.html
@@ -7,16 +7,18 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Error handling and logging, Hardening settings, Platform Security]
 ---
 
-# Disable logger for low privilege users in script sandbox \[Updated in Security Center 1.3\]
+# Disable logger for low privilege users in script sandbox
 
 Manage Glide System's ability to log scripts being executed in the sandbox environment.
 
-Use the **glide.security.sandbox\_no\_logging** property to control Glide System's ability to log scripts being executed in the sandbox environment. If **glide.security.sandbox\_no\_logging** is set to **false**, logging is available for lower-privileged users using sandboxed scripts. This is a potential security vulnerability because low privileged users can inject logs allowing a bad actor to potentially obfuscate an attack. Configure the property to **true** to prevent lower-privileged users that are using a sandboxed script from having logging functionality.
+If the **glide.security.sandbox\_no\_logging** system property is set to **false**, then logging is available for low-privileged users using sandboxed scripts. This property controls your instance's ability to log scripts being executed in the sandbox environment.
+
+Ensure that the **glide.security.sandbox\_no\_logging** property is set to **true** to prevent low-privileged users using a sandboxed script to have logging functionality.
 
 ## More information
 
@@ -70,6 +72,14 @@ true
 
 </td></tr><tr><td>
 
+Fallback value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
 Category
 
 </td><td>
@@ -84,7 +94,7 @@ Security risk
 
 -   Severity score: 2.2
 -   CVSS score: Low
--   Security risk details: Setting this property to **false** enables logging for lower-privileged users which could allow a bad actor to obfuscate an attack.
+-   Security risk details: A low-privileged user could inject logs allowing the malicious user to potentially obfuscate an attack.
 
 </td></tr><tr><td>
 

@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2026-03-17"
 reading_time_minutes: 2
-breadcrumb: [Grants Management, Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Grants Management, Solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Using the Grant Program Setup Playbook in Grants Management

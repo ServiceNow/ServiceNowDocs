@@ -1,20 +1,20 @@
 ---
-title: Generate offboarding knowledge transfer plans using ServiceNow Otto
-description: Managers working for organizations using the offboarding knowledge transfer plan generation agentic workflow can use to initiate a knowledge transfer request for departing employees. Once the manager confirms the request, an AI agent automatically discovers and categorizes the employee's documents into a structured knowledge transfer summary.
+title: Generate offboarding knowledge transfer plans using Now Assist
+description: Managers working for organizations using the offboarding knowledge transfer plan generation agentic workflow can use Now Assist in Virtual Agent to initiate a knowledge transfer request for departing employees. Once the manager confirms the request, an AI agent automatically discovers and categorizes the employee's documents into a structured knowledge transfer summary.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-designer/generate-knowledge-xfer-na.html
 release: zurich
 product: Journey Designer
 classification: journey-designer
 topic_type: task
-last_updated: "2026-03-02"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Offboarding knowledge transfer plan generation agentic workflow, AI in Journey designer, Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
-# Generate offboarding knowledge transfer plans using ServiceNow Otto
+# Generate offboarding knowledge transfer plans using Now Assist
 
-Managers working for organizations using the offboarding knowledge transfer plan generation agentic workflow can use to initiate a knowledge transfer request for departing employees. Once the manager confirms the request, an AI agent automatically discovers and categorizes the employee's documents into a structured knowledge transfer summary.
+Managers working for organizations using the offboarding knowledge transfer plan generation agentic workflow can use Now Assist in Virtual Agent to initiate a knowledge transfer request for departing employees. Once the manager confirms the request, an AI agent automatically discovers and categorizes the employee's documents into a structured knowledge transfer summary.
 
 ## Before you begin
 
@@ -36,17 +36,17 @@ In the journey configuration for which you want to enable agentic offboarding, t
 
 The configuration tasks in the following topics must be completed:
 
--   [Add Employee Center to the ServiceNow Otto display experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/enable-na-va-ec.md)
+-   [Add Employee Center to Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/enable-na-va-ec.md)
 -   [Configure the AI agent triggers for offboarding to use Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/config-offboarding-trigger-ec.md)
 -   [Activate the Offboarding knowledge transfer trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/activate-trigger-offboarding-kt.md)
 -   [Activate the Knowledge transfer record created trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/activate-trigger-kt-record-created.md)
--   [Activate the AI skill for offboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/activate-na-skills-offboarding.md)
+-   [Activate the Now Assist skill for offboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/activate-na-skills-offboarding.md)
 
 Role required: manager
 
 ## About this task
 
-When an offboarding journey is created with the **Journey accelerator plan type** field set to **Agentic AI Offboarding Plan Type**, a manager receives a notification from ServiceNow Otto after they access the Employee Center. The manager is prompted to initiate a knowledge transfer for a departing employee whose offboarding journey has begun.
+When an offboarding journey is created with the **Journey accelerator plan type** field set to **Agentic AI Offboarding Plan Type**, a manager receives a notification from Now Assist in Virtual Agent after they access the Employee Center. The manager is prompted to initiate a knowledge transfer for a departing employee whose offboarding journey has begun.
 
 ## Procedure
 

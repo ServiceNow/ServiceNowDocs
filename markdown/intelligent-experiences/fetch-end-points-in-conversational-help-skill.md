@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/fetch-end-points-in-conversational-help-skill.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [AI Admin Hub reference, AI Admin Hub, Enable AI experiences]
+breadcrumb: [AI Admin Hub reference, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Fetch end points in Now Assist Conversational Help skills
@@ -16,11 +16,9 @@ The Now Assist Conversational Help skills architecture solves latency by fetchin
 
 ## Fetching solutions hosted on multiple geographical location
 
-The Now Assist Conversational Help skill displays as Get Help on the Now Assist panel. The possible solutions to users queries posted on Now Assist Conversational Help skills are hosted on three main locations: Japan, EMEA and the US.
+The possible solutions to users queries posted on Now Assist Conversational Help skills are hosted on three main locations: Japan, EMEA and the US.
 
-**Note:** To preserve data privacy standards, end points support for Get Help skill is not available in GCC/ NSC regulated markets.
-
-For optimal performance, the central instance should be situated in the same geographic area as the user's instance. To achieve this alignment, we use DISH service, a tool within the user's instance, that helps identify the correct endpoint. The Now Assist Conversational Help skills uses the Mimir lookup service feature, inside the different data centers.
+For optimal performance, the central instance should be situated in the same geographic area as the user's instance. To achieve this alignment, we utilize DISH service, a tool within the user's instance, that helps identify the correct endpoint. The Now Assist Conversational Help skills uses the Mimir lookup service feature, inside the different data centers.
 
 The DISH service communicates with the Mimir lookup table to determine the end points matching the user's location. Once we obtain this endpoint, it gets securely stored in the sys-service table within the customer instance. Moving forward, all the users' queries are routed through the specific endpoint, ensuring consistency and reliability. The Get Help skill uses the endpoint present in the sys-property `com.snc.get_help.endpoint`.
 

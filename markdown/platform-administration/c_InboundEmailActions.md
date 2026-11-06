@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/c\_InboundEmailActions.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Inbound email actions, Inbound email, Notifications, Configure core features, Administer]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Inbound email actions, Inbound email, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Inbound email actions
@@ -66,9 +66,13 @@ Reply
 
 </td><td>
 
-The system classifies an email as a reply when it fails to match it to the forward receive type and it meets any one of these criteria:-   The subject line or email body contains a recognized watermark such as **Ref:MSG0000008**.
--   There is no watermark and the subject line contains a recognized reply prefix such as **RE:** and a recognized record number such as **INC0005574**
--   There is no watermark and the Reply-To header contains a recognized message ID of an email with watermark.
+The system classifies an email as a reply when it fails to match it to the forward receive type and it meets any one of these criteria:1.  The subject line or email body contains a recognized watermark such as **Ref:MSG0000008**.
+2.  There is no watermark and the subject line contains a recognized reply prefix such as **RE:** and a recognized record number such as **INC0005574**
+3.  There is no watermark and the Reply-To header contains a recognized message ID of an email with watermark.
+4.  If an email does not meet any of the previous criteria, the system checks the email header for a thread-index. When a thread-index is present, the system classifies the email as a reply and associates it with the relevant conversation or thread view. This functionality is supported only for emails originating from Microsoft Outlook.
+
+**Note:** To enable thread indexing, create the system property **glide.inbound.email.classify.by.thread\_index** and set it to **true**.
+
 
 </td></tr><tr><td>
 
@@ -85,7 +89,7 @@ The system classifies an email as new when it fails to match it to the forward a
 </td></tr></tbody>
 </table>**Note:** From Paris release and beyond, if an email body has multiple watermarks, the last watermark in the email body is considered.
 
-\[Omitted image "inbound-action-type-old.png"\] Alt text: Flowchart showing how the system determines the type of incoming email as forward, reply, or new
+\[Omitted image "inbound-action-type.png"\] Alt text: Flowchart showing how the system determines the type of incoming email as forward, reply, or new
 
 ## Attachments
 

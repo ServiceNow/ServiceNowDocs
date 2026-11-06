@@ -7,9 +7,9 @@ release: zurich
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Set up Cloud Configuration Governance for AWS, Explore, Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Set up AWS, Explore, Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Configure the trusting account for Cloud Configuration Governance and Cloud Action Library

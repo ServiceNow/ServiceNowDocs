@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-11-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Creating employee communications, Manage, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Creating employee communications, Authoring and managing employee communications, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # News articles
@@ -65,7 +65,7 @@ The Now Mobile app features the News center screen, which displays the same News
 
 \[Omitted image "ec-news-mobile.png"\] Alt text: Now Mobile app home page has a section for Featured news and the News Center screen
 
-For information on the Now Mobile app user experience, see [News in Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/news-ec-mobile.md). For information on publishing news articles, see [Create a publish plan for your content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-content-library-publish2.md).
+For information on the Now Mobile app user experience, see [News in Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/news-ec-mobile.md). For information on publishing news articles, see [Create a publish plan for your content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-content-library-publish2.md).
 
 ## Organizing news articles
 
@@ -124,11 +124,4 @@ If you plan to customize the News and Events or Article details page, we recomme
 
 -   The Article details page widgets require a `sys_id` query string parameter with the sys\_id of the specific News Article.
 -   We recommend having a News Dataloader widget in the Article details page, and enabling the **Use Dataloader** option in the other widgets in the page. This facilitates data sharing between the widgets on the page, which reduce the page loading time.
-
-**Related topics**  
-
-
-[Employee Center widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/employee-center-widgets-list.md)
-
-[Employee Center Pro widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/employee-center-pro-widgets-list.md)
 

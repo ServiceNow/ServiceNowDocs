@@ -7,9 +7,9 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Resource assignments in Project Workspace, Plan resources, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Resource assignments in Project Workspace, Resource planning with Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Extend a resource assignment
@@ -32,15 +32,15 @@ For example, assume that you allocated 100 hours for 2 months, 50 hours for each
 
 2.  Extend the resource assignment using one of the following options.
 
-<table id="choicetable_t2q_fkv_1fc"><thead><tr><th align="left" id="d298074e77">
+<table id="choicetable_t2q_fkv_1fc"><thead><tr><th align="left" id="d320306e77">
 
 Option
 
-</th><th align="left" id="d298074e80">
+</th><th align="left" id="d320306e80">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d298074e86">
+</th></tr></thead><tbody><tr><td id="d320306e86">
 
 **From resource assignment pane**
 
@@ -51,7 +51,7 @@ Procedure
 3.  Select **Extend** to extend the resource assignment.
 
 
-</td></tr><tr><td id="d298074e127">
+</td></tr><tr><td id="d320306e127">
 
 **From resource assignment form**
 
@@ -87,5 +87,5 @@ Procedure
 
 [Update the resource allocation in a heatmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/view-allocations-heatmap-prj-wksp.md)
 
-[Realign resource assignments with project dates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/realign-resource-assignment-to-task.md)
+[Realign resource assignment to project task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/realign-resource-assignment-to-task.md)
 

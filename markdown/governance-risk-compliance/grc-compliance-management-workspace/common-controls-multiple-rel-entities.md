@@ -1,5 +1,5 @@
 ---
-title: Testing common control and implementing results on multiple reliant entities
+title: Testing common control and implementing results
 description: Instead of generating controls for individual entities and testing each entity separately with an individual control, you can use a common control and associate a primary entity to it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-compliance-management-workspace/common-controls-multiple-rel-entities.html
@@ -7,12 +7,12 @@ release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage controls, Use, GRC Compliance Workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage controls using the Compliance Workspace, Use, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
-# Testing common control and implementing results on multiple reliant entities
+# Testing common control and implementing results
 
 Instead of generating controls for individual entities and testing each entity separately with an individual control, you can use a common control and associate a primary entity to it.
 

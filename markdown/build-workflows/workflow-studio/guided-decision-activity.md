@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Interactive activities, Playbooks reference, Reference, Workflow Studio, Build workflows]
+breadcrumb: [Interactive activities, Playbooks reference, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Guided Decision activity
@@ -18,7 +18,7 @@ Choose a decision tree from your Guided Decisions framework to step agents throu
 
 ## Roles and availability
 
-This activity is available with a subscription to App Engine or Customer Service Management \(CSM\). For more information on how to enable this activity for use in Playbooks, see [Activate Playbooks for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/activate-process-automation-designer.md).
+This activity is available with a subscription to App Engine or Customer Service Management \(CSM\). For more information on how to enable this activity for use in Playbooks, see [Activate Playbooks for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/activate-process-automation-designer-for-csm.md).
 
 ## Inputs
 
@@ -113,6 +113,4 @@ After configuring the required inputs for your activity, you can also choose to 
 ## Outputs
 
 There are no outputs for this activity.
-
-**Parent Topic:**[Interactive activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/interactive-activities.md)
 

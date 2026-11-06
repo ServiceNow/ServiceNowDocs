@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/cust-service-manager-approve-time.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Time recording for Customer Service Management, Agent management, Use, Customer Service Management]
 ---
@@ -32,7 +32,7 @@ When a time sheet is approved, the time cards are processed and used to create e
 
 4.  Click one of the available actions.
 
-<table id="choicetable_ffw_vvm_b1b"><tbody><tr><td id="d261124e111">
+<table id="choicetable_ffw_vvm_b1b"><tbody><tr><td id="d296654e111">
 
 **Approve**
 
@@ -40,7 +40,7 @@ When a time sheet is approved, the time cards are processed and used to create e
 
 The state of the time sheet and the associated time cards changes to **Processed** and these records become read-only.
 
-</td></tr><tr><td id="d261124e123">
+</td></tr><tr><td id="d296654e123">
 
 **Reject**
 

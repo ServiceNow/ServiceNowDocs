@@ -7,9 +7,9 @@ release: zurich
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up, ITSM Virtual Agent, IT Service Management]
+breadcrumb: [Setting up ITSM Virtual Agent, ITSM Virtual Agent, IT Service Management]
 ---
 
 # Set up the Local Admin Access topic

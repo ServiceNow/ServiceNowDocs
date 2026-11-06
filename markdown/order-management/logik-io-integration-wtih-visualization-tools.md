@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/logik-io-integration-wtih-visualization-tools.html
 release: zurich
 topic_type: concept
-last_updated: "2025-09-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [ServiceNow CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
@@ -26,7 +26,7 @@ You can perform the following:
 |------|---------|-----------------|------------------------|-----|
 |CDS|1-way and 2-way|Fields, Sets \(first 25 rows\), product pickers \(first 25 options\), Active Set Index|Fields; Sets via listener field JSON + rule parsing|Good for CAD/2D/3D; flexible mapping objects|
 |kBridge|1-way and 2-way|Fields, Sets \(first 25 rows\), product pickers \(first 25 options\), Active Set Index|Fields; Sets via listener field JSON + rule parsing|Real-time 3D with rich event &amp; listener model|
-|Threekit|1-way|Fields, Asset Id \(static or via field\), Active Set Index \(visual focus only\)|Not supported \(viewer → Logik\)|Use for high-fidelity visuals; map fields and asset selection|
+|Threekit|1-way|Fields, Asset Id \(static or via field\), Active Set Index \(visual focus only\)|Not supported \(viewer → ServiceNow CPQ\)|Use for high-fidelity visuals; map fields and asset selection|
 
 **Note:** When sending sets or product pickers, ServiceNow CPQ publishes up to 25 rows/options. Indices and options beyond 25 are not transmitted. When using set repeaters, you can publish an Active Set Index trigger so the viewer shows the row the user is editing.
 
@@ -56,7 +56,7 @@ You can perform the following:
 -   Fields: Scalar values \(text, number, Boolean, picklist selection\).
 -   Sets: Array of row objects \(first 25\). Use the Active Set Index to keep the visual in sync with the row being edited in a repeater.
 -   Product pickers: Array of selected option objects \(first 25\).
--   Assets \(Threekit\): Provide a static `assetId` or an asset-ID field in Logik to enable dynamic asset selection.
+-   Assets \(Threekit\): Provide a static `assetId` or an asset-ID field in ServiceNow CPQ to enable dynamic asset selection.
 
 ## Security and environments
 
@@ -70,7 +70,7 @@ You can perform the following:
 -   If you need high-fidelity 3D with asset management and one-way updates, choose Threekit with an assetId or assetId field strategy.
 -   If you have a heavy set-driven UX, prefer CDS or kBridge for two-way set JSON handling and Active Set Index synchronization.
 
-## Best practices
+## General guidelines
 
 -   Map only what you need: Limit `eventFields`, `eventSets`, and `eventProductPickers` to essential data for performance.
 -   Design for the 25-item cap: If users may exceed 25 set rows or product picker selections, add guardrails \(such as validation, paging, or summarization\).

@@ -7,9 +7,9 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create and associate policy document in Microsoft SharePoint, Create and associate policy texts, Policy authoring and redlining, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Create and associate a policy document in Microsoft SharePoint, Creating and associating policy texts from Cloud documents, Policy authoring and redlining in Compliance Workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Connect an existing document in Microsoft SharePoint
@@ -18,13 +18,13 @@ Connect a document that exists in your Microsoft SharePoint folder to a policy t
 
 ## Before you begin
 
-Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_user
+Role required: sn\_compliance\_ws.corporate\_compliance\_analyst, mp\_document\_user
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  Select\[Omitted image "ws-list-icon.png"\] Alt text: Lists icon. from the sidebar.
+2.  Select \[Omitted image "ws-list-icon.png"\] Alt text: Lists icon. from the sidebar.
 
 3.  Navigate to **Compliance library** &gt; **My policies**.
 
@@ -42,11 +42,11 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_
 
     2.  Navigate to the document that you want to connect to the policy.
 
-    3.  Select the **Share** list in the Home page and click the **Copy link to page** option.
+    3.  Select the **Share** list in the Home page and select the **Copy link to page** option.
 
 7.  Navigate back to the Policy text related list of the policy record.
 
-8.  Select the **Enable document editing** list and click the **Connect existing document** option.
+8.  Select the **Enable document editing** list and select the **Connect existing document** option.
 
 9.  Paste the copied Microsoft SharePoint site URL in the **Site URL** field of the Connect existing Word document pop-up.
 
@@ -54,7 +54,11 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_
 
 11. Select **Connect**.
 
+    If personal authentication is enabled and this is the first time you are performing a document operation in this session, a one-time authentication prompt appears. For SharePoint, the prompt uses the logged-in Microsoft O365 session automatically.
+
     A message appears stating that Microsoft Word editing is enabled. The policy record is connected to the document.
+
+    The connect operation is registered in SharePoint under your personal account identity.
 
 12. Select **Update**.
 

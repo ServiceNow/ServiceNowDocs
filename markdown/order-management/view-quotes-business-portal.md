@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/view-quotes-business-portal.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Business Portal, Use, Sales Customer Relationship Management]
+breadcrumb: [Managing RFQs, Business Portal, Use, Sales Customer Relationship Management]
 ---
 
 # View quotes from the Business Portal
@@ -44,4 +44,13 @@ Role required: sn\_customerservice.customer
 
 3.  Select a quote record number to view its details.
 
+
+**Parent Topic:**[Managing request for quotes \(RFQs\) using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/rfq-business-portal.md)
+
+**Related topics**  
+
+
+[Configuring the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-management-configure-business-portal.md)
+
+[Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-self-service-business-portal.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/cpq-request-provisioning-of-an-sfdc-org-with-a-servicenow-cpq-environment.html
 release: zurich
 topic_type: task
-last_updated: "2025-12-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---

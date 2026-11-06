@@ -1,25 +1,25 @@
 ---
-title: Enabling Now Assist Q&amp;A Genius Results
-description: As a search administrator, you can use the Now Assist Q&amp;A Genius Results skill in AI Search portals and mobile applications by enabling Now Assist Q&amp;A Genius Results in search profiles. You can also use the skill in global search by enabling Now Assist Q&amp;A Genius Results in the AI Search for Next Experience application.Enable Knowledge base articles Genius Results in global search using the AI Search for Next Experience application.
+title: Enabling Knowledge base articles Genius Results
+description: As a search administrator, you can use the Knowledge base articles Genius Results skill in AI Search portals and mobile applications by enabling the skill in search profiles. You can also use the skill in global search by enabling Knowledge base articles Genius Results in the AI Search for Next Experience application.Enable Knowledge base articles Genius Results in global search using the AI Search for Next Experience application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/enabling-now-assist-qa-grs.html
 release: zurich
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2025-10-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Knowledge base articles Genius Results, Configuring Now Assist in AI Search, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
+breadcrumb: [Knowledge base articles Genius Results, Configuring ServiceNow Otto for AI Search, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Enabling Now Assist Q&amp;A Genius Results
+# Enabling Knowledge base articles Genius Results
 
-As a search administrator, you can use the Now Assist Q&amp;A Genius Results skill in AI Search portals and mobile applications by enabling Now Assist Q&amp;A Genius Results in search profiles. You can also use the skill in global search by enabling Now Assist Q&amp;A Genius Results in the AI Search for Next Experience application.
+As a search administrator, you can use the Knowledge base articles Genius Results skill in AI Search portals and mobile applications by enabling the skill in search profiles. You can also use the skill in global search by enabling Knowledge base articles Genius Results in the AI Search for Next Experience application.
 
-## Enable Now Assist Q&amp;A Genius Results in AI Search portals and mobile applications
+## Enable Knowledge base articles Genius Results in AI Search portals and mobile applications
 
-For details on how to enable Now Assist Q&amp;A Genius Results and other Now Assist Genius Results in your AI Search portals and mobile applications, see [Enable ServiceNow Otto for AI Search Genius Results in AI Search portals and mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/enable-now-assist-gr-ais-apps.md).
+For details on how to enable Knowledge base articles Genius Results and other Genius Results in your AI Search portals and mobile applications, see [Enable ServiceNow Otto for AI Search Genius Results in AI Search portals and mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/enable-now-assist-gr-ais-apps.md).
 
 **Parent Topic:**[Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/now-assist-qna-genius-results.md)
 
@@ -33,7 +33,7 @@ The [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 
 The AI Search for Next Experience application must be installed and enabled on your instance. For more information about the application, see [AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ais-next-experience-app.md).
 
-The ServiceNow Otto for AI Search application must be installed on your instance. For details on installing this application from the AI Admin Hub console, see [Install ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/install-now-assist-ais.md).
+The Now Assist for Search application must be installed on your instance. For details on installing this application from the AI Admin Hub console, see [Install ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/install-now-assist-ais.md).
 
 Role required: ais\_admin
 

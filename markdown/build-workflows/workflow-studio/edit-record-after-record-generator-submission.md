@@ -9,7 +9,7 @@ classification: workflow-studio
 topic_type: task
 last_updated: "2026-09-15"
 reading_time_minutes: 1
-breadcrumb: [Playbook record generator, Designing playbooks, Use, Workflow Studio, Build workflows]
+breadcrumb: [Playbook record generator, Design Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Edit a record after record generator submission
@@ -47,6 +47,4 @@ After a record generator activity's form is submitted, the activity's type chang
 ## Result
 
 The record created by the record generator remains editable in Complete state.
-
-**Parent Topic:**[Playbook record generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-record-generator-overview.md)
 

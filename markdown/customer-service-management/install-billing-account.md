@@ -37,4 +37,6 @@ The billing account core application has a modular plugin structure:
 
 4.  Select **Submit** to create billing account record.
 
+    You can create a billing account directly from an account or consumer record by using the **Billing Accounts** related list. When you create a billing account this way, the source **Account** or **Customer** and the **Billing account type** are set automatically.
+
 

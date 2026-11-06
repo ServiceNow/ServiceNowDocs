@@ -7,9 +7,9 @@ release: zurich
 product: Adoption Services
 classification: adoption-services
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Embedded Help planning, Configure Embedded Help, Embedded Help, In-product help, Adoption services, Configure user experiences]
+breadcrumb: [Embedded Help planning, Configuring Embedded Help, Embedded Help, In-product help, Adoption services, Configure user experiences]
 ---
 
 # Use qualifiers in Embedded Help
@@ -22,23 +22,23 @@ Role required: embedded\_help\_admin
 
 ## About this task
 
+The `home.do` page is opened for every Homepage module and for many Dashboard modules. The specified query parameters in the URL define which homepage to open.
+
 Imagine that your organization wants to provide specific instructions for the SLA homepage. You can write custom embedded help content and use a qualifier to accomplish that goal. Create the qualifier, and then associate it with custom embedded help content that you write.
 
 ## Procedure
 
-1.  The `home.do` page is opened for every Homepage module and for many Dashboard modules. The specified query parameters in the URL define which homepage to open.
-
-2.  To get the information for the qualifier, open the module in a new browser window and copy the query parameter.
+1.  To get the information for the qualifier, open the module in a new browser window and copy the query parameter.
 
     Notice that the query parameter uses underscores between words instead of hyphens or dashes.
 
     \[Omitted image "query-parameter.png"\] Alt text: Shows a query parameter in URL and the module link type
 
-    You can also select the query parameter from the **Arguments** field on the module link type. To see the module link type, select the pencil icon beside the module in the application navigator, and then select the **Link Type** tab.
+    You can also select the query parameter from the **Arguments** field on the module link type. To see the module link type, click the pencil icon beside the module in the application navigator, and then click the **Link Type** tab.
 
-3.  Navigate to **Embedded Help** &gt; **Help Qualifiers**, and then select **New**.
+2.  Navigate to **Embedded Help** &gt; **Help Qualifiers**, and then click **New**.
 
-4.  Complete the form.
+3.  Complete the form.
 
 <table id="table_vqb_b52_p1b"><thead><tr><th>
 
@@ -87,17 +87,17 @@ Enter the qualifier to use, for example `sla_homepage`. Record the qualifier to 
  **Warning:** If the query parameter contains more than one word, use underscores between words instead of hyphens or dashes. If you use hyphens or dashes, the system uses only the first word in the parameter and ignores the rest.
 
 </td></tr></tbody>
-</table>5.  Select **Submit**.
+</table>4.  Click **Submit**.
 
-6.  Follow the steps in [Add custom Embedded Help content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/add-custom-help-topic.md) to create the content, and include the following information.
+5.  Follow the steps in [Add custom Embedded Help content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/add-custom-help-topic.md) to create the content, and include the following information.
 
     -   **Name** and **Page**: The page you created the qualifier for, for example, **home**.
     -   **Qualifier**: The qualifier you entered, for example **sla\_homepage**.
-    **Note:** You can also copy an existing Embedded Help topic and enter the qualifier in the copied record.
+    **Note:** You can also copy an existing embedded help topic and enter the qualifier in the copied record.
 
-7.  Test the qualifier by opening the page you added the content for, and then opening the help panel.
+6.  Test the qualifier by opening the page you added the content for, and then opening the help panel.
 
-    **Note:** If you added a role to the Embedded Help content, log in as a user with the role, or impersonate a user with that role.
+    **Note:** If you added a role to the embedded help content, ensure that you are logged in as a user with the role, or impersonate a user with that role.
 
 
 **Parent Topic:**[Embedded Help planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/embedded-help-planning.md)

@@ -1,18 +1,18 @@
 ---
-title: Configure AI agents and AI Agent Studio
-description: Configure agentic AI in AI Agent Studio to execute agentic workflows with AI agents and mapped tools.
+title: Configure AI agents
+description: Configure AI agents to execute agentic workflows with AI agents and mapped tools.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/configuring-ai-agents.html
 release: zurich
 topic_type: concept
-last_updated: "2026-07-21"
+last_updated: "2026-11-06"
 reading_time_minutes: 6
-breadcrumb: [AI Agent Studio, Enable AI experiences]
+breadcrumb: [AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
-# Configure AI agents and AI Agent Studio
+# Configure AI agents
 
-Configure agentic AI in AI Agent Studio to execute agentic workflows with AI agents and mapped tools.
+Configure AI agents to execute agentic workflows with AI agents and mapped tools.
 
 AI agents follow your instructions and act toward a specific goal and outcome by using the tools that you configure for those agents. By using the context of your record and your searchable content, AI agents can plan and analyze the task with a business logic that is combined with the instructions that are sent to large language models \(LLMs\) that suggest the next best action to be taken.
 
@@ -102,7 +102,7 @@ You can leverage multilingual support for AI agents across languages for better 
 You can auto-migrate all the AI Agent Studio skills from on-glide execution path to the off-glide execution path by setting the **Off-Glide Enabled** to **true**, to enable the skill migration to Mosaic. To do this:
 
 -   Navigate to the OneExtend Capabilities \[sys\_one\_extend\_capability.list\] table.
--   Find the AI Agents application.
+-   Find the ServiceNow Otto AI Agents application.
 -   Set the **Off-Glide Enabled** to **true**
 -   Select **Save.**
 

@@ -7,9 +7,9 @@ release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Unused resources, Explore, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Unused resources, Explore, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Unused resources analysis for Microsoft Azure
@@ -29,5 +29,5 @@ Cloud Cost Management generates recommendations that appear in the Unused resour
     These recommendations are integrated from Azure Advisor service and are refreshed when the integration job completes.
 
 
-For details on how the values are generated, see the Azure Advisor documentation at [Microsoft Learn](https://docs.microsoft.com).
+For details on how the values are generated, see the [Azure Advisor documentation](https://learn.microsoft.com/en-us/azure/advisor/advisor-overview).
 

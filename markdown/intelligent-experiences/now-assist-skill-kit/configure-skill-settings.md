@@ -9,7 +9,7 @@ classification: now-assist-skill-kit
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configuring AI Skill Kit, AI Skill Kit, Enable AI experiences]
+breadcrumb: [Configuring AI Skill Kit, AI Skill Kit, Generative AI skills, Enable AI Experiences]
 ---
 
 # Configure deployment and skill settings
@@ -155,9 +155,6 @@ Description of the feature.
 ## What to do next
 
 After you configure the deployment and skill settings, you can publish your skill. To learn more about publishing skills, see [Finalize and publish a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/publish-skill.md).
-
--   **[Example deployment with Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/example-deployment-flow-designer.md)**  
-As an AI developer, you can deploy custom skills with many integrations, including Workflow Studio.
 
 **Parent Topic:**[Configuring AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/configuring-now-assist-skill-kit.md)
 

@@ -7,16 +7,16 @@ release: zurich
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [Predefined colors in reports, Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Predefined colors in reports, Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Chart colors
 
 Chart colors assign a consistent color to a grouping or stacking value in reports. The color stays the same across reports regardless of the order of the values.
 
-**Note:** This topic refers to Reporting in the Core UI. If your instance is migrated to Platform Analytics experience, see [Colors in data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/colors-dv.md).
+**Note:** This topic refers to Reporting in the Core UI. For information about chart colors in Platform Analytics, see [Colors in data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/colors-dv.md).
 
 ## Using chart colors in a report
 
@@ -31,12 +31,12 @@ When a data category appears for the first time in a report that uses chart colo
 -   Element value
 -   Application scope
 
-The Chart Colors record also specifies a color. When a Chart Colors record is created automatically, the color is assigned from the UI 14 Color Definition \[sys\_report\_color\] records. You can edit the chart color to use a different color definition or a hexadecimal color code. For more information about editing chart colors, see the section "Define colors for data categories".
+The Chart Colors record also specifies a color. When a Chart Colors record is created automatically, the color is assigned from the Color Definition \[sys\_report\_color\] records. You can edit the chart color to use a different color definition or a hexadecimal color code. For more information about editing chart colors, see the section "Define colors for data categories".
 
 **Note:**
 
 -   The base system includes several predefined chart colors. Platform Analytics Solutions can provide more chart colors.
--   The UI 14 color definitions use the Datavis - Qualitative themeable colors from the UX Theme Properties \[sys\_ux\_theme\_property\] table. Next Experience must be activated for these colors to be used. Otherwise, the fallback colors from the color definitions are used.
+-   Color definitions use the Datavis - Qualitative themeable colors from the UX Theme Properties \[sys\_ux\_theme\_property\] table. Next Experience must be activated for these colors to be used. Otherwise, the fallback colors from the color definitions are used.
 
 Any other report that uses chart colors and that shows the same data category references the same Chart Colors record. Because the reports reference the same record, they show the same data category in the same color. For example, you create the first report that uses chart colors and shows priority 1 incidents in the Global scope. A Chart Colors record is created automatically to associate such incidents with a color. All other reports that use chart colors and show priority 1 incidents in the Global scope show them in the same color.
 
@@ -60,7 +60,7 @@ Role required: report\_admin.
 
 1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Color Settings** &gt; **Chart Colors**.
 
-2.  Select **New**.
+2.  Click **New**.
 
     \[Omitted image "new-chart-colors-form.png"\] Alt text: New chart colors form
 
@@ -132,5 +132,5 @@ Hexadecimal value used to specify a color that is not defined in the Color Defin
 
 The value selected in the **Element** field for the table in the **Name** field is displayed with the specified color.
 
-The chart color is now available for reports on the table, in the Style tab of the Report Designer.
+The chart color is now available for data visualizations on the Configuration panel.
 

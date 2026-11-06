@@ -7,9 +7,9 @@ release: zurich
 product: Localization Framework
 classification: localization-framework
 topic_type: concept
-last_updated: "2026-04-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Localization Framework, Translation and localization, Configure core features, Administer]
+breadcrumb: [Localization Framework, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Localization Framework reference
@@ -17,7 +17,7 @@ breadcrumb: [Localization Framework, Translation and localization, Configure cor
 Reference topics provide information on components and technical aspects of the Localization Framework.
 
 -   **[Translation modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/translation-modes.md)**  
-The Localization Framework offers various translation modes for content translation. Localization fulfillers can use one of the translation modes to translate content and fulfill localization requests.
+Localization Framework offers several translation modes for completing localization tasks. As a localization admin, you can select one or more of these modes when configuring the procedures for localization tasks.
 -   **[States of Localization Framework projects and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/localization-task-states.md)**  
 In Localization Framework, the state of a localization project or of a task defines the status of the localization request. The states of the localization tasks change based on the workflow that is configured for translations.
 -   **[Error messages in the Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/error-messages.md)**  

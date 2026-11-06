@@ -5,20 +5,22 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/product\_picker\_overview.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [ServiceNow CPQ Configurator, ServiceNow CPQ, Configure, price, quote, Explore, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Product pickers
 
 Learn how to create and configure product pickers to add products to a bill of materials \(BOM\) without writing rules. Define product options, subfields, aggregates, and display settings to enhance user interactions, automate data mapping, and present product information directly in layouts.
 
-A product picker is similar to a picklist with extended data. product pickers can add products to a bill of materials and map additional data to product list fields, including extended data, without writing standard rules. Bulk actions provide additional, table based rules that can be used with the product picker Field.
+A product picker is similar to a picklist with extended data. Product pickers can add products to a bill of materials and map additional data to product list fields, including extended data, without writing standard rules. Bulk actions provide additional, table based rules that can be used with the product picker Field.
 
-## Creating a new product picker
+**Note:** You can update only manually created fields, actions, or options of product pickers that are synced to ServiceNow CPQ Administrator.
 
-Product Pickers can be created in the fields tab of the Logik Admin. To make a new product picker functional, all you need to do is add some options, then place it on a Layout. Select product picker as the new field type.
+## Creating a product picker
+
+Product Pickers can be created in the fields tab of the Admin. To make a new product picker functional, all you need to do is add some options, then place it on a Layout. Select product picker as the new field type.
 
 \[Omitted image "cpq-product-picker-tile.png"\] Alt text: New product picket
 
@@ -137,7 +139,7 @@ Aggregate fields can be added to the layout and will automatically be calculated
 
 ## Product Info fields
 
-Product Pickers can optionally display some read-only information about a product. The values are pulled from the product template that is cached in Logik. These fields can then be added to the layout.
+Product Pickers can optionally display some read-only information about a product. The values are pulled from the product template that is cached in ServiceNow CPQ. These fields can then be added to the layout.
 
 **Note:** These values are read-only and cannot be set by rules.
 
@@ -160,7 +162,7 @@ Product pickers have additional properties that can be set, both to control the 
 -   \(6\) BOM Type: Which BOM to set by default for the product options
 -   \(7\) Parent Product: Name of the parent product to use by default for the product options
 
-This table shows scenarios where the user changes Quantity and Logik changes Select, or vice versa. In all other cases, the value is not changed.
+This table shows scenarios where the user changes Quantity and ServiceNow CPQ changes Select, or vice versa. In all other cases, the value is not changed.
 
 |Change|Status of Quantity field|Status of Select field|Result|
 |------|------------------------|----------------------|------|

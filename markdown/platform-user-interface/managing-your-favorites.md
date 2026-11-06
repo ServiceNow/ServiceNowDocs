@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/managing-your-favorites.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [manage favorites, next experience pages, next experience favorites, add favorites, favorites menu, most used pages, organize favorites, edit favorites, change favorites]
-breadcrumb: [Using the Unified Navigation, Working in Next Experience, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Use, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Managing your favorites in Next Experience
@@ -31,7 +31,7 @@ Role required: none
 
 1.  Add a favorite in one of the ways listed in the following table.
 
-<table id="choicetable_dg5_wsn_vvb"><tbody><tr><td id="d106474e152">
+<table id="choicetable_dg5_wsn_vvb"><tbody><tr><td id="d104399e152">
 
 **From any page**
 
@@ -41,7 +41,7 @@ From any page, select the star icon in the contextual app pill.
 
  \[Omitted image "pol-nav-pill-favorite.png"\] Alt text: Favorite star in the contextual app pill
 
-</td></tr><tr><td id="d106474e171">
+</td></tr><tr><td id="d104399e171">
 
 **From the All menu**
 
@@ -51,7 +51,7 @@ From any page, select the star icon in the contextual app pill.
 -   To add all the modules under an application: In the application navigator, select the star icon next to the application name.
 
 
-</td></tr><tr><td id="d106474e194">
+</td></tr><tr><td id="d104399e194">
 
 **From a list or record in the classic environment**
 
@@ -62,7 +62,7 @@ From any page, select the star icon in the contextual app pill.
 3.  Select **Create Favorite**.
  You can add a different favorite for each view of a list or record.
 
-</td></tr><tr><td id="d106474e226">
+</td></tr><tr><td id="d104399e226">
 
 **From a knowledge base article**
 
@@ -137,7 +137,7 @@ Role required: none
 
 2.  Edit or delete favorites.
 
-<table id="choicetable_ipt_c1r_fwb"><tbody><tr><td id="d106474e572">
+<table id="choicetable_ipt_c1r_fwb"><tbody><tr><td id="d104399e572">
 
 **Edit a favorite**
 
@@ -153,7 +153,7 @@ Role required: none
 4.  Select **Save edits**.
 
 
-</td></tr><tr><td id="d106474e621">
+</td></tr><tr><td id="d104399e621">
 
 **Delete a favorite**
 

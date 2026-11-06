@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/wsm-mappedin-properties.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Mappedin, Configure, Workplace Space Mapping, Workplace Service Delivery, Employee Service Management]
 ---
@@ -36,15 +36,15 @@ Role required: sn\_wsd\_mappedin.admin
 
 4.  Enter `sys_properties.list` in the navigation filter and open the following properties
 
-<table id="choicetable_sct_wbg_h4b"><thead><tr><th align="left" id="d269293e105">
+<table id="choicetable_sct_wbg_h4b"><thead><tr><th align="left" id="d274759e105">
 
 System property
 
-</th><th align="left" id="d269293e108">
+</th><th align="left" id="d274759e108">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d269293e114">
+</th></tr></thead><tbody><tr><td id="d274759e114">
 
 **sn\_wsd\_core.external\_id\_generator.field​**
 
@@ -52,7 +52,7 @@ Description
 
 Defines the external ID.
 
-</td></tr><tr><td id="d269293e123">
+</td></tr><tr><td id="d274759e123">
 
 **sn\_wsd\_core.external\_id\_generator.max\_buildings**
 
@@ -60,7 +60,7 @@ Defines the external ID.
 
 The maximum number of buildings to generate IDs for with a single selection.50 is the default.
 
-</td></tr><tr><td id="d269293e135">
+</td></tr><tr><td id="d274759e135">
 
 **sn\_wsd\_core.external\_id\_generator.max\_spaces**
 
@@ -68,7 +68,7 @@ The maximum number of buildings to generate IDs for with a single selection.50 i
 
 The maximum number of spaces to generate IDs for at a given time.The default is 5000.
 
-</td></tr><tr><td id="d269293e147">
+</td></tr><tr><td id="d274759e147">
 
 **sn\_wsd\_core.external\_id\_generator.stagger​**
 

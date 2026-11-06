@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/monitor-portfolio-overview-health.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Portfolio overview and health
@@ -25,8 +25,7 @@ The following cards are displayed:
 -   Information Objects
 -   Business Applications with High Risk
 -   Business Applications with Low Score: Number of business applications with low score for a quarterly fiscal period.
--   Business Applications with TRM technical debt: Number of business applications that aren’t aligned with the TRM phases and standards.
--   Business Applications by Install Type
+-   Business Applications with TRM technical debt: Number of business applications that aren't aligned with the TRM phases and standards.
 
 Use the following filters to narrow down the results for Portfolio and Health sections:
 

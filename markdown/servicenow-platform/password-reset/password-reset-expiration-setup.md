@@ -7,9 +7,9 @@ release: zurich
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configure your Password Reset process, Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure your Password Reset process, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Configure password expiration reminder
@@ -20,7 +20,7 @@ You can configure the password reset expiration reminder feature to send notific
 
 You must enable the **pwd\_reset.enable.password\_expiration\_reminder** property to configure password expiration reminder. By default, this property is turned off.
 
-Role required: password\_reset\_admin
+Role required: admin
 
 ## About this task
 

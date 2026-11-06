@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-04-29"
 reading_time_minutes: 1
 keywords: [canvas module, customizable workspace, widget library, personalized dashboard]
-breadcrumb: [Personalized canvas, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Personalized canvas, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # EmployeeWorks Web App canvas module

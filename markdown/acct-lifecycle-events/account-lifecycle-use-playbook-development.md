@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-use-playbook-development.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up playbook, Account onboarding, Configure, Customer Success Management]
+breadcrumb: [Account onboarding playbook, Manage account onboarding cases, Account onboarding, Use, Customer Success Management]
 ---
 
 # Development and automation
@@ -50,5 +50,5 @@ These activities can be configured according to your requirements. You can add o
 </td></tr></tbody>
 </table>Review the data and select **Mark Complete** to move to the next stage.
 
-**Parent Topic:**[Set up the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-use-playbook.md)
+**Parent Topic:**[Account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-account-onboard-playbook.md)
 

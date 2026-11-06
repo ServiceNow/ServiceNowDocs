@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-trm-technical-debt-calc.html
 release: zurich
 topic_type: concept
-last_updated: "2026-08-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Technology Reference Model in Enterprise Architecture Workspace, Exploring Technology Portfolio view, Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Technology Reference Model in Enterprise Architecture Workspace, Exploring Technology Portfolio view, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Technical debt calculation

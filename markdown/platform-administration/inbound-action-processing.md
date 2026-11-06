@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/inbound-action-processing.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Inbound email actions, Inbound email, Notifications, Configure core features, Administer]
+breadcrumb: [Inbound email actions, Inbound email, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Inbound email action processing
@@ -18,7 +18,7 @@ The system determines which inbound actions to run by comparing the inbound emai
 
 The system follows this processing flow to determine whether to run an inbound action.
 
-\[Omitted image "inbound-action-processing.png"\] Alt text: Inbound action processing workflow
+\[Omitted image "inbound-action-processing.png"\] Alt text: Inbound action processing work flow
 
 The system only runs an inbound action when:
 
@@ -27,6 +27,8 @@ The system only runs an inbound action when:
 -   The inbound action **Conditions** evaluates to true.
 
 If any of these criteria are not met, the system skips the current inbound action and evaluates the next active inbound action. The system processes inbound actions from the lowest to highest **Order** value. If the inbound action has **Stop processing** enabled, the system updates the **State** of the email record to **Processed** after running the inbound action **Script**.
+
+The following video shows how an inbound action condition prevents an incident from being created.
 
 ## Prefixes recognized in email subject lines
 

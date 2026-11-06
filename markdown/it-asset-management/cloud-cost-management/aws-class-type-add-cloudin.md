@@ -1,5 +1,5 @@
 ---
-title: Add an AWS CI class type to ensure accurate billing data
+title: Add an AWS CI class type for billing data accuracy
 description: Specify the details of a new CI or CI type to enable the CI placement process to assign cost and usage data correctly. The process is a part of Billing Download job execution. The CI placement process associates downloaded cost and usage data with the appropriate CIs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/cloud-cost-management/aws-class-type-add-cloudin.html
@@ -7,12 +7,12 @@ release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Set up access to AWS billing and usage data, Configure Cloud Cost Management for AWS, Configure, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Set up access to AWS billing and usage data, Configure Cloud Cost Management for AWS, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
-# Add an AWS CI class type to ensure accurate billing data
+# Add an AWS CI class type for billing data accuracy
 
 Specify the details of a new CI or CI type to enable the CI placement process to assign cost and usage data correctly. The process is a part of Billing Download job execution. The CI placement process associates downloaded cost and usage data with the appropriate CIs.
 
@@ -21,8 +21,6 @@ Specify the details of a new CI or CI type to enable the CI placement process to
 Role required: Cloud Insights Admin \[sn\_clin\_core.insights\_admin\]
 
 ## About this task
-
-**Important:** This information applies to both the Cloud Cost Management and Cloud Insights Billing apps. All references to Cloud Cost Management also apply to Cloud Insights Billing.
 
 Billing Download jobs store downloaded billing data in the billing node table. The Class Type table holds CI type definitions for the cost usage table. Cloud Cost Management executes the CI placement process to associate the billing and usage data with CIs in the CMDB. The CI placement process queries the billing node table using the CI type definitions that reside in the CI placement type table. For a new CI \(or a CI type from a new provider\), you specify the parameters that uniquely define the CI, a CI type definition, and a class type table to store the CI type definition.
 

@@ -7,9 +7,9 @@ release: zurich
 product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Components installed with Project Portfolio Management \(PPM\) Standard, Reference, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Components installed with Project Portfolio Management \(PPM\) Standard, Project Portfolio Management reference, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Plugins installed with PPM Standard \(Project Portfolio Management\)

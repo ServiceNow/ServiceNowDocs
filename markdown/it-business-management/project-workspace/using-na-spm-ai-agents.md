@@ -7,7 +7,7 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -67,7 +67,7 @@ To run the AI agents autonomously, you must do the following steps:
 -   Activate the agentic workflow.
 -   All AI agents in a agentic workflow are active by default.
 
--   **[Strategic Portfolio Management AI agents for the monitor project tasks agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/na-spm-task-monitoring-usecase.md)**  
+-   **[Strategic Portfolio Management AI agents for the monitor project tasks agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/na-spm-task-monitoring-usecase.md)**  
 Use the Monitor project tasks agentic workflow to autonomously generate a project insights email by using AI agents. AI agents help project managers to manage risks, resolve issues, or take actionable decision on the projects.
 
 **Parent Topic:**[Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/project-workspace-landing-page.md)
@@ -79,5 +79,5 @@ Use the Monitor project tasks agentic workflow to autonomously generate a projec
 
 [Configure AI agents and AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-ai-agents.md)
 
-[Configure the Monitor project tasks AI agent in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/configure-agents-project-task-monitoring.md)
+[Configure the Monitor project tasks AI agent in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/configure-agents-project-task-monitoring.md)
 

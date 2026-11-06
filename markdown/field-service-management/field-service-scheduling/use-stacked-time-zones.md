@@ -1,20 +1,20 @@
 ---
-title: Show multiple time zones at once in Dispatcher Workspace
-description: Dispatchers can show multiple time zones on the calendar in Dispatcher Workspace that are stacked on top of each other. This makes it easier to see every agent’s schedule in their local time zone at a glance.
+title: Show multiple time zones in Dispatcher Workspace
+description: Dispatchers can show multiple time zones on the calendar in Dispatcher Workspace that are stacked on top of each other. Showing multiple time zones makes it easier to see every agent’s schedule in their local time zone at a glance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/use-stacked-time-zones.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Time zones, Using Dispatcher Workspace, Assigning WOTs from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
+breadcrumb: [Time zones, Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
-# Show multiple time zones at once in Dispatcher Workspace
+# Show multiple time zones in Dispatcher Workspace
 
-Dispatchers can show multiple time zones on the calendar in Dispatcher Workspace that are stacked on top of each other. This makes it easier to see every agent’s schedule in their local time zone at a glance.
+Dispatchers can show multiple time zones on the calendar in Dispatcher Workspace that are stacked on top of each other. Showing multiple time zones makes it easier to see every agent’s schedule in their local time zone at a glance.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: wm\_dispatcher
 
 \[Omitted video\] Description: Show multiple time zones at once in Dispatcher Workspace
 
-You must have **Show multiple time zone rows** enabled, and multiple time zones input in the **Select time zones for calendar** setting. For more information see the Calendar section on [Enable Dispatcher Workspace settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/dispatcher-wrkspc-settings.md).
+You must have **Show multiple time zone rows** enabled, and multiple time zones input in the **Select time zones for calendar** setting. For more information, see the Calendar section on [Enable Dispatcher Workspace settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/dispatcher-wrkspc-settings.md).
 
 ## Procedure
 
@@ -33,7 +33,5 @@ You must have **Show multiple time zone rows** enabled, and multiple time zones 
 3.  Select the **Calendar**, or **Hybrid** view.
 
 4.  Select **Add time zones** and select up to three time zones.
-
-    \[Omitted image "stacked-time-zone.png"\] Alt text: stacked time zones in dispatcher workspace
 
 

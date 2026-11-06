@@ -7,9 +7,9 @@ release: zurich
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Continuous authorization and monitoring tasks in the CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # View package details in CAM Workspace
@@ -35,13 +35,13 @@ Role required:
 
 1.  Navigate to **All** &gt; **CAM Workspace**.
 
-2.  To navigate to the Lists page, select \[Omitted image "ws-list-icon.png"\] Alt text: Lists iconfrom the sidebar.
+2.  To navigate to the Lists page, select \[Omitted image "ws-list-icon.png"\] Alt text: List icon from the sidebar.
 
 3.  From the Authorization packages in the RMF list, select an authorization package record.
 
     The stepper component displays the current state of the package, and the roadmap to reach the Monitor state.
 
-    \[Omitted image "auth-package-overview.png"\] Alt text: Authorization package overview page.
+    \[Omitted image "auth-package-overview-page.gif"\] Alt text: A short GIF showing an Authorization package overview page widgets.
 
     -   **Compliance summary**
 
@@ -71,7 +71,7 @@ Role required:
 
             On this date, a new engagement is created with controls, test plans carried over from previous engagements, and newly associated control tests and assessment procedures.
 
-4.  Select the sidebar icon \(\[Omitted image "pc-ws-sidebar-icon.png"\] Alt text: Sidebar icon\).
+4.  Select the sidebar icon.
 
     The Highlighted details section displays:
 
@@ -105,7 +105,7 @@ Role required:
 
         In the Continuous Authorization and Monitoring application, you can view the control's allocation category in the header of the control's Overview page. **Control allocation** is either System specific or Hybrid.
 
-    2.  Select the sidebar icon \(\[Omitted image "pc-ws-sidebar-icon.png"\] Alt text: Sidebar icon\) to view the NIST reference details.
+    2.  Select the sidebar icon to view the NIST reference details.
 
     3.  Select the **Details** related list.
 
@@ -113,7 +113,7 @@ Role required:
 
         The **Control allocation** list in the authorization package overview page displays the controls grouped by their families segregated into system specific and hybrid.
 
-10. Select **Add** to add the selected control objectives to the baseline controls.
+10. Select **Add**, select the controls you want to add, and then select **Add** to add the selected control objectives to the baseline controls.
 
     **Note:** When adding control objectives, you cannot select multiple control objectives with the same reference ID to add to the baseline controls. You cannot add a control objective if its reference ID already exists in the baseline controls list.
 
@@ -121,7 +121,7 @@ Role required:
 
     You must have one self implemented requirement and the remaining requirements can be inherited from common control providers.
 
-    The package must be in the **Select** state. Only common control providers with control requirements can be used to create hybrid controls.
+    The package must be in the Select state. Only common control providers with control requirements can be used to create hybrid controls.
 
     1.  Select **Create Hybrid**.
 
@@ -160,8 +160,6 @@ Role required:
 
 -   **[Apply overlays to the baseline controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/apply-overlay-to-baseline.md)**  
 You can include overlays to the baseline control objectives in the Authorization Package using either addition, subtraction, or a custom action.
--   **[Request control trailoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/request-control-trailoring.md)**  
-Control tailoring requests enable you to modify the baseline controls for an authorization package after the Select step without reverting the package or disrupting ongoing assessments. You can add new controls, change control applicability status, or update hybrid and inherited control configurations while maintaining the current workflow step and preserving unaffected controls.
 
 **Parent Topic:**[Continuous authorization and monitoring tasks in the CAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-ws-continuous-auth-monitor.md)
 

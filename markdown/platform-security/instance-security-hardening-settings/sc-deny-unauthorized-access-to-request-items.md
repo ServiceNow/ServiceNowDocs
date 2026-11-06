@@ -1,5 +1,5 @@
 ---
-title: Deny unauthorized access to request items \[Updated in Security Center 1.3\]
+title: Deny unauthorized access to request items
 description: The glide.sc.req\_for.roles.default property defines a default behavior for the retrieveAddress API.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-deny-unauthorized-access-to-request-items.html
@@ -7,30 +7,32 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Deny unauthorized access to request items \[Updated in Security Center 1.3\]
+# Deny unauthorized access to request items
 
 The **glide.sc.req\_for.roles.default** property defines a default behavior for the retrieveAddress API.
 
-This property is functional only when **glide.sc.req\_for.roles** has no values. If **glide.sc.req\_for.roles** has values, then this property has no significance and users with only defined roles are given access to the API.
+The **glide.sc.req\_for.roles.default** system property defines a default behavior for the **retrieveAddress** API. When there are no roles given in the **glide.sc.req\_for.roles** property, the client callable script include **ScriptServiceCatalogGetLocation** can be called by any unprivileged logged-in user and can retrieve the address of any other users in the system.
+
+Ensure that the property **glide.sc.req\_for.roles.default** is set to `deny`.
 
 ## More information
 
-<table><tbody><tr><td>
+<table id="table_ajc_b43_3kb"><thead><tr><th>
 
 Attribute
 
-</td><td>
+</th><th>
 
 Description
 
-</td></tr><tr><td>
+</th></tr></thead><tbody><tr><td>
 
-Property name
+Configuration name
 
 </td><td>
 
@@ -46,19 +48,11 @@ System Properties \(/sys\_properties\_list.do\)
 
 </td></tr><tr><td>
 
-Category
+Data type
 
 </td><td>
 
-[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
-
-</td></tr><tr><td>
-
-Purpose
-
-</td><td>
-
-When there are no roles given in the property, the Client Callable Script Include ScriptServiceCatalogGetLocation can be called by any unprivileged logged-in user and can retrieve the address of any other users in the system. This property protects this API to be exposed to unprivileged users.
+String
 
 </td></tr><tr><td>
 
@@ -78,11 +72,19 @@ deny
 
 </td></tr><tr><td>
 
-Configuration type
+Fallback value
 
 </td><td>
 
-Choicelist \(allow \| deny\)
+deny
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -90,18 +92,29 @@ Security risk
 
 </td><td>
 
-\(Moderate\) If **glide.sc.req\_for.roles.default** is not set to the recommended value of **deny** \(allow\) and the value of **glide.sc.req\_for.roles** is empty, then any user can request items for other users allowing unauthorized resource access.
+-   Severity score: 4.2
+-   CVSS rating: Medium
+-   Security risk details:
+
+If **glide.sc.req\_for.roles.default** is not set to the recommended value of `deny` and the value of **glide.sc.req\_for.roles** is empty, then any user can request items for other users allowing unauthorized resource access.
+
 
 </td></tr><tr><td>
 
-References
+Functional impact
 
 </td><td>
 
-[Client-callable script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/c_ScriptIncludes.md)
+None
+
+</td></tr><tr><td>
+
+Dependencies and prerequisites
+
+</td><td>
+
+None
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
-
-**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
+</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

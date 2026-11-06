@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
@@ -28,6 +28,7 @@ Case resolution notes are generated from the information that you enter in the f
 -   Description
 -   Work Notes
 -   Additional Comments
+-   Email
 
 Any modifications to the names or labels of these fields can result in issues with notes generation.
 

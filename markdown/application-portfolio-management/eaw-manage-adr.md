@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-manage-adr.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with information portfolio, Working with Portfolio list view, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with information portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Manage architectural decision records \(ADR\)
@@ -25,7 +25,7 @@ Flexibly organize information for your architectural decision records \(ADR\) by
 -   **[Tag users or records in Architectural Decision Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-tag-users-or-records-in-adr.md)**  
 You can tag users or records in architectural decision records \(ADR\) in the Enterprise Architecture Workspace.
 -   **[Reference additional records in decision records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-update-system-property-to-allow-tagging-of-additional-records-in-adr-doc.md)**  
-You can customize the default values of the **sn\_apm\_ws.record\_mention\_config** system property to enable the tagging of additional record tables in an architectural decision record \(ADR\).
+You can customize the default values of the **sn\_apm\_ws.record\_mention\_config** system property, to enable the tagging of additional record tables in an architectural decision record \(ADR\).
 -   **[Add an architectural decision record version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-add-an-adr-version.md)**  
 Create multiple versions of architectural decision records \(ADR\) in the Enterprise Architecture Workspace. Creating multiple ADR versions enable you to capture the evolution of architectural decisions over time or capture details of alternatives to existing architectural decisions.
 -   **[Request approval for an ADR version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-request-approval-adr.md)**  

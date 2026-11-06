@@ -7,9 +7,9 @@ release: zurich
 product: Universal Task
 classification: universal-task
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Universal Task templates, Use, Universal Task, Employee Service Management]
+breadcrumb: [Universal Task templates, Using Universal Task, Universal Task, Employee Service Management]
 ---
 
 # Create dynamic template mapping
@@ -40,15 +40,15 @@ Dynamic template mappings can be created for templates that have an assigned par
 
     Depending on what type of field is selected in the **Universal task field** field, the **Advanced** option appears. If you select the **Advanced** option, the following options are available based on the input type of the Universal task field.
 
-<table id="choicetable_vwq_2yk_t4b"><thead><tr><th align="left" id="d707298e123">
+<table id="choicetable_vwq_2yk_t4b"><thead><tr><th align="left" id="d718305e123">
 
 Input type for the Universal task field
 
-</th><th align="left" id="d707298e126">
+</th><th align="left" id="d718305e126">
 
 Advanced options
 
-</th></tr></thead><tbody><tr><td id="d707298e132">
+</th></tr></thead><tbody><tr><td id="d718305e132">
 
 **String, such as Short description**
 
@@ -56,7 +56,7 @@ Advanced options
 
 The **Value** field appears. You can map your Universal task to multiple fields from the parent table. You can also add a text template.
 
-</td></tr><tr><td id="d707298e144">
+</td></tr><tr><td id="d718305e144">
 
 **HTML, such as Rich description**
 
@@ -64,7 +64,7 @@ The **Value** field appears. You can map your Universal task to multiple fields 
 
 The **Value** field appears. You can map your Universal task to multiple fields from the parent table. You can also add a text template.
 
-</td></tr><tr><td id="d707298e156">
+</td></tr><tr><td id="d718305e156">
 
 **Date field, such as Due date**
 

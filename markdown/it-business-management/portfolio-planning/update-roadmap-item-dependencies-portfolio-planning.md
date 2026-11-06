@@ -7,7 +7,7 @@ release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace, roadmap]
 breadcrumb: [Add dependencies for roadmap items, Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
@@ -31,15 +31,15 @@ Dependencies for free-form roadmaps are available only if the roadmap's source t
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d192068e99">
+<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d204694e99">
 
 Roadmap type
 
-</th><th align="left" id="d192068e102">
+</th><th align="left" id="d204694e102">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d192068e108">
+</th></tr></thead><tbody><tr><td id="d204694e108">
 
 **Portfolio plan roadmap**
 
@@ -49,7 +49,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d192068e129">
+</td></tr><tr><td id="d204694e129">
 
 **Free-form roadmap**
 
@@ -68,15 +68,15 @@ From the Free-form Roadmaps tab, select a roadmap.
 
 4.  From the side panel, locate your dependency and use the More actions icon \(\[Omitted image "icon-more-actions.png"\] Alt text: More actions icon.\) to edit or delete.
 
-<table id="choicetable_syp_cn3_2tb"><thead><tr><th align="left" id="d192068e186">
+<table id="choicetable_syp_cn3_2tb"><thead><tr><th align="left" id="d204694e186">
 
 Choice
 
-</th><th align="left" id="d192068e189">
+</th><th align="left" id="d204694e189">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d192068e195">
+</th></tr></thead><tbody><tr><td id="d204694e195">
 
 **Edit dependency**
 
@@ -87,7 +87,7 @@ Steps
 
 For field information, see [Dependency form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/dependency-form.md).
 
-</td></tr><tr><td id="d192068e231">
+</td></tr><tr><td id="d204694e231">
 
 **Delete dependency**
 

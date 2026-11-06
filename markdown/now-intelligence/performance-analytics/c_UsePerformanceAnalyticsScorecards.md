@@ -1,5 +1,5 @@
 ---
-title: Analytics Hub
+title: \(Legacy\) Analytics Hub
 description: The Analytics Hub is an exploratory view of indicators, used for more detailed analysis. It lets you see trends, predictions, breakdowns, and associated records for a specific indicator. The Analytics Hub replaces scorecards.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/c\_UsePerformanceAnalyticsScorecards.html
@@ -7,12 +7,12 @@ release: zurich
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Analytics Hub
+# \(Legacy\) Analytics Hub
 
 The Analytics Hub is an exploratory view of indicators, used for more detailed analysis. It lets you see trends, predictions, breakdowns, and associated records for a specific indicator. The Analytics Hub replaces scorecards.
 

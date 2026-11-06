@@ -7,9 +7,9 @@ release: zurich
 product: Atlassian Jira Integrations Common
 classification: atlassian-jira-integrations-common
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customizing map configuration for your Jira projects, Setting up the integration between Jira and Agile Development 2.0, Atlassian Jira Integration for Agile Development, Integrate, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Customizing map configuration for your Jira projects, Setting up the integration between Jira and Agile Development 2.0, Atlassian Jira Integration for Agile Development, Strategic Portfolio Management]
 ---
 
 # Apply custom table map configuration for Agile Development 2.0 and Jira
@@ -22,7 +22,7 @@ Role required: admin or sn\_jira\_int.admin
 
 ## About this task
 
-After you create a custom table map for a single or multiple Jira projects, create a business rule similar to Synch Story with Jira. This business rule supports export of information from this new table map from Agile Development 2.0 to Jira.
+After you create a custom table map for a single or multiple Jira projects, create a business rule similar to Synch Story with Jira. This rule supports export of information from this new table map from Agile Development 2.0 to Jira.
 
 ## Procedure
 

@@ -7,7 +7,7 @@ release: zurich
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ The Discovery and Service Mapping Patterns application uses the Network Router p
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 To learn about network routers and their versions that you can discover, refer to [Detailed information on products discovered by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/r_SupportedApplications.md).
 
@@ -26,7 +26,7 @@ For information on probe-based network switch and router discovery, see [Network
 
 ## Cisco Nexus Virtual Routing and Forwarding \(VRF\) data model
 
-The pattern introduces the following CI class starting with Discovery and Service Mapping Patterns version 1.35.0.
+The pattern introduces the following CI class starting with Discovery and Service Mapping Patterns version 1.35.1.
 
 |CI class|Extends from|
 |--------|------------|
@@ -104,7 +104,7 @@ For more information, see [Turn off next-hop route data collection for BGP route
 
     Verify the following requirements:
 
-    -   Discovery and Service Mapping Patterns starting from version 1.35.0.
+    -   Discovery and Service Mapping Patterns starting from version 1.35.1.
     -   Read permissions for the following commands on the Cisco Nexus device:
         -   `sh vrf`
         -   `sh hsrp br`

@@ -7,7 +7,7 @@ release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Install the add-in, Microsoft Word based audit report templates using Document designer, Common GRC features, Governance, Risk, and Compliance]
 ---

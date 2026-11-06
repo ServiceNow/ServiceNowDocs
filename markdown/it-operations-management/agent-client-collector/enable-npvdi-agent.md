@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-08-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ACC deployment - servers, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Enable a non-persistent virtual desktop infrastructure agent
@@ -50,4 +50,6 @@ NPVDI machines have their file system and storage cleaned after each use. There 
     2.  The agent downloads the NPVDI configurations \(policies, checks, assets and config files\) from the instance.
     3.  The installer registers the agent binary as a Windows group policy \(GPO\) shutdown script.
     4.  The installer marks the agent as non-persistent, making it eligible for a golden image.
+
+**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-server-deployment.md)
 

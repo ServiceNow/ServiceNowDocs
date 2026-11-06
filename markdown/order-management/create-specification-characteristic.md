@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/create-specification-characteristic.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Specifications and product offerings, Product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Specifications and product offerings, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create specification characteristics
@@ -18,7 +18,7 @@ Define characteristics for a product, service, or resource specification.
 
 [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-product-config-add-characteristics.md) that can be selected for a specification.
 
-Role required: sn\_prd\_pm\_product\_catalog\_admin
+Role required: sn\_prd\_pm.product\_catalog\_admin
 
 ## Procedure
 
@@ -43,4 +43,11 @@ Role required: sn\_prd\_pm\_product\_catalog\_admin
 
 
 **Parent Topic:**[Setting up specifications and product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-product-catalog.md)
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/product-catalog-managment.md)
 

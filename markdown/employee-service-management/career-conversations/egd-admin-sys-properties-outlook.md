@@ -7,9 +7,9 @@ release: zurich
 product: Career Conversations
 classification: career-conversations
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up Microsoft Outlook integration in Career Conversations, Configure, Career Conversations, Growth Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Set up Microsoft Outlook integration in Career Conversations, Install and configure Career Conversations, Career Conversations, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Set system properties for Microsoft Outlook integration
@@ -39,12 +39,8 @@ Role required: admin \[sn\_egd\_act.admin\]
     |**sn\_egd\_act.ex\_online\_service\_account\_id**|&lt;Outlook service account used to manage calendar events&gt;|
     |**sn\_egd\_act.portal\_suffix**|esc|
 
-4.  Select **Update** to save the values you defined for each of the previously mentioned system properties.
+    **Important:** Select **Update** to save the values you defined for each of the previously mentioned system properties.
 
-    **Note:**
-
-    -   Set the `Calendars.Read.Shared`and `Calendars.ReadWrite` permissions for the calendars to work with this integration.
-    -   Add the `sn_ex_online_spke.Microsoft Exchange Online User` to use this integration.
 
 **Parent Topic:**[Set up Microsoft Outlook integration in Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/career-conversations/outlook-integration-cc.md)
 

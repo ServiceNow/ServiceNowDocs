@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow for Microsoft Outlook, Unified Employee Experience, Employee Service Management]
+breadcrumb: [ServiceNow for Microsoft Outlook, EmployeeWorks, Employee Service Management]
 ---
 
 # Using ServiceNow for Microsoft Outlook
@@ -33,5 +33,5 @@ Submit a survey about your experience using the feedback card in a Microsoft Out
 -   **[Update Outlook Actionable Messages authentication to Microsoft Entra ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/update-outlook-actionable-msgs-auth-to-ms-entra-id.md)**  
 Microsoft will retire External Access Token \(EAT\) authentication for Outlook Actionable Messages on March 31, 2026. Microsoft Entra ID token authentication is required for Outlook Actionable Messages.
 
-**Parent Topic:**[ServiceNow for Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/sn-ms-outlook-integration.md)
+**Parent Topic:**[EmployeeWorks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-and-ecpro-landing-page.md)
 

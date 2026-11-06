@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/post-sales-engagement-landing.html
 release: zurich
 topic_type: reference
-last_updated: "2025-11-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Sales Customer Relationship Management]
 ---
@@ -22,14 +22,7 @@ Select a link from the following table to learn about key features and benefits 
 |-----------|-----------|
 |[Customer Life Cycle Management Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/customer-life-cycle-management-workflows.md)|Manage the life cycle of your sold products.|
 
-## What to do next
+## What to explore next
 
 Configure the post-sales engagement applications to enable post-sales workflows. For more information, see [Post-sales engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configuring-post-sales-engagement.md).
-
-**Related topics**  
-
-
-[Using post-sales engagement applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-post-sales-engagement.md)
-
-[reference-post-sales-engagement]
 

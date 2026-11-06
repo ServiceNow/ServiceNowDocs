@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -18,7 +18,7 @@ Integrate your ServiceNow instance with Mastercard’s Mastercom API Suite \(MCO
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Mastercard Spoke v3.0.1 is the latest version.
+Mastercard Spoke v3.0.1 is the latest version. For version history of the spoke, see [Mastercard Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-mastercard-spoke.html).
 
 ## Supported version
 
@@ -34,7 +34,7 @@ This spoke was built for Mastercom v6.
 
 ## Key features
 
-Mastercard Spoke enables a flow designer to build workflows using actions that invoke Mastercom and Mastercom Extended. This includes the ability to:
+Mastercard Spoke enables a flow designer to build workflows using actions that invoke Mastercomand Mastercom Extended. This includes the ability to:
 
 -   Search transactions
 -   Create claims and initiate chargebacks

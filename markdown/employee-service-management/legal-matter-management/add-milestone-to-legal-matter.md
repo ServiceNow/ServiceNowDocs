@@ -7,7 +7,7 @@ release: zurich
 product: Legal Matter Management
 classification: legal-matter-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Work on a legal matter, Use, Legal Matter Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -34,15 +34,15 @@ You can track the upcoming milestones in a matter in the **Home** tab of the Leg
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d643594e114">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d654809e114">
 
 Option
 
-</th><th align="left" id="d643594e117">
+</th><th align="left" id="d654809e117">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d643594e123">
+</th></tr></thead><tbody><tr><td id="d654809e123">
 
 **As an assignee**
 
@@ -54,7 +54,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d643594e152">
+</td></tr><tr><td id="d654809e152">
 
 **As a collaborator**
 

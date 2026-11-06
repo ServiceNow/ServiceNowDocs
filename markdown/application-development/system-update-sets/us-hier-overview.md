@@ -1,29 +1,29 @@
 ---
 title: Working with batched update sets
-description: Batch update sets enable you to group update sets together so you can preview and commit them in bulk.
+description: Batched update sets enable you to group update sets together so you can preview and commit them in bulk.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/system-update-sets/us-hier-overview.html
 release: zurich
 product: System Update Sets
 classification: system-update-sets
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 keywords: [batch, update set]
-breadcrumb: [System update sets, Deploying applications, Building applications]
+breadcrumb: [System update sets, Deploying applications, Classic app development, Building applications]
 ---
 
 # Working with batched update sets
 
-Batch update sets enable you to group update sets together so you can preview and commit them in bulk.
+Batched update sets enable you to group update sets together so you can preview and commit them in bulk.
 
 Dealing with multiple update sets can lead to problems, including committing update sets in the wrong order or inadvertently leaving out one or more sets. You can avoid these problems by grouping completed update sets into a batch.
 
-**Note:** To preserve the update set batch hierarchy while cloning, set only the parent update set to 'Ignore' status and leave all other update sets as 'Complete'. This will prevent batch sets from cloning and preserves the batch update set hierarchy.
+**Note:** To preserve the update set batch hierarchy while cloning, set only the parent update set to Ignore status and leave all other update sets as Complete. This will prevent batch sets from cloning and preserves the batch update set hierarchy.
 
 The system organizes update set batches into a hierarchy. One update set can act as the parent for multiple child update sets. A given set can be both a child and parent, enabling multiple-level hierarchies. One update set at the top level of the hierarchy acts as the base update set.
 
-When you preview or commit the base update set, you preview or commit the entire batch. The system determines the processing order, and checks for collisions, based on the dates the changes were recorded, and on their sequential ancestry. Their ancestries are the specific instances in which the changes in the update sets took place.
+When you preview or commit the base update set, you preview or commit the entire batch. The system decides which changes to process first and checks for any conflicts by looking at when each change was made and how they are connected in a sequence. This sequence, or ancestry, refers to the specific moments when each change in the update sets occurred.
 
 **Note:** For more details, see [Compare local update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/t_CompareLocalUpdateSets.md) and [View customizations and compare with current version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/view-customer-update-records.md).
 
@@ -33,12 +33,10 @@ The list of update set records reflects the batch hierarchy in the **Parent** an
 
 \[Omitted image "xmpl-batch-us.png"\] Alt text: List of batched update sets
 
-\[Omitted image "xmpl-a-diag-batched-update-sets.png"\] Alt text: Diagram of batched update set hierarchy
+\[Omitted image "update-sets-batch-1.png"\] Alt text: Diagram of batched update set hierarchy.
 
 -   **[Reorganize a batch of update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/us-hier-reorg.md)**  
 You can remove an individual update set from the batch or change its parent.
--   **[Back out batched update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/us-batch-backout.md)**  
-Back out a batched update set by following the backout procedure for the base update set for the batch. You can also back out any child update set independently.
 
 **Parent Topic:**[System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/system-update-sets.md)
 

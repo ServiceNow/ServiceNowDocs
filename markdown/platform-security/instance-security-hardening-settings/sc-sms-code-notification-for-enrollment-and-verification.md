@@ -1,5 +1,5 @@
 ---
-title: Enable SMS code notification for enrollment and verification \[Updated in Security Center 1.3\]
+title: Enable SMS code notification for enrollment and verification
 description: The password\_reset.sms.use\_notify property controls the usage of SMS code notifications for password reset.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-sms-code-notification-for-enrollment-and-verification.html
@@ -7,16 +7,18 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authentication, Hardening settings, Platform Security]
 ---
 
-# Enable SMS code notification for enrollment and verification \[Updated in Security Center 1.3\]
+# Enable SMS code notification for enrollment and verification
 
 The **password\_reset.sms.use\_notify** property controls the usage of SMS code notifications for password reset.
 
-If the **password\_reset.sms.use\_notify** property is set to the recommended value of **true**, the user is notified to do a password reset using SMS verification and new device enrollment which is more secure than email.
+The **password\_reset.sms.use\_notify** system property controls usage SMS code notification for enrollment and verification. If **password\_reset.sms.use\_notify** is set to the recommended value **true**, then user isn't notified for password reset for SMS verification method and new device enrollment. Using SMS code notification for enrollment and verification is more secure that default email notification.
+
+Ensure the property **password\_reset.sms.use\_notify** is set to **true**.
 
 ## More information
 
@@ -50,7 +52,7 @@ Data type
 
 </td><td>
 
-booelan
+Boolean
 
 </td></tr><tr><td>
 
@@ -63,6 +65,14 @@ true
 </td></tr><tr><td>
 
 Default value
+
+</td><td>
+
+TRUE
+
+</td></tr><tr><td>
+
+Fallback value
 
 </td><td>
 
@@ -83,8 +93,16 @@ Security risk
 </td><td>
 
 -   Severity score: 3.7
--   CVSS score: Low
--   Security risk details: Setting this property to**false** makes email the default method for password recovery which is less secure than SMS.
+-   CVSS rating: Low
+-   Security risk details: Email-based notifications are generally less secure because they are more susceptible to account compromise and phishing attacks. Using SMS for verification provides stronger assurance of user identity and reduces the risk of unauthorized password resets or fraudulent device enrollments.
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+None
 
 </td></tr><tr><td>
 

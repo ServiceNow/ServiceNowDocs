@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Work orders and tasks, Configure, Field Service Management]
+breadcrumb: [Set up work orders and tasks, Configure, Field Service Management]
 ---
 
 # Configuring Planned Work Management
@@ -32,13 +32,19 @@ The steps for setting up planned work management are:
 
     Create a work plan for a product model, or other criteria, such as location or asset. For example, you can set up the work schedule to specify that service is performed every six months for the first two years from the date of purchase, or after completing 10,000 miles, whichever comes first.
 
+4.  \(Optional\) [Configure schedule occurrence suppression](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/configure-suppression-of-schedule-occurrences.md)
+
+    Suppress duplicate planned work tasks when different schedules overlap.
+
+5.  \(Optional\) [Configure work order grouping for a work plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/Group-work-orders.md)
+
+    Group multiple work orders for a work plan into a single work order based on the defined criteria.
+
 
 **Related topics**  
 
 
-[Manage a work order for the planned work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/creating-work-orders-from-planned-work.md)
-
-[Planned Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/planned-work-management.md)
+[Create a work order for the planned work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/creating-work-orders-from-planned-work.md)
 
 [Work plan example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/example-planned-work.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Agile Development
 classification: agile-development
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Performance Analytics Content Pack for Agile 2.0, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Performance Analytics Content Pack for Agile 2.0, Agile Development, Strategic Portfolio Management]
 ---
 
 # Agile 2.0 Team Dashboard
@@ -269,7 +269,7 @@ Bubble chart\[Omitted image "inline-data-vis-96px-bubble.png"\] Alt text:
 
 Identify the time taken for each story, which the team has worked on, to move from an in-progress state to completion.Each bubble on the graph represents a story. The height of the bubble from the x-axis shows how long that story took to move from an in-progress state to completion. The size of the story bubbles are relative to each other based on their story points.
 
- You can compare the cycle times of stories with different story points and analyze the trend in the time taken by the team to complete them. Identify the stories that took longer to complete and analyze the reasons. You can then chart an action plan to reduce the team's cycle time in the future.
+ You can compare the cycle times of stories with different story points and analyze the trend in the time taken by the team to complete them. Identify the stories that took longer to complete and analyze the reasons so that you can chart an action plan to reduce the team's cycle time in future.
 
  Hovering your mouse cursor over a bubble displays the following details about that story:
 
@@ -282,7 +282,7 @@ Identify the time taken for each story, which the team has worked on, to move fr
 
  From the Story State section towards the right of the report, you can filter the report to view the cycle time of the stories for the selected states. The chart displays the cycle time for each story as the cumulative sum of all duration of the selected states.
 
- Too many stories in any area of the chart can make the bubbles appear crowded on the report. To fix this, you can zoom in on that particular area of the report for a clearer view.
+ If there are too many stories at any area of the chart and the bubbles appear crowded on the report. You can zoom in on that particular area of the report for a clearer view.
 
  \[Omitted image "cycle-time-zoom.gif"\] Alt text: Cycle Time Zoom
 

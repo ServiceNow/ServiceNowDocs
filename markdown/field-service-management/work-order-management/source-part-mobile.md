@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Inventory, ServiceNow Agent mobile app, Use, Field Service Management]
+breadcrumb: [Inventory, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
 # View transfer order lines for requested parts
@@ -33,15 +33,15 @@ Transfer orders move necessary parts between stockrooms or to a location where a
 
 2.  View the transfer orders.
 
-<table id="choicetable_sb2_zt1_5fb"><thead><tr><th align="left" id="d113906e89">
+<table id="choicetable_sb2_zt1_5fb"><thead><tr><th align="left" id="d124897e89">
 
 To
 
-</th><th align="left" id="d113906e92">
+</th><th align="left" id="d124897e92">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d113906e98">
+</th></tr></thead><tbody><tr><td id="d124897e98">
 
 **View transfer order lines for a part requirement**
 
@@ -54,7 +54,7 @@ Do this
 5.  In the **Transfer order lines** section, tap **See all**.
 
 
-</td></tr><tr><td id="d113906e143">
+</td></tr><tr><td id="d124897e143">
 
 **View transfer order lines related to a work order task**
 
@@ -68,7 +68,7 @@ Do this
 6.  In the **Transfer order lines** section, tap **See all**.
 
 
-</td></tr><tr><td id="d113906e198">
+</td></tr><tr><td id="d124897e198">
 
 **View transfer order lines for a part request**
 

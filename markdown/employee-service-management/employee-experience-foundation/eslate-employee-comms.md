@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [employee communications, announcements, content library, chat promotion]
-breadcrumb: [Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Employee communications
@@ -61,13 +61,13 @@ For example, a critical announcement that is 20 days old might appear after a hi
 
 The responsive **Content Feed** widget provides a layout and visual hierarchy to browse and review team updates across any device. The **Canvas** includes a feed widget that provides employees with a news feed experience.
 
-\[Omitted image "esa-content-feed-add.png"\] Alt text: Add to canvas panel showing Company updates widget selected among available widget options
+\[Omitted image "image.esa-content-feed-add"\] Alt text: Add to canvas panel showing Company updates widget selected among available widget options
 
 ## Manage content
 
 You can delete, duplicate, set to published, or inactivate content directly from the library.
 
-\[Omitted image "esa-content-feed-mgmt.png"\] Alt text: Content library showing announcements in grid view with Published and Draft status and context menu options to duplicate, set to published, or delete
+\[Omitted image "image.esa-content-feed-mgmt"\] Alt text: Content library showing announcements in grid view with Published and Draft status and context menu options to duplicate, set to published, or delete
 
 **Related topics**  
 

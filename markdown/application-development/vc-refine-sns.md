@@ -5,11 +5,11 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/vc-refine-sns.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Studio, vibe coding, Build Agent, AI-assisted development, application development, developer tools, code refinement, metadata editing, Automated Test Framework, ATF, application files, access control lists, ACL, record producers, update sets]
 audience: developer
-breadcrumb: [Build Agent overview, Develop, Agentic development, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
+breadcrumb: [Build Agent overview, Develop, Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Agentic development app refinement in ServiceNow Studio
@@ -55,5 +55,5 @@ To review and refine your app from Build Agent in ServiceNow Studio, follow thes
 1.  ServiceNow IDE: Best for file‑centric, code‑heavy edits, rapid iteration, and pairing with the ServiceNow SDK for local dev/CI. Suitable for developers familiar with the ServiceNow AI Platform.
 2.  ServiceNow Studio: Best for metadata‑centric review \(tables, ACLs, roles\) and cross‑scope editing with a visual overview of app artifacts; keeps Now Assist in‑context for conversational adjustments. Suitable for developers with various levels of experience on the ServiceNow AI Platform.
 
-**Parent Topic:**[AI-assisted ServiceNow AI Platform development with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/vc-build-agent-landing.md)
+**Parent Topic:**[Agentic ServiceNow AI Platform development with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/vc-build-agent-landing.md)
 

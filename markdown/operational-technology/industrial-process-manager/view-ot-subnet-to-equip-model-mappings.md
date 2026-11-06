@@ -7,7 +7,7 @@ release: zurich
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: task
-last_updated: "2026-03-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Automated Mapping Across Zone-based IP Network Groups, Managing equipment models, Use, Industrial Process Manager, Operational Technology]
 ---
@@ -28,7 +28,7 @@ Roles required:
 1.  Navigate to the Equipment Model Manager using one of these options:
 
     -   Navigate to **All** &gt; **Industrial Workspace Admin** &gt; **Industrial Process Manager** &gt; **Equipment Model Manager**.
-    -   Navigate to **All** &gt; **Industrial Workspace**. Select the Equipment model \(\[Omitted image "image.equipment-model-manager-button"\] Alt text:\) icon.
+    -   Navigate to **All** &gt; **Industrial Workspace**. Select the Equipment model \(\[Omitted image "equip-model-manager-button.png"\] Alt text: Equipment model icon\) icon.
 2.  From the Equipment model view, select the site, or expand the equipment model hierarchy to select the entity that you want to view mappings for.
 
 3.  In the entity form, select the **Mapped OT subnets** related list tab.
@@ -40,7 +40,7 @@ Roles required:
 
 ## What to do next
 
-[Create a new OT subnet mapping record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-process-manager/create-a-new-ot-subnet-mapping-record.md)
+[Create an OT subnet mapping record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-process-manager/create-a-new-ot-subnet-mapping-record.md)
 
 **Parent Topic:**[Automated Mapping Across Zone-based IP Network Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-process-manager/automate-mappings-between-ot-assets-and-equipment-model-entity.md)
 

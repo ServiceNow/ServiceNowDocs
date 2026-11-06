@@ -1,22 +1,22 @@
 ---
-title: Managing archived data
+title: Managing archived data in Core UI
 description: Change the schedule for an archive rule, stop the archive rule from running, or restore your archived data.Modify the system-scheduled job if you need to change the archive interval.Stop archiving by deactivating, deleting, or canceling an archive rule.Restore an archive record and optionally any related records back into the primary table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/managing-archived-data.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Archiving records, Manage data growth, Data Management, Tables and data, Configure core features, Administer]
+breadcrumb: [Archiving records in Core UI, Manage data growth in Core UI, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Managing archived data
+# Managing archived data in Core UI
 
 Change the schedule for an archive rule, stop the archive rule from running, or restore your archived data.
 
-**Parent Topic:**[Archiving records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/archiving-older-records.md)
+**Parent Topic:**[Archiving records in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/archiving-older-records.md)
 
-## Change an archive schedule
+## Change an archive schedule in Core UI
 
 Modify the system-scheduled job if you need to change the archive interval.
 
@@ -37,7 +37,7 @@ All active archive rules are executed by a system-scheduled job set to run every
 3.  Modify the **repeat** value.
 
 
-## Stop an active archive rule
+## Stop an active archive rule in Core UI
 
 Stop archiving by deactivating, deleting, or canceling an archive rule.
 
@@ -49,15 +49,15 @@ Role required: admin
 
 1.  Access the archive rule that you want to stop in one of the following ways.
 
-<table id="choicetable_cxh_nkk_1bc"><thead><tr><th align="left" id="d218078e185">
+<table id="choicetable_cxh_nkk_1bc"><thead><tr><th align="left" id="d226759e191">
 
 Option
 
-</th><th align="left" id="d218078e188">
+</th><th align="left" id="d226759e194">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d218078e194">
+</th></tr></thead><tbody><tr><td id="d226759e200">
 
 **Using a data management policy**
 
@@ -68,7 +68,7 @@ Steps
 3.  In the Archive Rules related list, select the archive rule that you want to stop.
 
 
-</td></tr><tr><td id="d218078e227">
+</td></tr><tr><td id="d226759e233">
 
 **Using the Archive Rules module**
 
@@ -89,7 +89,7 @@ Steps
 
 No additional chunks are processed.
 
-## Restore archived records and related records
+## Restore archived records and related records in Core UI
 
 Restore an archive record and optionally any related records back into the primary table.
 
@@ -101,15 +101,15 @@ Role required: admin
 
 1.  Navigate to the archived record that you want to restore in one of the following ways.
 
-<table id="choicetable_l2x_vvy_1bc"><thead><tr><th align="left" id="d218078e368">
+<table id="choicetable_l2x_vvy_1bc"><thead><tr><th align="left" id="d226759e376">
 
 Option
 
-</th><th align="left" id="d218078e371">
+</th><th align="left" id="d226759e379">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d218078e377">
+</th></tr></thead><tbody><tr><td id="d226759e385">
 
 **Using a data management policy**
 
@@ -122,7 +122,7 @@ Steps
 5.  In the Archive Log related list, select the archived record that you want to restore.
 
 
-</td></tr><tr><td id="d218078e416">
+</td></tr><tr><td id="d226759e424">
 
 **Using the Archive Log module**
 

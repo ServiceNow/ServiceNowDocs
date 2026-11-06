@@ -1,25 +1,25 @@
 ---
 title: Zero Copy Connector for ERP table join conditions field descriptions
-description: The Table join condition form in Zero Copy Connector for ERP enables you to create and edit join conditions for tables in a ERP \(Enterprise Resource Planning\) model.
+description: The Table join condition form in Zero Copy Connector for ERP \(Enterprise Resource Planning\) enables you to create and edit join conditions for tables in an ERP model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/erp-canvas-table-join-condition-descriptions.html
 release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, table, join, condition]
-breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Zero Copy Connector for ERP table join conditions field descriptions
 
-The Table join condition form in Zero Copy Connector for ERP enables you to create and edit join conditions for tables in a ERP \(Enterprise Resource Planning\) model.
+The Table join condition form in Zero Copy Connector for ERP \(Enterprise Resource Planning\) enables you to create and edit join conditions for tables in an ERP model.
 
-Table joins link different tables through shared fields. Joins enable you to access data from multiple tables based on logical relationships between them. The relationship can be conditional, which you specify using join conditions. Use inner joins or outer joins. An inner join returns records that have matching values in both tables. Outer joins combine left and right join results to return all rows with matches or NULLS.
+Table joins link different tables through shared fields. Joins enable you to access data from multiple tables based on logical relationships between them. The relationship can be conditional, which you specify using join conditions. Use inner joins or outer joins. An inner join returns records that have matching values in both tables. Outer joins combine left and right join results to return all rows with matches or null values.
 
-Join fields defines the common attribute or key used to connect records in a child table with their corresponding parent records.
+Join fields define the common attribute or key used to connect records in a child table with their corresponding parent records.
 
 For process details, see [Add joins between ERP tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-add-join-data-model.md).
 
@@ -37,7 +37,7 @@ ERP model table field
 
 </td><td>
 
-Name of the join field on the ERP system of record, which represents an attribute or column in the table where data is stored.
+Name of the join field on the ERP system, which represents an attribute or column in the table where data is stored.
 
 </td></tr><tr><td>
 
@@ -61,7 +61,7 @@ Order
 
 </td><td>
 
-Numerical value that indicates which part of the join occurs first.This number determines the order join condition position relative to other items, helping to establish the prioritization.
+Numerical value that indicates which part of the join occurs first.This number sets the position of the join condition relative to the other join conditions.
 
 </td></tr><tr><td>
 
@@ -69,7 +69,7 @@ Operator
 
 </td><td>
 
-Operator that defines the conditions for your query. Operators determine how the values are evaluated and filtered in the query results. The following are supported operators:
+Operator that defines the conditions for your query. Operators determine how the values are evaluated and filtered in the query results. The following operators are supported:
 
 -   equals
 -   contains
@@ -85,8 +85,7 @@ Statement operator
 
 </td><td>
 
-Operator that defines the condition or comparison in your statement. The options are `AND` and `OR`.
+Operator that defines the condition or comparison in your statement. The options are **AND** and **OR**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
-
+</table>

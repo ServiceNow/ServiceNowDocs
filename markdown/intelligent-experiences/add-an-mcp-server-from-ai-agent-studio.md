@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [MCP server setup, Working with MCP server records, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [MCP server setup, Working with MCP server records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Add an MCP server from AI Agent Studio
@@ -30,7 +30,7 @@ Role required: sn\_aia.admin, sn\_mcp\_client.admin
 
 2.  Select **New**.
 
-    **Note:** In the Create and manage tab of the AI Agent studio, you can add only those MCP servers that have been approved in the AI Control Tower.
+    **Note:** In the Create and manage tab of the AI Agent studio, you can add only those MCP servers that have been approved in AI Control Tower.
 
 3.  Enter the Name.
 

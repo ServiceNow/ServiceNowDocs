@@ -7,9 +7,9 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
-breadcrumb: [IP address management, Explore, Telecommunications Network Inventory]
+breadcrumb: [IP address management, Inventory number allocation, Explore, Telecommunications Network Inventory]
 ---
 
 # IP address inventory management data model
@@ -40,7 +40,7 @@ Subnetwork-level binding \(at subnet level\):
 
 1.  Define the IP Address Block representing the routable range.
 2.  Create one or more IP Subnetworks within the block.
-3.  Create a single IP Address record representing the subnetwork as a whole. The IP Address record's value is the subnetwork's CIDR.
+3.  Create a single IP Address record representing the subnetwork as a whole. The IP Address record’s value is the subnetwork's CIDR.
 
 The two methods are mutually exclusive within a subnetwork. For more information about the methods and the relationships they create, see [CMDB relationships for IP address records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/cmdb-relationships-for-ip-address-records.md).
 
@@ -51,7 +51,5 @@ The two methods are mutually exclusive within a subnetwork. For more information
 
 [Create an IP Address Block record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create-an-ip-address-block-record.md)
 
-[Create an IP Address Record at subnet level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create-an-ip-address-record-at-subnet-level.md)
-
-[Create an IP Subnetwork Record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
+[Create an IP Subnetwork record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create-an-ip-subnetwork-record.md)
 

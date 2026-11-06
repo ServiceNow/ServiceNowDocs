@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-30"
 reading_time_minutes: 5
 keywords: [Code editor, Editor layout and tabs, Syntax highlighting and language support, IntelliSense and code completion, Code folding and minimap, Multi-cursor and multi-selection, Find and replace in a file, Editor keybindings, Diff view]
-breadcrumb: [Exploring Lux Lab, Lux Lab, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Exploring Lux Lab, Lux Lab, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Code editor

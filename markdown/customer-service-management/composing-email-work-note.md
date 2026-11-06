@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/composing-email-work-note.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Email Interaction for CSM, Email Interaction for CSM, Email Interaction for CSM, Email Interaction for CSM]
-breadcrumb: [Engage via email interactions, Using Email Interaction for CSM, Customer communication, Use, Customer Service Management]
+breadcrumb: [Using Email Interaction for CSM, Customer communication, Use, Customer Service Management]
 ---
 
 # Compose an email or a work note
@@ -27,7 +27,7 @@ Role required: sn\_customerservice\_agent
 
 1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon \(\[Omitted image "List\_icon\_eaai\_new.png"\] Alt text: List icon\).
+2.  Select the List icon \(\[Omitted image "List\_icon\_eaai\_new.png"\] Alt text: List icon that displays the interactions.\).
 
 3.  In the Interactions section, select **My Interactions**.
 
@@ -50,7 +50,7 @@ Role required: sn\_customerservice\_agent
 
 As an agent, you have successfully drafted a suitable email response to the customer.
 
-## Use a response template to compose an email or a work note
+## Compose emails and work notes using response templates
 
 Use response templates to access predefined messages and compose emails. Agents can copy content from a template and add it to an email to save time.
 
@@ -60,7 +60,7 @@ Role required: sn\_customerservice\_agent with the sn\_templated\_snip.template\
 
 ### About this task
 
-The contextual side panel provides access to response templates that can help you efficiently compose an email response. Selecting the Response Template icon \(\[Omitted image "response-template-icon.png"\] Alt text: Response template icon\) shows reusable messages that you can copy and paste into emails.
+The contextual side panel provides access to response templates that can help you efficiently compose an email response. Selecting the Response Template icon \[Omitted image "Response\_template\_icon\_eaai\_new.png"\] Alt text: Response template icon\(\) shows reusable messages that you can copy and paste into emails.
 
 ### Procedure
 
@@ -97,7 +97,7 @@ The work note is visible exclusively to the agent and remains private from the c
 
 1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon \(\[Omitted image "List\_icon\_eaai\_new.png"\] Alt text: List icon\).
+2.  Select the List icon \(\[Omitted image "List\_icon\_eaai\_new.png"\] Alt text: List icon that displays the interactions.\).
 
 3.  In the Interactions section, select **My Interactions**.
 

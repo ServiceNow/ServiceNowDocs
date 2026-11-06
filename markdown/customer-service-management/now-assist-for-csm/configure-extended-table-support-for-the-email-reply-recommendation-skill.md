@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-04-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Generative AI, generative AI for Customer Service Management, generative AI for customer service agents, Email Reply Recommendation, extended table, child skill, Now Assist, Now Assist Skill Kit, NASK, CSM]
 breadcrumb: [Email recommendation, Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -19,7 +19,7 @@ Create a child skill variant of the Email reply recommendation skill to generate
 
 ## Before you begin
 
-Role required: **Admin** to copy and configure the skill in . **sn\_skill\_builder.admin** to edit input configurations in AI Skill Kit.
+Role required: **Admin** to copy and configure the skill in AI Admin Hub. **sn\_skill\_builder.admin** to edit input configurations in AI Skill Kit.
 
 Confirm the following prerequisites are met before you begin:
 
@@ -28,7 +28,7 @@ Confirm the following prerequisites are met before you begin:
 
 ## About this task
 
-When you copy the Email reply recommendation skill in , a child skill is created that inherits the parent skill's configuration. Open the copied skill in AI Skill Kit to select the target child table. Configure the additional input fields that are injected into the AI prompt for that table. Once configured, the platform automatically uses the child skill when an agent triggers Email Reply Recommendation on a case record that belongs to the extended table.
+When you copy the Email reply recommendation skill in AI Admin Hub, a child skill is created that inherits the parent skill's configuration. Open the copied skill in AI Skill Kit to select the target child table. Configure the additional input fields that are injected into the AI prompt for that table. Once configured, the platform automatically uses the child skill when an agent triggers Email Reply Recommendation on a case record that belongs to the extended table.
 
 ## Procedure
 
@@ -46,7 +46,7 @@ When you copy the Email reply recommendation skill in , a child skill is created
 
 6.  Select **Save and continue**.
 
-    The child skill is created and inherits the parent skill's configuration. You can't change the table name of the copied skill in . Table selection is performed in AI Skill Kit as the next step.
+    The child skill is created and inherits the parent skill's configuration. You can't change the table name of the copied skill in AI Admin Hub. Table selection is performed in AI Skill Kit as the next step.
 
 7.  Navigate to **AI Skill Kit** &gt; **ServiceNow skills**.
 
@@ -66,7 +66,7 @@ When you copy the Email reply recommendation skill in , a child skill is created
 
 13. Select **Clone prompt** to edit the prompt.
 
-14. Complete skill configuration in , by selecting **Define Availability** to set conditions for when this child skill is active.
+14. Complete skill configuration in AI Admin Hub, by selecting **Define Availability** to set conditions for when this child skill is active.
 
     -   Select **Skill is always available** to apply no restrictions.
     -   Select **Customize skill availability** to define conditions using the condition builder.

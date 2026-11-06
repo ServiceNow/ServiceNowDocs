@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/manage-health-assessment-dashboard.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Health Assessment Dashboard, HealthScan tech KPIs, HealthScan, Platform Health, Using Impact, Impact]
+breadcrumb: [Health Assessment Dashboard, HealthScan tech KPIs, HealthScan, Impact Delivery Instance reference, Impact reference, Impact]
 ---
 
 # Manage Health Assessment Dashboard
@@ -26,6 +26,10 @@ Role required: impact\_admin
 
 2.  Select to view the assessment by list view or summary view.
 
-3.  Filter the findings by new, rating, or by category.
+3.  Select a link to the findings to access the instance and directly address the issues.
 
+4.  Filter the findings by new, rating, or by category.
+
+
+**Parent Topic:**[Health Assessment Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/health-assessment-dashboard.md)
 

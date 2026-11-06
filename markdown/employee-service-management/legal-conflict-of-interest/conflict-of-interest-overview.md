@@ -7,7 +7,7 @@ release: zurich
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [Conflict of interest, Conversational intake for COI, COI employee center, legal requests]
 breadcrumb: [Legal Conflict of Interest, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
@@ -21,9 +21,9 @@ Learn more about the Legal Conflict of Interest application through a sample wor
 
 The ServiceNow® Legal Conflict of Interest enables you to manage the disclosure, approval, and registry of conflict of interest that might arise from employees having competing interests or loyalties. Employees can submit disclosures using the conversational interface of ServiceNow Otto in Virtual Agent or intake form available in the Employee Center. The Requests are evaluated against predefined risk factors to calculate an overall risk score. Based on this score, requests are routed to the appropriate approval workflow for faster resolution.
 
-**Note:** The conversational intake functionality is available only when you have installed and configured Legal Service Delivery - Prime that is a paid application. For more information, see [ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md).
+**Note:** The conversational intake functionality is available only when you have installed and configured Legal Service Delivery - Prime that is a paid application. For more information, see [ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/now-assist-lsd-exploring.md).
 
-For more information on how to submit the requests using the two methods, see [Submit COI request form Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-conflict-of-interest/submit-coi-disclosure-request.md) and [Submit COI request using ServiceNow Otto conversational intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-convi.md)
+For more information on how to submit the requests using the two methods, see [Submit COI request form Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-conflict-of-interest/submit-coi-disclosure-request.md) and [Submit COI request using ServiceNow Otto conversational intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-conflict-of-interest/now-assist-lsd-convi.md)
 
 ## Risk assessment
 
@@ -100,7 +100,7 @@ Submit COI request using natural language from the conversational interface of S
 
 </td><td>
 
-[Submit COI request using ServiceNow Otto conversational intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-convi.md)
+[Submit COI request using ServiceNow Otto conversational intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-conflict-of-interest/now-assist-lsd-convi.md)
 
 </td><td>
 

@@ -7,7 +7,7 @@ release: zurich
 product: Content Management System
 classification: content-management-system
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure menu sections, Create a navigation menu block, Types of content blocks, Content blocks, Configure Content Management sites, Content Management System, Configure UIs and portals, Configure user experiences]
 ---

@@ -7,9 +7,9 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create a telephone infrastructure, Inventory number allocation, Defining inventory records, Use, Telecommunications Network Inventory]
+breadcrumb: [Create a telephone infrastructure, Inventory number allocation, Define inventory records, Use, Telecommunications Network Inventory]
 ---
 
 # Create a telephone number allocation
@@ -18,7 +18,7 @@ Create a telephone number allocation so that you can group a set of telephone nu
 
 ## Before you begin
 
--   Ensure that the Telecommunications Network Inventory application includes all the required components of your telephone number. Otherwise, see [Creating telephone number components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create_components_of_a_telephone_number.md).
+-   Ensure that the Telecommunications Network Inventory application includes all the required components of your telephone number. Otherwise, see [Create the components of a telephone number](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create_components_of_a_telephone_number.md).
 -   Role required: sn\_inv\_num\_mgmt.inventory\_number\_manager
 
 ## About this task
@@ -92,7 +92,7 @@ Ending phone number of the series that you can assign to this block to.
 
 6.  Select **Save**.
 
-    The related tabs appear on the form. You can view or change the related tab information. To learn more about the related tabs, see [Related tabs in the network inventory forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/inventory-related-tab.md).
+    The related tabs appear on the form. You can view or change the related tab information. To learn more about the related tabs, see [Related tabs in the Network inventory forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/inventory-related-tab.md).
 
     **Note:** Based on the assigned or allocated telephone numbers, the existing allocation divides into separate allocations. For example, in a series of 1-100, if 1-10 and 90–100 are assigned, then the 1–100 allocation divides into three allocations. The three allocations, 1–10 and 90–100 with availability as No and 11–89 as Yes are created.
 

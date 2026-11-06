@@ -1,12 +1,12 @@
 ---
 title: Share a data visualization in the Visualization Designer
-description: Share a visualization to provide view or edit permissions to users, groups, or roles. A user can access a shared visualization in any workspace on the original instance.You can change the access rights of persons with whom the data visualization is shared.
+description: Share a visualization to provide view or edit permissions to users, groups, or roles. A user can access a shared visualization in any workspace on the original instance.You can change the access rights of persons with whom the data visualization is shared.Use reference qualifiers to limit the users, groups, and roles in the recipients field of shared visualizations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/share-dv-ac.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 keywords: [Share a visualization, Share a report]
 breadcrumb: [Share, edit, or delete, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -23,7 +23,7 @@ Role required: You can share any data visualization that you created. When you s
 
 Users with the admin and viz\_admin roles can share all data visualizations. Only users with the admin and viz\_admin roles can share data visualizations with roles.
 
-Sharing a visualization with a user, group, or role adds that visualization to the **Shared with me** tab in the Data Visualizations overview. Any user with a role can list and view any visualization at the table level. Report\_view access control lists \(ACLs\) still apply no matter how the user gets to the visualization, however changes to ACLs can break data visualizations that are used in UI Builder.
+Sharing a visualization with a user, group, or role adds that visualization to the **Shared with me** tab in the Data Visualizations overview. Any user with a role can list and view any visualization at the table level. Report\_view access control lists \(ACLs\) still apply no matter how the user gets to the visualization. Changes to ACLs can break data visualizations that are used in UI Builder.
 
 Edit rights granted by sharing a data visualization do not apply to that visualization when placed on a dashboard, but only in the Visualization Designer.
 
@@ -49,15 +49,15 @@ Edit rights granted by sharing a data visualization do not apply to that visuali
 
 6.  Select one of the following options.
 
-<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d79564e161">
+<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d83480e165">
 
 **Add as viewer**
 
 </td><td>
 
-Grant only viewing rights to the users, groups, or roles you share the visualization with. The recipients cannot edit it.
+Grant only viewing rights to the users, groups, or roles you share the visualization with. Users who only have viewing rights can make changes to the visualization, but aren't able to save those changes.
 
-</td></tr><tr><td id="d79564e170">
+</td></tr><tr><td id="d83480e174">
 
 **Add as editor**
 
@@ -103,4 +103,39 @@ Role required: You can change the access rights to any data visualization that y
 
     You can grant editing rights or only viewing rights. You can give or take away the right to share the data visualization. Lastly, you can remove the user, no longer sharing the data visualization with them.\[Omitted image "share-db-ac-manage.png"\] Alt text: Possible rights you can grant or deny a user to a data visualization that is shared with them.
 
+
+## Data visualization sharing reference qualifiers
+
+Use reference qualifiers to limit the users, groups, and roles in the recipients field of shared visualizations.
+
+### Before you begin
+
+Role required: admin
+
+### Procedure
+
+1.  Navigate to **System Definition** &gt; **Tables**.
+
+2.  Open the **par\_visualization\_permission** table.
+
+3.  Press Ctrl+Click on the Preview Users button \[Omitted image "InfoIcon.png"\] Alt text: info buttonnext to Users on the **Columns** tab to open the Users dictionary entry.
+
+    Point to the Users Column label to see this button.
+
+    \[Omitted image "preview-buttons-sched-export.png"\] Alt text: Preview Users and Preview Groups buttons on the Columns list of Par Notification Email Recipients
+
+4.  If you're in the wrong application, select the link to edit the record.
+
+    \[Omitted image "app-mismatch-msg-sched-export.png"\] Alt text: Mismatched application message with link to edit the record
+
+5.  On the Reference Specification tab of the dictionary entry, use the condition builder to add filter conditions to the User list.
+
+    For example, configure the reference qualifier condition \[Name\] \[starts with\] \[b\]. Only users whose names start with the letter B will show up in the list of users in the recipients list when configuring an export.
+
+6.  Select **Update**.
+
+
+### What to do next
+
+Perform the same actions on the Group and Role columns to limit sharing with those categories of recipient.
 

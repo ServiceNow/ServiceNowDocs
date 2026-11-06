@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/t\_CreateAChecklist.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Checklists, Forms in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -34,7 +34,7 @@ A template saves time by creating checklist items automatically. You can add, ed
 
 3.  Complete one of the following steps.
 
-<table id="choicetable_zzd_cd3_xbb"><tbody><tr><td id="d108570e88">
+<table id="choicetable_zzd_cd3_xbb"><tbody><tr><td id="d106349e88">
 
 **To create a new checklist**
 
@@ -42,7 +42,7 @@ A template saves time by creating checklist items automatically. You can add, ed
 
 Select **Create new**.
 
-</td></tr><tr><td id="d108570e100">
+</td></tr><tr><td id="d106349e100">
 
 **To create a checklist by using a template**
 

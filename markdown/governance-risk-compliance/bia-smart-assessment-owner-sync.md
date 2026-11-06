@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/bia-smart-assessment-owner-sync.html
 release: zurich
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 4
 keywords: [BIA, business impact analysis, owner sync, field reference]
 breadcrumb: [Group owner fields and role requirements, Reference, Business Continuity Management, Governance, Risk, and Compliance]
@@ -90,9 +90,7 @@ The **BIA Owner** field reference qualifier adjusts dynamically based on whether
 -   If a user is selected and then a group is chosen that does not include that user, the system allows the selection and displays an informational message: "Allow selection outside the group."
 
 </td></tr></tbody>
-</table>**Important:** Role eligibility for the **BIA Owner group** field is based only on roles assigned directly to the group. A group that holds a higher-level role that contains the BIA Planner or BIA Manager role, such as BCM Planner \[sn\_bcm.planner\], is not recognized as eligible, because the eligibility check does not resolve role containment. Members of such a group still have BIA access through the contained role, but the group itself does not appear in the **BIA Owner group** list unless it also holds the BIA Planner or BIA Manager role directly.
-
-## Implementation details
+</table>## Implementation details
 
 |Component|Description|
 |---------|-----------|

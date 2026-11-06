@@ -7,7 +7,7 @@ release: zurich
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Safety inspections and audits, Use, Health and Safety Risk Management, Health and Safety, Employee Service Management]
 ---
@@ -20,8 +20,8 @@ Add an action for each finding to address any issues or implement measures neces
 
 Role required:
 
--   For safety inspections: sn\_hs\_rm.safety\_inspection\_manager or sn\_hs\_rm.safety\_inspection\_writer
--   For safety audits: sn\_hs\_rm.safety\_audit\_manager or sn\_hs\_rm.safety\_audit\_writer
+-   For safety inspections: sn\_hs\_rm.safety\_inspection\_manager, sn\_hs\_rm.safety\_inspection\_writer, or sn\_ohs\_im.action\_writer
+-   For safety audits: sn\_hs\_rm.safety\_audit\_manager, sn\_hs\_rm.safety\_audit\_writer, or sn\_ohs\_im.action\_writer
 
 ## About this task
 
@@ -40,15 +40,17 @@ For information on adding an action for a safety inspection or audit through Mob
 
 3.  Create an action from an inspection or audit record or the Actions list.
 
-<table id="choicetable_nd5_sdp_c1c"><thead><tr><th align="left" id="d740885e146">
+    **Note:** You can add actions from the Actions tab on the record or by using the Action planner in the contextual sidebar. For more information on Action planner, see [Create and manage a safety action in the Action planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-core/hs-create-action-in-action-planner.md).
+
+<table id="choicetable_nd5_sdp_c1c"><thead><tr><th align="left" id="d752454e162">
 
 Option
 
-</th><th align="left" id="d740885e149">
+</th><th align="left" id="d752454e165">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d740885e155">
+</th></tr></thead><tbody><tr><td id="d752454e171">
 
 **From an inspection record**
 
@@ -59,7 +61,7 @@ Steps
 3.  In the **Inspection actions** tab, select **New**.
 
 
-</td></tr><tr><td id="d740885e188">
+</td></tr><tr><td id="d752454e204">
 
 **From an audit record**
 
@@ -70,7 +72,7 @@ Steps
 3.  In the **Audit actions** tab, select **New**.
 
 
-</td></tr><tr><td id="d740885e221">
+</td></tr><tr><td id="d752454e237">
 
 **From the Findings tab**
 

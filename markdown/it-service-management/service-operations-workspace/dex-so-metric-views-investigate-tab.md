@@ -7,9 +7,9 @@ release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: reference
-last_updated: "2025-11-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Features of the Investigation tab, Incident Management in Service Operations Workspace reference, Incident Management in Service Operations Workspace, Operate, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Features of the Investigation tab, Incident Management in Service Operations Workspace reference, Incident Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Digital End-User Experience and Service Observability UI experience on investigate tab
@@ -37,7 +37,7 @@ The Investigate tab displays a DEX UI experience dashboard, if the selected CI m
 -   Matches DEX related rule from the **Investigate CI Experience Rules** \(**sn\_sow\_investigate\_ci\_ux\_rule**\) table.
 -   CI is supported by DEX.
 
-For more information on DEX, see [Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/dex-landing.md).
+For more information on DEX, see .
 
 ## SO view in the Investigate tab
 

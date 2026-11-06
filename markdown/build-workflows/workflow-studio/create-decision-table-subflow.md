@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Building subflows, Use, Workflow Studio, Build workflows]
+breadcrumb: [Build subflows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Create a decision table in a subflow
@@ -36,7 +36,7 @@ This video shows the process of creating a decision in a subflow.
 
 3.  Select a subflow.
 
-4.  Set **Subflow Inputs &amp; Outputs** for your subflows.\[Omitted image "image.subflow-input-output"\] Alt text: setting inputs and outputs
+4.  Set **Subflow Inputs &amp; Outputs** for your subflows.\[Omitted image "subflow-inputs-outputs.png"\] Alt text: setting inputs and outputs
 
 5.  Under Actions, select **Flow Logic**.
 
@@ -54,8 +54,6 @@ This video shows the process of creating a decision in a subflow.
     |-----|-----------|
     |Decision table name|Unique name for the table. This name is populated from the **Decision Label**.|
     |Application|Application where the decision table lives. The application is populated based on the application that the subflow is in.|
-
-    \[Omitted image "image.set-properties"\] Alt text: set properties
 
 10. Select **Next**.
 

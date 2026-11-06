@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-view-all-drivers.html
 release: zurich
 topic_type: task
-last_updated: "2026-08-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [drivers, business architecture, portfolio]
-breadcrumb: [Manage drivers, Using business architecture, Working with Portfolio list view, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Manage drivers, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # View all drivers

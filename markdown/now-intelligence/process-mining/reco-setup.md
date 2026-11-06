@@ -7,9 +7,9 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [With Process Configuration Builder, Creating process configuration, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [With Process Configuration Builder, Creating process configuration, Use, Process Mining, Platform Analytics]
 ---
 
 # Configure recommendations setup
@@ -18,7 +18,7 @@ Set up recommendations to simplify project creation and get help in the analysis
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_power\_user or sn\_process\_optimization\_admin
+Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
 
 ## Procedure
 

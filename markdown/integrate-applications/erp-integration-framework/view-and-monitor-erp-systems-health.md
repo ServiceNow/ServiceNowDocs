@@ -7,10 +7,10 @@ release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-26"
 reading_time_minutes: 1
-keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, system, health, monitor, connection, heartbeat, retrieve]
-breadcrumb: [Working with ERP systems, Configure, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, system, health, monitor, connection, heartbeat, retrieve, test connection]
+breadcrumb: [Working with ERP systems, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # View a list of Zero Copy Connector for ERP systems
@@ -28,9 +28,9 @@ Role required: sn\_erp\_integration.erp\_admin
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP systems list by selecting the systems icon \[Omitted image "image.erp-systems-icon-sidebar"\] Alt text: in the side panel.
+2.  Open the ERP systems list by selecting the systems icon \[Omitted image "erp-systems-icon-sidebar.png"\] Alt text: in the side panel.
 
-    \[Omitted image "image.erpc-system-list-ys2"\] Alt text: Zero Copy Connector for ERP systems list.
+    \[Omitted image "erpc-system-list-ys2.png"\] Alt text: Zero Copy Connector for ERP systems list.
 
 3.  Select a system **Name**.
 
@@ -38,6 +38,4 @@ Role required: sn\_erp\_integration.erp\_admin
 
     For a description of the field values, see [Zero Copy Connector for ERP system list field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-system-list-descriptions.md).
 
-
-**Parent Topic:**[Working with ERP systems in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-work-with-systems.md)
 

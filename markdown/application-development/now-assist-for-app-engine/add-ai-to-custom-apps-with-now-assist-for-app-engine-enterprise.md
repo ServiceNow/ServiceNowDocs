@@ -7,10 +7,10 @@ release: zurich
 product: Now Assist for App Engine
 classification: now-assist-for-app-engine
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, ServiceNow Otto for App Engine, now assist, app engine, AI capability, AI feature, AI product, AI agent, skill, generative AI, genAI, Now Assist for App Engine, custom app]
-breadcrumb: [Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
+breadcrumb: [Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # ServiceNow Otto for App Engine
@@ -18,6 +18,14 @@ breadcrumb: [Agentic development on the ServiceNow AI Platform, Developing your 
 Use ServiceNow Otto for App Engine to supercharge custom applications with AI agents and skills.
 
 ## Get started
+
+The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+-   Foundation: AI basics to deliver insights
+-   Advanced: AI to boost productivity across relevant use cases
+-   Prime: Act autonomously with all AI assets, and create your own
+
+For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 <table id="table_wjh_cz5_bfc" class="nav-card presentation"><tbody><tr><td>
 
@@ -60,4 +68,15 @@ This application requires data to be transferred from ServiceNow customers' indi
 ## Data collection
 
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+
+For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-products.md).
+
+-   **[Exploring ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/exploring-now-assist-for-app-generation-enterprise.md)**  
+Explore the AI capabilities, users, benefits, and workflow for using ServiceNow Otto for App Engine to enhance your custom applications with AI.
+-   **[Configuring ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/configuring-now-assist-for-app-engine.md)**  
+Learn about the configuration process for ServiceNow Otto for App Engine.
+-   **[Using ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md)**  
+Enhance custom applications with generative and agentic AI capabilities.
+
+**Parent Topic:**[Run](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/run-ai-workflow-factory-prime.md)
 

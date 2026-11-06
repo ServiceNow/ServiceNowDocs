@@ -7,7 +7,7 @@ release: zurich
 product: Core UI Interactive Filters
 classification: core-ui-interactive-filters
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -20,9 +20,9 @@ You can create an interactive filter and add it to a dashboard as a widget. Sele
 
 Core UI interactive filter functionality is in maintenance mode and is no longer being augmented or changed. Only security fixes to this feature will be addressed. For updated filtering functionality, see [Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/interactive-filters-workspace.md).
 
-To create an interactive filter, see [Creating Interactive Filters of different types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/core-ui-interactive-filters/r_AvailableHomepagePublisherTypes.md) and choose the filter type.
+**Note:** From the Australia release, only users with the report\_admin role can create and edit Core UI interactive filters. To create filters in Platform Analytics experience, see [Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/interactive-filters-workspace.md).
 
-Interactive filters on homepages do not retain default values or retain values across logins or page refreshes. This functionality is available on dashboards. For more information, see [Convert homepages to individual dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/hpm-convert-homepages.md).
+To create an interactive filter, see [Creating Interactive Filters of different types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/core-ui-interactive-filters/r_AvailableHomepagePublisherTypes.md) and choose the filter type.
 
 **Important:**
 

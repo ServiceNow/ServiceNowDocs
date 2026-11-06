@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Hardware Asset Workspace, Explore, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Hardware Asset Workspace, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Procurement view
@@ -33,6 +33,8 @@ Select any widget or chart to view the details. You can also use **Location**, *
 |Requests by state for last 30 days|Requests created in last 30 days grouped by state.|
 |Requests that require sourcing|List of requests for which a purchase order, local order, or transfer order hasn't been initiated.|
 |Open purchase orders|List of purchase orders that have been requested, ordered, or not delivered.|
+
+**Parent Topic:**[Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/using-ham-workspace.md)
 
 **Related topics**  
 

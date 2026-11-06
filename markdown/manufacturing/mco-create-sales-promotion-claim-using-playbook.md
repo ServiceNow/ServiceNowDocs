@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-create-sales-promotion-claim-using-playbook.html
 release: zurich
 topic_type: task
-last_updated: "2026-05-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sales promotion, MCO workspace, Use, Manufacturing Commercial Operations]
 ---

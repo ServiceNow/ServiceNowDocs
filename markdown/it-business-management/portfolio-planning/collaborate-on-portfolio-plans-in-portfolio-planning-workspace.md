@@ -7,7 +7,7 @@ release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Manage portfolio plans, Portfolio Planning, Strategic Portfolio Management]
@@ -39,15 +39,15 @@ The attachments and comments that you add from the portfolio plan's header, they
 
 4.  Add comments or attachments to the portfolio plan.
 
-<table id="choicetable_yrk_wkj_gvb"><thead><tr><th align="left" id="d222412e140">
+<table id="choicetable_yrk_wkj_gvb"><thead><tr><th align="left" id="d237248e140">
 
 Choice
 
-</th><th align="left" id="d222412e143">
+</th><th align="left" id="d237248e143">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d222412e149">
+</th></tr></thead><tbody><tr><td id="d237248e149">
 
 **Attachments**
 
@@ -55,7 +55,7 @@ Action
 
 In the Attachments tab, select **Browse** and upload a file.
 
-</td></tr><tr><td id="d222412e164">
+</td></tr><tr><td id="d237248e164">
 
 **Comments**
 

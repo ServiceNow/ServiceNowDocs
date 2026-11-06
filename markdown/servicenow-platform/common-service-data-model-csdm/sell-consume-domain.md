@@ -7,7 +7,7 @@ release: zurich
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [CSDM data domains, Explore, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -49,7 +49,7 @@ Business service offerings \(**Service Classification** is Business Service\) ar
 -   A silver offering of upgrades and virus protection.
 -   A gold offering with the silver commitments plus a response time guarantee of 30 minutes between the hours of 8:00 a.m. and 5:00 p.m., Monday through Friday.
 
-**Note:** Business services and technology management services connect to the spm\_service\_portfolio through the spm\_taxonomy\_node. See [Service Portfolio Management taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/SPM2-taxonomy.md).
+**Note:** Business services and Technology management services connect to the spm\_service\_portfolio through the spm\_taxonomy\_node. See [Service Portfolio Management taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/SPM2-taxonomy.md).
 
 Business service offerings have the following characteristics:
 
@@ -59,7 +59,7 @@ Business service offerings have the following characteristics:
 -   Business service offerings are the CMDB records that identify the specific business area and the entity where the service is delivered. Some business services and service offerings depend on the service instance.
 -   Business service offerings are derived from the service and are refined depending on how the parent serves a particular business need.
 
-**Note:** You should configure at least one business service offering for each operational business service or technology management service.
+**Note:** You should configure at least one business service offering for each operational business service or Technology management service.
 
 You can view your business service offerings in the Digital Portfolio Management \(DPM\).
 

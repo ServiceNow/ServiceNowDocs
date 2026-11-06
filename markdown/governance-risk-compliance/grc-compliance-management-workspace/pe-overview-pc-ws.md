@@ -1,5 +1,5 @@
 ---
-title: Manage policy exception from the Overview page
+title: Manage policy exception from the overview page
 description: The overview page of the policy exception gives you the overall basic details of the policy exception.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-compliance-management-workspace/pe-overview-pc-ws.html
@@ -7,12 +7,12 @@ release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Request policy exceptions, Manage policy exceptions and extensions, Use, GRC Compliance Workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Request a policy exception using the Compliance Workspace, Manage policy exceptions and extensions using the Compliance Workspace, Use, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
-# Manage policy exception from the Overview page
+# Manage policy exception from the overview page
 
 The overview page of the policy exception gives you the overall basic details of the policy exception.
 

@@ -7,9 +7,9 @@ release: zurich
 product: Learning Core
 classification: learning-core
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using My Learning, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # View recent activity
@@ -30,4 +30,23 @@ Role required: learning.user
     -   Saved: View courses saved to your personal collection here.
     -   Shared with: View courses that are shared with you by others here.
     -   History: View information on your completed courses here.
+
+**Parent Topic:**[Using My Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/manage-your-learning.md)
+
+**Related topics**  
+
+
+[Enroll in a course collection on My Learning]()
+
+[Resume a course]()
+
+[Create a personal course collection]()
+
+[Create a Learning challenge]()
+
+[Assign Learning to your team]()
+
+[Manage Learning]()
+
+[Skill sensing for learning content]()
 

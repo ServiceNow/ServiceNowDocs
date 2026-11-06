@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-28"
 reading_time_minutes: 8
 keywords: [HAM dashboard metrics, CMDB data quality monitoring, CIs missing model data, CI data quality issues, CI and asset related issues, dashboard model category filters]
-breadcrumb: [Use HAM advisor, Asset and CI management, Explore, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Use HAM advisor, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Monitoring CMDB data quality using dashboard metrics in CMDB success advisor for HAM

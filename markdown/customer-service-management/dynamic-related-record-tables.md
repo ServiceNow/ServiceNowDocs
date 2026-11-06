@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/dynamic-related-record-tables.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Dynamic related records, Configure dynamic related records, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---

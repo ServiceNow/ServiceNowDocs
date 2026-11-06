@@ -7,7 +7,7 @@ release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: reference
-last_updated: "2026-07-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workflow administration, Classic Workflow, Build workflows]
 ---

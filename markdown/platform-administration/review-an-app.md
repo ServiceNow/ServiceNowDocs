@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/review-an-app.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [servicenow store, store, app store, application store, app store user documentation, servicenow app store, review store apps, review app, review application, rate store app, rate application, rate apps, write an app review]
-breadcrumb: [Reviewing apps, ServiceNow Store, Administering applications, Get started, Administer]
+breadcrumb: [Reviewing apps, ServiceNow Store, Administering applications, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Review an app

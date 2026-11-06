@@ -7,7 +7,7 @@ release: zurich
 product: Indoor Mapping
 classification: indoor-mapping
 topic_type: task
-last_updated: "2025-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Bulk hierarchy upload, Manage CAD source files, Indoor Mapping, Workplace Service Delivery, Employee Service Management]
 ---

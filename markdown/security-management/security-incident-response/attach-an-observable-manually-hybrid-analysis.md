@@ -7,7 +7,7 @@ release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Hybrid Analysis integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -81,7 +81,7 @@ Review the work notes for more information and how to proceed if you cannot veri
 
 **Parent Topic:**[Hybrid Analysis integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/hybrid-analysis-lookups.md)
 
-**Previous topic:**[Verify expected results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/verify-expected-results-hybrid-analysis-.md)
+**Previous topic:**[Verify expected results for Hybrid Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/verify-expected-results-hybrid-analysis-.md)
 
 **Next topic:**[IBM QRadar Offense Ingestion Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/qradar-ibm.md)
 

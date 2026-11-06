@@ -7,7 +7,7 @@ release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -52,6 +52,4 @@ If agent Ned is unavailable or doesn't have the capacity, AWA uses the account t
 If agent John is not available, AWA uses the historical affinity and looks for an agent that has recently interacted with the company. This information is stored on the Agent Affinity screen. Because agent Beth addressed a chat with Boxeo within the past seven days, AWA assigns the work item to agent Beth if available with capacity.
 
 \[Omitted image "awa-affinity-historical-example.png"\] Alt text: Agent Affinity configured to use historical affinity.
-
-**Parent Topic:**[Using Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/using-awa.md)
 

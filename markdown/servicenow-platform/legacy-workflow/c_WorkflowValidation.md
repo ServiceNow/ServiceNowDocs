@@ -7,7 +7,7 @@ release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Workflow management, Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,7 +22,7 @@ Validation prevents workflows with critical flaws from executing and resulting i
 
 The graphical Workflow Editor highlights critical errors when a workflow is loaded. In this example, a subflow is missing and is not available to the parent workflow for the current user. The graphical Workflow Editor indicates the error when the parent workflow loads by highlighting \(in red\) the activity that calls the subflow. To correct the error in the parent workflow, click the validate icon in the header bar and inspect the error description in the validation report.
 
-\[Omitted image "image.ValidateMissingSubflow"\] Alt text: Validate missing subflow
+\[Omitted image "ValidateMissingSubflow.png"\] Alt text: Validate missing subflow
 
 ## Validations at publishing
 
@@ -34,20 +34,20 @@ If you attempt to publish an invalid workflow or a workflow with potential probl
 
     -   You edit and then attempt to publish a workflow that is included as a subflow in another workflow. The system cannot determine how your changes will affect the parent workflow and alerts you of the relationship.
     -   A workflow activity uses a different table than the table assigned to the workflow. The system alerts you of the potential conflict.
-    \[Omitted image "image.ValidationWarning"\] Alt text: validation warning
+    \[Omitted image "ValidationWarning.png"\] Alt text: validation warning
 
 -   **Validation failure**
 
     A validation failure notifies you that a critical error has occurred in the workflow that prevents you from publishing the workflow. An example of a critical error is a missing subflow.
 
-    \[Omitted image "image.ValidationFailure"\] Alt text: Validation failure
+    \[Omitted image "ValidationFailure.png"\] Alt text: Validation failure
 
 
 ## Workflow validation report
 
 Validators display three notification levels: CRITICAL, WARN, and INFO. The designer can publish a workflow that returns WARN or INFO level validation, but not a workflow that returns an overall validation level of CRITICAL.
 
-\[Omitted image "image.WorkflowValidationReport"\] Alt text: Workflow validation report
+\[Omitted image "WorkflowValidationReport.png"\] Alt text: Workflow validation report
 
 -   **Header summary**
 

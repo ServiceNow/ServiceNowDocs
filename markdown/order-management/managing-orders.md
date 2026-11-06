@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/managing-orders.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-07"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Order Management, Use, Sales Customer Relationship Management]
 ---
 
@@ -19,6 +19,8 @@ After an initial order is fulfilled, existing customers may want to disconnect, 
 When you change a product or service inventory record, the ServiceNow AI Platform creates the order line items from the specifications that you have defined. In a change service order inventory, the order line items are created only for your selected service inventories. If you select inventories that are top-order parent items, the order line items are created only for the parent items, not for the child order items. When the additional product is added to the change order, an inventory record is created for the added product. The new inventory is mapped to the new hierarchy.
 
 When you’re canceling a product or service order inventory, the ServiceNow AI Platform creates the order line items according to the specifications that you have defined. To cancel a product order inventory record, if your selected inventories are top-order parent items, the order line items are created for both the parent items and the child order items. If your selected inventories are child-order items, the order line items are created only for the child items.
+
+As a part of post-fulfillment order changes, Return Merchandise Authorization \(RMA\) is also possible through modify, add, change, and disconnect \(MACD\) has a part of out of box process. For more information about RMA, see [Return Merchandise Authorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/return-merchandise-authorization.md).
 
 Validation is required to successfully create the move order. To complete the validation and approve the move order, check the following:
 
@@ -49,4 +51,11 @@ The move order helps agents to change the location for product inventory at the 
 You can use suspend and resume actions to temporarily suspend or inactivate your product and service inventories. That way, you can capture a customer's suspend request and resume the products and services later.
 
 **Parent Topic:**[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-order-management.md)
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-order-management.md)
 

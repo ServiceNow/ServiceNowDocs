@@ -7,7 +7,7 @@ release: zurich
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Health and Safety Incident Management, Health and Safety, Employee Service Management]
 ---
@@ -26,7 +26,7 @@ When you have the Generative AI plugin installed, you can view the incident patt
 
 -   Ensure that the Health and Safety Incident Management application is installed. For more information, see [Install Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-incident-management/install-hs-incident-mgmt.md).
 -   Configure total annual hours for an establishment. For more information, see [Add total hours worked for an establishment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety/add-hs-total-hours-worked-establishment.md).
--   Run the **\[OHS\] Safety Metrics** scheduled job to update the safety metrics on demand. For more information, see [Configure scheduled job to generate frequency rates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-core/configure-job-generate-frequency-rates.md).
+-   Run the **\[OHS\] Safety Metrics** scheduled job to update the safety metrics on demand. For more information, see [Configure scheduled job to generate frequency rates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-incident-management/configure-job-generate-frequency-rates.md).
 
     **Note:** The **\[OHS\] Safety Metrics** job is set to run daily by default.
 

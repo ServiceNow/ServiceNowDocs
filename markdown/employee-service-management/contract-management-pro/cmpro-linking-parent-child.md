@@ -8,10 +8,10 @@ product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
 last_updated: "2026-06-11"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [contract family hierarchy, related contract requests, parent child sibling contracts, link parent contract, contract hierarchy view]
 audience: sn\_cm\_core.contract\_fulfiller
-breadcrumb: [Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Linking parent-child contracts
@@ -21,6 +21,8 @@ The contract family hierarchy in the Related contract requests tab shows all rel
 When you open a contract request and navigate to the **Related contract requests** tab, the tab displays the complete contract family hierarchy for that contract request. The hierarchy includes parent, child, sibling, and grandchild records.
 
 From the same tab, you can link a parent contract request, inherit fields from it, or remove an existing link. When linked, the **Parent contract** field in the contract request Details tab is automatically populated with the parent contract request number. The associated contract repository records for the parent and child contract requests are also automatically linked.
+
+Linking a parent contract request is optional. You can create and process a contract request as a standalone request, without a parent record such as a purchase request, sourcing event, or legal request. Existing contract requests that are linked to a parent record continue to work as before, with no reconfiguration required.
 
 The **Related contract requests** tab displays the following records:
 
@@ -106,7 +108,7 @@ Link parent contracts during drafting and negotiation phases to establish a hier
 -   **[Remove a linked contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-remove-linked-cntr.md)**  
 Remove a linked parent contract from contract requests when you have linked an incorrect contract request or the linking is no longer required.
 
-**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
+**Parent Topic:**[Common contract request tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-common-contract-req-tasks.md)
 
 **Related topics**  
 

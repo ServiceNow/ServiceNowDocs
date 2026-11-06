@@ -1,22 +1,22 @@
 ---
-title: CSM Configurable Workspace chat session tabs
+title: CRM Workspace chat session tabs
 description: Use visual indicators on chat session tabs, such as colors and icons, to alert agents to unread chat messages and SLA threshold timers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-workspace-chat-session-tabs.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# CSM Configurable Workspace chat session tabs
+# CRM Workspace chat session tabs
 
 Use visual indicators on chat session tabs, such as colors and icons, to alert agents to unread chat messages and SLA threshold timers.
 
 The chat session tabs feature helps agents to manage multiple interactions efficiently. Agents can use visual indicators to reduce the risk of threshold timer breaches, improve chat prioritization, and optimize response times. This feature enables agents to multitask effectively while maintaining service level commitments.
 
-The chat session tabs feature introduces a color-coded system for chat session tabs in CSM Configurable Workspace based on configured Service Level Agreement \(SLA\) thresholds. Additional visual indicators alert agents about unread messages, chat status, and unsaved changes. These visual cues help agents to prioritize their interactions by tracking chat duration and alerting them when conversations require immediate attention.
+The chat session tabs feature introduces a color-coded system for chat session tabs in CRM Workspace based on configured Service Level Agreement \(SLA\) thresholds. Additional visual indicators alert agents about unread messages, chat status, and unsaved changes. These visual cues help agents to prioritize their interactions by tracking chat duration and alerting them when conversations require immediate attention.
 
 ## Benefits
 
@@ -54,7 +54,7 @@ This feature actively tracks the duration of a chat and alerts the agent when pr
 
 </td><td>
 
-System administrators can configure a minimum of one and a maximum of three levels of SLA threshold timers.
+Virtual agent admins can configure a minimum of one and a maximum of three levels of SLA threshold timers.
 
  When the admin selects a workspace and enables the **Session Tab Enabled** button, the system adds the first level automatically. Then they can add one or two additional levels if desired.
 
@@ -66,7 +66,7 @@ System administrators can configure a minimum of one and a maximum of three leve
 
 </td><td>
 
-Tab colors indicate the status of a chat with one or more unread messages.Inactive tabs with unread messages change color to highlight critical wait times. System administrators can select a different color for each configured SLA threshold level.
+Tab colors indicate the status of a chat with one or more unread messages.Inactive tabs with unread messages change color to highlight critical wait times. Virtual agent admins can select a different color for each configured SLA threshold level.
 
 </td></tr><tr><td>
 
@@ -98,7 +98,7 @@ A gray circle on a chat session tab indicates that there are unsaved changes on 
 </td></tr></tbody>
 </table>## SLA threshold timers
 
-System administrators can configure up to three levels of SLA threshold timers for inactive chat session tabs. For each level, admins can set a timer and select a unique tab color.
+Virtual agent admins can configure up to three levels of SLA threshold timers for inactive chat session tabs. For each level, admins can set a timer and select a unique tab color.
 
 These timers alert agents to unread messages in inactive chats by changing the tab color. If an agent leaves a customer’s chat unanswered beyond the length of time defined in these threshold timers, the system changes the tab color.
 
@@ -148,7 +148,7 @@ The chat session tabs feature uses tab background colors to provide information 
 -   **Active tab**: A white background indicates the active tab. This is the tab where the agent is currently working.
 -   **Inactive tabs**: A colored background indicates an inactive tab that has one or more unread messages. Tabs transition to different colors to highlight chats that have reached the configured SLA thresholds.
 
-System administrators can configure up to three SLA threshold levels for chat session tabs. For each level, the admin can set a timer for the threshold level and select a background tab color. Agents see different colors in the chat session tabs based on the threshold timer value.
+Virtual agent admins can configure up to three SLA threshold levels for chat session tabs. For each level, the admin can set a timer for the threshold level and select a background tab color. Agents see different colors in the chat session tabs based on the threshold timer value.
 
 The background tab color changes when an inactive tab with unread messages reaches the first SLA threshold level. The tab maintains the current color until the timer reaches the next configured SLA threshold level.
 
@@ -213,11 +213,11 @@ When a chat is automatically transferred to another agent or to a queue:-   The 
 </td></tr></tbody>
 </table>If a chat is transferred to a queue, SLA threshold timers and tab colors are applicable to the next agent who picks up the case.
 
-When an agent seeks help from a colleague or manager using the [Agent Whisper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/ci-agent-whisper.md) feature, the SLA threshold timers and tab behavior are applicable only for the owner agent and not for anyone else participating in the interaction.
+When an agent seeks help from a colleague or manager using the [Agent Whisper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/ci-agent-whisper.md) feature, the SLA threshold timers and tab behavior are applicable only for the owner agent. They don't apply to anyone else participating in the interaction.
 
 ## Configuring the chat session tabs feature
 
-Users with the system administrator role can enable the chat sessions tab feature and configure SLA threshold timers for chat sessions from the Conversational Interfaces \(CI\) Admin console.
+Users with the Virtual agent admin role can enable the chat sessions tab feature and configure SLA threshold timers for chat sessions from the Conversational Interfaces \(CI\) Admin console.
 
 When this feature is enabled, chat session tabs display colors to indicate the chat status. These colors are determined by SLA threshold timers that alert agents to impending SLA breaches.
 

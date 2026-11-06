@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CI relations formatter, CI relationships in the CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,8 +20,8 @@ Create a list of relationships that should not appear in the relations formatter
 
 Role required:
 
--   To view the relationship type exclusion list — itil
--   To create, update, or delete the relationship type exclusion list — itil\_admin
+-   sn\_cmdb\_editor or itil: View the relationship type exclusion list
+-   sn\_cmdb\_admin or itil\_admin: Create, update, or delete the relationship type exclusion list
 
 ## Procedure
 

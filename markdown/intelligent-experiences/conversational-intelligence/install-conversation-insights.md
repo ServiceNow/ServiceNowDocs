@@ -7,9 +7,9 @@ release: zurich
 product: Conversational Intelligence
 classification: conversational-intelligence
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Conversation Insights, Enable AI experiences]
+breadcrumb: [Conversation Insights, Analyzing AI effectiveness, Enable AI Experiences]
 ---
 
 # Install Conversation Insights
@@ -18,7 +18,7 @@ If you have the admin role, you can install the Conversation Insights applicatio
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 -   Inferred CSAT is calculated by an internal service that communicates with the instance using mutual Transport Layer Security \(mTLS\). To enable this, the instance must be configured to support Application Delivery Controller-to-Application \(ADC-to-APP\) mTLS. This setup ensures strong authentication and encrypted data exchange between internal services and the instance, requiring both client and server to present and validate certificates during the TLS handshake. For more information on mTLS configuration, refer to steps 1 and 2 in the Prerequisites section of [KB0993615](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0993615).
 

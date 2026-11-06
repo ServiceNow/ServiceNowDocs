@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/view-otm-licensing-count.html
 release: zurich
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Operational Technology Management licensing and subscriptions, Operational Technology]
 ---
@@ -23,7 +23,7 @@ Role required: sn\_itom\_license.reader
 
 ## About this task
 
-The CI list generated is strongly correlated to the most recent daily count of CIs. However, it's possible that the number of CIs on the generated list may display slight discrepancies compared to the latest daily count if any changes have occurred since the last daily count.
+The CI list generated is strongly correlated to the most recent daily count of CIs. However, the number of CIs on the generated list may display slight discrepancies compared to the latest daily count. This can occur if any changes have been made since the last daily count.
 
 ## Procedure
 

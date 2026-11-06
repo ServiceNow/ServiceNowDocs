@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sem-configure-exp-mngmt-vr.html
 release: zurich
 topic_type: task
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -76,8 +76,8 @@ The exception approver requires the reason for the exception request.
 8.  Select **Save**.
 
 
--   **[Request an exception using GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-integration-with-grc.md)**  
-Request policy exceptions using the GRC policy exception management capability in the Policy and Compliance Management application from within Vulnerability Response.
--   **[Specify the duration of an exception requested for a remediation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-ex-req-sysprop.md)**  
-Use system properties to limit the duration for which an exception is requested for a remediation task. Remediation of the remediation task is deferred for the specified period.
+**Related topics**  
+
+
+[Exception questionnaire scenarios for vulnerable items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-exception-ques-scenarios.md)
 

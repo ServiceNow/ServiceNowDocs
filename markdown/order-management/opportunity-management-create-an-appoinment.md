@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/opportunity-management-create-an-appoinment.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Add opportunity tasks, Opportunity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Add opportunity tasks, Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Create an appointment from Opportunity Management
@@ -32,17 +32,15 @@ You can create appointments only after creating an opportunity task. To create a
 
 4.  On the Create New Appointment form, fill in the fields.
 
-    For more information, see .
+    For more information, see [Create new appointment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/create-appointments-form.md).
 
 5.  Select **Save**.
 
     The appointment is added to your opportunity task.
 
 
-**Parent Topic:**[Add opportunity tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/opportunity-management-tasks-tab.md)
-
 **Related topics**  
 
 
-[schedule-appointment-crm-touchpoint]
+[Schedule an appointment from a touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/schedule-appointment-crm-touchpoint.md)
 

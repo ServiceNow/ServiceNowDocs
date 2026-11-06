@@ -7,7 +7,7 @@ release: zurich
 product: Lifecycle Events
 classification: lifecycle-events
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
@@ -30,8 +30,8 @@ Build a lifecycle event and its associated activity sets and activities with the
 Create a corresponding HR service so that the lifecycle event can be requested for service. For example, the lifecycle event for New Hire Onboarding has a corresponding HR service also named New Hire Onboarding. When an HR case for that HR service is created, the HR case will be fulfilled by the associated lifecycle event.
 5.  [Configure an HR service for a journey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/configure-hr-service-for-journey.md)  
 Create a corresponding HR service so that the lifecycle event can be requested for service as part of an employee's journey.
-6.  [Using the Test Activity Sets tool for aLifecycle Events activity set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/hr-lifecycle-event-test-tool.md)  
-Use the Lifecycle event test tool to thoroughly test a Lifecycle event before launching it.
+6.  [Using the Test Activity Sets tool for a lifecycle event activity set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/hr-lifecycle-event-test-tool.md)  
+Use the lifecycle event test tool to thoroughly test a lifecycle event before launching it.
 7.  [Select a Lifecycle Event for Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/select-lifecycle-event-for-mobile-onboarding.md)  
 Select the Lifecycle Event that you want to use with Now Mobile. When an onboarding case for that event type is created, the new hire completes the to-dos that are associated with that case.
 

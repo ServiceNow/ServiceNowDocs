@@ -1,5 +1,5 @@
 ---
-title: Apply domain separation on dot walked fields \[Updated in Security Center 1.3, 1.5, and 2.0\]
+title: Apply domain separation on dot walked fields
 description: The glide.sys.domain.include\_domain\_condition\_on\_join property controls whether join queries are given domain separated conditions or not in order to ensure they apply domain separation functionality for dot walked fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-apply-domain-separation.html
@@ -7,16 +7,18 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Apply domain separation on dot walked fields \[Updated in Security Center 1.3, 1.5, and 2.0\]
+# Apply domain separation on dot walked fields
 
 The **glide.sys.domain.include\_domain\_condition\_on\_join** property controls whether join queries are given domain separated conditions or not in order to ensure they apply domain separation functionality for dot walked fields.
 
-This property controls whether join queries are given domain separated conditions or not, in order to ensure they apply domain separation functionality for dot walked fields. If **glide.sys.domain.include\_domain\_condition\_on\_join** is not set to the recommended value of true on an instance using domain separation, then sensitive information could be disclosed that is not to be shared with a specific domain. There may be moderate functional impact to the instance if components are reliant on the unsafe cross domain queries. Instances should be tested in subproduction environments before enabling.
+The **glide.sys.domain.include\_domain\_condition\_on\_join** system property controls whether join queries are given domain separated conditions or not, in order to ensure they apply domain separation functionality for dot walked fields.
+
+Ensure that the property **glide.sys.domain.include\_domain\_condition\_on\_join** is set to **true** when the Domain Separation plugin is active.
 
 **Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It is non-revertible.
 
@@ -60,11 +62,19 @@ Recommended value
 
 </td><td>
 
-True, when domain separation is installed, otherwise the property won't exist.
+true**Note:** If domain separation is installed, otherwise the property doesn't exist.
 
 </td></tr><tr><td>
 
 Default value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
+Fallback value
 
 </td><td>
 
@@ -84,7 +94,7 @@ Purpose
 
 </td><td>
 
-Controls whether join queries are given domain separated conditions or not, in order to ensure they apply domain separation functionality for dot walked fields.
+Controls whether join queries are given domain separated conditions or not, to confirm they apply domain separation functionality for dot walked fields.
 
 </td></tr><tr><td>
 
@@ -94,7 +104,15 @@ Security risk
 
 -   Severity score: 6.5
 -   CVSS score: Medium
--   Security risk details: If **glide.sys.domain.include\_domain\_condition\_on\_join** is not set to the recommended value of **true**, then sensitive information could be disclosed that is not to be shared with a specific domain.
+-   Security risk details: Sensitive information could be disclosed that is not to be shared with a specific domain.
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+There may be moderate functional impact to the instance if components are reliant on the unsafe cross domain queries. Instances should be tested in non-production environments before enabling.
 
 </td></tr><tr><td>
 

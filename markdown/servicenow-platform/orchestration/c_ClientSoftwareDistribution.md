@@ -7,7 +7,7 @@ release: zurich
 product: Orchestration
 classification: orchestration
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Orchestration applications, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ CSD allows an administrator to create all the records necessary to deploy softwa
 
 CSD also integrates with [Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/c_SAMOverview.md) to manage license counts for deployed software.
 
-
+\[Omitted image "CSDProcessFlowDiagram.png"\] Alt text: Client Software Distribution process flow using SCCM
 
 -   **[Request client software distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_ActivateClientSWDistribution.md)**  
 Client software distribution requires the Orchestration - Client Software Distribution plugin \(com.snc.orchestration.client\_sf\_distribution\), which is available by request with a subscription to Orchestration.

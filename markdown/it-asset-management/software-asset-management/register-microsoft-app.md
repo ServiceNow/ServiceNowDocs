@@ -7,9 +7,9 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Integrating with Microsoft 365, Microsoft 365 integration, Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Integrating with Microsoft 365, Microsoft 365 integration, Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Register a Microsoft Entra ID application
@@ -109,7 +109,7 @@ Time period after which you want the client secret to expire. The options are:- 
         -   Reports.Read.All
         -   User.Read.All
         -   Organization.Read.All
-        **Important:** Add Tenant.Read.All for Power BI delegated permissions. Use this permission only for standard delegated admin access tokens. You must not include this permission when authenticating via a service principal.
+        **Important:** Add Tenant.Read.All for Power BI delegated permissions.
 
     7.  Select **Add permissions**.
 
@@ -120,5 +120,5 @@ Time period after which you want the client secret to expire. The options are:- 
 
 ## What to do next
 
-After you successfully register and set up your application, remain in the Microsoft Azure portal if you have selected application permission. You must enable your application to access Power BI service content and APIs.
+After you successfully register and set up your application, remain in the Microsoft Azure portal if you must enable your application to access Power BI service content and APIs.
 

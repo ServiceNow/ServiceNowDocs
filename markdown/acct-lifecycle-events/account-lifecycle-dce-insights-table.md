@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-dce-insights-table.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure DCE Visualizations, Set up the Data Context Engine, Customer success, Configure, Customer Success Management]
+breadcrumb: [Configure DCE Visualizations, Data context engine, Customer success, Configure, Customer Success Management]
 ---
 
 # DCE Insights tables
@@ -42,6 +42,4 @@ This table maintains the relationship between DCE Visualization and DCE Insights
 -   DCE insight item: References the DCE Insights item.
 -   Visualization: References the DCE Visualization item.
 -   Rank: The rank for the visualization.
-
-**Parent Topic:**[Configure DCE Visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-configure-dce-visual.md)
 

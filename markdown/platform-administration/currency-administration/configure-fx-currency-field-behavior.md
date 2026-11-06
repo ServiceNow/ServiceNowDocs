@@ -7,9 +7,9 @@ release: zurich
 product: Currency Administration
 classification: currency-administration
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Defaults required for FX Currency use, Configure, Currency administration, Configure core features, Administer]
+breadcrumb: [Defaults required for FX Currency use, Configure, Currency administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Configuring FX Currency field behavior

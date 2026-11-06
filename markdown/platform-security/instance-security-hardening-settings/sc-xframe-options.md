@@ -1,5 +1,5 @@
 ---
-title: Set Xframe options to prevent embedding third-party websites \[Updated in Security Center 1.3\]
+title: Set Xframe options to prevent embedding third-party websites
 description: Configure this property to prevent the content of a web-application from being embedded in a third-party site.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-xframe-options.html
@@ -7,16 +7,18 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuration, Hardening settings, Platform Security]
 ---
 
-# Set Xframe options to prevent embedding third-party websites \[Updated in Security Center 1.3\]
+# Set Xframe options to prevent embedding third-party websites
 
 Configure this property to prevent the content of a web-application from being embedded in a third-party site.
 
-If **com.glide.cs.embed.xframe\_options** is not set to the recommended value of DENY or SAMEORIGIN, then content of the web application could be embedded in a third-party site using an ALLOW-FROM uri. Allowing untrusted third-party sites could enable attacks such as clickjacking.
+If the **com.glide.cs.embed.xframe\_options** system property is not set to the recommended value of `DENY` or `SAMEORIGIN`, then content of the web application could be embedded in a third-party site using an ALLOW-FROM URI.
+
+Ensure the property **com.glide.cs.embed.xframe\_options** is set to `DENY` or `SAMEORIGIN`.
 
 ## More information
 
@@ -50,7 +52,7 @@ Data type
 
 </td><td>
 
-string
+String
 
 </td></tr><tr><td>
 
@@ -58,7 +60,7 @@ Recommended value
 
 </td><td>
 
-sameorigin
+`DENY` or `SAMEORIGIN`
 
 </td></tr><tr><td>
 
@@ -67,6 +69,14 @@ Default value
 </td><td>
 
 sameorigin
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+&lt;empty&gt;
 
 </td></tr><tr><td>
 
@@ -84,7 +94,7 @@ Security risk
 
 -   Severity score: 3.1
 -   CVSS score: Low
--   Security risk details: Not setting this property to the recommended value could enable the content of a web application to be embedded in a third-party site enabling attacks such as click-jacking.
+-   Security risk details: Allowing untrusted third-party sites could enable attacks such as clickjacking.
 
 </td></tr><tr><td>
 

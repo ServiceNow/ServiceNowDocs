@@ -7,7 +7,7 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist for SPM supported versions, Now Assist for SPM licensing requirements, Now Assist for SPM application information]
 breadcrumb: [AI skills in Project Workspace, Explore, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
@@ -31,22 +31,22 @@ The ServiceNow Otto for SPM application requires an SPM Pro plus license.
 
 ## Application information
 
-Activate the latest ServiceNow Otto for SPM \(sn\_spm\_gen\_ai\) store app to use the Now Assist skills.
+Activate the latest ServiceNow Otto for SPM \(sn\_spm\_gen\_ai\) store app to use the ServiceNow Otto skills.
 
 This store app has the following dependencies:
 
--   Now Assist for Platform \(sn\_genai\_platform\)
+-   ServiceNow Otto for Platform \(sn\_genai\_platform\)
 -   Strategic Planning
 -   Project Workspace
 -   Enterprise Agile Planning
 -   Demand workbench
 
-For more information, see [Configure Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/configuring-na-spm.md).
+For more information, see [Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/configuring-na-spm.md).
 
 **Parent Topic:**[AI skills in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/ai-skills-project-workspace.md)
 
 **Related topics**  
 
 
-[Using AI agent or agentic workflows in ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-na-spm-ai-agents.md)
+[Use AI agent or agentic workflows in ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/using-na-spm-ai-agents.md)
 

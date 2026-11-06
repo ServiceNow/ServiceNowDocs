@@ -7,10 +7,10 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-08-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Manage contract repository, Agentic workflow in Contract Management Pro, Review AI extracted information, Playbook in Contract Management Pro, Review AI results in Contract Management Pro]
-breadcrumb: [Review AI results, Use agentic workflows, Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Review AI results, Manage contract repository agentic workflow, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Review AI-extracted metadata and contract reminder date
@@ -18,6 +18,8 @@ breadcrumb: [Review AI results, Use agentic workflows, Now Assist in Contract Ma
 Use the contract playbook to review and update the AI-extracted metadata and contract reminder date.
 
 ## Before you begin
+
+The Contract Management Pro - Prime plugin \(sn\_cm\_ai\_prime\) must be installed to use AI capabilities.
 
 Role required: sn\_cm\_gen\_ai.ai\_contract\_fulfiller
 
@@ -31,15 +33,15 @@ To receive notifications when AI agents complete metadata extraction, ensure tha
 
 1.  Open a contract repository record where you want to review the extract information.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d416633e90">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d422775e96">
 
 Method
 
-</th><th align="left" id="d416633e93">
+</th><th align="left" id="d422775e99">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d416633e99">
+</th></tr></thead><tbody><tr><td id="d422775e105">
 
 **Contract Workspace**
 
@@ -52,7 +54,7 @@ Steps
 5.  Select the contract repository record.
 
 
-</td></tr><tr><td id="d416633e147">
+</td></tr><tr><td id="d422775e153">
 
 **Workspace used by your application**
 
@@ -64,7 +66,7 @@ Steps
 4.  Select the contract repository record.
 
 
-</td></tr><tr><td id="d416633e174">
+</td></tr><tr><td id="d422775e180">
 
 **Email notification**
 
@@ -77,9 +79,13 @@ Select **Open playbook** in the email notification that you receive after the me
 
     The playbook opens displaying a step-by-step interface to review the extracted metadata.
 
+    \[Omitted image "cmpro-na-ai-playbook.png"\] Alt text: Contract playbook with step-by-step interface to review AI extracted results.
+
 3.  Select **Review metadata**.
 
     The Document Intelligence workspace opens on a different tab displaying the extracted information.
+
+    \[Omitted image "cmpro-na-di-me.png"\] Alt text: Document Intelligence displaying extracted metadata for a contract.
 
 4.  Review and update the extracted metadata.
 
@@ -93,11 +99,15 @@ Select **Open playbook** in the email notification that you receive after the me
 
     The playbook opens on the **Review contract reminders** step where you can review the AI calculated reminder date.
 
+    \[Omitted image "cmpro-na-me-completed.png"\] Alt text: Contract playbook displaying the Contract reminder date page.
+
 7.  In the **Reminder date** field, modify the date, if necessary.
 
 8.  Select **Mark as complete**.
 
     The Contract reminder recipients page opens displaying the list of users who are already configured as recipients for the contract reminder.
+
+    \[Omitted image "cmpro-na-reminder-rec.png"\] Alt text: Contract playbook displaying the Contract reminder recipients page.
 
 9.  Configure the recipient list.
 
@@ -112,6 +122,8 @@ Select **Open playbook** in the email notification that you receive after the me
 ## Result
 
 The contract reminder date is saved, and configured users will receive a notification on the specified date to remind them of upcoming contract renewal or termination actions.
+
+**Parent Topic:**[Reviewing AI-extracted results in the playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-na-review-ai.md)
 
 **Related topics**  
 

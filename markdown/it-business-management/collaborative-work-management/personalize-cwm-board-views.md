@@ -7,7 +7,7 @@ release: zurich
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-08-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Dashboard, List, Gantt, and Kanban views, Board views in CWM, Manage work using Boards, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -36,15 +36,15 @@ The columns available to show or hide are determined by the default list layout 
 
 4.  Update the display of the view on the Board or hide views.
 
-<table id="choicetable_tky_tqc_b1c"><thead><tr><th align="left" id="d312011e121">
+<table id="choicetable_tky_tqc_b1c"><thead><tr><th align="left" id="d335081e121">
 
 Choice
 
-</th><th align="left" id="d312011e124">
+</th><th align="left" id="d335081e124">
 
 Options
 
-</th></tr></thead><tbody><tr><td id="d312011e130">
+</th></tr></thead><tbody><tr><td id="d335081e130">
 
 **Personalize List and Gantt**
 
@@ -54,7 +54,7 @@ Options
 -   Show or hide the columns in the view.
 \[Omitted image "cwm-personalize-list.png"\] Alt text: Personalize List and Gantt views.
 
-</td></tr><tr><td id="d312011e157">
+</td></tr><tr><td id="d335081e157">
 
 **Personalize Kanban**
 
@@ -64,7 +64,7 @@ Change the vertical categorization of task cards using the **Vertical lane** fie
 
  \[Omitted image "cwm-personalize-kanban.png"\] Alt text: Personalize Kanban vertical lane.
 
-</td></tr><tr><td id="d312011e179">
+</td></tr><tr><td id="d335081e179">
 
 **Show or hide views**
 

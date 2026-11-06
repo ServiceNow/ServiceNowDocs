@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Hardware Asset Management, IT Asset Management]
+breadcrumb: [Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Hardware Asset Management reference
@@ -22,18 +22,20 @@ Domain separation is supported in Hardware Asset Management. Domain separation e
 Validate that Hardware Asset Management \(HAM\) still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 -   **[Hardware Asset Workspace roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/ham-workspace-roles.md)**  
 Details of the out-of-the-box roles that can access Hardware Asset Workspace.
+-   **[Supported asset tasks on Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/mobile-app-task-types.md)**  
+The ServiceNow Now Mobile app supports a limited set of Hardware Asset Management task types in the **My Group tasks** view.
 -   **[Stockroom types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/r_StockroomTypes.md)**  
 Stockroom types are categories of stockrooms.
 -   **[Installed with Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/installed-with-ham.md)**  
 Several types of components are installed with activation of the sn\_hamp plugin, including tables, user roles, and scheduled jobs.
 -   **[Asset record fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/asset-record-fields.md)**  
 Fields on the Hardware Asset Details form help you create hardware, software, consumable, bundle, pallet, mobile, and facility assets.
+-   **[Consumable model fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/consumable-model-fields.md)**  
+Consumable Models form and related list field descriptions.
 -   **[Asset audit fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/asset-audit-record-fields.md)**  
 Create New Asset Audits form and related fields description.
 -   **[Audit results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/audit-results.md)**  
 The Audit results shows the status of the assets when the scheduled or blind audits of asset stockrooms and other locations is complete.
--   **[Consumable model fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/consumable-model-fields.md)**  
-Consumable Models form and related list field descriptions.
 -   **[Hardware model details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/hardware-model-fields.md)**  
 Find the hardware model details and related list field descriptions.
 -   **[Model lifecycle form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/model-lifecycle-fields.md)**  
@@ -60,10 +62,12 @@ These readily available decision tables help you customize the flows in some of 
 Fields on the variable help you to define variables for a catalog item.
 -   **[Asset put away task fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/put-away-task-form.md)**  
 Fields on the Asset put away task form help you create a put away task for the in stock assets.
+-   **[Read-only and client script modifiable fields in HAM tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/read-only-fields-ham.md)**  
+Comprehensive reference of HAM table fields that are restricted from UI editing and those which can be modified using client scripts.
 -   **[Hardware Asset Management system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/ham-system-properties.md)**  
 System properties control asset lifecycle, procurement, inventory, reporting, and system configuration for the Hardware Asset Management application. You can view and update these properties from the Properties setup item in the Configuration Console.
 -   **[Modules in the Configuration Console for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/config-console-modules-ham.md)**  
 Module-by-module listing of the setup items in the Configuration Console for HAM, with descriptions of what each item configures.
 
-**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/it-asset-management.md)
+**Parent Topic:**[Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/ham-landing-page.md)
 

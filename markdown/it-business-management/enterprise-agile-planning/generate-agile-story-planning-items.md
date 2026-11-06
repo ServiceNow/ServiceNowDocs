@@ -7,7 +7,7 @@ release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -26,7 +26,7 @@ Create stories AI agentic workflow addresses these challenges by automating stor
 
 -   Analyze and generate: The agent reviews the epic description and creates relevant, detailed user stories.
 -   Interactive refinement: The agent engages in a free-flow conversation with you, presenting story recommendations, accepting feedback, and iterating based on your input.
--   Decision and action: The agent manages successful flows such as saving validated stories and feedback loops such as removing unwanted stories and learning from corrections to ensure that accurate, high-quality stories are finalized.
+-   Decision and action: The agent manages successful flows such as saving validated stories. It also manages feedback loops such as removing unwanted stories and learning from corrections. These actions ensure that accurate, high-quality stories are finalized.
 
 The key benefits of this workflow are:
 
@@ -45,7 +45,7 @@ To access the Create stories agentic workflow:
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 2.  Select **Create stories**.
 
-To configure the Create stories agentic workflow and associated AI agents, see [Configure the Monitor project tasks AI agent in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/configure-agents-project-task-monitoring.md).
+To configure the Create stories agentic workflow and associated AI agents, see [Configure the Monitor project tasks AI agent in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/configure-agents-project-task-monitoring.md).
 
 ## AI agents used in the Create stories agentic workflow
 

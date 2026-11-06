@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/create-a-threshold-for-a-metric.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
@@ -18,17 +18,21 @@ Create thresholds for metrics and metric definitions to monitor performance. Thr
 
 Role required: sn\_esg.admin, sn\_esg.program\_manager, or sn\_esg.metrics\_manager
 
-**Note:** Thresholds can only be applied to quantitative metric definitions. 
+**Note:** Thresholds can be applied to quantitative metric definitions and composite metric definitions \(CMDs\). For both types, the Thresholds related list is only visible when the direction is set to Minimize or Maximize. If the direction is set to None or Milestone, the Thresholds related list is hidden.
 
 ## About this task
 
 Configure thresholds to define multiple performance levels, set specific ranges for each level, customize visual indicators, and configure automated actions that trigger when thresholds are breached. The threshold configuration supports both static values and dynamic percentage-based calculations.
 
+**Important:**
+
+Threshold evaluation does not apply to ad hoc metric data tasks. For more information, see [Ad hoc metric data task limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/ad-hoc-metric-data-task-limitations.md).
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Operational Sustainability Management** &gt; **Operational Sustainability Workspace** &gt; **Metrics**.
 
-2.  Open the quantitative metric definition for which you want to add thresholds.
+2.  Open the quantitative metric definition or the composite metric definition for which you want to add thresholds.
 
 3.  Select the Thresholds related list.
 
@@ -44,10 +48,12 @@ Configure thresholds to define multiple performance levels, set specific ranges 
     -   If validation errors occur, the system displays error messages indicating the specific field and recommended actions. Review these messages and correct the issues before resubmitting.
     The configured threshold is now active for the metric. When the Enable threshold breach monitoring option is selected, the system monitors metric values and immediately triggers the specified actions when threshold levels are exceeded. Metric values are displayed with the appropriate color indicators in dashboards and reports. Clearing the Enable threshold breach monitoring option hides the threshold justification field on affected metric data tasks.
 
+    **Note:** The threshold applies only to metric data tasks whose interval date falls within the **Valid from** and **Valid until** range.
+
 
 ## What to do next
 
-You can edit or remove a threshold to keep the threshold ratings accurate. Editing a threshold recalculates the rating and breach status for associated metric data and metric definition data. Deleting or deactivating a threshold recalculates them against any other applicable threshold, or clears them if none applies. In either case, metric data that is already closed or completed keeps its existing rating.
+You can edit or remove a threshold to keep the threshold ratings accurate. Editing a threshold recalculates the rating and breach status for associated metric data and metric definition data. Deleting or deactivating a threshold recalculates them against any other applicable threshold, and clears them if none applies. In either case, metric data that is already closed or completed keeps its existing rating.
 
 **Parent Topic:**[Configuring GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/configuring-grc-metrics.md)
 

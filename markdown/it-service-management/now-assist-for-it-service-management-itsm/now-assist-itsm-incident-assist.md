@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -23,22 +23,15 @@ Role required: itil
 
 ## About this task
 
-**Important:**
+**Important:** The features in the \[DEPRECATED\] Incident assist skill are available in the Incident assist workflow. You can turn off this skill and use the [Incident assist agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-incident-assist-workflow.md) that has enhanced capabilities.
 
--   Starting with Zurich Patch 9, the Incident assist skill has been deprecated, moved to the **Archive** section, and is no longer available for use. For more information, see [Incident assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-incident-assist.md)
+To turn off the skill:
 
--   In Zurich Patch 8, the Incident assist agentic workflow is active by default and includes all the capabilities of the \[DEPRECATED\] Incident assist skill, with enhancements. If you have the \[DEPRECATED\] Incident assist skill activated, consider deactivating it to avoid redundancy.
-
-    To deactivate the skill:
-
-    1.  Navigate to **Admin** &gt; **AI Admin Hub**.
-    2.  Select the **AI Skills** tab.
-    3.  Go to **Technology** &gt; **ITSM**.
-    4.  Select the Ask questions about an incident by using the Now Assist panel skill.
-    5.  Select **Deactivate skill**.
-    For more information, see [Incident assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-incident-assist.md)
-
--   Starting Zurich Patch 12, Now Assist is renamed to ServiceNow Otto.
+1.  Navigate to **Admin** &gt; **AI Admin Hub**.
+2.  Select the **AI Skills** tab.
+3.  Go to **Technology** &gt; **ITSM**.
+4.  Select the Ask questions about an incident by using the ServiceNow Otto panel skill.
+5.  Select **Deactivate skill**.
 
 \[DEPRECATED\] Incident assist topics in the ServiceNow Otto panel include:
 
@@ -61,7 +54,7 @@ You can ask questions about an incident by using the ServiceNow Otto panel in Co
 
 1.  In Core UI or Service Operations Workspace for ITSM, open an incident that is assigned to you.
 
-2.  From the header menu, select the ServiceNow Otto icon \[Omitted image "now-assist-sn-otto-dark-icon.png"\] Alt text: ServiceNow Otto icon to open the ServiceNow Otto panel.
+2.  From the header menu, select the ServiceNow Otto \[Omitted image "now-assist-sn-otto-dark-icon.png"\] Alt text: ServiceNow Otto icon icon to open the ServiceNow Otto panel.
 
     \[Omitted image "now-assist-itsm-inc-assist-pnl.png"\] Alt text: Incident assist panel in Service Operations Workspace.
 

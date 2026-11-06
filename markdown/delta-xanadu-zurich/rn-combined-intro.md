@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/rn-c
 release: zurich
 topic_type: concept
 last_updated: "2025-06-02"
-reading_time_minutes: 48
+reading_time_minutes: 49
 ---
 
 # Products combined by family
@@ -177,6 +177,8 @@ Consolidated page of all release notes for Data Privacy from Xanadu to Zurich.
 Consolidated page of all release notes for Data Separation from Xanadu to Zurich.
 -   **[Combined Decision Builder in Workflow Studio release notes for upgrades from Xanadu to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/zurich-xanadu-decisionbuilderinworkflowstudio-release-notes.md)**  
 Consolidated page of all release notes for Decision Builder in Workflow Studio from Xanadu to Zurich.
+-   **[Combined Decision tables release notes for upgrades from Xanadu to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/zurich-xanadu-decisiontables-release-notes.md)**  
+Consolidated page of all release notes for Decision tables from Xanadu to Zurich.
 -   **[Combined Decision tables in Workflow Studio release notes for upgrades from Xanadu to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/zurich-xanadu-decisiontablesinworkflowstudio-release-notes.md)**  
 Consolidated page of all release notes for Decision tables in Workflow Studio from Xanadu to Zurich.
 -   **[Combined Developer Sandboxes release notes for upgrades from Xanadu to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/zurich-xanadu-developersandboxes-release-notes.md)**  
@@ -355,6 +357,10 @@ Consolidated page of all release notes for Listening Posts from Xanadu to Zurich
 Consolidated page of all release notes for Localization Framework from Xanadu to Zurich.
 -   **[Combined Localization Workspace release notes for upgrades from Xanadu to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/zurich-xanadu-localizationworkspace-release-notes.md)**  
 Consolidated page of all release notes for Localization Workspace from Xanadu to Zurich.
+-   **[Combined Lux release notes for upgrades from Xanadu to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/zurich-xanadu-lux-release-notes.md)**  
+Consolidated page of all release notes for Lux from Xanadu to Zurich.
+-   **[Combined Lux Lab release notes for upgrades from Xanadu to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/zurich-xanadu-luxlab-release-notes.md)**  
+Consolidated page of all release notes for Lux Lab from Xanadu to Zurich.
 -   **[Combined Manager Hub release notes for upgrades from Xanadu to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/zurich-xanadu-managerhub-release-notes.md)**  
 Consolidated page of all release notes for Manager Hub from Xanadu to Zurich.
 -   **[Combined Manufacturing Commercial Operations release notes for upgrades from Xanadu to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/zurich-xanadu-manufacturingcommercialoperations-release-notes.md)**  
@@ -543,10 +549,12 @@ Consolidated page of all release notes for ServiceNow Add-in for Microsoft 365 f
 Consolidated page of all release notes for ServiceNow AI Lens from Xanadu to Zurich.
 -   **[Combined ServiceNow AI Platform core feature release notes for upgrades from Xanadu to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowaiplatformcorefeature-release-notes.md)**  
 Consolidated page of all release notes for ServiceNow AI Platform core feature from Xanadu to Zurich.
--   **[Combined ServiceNow Cowork release notes for upgrades from Xanadu to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowcowork-release-notes.md)**  
-Consolidated page of all release notes for ServiceNow Cowork from Xanadu to Zurich.
+-   **[Combined ServiceNow Arc release notes for upgrades from Xanadu to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowarc-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Arc from Xanadu to Zurich.
 -   **[Combined ServiceNow IDE release notes for upgrades from Xanadu to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowide-release-notes.md)**  
 Consolidated page of all release notes for ServiceNow IDE from Xanadu to Zurich.
+-   **[Combined ServiceNow Lux Lab for VS Code release notes for upgrades from Xanadu to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowluxlabforvscode-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Lux Lab for VS Code from Xanadu to Zurich.
 -   **[Combined ServiceNow Otto release notes for upgrades from Xanadu to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowotto-release-notes.md)**  
 Consolidated page of all release notes for ServiceNow Otto from Xanadu to Zurich.
 -   **[Combined ServiceNow Otto for App Engine release notes for upgrades from Xanadu to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowottoforappengine-release-notes.md)**  

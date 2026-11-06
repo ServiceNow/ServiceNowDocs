@@ -7,9 +7,9 @@ release: zurich
 product: Access Control
 classification: access-control
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure an ACL rule, Access Control List Rules, Access Management]
+breadcrumb: [Configure an ACL, Access Control Lists \(ACLs\), Access Management]
 ---
 
 # Related record access

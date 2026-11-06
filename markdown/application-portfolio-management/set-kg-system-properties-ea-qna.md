@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/set-kg-system-properties-ea-qna.html
 release: zurich
 topic_type: task
-last_updated: "2026-05-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure, Configure, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Configure ServiceNow Otto for Enterprise Architecture \(EA\), Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Enable Knowledge Graph system properties for the Enterprise Architecture query agent
@@ -73,4 +73,6 @@ Knowledge Graph begins processing your CMDB data using scheduled jobs. After ini
 [Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/configure-now-assist-ea.md)
 
 [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md)
+
+[Connect the EA MCP server to an AI assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/connect-ea-mcp-server-to-ai-assistant.md)
 

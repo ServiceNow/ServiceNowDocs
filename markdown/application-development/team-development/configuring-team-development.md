@@ -1,27 +1,45 @@
 ---
 title: Configuring Team Development
-description: Configure Team Development by building an instance hierarchy and creating exclusion policies.
+description: Configure Team Development for your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/configuring-team-development.html
 release: zurich
 product: Team Development
 classification: team-development
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Team Development, Planning your application, Building applications]
+breadcrumb: [Team Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Configuring Team Development
 
-Configure Team Development by building an instance hierarchy and creating exclusion policies.
+Configure Team Development for your instance.
 
 ## Configuration overview
 
--   **[Building an instance hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_InstanceHierarchies.md)**  
-Team Development enables you to set up a distributed version control system between multiple ServiceNow instances where each instance acts as a source repository, or branch.
--   **[Exclusion policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_ExclusionPolicies.md)**  
-You can exclude certain files from change tracking by creating an exclusion policy.
+1.  [Access rights for developers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/r_GrantingAccessRightsToDevelopers.md)
 
-**Parent Topic:**[Planning your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/planning-applications.md)
+    To enable parallel development on multiple non-production instances, administrators can set up the Team Development instance hierachy and grant access rights for developers.
+
+2.  [Create an exclusion policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_CreateAnExclusionPolicy.md)
+
+    Application developers can create an exclusion policy to prevent pushes or pulls to particular instances in the team development hierarchy.
+
+3.  [Define a remote instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_DefineARemoteInstance.md)
+
+    Define other instances in the hierarchy as remote instances.
+
+4.  [Enable a code review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_EnableCodeReview.md)
+
+    You can require a code review of all changes pushed to an instance.
+
+5.  [Select the parent instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_SelectTheParentInstance.md)
+
+    An instance can have multiple peer instances but only one parent instance.
+
+6.  [Set up an instance hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_SetUpAnInstanceHierarchy.md)
+
+    Set up an instance hierarchy that best supports your development life cycle.
+
 

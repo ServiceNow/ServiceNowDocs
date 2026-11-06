@@ -1,5 +1,5 @@
 ---
-title: Configuring MFA with SSO
+title: Configure MFA with SSO
 description: Enforce MFA with SSO for your users within or outside your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/configure-mfa-with-sso.html
@@ -7,12 +7,12 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [MFA with SSO, Configure MFA, Multi-factor authentication, Access Management]
+breadcrumb: [MFA with SSO, Configuring MFA, Multi-factor authentication, Authentication, Access Management]
 ---
 
-# Configuring MFA with SSO
+# Configure MFA with SSO
 
 Enforce MFA with SSO for your users within or outside your organization.
 
@@ -22,7 +22,7 @@ The MFA with SSO feature is offered as a part of the Adaptive Authentication plu
 
 **Note:** MFA with SSO login is available if the **glide.authenticate.mfa.with.multisso.enabled** property is set to **true**.
 
-Role required: admin
+Role required: adaptive\_auth\_admin, sso\_config\_admin
 
 ## Procedure
 
@@ -32,7 +32,7 @@ Role required: admin
 
     \[Omitted image "mfa-sso-properties.png"\] Alt text: Enable MFA for SSO.
 
-3.  Click **Save**.
+3.  Select **Save**.
 
 4.  Navigate to **Multi-factor Authentication** &gt; **MFA Context**.
 
@@ -46,9 +46,9 @@ Role required: admin
 
     When you navigate to the Authentication Policy record, you can add or edit the 'Policy Inputs' to the referenced Policy fields, **Step-Up MFA Policy** or **Step-Down MFA Policy**.
 
-6.  To set a new policy condition, click **Policy Conditions**.
+6.  To set a new policy condition, select **Policy Conditions**.
 
-7.  Click **New**.
+7.  Select **New**.
 
 8.  On the form, fill in the fields.
 
@@ -96,7 +96,7 @@ The type of condition that you want to apply for the policy. You can add filter 
     2.  Select **Identity Provider** and specify the provider as the IDP record for which you want to enable MFA. For example, **Okta**.
     Based on this selection, if the user logs in with SSO, the user is not challenged with MFA. In contrast, if the user logs in using Okta, then the user is challenged with MFA.
 
-9.  Click **Submit**.
+9.  Select **Submit**.
 
 
 **Related topics**  

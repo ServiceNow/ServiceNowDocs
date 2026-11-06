@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/c\_RecentSelections.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference field type, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer]
+breadcrumb: [Reference field type, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Recent selections
@@ -21,7 +21,7 @@ By default, the system stores up to 15 selections from a reference field for eac
 -   The system doesn't store recent selections for Service Catalog reference variables.
 -   Recent selections aren't available in the Service Portal or mobile user interfaces.
 
-\[Omitted image "RecentSelections.png"\] Alt text: An empty reference field to the User table displaying a list of two recent user selections: Beth Anglin and Eric Shroeder.
+\[Omitted image "RecentSelections.png"\] Alt text: An empty reference field to the User table displaying a list of two recent user selections: Beth Anglin and Elmo Gabouer.
 
 The system uses auto-complete to filter the list of recent selections to match the values that you enter.
 

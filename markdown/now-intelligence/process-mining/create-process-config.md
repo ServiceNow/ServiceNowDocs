@@ -7,9 +7,9 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Creating process configuration, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Creating process configuration, Use, Process Mining, Platform Analytics]
 ---
 
 # Create process configuration using Classic view
@@ -18,7 +18,7 @@ Create a process configuration for a table to use the same default configuration
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_power\_user or sn\_process\_optimization\_admin
+Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
 
 ## Procedure
 
@@ -65,14 +65,6 @@ Automated Root Cause Analysis
 </td><td>
 
 Select to set the automated root cause analysis. For more information, see [Automated root cause analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/auto-rca.md).
-
-</td></tr><tr><td>
-
-Automation Discovery
-
-</td><td>
-
-Select to set the automation discovery. For more information, see [Configure Automation Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/config-finding-def-auto-disc.md).
 
 </td></tr><tr><td>
 

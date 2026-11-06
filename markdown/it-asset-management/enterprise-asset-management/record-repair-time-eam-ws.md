@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage repair of defective assets in your stockroom in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Manage enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Manage repair of defective assets in your stockroom in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
 
 # Record time worked on asset repair tasks in the Enterprise Asset Workspace
@@ -30,5 +30,5 @@ Record a break from a repair task in the Enterprise Asset Workspace if you’re 
 
 [Request repair of defective enterprise assets]()
 
-[Fulfill repair orders in the Enterprise Asset Workspace]()
+[Fulfilling repair orders in the Enterprise Asset Workspace]()
 

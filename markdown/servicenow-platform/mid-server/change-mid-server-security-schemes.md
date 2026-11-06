@@ -7,7 +7,7 @@ release: zurich
 product: MID Server
 classification: mid-server
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [MID Server configuration file security, Securing and encrypting MID Server data, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -45,7 +45,7 @@ MID Server supports several schemes for securing sensitive data in the `config.x
     The data is re-secured or encrypted, based on the security scheme you have selected.
 
 
-**Parent Topic:**[MID Server configuration file security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/mid-server-encrypter-api.md)
+**Parent Topic:**[MID Server configuration file security]()
 
 **Related topics**  
 

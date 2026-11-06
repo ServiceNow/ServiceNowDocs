@@ -7,9 +7,9 @@ release: zurich
 product: Project Management
 classification: project-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Install PPM Collaboration, PPM Collaboration application overview, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Install PPM Collaboration, Collaborate with your project teams using PPM Collaboration application, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Components installed with PPM Collaboration
@@ -71,5 +71,5 @@ Stores the list of IDs and names of the Slack channels that are created for the 
 
 [Install PPM Collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/install-ppm-collab-store-app.md)
 
-[PPM Collaboration application overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/ppm-collab-overview.md)
+[Collaborate with your project teams using PPM Collaboration application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/ppm-collab-overview.md)
 

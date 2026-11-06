@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customize Employee Center Pro Kiosk widgets, Employee Center Pro Kiosk, Employee Center Integrations, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Customize Employee Center Pro Kiosk widgets, Employee Center Pro Kiosk, Employee Center Integrations, EmployeeWorks, Employee Service Management]
 ---
 
 # Modify the Support resources widget display
@@ -30,7 +30,7 @@ Role required: sn\_hr\_sp.esc\_admin
 
 3.  Press and hold the control key on the keyboard, right-click the widget, and then select **Instance Options**.
 
-4.  Configure the available instance options.
+4.  Configure the instance options.
 
 <table id="table_cq4_vdk_crb"><thead><tr><th>
 
@@ -107,14 +107,6 @@ Show empty state
 </td><td>
 
 Opt in to show the widget with empty state. Default: Active. You can uncheck this option to hide the support resources widget when there is no connected content.
-
-</td></tr><tr><td>
-
-title heading level
-
-</td><td>
-
-Select H1 to H6 based on your needs.
 
 </td></tr></tbody>
 </table>5.  Click **Save**.

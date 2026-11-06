@@ -1,21 +1,21 @@
 ---
 title: Create a custom pipeline
-description: Create a custom pipeline to move changes from your development environment to production \(or your target instance\) by duplicating one of the ReleaseOps playbooks.Create a custom pipeline to move changes through your non-production environment by duplicating the Deployment Request Assessment playbook. Add the deployment analyzer to detect if there are code changes in the deployment and skip Automated Test Framework \(ATF\) tests during assessment.
+description: Create a custom pipeline to move changes from your development environment to production \(or your target instance\) by duplicating one of the ReleaseOps sample playbooks.Create a custom pipeline to move changes through your non-production environment by duplicating the Deployment Request Assessment playbook. Add the deployment analyzer to detect if there are code changes in the deployment and skip Automated Test Framework \(ATF\) tests during assessment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/releaseops/create-release-ops-pipeline.html
 release: zurich
 product: ReleaseOps
 classification: releaseops
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 keywords: [ReleaseOps, deploy changes, update sets, pipeline, ATF, schedule a release, deployment request, deployment analyzer]
-breadcrumb: [Configure, ReleaseOps, Deploying applications, Building applications]
+breadcrumb: [Configure, ReleaseOps, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Create a custom pipeline
 
-Create a custom pipeline to move changes from your development environment to production \(or your target instance\) by duplicating one of the ReleaseOps playbooks.
+Create a custom pipeline to move changes from your development environment to production \(or your target instance\) by duplicating one of the ReleaseOps sample playbooks.
 
 ## Before you begin
 
@@ -23,9 +23,15 @@ Role required: releaseops.pipeline\_admin and playbook.admin or pd\_author
 
 For more information about playbooks, see [Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/process-automation-designer.md).
 
+## About this task
+
+Custom playbooks and pipelines enable you to create deployment structures tailored to the unique needs of your organization's development environment. Custom playbooks and pipelines are best suited for deployment processes that are consistent and expected to occur during each release. For deployment processes that are more variable, you might consider adding runbook tasks instead of custom playbooks or playbook activities. For more information, see [Runbook tasks in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/releaseops/runbook-tasks.md).
+
 ## Procedure
 
 1.  Duplicate one of the ReleaseOps playbooks.
+
+    **Important:** When creating a custom playbook, duplicate one of the ReleaseOps sample playbooks as your starting point. Don’t customize the ReleaseOps sample playbooks directly, so that you can continue to refer back to them as new features are added during instance upgrades.
 
     1.  Navigate to **All** &gt; **Workflow Studio** and select the desired playbook.
 
@@ -35,7 +41,7 @@ For more information about playbooks, see [Exploring Playbook](https://raw.githu
 
 2.  Add or update stages in the playbook as desired.
 
-    **Note:** Certain stages make sense at certain parts of the flow. For example, the deployment analyzer runs before the deployment state Move To Test. Other stages might need to be run after Move to Test or after Run ATF Tests. Typically, you shouldn’t add anything after Ready for Deploy.
+    **Note:** Certain stages make sense at certain parts of the flow. For example, the deployment analyzer runs before the deployment state **Move to test**. Other stages might need to be run after **Move to test** or after **Run ATF tests**. Typically, you shouldn’t add anything after **Ready for deploy**.
 
     For more information, see [Add and configure a stage in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/add-configure-stage.md).
 
@@ -53,7 +59,7 @@ For more information about playbooks, see [Exploring Playbook](https://raw.githu
 
         You can use your own custom playbooks for both, or use a combination of custom and sample playbooks.
 
-    3.  Right-click the header on the Pipeline form and select **Save**.
+    3.  Select and hold \(or right-click\) the header on the Pipeline form and select **Save**.
 
 6.  On your newly created pipeline, locate the Pipeline instances related list and select **New**.
 
@@ -63,6 +69,8 @@ For more information about playbooks, see [Exploring Playbook](https://raw.githu
 
     3.  Select **Submit**.
 
+
+**Parent Topic:**[Configuring ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/releaseops/configuring-releaseops.md)
 
 ## Example: Create an assessment playbook
 

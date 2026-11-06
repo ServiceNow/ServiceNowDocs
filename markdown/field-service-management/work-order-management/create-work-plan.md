@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Work plans, Planned Work Management, Work orders and tasks, Configure, Field Service Management]
+breadcrumb: [Configure work plans, Planned Work Management, Set up work orders and tasks, Configure, Field Service Management]
 ---
 
 # Create a work plan
@@ -85,6 +85,14 @@ Forecast work orders
 </td><td>
 
 Option to specify if this work plan is applicable to estimate and generate the upcoming work orders.**Note:** When you check the check box, **Generate work orders** related list appears and you can generate work orders either from a work plan, a work schedule, or a schedule occurrence.
+
+</td></tr><tr><td>
+
+Enable grouping
+
+</td><td>
+
+Option to enable grouping of work orders based on the criteria like asset, location, or model.For more information on grouping of work orders and adding criteria for grouping, see [Add grouping criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/add-grouping-criteria.md).
 
 </td></tr><tr><td>
 
@@ -196,7 +204,9 @@ Specify what to do when a work plan runs based on a schedule occurrence that is 
 
 
 </td></tr></tbody>
-</table>
+</table>4.  Select **Submit**.
+
+
 ## Result
 
 -   The work plan is created successfully.
@@ -204,5 +214,5 @@ Specify what to do when a work plan runs based on a schedule occurrence that is 
 
 ## What to do next
 
-After creating a work plan, configure a schedule to the work plan. For more information, see [Configure a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/configure-work-plan.md).
+After creating a work plan, configure a schedule to the work plan. For more information, see [Configure a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/configure-work-plan.md)
 

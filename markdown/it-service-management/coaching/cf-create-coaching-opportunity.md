@@ -7,7 +7,7 @@ release: zurich
 product: Coaching
 classification: coaching
 topic_type: task
-last_updated: "2026-06-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Coaching, IT Service Management]
 ---
@@ -28,15 +28,15 @@ When the triggered conditions defined in a coaching opportunity are met, an asse
 
 1.  Create a coaching opportunity using the guided setup or by using the application navigator.
 
-<table id="choicetable_wfs_345_4lb"><thead><tr><th align="left" id="d418695e68">
+<table id="choicetable_wfs_345_4lb"><thead><tr><th align="left" id="d329091e68">
 
 To create using
 
-</th><th align="left" id="d418695e71">
+</th><th align="left" id="d329091e71">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d418695e77">
+</th></tr></thead><tbody><tr><td id="d329091e77">
 
 **Guided setup**
 
@@ -46,7 +46,7 @@ Do this
 2.  Go to the **Add a Coaching Opportunity** section and select **Configure**.
 
 
-</td></tr><tr><td id="d418695e113">
+</td></tr><tr><td id="d329091e113">
 
 **The Application navigator**
 

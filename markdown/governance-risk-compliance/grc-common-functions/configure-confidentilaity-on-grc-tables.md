@@ -7,7 +7,7 @@ release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Confidential records, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -32,7 +32,7 @@ For more information, see [KB1497382](https://support.servicenow.com/kb?id=kb_ar
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **GRC Administration** &gt; **Confidentiality Configuration** and click **New**.
+1.  Navigate to **All** &gt; **GRC Administration** &gt; **Confidentiality Configuration** and select **New**.
 
 2.  In the new confidential configuration form, fill in the fields that are required for enabling confidentiality for the GRC tables.
 
@@ -40,7 +40,7 @@ For more information, see [KB1497382](https://support.servicenow.com/kb?id=kb_ar
 
     \[Omitted image "confidential-configuration.png"\] Alt text: Confidentiality configuration record.
 
-3.  Click **Submit**.
+3.  Select **Submit**.
 
 
 ## Result

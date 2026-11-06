@@ -7,7 +7,7 @@ release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Analytics &amp; Reporting Solutions, Reference, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -51,6 +51,4 @@ Tiles on Advanced Analytics show thumbnails of the widgets on the dashboard, the
 The advanced analytics screen defaults to showing only the dashboards related to AWA. You can see other dashboards by changing the Groups list to show only those dashboards in another single group. \[Omitted image "awa-dashboard-advanced-analytics.png"\] Alt text: Dashboard Advanced Analytics screen with AWA dashboards
 
 Click **New** to [Create or configure a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/t_CreateADashboard.md).
-
-**Parent Topic:**[Analytics &amp; Reporting Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/analytics-reporting-awa.md)
 

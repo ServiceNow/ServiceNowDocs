@@ -7,9 +7,9 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Creating telephone number components, Configure, Telecommunications Network Inventory]
+breadcrumb: [Create the components of a telephone number, Configure, Telecommunications Network Inventory]
 ---
 
 # Create a country code
@@ -51,5 +51,5 @@ Create a country code and add conditions to it so that you can manage, review, o
 
 Create an area code. For information, see [Create an area code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create_an_area_code.md).
 
-**Parent Topic:**[Creating telephone number components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create_components_of_a_telephone_number.md)
+**Parent Topic:**[Create the components of a telephone number](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create_components_of_a_telephone_number.md)
 

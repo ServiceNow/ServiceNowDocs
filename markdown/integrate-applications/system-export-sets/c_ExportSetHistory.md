@@ -7,8 +7,8 @@ release: zurich
 product: System Export Sets
 classification: system-export-sets
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Export sets, Exports, Workflow Data Fabric]
 ---
 
@@ -37,7 +37,21 @@ The **State** field may have the following values.
 |Exporting|The export set is creating a file with the data to export.|
 |MID Server Processing|The export set successfully created a file with the data to export. The file is being processed by the MID Server.|
 |Completed|The export set successfully ran and sent the exported file to the target.|
-|Completed wth errors|The export set ran, but encountered one or more errors.|
+|Completed with errors|The export set ran, but encountered one or more errors.|
 |Cancel requested|A user requested that the export set be cancelled.|
 |Cancelled|The export set was cancelled.|
+
+## Parallel export history
+
+Export history records include two fields for parallel exports:
+
+-   **Parallel Export Set**: References the parent parallel export set record
+-   **Parallel Export Set Job:** References the specific chunk/job record
+
+For standard exports, these fields remain empty. For parallel exports, multiple export history records are created \(one per chunk\), and all records share the same Parallel Export Set reference. Each export history record contains one exported file attachment.
+
+To identify the export type:
+
+-   Standard export: **Parallel Export Set** field is empty
+-   Parallel export: **Parallel Export Set** field is populated
 

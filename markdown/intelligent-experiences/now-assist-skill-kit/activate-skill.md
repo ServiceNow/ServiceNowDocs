@@ -9,7 +9,7 @@ classification: now-assist-skill-kit
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using AI Skill Kit, AI Skill Kit, Enable AI experiences]
+breadcrumb: [Using AI Skill Kit, AI Skill Kit, Generative AI skills, Enable AI Experiences]
 ---
 
 # Activate a skill

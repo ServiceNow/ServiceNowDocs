@@ -7,9 +7,9 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Supported software publisher licenses
@@ -129,8 +129,6 @@ Use the Software Asset Management publisher pack for Oracle to track and optimiz
 Use the Software Asset Management publisher pack for SAP to manage and optimize your SAP licenses. Get comprehensive visibility into your SAP license compliance and uncover potential savings.
 -   **[Software Asset Management publisher pack for VMware](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/vmware-publisher-pack.md)**  
 Use the Software Asset Management publisher pack for VMware to track and optimize licensing for your VMware software products.
--   **[Engineering license management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/concurrent-licenses.md)**  
-Get visibility into your license position and usage of your engineering applications to eliminate audit risks, inefficient usage of licenses, inaccurate forecasting, and to help prevent denials.
 
 **Parent Topic:**[Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/c_SoftwareAssetMgmt.md)
 

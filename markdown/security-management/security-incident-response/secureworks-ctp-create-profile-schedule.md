@@ -7,7 +7,7 @@ release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a profile, Secureworks CTP Ticket Ingestion Integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -30,15 +30,15 @@ You also choose how often you will poll for future tickets that match the ticket
 
 2.  Choose one to schedule how and when tickets are pulled from the Secureworks CTP portal.
 
-<table id="choicetable_phd_qqc_jfb"><thead><tr><th align="left" id="d486944e68">
+<table id="choicetable_phd_qqc_jfb"><thead><tr><th align="left" id="d491236e68">
 
 Option
 
-</th><th align="left" id="d486944e71">
+</th><th align="left" id="d491236e71">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d486944e77">
+</th></tr></thead><tbody><tr><td id="d491236e77">
 
 **Ongoing ticket ingestion selected**
 
@@ -46,7 +46,7 @@ Description
 
 Based on the default setting, the ServiceNow AI Platform instance pulls from the Secureworks CTP portal for new tickets every five minutes. Security incidents are created if tickets are found and incident generation filtering criteria are matched. To balance ticket ingestion against server load, and to pull the most current data, five minutes is the setting you may prefer. However, this value can be modified as needed.
 
-</td></tr><tr><td id="d486944e95">
+</td></tr><tr><td id="d491236e95">
 
 **-   Ongoing ticket ingestion selected
 -   Set initial ticket ingestion time

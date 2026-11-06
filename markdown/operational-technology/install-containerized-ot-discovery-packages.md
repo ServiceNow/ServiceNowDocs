@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/install-containerized-ot-discovery-packages.html
 release: zurich
 topic_type: task
-last_updated: "2026-06-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Air-gapped networks and OT Discovery installation, Configure the Discovery Console for OT, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -42,7 +42,7 @@ To help meet the air-gapped challenge, ServiceNow provides containerized version
 
 7.  Decompress the downloaded packages.
 
-    **Note:** In case you're installing on a Debian OS, install Docker for Debian OS. For instructions, see [Install Docker Engine on Debian](https://docs.docker.com/engine/install/debian/)
+    **Note:** In case you're installing on a Debian OS, install Docker for Debian OS. For more information, see [Install Docker Engine on Debian](https://docs.docker.com/engine/install/debian/)
 
 8.  Set up the latest version of docker:
 
@@ -84,4 +84,6 @@ To help meet the air-gapped challenge, ServiceNow provides containerized version
     
     ```
 
+
+**Parent Topic:**[Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/air-gapped-networks-installation.md)
 

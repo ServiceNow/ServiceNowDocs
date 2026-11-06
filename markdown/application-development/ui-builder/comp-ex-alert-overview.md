@@ -7,10 +7,10 @@ release: zurich
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2025-11-24"
-reading_time_minutes: 7
-keywords: [UI Builder, Alert, Alert message, Components, UI Builder, Alert, Alert message, Components, UI Builder, Alert, Alert message, Components]
-breadcrumb: [Learn components by example, Customize UI Builder pages using components, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+keywords: [UI Builder, Alert, Alert message, Components, Use case, UI Builder, Alert, Alert message, Components, Use case, UI Builder, Alert, Alert message, Components, Use case]
+breadcrumb: [Learn components by example, Customize UI Builder pages using components, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Create and customize alert messages in UI Builder
@@ -86,14 +86,14 @@ Alert
 
         The **Component ID** field auto-populates.
 
-    5.  Select **Apply**.
+    5.  Select **Apply.**
 
 5.  Configure the alert message.
 
     1.  With **Welcome Message** selected in the content tree, navigate to the configuration panel and set the following properties:
 
-        |Field|Value|
-        |-----|-----|
+        |Field|Value or Action|
+        |-----|---------------|
         |Type|**Info**|
         |Icon|**circle-info-outline**|
         |Header|**Heads up!**|
@@ -112,7 +112,7 @@ Alert
 
     4.  Double-click **value1** to select the field, then select again to insert text.
 
-    5.  Enter `"You're logged in as "`, making sure to include a trailing space after the exclamation point.
+    5.  Enter `"You're loggeded in as "`, making sure to include a trailing space after the exclamation point.
 
     6.  Double-click **values** to select the field, then select again to insert text.
 
@@ -146,11 +146,6 @@ Role required: admin
 ### About this task
 
 Scripted alerts provide notifications that respond to events or external data. They are highly flexible and can react to complex conditions, but require scripting knowledge and more effort to maintain. In this example, a button triggers a client script that generates multiple alerts with custom messages.
-
-\[Omitted image "comp-ex-cam2-anatomy.png"\] Alt text: UI Builder editor showing a button and a series of custom scripted alerts, with highlights over the button and one alert.
-
-1.  **Button**: Triggers the client script to display the alerts.
-2.  **Alert**: Displays customized messages.
 
 This procedure uses UI Builder components to create dynamic, interactive layouts. For more information on how to configure components, see:
 

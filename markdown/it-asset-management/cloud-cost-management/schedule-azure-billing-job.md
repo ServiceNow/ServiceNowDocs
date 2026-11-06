@@ -7,9 +7,9 @@ release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
-breadcrumb: [Set up access to Microsoft Azure billing and usage data, Configure Cloud Cost Management for Microsoft Azure, Configure, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Set up access to Microsoft Azure billing and usage data, Configure Cloud Cost Management for Microsoft Azure, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Schedule and manage the jobs that download Azure billing data
@@ -28,7 +28,7 @@ Role required: Cloud Integrations Admin \[sn\_cld\_intg\_core.cloud\_integration
 -   You can create only one Billing Download job for each service account.
 -   Only costs of unblended type are supported.
 -   Each successful execution of a Billing Download job updates tagged costs. Recent updates that you make to tag category definitions \(for example, adding a tag name to a category\) might not be reflected in cost reports. You should map tag values to tag categories after the first run because populating tag values needs at least one successful run. For more information on applying the latest tag category definitions to cost data without running a Billing Download job, see [Create and update a tag category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/tag-category-crud-cloudin.md).
--   When a Billing Download job successfully completes, it triggers the Budget Forecast, Business hours, Commitments, Rightsizing, and Unused resources jobs to analyze spend and usage data. This action also updates the actionable recommendations in reports.
+-   When a Billing Download job successfully completes, it triggers the Budget Forecast, Business hours, Rightsizing, Commitments, and Unused resources jobs to analyze spend and usage data. This action also updates the actionable recommendations in reports.
 -   When the scheduled time arrives, job execution happens in multiple stages \(for example, connect to the provider, download the data, perform the post-import sort, and so on\). The system logs status and results on the Price Sheet Executions page for each stage.
 -   Cost categories are updated with new cost tag values each time billing data is downloaded. For example, the Cost Center category might include the tags development, testing, and QA. The User category might include the names of your users.
 -   Billing data is downloaded in reverse chronological order by month. For example, if the range is from March to June, data for June is downloaded first.
@@ -43,8 +43,8 @@ Role required: Cloud Integrations Admin \[sn\_cld\_intg\_core.cloud\_integration
     **Note:**
 
     -   If you provide your own name to the asset or resources of a resource group, you can't view the spend for Kubernetes clusters.
-    -   Install Discovery and Service Mapping Patterns application \(sn\_itom\_pattern\) 1.10.2 or higher. For more information, see [Install Discovery and Service Mapping Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/install-discovery-service-mapping-patterns.md)
-    -   Install CMDB CI Class Models \(sn\_cmdb\_ci\_class\) version 1.53.1 or higher. For more information, see [CMDB CI Class Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/cmdb-ci-class-models.md)
+    -   Install Discovery and Service Mapping Patterns application \(sn\_itom\_pattern\) 1.10.2 or higher. For more information, see [Install Discovery and Service Mapping Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/install-discovery-service-mapping-patterns.md).
+    -   Install CMDB CI Class Models \(sn\_cmdb\_ci\_class\) version 1.53.1 or higher. For more information, see [CMDB CI Class Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/cmdb-ci-class-models.md).
     -   To set up Kubernetes discovery, see [Kubernetes discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/kubernetes-discovery.md).
 -   If you have installed the Cloud Cost Management Infra Stack application along with Cloud Cost Management version 8.1, bill processing only happens on the Kubernetes cluster outside the Glide but within the ServiceNow datacenter. This framework supports parallel processing of data in chunks, making the billing file download faster.
 

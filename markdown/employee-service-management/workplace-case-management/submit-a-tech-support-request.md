@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Requesting a workplace service, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -28,15 +28,15 @@ Use the **Tech support** workplace service to request technical assistance for m
 
 1.  Navigate to the portal from one of the following locations.
 
-<table id="choicetable_presence_dashboard"><thead><tr><th align="left" id="d215246e70">
+<table id="choicetable_presence_dashboard"><thead><tr><th align="left" id="d219484e70">
 
 Location
 
-</th><th align="left" id="d215246e73">
+</th><th align="left" id="d219484e73">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d215246e79">
+</th></tr></thead><tbody><tr><td id="d219484e79">
 
 **Workplace Service Portal**
 
@@ -56,7 +56,7 @@ The portal homepage opens.
 3.  Select **Submit a maintenance request**.
 
 
-</td></tr><tr><td id="d215246e149">
+</td></tr><tr><td id="d219484e149">
 
 **Employee Center**
 

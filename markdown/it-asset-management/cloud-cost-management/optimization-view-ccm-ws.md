@@ -7,9 +7,9 @@ release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: concept
-last_updated: "2026-07-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Cloud Cost Management Workspace, Explore, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Cloud Cost Management Workspace, Explore, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Optimization view

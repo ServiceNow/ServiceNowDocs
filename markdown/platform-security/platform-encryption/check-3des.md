@@ -7,7 +7,7 @@ release: zurich
 product: Platform Encryption
 classification: platform-encryption
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Key Management Framework, Encryption]
 ---
@@ -32,9 +32,7 @@ The GlideEncrypter API is planned for deprecation as of the Zurich release of Se
 
 4.  In the **Scan Suites Now** window, select **Full Instance**, then select **Execute Scan**.
 
-    The suite scan executes. During the scan execution a **Execute Test Scan**, a window displays the progress of the scan.
-
-    \[Omitted image "scan-progress.png"\] Alt text: Scan progress window
+    The suite scan executes. During the scan execution a **Execute Test Scan**, a window displays the progress of the scan.\[Omitted image "scan-progress.png"\] Alt text: Scan progress window
 
     **Note:** This scan checks only records that have been created or modified by the customer.
 

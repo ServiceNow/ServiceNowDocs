@@ -52,7 +52,7 @@ You can create multiple mappings for the same breakdown, enabling you to use tha
 
 4.  Complete the breakdown mapping as follows.
 
-<table id="choicetable_xmg_r3d_pdb"><tbody><tr><td id="d195764e208">
+<table id="choicetable_xmg_r3d_pdb"><tbody><tr><td id="d205676e215">
 
 **Use a field to map values to elements.**
 
@@ -60,7 +60,7 @@ You can create multiple mappings for the same breakdown, enabling you to use tha
 
 Select the **Field** in the indicator source that maps to records in the breakdown. See the use of the **Category** field in [Example: Field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/example-field-mapping.md).
 
-</td></tr><tr><td id="d195764e236">
+</td></tr><tr><td id="d205676e243">
 
 **Use a script to map values to elements.**
 
@@ -86,7 +86,7 @@ Select **Scripted**, then select the **Script** that defines the association bet
 
 If you have assigned at least two breakdowns to an automated indicator, you can collect the two-breakdown combinations. If you do so, save system resources by excluding meaningless combinations of breakdowns from being collected. See [Collect and manage a matrix of breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/configure-breakdown-matrix.md).
 
-**Important:** If you enable data snapshots for an indicator, you are not limited to two-breakdown combinations and the indicator does not have a breakdown matrix. For more information, see [Data snapshots and multiple breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/multi-level-breakdowns.md).
+**Important:** If you enable Data snapshots for an indicator, you are not limited to two-breakdown combinations and the indicator does not have a breakdown matrix. For more information, see [Data snapshots and multiple breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/multi-level-breakdowns.md).
 
 Apply the breakdowns in one of the following ways. In the classic environment:
 

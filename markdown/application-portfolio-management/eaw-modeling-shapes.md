@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-modeling-shapes.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Exploring Enterprise Modeling and Visualization in the EA Workspace, Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Exploring Enterprise Modeling and Visualization in the EA Workspace, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Shapes to create a modeling diagram
@@ -43,7 +43,7 @@ The AWS shapes library in EA Workspace helps in modeling cloud architectures. Th
 -   **[Common Service Data Model \(CSDM\) shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-modeling-csdm-shapes.md)**  
 CSDM is a prescriptive data model that defines standardized relationships between service-related objects in the CMDB. The CSDM shapes represent these objects visually in diagrams, enabling architects to model business capabilities, applications, services, and technical components in alignment with the Now Platform.
 -   **[Enterprise Architecture shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-modeling-ea-shapes.md)**  
-You can use the Enterprise Architecture shapes to model current and future-state architectures in Enterprise Architecture Workspace.
+Use the Enterprise Architecture shapes to create diagrams with icons related to enterprise architecture.
 -   **[Enterprise Architecture \(EA\) extended shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/ea-extended-shapes.md)**  
 Use the Enterprise Architecture shapes to model current and future-state architectures in Enterprise Architecture Workspace.
 -   **[ArchiMate shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-modeling-archimate-shapes.md)**  

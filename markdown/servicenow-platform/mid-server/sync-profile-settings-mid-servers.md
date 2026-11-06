@@ -7,7 +7,7 @@ release: zurich
 product: MID Server
 classification: mid-server
 topic_type: task
-last_updated: "2026-07-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [sync MID Server profile, MID Server profile settings, sync profile]
 breadcrumb: [Configure MID Servers using profiles, MID Server profiles, Configuring MID Servers, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]

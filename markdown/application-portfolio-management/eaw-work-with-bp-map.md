@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-work-with-bp-map.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Working with Enterprise Modeling and Visualization, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Working with Enterprise Modeling and Visualization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Working with business process map
@@ -35,6 +35,8 @@ You can perform the following actions when working with a business process map:
 -   Save versions, share, duplicate, and submit diagrams for approval.
 -   Commit approved diagrams to synchronize changes to the database.
 
+**Note:** Canvas controls, including shape context menus and the modify business process details icon, are accessible via keyboard. Use the **Tab** key to navigate to shapes and their controls without a mouse.
+
 **Note:**
 
 To keep connector ports visible on shapes at all times without hovering, enable the **Show all buttons without the need to hover** preference in **Preferences** &gt; **Accessibility**. For more information, see [Show shape controls without hovering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-show-shape-ports.md).
@@ -51,4 +53,13 @@ Modify an existing business process map by adding new events, activities, or gat
 Edit the properties of a BPMN \(Business Process Model and Notation\) diagram element directly from the diagram page. It enables quick updates without leaving the modeling interface.
 
 **Parent Topic:**[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)
+
+**Related topics**  
+
+
+[Business process map diagrams from images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-bpm-diagram-from-image.md)
+
+[Create a business process map diagram from an image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-create-bpm-diag-from-image.md)
+
+[Review an AI-generated business process map diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-review-ai-generated-bpm-diag.md)
 

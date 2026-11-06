@@ -7,7 +7,7 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage controls, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -32,7 +32,7 @@ When controls are attested, a new questionnaire is created. As a result, attesta
 
 2.  Open the attestation and review the details.
 
-<table id="choicetable_ehk_qqs_dw"><tbody><tr><td id="d398765e101">
+<table id="choicetable_ehk_qqs_dw"><tbody><tr><td id="d438719e101">
 
 **If you are unable to answer the questions**
 
@@ -44,7 +44,7 @@ When controls are attested, a new questionnaire is created. As a result, attesta
 
  The list of attestations refreshes when you reassign an attestation to another user.
 
-</td></tr><tr><td id="d398765e132">
+</td></tr><tr><td id="d438719e132">
 
 **If you are able to answer the questions**
 

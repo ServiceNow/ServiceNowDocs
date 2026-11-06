@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Coaching, Workforce Optimization, Workforce, Use, Field Service Management]
+breadcrumb: [Coaching, Workforce Optimization, Managing workforce, Use, Field Service Management]
 ---
 
 # Manage skills using Workforce Optimization for Field Service
@@ -40,15 +40,15 @@ You can view skills for all users grouped by assignment group and the overall sk
 
 4.  Add a skill or skill level.
 
-<table id="choicetable_ufk_1hx_nlb"><thead><tr><th align="left" id="d40927e123">
+<table id="choicetable_ufk_1hx_nlb"><thead><tr><th align="left" id="d44407e123">
 
 To
 
-</th><th align="left" id="d40927e126">
+</th><th align="left" id="d44407e126">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d40927e132">
+</th></tr></thead><tbody><tr><td id="d44407e132">
 
 **Add a skill**
 
@@ -59,7 +59,7 @@ Do this
 3.  Click **OK**.
 The skill gets automatically added to the agent.
 
-</td></tr><tr><td id="d40927e162">
+</td></tr><tr><td id="d44407e162">
 
 **Update a skill level**
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-operations-integration-with-mastercard-landing-page.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrate, Financial Services Operations \(FSO\)]
 ---
@@ -24,11 +24,11 @@ The ServiceNow® Financial Services Operations Integration with Mastercard strea
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/configuring-financial-services-operations-integration-with-mastercard.md)
+[Configure\[Omitted image "bus-optimize-manage.svg"\] Alt text:Plan and configure your integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/configuring-financial-services-operations-integration-with-mastercard.md)
 
 </td></tr><tr><td>
 
-[Activate\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Learn how to seamlessly integrate with Mastercard Spoke.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/activate-mastercard-spoke.md)
+[Activate\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Learn how to seamlessly integrate with Mastercard Spoke.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/activate-mastercard-spoke.md)
 
 </td><td>
 
@@ -37,7 +37,7 @@ The ServiceNow® Financial Services Operations Integration with Mastercard strea
 </td></tr></tbody>
 </table>## Request Financial Services Operations Integration with Mastercard on the store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 Before you can use Financial Services Operations Integration with Mastercard, you must first download it from the ServiceNow Store. When you have completed the download, you may need to clear your local cache before it appears on your instance.
 

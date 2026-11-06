@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Change views in Workforce, Managing agents and tasks from Workforce, Workforce, Use, Field Service Management]
+breadcrumb: [Change views in Workforce, Managing agents and tasks from Workforce, Managing workforce, Use, Field Service Management]
 ---
 
 # Set a default assignment group on the team calendar

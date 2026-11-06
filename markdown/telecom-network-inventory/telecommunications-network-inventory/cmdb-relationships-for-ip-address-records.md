@@ -7,9 +7,9 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
-breadcrumb: [IP address management, Explore, Telecommunications Network Inventory]
+breadcrumb: [IP address management, Inventory number allocation, Explore, Telecommunications Network Inventory]
 ---
 
 # CMDB relationships for IP address records
@@ -18,16 +18,16 @@ When an IP Address record is created, the system writes one or two relationship 
 
 ## Relationships created by each allocation method
 
-From allocated IPs \(per-host method\). When an IP Address record is created from a selected allocated IP, the system writes two relationships:
+From allocated IPs, when an IP Address record is created from a selected allocated IP, the system writes two relationships:
 
 |Relationship type|Parent|Child|
 |-----------------|------|-----|
-|Managed by : : Manages|Allocated IP Address record|IP Address record|
+|Managed by :: Manages|Allocated IP Address record|IP Address record|
 |Contains :: Contained by|IP Subnetwork record|IP Address record|
 
 The Manages relationship links the new IP Address record to the allocated IP slot it was created from. The Contains relationship links the IP Address record to the subnetwork it belongs to.
 
-At subnet level \(subnetwork-as-a-CI method\). When a single IP Address record is created for the subnetwork as a whole, the system writes one relationship:
+At subnet level \(subnetwork-as-a-CI method\), when a single IP Address record is created for the subnetwork as a whole, the system writes one relationship:
 
 |Relationship type|Parent|Child|
 |-----------------|------|-----|
@@ -39,20 +39,20 @@ No Manages relationship is created because the IP Address record is not linked t
 
 When an IP Address record is deleted, the relationships it participated in are also removed:
 
--   For records created from allocated IPs, the deletion removes both the Manages relationship and the Contains relationship. The allocated IP slot's "Is Managed" flag flips back to False automatically. The slot itself is preserved and remains available for reuse.
+-   For records created from allocated IPs, the deletion removes both the Manages relationship and the Contains relationship. The allocated IP slot's **Is Managed** field is set to **False** automatically. The slot itself is preserved and remains available for reuse.
 -   For records created at subnet level, the deletion removes the Contains relationship.
 
 ## Where relationships appear in the workspace
 
--   Related Items panel. Each IP Address record displays its parent records under **Related Items** on the record's detail page.
--   Dependency View. From the IP Address record's three-dot menu, select Dependency View. The view shows the IP Address record and its parent records as nodes connected by their relationship types.
+-   Related Items panel: Each IP Address record displays its parent records under **Related Items** on the record's detail page.
+-   Dependency View: From the IP Address record's three-dot menu, select Dependency View. The view shows the IP Address record and its parent records as nodes connected by their relationship types.
 
 **Related topics**  
 
 
-[Create IP Address Records from allocated IPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create-ip-address-records-from-allocated-ips.md)
+[Create an IP Address record from allocated IPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create-ip-address-records-from-allocated-ips.md)
 
-[Create an IP Address Record at subnet level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create-an-ip-address-record-at-subnet-level.md)
+[Create an IP Address record at subnet level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create-an-ip-address-record-at-subnet-level.md)
 
 [IP address inventory management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/ip-address-inventory-management-data-model.md)
 

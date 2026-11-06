@@ -7,7 +7,7 @@ release: zurich
 product: Automation Center
 classification: automation-center
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Automation Center, Workflow Data Fabric]
 ---
@@ -39,7 +39,7 @@ sn\_ac.purge\_automation\_data\_in\_days
 
 </td><td>
 
-Defines the number of days to purge automation execution data and automation insights information.-   Type: **integer**
+Defines the number of days the automation execution data, import error logs, action logs data, and automation insights information is retained.-   Type: **integer**
 -   Default value: **14**
 
 </td></tr><tr><td>
@@ -102,7 +102,7 @@ sn\_ac.use\_recommended\_actions
 
 </td><td>
 
-When turned on \(by setting the value to **True**\), Recommended Actions application is enabled in the Automation Center workspace.-   Type: **True/False**
+When turned on \(by setting the value to **True**\), Recommended Actions application is enabled in the Automation Center workspace.-   Type: **True \| False**
 -   Default value: **False**
 
 </td></tr></tbody>
@@ -140,7 +140,7 @@ sn\_ac.max\_number\_of\_actions
 
 </td><td>
 
-Sets the maximum number of actions to show in all actions section in action center.-   Type: **True/False**
+Sets the maximum number of actions to show in all actions section in action center.-   Type: **True\|False**
 -   Default value: **False**
 
 </td></tr><tr><td>

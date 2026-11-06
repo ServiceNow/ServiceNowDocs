@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/data-migration-block-specific.html
 release: zurich
 topic_type: task
-last_updated: "2025-09-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Platform Analytics Migration Center, Platform Analytics experience, Platform Analytics]
 ---
@@ -29,7 +29,7 @@ Role required: admin.
     |sys\_ui\_hp\_publisher.list|Interactive filters|
     |pa\_dashboards.list|Responsive dashboards|
 
-2.  Select the **Personalize List** icon \(\[Omitted image "icon-cogwheel-ac.png"\] Alt text: Edit columns icon\) to add columns to the list.
+2.  Select the **Personalize List** icon \[Omitted image "icon-cogwheel-ac.png"\] Alt text: Edit columns icon to add columns to the list.
 
 3.  Move **Do not migrate in bulk** to the **Selected** column.
 

@@ -1,5 +1,5 @@
 ---
-title: Employee Document Management reference
+title: Reference - Employee Document Management
 description: More information on other properties of Employee Document Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-document-management/reference-employee-document-management.html
@@ -7,12 +7,12 @@ release: zurich
 product: Employee Document Management
 classification: employee-document-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Employee Document Management, HR Documents, HR Service Delivery, Employee Service Management]
 ---
 
-# Employee Document Management reference
+# Reference - Employee Document Management
 
 More information on other properties of Employee Document Management.
 

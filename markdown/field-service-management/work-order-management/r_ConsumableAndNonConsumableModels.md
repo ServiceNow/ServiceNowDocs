@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Transfer orders, Inventory, Manage work order tasks, Prepare work orders, Use, Field Service Management]
+breadcrumb: [Manage transfer orders, Manage inventory in FSM, Manage work order tasks, Prepare work orders, Use, Field Service Management]
 ---
 
 # Consumable and non-consumable models

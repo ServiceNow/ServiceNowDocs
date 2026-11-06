@@ -1,24 +1,24 @@
 ---
 title: Create a schedule job for waitlist
-description: A nightly scheduled job Waitlist Expirations handles expiration of past or stale waitlist records that are in Queued state. The nightly job runs daily and sets the status of any record with an expired or stale stale start time.
+description: A nightly scheduled job Waitlist Expirations handles expiration of past or stale waitlist records that are in Queued state. The nightly job runs daily and sets the status of any record with an expired or stale start time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-reservation-management/schedule-job-waitlist.html
 release: zurich
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2026-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage and configure reservation waitlist, Manage reservations, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Manage and configure reservation waitlist, Reserve workplace items, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Create a schedule job for waitlist
 
-A nightly scheduled job Waitlist Expirations handles expiration of past or stale waitlist records that are in Queued state. The nightly job runs daily and sets the status of any record with an expired or stale stale start time.
+A nightly scheduled job Waitlist Expirations handles expiration of past or stale waitlist records that are in Queued state. The nightly job runs daily and sets the status of any record with an expired or stale start time.
 
 ## Before you begin
 
-Stale or past entries are removed from the waitlist queue so that they don't remain active in the waitlist queue and affect space optimization and utilization insights.
+Stale or past entries are removed from the queue so that they don't remain active in the waitlist queue and affect space optimization and utilization insights.
 
 **Note:** Expired entries are retained in the system until the purge job removes them based on the configured retention period \(30 days or more\). For more information, see [Purge a waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/purge-waitlist.md).
 
@@ -47,10 +47,6 @@ Role required: sn\_wsd\_core.admin
 
 **Related topics**  
 
-
-[Reservation Waitlist data model]()
-
-[Create a reservation waitlist]()
 
 [Purge a waitlist]()
 

@@ -7,9 +7,9 @@ release: zurich
 product: Insurance Claims
 classification: insurance-claims
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Reference, Individual Life Claims, Claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Reference, Individual Life Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Components installed with Individual Life Claims
@@ -20,14 +20,14 @@ Several types of components are installed with the activation of the Individual 
 
 |Plugin|Description|
 |------|-----------|
-|Customer Service \[com.sn\_customerservice\]|Enables the extension of tables from the Customer Service Management application into the Financial Services Operations applications.|
+|Case Management Core \[com.sn\_customerservice\]|Enables the extension of tables from the Customer Service Management application into the Financial Services Operations applications.|
 
 ## Store applications installed
 
 |Store application|Description|
 |-----------------|-----------|
 |Financial Services Operations Core|Stores the customer data that is needed to make policy service requests. For more information, see [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-operations-core-data-model.md).|
-|Playbooks for Customer Service Management|Provides a way to visualize business process workflows in a simple, task-oriented view, enabling consistent responses to commonly encountered situations. For more information, see[Playbook capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/customer-service-case-playbooks.md).|
+|Playbooks for Customer Service Management|Provides a way to visualize business process workflows in a simple, task-oriented view, enabling consistent responses to commonly encountered situations. For more information, see[Playbooks in Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/setting-up-csm-playbooks.md).|
 
 ## Roles installed
 

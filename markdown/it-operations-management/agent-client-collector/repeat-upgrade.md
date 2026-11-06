@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Agent Client Collector upgrade overview, ACC deployment - servers, Agent Client Collector, IT Operations Management]
+breadcrumb: [Agent Client Collector upgrade overview, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Repeat high-volume upgrade for failed agents
@@ -42,4 +42,6 @@ Roles required: agent\_client\_collector\_admin
 ## Result
 
 The specified agents will be upgraded with the next scheduled high volume upgrade.
+
+**Parent Topic:**[Agent Client Collector upgrade overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-agent-upgrade-overview.md)
 

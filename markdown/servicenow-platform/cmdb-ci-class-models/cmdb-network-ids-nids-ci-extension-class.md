@@ -7,22 +7,24 @@ release: zurich
 product: CMDB CI Class Models
 classification: cmdb-ci-class-models
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [CMDB CI class models, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB CI class models, CMDB hierarchy, Explore, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Network Intrusion Detection System \(NIDS\) CI extension class
 
 The Network Intrusion Detection System \(NIDS\) \[cmdb\_ci\_nids\] class builds the relationships between passive network monitoring appliances, and the devices on the network that it discovers.​ A NIDS Manager manages the NIDS sensors that detect the devices and builds "detects::detected by” relationships between the NIDS records \(parent\) and the CIs it discovers \(child\).​
 
-This topic lists the relevant classes that the CMDB CI Class Models store app adds or updates. See the class columns table for further details about the columns added for each class.
+This topic lists the relevant classes that the CMDB CI Class Models app adds or updates. See the class columns table for further details about the columns added for each class.
 
-See the CMDB CI Class Models release notes.
+CMDB CI Class Models is a ServiceNow Store app that adds class models that extend the CMDB class hierarchy. The new or updated classes include class descriptions, identification rules, identifier entries, and, if applicable, dependent relationships. You can use the added classes just like any other CMDB class. Applications such as Discovery and Service Mapping Patterns can use the class extensions to populate CIs and discover technologies and software.
+
+See the release notes for all CMDB CI class models.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Network Intrusion Detection System \(NIDS\) schema structure​
 
@@ -30,7 +32,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## Classes
 
-This section lists the classes that the CMDB CI Class Models store app adds or updates.See the class columns table for further details about the columns added for each class.
+This section lists the classes that the CMDB CI Class Models app adds or updates.See the class columns table for further details about the columns added for each class.
 
 CMDB CI Class Models: Release 1.30 adds the following classes for the Network Intrusion Detection System \(NIDS\). For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
 
@@ -47,11 +49,11 @@ CMDB CI Class Models: Release 1.30 adds the following columns to the Network Int
 |NIDS source ID|Correlation\_id|Identifier of the NIDS device. Uses the assigned Correlation ID for the NIDS as its nids\_source\_id.|
 |NIDS source name|nids\_source\_name|Name of the NIDS device.|
 |Network type assignment|network\_type\_assignment|Designates if the device is on an IT or OT network.|
-|NIDS assignment site|isa\_entity\_site|ISA site assigned to the NIDS. This information is available when the logged in user has an assigned ISA Admin role.|
+|NIDS assignment site|isa\_entity\_site|ISA site assigned to the NIDS. This information is available when the logged in user has an assigned ISA admin role.|
 
 ## Roles and Access Control Logic \(ACLs\)
 
-The NIDS Admin \(cmdb\_nids\_admin\) role is associated with the Network Intrusion Detection System \(NIDS\) \[cmdb\_ci\_nids\] class: Can create, read, update, and delete Network IDS \(NDIS\) OT records. To view the Network IDS Application selection on the application menu, you must have this role.
+The NIDS admin \(cmdb\_nids\_admin\) role is associated with the Network Intrusion Detection System \(NIDS\) \[cmdb\_ci\_nids\] class: Can create, read, update, and delete Network IDS \(NDIS\) OT records. To view the Network IDS Application selection on the application menu, you must have this role.
 
 ## Key relationship structure
 

@@ -7,9 +7,9 @@ release: zurich
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Learning Enhanced Automation Platform \(LEAP\), ServiceNow Otto for ITOM, IT Operations Management]
+breadcrumb: [Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
 ---
 
 # Using LEAP
@@ -39,11 +39,11 @@ The Ask Otto feature of ServiceNow Otto streamlines artifact creation. Select \[
 
     Create granular automation opportunities to get targeted resolutions for similar looking issues.
 
-3.  [Monitor automation opportunities using the LEAP value dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/understand-the-aiops-leap-value-dashboard.md)
+3.  [Monitor automation outcomes with the LEAP value dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/understand-the-aiops-leap-value-dashboard.md)
 
     View and understand how automation helps LEAP to achieve cost and time savings.
 
-4.  [Create LEAP problem records]()
+4.  [Create LEAP problem records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/create-problem-records.md)
 
     Create a problem record using the resolution steps of an AO. The problem record helps you perform an in-depth analysis to find the root cause of the incident.
 
@@ -67,7 +67,7 @@ The Ask Otto feature of ServiceNow Otto streamlines artifact creation. Select \[
 
     Create mappings between automation opportunity resolution steps and Ansible job templates to enable automated incident remediation.
 
-10. [Execute Ansible automations for incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/execute-ansible-automations-for-incidents.md)
+10. [Execute Ansible playbooks for incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/execute-ansible-automations-for-incidents.md)
 
     Use the Ansible Execution Agent to launch mapped Ansible job templates during incident remediation.
 

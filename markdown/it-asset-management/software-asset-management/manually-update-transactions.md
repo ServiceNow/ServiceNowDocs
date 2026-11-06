@@ -1,20 +1,21 @@
 ---
-title: Manually update transactions
-description: Manually update imported software transactions that weren't automatically labeled with a software product and publisher to track all software spending.
-locale: en-US
+title: Create a spend transaction manually
+description: Create spend transactions for one-off software purchases or spend records that are not captured in your accounts payable import file. This allows you to track all software spending in one location.
+locale: en-us
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/manually-update-transactions.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Software Spend Detection, Software Asset Management, IT Asset Management]
+last_updated: "2026-03-12"
+reading_time_minutes: 2
+keywords: [software spend detection, software asset management software spend detection, spend transaction manual, SAM - Label Spend Transactions, License operations]
+breadcrumb: [Software Spend Detection, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
-# Manually update transactions
+# Create a spend transaction manually
 
-Manually update imported software transactions that weren't automatically labeled with a software product and publisher to track all software spending.
+Create spend transactions for one-off software purchases or spend records that are not captured in your accounts payable import file. This allows you to track all software spending in one location.
 
 ## Before you begin
 
@@ -22,26 +23,41 @@ Role required: sam\_user
 
 ## About this task
 
-Sometimes, Software Spend Detection can't match a transaction to a software publisher and product. If Software Spend Detection can identify the publisher but not the product, the transaction is categorized as Unnormalized in the list of products for that publisher in the Software Spend Detection dashboard. The transaction amount is added to the total cost for that publisher. If Software Spend Detection can't identify the publisher, the transaction is added to **Unnormalized Transactions** and is excluded from the Software Spend Detection dashboard. The transaction amount isn't included in any of the spend amounts shown on the dashboard.
+The **SAM - Label Spend Transactions** scheduled job processes manual transactions during its next run.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Software Spend Detection** &gt; **Unnormalized Transactions**.
+1.  Navigate to **Software Asset Workspace** &gt; **License operations** &gt; **Software spend detection** &gt; **All transactions**.
 
-    **Note:** By default, this list shows only transactions identified as software by Software Spend Detection. To include transactions not identified as software, remove the filter condition **Is software = true**.\[Omitted image "spend-manually-update.png"\] Alt text: Remove the Is software = true filter condition by selecting the arrow in the filter.
+2.  Select **New**.
 
-2.  Select a transaction date.
+3.  On the **Create New Software spend transactions** form, fill in the fields.
 
-3.  Select values for the **Publisher** and **Product** fields.
+    For a description of the field values, see [Software spend transaction fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-spend-transaction-fields.md).
 
-    **Note:** You can create software publishers and products directly from this form by selecting the Lookup using list icon \[Omitted image "List\_SearchIcon.png"\] next to the field and then selecting **New**.
+4.  If you already know the publisher and product for the transaction, identify it as software on the **Create New Software spend transactions** form.
 
-4.  Clear or select the **Is software** check box to indicate if the transaction is a software purchase.
+    Select the **Is software** check box, and then provide values for the **Publisher** and **Product** fields.
 
-5.  Select **Update**.
+5.  To exclude this transaction from being shared with the Software Asset Management Content Library team, expand the **More details** section and select the **Exclude from content service** check box.
 
-    The transaction is removed from the list of unnormalized transactions and is added to the Software Spend Detection dashboard.
+6.  Select **Save**.
+
+    The transaction is created with the **State** field set to **New** and appears in the All transactions list. The **SAM - Label Spend Transactions** scheduled job processes the transaction on its next run.
+
+    If you provided valid values for the **Is software**, **Publisher**, or **Product** fields during creation, the state changes to **Manually labeled** after save. For details on values of the State field, see [AI-powered software spend detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/spend-detection-ai-enhancements.md).
 
 
 **Parent Topic:**[Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-spend-detection.md)
+
+**Related topics**  
+
+
+[Import financial transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/import-spend-transactions.md)
+
+[Managing software spend in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/spend-detection-sam-workspace.md)
+
+[AI-powered software spend detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/spend-detection-ai-enhancements.md)
+
+[Software spend transaction fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-spend-transaction-fields.md)
 

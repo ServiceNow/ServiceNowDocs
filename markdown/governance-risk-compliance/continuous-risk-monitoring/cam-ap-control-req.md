@@ -7,9 +7,9 @@ release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Implement, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Implement controls and assessment objectives, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Modify control requirement
@@ -86,9 +86,9 @@ All the controls are generated in the **Implement** state, however you can still
 
         If this is the only requirement that is in self implemented status for the hybrid control, then you cannot convert it to inherited.
 
-8.  To see the list of control requirements for a hybrid control, select the Display/hide hierarchical lists \(\[Omitted image "cam-display-hide-hierarch-icon.png"\] Alt text: Display or hide hierarchical lists icon.\) icon that gives you a hierarchy view.
+8.  To see the list of control requirements for a hybrid control, select the Display/hide hierarchical lists icon that gives you a hierarchy view.
 
-    You can use \[Omitted image "cam-display-hide-hierarch-icon.png"\] Alt text: Display or hide hierarchical lists icon. in the Hybrid Controls related list as well. Additionally, you can also do the above three actions – Convert to Self implemented, Convert to Inherited, and Change Provider – from the Controls related list.
+    You can use the select the same icon in the Hybrid Controls related list as well to view the lists. Additionally, you can also do the above three actions – Convert to Self implemented, Convert to Inherited, and Change Provider – from the Controls related list.
 
     From the Implement state you can move back to the Select state. When you do so, all the controls that were active and created in the Implement state will be deleted or retired. When you are in Select state, you can modify the setup for all the hybrid controls and generate controls once again.
 

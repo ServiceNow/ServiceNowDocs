@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/ra-csm-guidances-share-kb-in-msg.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Guidances, Recommended Actions, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---

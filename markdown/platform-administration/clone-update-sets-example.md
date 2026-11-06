@@ -1,18 +1,18 @@
 ---
 title: Handling a large amount of in-progress update sets
-description: You can batch a large group of update sets in the Clone Admin Console.
+description: Batch in-progress update sets before a clone to preserve active development work across source and target instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/clone-update-sets-example.html
 release: zurich
 topic_type: task
-last_updated: "2025-10-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage, Instance Clone, Configure core features, Administer]
+breadcrumb: [Manage, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Handling a large amount of in-progress update sets
 
-You can batch a large group of update sets in the Clone Admin Console.
+Batch in-progress update sets before a clone to preserve active development work across source and target instances.
 
 ## Before you begin
 
@@ -36,7 +36,7 @@ Role required: clone\_admin
 
 8.  On your source instance, retrieve the update set.
 
-    **Important:** \(Important: Don’t commit!\)
+    **Important:** Don’t commit!
 
     The parent update set is added to the retrieved update sets on your source instance.
 
@@ -48,12 +48,10 @@ Role required: clone\_admin
 
     Because your parent update set has been retrieved in the backup. Your target instance will have your parent update set along with your dev work that is in flight after the clone.
 
-11. On the target instance, set the parent update set back to work in progress, and un-parent it.
+11. On the target instance, set the parent update set back to work in progress, and unparent it.
 
     Removing the parent update set enables you to continue only importing and exporting your in-progress work.
 
 12. On the source instance, the retrieved parent update set can be cleaned up or deleted.
 
-
-**Parent Topic:**[Managing Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/using-instance-clone.md)
 

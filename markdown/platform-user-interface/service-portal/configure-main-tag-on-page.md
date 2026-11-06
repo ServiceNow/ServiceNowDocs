@@ -7,7 +7,7 @@ release: zurich
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Improving search engine optimization for portals, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -51,7 +51,7 @@ The **&lt;main&gt;** tag is a semantic HTML element that contains the main conte
 
 In the HTML of the page, the **&lt;main&gt;** tag contains the container, row, or column. In Service Portal Designer, a **&lt;main&gt;** tag displays in the bottom-right corner of the element.
 
-\[Omitted image "main-tag.png"\] Alt text: Main tag
+\[Omitted image "main-tag.png"\] Alt text: Main tag configured for a page in Service Portal Designer
 
 **Parent Topic:**[Improving search engine optimization for portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/seo-sp.md)
 

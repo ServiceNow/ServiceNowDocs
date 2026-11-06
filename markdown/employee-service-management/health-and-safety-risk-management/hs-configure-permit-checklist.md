@@ -7,7 +7,7 @@ release: zurich
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure permit-to-work, Configure, Health and Safety Risk Management, Health and Safety, Employee Service Management]
 ---
@@ -86,7 +86,7 @@ Role required: admin and sn\_hs\_rm.permit\_coordinator
 
     3.  Select **Duplicate action** for the existing **Create permit checklist record** action.
 
-        The flows are built using ServiceNow Workflow Studio, so make sure you’re familiar with the [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/flow-designer-home-landing-page.md) basics.
+        The flows are built using ServiceNow Workflow Studio, so make sure you’re familiar with the [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/flow-designer.md) basics.
 
         For information on how to create or modify flows, see [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/create-flow.md).
 

@@ -7,7 +7,7 @@ release: zurich
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Operational Technology Manager, Operational Technology]
 ---
@@ -76,12 +76,12 @@ If you have an assigned cmdb\_ot\_viewer role, you can only view OT devices. If 
 
         **Note:** You can only bulk edit OT devices with the same **Class** field. You can't use the bulk edit feature for OT devices with different classes.
 
-    4.  To edit the configuration item \(CI\) fields, select the **Edit** button and edit the form fields as needed. \[Omitted image "edit-button.png"\] Alt text: The edit button in the Industrial Workspace list view header.
+    4.  To edit the configuration item \(CI\) fields, select the **Edit** button and edit the form fields as needed.
 
         **Note:** The maximum number of records that you can bulk edit the CI fields for is the records shown on a single page.
 
     5.  Click **Update**.
-    6.  To edit the OT device details, select the **Edit OT details** button and edit the form fields as needed.\[Omitted image "edit-ot-details.png"\] Alt text: The Edit OT details button in the Industrial Workspace list view header.
+    6.  To edit the OT device details, select the **Edit OT details** button and edit the form fields as needed.
 
         **Note:** Bulk editing OT details is a background job that can take time to complete. If the background job is busy, you can't bulk edit other OT device records.
 

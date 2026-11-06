@@ -7,9 +7,9 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, HR Service Delivery Integration with Workday, Integrate with third-party systems, HR Service Delivery, Employee Service Management]
+breadcrumb: [Reference - HR Service Delivery Integration with Workday, HR Service Delivery Integration with Workday, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
 # Components installed with HR Service Delivery Integration with Workday
@@ -119,7 +119,7 @@ Workday Configuration Pull To-Dos\[sn\_hr\_workday\_pull\_todo\_config\]
 Stores parameters or inputs which help in setting up the todos configuration.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[HR Service Delivery Integration with Workday Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hrsd-int-workday-reference.md)
+</table>**Parent Topic:**[Reference - HR Service Delivery Integration with Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hrsd-int-workday-reference.md)
 
 **Related topics**  
 

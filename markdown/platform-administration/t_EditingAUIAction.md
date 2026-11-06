@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/t\_EditingAUIAction.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 5
-breadcrumb: [UI actions, Administer, Form administration, Forms, fields, and lists, Configure core features, Administer]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [UI actions, Administer, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create a UI action
@@ -46,7 +46,7 @@ Name
 
 </td><td>
 
-The text that appears on the button, link, or context menu item.
+The text that appears on the button, link, or context menu item.**Note:** If the Action name and Name fields are both exactly the same in two different UI actions, they will be de-duplicated at runtime to prevent users from seeing two of the same actions.
 
 </td></tr><tr><td>
 
@@ -70,7 +70,7 @@ Action name
 
 </td><td>
 
-A unique name to use when referencing the UI action in scripts.
+A unique name to use when referencing the UI action in scripts.**Note:** If the Action name and Name fields are both exactly the same in two different UI actions, they will be de-duplicated at runtime to prevent users from seeing two of the same actions.
 
 </td></tr><tr><td>
 

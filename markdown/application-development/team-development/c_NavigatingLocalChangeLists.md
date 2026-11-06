@@ -1,70 +1,28 @@
 ---
 title: Local change lists
-description: On the team dashboard, the local changes list shows the local changes that haven’t been queued for the next push or ignored for all pushes.
+description: On the team dashboard, the Local Changes list shows the local changes that have not been queued for the next push or ignored for all pushes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/c\_NavigatingLocalChangeLists.html
 release: zurich
 product: Team Development
 classification: team-development
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Team dashboard, Explore, Team Development, Planning your application, Building applications]
+breadcrumb: [Explore, Team Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Local change lists
 
-On the team dashboard, the local changes list shows the local changes that haven’t been queued for the next push or ignored for all pushes.
+On the team dashboard, the Local Changes list shows the local changes that have not been queued for the next push or ignored for all pushes.
 
-The Ready to Push list shows the changes that are queued, and the Ignored list shows the changes that are ignored.
+The Ready to Push list shows the changes that are queued, and the Ignored list shows the changes that are ignored. Use any of these methods to navigate a list of local changes.
 
-<table id="table_arv_c2c_bq"><thead><tr><th>
+|Action|Option|
+|------|------|
+|Click the reference icon beside the row|To open the local change record itself.|
+|Click the link in the first column|To open the customized record.|
+|Right-click the row and select **Show Changes Since Last Pull**. An error message appears if a previous version does not exist \(for example, in the case of a newly created record\). If a previous version is available, you can revert to that version from the comparison window|To view a comparison between the current local version and the version most recently pulled from or pushed to the parent.|
+|Right-click the row and select **Show Application File**|To open the application file for the customized record.|
+|Right-click the row and select **Show Version**|To open the current version record.|
 
-Action
-
-</th><th>
-
-Option
-
-</th></tr></thead><tbody><tr><td>
-
-Select the reference icon beside the row
-
-</td><td>
-
-Opens the local change record.
-
-</td></tr><tr><td>
-
-Select the link in the first column
-
-</td><td>
-
-Opens the customized record.
-
-</td></tr><tr><td>
-
-Select and hold \(or right-click\) the row and select **Show Changes Since Last Pull**. **Note:** If a previous version doesn’t exist, an error message appears. If a previous version is available, you can revert to that version from the comparison window.
-
-</td><td>
-
-View a comparison between the current local version and the parent version.
-
-</td></tr><tr><td>
-
-Select and hold \(or right-click\) the row and select **Show Application File**
-
-</td><td>
-
-Opens the application file for the customized record.
-
-</td></tr><tr><td>
-
-Select and hold \(or right-click\) the row and select **Show Version**
-
-</td><td>
-
-Opens the current version record.
-
-</td></tr></tbody>
-</table>

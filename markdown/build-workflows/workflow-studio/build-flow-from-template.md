@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-08-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Getting started, Flows, Explore, Workflow Studio, Build workflows]
+breadcrumb: [Getting started, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Build a flow from a template in App Engine Studio
@@ -18,7 +18,7 @@ Step through an example of how to build, test, and activate a flow using a flow 
 
 ## Before you begin
 
-Create an application in App Engine Studio. Once your application is built, you can use flow templates to create flows. For more information, see Building applications in App Engine Studio.
+Create an application in App Engine Studio. Once your application is built, you can use flow templates to create flows. For more information, see [Building applications in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/aes-app-creation.md).
 
 Role required: admin, flow\_designer, or delegated\_developer
 
@@ -104,6 +104,4 @@ To help you get started with building a flow from a flow template, follow along 
 ## What to do next
 
 Your flow is now active and will run whenever it's triggered. Next, you can manage your flow every time it runs by viewing your flow's execution history. To view this history, click **Executions** in the main header. The resulting page shows you the state of completion for each flow execution as well as how long it took for each flow execution to run, or its runtime. To troubleshoot a flow execution for errors, select an execution from this list to open the [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-execution-details.md).
-
-**Parent Topic:**[Getting started with flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/getting-started-flow.md)
 

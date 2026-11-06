@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/config-b2b2c-data-model-lists.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Customer Data Models for B2B2C, Data models, Set up your environment, Configure, Customer Service Management]
+breadcrumb: [Configure customer data models for B2B2C, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Configure the Install Base Items and Sold Products lists
@@ -22,13 +22,13 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Customer Service** &gt; **Products** &gt; **Install Base Items**.
 
-2.  Select **View** &gt; **Self-Service** from the Additional Actions menu \[Omitted image "icon-menu.png"\] Alt text: Additional actions menu..
+2.  Select **View** &gt; **Self-Service** from the Additional Actions menu \[Omitted image "icon-menu.png"\] Alt text: additional actions menu.
 
-3.  Click the gear icon \(\[Omitted image "gear.png"\] Alt text: Gear icon.\).
+3.  Select the gear icon \(\[Omitted image "gear.png"\] Alt text: Gear icon.\).
 
 4.  Select the Account, Contact, and Consumer fields in the **Available** column and move them to the **Selected** column.
 
-5.  Click **OK**.
+5.  Select **OK**.
 
 6.  Navigate to **Customer Service** &gt; **Products** &gt; **Sold Products**.
 

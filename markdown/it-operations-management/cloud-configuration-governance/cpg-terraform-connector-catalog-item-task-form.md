@@ -1,5 +1,5 @@
 ---
-title: Cloud Services Catalog Terraform Connector IAC Catalog Item Task form reference
+title: Cloud Services Catalog Terraform Connector Terraform Catalog Item Task form reference
 description: Use the Terraform Catalog Item Task form to specify the action you want to take to resolve the catalog item change task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-catalog-item-task-form.html
@@ -7,12 +7,12 @@ release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Cloud Services Catalog Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
-# Cloud Services Catalog Terraform Connector IAC Catalog Item Task form reference
+# Cloud Services Catalog Terraform Connector Terraform Catalog Item Task form reference
 
 Use the Terraform Catalog Item Task form to specify the action you want to take to resolve the catalog item change task.
 

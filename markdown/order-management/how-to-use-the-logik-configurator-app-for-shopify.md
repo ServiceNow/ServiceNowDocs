@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/how-to-use-the-logik-configurator-app-for-shopify.html
 release: zurich
 topic_type: concept
-last_updated: "2025-11-07"
+last_updated: "2026-03-12"
 reading_time_minutes: 8
 breadcrumb: [ServiceNow CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
@@ -23,7 +23,7 @@ The ServiceNow CPQ app for Shopify is a fully featured connector for a Shopify s
 
 The ServiceNow CPQ app for Shopify is free to download on the Shopify app store:
 
-[Logik‑ Product Configuration](https://apps.shopify.com/logik-1)
+[Product Configuration](https://apps.shopify.com/logik-1)
 
 ## Setup
 
@@ -31,20 +31,20 @@ After downloading the ServiceNow CPQ app it will automatically appear in the App
 
 To start using the app, the ServiceNow CPQ environment details and a token must be entered in the ServiceNow CPQ settings section of the app landing screen. For more information about creating a ServiceNow CPQ token, see [Set up a runtime client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cpq-set-up-a-runtime-client.md).
 
-**Note:** Ensure the storefront and the Admin URLs are added as an origin for the token. All stores should also include the following static URL to their list of origins: [https://shpfy-connect.ecommerce.logik.io](https://shpfy-connect.ecommerce.logik.io/).
+**Note:** Confirm the storefront and the Admin URLs are added as an origin for the token. All stores should also include the following static URL to their list of origins: [https://shpfy-connect.ecommerce.logik.io](https://shpfy-connect.ecommerce.logik.io).
 
 ## ServiceNow CPQ app Admin screen overview
 
 \[Omitted image "cpq-app-admin-screen.png"\] Alt text: Admin screen overview
 
--   **Logik Settings**: Logik environment settings which is required in order for the configurator to display
+-   **ServiceNow CPQ Settings**: ServiceNow CPQ environment settings which is required in order for the configurator to display
 -   Instructions: This block summarizes at a high level what is needed for a configurable product. The ‘Add to Current Themeʼ button will also automatically place the app block on the product page template.
--   Configurable Products: Redirects to a page for **Logik enabled products** in the store catalog
--   Order Configuration: Redirects to a Logik specific create order page so that an Admin can add a Logik configurable product to an order
+-   Configurable Products: Redirects to a page for **ServiceNow CPQ enabled products** in the store catalog
+-   Order Configuration: Redirects to a ServiceNow CPQ specific create order page so that an Admin can add a ServiceNow CPQ configurable product to an order
 
 ## Managing products
 
-When the app is installed and the **Logik settings** have been successfully saved, an automated catalog sync will begin and the custom ServiceNow CPQ attribute is added to the product details Admin page.
+When the app is installed and the **ServiceNow CPQ settings** have been successfully saved, an automated catalog sync begins. The custom ServiceNow CPQ attribute is added to the product details Admin page.
 
 ## Product catalog synchronization
 
@@ -58,7 +58,7 @@ Products from Shopify will appear on the Products and Configurable Products tabl
 
 ## Configurable products
 
-In order for a product to appear on the Configurable Products table as well the configurator to display, a product must have **Logik is Configurable** attribute set to True.
+In order for a product to appear on the Configurable Products table as well the configurator to display, a product must have **ServiceNow CPQ is Configurable** attribute set to True.
 
 \[Omitted image "cpq-cps.png"\] Alt text: metafields\[Omitted image "cpq-cps-1.png"\] Alt text: configurable products
 
@@ -72,21 +72,21 @@ When a user is logged in from an included company location, ServiceNow CPQ prici
 
 The ServiceNow CPQ Configurator can be added to any page via an included app block through the page editor. The app block is automatically added to your store when the app is installed. You can find the block under apps when adding a new page section.
 
-The look and feel of the **Logik configurator** is managed in ServiceNow CPQ Admin through use of the layout editor. However, there are additional options in the ServiceNow CPQ app block. If you encounter issues where the Font is too small or large, that can be modified in the app block settings along with spacing.
+The look and feel of the **ServiceNow CPQ configurator** is managed in ServiceNow CPQ Admin through use of the layout editor. However, there are additional options in the ServiceNow CPQ app block. If you encounter issues where the Font is too small or large, that can be modified in the app block settings along with spacing.
 
 ## Product Pages
 
 For product pages, the ServiceNow CPQ app landing page has a shortcut to directly add the app block to the product page template.
 
-The default behavior on a product page is to use the current product as the configurable product. If the product is **Logik configurable**, the configurator will display. If not, the app block will remain hidden.
+The default behavior on a product page is to use the current product as the configurable product. If the product is **ServiceNow CPQ configurable**, the configurator will display. If not, the app block will remain hidden.
 
-However, it is best practice to create a specific template for a **Logik enabled product** page since modifications to the page content besides the app block could be needed.
+However, it is better to create a specific template for a **ServiceNow CPQ enabled product** page, since modifications to the page content besides the app block could be needed.
 
 \[Omitted image "cpq-product-pages.png"\] Alt text: App block instructions for a product page
 
 ## Content pages
 
-When adding a **Logik configurator** to a non-product page, a specific product must be selected for use.
+When adding a **ServiceNow CPQ configurator** to a non-product page, a specific product must be selected for use.
 
 By default, a select option will be displayed. When clicked, a list of all products will be shown. Either click a product or enter a search term. Once selected, the product will be displayed in the app block settings.
 
@@ -94,7 +94,7 @@ To change the product used, click the current product then click ‘Replaceʼ to
 
 ## Add to Cart vs Add to Order
 
-The **Logik configurator** app block provides two options for how it will function. Either the app will add the configuration to the customerʼs cart directly, or a draft order of the configuration can be created for the customer. To control the behavior of the configurator on the page, the option ‘Checkout As Draft Orderʼ can be enabled or disabled.
+The **ServiceNow CPQ configurator** app block provides two options for how it will function. Either the app will add the configuration to the customerʼs cart directly, or a draft order of the configuration can be created for the customer. To control the behavior of the configurator on the page, the option ‘Checkout As Draft Orderʼ can be enabled or disabled.
 
 When enabled, a customer will need to be logged in. If the customer is currently logged out, the configurator will not be shown and instead a message to inform the customer to login is displayed. Once logged in, the customer can complete the configuration as usual. After completing the configuration, the configurator will close and display a success message. This configuration will then show as a draft order in the Shopify orders screen in the Admin. The customerʼs email used to login will be included in the order.
 
@@ -106,9 +106,9 @@ If the setting is disabled, once the configuration is completed. All items inclu
 
 Configurable Products List:
 
-On the Logik app landing page, once the ServiceNow CPQ credentials have been saved, a configurable product section is shown.
+On the ServiceNow CPQ app landing page, once the ServiceNow CPQ credentials have been saved, a configurable product section is shown.
 
-Clicking into the page will display a list of all products that are **Logik configurable** and any variants.
+Clicking into the page will display a list of all products that are **ServiceNow CPQ configurable** and any variants.
 
 On the Configurable Products page, each product has two buttons. The details button redirects the Shopify user to that productʼs details page in the Shopify Admin so they can edit any product details.
 
@@ -130,7 +130,7 @@ From the order page, the user can complete the order like any other Shopify orde
 
 ## Editing a Configurable Product in a draft order
 
-On the draft order page, a Shopify user can edit a Logik configurable product that is included in the order. The user will select the product from the dropdown then click the ‘Reconfigureʼ button, which will redirect to the create draft order page.
+On the draft order page, a Shopify user can edit a ServiceNow CPQ configurable product that is included in the order. The user will select the product from the dropdown then click the ‘Reconfigureʼ button, which will redirect to the create draft order page.
 
 \[Omitted image "cpq-draft-order3.png"\] Alt text: Editing a Configurable Product in a draft order
 
@@ -142,15 +142,15 @@ The ServiceNow CPQ Shopify app is not required for users who wish to integrate S
 
 Here are some considerations when using the app for your headless implementation:
 
-The app will streamline the setup with ServiceNow CPQ and reduce the overall need for custom middleware by providing a product sync between platforms, a custom ServiceNow CPQ Configurable product attribute and Draft Order functionality.
+The app streamlines the setup with ServiceNow CPQ and reduces the overall need for custom middleware. It provides a product sync between platforms, a custom ServiceNow CPQ Configurable product attribute, and Draft Order functionality.
 
 A Custom UI can be used in place of the ServiceNow CPQ app block which is completely optional.
 
-Saving a configuration, even heedlessly, will trigger the ServiceNow CPQ add to cart function which facilitates dynamic pricing and attributes Automated add to cart on save can be disabled through a DevOps request.
+Saving a configuration automatically triggers the ServiceNow CPQ add to cart function, which facilitates dynamic pricing and attributes. You can disable automated add to cart on save through a DevOps request.
 
 ## Clearing app settings
 
-In any case where you need to clear the app settings, they can be manually deleted in your Shopify store settings: Go to the Metafields and metaobjects page and select **logikconfig**.
+In any case where you need to clear the app settings, they can be manually deleted in your Shopify store settings: Go to the Metafields and metaobjects page and select **ServiceNow CPQconfig**.
 
 Click the ‘More Actionsʼ drop down menu and click ‘Delete metaobjectʼ.
 

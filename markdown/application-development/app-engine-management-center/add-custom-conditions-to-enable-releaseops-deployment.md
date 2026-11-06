@@ -7,9 +7,9 @@ release: zurich
 product: App Engine Management Center
 classification: app-engine-management-center
 topic_type: task
-last_updated: "2025-11-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Migration tasks, Configure Pipelines and Deployments, Configure, App Engine Management Center, Governing app development, Building applications]
+breadcrumb: [Migration tasks, Configure Pipelines and Deployments, Configure, App Engine Management Center, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Add custom conditions to enable ReleaseOps deployments
@@ -36,4 +36,6 @@ Role required: admin or app\_engine\_admin
 
     -   [Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/using-decision-builder.md)
     -   [Modify decision table rules in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/modify-decision-table-rules.md)
+
+**Parent Topic:**[Migration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-management-center/migration-tasks-aemc.md)
 

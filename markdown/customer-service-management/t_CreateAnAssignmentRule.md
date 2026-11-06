@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_CreateAnAssignmentRule.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure case routing and assignment, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Configure case routing and assignment, Route and assign cases, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Create an assignment rule for case routing
@@ -16,7 +16,7 @@ Create a rule that assigns those cases that meet the matching rule criteria to a
 
 ## Before you begin
 
-Role required: admin
+Role required: assignment\_rule\_admin
 
 ## Procedure
 
@@ -78,7 +78,7 @@ Table
 
 </td><td>
 
-The table that stores the task for which the assignment rule is being created. This list shows only those tables and database views that are in the same scope as the assignment rule. If you select a custom table that extends the task table, you must clear the instance cache by navigating to `https://<instance_name>.service-now.com/cache.do` for the assignment rule to work.
+The table that stores the task for which the assignment rule is being created. This list shows only those tables and database views that are in the same scope as the assignment rule. If you select a custom table that extends the task table, you must clear the instance cache by navigating to `https://<instance_name>.service-now.com/cache.do` in order for the assignment rule to work.
 
 **Warning:** Clearing the system cache can affect overall performance, and degrade system response times. Don’t run cache flushes during business hours, and don’t trigger cache flushes automatically.
 
@@ -88,7 +88,7 @@ Conditions
 
 </td><td>
 
-The conditions in which the assignment rule applies.Use the buttons in this field to build one or more conditions on the selected table. A condition is made up of a selected field, an operator, and a value. Add conditions using the **AND** and **OR** buttons. Delete conditions by selecting the **X** icon.
+The conditions in which the assignment rule will apply.Use the buttons in this field to build one or more conditions on the selected table. A condition is made up of a selected field, an operator, and a value. Add conditions using the **AND** and **OR** buttons. Delete conditions by selecting the **X** to the right of a condition.
 
 </td></tr><tr><td class="subhead" colspan="2">
 
@@ -100,7 +100,7 @@ User
 
 </td><td>
 
-User to be assigned to the task.
+The user to be assigned to the task.
 
 </td></tr><tr><td>
 

@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/expl
 release: zurich
 topic_type: concept
 last_updated: "2026-09-30"
-reading_time_minutes: 3
-breadcrumb: [Integrations, Unified Security Exposure Management, Security Operations]
+reading_time_minutes: 2
+breadcrumb: [Integrate, Unified Security Exposure Management, Security Operations]
 ---
 
 # Cisco AI Defense integration for AI security exposure management
@@ -77,11 +77,4 @@ Navigate to **All** &gt; **Cisco AI Defense Integration** &gt; **Integrations**
 |Cisco AI Defense Policy Details Integration|Retrieves policy details|
 |Cisco AI Defense Scan Details Integration|Retrieves detailed model vulnerability scan findings|
 |Cisco AI Defense Scans Integration|Retrieves vulnerability scan summaries|
-
--   **[Install the Vulnerability Response Integration with Cisco AI Defense](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/install-cisco-ai-defense-integration.md)**  
-Install and configure the ServiceNow AI Platform Integration with Cisco AI Defense application in your ServiceNow AI Platform® instance to import scan results and model validation data from Cisco AI Defense.
--   **[Vulnerability Response Integration with Cisco AI Defense data mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/use-cisco-ai-defense-integration.md)**  
-View and work with imported data from the Vulnerability Response Integration with Cisco AI Defense scan results and model validation data on records and dashboards in your ServiceNow AI Platform instance.
-
-**Parent Topic:**[Unified Security Exposure Management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/integrating-usem.md)
 

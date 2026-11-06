@@ -1,5 +1,5 @@
 ---
-title: Double check inbound transactions \[Updated in Security Center 1.3\]
+title: Double check inbound transactions
 description: Use the glide.security.strict.updates property to enable double-checking of security on inbound transactions during form submission. When you set this property to true, it adds an extra layer of table validation before a form renders in the browser.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-double-check-inbound-transactions.html
@@ -7,36 +7,115 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Double check inbound transactions \[Updated in Security Center 1.3\]
+# Double check inbound transactions
 
 Use the **glide.security.strict.updates** property to enable double-checking of security on inbound transactions during form submission. When you set this property to **true**, it adds an extra layer of table validation before a form renders in the browser.
 
-Ensure the property **glide.security.strict.updates** exists in the sys\_properties table and is set to true.
+The **glide.security.strict.updates** system property provides an extra layer of security on form submission / field updates by ensuring only users with the proper permissions are allowed to update a form. If **glide.security.strict.updates** is not set to the recommended value of **true**, then updates are not strict meaning they are able to modify fields visible to them regardless of whether they have the appropriate permissions.
 
-## More information
+Ensure that the property **glide.security.strict.updates** exists in the System Properties \[sys\_properties\] table and is set to "true".
 
 **Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It is non-revertible.
 
-|Attribute|Description|
-|---------|-----------|
-|Property name|**glide.security.strict.updates**|
-|Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)|
-|Purpose|To ensure an added layer of verification of user permissions before presenting the form in the browser.|
-|Data type|Boolean|
-|Recommended value|true|
-|Default value|true|
-|Security risk rating|8.1|
-|Functional impact|This remediation adds an extra layer of validation to check for user permissions on the target table/page on the instance. As long as the access controls are set appropriately on the customer instance, there should be no impact.|
-|Security risk|\(High\) You should always check access request when transactions happen between two zones. This operation checks for permissions when the form is requested and before form rendering happens.|
-|References||
+## More information
 
-To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+<table id="table_ajc_b43_3kb"><thead><tr><th>
+
+Attribute
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Configuration name
+
+</td><td>
+
+**glide.security.strict.updates**
+
+</td></tr><tr><td>
+
+Configuration type
+
+</td><td>
+
+System Properties \(/sys\_properties\_list.do\)
+
+</td></tr><tr><td>
+
+Data type
+
+</td><td>
+
+Boolean
+
+</td></tr><tr><td>
+
+Recommended value
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
+Default value
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
+
+</td></tr><tr><td>
+
+Security risk
+
+</td><td>
+
+-   Severity score: 8.1
+-   CVSS rating: High
+-   Security risk details: Users may be able to update form fields simply by having visibility into them, regardless of their actual permissions, creating a risk of unauthorized data modification and privilege escalation.
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+Dependencies and prerequisites
+
+</td><td>
+
+None
+
+</td></tr></tbody>
+</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 **Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

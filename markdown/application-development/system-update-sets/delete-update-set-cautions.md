@@ -1,28 +1,30 @@
 ---
-title: Cautions about deleting update sets
-description: Deleting an update set is a bad practice. To revert a customization, back out the update set rather than deleting it.
+title: Important considerations before deleting update sets
+description: Revert a customization, back out the update set rather than deleting it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/system-update-sets/delete-update-set-cautions.html
 release: zurich
 product: System Update Sets
 classification: system-update-sets
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Transfers, System update sets, Deploying applications, Building applications]
+breadcrumb: [Reference, System update sets, Deploying applications, Classic app development, Building applications]
 ---
 
-# Cautions about deleting update sets
+# Important considerations before deleting update sets
 
-Deleting an update set is a bad practice. To revert a customization, back out the update set rather than deleting it.
+Revert a customization, back out the update set rather than deleting it.
 
-Administrators can delete an update set only when it is not the current update set and it is empty \(no `sys_update_xml` entries are associated with it\). For example, after merging update sets, you might want to delete the original sets. This function is restricted by an access control rule \(ACL\) on the Update Set \[sys\_update\_set\] table.
+Administrators can delete an update set only when it isn’t the current update set and contains no sys\_update\_xml entries. For example, after merging update sets, you might want to remove the original sets. This capability is governed by an access control rule \(ACL\) applied to the sys\_update\_set table.
 
-Do not delete `sys_update_xml` entries, because this action:
+Don’t delete sys\_update\_xml entries, because this action:
 
--   Does not undo the updates.
+-   Doesn’t undo the updates.
 -   Removes any record of who applied the customizations.
--   Removes the `sys_update_xml` entries associated with the update set, so customizations are overwritten when the instance is upgraded.
+-   Removes the sys\_update\_xml entries associated with the update set, so customizations are overwritten when the instance is upgraded.
 
-When you try to delete an update entry, a warning message appears. Click **OK** to confirm the deletion.
+When you try to delete an update entry, a warning message appears. Select **OK** to confirm the deletion.
+
+**Parent Topic:**[Update sets reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/update-sets-reference.md)
 

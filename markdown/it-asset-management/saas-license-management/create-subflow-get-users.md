@@ -7,9 +7,9 @@ release: zurich
 product: SaaS License Management
 classification: saas-license-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [SaaS License Connections, SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [SaaS License Connections, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a subflow to get users
@@ -20,7 +20,7 @@ Create a subflow to add a list of users to the Software Subscription table.
 
 This subflow requires a data stream action to get users. For more information, see [Create a data stream action to get users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/create-data-stream-action-slc.md).
 
-Role required: flow\_designer or admin
+Role required: flow\_designer
 
 ## About this task
 

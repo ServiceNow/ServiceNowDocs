@@ -7,9 +7,9 @@ release: zurich
 product: Procurement
 classification: procurement
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Sourcing items in a service catalog request, Procurement, Asset Management, IT Service Management]
+breadcrumb: [Sourcing items in a service catalog request, Procurement, Asset Management common applications, IT Service Management]
 ---
 
 # Add an assignment from a request

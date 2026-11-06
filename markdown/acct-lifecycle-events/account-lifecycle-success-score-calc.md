@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-success-score-calc.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create a success blueprint, Create a success blueprint template, Customer success, Configure, Customer Success Management]
+breadcrumb: [Manage engagements, Customer success, Use, Customer Success Management]
 ---
 
 # Measure success rate
@@ -19,18 +19,18 @@ Measure and track the effectiveness and completion of success objectives and out
 When a success outcome has been completed, you can close the record, update the status, and verify the values in the success outcome template.
 
 1.  Navigate to the `Success blueprint` tab on the Engagement page.
-2.  Select an objective and select the \[Omitted image "open-link-right-outline-24.svg"\] Alt text: icon to drill down to the Success Objective page.
+2.  Select an objective and then select the \[Omitted image "open-link-right-outline-24.svg"\] Alt text: icon to drill down to the Success Objective page.
 3.  Select a Success outcome from the list and select **Edit** to drill down to the Success Outcome page.
 4.  Update the State field to `Closed`.
 5.  Select the Closure code from the drop down list:
     -   Achieved: If you select this option, it indicates that the outcome was successfully achieved and the success rate is set to 1.
-    -   Missed: This option indicates that the outcome wasn’t met. The success rate is set to 0.
+    -   Missed: This option indicates that the outcome was not met. The success rate is set to 0.
     -   Canceled: If the Closure code to set Canceled, the success rate is skipped for this outcome.
     -   Partially achieved: If the outcome is partially achieved, the success rate is set to 0.5
 6.  Enter the Close notes and select **Save**. Once an outcome has been closed, navigate back to the Success Objective page. You can see that the status of the success outcome is set to `Completed` and the `value realized` percentage has been updated.
 7.  Follow these steps to close all success outcomes for the selected objective.
 
-    **Note:** The success score of an objective is the average score of all closed and partially closed outcomes associated with that objective. Only outcomes generated from the success outcome templates are used to calculate the score. Manually created outcomes aren’t included.
+    **Note:** The success score of an objective is the average score of all closed and partially closed outcomes associated with that objective. Only outcomes generated from the success outcome templates are used to calculate the score. Manually created outcomes are not included.
 
     For example, if an objective has three outcomes with following closure states:
 
@@ -50,5 +50,5 @@ The success objective template rate is the average of the scores of all the asso
 
 In this case, the success score or the average is 60%.
 
-**Parent Topic:**[Create a success blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-blueprint.md)
+**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-manage-engage.md)
 

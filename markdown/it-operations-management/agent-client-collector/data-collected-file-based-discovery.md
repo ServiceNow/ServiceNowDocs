@@ -1,5 +1,5 @@
 ---
-title: Data collected during Agent Client Collector for Visibility Content file-based Discovery
+title: Data collected during Agent Client Collector for Visibility Content File-Based Discovery
 description: The following tables describe the data collected during Agent Client Collector for Visibility Content file-based Discovery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/data-collected-file-based-discovery.html
@@ -7,12 +7,12 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Agent Client Collector for Visibility Content reference, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC-VC reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
 
-# Data collected during Agent Client Collector for Visibility Content file-based Discovery
+# Data collected during Agent Client Collector for Visibility Content File-Based Discovery
 
 The following tables describe the data collected during Agent Client Collector for Visibility Content file-based Discovery.
 
@@ -263,8 +263,10 @@ Reference to the \[cmdb\_ci\] table
 |Host CI|Reference to the \[cmdb\_ci\_computer\] table|
 |File information|Provides a reference to the \[cmdb\_file\_information\] table. Relevant only for file-based discovery \(FBD\); in pattern-based discovery, this field remains empty.|
 
+**Parent Topic:**[Agent Client Collector for Visibility Content reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/agent-client-collector-for-visibility-references.md)
+
 **Related topics**  
 
 
-[Discover java installation data using Agent Client Collector for Visibility Content file-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-file-based-discovery.md)
+[Discover Java installation data using Agent Client Collector for Visibility Content File-Based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-file-based-discovery.md)
 

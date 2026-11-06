@@ -259,6 +259,20 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_risk\_admin
 
 </td></tr><tr><td>
 
+Set up Smart Assessment Response Assist skill
+
+</td><td>
+
+This task is optional.
+
+ Set up the Smart Assessment Response Assist skill to generate initial draft responses from vendor documents and previously completed assessments. The skill works at the template category level.
+
+ Install ServiceNow Otto for Smart Assessment Engine \(SAE\) and activate the Smart Assessment Response Assist skill, then configure template categories for document-assisted drafting in TPRM.
+
+ For more information, see [Activate smart assessment response assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/activate-smart-assessment-response-assist-skill.md) and [Configure AI-assisted questionnaire pre-fill for TPRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-dms-sae-config.md).
+
+</td></tr><tr><td>
+
 Activate Software Bill of Materials \(SBOM\) support.
 
 </td><td>

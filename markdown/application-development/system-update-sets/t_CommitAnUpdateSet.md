@@ -1,51 +1,55 @@
 ---
 title: Commit an update set
-description: When you have previewed an update set and have resolved any issues, commit the update set. Committing an update set applies all changes to the instance and creates a local copy of the update set that contains an update record for every change.
+description: After resolving any issues from previewing, commit the update set to apply all changes and generate a local copy with records of each update.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/system-update-sets/t\_CommitAnUpdateSet.html
 release: zurich
 product: System Update Sets
 classification: system-update-sets
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Transfers, System update sets, Deploying applications, Building applications]
+breadcrumb: [Working with update sets, System update sets, Deploying applications, Classic app development, Building applications]
 ---
 
 # Commit an update set
 
-When you have previewed an update set and have resolved any issues, commit the update set. Committing an update set applies all changes to the instance and creates a local copy of the update set that contains an update record for every change.
+After resolving any issues from previewing, commit the update set to apply all changes and generate a local copy with records of each update.
 
 ## Before you begin
 
-Role required: admin.
+Role required: admin
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Update Sets** &gt; **Retrieved Update Sets** and open the update set.
 
-2.  Resolve any problems.
+2.  **Note:** You can’t commit an update set until all problems are resolved.
 
-    You cannot commit an update set until all problems are resolved.
+    Resolve any problems with the update set.
 
-3.  Click **Commit Update Set**.
+3.  Select **Commit Update Set**.
 
-    -   Click **Cancel** to return to the preview and reevaluate the change. None of the updates are committed.
-    -   Click **OK** to skip the change and continue committing the changes that are marked as **Commit**.
-    If the update set contains one or more DELETEs for schema, the system displays a warning. The warning lists up to five updates that may contain problems. If more than five updates have potential problems, the system provides a link.
+    1.  Select **Cancel** to return to the preview and reevaluate the change.
 
-    When the system successfully commits an update set, it displays a completion page.
+    2.  Select **OK** to skip the change and continue committing the changes that are marked as **Commit**.
 
-4.  Click **Commit log** on the confirmation page, or navigate to **System Update Sets** &gt; **Update log** and filter for the update set name.
+    If the update set contains one or more deletes, the system displays a warning. The warning lists up to five updates that may contain problems. If more than five updates have potential problems, the system provides a link.
 
-    -   Look for warnings that contain the text **unsafe edit**. The system automatically skips any changes that results in data loss, such as changing the type of a field that contains data. You must manually make any of these changes, if necessary. Use caution when making changes that affect production data.
-    -   Look for errors that indicate which records failed to commit and why. Create a new update set to address those failures, if necessary.
-5.  When you are no longer working on the update set but do not want it transferred to another instance, navigate to **System Update Sets** &gt; **Local Update Sets** and open the local update set record.
+4.  When the system successfully commits an update set, it displays a completion page.
 
-    Change the State to **Ignore**.
+5.  Select **Commit log** on the confirmation page.
+
+    1.  Navigate to **System Update Sets** &gt; **Update log** and filter for the update set name.
+
+    2.  Look for unsafe edit warnings.
+
+        The system helps prevent changes that could cause data loss, like changing a field type with existing data. Make changes manually if needed, and use caution when updating production data. Look for errors that indicate which records failed to commit and why. Create an update set to address those failures, if necessary.
+
+6.  Navigate to **System Update Sets** &gt; **Local Update Sets** and open the local update set record to review the changes.
+
+7.  Change the state to **Ignore** when you’re no longer working on the update set, but don’t want it transferred to another instance.
 
 
-## What to do next
-
-For completed update set on the production instance, you should always change the state to **Ignore**. This state ensures that the update set is not committed again when cloning the instance.
+**Parent Topic:**[Working with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/using-system-update-sets.md)
 

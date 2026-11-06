@@ -7,10 +7,10 @@ release: zurich
 product: Agent Chat
 classification: agent-chat
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Setup, Agent Chat, live agents]
-breadcrumb: [Configuring Agent Chat, Agent Chat, Conversational Interfaces]
+breadcrumb: [Configure, Agent Chat, Conversational Interfaces]
 ---
 
 # Setting up Agent Chat

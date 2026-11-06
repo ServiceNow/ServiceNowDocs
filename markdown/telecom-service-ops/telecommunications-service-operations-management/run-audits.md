@@ -7,7 +7,7 @@ release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Use, Telecommunications Service Operations Management]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-The Telecom Discrepancy Audit is part of the CMDB Compliance framework and supports phased auditing to detect and address discrepancies in CI relationships and attributes discovered through ServiceNow Discovery or Service Graph Connectors \(for example, Nokia Altiplano\).
+The Telecom Discrepancy Audit is part of the CMDB Compliance framework and supports phased auditing. It detects and addresses discrepancies in CI relationships and attributes discovered through ServiceNow Discovery or Service Graph Connectors \(for example, Nokia Altiplano\).
 
 You can run the audit manually or set it to run at regular intervals. During manual execution, you can select from existing filters to limit the audit scope to specific CIs—helpful for testing or targeted reconciliation.
 
@@ -144,9 +144,9 @@ After remediation:
 
 [Discrepancy identification – types of discrepancies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/discrepancy-identification-types-of-discrepancies.md)
 
-[System components installed with Telecom Discrepancy Identification &amp; Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/system-properties-affecting-telecom-discrepancy-identification-reconciliation.md)
+[Telecom discrepancy identification and reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/system-properties-affecting-telecom-discrepancy-identification-reconciliation.md)
 
-[Activate Telecom Discrepancy Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/configure-telecom-reconciliation.md)
+[Activate Telecom Discrepancy and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/configure-telecom-reconciliation.md)
 
 [Defining UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_UIActions.md)
 

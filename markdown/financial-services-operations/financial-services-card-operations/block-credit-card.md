@@ -7,7 +7,7 @@ release: zurich
 product: Financial Services Card Operations
 classification: financial-services-card-operations
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Blocking a credit card, Use, Card Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -34,15 +34,15 @@ This credit card task is automatically created with a credit card service case f
 
 3.  Open the task from a credit card service case or from the Credit Card Task list.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d41616e117">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d42949e117">
 
 Option
 
-</th><th align="left" id="d41616e120">
+</th><th align="left" id="d42949e120">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d41616e126">
+</th></tr></thead><tbody><tr><td id="d42949e126">
 
 **From a credit card service case**
 
@@ -53,7 +53,7 @@ Steps
 3.  In the case, click the **Tasks** tab and select the credit card task.
 
 
-</td></tr><tr><td id="d41616e159">
+</td></tr><tr><td id="d42949e159">
 
 **From the Credit Card Task list**
 

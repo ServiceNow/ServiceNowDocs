@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/make-notification-mandatory-provider.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create, Provider notifications, Notifications, Configure core features, Administer]
+breadcrumb: [Create, Provider notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Make a notification mandatory for provider framework
@@ -30,7 +30,7 @@ When you make a notification mandatory, the toggle button for that notification 
 
     **Note:** This field does not display by default.
 
-    1.  Select the context menu icon \(\[Omitted image "ContextMenu.png"\] Alt text: Context menu icon\) and select **Configure** &gt; **Form Layout.**
+    1.  Select the context menu icon \[Omitted image "additional-actions.png"\] Alt text: and select **Configure** &gt; **Form Layout.**
 
     2.  Select the **Mandatory** field and the order in which you want the field to appear.
 

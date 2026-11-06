@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/configuring-the-html-plugins-for-tinymce.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configure a field editor for the HTML field, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer]
+breadcrumb: [Configure a field editor for the HTML field, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Configuring plugins for the TinyMCE HTML editor
@@ -128,6 +128,14 @@ Adds a dialog to the editor that lets you insert emoji into the TinyMCE editable
 
 </td></tr><tr><td>
 
+formatpainter
+
+</td><td>
+
+Enables copying and applying formatting- including font style, size, and table styles- between locations within the TinyMCE editable area, supporting various formats like inline and block styles.
+
+</td></tr><tr><td>
+
 fullscreen
 
 </td><td>
@@ -228,7 +236,7 @@ table
 
 </td><td>
 
-Adds table management functionality to TinyMCE, including dialogs, context menus, context toolbars, menu items, and toolbar buttons.
+Adds table management functionality to TinyMCE , including dialogs, context menus, context toolbars, menu items, and toolbar buttons.
 
 </td></tr><tr><td>
 
@@ -317,6 +325,7 @@ Default value
 -   directionality
 -   editimage
 -   emoticons
+-   formatpainter
 -   fullscreen
 -   help
 -   image

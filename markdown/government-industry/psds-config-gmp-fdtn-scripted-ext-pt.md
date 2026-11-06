@@ -1,26 +1,24 @@
 ---
 title: Configure scripted extension points in Grants Management
-description: The grants management application uses a scripted extension point to publish grant programs. Implementing this extension point in the correct application scope lets a grant program move to the Accepting Applications state so that contacts and constituents can submit proposals.
+description: Enable publishing of grant programs and authorized representative activities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-config-gmp-fdtn-scripted-ext-pt.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-17"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Foundation, Grants Management, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Configure scripted extension points in Grants Management
 
-The grants management application uses a scripted extension point to publish grant programs. Implementing this extension point in the correct application scope lets a grant program move to the Accepting Applications state so that contacts and constituents can submit proposals.
+Enable publishing of grant programs and authorized representative activities.
 
 ## Before you begin
 
 Role required: admin
 
-The Grants Management application ships with the scripted extension point `sn_svc_appl_pgm_mg.PublishGrantProgram`. Before a grant program manager can publish a program, this extension point must be implemented in the Global scope and made accessible from all application scopes. Perform this procedure during Grants Management setup, before setting up a grant program. The publishing extension point must be implemented once per instance.
-
-Set your application scope to **Global** by selecting the application picker \(\[Omitted image "globe-fill-24.svg"\]\) in the Unified Navigation bar and selecting **Application Scope** &gt; **Global**.
+**Note:** Verify your application scope is set to **Global** by selecting the application picker \(\[Omitted image "globe-fill-24.svg"\]\) in the Unified Navigation bar and selecting **Application Scope** &gt; **Global**.
 
 ## Procedure
 
@@ -57,11 +55,11 @@ Set your application scope to **Global** by selecting the application picker \(\
 
 ## Result
 
-The publishing extension point is implemented. Grant program managers can now publish programs, which moves each program to the Accepting Applications state and makes it available to contacts for proposals.
+The publishing extension point is implemented. Grant programs and authorized representative activities can now be published. Publishing a grant program moves it to the Accepting Applications state and makes it available to contacts for proposals.
 
 **Parent Topic:**[Configure Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-gmp-foundation.md)
 
 **Previous topic:**[Configure Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-gmp-foundation.md)
 
-**Next topic:**[Configure Restricted Caller Access \(RCA\) for Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-gmp-fdtn-doc-template-rca.md)
+**Next topic:**[Configure the related party extension point in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-gmp-fdtn-rpmanagement-ext-pt.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
-breadcrumb: [Create a flow, Building flows, Use, Workflow Studio, Build workflows]
+breadcrumb: [Create a flow, Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Create flow Service Catalog variables
@@ -169,6 +169,16 @@ Record producer table
 </td><td>
 
 Table that the record producer creates a record in.This field appears if the variable belongs to a record producer.
+
+</td></tr><tr><td>
+
+Hide on grid
+
+</td><td>
+
+Configure the visibility of a variable on the grid layout within a multi-row variable set \(MRVS\) for a catalog item. By default, the check box is not selected.
+
+ If you select it, the variable doesn’t appear on the MRVS grid, but it still appears on the MRVS form.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -473,7 +483,7 @@ Macro
 
 </td><td>
 
-UI macro to insert into the catalog item.This field appears for macro, macro with label, and UI page variables.
+[UI macro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/c_UIMacros.md) to insert into the catalog item.This field appears for macro, macro with label, and UI page variables.
 
 </td></tr><tr><td>
 

@@ -1,20 +1,20 @@
 ---
 title: Activate Change Management - Risk Assessment
-description: You can activate the Change Management - Risk Assessment plugin \(com.snc.change\_management.risk\_assessment\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
+description: Activate the Change Management - Risk Assessment plugin \(com.snc.change\_management.risk\_assessment\) with the admin role. It includes demo data and activates related plugins.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/activate-change-risk-assessment.html
 release: zurich
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Plugins, Configure, Change Management, IT Service Management]
+breadcrumb: [Change Management plugins, Configure, Change Management, IT Service Management]
 ---
 
 # Activate Change Management - Risk Assessment
 
-You can activate the Change Management - Risk Assessment plugin \(com.snc.change\_management.risk\_assessment\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
+Activate the Change Management - Risk Assessment plugin \(com.snc.change\_management.risk\_assessment\) with the admin role. It includes demo data and activates related plugins.
 
 ## Before you begin
 
@@ -54,7 +54,7 @@ Assessment Designer\[com.glide.assessment\_designer\]
 
 </td><td>
 
-Provides an interface to create and edit the Change Risk Assessment form that is required to collect user information on risk of the change request.
+Provides an interface to create and edit the Change Risk Assessment form that is required to collect user information about the risk of the change request.
 
 </td></tr></tbody>
 </table>## Procedure
@@ -67,7 +67,7 @@ Provides an interface to create and edit the Change Risk Assessment form that is
 
 3.  Select **Install** to start the installation process.
 
-    **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
+    **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/find-components.md).
 
@@ -81,7 +81,7 @@ You can [define risk assessment](https://raw.githubusercontent.com/ServiceNow/Se
 **Related topics**  
 
 
-[Request ITSM Roles- Change Management]()
+[Request ITSM Roles - Change Management]()
 
 [Activate Business Stakeholder]()
 
@@ -99,11 +99,11 @@ You can [define risk assessment](https://raw.githubusercontent.com/ServiceNow/Se
 
 [Activate Change Management - Mass Update CI]()
 
-[Activate Change Management -Approval policy]()
+[Activate Change Management - Approval policy]()
 
 [Activate Change Management - CAB Workbench]()
 
-[Activate Change Management ATF Tests]()
+[Activate Change Management - ATF Tests]()
 
 [Activate Change Management - Core]()
 
@@ -111,7 +111,7 @@ You can [define risk assessment](https://raw.githubusercontent.com/ServiceNow/Se
 
 [Request Change Management - Standard Change Template Intelligence]()
 
-[Change Management - Predictive Intelligence Core]()
+[Request Change Management - Predictive Intelligence Core]()
 
 [Activate Change Management - Change Flows]()
 
@@ -119,7 +119,7 @@ You can [define risk assessment](https://raw.githubusercontent.com/ServiceNow/Se
 
 [Activate Change Management - Change Models]()
 
-[Activate Change Management Success Probability]()
+[Activate Change Management - Success Probability]()
 
 [Activate Change Management - Data Archiving]()
 
@@ -127,5 +127,5 @@ You can [define risk assessment](https://raw.githubusercontent.com/ServiceNow/Se
 
 [Change Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/r_ChangeManagementProperties.md)
 
-[List of Zurich plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/list-of-plugins.md)
+[List of Brazil plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/list-of-plugins.md)
 

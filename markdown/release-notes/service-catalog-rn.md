@@ -1,25 +1,24 @@
 ---
 title: Service Catalog release notes
-description: The ServiceNow Service Catalog application provides a requester view of the available services and products offered by the departments within your organization. Service Catalog was enhanced and updated in the Zurich release.The ServiceNow Service Catalog application provides a requester view of the available services and products offered by the departments within your organization. Service Catalog was enhanced and updated in the Zurich release.
+description: The ServiceNow Service Catalog application provides a requester view of available services and products offered by departments within your organization. See the following sections for release notes by version.The Brazil release adds configurable subscription access enforcement for catalog items and lets migrate Core UI to an Angular portal using a plugin only on upgrades.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/service-catalog-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow AI Platform capabilities release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+breadcrumb: [ServiceNow AI Platform capabilities release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Service Catalog release notes
 
-The ServiceNow® Service Catalog application provides a requester view of the available services and products offered by the departments within your organization. Service Catalog was enhanced and updated in the Zurich release.
+The ServiceNow® Service Catalog application provides a requester view of available services and products offered by departments within your organization. See the following sections for release notes by version.
 
 ## About Service Catalog
 
--   Enable catalog item creators to create complex catalog items in Catalog Builder with ease. They can create, edit, or delete client scripts, or create advanced reference qualifiers.
--   Help requesters complete catalog item forms faster on portals and Next Experience UIs using caller-provided key-value pairs that pre-fill catalog item forms.
--   Ease the work of catalog item requesters by letting them drag one or more attachments directly onto the form for faster submissions.
--   Use the Catalog browse component for an enhanced catalog item browsing experience on the Next Experience UI for catalog users.
+-   Develop comprehensive service catalogs to empower users with self-service capabilities.
+-   Tailor portals to let users request a range of catalog items, including services and product offerings.
+-   Standardize request fulfillment processes to verify the accuracy and availability of items within the catalogs.
 
 See [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/service-catalog.md) for more information.
 
@@ -32,38 +31,31 @@ See [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
 
 **Parent Topic:**[ServiceNow AI Platform capabilities release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-platform-capabilities-rn-landing.md)
 
-## Zurich
+## Brazil Early Availability
 
-The ServiceNow® Service Catalog application provides a requester view of the available services and products offered by the departments within your organization. Service Catalog was enhanced and updated in the Zurich release.
+The Brazil release adds configurable subscription access enforcement for catalog items and lets migrate Core UI to an Angular portal using a plugin only on upgrades.
 
 ### What's new
 
--   **[Create complex catalog items in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/create-client-scripts-in-catalog-builder.md)**
+-   **[Configurable subscription access enforcement for catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/r_ServiceCatalogProperties.md)**
 
-    Enable catalog item creators to create complex catalog items effortlessly in Catalog Builder.
+    Control whether service subscriptions can bypass "Available for" user criteria on catalog items using the `glide.sc.catalog_item.subscription_enforcement` property. This setting verifies that only users meeting specific criteria can access items, even with a parent service subscription.
 
-    They can create, edit, or delete client scripts to build a complex catalog item. Creators can also configure questions, set dynamic and advanced reference qualifiers, and scripted default values.
+    The property controls this behavior with the following two modes:
+
+    -   require\_criteria: Prevents access to users who don't meet the item's criteria, even if they are subscribed to the parent service offering.
+    -   allow\_bypass: Preserves existing behavior that means users gain access through the "Available for" user criteria. "allow\_bypass" is a default value.
+-   **Migration from Core UI to Angular portal**
+
+    Migrate from the Core UI catalog experience to the Angular portal using the `com.glideapp.servicecatalog.ui16_portal` plugin, but only for upgraded instances.
+
+    Administrators on upgraded instances must install the`com.glideapp.servicecatalog.ui16_portal` plugin to move from the Core UI catalog experience to the Angular portal. On new instances, the plugin is active by default. Requesters view the Angular portal instead of Core UI while requesting a catalog item.
 
 
--   **[Use Catalog browse component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/catalog-builder.md)**
+### What's deprecated or removed
 
-    Use the Catalog browse component in UI Builder to add catalog item browsing in your custom pages. Drag it onto the Next Experience UI page to use the Catalog browse component.
+-   **Removal of Catalog Roles from request management ACLs**
 
-    The component enables requesters to explore and request items from various catalogs and categories, providing a hierarchical view to sort by catalog, category, or subcategory. The component provides a grid or list view for items and a search function to search for items as needed.
-
-
-### What's changed
-
--   **[A property to delete a draft of catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/save-draft-catalog-item.md)**
-
-    Use the property **glide.sc.delete\_draft\_item\_on\_version\_change** to determine whether to delete a saved draft of a catalog item on its modification.
-
--   **[Dynamic Lookup Choices and Enhanced Table Sourcing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/t_CreateAVariableForACatalogItem.md)**
-
-    Lookup questions are now more flexible and user-friendly. You can effortlessly display choices directly from a specific table field, offering similar ease for select box configurations. Additionally, create dynamic dependent lookups where the choices refresh automatically based on the values selected in other fields on the same form, guiding users to more relevant selections.
-
--   **[Enhanced Sorting Control for Lookup Fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/t_CreateAVariableForACatalogItem.md)**
-
-    Customize the display order in lookup select boxes, look up multiple choice, and list collector fields with the new **ref\_ac\_order\_by** attribute. This attribute enables options to be sorted primarily by a specified data column, and then by their display label, providing a more logical and predictable presentation for users.
+    ACL records on request management tables and fields no longer grant access based on the catalog role or the catalog admin role. ACL records for tables owned by request management, such as Request \[sc\_request\] and Requested Item \[sc\_req\_item\], no longer include catalog-related roles in the list of required roles. Each ACL record retains at least one request management role, so the list is never empty. Users who have only a catalog-related role and no request management role can no longer use these ACL records to access request management tables or features. Another ACL record on the same table might still grant access through a different role. This change affects only the ACL records that the catalog team owns.
 
 

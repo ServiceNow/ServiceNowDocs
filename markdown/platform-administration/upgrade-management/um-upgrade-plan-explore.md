@@ -7,9 +7,9 @@ release: zurich
 product: Upgrade Management
 classification: upgrade-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Upgrade Console summary, Explore, Upgrade Console, Upgrade, Administer]
+breadcrumb: [Upgrade Console summary, Explore, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
 # Explore Upgrade Plan in Upgrade Console
@@ -20,8 +20,8 @@ Navigate to Upgrade Plan using one of the following ways.
 
 |Option|Navigation|
 |------|----------|
-|Using left navigation|Navigate to **All** &gt; **Admin Center** &gt; **Upgrade Management** &gt; **Upgrade Plan**.|
-|Using Admin tab option|Navigate to **Admin** &gt; **Upgrade Management** &gt; **Upgrade Plan**.|
+|Using left navigation|Navigate to **All** &gt; **Admin Center** &gt; **Upgrade Console** &gt; **Upgrade Plan**.|
+|Using Admin tab option|Navigate to **Admin** &gt; **Upgrade Console** &gt; **Upgrade Plan**.|
 
 You will need the following instances to use Upgrade Plan.
 

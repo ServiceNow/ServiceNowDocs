@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/som-create-product-offering.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create product offerings
@@ -18,19 +18,15 @@ Create and publish a product offering in Sales Customer Relationship Management.
 
 Role required: sn\_prd\_pm.product\_catalog\_admin or sn\_prd\_pm.product\_manager
 
-## About this task
-
-When creating a product offering, you can set various options that define how the product is used in Sales Customer Relationship Management applications.
-
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] view.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
-3.  Navigate to **Offerings** &gt; **Product Offerings** and select **New**.
+3.  Navigate to **Offerings** &gt; **Product Offering** and select **New**.
 
-    **Note:** You can also create a product offering from a product specification.
+    **Note:** You can also create a product offering from the product specification.
 
 4.  In the Details tab, fill in the fields.
 
@@ -76,6 +72,14 @@ System-generated alphanumeric number based on the product name. Although system 
 
 </td></tr><tr><td>
 
+Product family
+
+</td><td>
+
+The product offering family to which this product belongs. Select the product offering family, which is a collection of products that share similar or common features. A product offering can belong to a single family only.
+
+</td></tr><tr><td>
+
 Sellable
 
 </td><td>
@@ -84,11 +88,23 @@ Option, if selected, indicates that the product offering can be sold as a standa
 
 </td></tr><tr><td>
 
+Configuration Status
+
+</td><td>
+
+Indicates the status of the product offering: -   None: The product offering is not configured. This is the default value.
+-   Creating: Creation of the product offering in ServiceNow CPQ Administration is in progress.
+-   Created: The product offering is created in ServiceNow CPQ Administration and is available as a blueprint.
+-   Error: An error occurred while creating blueprint for the product offering in ServiceNow CPQ Administration.
+
+
+</td></tr><tr><td>
+
 Configurable
 
 </td><td>
 
-Option that indicates the product is customizable and can be configured by agents and customers using the CPQ Configurator, if implemented in your organization. For more information, see [Using the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-servicenowcpq.md).
+Option that indicates the product is customizable and can be configured by agents and customers using the CPQ Configurator, if implemented in your organization. For more information, see [Using the ServiceNow CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-servicenowcpq.md).
 
 </td></tr><tr><td>
 
@@ -126,7 +142,7 @@ State
 
 </td><td>
 
-State of the product offering. States include: In Draft, Published, Retired, and Archived. You can update product offerings In Draft state.
+State of the product offering. States include In Draft, Published, Retired, and Archived. You can update product offerings In Draft state.
 
 </td></tr><tr><td>
 
@@ -188,7 +204,7 @@ Product specification
 
 </td><td>
 
-Functional view of a product offering that drives order fulfillment. Product specification to associate with the product offering. **Note:** Only published specifications appear.
+Functional view of a product offering that drives order fulfillment. Select the product specification associated with the product offering. **Note:** Only published specifications appear.
 
 </td></tr><tr><td>
 
@@ -246,7 +262,7 @@ Enable ramps
 
 </td><td>
 
-Option that enables the ramp feature, where sales agents can create ramps for quote lines to schedule price and quantity increases over certain time periods. To learn more, see [Price and quantity ramps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/defining-products-with-ramps.md).
+Option that enables the ramp feature, where sales agents can create ramps for transaction lines, such as quotes, to schedule price and quantity increases over certain time periods. To learn more, see [Price and quantity ramps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/defining-products-with-ramps.md).
 
 </td></tr><tr><td>
 
@@ -262,8 +278,7 @@ Contract term
 
 </td><td>
 
-Length of the contract:-   Not Applicable
--   12 months
+Length of the contract:-   12 months
 -   24 months
 -   36 months
 -   48 months
@@ -292,12 +307,10 @@ Previous version
 
 </td><td>
 
-Field that lists any earlier versions of a product offering that were created.
+Several versions of a product offering can exist. This field lets you view previous versions.
 
 </td></tr></tbody>
 </table>5.  Select **Save** and then select **Publish**.
-
-    **Note:** If you're creating a configurable product offering and the CPQ Configurator is implemented in your organization, the next step is to generate the associated blueprint for the product offering before publishing. For details, see [Create configurable product offerings and associated blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-create-configurable-prod-offerings.md).
 
 
 ## What to do next
@@ -309,4 +322,11 @@ Field that lists any earlier versions of a product offering that were created.
 -   [Add a unit of measure to a product offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-product-config-add-unit-of-measure.md)
 -   [Create a product offering version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-product-config-create-new-version.md)
 -   [Create product offering relationship groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-product-config-relationship-groups.md)
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/product-catalog-managment.md)
 

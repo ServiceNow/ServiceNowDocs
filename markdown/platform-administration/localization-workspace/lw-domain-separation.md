@@ -7,9 +7,9 @@ release: zurich
 product: Localization Workspace
 classification: localization-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Localization Workspace reference, Localization Workspace, Translation and localization, Configure core features, Administer]
+breadcrumb: [Localization Workspace reference, Localization Workspace, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Localization Workspace Domain Separation

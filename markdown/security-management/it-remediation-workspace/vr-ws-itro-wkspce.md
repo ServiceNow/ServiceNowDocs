@@ -7,7 +7,7 @@ release: zurich
 product: IT Remediation Workspace
 classification: it-remediation-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [IT Remediation Workspace, Vulnerability Response Workspaces, Unified Security Exposure Management, Security Operations]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [IT Remediation Workspace, Vulnerability Response Workspaces, Unifie
 # Exploring the IT Remediation Workspace
 
 The IT Remediation Workspace is intended for IT remediation owners and IT groups. It is composed of home and list views as well as data visualizations that you can click that let you see the remediation tasks you've been assigned and how many records assigned to you have solutions.
+
+**Note:** Starting version 30.1.4, the Remediation view in Unified Security Exposure Management \(USEM\) is the workspace for performing remediation activities. All functionality available in the IT Remediation workspace is also supported here. See [Remediation view in USEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-workspaces-ui-remediation-module.md) for details.
 
 Role required:
 

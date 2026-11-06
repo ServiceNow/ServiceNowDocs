@@ -1,20 +1,20 @@
 ---
-title: System components installed with Telecom Discrepancy Identification &amp; Reconciliation
-description: The system properties are part of the TSOM Visibility plugin \(sn\_tsom\_core\) and control the Telecom Discrepancy Identification &amp; Reconciliation log \(TSOM CMDB Audit\). The TSOM Visibility plugin serves as an enabler for the TSOM Visibility applications, containing logic that is shared across the Telecom Discovery and Telecom Discrepancy Identification &amp; Reconciliation solution.
+title: Telecom discrepancy identification and reconciliation
+description: The system properties are part of the TSOM Visibility plugin \(sn\_tsom\_core\) and control the Telecom Discrepancy Identification &amp; Reconciliation log \(TSOM CMDB Audit\). The TSOM Visibility plugin enables the TSOM Visibility applications. It contains logic shared across the Telecom Discovery and Telecom Discrepancy Identification &amp; Reconciliation solution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-service-ops/telecommunications-service-operations-management/system-properties-affecting-telecom-discrepancy-identification-reconciliation.html
 release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Reference, Telecommunications Service Operations Management]
 ---
 
-# System components installed with Telecom Discrepancy Identification &amp; Reconciliation
+# Telecom discrepancy identification and reconciliation
 
-The system properties are part of the TSOM Visibility plugin \(sn\_tsom\_core\) and control the Telecom Discrepancy Identification &amp; Reconciliation log \(TSOM CMDB Audit\). The TSOM Visibility plugin serves as an enabler for the TSOM Visibility applications, containing logic that is shared across the Telecom Discovery and Telecom Discrepancy Identification &amp; Reconciliation solution.
+The system properties are part of the TSOM Visibility plugin \(sn\_tsom\_core\) and control the Telecom Discrepancy Identification &amp; Reconciliation log \(TSOM CMDB Audit\). The TSOM Visibility plugin enables the TSOM Visibility applications. It contains logic shared across the Telecom Discovery and Telecom Discrepancy Identification &amp; Reconciliation solution.
 
 <table id="table_c1p_wmd_b2c"><thead><tr><th>
 
@@ -177,7 +177,7 @@ Audits records in the `cmdb_ci_network_topology` table. For each network topolog
 
 [Telecom Discrepancy Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/exploring-telecom-reconciliation.md)
 
-[Activate Telecom Discrepancy Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/configure-telecom-reconciliation.md)
+[Activate Telecom Discrepancy and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/configure-telecom-reconciliation.md)
 
 [Run Telecom Discrepancy audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/run-audits.md)
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/retail-industry/rahi-retail-operations-overview.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 ---
 
 # Retail
@@ -29,32 +29,44 @@ The ServiceNow® Retail product empowers managers and associates to manage daily
 
 </td></tr><tr><td>
 
-[Manage store inquiries\[Omitted image "bus-task-list.svg"\] Alt text:Create, manage, track, and resolve the store inquiries through the retail portal, workspace, or mobile app.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/rahi-retail-manage-store-inquiries.md)
+[Manage store inquiries\[Omitted image "bus-customer-service-agent.svg"\] Alt text:Create, manage, track, and resolve the store inquiries through the retail portal, workspace, or mobile app.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/rahi-retail-manage-store-inquiries.md)
 
 </td><td>
+
+[Manage Break-Fix cases\[Omitted image "bus-work-order.svg"\] Alt text:Report, track, and resolve equipment failures through Break-Fix cases.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/breakfix-manage-cases.md)
+
+</td><td>
+
+[Manage Store Audit\[Omitted image "bus-audit-management.svg"\] Alt text:Create, generate, and complete store audit cases and tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/rahi-store-audit-manage.md)
+
+</td></tr><tr><td>
 
 [Track store inquiry cases\[Omitted image "bus-management-console.svg"\] Alt text:Track store inquiry cases from the Retail portal.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/rahi-retail-navigating-retail.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about Retail components such as fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/rahi-retail-operations-reference.md)
-
-</td></tr><tr><td>
-
- 
+[Manage store plans\[Omitted image "bus-task-list.svg"\] Alt text:Manage store plans to plan and schedule generation of cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/rahi-retail-manage-store-plans.md)
 
 </td><td>
 
 [Track and monitor store plans\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Track and monitor store plans from the workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/track-monitor-store-plans.md)
 
+</td></tr><tr><td>
+
+[ServiceNow Otto\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use ServiceNow Otto for Retail Service Management to help headquarters support agents efficiently manage and resolve store inquiries using generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/rahi-retail-now-assist-explore.md)
+
 </td><td>
 
-[Now assist for Retail\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use Now Assist for Retail to enhance user productivity and efficiency through proactive experiences using generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/rahi-retail-now-assist-for-retail.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about Retail components such as fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/rahi-retail-operations-reference.md)
+
+</td><td>
+
+ 
 
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed in this release at [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/retail-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/retail-rn.md).
+-   Learn more about what's new and changed in this release at [Retail release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/retail-rn.md).
 -   Log into your ServiceNow account and find additional information about implementing and deploying Financial Services Operations features at [Best Practices](https://mynow.servicenow.com/now/best-practices/home).
 -   Work with an implementation specialist to streamline your Financial Services Operations setup process. To learn more, see [ServiceNow Impact](https://www.servicenow.com/success.html).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/now-learning-get-certified?id=amap_detail&achievement_id=a4d172da47f33658db63fb25126d43e8&s=1&ssa=3).

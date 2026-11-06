@@ -7,8 +7,8 @@ release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Explore, Privacy Management, Governance, Risk, and Compliance]
 ---
 
@@ -61,7 +61,7 @@ Starting with the Zurich release, two assessment templates, **Privacy Screening 
 
 -   **Privacy impact assessment**
 
-    Starting with the Zurich release, a new template for Privacy impact assessment \(Privacy Impact Assessment \[V4\]\) is available.
+    Starting with the Brazil release, a new template for Privacy impact assessment \(Privacy Impact Assessment \[V4\]\) is available.
 
     For a privacy impact assessment template, like the screening assessment template, you have the **Overview** and **Details** sections, and while by default, the **Automations** section is present, it does not contain any predefined automations. You can add automations if you require them. For an impact assessment template, apart from the questionnaire, you can add the personal data elements. For detailed information on how to configure an impact assessment template, see [Configure smart assessment templates for impact assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/configure-smart-assessment-template-for-impact-assessment.md).
 
@@ -69,6 +69,8 @@ Starting with the Zurich release, two assessment templates, **Privacy Screening 
 
 
 **Note:** Only published templates are available for assessments.
+
+You can publish a new version of a smart assessment template when its questionnaire, response options, or automations must change. Each version keeps a complete change history. Only one version is published at a time, so new assessments stay consistent. New assessments use the latest published version, while in-progress assessments finish against the version they were created with. For more information, see [Update a privacy assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/create-new-smart-asmt-version.md).
 
 ## Review of an assessment
 

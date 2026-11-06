@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View Maintenance Management metrics, Working with Workplace Analytics, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -22,13 +22,11 @@ Role required: admin
 
 ## About this task
 
-Create and publish a maintenance plan record. For more information, see [Create and publish maintenance plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/create-publish-maintenance-plans.md).
-
-The scheduled job should be run before viewing the dashboard for the first time. It collects all the data required for the reports for the past year. For more information, [View Maintenance Management metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-central/view-maintenence-mgmt-analytics.md)
+This job should be run before viewing the dashboard for the first time. It collects all the data required for the reports for the past year.
 
 ## Procedure
 
-1.  **All** &gt; **System Definition** &gt; **Scheduled Job**.
+1.  Navigate to **All** &gt; **System Definition** &gt; **Scheduled Job**.
 
 2.  Select **Workplace Maintenance Case Historical Data Collection** from the list.
 
@@ -36,9 +34,4 @@ The scheduled job should be run before viewing the dashboard for the first time.
 
 
 **Parent Topic:**[View Maintenance Management metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-central/view-maintenence-mgmt-analytics.md)
-
-**Related topics**  
-
-
-[Components installed with Workplace Maintenance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/components-installed-with-maintenance-mgmt.md)
 

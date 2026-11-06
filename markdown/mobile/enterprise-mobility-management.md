@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/enterprise-mobility-management.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -29,7 +29,7 @@ For details on these configurations, see [AppConfig for Mobile Apps](https://raw
 
 ## Mobile application management \(MAM\) integration
 
-Use Microsoft Intune or BlackBerry Dynamics to secure and protect sensitive information in mobile applications, even in cases where customers use their own mobile devices. For more detail on MAM integration, see [Mobile application management \(MAM\) integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/sg-mam.md).
+Use Microsoft Intune to secure and protect sensitive information in mobile applications, even in cases where customers use their own mobile devices. For more detail on MAM integration, see [Mobile application management \(MAM\) integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/sg-mam.md).
 
 ## Unsupported MDM/MAM features
 

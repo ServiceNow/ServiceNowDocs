@@ -1,18 +1,18 @@
 ---
-title: Sync new, customized, overridden, definitions
-description: You can sync overridden or custom definitions that your organization created or updated.
+title: Sync definitions
+description: Enable definition synchronization and push new, customized, or overridden definitions from a development instance to production.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/sync-new-customized-overridden-defs.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Definitions integration, Scan Engine integrations, Scan Engine, Platform Health, Using Impact, Impact]
+breadcrumb: [Definitions integration, Scan Engine integrations, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
-# Sync new, customized, overridden, definitions
+# Sync definitions
 
-You can sync overridden or custom definitions that your organization created or updated.
+Enable definition synchronization and push new, customized, or overridden definitions from a development instance to production.
 
 ## Before you begin
 
@@ -20,14 +20,27 @@ Role required: Scan Engine Admin \(sn\_se.scan\_engine\_admin\).
 
 ## Procedure
 
-1.  Navigate to **ALL** &gt; **Impact** &gt; **Definitions**.
+1.  Enable definition synchronization
+2.  Navigate to **ALL** &gt; **Impact** &gt; **Configuration** &gt; **Scan Engine Properties**.
 
-2.  Select the definition you want to sync to open its details page.
+3.  On the **Definitions** properties tab, ensure **Enable definition synchronization** is active.
 
-3.  Select one of the following:
+4.  Sync a definition
+5.  Navigate to **ALL** &gt; **Impact** &gt; **Definitions** and open the definition to sync.
 
-    -   **Sync Definition**: Syncs definitions to other instances through the Production instance. You can leave a note about the synchronized change.
-    -   **Delete and Sync**: Deletes the definition and syncs the deletion to other instances through the Production instance. You can leave a note about the synchronized deletion.
-    **Note:** You can also bulk sync definitions from the Definitions table. Select the box for each definition that you want to synchronize, and then select **Sync Definition** or **Delete and Sync**.
+6.  Select the appropriate sync action.
 
+    |Action|Result|
+    |------|------|
+    |**Sync Definition**|Syncs the definition with a sync note.|
+    |**Delete and Sync**|Deletes the definition on the target instance and propagates the current version.|
+
+
+## Result
+
+The definition is pushed to the production instance.
+
+To bulk sync multiple definitions, select the checkbox for each definition in the Definitions list view, then select **Sync Definition** or **Delete and Sync** from the actions menu.
+
+**Parent Topic:**[Definitions integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/definitions-integrations.md)
 

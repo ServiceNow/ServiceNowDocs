@@ -1,18 +1,18 @@
 ---
-title: Create a new blueprint
-description: Create a new blueprint to define the structure, behavior, and configuration experience for your product model.
+title: Create a blueprint
+description: Create a blueprint to define the structure, behavior, and configuration experience for your product model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/cpq-create-a-new-blueprint.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up blueprints, ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Set up blueprints, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Create a new blueprint
+# Create a blueprint
 
-Create a new blueprint to define the structure, behavior, and configuration experience for your product model.
+Create a blueprint to define the structure, behavior, and configuration experience for your product model.
 
 ## Before you begin
 

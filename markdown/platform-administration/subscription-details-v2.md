@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/subscription-details-v2.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Explore, Subscription Management, Get started, Administer]
+breadcrumb: [Explore, Subscription Management, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Viewing product subscription details in Subscription Management
@@ -44,12 +44,11 @@ View subscription details on the details page by navigating to **Admin** &gt; **
 
 -   See how a capacity subscription total is calculated by selecting the Capacity Definition record and viewing the definition details. For more information, see [Monitor capacity subscription calculations in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/view-how-totals-calculated-capacity-subscriptions-v2.md).
 -   View the groups you have added to a subscription in the **Subscribed groups** tab. View the total number of users who belong to each group in the **Users** column.
-
-    View the total number of active users in the **Active users** column. The count of active users excludes users who haven't logged in to the instance in the last 365 days, users assigned Web service access only, or users with an empty User ID.
+-   View the total number of active users in the **Active users** column. The count of active users excludes users who haven't logged in to the instance in the last 365 days, users assigned Web service access only, or users with an empty User ID.
 
     Only active users count toward the subscription allocation totals that appear throughout Subscription Management.
 
--   View eachactive user who belongs to the subscribed groups in the **Subscribed users** tab. Only active users with allocated subscriptions appear in this list.
+-   View each active user who belongs to the subscribed groups in the **Subscribed users** tab. Only active users with allocated subscriptions appear in this list.
 -   Stay in compliance by monitoring your product subscription add-on usage on the **Bundled Items** tab. Product subscription add-ons can include bundled custom tables, portal visits, and transaction entitlements.
 -   Plan for future purchases and keep your subscriptions current by monitoring the start and end dates for each of your product subscriptions in the **Purchase History** tab.
 
@@ -61,7 +60,7 @@ View subscription details on the details page by navigating to **Admin** &gt; **
     -   Determine whether an application is available to install from the current product subscription by checking the **Installation status** column.
 -   Maximize subscription usage and grant entitlement to the right users by allocating per-user subscriptions. You allocate per-user subscriptions by adding one or more groups to a product subscription. Subscription Management helps you with the allocation process by recommending groups based on their assigned roles. For more information, see [Allocate subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/allocate-subscriptions-v2.md).
 
-    **Note:** To simplify the Subscription Management experience, the manual allocation workflow for user-based subscriptions is unavailable if you have never used it. Automatic allocation of user-based subscriptions is based on user and group roles.
+    **Note:** To simplify the Subscription Management experience, the manual allocation workflow for user-based subscriptions is unavailable if you have never used it. Automatic allocation of user-based subscriptions is based on user and group roles. For more information, see .
 
 
 ## Consolidated subscriptions

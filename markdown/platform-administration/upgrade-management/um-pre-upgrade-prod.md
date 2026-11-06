@@ -7,9 +7,9 @@ release: zurich
 product: Upgrade Management
 classification: upgrade-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
-breadcrumb: [Access guided upgrade on a production instance, Configure, Upgrade Console, Upgrade, Administer]
+breadcrumb: [Access guided upgrade on a production instance, Configure, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
 # Implement pre-upgrade activities on a prod instance
@@ -20,7 +20,7 @@ Complete the pre-upgrade tasks for a successful upgrade experience on your produ
 
 **Note:** For each step, you will have the option to either skip the step or mark complete and only then move to the next guided upgrade step.
 
-Role required: admin
+Role required: upgrade\_admin
 
 ## Procedure
 
@@ -49,9 +49,15 @@ Role required: admin
 
             **Note:** This option considerably reduces rework with an upgrade plan, maintains accuracy and makes your upgrade process seamless.
 
-            You will see the following modal when you select Select upgrade plan. You can then select either one upgrade plan or multiple plans to be merged and applied to the current upgrade. &lt;image&gt;
+            You will see the following modal when you select Select upgrade plan. You can then select either one upgrade plan or multiple plans to be merged and applied to the current upgrade.
 
-            **Note:** The **Apply** option is visible only when you select one upgrade plan to be applied to the current upgrade. The **Merge and apply** option is visible only if you have selected multiple upgrade plans. The upgrade plan name changes as per the selection of upgrade plans.
+            \[Omitted image "um-upgrade-plans-merge.jpeg"\] Alt text:
+
+            **Note:** The **Apply** option is visible only when you select one upgrade plan to be applied to the current upgrade.
+
+            \[Omitted image "um-upgrade-plans-apply.jpeg"\] Alt text:
+
+            **Note:** The **Merge and apply** option is visible only if you have selected multiple upgrade plans. The upgrade plan name changes as per the selection of upgrade plans.
 
             When merging multiple upgrade plans, upgrade plan items that appear in more than one plan are used in the merged plan by their highest version. This ensures consistency and avoids version conflicts in the resulting merged plan.
 
@@ -60,7 +66,9 @@ Role required: admin
 
             **Note:** The success message banner is generated immediately after the upgrade plan is created by selecting **Create a plan** and stays visible until the page is reloaded.
 
-            If you select the **Create a plan** option again after creating a plan, you will see the following message. &lt;image&gt;
+            If you select the **Create a plan** option again after creating a plan, you will see the following message.
+
+            \[Omitted image "um-override-upgrade-plan.png"\] Alt text:
 
             **Note:** Only the most recent upgrade plan without any upgrade plan items is retained. For example, if the most recent upgrade plan is created without upgrade plan items, it automatically overrides any earlier upgrade plan that also doesn't have upgrade plan items. There can be more than one upgrade plan with upgrade plan items.
 

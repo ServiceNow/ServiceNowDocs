@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/aict-configure-automation-rules.html
 release: zurich
 topic_type: task
-last_updated: "2026-07-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Managing AI assets in bulk, Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Managing AI assets in bulk, Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Edit an automation rule

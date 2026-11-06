@@ -1,116 +1,77 @@
 ---
-title: Risk signal and issues page
+title: Risk and issues page
 description: This page provides detailed information about a risk signal including risk occurrences, threshold values, and risk solution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-risk-issues-page.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Risk portfolio dashboard, Customer success, Use, Customer Success Management]
+breadcrumb: [Risk portfolio dashboard, Dashboards, Customer success, Use, Customer Success Management]
 ---
 
-# Risk signal and issues page
+# Risk and issues page
 
 This page provides detailed information about a risk signal including risk occurrences, threshold values, and risk solution.
 
 To view this page, follow these steps:
 
-1.  Login as a user with the `sn_acct_lc.customer_success_agent` or `sn_acct_lc.agent` role.
-2.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workpace** and select the **List** icon.
-3.  Navigate to **Customer Success** &gt; **All Risk Signal and Issues** and select **Number** column to open the record. You can also navigate to this page from the [Risk portfolio dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-risk-portfolio.md).
+1.  Login as a user with the `sn_acct_lc.customer_success_agent` role.
+2.  Navigate to **Workspaces** &gt; **CRM Workspace** and select the **List** icon.
+3.  Navigate to **Customer Success** &gt; **All Risks and Issues** and select **Number** column to open the record. You can also navigate to this page from the [Risk portfolio dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-risk-portfolio.md).
 
-\[Omitted image "account-lifecycle-risk-issues.png"\] Alt text: Risks signal and issues page.
+\*\*\* to be updated \*\*\*
+
+\[Omitted image "account-lifecycle-risk-issues.png"\] Alt text: Risks and issues page
 
 You can see the following details:
 
 -   Engagement details: This section shows the details of the engagement for which the risk signal has been generated. It includes the Contract value, Stage, Next Renewal date, Health, and so on.
--   Risk signal details: The risk signal details including probability, tracking method, category, and so on. See [Create a risk signal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-risk-signal.md) for the details.
--   Risk occurrence timeline: List of risk occurrences based on the scheduled job. This includes the dates on which the scheduled job was created, executed, the current value, engagement health, and the threshold value.
--   Summarize: Generates a summary from a risk signal and issues summarization record and all associated tasks. See [Summarize a risk signal and issues using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-media-technology/now-assist-tmt-summarize-risk-signals-issues.md) to generate the summary.
+-   Risk signal details: The risk signal details including probability, tracking method, category, and so on. See [Create a risk signal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-risk-signal.md) for details.
+-   Risk occurrence: List of risk occurrences based on the scheduled job. This includes the start and end dates on which the scheduled job was executed, the current value, threshold value, and the gap. Select the link to drill down to the Risk Occurrence page.
 
 The following options are available:
 
--   Discuss: Select **Discuss** to start a sidebar discussion about this risk signal. In the pop-up window, select the participants who must participate in the discussion, enter a brief message, and select **Start discussion**. A window appears with a link to the record. Select **Open record** and start the discussion. When the discussion has been completed, you can see the details in the Activity stream.
--   Create success play: See [Create a success play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-success-play.md)
--   Export: Select **Export** to export the risk occurrences or solutions to an Excel file.
+-   **Recommend solutions**: Recommends and executes success plays to address the risk signal. The Now Assist panel opens up and starts the workflow for the specific risk.
 
-## Contextual side panel component
+    **Note:** This option is available only for unaddressed risks and requires the ServiceNow Otto for TMT to be installed.
 
-The contextual side panel component includes different tools that agents can use to research and resolve customer issues. The contextual side panel in the Risk Signal and Issues record page includes the following tabs.
+-   **Discuss**: Select this option to start a sidebar discussion about this risk signal. In the pop-up window, select the participants who must participate in the discussion, enter a brief message, and select **Start discussion**. A window appears with a link to the record. Select **Open record** and start the discussion. When the discussion has been completed, you can see the details in the Activity stream.
+-   **Create success play**: See [Create a success play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-success-play.md)
 
-<table id="table_dts_xpn_ghc"><thead><tr><th>
+    The success play created from a risk signal is automatically tagged as a risk solution record.
 
-Tab
+-   **Export**: Select **Export** to export the risk occurrences or solutions to an Excel file.
 
-</th><th>
+## Recommend solutions
 
-Description
+This option identifies and executes success plays that address an unaddressed risk.
 
-</th></tr></thead><tbody><tr><td>
+1.  Select **Recommend Solution**. The ServiceNow Otto opens and automatically starts the agentic workflow for that specific risk signal.
+2.  The panel displays up to three solution options, each containing one or more success plays. The solutions are arrived at using the following approaches:
+3.  -   Machine learning similarity model: Identifies past risks similar to the current risk and recommends the success plays that resolved those risks. Navigate to **All** &gt; **Predictive Intelligence** &gt; **Similarity** &gt; **Solution Definitions**. Select the **Risk similarity** solution definition that is available with the base system and do the following:
+    -   Select the **Active** check box to enable this similarity solution.
+    -   Select **Update &amp; Retrain**. The similarity definition uses the short description and description of all closed risk signals to build a similarity index. Once trained, it identifies risks similar to the current risk signal and recommends the success plays that were used to resolve past risks.
+-   AI Search: If AI Search is enabled, similar solutions are identified based on the risk details.
+-   Decision table: Identifies the Customer Success definition mapped to the risk category and recommends the associated success plays.
+    If none of these approaches return results, a link is provided to manually browse the catalog and run a success play.
 
-**Recommended Actions**
+4.  The first solution option is the recommended one but you can select one of the three solution options. You're prompted to provide the required inputs for each success play within the selected option.
 
-</td><td>
+    **Note:** Multiple success plays within the selected solution are run sequentially.
 
-The Recommended Actions tab includes [AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/ra-csm-ai-search.md) functionality. Agents can use AI search to find relevant resources or resolutions for customer issues.The search feature displays an initial set of search results based on the text in the risk record short description. This initial set of results includes knowledge articles. Agents can also enter different search keywords and repeat the search.
+5.  Provide the required inputs, such as the planned start date and planned end date, for each success play. Once all the inputs have been provided, the success plays are initiated and run in the background. Optionally, you can select additional plays from the success catalog.
+6.  After the plays have been completed, the solutions are automatically added to the Risk solutions related list on the risk signal record.
+7.  A scheduled job runs every day and automatically identifies risk signals that are eligible for closure and generates closure notes. See [Draft close notes for a risk signal using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/draft-risk-close-notes.md) for details.
+8.  When the risk is closed, closure notes are automatically generated and are visible in the Activity stream and Closure Notes in the risk record.
 
-From the list of search results, agents can do the following:
+    **Note:** Closure notes are automatically generated only when the **Draft closure notes** skill is enabled, all associated risk solutions are closed, and no new risk occurrences exist for the risk signal.
 
--   Select a source to see search results of that type.
--   Filter the list of search results.
--   Sort the list of search results.
--   Open the search results in full view in a record subtab.
--   Take the following actions:
-    -   View and attach article
-    -   Perform other actions such as reading articles in full view, flagging articles, or marking articles as helpful or unhelpful.
--   View successful actions by selecting the Actions history icon.
 
-For more information, see [Use AI search in Recommended Actions to resolve cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/nba-use-ai-search.md).
+-   **[Recommend risk signal solutions agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/now-assist-tmt-resolve-risk.md)**  
+Use the Analyze risk and recommend solutions agentic workflow to monitor and mitigate risks in customer engagements with minimal user intervention.
+-   **[Summarize a risk signal using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/now-assist-tmt-summarize-risk-signals-issues.md)**  
+Generate a summary from a risk signal and issues record and all associated tasks.
 
-**Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
-
-</td></tr><tr><td>
-
-**Activity Stream**
-
-</td><td>
-
-The activity stream component displays a list of the activities occurring on a risk record.
-
-</td></tr><tr><td>
-
-**Related Items**
-
-</td><td>
-
-The Related Items tab provides access the risk record-related lists. New risk can be created from the related items.The risk signal and issues record page incorporate related list functionality into the contextual side panel. These lists appear in an accordion format that agents can expand and collapse as needed.
-
-An indicator displays the number of risk records available in a related list. When expanded, the records in a related list are displayed in card format.
-
-The Related Items tab shows the list of items:
-
--   **Emails**: View the consolidated emails that are related to the risk record.
--   **Risk Impacted Records**: View the records that are related to the risk record.
--   **Risk Occurrences**: Navigate to the risk record.
--   **Documents**: View the documents that are related to the risk record.
-
-</td></tr><tr><td>
-
-**Template**
-
-</td><td>
-
-The Templates tab provides access to available form templates that enable agents to automatically populate fields on new records. Agents can manually apply a template when creating a record such as an incident or change.
-
-</td></tr><tr><td>
-
-**Attachment**
-
-</td><td>
-
-The Attachments tab provides access to risk record-related attachments. From this tab, agents can view and download attachments.
-
-</td></tr></tbody>
-</table>**Parent Topic:**[Risk portfolio dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-risk-portfolio.md)
+**Parent Topic:**[Risk portfolio dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-risk-portfolio.md)
 

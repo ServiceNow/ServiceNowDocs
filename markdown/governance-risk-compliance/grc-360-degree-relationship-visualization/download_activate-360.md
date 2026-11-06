@@ -7,7 +7,7 @@ release: zurich
 product: GRC: 360 Degree Relationship Visualization
 classification: grc-360-degree-relationship-visualization
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [360° Relationship Visualization, Common GRC features, Governance, Risk, and Compliance]
 ---

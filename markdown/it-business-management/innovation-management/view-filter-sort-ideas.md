@@ -7,9 +7,9 @@ release: zurich
 product: Innovation Management
 classification: innovation-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage Ideas, Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Managing ideas using Innovation Management, Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # View, filter, and sort ideas

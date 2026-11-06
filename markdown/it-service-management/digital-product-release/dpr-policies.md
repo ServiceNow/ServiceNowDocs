@@ -7,7 +7,7 @@ release: zurich
 product: Digital Product Release
 classification: digital-product-release
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [PaCE content, PaCE policies, PaCE content policies, DevOps Config policies, DevOps Config policies, PaCE policies, DevOps Config Policy content pack]
 breadcrumb: [Digital Product Release Policy Content Pack, Digital Product Release, IT Service Management]
@@ -28,6 +28,12 @@ These policies are for both product and service releases. However, a few don't a
 This policy checks whether all the completed stories of a release have associated commits.
 
 The policy results into a non-compliant status when a completed story of a release has no associated commits.
+
+## All change requests are closed or inactive \(all\_change\_requests\_are\_closed\_inactive\)
+
+This policy checks whether all change requests associated with a release phase are inactive \(closed or cancelled\).
+
+The policy results into a non-compliant status when at least one change request is not complete \(active = true\).
 
 ## All Planned Stories Are Completed \(all\_planned\_stories\_are\_completed\)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create and test your credentials, Get started with credentials, Connections and Credentials, Access Management]
 ---
@@ -36,7 +36,7 @@ Name
 
 </td><td>
 
-Enter a unique and descriptive nam VMware credentials.
+Enter a unique and descriptive name for the VMware credentials.
 
 </td></tr><tr><td>
 
@@ -52,7 +52,7 @@ User name
 
 </td><td>
 
-Enter the user name that you use for your VMware account. Avoid leading or trailing spaces in user names. A warning appears if the petects leading or trailing spaces in the user name. The VMware credentials must have the read-only role in vCenter.
+Enter the user name that you use for your VMware account. Avoid leading or trailing spaces in user names. A warning appears if the platform detects leading or trailing spaces in the user name. The VMware credentials must have the read-only role in vCenter.
 
 </td></tr><tr><td>
 

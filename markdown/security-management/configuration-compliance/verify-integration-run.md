@@ -7,9 +7,9 @@ release: zurich
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Palo Alto Prisma Cloud, Integrate, Configuration Compliance, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Understanding the Vulnerability Response Integration with Palo Alto Prisma Cloud, Integrate, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
 
 # Verify the Vulnerability Response Integration with Palo Alto Prisma Cloud import run status

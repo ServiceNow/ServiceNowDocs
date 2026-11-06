@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Chief Information Officer \(CIO\) Dashboard, Executive dashboard overview, Dashboards, Platform Analytics experience, Platform Analytics]
+breadcrumb: [Chief Information Officer \(CIO\) Dashboard, Executive dashboard overview, Platform Analytics]
 ---
 
 # Install the CIO Dashboard
@@ -43,7 +43,6 @@ Plugins:
 -   com.snc.pa.premium.sam
 -   com.snc.pa.pmo\_dashboards
 -   com.snc.pa.self\_service\_analytics
--   com.sn\_communities
 
 Applications:
 
@@ -61,8 +60,6 @@ Applications:
 3.  Select the **Request Install** button to create the app installation request.
 
     Select **Request** to request the CIO Dashboard application plugin for the specified instance and provide the instance details with your reason for request and validate the instance.
-
-    \[Omitted image "cxo-request-install.png"\] Alt text:
 
 4.  Navigate to **System applications** &gt; **All available applications**.
 

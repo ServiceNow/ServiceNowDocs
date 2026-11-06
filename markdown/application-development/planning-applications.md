@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/planning-applications.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Classic app development, Building applications]
 ---
 
 # Planning your application
@@ -73,9 +73,5 @@ The application development process starts with planning. Consider how the appli
 -   **[ServiceNow application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/application-repository-self-hosted/app-repo.md)**
 
     After you develop and test a custom application, you can make the application available to company instances by publishing it to the ServiceNow application repository.
-
--   **[Source control integration in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/source-control-integration.md)**
-
-    Enable application developers to integrate with a Git Source Control repository. Save and manage multiple versions of an application from a non-production instance.
 
 

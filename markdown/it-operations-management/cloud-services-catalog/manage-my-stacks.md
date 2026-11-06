@@ -7,7 +7,7 @@ release: zurich
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore My Stacks tab, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Start your Day 2 operations by starting, stopping, deprovisioning, or modifying 
 
 ## Before you begin
 
-Role required: sn\_cmp.cloud\_service\_user.root\_admin, admin, or sn\_cmp.cloud\_admin, feature admin \(sn\_cmp.cmp\_root\_admin\)
+Role required: sn\_cmp.cloud\_service\_user.root\_admin, admin, or sn\_cmp.cloud\_admin
 
 ## About this task
 

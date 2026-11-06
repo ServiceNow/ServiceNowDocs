@@ -1,27 +1,29 @@
 ---
-title: Regulatory Change Management application landing page
-description: The Regulatory Change Management application landing page view provides the overview of the regulatory activities in your organization. Users with the sn\_grc\_reg\_change.manager roles only can view the Regulatory Change Management landing page in the primary navigation in the Compliance Workspace.
+title: Regulatory Change Management overview page
+description: The Regulatory Change Management overview page provides a high-level view of the regulatory activities in your organization. If you have the sn\_grc\_reg\_change.manager role, you can view this page in the Compliance Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/regulatory-change-management-service-portal/rcm-workspace-for-managers.html
 release: zurich
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 5
-breadcrumb: [Explore, Regulatory Change Management, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Regulatory Change Management, Governance, Risk, and Compliance]
 ---
 
-# Regulatory Change Management application landing page
+# Regulatory Change Management overview page
 
-The Regulatory Change Management application landing page view provides the overview of the regulatory activities in your organization. Users with the sn\_grc\_reg\_change.manager roles only can view the Regulatory Change Management landing page in the primary navigation in the Compliance Workspace.
+The Regulatory Change Management overview page provides a high-level view of the regulatory activities in your organization. If you have the sn\_grc\_reg\_change.manager role, you can view this page in the Compliance Workspace.
 
-The prerequisites for displaying the Regulatory Change Management landing page in the Compliance Workspace are:
+**Note:** The Overview Dashboard in the Classic UI is no longer available from the Yokohama release.
+
+The prerequisites for displaying the Regulatory Change Management overview page in the Compliance Workspace are:
 
 -   Download the GRC: Regulatory Change Management application from the ServiceNow Store in your instance.
 -   Log in as a user with the sn\_grc\_reg\_change.manager role into the Regulatory Change Management application.
 
-Use the regulatory change icon \[Omitted image "reg-change-icon.png"\] Alt text: to access the landing page.
+Use the \[Omitted image "reg-change-icon.png"\] to access the landing page.
 
 The Regulatory Change Management application managers with the sn\_grc\_reg\_change.manager user role assign the regulatory alerts and monitor the associated regulatory change tasks, import document tasks, and action tasks.
 
@@ -30,17 +32,19 @@ The Regulatory Change Management application in the Compliance Workspace is desi
 -   Regulatory Change Management application managers with the sn\_grc\_reg\_change.manager role: Only the users with the sn\_grc\_reg\_change.manager role can view the Home page of the Regulatory Change Management application in the Compliance Workspace.
 -   Regulatory Change Management application users with the sn\_grc\_reg\_change.user role: Users with the sn\_grc\_reg\_change.user role can view the tasks assigned to them in the Regulatory Change Management application, but they cannot view the Regulatory Change Management application landing page in the Compliance Workspace.
 
-## Landing page view
+## Overview page view
 
-The landing page view consists of the data visualization widgets that display the regulatory activity across your organization. The data visualization widgets are selectable widgets that use color coding to distinguish the states of the alerts and the tasks. You can select each widget to view all the associated regulatory alerts or tasks. The color scheme for each donut chart or bar graph is displayed in each subsection.
+The overview page consists of the data visualization widgets that display the regulatory activity across your organization. The data visualization widgets are selectable widgets that use color coding to distinguish the states of the alerts and the tasks. You can click each widget to view all the associated regulatory alerts or tasks. The color scheme for each donut chart or bar graph is displayed in each subsection.
 
 The GRC: Regulatory Change Management landing page displays the following sections:
 
 -   Activity overview
--   Trends
 -   Tracking
+-   Trends
 
-\[Omitted image "rcm-homepage-ws.png"\] Alt text: Landing page.
+Regulatory change managers can select the Explore with AI icon \[Omitted image "icon-otto-outline-24.svg"\] on the widgets of the RCM home page to analyze regulatory data using natural language queries. For information on installing, configuring and using it, see [Use AI to explore data with AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/ai-data-explorer.md).
+
+\[Omitted image "rcm-homepage-ws.png"\] Alt text: RCM dashboard view from the Compliance Workspace with activity, tracking, and trend reports.
 
 -   Activity overview: This section contains an overview of the regulatory alerts and the tasks associated with the regulatory alerts across your organization.
 
@@ -66,7 +70,7 @@ The GRC: Regulatory Change Management landing page displays the following sectio
 
     |Section|Description|
     |-------|-----------|
-    |Open alerts for last 12 months|Timeline of the incoming regulatory alerts that are active and are not closed over a period of 12 months. For example, if 10 records are received every month, they are grouped by a quarter and a total of 30 records for each quarter are displayed in the line graph. Four plots are displayed on the X-axis and 30 records are displayed in each plot.|
+    |Open alerts for last 12 months|Timeline of the incoming regulatory alerts that are active and are not closed over a period of 12 months. For example, if 10 records are received every month, they are grouped by quarter. A total of 30 records per quarter are displayed in the line graph. Four plots are displayed on the X-axis, with 30 records in each plot.|
     |Trends by taxonomy|Trends noted by the taxonomy elements such as content type, jurisdiction, regulatory body, sector, and theme.|
 
 -   Tasks: This section contains an overview of the user's tasks and user group's tasks.
@@ -77,25 +81,4 @@ The GRC: Regulatory Change Management landing page displays the following sectio
     |My group's work|Tasks assigned to the user group such as open and overdue tasks.|
     |View all tasks|Link to the Tasks view in the Home page.|
 
-
-**Parent Topic:**[Exploring Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/what-is-rcm.md)
-
-**Related topics**  
-
-
-[Tasks page in the Compliance Workspace]()
-
-[Source document import tasks]()
-
-[Regulatory process flow and tasks]()
-
-[RSS feeds overview]()
-
-[Impact assessments for the regulatory alerts]()
-
-[Regulatory assessment for a regulatory alert]()
-
-[Next Experience Discuss and Chat Collaboration]()
-
-[Regulatory Change Management application in the Compliance Workspace]()
 

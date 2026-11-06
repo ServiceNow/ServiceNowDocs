@@ -7,7 +7,7 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Process Mining, Platform Analytics]
 ---
@@ -34,8 +34,6 @@ When generating or sharing a project, Process Mining honors the access control r
 The Process Mining properties page provides configuration options for Process Mining.
 -   **[Configure Process Mining map in PAR dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/config-dashboard.md)**  
 Configure a Process Mining map to view the process graph in the PAR dashboard.
--   **[Process Mining architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/process-mining-architecture.md)**  
-Understand the basic attributes of the Process Mining architecture.
 
 **Parent Topic:**[Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/process-mining.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Field Service Management for Telecommunications
 classification: field-service-management-for-telecommunications
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -22,7 +22,6 @@ To learn more about Field Service Management application, see [Field Service Man
 
 ## Additional resources
 
--   Learn more about what's new and changed, see the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/field-service-management-telecommunication-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/field-service-management-telecommunication-rn.md).
 -   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see [TMF APIs for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/tmt-api-reference.md).
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Field Service Management for Telecommunication features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/lxp-search?id=search&q=field%20service%20management%20for%20telecommunications&spa=1)

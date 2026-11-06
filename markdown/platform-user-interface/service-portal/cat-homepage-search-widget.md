@@ -7,7 +7,7 @@ release: zurich
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Service Catalog widgets, Widget library, Using portal widgets, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -98,7 +98,7 @@ Placeholder
 
 </td><td>
 
-Text that appears in the search box before the user enters anything. By default, the placeholder text is `How can we help?`
+Text that appears in the search box before the user enters anything. By default, the placeholder text is `How can we help?`.
 
 </td></tr><tr><td>
 

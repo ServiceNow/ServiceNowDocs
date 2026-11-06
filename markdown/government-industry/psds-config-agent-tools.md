@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-config-agent-tools.html
 release: zurich
 topic_type: concept
-last_updated: "2026-01-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---

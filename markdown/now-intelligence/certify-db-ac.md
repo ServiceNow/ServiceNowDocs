@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/certify-db-ac.html
 release: zurich
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -35,7 +35,7 @@ Role required: admin or dashboard\_admin
 
 ## Result
 
-In the Dashboards library, the dashboard's entry is marked **Certified** in the Certified column.
+In the Dashboards library, the dashboard's entry is marked with a [certification badge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dashboards-glossary.md) \(**Certified**\) in the Certified column.
 
 \[Omitted image "certified-db-ac.png"\] Alt text: Certified dashboard example
 

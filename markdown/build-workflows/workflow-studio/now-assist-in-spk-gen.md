@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Building spokes using Spoke Generator, Use, Workflow Studio, Build workflows]
+breadcrumb: [Building spokes using Spoke Generator, Workflow Studio, Build workflows]
 ---
 
 # Use ServiceNow Otto to create spokes and build actions
@@ -34,7 +34,7 @@ Spoke Generation skill v1.0.4 is the latest version.
 
 ## App version
 
-Now Assist for Spoke Generation v1.7.0 is the latest version.
+ServiceNow Otto for Spoke Generation v2.0.0 is the latest version.
 
 ## Activation of the spoke generation skill
 
@@ -61,18 +61,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about scripts \(and associated script records\) in which Now Assist for code generation is called. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about scripts \(and associated script records\) in which Now Assist for code generation is called. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md).
-
--   **[Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/install-now-assist-spk.md)**  
-Install the ServiceNow Otto for Creator application to use the spoke generation skill.
--   **[Turn on the spoke generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/turn-on-spk-gen-skill.md)**  
-Turn on the flow generation skill to use generative AI to create a spoke.
--   **[Configure a third-party LLM provider as default for ServiceNow Otto for Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/configure-tpt-llm-provider-for-now-assist-for-spokes.md)**  
-Configure a third-party LLM provider as the default LLM provider that can create a spoke using ServiceNow Otto.
--   **[Create spoke and build actions using the spoke generation skill in ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-spk-now-spk-gen.md)**  
-Automate an integration and generate reusable actions by providing the required third-party API documentation snippet as an input.
-
-**Parent Topic:**[Building spokes using Spoke Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/spoke-builder.md)
+For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-products.md).
 

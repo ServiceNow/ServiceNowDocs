@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Space Management
 classification: workplace-space-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Workplace Space Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -53,9 +53,9 @@ The following features are available in the Space Management view on the workpla
 
 -   **[Add a campus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-space-management/add-a-campus.md)**  
 A Workplace Service Delivery campus contains buildings, floors, areas, or spaces.
--   **[Add a building using Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-space-management/add-new-building.md)**  
+-   **[Add a building using Workplace Space Management]()**  
 Create a record for every building that is part of your organization. Specify to which region, site, and time zone does the building belong to.
--   **[Add a floor using Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-space-management/add-a-floor.md)**  
+-   **[Add a floor using Workplace Space Management]()**  
 Create a record for every floor of a building. Specify the measurement details of the floor such as the total size and the usable size.
 -   **[Add an area using Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-space-management/add-an-area.md)**  
 Create a record for every area that is located on a floor.
@@ -81,8 +81,8 @@ Define a space recommender rule using which the qualifying spaces must be calcul
 Submit a workplace service request to get space allocation recommendations using the Workplace Service Portal. The Workplace Service Delivery space assistance provides you with the best space allocation plan options based on the space quantity and the department that you specify. You can select the most suitable allocation or none. Depending on your selection, the Space planner deploys the plan to use.
 -   **[Create a view-by configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-space-management/create-view-by-config.md)**  
 Create a configuration to filter the view of the scenario planner or building overview.
--   **[Create a KPI Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-space-management/create-kpi-configuration.md)**  
-Create a key performance indicator \(KPI\) that aggregates values from the Space table for use in the Space Planning module.
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-space-management/configurable-kpis-space-planning.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-space-management/configurable-kpis-space-planning.md)**  
+
 -   **[Reviewing allocation changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-space-management/reviewing-allocation-changes.md)**  
 Review allocation changes in the Space Allocation Type Change Tracker table to plan changes for your scenarios.
 

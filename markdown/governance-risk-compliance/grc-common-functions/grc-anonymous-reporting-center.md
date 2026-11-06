@@ -7,8 +7,8 @@ release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2026-02-18"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Common GRC features, Governance, Risk, and Compliance]
 ---
 
@@ -56,7 +56,7 @@ Description
 
 Raise suspected compliance, privacy, or AI-related issues confidentially. Depending on the case type, you can choose to:-   [Report a compliance case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/compliance-case-management/report-compliance-case-anonymously.md)
 -   [Report a privacy case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/report-privacy-case-anonymously.md)
--   Report an AI case
+-   [Report an AI case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/report-ai-case-anon.md)
 
 **Important:** After submission, download a copy of your report to record the Report key and Report number.
 

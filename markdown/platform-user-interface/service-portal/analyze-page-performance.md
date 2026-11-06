@@ -7,7 +7,7 @@ release: zurich
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Analyzing portal performance and usage, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -61,15 +61,15 @@ Role required: sp\_admin or admin
 
 6.  Review the benchmark results.
 
-<table id="choicetable_drv_ynr_jdc"><thead><tr><th align="left" id="d65182e237">
+<table id="choicetable_drv_ynr_jdc"><thead><tr><th align="left" id="d65132e237">
 
 Option
 
-</th><th align="left" id="d65182e240">
+</th><th align="left" id="d65132e240">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d65182e246">
+</th></tr></thead><tbody><tr><td id="d65132e246">
 
 **Benchmark details**
 
@@ -79,7 +79,7 @@ From the Benchmark results list, select a widget or AJAX API to view additional 
 
  \[Omitted image "performance-analyzerbenchmark-details.png"\] Alt text: Performance results for each widget on the page from the Benchmark details view
 
-</td></tr><tr><td id="d65182e265">
+</td></tr><tr><td id="d65132e265">
 
 **Preview**
 

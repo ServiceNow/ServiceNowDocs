@@ -7,9 +7,9 @@ release: zurich
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Learn UI Builder by example, Learning UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Learn UI Builder by example, Learning UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Create a record page using a template
@@ -24,7 +24,7 @@ Role required: ui\_builder\_admin
 
 1.  Open the main page for your demo experience.
 
-    \[Omitted image "demo-experience.png"\] Alt text: Demo Experience
+    \[Omitted image "demo-experience.png"\] Alt text: Demo Experience.
 
 2.  From the main page for your experience, select the plus \(**+**\) sign next to **Pages**.
 

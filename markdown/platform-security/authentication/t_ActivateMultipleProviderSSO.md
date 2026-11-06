@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Multi-Provider single sign-on \(SSO\), Access Management]
+breadcrumb: [Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---
 
 # Activate Multi-Provider SSO plugin
@@ -17,8 +17,6 @@ breadcrumb: [Multi-Provider single sign-on \(SSO\), Access Management]
 This integration requires the Integration - Multiple Provider Single Sign-On Installer \(com.snc.integration.sso.multi.installer\) plugin.
 
 ## Before you begin
-
-Role required: admin.
 
 The com.snc.integration.sso.multi.installer plugin can also be used for OIDC, SAML, and Digest.
 
@@ -34,7 +32,7 @@ Role required: admin
 
 3.  Select **Install** to start the installation process.
 
-    **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
+    **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/find-components.md).
 

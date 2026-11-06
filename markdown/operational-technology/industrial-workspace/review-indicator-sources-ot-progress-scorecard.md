@@ -7,7 +7,7 @@ release: zurich
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: task
-last_updated: "2026-02-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Setting up the Operational Technology Progress Scorecard, Configure, Industrial Workspace, Operational Technology]
 ---

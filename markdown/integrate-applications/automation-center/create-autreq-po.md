@@ -7,9 +7,9 @@ release: zurich
 product: Automation Center
 classification: automation-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integration with Task Mining, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Creating an automation request, Working with automations, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Integration with Process Mining
@@ -26,5 +26,5 @@ You need the following roles:
 
 For more information, see the [Submit an automation idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/submit-automation-idea.md).
 
-**Parent Topic:**[Integration with Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/integrating-with-task-mining.md)
+**Parent Topic:**[Creating an automation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/create-automation-request.md)
 

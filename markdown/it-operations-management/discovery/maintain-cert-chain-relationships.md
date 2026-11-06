@@ -16,7 +16,7 @@ breadcrumb: [Visibility to TLS certificates, Configure, Certificate Inventory an
 
 Maintaining certificate chain relationships via certificate import verifies the integrity and security of digital certificates, validating their authenticity in a system.
 
-When you run certificate discovery by importing certificate files, the file extension and the order of the certificates within the file determine whether the system can build the chain relationships between the server, intermediate, and root certificates. This behavior applies only to certificates discovered through certificate file import. For information about this discovery method, see [Run certificate discovery via certificate file import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/run-cert-inventory-mgmt-import.md).
+When you run certificate discovery by importing certificate files, the file extension and the order of the certificates within the file determine whether the system can build the chain relationships between the server, intermediate, and root certificates. This behavior applies only to certificates discovered through certificate file import. For information about this discovery method, see [Run Certificate Discovery via certificate file import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/run-cert-inventory-mgmt-import.md).
 
 Only files with the `.txt` extension preserve certificate chain relationships. Certificates in a `.txt` chain file must appear in this order: Server certificate, intermediate certificate, and root certificate.The following outcomes apply when a file doesn't meet these requirements:
 

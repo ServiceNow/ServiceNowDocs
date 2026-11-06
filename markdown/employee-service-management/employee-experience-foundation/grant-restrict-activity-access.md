@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [My active items widget configuration, Setup task management, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [My active items widget configuration, Setup task management, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Restrict access to an activity
@@ -34,15 +34,15 @@ In the My active items widget, the activity that a user does not have access to 
 
 3.  Click the **Activity Access** tab.
 
-<table id="choicetable_bpj_pmm_1rb"><thead><tr><th align="left" id="d729690e85">
+<table id="choicetable_bpj_pmm_1rb"><thead><tr><th align="left" id="d741065e83">
 
 To
 
-</th><th align="left" id="d729690e88">
+</th><th align="left" id="d741065e86">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d729690e94">
+</th></tr></thead><tbody><tr><td id="d741065e92">
 
 **Add a new user criteria**
 
@@ -53,7 +53,7 @@ Do this
 3.  Click **Submit**.
 
 
-</td></tr><tr><td id="d729690e129">
+</td></tr><tr><td id="d741065e127">
 
 **Edit an existing user criteria**
 

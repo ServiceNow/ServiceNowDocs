@@ -7,9 +7,9 @@ release: zurich
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
-breadcrumb: [Calculator rules, Creating Calculator group, Configure, Configuration Compliance, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Configuration Compliance calculators and calculator rules, Create a Configuration Compliance calculator group, Configure, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
 
 # Examples for Configuration Compliance risk score calculation

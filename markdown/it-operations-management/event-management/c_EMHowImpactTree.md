@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-06-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -54,7 +54,7 @@ OR
 
 **Note:**
 
-The [**Maintenance**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMViewAlertmaintenance.md) check box for an alert is selected when the **Install Status** field on the CI record is **In Maintenance**. This **Maintenance** check box indicates that the alert must be hidden from the **Alerts** tab. When the maintenance job updates this field, the **Updated** field \(sys\_updated\_on\) changes for open alerts, but not for closed alerts.
+The [**Maintenance**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMViewAlertmaintenance.md) check box for an alert is selected when the **Install Status** field on the CI record is **In Maintenance**. This **Maintenance** check box indicates that the alert must be hidden from the **Alerts** tab. When the maintenance job updates this field, the Updated field \(sys\_updated\_on\) changes for open alerts, but not for closed alerts.
 
 </td></tr><tr><td>
 

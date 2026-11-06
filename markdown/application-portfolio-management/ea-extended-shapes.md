@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/ea-extended-shapes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-03-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Shapes to create a modeling diagram, Exploring Enterprise Modeling and Visualization in the EA Workspace, Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Shapes to create a modeling diagram, Exploring Enterprise Modeling and Visualization in the EA Workspace, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Enterprise Architecture \(EA\) extended shapes

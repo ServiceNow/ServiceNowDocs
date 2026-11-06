@@ -1,18 +1,18 @@
 ---
 title: Data views for different data sources
-description: When the chart interaction for a data visualization is set to Go to data, interacting with a data value on the visualization opens different pages depending on the data source.
+description: Set the chart interaction for a data visualization to Go to data to open a data view. The page that opens depends on the data source.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/visualization-drilldown-in-config-ws.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-29"
 reading_time_minutes: 2
 breadcrumb: [Chart interactions in a data visualization, Configure, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
 # Data views for different data sources
 
-When the chart interaction for a data visualization is set to Go to data, interacting with a data value on the visualization opens different pages depending on the data source.
+Set the chart interaction for a data visualization to **Go to data** to open a data view. The page that opens depends on the data source.
 
 **Note:** For an overview of the data sources that are available for data visualizations, see [Data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/data-sources-visualizations.md).
 

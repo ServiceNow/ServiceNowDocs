@@ -7,9 +7,9 @@ release: zurich
 product: Talent Development Core
 classification: talent-development-core
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Skills Foundation, Growth Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configuring Skills Foundation, Skills Foundation, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Install Skills Foundation
@@ -18,7 +18,7 @@ You can install the Skills Foundation application \(com.sn\_skills\_int\) if you
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [Skills Intelligence](https://store.servicenow.com/sn_appstore_store.do#!/store/application/a02907e177211110fe0050f79a106105/5.0.0) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 Role required: sn\_skills\_int.admin

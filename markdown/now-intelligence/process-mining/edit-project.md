@@ -1,38 +1,42 @@
 ---
-title: Edit a project
-description: Edit a project from the Project Definition form to generate an updated process map.
+title: Manage a project
+description: Edit or delete a project. Delete a project if you aren't using it and want to clean up data. Deleting a project deletes the project's configurations and versions or projects it has generated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/edit-project.html
 release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a project using Classic view, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Create a project using Classic view, Use, Process Mining, Platform Analytics]
 ---
 
-# Edit a project
+# Manage a project
 
-Edit a project from the Project Definition form to generate an updated process map.
+Edit or delete a project. Delete a project if you aren't using it and want to clean up data. Deleting a project deletes the project's configurations and versions or projects it has generated.
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin
+Role required: sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
 
--   The sn\_process\_optimization\_analyst role can edit a project if they created it.
+-   The sn\_process\_mining\_analyst role can edit or delete a project if they created it.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Process Mining** &gt; **Process Mining Workspace**.
 
-2.  From the Project list, select the ellipses beside the project you want to edit.
+2.  From the Project list, select the ellipses beside the project.
 
-3.  Select **Edit**.
+    1.  Select **Edit** if you want to edit the project.
 
-4.  Enter changes in the desired fields and select **Update**.
+        Enter changes in the desired fields and select **Update**.
 
-    The table can't be changed after defining an activity, breakdown, or child table.
+        The table can't be changed after defining an activity, breakdown, or child table.
+
+    2.  Select **Delete** from the list if you want to delete the project.
+
+        Select **Delete** on the confirmation dialog box to delete the project.
 
 
 ## What to do next

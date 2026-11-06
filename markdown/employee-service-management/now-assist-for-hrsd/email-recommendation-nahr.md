@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Use generative AI skills, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
@@ -43,15 +43,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 2.  Choose how to compose an email.
 
-<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d202322e151">
+<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d205940e145">
 
 Method
 
-</th><th align="left" id="d202322e154">
+</th><th align="left" id="d205940e148">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d202322e160">
+</th></tr></thead><tbody><tr><td id="d205940e154">
 
 **Compose email from More actions**
 
@@ -64,7 +64,7 @@ Description
 5.  Get a recommendation that is based on the existing context.
 
 
-</td></tr><tr><td id="d202322e211">
+</td></tr><tr><td id="d205940e205">
 
 **Compose an email from Activity stream**
 
@@ -78,15 +78,15 @@ Description
 </td></tr></tbody>
 </table>3.  In the email message window, either type a response, or leave blank, and then select the ServiceNow Otto \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist..
 
-<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d202322e268">
+<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d205940e262">
 
 Email message window
 
-</th><th align="left" id="d202322e271">
+</th><th align="left" id="d205940e265">
 
 ServiceNow Otto icon
 
-</th></tr></thead><tbody><tr><td id="d202322e280">
+</th></tr></thead><tbody><tr><td id="d205940e274">
 
 **Typed response**
 
@@ -96,7 +96,7 @@ Provides the option to refine your response:-   Elaborate
 -   Shorten
 
 
-</td></tr><tr><td id="d202322e297">
+</td></tr><tr><td id="d205940e291">
 
 **Left blank**
 
@@ -104,7 +104,7 @@ Provides the option to refine your response:-   Elaborate
 
 Generates a recommended email reply that is based on the context of the email up to this point.
 
-</td></tr><tr><td id="d202322e306">
+</td></tr><tr><td id="d205940e300">
 
 **Use template**
 
@@ -120,7 +120,7 @@ Shows email template recommendations while composing an email.
 6.  Select **Send Email** or discard the draft if you don’t like the recommendation.
 
 
-**Parent Topic:**[Using ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
+**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 **Related topics**  
 
@@ -137,9 +137,9 @@ Shows email template recommendations while composing an email.
 
 [Summarize an HR case using ServiceNow Otto for HRSD]()
 
-[Summarize an ER case using ServiceNow Otto for HRSD]()
-
 [Summarize an ER case interview using ServiceNow Otto for HRSD]()
+
+[Summarize an ER case using ServiceNow Otto for HRSD]()
 
 [Generate resolution notes using ServiceNow Otto for HRSD]()
 
@@ -156,6 +156,8 @@ Shows email template recommendations while composing an email.
 [Submit an HR request with Gen AI Virtual Agent]()
 
 [ServiceNow Otto for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework]()
+
+[Generate activity responses for HR cases]()
 
 [Analyze sentiments in ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 

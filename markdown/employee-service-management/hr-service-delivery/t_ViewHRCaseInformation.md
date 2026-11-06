@@ -7,9 +7,9 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2024-08-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Work an HR case, Use HR Case Management, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Work an HR case, Use, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # View HR case information

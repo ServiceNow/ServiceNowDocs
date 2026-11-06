@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-01-14"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-PagerDuty spoke v1.6.0 is the latest version.
+PagerDuty spoke v1.6.1 is the latest version. For version history of the spoke, see [PagerDuty spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-pagerduty.html).
 
 ## Supported versions
 

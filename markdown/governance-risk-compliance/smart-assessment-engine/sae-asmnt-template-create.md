@@ -7,7 +7,7 @@ release: zurich
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use template designer, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -18,13 +18,15 @@ Create an assessment template by using the Smart Assessment Engine application b
 
 ## Before you begin
 
-Role required: sn\_smart\_asmt.template\_manager
+-   At least one active template category must exist before you can create a template. See [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
+-   You must also have a role that matches the Category Roles configured on the template category you intend to use. Without a matching category role, you cannot create templates for that category.
+-   Role required: sn\_smart\_asmt.template\_manager
 
 ## About this task
 
 \[Omitted video\] Description: Create an assessment template
 
-**Important:** You can create an assessment only from a published assessment template. You can update a published template only if no active assessment is associated with the template.
+**Important:** You can create an assessment only from a published assessment template.
 
 ## Procedure
 

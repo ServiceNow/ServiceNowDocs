@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/cpq-multi-language-translation.html
 release: zurich
 topic_type: concept
-last_updated: "2025-09-18"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Multi-language translation
@@ -22,7 +22,7 @@ ServiceNow CPQ multi-language capability is available on end-user user interface
 
 ServiceNow CPQ supports all left-to-right languages, including those with multi-byte character sets \(e.g., Japanese, Korean\).
 
-**Note:** Right-to-left languages such as Arabic and Hebrew are not currently supported. If your implementation expects to require translation into a right-to-left language, please log a Support case and we will follow up with you.
+**Note:** Right-to-left languages such as Arabic and Hebrew are not currently supported. If your implementation expects to require translation into a right-to-left language, please log a support case and we will follow up with you. To log a support case, use the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
 
 The base language for all ServiceNow CPQ environments is English. As a result, translations of custom strings must be furnished with the corresponding English key. Example: If the administrator enables French and Finnish on an environment, they will need to provide English-to-French and English-to-Finnish translations.
 

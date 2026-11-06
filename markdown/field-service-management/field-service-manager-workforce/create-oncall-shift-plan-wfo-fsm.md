@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Scheduling, Workforce Optimization, Workforce, Use, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Scheduling, Workforce Optimization, Managing workforce, Use, Field Service Management]
 ---
 
 # Create an on-call shift plan in Workforce Optimization for Field Service

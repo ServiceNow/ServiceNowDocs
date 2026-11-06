@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [MS Teams and Microsoft 365, Integrate, ServiceNow for Microsoft Teams and Microsoft 365, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Integrating ServiceNow with Microsoft Teams and Microsoft 365, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
 # Setting up the ServiceNow instance for Microsoft Teams integration
@@ -30,8 +30,6 @@ For best practices and guidelines, refer to the Knowledge base article: [https:/
 Prepare your environment to set up and configure your ServiceNow instance for Microsoft Teams integrations using the pre-published app configuration.
 -   **[Setup for integrating self-configured apps with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/setup-single-tenant.md)**  
 Prepare your environment to set up and configure ServiceNow for Microsoft Teams integrations using the self-configured app.
--   **[Setup Copilot integration for ServiceNow for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/configure-the-copilot-integration-for-servicenow-for-ms365.md)**  
-Enable co-pilot integration for ServiceNow for Microsoft 365.
 
 **Parent Topic:**[Integrating ServiceNow with Microsoft Teams and Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/setup-sn-ms-teams.md)
 

@@ -1,20 +1,20 @@
 ---
 title: Fine-tune patterns using traffic-based discovery
-description: Improve existing patterns so that Service Mapping can find configuration item \(CI\) connections previously discovered using traffic-based discovery.
+description: Improve existing patterns so that Service Mapping can find configuration item \(CI\) connections previously found using traffic-based discovery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery-and-service-mapping-patterns/connection-section-traffic-based.html
 release: zurich
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # Fine-tune patterns using traffic-based discovery
 
-Improve existing patterns so that Service Mapping can find configuration item \(CI\) connections previously discovered using traffic-based discovery.
+Improve existing patterns so that Service Mapping can find configuration item \(CI\) connections previously found using traffic-based discovery.
 
 ## Before you begin
 

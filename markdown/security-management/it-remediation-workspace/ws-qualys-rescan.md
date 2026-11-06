@@ -7,7 +7,7 @@ release: zurich
 product: IT Remediation Workspace
 classification: it-remediation-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Rescan vulnerable items and remediation tasks in the IT Remediation Workspace, Use, IT Remediation Workspace, Vulnerability Response Workspaces, Unified Security Exposure Management, Security Operations]
 ---
@@ -55,15 +55,15 @@ Roles required:
 
     An option profile is required when you initiate a Qualys scan from your ServiceNow AI Platform®. Option profiles contain Qualys scan settings.
 
-<table id="choicetable_itr_bmq_yqb"><thead><tr><th align="left" id="d184456e256">
+<table id="choicetable_itr_bmq_yqb"><thead><tr><th align="left" id="d185919e256">
 
 Option
 
-</th><th align="left" id="d184456e259">
+</th><th align="left" id="d185919e259">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d184456e265">
+</th></tr></thead><tbody><tr><td id="d185919e265">
 
 **Use default option profile**
 
@@ -71,7 +71,7 @@ Description
 
 This is the option profile that is set as the default for the integration instance. You select this profile when you set up your Qualys scanner. See [Set up scanner appliances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-response/advanced-modifications.md) for more information.
 
-</td></tr><tr><td id="d184456e288">
+</td></tr><tr><td id="d185919e288">
 
 **Specify option profile**
 

@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Inbound Integrations, OAuth inbound, OAuth authentication, Access Management]
+breadcrumb: [Inbound integrations, OAuth inbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Third party token grant

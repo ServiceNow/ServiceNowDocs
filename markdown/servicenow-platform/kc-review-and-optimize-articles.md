@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/kc-review-and-optimize-articles.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Knowledge Center, Knowledge Center, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,7 +24,7 @@ Review and optimize knowledge articles in the Knowledge Center \(KC\) by running
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Knowledge** &gt; **Knowledge Center** &gt; **Lists**.
+1.  Navigate to **All** &gt; **Knowledge** &gt; **Knowledge Center** &gt; **List**.
 
 2.  Select the type of article from the **List** menu \(Unpublished, Published, Retired, and so on\).
 

@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-07-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure, ServiceNow Otto for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -40,7 +40,7 @@ Discovery
 
 The CI summarization skill extracts details from the **Discovery source** and **Most recent discovery** CI attributes.
 
- If CMDB 360 is enabled, the summary can show additional discovery sources for the CI. For more information, see [CMDB 360/Multisource CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md).
+ If CMDB 360 is enabled, the summary can show additional discovery sources for the CI. For more information, see [CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md).
 
 </td></tr><tr><td>
 

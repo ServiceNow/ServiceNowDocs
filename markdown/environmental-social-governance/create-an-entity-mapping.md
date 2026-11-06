@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/create-an-entity-mapping.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating ESG Management \(formerly ESG\) with Watershed, Integrating ESG Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Integrating Operational Sustainability Management \(formerly ESG\) with Watershed, Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Create a record identifier in an entity
@@ -43,5 +43,5 @@ You can map the existing data in your system, such as an entity, an entity type,
 
 The identifier is added to the entity. When the system detects the record identifier text during the importing of data, the record will be mapped to the correct entity.
 
-**Parent Topic:**[Integrating ESG Management \(formerly ESG\) with Watershed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/integrate-esg-with-watershed.md)
+**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Watershed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/integrate-esg-with-watershed.md)
 

@@ -7,8 +7,8 @@ release: zurich
 product: Service Mapping
 classification: service-mapping
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Service Mapping reference, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
@@ -18,7 +18,7 @@ When preparing to map application services based on tags, create tag categories 
 
 For detailed information about defining service families in tag-based mapping, see [Prepare for mapping application services based on tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/prepare-map-service-tag.md).
 
-**Note:** Starting with Service Mapping Plus version 1.16.3, take advantage of the Tag-based Service Mapping workspace to efficiently map your application services. .
+**Note:** Starting with Service Mapping Plus version 1.16.3, take advantage of the Tag-based Service Mapping workspace to efficiently map you application services. For more information, see [Tag-based mapping in the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/tag-based-mapping-dashboard.md) and [Tag-based discovery for the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/tag-discovery-service-mapping-workspace.md).
 
 <table id="table_zbx_gvs_djb"><thead><tr><th>
 

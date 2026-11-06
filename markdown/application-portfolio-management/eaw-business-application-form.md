@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-business-application-form.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Reference, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Business application form
@@ -368,7 +368,7 @@ Managed by group
 
 </td><td>
 
-Group responsible for overall management of the business application, including maintenance, upgrades, and lifecycle decision
+Group responsible for overall management of the business application, including maintenance, upgrades, and lifecycle decisions.
 
 </td></tr><tr><td>
 
@@ -452,7 +452,7 @@ Status of the application that it meets requirements or complies with the polici
 |-----|-----------|
 |Work notes|Work notes entered by you.|
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-form-field-information.md)
 
 **Related topics**  
 

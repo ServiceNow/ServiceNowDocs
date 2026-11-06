@@ -1,16 +1,16 @@
 ---
-title: Access your list of install base items from the Consumer Service Portal
+title: Access your list of install base items
 description: Access your list of install base items from the Consumer Service Portal so that you can get the detailed information about an install base item. For example, with this list, you can see how many items are registered to you.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/view-install-base-items-from-consumer-service-portal.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the Consumer Service Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Consumer Service Portal, Customer communication, Use, Customer Service Management]
 ---
 
-# Access your list of install base items from the Consumer Service Portal
+# Access your list of install base items
 
 Access your list of install base items from the Consumer Service Portal so that you can get the detailed information about an install base item. For example, with this list, you can see how many items are registered to you.
 
@@ -30,4 +30,11 @@ Role required: sn\_customerservice.consumer, sn\_customerservice.consumer\_contr
 
 3.  From the list, open an install base record to see all the details and cases for that install base item.
 
+
+**Related topics**  
+
+
+[Create a case from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-case-consumer-portal.md)
+
+[Register a product from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/register-product-consumer-portal.md)
 

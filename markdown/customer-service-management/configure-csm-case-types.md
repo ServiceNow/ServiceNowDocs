@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configure-csm-case-types.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 9
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 breadcrumb: [Customer service case types, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
@@ -16,7 +16,9 @@ Configure case types to handle different types of customer issues. A case type i
 
 ## Before you begin
 
-Role required: admin
+Role required: csm\_guided\_setup\_user or admin
+
+To be compatible with CRM Workspace, Case Types must be version 4.0 or later.
 
 ## About this task
 
@@ -103,26 +105,24 @@ A business rule is a server-side script that runs when a record is displayed, in
 
 </td></tr><tr><td>
 
-Set Up Case Type UI Actions
+Set Up Case Type declarative actions
 
 </td><td>
 
-UI actions include the buttons, links, and context menu items that appear on lists and forms. A case type inherits the UI actions from the Case table. You have the following options when setting up UI actions for a case type:
+Declarative actions include the buttons, links, and context menu items that appear on lists and forms. A case type inherits the declarative actions from the Case table. You have the following options when setting up declarative actions for a case type:
 
--   Create new UI actions for the case type. If you create a new UI action, select the Case Type table in the **Table** field on the UI Action form.
--   Use any of the inherited case UI actions.
+-   Create new declarative actions for the case type. If you create a new declarative action, select the Case Type table in the **Table** field on the declarative action form.
+-   Use any of the inherited case declarative actions.
 -   Use a combination of the two.
-You can also block any inherited case UI actions that you do not want. To block an action, update the **CSUIActionsimpl** script include.
+You can also block any inherited case declarative actions that you do not want. To block an action, update the **CSUIActionsimpl** script include.
 
 </td></tr><tr><td>
 
-[Enable the **Create Case** UI action for case type selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/config-csm-config-ws-ui-action.md)
+Make sure that the sn\_csm\_case\_types.enable\_service\_selector property which enables the case type selector is set to true.
 
 </td><td>
 
-This procedure adds the **Create Case** UI action to records in the configured table. Selecting this UI action displays the [case type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-case-type-select-modals.md).
-
- **Note:** For CSM Configurable Workspace, the **Create Case** UI action for case type selection is disabled out of box.
+The sn\_csm\_case\_types.enable\_service\_selector property which enables the case type selector is set to true for zBoot customers, and can be enabled for upgrade customers.
 
 </td></tr><tr><td>
 
@@ -182,13 +182,13 @@ Set Up Case Type Selection Conditions
 
 When creating a case of a specific type, an agent clicks **Create Case** and then selects from a list of available case types. The system presents the case types that have been configured for the agent's role. To set up case type selection conditions, use Flow Designer to configure the **Get Case Types** flow and modify the conditions that determine visibility for a case type.
 
- There are two different implementations of the **Create Case** UI action:
+ There are two different implementations of the **Create Case** declarative action:
 
- -   The Customer Service plugin provides a **Create Case** UI action that agents can use as follows:
+ -   The Customer Service plugin provides a **Create Case** declarative action that agents can use as follows:
     -   To create a base case.
-    -   To create a case for one specific case type. For example, if your organization always creates the same type of case and you have created only one extension of the Case table, you can modify this UI action to create a case of that specific case type.
--   The Customer Service Case Types plugin also provides a **Create Case** UI action that agents can use to create a case based on a selected case type. After clicking this UI action to create a case, the agent selects the desired case type from a list of multiple available case types.
- **Note:** It is recommended that you configure one of the **Create Case** UI actions but not both to avoid confusion.
+    -   To create a case for one specific case type. For example, if your organization always creates the same type of case and you have created only one extension of the Case table, you can modify this declarative action to create a case of that specific case type.
+-   The Customer Service Case Types plugin also provides a **Create Case** declarative action that agents can use to create a case based on a selected case type. After clicking this declarative action to create a case, the agent selects the desired case type from a list of multiple available case types.
+ **Note:** It is recommended that you configure one of the **Create Case** declarative actions but not both to avoid confusion.
 
 </td></tr><tr><td>
 
@@ -209,7 +209,7 @@ The case digest feature enables agents to proactively communicate with customers
  Cases that are created from a selected case type can use Case Action Summaries and Post Case Reviews. To create the mapping that identifies the case type fields that are copied to Post Case Review and Case Action Summary records:
 
 -   Create a configuration for the desired case type. Navigate to **Case Digests** &gt; **Configuration** and click **New**.
--   Create new records in the CSM Table Map table \(csm\_table\_map\) to map the **Send Case Action Summary** and **Create Post Case Review** UI actions.
+-   Create new records in the CSM Table Map table \(csm\_table\_map\) to map the **Send Case Action Summary** and **Create Post Case Review** declarative actions.
  The Case Digests related list on the Case Type form shows the case action summaries and post case review configurations for a case type.
 
 </td></tr><tr><td>
@@ -222,11 +222,11 @@ Navigate to **Contextual Search** &gt; **Table Configuration** and create a tabl
 
 </td></tr><tr><td>
 
-Set Up Agent Workspace for Case Types
+Set Up CRM Workspace for Case Types
 
 </td><td>
 
-To configure Agent Workspace differently for each case type, follow the Agent Workspace Guided Setup. You can configure the following features specific to each case type:-   Workspace lists
+To configure CRM Workspace differently for each case type, follow the CRM Workspace Guided Setup. You can configure the following features specific to each case type:-   Workspace lists
 -   Notifications
 -   Highlighted values
 -   Ribbon settings

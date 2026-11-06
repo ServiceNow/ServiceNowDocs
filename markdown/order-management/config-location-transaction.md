@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/config-location-transaction.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Configuring agent tools in Sales CRM, Configure, Sales Customer Relationship Management]
 ---
 
@@ -62,4 +62,11 @@ Admins and product catalog admins complete the following configuration tasks to 
 Turn on location-based transactions for opportunities, quotes, and orders by using the **sn\_sales\_common.enable\_location\_based\_transactions** system property.
 
 **Parent Topic:**[Configuring agent tools in Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-agent-tools.md)
+
+**Related topics**  
+
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-order-management.md)
+
+[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-order-management.md)
 

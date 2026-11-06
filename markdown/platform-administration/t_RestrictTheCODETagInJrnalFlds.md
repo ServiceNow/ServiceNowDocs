@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/t\_RestrictTheCODETagInJrnalFlds.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Render journal field entries as HTML, Journal field type, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer]
+breadcrumb: [Render journal field entries as HTML, Journal field type, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Restrict the CODE tag in journal fields

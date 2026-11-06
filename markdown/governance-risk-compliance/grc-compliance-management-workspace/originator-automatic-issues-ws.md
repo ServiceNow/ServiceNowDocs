@@ -1,5 +1,5 @@
 ---
-title: Linking automatically generated issues to a control in many-to-many relationship
+title: Linking automatically generated issues to a control in Many-to-many relationship
 description: You can link an automatically generated issue that belongs to a different control as a related issue to a control. The Originator flag helps you to differentiate those control issues that were automatically generated from the controls that were manually created.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-compliance-management-workspace/originator-automatic-issues-ws.html
@@ -7,12 +7,12 @@ release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Manage controls, Use, GRC Compliance Workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage controls using the Compliance Workspace, Use, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
-# Linking automatically generated issues to a control in many-to-many relationship
+# Linking automatically generated issues to a control in Many-to-many relationship
 
 You can link an automatically generated issue that belongs to a different control as a related issue to a control. The **Originator** flag helps you to differentiate those control issues that were automatically generated from the controls that were manually created.
 

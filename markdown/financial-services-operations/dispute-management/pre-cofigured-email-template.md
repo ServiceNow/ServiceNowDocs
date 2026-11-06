@@ -7,7 +7,7 @@ release: zurich
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dispute manager workspace, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -69,5 +69,9 @@ Dispute denial \[case.dispute.denial\]
 Template that notifies users that their dispute submission is denied.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Dispute manager workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/workspace-for-dispute-manager.md)
+</table>The following example shows a sample email template.
+
+\[Omitted image "Email\_ack\_submission.jpg"\] Alt text: Sample email acknowledgement letter.
+
+**Parent Topic:**[Dispute manager workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/workspace-for-dispute-manager.md)
 

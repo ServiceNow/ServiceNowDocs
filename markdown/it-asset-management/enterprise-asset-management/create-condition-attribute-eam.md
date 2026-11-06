@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create and manage enterprise assets, Manage enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Asset conditions, Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Define condition attributes on enterprise models and assets
@@ -170,5 +170,10 @@ Option that indicates if the condition attribute is active. Select this check bo
     The form closes and you’re automatically redirected to the new condition attribute record.
 
 
-**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
+**Parent Topic:**[Asset conditions in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/asset-conditions-eam.md)
+
+**Related topics**  
+
+
+[Create condition templates for condition attributes]()
 

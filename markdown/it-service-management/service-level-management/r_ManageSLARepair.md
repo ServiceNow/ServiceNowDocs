@@ -7,9 +7,9 @@ release: zurich
 product: Service Level Management
 classification: service-level-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Repair Service Level Agreement \(SLA\), Use, Service Level Management, IT Service Management]
+breadcrumb: [Repair Service Level Agreement \(SLA\), Using Service Level Management, Service Level Management, IT Service Management]
 ---
 
 # Configure SLA repair

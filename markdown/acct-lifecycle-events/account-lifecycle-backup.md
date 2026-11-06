@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-backup.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Account onboarding, Configure, Customer Success Management]
+breadcrumb: [Account onboarding playbook, Configure, Customer Success Management]
 ---
 
 # Run scheduled job to back up staging table
@@ -44,5 +44,5 @@ Data present in the staging table backed up if:
 
 A CSV file is created and attached to the import task. The file name includes the name of the staging file and the creation date in the format `stagingTable-dateCreated.csv`.
 
-**Parent Topic:**[Account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-configure.md)
+**Parent Topic:**[Configure the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-configure.md)
 

@@ -1,17 +1,17 @@
 ---
 title: Public Sector Digital Services \(PSDS\)
-description: Extend beyond the packaged government case types, leveraging the government data model to create your own workflows with low-code tools. Fulfill public service requests end-to-end with pre-packaged playbooks. Deliver a personalized experience to take care of common constituent requests using resources like the portal, service catalog, virtual agent, and online communities. Use the ServiceNow Public Sector Digital Services \(PSDS\) application to serve constituents, businesses, and agencies on a single platform.
+description: Use the ServiceNowPublic Sector Digital Services \(PSDS\) application to deliver government services to constituents, businesses, and agencies on a single platform. Built on a government data model, Public Sector Digital Services provides prebuilt playbooks, solutions, configurable portals, and an AI-powered workspace that government agents can use to manage the full lifecycle of service requests—from intake to resolution. You can deploy Public Sector Digital Services with the applications that match your agency's needs. The applications are configurable and extensible using low-code tools to build workflows that are specific to your processes. Whether you're setting up for the first time or expanding an existing implementation, the content in this documentation set guides you through exploring the solution, configuring your environment, and using the product day to day.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/bun-public-sector-landing-page.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 ---
 
 # Public Sector Digital Services \(PSDS\)
 
-Extend beyond the packaged government case types, leveraging the government data model to create your own workflows with low-code tools. Fulfill public service requests end-to-end with pre-packaged playbooks. Deliver a personalized experience to take care of common constituent requests using resources like the portal, service catalog, virtual agent, and online communities. Use the ServiceNow® Public Sector Digital Services \(PSDS\) application to serve constituents, businesses, and agencies on a single platform.
+Use the ServiceNow®Public Sector Digital Services \(PSDS\) application to deliver government services to constituents, businesses, and agencies on a single platform. Built on a government data model, Public Sector Digital Services provides prebuilt playbooks, solutions, configurable portals, and an AI-powered workspace that government agents can use to manage the full lifecycle of service requests—from intake to resolution. You can deploy Public Sector Digital Services with the applications that match your agency's needs. The applications are configurable and extensible using low-code tools to build workflows that are specific to your processes. Whether you're setting up for the first time or expanding an existing implementation, the content in this documentation set guides you through exploring the solution, configuring your environment, and using the product day to day.
 
 <table id="table_qq4_trz_3tb" class="nav-card"><tbody><tr><td>
 

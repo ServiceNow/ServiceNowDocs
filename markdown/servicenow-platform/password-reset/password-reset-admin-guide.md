@@ -7,7 +7,7 @@ release: zurich
 product: Password Reset
 classification: password-reset
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -85,10 +85,6 @@ Reset a password or unlock a user account by requesting the assistance of a serv
 You can enable a Password Reset process in a Service Portal page by adding a widget that opens the password reset pages inside the portal.
 -   **[Integrate Password Reset with a CMS integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/password-reset/t_PasswordResetCMSIntegration.md)**  
 You can configure a site in the ServiceNow content management \(CMS\) application to define a single-site access point that includes the Password Reset service. For example, you can create an employee self-service site that provides Password Reset service.
--   **[Installing and configuring Password Reset Windows Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/password-reset/install-configure-password-reset-windows-app.md)**  
-Request the Password Reset Windows App \(Password Reset Orchestration\) \(com.glideapp.password\_reset\_desktop\) plugin that enables connections to the Active Directory \(AD\) credential store types.
--   **[Enrolling in the Password Reset application to reset your password](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/password-reset/c_EnrollInPasswordReset.md)**  
-The self-service process is a typical process that you might follow to reset your password. Your experience might differ.
 
 **Parent Topic:**[Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/password-reset/password-reset-landing-page.md)
 

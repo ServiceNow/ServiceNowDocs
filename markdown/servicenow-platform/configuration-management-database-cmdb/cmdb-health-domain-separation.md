@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Reference, CMDB Health, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [Reference, CMDB Health, Configuration Management Database \(CMDB\),
 # Domain separation in CMDB Health
 
 This is an overview of domain separation as it pertains to CMDB Health. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+
+## Overview of domain separation in CMDB Health
 
 
 

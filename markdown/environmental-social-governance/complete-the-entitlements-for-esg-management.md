@@ -1,18 +1,18 @@
 ---
-title: Complete the entitlements for ESG Management \(formerly ESG Management\)
-description: After you install the ESG Management application from the ServiceNow Store, you must complete the entitlements to gain complete access to the application and use it.
+title: Complete the entitlements for Operational Sustainability Management \(formerly ESG Management\)
+description: After you install the Operational Sustainability Management application from the ServiceNow Store, you must complete the entitlements to gain complete access to the application and use it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/complete-the-entitlements-for-esg-management.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ESG Management \(formerly ESG Management\) implementation, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Operational Sustainability Management \(formerly ESG Management\) implementation, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
-# Complete the entitlements for ESG Management \(formerly ESG Management\)
+# Complete the entitlements for Operational Sustainability Management \(formerly ESG Management\)
 
-After you install the ESG Management application from the ServiceNow® Store, you must complete the entitlements to gain complete access to the application and use it.
+After you install the Operational Sustainability Management application from the ServiceNow® Store, you must complete the entitlements to gain complete access to the application and use it.
 
 ## Before you begin
 
@@ -49,5 +49,5 @@ Role required: admin
 10. After you agree to the ServiceNow® terms and conditions and manage the entitlements, you can entitle the other products with a single click.
 
 
-**Parent Topic:**[ESG Management \(formerly ESG Management\) implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/esg-implementation.md)
+**Parent Topic:**[Operational Sustainability Management \(formerly ESG Management\) implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/esg-implementation.md)
 

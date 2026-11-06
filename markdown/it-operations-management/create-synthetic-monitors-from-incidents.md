@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/create-synthetic-monitors-from-incidents.html
 release: zurich
 topic_type: task
-last_updated: "2026-02-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, Landing page, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configure, Synthetic monitoring, ITOM AIOps, IT Operations Management]
 ---
 
 # Create synthetic monitors from incidents
@@ -20,7 +20,7 @@ Role required: sn\_sow\_synthetics.synthetics\_admin
 
 -   Recommended Action for ITSM and Synthetic Monitoring application is installed on your ServiceNow instance
 -   Incident should have a valid configuration item \(CI\) and a service associated with it
--   At least one execution location \(\[Omitted image "recommendations-icon.png"\] Alt text: execution location self hosted MID Server\) is available and configured
+-   At least one execution location \(\[Omitted image "recommendations-icon.png"\] self hosted MID Server\) is available and configured
 
 ## About this task
 

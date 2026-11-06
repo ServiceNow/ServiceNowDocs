@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/add-font-face.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [theme builder, add font face, font face]
 breadcrumb: [Upload custom font, Global styles, Manage or edit a theme, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -17,7 +17,9 @@ Add a new style such as bold or italic to your custom font family in Theme Build
 
 ## Before you begin
 
-Role required: admin
+Role required: ui\_builder\_admin
+
+For information on granular roles, see .
 
 **Note:** Upload a custom font family before adding individual font faces. This ensures each style is correctly grouped under its font family.
 

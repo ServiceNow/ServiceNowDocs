@@ -7,7 +7,7 @@ release: zurich
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2025-11-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Processing an ACH dispute, Resolving ACH disputes, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -40,7 +40,7 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 7.  In **Open Tasks**, select **File ACH return**.
 
-8.  Once you have completed the due diligence for filing a return with the ODFI, provide an appropriate description and any relevant remarks.
+8.  Once you've completed the due diligence for filing a return with the ODFI, provide an appropriate description and any relevant remarks.
 
 9.  Close the task.
 

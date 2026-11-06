@@ -7,7 +7,7 @@ release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -262,5 +262,4 @@ Enables the Advanced Work Assignment cache. -   **Type**: true \| false
 -   **Location**: System Property \[sys\_properties\] table
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Advanced Work Assignment reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/reference-awa.md)
-
+</table>

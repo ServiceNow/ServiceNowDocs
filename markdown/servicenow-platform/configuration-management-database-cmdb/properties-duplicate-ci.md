@@ -1,24 +1,24 @@
 ---
 title: Properties related to remediation of duplicate CIs
-description: Use de-duplication properties to configure how remediation of duplicate CIs works when using the Duplicate CI Remediator or the De-duplication dashboard in CMDB Workspace.
+description: Use de-duplication properties to configure how remediation of duplicate CIs works when using the Duplicate CI Remediator, or the De-duplication Dashboard in CMDB Workspace .
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/properties-duplicate-ci.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Duplicate CIs remediation, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Properties related to remediation of duplicate CIs
 
-Use de-duplication properties to configure how remediation of duplicate CIs works when using the Duplicate CI Remediatoror the De-duplication dashboard in CMDB Workspace.
+Use de-duplication properties to configure how remediation of duplicate CIs works when using the Duplicate CI Remediator, or the De-duplication Dashboard in CMDB Workspace .
 
-To view and edit these properties, the admin role is required.
+To view and edit these properties, the sn\_cmdb\_admin or admin role is required.
 
-Although the properties below reference the [Duplicate CI Remediator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md), these properties have an equivalent effect in [duplicate CI remediation in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/dedup-ci-exp-cmdb-workspace.md).
+Although the properties below reference the [Duplicate CI Remediator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md), these properties have an equivalent effect in [CI de-duplication experience in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/dedup-ci-exp-cmdb-workspace.md).
 
 <table id="table_thf_j3w_5gb"><thead><tr><th>
 
@@ -99,6 +99,17 @@ Enables restricted mode remediation in the Duplicate CI Remediator. This option 
 -   Learn more: [Remediate a de-duplication task \(manual\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md)
 
  Set to **true** to enable restricted mode remediation.
+
+</td></tr><tr><td>
+
+glide.duplicate\_ci\_remediator.merge\_related\_items\_enhanced
+
+</td><td>
+
+Enables the capability to ignore database errors and/or skip ALL business rules \(disable workflow\) in related tables referencing CIs, during duplicate CI remediation. In such related tables, automated workflows such as business rules might prevent the update of the referenced CI to the main CI, causing de-duplication tasks to fail. In these situations, blocking business rules and other automated workflows, and ignoring errors allows remediation to complete.-   Type: true \| false
+-   Default value: true
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
+-   Learn more: [Turn off workflows of related tables during remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/dedup-ci-disable-workflow.md).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Duplicate CIs remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md)

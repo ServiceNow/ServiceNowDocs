@@ -7,9 +7,9 @@ release: zurich
 product: Impact Activity Center
 classification: impact-activity-center
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Conversations, Activity Center, Exploring Impact, Impact]
+breadcrumb: [Conversations, Activity Center, Impact Delivery Instance reference, Impact reference, Impact]
 ---
 
 # Create and manage conversations
@@ -148,4 +148,6 @@ Manage who receives and which conversations are part of the watchlist.
 
     Changes to the conversation are displayed.
 
+
+**Parent Topic:**[Activity Center Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-activity-center/conversations.md)
 

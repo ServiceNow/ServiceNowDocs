@@ -1,20 +1,20 @@
 ---
 title: Configure Splunk Enterprise Event Ingestion settings
-description: Use the Splunk Enterprise Event Ingestion settings to modify the preset configurations and their values as per you requirements.
+description: Use the Splunk Enterprise Event Ingestion settings to modify the preset configurations and their values as per your requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/configure-splunk-enterprise-event-ingestion-settings.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Splunk Enterprise Event Ingestion integration for Security Operations by ServiceNow, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
 # Configure Splunk Enterprise Event Ingestion settings
 
-Use the Splunk Enterprise Event Ingestion settings to modify the preset configurations and their values as per you requirements.
+Use the Splunk Enterprise Event Ingestion settings to modify the preset configurations and their values as per your requirements.
 
 ## Before you begin
 

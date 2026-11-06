@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/manage-user-access-in-now-support.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Now Support administration, Get started, Administer]
+breadcrumb: [Now Support administration, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Manage user access in Now Support

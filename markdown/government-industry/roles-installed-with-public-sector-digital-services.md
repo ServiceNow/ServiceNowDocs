@@ -1,18 +1,18 @@
 ---
 title: Roles installed with Public Sector Digital Services
-description: The Public Sector Digital Services application uses roles to provide access to information, identify internal and external users, maintain data security, and establish different types of relationships between users.
+description: The Public Sector Digital Services application uses roles to provide access to information, identify internal and external users, and establish different types of relationships between users. These roles control access to public sector data through UI-based features such as forms and lists.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/roles-installed-with-public-sector-digital-services.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 23
-breadcrumb: [Components installed, Reference, Public Sector Digital Services \(PSDS\)]
+last_updated: "2026-03-12"
+reading_time_minutes: 24
+breadcrumb: [Components and roles installed, Reference, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Roles installed with Public Sector Digital Services
 
-The Public Sector Digital Services application uses roles to provide access to information, identify internal and external users, maintain data security, and establish different types of relationships between users.
+The Public Sector Digital Services application uses roles to provide access to information, identify internal and external users, and establish different types of relationships between users. These roles control access to public sector data through UI-based features such as forms and lists.
 
 ## Persona-based Roles in Public Sector Digital Services
 
@@ -20,7 +20,7 @@ Roles and personas help you to understand the different roles involved in Public
 
 Public Sector Digital Services supports users with the following basic job functions \(personas\). Personas are defined as the individual roles that perform different tasks in Public Sector Digital Services.
 
-The following graphic shows the most common personas used throughout Public Sector Digital Services. \[Omitted image "PSDS\_user\_personas.png"\] Alt text:
+The following graphic shows the most common personas used throughout Public Sector Digital Services. \[Omitted image "PSDS\_user\_personas.png"\] Alt text: Common Public Sector Digital Services personas
 
 <table id="table_qcv_ktt_ytb"><thead><tr><th>
 
@@ -114,8 +114,6 @@ Manager or leader of an agency​ that provides constituent and business service
 </td></tr></tbody>
 </table>## Core Roles
 
-**Note:** These roles are also included with the Service Request Playbook.
-
 <table id="table_qw1_zs3_g5b"><thead><tr><th>
 
 Role title \[name\]
@@ -138,7 +136,8 @@ Enables constituents to request services and manage their information, governmen
 
 </td><td>
 
-sn\_install\_base.sold\_product\_authorized\_consumer-   sn\_gsm.service\_received\_read\_granular
+-   sn\_install\_base.sold\_product\_authorized\_consumer
+-   sn\_gsm.service\_received\_read\_granular
 -   sn\_customerservice.consumer
 -   sn\_gsm.case\_write\_granular
 
@@ -326,19 +325,6 @@ Enables agents to perform the following actions:-   Read, write, and update gove
 -   sn\_gsm.business\_writer
 -   interaction\_agent
 
-</td></tr><tr><td>
-
-Social Benefits Business Contributor\[sn\_gsm\_soc\_bnfts.business\_contributor\]
-
-</td><td>
-
-Enables users to request service and raise Social Benefits cases on behalf of any business. This allows business stakeholders to act as a requester on behalf of customers.
-
-</td><td>
-
--   sn\_gsm.business\_contributor
--   sn\_gsm\_soc\_bnfts.contributor\_creator
-
 </td></tr></tbody>
 </table><table id="table_wqx_nt3_g5b"><thead><tr><th>
 
@@ -375,25 +361,6 @@ Enables agency agents to create and fulfill government service cases for constit
 </td><td>
 
 sn\_customerservice.svc\_location\_consumer\_agent
-
-</td></tr><tr><td>
-
-external\_reviewer\[sn\_gsm\_grnt\_mgmt.external\_reviewer\]
-
-</td><td>
-
-Enables users to review and score grant proposals.
-
-</td><td>
-
--   sn\_svc\_appl\_pgm\_mg.resource\_role\_viewer
--   sn\_svc\_appl\_pgm\_mg.milestone\_viewer
--   sn\_svc\_appl\_pgm\_mg.resource\_mapping\_viewer
--   sn\_svc\_appl\_pgm\_mg.scoring\_framework\_attribute\_writer
--   sn\_svc\_appl\_pgm\_mg.business\_calendar\_entry\_viewer
--   sn\_svc\_appl\_pgm\_mg.resource\_assignment\_viewer
--   sn\_svc\_appl\_pgm\_mg.scoring\_framework\_viewer
--   sn\_svc\_appl\_pgm\_mg.planning\_item\_viewer
 
 </td></tr><tr><td>
 
@@ -512,112 +479,6 @@ sn\_gsm.service\_offered\_writer
 
 </td></tr><tr><td>
 
-grant\_program\_manager sn\_gsm\_grnt\_mgmt.program\_manager
-
-</td><td>
-
-Provides users with the program manager role to create grant program records.
-
-</td><td>
-
--   model\_manager
--   sn\_gsm.resource\_role\_writer
--   sn\_gsm.informational\_resource\_mapping\_wrirter
--   sn\_gsm.business\_calendar\_entry\_viewer
--   sn\_gsm.business\_agent
--   sn\_gsm.scoring\_framework\_writer
--   sn\_doc.reader
--   sn\_gsm.resource\_assignment\_writer
--   sn\_pace.mapping\_admin
--   sn\_gsm.milestone\_writer
--   sn\_gsm.goal\_viewer
--   sn\_gsm.scoring\_framework\_attribute\_writer
--   sn\_gsm.scoring\_framework\_attribute\_writer
--   sn\_gsm.constituent\_agent
--   sn\_gsm.planning\_item\_writer
-
-</td></tr><tr><td>
-
-grant\_admin sn\_gsm\_grnt\_mgmt.grant\_admin
-
-</td><td>
-
-Provides users with admin access and enables them to create, read, update, and edit grant proposals in the grant setup and proposals playbooks.
-
-</td><td>
-
--   sn\_gsm.admin
--   sn\_svc\_appl\_pgm\_mg.grant\_program\_director
-
-</td></tr><tr><td>
-
-grant\_program\_director sn\_gsm\_grnt\_mgmt.grant\_director
-
-</td><td>
-
-Provides users with the grant program director role, which consists of the grant program manager and the government service manager roles.
-
-</td><td>
-
--   sn\_gsm\_grnt\_mgmt.program\_manager
--   sn\_gsm.government\_service\_manager
-
-</td></tr><tr><td>
-
-grant\_case\_writer sn\_gsm\_grnt\_mgmt.case\_writer
-
-</td><td>
-
-Provides users with access to create, read, and update grant management case records.
-
-</td><td>
-
--   sn\_gsm\_grnt\_mgmt.case\_viewer
--   sn\_gsm.case\_writer
--   contract\_manager
-
-</td></tr><tr><td>
-
-grant\_case\_viewer sn\_gsm\_grnt\_mgmt.case\_viewer
-
-</td><td>
-
-Provides users with read-only access to grant management case records.
-
-</td><td>
-
--   sn\_gsm.case\_viewer
--   decision\_table\_reader
--   sn\_gsm\_grnt\_mgmt.case\_writer
-
-</td></tr><tr><td>
-
-license\_permit\_admin\[sn\_gsm\_lic\_prmt.admin\]
-
-</td><td>
-
-Enables users to manage all work performed by agents working on License &amp; Permit cases \(constituent and business\). Users with this role have the ability to read/write/update/delete all License &amp; Permit cases and constituent/business records.
-
-</td><td>
-
--   sn\_gsm\_lic\_prmt.manager
--   sn\_gsm.admin
-
-</td></tr><tr><td>
-
-social\_benefits\_admin\[sn\_gsm\_soc\_bnfts.admin\]
-
-</td><td>
-
-Provides delegated admin access to scoped applications created on the Social Benefits Playbook.
-
-</td><td>
-
--   sn\_gsm.admin
--   sn\_gsm\_soc\_bnfts.manager
-
-</td></tr><tr><td>
-
 service\_offered\_admin\[sn\_gsm.service\_offered\_admin\]
 
 </td><td>
@@ -626,7 +487,7 @@ service\_offered\_admin\[sn\_gsm.service\_offered\_admin\]
 
 </td><td>
 
- 
+None
 
 </td></tr><tr><td>
 
@@ -716,18 +577,181 @@ Enables business stakeholders to raise government service cases on behalf of cus
 -   sn\_customerservice.case\_authorized\_contributor
 
 </td></tr></tbody>
-</table>## Granular roles
+</table>## Roles by Application
 
-You can use predefined functional and granular roles installed with Public Sector Digital Services to establish relationships between users and public sector entities. These functional and granular roles provide different levels of access to public sector data, to help maintain data security.
+**Note:** Service Request Playbook does not contain roles that are separate from Public Sector Digital Services Core.
 
--   Functional roles: A set of roles required to perform a function or meaningful action that requires access on multiple entities.
--   Granular roles: Roles that provide access to cases, services used, and related public sector entities. One or more granular roles can be bundled together as a functional role.
+<table id="uppa-roles"><thead><tr><th>
 
-A granular model helps protect data by granting the appropriate level of access to the corresponding public sector entities. With this functionality, each role is associated with a set of privileges or responsibilities that determine users’ access to certain information. You can have fine-grained access control by setting granular policies that authorize individuals to access the information needed to work efficiently and effectively, ultimately helping improve the constituent experience.
+Role title \[name\]
 
-For example, if you extend the Government Service Case table or other tables in the Public Sector Digital Services app, you must replicate the access control lists for the extended tables. You can assign granular roles to public sector users to control access to those extended tables.
+</th><th>
 
-<table id="table_gfm_vbp_g5b"><thead><tr><th>
+Contains roles
+
+</th></tr></thead><tbody><tr><td>
+
+admin\[admin\]
+
+</td><td>
+
+-   sn\_up\_core.admin
+-   sn\_up\_core.urban\_planning\_agent
+-   sn\_up\_core.urban\_planning\_agent
+-   sn\_up\_core.urban\_planning\_writer
+-   sn\_up\_core.urban\_planning\_reader
+
+</td></tr><tr><td>
+
+core\_admin\[sn\_up\_core.admin\]
+
+</td><td>
+
+-   sn\_up\_core.urban\_planning\_agent
+-   sn\_up\_core.urban\_planning\_agent
+-   sn\_up\_core.urban\_planning\_writer
+-   sn\_up\_core.urban\_planning\_reader
+
+</td></tr><tr><td>
+
+agent\[sn\_up\_core.urban\_planning\_agent\]
+
+</td><td>
+
+sn\_up\_core.urban\_planning\_writer
+
+</td></tr><tr><td>
+
+writer\[sn\_up\_core.urban\_planning\_writer\]
+
+</td><td>
+
+sn\_up\_core.urban\_planning\_reader
+
+</td></tr><tr><td>
+
+reader\[sn\_up\_core.urban\_planning\_reader\]
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+interest\_holder\[sn\_up\_core.property\_interest\_holder\]
+
+</td><td>
+
+sn\_up\_core.urban\_planning\_reader
+
+</td></tr><tr><td>
+
+csm\_admin\[sn\_csm\_up.admin\]
+
+</td><td>
+
+-   sn\_csm\_up.agent
+-   sn\_up\_core.admin
+-   sn\_up\_core.urban\_planning\_agent
+-   sn\_up\_core.admin
+
+</td></tr><tr><td>
+
+csm\_agent\[sn\_csm\_up.agent\]
+
+</td><td>
+
+sn\_up\_core.urban\_planning\_agent
+
+</td></tr><tr><td>
+
+csm\_consumer\[sn\_csm\_up.consumer\]
+
+</td><td>
+
+sn\_up\_core.urban\_planning\_reader
+
+</td></tr><tr><td>
+
+csm\_customer\[sn\_csm\_up.customer\]
+
+</td><td>
+
+sn\_up\_core.urban\_planning\_reader
+
+</td></tr><tr><td>
+
+csm\_agency\_agent\[sn\_csm\_up.agency\_agent\]
+
+</td><td>
+
+sn\_up\_core.urban\_planning\_reader
+
+</td></tr><tr><td>
+
+lic\_prmt.admin\[sn\_gsm\_lic\_prmt.admin\]
+
+</td><td>
+
+-   sn\_csm\_up.admin
+-   sn\_up\_core.admin
+
+</td></tr><tr><td>
+
+constituent\_agent\[sn\_gsm\_lic\_prmt.constituent\_agent\]
+
+</td><td>
+
+-   sn\_csm\_up.agent
+-   sn\_up\_core.urban\_planning\_agent
+
+</td></tr><tr><td>
+
+business\_agent\[sn\_gsm\_lic\_prmt.business\_agent\]
+
+</td><td>
+
+-   sn\_csm\_up.agent
+-   sn\_up\_core.urban\_planning\_agent
+
+</td></tr><tr><td>
+
+agency\_agent\[sn\_gsm\_lic\_prmt.agency\_agent\]
+
+</td><td>
+
+-   sn\_csm\_up.agent
+-   sn\_up\_core.urban\_planning\_agent
+
+</td></tr><tr><td>
+
+constituent\[sn\_gsm.constituent\]
+
+</td><td>
+
+-   sn\_csm\_up.consumer
+-   sn\_up\_core.urban\_planning\_reader
+
+</td></tr><tr><td>
+
+business\_contact\[sn\_gsm.business\_contact\]
+
+</td><td>
+
+-   sn\_csm\_up.customer
+-   sn\_up\_core.urban\_planning\_reader
+
+</td></tr><tr><td>
+
+government\_agency\_contributor\[sn\_gsm.government\_agency\_contributor\]
+
+</td><td>
+
+-   sn\_csm\_up.agency\_agent
+-   sn\_up\_core.urban\_planning\_reader
+
+</td></tr></tbody>
+</table><table id="icm-Roles"><thead><tr><th>
 
 Role title \[name\]
 
@@ -741,345 +765,98 @@ Contains roles
 
 </th></tr></thead><tbody><tr><td>
 
-case\_create\_granular\[sn\_gsm.case\_create\_granular\]
+icm.investigator\[sn\_gsm\_icm.investigator\]
 
 </td><td>
 
-Provides constituents or business stakeholders with granular create access to government service cases.
+Provides users the ability to create and work on the investigative cases. It includes read access to all the cases and write access to the cases which are assigned to the investigator.
 
 </td><td>
 
-sn\_gsm.case\_read\_granular
+-   sn\_gsm\_icm.case\_writer
+-   sn\_gsm\_icm.case\_viewer
+-   sn\_gsm\_icm.entity\_viewer
+-   sn\_gsm\_icm.entity\_writer
+-   sn\_gsm\_icm.report\_viewer
+-   sn\_gsm.government\_service\_manager
+-   sn\_gsm\_icm.investigative\_contributor
 
 </td></tr><tr><td>
 
-case\_read\_granular\[sn\_gsm.case\_read\_granular\]
+supervisory\_agent\[sn\_gsm\_icm.supervisory\_agent\]
 
 </td><td>
 
-Provides constituents or business stakeholders with granular read access to government service cases.
+Provides users the ability to create and work on investigative cases. It includes read access to all the cases and write access to the cases belonging to the user's assignment group.
 
 </td><td>
 
-sn\_customerservice.case\_read\_granular
+-   sn\_gsm\_icm.investigator
+-   sn\_gsm\_icm.case\_admin
 
 </td></tr><tr><td>
 
-case\_write\_granular\[sn\_gsm.case\_write\_granular\]
+special\_agent\[sn\_gsm\_icm.special\_agent\]
 
 </td><td>
 
-Provides constituents or business stakeholders with granular write access to government service cases.
+Provides users the ability to create and fulfill all cases.
 
 </td><td>
 
--   sn\_gsm.case\_create\_granular
--   sn\_gsm.case\_read\_granular
+-   sn\_gsm\_icm.investigator
+-   sn\_gsm\_icm.case\_admin
 
 </td></tr><tr><td>
 
-service\_received\_read\_granular\[sn\_gsm.service\_received\_read\_granular\]
+expert\_analyst\[sn\_gsm\_icm.expert\_analyst\]
 
 </td><td>
 
-Provides constituents or business stakeholders with granular read access to services-received records.
+Provides read or write access to the cases where these users are team members of the case or assigned to a case task of the case.
 
 </td><td>
 
-sn\_install\_base.sold\_product\_read\_granular
+-   sn\_gsm\_icm.case\_viewer
+-   sn\_gsm\_icm.case\_writer
+-   sn\_gsm\_icm.event\_viewer
+-   sn\_gsm\_icm.entity\_writer
+-   sn\_gsm\_icm.event\_viewer
 
 </td></tr><tr><td>
 
-License &amp; Permits Install base read granular\[sn\_gsm\_lic\_prmt.ib\_read\_granular\]
+investigative\_contributor\[sn\_gsm\_icm.investigative\_contributor\]
 
 </td><td>
 
-Provides granular read access to issued License and Permits.
+Provides read or write access to the cases where these users are team members of the case or assigned to a case task of the case.
 
 </td><td>
 
--   sn\_install\_base.install\_base\_read\_granular
--   sn\_gsm.business\_contact
-
--   sn\_gsm.constituent
-
-</td></tr></tbody>
-</table>## Business Stakeholder Roles
-
-Business Stakeholder for Public Sector Digital Services includes plugins and roles that provide access to business stakeholder features.
-
-Admins with access to Business Stakeholder can provide Business Stakeholder users with the rights to the following actions:
-
--   Create cases on behalf of a business or an agency \(service organization\)
--   View cases, case tasks, and business data.
--   Approve requests.
-
-<table id="table_thp_4gp_bvb"><thead><tr><th>
-
-Role
-
-</th><th>
-
-Description
-
-</th><th>
-
-Contains roles
-
-</th><th>
-
-Plugin
-
-</th><th>
-
-User type
-
-</th></tr></thead><tbody><tr><td>
-
-Constituent contributor\[sn\_gsm.constituent\_contributor\]
-
-</td><td>
-
-Enables users to request services and raise government service cases on behalf of any constituent.
-
-</td><td>
-
--   sn\_customerservice.consumer\_contributor
--   sn\_gsm.contributor\_creator
-
-</td><td>
-
-com.sn\_public\_sector\_digital\_services\_core
-
-</td><td>
-
-Internal and external
+-   sn\_gsm\_icm.case\_viewer
+-   sn\_gsm\_icm.case\_writer
+-   sn\_gsm\_icm.event\_viewer
+-   sn\_gsm\_icm.entity\_viewer
 
 </td></tr><tr><td>
 
-Business contributor\[sn\_gsm.business\_contributor\]
+case\_viewersn\_gsm\_icm.case\_viewer
 
 </td><td>
 
-Enables business stakeholders to request services and raise government service cases on behalf of any business.
+Provides users read only access to Investigative Case records.
 
 </td><td>
 
--   sn\_customerservice.relationship\_contributor
--   sn\_gsm.contributor\_creator
-
-</td><td>
-
-com.sn\_public\_sector\_digital\_services\_core
-
-</td><td>
-
-internal and external
+sn\_gsm.case\_viewer
 
 </td></tr><tr><td>
 
-Relationship contributor\[sn\_gsm.relationship\_contributor\]
+entity\_viewersn\_gsm\_icm.entity\_viewer
 
 </td><td>
 
-Enables business stakeholders to raise government service cases on behalf of customers with which they have a relationship.
-
-</td><td>
-
--   sn\_customerservice.relationship\_contributor
--   sn\_gsm.contributor\_creator
-
-</td><td>
-
-com.sn\_public\_sector\_digital\_services\_core
-
-</td><td>
-
-Internal and external
-
-</td></tr></tbody>
-</table><table id="table_rks_v3p_bvb"><thead><tr><th>
-
-Role
-
-</th><th>
-
-Description
-
-</th><th>
-
-Contains roles
-
-</th><th>
-
-Plugin
-
-</th><th>
-
-User type
-
-</th></tr></thead><tbody><tr><td>
-
-Agency contributor\[sn\_gsm.agency\_contributor\]
-
-</td><td>
-
-Enables agency agents to request services and raise government service cases on behalf of the agency.
-
-</td><td>
-
--   sn\_customerservice.service\_organization\_contributor
--   sn\_gsm.contributor\_creator
-
-</td><td>
-
-Agency Support Model \(com.sn\_agency\_support\_model\)
-
-</td><td>
-
-Internal and external
-
-</td></tr></tbody>
-</table><table id="table_ks2_flp_bvb"><thead><tr><th>
-
-Role
-
-</th><th>
-
-Description
-
-</th><th>
-
-Contains roles
-
-</th><th>
-
-Plugin
-
-</th><th>
-
-User type
-
-</th></tr></thead><tbody><tr><td>
-
-Case viewer\[sn\_gsm.case\_viewer\]
-
-</td><td>
-
-Provides agents with read-only access to government service cases.
-
-</td><td>
-
-None
-
-</td><td>
-
-com.sn\_public\_sector\_digital\_services\_core
-
-</td><td>
-
-Internal
-
-</td></tr><tr><td>
-
-Constituent viewer\[sn\_gsm.constituent\_viewer\]
-
-</td><td>
-
-Provides agents with read-only access to constituent records.
-
-</td><td>
-
-sn\_customerservice.customer\_data\_viewer
-
-</td><td>
-
-com.sn\_public\_sector\_digital\_services\_core
-
-</td><td>
-
-Internal
-
-</td></tr><tr><td>
-
-Business viewer\[sn\_gsm.business\_viewer\]
-
-</td><td>
-
- 
-
-</td><td>
-
- 
-
-</td><td>
-
-com.sn\_public\_sector\_digital\_services\_core
-
-</td><td>
-
-Internal
-
-</td></tr><tr><td>
-
-Services offered viewer\[sn\_gsm.service\_offered\_viewer\]
-
-</td><td>
-
-Provides users with read-only access to services offered records and services received records.
-
-</td><td>
-
-sn\_customerservice.customer\_data\_viewer
-
-</td><td>
-
-com.sn\_public\_sector\_digital\_services\_core
-
-</td><td>
-
-Internal
-
-</td></tr><tr><td>
-
-Government services received viewer\[sn\_gsm.service\_received\_viewer\]
-
-</td><td>
-
-Provides users with read-only access to services received records.
-
-</td><td>
-
- 
-
-</td><td>
-
-com.sn\_public\_sector\_digital\_services\_core
-
-</td><td>
-
-Internal
-
-</td></tr></tbody>
-</table><table id="table_xxg_f4p_bvb"><thead><tr><th>
-
-Role
-
-</th><th>
-
-Description
-
-</th><th>
-
-Contains roles
-
-</th></tr></thead><tbody><tr><td>
-
-report\_viewer\[sn\_gsm.report\_viewer\]
-
-</td><td>
-
-Enables users to view reports on the Public Sector Digital Services platform.
+Provides read access to all the investigative case management entities such as Person, Organization, Property, Vehicle, or Evidence.
 
 </td><td>
 
@@ -1087,11 +864,23 @@ None
 
 </td></tr><tr><td>
 
-grant\_management\_report\_viewersn\_gsm\_grnt\_mgmt.report\_viewer
+event\_viewersn\_gsm\_icm.event\_viewer
 
 </td><td>
 
-Enables users to view reports about the grants management playbooks.
+Provides read access to all the investigative case management events.
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+report\_viewersn\_gsm\_icm.report\_viewer
+
+</td><td>
+
+Provides users access to view reports containing Information Request data.
 
 </td><td>
 
@@ -1099,44 +888,87 @@ sn\_gsm.report\_viewer
 
 </td></tr><tr><td>
 
-License &amp; Permit Report Viewer\[sn\_gsm\_lic\_prmt.report\_viewer\]
+case\_admin\[sn\_gsm\_icm.case\_admin\]
 
 </td><td>
 
-Enables users to view reports on the Public Sector Digital Services platform.
+Provides read and write access to all the investigative cases.
 
 </td><td>
 
-sn\_gsm.report\_viewer
+-   sn\_gsm\_icm.case\_writer
+
+-   sn\_gsm\_icm.case\_viewer
+-   sn\_gsm\_icm.event\_writer
+-   sn\_gsm\_icm.entity\_writer
+-   sn\_gsm\_icm.report\_viewer
 
 </td></tr><tr><td>
 
-social\_benefit\_report\_viewer\[sn\_gsm\_soc\_bnfts.report\_viewer\]
+icm.admin\[sn\_gsm\_icm.admin\]
 
 </td><td>
 
-Provides users access to view reports Social Benefits Playbook.
+Provides delegated admin access to the investigative case management application.
 
 </td><td>
 
-sn\_gsm.report\_viewer
+-   sn\_gsm\_icm.supervisory\_agent
+
+-   sn\_gsm\_icm.special\_agent
+
 
 </td></tr><tr><td>
 
-\(sn\_svc\_appl\_info.report\_viewer\)
+case\_task\_agent\[sn\_gsm\_icm.case\_task\_agent\]
 
 </td><td>
 
-Provides users the access to view reports on the Service Applicant Information platform.
+Provides read access for administrative purposes to cases where users are assigned to a case task of the case.
 
 </td><td>
 
- 
+sn\_gsm.case\_task\_agent
+
+</td></tr><tr><td>
+
+case\_writersn\_gsm\_icm.case\_writer
+
+</td><td>
+
+Provides users write only access to investigative case records that are assigned to the users or where the users are team members or where the case task of the case is assigned to the user.
+
+</td><td>
+
+-   sn\_gsm.case\_writer
+-   sn\_gsm\_icm.case\_viewer
+
+</td></tr><tr><td>
+
+entity\_writersn\_gsm\_icm.entity\_writer
+
+</td><td>
+
+Provides write access to all the investigative case management entities like Person, Organization, Property, Vehicle or Evidence.
+
+</td><td>
+
+sn\_gsm\_icm.entity\_viewer
+
+</td></tr><tr><td>
+
+event\_writersn\_gsm\_icm.event\_writer
+
+</td><td>
+
+Provides write access to all the events which the user has access to.
+
+</td><td>
+
+sn\_gsm\_icm.event\_viewer
 
 </td></tr></tbody>
-</table>**Note:** Customers who have purchased a Public Sector Digital Services subscription can provide Business Stakeholder users with rights to actions listed under [Business Stakeholder for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/business-stakeholder-for-csm.md).
-
-## Roles by Application
+</table>
 
 <table id="gm-roles"><thead><tr><th>
 
@@ -1234,69 +1066,6 @@ Enables users to view reports about the grants management playbooks.
 </td><td>
 
 None
-
-</td></tr><tr><td>
-
-Grant Program Admin \(sn\_svc\_appl\_pgm\_mg.grant\_program\_admin\)
-
-</td><td>
-
-Provides access to all Grant Programs.**Note:** This role is part of the Service Applicant Program Management application, but is used within Grants Management, which has a dependency on the Service Applicant Program Management application.
-
-</td><td>
-
-sn\_svc\_appl\_pgm\_mg.grant\_program\_writer
-
-</td></tr><tr><td>
-
-Grant Program Director \(sn\_svc\_appl\_pgm\_mg.grant\_program\_director\)
-
-</td><td>
-
-Provides access to all Grant Programs.**Note:** This role is part of the Service Applicant Program Management application, but is used within Grants Management, which has a dependency on the Service Applicant Program Management application.
-
-</td><td>
-
--   sn\_gsm.government\_service\_manager
--   sn\_svc\_appl\_pgm\_mg.grant\_program\_manager
-
-</td></tr><tr><td>
-
-Grant Program Writer \(sn\_svc\_appl\_pgm\_mg.grant\_program\_manager\)
-
-</td><td>
-
-Creates or updates Grant Programs if they are a part of.**Note:** This role is part of the Service Applicant Program Management application, but is used within Grants Management, which has a dependency on the Service Applicant Program Management application.
-
-</td><td>
-
--   sn\_gsm.business\_agent
--   sn\_svc\_appl\_pgm\_mg.grant\_program\_writer
--   sn\_smart\_asmt.assessment\_admin
--   sn\_svc\_appl\_pgm\_mg.planning\_item\_writer
--   sn\_svc\_appl\_pgm\_mg.resource\_mapping\_writer
--   sn\_svc\_appl\_pgm\_mg.scoring\_framework\_writer
--   sn\_svc\_appl\_pgm\_mg.resource\_assignment\_writer
--   sn\_svc\_appl\_pgm\_mg.milestone\_writer
--   sn\_svc\_appl\_pgm\_mg.resource\_role\_writer
--   sn\_gsm.goal\_viewer
--   sn\_svc\_appl\_pgm\_mg.business\_calendar\_entry\_viewer
--   sn\_svc\_appl\_pgm\_mg.pace\_reader
--   sn\_pace.mapping\_admin
--   sn\_svc\_appl\_pgm\_mg.scoring\_framework\_attribute\_writer
-
-</td></tr><tr><td>
-
-Grant Program Viewer \(sn\_svc\_appl\_pgm\_mg.grant\_program\_writer\)
-
-</td><td>
-
-Provides write access to Grant Program records.**Note:** This role is part of the Service Applicant Program Management application, but is used within Grants Management, which has a dependency on the Service Applicant Program Management application.
-
-</td><td>
-
--   sn\_svc\_appl\_pgm\_mg.grant\_program\_viewer
--   sn\_svc\_appl\_pgm\_mg.planning\_item\_writer
 
 </td></tr></tbody>
 </table><table id="lp-roles"><thead><tr><th>
@@ -1535,7 +1304,7 @@ License &amp; Permits Contributor Creator\[sn\_gsm\_lic\_prmt.contributor\_creat
 
 </td><td>
 
-Enables users to create license and permit cases and is included in the top-level contributor roles. It only allows record creation but does not allow visibilty to a record on its own.
+Enables users to create license and permit cases and is included in the top-level contributor roles. It only allows record creation but does not allow visibility to a record on its own.
 
 </td><td>
 
@@ -2200,7 +1969,7 @@ Provides delegated admin access to scoped applications created on the Service Ap
 
 </td><td>
 
- 
+None
 
 </td></tr><tr><td>
 
@@ -2299,7 +2068,7 @@ Provides read access to Planning Item records.
 
 </td><td>
 
- 
+None
 
 </td></tr><tr><td>
 
@@ -2323,7 +2092,7 @@ Provides read access to Budget Allocation records.
 
 </td><td>
 
- 
+None
 
 </td></tr><tr><td>
 
@@ -2347,7 +2116,7 @@ Provides read access to Milestone records.
 
 </td><td>
 
- 
+None
 
 </td></tr><tr><td>
 
@@ -2371,7 +2140,7 @@ Provides read access to Resource Assignment records.
 
 </td><td>
 
- 
+None
 
 </td></tr><tr><td>
 
@@ -2395,7 +2164,7 @@ Provides read access to Informational Resource Mapping records.
 
 </td><td>
 
- 
+None
 
 </td></tr><tr><td>
 
@@ -2419,7 +2188,7 @@ Provides read access to Resource Role records.
 
 </td><td>
 
- 
+None
 
 </td></tr><tr><td>
 
@@ -2443,7 +2212,7 @@ Provides read access to Scoring Framework records.
 
 </td><td>
 
- 
+None
 
 </td></tr><tr><td>
 
@@ -2467,7 +2236,7 @@ Provides read access to Scoring Framework Attributes records.
 
 </td><td>
 
- 
+None
 
 </td></tr><tr><td>
 
@@ -2479,7 +2248,7 @@ Provides read access to Business Calendar Entry and Business Calendar Entry Name
 
 </td><td>
 
- 
+None
 
 </td></tr><tr><td>
 
@@ -2491,7 +2260,7 @@ Provides read access to PaCE records.
 
 </td><td>
 
- 
+None
 
 </td></tr><tr><td>
 
@@ -2503,7 +2272,7 @@ Provides users the access to view reports of Program records.
 
 </td><td>
 
- 
+None
 
 </td></tr></tbody>
 </table>## Roles by Plugin
@@ -2592,7 +2361,7 @@ Provides read access to financial details records.
 
 </td><td>
 
- 
+None
 
 </td></tr><tr><td>
 
@@ -2628,7 +2397,7 @@ Provides read access to point-in-time content records.
 
 </td><td>
 
- 
+None
 
 </td></tr><tr><td>
 
@@ -2652,7 +2421,7 @@ Provides users the access to view reports on the Service Applicant Information p
 
 </td><td>
 
- 
+None
 
 </td></tr></tbody>
 </table>|Role|Description|Persona|
@@ -2666,6 +2435,466 @@ Provides users the access to view reports on the Service Applicant Information p
 |sn\_pace.admin|This user has the permissions of all the other roles plus the ability to create categories, policies, mappings, and code.|Policy admin|
 |sn\_pace.super\_admin|This user has all the sn\_pace.admin role permissions across all calling services.|Not applicable|
 |Maint role|Internal user who can create default content.|Not applicable|
+
+## Granular roles
+
+You can use predefined functional and granular roles installed with Public Sector Digital Services to establish relationships between users and public sector entities. These functional and granular roles provide different levels of access to public sector data.
+
+-   Functional roles: A set of roles required to perform a function or meaningful action that requires access on multiple entities.
+-   Granular roles: Roles that provide access to cases, services used, and related public sector entities. One or more granular roles can be bundled together as a functional role.
+
+A granular model controls access to data through UI-based interactions by granting the appropriate level of access to the corresponding public sector entities. With this functionality, each role is associated with a set of privileges or responsibilities that determine users' access to information via forms, lists, and application features. You can have fine-grained access control by setting granular policies that authorize individuals to access the information needed to work efficiently and effectively, ultimately helping improve the constituent experience.
+
+**Note:** Role-based access controls govern UI interactions. They do not restrict access by users with system-level scripting privileges or elevated platform roles. These roles control access to public sector data through UI-based features such as forms and lists.
+
+For example, if you extend the Government Service Case table or other tables in the Public Sector Digital Services app, you must replicate the access control lists for the extended tables. You can assign granular roles to public sector users to control access to those extended tables.
+
+<table id="table_gfm_vbp_g5b"><thead><tr><th>
+
+Role title \[name\]
+
+</th><th>
+
+Description
+
+</th><th>
+
+Contains roles
+
+</th></tr></thead><tbody><tr><td>
+
+case\_create\_granular\[sn\_gsm.case\_create\_granular\]
+
+</td><td>
+
+Provides constituents or business stakeholders with granular create access to government service cases.
+
+</td><td>
+
+sn\_gsm.case\_read\_granular
+
+</td></tr><tr><td>
+
+case\_read\_granular\[sn\_gsm.case\_read\_granular\]
+
+</td><td>
+
+Provides constituents or business stakeholders with granular read access to government service cases.
+
+</td><td>
+
+sn\_customerservice.case\_read\_granular
+
+</td></tr><tr><td>
+
+case\_write\_granular\[sn\_gsm.case\_write\_granular\]
+
+</td><td>
+
+Provides constituents or business stakeholders with granular write access to government service cases.
+
+</td><td>
+
+-   sn\_gsm.case\_create\_granular
+-   sn\_gsm.case\_read\_granular
+
+</td></tr><tr><td>
+
+service\_received\_read\_granular\[sn\_gsm.service\_received\_read\_granular\]
+
+</td><td>
+
+Provides constituents or business stakeholders with granular read access to services-received records.
+
+</td><td>
+
+sn\_install\_base.sold\_product\_read\_granular
+
+</td></tr><tr><td>
+
+License &amp; Permits Install base read granular\[sn\_gsm\_lic\_prmt.ib\_read\_granular\]
+
+</td><td>
+
+Provides granular read access to issued License and Permits.
+
+</td><td>
+
+-   sn\_install\_base.install\_base\_read\_granular
+-   sn\_gsm.business\_contact
+
+-   sn\_gsm.constituent
+
+</td></tr><tr><td>
+
+case\_admin\[sn\_gsm\_icm.case\_admin\]
+
+</td><td>
+
+Provides read and write access to all the investigative cases.
+
+</td><td>
+
+-   sn\_gsm\_icm.case\_writer
+
+-   sn\_gsm\_icm.case\_viewer
+-   sn\_gsm\_icm.event\_writer
+-   sn\_gsm\_icm.entity\_writer
+-   sn\_gsm\_icm.report\_viewer
+
+</td></tr></tbody>
+</table>## Business Stakeholder Roles
+
+Business Stakeholder for Public Sector Digital Services includes plugins and roles that provide access to business stakeholder features.
+
+Admins with access to Business Stakeholder can provide Business Stakeholder users with the rights to the following actions:
+
+-   Create cases on behalf of a business or an agency \(service organization\)
+-   View cases, case tasks, and business data.
+-   Approve requests.
+
+<table id="table_thp_4gp_bvb"><thead><tr><th>
+
+Role
+
+</th><th>
+
+Description
+
+</th><th>
+
+Contains roles
+
+</th><th>
+
+Plugin
+
+</th><th>
+
+User type
+
+</th></tr></thead><tbody><tr><td>
+
+Constituent contributor\[sn\_gsm.constituent\_contributor\]
+
+</td><td>
+
+Enables users to request services and raise government service cases on behalf of any constituent.
+
+</td><td>
+
+-   sn\_customerservice.consumer\_contributor
+-   sn\_gsm.contributor\_creator
+
+</td><td>
+
+com.sn\_public\_sector\_digital\_services\_core
+
+</td><td>
+
+Internal and external
+
+</td></tr><tr><td>
+
+Business contributor\[sn\_gsm.business\_contributor\]
+
+</td><td>
+
+Enables business stakeholders to request services and raise government service cases on behalf of any business.
+
+</td><td>
+
+-   sn\_customerservice.relationship\_contributor
+-   sn\_gsm.contributor\_creator
+
+</td><td>
+
+com.sn\_public\_sector\_digital\_services\_core
+
+</td><td>
+
+internal and external
+
+</td></tr><tr><td>
+
+Relationship contributor\[sn\_gsm.relationship\_contributor\]
+
+</td><td>
+
+Enables business stakeholders to raise government service cases on behalf of customers with which they have a relationship.
+
+</td><td>
+
+-   sn\_customerservice.relationship\_contributor
+-   sn\_gsm.contributor\_creator
+
+</td><td>
+
+com.sn\_public\_sector\_digital\_services\_core
+
+</td><td>
+
+Internal and external
+
+</td></tr></tbody>
+</table><table id="table_rks_v3p_bvb"><thead><tr><th>
+
+Role
+
+</th><th>
+
+Description
+
+</th><th>
+
+Contains roles
+
+</th><th>
+
+Plugin
+
+</th><th>
+
+User type
+
+</th></tr></thead><tbody><tr><td>
+
+Agency contributor\[sn\_gsm.agency\_contributor\]
+
+</td><td>
+
+Enables agency agents to request services and raise government service cases on behalf of the agency.
+
+</td><td>
+
+-   sn\_customerservice.service\_organization\_contributor
+-   sn\_gsm.contributor\_creator
+
+</td><td>
+
+Agency Support Model \(com.sn\_agency\_support\_model\)
+
+</td><td>
+
+Internal and external
+
+</td></tr><tr><td>
+
+Social Benefits Business Contributor\[sn\_gsm\_soc\_bnfts.business\_contributor\]
+
+</td><td>
+
+Enables users to request service and raise Social Benefits cases on behalf of any business. This allows business stakeholders to act as a requester on behalf of customers.
+
+</td><td>
+
+-   sn\_gsm.business\_contributor
+-   sn\_gsm\_soc\_bnfts.contributor\_creator
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td></tr></tbody>
+</table><table id="table_ks2_flp_bvb"><thead><tr><th>
+
+Role
+
+</th><th>
+
+Description
+
+</th><th>
+
+Contains roles
+
+</th><th>
+
+Plugin
+
+</th><th>
+
+User type
+
+</th></tr></thead><tbody><tr><td>
+
+Case viewer\[sn\_gsm.case\_viewer\]
+
+</td><td>
+
+Provides agents with read-only access to government service cases.
+
+</td><td>
+
+None
+
+</td><td>
+
+com.sn\_public\_sector\_digital\_services\_core
+
+</td><td>
+
+Internal
+
+</td></tr><tr><td>
+
+Constituent viewer\[sn\_gsm.constituent\_viewer\]
+
+</td><td>
+
+Provides agents with read-only access to constituent records.
+
+</td><td>
+
+sn\_customerservice.customer\_data\_viewer
+
+</td><td>
+
+com.sn\_public\_sector\_digital\_services\_core
+
+</td><td>
+
+Internal
+
+</td></tr><tr><td>
+
+Business viewer\[sn\_gsm.business\_viewer\]
+
+</td><td>
+
+ 
+
+</td><td>
+
+None
+
+</td><td>
+
+com.sn\_public\_sector\_digital\_services\_core
+
+</td><td>
+
+Internal
+
+</td></tr><tr><td>
+
+Services offered viewer\[sn\_gsm.service\_offered\_viewer\]
+
+</td><td>
+
+Provides users with read-only access to services offered records and services received records.
+
+</td><td>
+
+sn\_customerservice.customer\_data\_viewer
+
+</td><td>
+
+com.sn\_public\_sector\_digital\_services\_core
+
+</td><td>
+
+Internal
+
+</td></tr><tr><td>
+
+Government services received viewer\[sn\_gsm.service\_received\_viewer\]
+
+</td><td>
+
+Provides users with read-only access to services received records.
+
+</td><td>
+
+None
+
+</td><td>
+
+com.sn\_public\_sector\_digital\_services\_core
+
+</td><td>
+
+Internal
+
+</td></tr></tbody>
+</table><table id="table_xxg_f4p_bvb"><thead><tr><th>
+
+Role
+
+</th><th>
+
+Description
+
+</th><th>
+
+Contains roles
+
+</th></tr></thead><tbody><tr><td>
+
+report\_viewer\[sn\_gsm.report\_viewer\]
+
+</td><td>
+
+Enables users to view reports on the Public Sector Digital Services platform.
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+grant\_management\_report\_viewersn\_gsm\_grnt\_mgmt.report\_viewer
+
+</td><td>
+
+Enables users to view reports about the grants management playbooks.
+
+</td><td>
+
+sn\_gsm.report\_viewer
+
+</td></tr><tr><td>
+
+License &amp; Permit Report Viewer\[sn\_gsm\_lic\_prmt.report\_viewer\]
+
+</td><td>
+
+Enables users to view reports on the Public Sector Digital Services platform.
+
+</td><td>
+
+sn\_gsm.report\_viewer
+
+</td></tr><tr><td>
+
+social\_benefit\_report\_viewer\[sn\_gsm\_soc\_bnfts.report\_viewer\]
+
+</td><td>
+
+Provides users access to view reports Social Benefits Playbook.
+
+</td><td>
+
+sn\_gsm.report\_viewer
+
+</td></tr><tr><td>
+
+\(sn\_svc\_appl\_info.report\_viewer\)
+
+</td><td>
+
+Provides users the access to view reports on the Service Applicant Information platform.
+
+</td><td>
+
+None
+
+</td></tr></tbody>
+</table>**Note:** Customers who have purchased a Public Sector Digital Services subscription can provide Business Stakeholder users with rights to actions listed under Business Stakeholder for Customer Service Management.
 
 **Parent Topic:**[Components and Roles installed with Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/installed-with-public-sector-digital-services-core.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring ACC with a MID Server, ACC deployment - servers, Agent Client Collector, IT Operations Management]
+breadcrumb: [Configuring ACC with a MID Server, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Configure the websocket server on the MID Server
@@ -44,7 +44,7 @@ Configure the websocket server on MID Servers to enable connections from agents 
 
     A confirmation message with the URL for the agent configuration file appears.
 
-    The web server and websocket extension are configured for the MID Server. To verify that the configuration is working, you must navigate to the following menu options:
+    The web server and websocket extension are configured for the MID Server. To verify the configuration, navigate to the following menu options:
 
     -   **Agent Client Collector** &gt; **MID Web Server**. When editing the fields on the resulting form, you must restart the MID web server extension to save your changes.
     -   **Agent Client Collector** &gt; **Websocket Endpoint**

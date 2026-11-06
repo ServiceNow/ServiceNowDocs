@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/generate-imports-validate-connections.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Service Graph Connector for ServiceNow Operational Technology\(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Generate imports and validate the connections
@@ -22,7 +22,7 @@ Role required: admin
 
 1.  Next to the **Generate imports** task, select **Configure**.
 
-    The Generate imports for the ServiceNow OT Discovery Connection page opens.
+    The Generate imports for the OT Discovery Connection page opens.
 
 2.  In the **Run As User** field, select System administrator.
 
@@ -46,7 +46,7 @@ Role required: admin
 
     The connection is successful if the Status Code is 200. If there's an Error Code and Error Message, the connection failed and further troubleshooting is required.
 
-    \[Omitted image "image.success"\] Alt text: Connection is successful
+    \[Omitted image "success.png"\] Alt text: Connection is successful
 
 10. Select the OT Discovery link.
 
@@ -64,4 +64,6 @@ Role required: admin
 
 14. Return to the Guided Setup page.
 
+
+**Parent Topic:**[Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/sgc-ot-discovery.md)
 

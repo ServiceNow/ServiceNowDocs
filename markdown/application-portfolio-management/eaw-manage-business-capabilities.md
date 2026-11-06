@@ -5,14 +5,21 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-manage-business-capabilities.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Using business architecture, Working with Portfolio list view, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Manage business capabilities
 
 Add or edit a business capability, sub-capability, and manage architectural artifacts and diagrams of the capabilities in the Enterprise Architecture Workspace.
+
+You can also associate a business capability with the business unit that uses it, and with the goals it realizes:
+
+-   Add a business unit to a business capability
+-   Remove a business unit from a business capability
+-   Add a goal to a business capability
+-   Remove a goal from a business capability
 
 -   **[View all business capabilities on the Portfolio page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-view-all-capabilities-on-the-portfolio-page.md)**  
 You can view the list of all available capabilities in the Enterprise Architecture Workspace.
@@ -41,4 +48,16 @@ You can remove the goals associated with a business capability in the Enterprise
 
 
 [Exploring product capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-exploring-product-capabilities.md)
+
+[Add a business unit to a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-add-business-unit-to-business-capability.md)
+
+[Remove a business unit from a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-remove-business-unit-from-business-capability.md)
+
+[Add a goal to a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-add-goal-to-business-capability.md)
+
+[Remove a goal from a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-remove-goal-from-business-capability.md)
+
+[Add a business capability to a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-add-business-capability-to-goal.md)
+
+[Remove a business capability from a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-remove-business-capability-from-goal.md)
 

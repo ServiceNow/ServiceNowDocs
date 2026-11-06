@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/cce-modify-entitlement.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Contracts and Entitlements Workflows, Customer Contracts and Entitlements, Configure, price, quote apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Modify, Using Contracts and Entitlements Workflows, Customer Contracts and Entitlements, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
 # Modify an entitlement
@@ -23,7 +23,7 @@ Role required:
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  In the list view, select **Customer** &gt; **Accounts**.
 
@@ -33,7 +33,7 @@ Role required:
 
 5.  Select **Modify**.
 
-    **Note:** You can only modify entitlements associated with an account. You cannot modify entitlements associated to service contract lines.
+    **Note:** You can only modify entitlements associated with an account. You cannot modify entitlements associated to customer contract lines.
 
 6.  On the Configurator UI, modify the existing configurations for the selected entitlement.
 
@@ -49,6 +49,4 @@ Role required:
 
     The modifications are visible on the entitlement.
 
-
-**Parent Topic:**[Using Contracts and Entitlements Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-customer-cnt-ent-wf.md)
 

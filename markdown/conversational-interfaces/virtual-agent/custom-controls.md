@@ -1,24 +1,24 @@
 ---
 title: Customizing Virtual Agent with custom controls
-description: Custom controls are components that ServiceNow developers can create for use in Virtual Agent topics or topic blocks. Such controls include sliders or video players. Custom controls complement the controls provided in Assistant Designer Asset library.
+description: Custom controls are components that ServiceNow developers can create for use in Virtual Agent topics or topic blocks. Such controls include sliders or video players. Custom controls complement the controls provided in Assistant Designer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/custom-controls.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-10-24"
 reading_time_minutes: 3
-breadcrumb: [Exploring other Virtual Agent features, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Other Virtual Agent features, Build conversations, Virtual Agent, Conversational Interfaces]
 ---
 
 # Customizing Virtual Agent with custom controls
 
-Custom controls are components that ServiceNow® developers can create for use in Virtual Agent topics or topic blocks. Such controls include sliders or video players. Custom controls complement the controls provided in Assistant Designer Asset library.
+Custom controls are components that ServiceNow® developers can create for use in Virtual Agent topics or topic blocks. Such controls include sliders or video players. Custom controls complement the controls provided in Assistant Designer.
 
-Assistant Designer Asset library provides a default set of controls that represent [user inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-user-inputs.md), [bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md), and [utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-utilities.md) for building a Virtual Agent conversation. As a developer, you can use Assistant Designer Asset library to create additional controls \(interface components\) for specific inputs or output responses. For example, a slider is an example of a custom input control that enables end users to select a quantity.
+Assistant Designer provides a default set of controls that represent [user inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-user-inputs.md), [bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md), and [utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-utilities.md) for building a Virtual Agent conversation. As a developer, you can use the Asset library in Assistant Designer to create additional controls \(interface components\) for specific inputs or output responses. For example, a slider is an example of a custom input control that enables end users to select a quantity.
 
-**Note:** Custom controls do not work on Internet Explorer version 11. Custom controls are also not supported for Microsoft Teams.
+**Note:** Custom controls don't work on Internet Explorer version 11. Custom controls are also not supported for Microsoft Teams.
 
 ## Before building a custom control
 
@@ -29,7 +29,7 @@ Before building a custom component, you must have the following:
 -   Basic knowledge of the ServiceNow AI Platform® and application table structures.
 -   General knowledge of web component concepts, development, and design.
 -   JavaScript knowledge to define component behavior and that of the custom control.
--   Knowledge of the design process for creating custom components for use in Assistant Designer Asset library.
+-   Knowledge of the design process for creating custom components for use in Assistant Designer.
 
 To learn more about developing custom components for Virtual Agent, see [Develop a component for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/va-components.md).
 
@@ -41,9 +41,9 @@ To add your custom control to Virtual Agent, follow these main steps:
 
     After building the custom component to be used for the control, create a custom control definition that maps an input or response control to the custom component.
 
-2.  [Create a custom control using Assistant Designer Asset library.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-custom-control.md)
+2.  [Create a custom control using Assistant Designer.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-custom-control.md)
 
-    A custom control is an input or response control. Developers build a custom control in Assistant Designer Asset library by doing the following:
+    A custom control is an input or response control. Developers build a custom control in Assistant Designer by doing the following:
 
     -   Selecting a custom control definition.
     -   Defining the input parameters for using the control.

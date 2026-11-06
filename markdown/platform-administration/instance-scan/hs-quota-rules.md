@@ -7,9 +7,9 @@ release: zurich
 product: Instance Scan
 classification: instance-scan
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Instance Scan, Maintain and monitor, Administer]
+breadcrumb: [Configuring Instance Scan, Instance Scan, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
 
 # Timeout threshold

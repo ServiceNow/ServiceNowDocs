@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Administering playbooks, Playbooks, Configure, Workflow Studio, Build workflows]
+breadcrumb: [Administering Playbooks, Configure, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Archive process contexts
@@ -72,7 +72,9 @@ The context records are archived for your selected process executions.
 
 If you have a large number of context records to archive, records are archived in limited batches on an hourly basis, to avoid slowing down the instance.
 
-## Example
+## Archive context records for an execution
+
+\[Omitted image "archive-process-context.gif"\] Alt text: Archive context records for a process execution
 
 ## What to do next
 
@@ -85,5 +87,5 @@ Turn off the automatic archiving of context records for your complete and cancel
 -   **[View archived process contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/view-archived-process-executions.md)**  
 Configure the form layout for a process execution so that you can see the JSON record for archived context records.
 
-**Parent Topic:**[Administering playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/administering-process-automation-designer.md)
+**Parent Topic:**[Administering Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/administering-process-automation-designer.md)
 

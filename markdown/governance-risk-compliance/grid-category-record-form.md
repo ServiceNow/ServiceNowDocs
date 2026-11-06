@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grid-category-record-form.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure grid categories, General administration setup for BCM, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -22,7 +22,7 @@ For description of the field values, see the table.
 |-----|-----------|
 |Name|Name of the grid category.|
 |Code|Code for the grid category.|
-|Enable element context|Option to enable the element context for the grid category.|
+|Enable element context|Option to enable the element context for the grid category. For information on custom columns and grid configuration for BIA dependency groups in the BCM Configurable Workspace, see [Configure grid categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/configure-grid-category.md).|
 
 **Parent Topic:**[Configure grid categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/configure-grid-category.md)
 

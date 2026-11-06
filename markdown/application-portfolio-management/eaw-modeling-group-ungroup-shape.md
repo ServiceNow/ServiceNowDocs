@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-modeling-group-ungroup-shape.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with Enterprise Modeling and Visualization, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with Enterprise Modeling and Visualization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Convert a shape to a group shape
@@ -26,7 +26,7 @@ You can convert all general shapes to group shapes, except shapes such as actor,
 
 1.  Navigate to **Workspaces** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Modeling page by selecting the Modeling icon \(\[Omitted image "icon-modeling-logo.png"\] Alt text: Modeling\).
+2.  Open the Modeling page by selecting the Enterprise Modeling and Visualization icon \(\[Omitted image "icon-modeling-logo.png"\] Alt text: Enterprise Modeling and Visualization\).
 
 3.  Create a blank diagram or open an existing diagram.
 

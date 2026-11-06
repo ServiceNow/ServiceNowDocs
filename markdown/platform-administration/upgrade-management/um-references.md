@@ -1,23 +1,23 @@
 ---
-title: Upgrade Management references
-description: Find all the miscellaneous information about Upgrade Management in this section.
+title: Upgrade Console references
+description: Find all the miscellaneous information about Upgrade Console in this section.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/upgrade-management/um-references.html
 release: zurich
 product: Upgrade Management
 classification: upgrade-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Upgrade Console, Upgrade, Administer]
+breadcrumb: [Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
-# Upgrade Management references
+# Upgrade Console references
 
-Find all the miscellaneous information about Upgrade Management in this section.
+Find all the miscellaneous information about Upgrade Console in this section.
 
--   **[Upgrade Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-roles.md)**  
-Upgrade Management is installed with these roles.
+-   **[Upgrade Console roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-roles.md)**  
+Upgrade Console is installed with these roles.
 
 **Parent Topic:**[Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-landing-page.md)
 

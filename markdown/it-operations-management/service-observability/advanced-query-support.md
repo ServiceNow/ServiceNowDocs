@@ -7,8 +7,8 @@ release: zurich
 product: Service Observability
 classification: service-observability
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Service Observability reference, Service Observability, ITOM AIOps, IT Operations Management]
 ---
 

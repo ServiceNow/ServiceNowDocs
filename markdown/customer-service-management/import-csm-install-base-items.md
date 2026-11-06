@@ -1,26 +1,26 @@
 ---
-title: Import Install base items with guided setup
+title: Import install base items with guided setup
 description: Install base items represent the instances of the product that have been configured for a customer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/import-csm-install-base-items.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Install base items, Configure Install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
+breadcrumb: [Install base items, Configure install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
-# Import Install base items with guided setup
+# Import install base items with guided setup
 
 Install base items represent the instances of the product that have been configured for a customer.
 
 ## Before you begin
 
-Role required: admin
+Role required: csm\_guided\_setup\_user or admin
 
 ## About this task
 
-Each Install base item references the configuration item record for the customer.
+Each install base item references the configuration item record for the customer.
 
 ## Procedure
 

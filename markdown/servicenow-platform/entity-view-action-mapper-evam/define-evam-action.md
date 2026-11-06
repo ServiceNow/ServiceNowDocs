@@ -7,9 +7,9 @@ release: zurich
 product: Entity View Action Mapper \(EVAM\)
 classification: entity-view-action-mapper-evam
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use EVAM, EVAM, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Managing Entity View Action Mapper, Entity view action mapper, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Create an EVAM action definition
@@ -101,6 +101,4 @@ Description of the EVAM action.
 </td></tr></tbody>
 </table>3.  Select **Submit**.
 
-
-**Parent Topic:**[Using Entity View Action Mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/entity-view-action-mapper-evam/managing-entity-view-action-mapper.md)
 

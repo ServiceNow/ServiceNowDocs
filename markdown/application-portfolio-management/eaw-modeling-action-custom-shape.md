@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-modeling-action-custom-shape.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with custom shapes, Working with Enterprise Modeling and Visualization, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with custom shapes, Working with Enterprise Modeling and Visualization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Create a diagram action for a custom shape
@@ -20,7 +20,7 @@ Role required: sn\_apm.apm\_admin
 
 ## About this task
 
-After creating custom shapes and adding them to the shape library, you can define actions to associate with each shape. Diagram actions can enhance the user experience by making diagrams more interactive and functional.
+After creating custom shapes and adding them to the shape library, you can define actions to associate with each shape. Diagram actions enhance the user experience by making diagrams more interactive and functional.
 
 ## Procedure
 

@@ -7,7 +7,7 @@ release: zurich
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Explore, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -67,7 +67,7 @@ Performance Analytics includes the following concepts and components:
 
 -   **[Breakdown sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/t_DefiningABreakdownSource.md)**
 
-    specify which unique values, called breakdown elements, a breakdown contains. A breakdown source is defined as a set of records from a table or database view or as a bucket group. Multiple breakdowns can use the same breakdown source. For example, instead of seeing ALL assignment groups for the Number of Open Changes indicator, you can limit the element list to just those groups that are part of the change process by configuring the Breakdown Source.
+    specify which unique values, called breakdown elements, a breakdown contains. A breakdown source is defined as a set of records from a table \(including Workflow Data Fabric\) or database view or as a bucket group. External data is supported via Workflow Data Fabric tables. Multiple breakdowns can use the same breakdown source. For example, instead of seeing ALL assignment groups for the Number of Open Changes indicator, you can limit the element list to just those groups that are part of the change process by configuring the Breakdown Source.
 
 -   **[Bucket groups]()**
 
@@ -83,7 +83,7 @@ Performance Analytics includes the following concepts and components:
 
 -   **[Indicator sources]()**
 
-    are data sets consisting of filtered records from one table or database view. An indicator source configuration specifies a table, such as Incident \[incident\], conditions for filtering records from that table, and a frequency that you base on the conditions. An indicator source cannot specify a rotated table. Multiple indicators can use the same indicator source. Data collection jobs query the database once for each indicator source. Thus, all indicators that use the same indicator source get data from the same point in time.
+    are data sets consisting of filtered records from one table or database view. An indicator source configuration specifies a table, such as Incident \[incident\], conditions for filtering records from that table, and a frequency that you base on the conditions. Supported tables include database views and Workflow Data Fabric tables. An indicator source cannot specify a rotated table. Multiple indicators can use the same indicator source. Data collection jobs query the database once for each indicator source. Thus, all indicators that use the same indicator source get data from the same point in time.
 
     Typically, an indicator tracks the situation on a certain date. The indicator source conditions usually include a date-related filter, such as **\[Opened\]\[on\]\[Today\]**. Indicators collected less frequently might specify a larger date range, such as **\[Closed\]\[on\]\[This month\]**.
 

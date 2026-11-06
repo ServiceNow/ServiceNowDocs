@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/test-va-component.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Develop a component for Virtual Agent, Create custom components using ServiceNow CLI, Builder library, Developing your application, Building applications]
+breadcrumb: [Develop a component for Virtual Agent, Create custom components using ServiceNow CLI, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Test a component for Virtual Agent
@@ -39,12 +39,12 @@ Virtual Agent components must be tested within the Virtual Agent client chat to 
 
     ```
     "dependencies": {
-        "@servicenow/ui-renderer-snabbdom": "zurich",
+        "@servicenow/ui-renderer-snabbdom": "brazil",
         "@servicenow/library-translate": "^18.0.0",
-        "@servicenow/now-button": "zurich",
-        "@servicenow/now-dropdown": "zurich",
-        "@servicenow/sass-generic": "zurich",
-        "@servicenow/cli-archetype": "zurich",
+        "@servicenow/now-button": "brazil",
+        "@servicenow/now-dropdown": "brazil",
+        "@servicenow/sass-generic": "brazil",
+        "@servicenow/cli-archetype": "brazil",
         "@servicenow/sdk-ci": "1.0.8"
     }
     ```

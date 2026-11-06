@@ -7,10 +7,10 @@ release: zurich
 product: ServiceNow Large Language Model \(Now LLM\)
 classification: servicenow-large-language-model-now-llm
 topic_type: concept
-last_updated: "2026-09-22"
+last_updated: "2026-10-20"
 reading_time_minutes: 9
 keywords: [model card, Now LLM Service, LLM, Large language model, Generative AI, Gen AI, Now Assist]
-breadcrumb: [Large language models on the ServiceNow AI Platform, Enable AI experiences]
+breadcrumb: [Large language models, Large language models and providers, Enable AI Experiences]
 ---
 
 # Model provider updates
@@ -29,11 +29,13 @@ These model cards reflect the AI models that power various features within the S
 
     Selectable ServiceNow Otto model for enterprise AI that enhances text-based automation and content generation in ServiceNow workflows, including requester OOTB skills, custom skills, and agentic use cases.
 
+    This model is available for Generative AI Controller application 15.1 or higher.
+
 -   **[Model card for ServiceNow large language model \(V2\)](https://downloads.docs.servicenow.com/resource/enus/infocard/sn-llm-v2.pdf)**
 
     ServiceNow Otto model for enterprise AI that enhances text-based automation and content generation in ServiceNow workflows, including requester OOTB skills, custom skills, and agentic use cases.
 
-    This model is available for Generative AI Controller application 15.1.0 or higher.
+    This model is available for Generative AI Controller application 11.2 or higher.
 
 -   **[Model card for ServiceNow small language model \(V2\)](https://downloads.docs.servicenow.com/resource/enus/infocard/sn-slm-v2.pdf)**
 
@@ -100,7 +102,7 @@ The Now LLM Service model strategy has moved toward integrated model provider fl
 
 -   Existing selections preserved: If you have already selected a model provider, that configuration is preserved. The update doesn't overwrite an explicit selection.
 
--   Changing your model provider: To select a model provider other than the default, review the providers that are allowed for your instance in AI Control Tower. Navigate to **Configurations** &gt; **Controls** &gt; **AI model providers**, and then make your changes in the ServiceNow Otto Admin Center by navigating to **Settings** &gt; **Manage AI Models** &gt; **Manage Model Providers**.
+-   Changing your model provider: To select a model provider other than the default, review the providers that are allowed for your instance in AI Control Tower. Navigate to **Configurations** &gt; **Controls** &gt; **AI model providers**, and then make your changes in the AI Admin Hub Center by navigating to **Settings** &gt; **Manage AI Models** &gt; **Manage Model Providers**.
 
 -   Explicit model names required: Update prompt and generative AI configuration records that use generic large or small model references. Reference a specific supported model by name instead.
 

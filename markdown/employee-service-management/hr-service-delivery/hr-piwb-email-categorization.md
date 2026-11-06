@@ -7,9 +7,9 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Implement, HR Predictive Intelligence Workbench, Integrate with ServiceNow applications, HR Service Delivery, Employee Service Management]
+breadcrumb: [HR Predictive Intelligence Workbench implementation, HR Predictive Intelligence Workbench, Integration of HR Service Delivery with ServiceNow applications, HR Service Delivery, Employee Service Management]
 ---
 
 # HR PIWB template: Auto-categorize email cases
@@ -143,6 +143,4 @@ You can verify the integration status from **HR Administration** &gt; **HR AI Co
 [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/predictive-intelligence.md)
 
 [Get started with Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-predictive-intelligence.md)
-
-[bundle-itsm.itsm-piwb-integ-implem-custom]
 

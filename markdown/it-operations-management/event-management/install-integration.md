@@ -37,7 +37,7 @@ Role required: evt\_mgmt\_admin or evt\_team\_operator
 
     The Integrations Launchpad page opens.
 
-5.  Follow the steps in [Integrations Launchpad in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/integrations-launchpad.md) that apply to your integration installation.
+5.  Follow the steps in [Integrations Launchpad in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/integrations-launchpad.md) that apply to your integration installation.
 
 6.  To complete the setup, select **Mark as configured**.
 

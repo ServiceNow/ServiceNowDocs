@@ -1,20 +1,20 @@
 ---
 title: Using GRC: Metrics to provide data
-description: Use the GRC: Metrics application to track your business goals, define your key risk indicators \(KRIs\) and key performance indicators \(KPIs\), and generate reports for the management to provide insights into the progress.
+description: Using the GRC: Metrics application you can track your business goals, define your key risk indicators \(KRIs\) and key performance indicators \(KPIs\), and generate reports for the management to provide insights into the progress.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/using-metrics-irm.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [GRC: Metrics in Integrated Risk Management, Risk Management, Governance, Risk, and Compliance]
 ---
 
 # Using GRC: Metrics to provide data
 
-Use the GRC: Metrics application to track your business goals, define your key risk indicators \(KRIs\) and key performance indicators \(KPIs\), and generate reports for the management to provide insights into the progress.
+Using the GRC: Metrics application you can track your business goals, define your key risk indicators \(KRIs\) and key performance indicators \(KPIs\), and generate reports for the management to provide insights into the progress.
 
 -   **[Provide data for a metric data task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/t_provide-data-for-metric-data-task.md)**  
 Use the metric data task to provide data for a manual metric.

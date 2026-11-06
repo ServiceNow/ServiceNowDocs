@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-import-builder.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Data capture and validation, Set up playbook, Account onboarding, Configure, Customer Success Management]
+breadcrumb: [Account onboarding playbook, Configure, Customer Success Management]
 ---
 
 # Configure the account onboarding data import task
@@ -18,7 +18,7 @@ Use the Import Builder to configure the account onboarding data import task.
 
 -   Role required: sn\_acct\_lc\_agent
 -   One or more Playbooks roles. See [Playbooks roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/process-automation-designer-roles.md) for details.
--   Confirm that you are in the same application scope in which the target table is present.
+-   Confirm that you're in the same application scope in which the target table is present.
 
 ## Procedure
 
@@ -62,5 +62,5 @@ Add this newly created activity definition in the Process Automation Designer an
 
 .
 
-**Parent Topic:**[Data capture and validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-use-playbook-data-capture.md)
+**Parent Topic:**[Configure the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-configure.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Oracle licensing in partitioned environments, Software Asset Management publisher pack for Oracle, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Oracle licensing in partitioned environments, Software Asset Management publisher pack for Oracle, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Oracle Database and WebLogic Server licensing in soft-partitioned environments
@@ -17,6 +17,8 @@ breadcrumb: [Oracle licensing in partitioned environments, Software Asset Manage
 The Software Asset Management application supports Oracle Database and WebLogic Server licensing rules in soft-partitioned environments, such as VMware and Nutanix virtualization technology.
 
 Soft partitioning enables you to segment the operating system \(OS\) of the environment into different OS types and OS versions by using OS resource managers. OS resource managers limit the number of processors that each Oracle database or WebLogic server can run on by creating segments in which CPU resources are allocated to applications within the same OS. For more information about Oracle licensing and soft partitioning, refer to the [Oracle Help Center](https://docs.oracle.com/en/).
+
+When you install or run an Oracle Database or WebLogic Server in soft-partitioned environments, you can license it using either the Named User Plus or Per Processor license metric. In addition, the WebLogic Server licensing support covers the entire WebLogic product family that includes the Standard, Enterprise, and Suite editions. For more information, refer to this knowledge base article [KB2630167](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2630167).
 
 ## VMware vSphere
 

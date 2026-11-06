@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Employee Center, Unified Employee Experience, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Using Employee Center
@@ -22,8 +22,6 @@ The Employee Center topic pages contain the breadcrumbs widget, topic header wid
 While topic managers control the topic level decisions, the contributors manage the connected content, quick links, adding applications, and featured content on the topic page.
 -   **[Use the My To-dos page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-to-dos-use.md)**  
 Use the To-dos page to review all tasks that are assigned to you and prioritize them.
--   **[View advanced portal navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/adv-portal-navigation-employee.md)**  
-Use the enhanced navigation experience that helps you with better content discovery.
 -   **[Use approval experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-to-dos-use-approval-hub.md)**  
 Use the **My tasks** section to track and fulfill the requests from the portal and Now Mobile.
 -   **[Manage approvals from Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/va-concur.md)**  

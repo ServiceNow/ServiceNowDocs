@@ -5,11 +5,11 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/vc-and-atf.html
 release: zurich
 topic_type: concept
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [vibe coding, AI-assisted development, automated testing, test generation, application development, quality assurance]
 audience: developer
-breadcrumb: [Develop, Agentic development, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
+breadcrumb: [Develop, Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Testing agentically developed apps
@@ -26,7 +26,7 @@ This means you can go from idea to a working, testable app much faster. After th
 
 **Note:** Build Agent can create, edit, and run ATF tests. For more information, see [Test what you built with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-testing.md).
 
-ATF has a troubleshooting agent to debug test failures on specific metadata. For details, see [ATF troubleshooting agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/atf-troubleshooting-agent-landing-page.md).
+ATF has a troubleshooting agent to debug test failures on specific metadata. For details, see [ATF troubleshooting agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-creator/atf-troubleshooting-agent-landing-page.md).
 
 For full documentation on Automated Test Framework, see [Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-landing-page.md).
 

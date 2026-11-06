@@ -7,9 +7,9 @@ release: zurich
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with Connection manager, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Working with Connection Manager, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Create an automation source
@@ -48,5 +48,5 @@ Align source and destination values for precise data representation in Automatio
 -   **[Review and activate automation source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/review-activate.md)**  
 Review all configurations for the automation source, and then activate the automation source.
 
-**Parent Topic:**[Working with Connection manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/connection-manager.md)
+**Parent Topic:**[Working with Connection Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/connection-manager.md)
 

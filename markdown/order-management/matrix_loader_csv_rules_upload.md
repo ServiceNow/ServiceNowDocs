@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/matrix\_loader\_csv\_rules\_upload.html
 release: zurich
 topic_type: reference
-last_updated: "2025-09-17"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Configure the Matrix Loader, ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configure the Matrix Loader, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Matrix Loader: CSV rules upload
@@ -59,7 +59,7 @@ The following operators are supported for condition evaluation:
 -   contains / not contains
 -   in / not in
 
-## Best practices
+## General guidelines
 
 -   Always verify variable names match the field references exactly.
 -   Keep rule descriptions concise but descriptive to aid troubleshooting.

@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: concept
-last_updated: "2025-12-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 keywords: [room booking, desk booking]
 breadcrumb: [Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]

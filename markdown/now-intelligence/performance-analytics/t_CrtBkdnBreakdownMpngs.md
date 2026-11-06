@@ -7,7 +7,7 @@ release: zurich
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Automated breakdowns, Indicator breakdowns, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -40,7 +40,7 @@ You can create multiple mappings for the same breakdown, enabling you to use tha
 
 4.  Do one of these actions.
 
-<table id="choicetable_vmj_4t3_twb"><tbody><tr><td id="d135300e116">
+<table id="choicetable_vmj_4t3_twb"><tbody><tr><td id="d141386e120">
 
 **Use a field to map values to elements.**
 
@@ -48,7 +48,7 @@ You can create multiple mappings for the same breakdown, enabling you to use tha
 
 Select the **Field** in the indicator source that maps to records in the breakdown. See the use of the **Category** field in [Example: Field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/example-field-mapping.md).
 
-</td></tr><tr><td id="d135300e144">
+</td></tr><tr><td id="d141386e148">
 
 **Use a script to map values to elements.**
 

@@ -5,17 +5,17 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/vibe-coding-landing.html
 release: zurich
 topic_type: reference
-last_updated: "2026-06-04"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 keywords: [vibe coding, AI-assisted development, agentic development, application development, natural language, full-stack applications, workflows, integrations, governance, security, autonomous development]
-breadcrumb: [Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
+breadcrumb: [Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Agentic development on the ServiceNow AI Platform
 
 Agentic development, or vibe coding, is an AI-driven approach to application development. Use agentic development and ServiceNow agentic-assisted app building tools to describe your goals in natural language, and have the ServiceNow AI Platform generate full-stack applications, workflows, and integrations. The ServiceNow AI Platform automatically incorporates governance into the app creation process.
 
-Autonomous app development on the ServiceNow AI Platform is vibe coding, or agentic development.
+Autonomous app development on the ServiceNow AI Platform is agentic development.
 
 \[Omitted image "vc-platform-inherit.png"\] Alt text: Apps inherit the security and governance from the ServiceNow AI Platform
 
@@ -24,14 +24,14 @@ Agentic development with the ServiceNow AI Platform collapses the traditional ap
 **Note:**
 
 -   This document intends to provide a holistic view of agentic development on the ServiceNow AI Platform. It is not a document for a specific product, but instead compiles resources and links off to other products, agents, and skills for you to learn more and get started with agentic development faster.
--   The term "vibe coding" can be anything between two distinct philosophies:
+-   Agentic development encompasses a range of approaches to AI-assisted app building:
 
-    -   One definition of vibe coding state that developers don't review or touch generated code before checking it in; simply provide an idea, get code back, no review needed.
-    -   Another definition of vibe coding is an umbrella term that encompasses AI-assisted, agentic-assisted development, where developers still need to understand and support the generated code.
-    ServiceNow has tools to help you review, refine, and test apps for both vibe coding, like Build Agent, and agentic development, such as ServiceNow Otto for Creator.
+    -   In one approach, developers provide a goal and deploy the generated output without reviewing the underlying code.
+    -   In another approach, agentic development is an iterative, conversational process in which developers guide AI generation, review the output, and retain responsibility for the generated code.
+    ServiceNow provides tools to help you review, refine, and test apps throughout agentic development, including Build Agent and ServiceNow Otto for Creator.
 
 
-## Key features and benefits of AI-assisted development on the ServiceNow AI Platform
+## Key features and benefits of agentic development on the ServiceNow AI Platform
 
 |Benefit|Feature|Role|
 |-------|-------|----|
@@ -41,7 +41,7 @@ Agentic development with the ServiceNow AI Platform collapses the traditional ap
 |Versatile tasks|Beyond building new apps, ServiceNow AI Platform agentic development tools can explain code, debug issues, rewrite tables, validate applications, and fix errors.|admin or delegated\_developer|
 |Self-healing code|Build Agent can automatically analyze and repair errors without human intervention.|admin or delegated\_developer|
 
-## Why use AI-assisted development on the ServiceNow AI Platform
+## Why use agentic development on the ServiceNow AI Platform
 
 You can develop agentically with any number of products on the market. However, when you practice agentic development on the ServiceNow AI Platform, you can take advantage of the backend, hosting, and built-in governance. Use the contextual awareness of the ServiceNow AI Platform and all its built-in capabilities as a trusted place to develop and host apps developed agentically.
 
@@ -59,20 +59,24 @@ Your app doesn't have to be completely developed inside the ServiceNow AI Platfo
 
 </td><td>
 
-[Onboard\[Omitted image "bus-sdlc.svg"\] Alt text:Browse information on onboarding with AI-assisted development.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/vibe-coding-onboarding.md)
+[Onboard\[Omitted image "bus-sdlc.svg"\] Alt text:Browse information on onboarding with agentic development.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/vibe-coding-onboarding.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-learn.svg"\] Alt text:Create, test, and deploy applications with AI-assisted development tools.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/vibe-coding-using.md)
+[Use\[Omitted image "bus-learn.svg"\] Alt text:Create, test, and deploy applications with agentic development tools.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/vibe-coding-using.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Reference information for AI-assisted development, such as prompt examples.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/vibe-coding-reference-landing.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Reference information for agentic development, such as prompt examples.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/vibe-coding-reference-landing.md)
 
 </td></tr></tbody>
 </table>## Helpful resources
 
 Some ServiceNow resources that can provide you with helpful information are:
+
+-   **Getting started guide**
+
+
 
 -   **Build Agent docs**
 
@@ -94,4 +98,15 @@ Some ServiceNow resources that can provide you with helpful information are:
 
     [Contact Customer Service and Support](https://support.servicenow.com/now)
 
+
+-   **[Exploring agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/exploring-vibe-coding.md)**  
+To build apps agentically on the ServiceNow AI Platform, you interact with tools through a multi-turn conversation interface to build apps, write documentation, or brainstorm ideas. Describe what you want in plain language, and the ServiceNow AI Platform generates complete applications including logic, UI, configuration, and tests.
+-   **[Onboarding for agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/vibe-coding-onboarding.md)**  
+The following checklist helps to ensure your environment is properly configured, that you understand the core tools and general guidelines, and that you adopt secure, compliant workflows. Whether you're new to ServiceNow or transitioning to agentic development, this resource will set you up for success.
+-   **[Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/vibe-coding-using.md)**  
+Use ServiceNow AI Platform environments, products, tools, and skills to develop, expand, test, and deploy apps using a conversational interface. Autonomous app development on the ServiceNow AI Platform is agentic development.
+-   **[Agentic development reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/vibe-coding-reference-landing.md)**  
+Find reference material for agentic development on the ServiceNow AI Platform, including a list of tools and prompt examples.
+
+**Parent Topic:**[Build](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-ai-workflow-factory-prime.md)
 

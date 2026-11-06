@@ -7,9 +7,9 @@ release: zurich
 product: Asset Management
 classification: asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Work with Asset and CI, Use, Asset Management, IT Asset Management]
+breadcrumb: [Work with Asset and CI, Use, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Map asset state and CI install status
@@ -25,8 +25,6 @@ Role required: admin or asset
 ## About this task
 
 Asset synchronization does not update this field when hardware assets are updated. When you create the mapping, you can set the synchronisation direction from Asset to CI, but not from CI to Asset. For non-Hardware CI classes, you can set the synchronisation in both the directions.
-
-The hardware and consumable assets don't have the Build state and Design substate because they are already prepared. Therefore, the Asset CI install status mappings table doesn't have a mapping for the Build state. For more details on asset states, see [Set asset states and substates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/t_SettingAssetStatesAndSubstates.md).
 
 ## Procedure
 

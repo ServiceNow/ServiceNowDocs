@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Field Service Contractor for mobile, ServiceNow Agent mobile app, Use, Field Service Management]
+breadcrumb: [Field Service Contractor for mobile, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
 # Complete questionnaire for a work order task using the Field Service Contractor for mobile application
@@ -40,7 +40,7 @@ Role required: wm\_ext\_agent, wm\_ext\_manager
 
 8.  Tap **Submit**.
 
-    Once submitted you can view but cannot change your questionnaire.
+    Once submitted you can view the responses submitted in the questionnaire.
 
 
 ## Result

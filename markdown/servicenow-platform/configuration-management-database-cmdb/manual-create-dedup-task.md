@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Duplicate CIs remediation, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Duplicate CIs remediation, CMDB data management, Configuration Mana
 
 Manually create a de-duplication task when it is not automatically created. You can then use the Duplicate CI Remediator or the De-duplication dashboard in CMDB Workspace to remediate the manually created task.
 
-In some situations, duplicate CIs are not automatically detected and de-duplication tasks are not automatically generated. Such situation happens with a class for which identification rules are not defined and the identification engine cannot be applied. However, you still want to reconcile these duplicate CIs by utilizing the [Duplicate CI Remediator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md)or the [De-duplication dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/dedup-ci-exp-cmdb-workspace.md) in CMDB Workspace.
+In some situations, duplicate CIs are not automatically detected and de-duplication tasks are not automatically generated. Such situation happens with a class for which identification rules are not defined and the identification engine cannot be applied. However, you still want to reconcile these duplicate CIs by utilizing the [Duplicate CI Remediator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md) or the [De-duplication Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/dedup-ci-exp-cmdb-workspace.md) in CMDB Workspace.
 
 Use the [CMDBDuplicateTaskUtils](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/CMDBDuplicateTaskUtilsAPI.md) API to manually create a de-duplication task in which all duplicate CIs are specified. The de-duplication tasks that you create manually and the automatically created tasks, are stored in the same table \(\[reconcile\_duplicate\_task\]\) and are processed in the same manner.
 

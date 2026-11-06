@@ -1,5 +1,5 @@
 ---
-title: Move an automation request to the planned state
+title: Move an automation request to the Planned state
 description: After creating an automation request, move it to the Planned state before you work on it or create associated automation tasks or resources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/automation-center/move-automation-request-to-planned.html
@@ -7,12 +7,12 @@ release: zurich
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Move through states, Working with automations, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Working with automations, Use, Automation Center, Workflow Data Fabric]
 ---
 
-# Move an automation request to the planned state
+# Move an automation request to the Planned state
 
 After creating an automation request, move it to the **Planned** state before you work on it or create associated automation tasks or resources.
 
@@ -41,5 +41,5 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
 
 After you move an automation request to the Planned state, it's ready for you to work on.
 
-**Parent Topic:**[Move through states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/move-through-states.md)
+**Parent Topic:**[Working with automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/automations.md)
 

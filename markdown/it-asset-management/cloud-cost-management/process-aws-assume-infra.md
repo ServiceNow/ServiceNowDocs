@@ -7,9 +7,9 @@ release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up access to AWS billing and usage data, Configure Cloud Cost Management for AWS, Configure, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Set up access to AWS billing and usage data, Configure Cloud Cost Management for AWS, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Processing AWS billing jobs with Assume role authentication
@@ -17,6 +17,8 @@ breadcrumb: [Set up access to AWS billing and usage data, Configure Cloud Cost M
 Use the Cloud Cost Management Infra Stack application to process and download the AWS billing files with Assume role authentication at a better speed.
 
 When you have installed the Cloud Cost Management Infra Stack application, the processing of all billing download jobs happens completely on the Kubernetes cluster. However, for AWS billing jobs with Assume role authentication the processing of billing data is partially done via Cloud Cost Management MID Server.
+
+To configure AWS IAM roles and permissions using Assume Role authentication, see [Set up AWS Assume Role authentication for Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/setup-aws-assume-role-ccm.md).
 
 ## AWS billing download job \(with Assume role\) workflow
 

@@ -7,7 +7,7 @@ release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
-last_updated: "2026-03-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Microsoft Defender for Endpoint, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ Set up scheduled import jobs to pull in Microsoft Defender for Endpoint data int
 
 Complete the following tasks:
 
--   Install Service Graph Connector for Microsoft Defender Endpoint version 1.1.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_InstallApplications.md).
+-   Install Service Graph Connector for Microsoft Defender Endpoint version 1.1.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/installing-applications-in-application-manager.md).
 -   Verify that you have an active subscription to Microsoft Defender for Endpoint.
 -   Verify that you have created an Azure application to get programmatic access to Microsoft Defender for Endpoint. See [Create an app to access Microsoft Defender for Endpoint without a user](https://learn.microsoft.com/en-us/defender-endpoint/api/exposed-apis-create-app-webapp?view=o365-worldwide) in the Microsoft 365 documentation.
 -   Obtain the tenant ID, client ID, and client secret details for the Microsoft Defender for Endpoint administrator account.
@@ -43,7 +43,7 @@ The playbook experience for onboarding connectors is activated with SGC Central 
 
 1.  Use one of the following methods to open SGC Central:
 
-    -   Navigate to **Workspaces** &gt; **Service Graph Workspace**, and from the left navigation panel, select the Ingestion icon to open the SGC Central view.
+    -   Navigate to **Workspaces** &gt; **Service Graph Workspace**, and from the left navigation panel, select the Ingestion icon \[Omitted image "icon-sgc-central.png"\] to open the SGC Central view.
     -   Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **SGC Central**.
 2.  On the Overview page, select **Create connection**.
 

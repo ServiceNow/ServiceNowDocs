@@ -7,7 +7,7 @@ release: zurich
 product: Mentoring
 classification: mentoring
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Mentoring, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -28,15 +28,15 @@ Role required: none
 
 2.  In the **Mentoring requests** section, you can choose to view information from the following information.
 
-<table id="choicetable_r4r_sx1_d1c"><thead><tr><th align="left" id="d651603e88">
+<table id="choicetable_r4r_sx1_d1c"><thead><tr><th align="left" id="d661911e88">
 
 Option
 
-</th><th align="left" id="d651603e91">
+</th><th align="left" id="d661911e91">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d651603e97">
+</th></tr></thead><tbody><tr><td id="d661911e97">
 
 **Requests from others**
 
@@ -49,7 +49,7 @@ View a list of requests you have received from others. You can use the **Viewing
 -   All
 
 
-</td></tr><tr><td id="d651603e126">
+</td></tr><tr><td id="d661911e126">
 
 **Your requests**
 

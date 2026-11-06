@@ -7,9 +7,9 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure conversational search, Configure agentic workflows, Configure, Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Configure conversational search, Configure agentic workflows, Configure AI capabilities, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Configure conversational search tables
@@ -31,6 +31,8 @@ Role required: admin
 4.  Select the Unlock tables \(\[Omitted image "wsd-unlock-connectors-list-icon.png"\] Alt text: Unlock tables icon\) icon.
 
 5.  In the **Select Tables** field, add the tables that should be used in conversational search.
+
+    \[Omitted image "cmpro-na-converse-add-tables.png"\] Alt text: Configure tables to be considered for conversational search
 
 6.  Select **Next**.
 

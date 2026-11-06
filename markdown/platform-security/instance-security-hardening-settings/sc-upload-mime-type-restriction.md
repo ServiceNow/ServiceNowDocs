@@ -1,5 +1,5 @@
 ---
-title: Restrict uploaded MIME types \[Updated in Security Center 1.3 and 2.0\]
+title: Restrict uploaded MIME types
 description: Use the glide.security.file.mime\_type.validation property to activate MIME type checking for uploads. You can enable \(set the property to true\) or disable \(set it to false\) MIME type validation for file attachments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-upload-mime-type-restriction.html
@@ -7,39 +7,111 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
 
-# Restrict uploaded MIME types \[Updated in Security Center 1.3 and 2.0\]
+# Restrict uploaded MIME types
 
 Use the **glide.security.file.mime\_type.validation** property to activate MIME type checking for uploads. You can enable \(set the property to **true**\) or disable \(set it to **false**\) MIME type validation for file attachments.
 
-## Prerequisites
+The **glide.security.file.mime\_type.validation** system property is used to activate MIME type checking for uploads.
 
-Before setting this property, set the **glide.attachment.extensions** property. Only those extensions specified in **glide.attachment.extensions** are checked for MIME type during upload. To learn more, see [Restrict file extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/restrict-file-extensions.md).
-
-Ensure the Glide Property **glide.ui.jelly.js\_interpolation.protect\_nested\_expressions** exists and is set to the value true. If the property does not appear in the sys\_properties table, add a new record.
+Ensure that the property **glide.security.file.mime\_type.validation** exists in the System Properties \[sys\_properties\] and is set to **true**. If the property does not appear in the System Properties \[sys\_properties\] table, add a new record.
 
 ## More information
 
-|Attribute|Description|
-|---------|-----------|
-|Property name|**glide.security.file.mime\_type.validation**|
-|Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)|
-|Purpose|To enforce checking of MIME type / magic bytes during file uploads.|
-|Recommended value|true|
-|Default value|true|
-|Security risk rating|5.4|
-|Functional impact|This remediation enables MIME type verification on the attachments to the application. No functionality impact, unless there is a malicious intent in uploading the files as this validation is merely checking for mis-sync between the MIME type and the data.|
-|Security risk|\(Medium\) To reduce vulnerabilities such as file inclusion and malicious file uploads, MIME type verification should be enabled.|
-|References|[Administering attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/r_AdministeringAttachments.md)|
+<table id="table_ajc_b43_3kb"><thead><tr><th>
 
-See [Hardening settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/security-hardening-settings.md) for details on configuring properties for hardening.
+Attribute
 
-To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+</th><th>
 
-**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Configuration name
+
+</td><td>
+
+**glide.security.file.mime\_type.validation**
+
+</td></tr><tr><td>
+
+Configuration type
+
+</td><td>
+
+System Properties \(/sys\_properties\_list.do\)
+
+</td></tr><tr><td>
+
+Data type
+
+</td><td>
+
+Boolean
+
+</td></tr><tr><td>
+
+Recommended value
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
+Default value
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
+
+</td></tr><tr><td>
+
+Security risk
+
+</td><td>
+
+-   Severity score: 5.4
+-   CVSS rating: Medium
+-   Security risk details: MIME type validation for file attachments will not take place which could allow malicious file types to be uploaded.
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+This remediation enables MIME type verification on the attachments to the application. No functionality impact, unless there is a malicious intent in uploading the files as this validation is merely checking for mis-sync between the MIME type and the data.
+
+</td></tr><tr><td>
+
+Dependencies and prerequisites
+
+</td><td>
+
+None
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

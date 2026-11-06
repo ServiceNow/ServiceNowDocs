@@ -7,7 +7,7 @@ release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-02-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -49,6 +49,8 @@ The newly created filter is saved and appears on the Filter page.
 
 **Related topics**  
 
+
+[Configuring ServiceNow Otto for Security Incident Response \(SIR\)]()
 
 [Set up view of SIR Records]()
 

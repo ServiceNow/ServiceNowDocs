@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-create-exploration-in-arch-analyzer.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Working with architecture analyzer, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with architecture analyzer, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Create an exploration in the architecture analyzer
@@ -44,7 +44,7 @@ In the Architecture Analyzer you can also perform the following:
 
     **Note:**
 
-    -   You can double click on an existing exploration and then select **+ New exploration** to create a new exploration.
+    -   You can double click an existing exploration and then select **+ New exploration** to createn an exploration.
     -   You can select an existing exploration to view the details.
 4.  To add an entity to the canvas, perform the following:
 

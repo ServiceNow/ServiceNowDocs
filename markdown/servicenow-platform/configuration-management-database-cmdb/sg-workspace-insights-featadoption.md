@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-02-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 breadcrumb: [Insights view, Explore, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -154,7 +154,7 @@ The overall level of adoption of data governance is based on whether [CMDB Data 
 
     Checks if the Principal Class filter is configured with at least one principal class. The Principal Class filter limits the number of CIs that appear in list views, to show only CIs of principal classes. Reducing the amount of data in list views to only relevant data, improves performance and efficiency.
 
-    For more information about managing the Principal Class filter in CI Class Manager, see [Update class list in the Principal Class filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/update-principal-class-filter.md).
+    For more information about Principal Class and managing the Principal Class filter in CI Class Manager, see [Principal Class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/principal-class-filter.md).
 
 
 ## CMDB feature adoption: Search &amp; analytics

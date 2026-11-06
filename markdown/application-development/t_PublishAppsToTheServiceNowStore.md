@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/t\_PublishAppsToTheServiceNowStore.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Application sharing, Administer your apps, Deploying applications, Building applications]
+breadcrumb: [Application sharing, Administer your apps, Deploying applications, Classic app development, Building applications]
 ---
 
 # Publish an application to the ServiceNow Store
@@ -64,5 +64,5 @@ In Studio, when an application customization has the **Can Edit Application in S
 **Related topics**  
 
 
-[Delegating development permissions to personnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/t_AddADeveloper.md)
+[Delegate development and deployment permissions to personnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/t_AddADeveloper.md)
 

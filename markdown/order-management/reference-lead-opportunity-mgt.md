@@ -1,29 +1,35 @@
 ---
-title: Lead and opportunity management reference
-description: Reference for lead and opportunity management applications.
+title: Sales automation reference
+description: Reference for sales automation applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/reference-lead-opportunity-mgt.html
 release: zurich
 topic_type: concept
-last_updated: "2025-11-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Sales Customer Relationship Management]
 ---
 
-# Lead and opportunity management reference
+# Sales automation reference
 
-Reference for lead and opportunity management applications.
+Reference for sales automation applications.
 
+-   **[Lead Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/lead-management-reference.md)**  
+Reference topics provide additional information about the Lead Management application.
+-   **[Opportunity Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/opportunity-management-reference.md)**  
+Reference topics provide additional information about the Opportunity Management application.
+-   **[Sales Forecasting reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-forecasting-reference.md)**  
+Several types of components are installed with activation of the Sales Forecasting application.
 -   **[Customer Engagement Sequences reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/customer-engagement-sequences-reference.md)**  
 Reference topics provide additional information about the Customer Engagement Sequences application.
--   **[Lead details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/lead-details-form.md)**  
-Field descriptions for editing or reviewing details on the Lead form for Lead Management.
--   **[Components installed with Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/components-installed-lead-management.md)**  
-Several types of components are installed with activation of the Lead Management plugin, including tables and user roles.
--   **[Components installed with Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/components-installed-opportunity-management.md)**  
-Several types of components are installed with activation of the Opportunity Management plugin, including user roles.
+-   **[Components installed with Buying Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/components-installed-buying-group.md)**  
+Several types of components are installed with activation of the Buying Group\[var.buying-group\] plugin, including user roles and tables.
 -   **[Components installed with Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/components-installed-sales-territory-management.md)**  
 Several types of components are installed with activation of the Sales Territory Management​ plugin, including user roles.
+-   **[Components installed with Sales Common](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/components-installed-sales-common.md)**  
+Several types of components are installed with activation of the Sales Common \(sn\_sales\_common\) plugin, including user roles and tables.
+-   **[Activity Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/activity-management-reference.md)**  
+Reference topics provide additional information about the Activity Management application.
 
 **Parent Topic:**[Sales Customer Relationship Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-reference.md)
 

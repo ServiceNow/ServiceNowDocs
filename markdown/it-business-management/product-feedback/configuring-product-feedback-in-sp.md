@@ -7,9 +7,9 @@ release: zurich
 product: Product Feedback
 classification: product-feedback
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Feedback, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Feedback in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Configuring Feedback application in Strategic Planning
@@ -26,12 +26,12 @@ Create or submit feedback from Microsoft Outlook directly. By configuring feedba
 Configure email settings in your instance and send an email to this id to create feedback.
 -   **[Integrate the Idea portal with Feedback application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/integrate-idea-portal-with-product-feedback.md)**  
 Integrate the Idea portal with Feedback application to enable collaboration of product ideas with feedback.
--   **[Configure non-planning items for feedback or ideas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/config-items-sp.md)**  
+-   **[Configure non-planning items for feedback or product ideas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/config-items-sp.md)**  
 Configure non-planning items to link your feedback or product idea records to navigate quickly between related items.
--   **[Configure filters for feedback or idea overview page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/configure-feedback-or-idea-overview-page.md)**  
+-   **[Configure filters for feedback or product idea overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/configure-feedback-or-idea-overview-page.md)**  
 Configure the filters for the feedback or product idea overview page to display information based on the preferences of your users. Use filters to find and engage with feedback and product ideas that are the most relevant to their interests.
 
-**Parent Topic:**[Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/product-feedback-landing.md)
+**Parent Topic:**[Feedback in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/product-feedback-landing.md)
 
 **Related topics**  
 

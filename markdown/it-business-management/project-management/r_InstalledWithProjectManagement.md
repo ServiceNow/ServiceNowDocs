@@ -7,9 +7,9 @@ release: zurich
 product: Project Management
 classification: project-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Reference, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Project Management reference, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Properties installed with Project Management
@@ -195,7 +195,7 @@ Use a predefined template when generating a status reportsn\_pw.project\_status\
 
 </td><td>
 
-The property specifies the default template used for generating project status reports. You can replace the existing default template with your desired template. To do so, update the sys id in the value field of the project status report default template property.
+The property specifies the default template used for generating project status reports. Replace default template with your desired template and set it as default by updating the sys id in value field of project status report default template property.
 
 </td></tr><tr><td>
 

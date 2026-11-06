@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/tb-upload-logo.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [upload logo, add logo]
 breadcrumb: [Global styles, Manage or edit a theme, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
@@ -17,7 +17,9 @@ If you previously applied a custom or default ServiceNow logo to your theme duri
 
 ## Before you begin
 
-Role required: admin
+Role required: ui\_builder\_admin
+
+For information on granular roles, see .
 
 ## Procedure
 
@@ -54,9 +56,7 @@ Role required: admin
     -   SVG, PNG, or JPG format
     Your new logo displays within the preview pane of the modal.
 
-6.  Use the **UI styles preview** or **Experience preview** tabs on the main stage to view how your new logo appears throughout your theme.
-
-    \[Omitted image "tb-exp-preview-tab.png"\] Alt text: UI styles preview and Experience preview tabs.
+6.  Switch between **Abstract UI** and **Experiences** views to to view how your new logo appears throughout your theme.
 
 7.  Select the undo icon \[Omitted image "undo-top-outline-24.svg"\] to delete your logo, if needed.
 

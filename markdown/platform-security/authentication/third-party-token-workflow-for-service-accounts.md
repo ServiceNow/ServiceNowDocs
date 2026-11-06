@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Third Party Token Grant, Inbound Integrations, OAuth inbound, OAuth authentication, Access Management]
+breadcrumb: [Third Party Token Grant, Inbound integrations, OAuth inbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Third party token workflow for service accounts
@@ -18,7 +18,7 @@ Create a service account in ServiceNow® to represent the identity of a third-pa
 
 ## Before you begin
 
-Role required: `admin`
+Role required: `oauth_admin, mi_admin, admin`
 
 ## About this task
 

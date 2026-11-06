@@ -67,7 +67,7 @@ Activated by default. However, to include Usage Insights data sources in your vi
 
 </td><td>
 
-The ServiceNow® Usage Insights application provides dashboard views for monitoring usage analytics of your web applications, as well as Virtual Agent, ServiceNow mobile, and Service Portal applications. Visualize metrics and interactions to better understand the user experience, and create more intuitive journeys for your users.For more general information about Usage Insights, see [Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/usage-insights/user-exp-analytics-landing.md). For more information specific to data visualizations, see [User Experience Analytics data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/uxa-data-sources.md).
+The ServiceNow® Usage Insights application provides dashboard views for monitoring usage analytics of your web applications, as well as Virtual Agent, ServiceNow mobile, and Service Portal applications. Visualize metrics and interactions to better understand the user experience, and create more intuitive journeys for your users.For more general information about Usage Insights, see [Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/usage-insights/user-exp-analytics-landing.md). For more information specific to data visualizations, see [Usage Insights data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/uxa-data-sources.md).
 
 </td></tr><tr><td>
 
@@ -91,7 +91,7 @@ Base system
 
 </td><td>
 
-Workflow Data Fabric Hub provides a view where you can browse data sources, establish connections, and create data fabric tables that provide access to data from external sources. Workflow Data Fabric tables are found in the same list as other tables when you create a visualization. Data from Workflow Data Fabric tables does not load automatically when you select it as a data source. Select **Run** to load the data in the preview. Select **Apply** to add the table as the data source.
+Zero Copy Connector Hub provides a view where you can browse data sources, establish connections, and create data fabric tables that provide access to data from external sources. Workflow Data Fabric tables are found in the same list as other tables when you create a visualization. Data from Workflow Data Fabric tables does not load automatically when you select it as a data source. Select **Run** to load the data in the preview. Select **Apply** to add the table as the data source.
 
 For more information, see .
 
@@ -134,11 +134,11 @@ The Health Log Analytics application helps prevent IT issues before your users a
 
     Indicator types include Automated, Formula, and Manual indicators and Automated and Formula Data Snapshots. The Indicator Preview shows an example of the visualization and a list of the indicator's properties.
 
-    \[Omitted image "image.dv-indicator-source-preview"\] Alt text: Indicator preview example with visualization example and list of properties including source type, indicator source, indicator type, additional conditions and available breakdowns.
+    \[Omitted image "dv-indicator-source-preview.png"\] Alt text: Indicator preview example with visualization example and list of properties including source type, indicator source, indicator type, additional conditions and available breakdowns.
 
 -   **Usage Insights**
 
-    Available with the User Experience PAR Integration application, to users with a required role. Choose one of up to three KPIs included with this application, depending on the visualization type. For more information, see [User Experience Analytics data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/uxa-data-sources.md).
+    Available with the User Experience PAR Integration application, to users with a required role. Choose one of up to three KPIs included with this application, depending on the visualization type. For more information, see [Usage Insights data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/uxa-data-sources.md).
 
 
 **Parent Topic:**[Data visualization reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/data-visualization-reference.md)

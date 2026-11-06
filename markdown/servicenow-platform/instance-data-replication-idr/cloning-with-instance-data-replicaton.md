@@ -7,7 +7,7 @@ release: zurich
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Administer, Instance Data Replication, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,7 +28,7 @@ There are multiple methods for copying an IDR configuration from one instance to
 
     Before you clone your instance, you must determine whether to exclude or include your IDR replication configuration.
 
-    For details on cloning, see .
+    For details on cloning, see [Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/system-clone-landing.md).
 
 
 ## IDR cloning use cases

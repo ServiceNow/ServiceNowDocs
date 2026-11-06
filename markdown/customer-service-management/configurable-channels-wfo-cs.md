@@ -1,16 +1,16 @@
 ---
-title: Using Channel Management in Workforce Optimization for Customer Service
+title: Channel Management in Workforce Optimization for Customer Service
 description: Use Channel Management to keep a track of the real-time performance of work done by your team members through channels and queues views. You can also drill down into specific cases and chats and collaborate with your team members to achieve better results.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configurable-channels-wfo-cs.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Channel Management, Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
 
-# Using Channel Management in Workforce Optimization for Customer Service
+# Channel Management in Workforce Optimization for Customer Service
 
 Use Channel Management to keep a track of the real-time performance of work done by your team members through channels and queues views. You can also drill down into specific cases and chats and collaborate with your team members to achieve better results.
 

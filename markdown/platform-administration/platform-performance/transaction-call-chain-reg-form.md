@@ -7,9 +7,9 @@ release: zurich
 product: Platform Performance
 classification: platform-performance
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Platform performance, Maintain and monitor, Administer]
+breadcrumb: [Reference, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
 
 # Transaction call chain register form

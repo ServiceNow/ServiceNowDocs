@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/vibe-coding-environments.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [vibe coding, AI-assisted development, Developer Sandboxes, Personal Developer Instance, PDI, Build Agent, development environment, AI tools, non-production instance, isolated environment, parallel development, version control, Git workflows, metadata copy, ServiceNow SDK, VS Code]
-breadcrumb: [Develop, Agentic development, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
+breadcrumb: [Develop, Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Agentic development in ServiceNow AI Platform environments
@@ -43,11 +43,11 @@ Use Developer Sandboxes to eliminate change conflicts, enable branching and merg
 Agentic development works with Developer Sandboxes in the following ways:
 
 -   Agentic development accelerates app creation, while Developer Sandboxes provide a safe space to experiment with AI-generated changes.
--   Every AI-assisted change in a sandbox can be tracked, previewed, and rolled back to maintain governance and compliance.
+-   Every agentic change in a sandbox can be tracked, previewed, and rolled back to maintain governance and compliance.
 
 For more information on Developer Sandboxes, see [Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/sandboxes-landing.md).
 
-## PDIs and AI-assisted development
+## PDIs and agentic development
 
 A Personal Developer Instance \(PDI\) is a free, standalone ServiceNow instance provided for personal use and experimentation. It is not connected to a customer’s production environment and is controlled by ServiceNow. PDIs are empty instances where developers set up apps and data from scratch.
 

@@ -7,9 +7,9 @@ release: zurich
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Automation in apps, Build apps, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Automation in apps, Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Edit a playbook in Creator Studio
@@ -48,7 +48,7 @@ If you want to add complex, unsupported items to a playbook \(such as optional a
 
 6.  Edit the playbook's settings.
 
-    1.  Select the more actions icon \(\[Omitted image "cs-more-actions-icon.png"\] Alt text:\) and select **Properties**.
+    1.  Select the more actions icon \[Omitted image "cs-more-actions-icon.png"\] Alt text: and select **Properties**.
 
     2.  Update any of the settings.
 
@@ -66,7 +66,7 @@ If you want to add complex, unsupported items to a playbook \(such as optional a
 
 8.  Swap a placeholder activity if you want to replace it with another activity type.
 
-    1.  Hover over the placeholder activity and select the replace activity icon \(\[Omitted image "crs-replace-icon.png"\] Alt text: Replace activity icon\) to directly open the activity picker.
+    1.  Hover over the placeholder activity and select the replace activity icon \[Omitted image "crs-replace-icon.png"\] Alt text: Replace activity icon to directly open the activity picker.
 
         \[Omitted image "crs-swap-placeholder.png"\] Alt text: Select the replace activity icon
 
@@ -76,9 +76,9 @@ If you want to add complex, unsupported items to a playbook \(such as optional a
 
         For more information, see [Add activities to an app's playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-add-activities-automation.md).
 
-9.  Delete any unnecessary activities by hovering over the activity and selecting the delete icon \(\[Omitted image "cs-delete-icon.png"\] Alt text:\).
+9.  Delete any unnecessary activities by hovering over the activity and selecting the delete icon \[Omitted image "cs-delete-icon.png"\] Alt text:.
 
-10. Make any advanced edits in Workflow Studio by selecting the more actions icon \(\[Omitted image "cs-more-actions-icon.png"\] Alt text:\) and selecting **Open in Workflow Studio**.
+10. Make any advanced edits in Workflow Studio by selecting the more actions icon \[Omitted image "cs-more-actions-icon.png"\] Alt text: and selecting **Open in Workflow Studio**.
 
 
 **Parent Topic:**[Working with automation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-working-with-automations.md)

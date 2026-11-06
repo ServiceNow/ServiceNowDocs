@@ -7,9 +7,9 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create a project or template using Project Builder, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Create a project or template using Project Builder, Use, Process Mining, Platform Analytics]
 ---
 
 # Review and mine your project
@@ -18,7 +18,7 @@ After you’ve created the project by setting the objectives, scoping the analys
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin
+Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
 
 ## About this task
 
@@ -54,7 +54,7 @@ If your record count exceeds the adjusted limit, mining is blocked. To resolve t
 
 2.  Select **Edit** for the project that you want to review and mine.
 
-    You are taken to the **Review and mine** tab.
+    You're taken to the **Review and mine** tab.
 
 3.  On the **Review and mine** tab, review the project.
 
@@ -77,6 +77,8 @@ If your record count exceeds the adjusted limit, mining is blocked. To resolve t
 ## Result
 
 The **Mining Progress** page is displayed. After the mining is completed, a **Mining Summary** page is displayed. This page provides additional details about the mining. It also lists any finding definition that wasn’t included in the mining and provides a link to understand the actual cause. You can also view the logs or go to the Process Mining Workspace and view the graph.
+
+**Note:** If you select **Full Mine** and your project includes consumption-based tables, a warning message appears when the number of records exceeds the threshold defined in the `promin.metered_usage.warning_limit` property. To turn off this warning, set the `promin.metered_usage.warning_limit` property to **-1**. The default value for this property is -1, which means it is turned off.
 
 \[Omitted image "mining-summary.png"\] Alt text: Mining summary
 

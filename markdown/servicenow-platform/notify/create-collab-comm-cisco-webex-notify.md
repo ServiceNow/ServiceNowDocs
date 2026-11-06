@@ -7,9 +7,9 @@ release: zurich
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the Notify Cisco Webex Connector with a major incident, Use, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Using the Notify Cisco Webex Connector with a major incident, Using Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Create a collaborative communication task from MIM workbench

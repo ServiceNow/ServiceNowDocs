@@ -7,7 +7,7 @@ release: zurich
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
-last_updated: "2026-08-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [board views, Dashboard view, List view, Gantt view, Kanban view, CWM, quick filters, scrum tasks, sprint tracking]
 breadcrumb: [Board views in CWM, Manage work using Boards, Use, Collaborative Work Management, Strategic Portfolio Management]
@@ -66,6 +66,14 @@ The Kanban view organizes work items into columns and rows based on attributes y
 
     -   **Scrum task indicator:** Appears on a story card when the story has one or more scrum tasks. Selecting the indicator opens the right side panel showing the scrum tasks for that story. For more information, see [Scrum tasks for stories in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/managing-scrum-tasks-for-stories-cwm.md).
     -   **Relationship indicator:** Appears on a work item card when the item has one or more linked relationships, such as a prerequisite, dependent, or related-to item. Selecting the indicator opens the right side panel showing the related work items and their relationship types. For more information, see [Task dependencies and relationships in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/managing-task-dependencies-relationships-cwm.md).
+-   **Formula column lanes**
+
+    Use a Formula column as your vertical or horizontal lane to group tasks by the column's output values. Formula columns with conditional, string, or numeric outputs are supported.
+
+    For example, consider a formula column named **Overdue?** that outputs Yes or No based on whether a task's due date has passed. Set this column as the vertical lane and Priority as the horizontal lane. The board then groups tasks by overdue status and priority, giving you a quick view of which critical tasks need attention.
+
+    \[Omitted image "cwm-kanban-formula-lane.png"\] Alt text: Kanban board showing the Overdue? formula column as vertical lanes and Priority as horizontal swimlanes, grouping tasks by overdue status and priority.
+
 -   **Kanban card layout options**
 
     Personalize Kanban cards to surface the information most relevant to your team using card layout settings. Select up to five fields to display on each card. Use the Compact layout to show only the work item name for a focused view. Use the Full layout to show all selected fields for more context directly on the card.

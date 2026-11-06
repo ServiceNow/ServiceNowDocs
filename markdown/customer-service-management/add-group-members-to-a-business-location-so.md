@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/add-group-members-to-a-business-location-so.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up assignment groups, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
@@ -17,6 +17,8 @@ Enroll or add group members to a business location to create a dedicated group o
 ## Before you begin
 
 Role required: admin
+
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/renamed-entities.md).
 
 ## Procedure
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-pad.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Account onboarding, Configure, Customer Success Management]
+breadcrumb: [Account onboarding playbook, Configure, Customer Success Management]
 ---
 
 # Configure the onboarding playbook activities
@@ -18,8 +18,10 @@ In Playbooks, an activity represents one step in your overall business process. 
 
 \[Omitted image "account-lifecycle-pad.png"\] Alt text: Process Automation Designer: Account lifecycle onboarding
 
--   **[Configure onboarding tasks in playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-configure-simple.md)**  
-You can configure customer success onboarding tasks in a playbook using the Process Automation Designer.
+**Parent Topic:**[Configure the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-configure.md)
 
-**Parent Topic:**[Account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-configure.md)
+**Related topics**  
+
+
+[Onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-onboard-playbook.md)
 

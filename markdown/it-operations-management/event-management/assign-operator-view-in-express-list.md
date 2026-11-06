@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Express List views for users and user groups, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -30,15 +30,15 @@ Role required: evt\_mgmt\_admin
 
 3.  Assign users or groups to the selected Express List view.
 
-<table id="choicetable_jg5_jrj_k1c"><thead><tr><th align="left" id="d137516e111">
+<table id="choicetable_jg5_jrj_k1c"><thead><tr><th align="left" id="d148859e113">
 
 Task
 
-</th><th align="left" id="d137516e114">
+</th><th align="left" id="d148859e116">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d137516e120">
+</th></tr></thead><tbody><tr><td id="d148859e122">
 
 **Assign a user to the selected Express List view**
 
@@ -49,7 +49,7 @@ Procedure
 3.  Select the user and then select the save icon \(\[Omitted image "save-icon.png"\] Alt text: Save icon.\).
 
 
-</td></tr><tr><td id="d137516e165">
+</td></tr><tr><td id="d148859e167">
 
 **Assign a user group to the selected Express List view**
 

@@ -1,16 +1,16 @@
 ---
-title: Create a success initiative
+title: Add a success initiative
 description: Create a success initiative with a planned set of internal or external tasks to support a primary success outcome.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-success-initiative.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Basic setup, Customer success, Configure, Customer Success Management]
+breadcrumb: [Create a success blueprint manually, Create a success blueprint, Manage engagements, Customer success, Use, Customer Success Management]
 ---
 
-# Create a success initiative
+# Add a success initiative
 
 Create a success initiative with a planned set of internal or external tasks to support a primary success outcome.
 
@@ -26,7 +26,7 @@ Success initiatives are a set of planned activities or tasks that a provider and
 
 ## Procedure
 
-1.  Navigate to **Workspace** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
+1.  Navigate to **Workspace** &gt; **CRM Workspace** and select the **List** icon.
 
 2.  Navigate to the **Customer Success** &gt; **All Initiatives** and select **New** to launch the playbook.
 
@@ -176,7 +176,9 @@ Clear the check box to make Blocked by capability work.
 </td></tr></tbody>
 </table>6.  Select **Mark Complete**.
 
-7.  In the Collab and Complete step, select **Create Task** to create a sample success task automatically, or select **Skip** to skip this step.
+7.  In the Collab and Complete step, select **Create Task** to create a success task automatically, or select **Skip** to skip this step.
+
+    The **Create Task** and **Skip** buttons are visible to the user.
 
 8.  In the Summarize and Close step, enter the following details.
 
@@ -204,10 +206,8 @@ You can perform the following actions:
     **Note:** You can send emails only to the team members associated with the account.
 
 
--   **[Create an applicable success outcome](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-applicable-outcome.md)**  
-Create the applicable success outcomes to support the primary success outcome.
--   **[Close or cancel a success initiative](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-cancel-success-initiative.md)**  
-You can close or cancel a success initiative and all the related tasks.
+-   **[Summarize a success initiative using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/now-assist-tmt-summarize-success-init.md)**  
+Generate a summary from a success initiative record and all associated success tasks.
 
-**Parent Topic:**[Basic customer success setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-basic-config.md)
+**Parent Topic:**[Create a success blueprint manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-blueprint-manual.md)
 

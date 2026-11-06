@@ -1,20 +1,20 @@
 ---
 title: Create a customized template task
-description: Create customized template tasks to configure your specific task workflow for transfer order lines. Default template tasks are available with the Asset Management application. You can’t modify or delete a default template task.
+description: Create customized template tasks to configure your specific task workflow for transfer order lines. Default template tasks are available with the Base Asset Management application. You can’t modify or delete a default template task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/asset-management/create-customized-template-task.html
 release: zurich
 product: Asset Management
 classification: asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customize transfer order line tasks, Manage transfer order, Use, Asset Management, IT Asset Management]
+breadcrumb: [Customize transfer order line tasks, Manage transfer order, Use, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Create a customized template task
 
-Create customized template tasks to configure your specific task workflow for transfer order lines. Default template tasks are available with the Asset Management application. You can’t modify or delete a default template task.
+Create customized template tasks to configure your specific task workflow for transfer order lines. Default template tasks are available with the Base Asset Management application. You can’t modify or delete a default template task.
 
 ## Before you begin
 

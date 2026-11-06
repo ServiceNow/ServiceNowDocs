@@ -7,9 +7,9 @@ release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 11
-breadcrumb: [Change Management in Service Operations Workspace, Operate, Service Operations Workspace for ITSM, IT Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 12
+breadcrumb: [Change Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Create a change request in Service Operations Workspace
@@ -26,15 +26,15 @@ Role required: itil or admin
 
 1.  Create a new change request.
 
-<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d179427e57">
+<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d306766e55">
 
 Source
 
-</th><th align="left" id="d179427e61">
+</th><th align="left" id="d306766e58">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d179427e67">
+</th></tr></thead><tbody><tr><td id="d306766e64">
 
 **Change list**
 
@@ -50,7 +50,28 @@ Description
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d179427e101">
+</td></tr><tr><td id="d306766e100">
+
+**From a change template**
+
+</td><td>
+
+1.  Navigate to a list of changes.
+
+**Note:** The following lists are available:
+
+    -   Open
+    -   Closed
+    -   All
+2.  Select **New**.
+3.  Select **Templates**.
+4.  Search for and select the required template.
+5.  View the new change request record created using the selected template by selecting **Continue**.
+ **Note:** When you select an existing template, information in the predefined fields will be populated. Template fields are either read-only or mandatory depending on the template field policies configured while creating the template.
+
+For more information on change templates, see [Create and propose a change template in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/create-change-template-sow.md).
+
+</td></tr><tr><td id="d306766e165">
 
 **Incident**
 
@@ -60,7 +81,7 @@ Description
 2.  In the incident record form, select **Create change request**.
 
 
-</td></tr><tr><td id="d179427e128">
+</td></tr><tr><td id="d306766e187">
 
 **Interaction**
 
@@ -70,7 +91,7 @@ Description
 2.  In the interaction record form, from the **Create incident** drop-down list, select **Create change**.
 
 
-</td></tr><tr><td id="d179427e152">
+</td></tr><tr><td id="d306766e211">
 
 **Problem**
 
@@ -128,7 +149,7 @@ DevOps or DevOps Simplified
 Change model used for DevOps change requests.To use the DevOps models, you must activate the DevOps Change Velocity application.
 
 </td></tr></tbody>
-</table>    For more information, see .
+</table>    For more information, see [Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/create-a-change-model.md).
 
     **Note:** When you create a change request from an interaction, only pre-approved change types are available.
 
@@ -274,6 +295,8 @@ Information about how to resolve the change or steps taken to resolve it, if app
 
 7.  Schedule the implementation for the change and view conflicts detected.
 
+    **Note:** The conflict detection feature is unavailable if the **Exclude from conflict detection** check box in the Change Request form is selected. For more information, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/t_RunManualConflictDetection.md)
+
     1.  Select **Set schedule**.
 
     2.  On the Schedule page, enter the planned start and end date.
@@ -367,7 +390,7 @@ Date when the conflict detection process was last run.
     4.  Reschedule your current change request if there is any conflict.
 
         1.  Navigate to the **Schedule** page.
-        2.  Select the edit icon \[Omitted image "icon-edit-pencil.png"\] Alt text: Edit icon. in the **Current** card.
+        2.  Select the edit icon \[Omitted image "icon-edit-pencil.png"\] Alt text: pencil icon in the **Current** card.
         3.  Select the new planned start and end dates.
         Alternatively, you can reschedule the implementation of the change to the next time and date there is no conflict by selecting **Schedule** in the **Next conflict-free** card.
 
@@ -490,6 +513,8 @@ The specific data to associate with the change request. You can select multiple 
 14. Select **Save**.
 
 
+-   **[Create and propose a change template in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/create-change-template-sow.md)**  
+Create, customize, and then propose a change template aligned to a change model.
 -   **[Propose a single change to a CI in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/propose-single-change-ci.md)**  
 Propose new values for one or more CI attributes, review the proposed values, and apply them after the change request reaches the Implement state in Service Operations Workspace \(SOW\).
 

@@ -32,7 +32,6 @@ You can export multiple dashboards and data visualizations together in one sched
 |Data visualization or dashboard element|Supported dashboard export formats|Supported data visualization export formats|
 |---------------------------------------|----------------------------------|-------------------------------------------|
 |Calendar reports, Indicator scorecards, Pivot tables, Geomap|None|None|
-|Pivot tables|PowerPoint, PDF|PowerPoint, PDF, PNG, JPEG, Embedded PNG|
 |Lists|PDF|PDF, Microsoft Excel \(.xls or .xlsx\), Embedded LIST, CSV|
 |Other data visualizations|PowerPoint, PDF|PowerPoint, PDF, PNG, JPEG, Embedded PNG|
 |Non-data visualization dashboard elements, like Headings|None|Not applicable|
@@ -53,7 +52,9 @@ You can export multiple dashboards and data visualizations together in one sched
 
     \[Omitted image "paw-vd-schedule.png"\] Alt text: Schedule option in More actions menu
 
-    All the options appear for exporting the dashboard or data visualization. If you do not want to export this object, select **Change**.
+    All the options appear for exporting the dashboard or data visualization. If you don't want to export this object, select **Change**.
+
+    \[Omitted image "paw-vd-schedule-change.png"\] Alt text: Scheduled export page with Change option highlighted.
 
 4.  Select the file type.
 
@@ -71,7 +72,7 @@ You can export multiple dashboards and data visualizations together in one sched
 
         For example, if you don't turn on **Export all tabs**, you have to select the tabs to export. If you select a tab and turn on **Export all visualizations in the top layout**, you export that tab and any visualizations placed above the tabs.
 
-        \[Omitted image "sched-exp-top-and-tab.png"\] Alt text: Tab and top level visualizations that are exported.
+        \[Omitted image "db-top-level-layout-mini.png"\] Alt text: Dashboard with visualizations in a tab and in the top layout.
 
 7.  To add more dashboards or data visualizations to the export, do the following steps:
 
@@ -143,7 +144,7 @@ Condition
 
 </td><td>
 
-A conditional script that determines if a scheduled job should run. The last expression of the script should evaluate to a Boolean \(true/false\) value. This text box appears only if you select **Use conditions**. For more information about scripts on the ServiceNow AI Platform®, see Scripts.**Warning:** Conditional scripts for scheduled emails are executed in the sandbox. Therefore, function definitions are not allowed. Some API calls and keywords are also not allowed. For more information, see Script sandbox property.
+A conditional script that determines if a scheduled job should run. The last expression of the script should evaluate to a Boolean \(true/false\) value. This text box appears only if you select **Use conditions**. For more information about scripts on the ServiceNow AI Platform®, see [Scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/c_Script.md).**Warning:** Conditional scripts for scheduled emails are executed in the sandbox. Therefore, function definitions aren't allowed. Some API calls and keywords are also not allowed. For more information, see Script sandbox property.
 
 </td></tr></tbody>
 </table>10. In the Email details section, specify the recipients and the email subject.
@@ -153,12 +154,17 @@ A conditional script that determines if a scheduled job should run. The last exp
 11. Select **Save** to save the schedule.
 
 
+-   **[Scheduled export reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/scheduled-export-ref-qualifiers.md)**  
+Use reference qualifiers to specify the users and groups in the recipients field of scheduled exports.
+
 **Parent Topic:**[Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/common-dashboard-tasks.md)
 
 **Related topics**  
 
 
 [Create a dashboard with the in-line editor]()
+
+[Create Core UI dashboards on upgraded instances]()
 
 [Edit Platform Analytics dashboards]()
 

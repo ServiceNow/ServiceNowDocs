@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/nap-sys-props.html
 release: zurich
 topic_type: reference
-last_updated: "2026-03-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [AI Admin Hub reference, AI Admin Hub, Enable AI experiences]
+breadcrumb: [AI Admin Hub reference, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # ServiceNow Otto panel system properties
@@ -17,7 +17,7 @@ Use system properties to customize ServiceNow Otto panel. Some properties are av
 |Property|Description|
 |--------|-----------|
 |sn\_nowassist\_va\_enable\_nap\_aix\_experience|Enabled and integrated chat is available for customers to choose from.|
-|sn\_nowassist\_va\_enable\_nap\_aix\_experience|Inactive, integrated chat is not available for customers to choose from.|
+|sn\_nowassist\_va\_enable\_nap\_aix\_experience|Disabled, integrated chat is not available for customers to choose from.|
 
 **Parent Topic:**[AI Admin Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-reference-landing.md)
 

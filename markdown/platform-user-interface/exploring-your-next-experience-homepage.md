@@ -5,19 +5,19 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/exploring-your-next-experience-homepage.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [landing page, default landing page]
-breadcrumb: [Working in Next Experience, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Explore, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Exploring your Next Experience default landing page
 
 Access the Next Experience default landing page to see your work at a glance and identify where you can start.
 
-When the Next Experience framework is installed, your landing page is the first thing you see when you log in to your ServiceNow® instance. It provides information to help orient you to your tasks.
+Your landing page is the first thing you see when you log in to your ServiceNow® instance. It provides information to help orient you to your tasks.
 
-Default landing pages are available in instances that have the Unified Navigation enabled. Note that if you have existing dashboards, landing pages, or logic that have been configured, your current dashboard displays instead of the default Next Experience landing page.
+Default landing pages are available in the Unified Navigation experience. Note that if you have existing dashboards, landing pages, or logic that have been configured, your current dashboard displays instead of the default Next Experience landing page.
 
 Landing pages may include the following items based on your role and tasks:
 
@@ -31,5 +31,5 @@ Landing pages may include the following items based on your role and tasks:
 -   Your open requests
 -   More resources to identify useful features
 
-\[Omitted image "polaris\_landing\_page\_no\_callouts\_1-2\_updated.svg"\] Alt text: Example landing page showing an ITIL dashboard.
+\[Omitted image "polaris\_landing\_page\_no\_callouts\_1-2\_updated.svg"\] Alt text: Example Next Experience landing page.
 

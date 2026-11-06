@@ -1,16 +1,16 @@
 ---
-title: User Experience Analytics data sources for data visualizations
+title: Usage Insights data sources for data visualizations
 description: You can show metrics related to Usage Insights in a data visualization component. The available metrics depend on the visualization type.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/uxa-data-sources.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Selecting data sources, Configure, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
-# User Experience Analytics data sources for data visualizations
+# Usage Insights data sources for data visualizations
 
 You can show metrics related to Usage Insights in a data visualization component. The available metrics depend on the visualization type.
 
@@ -22,7 +22,7 @@ The Usage Insights application, available in the [ServiceNow® Store](https://st
 
     This data source tracks the events that are triggered on the application. When you select Events as the data source on a visualization, you also must select the application and the event. Apart from this, you can also select the event conditions and specify the event property. For example, you can filter the events based on Country, Manager, Department, Role, etc. In a Bar or Pie/Donut visualization, use the **Group by** field to select an event property. You can then view the number of occurrences and the values distribution of that single event property.
 
-    **Note:** The default maximum number of custom filters you can save for user experience analytics application is 500. You can modify the number of custom filters in theuxa.query\_builder.max\_num\_of\_user\_filter property.
+    **Note:** The default maximum number of custom filters you can save for the Usage Insights application is 500. You can modify the number of custom filters in theuxa.query\_builder.max\_num\_of\_user\_filter property.
 
 -   **Pages**
 
@@ -170,7 +170,16 @@ Time series: Number of active or new users in the date range
  Scores: Number of active or new users. Responses can also be filtered by conditions.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Selecting data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/selecting-data-sources.md)
+</table>-   **Funnels**
+
+    Funnels are a visual element that tell a story. Funnels can show conversion rates and trends in aggregate user behavior to uncover the reasons behind success or failure of a specific in-application user goal. Investigating a conversion funnel can help you measure and optimize the conversion rates of relevant processes within your application.
+
+    You can view your funnel directly from Platform Analytics. When you create a new dashboard in Platform Analytics, select **add new element** and then **Usage Insights Funnel**.
+
+    \[Omitted image "uxa-view-funnnel-pa.png"\] Alt text: View Usage Insights funnel in Platform Analytics
+
+
+**Parent Topic:**[Selecting data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/selecting-data-sources.md)
 
 **Related topics**  
 
@@ -178,6 +187,8 @@ Time series: Number of active or new users in the date range
 [Select a table data source for a data visualization]()
 
 [Select an indicator data source for a data visualization]()
+
+[Select a Workflow Data Fabric data source for a data visualization]()
 
 [Multiple data sources]()
 

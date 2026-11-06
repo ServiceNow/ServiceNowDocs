@@ -1,26 +1,26 @@
 ---
-title: Activate Trusted Mobile App
-description: Activate Adaptive Authentication with Trusted Mobile app by using the authentication policy and filter conditions.
+title: Activate Trusted Mobile app
+description: Activate adaptive authentication with trusted mobile app by using the authentication policy and filter conditions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/activate-trusted-mobile-app.html
 release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Adaptive Authentication for Trusted Mobile Apps, Adaptive authentication, Authentication, Access Management]
+breadcrumb: [Adaptive authentication for Trusted mobile apps, Adaptive authentication, Authentication, Access Management]
 ---
 
-# Activate Trusted Mobile App
+# Activate Trusted Mobile app
 
-Activate Adaptive Authentication with Trusted Mobile app by using the authentication policy and filter conditions.
+Activate adaptive authentication with trusted mobile app by using the authentication policy and filter conditions.
 
 ## Before you begin
 
 Make sure the Adaptive Authentication \(**com.snc.adaptive\_authentication**\) plugin is installed.
 
-Role required: admin
+Role required: adaptive\_auth\_admin
 
 ## Procedure
 
@@ -48,9 +48,9 @@ Role required: admin
 
     \[Omitted image "trusted-device-filter.png"\] Alt text: Auth Policy Context
 
-5.  In the Policy Conditions, create the condition by clicking **New**.
+5.  In the Policy Conditions, create the condition by selecting **New**.
 
-6.  On the form, fill the fields.
+6.  On the form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
@@ -61,7 +61,7 @@ Role required: admin
 
     \[Omitted image "filter-condition.png"\] Alt text: Condition
 
-7.  Click **Submit**.
+7.  Select **Submit**.
 
 
 ## Result

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sem-approve-or-reject-request.html
 release: zurich
 topic_type: concept
-last_updated: "2025-08-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exception Management Overview, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -59,6 +59,16 @@ Risk reduction approvals
 
 sn\_vul.exception\_approver
 
-</td></tr></tbody>
-</table>**Parent Topic:**[Exception Management Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-exception-management-overview.md)
+</td></tr><tr><td>
 
+Exception rule approvals
+
+</td><td>
+
+-   sn\_sec\_exception.admin
+-   sn\_sec\_exception.approver
+
+ Approvers review and approve or reject exception rules that automatically apply exceptions to matching findings.
+
+</td></tr></tbody>
+</table>

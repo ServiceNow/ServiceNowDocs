@@ -1,20 +1,20 @@
 ---
 title: Stages and activities
-description: In Playbooks, an activity represents one step in your overall business process. You can sequence many activities together in the stages of your process.
+description: In Playbook, an activity represents one step in your overall business process. You can sequence many activities together in the stages of your process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/process-automation-designer-lanes-activities.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Building playbooks, Use, Workflow Studio, Build workflows]
+breadcrumb: [Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Stages and activities
 
-In Playbooks, an activity represents one step in your overall business process. You can sequence many activities together in the stages of your process.
+In Playbook, an activity represents one step in your overall business process. You can sequence many activities together in the stages of your process.
 
 ## Stages
 
@@ -130,6 +130,8 @@ Create and define branches with different conditions for different paths between
 Create and define branches with different conditions for different paths between stages.
 -   **[Questionnaire activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/questionnaire-activity.md)**  
 Collects inputs from a user during a playbook run to use later in the playbook.
+-   **[Go back activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/go-back-activity.md)**  
+The Go back activity defines a conditional return point in a playbook, enabling the playbook to loop back to an earlier activity, stage, or the start of the playbook based on an outcome.
 -   **[Parallel branches](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-parallel-activity.md)**  
 Add branches for activities and stages that run in parallel to another branch of activities and stages.
 -   **[Add dynamic inputs to an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/add-dynamic-inputs-to-activity.md)**  
@@ -137,5 +139,5 @@ Configure your activity to show a certain set of fields based on the value of an
 -   **[Playbook activity state mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-activity-state-mapping.md)**  
 Use playbook activity state mapping to override the status of a playbook card.
 
-**Parent Topic:**[Building playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/building-a-process.md)
+**Parent Topic:**[Understanding the playbook components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-building-blocks.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
+breadcrumb: [Exploring Workforce Optimization for HR, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
 ---
 
 # Workforce Optimization for HR Manager Workspace Landing Page

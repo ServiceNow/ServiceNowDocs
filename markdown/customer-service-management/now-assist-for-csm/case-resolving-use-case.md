@@ -7,8 +7,8 @@ release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 10
 keywords: [Generative AI, generative AI for Customer Service Management, generative AI for customer service agents, AI agents for Customer Service Management Triage cases agentic workflow]
 breadcrumb: [Use agentic AI in CSM, ServiceNow Otto for CSM, Customer Service Management]
 ---
@@ -23,7 +23,7 @@ Using the Triage cases agentic workflow, handle end-to-end validation, creation,
 
 Refer to the information provided here on agents, tools, and triggers that are related to the Triage cases agentic workflow in AI agents for Customer Service Management.
 
-To modify the Triage cases agentic workflow [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements. You can activate the agentic workflow template by making triggers active and setting the display settings to include the Now Assist panel.
+To modify the Triage cases agentic workflow [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements. You can activate the agentic workflow template by making triggers active and setting the display settings to include the ServiceNow Otto panel.
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 
@@ -35,6 +35,35 @@ To access the agentic workflow:
 
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage.**
 2.  Select **Triage cases**.
+
+## Triggers for Triage cases agentic workflow
+
+In the Define trigger screen, the agentic workflow begins executing when the trigger meets the following conditions:
+
+1.  Case
+    -   Set the Target table field to sn\_customerservice\_case.
+    -   Set the **Run as** field value to **Assigned to**.
+    -   Set the following conditions:
+        -   **\[State\]** changes to **\[Open\]** and
+        -   **\[Assigned to\]** is **\[not empty\]** and
+        -   **\[Priority\]** in **\[3-Moderate, 4 Low\]**
+2.  Interaction
+    -   Set the Target table to Interaction.
+    -   Set the **Run as** field value to **Assigned to**.
+    -   Set the following conditions for a contact:
+
+        -   **\[State\]** changes to **\[Work in Progress\]** and
+        -   **\[Assigned to\]** is **\[not empty\]** and
+        -   **\[Account\]** is **\[not empty\]** and
+        -   **\[Contact\]** is **\[not empty\]**
+        And set the following conditions for a consumer:
+
+        -   **\[State \]** changes to **\[Work in Progress\]** and
+        -   **\[Assigned to\]** is **\[not empty\]** and
+        -   **\[Consumer\]** is **\[not empty\]**
+        -   **\[Type\]** is **\[Email\]**
+
+**Important:** In the Edit trigger form, make sure that the **Active** button is turned on to trigger the AI agent autonomously.
 
 ## Access control lists \(ACLs\)
 
@@ -62,6 +91,67 @@ The following tables list the agents that are used in the Triage cases agentic w
 |Document verification|Verify documents on a record using the Document Verification AI Agent to determine whether they match the required list for the case type. It identifies any missing documents or verification failures. Invoke this agent whenever document validation is needed.|
 |Email response|Generate and send email responses using the Email Response AI Agent. It acts as a response assistant to draft, display, and deliver email replies. Invoke this agent whenever an automated email response is required.|
 
+## Tools mapped to Case context gatherer
+
+|Tool type|Execution mode|Name|Description|
+|---------|--------------|----|-----------|
+|Flow actions|Supervised|Create Case or Case Type from Source Record|Creates a case or case type and returns the sys\_id and the URL of the newly created record.|
+|Flow actions|Autonomous|Determine Case Type|Returns the case type that has been identified from the given content.|
+|Flow actions|Autonomous|Close Interaction|Closes the interaction by using the record sys\_id.|
+|Flow actions|Autonomous|Update Work Notes|Updates the work notes of the record by using the record's summary as the work note content.|
+|Flow actions|Autonomous|Create and link interaction to case|Creates and links interactions to cases. Uses the new record sys\_id as the target sys\_id, the case type as the target table, and the record sys\_id as the interaction sys\_id.|
+|Flow actions|Autonomous|Get Record Details|Gathers the record details for the interaction, cases, and email's reply.|
+|Scripts|Autonomous|Summarize a record|Returns the record's summary.|
+|Scripts|Autonomous|Create consolidated context summary|Creates the consolidated context summary by using the output of the fields and the document's verification process.|
+
+## Tools mapped to the Information email responder
+
+|Tool type|Execution mode|Name|Description|
+|---------|--------------|----|-----------|
+|Flow actions|Autonomous|Get Record Details|Gathers the record details for interactions, cases, and email replies.|
+|AI skills|Supervised|Email Response|Generates an email response based on the inputs provided.|
+|Scripts|Autonomous|Draft Email|Creates an email draft.|
+|Scripts|Autonomous|Send Email|Sends an email from the email draft.|
+
+## Tools mapped to the Customer escalation handler
+
+|Tool type|Execution mode|Name|Description|
+|---------|--------------|----|-----------|
+|Flow actions|Autonomous|Get Record Details|Fetches the details of the records by using the record table and either the record sys\_id or record number.|
+|Flow actions|Autonomous|Get Intents|Returns the intent that has been identified in the source record's content.|
+|Scripts|Autonomous|Look up and verify the record|Looks up and verifies the record to identify if the record is valid to continue the process.|
+|Scripts|Autonomous|Get email reply content|Gets the email reply content by using the question, answer, and the consolidated context summary.|
+|Search retrievals|Autonomous|Get relevant knowledge articles|Fetches knowledge articles that contain similar and relevant information to the search query.|
+
+## Tools mapped to the Customer information verifier
+
+|Tool type|Execution mode|Name|Description|
+|---------|--------------|----|-----------|
+|Flow actions|Autonomous|Get all fields|Returns all fields.|
+|Flow actions|Autonomous|Check for missing fields|Returns an array of final verified fields.|
+|Flow actions|Autonomous|Slot fill|Returns the fields that have been identified in the content.|
+|Scripts|Autonomous|Get custom fields|Returns the array of custom fields that are specified by the customer.|
+
+## Tools mapped to the Customer document verifier
+
+|Tool type|Execution mode|Name|Description|
+|---------|--------------|----|-----------|
+|Scripts|Autonomous|Status report|Returns the status.|
+|Scripts|Autonomous|Documents Checklist|Gets the list of documents based on a Case Type.|
+|Subflows|Autonomous|Initiate Document Verification|Returns the response after initiating the verification.|
+|Subflows|Autonomous|Verify the documents|Gets the output after verifying the documents.|
+
+## Tools mapped to the Troubleshooting steps identification AI agent
+
+|Tool type|Execution mode|Name|Description|
+|---------|--------------|----|-----------|
+|Flow action|Autonomous|Get case details|Gets and displays troubleshooting steps performed by the user from case work notes.|
+|RAG Tool|Autonomous|Get similar cases, relevant knowledge articles and documents|Gets relevant KB articles, resolved cases, and documents attached to knowledge articles based on the case short description using either RAG tool or AI search.|
+|Script|Autonomous|Get documents list|Fetches the list of documents \(.pdf, .docx, .xlsx, and so on\) attached to records fetched from AI search.|
+|Script|Autonomous|Initiate troubleshooting steps extraction|Asks user to choose from documents fetched for the most relevant troubleshooting steps then initiates the extraction process by creating a DocIntel task.|
+|Script|Autonomous|Get troubleshooting steps from document|Uses a DocIntel task to extract the actual troubleshooting steps from the document.|
+|Script|Autonomous|Update the case with work notes|Asks the human agent to update the consolidated list of suggested troubleshooting steps.|
+
 ## Role masking
 
 Required role: B2B agents \(sn\_customerservice\_agent\) and B2C agents \(sn\_customerservice.consumer\_agent\)
@@ -71,14 +161,6 @@ Required role: B2B agents \(sn\_customerservice\_agent\) and B2C agents \(sn\_cu
 Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
 In the data access settings, you must also add the necessary roles to access the cases that need triaging. For example, you can add the csm role to the agentic workflow's list of approved roles so that it can access case records.
-
-## Localization in Triage cases
-
-Multilingual and localization flows in the Triage Cases workflow are fully supported. When setting up translation, keep the following in mind:
-
--   Add an explicit language instruction at the top of your prompt telling the model to respond in the user's language — instructions placed first carry the most weight.
--   Avoid wrapping user-facing text in quotes. Quoted strings act as strong anchors that can override translation rules and force verbatim reproduction. Use semantic descriptions instead.
--   Where possible, deliver static messages through `gs.getMessage()` in a script, and reserve the model's output for dynamic content only.
 
 ## Triaging the case
 
@@ -93,7 +175,7 @@ In the triaging the case agentic workflow, perform the following steps:
         **Note:** Choose the user identity this agentic workflow should run as to determine the roles and the data access permissions derived from them. Remember, when agentic workflows can access data, they can also share that data with the human user who interacts with them. Agent level role mask are: B2B agents \(sn\_customerservice\_agent\) and B2C agents \(sn\_customerservice.consumer\_agent\).
 
     1.  In **Add triggers** you can set up optional triggers to launch the agentic workflow automatically without a user request. Triggers can be based on conditions or schedules you define and initiate agentic AI experiences.
-    2.  In **Select channels and status**, you can choose the channels where this agentic workflow will be available to engage with users who initiate interactions. Toggle the display for **Engage via the ServiceNow Otto panel** to see the agentic flow in Now Assist panel.
+    2.  In **Select channels and status**, you can choose the channels where this agentic workflow will be available to engage with users who initiate interactions. Toggle the display for **Engage via the ServiceNow Otto panel** to see the agentic flow in ServiceNow Otto panel.
 
         **Note:** To turn off the agentic workflow, toggle off **Engage via the ServiceNow Otto panel**.
 

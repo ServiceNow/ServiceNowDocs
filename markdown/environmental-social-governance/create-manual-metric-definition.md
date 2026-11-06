@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/create-manual-metric-definition.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -28,13 +28,13 @@ In the manual metric definition, the mode of data collection is manual. An optio
 
 1.  Navigate to **All** &gt; **Operational Sustainability Management** &gt; **Operational Sustainability Workspace** &gt; **Metrics** &gt; **Manual metric definitions**.
 
-2.  Select **New**.
+2.  Click **New**.
 
 3.  On the form, fill in the fields.
 
     For information about the fields, refer to [Manual metric definition fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/manual-md-reuse.md).
 
-4.  Select **Save**.
+4.  Click **Save**.
 
 
 ## Result
@@ -43,7 +43,7 @@ The metric definition is saved in the Metric definitions list.
 
 ## What to do next
 
-You can associate an entity type, create metrics, and add citations to the metric definition. See [Update metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/update-automated-metric-definition.md) for more information.
+You can associate an entity type, create metrics, and add citations to the metric definition. See [Update a metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/update-automated-metric-definition.md) for more information.
 
 -   **[Manual metric definition fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/manual-md-reuse.md)**  
 Detailed explanation of the fields on the manual metric definition form.

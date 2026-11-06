@@ -7,9 +7,9 @@ release: zurich
 product: Upgrade Center
 classification: upgrade-center
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Upgrade Monitor module, Explore, Upgrade Center, Upgrade, Administer]
+breadcrumb: [Upgrade Monitor module, Exploring Upgrade Center, Upgrade Center, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
 # Factors affecting upgrade duration

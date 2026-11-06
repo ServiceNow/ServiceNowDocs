@@ -1,19 +1,23 @@
 ---
 title: Agentic workflows
-description: You can customize agentic workflows to meet the needs of your users in different workflows. For example, you can use agentic AI to help resolve tasks, execute routine but variable procedures, and investigate root causes or analytical trends.
+description: Agentic workflows are AI‑driven workflow orchestrations that use one or more AI agents to achieve a specific outcome. They go beyond single‑step automation by dynamically planning, executing, and adapting actions based on context, data, and intermediate results.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/sn-aia-use-cases-list.html
 release: zurich
 topic_type: concept
-last_updated: "2026-10-06"
-reading_time_minutes: 5
+last_updated: "2026-10-05"
+reading_time_minutes: 7
 keywords: [AI Agents, Agentic AI]
-breadcrumb: [AI assets, Enable AI experiences]
+breadcrumb: [AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Agentic workflows
 
-You can customize agentic workflows to meet the needs of your users in different workflows. For example, you can use agentic AI to help resolve tasks, execute routine but variable procedures, and investigate root causes or analytical trends.
+Agentic workflows are AI‑driven workflow orchestrations that use one or more AI agents to achieve a specific outcome. They go beyond single‑step automation by dynamically planning, executing, and adapting actions based on context, data, and intermediate results.
+
+Agentic workflows handle routine but variable procedures, such as investigation, remediation, and analysis, where the exact steps may differ from case to case.
+
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-native-sku-overview.md).
 
 ## Agentic workflows overview
 
@@ -21,11 +25,45 @@ Agentic workflows use multiple AI agents to achieve specific outcomes. Different
 
 For more information about the in-product agentic AI experience, see [In-product agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/in-product-agentic-ai.md). You can create UI actions for your agentic workflows in AI Agent Studio. Open the agentic workflow, navigate to the [Select channels and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/channels-access-aw.md) step in the guided setup, and create a UI action.
 
-## Workflow and product agentic workflows
+## What an agentic workflow does
 
-The following table describes the available AI agents agentic workflows that are included in the ServiceNow AI Platform applications.
+Agentic workflows can:
 
-<table id="table_tw1_t4n_g2c"><thead><tr><th class="filter">
+-   Achieve an outcome, not just complete a task
+
+    The workflow focuses on resolving a business problem or completing a goal, rather than executing a single action.
+
+-   Coordinate multiple AI agents and skills
+
+    Agentic workflows can invoke generative AI skills and AI agents as needed to gather information, reason over data, take action, and verify results.
+
+-   Adapt to variability
+
+    Workflows can adjust execution paths based on conditions, findings, or system responses, making them suitable for non-deterministic scenarios such as troubleshooting or analysis.
+
+-   Operate across systems and records
+
+    Agentic workflows interact with the ServiceNow AI Platform and connected systems to read data, update records, and trigger downstream actions.
+
+
+## How agentic workflows are used
+
+Agentic workflows are commonly used to:
+
+-   Resolve tasks that follow a repeatable decision pattern but vary in execution.
+-   Investigate issues by gathering and analyzing contextual data.
+-   Execute remediation steps based on findings.
+-   Assist users with analytical or exploratory workflows.
+
+Depending on the product and configuration, agentic workflows can be triggered automatically or initiated by a user through a contextual UI or action.
+
+## Available agentic workflows
+
+The following tables describe the available agentic workflows that are included in the ServiceNow applications, grouped by workflow area.
+
+## IT and digital operations
+
+<table id="table_aw-technology-workflow"><thead><tr><th class="filter">
 
 Product
 
@@ -35,41 +73,48 @@ Available agentic workflows
 
 </th></tr></thead><tbody><tr><td>
 
-[ServiceNow Otto for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/now-assist-landing-cmdb.md)
+[Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/enterprise-asset-management.md)
 
 </td><td>
 
--   [Create configuration item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/na-cmdb-awf-ci-creator.md)
--   [Provide advice on CMDB governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/na-cmdb-awf-governance.md)
--   [Search CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/na-cmdb-awf-search.md)
+-   Help repair enterprise assets
+-   Help manage enterprise asset requests
 
 </td></tr><tr><td>
 
-[Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cncore-now-assit-landing.md)
+[IT Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/r_ITOMApplications.md)
 
 </td><td>
 
--   [Conversational contract search and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cncore-conf-converse-skill.md)
--   [Manage contract repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cmpro-na-reminder-agentic-wf.md)
+[ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/itom-visibility-landing-page.md)
+
+-   [Pattern diagnostic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/pattern-diagnostic-agentic-workflow.md)
+-   [Analyze potential impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/now-assist-itom-analyze-potential-impact-workflow.md)
+-   [Firewall management task creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/firewall-rule-requests-ai-workflow.md)
+
+ [ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/itom-health-landing-page.md)
+
+-   [Triage and analyze alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/itom-alert-triage-agentic-workflow.md)
+-   [Analyze alert impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/now-assist-itom-agentic-aia.md)
+-   [Analyze potential impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/now-assist-itom-analyze-potential-impact-workflow.md)
+-   [Manage alerts autonomously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/itom-autonomous-operator-workflow.md)
+-   [Agent Client Collector \(ACC\) diagnostic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/use-acc-diagnostic-workflow.md)
 
 </td></tr><tr><td>
 
-[ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator-landing.md)
+[Now Assist for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/now-assist-for-operational-technology-service-management.md)
 
 </td><td>
 
-[Create a theme using ServiceNow Otto®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/create-theme-now-assist.md)
+[Generate OT KB articles agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/agent-ot-knowledge-generator.md)
 
 </td></tr><tr><td>
 
-[ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-csm.md)
+[Operational Technology \(OT\) Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/now-assist-for-otm-landing.md)
 
 </td><td>
 
--   [Accelerate complaint case handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/accelerate-complaint-case-handling.md)
--   [AI voice agent in CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/voice-ai-agent.md)
--   [Provide Customer 360 insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/customer-service-management-ai-agent-collection-customer-360.md)
--   [Triage cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/case-resolving-use-case.md)
+[Import the OT device spreadsheet into OT CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/now-assist-otm-aiagents-import-ot-device-workflow.md)
 
 </td></tr><tr><td>
 
@@ -81,11 +126,137 @@ Available agentic workflows
 
 </td></tr><tr><td>
 
+[ServiceNow Otto for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-ham.md)
+
+</td><td>
+
+-   [Help manage hardware asset requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-ham-fulfill-req-agent-workflow.md)
+-   [Help repair hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-ham-repair-agent-workflow.md)
+
+</td></tr><tr><td>
+
+[ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm.md)
+
+</td><td>
+
+-   [Assess conflicts for a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm-aiagents-assess-conflicts-workflow.md)
+-   [Assess quality of a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm-aiagents-assess-quality-change-request-workflow.md)
+-   [Create outages for a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm-aiagents-create-outages-for-a-change-request.md)
+-   [Create standard change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm-aiagents-create-change-request-workflow.md)
+-   [Create standard change template proposal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm-aiagents-create-standard-change-template-proposal.md)
+-   [DEX issue diagnosis and resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm-dex-diagnosis-resolution-workflow.md)
+-   [Explain SLA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm-aiagents-explain-sla-workflow.md)
+-   [Generate change request plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm-aiagents-change-planner-usecase.md)
+-   [Generate post incident reviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm-aiagents-mim-usecase.md)
+-   [Incident assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm-incident-assist-workflow.md)
+-   [Investigate and resolve ITSM incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm-aiagents-incident-resolver-workflow.md)
+-   [Manage Microsoft 365 group members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm-aiagents-O365-groupmembers-workflow.md)
+-   [Notify users with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm-aiagents-twilio-text-usecase.md)
+-   [Schedule a change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm-aiagents-schedule-change-agentic-workflow.md)
+-   [Suggest configuration items for a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm-aiagents-suggest-configuration-items-for-a-change-request.md)
+-   [Triage and categorize ITSM incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm-aiagents-catincidents-usecase.md)
+-   [Who is On Call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm-aiagents-on-call-usecase.md)
+-   [Wrap-up and resolve ITSM incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm-wrap-up-resolve-incident-aw.md)
+
+</td></tr><tr><td>
+
+[ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-sam.md)
+
+</td><td>
+
+-   [Create software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-sam-create-software-reclamation-rule-workflow.md)
+-   [Evaluate software removal candidate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-sam-evaluate-removal-candidate-workflow.md)
+-   [Help manage software asset requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-sam-fulfill-sw-asset-requests-workflow.md)
+
+</td></tr><tr><td>
+
+[ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/now-assist-spm.md)
+
+</td><td>
+
+-   [Generate Agile stories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/generate-agile-story-planning-items.md)
+-   [Monitor project tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/na-spm-task-monitoring-usecase.md)
+
+</td></tr></tbody>
+</table>## Security and Risk
+
+<table id="table_aw-security-workflow"><thead><tr><th class="filter">
+
+Product
+
+</th><th>
+
+Available agentic workflows
+
+</th></tr></thead><tbody><tr><td>
+
+[ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/now-assist-for-irm.md)
+
+</td><td>
+
+-   [Generate regulatory action plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/generate_regulatory_action_plans.md)
+-   [Get regulatory analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/get-rcm-reg-insight.md)
+-   [Identify risks for an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/identify-risks-for-entity.md)
+-   [Optimize issue resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/generate-grc-issue-resolution.md)
+
+</td></tr><tr><td>
+
 [ServiceNow Otto for Operational Sustainability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/environmental-social-governance/now-assist-for-esg.md)
 
 </td><td>
 
 [Generate carbon calculations for metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/environmental-social-governance/generate-carbon-calculcations-for-metrics.md)
+
+</td></tr><tr><td>
+
+[ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/now-assist-security-incident-landing.md)
+
+</td><td>
+
+-   [Analyze security operations metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/now-assist-sir-soc-efficiency-usecase.md)
+-   [Close security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/now-assist-sir-close-incident-usecase.md)
+-   [Generate SIR shift handover report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/add-incidents-shifthandover-ai-agent.md)
+-   [Resolve security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/now-assist-sir-resolve-incident-ai-workflow.md)
+
+</td></tr><tr><td>
+
+[Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/vuln-landing-page.md)
+
+</td><td>
+
+-   [Retrieve Vulnerability and exposure data with generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/retrieve-vr-data.md)
+-   [Assess your exposure to vulnerabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/assess-exposure-vr-aiagent.md)
+-   [Analyze vulnerability remediation status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/sla-targets-vr-aiagent.md)
+-   [Security Exposure 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/now-assist-review-vulnerability-exposure-data.md)
+
+</td></tr></tbody>
+</table>## Customer experiences \(CRM\)
+
+<table id="table_aw-customer-workflow"><thead><tr><th class="filter">
+
+Product
+
+</th><th>
+
+Available agentic workflows
+
+</th></tr></thead><tbody><tr><td>
+
+[Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/financial-services-operations/fso-overview.md)
+
+</td><td>
+
+[Help resolve friendly fraud disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/financial-services-operations/friendly-fraud-agentic-ai-workflow.md)
+
+</td></tr><tr><td>
+
+[ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-csm.md)
+
+</td><td>
+
+-   [Accelerate complaint case handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/accelerate-complaint-case-handling.md)
+-   [Provide Customer 360 insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/customer-service-management-ai-agent-collection-customer-360.md)
+-   [Triage cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/case-resolving-use-case.md)
 
 </td></tr><tr><td>
 
@@ -97,6 +268,81 @@ Available agentic workflows
 
 </td></tr><tr><td>
 
+ServiceNow Otto for Manufacturing Commercial Operations \(MCO\)
+
+</td><td>
+
+[Execute recall campaigns faster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/manufacturing/execute-recall-campaigns.md)
+
+</td></tr><tr><td>
+
+[ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/government-industry/bun-public-sector-landing-page.md)
+
+</td><td>
+
+Help manage public information requests
+
+</td></tr><tr><td>
+
+[Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/order-mgt-overview.md)
+
+</td><td>
+
+[Help nurture new leads](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/help-nurture-new-leads-agentic-workflow.md)
+
+</td></tr><tr><td>
+
+[Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/acct-lifecycle-events/account-lifecycle-events-landing.md)
+
+</td><td>
+
+-   Analyze risk and recommend solutions
+-   Draft and schedule touchpoint meetings
+-   Monitor engagement health
+-   Support renewals and expansions
+
+</td></tr><tr><td>
+
+[Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-media-technology/telecom-media-tech-landing.md)
+
+</td><td>
+
+-   [Analyze network incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-media-technology/network-incident-analysis-usecase.md)
+-   [Customer voice quality issue resolutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-media-technology/now-assist-customer-voice.md)
+-   [Help remediate bill issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-media-technology/billissue-remediation-usecase.md)
+-   Service test and repair
+-   Smart Actions for Telecom
+
+</td></tr><tr><td>
+
+[Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-exchange/tmt-service-bridge-both-landing-page.md)
+
+</td><td>
+
+-   Service Exchange Knowledge Assistant
+-   Service Exchange onboarding
+
+</td></tr><tr><td>
+
+[ServiceNow Otto for Care Team Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/healthcare-life-sciences/now-assist-for-healthcare-and-life-sciences.md)
+
+</td><td>
+
+[Request care team assistance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/healthcare-life-sciences/hco-now-assist-request-assistance.md)
+
+</td></tr></tbody>
+</table>## Employee experiences
+
+<table id="table_aw-employee-workflow"><thead><tr><th class="filter">
+
+Product
+
+</th><th>
+
+Available agentic workflows
+
+</th></tr></thead><tbody><tr><td>
+
 [Now Assist for Finance and Supply Chain \(FSC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/now-assist-fsc-common-landing.md)
 
 </td><td>
@@ -105,20 +351,29 @@ Available agentic workflows
 
 </td></tr><tr><td>
 
-[ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/financial-services-operations/now-assist-for-financial-services-operations.md)
+[Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/purchase-order-mgmt-landing-page.md)
 
 </td><td>
 
-[Help resolve friendly fraud disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/financial-services-operations/friendly-fraud-agentic-ai-workflow.md)
+-   [Define PO exception mitigation strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/mitigation-strategies-for-po-exceptions.md)
+-   [Email Intent to Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/convert-emails-to-exceptions.md)
 
 </td></tr><tr><td>
 
-[ServiceNow Otto for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-ham.md)
+[Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cncore-cmpro-landing-page.md)
 
 </td><td>
 
--   [Help manage hardware asset requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-ham-fulfill-req-agent-workflow.md)
--   [Help repair hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-ham-repair-agent-workflow.md)
+-   [Conversational contract search and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cncore-conf-converse-skill.md)
+-   [Manage contract repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cmpro-na-reminder-agentic-wf.md)
+
+</td></tr><tr><td>
+
+
+
+</td><td>
+
+CBS setup
 
 </td></tr><tr><td>
 
@@ -148,154 +403,12 @@ Available agentic workflows
 
 </td></tr><tr><td>
 
-[ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/now-assist-for-irm.md)
-
-</td><td>
-
--   [Generate regulatory action plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/generate_regulatory_action_plans.md)
--   [Get regulatory analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/get-rcm-reg-insight.md)
--   [Identify risks for an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/identify-risks-for-entity.md)
--   [Optimize issue resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/generate-grc-issue-resolution.md)
-
-</td></tr><tr><td>
-
-[ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/now-assist-itom.md)
-
-</td><td>
-
--   [Analyze alert impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/now-assist-itom-agentic-aia.md)
--   [Agent Client Collector \(ACC\) diagnostic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/use-acc-diagnostic-workflow.md)
--   [Analyze potential impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/now-assist-itom-analyze-potential-impact-workflow.md)
--   [Manage alerts autonomously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/itom-autonomous-operator-workflow.md)
--   [Triage and analyze alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/itom-alert-triage-agentic-workflow.md)
-
-</td></tr><tr><td>
-
-[ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm.md)
-
-</td><td>
-
--   [Assess conflicts for a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm-aiagents-assess-conflicts-workflow.md)
--   [Assess quality of a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm-aiagents-assess-quality-change-request-workflow.md)
--   [Create outages for a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm-aiagents-create-outages-for-a-change-request.md)
--   [Create standard change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm-aiagents-create-change-request-workflow.md)
--   [Create standard change template proposal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm-aiagents-create-standard-change-template-proposal.md)
--   [DEX issue diagnosis and resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm-dex-diagnosis-resolution-workflow.md)
--   [Explain SLA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm-aiagents-explain-sla-workflow.md)
--   [Generate change request plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm-aiagents-change-planner-usecase.md)
--   [Generate post incident reviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm-aiagents-mim-usecase.md)
--   [Incident assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm-incident-assist-workflow.md)
--   [Investigate and resolve ITSM incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm-aiagents-incident-resolver-workflow.md)
--   [Manage Microsoft 365 group members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm-aiagents-O365-groupmembers-workflow.md)
--   [Notify users with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm-aiagents-twilio-text-usecase.md)
--   [Schedule a change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm-aiagents-schedule-change-agentic-workflow.md)
--   [Suggest configuration items for a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm-aiagents-suggest-configuration-items-for-a-change-request.md)
--   [Triage and categorize ITSM incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm-aiagents-catincidents-usecase.md)
--   [Wrap-up and resolve ITSM incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm-wrap-up-resolve-incident-aw.md)
-
-</td></tr><tr><td>
-
-[ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-lsd-landing.md)
+[Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/legal-management-overview.md)
 
 </td><td>
 
 -   [Conversational contract search and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cmpro-agentic-use-conv-search.md)
 -   [Triage legal requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/trans-legal-request-agent.md)
-
-</td></tr><tr><td>
-
-[ServiceNow Otto for Manufacturing Commercial Operations \(MCO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/manufacturing/now-assist-for-MCO.md)
-
-</td><td>
-
-[Execute recall campaigns faster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/manufacturing/execute-recall-campaigns.md)
-
-</td></tr><tr><td>
-
-[Operational Technology \(OT\) Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/now-assist-for-otm-landing.md)
-
-</td><td>
-
-[Import the OT device spreadsheet into OT CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/now-assist-otm-aiagents-import-ot-device-workflow.md)
-
-</td></tr><tr><td>
-
-[Now Assist for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/now-assist-for-operational-technology-service-management.md)
-
-</td><td>
-
-[Generate OT KB articles agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/agent-ot-knowledge-generator.md)
-
-</td></tr><tr><td>
-
-[Now Assist for MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/now-assist-mid-landing.md)
-
-</td><td>
-
-[MID Server Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-guardian.md)
-
-</td></tr><tr><td>
-
-[Now Assist in Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/now-assist-notifications.md)
-
-</td><td>
-
-[Email Intent to Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/email-agentic-workflow.md)
-
-</td></tr><tr><td>
-
-[Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/government-industry/bun-public-sector-landing-page.md)
-
-</td><td>
-
-Help manage public information requests
-
-</td></tr><tr><td>
-
-[Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/purchase-order-mgmt-landing-page.md)
-
-</td><td>
-
--   [Define PO exception mitigation strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/mitigation-strategies-for-po-exceptions.md)
--   [Email Intent to Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/convert-emails-to-exceptions.md)
-
-</td></tr><tr><td>
-
-[ServiceNow Otto for Sales Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/now-assist-for-sales-and-order-management-som.md)
-
-</td><td>
-
-[Help nurture new leads](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/help-nurture-new-leads-agentic-workflow.md)
-
-</td></tr><tr><td>
-
-[ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/now-assist-security-incident-landing.md)
-
-</td><td>
-
--   [Analyze security operations metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/now-assist-sir-soc-efficiency-usecase.md)
--   [Close security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/now-assist-sir-close-incident-usecase.md)
--   [Generate SIR shift handover report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/add-incidents-shifthandover-ai-agent.md)
--   [Resolve security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/now-assist-sir-resolve-incident-ai-workflow.md)
-
-</td></tr><tr><td>
-
-[ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-sam.md)
-
-</td><td>
-
--   [Create software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-sam-create-software-reclamation-rule-workflow.md)
--   [Evaluate software removal candidate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-sam-evaluate-removal-candidate-workflow.md)
--   [Help manage software asset requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-sam-fulfill-sw-asset-requests-workflow.md)
-
-</td></tr><tr><td>
-
-[ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/now-assist-spm.md)
-
-</td><td>
-
--   [Generate Agile stories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/generate-agile-story-planning-items.md)
--   [Monitor project tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/na-spm-task-monitoring-usecase.md)
 
 </td></tr><tr><td>
 
@@ -307,33 +420,6 @@ Help manage public information requests
 
 </td></tr><tr><td>
 
-[ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-media-technology/now-assist-spmc.md)
-
-</td><td>
-
--   [Test and repair telecom service issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-media-technology/service-problem-testing-repair-tmt.md)
--   [Help remediate bill issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-media-technology/billissue-remediation-usecase.md)
--   [Analyze network incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-media-technology/network-incident-analysis-usecase.md)
--   [Customer voice quality issue resolutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-media-technology/now-assist-customer-voice.md)
--   [Monitor engagement health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-media-technology/now-assist-tmt-monitor-health.md)
--   [Recommend risk signal solutions agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-media-technology/now-assist-tmt-resolve-risk.md)
--   [Trigger risk mitigation touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-media-technology/now-assist-tmt-touchpoint-meeting-scheduler.md)
--   [Support renewals and expansions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-media-technology/now-assist-tmt-renewal-analyzer.md)
--   [Service Exchange onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-media-technology/now-assist-tmt-register-consumer-users-sb.md)
-
-</td></tr><tr><td>
-
-[Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/vuln-landing-page.md)
-
-</td><td>
-
--   [Retrieve Vulnerability and exposure data with generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/retrieve-vr-data.md)
--   [Assess your exposure to vulnerabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/assess-exposure-vr-aiagent.md)
--   [Analyze vulnerability remediation status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/sla-targets-vr-aiagent.md)
--   [Security Exposure 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/now-assist-review-vulnerability-exposure-data.md)
-
-</td></tr><tr><td>
-
 [ServiceNow Otto for Workplace Service Delivery \(WSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-wsd-landing.md)
 
 </td><td>
@@ -342,9 +428,21 @@ Help manage public information requests
 -   [Help manage workplace reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/manage-workplace-reservations-agent-ai.md)
 -   [Manage temporary space closures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/maintenance-meeting-room-agent-ai.md)
 -   [Optimize cleaning activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/optimize-cleaning-activities-agent.md)
--   [Workplace Advisor QnA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/workplace-advisor-overview.md)
+-   Process images for new tasks
+-   Workplace Concierge
 
-</td></tr><tr><td>
+</td></tr></tbody>
+</table>## AI Platform
+
+<table id="table_aw-platform-workflow"><thead><tr><th class="filter">
+
+Product
+
+</th><th>
+
+Available agentic workflows
+
+</th></tr></thead><tbody><tr><td>
 
 [Now Assist for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/now-assist-for-zero-copy-connector-for-erp.md)
 
@@ -354,12 +452,21 @@ Help manage public information requests
 
 </td></tr><tr><td>
 
+[Now Assist in Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/now-assist-notifications.md)
+
+</td><td>
+
+[Email Intent to Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/email-agentic-workflow.md)
+
+</td></tr><tr><td>
+
 [Now Assist Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/na-ai-agents.md)
 
 </td><td>
 
 -   [Analyze incident trends](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/incident-trends.md)
 -   [Classify tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/classify-tasks.md)
+-   Error Analysis and Remediation workflow
 -   [Generate my work plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/generate-work-plan.md)
 -   [Generate resolution plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/resolve-requests.md)
 -   [Help optimize team productivity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/help-optimize-productivity.md)
@@ -369,5 +476,34 @@ Help manage public information requests
 -   [Process images for tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/images-tasks.md)
 -   [Suggest survey responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/survey-suggest.md)
 
+</td></tr><tr><td>
+
+[ServiceNow Otto for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/now-assist-landing-cmdb.md)
+
+</td><td>
+
+-   [Create configuration item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/na-cmdb-awf-ci-creator.md)
+-   [Provide advice on CMDB governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/na-cmdb-awf-governance.md)
+-   [Search CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/na-cmdb-awf-search.md)
+
+</td></tr><tr><td>
+
+[ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/now-assist-vault-landing.md)
+
+</td><td>
+
+-   Access observer configuration
+-   Classify assets with ServiceNow Vault agents
+-   Field encryption and auto-generate access policies
+-   Field encryption with Vault module
+-   Securing custom apps with Vault agents
+-   Summarize access observer logs
+
 </td></tr></tbody>
-</table>
+</table>## App development
+
+|Product|Available agentic workflows|
+|-------|---------------------------|
+|[Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/build-agent.md)|[Create in-app agents, skills, and workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/create-custom-ai-agent.md)|
+|ServiceNow Otto for Creator|[Create a theme using ServiceNow Otto®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/create-theme-now-assist.md)|
+

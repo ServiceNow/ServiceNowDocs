@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-04-02"
 reading_time_minutes: 4
 keywords: [Tasks and requests, tasks, approvals, requests, Employee Slate]
-breadcrumb: [Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Tasks and requests

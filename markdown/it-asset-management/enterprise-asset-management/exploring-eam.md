@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 6
-breadcrumb: [Enterprise Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [Enterprise Asset Management, Asset Management]
 ---
 
 # Exploring Enterprise Asset Management
@@ -18,7 +18,7 @@ Use the Enterprise Asset Management application to optimize the quality and perf
 
 ## Enterprise Asset Management overview
 
-The Enterprise Asset Management automates the full lifecycle of your physical business assets with prescriptive workflows. With Enterprise Asset Management, you can maximize the return on your enterprise assets, control capital and operating costs, and reduce risk by tracking and managing your assets from planning to disposal.
+The Enterprise Asset Management application automates the full life cycle of your physical business assets with prescriptive workflows. With the Enterprise Asset Management application, you can maximize the return on your enterprise assets, control capital, and optimize operating costs. You can also reduce risk by tracking and managing your assets from planning to disposal.
 
 ## Enterprise Asset Management users
 
@@ -31,8 +31,8 @@ The Enterprise Asset Management automates the full lifecycle of your physical bu
 |Medical technicians|Similar to the tasks carried out by an enterprise asset technician, though specifically within the healthcare sector.|
 |Facility asset manager|Similar to the tasks carried out by an enterprise asset manager, though specifically within the facility management sector.|
 |Facility technician|Similar to the tasks carried out by an enterprise asset technician, though specifically within the facility management sector.|
-|Operational technology asset manager|Similar to the tasks carried out by an enterprise asset manager, though specifically within the operation technology sector.|
-|Operational technology asset technician|Similar to the tasks carried out by an enterprise asset technician, though specifically within the facility management sector.|
+|Operational technology asset manager|Similar to the tasks carried out by an enterprise asset manager, though specifically within the operational technology sector.|
+|Operational technology asset technician|Similar to the tasks carried out by an enterprise asset technician, though specifically within the operational technology sector.|
 
 ## Enterprise Asset Management workflow
 
@@ -85,7 +85,7 @@ Use your own customized workspace for medical and facility industries.
 
 </td><td>
 
-[Configurable workspaces for medical and facilities industries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/medical-facility-workspaces.md)
+[Configurable workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/medical-facility-workspaces.md)
 
 </td><td>
 
@@ -102,7 +102,7 @@ Maximize asset value with comprehensive cost analysis of owning and managing ass
 
 </td><td>
 
-[Asset Total Cost of Ownership for Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/asset-tco-eam.md)
+[Total Cost of Ownership \(TCO\) for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/confifure-eam-asset-tco.md)
 
 </td><td>
 
@@ -126,7 +126,7 @@ Onboard single and multiple assets using playbooks.
 
 </td><td>
 
-[Playbooks for Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/asset-onboarding-eam.md)
+[Create an asset onboarding process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-asset-onboarding-task-eam.md)
 
 </td><td>
 
@@ -150,7 +150,7 @@ Rate assets by risk level and generate color-coded heatmaps.
 
 </td><td>
 
-[Risk scoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/risk-scoring-eam.md)
+[Risk scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/managing-eam-risk-scores.md)
 
 </td><td>
 
@@ -187,7 +187,7 @@ Get defective enterprise assets in a stockroom repaired quickly using the Repair
 
 </td><td>
 
-[Repair flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/requesting-repair-eam-assets.md)
+[Repair flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/manage-repair-of-defective-eam-assets.md)
 
 </td><td>
 
@@ -199,7 +199,7 @@ Locate and pick the assets in your stockroom efficiently by using the ServiceNow
 
 </td><td>
 
-[Inventory picking for Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/managing-ent-asset-pickup.md)
+[Inventory picking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/manage-asset-pick-task-eam-mobile-app.md)
 
 </td><td>
 
@@ -211,7 +211,7 @@ Track asset movement from the receiving bay of the inventory to the designated s
 
 </td><td>
 
-[Managing inventory by putting away enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/managing-inventory-by-putting-away-asset-eam.md)
+[Asset put away](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/manage-asset-putaway-stockroom-enterprise-asset-workspace.md)
 
 </td><td>
 
@@ -236,7 +236,7 @@ Receive enterprise and consumable assets at stockrooms from any workflow at a ce
 
 </td><td>
 
-[Receiving enterprise and consumable assets at stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/stockroom-receiving-eam.md)
+[Receiving enterprise and consumables assets at stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/manage-stockroom-receive-eam.md)
 
 </td><td>
 
@@ -272,7 +272,7 @@ Enhance maintenance efficiency with standardized and predefined failure and reso
 
 </td><td>
 
-[Failure and resolution codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/failure-resolution-codes-eam.md)
+[Failure and resolution codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/manage-failure-res-codes-eam.md)
 
 </td><td>
 
@@ -288,4 +288,8 @@ To learn more about configuring and using the Enterprise Asset Management applic
 -   [Managing enterprise asset inventory and contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/managing-eam-inv-contracts.md)
 -   [Managing work orders for your enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-manage-wo-enterprise-assets.md)
 -   [Using Service Catalog for Enterprise Asset Management requests and flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/using-service-catalog-eam-requests-flows.md)
+-   [Managing enterprise assets and tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/manage-enterprise-assets-tasks-mobile-app.md)
+-   [Procuring enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/procuring-assets.md)
+-   [Enterprise Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/reference-enterprise-asset-management.md)
+-   [Industry-specific Enterprise Asset Management solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/eam-related-apps.md)
 

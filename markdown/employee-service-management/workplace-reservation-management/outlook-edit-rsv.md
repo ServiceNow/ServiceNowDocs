@@ -7,9 +7,9 @@ release: zurich
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2025-12-07"
-reading_time_minutes: 2
-breadcrumb: [Using Workplace Reservations for Microsoft Outlook Add-in, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Use, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Edit reservation details in Microsoft Outlook
@@ -62,10 +62,4 @@ Role required: admin
 
     Select your reservation to review the details on Workplace Reservation Management.
 
-
-**Parent Topic:**[Using Workplace Reservations for Microsoft Outlook Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/using-outlook-addin.md)
-
-**Previous topic:**[Create a reservation in Microsoft Outlook add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/outlook-create-rsv.md)
-
-**Next topic:**[Delegate reservations in Microsoft Outlook add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/outlook-delegate-rsv.md)
 

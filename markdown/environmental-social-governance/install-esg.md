@@ -1,23 +1,23 @@
 ---
-title: Install ESG Management \(formerly ESG Management\)
-description: You can install the ESG Management application \(sn\_esg\) if you have the sys\_admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
+title: Install Operational Sustainability Management \(formerly ESG Management\)
+description: You can install the Operational Sustainability Management application \(sn\_esg\) if you have the sys\_admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/install-esg.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [ESG Management \(formerly ESG Management\) implementation, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Operational Sustainability Management \(formerly ESG Management\) implementation, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
-# Install ESG Management \(formerly ESG Management\)
+# Install Operational Sustainability Management \(formerly ESG Management\)
 
-You can install the ESG Management application \(sn\_esg\) if you have the sys\_admin role.The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
+You can install the Operational Sustainability Management application \(sn\_esg\) if you have the sys\_admin role.The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
--   ESG Management requires the following ServiceNow Store applications. Ensure that these applications are installed before you install ESG Management.
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Operational Sustainability Management requires the following ServiceNow Store applications. Ensure that these applications are installed before you install Operational Sustainability Management.
     -   **Required ServiceNow Store applications**
         -   **GRC: Profiles**
 
@@ -37,16 +37,16 @@ You can install the ESG Management application \(sn\_esg\) if you have the sys\_
 
     -   **Microsoft 365 for ServiceNow Reporting**
 
-        The Microsoft 365 for ServiceNow Reporting \(sn\_esg\_msoff\_intg\) provides disclosure reporting capabilities to ESG reporting managers to seamlessly report ServiceNow ESG Management system data, list reports, charts, pivot, and multi pivot reports using Microsoft Word.
+        The Microsoft 365 for ServiceNow Reporting \(sn\_esg\_msoff\_intg\) provides disclosure reporting capabilities to ESG reporting managers to seamlessly report ServiceNow Operational Sustainability Management system data, list reports, charts, pivot, and multi pivot reports using Microsoft Word.
 
 
-**Note:** With the ESG Management application, you can use the authority documents and citations in the GRC: Policy and Compliance Management application and entities in the GRC: Profiles application.
+**Note:** With the Operational Sustainability Management application, you can use the authority documents and citations in the GRC: Policy and Compliance Management application and entities in the GRC: Profiles application.
 
 Role required: admin
 
 ## About this task
 
-The following items are installed with ESG Management:
+The following items are installed with Operational Sustainability Management:
 
 -   Roles
 -   Scheduled jobs
@@ -58,15 +58,15 @@ For more information, see [Components installed with Operational Sustainability 
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-2.  Find the ESG Management application \(sn\_esg\) using the filter criteria and search bar.
+2.  Find the Operational Sustainability Management application \(sn\_esg\) using the filter criteria and search bar.
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 
-    Dependent plugins and applications are listed if they will be installed, are currently installed, or need to be installed. If any plugins or applications need to be installed, you must install them before you can install ESG Management.
+    Dependent plugins and applications are listed if they will be installed, are currently installed, or need to be installed. If any plugins or applications need to be installed, you must install them before you can install Operational Sustainability Management.
 
 4.  If demo data is available and you want to install it, select the **Load demo data** check box.
 
@@ -75,5 +75,5 @@ For more information, see [Components installed with Operational Sustainability 
 5.  Select **Install**.
 
 
-**Parent Topic:**[ESG Management \(formerly ESG Management\) implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/esg-implementation.md)
+**Parent Topic:**[Operational Sustainability Management \(formerly ESG Management\) implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/esg-implementation.md)
 

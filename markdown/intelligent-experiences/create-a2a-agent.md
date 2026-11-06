@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/create-a2a-agent.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Create an external agent, Create an AI agent, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Create an external agent, Create an AI agent, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Create an external AI agent with the Agent2Agent protocol
@@ -109,11 +109,11 @@ Subflow that establishes Agent2Agent protocol. The default subflow should handle
 
     3.  Select your AI agent's execution Connection &amp; Credential alias for authentication.
 
-        Choose which credentials access your external AI agent's execution endpoint. You can select an existing alias or create one. If you create one, a modal fdisplays with options for configuring an OAuth or API Key authentication.
+        Choose which credentials access your external AI agent's execution endpoint. You can select an existing alias or create one. If you create one, a modal displays with options for configuring an OAuth or API Key authentication.
 
         \[Omitted image "external-aia-a2a-define.png"\] Alt text: Summary of AI agent details and activate button
 
-        **Note:** For more information about the API Key credential, see [A2A API Key credential behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/a2a-api-key-credential-behavior.md).
+        **Note:** For more information about the API Key credential, see .
 
     4.  Configure access control lists \(ACLs\) for the AI agent.
 

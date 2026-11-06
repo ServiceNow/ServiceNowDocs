@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/dmi.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure the Discovery Sensor for OT, Discovery Sensor for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Configure the Discovery Sensor for OT, Discovery Sensor for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Device Management Interface
@@ -27,7 +27,7 @@ Once the Console is deployed and you have registered the Sensor, you can create 
 -   Auto Query
 -   Quick Scan
 
-For more information about these Console features, see [Discovery Console for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/ot-discovery-console-landing.md).
+For more information about these Console features, see [Discovery Console for Operational Technology \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/ot-discovery-console-landing.md).
 
 ## DMI pages
 
@@ -74,5 +74,7 @@ The following sections describe the pages available on the DMI.
 
 
 
-\[Omitted image "image.dmi-sans-rabbitmq"\] Alt text: DMI page
+\[Omitted image "dmi-sans-rabbitmq.png"\] Alt text: DMI page
+
+**Parent Topic:**[Configure the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/configure-discovery-sensor-ot.md)
 

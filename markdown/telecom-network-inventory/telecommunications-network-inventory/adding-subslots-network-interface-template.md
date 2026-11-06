@@ -7,7 +7,7 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create inventory template relationship, Use, Telecommunications Network Inventory]
 ---
@@ -34,13 +34,13 @@ After you submit the subslot inventory template, it appears on the **Related Tem
 
 ## What's next
 
-Next, add a network interface to an interface card template. To learn more, see [Adding a network interface template to an interface card template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/adding-interfaces-interface-card-template.md).
+Next, add a network interface to an interface card template. To learn more, see [Add a network interface template to an interface card template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/adding-interfaces-interface-card-template.md).
 
 **Parent Topic:**[Create inventory template relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/creating-inventory-templates-telco-equipment.md)
 
 **Previous topic:**[Add interface card templates to the slot templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/adding-interface-card-slots.md)
 
-**Next topic:**[Adding a network interface template to an interface card template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/adding-interfaces-interface-card-template.md)
+**Next topic:**[Add a network interface template to an interface card template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/adding-interfaces-interface-card-template.md)
 
 **Related topics**  
 

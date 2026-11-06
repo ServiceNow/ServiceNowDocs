@@ -7,8 +7,8 @@ release: zurich
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
 
@@ -202,6 +202,32 @@ Support right-to-left languages
 Option to mirror the direction of the portal when the session language is a right-to-left language, such as Hebrew. Selecting this option automatically generates the necessary CSS but you can also provide your own CSS for right-to-left languages that overrides the auto-generated CSS.
 
  To provide your own CSS for right-to-left languages, see [Create a portal theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/c_CustomCSS.md). For more information about support for right-to-left languages, see [Styling for right-to-left languages in portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/styling-right-to-left-languages.md).
+
+</td></tr><tr><td>
+
+Use portal-specific authentication
+
+</td><td>
+
+Option to set authentication for each portal. Selecting this option configures and applies portal-specific authentication for a portal. For example, set an authentication method, such as OKTA, for an internal employee portal, and set a different authentication method for an external vendor portal without having to customize the authentication.
+
+</td></tr><tr><td>
+
+Enable local login
+
+</td><td>
+
+Option to enable a local login.
+
+</td></tr><tr><td>
+
+Portal Identity Providers
+
+</td><td>
+
+Identity provider options: Okta and Microsoft Azure.
+
+ If both options are selected, then both login options are present in the login page. If only one portal identity provider is configured, the user is directed to the login page for that provider.
 
 </td></tr><tr><td>
 

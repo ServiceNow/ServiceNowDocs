@@ -7,16 +7,16 @@ release: zurich
 product: Service Level Management
 classification: service-level-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Service Level Management, IT Service Management]
+breadcrumb: [Service Level Management reference, Service Level Management, IT Service Management]
 ---
 
 # Quick start tests for Service Level Management
 
 Validate that Service Level Management still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 
-Service Level Management quick start tests require activating the Service Level Management - ATF Tests plugin \(com.snc.service\_level\_management.atf\).
+Service Level Management quick start tests require activating the Service Level Management - ATF Tests plugin \(com.snc.sla.atf\).
 
 |Test|Description|Release version|
 |----|-----------|---------------|

@@ -7,9 +7,9 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2025-10-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [AI Search for Next Experience, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
+breadcrumb: [AI Search for Next Experience, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # AI Search for Next Experience reference
@@ -220,6 +220,8 @@ Contains component, static value, field mapping, and action mapping settings for
 
 To view the complete list of components installed with AI Search for Next Experience, follow the steps described in [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/find-components.md). The application's package name is **AI Search For Next Experience**.
 
+-   **[AI Search for Next Experience properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ai-search-next-experience-properties.md)**  
+A system property allows you to control whether facets are shown when no source is selected in global search and workspace search results pages.
 -   **[AI Search for Next Experience default source facet buckets for global search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ais-ne-global-search-nav-tabs.md)**  
 List of source facet buckets that appear by default in AI Search for Next Experience global search results.
 

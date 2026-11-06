@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/data-collection-app-engine.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Impact Value Management data collection apps, Configuring Impact, Impact]
+breadcrumb: [Enable data collection for Value Management, Guided Setup \(Legacy\), Configuring Impact, Impact]
 ---
 
 # Impact Value Management Data Collection Content Pack for App Engine
@@ -22,4 +22,15 @@ Perform the steps in the following order:
 4.  [Review App Engine artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-app-engine-installation-artifacts.md)
 
 You can also modify the configuration at any point, and maintain customizations when you are ready to upgrade. For more information, see [Modifying the Data Collection configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-all-modify.md) and [Upgrading the Data Collection Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-all-upgrade.md).
+
+-   **[Install the Data Collection Content Pack for App Eng](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-app-eng-install.md)**  
+To enable the Data Collection Pack, you must install dependent plugins and activate Data Collection jobs.
+-   **[Configure Data Collection for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-app-eng-config.md)**  
+Configure Data Collection for App Engine.
+-   **[Activate Data Collection for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-app-eng-activate.md)**  
+Activate the Data Collection Pack for App Eng after you enable and configure it.
+-   **[Review App Engine artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-app-engine-installation-artifacts.md)**  
+The Data Collection app contains a pre-build data metric structure for the ServiceNow Performance/Platform Analytics application.
+
+**Parent Topic:**[Enable data collection for Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-toolkit.md)
 

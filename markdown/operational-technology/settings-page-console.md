@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/settings-page-console.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 4
-breadcrumb: [Using the Discovery Console, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Settings page
@@ -28,7 +28,7 @@ The Console tab on the main Settings page is divided into the following sections
 
 -   **License**
 
-    When you first sign into the Console, a warning banner alerts that you need a license. When you use the interactive configuration wizard, you're also alerted to the license status. For detailed explanation of the Console license, see .
+    When you first sign into the Console, a warning banner alerts that you need a license. When you use the interactive configuration wizard, you're also alerted to the license status. For more information, see [Requirements for Discovery Console for OT installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/reqs-ot-console-installation.md).
 
     **Note:** If needed, request a Console license from your ServiceNow account representative.
 
@@ -38,7 +38,7 @@ The Console tab on the main Settings page is divided into the following sections
 
     In the Configuration section, use the **High Contrast** setting to change hyperlinks from orange to green for ease in viewing. To change this setting, select the **Edit** button, then slide the **High Contrast** toggle to **Yes**. Select **Save** to save your changes.
 
-    \[Omitted image "image.configuration-section-high-contrast"\] Alt text: High contrast setting
+    \[Omitted image "configuration-section-high-contrast.png"\] Alt text: High contrast setting
 
 -   **System Statistics**
 
@@ -87,7 +87,7 @@ CVE Database Package
 
 Enables you to import a CVE package.You can use the **Import CVE Package** button to import a package locally saved on your computer.
 
-**Note:** You can obtain a current CVE database file from your ServiceNow Operational Technology Discovery representative.
+**Note:** You can obtain a current CVE database file from your ServiceNowOperational Technology Discovery representative.
 
 </td></tr><tr><td>
 
@@ -128,11 +128,34 @@ The Reprocess feature allows the system to reevaluate previously collected Auto 
 
 **Syslog**
 
-In the Syslog tab, you can configure a syslog server. After configuring these settings, syslog data can be forwarded from the Discovery Console for OT to a separate syslog data consumer. For example, the Splunk enterprise security data analysis toolset.
+In the Syslog tab, you can configure a Syslog server. After configuring these settings, Syslog data can be forwarded from the Discovery Console for OT to a separate Syslog data consumer. For example, the Splunk enterprise security data analysis tool set.
 
 **Logs**
 
 From the Logs tab, you can download Discovery Console for OT logs. You have the option to choose whether to download logs on the current day, on a custom date, or on a date range.
 
-For further information on Console and Sensor log files, see [Download Console log files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/download-console-log-files.md).
+For more information, see [Download Console log files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/download-console-log-files.md).
+
+-   **[Certificate tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/certificate-tab.md)**  
+The Certificate tab is for generating or uploading the Discovery Console for OT certificate.
+-   **[Discovery Console for OT API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/api-discovery-console.md)**  
+You can access the Console Discovery data via the API. On the Settings page, select the **API** tab to view and use the active tokens, denied tokens, and endpoints needed to communicate with the Service Graph Connector \(SGC\).
+-   **[Edit email settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/edit-email-settings.md)**  
+Edit the email settings as needed to match the settings on your mail server.
+-   **[Export data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/export-data-json.md)**  
+The Discovery Console for OT exports data as a JSON export file.
+-   **[Create a backup for the Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/console-create-backup.md)**  
+You can create a full or partial backup of the Discovery Console for OT data.
+-   **[Edit the Query Driver on Metadata tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/edit-query-driver-on-metadata.md)**  
+Edit the Query Driver on **Metadata** tab. The Query Driver section enables you to import or download query drivers as well as control the speed of Auto Queries.
+-   **[Upload firmware packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/edit-package-settings.md)**  
+If you're using a local repository, upload firmware packages to the Discovery Console for OT so the system knows when an update is needed.
+-   **[Reprocess Auto Query results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/reprocess-tab-results.md)**  
+On the Settings page, the Reprocess tab is available to reprocess Auto Query results.
+-   **[Edit Syslog settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/edit-syslog-settings.md)**  
+Edit the Syslog settings as needed to configure the Syslog server.
+-   **[Download Console log files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/download-console-log-files.md)**  
+The Console logs are available to download for tracking or troubleshooting purposes.
+
+**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/using-discovery-console.md)
 

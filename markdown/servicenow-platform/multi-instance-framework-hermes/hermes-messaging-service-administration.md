@@ -7,7 +7,7 @@ release: zurich
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,10 +16,12 @@ breadcrumb: [Hermes Messaging Service, Manage service capabilities, Extend Servi
 
 Monitor the Hermes Messaging Service by viewing diagnostics and inspecting topics.
 
+-   **[Managing Hermes settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/multi-instance-framework-hermes/manage-hermes-settings.md)**  
+View, modify, and manage configuration properties that control the behavior of Hermes Messaging Service. You can update property values, manage background job states, or adjust settings where automated detection is unavailable.
 -   **[Check the status of and connection to the Hermes Kafka cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/multi-instance-framework-hermes/run-hermes-messaging-service-diagnostics.md)**  
 Check the status of and test the connection to the Hermes Kafka cluster by sending and receiving test messages.
 -   **[Monitoring data usage in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/multi-instance-framework-hermes/monitoring-data-usage-hermes.md)**  
-Monitor data usage in Hermes over time.
+Monitor the amount of data produced to and consumed from the Hermes cluster over time. Use the Hermes Usage Dashboard to track data inflow and outflow by topic, application, and time period.
 -   **[Tracking message usage in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/multi-instance-framework-hermes/tracking-hermes-messaging-service-usage.md)**  
 Message usage through the Hermes Messaging Service is tracked for monitoring and management purposes through the Kafka topic name.
 -   **[Cloning with Hermes Messaging Service enabled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/multi-instance-framework-hermes/cloning-with-hermes-messaging-service.md)**  

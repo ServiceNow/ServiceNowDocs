@@ -1,5 +1,5 @@
 ---
-title: HR Service Delivery Integration with Workday Reference
+title: Reference - HR Service Delivery Integration with Workday
 description: Reference topics provide additional information about the HR Service Delivery Integration with Workday, including lists and forms.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/hrsd-int-workday-reference.html
@@ -7,12 +7,12 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [HR Service Delivery Integration with Workday, Integrate with third-party systems, HR Service Delivery, Employee Service Management]
+breadcrumb: [HR Service Delivery Integration with Workday, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
-# HR Service Delivery Integration with Workday Reference
+# Reference - HR Service Delivery Integration with Workday
 
 Reference topics provide additional information about the HR Service Delivery Integration with Workday, including lists and forms.
 

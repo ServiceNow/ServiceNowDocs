@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-licensing-bundle-subscription.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ITOM/OT SU Licensing subscription types, Explore ITOM/OT SU Licensing, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
+breadcrumb: [ITOM/OT SU Licensing subscription types, Explore, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---
 
 # ITOM/OT SU Licensing Bundle subscription
@@ -22,7 +22,7 @@ When you purchase subscriptions in a bundle, you receive an equal number of subs
 
 \[Omitted image "itom-license-summary-bundle-only.png"\] Alt text: Subscriptions window displaying subscriptions purchased by bundle.
 
-Bundle subscriptions are specific to certain applications. You cannot utilize bundle subscriptions for other applications, even if those applications are part of the same bundle. For instance, if you purchase a bundle of 500 units covering ITOM Visibility and ITOM AIOps, you receive 500 units for each application. If you use all 500 ITOM Visibility units, the remaining ITOM AIOps units cannot be used for ITOM Visibility.
+Bundle subscriptions are specific to certain applications. You cannot use bundle subscriptions for other applications, even if those applications are part of the same bundle. For example, if you purchase a bundle of 500 units covering ITOM Visibility and ITOM AIOps, you receive 500 units for each application. If you use all 500 ITOM Visibility units, the remaining ITOM AIOps units can't be used for ITOM Visibility.
 
 The consumption level of the bundle is determined by the highest usage among the products included in the bundle.
 

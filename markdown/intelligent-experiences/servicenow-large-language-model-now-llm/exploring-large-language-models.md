@@ -1,22 +1,22 @@
 ---
 title: Large language models on the ServiceNow AI Platform
-description: ServiceNow AI Platform utilizes large language models \(LLM\) for generative AI and agentic AI functionality. You can choose the ServiceNow LLM or supported third-party models. LLMs bring about the Generative AI application capabilities by understanding and generating human language, and processing vast amount of data.
+description: ServiceNow AI Platform utilises large language models \(LLM\) for generative AI and agentic AI functionality. You can choose the ServiceNow LLM or supported third-party models. LLMs bring about the Generative AI application capabilities by understanding and generating human language, and processing vast amount of data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.html
 release: zurich
 product: ServiceNow Large Language Model \(Now LLM\)
 classification: servicenow-large-language-model-now-llm
 topic_type: concept
-last_updated: "2025-06-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Enable AI experiences]
+breadcrumb: [Large language models and providers, Enable AI Experiences]
 ---
 
 # Large language models on the ServiceNow AI Platform
 
-ServiceNow AI Platform® utilizes large language models \(LLM\) for generative AI and agentic AI functionality. You can choose the ServiceNow® LLM or supported third-party models. LLMs bring about the Generative AI application capabilities by understanding and generating human language, and processing vast amount of data.
+ServiceNow AI Platform® utilises large language models \(LLM\) for generative AI and agentic AI functionality. You can choose the ServiceNow® LLM or supported third-party models. LLMs bring about the Generative AI application capabilities by understanding and generating human language, and processing vast amount of data.
 
-## Third-party model providers
+## Third-party model strategy
 
 ServiceNow® supports third-party AI model providers, which signifies that the admin persona can select a third-party large language or an AI model provider for Now Assist skills that are available out of box. Find the supported model providers, the LLM services and the version.
 
@@ -62,9 +62,7 @@ Azure OpenAI
 
 </td><td>
 
-V2:OpenAI GPT 5.4, GPT-5.2, and GPT-5.2-mini
-
-V1: GPT 4.1 and GPT 4.1 mini
+OpenAI GPT-4.1 and GPT-4.1-mini
 
 </td><td>
 
@@ -96,26 +94,23 @@ AWS Claude
 
 </td><td>
 
-V2:-   Claude 4.6 Sonnet
--   Claude Haiku 4.5
-
-V1: Claude 4.0 Sonnet
+Claude 3.7 Sonnet
 
 </td><td>
 
-[https://docs.aws.amazon.com/bedrock/latest/userguide/models-regions.html](https://docs.aws.amazon.com/bedrock/latest/userguide/models-regions.html)
+[https://docs.aws.amazon.com/bedrock/latest/userguide/models-regions.html](https://docs.aws.amazon.com/bedrock/latest/userguide/models-regions.html)**Note:** Some out of box skills, Agents, and Agentic Workflows do not support Now LLM Service or third party model providers. To learn more about the exceptions to LLM service and third party model providers support, see [https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB2222333](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2222333)
 
 </td></tr></tbody>
 </table>**Note:** Some out of box skills, Agents, and Agentic Workflows do not support Now LLM Service or third party model providers. To learn more about the exceptions to LLM service and third party model providers support, see [https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB2222333](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2222333)
 
 ## Large language model selection
 
-This selection is supported at various levels such as, skill, skill group and instance levels. However, the controls that define LLMs mapping to different skills, allowed at various global locations, are configured and approved in AI Control Tower by the AI steward. The model provider options for custom skills created in Now Assist skill kit and AI Agent Studio are also configured in AI Control Tower.
+This selection is supported at various levels such as, skill, skill group and instance levels. However, the controls that define LLMs mapping to different skills, allowed at various global locations, are configured and approved in AI Control Tower by the AI steward. The model provider options for custom skills created in Now Assist skill kit and AI Agent Studio are also configured in AI Control Tower. See [Configure third-party LLMs using AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/configure-third-party-llms-using-ai-control-tower.md) to learn more.
 
 The **Manage large language models** feature enables the admin persona to perform additional actions like:
 
 -   Edit the model provider at the instance, skill group and skill levels
--   Deactivate active skills which are non-compliant with fallback as **No**. See [AI model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-model-providers.md) to learn more.
+-   Deactivate active skills which are non-compliant with fallback as **No**. See [Configuring AI model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-configuring-ai-model-providers.md) to learn more.
 -   View audit history on policy updates by AI steward in AI Control Tower
 -   Select allowed model providers across domain separated instances.
 
@@ -125,14 +120,12 @@ For more information on selecting and updating model providers, see [Manage mode
 
 -   **[Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-large-language-model-now-llm/now-llm-model-updates.md)**  
 Review these updates to learn which model providers and models are available for your skills and agents. Review the model cards for information about how each model is intended to be used.
--   **[General guidelines for writing instructions for generative AI large language models \(LLMs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)**  
+-   **[General guidelines for writing instructions for generative AI large language models \(LLMs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-large-language-model-now-llm/llm-instruction-guidelines.md)**  
 When using Now Assist products and skills, you may have the option to give specific instructions or other guidance to the LLM. Writing generative AI instructions is different from conducting a keyword search. Use the following general guidelines when crafting your instructions.
--   **[Long term stable models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-large-language-model-now-llm/long-term-stable-models.md)**  
-Long term stable \(LTS\) models support regulated industries, such as financial institutions, with stronger AI lifecycle management, governance, transparency, and compliance tools.
 -   **[Discrepancies when using different AI search tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-large-language-model-now-llm/aisearch-differences.md)**  
 Different AI search tools may return different answers for the same or similar searches. This difference in results is expected. It occurs because each large language model \(LLM\) uses a different approach to find results and generate answers that match your search.
 -   **[Providers and Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-large-language-model-now-llm/providers-and-models.md)**  
 You can bring your own large language model \(LLM\) provider and API to use with Now Assist.
 
-**Parent Topic:**[Enable AI experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-products.md)
+**Parent Topic:**[Large language models and providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/platai-large-language-models-providers.md)
 

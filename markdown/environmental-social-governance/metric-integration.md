@@ -1,18 +1,18 @@
 ---
 title: Metric integration
-description: The metric integration tool enables you to manage your third-party ESG Management data by normalizing and mass loading data using flat file. The terms flat file and normalized data refer to how data is stored electronically.
+description: The metric integration tool enables you to manage your third-party Operational Sustainability Management data by normalizing and mass loading data using flat file. The terms flat file and normalized data refer to how data is stored electronically.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/metric-integration.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Metric integration
 
-The metric integration tool enables you to manage your third-party ESG Management data by normalizing and mass loading data using flat file. The terms flat file and normalized data refer to how data is stored electronically.
+The metric integration tool enables you to manage your third-party Operational Sustainability Management data by normalizing and mass loading data using flat file. The terms flat file and normalized data refer to how data is stored electronically.
 
 Metric integrations is a common import utility tool for GRC: Metrics, which can be used by multiple integrations to import data from an external source, such as a spreadsheet, into the metric data. This tool uses different mapping configurations to obtain the data needed to create or update existing metric data.
 

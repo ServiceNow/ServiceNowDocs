@@ -7,9 +7,9 @@ release: zurich
 product: Admin Center
 classification: admin-center
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Admin Center, Get started, Administer]
+breadcrumb: [Admin Center reference, Admin Center, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Admin Center roles
@@ -45,5 +45,5 @@ The admin role allows you to access admin home features, adoption blueprints and
     None.
 
 
-**Parent Topic:**[Admin Center references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/admin-center/ac-reference.md)
+**Parent Topic:**[Admin Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/admin-center/ac-reference.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/install-price-management.html
 release: zurich
 topic_type: task
-last_updated: "2025-09-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Pricing Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Install Pricing Management
@@ -16,7 +16,7 @@ You can install the Pricing Management application \(sn\_csm\_pricing\) if you h
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [Price Management](https://store.servicenow.com/store/app/d34a67261b246a50a85b16db234bcb2b#linksAndDocuments) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 Role required: admin
@@ -52,4 +52,9 @@ For more information, see [Components installed with Pricing Management](https:/
 
 6.  Select **Install**.
 
+
+**Related topics**  
+
+
+[Enable pricing in the ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/enable-pricing-quote-experience.md)
 

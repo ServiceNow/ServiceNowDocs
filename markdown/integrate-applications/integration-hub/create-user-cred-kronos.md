@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure a connection, UKG Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -48,5 +48,5 @@ Verify that you provide credentials of a manager user or Kronos superuser. With 
 
 The Kronos - Get Kronos Token subflow is triggered. The subflow uses the details provided during spoke setup to retrieve a valid refresh token from Kronos. The subflow then updates the value of **Refresh Token Expires**.
 
-**Note:** To access more details about the Kronos refressh token, navigate to **System OAuth** &gt; **Manage Tokens.**. Here, a record is created for each refresh token.
+**Note:** To access more details about the Kronos refresh token, navigate to **System OAuth** &gt; **Manage Tokens.**. Here, a record is created for each refresh token.
 

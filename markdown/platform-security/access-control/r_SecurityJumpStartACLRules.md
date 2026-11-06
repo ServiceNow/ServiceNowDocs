@@ -7,9 +7,9 @@ release: zurich
 product: Access Control
 classification: access-control
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Explore Access Control Lists, Access Control List Rules, Access Management]
+breadcrumb: [Explore Access Control Lists, Access Control Lists \(ACLs\), Access Management]
 ---
 
 # Security jump-start - ACL rules plugin
@@ -129,5 +129,5 @@ The following ACLs are included in this plugin. Select the icon in a header row 
 |`sys_user_role_contains`|write|admin role required to write to Contained Role records|
 |`sys_user_token`|RWCD|admin role required to read/write/create/delete User Token records|
 
-**Note:** To learn more about this plugin, see [Enable security jump start plugin \(ACL Rules\) \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-security-jump-start-plugin-acl-rules.md) in Instance Security Hardening Settings.
+**Note:** To learn more about this plugin, see [Enable security jump start plugin \(ACL Rules\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-security-jump-start-plugin-acl-rules.md) in Instance Security Hardening Settings.
 

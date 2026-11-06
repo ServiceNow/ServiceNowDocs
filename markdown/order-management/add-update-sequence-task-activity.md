@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/add-update-sequence-task-activity.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create sequences, Customer Engagement Sequences, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Create sequences, Customer Engagement Sequences, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Add the Update sequence task activity to a sequence
@@ -28,7 +28,7 @@ Add the Update sequence task activity with other activities in a stage or in its
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -87,4 +87,11 @@ Field in the parent table you want to update. For example, to mark a lead as con
 
 
 **Parent Topic:**[Create a customer engagement sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/create-customer-engagement-sequence.md)
+
+**Related topics**  
+
+
+[Configuring Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configuring-customer-engagement-sequences.md)
+
+[Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-customer-engagement-sequences.md)
 

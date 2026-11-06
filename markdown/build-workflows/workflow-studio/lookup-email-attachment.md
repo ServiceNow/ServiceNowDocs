@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Actions, Flows, subflows, and actions reference, Reference, Workflow Studio, Build workflows]
+breadcrumb: [Actions, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Look up email attachments action
@@ -33,6 +33,8 @@ This action generates a list of Email Attachment \[sys\_email\_attachment\] reco
 ## Example
 
 In the following example, a process owner adds the Look up email attachments action under an inbound email trigger. In the **Email record \[Email\]** field, the user selects to look up files that are attached to the email that triggered the flow.
+
+\[Omitted image "lookup-email-attach-example.png"\] Alt text: Email attachments action in a flow
 
 **Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-actions.md)
 

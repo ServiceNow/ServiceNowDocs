@@ -7,9 +7,9 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Integrate Instana events, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Integrate Instana events
@@ -19,6 +19,8 @@ Integrate Instana with Event Management by adding a standard webhook in the Inst
 ## Before you begin
 
 Ensure that the Event Management Connectors \(sn\_em\_connector\) plugin is installed on the ServiceNow AI Platform instance.
+
+Confirm you have created a user with an **Identify Type** of **Machine** and the evt\_mgmt\_integration role.
 
 Role required: evt\_mgmt\_admin
 
@@ -72,5 +74,5 @@ Role required: evt\_mgmt\_admin
     4.  On the **Details** tab, locate the **Actions** section on the right side of the page and in the **Show Event on Instana UI** cell, select **Launch app**.
 
 
-**Parent Topic:**[Integrate with push connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-listener-transform-script.md)
+**Parent Topic:**[Integrate Instana events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/instana-integration.md)
 

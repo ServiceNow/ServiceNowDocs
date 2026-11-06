@@ -1,5 +1,5 @@
 ---
-title: When to use flows and playbooks
+title: When to use flows and Playbook
 description: Use these general guidelines to determine when to create a flow or a playbook.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/when-to-use-flows-and-playbooks.html
@@ -7,12 +7,12 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Playbook, Explore, Workflow Studio, Build workflows]
+breadcrumb: [Explore, Workflow Studio, Build workflows]
 ---
 
-# When to use flows and playbooks
+# When to use flows and Playbook
 
 Use these general guidelines to determine when to create a flow or a playbook.
 
@@ -35,9 +35,9 @@ A flow is a good fit for process automations that met these criteria.
     The more subflows a flow calls, the more difficult it becomes to manage from the flows interface. While you can use conditional flow logic or a decision table to choose a subflow to run, playbooks offer a better user experience for running a sequence of subflows.
 
 
-## When to use playbooks
+## When to use Playbook
 
-Playbooks are built on activities, which use prebuilt flows, subflows, and actions as their building blocks.
+Playbook are built on activities, which use prebuilt flows, subflows, and actions as their building blocks.
 
 A playbook is a good fit for process automations that met these criteria.
 
@@ -54,5 +54,5 @@ A playbook is a good fit for process automations that met these criteria.
     Playbooks offer a better user experience for running a sequence of subflows.
 
 
-**Parent Topic:**[Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-automation-designer.md)
+**Parent Topic:**[Exploring Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/exploring-workflow-studio.md)
 

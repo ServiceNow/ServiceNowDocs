@@ -1,5 +1,5 @@
 ---
-title: Claims applications
+title: Insurance claims applications in Financial Services Operations
 description: ServiceNow Financial Services Operations for Insurance offers several applications that support automated claims processing across different lines of business.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/insurance-claims/insurance-claims-applications.html
@@ -7,19 +7,19 @@ release: zurich
 product: Insurance Claims
 classification: insurance-claims
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
-# Claims applications
+# Insurance claims applications in Financial Services Operations
 
 ServiceNow® Financial Services Operations for Insurance offers several applications that support automated claims processing across different lines of business.
 
 Financial Services Operations \(FSO\) claims applications offer two implementation approaches:
 
 -   Case type extension: in this approach, the claims applications require extending a case type from the base table for building a line of business specific flow.
--   Generic claim: in this approach, the application provides an out of the box robust framework which can be leveraged to build an end-to-end claim process with a few configuration steps.
+-   Generic claim: in this approach, the application provides a default robust framework which can be leveraged to build an end-to-end claim process with a few configuration steps.
 
 Review the following table for more information on the claims applications available in FSO to streamline your claims processes.
 

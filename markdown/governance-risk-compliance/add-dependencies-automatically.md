@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/add-dependencies-automatically.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -16,7 +16,7 @@ You can fetch the dependencies for the services or business services from CMDB i
 
 ## Fetching the dependencies from CMDB for the services
 
-Beginning with the Zurich release, the Data Relationships Framework supports the Operational Resilience application with the underlying framework to fetch the dependencies from CMDB. The Data Relationships Framework \(app-grc-relationship-config\) is installed with the Operational Resilience application by default. The CMDB dependencies are retrieved by calling an API from the Data Relationships Framework.​
+Beginning with the Brazil release, the Data Relationships Framework supports the Operational Resilience application with the underlying framework to fetch the dependencies from CMDB. The Data Relationships Framework \(app-grc-relationship-config\) is installed with the Operational Resilience application by default. The CMDB dependencies are retrieved by calling an API from the Data Relationships Framework.​
 
 To get the CMDB dependencies, the Operational Resilience administrator must activate the main node configuration, labeled as **Service \(CMDB\)** in the Data Relationships Framework first.​
 
@@ -76,7 +76,7 @@ To fetch the CMDB dependency updates or BIA dependency updates, the following co
 
 ## Adding the dependencies manually
 
-If the entity does not belong to an entity type such as Facilities, People, Suppliers, Technology, Operational Resilience users must add it to the corresponding entity type manually.​ Instead of using the scheduled job, Operational Resilience administrators and managers can update the dependencies manually.
+If the entity does not belong to an entity type such as Facilities, People, Suppliers, or Technology, Operational Resilience users must add it to the corresponding entity type manually. Operational Resilience administrators and managers can also update the dependencies manually instead of using the scheduled job.
 
 ## Support for main node configuration in Data Relationships Framework
 

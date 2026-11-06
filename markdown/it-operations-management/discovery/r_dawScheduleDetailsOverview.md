@@ -7,7 +7,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Discovery Admin Workspace reference, Discovery reference, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -44,18 +44,6 @@ Total number of times this Discovery schedule ran in a certain time period.
 
 </td></tr><tr><td>
 
-Error Tasks
-
-</td><td>
-
-Indicator
-
-</td><td>
-
-Number of active \(in-progress or pending\) error tasks that were opened in a certain time period.
-
-</td></tr><tr><td>
-
 Timeline of events during schedule run
 
 </td><td>
@@ -76,7 +64,7 @@ Indicator
 
 </td><td>
 
-Number of certificates detected on the last run.
+Number of CIs detected on the last run.
 
 </td></tr><tr><td>
 

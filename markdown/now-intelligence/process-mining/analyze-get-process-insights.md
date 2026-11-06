@@ -7,9 +7,9 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Use, Process Mining, Platform Analytics]
 ---
 
 # Analyzing and getting process insights
@@ -30,8 +30,6 @@ From either the page or workbench, you can perform such tasks as cluster and pro
 
 -   **[Viewing business insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/view-business-findings.md)**  
 View key information about your business process from the Summary and insights page. See goals and performance indicators, and get insights on the improvement opportunities.
--   **[Working with finding definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/po-finding-definition.md)**  
-Use finding definitions to deliver discovered insights to your Summary and Insights dashboard.
 -   **[Select view for a graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/set-perspective.md)**  
 Choose to view the graph from the perspective of any one activity definition or all activity definitions set for the project.
 -   **[Refining a process map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/analyze-data.md)**  
@@ -43,13 +41,15 @@ View metrics and activity transitions you have defined.
 -   **[Adding notes to a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/annotate-project.md)**  
 Add, view, and remove notes for a project to help manage tasks, ideas, and insights. Tag others to notify them to view a note.
 -   **[Export a process to Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/export-to-playbook.md)**  
-Export a process to Playbooks to use the advanced features available from Workflow Studio to improve your processes. This feature works with ServiceNow Otto.
+Export a process to Playbooks to use the advanced features available from Workflow Studio to improve your processes. This feature works with AI.
 -   **[Comparing projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/comparing-models.md)**  
 Comparing projects side by side enables you to investigate performance differences or deviations from an ideal route.
 -   **[Automated root cause analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/auto-rca.md)**  
 Find where and why inefficiencies occur within your processes using automated root cause analysis.
 -   **[Cluster analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/cluster-analysis.md)**  
 When identifying an activity, connection, improvement opportunity, or route as a potential bottleneck, view clusters of keyword descriptions and assignment groups to gain insights.
+-   **[Intent and activity analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/intent-activity-analysis.md)**  
+The Intent and activity analysis automates the extraction and interpretation of work notes, enabling analysts to understand task patterns, identify rework, and uncover automation opportunities across end-to-end processes.
 -   **[Work notes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/worknotes-analysis.md)**  
 Work notes analysis helps you understand the operational reasons behind activity transitions, as recorded in work notes and comments. Typical examples include transitions from resolved to work in progress or changes in assignment groups, such as from service desk to specialist group.
 -   **[Idle time analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/idle-time-analysis.md)**  

@@ -7,7 +7,7 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Floor map, Network visualization view, Use, Telecommunications Network Inventory]
 ---
@@ -72,7 +72,7 @@ After you create your Indoor Mapping campus record, do the following to view the
 2.  [Map a Configuration Item to a floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/map-ci-floor-map-location.md)
 3.  [Customize overlays on the floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/customize-ovarlays-floor-map.md)
 4.  [Customize overlay time series on the floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/customize-overlay-time-series-floor-map.md)
-5.  [View floor map details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/view-details-floor-map.md)
+5.  [View details of floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/view-details-floor-map.md)
 
 **Parent Topic:**[Floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/using-floor-map.md)
 

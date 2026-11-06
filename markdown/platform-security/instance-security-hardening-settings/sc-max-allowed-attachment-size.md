@@ -1,5 +1,5 @@
 ---
-title: Maximum allowed attachment size \[Updated in Security Center 1.3\]
+title: Maximum allowed attachment size
 description: Configure the com.glide.attachment.max\_size property to control the maximum size \(in megabytes\) permitted for an uploaded attachment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-max-allowed-attachment-size.html
@@ -7,16 +7,20 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [File and resources, Hardening settings, Platform Security]
 ---
 
-# Maximum allowed attachment size \[Updated in Security Center 1.3\]
+# Maximum allowed attachment size
 
 Configure the **com.glide.attachment.max\_size** property to control the maximum size \(in megabytes\) permitted for an uploaded attachment.
 
-This property controls the maximum size \(in megabytes\) of an uploaded attachment. If this property is not set to the recommended value of **1024** \(1 gigabyte\) or less, the platform can accept large files that could fill up storage and lead to a Denial of Service \(DoS\) attack.
+The **com.glide.attachment.max\_size** system property controls the maximum size of uploaded attachment in megabytes. If the value of property **com.glide.attachment.max\_size** is 1024 then the max allowed attachment size is 1Gb.
+
+**Note:** A real attachment size is calculated through multiplication 1024 \* value of the **com.glide.attachment.max\_size** property.
+
+Ensure that the property **com.glide.attachment.max\_size** is set to `1024` or less.
 
 ## More information
 
@@ -50,7 +54,7 @@ Data type
 
 </td><td>
 
-integer
+Integer
 
 </td></tr><tr><td>
 
@@ -58,11 +62,19 @@ Recommended value
 
 </td><td>
 
-1024
+An integer less than or equal to 1024
 
 </td></tr><tr><td>
 
 Default value
+
+</td><td>
+
+1024
+
+</td></tr><tr><td>
+
+Fallback value
 
 </td><td>
 
@@ -84,7 +96,7 @@ Security risk
 
 -   Severity score: 6.5
 -   CVSS score: Medium
--   Security risk details: If this property is not set to **1024** \(1 gigabyte\) or less, the platform could accept large files which may lead to a DoS attack.
+-   Security risk details: The platform can accept large files that could fill up storage or cause a denial of service.
 
 </td></tr><tr><td>
 

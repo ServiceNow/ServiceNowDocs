@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-01-07"
 reading_time_minutes: 2
 keywords: [step-to-job mapping, Ansible jobs, resolution steps, automation mapping]
-breadcrumb: [Use, Learning Enhanced Automation Platform \(LEAP\), ServiceNow Otto for ITOM, IT Operations Management]
+breadcrumb: [Use, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
 ---
 
 # Map Ansible jobs to resolution steps
@@ -41,7 +41,7 @@ Step-to-job mapping creates the relationship between specific resolution steps a
 
 4.  Select **Review details** to open the mapping modal.
 
-    \[Omitted image "image.map\_ansible\_playbooks"\] Alt text: Map resolution steps to Ansible pllaybooks
+    \[Omitted image "map\_ansible\_playbooks.png"\] Alt text: Map resolution steps to Ansible playbooks
 
     This button appears only after the Ansible discovery agent has analyzed the automation opportunity and identified candidate job templates. If the button does not appear, confirm that the Ansible discovery agent has completed analysis.
 

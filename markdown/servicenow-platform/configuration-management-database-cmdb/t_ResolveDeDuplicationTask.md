@@ -1,31 +1,31 @@
 ---
 title: Review de-duplication tasks \(manual\)
-description: Review details of de-duplication tasks, and then potentially remediate a de-duplication task.
+description: Review details of de-duplication tasks which remediate duplicate CIs, and then potentially process a de-duplication task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/t\_ResolveDeDuplicationTask.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Duplicate CIs remediation, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Review de-duplication tasks \(manual\)
 
-Review details of de-duplication tasks, and then potentially remediate a de-duplication task.
+Review details of de-duplication tasks which remediate duplicate CIs, and then potentially process a de-duplication task.
 
 ## Before you begin
 
-Role required: itil to view, and itil\_admin or cmdb\_dedup\_admin to remediate a de-duplication task.
+Role required: sn\_cmdb\_editor or itil to view, and sn\_cmdb\_admin, itil\_admin, or cmdb\_dedup\_admin to remediate a de-duplication task.
 
 ## About this task
 
-Alternatively, you can use de-duplication capabilities in the CMDB Workspace. Use the De-duplication dashboard and the De-duplication Template Library to:
+Alternatively, you can use de-duplication capabilities in CMDB Workspace. Use the De-duplication dashboard and the De-duplication Template Library to:
 
 -   Review de-duplication tasks
--   Remediate de-duplication tasks in bulk by using de-duplication templates
+-   Process de-duplication tasks in bulk by using de-duplication templates
 -   Gain insights into de-duplication counts and status in your organization
 
 For more information, see [CI de-duplication experience in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/dedup-ci-exp-cmdb-workspace.md).
@@ -99,7 +99,7 @@ State
 State of the de-duplication task as it progresses through resolution.
 
 </td></tr></tbody>
-</table>3.  Click the **Duplicate Audit Results** tab in the related lists section, to see the list of duplicate CIs in this task. You can click a CI to display more CI details.
+</table>3.  In the related lists section, click the **Duplicate Audit Results** tab to see the list of duplicate CIs in this task. You can click a CI to display more CI details.
 
 <table id="table_ng3_kgn_js"><thead><tr><th>
 
@@ -145,7 +145,7 @@ Discovery method used for the CI.
 </table>
 ## What to do next
 
-Analyze de-duplication tasks to determine which CIs should remain active and which of the duplicate CIs in the Duplicate Audit Results lists are stale or incorrect. Click **Remediate** to [remediate a single de-duplication task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md).
+Analyze de-duplication tasks to determine which CIs should remain active and which of the duplicate CIs in the Duplicate Audit Results lists are stale or incorrect. Select **Remediate** to [remediate a single de-duplication task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md).
 
 **Parent Topic:**[Duplicate CIs remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md)
 

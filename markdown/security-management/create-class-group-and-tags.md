@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/create-class-group-and-tags.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Security Operations common functionality, Security Operations]
 ---
@@ -37,7 +37,7 @@ You can assign tags to security incidents, response tasks, vulnerable items, obs
         -   **TLP: RED:** All observables, regardless of their TLP tag, can be shared with a TLP: RED profile since TLP: RED is the highest ranked TLP tag.
         **Note:** You can add other TLP colors, but any in addition to the four colors included are considered not valid by the Forum for Incident Response and Security Teams \([FIRST](https://www.first.org/)\).
 
-2.  Select **New**.
+2.  Select **New Group**.
 
 3.  Fill in the fields on the form, as appropriate.
 
@@ -86,7 +86,7 @@ Description
 Brief description of this group.
 
 </td></tr></tbody>
-</table>4.  Select and hold \(or right-click\) the form header and select **Save**.
+</table>4.  Select **Save**.
 
     The Security Tags related list appears.
 
@@ -108,9 +108,9 @@ Brief description of this group.
 
 7.  Repeat as needed to create more security tags.
 
-8.  Select **Update**.
+8.  Select **Save**.
 
-    **Note:** You can also create tags by navigating to **Security Operations** &gt; **Security Tags** &gt; **Tags**. The procedure is the same.
+    **Note:** You can also create tags by selecting **New** button on the list view. The procedure is the same.
 
 
 -   **[Create security tag rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/create-security-tag-rules.md)**  

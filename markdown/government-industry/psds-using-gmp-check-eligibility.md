@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-03-18"
 reading_time_minutes: 1
-breadcrumb: [Screen a grant application, Grants Management Proposal Playbook, Grants Management, Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Screen a grant application, Grants Management Proposal Playbook, Grants Management, Solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Check eligibility of an applicant

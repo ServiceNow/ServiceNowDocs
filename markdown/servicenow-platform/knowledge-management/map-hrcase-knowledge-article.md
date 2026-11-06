@@ -7,7 +7,7 @@ release: zurich
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Enable actionable knowledge feedback, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -57,58 +57,45 @@ Role required: admin
     -   In the **Target** field, select the field in the article template target table to which you need information copied to from the field in the source Incident table.
 9.  To customize when and how the **Knowledge** check box is displayed, click the **Condition** tab.
 
-10. Set **Use Advanced Condition** to true.
+10. To map fields using advanced scripts, select the **Advanced Field Mapping** check box.
 
-11. In the **Advanced Condition** window, paste the following code.
+11. On the **Advanced field Mapping** tab, paste in the following code.
 
     ```
-    (function(source) {
+    (function (source) {
+       // Get the first comments from HR case and use it as Issue description for article
+       target.short_description=source.short_description+“”;
+       target.kb_resolution=source.close_notes+“”;
+       target.kb_cause=source.description+“”;
+      var notes = source.comments.getJournalEntry(-1);
+      var entries = notes.split(“\n\n”);
+      var comment = “”;
+      if(entries[entries.length-2]){
+          comment = entries[entries.length-2];
+          var part = comment.toString().indexOf(“)”);
+          if(part != -1){
+    comment = comment.toString().substring(part+2).replaceAll(“\r\n”,“<br/>“);
+      }
+      }if(comment)
+          target.kb_issue = comment;
     
-        //Only if selected article type is active
-        var tem = new GlideRecord("kb_article_template");
-        tem.addQuery("child_table", "kb_template_kcs_article");
-        tem.addActiveQuery();
-        tem.query();
-        if (!tem.hasNext())
-            return false;
+       //Only if selected article type is active
+       var tem =  new GlideRecord("kb_article_template");
+       tem.addQuery("child_table","kb_template_kcs_article");
+       tem.addActiveQuery();
+       tem.query();
+       if(!tem.hasNext())
+           return false;
     
-        //Do not allow to create the knowledge again
-        var now_GR = new GlideRecord("kb_knowledge");
-        now_GR.addQuery("source", source.sys_id);
-        now_GR.query();
-        if (now_GR.next())
-            return false;
+       //Do not allow to create the knowledge again
+       var now_GR = new GlideRecord("kb_knowledge");
+       gr.addQuery("source",source.sys_id);
+       gr.query();
+       if(gr.next())
+           return false;
     
-        return true;
+       return true;
     })(source);
-    ```
-
-12. To map fields using advanced scripts, select the **Advanced Field Mapping** check box.
-
-13. On the **Advanced field Mapping** tab, paste in the following code.
-
-    ```
-    (function(source, target) {
-        // Get the first comments from HR case and use it as Issue description for article
-        target.short_description = source.short_description + '';
-        target.kb_resolution = source.close_notes + '';
-        target.kb_cause = source.description;
-        target.text = "Working good";
-        var notes = source.comments.getJournalEntry(-1);
-        var entries = notes.split('\n\n');
-        var comment = '';
-        if (entries[entries.length - 2]) {
-            comment = entries[entries.length - 2];
-            var part = comment.toString().indexOf(')');
-            if (part != -1) {
-                comment = comment.toString().substring(part + 2).replaceAll('\r\n', '<br/>');
-            }
-        }
-        if (comment)
-            target.kb_issue = comment;
-    
-    
-    })(source, target);
     ```
 
     The first comment on an HR case is mapped to the **Issue Description** field in the knowledge article.

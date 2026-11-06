@@ -25,11 +25,11 @@ To learn about migration and its benefits, see [Platform Analytics Migration Cen
 
 **Note:** You cannot use update sets to move the migrated material from a non-production instance to a production instance. Test the migration on the non-production instance and then use Migration Center functionality to migrate the production instance. If content on a dashboard is used in only one dashboard, it will be available only on that dashboard after migration. If it is used in more than one dashboard, that content is migrated to the Platform Analytics experience library.
 
-This task is only applicable on instances that are upgraded to releases Xanadu or later. Net new instances from Xanadu onward don't have the **Core UI** column or the **Switch to Next Experience UI** button.
+This task is only applicable on instances that are upgraded to releases Xanadu or later. Net new instances from Xanadu onward don't have the **Switch to Next Experience UI** button.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Self-Service** &gt; **Dashboards**.\[Omitted image "data-migration-mig-indiv-db1.png"\] Alt text: Personal dashboard showing the individual migration banner.
+1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**.
 
 2.  Open the dashboard that you want to migrate.
 
@@ -39,20 +39,20 @@ This task is only applicable on instances that are upgraded to releases Xanadu o
 
     \[Omitted image "data-migration-mig-indiv-db2.png"\] Alt text: Personal dashboard showing the individual migration banner.
 
-3.  Select **Switch to Platform Analytics experience**.
-
-    This converts the dashboard from Core UI to the new experience, marks the old version Inactive, and opens the converted dashboard.
+3.  Select **Switch to Next Experience UI**.
 
 
 ## Result
 
-The migrated dashboard appears in the Platform Analytics library. Links to the original Core UI dashboard redirect to the library as well.
+The migrated dashboard replaces the Core UI dashboard in the browser and in the Platform Analytics Dashboard library.
+
+The migrated dashboard appears in the library. Links to the original Core UI dashboard redirect to the Platform Analytics experience version too.
 
 ## What to do next
 
 Verify that the migrated dashboard has all the features of the Core UI dashboard, either as fully migrated content or as iframed content. For more information, see [Unmigrated content and compatibility mode migrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/data-mig-unmigrated-content.md).
 
-To roll back a migrated dashboard, select the More actions menu \(\[Omitted image "more-actions-menu-icon.png"\] Alt text: More actions menu icon\) and choose **Switch to the Core UI**.
+To roll back a migrated dashboard, select the More actions menu \[Omitted image "more-actions-menu-icon.png"\] Alt text: More actions menu icon and choose **Switch to the Core UI**. This option is available to analytics managers and admins for all migrated dashboards. Other dashboard owners can only roll back migrations on dashboards they have migrated themselves.
 
 \[Omitted image "data-migration-roll-back-indiv-db.png"\] Alt text: More actions menu with Switch to the Core UI option highlighted
 

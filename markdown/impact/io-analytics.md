@@ -1,16 +1,16 @@
 ---
-title: Analytics
+title: IO analytics
 description: View comparisons for performance of key metrics over time with the Impact Total package.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/io-analytics.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Overview of Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
-# Analytics
+# IO analytics
 
 View comparisons for performance of key metrics over time with the Impact Total package.
 
@@ -26,4 +26,13 @@ View comparisons for performance of key metrics over time with the Impact Total 
 
     Visualize trends and overlay key metrics to see impact
 
+
+-   **[Compare datasets in Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-compare-datasets-vid-tut.md)**  
+Instance Observer help you understand the impact of changes, troubleshoot issues, and understand performance patterns over time.
+-   **[Understand query patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-query-patterns-vid-tut.md)**  
+Discover and identify performance issues with efficient query patterns to filter records, build dynamic queries, and optimize application performance across tables and modules within the ServiceNow instances.
+-   **[User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/user-experience-insights.md)**  
+Explore real-time user monitoring to analyze user experience and performance insights in Instance Observer​ telemetry into node, transaction type, URL, and user level breakdowns for Impact Total customers.
+
+**Parent Topic:**[Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-overview.md)
 

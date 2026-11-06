@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/automate-the-recovery-tasks.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -28,7 +28,7 @@ The flow setup involves these steps:
 2.  User then defines the inputs to provide necessary information for the automation flow.
 3.  The automation process includes actions to automate the manual task and update its completion status.
 
-Automated tasks are executed sequentially until a manual task is encountered. If an automated task fails, manual intervention is required to trigger it again. In case of a failure in the automation process,you can retrigger it and verify its completion. If a task fails, the backup assignee is notified via email and must perform the necessary manual actions to address the failure. This confirms that the recovery process continues smoothly even in the event of automation issues.
+Automated tasks are executed sequentially until a manual task is encountered. If an automated task fails, manual intervention is required to trigger it again. In case of a failure in the automation process, you can retrigger it and verify its completion. If a task fails, the backup assignee is notified via email and must perform the necessary manual actions to address the failure. This confirms that the recovery process continues smoothly even in the event of automation issues.
 
 ## Procedure
 

@@ -7,9 +7,9 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [NLQ Genius Results, Genius Result configurations in the base system, Genius Results, Search profiles, Configure, AI Search, Search administration, Configure core features, Administer]
+breadcrumb: [NLQ Genius Results, Genius Result configurations in the base system, Genius Results, Search profiles, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Configure navigation actions for NLQ Genius Result answer cards
@@ -24,7 +24,7 @@ Role required: ais\_admin
 
 When you select **View full table** on an NLQ Genius Result answer card, the action performed depends on how the matching table was found. The default actions are as follows.
 
--   For a table found by an Analytics Center table query, the table displays in list view.
+-   For a table found by an Analytics Overview table query, the table displays in list view.
 -   For a table found by a CMDB table query, the CMDB workspace opens.
 
 As a search administrator, you can customize the actions available for NLQ Genius Result answer cards.
@@ -35,7 +35,7 @@ As a search administrator, you can customize the actions available for NLQ Geniu
 
     1.  Select **All**.
 
-    2.  In the **Filter** field, enter `ais_nlq_navigation.list`.
+    2.  In the navigation field, enter `ais_nlq_navigation.list`.
 
     3.  Press Enter.
 
@@ -62,11 +62,11 @@ Optional NLQ source filter for the navigation action. The action only operates f
  As an example, suppose you have two navigation actions: one with **Source** set to `CMDB_WS` and a second one with no **Source** field value.
 
 -   When an NLQ Genius Result answer card previews a table returned by the CMDB NLQ source, selecting **View full table** triggers the first navigation action because the table name satisfies the action's NLQ source filter.
--   When an NLQ Genius Result answer card previews a table from the Analytics Center NLQ source, selecting **View full table** instead triggers the second navigation action because the table's NLQ source doesn't satisfy the first action's NLQ source filter.
+-   When an NLQ Genius Result answer card previews a table from the Analytics Overview NLQ source, selecting **View full table** instead triggers the second navigation action because the table's NLQ source doesn't satisfy the first action's NLQ source filter.
  -   Type: string
 -   Default value: none.
 -   Supported values:
-    -   **AC**: The navigation action only operates for tables returned by the Analytics Center NLQ source.
+    -   **AC**: The navigation action only operates for tables returned by the Analytics Overview NLQ source.
     -   **CMDB\_WS**: The navigation action only operates for tables returned by the CMDB NLQ source.
 
 

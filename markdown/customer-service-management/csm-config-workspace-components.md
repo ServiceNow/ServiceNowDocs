@@ -1,0 +1,46 @@
+---
+title: CRM Workspace components
+description: Content pages in CRM Workspace, such as record pages, are made up of reusable components that display information or enable agents to complete tasks.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-config-workspace-components.html
+release: zurich
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Record pages and page templates, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+---
+
+# CRM Workspace components
+
+Content pages in CRM Workspace, such as record pages, are made up of reusable components that display information or enable agents to complete tasks.
+
+## Action bar
+
+The action bar contains the actions available to agents while working on case records. This includes buttons on the action bar and menu items in the More Actions menu. Each record page contains a set of actions that have been configured for that specific page.
+
+The action bar can also contain action groups which combine multiple actions in the same button. For example, the [Front-line case page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-front-line-case-page.md) includes the [Create action group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-config-ws-action-layout-groups.md) which displays a drop-down list with the available actions.
+
+Typical actions available in the action bar include:
+
+-   **Create**: Create records such as work orders, incidents, and requests.
+-   **Manage case**: Perform case management actions such as accepting a case or requesting information.
+-   **Save**: Save changes to the case record.
+-   **Follow**: Receive notifications when comments or work notes are added to the record. When selected, the button toggles to **Unfollow**.
+-   **More Actions**: Perform additional actions such as proposing a major case or reporting a knowledge gap.
+
+**Note:** The specific actions available are determined by factors such as the user role, case state, and other attributes.
+
+## Task SLA cards component
+
+The Task SLA cards component displays the status of one or more Service Level Agreements \(SLAs\) for the current record in card format. The Task SLA cards component can display multiple SLAs. The cards are displayed in a carousel with horizontal navigation. If more than one SLA card is present, agents can use arrows to scroll through the cards. For more information, see [Task SLA cards component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-record-page-sla-card-component.md).
+
+## Task activity timeline controller and preset
+
+The timeline uses icons to display record events and colors to show ranges of time, such as when a case is with the agent or the customer. Agents can use the timeline in the following ways:
+
+-   Zoom in and out.
+-   Select the **Show details** toggle to display more information.
+-   Hover over the icons to show tool tips.
+
+For more information, see [Task activity timeline preset and controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-record-page-timeline-component.md).
+

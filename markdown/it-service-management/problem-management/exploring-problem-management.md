@@ -7,8 +7,8 @@ release: zurich
 product: Problem Management
 classification: problem-management
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Problem Management, IT Service Management]
 ---
 
@@ -144,7 +144,13 @@ Resolve the issue and add detailed notes for the resolution for future reference
 Problem Coordinator
 
 </td></tr></tbody>
-</table>-   **[Problem Management process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/c_ProblemManagementProcess.md)**  
+</table>## Redirection of UI16 module links to Service Operations Workspace
+
+If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the Problem Management module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
+
+**Note:** For new instances, this redirection configuration is automatically available in the base system. For upgrade instances, administrators can configure the redirection behavior from the SOW Admin Center.
+
+-   **[Problem Management process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/c_ProblemManagementProcess.md)**  
 Within the platform, problems are handled using the task record system. Each problem is generated as a task record through various means, and is populated with the pertinent information. These tasks are assigned to Problem Management team members to resolve and then close.
 -   **[Problem Management models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/problem-mgmt-models.md)**  
 You can use Problem Management models to tailor processes for specific use cases.

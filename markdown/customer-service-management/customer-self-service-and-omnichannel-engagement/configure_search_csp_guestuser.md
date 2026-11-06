@@ -7,9 +7,9 @@ release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure the Customer and Consumer Service Portals, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Configure the Customer and Consumer Service Portals, Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Enable AI search in the Customer and Consumer Service Portals for unauthenticated users
@@ -18,7 +18,7 @@ An administrator activates the AI search widgets so that guest users logging in 
 
 ## Before you begin
 
-Role required: admin
+Role required: sp\_admin
 
 You must configure AI Search for the Customer and Consumer Service Portals. For more information, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/enable-ais-sp.md).
 

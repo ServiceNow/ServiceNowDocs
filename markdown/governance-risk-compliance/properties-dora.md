@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/properties-dora.html
 release: zurich
 topic_type: reference
-last_updated: "2026-05-04"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Digital resilience third-party registers reference, Reference, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
@@ -88,6 +88,8 @@ Decimal places for monetary values.
  Enter `2` to keep monetary values to 2 decimal places on download. When the value is greater than 0, the system formats the downloaded value to that many decimal places instead of rounding to a whole number.
 
  The default value is 0. This property applies to the Excel Master Template download and CSV download only. It does not apply to UI display, upload or validation, individual table downloads, or database storage.
+
+ Supported values are `2`, `0`, `-3`, and `-6`, as defined in EBA XBRL Filing Rules v4.3 Rule 2.18. The system applies a value of 0 if you enter an unsupported value.
 
 </td></tr><tr><td>
 

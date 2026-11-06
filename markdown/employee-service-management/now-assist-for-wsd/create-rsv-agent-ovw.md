@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: concept
-last_updated: "2026-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
@@ -26,4 +26,11 @@ Visit these resources about ServiceNow Otto for Virtual Agent.
 -   [Portal prerequisites for enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/prerequisites-enhanced-chat.md)
 -   [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/configure-now-assist-va.md)
 -   [Using ServiceNow® Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/using-now-assist-in-va.md).
+
+-   **[Making reservations using the Create a reservation agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/using-reservation-agent.md)**  
+The Create a reservation agent enables employees to find an available space and create workplace reservations quickly.
+-   **[Using the workplace collaboration Agent for space suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/suggest-space-agent.md)**  
+The Workplace Collaboration Agent provides insights on your team members in-office attendance. Based on this information, the reservation agent finds and reserves a space for reservation and collaboration. The collaboration agent considers your colleague's in-office days, location, and suggests a space for collaboration when you're in office.
+
+**Parent Topic:**[ServiceNow Otto for Workplace Service Delivery \(WSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/now-assist-wsd-landing.md)
 

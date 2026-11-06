@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Application services in Event Management, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -33,7 +33,7 @@ In a service map, you can configure or modify a specific CI or a generic CI clas
 -   **[Configure a manual cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-manual-cluster.md)**  
 Provide redundancy capabilities of an entire cluster in case of failure of one or more CIs in that cluster. By viewing the relative impact of a cluster member on the cluster information, you can better understand the source of alerts and take remediation steps.
 -   **[Modify a manual cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/modify-a-manual-cluster.md)**  
-Modify an existing manual cluster by changing the service, the specific CI, the generic CI class, or the description.
+Modify an existing manual cluster by changing the service, CI, CI class, or description.
 
 **Parent Topic:**[Application services in Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/application-service-event-management.md)
 

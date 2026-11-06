@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/field-descriptions-customer-order-line-items.html
 release: zurich
 topic_type: reference
-last_updated: "2025-10-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Order Management reference, Reference, Sales Customer Relationship Management]
 ---
@@ -50,7 +50,7 @@ Product specification
 
 </td><td>
 
-Product specification that is associated with the order line item. To learn more, see .
+Product specification that is associated with the order line item.
 
  This field is displayed if the Order type is Product.
 
@@ -68,7 +68,7 @@ Product model
 
 </td><td>
 
-Product offering purchased by the customer. To learn more, see .
+Product offering purchased by the customer.
 
 </td></tr><tr><td>
 
@@ -94,7 +94,7 @@ Priority
 
 </td><td>
 
-The priority of completing the order. Options include:
+The priority of completing the order. The available options are:
 
 -   1 - Critical
 -   2- High
@@ -122,7 +122,7 @@ Order line action
 
 </td><td>
 
-Type of action that is taking place in the order line item. Options include:
+Type of action that is taking place in the order line item. The available options are:
 
 -   Add
 -   Change
@@ -182,7 +182,7 @@ Service location
 
 </td><td>
 
-The location or site at which a product must be delivered, provisioned, or serviced.
+The location or site at which a product needs to be delivered, provisioned, or serviced.
 
 </td></tr><tr><td>
 
@@ -207,16 +207,6 @@ Version
 </td><td>
 
 Current version of the customer order line item. Indicates the number of times that you revised the customer order line item during the fulfillment process. A new order line item without any revisions has a version of 1 \(one\) and automatically increments for each inflight revision.
-
-</td></tr><tr><td>
-
-Move Operation
-
-</td><td>
-
-The service location changes to new location. This is read-only check box.
-
- It’s applicable only when the action state is **Change**.
 
 </td></tr><tr><td>
 

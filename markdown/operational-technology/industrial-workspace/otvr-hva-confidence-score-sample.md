@@ -7,8 +7,8 @@ release: zurich
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Operational Technology Hardware Vulnerability Assessment, Explore, Industrial Workspace, Operational Technology]
 ---
 
@@ -24,14 +24,6 @@ The Confidence Score varies for the following assessments:
 
 -   Fully matched assessments: The Confidence Score is 1 for full assessments as all the parameters in the CVE information matches the device discovery model values available for the OT device.
 -   Partially matched assessments: The Confidence Score is less than 1 for partial assessments as all the parameters in the CPE information doesn’t match the device discovery model values available for the OT device.
-
-Following is an example of calculating the confidence score from the Common Platform Enumeration \(CPE\) information available for an OT device.
-
-The following is a sample of a vulnerability assessment record, **CVE-2019-13946**: \[Omitted image "hva-confidence-score-example.png"\] Alt text: Screenshot displaying a CVE vulnerability for the OT device, named OT\_device\_demo\_internal\_963.
-
-The following is a sample of information available in CPE Firmware mapped to the OT device, **OT\_device\_demo\_internal\_963**:\[Omitted image "hva-cpe-firmware-info-example.png"\] Alt text: Screenshot displaying the CPE Firmware information available in the OT device, named OT\_device\_demo\_internal\_963.
-
-The following is a sample of the information available in discovery model for the OT device, **OT\_device\_demo\_internal\_963**:\[Omitted image "hva-discovered-model-cpe-example.png"\] Alt text: Screenshot displaying the device discovery model information available in the OT device, named OT\_device\_demo\_internal\_963.
 
 ## How to calculate the confidence score
 

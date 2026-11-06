@@ -7,7 +7,7 @@ release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2025-11-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Access control by legal entity, Use, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -31,7 +31,7 @@ The following steps outline how to configure access control in Privacy Managemen
 
     -   Provide access to teams and users based on your organizational structure. You can grant access to individual users, such as entity owners or privacy analysts, or to groups.
     -   Specify whether access applies only to the selected entity or also to downstream entities. This step ensures that only the appropriate teams or users can access records for their part of the organization.
-    For information, see [Create an entity configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/create-oganizational-structure.md).
+    For information, see [Create an entity configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/create-oganizational-structure.md).
 
 5.  Run a bulk access update to switch from role-based access to entity-based access for all applicable records. Bulk Access Update enforces entity-based access restrictions across relevant records in Privacy Management.
 
@@ -52,7 +52,7 @@ The following steps outline how to configure access control in Privacy Managemen
 
 -   **[Configure Entity-based access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/configure-entity-based-access.md)**  
 Configure entity-based access by installing the Entity-based Access Configurations plugin and enabling properties for record types.
--   **[Create an entity configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/create-oganizational-structure.md)**  
+-   **[Create an entity configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/create-oganizational-structure.md)**  
 Create an organizational structure by configuring entity-based access for different levels such as headquarters, regional offices, and subsidiaries. Define access rules for users and groups.
 -   **[Add hierarchical relationships between entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/add-hierarchical-relationships.md)**  
 Define hierarchical relationships between entities \(Global → Regional → Country-level\) using Upstream and Downstream options. Adding an hierarchy creates a clear organizational structure.

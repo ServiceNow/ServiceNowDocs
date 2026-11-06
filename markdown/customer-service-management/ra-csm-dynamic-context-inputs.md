@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/ra-csm-dynamic-context-inputs.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Context inputs in Recommended Actions]
 breadcrumb: [Recommended Actions, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
@@ -54,7 +54,7 @@ The context inputs appear along with the context table in the appropriate fields
 
 As an RA author or admin, you must add the JSON-format of the context inputs in the **Context input** field of Recommended Actions UIB component of a record page to pass the values. You can get the JSON-format of the context input by selecting the **Copy input JSON** button on the Context input related list in the Context form. The JSON-format includes all the active context inputs. When a context input is deleted or deactivated after configuring the Recommended Actions UIB component, an empty value is passed for these context inputs in UIB from the upcoming iterations.
 
-**Note:** If you set a context input as [mandatory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ra-csm-create-context-inputs.md) in the Context input form and fail to set contextual inputs on Recommended Actions component in the UIB, the recommendations will not be generated.
+**Note:** If you set a context input as [mandatory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ra-csm-create-context-inputs.md) in the Context input form and fail to set contextual inputs on Recommended Actions component of the record page in the UIB, the recommendations are not be generated.
 
 ## Context Input configuration limitations
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/install-public-sector-digital-services-core.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Activate Public Sector Core, Getting Started with Public Sector, Set up your environment, Configure, Public Sector Digital Services \(PSDS\)]
 ---
@@ -16,7 +16,7 @@ You can install the Public Sector Digital Services Core application \(sn\_gsm\) 
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the Public Sector Digital Services Core application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
     The Public Sector Digital Services Core application requires a subscription.
@@ -53,5 +53,5 @@ For more information, see [Components and Roles installed with Public Sector Dig
 
 ## What to do next
 
-Use [guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/configure-psds-foundation-data.md) to configure the Public Sector Digital Services Core application. If you're not using guided setup, you can customize the Government Service Portal and configure the CRM Workspace for public sector use by following the [optional configuration steps for Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-optional-config-steps.md).
+Use [guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/configure-psds-foundation-data.md) to configure the Public Sector Digital Services Core application. If you're not using guided setup, you can customize the Government Service Portal and configure the Public Sector Workspace for public sector use by following the [optional configuration steps for Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-optional-config-steps.md).
 

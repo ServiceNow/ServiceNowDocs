@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/csm-fsm-integration.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Integrate with FSM, Configuring order fulfillment, Order management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Integrate with FSM, Configure order fulfillment, Order management, Configure, Sales Customer Relationship Management]
 ---
 
 # Integrating with Field Service Management
@@ -39,7 +39,7 @@ Updating the **Account** field on the Work order form also updates the **Company
 
 ## Changes to the Customer Service Management application
 
-In the Customer Service Management application, this integration adds the **Work Orders** link to the Customer Service Portal and Consumer Service Portal headers. Select this link to view a list of work orders, including the work order number, priority, state, and short description. The work orders displayed in this list on the Customer Service Portal depend on the customer role: customer, customer Admin, partner, or partner Admin.
+In the Customer Service Management application, this integration adds the **Work Orders** link to the Customer Service Portal and Consumer Service Portal headers. Select this link to view a list of work orders, including the work order number, priority, state, and short description. The work orders displayed in this list on the Customer Service Portal depend on the customer role: customer, customer admin, partner, or partner admin.
 
 Select a work order in this list to display the work order details.
 

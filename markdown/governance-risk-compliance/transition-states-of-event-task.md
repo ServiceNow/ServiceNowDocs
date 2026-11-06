@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/transition-states-of-event-task.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Creating similar tasks groups, Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---

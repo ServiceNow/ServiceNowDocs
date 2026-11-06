@@ -1,5 +1,5 @@
 ---
-title: Create an application service
+title: Create a Service instance \(application service\)
 description: Create an application service to adhere to Common Service Data Model standards and to standardize the organization, maintenance, and monitoring of services in your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/create-it-services.html
@@ -7,12 +7,12 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Application services, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Service instances \(Application services\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Create an application service
+# Create a Service instance \(application service\)
 
 Create an application service to adhere to Common Service Data Model standards and to standardize the organization, maintenance, and monitoring of services in your organization.
 
@@ -42,13 +42,11 @@ You can also create an application service by using the [createOrUpdateService -
 
 1.  Navigate to **All** &gt; **CSDM** &gt; **Manage Technology Management Services** &gt; **Service Instance**.
 
-2.  In the Application Services list view, select **New** to open the Application Service wizard.
+2.  In the Service Instances list view, select **New** to open the Application Service wizard.
 
 3.  In the **Provide Basic Details** tab:
 
     1.  Fill out the fields for Basic Details.
-
-        \[Omitted image "app-services-tab1.png"\] Alt text: Basic details tab for new application service
 
 <table id="table_gtd_cxq_zkb"><thead><tr><th>
 

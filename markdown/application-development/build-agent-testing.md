@@ -6,9 +6,9 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/
 release: zurich
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 5
+reading_time_minutes: 7
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
+breadcrumb: [Use, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Test what you built with Build Agent
@@ -17,7 +17,9 @@ Test Agent generates test coverage for code created by Build Agent, executes tes
 
 Test Agent extends Build Agent by making every build safe before release. After Build Agent produces code changes in a development instance, Test Agent consumes the same prompt and code context. It uses those to author functional Automated Test Framework \(ATF\) tests, execute those tests, and triage any failures automatically.
 
-For details on configuring tests in Build Agent, see [Configure auto test prompting and UI tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-config-testing.md).
+-   For details on configuring tests in Build Agent, see [Configure auto test prompting and UI tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-config-testing.md).
+-   For more information ATF test generation, see [ATF test generation in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/test-agent-atf-test-gen-ba.md).
+-   For complete documentation on using Test Agent, see [Test Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/test-agent-landing-page.md).
 
 If a test fails, Test Agent performs an RCA. Then it either auto-applies safe fixes or surfaces actionable guidance in the chat panel so you can resolve the issue without leaving ServiceNow Studio or the ServiceNow IDE.
 
@@ -45,11 +47,12 @@ To manually prompt for tests, ask Build Agent to `Generate ATF tests for all the
 The end-to-end workflow is:
 
 1.  Create or edit an app in a development instance using Build Agent in ServiceNow Studio or the ServiceNow IDE, driven by your prompt.
-2.  Test Agent consumes the prompt and the resulting code changes to generate contextually relevant functional and UI ATF tests.
-3.  Respond to Build Agent asking whether you want to run the tests.
-4.  Failures are automatically triaged. Test Agent produces an RCA and either applies safe fixes autonomously or proposes them to you through the chat panel.
-5.  Build Agent ingests the RCA from Test Agent and re-executes tests until a passing status is achieved, completing the auto-heal loop. Stale tests are automatically updated to reflect the newest functionality.
-6.  Alternatively, ask Build Agent to create or run a test suite to execute multiple tests as a group and review consolidated results in the chat panel.
+2.  Alternatively, start from an Autonomous Engineer application plan. Test Agent reads the stories and acceptance criteria in the plan and generates tests automatically as implementation begins, without a separate prompt. For more information on running tests in Autonomous Engineer, see [Autonomous Engineer in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-autonomous-engineer.md).
+3.  Test Agent consumes the prompt and the resulting code changes to generate contextually relevant functional and UI ATF tests.
+4.  Respond to Build Agent asking whether you want to run the tests.
+5.  Failures are automatically triaged. Test Agent produces an RCA and either applies safe fixes autonomously or proposes them to you through the chat panel.
+6.  Build Agent ingests the RCA from Test Agent and re-executes tests until a passing status is achieved, completing the auto-heal loop. Stale tests are automatically updated to reflect the newest functionality.
+7.  Alternatively, ask Build Agent to create or run a test suite to execute multiple tests as a group and review consolidated results in the chat panel.
 
 ## Key developer experiences for Test Agent in Build Agent
 
@@ -57,9 +60,13 @@ The end-to-end workflow is:
 
     When you use Build Agent to implement a story, you can prompt it to create functional and UI tests automatically.
 
+-   **Test generation from Autonomous Engineer plans**
+
+    When you use Autonomous Engineer to produce an application plan, Build Agent hands off that plan to Test Agent as implementation begins. Test Agent reads each story and its acceptance criteria in the plan and automatically generates Automated Test Framework tests to validate the expected behavior. Generated tests are executed immediately, and any failures are triaged by Test Agent before control returns to you in the chat panel. This closes the loop from planning to tested implementation within a single Build Agent session, without a separate prompt to create or run tests.
+
 -   **UI testing**
 
-    Generate comprehensive UI tests for applications you build with Build Agent. UI testing extends the existing functional test capability to cover browser-level interactions, such as multi-step page navigation flows. Request a UI test by prompting Build Agent to generate a UI test for the application or flow you want to validate.
+    Generate comprehensive UI tests for applications you build with Build Agent. UI testing extends the existing functional test capability to cover browser-level interactions, such as multi-step page navigation flows. Request a UI test by prompting Build Agent to generate a UI test for the application or flow you want to validate. For more information, see [UI Test Script in Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/test-agent-ui-test-script-atf.md).
 
 -   **List and related list step generation**
 

@@ -1,20 +1,20 @@
 ---
-title: Generate a knowledge article from the CSM/FSM Configurable Workspace and classic environment with Now Assist
-description: As an agent, generate knowledge articles for closed work order tasks within the CSM/FSM Configurable Workspace and classic environment with Now Assist.
+title: Generate a knowledge article from the CSM/FSM Configurable Workspace and classic environment
+description: As a technician, generate knowledge articles for closed work order tasks within the CSM/FSM Configurable Workspace and classic environment with ServiceNow Otto.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/na-fsm-generate-kb-article.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Execute work order tasks, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
-# Generate a knowledge article from the CSM/FSM Configurable Workspace and classic environment with Now Assist
+# Generate a knowledge article from the CSM/FSM Configurable Workspace and classic environment
 
-As an agent, generate knowledge articles for closed work order tasks within the CSM/FSM Configurable Workspace and classic environment with Now Assist.
+As a technician, generate knowledge articles for closed work order tasks within the CSM/FSM Configurable Workspace and classic environment with ServiceNow Otto®.
 
 ## Before you begin
 
@@ -23,15 +23,15 @@ To generate a knowledge article for a work order task, the work order task must 
 The following system property configurations are required so that agents can use the Knowledge Centered Service \(KCS\) template when generating knowledge articles.
 
 -   Install the Knowledge Management Advanced plugin. For details, see [Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/activate-knowledge-advanced-plugin.md).
--   Enable Knowledge Centered Services \(KCS\) for FSM by setting the system property **sn\_fsm.enable\_knowledge\_kcs** to true. Otherwise, Now Assist uses the standard template.
+-   Enable Knowledge Centered Services \(KCS\) for FSM by setting the system property **sn\_fsm.enable\_knowledge\_kcs** to true. Otherwise, ServiceNow Otto® uses the standard template.
 
-To enable an agent to see the Now Assist experience on the Create Article page, ensure that the following knowledge base generation criteria is configured:
+To enable an agent to see the ServiceNow Otto® experience on the Create Article page, ensure that the following knowledge base generation criteria is configured:
 
 -   The Customer workflow, FSM, and Platform workflow knowledge skills are activated.
 -   In the AI Admin Hub console, ensure that the following criteria are in place:
     -   The table record and input fields must be specified.
     -   Conditions for the skill availability must be specified from the list of attributes.
-    -   Display of the knowledge base generation feature In-product and the Now Assist panel must be specified.
+    -   Display of the knowledge base generation feature In-product and the ServiceNow Otto® panel must be specified.
 -   **Create Article** must be configured to apply the supported template; For example, Standard and KCS article HTML.
 
 -   Currently, only the **Create Article** experience is available.
@@ -40,7 +40,7 @@ Role required: wm\_dispatcher, wm\_manager
 
 ## About this task
 
-In the FSM Configurable Workspace and classic environment, you can generate the knowledge article information for a work order task by selecting **Create Knowledge** on the work order task record. This UI action displays the Use Al to draft this article modal. By using this modal, you can choose to write the article yourself or draft an article with Now Assist and review and edit the knowledge article text.
+In the FSM Configurable Workspace and classic environment, you can generate the knowledge article information for a work order task by selecting **Create Knowledge** on the work order task record. This UI action displays the Use Al to draft this article modal. By using this modal, you can choose to write the article yourself or draft an article with ServiceNow Otto® and review and edit the knowledge article text.
 
 ## Procedure
 
@@ -62,9 +62,9 @@ In the FSM Configurable Workspace and classic environment, you can generate the
 
 5.  Select **Create Article**.
 
-6.  In the Use Al to draft this article modal, select **Yes, draft with Now Assist**.
+6.  In the Use Al to draft this article modal, select **Yes, draft with Servicenow Otto**.
 
-    **Note:** When creating an article using Now Assist, once the process is triggered, it can't be stopped. Now Assist continues to generate the article even if you close the modal.
+    **Note:** When creating an article using ServiceNow Otto®, once the process is triggered, it can't be stopped. ServiceNow Otto® continues to generate the article even if you close the modal.
 
 7.  From the Select options modal, select the **Knowledge base** in which you would like to publish the article and, the **Article language** to be used to generate the article.
 
@@ -82,6 +82,6 @@ In the FSM Configurable Workspace and classic environment, you can generate the
 
 10. Review the Now Assist generated article and select **Submit** or **Publish**.
 
-    The Now Assist success message disappears indicating that it is no longer a Now LLM Service generated article.
+    The ServiceNow Otto® success message disappears indicating that it is no longer a Now LLM Service generated article.
 
 

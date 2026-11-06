@@ -7,9 +7,9 @@ release: zurich
 product: Walk-Up Experience
 classification: walk-up-experience
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [View and manage Walk-up Experience appointments in Agent Workspace, Manage queue and interaction, Walk-up Experience, IT Service Management]
+breadcrumb: [View and manage Walk-up Experience appointments in Agent Workspace, Manage Walk-up Experience queue and interactions, Walk-up Experience, IT Service Management]
 ---
 
 # Create an appointment through incident

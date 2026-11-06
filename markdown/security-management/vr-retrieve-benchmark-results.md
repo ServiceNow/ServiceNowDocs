@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/vr-retrieve-benchmark-results.html
 release: zurich
 topic_type: task
-last_updated: "2025-09-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [how to opt-in for benchmark scores]
 breadcrumb: [Cybersecurity Executive Dashboard, Security Operations]
@@ -21,7 +21,7 @@ Role required: admin
 
 ## About this task
 
-For more information on Benchmarking, see [Exploring Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/exploring-benchmarks.md).
+For more information on Benchmarking, see .
 
 ## Procedure
 

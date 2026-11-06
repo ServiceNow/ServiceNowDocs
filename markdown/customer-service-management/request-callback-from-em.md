@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/request-callback-from-em.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Callback requests from agents, Use omnichannel callback, Customer communication, Use, Customer Service Management]
+breadcrumb: [Callback requests from customers, Use omnichannel callback, Customer communication, Use, Customer Service Management]
 ---
 
 # Working with callback requests using Engagement Messenger
@@ -36,15 +36,15 @@ You can request an immediate callback only over a voice channel. Use the **Call 
 
 4.  Select whether to receive an immediate voice callback from an agent or schedule a voice or video callback for later.
 
-<table id="choicetable_dlg_q4r_2wb"><thead><tr><th align="left" id="d67589e133">
+<table id="choicetable_dlg_q4r_2wb"><thead><tr><th align="left" id="d74565e133">
 
 Type of callback
 
-</th><th align="left" id="d67589e136">
+</th><th align="left" id="d74565e136">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d67589e142">
+</th></tr></thead><tbody><tr><td id="d74565e142">
 
 **Immediate voice callback**
 
@@ -52,7 +52,7 @@ Action
 
 Select **Call me now**.
 
-</td></tr><tr><td id="d67589e154">
+</td></tr><tr><td id="d74565e154">
 
 **Scheduled voice or video callback**
 

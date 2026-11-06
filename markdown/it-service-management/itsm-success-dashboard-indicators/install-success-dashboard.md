@@ -1,25 +1,25 @@
 ---
 title: Install ITSM Success Dashboard indicators
-description: You can install the ITSM Success Dashboard indicators application \(sn\_sd\_itsm\) if you have the admin role. The application installs related ServiceNow Store applications and plugins if they are not already installed.
+description: Install the ITSM Success Dashboard indicators application \(sn\_sd\_itsm\) if you have the admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-success-dashboard-indicators/install-success-dashboard.html
 release: zurich
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, ITSM Success Dashboard indicators, IT Service Management]
 ---
 
 # Install ITSM Success Dashboard indicators
 
-You can install the ITSM Success Dashboard indicators application \(sn\_sd\_itsm\) if you have the admin role. The application installs related ServiceNow® Store applications and plugins if they are not already installed.
+Install the ITSM Success Dashboard indicators application \(sn\_sd\_itsm\) if you have the admin role.
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
--   Install the following plugins before installing the ITSM Success Dashboard application from the store
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   The following plugins must be installed before you install the ITSM Success Dashboard application from the store:
     -   Performance Analytics
     -   Performance Analytics Premium
     -   Self-service analytics

@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Running playbooks, Use, Workflow Studio, Build workflows]
+breadcrumb: [Running Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Cancel a playbook
@@ -43,5 +43,5 @@ If your playbook admin has added a cancel action to your playbook experience, yo
     \[Omitted image "playbook-cancel-banner.png"\] Alt text: Canceled banner
 
 
-**Parent Topic:**[Running playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)
+**Parent Topic:**[Running Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)
 

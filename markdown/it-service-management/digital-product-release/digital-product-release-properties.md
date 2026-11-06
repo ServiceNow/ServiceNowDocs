@@ -1,5 +1,5 @@
 ---
-title: Digital Product Release properties
+title: Digital Product Release system properties
 description: Configure the system properties to customize various features of Digital Product Release according to your organization's needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-product-release/digital-product-release-properties.html
@@ -7,12 +7,12 @@ release: zurich
 product: Digital Product Release
 classification: digital-product-release
 topic_type: reference
-last_updated: "2025-12-09"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Reference, Digital Product Release, IT Service Management]
 ---
 
-# Digital Product Release properties
+# Digital Product Release system properties
 
 Configure the system properties to customize various features of Digital Product Release according to your organization's needs.
 
@@ -50,6 +50,16 @@ Determines whether a release can be automatically moved from the In Progress sta
 
 </td></tr><tr><td>
 
+sn\_dpr.ci\_default\_query
+
+</td><td>
+
+Defines the filter criteria applied to the Configuration Items \(CI\) list when adding CIs to a release phase. Modify this property to control which CIs are available for selection.-   Type: string
+-   Default value: life\_cycle\_stage!=End of Life^ORlife\_cycle\_stage!=End of Operation^ORlife\_cycle\_stage!=Missing^NQoperational\_status=2^ORoperational\_status=6 \(excludes End-of-Life, End-of-Operation, Missing lifecycle stages or operational status of 2 or 6\)
+-   Other possible values: A valid filter condition for the CI list
+
+</td></tr><tr><td>
+
 sn\_dpr.complete\_phase\_override
 
 </td><td>
@@ -57,6 +67,36 @@ sn\_dpr.complete\_phase\_override
 Enables users with specific roles to complete a release phase. The default role, sn\_dpr\_model.release\_admin, is set in the **Value** field. You can append additional roles that have write access to the release phase state, separated by commas.-   Type: string
 -   Default value: sn\_dpr\_model.release\_admin
 -   Other possible values: Roles that have write access to the release phase state.
+
+</td></tr><tr><td>
+
+sn\_dpr.default\_phase\_for\_changes
+
+</td><td>
+
+Determines which release phase is pre-populated when you associate a change with a release.-   When set to **current\_phase**, the phase the release is currently executing is used. If the release hasn't started, the first phase is used. If the release is completed, the last phase is used.
+-   When set to **release\_readiness\_phase**, the phase tied to the release readiness target is used.
+
+-   Type: choicelist
+-   Default value: current\_phase
+-   Other possible values: release\_readiness\_phase
+
+If you do not specify one of these values, the system uses **current\_phase** by default.
+
+</td></tr><tr><td>
+
+sn\_dpr.default\_phase\_for\_cis
+
+</td><td>
+
+Determines which release phase is pre-populated when you associate a configuration item with a release.-   When set to **current\_phase**, the phase the release is currently executing is used. If the release hasn't started, the first phase is used. If the release is completed, the last phase is used.
+-   When set to **release\_readiness\_phase**, the phase tied to the release readiness target is used.
+
+-   Type: choicelist
+-   Default value: current\_phase
+-   Other possible values: release\_readiness\_phase
+
+If you do not specify one of these values, the system uses **current\_phase** by default.
 
 </td></tr><tr><td>
 
@@ -115,7 +155,9 @@ sn\_dpr.out\_of\_band\_release\_allowed
 
 </td><td>
 
-Determines whether a release can be created on any given date, without a release target.-   Type: true\|false
+Determines whether a release can be created on any given date, without a release target.**Note:** When the property is set to true, you can still set out-of-band release targets at individual product level from the product's release settings. For more information, see [Configure product-level release settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-config-product-release-setting.md).
+
+-   Type: true\|false
 -   Default value: true
 -   Other possible values: false
 
@@ -147,7 +189,7 @@ sn\_dpr.release\_kanban\_lanes
 
 </td><td>
 
-Shows the lanes on Kanban board in the Release execution page.-   Type: string
+Specifies the task state IDs to display as lanes on the Kanban board view in the Release tasks page. Each value corresponds to a task state. By default, three lanes \(Open, Work in Progress, and Closed Complete\) are displayed. To display a custom task state as a lane, add its state ID to this property as a comma-separated value.-   Type: string
 -   Default value: 1,2,3
 
 </td></tr><tr><td>
@@ -232,25 +274,27 @@ States of primary epics that are considered for automatic creation of product en
 -   Default value: created,planned,wip,complete,proposed,active,design,ready
 -   Other possible values: You can provide new states or modify the list of existing states.
 
-</td></tr><tr><td>
-
-sn\_dpr\_workspace.auto\_create\_product\_enhancement\_for\_primary\_epic
-
-</td><td>
-
-Determines whether product enhancements can be automatically created for primary epics.-   Type: true\|false
--   Default value: false
--   Other possible values: true
-
 </td></tr><tr id="dpr-sys-prop-citype"><td>
 
 sn\_dpr\_workspace.cmdb\_model\_creation.supported\_ci\_types
 
 </td><td>
 
-Specifies the comma-separated list of Configuration Item \(CI\) types that can be associated with products or services while requesting them. For more information, see [Request a new product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-request-product.md).-   Type: string
+Specifies the comma-separated list of configuration item \(CI\) types that can be associated with products or services while requesting them. For more information, see [Request a new product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-request-product.md).-   Type: string
 -   Default value: cmdb\_ci\_service\_technical, cmdb\_ci\_service\_business, cmdb\_ci\_service\_auto, cmdb\_ci\_business\_app
 -   Other possible values: Valid CI types
+
+</td></tr><tr><td>
+
+sn\_dpr\_workspace.enhancement\_work\_item\_types
+
+</td><td>
+
+Specifies the comma-separated list of work item types that can be mapped to a product enhancement. Use this property to extend the mapping beyond epics to other work item types available in your DevOps instance.-   Type: string
+-   Default value: epic
+-   Other possible values: A comma-separated list of valid work item types \(for example, epic,feature,story\).
+
+When the value is empty, product enhancements are not created automatically.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Digital Product Release reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-reference.md)

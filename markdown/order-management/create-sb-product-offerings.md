@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/create-sb-product-offerings.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configuring Service Exchange Order Management for Providers, Order Management for providers with Service Exchange, Integrate, Sales Customer Relationship Management]
 ---
@@ -275,15 +275,15 @@ Name of the previous version of the product offering, For example:-   When you c
 
 7.  When you finish creating the product offering version, select one of the following actions.
 
-<table id="choicetable_dt3_z1p_ccc"><thead><tr><th align="left" id="d59396e536">
+<table id="choicetable_dt3_z1p_ccc"><thead><tr><th align="left" id="d49430e536">
 
 Action
 
-</th><th align="left" id="d59396e539">
+</th><th align="left" id="d49430e539">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d59396e545">
+</th></tr></thead><tbody><tr><td id="d49430e545">
 
 **Publish**
 
@@ -293,7 +293,7 @@ Publish the draft product offering so that you can use it in a product catalog:-
 -   After you publish a product offering, you can't change or delete it, unless you create a version for it.
 
 
-</td></tr><tr><td id="d59396e563">
+</td></tr><tr><td id="d49430e563">
 
 **Update**
 
@@ -301,7 +301,7 @@ Publish the draft product offering so that you can use it in a product catalog:-
 
 Update the product offering with the new data that you added, but don't publish it for use in a product catalog.
 
-</td></tr><tr><td id="d59396e572">
+</td></tr><tr><td id="d49430e572">
 
 **Copy**
 

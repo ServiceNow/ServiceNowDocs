@@ -7,7 +7,7 @@ release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Routing work items, Channels, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -34,15 +34,15 @@ By default, the override capacity is valid for 12 hours. Administrator can chang
 
 2.  Navigate to an agent's profile.
 
-<table id="choicetable_yv3_zcw_knb"><thead><tr><th align="left" id="d234071e103">
+<table id="choicetable_yv3_zcw_knb"><thead><tr><th align="left" id="d404028e103">
 
 To set the override capacity
 
-</th><th align="left" id="d234071e106">
+</th><th align="left" id="d404028e106">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d234071e112">
+</th></tr></thead><tbody><tr><td id="d404028e112">
 
 **From Channels**
 
@@ -53,7 +53,7 @@ Do this
 3.  Click an agent's record.
 
 
-</td></tr><tr><td id="d234071e136">
+</td></tr><tr><td id="d404028e136">
 
 **From Teams**
 

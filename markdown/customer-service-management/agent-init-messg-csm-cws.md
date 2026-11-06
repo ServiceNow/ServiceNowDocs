@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/agent-init-messg-csm-cws.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Using CRM Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
 ---
@@ -35,7 +35,7 @@ Role required: agent\_workspace\_user
 
 4.  On the Details tab of the workspace form, fill in the details for a new interaction or modify the details.
 
-    For more information about the form, see [CSM workspace form features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-agent-workspace-agent-actions.md).
+    For more information about the form, see [CSM workspace form features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-workspace-agent-actions.md).
 
     **Note:** The user profile associated with an interaction is configured by an administrator by using the sn\_agent\_initiated.AgentInitiatedMessagingUserDocument extension point. The AgentMessagingInteractionUserDocument script include that implements the sn\_agent\_initiated.AgentInitiatedMessagingUserDocument extension point is available for the Agent-Initiated Messaging Interface application. For more information, see [Associate user profiles with agent-initiated messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/agent-init-messg-user-record-ext-pt.md).
 

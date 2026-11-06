@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/business-continuity-mangmt-overview.html
 release: zurich
 topic_type: concept
-last_updated: "2025-12-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Governance, Risk, and Compliance]
 ---
@@ -19,7 +19,7 @@ ServiceNow® Business Continuity Management application gives your organization 
 The Business Continuity Management product provides a framework to perform continuous management activities. The Business Continuity Management application helps your organization to achieve the objectives:
 
 -   Establish a clear governance structure.
--   Define a consistent classification of business processes, inter-dependencies, and recovery objectives based on impact analysis and risk to the business.
+-   Define a consistent classification of business processes, interdependencies, and recovery objectives based on impact analysis and risk to the business.
 -   Develop and provide continuous improvement to the business continuity plans.
 -   Identify, analyze, and manage process continuity during and following a disruptive event.
 

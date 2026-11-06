@@ -1,5 +1,5 @@
 ---
-title: Run certificate discovery via certificate file import
+title: Run Certificate Discovery via certificate file import
 description: In Certificate Inventory and Management, you can discover certificates by importing certificate files into the system using pattern-based Discovery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/run-cert-inventory-mgmt-import.html
@@ -7,22 +7,20 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-09-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Visibility to TLS certificates, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Run certificate discovery via certificate file import
+# Run Certificate Discovery via certificate file import
 
 In Certificate Inventory and Management, you can discover certificates by importing certificate files into the system using pattern-based Discovery.
 
 ## Before you begin
 
-Ensure that **TLS\_keepOriginalCertificate** is set to **False**.
-
-Ensure the certificate is in one of the following formats: .cert, .pem, .txt, .der.
-
-Role required: discovery\_admin or admin
+-   Ensure that **TLS\_keepOriginalCertificate** is set to **False**.
+-   Ensure the certificate is in one of the following formats: .cert, .pem, .txt, .der, and .cer.
+-   Role required: discovery\_admin or admin
 
 ## About this task
 

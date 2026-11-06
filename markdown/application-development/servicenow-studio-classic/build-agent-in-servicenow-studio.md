@@ -7,32 +7,29 @@ release: zurich
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2026-05-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Build Agent in ServiceNow Studio
 
 Use Build Agent, an autonomous AI agent, to create and update applications in ServiceNow Studio through conversational interaction.
 
-**Important:** Build Agent is available in ServiceNow Studio as of the Australia release and Zurich release Patch 8.
-
--   For full documentation on Build Agent, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent.md).
--   To learn how to develop an application using Build Agent, see [Tutorial for Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-tutorial.md).
+For full documentation on Build Agent, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent.md). To learn how to develop an application using Build Agent, see [ServiceNow Studio and Build Agent tutorial](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/sns-ba-tutorial-landing.md).
 
 ## How does the Build Agent workflow work?
 
 Use Build Agent in ServiceNow Studio by following these steps.
 
-1.  The Build Agent chat interface opens automatically during a new ServiceNow Studio session. If it is not open, select the Now Assist icon \[Omitted image "image.sn-studio-now-assist-icon"\] Alt text:or select **Open Build Agent** from the lower right corner status bar.
+1.  The Build Agent chat interface opens automatically during a new ServiceNow Studio session. If it is not open, select the ServiceNow Otto icon \[Omitted image "icon-otto-outline-24.svg"\] Alt text: or select **Open Build Agent** from the lower right corner status bar.
 2.  Prompt Build Agent to create or update an application.
 3.  Refine the application through conversational interaction, providing feedback and requesting changes.
 4.  Roll back changes at any point using checkpoints created by Build Agent.
 5.  Deploy the app through update sets, pipelines, or the Application Repository.
 6.  Reopen the conversation at any time to make further updates.
 
-For more information, see [AI-assisted ServiceNow AI Platform development with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/vc-build-agent-landing.md).
+For more information, see [Agentic ServiceNow AI Platform development with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/vc-build-agent-landing.md).
 
 ## What can Build Agent do in ServiceNow Studio?
 
@@ -47,11 +44,15 @@ Use Build Agent in ServiceNow Studio to complete the following tasks.
 
 Deploy apps created using Build Agent using update sets, pipelines, or the Application Repository — the same process as any other app.
 
-For more information, see [Working with update sets in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/working-with-update-sets-in-servicenow-studio.md), [Working with pipelines in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/working-with-pipelines-servicenow-studio.md), and [Working with the Application Repository in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/working-with-the-app-repo-in-servicenow-studio.md).
+For more information, see [Update sets in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/working-with-update-sets-in-servicenow-studio.md), [Pipelines in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/working-with-pipelines-servicenow-studio.md), and [Application Repository in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/working-with-the-app-repo-in-servicenow-studio.md).
+
+**Warning:**
+
+Build Agent is an AI system that may produce inaccurate or incomplete results. Review all AI-generated code and configurations before deploying to production environments.
 
 ## Build Agent chat panel
 
-Use the Build Agent chat panel to create or update an app or app file. Make a selection to begin the chat, or enter a prompt. If you have a longer prompt, the chat box expands as you extend your input.
+Use the Build Agent or Autonomous Engineer chat panel to create or update an app or app file. Make a selection to begin the chat, or enter a prompt.If you have a longer prompt, the chat box expands as you extend your input. The chat panel runs in Build Agent mode by default. To use Autonomous Engineer, select **Build Agent** from the selector in the chat panel and choose Autonomous Engineer.
 
 \[Omitted image "ba-new-chat.png"\] Alt text: OTTO New Chat screen showing five quick-action buttons: Create an app, Update an app, Create a file, Update a file, and Add AI to an app.
 
@@ -59,9 +60,9 @@ Continue your conversation in the chat panel until you're happy with the results
 
 For more information, see the following topics:
 
--   [Create an application using Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/create-a-new-application-using-build-agent.md)
--   [Edit an existing application using Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/edit-an-existing-application-using-build-agent.md)
--   [Creating or updating an app file with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creating-or-updating-an-app-file.md)
+-   [Create an application using Build Agent default mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/create-a-new-application-using-build-agent.md)
+-   [Edit an existing application using Build Agent default mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/edit-an-existing-application-using-build-agent.md)
+-   [Creating or updating an app file with Build Agent default mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creating-or-updating-an-app-file.md)
 -   [Revert app changes with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/revert-app-changes-using-build-agent.md)
 -   [Checkpoints and conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-conversational-change-log.md)
 -   [Example prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-example-prompts.md)

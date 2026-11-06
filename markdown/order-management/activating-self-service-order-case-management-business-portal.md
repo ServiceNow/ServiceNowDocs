@@ -1,20 +1,24 @@
 ---
-title: Installing apps for self-service order case management on the Business Portal
-description: Install the necessary plugins based on the self-service options that you want to offer customers for managing order cases on the Business Portal.
+title: Making self-service order and invoice case management available on the Business Portal
+description: Install the necessary applications based on the self-service order and invoice case management options that you want to offer customers on the Business Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/activating-self-service-order-case-management-business-portal.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Business Portal, Configure, Sales Customer Relationship Management]
 ---
 
-# Installing apps for self-service order case management on the Business Portal
+# Making self-service order and invoice case management available on the Business Portal
 
-Install the necessary plugins based on the self-service options that you want to offer customers for managing order cases on the Business Portal.
+Install the necessary applications based on the self-service order and invoice case management options that you want to offer customers on the Business Portal.
 
-The apps that must be installed from the ServiceNow Store to enable your customers to create and view order cases from the Business Portal:
+**Note:** For information about activating the Business Portal itself, see [Enable the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-management-enable-business-portal.md)
+
+## Case management applications
+
+The following apps must be installed from the ServiceNow Store to enable your customers to create and view order cases from the Business Portal:
 
 -   Order Case Self Service \[sn\_ord\_case\_ss\]
 -   Order Case Playbook \[sn\_ord\_case\_pb\]
@@ -25,7 +29,28 @@ These plugins have the following dependencies:
 -   Order Operations Case Management \[sn\_order\_case\]
 -   Playbooks for Customer Service Management \[sn\_csm\_playbook\]
 
-If you want your customers to be able only to view order cases in the Business Portal, you do not need to install the Order Case Playbook \[sn\_ord\_case\_pb\] plugin and the Playbooks for Customer Service Management \[sn\_csm\_playbook\] plugin is not necessary.
+If your customers need to only view order cases in the Business Portal, you don't need to install the Order Case Playbook \[sn\_ord\_case\_pb\] and Playbooks for Customer Service Management \[sn\_csm\_playbook\] plugins.
 
-You must also activate the Business Portal to make it accessible for your customers. The Business Portal is inactive by default. For more information, see [Configure Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/configure-business-portal.md).
+## Invoice and invoice case management applications
+
+The following apps must be installed from the ServiceNow Store to enable your customers to manage invoices and invoice cases from the Business Portal:
+
+-   Invoice Self-Service \[sn\_invoice\_ss\]
+-   Invoice Case Self-Service \[sn\_invoice\_case\_ss\]
+-   Invoice Case Playbook \[sn\_inv\_case\_pb\]
+
+These plugins have the following dependencies:
+
+-   Customer Service Portal \[com.snc.customer\_service\_portal\]
+-   Invoice Operations Case Management \[sn\_csm\_invoice\]
+-   Playbooks for Customer Service Management \[sn\_csm\_playbook\]
+
+If your customers only need to view invoice cases in the Business Portal, you don’t need to install the Invoice Case Playbook \[com.sn\_inv\_case\_pb\] and the Playbooks for Customer Service Management \[sn\_csm\_playbook\] plugins.
+
+**Related topics**  
+
+
+[Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-self-service-business-portal.md)
+
+[Using Business Portal for self-service workflows in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-business-portal.md)
 

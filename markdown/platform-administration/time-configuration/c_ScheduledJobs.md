@@ -7,9 +7,9 @@ release: zurich
 product: Time Configuration
 classification: time-configuration
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [System scheduler, Explore, Time configuration, Configure core features, Administer]
+breadcrumb: [System scheduler, Explore, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Scheduled jobs
@@ -51,7 +51,7 @@ A scheduled job can be in any one of the following states.
 
 ## Schedule job errors
 
-If you encounter errors generating a scheduled job, visit [Troubleshoot a scheduled job through Application Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/troubleshoot-a-scheduled-job.md) for additional information.
+If you encounter errors generating a scheduled job, visit  for additional information.
 
 -   **[Create a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/time-configuration/t_CreateAScheduledJob.md)**  
 Create a scheduled job on the Schedule Job \[sysauto\] table.

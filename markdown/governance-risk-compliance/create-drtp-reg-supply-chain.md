@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/create-drtp-reg-supply-chain.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Use, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Create a supply chain and enhance digital resilience data
@@ -18,52 +18,53 @@ Create an Information and Communication Technology \(ICT\) service supply chain 
 
 Role required: sn\_oper\_res.manager
 
+## About this task
+
+Before saving an ICT service supply chain record, the system checks for duplicates. A duplicate is detected when an existing supply chain row at the same rank shares the same Identification code and Type of ICT services. If a duplicate is detected, the save is blocked and an error message identifies the conflicting record. Update either the recipient identification code, the type of ICT services, or the rank to resolve the conflict.
+
+Organize **Specific information** records on the contract by **Type of ICT services**, not by **Function identifier**. Each **Specific information** record creates one Rank 1 supply chain record with a matching type of ICT services. Multiple **Specific information** records that share the same **Type of ICT services** value generate duplicate Rank 1 supply chain records for the contract.
+
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Operational Resilience Workspace** &gt; **Digital resilience third-party registers**.
+1.  Navigate to **Workspaces** &gt; **Operational Resilience Workspace** &gt; **Digital resilience third-party registers** &gt; **Contracts** and select the desired contract.
 
-2.  Select **Contracts** and then select the contract record you want to associate a supply chain record with.
+2.  In the **ICT service supply chains** tab on the Contract form, select **New**.
 
-3.  Navigate to the ICT service supply chains related list and select **New**.
+    The Create New ICT service supply chain form is displayed.
 
-4.  On the form, fill in the fields.
+    The example shows the ICT service supply chains tab on a contract record listing existing supply chain entries.
 
-    For descriptions of all these fields, see [Create New Contractual arrangement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-create-new-cont-arrange-form.md).
+    \[Omitted image "contract-ict-service-supply-chains-tab.png"\] Alt text: ICT service supply chains tab on a contract record listing existing supply chain entries.
 
-5.  Select **Save**.
+    Each row is a supply chain with its rank, type of ICT services, recipient identification code, service provider type and identification code of the ICT third-party service provider.
+
+3.  On the form, fill in the fields.
+
+    For more information, see [Create ICT service supply chain form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-supply-chain-form.md).
+
+4.  Select **Save**.
+
+5.  To set up the digital resilience information for DORA regulation, navigate to the **Digital resilience information** tab and select **New**.
+
+6.  On the form, fill in the fields.
+
+7.  Select **Save**.
+
+    The Identification code of the recipient of sub-contracted ICT services field is automatically kept in sync with the linked ICT third-party service provider's identification code. If you update the provider's identification code, the supply chain records at all ranks are updated automatically to show the current code value.
+
+    Cascading delete and cascading update apply to all ranks \(Rank 1 and higher\) in the supply chain.
 
     Changing the third-party service provider on the associated contract's specific information also triggers this update. The rank 1 supply chain record updates automatically to match the new provider.
 
-6.  To edit the supply chain record, complete the following.
+8.  To edit the supply chain record, select it from the list and select **Edit**.
 
-    1.  Navigate to **Supply chains** and select the check box of the record you want from the list.
+9.  To export the supply chain record, select **Export**.
 
-    2.  Select **Edit** and update the fields as required.
+10. To delete the supply chain record, select it from the list and select **Delete**.
 
-    3.  Select **Update**.
 
-7.  To export supply chain records, complete the following.
-
-    1.  Navigate to **Supply chains** and select the check box of the record you want from the list.
-
-    2.  Select **Export**.
-
-    3.  Select the **File Type**.
-
-        Available choices are:
-
-        -   **Excel**
-        -   **CSV**
-        -   **JSON**
-        -   **PDF**
-    4.  Select the **Delivery Type**.
-
-        Available choices are:
-
-        -   **Download**
-        -   **Email**
-8.  To delete the supply chain record, select it from the list and select **Delete**.
-
+-   **[Create ICT service supply chain form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-supply-chain-form.md)**  
+On the Create New ICT service supply chain form, fill in the fields.
 
 **Parent Topic:**[Using Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/using-dg-registers.md)
 

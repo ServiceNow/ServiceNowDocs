@@ -7,7 +7,7 @@ release: zurich
 product: Dependency Views
 classification: dependency-views
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Dependency Views, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,7 +22,7 @@ Role required: dependency\_views \(see general requirements\)
 
 General role requirements:
 
--   To access a Dependency Views map from either the navigation menu, a script API, or directly from a URL, the minimum role required is the dependency\_views. Some operations that are related to icons, indicators, and menu actions require the ecmdb\_admin role. Some operations that are related to properties and dependency types require the admin role.
+-   To access a Dependency Views map from either the navigation menu, a script API, or directly from a URL, the minimum role required is the dependency\_views. Some operations that are related to icons, indicators, and menu actions require the ecmdb\_admin role. Some operations that are related to properties and dependency types require the sn\_cmdb\_admin or admin role.
 -   Dependency Views enforces ACL permissions on CIs, and visually hides them and their relationship from the map if the permission requirement is not met.
 
 ## About this task

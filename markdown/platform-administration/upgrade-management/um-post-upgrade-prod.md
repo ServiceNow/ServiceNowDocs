@@ -7,9 +7,9 @@ release: zurich
 product: Upgrade Management
 classification: upgrade-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Access guided upgrade on a production instance, Configure, Upgrade Console, Upgrade, Administer]
+breadcrumb: [Access guided upgrade on a production instance, Configure, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
 # Implement post-upgrade activities on a prod instance
@@ -20,7 +20,7 @@ Implement the post-upgrade tasks for a successful upgrade completion on your pro
 
 **Note:** You will be able to perform the post-upgrade tasks only after completing the pre-upgrade and instance upgrade tasks.
 
-Role required: admin
+Role required: upgrade\_admin
 
 ## Procedure
 

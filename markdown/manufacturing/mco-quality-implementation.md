@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-quality-implementation.html
 release: zurich
 topic_type: concept
-last_updated: "2026-07-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Quality management implementation, product non-conformance case, PNCC, product quality investigation, PQI, quality management, CAPA]
 breadcrumb: [Configure, Manufacturing Commercial Operations]
@@ -17,7 +17,7 @@ A product non-conformance case \(PNCC\) captures a reported quality issue, and a
 
 This implementation provides the foundation for configuring Manufacturing Commercial Operations quality management applications.
 
-\[Omitted image "image.mco-quality-Implementation"\] Alt text: Quality workflow
+\[Omitted image "mco-quality-Implementation.png"\] Alt text: Quality workflow
 
 The infographic shows the quality workflow. A submitter or resolver creates a PNCC, and a resolver triages and assigns it. For recurring defects, a PQI Lead or PQI Member opens a PQI to analyze the root cause and drive CAPA \(Corrective, Containment, and Preventive Action\).
 

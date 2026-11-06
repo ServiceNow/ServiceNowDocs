@@ -7,9 +7,9 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Manually create and review your network asset instances, Defining inventory records, Use, Telecommunications Network Inventory]
+breadcrumb: [Manually creating and reviewing your network asset instances, Define inventory records, Use, Telecommunications Network Inventory]
 ---
 
 # Define the cable details
@@ -56,11 +56,11 @@ Optical fiber cables are installed between sites with open endpoints, indicating
 
 9.  Select **Save**.
 
-    The related tabs appear on the form. You can view or modify the related tab information. To learn more about the related tabs, see [Related tabs in the network inventory forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/inventory-related-tab.md).
+    The related tabs appear on the form. You can view or modify the related tab information. To learn more about the related tabs, see [Related tabs in the Network inventory forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/inventory-related-tab.md).
 
 10. To view the visual representation of the selected record, select the more options icon \(\[Omitted image "options-icon.png"\] Alt text: More Options icon.\) and then select **Open Map**.
 
-    **Note:** Service Graph Workspace or Install CMDB Workspace 3.5.0 or greater version to get this button in your instance. To learn more, see [CMDB Workspace](https://store.servicenow.com/sn_appstore_store.do#!/store/application/c8ab76825371201032b7ddeeff7b1280/3.5.0).
+    **Note:** Install Service Graph Workspace or CMDB Workspace 3.5.0 or greater version to get this button in your instance. To learn more, see [CMDB Workspace](https://store.servicenow.com/sn_appstore_store.do#!/store/application/c8ab76825371201032b7ddeeff7b1280/3.5.0).
 
 11. Capture the attributes for a configuration item \(CI\) record by selecting **Add Packs**.
 
@@ -71,7 +71,7 @@ Optical fiber cables are installed between sites with open endpoints, indicating
     The Infrastructure Relationships section shows all the associated network inventories grouped by the individual network asset instances.
 
 
-**Parent Topic:**[Manually create and review your network asset instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/creating-telecommunications-network-inventory.md)
+**Parent Topic:**[Manually creating and reviewing your network asset instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/creating-telecommunications-network-inventory.md)
 
 **Related topics**  
 

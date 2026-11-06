@@ -1,5 +1,5 @@
 ---
-title: Enable SNC access control plugin \[Updated in Security Center 1.3\]
+title: Enable SNC access control plugin
 description: Activate the SNC Access Control \(com.snc.snc\_access\_control\) plugin to control access to your instances by Customer Service and Support personnel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-snc-access-control-plugin.html
@@ -7,12 +7,12 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Enable SNC access control plugin \[Updated in Security Center 1.3\]
+# Enable SNC access control plugin
 
 Activate the SNC Access Control \(com.snc.snc\_access\_control\) plugin to control access to your instances by Customer Service and Support personnel.
 
@@ -20,7 +20,7 @@ Prevent ServiceNow Customer Service and Support personnel from accessing the ins
 
 **Note:** Other authorized ServiceNow Operations personnel, in their capacity to support and manage the product, are required to perform administrative actions on the underlying infrastructure. Enabling this plugin may affect support service levels and the Availability SLA. Availability SLA is then measured from the time that Support staff personnel are granted access to your instance.
 
-Enable the SNC Access Control \(com.snc.snc\_access\_control\) plugin to restrict access to your instance without your express permission. For more details on this feature, see [ServiceNow access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/c_SNCAccessControl.md). For activation information, see [Activate ServiceNow access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/t_ActivateSNCAccessControl.md)
+Ensure that the SNC Access Control \(com.snc.snc\_access\_control\) plugin is activated.
 
 ## More information
 

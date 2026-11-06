@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/som-quote-add-covered-products.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -40,15 +40,15 @@ When converting quotes to orders, the covered product relationships are transfer
 
     There are three types of covered products types that you can add to a line item:
 
-<table id="choicetable_lyy_34l_wbc"><thead><tr><th align="left" id="d92502e147">
+<table id="choicetable_lyy_34l_wbc"><thead><tr><th align="left" id="d71529e147">
 
 Covered product type
 
-</th><th align="left" id="d92502e150">
+</th><th align="left" id="d71529e150">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d92502e156">
+</th></tr></thead><tbody><tr><td id="d71529e156">
 
 **Covered quote line item**
 
@@ -56,7 +56,7 @@ Description
 
 Select a quote line item to be added as a covered product.
 
-</td></tr><tr><td id="d92502e165">
+</td></tr><tr><td id="d71529e165">
 
 **Covered sold product**
 
@@ -64,7 +64,7 @@ Select a quote line item to be added as a covered product.
 
 Select a covered sold product to be added as a covered product.
 
-</td></tr><tr><td id="d92502e177">
+</td></tr><tr><td id="d71529e177">
 
 **Covered install base item**
 

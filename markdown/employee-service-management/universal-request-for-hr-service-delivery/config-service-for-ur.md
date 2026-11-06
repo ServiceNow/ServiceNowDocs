@@ -7,9 +7,9 @@ release: zurich
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure, Universal Request, Employee Service Management]
+breadcrumb: [Setting up and configuring Universal Request, Universal Request, Employee Service Management]
 ---
 
 # Configure service to use Universal Request
@@ -31,7 +31,7 @@ After creating the services for your service set \(department\), assign the assi
 -   **[Create service specific UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-create-service-UIactions.md)**  
 Create a UI action or modify an existing one to enable your service to create department tickets under a universal request.
 -   **[Register application administration enabled scoped application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-service-scoped-administration.md)**  
-If your application is an admin enabled scoped application, register the application with Universal Request \(UR\) to make your application’s service and service set data available for the Universal Request application to work.
+If your application is an application admin enabled scoped application, register the application with Universal Request \(UR\) to make your application’s service and service set data available for the Universal Request application to work.
 -   **[Remove UR administrator role from system administrator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/remove-admin-role-ur.md)**  
 After system configuration, remove the Universal Request \(UR\) administrator \[sn\_uni\_req.ur\_admin\] role from IT System Administrator role \(admin\) to help prevent IT System Administrators from viewing sensitive information via forms, lists and UI.
 -   **[Create a business rule for your service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/ur-create-busrule-service.md)**  

@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 10
-breadcrumb: [Use, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 11
+breadcrumb: [Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Building flows
@@ -193,9 +193,9 @@ Any general guidelines that apply to flows also apply to [subflows](https://raw.
     -   Set max records on Look Up Records to 1000.
     -   Avoid changing property sn\_flow\_designer.max\_iterations, which defaults to 1000.
     -   For large amounts of data processing, consider batching into smaller batches.
-    -   For bulk imports, consider concurrent imports.
+    -   For bulk imports, consider [concurrent imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/concurrent-imports.md).
 -   **Use QuickAPI for faster executions \(business rule alternative\)**
-    -   QuickAPI executions are much faster, but there is less debugging capability.
+    -   [QuickAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/ScriptableFlowRunnerScopedAPI.md) executions are much faster, but there is less debugging capability.
     -   Foreground QuickAPI executions run in the user session as the user who called the flow.
     -   Background QuickAPI executions run in a background thread and are run in the ‘system’ user session.
 -   **Use Do Until loops instead of calling flows from themselves**
@@ -241,20 +241,38 @@ Any general guidelines that apply to flows also apply to [subflows](https://raw.
 
 -   **[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-flow.md)**  
 Run a sequence of actions and flow logic when the trigger conditions occur.
+-   **[Default read-only flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/default-read-only-flows.md)**  
+Open existing flows in a read-only state to protect them from accidental changes. While a flow is in a read-only state, you can only review, test, deactivate, or request to edit it.
 -   **[Flow and subflow stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-designer-stages.md)**  
 Communicate the current stage of a request, flow, or subflow with an end user.
 -   **[Flow error handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-error-handler.md)**  
 Enable flows to catch errors. Run a sequence of actions and subflows to identify and correct issues. For example, have flows log output values, send notifications, and run corrective subflows when they produce an error.
+-   **[Flow execution analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-execution-analysis-landing.md)**  
+Analyze flow execution details to identify errors and suggest potential fixes.
+-   **[Flow generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-generation-landing.md)**  
+Use ServiceNow Otto for Creator to create a flow or subflow from a text description.
+-   **[Flow generation with images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-generation-with-images-landing.md)**  
+Create a flow or a subflow from an image by using ServiceNow Otto for Creator.
 -   **[Flow history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-history.md)**  
 View and manage the history of a flow. See past configurations of a flow to copy, restore, or remove them.
+-   **[Flow recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-recommendations-landing.md)**  
+Select the next component in your flow from a list of AI-generated recommendations.
+-   **[Flow roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-roles.md)**  
+Create flows and subflows that run with specific roles. Assigning roles enables you to create user-initiated flows that run with their own roles rather than the user's roles.
+-   **[Flow summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-summarization-landing.md)**  
+Summarize what a flow or subflow does by using generative AI.
 -   **[Flow Template Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-template.md)**  
 Enable citizen developers to create their own flow templates. Flow Templates guide flow authors to create flows for common use cases. Use the flow template builder to define flows, actions, and flow template variables.
 -   **[Inline scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/inline-scripts.md)**  
 Enable users with coding experience to write inline scripts that set and modify input values during the configuration of an action or flow. Use inline scripts to modify input values that require small format conversions, data transformations, or math operations.
+-   **[Save as you go flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/save-as-you-go-flows.md)**  
+Save flows, subflows, and actions automatically as you work on them.
+-   **[Troubleshoot a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/troubleshoot-a-flow.md)**  
+Analyze a failed flow to check for data issues, identify potential conflicts, and receive targeted recommendations to resolve the error.
 -   **[Summarize a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/summarize-a-flow.md)**  
-Generate a summary of a flow with ServiceNow Otto for Creator.
+Generate a summary of a flow or flow execution details with AI.
 -   **[Flow variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-variables.md)**  
 Similar to Workflow scratchpad variables, create variables that you can use and modify directly in your flow. Access flow variables as data pills directly in the Data panel.
 
-**Parent Topic:**[Using Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/building-workflow-studio-components.md)
+**Parent Topic:**[Workflow Studio flows, subflows, and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/workflow-studio-flows-subflows-and-actions-landing.md)
 

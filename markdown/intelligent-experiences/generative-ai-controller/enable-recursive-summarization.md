@@ -7,9 +7,9 @@ release: zurich
 product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Enable recursive summarization for large inputs
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-LLMs have a maximum number of tokens that can be processed in a single request. Certain fields, such as activity fields, can have more information than can fit in within those restrictions. Recursive summarization breaks the information given to an LLM into chunks, summarizes each chunk individually, and then processes the original request with the summarized chunks. The chunks are organized with overlaps between the pieces so that the context is retained across every piece.
+LLMs have a maximum number of tokens that can be processed in a single request. Certain fields, such as activity fields, can have more information than can fit in within those restrictions. Recursive summarization breaks the information given to an LLM into chunks, summarizes each chunk individually, and then processes the original request with the summarized chunks. The chunks are organized with overlaps between the pieces so that the context is retained across every piece. For more information about provider-specific token limits, see [\[KB2038552\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2038552).
 
 **Note:** Enabling recursive summarization may cause the capabilities to process large inputs more slowly because they must make multiple calls to the LLM instead of just one call.
 
@@ -42,4 +42,8 @@ LLMs have a maximum number of tokens that can be processed in a single request. 
 ## Result
 
 Recursive summarization is enabled for the OneExtend Capability for the fields specified in this procedure.
+
+## What to do next
+
+Configure generative AI skills in the AI Admin Hub console to use this capability. For more information, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/platform-now-assist-landing.md).
 

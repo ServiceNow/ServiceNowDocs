@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/configure-volume-pricing.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Pricing Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Configure volume pricing
@@ -16,11 +16,11 @@ Set volume pricing rules by using the Standard Price Adjustment matrix.
 
 ## Before you begin
 
-Role required: sn\_csm\_pricing\_pricelist\_administrator, sn\_csm\_pricing\_pricelist\_manager
+Role required: sn\_csm\_pricing.pricelist\_administrator, sn\_csm\_pricing.pricelist\_manager
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** and select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** and select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 2.  Navigate to **Pricing** &gt; **Pricing Matrices**.
 

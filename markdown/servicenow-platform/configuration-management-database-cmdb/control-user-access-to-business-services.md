@@ -7,9 +7,9 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Application services, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Service instances \(Application services\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Control user access to application services
@@ -56,7 +56,7 @@ Service Mapping provides these preconfigured roles:
     Provides information necessary for successful mapping of a service instance. Once a service is mapped, this user reviews the results and either approves it or suggests changes. Assign the sm\_app\_owner role to users who own service instances and are familiar with the infrastructure and applications that make up the services.
 
 
-**Note:** Users with the itil role only can view all service instances.
+**Note:** Users with the sn\_cmdb\_editor or itil role only can view all service instances.
 
 Event Management provides these preconfigured roles:
 

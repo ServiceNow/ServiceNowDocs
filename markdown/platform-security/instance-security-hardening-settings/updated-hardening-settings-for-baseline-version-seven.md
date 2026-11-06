@@ -7,7 +7,7 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: concept
-last_updated: "2025-10-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 31
 breadcrumb: [Updated hardening settings, Baseline versions, Hardening settings, Platform Security]
 ---
@@ -388,7 +388,7 @@ This property controls sanitization behavior of HTML fields on a global level fr
 
 </td></tr><tr><td>
 
-[Escape jelly script \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-escape-jelly.md)
+[Escape jelly script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-escape-jelly.md)
 
 </td><td>
 
@@ -496,7 +496,7 @@ Misconfiguration of this property increases the risk that an external user accou
 
 </td></tr><tr><td>
 
-[Restrict oauth parameters to POST body \[New in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-restrict-oauth-parameters-to-post-body.md)
+[Restrict oauth parameters to POST body](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-restrict-oauth-parameters-to-post-body.md)
 
 </td><td>
 
@@ -576,7 +576,7 @@ ACLs on groupby columns will be enforced by default for tables.
 
 </td></tr><tr><td>
 
-[Require XMLdoc2 entity validation with allowlistDisable entity expansion \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-xmldoc2-entity-validation-with-entity-expansion.md)
+[Require XMLdoc2 entity validation with allowlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-xmldoc2-entity-validation-with-entity-expansion.md)
 
 </td><td>
 
@@ -611,7 +611,7 @@ Ensure the property "glide.stax.whitelist\_enabled" is set to "true" when the Gl
 
 </td></tr><tr><td>
 
-[Define restricted downloadable MIME types \[Updated in Security Center 1.3, 1.5, and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-downloadable-mime-types.md)
+[Define restricted downloadable MIME types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-downloadable-mime-types.md)
 
 </td><td>
 
@@ -704,7 +704,7 @@ By default, HTML can be rendered \(and is sanitized\) in form view. This same be
 
 </td></tr><tr><td>
 
-[Minimize reset password max SMS per day \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-reset-password-max-sms-per-day.md)
+[Minimize reset password max SMS per day](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-reset-password-max-sms-per-day.md)
 
 </td><td>
 
@@ -720,7 +720,7 @@ By default, HTML can be rendered \(and is sanitized\) in form view. This same be
 
 </td></tr><tr><td>
 
-[Disallow infected file download \[Updated in Security Center 1.5 and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-disallow-infected-files-download.md)
+[Disallow infected file download](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-disallow-infected-files-download.md)
 
 </td><td>
 
@@ -759,7 +759,7 @@ Restriction should be applied for unauthenticated users as some attachments migh
 
 </td></tr><tr><td>
 
-[Activate role based multi-factor authentication \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-role-based-multi-factor-authentication.md)
+[Activate role based multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-role-based-multi-factor-authentication.md)
 
 </td><td>
 
@@ -861,7 +861,7 @@ The property glide.pwd\_reset.onetime.token.validity makes the link in the passw
 
 </td></tr><tr><td>
 
-[Limit concurrent interactive sessions \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-glide-authenticate-limit-concurrent-interactive-sessions.md)
+[Minimize Concurrent Interactive Sessions with Limit Concurrent Sessions Plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-glide-authenticate-limit-concurrent-interactive-sessions.md)
 
 </td><td>
 
@@ -890,7 +890,7 @@ The property glide.pwd\_reset.onetime.token.validity makes the link in the passw
 
 </td></tr><tr><td>
 
-[Enable protected tables plugin \[New in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-enable-protected-tables-plugin.md)
+[Enable protected tables plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-enable-protected-tables-plugin.md)
 
 </td><td>
 
@@ -963,7 +963,7 @@ Set the glide.processors.check\_access\_before\_process system property to true.
 
 </td></tr><tr><td>
 
-[Define active session timeout exception roles \[New in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-define-active-session-timeout-exception-roles.md)
+[Define active session timeout exception roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-define-active-session-timeout-exception-roles.md)
 
 </td><td>
 

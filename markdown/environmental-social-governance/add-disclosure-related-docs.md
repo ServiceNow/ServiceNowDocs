@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/add-disclosure-related-docs.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Disclosures in ESG Management, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Disclosures in Operational Sustainability Management \(formerly ESG Management\), Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Add disclosure documents
@@ -46,5 +46,5 @@ When you create a disclosure, that disclosure is the primary document. While you
 7.  To view the document details, select the document and on the Attachments side panel, the details are displayed.
 
 
-**Parent Topic:**[Disclosures in ESG Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/esg-disclosures.md)
+**Parent Topic:**[Disclosures in Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/esg-disclosures.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/run-sightings-search.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create sightings search configuration records, Security Operations Integration- Sightings Search capability, Integration capabilities, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
@@ -42,7 +42,7 @@ The Sightings Search capability has a flow, [Security Operations Integration - S
 
 6.  Choose the number of days or a date range to search for data.
 
-<table id="choicetable_cgw_qxn_qz"><tbody><tr><td id="d460487e130">
+<table id="choicetable_cgw_qxn_qz"><tbody><tr><td id="d464682e130">
 
 **Last**
 
@@ -50,7 +50,7 @@ The Sightings Search capability has a flow, [Security Operations Integration - S
 
 The number of hours or days prior to the creation of the incident to search. The default is 7 days. The limit is 99 hours or days.
 
-</td></tr><tr><td id="d460487e142">
+</td></tr><tr><td id="d464682e142">
 
 **between**
 

@@ -7,9 +7,9 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create an application service, Application services, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Create a Service instance, Service instances \(Application services\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Use the Dynamic CI Group method to populate application services
@@ -26,7 +26,7 @@ The Dynamic CI Group is one of several methods for populating an application ser
 -   A CMDB group can be used to populate only a single application service. For more information about populating and using CMDB groups, see [CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md).
 -   A dynamic CI group contains CIs but can't contain other groups.
 
-For information about the different types of application services and the different methods you can use to populate application services, including Dynamic CI Group, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/application-services.md).
+For information about the different types of application services and the different methods you can use to populate application services, including Dynamic CI Group, see [Service instances \(Application services\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/application-services.md).
 
 Role required: app\_service\_admin
 

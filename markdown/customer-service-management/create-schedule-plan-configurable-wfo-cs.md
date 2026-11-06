@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-schedule-plan-configurable-wfo-cs.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Schedule, Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
@@ -26,33 +26,33 @@ You can set the number of days to cache agent schedules using the **sn\_shift\_p
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Select the Schedule \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon.\) icon.
+2.  Click the Schedule \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon.\) icon.
 
 3.  Create a schedule plan.
 
-    1.  Select the **Team Calendar** tab.
+    1.  Click the **Team Calendar** tab.
 
         **Note:** You can analyze the staff alignment for a day, week, or month.
 
-    2.  In the contextual side panel, select the show schedules icon \[Omitted image "show-schedule-new.png"\] Alt text: Show Schedules icon. to display the schedules.
-    3.  In the Schedules panel, select \[Omitted image "create-schedule-new.png"\] Alt text: Create New Schedule icon. icon.
+    2.  In the contextual side panel, click the show schedules icon \[Omitted image "show-schedule-new.png"\] Alt text: Show Schedules icon. to display the schedules.
+    3.  In the Schedules panel, click \[Omitted image "create-schedule-new.png"\] Alt text: Create New Schedule icon. icon.
     4.  In the **Name** field, enter a name for the schedule plan.
-    5.  From the **Start Date** field, select a date to start the schedule plan and select **OK**.
-    6.  From the **End Date** field, select a date to end the schedule plan and select **OK**.
-    7.  Select **Save schedule**.
+    5.  From the **Start Date** field, select a date to start the schedule plan and click **OK**.
+    6.  From the **End Date** field, select a date to end the schedule plan and click **OK**.
+    7.  Click **Save schedule**.
     You can view the schedule of all agents in the assignment group that you directly or additionally manage.
 
 4.  Add a work shift to the schedule plan.
 
     **Note:** To add more shifts to an existing schedule plan, select the schedule plan and then add the work shift.
 
-    1.  In the contextual side panel, select **Add Shift**.
+    1.  In the contextual side panel, click **Add Shift**.
     2.  In the **Shift** field, select the work shift that you want to add to the schedule plan.
     3.  In the **Event type** field, select the work event that categorizes the work shift.
 5.  Add agents to the work shift.
 
     1.  In the **Agents** field, search for agents and add one or more agents to add to the shift.
-    2.  Select **Save**.
+    2.  Click **Save**.
     **Note:** It may take a few minutes for the screen to refresh.
 
 

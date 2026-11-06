@@ -1,18 +1,18 @@
 ---
-title: Migrating to Column Level Encryption Enterprise
-description: Scheduled jobs migrate your keys and encrypted data from Encryption Support to Field Encryption Enterprise.
+title: Migrating to Column Level Encryption
+description: Scheduled jobs migrate your keys and encrypted data from Encryption Support to Column Level Encryption.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/migration-to-platform-encryption-2.html
 release: zurich
 topic_type: concept
-last_updated: "2026-02-01"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Configuring Column Level Encryption, Column Level Encryption, Encryption]
 ---
 
-# Migrating to Column Level Encryption Enterprise
+# Migrating to Column Level Encryption
 
-Scheduled jobs migrate your keys and encrypted data from Encryption Support to Field Encryption Enterprise.
+Scheduled jobs migrate your keys and encrypted data from Encryption Support to Column Level Encryption.
 
 You can review the scheduled jobs by navigating to **System Security** &gt; **High Security Settings** &gt; **Security Jobs**:
 
@@ -26,9 +26,9 @@ Verify that the encrypted field configurations are using your newly migrated mod
 -   The **Method** field is **Single Module**.
 -   The **Crypto module** field is populated with the name of the cryptographic module that the system automatically creates. You can review that module and the module access policy, both of which are active and published.
 
-## Column Level Encryption Enterprise and system clones
+## Column Level Encryption and system clones
 
-If Column Level Encryption Enterprise is installed on your instance, a new field encryption module encryption key is automatically generated on the target clone instance as a part of clone process. These keys are generated for all modules to which the user has access, and that does not have a key already.
+If Column Level Encryption is installed on your instance, a new field encryption module encryption key is automatically generated on the target clone instance as a part of clone process. These keys are generated for all modules to which the user has access, and that does not have a key already.
 
 Because of this, field encryption modules on the target clone instance may have two module encryption keys present:
 
@@ -39,9 +39,6 @@ Because of this, field encryption modules on the target clone instance may have 
 
     To use a single key to decrypt and encrypt all data, you can run a module rekeying job. For more information about module rekeying jobs, see [Schedule mass encryption, decryption, and rekeying jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/schedule-mass-jobs.md).
 
-
--   **[Column Level Encryption migration status page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/cle-migration-status-page-2.md)**  
-Use the migration status page to track the migration of encryption contexts to encryption modules.
 
 **Parent Topic:**[Configuring Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/configuring-column-level-encryption-2.md)
 

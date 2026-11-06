@@ -7,9 +7,9 @@ release: zurich
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [AI Control Tower Home, AI Control Tower dashboard, Explore, AI Control Tower \(legacy\), Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [AI Control Tower Home, AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # AI cases tab in AI Control Tower
@@ -60,7 +60,9 @@ You can drill down into the data on each of the following widgets to learn more 
         -   Counts of issues that are linked to AI cases by their states like New, Review, or Responds.
         -   Counts of issues that are linked to AI cases by additional details like Overdue, Due in 7 days, or Unassigned.
 
-The [**Create AI case**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/create-ai-case-in-the-ai-risk-and-compliance-workspace.md) button enables you to initiate a new AI case record within the monitoring dashboard. This action is typically used to document, investigate, or track issues, risks, or compliance concerns that are related to AI models or datasets. Use the [**Create issue**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/create-ai-issue-in-the-ai-risk-and-compliance-workspace.md) button to create an issue related to AI cases.
+You can create AI cases and issues from the AI cases tab in both the AI Control Tower Workspace and the AI Risk and Compliance Workspace. The Create AI case button lets you initiate a new AI case record directly from the monitoring dashboard. Use this option to document, investigate, or track issues, risks, or compliance concerns related to AI models or datasets. Select the dropdown arrow next to Create AI case, and then select Create issue to create an issue related to an existing AI case.
+
+For more information, see [Create an AI case in the AI Risk and Compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/create-ai-case-in-the-ai-risk-and-compliance-workspace.md) and [Create an AI issue in the AI Risk and Compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/create-ai-issue-in-the-ai-risk-and-compliance-workspace.md).
 
 The following example shows the **AI cases** tab on the AI risk and compliance dashboard.
 
@@ -70,7 +72,7 @@ The following example shows the **AI cases** tab on the AI risk and compliance d
 
 The **Inquiries** tab on the AI risk and compliance dashboard provides you with a structured view of the AI inquiry workflow. Use the following widgets on the dashboard to track the compliance and then to monitor the status and progress of an inquiry:
 
-You can drill down into the data on each of the following widgets to learn more about an AI case.
+You can drill down into the data on each of the following widgets to learn more about an AI inquiry.
 
 -   **Inquiries status by state**
 

@@ -7,7 +7,7 @@ release: zurich
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Zing search in Service Portal, Configuring search in a portal, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -18,7 +18,7 @@ Use contextual search to limit search results for an instance of the type-ahead 
 
 With contextual search enabled, users only see type-ahead results for specific search sources. For example, searching on the Service Catalog page only shows results from the Service Catalog search source when contextual search is enabled.
 
-1.  In the Service Portal Designer **Service Portal** &gt; **Service Portal Configuration** &gt; **Service Portal Designer**, find an instance of the type-ahead search widget.
+1.  In the Service Portal Designer \(**Service Portal** &gt; **Service Portal Configuration** &gt; **Service Portal Designer**, find an instance of the type-ahead search widget.
 2.  Point to the widget and click the edit icon \(\[Omitted image "IconEditOption.png"\] Alt text: Edit icon from a widget in the Service Portal Designer\).
 
     Alternatively, in any preview page containing the type-ahead search widget, for example the Service Catalog homepage, control + right-click to open the widget context menu. Then click **Instance Options**.

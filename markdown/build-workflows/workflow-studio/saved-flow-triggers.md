@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Flows, Explore, Workflow Studio, Build workflows]
+breadcrumb: [Explore flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Saved flow triggers
@@ -118,8 +118,6 @@ Flow that runs synchronously in the current session. Use this option to provide 
 </td></tr></tbody>
 </table>    You can allow the users to view and modify the advanced options when they use the saved trigger in a flow. If a user modifies the advanced options, any future changes that you make to the trigger doesn't affect the user modified options.
 
-
-**Parent Topic:**[Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/exploring-flows.md)
 
 **Related topics**  
 

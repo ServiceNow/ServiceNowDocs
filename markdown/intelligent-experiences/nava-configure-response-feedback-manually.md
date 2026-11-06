@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/nava-configure-response-feedback-manually.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring AI skills, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Configuring plugins and skills in AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Configure response feedback
@@ -20,7 +20,7 @@ Role required: admin
 
 ## Procedure
 
-1.  In the filter navigator, enter `sys_now_assist_deployment_config_attributes.list` to display the Now Assist in Virtual Agent Deployment Config Attributes table.
+1.  In the filter navigator, enter `sys_now_assist_deployment_config_attributes.list` to display the ServiceNow Otto for Virtual Agent Deployment Config Attributes table.
 
 2.  In the search fields, select **Name** from the drop-down list and enter `granular` in the Search field.
 
@@ -36,7 +36,7 @@ Role required: admin
 
 8.  Select **Submit**.
 
-9.  To configure the feedback options, in the filter navigator, enter `sys_now_assist_message_bundle.list` to display the Now Assist Message Bundles table.
+9.  To configure the feedback options, in the filter navigator, enter `sys_now_assist_message_bundle.list` to display the ServiceNow Otto Message Bundles table.
 
 10. In the search fields, select **for text** from the drop-down list and enter `granular` in the Search field.
 
@@ -51,5 +51,5 @@ Role required: admin
 14. For more information on accessing the stored feedback data, see [Granular Feedback and Analytics in ServiceNow Otto for Virtual Agent \(KB3060968\).](https://support.servicenow.com/kb_view.do?sysparm_article=KB1213249)
 
 
-**Parent Topic:**[Configuring AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configuring-na-landing.md)
+**Parent Topic:**[Configuring plugins and skills in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configuring-na-landing.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Exporting your table records to Google Sheets, Exporting data, Tables and data, Configure core features, Administer]
+breadcrumb: [Exporting your table records to Google Sheets, Exporting data, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Set up the OAuth application on the Google Sheets API

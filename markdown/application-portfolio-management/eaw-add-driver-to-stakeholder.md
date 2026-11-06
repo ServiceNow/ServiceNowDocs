@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-add-driver-to-stakeholder.html
 release: zurich
 topic_type: task
-last_updated: "2026-08-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [stakeholder, driver, business architecture, enterprise architecture workspace]
-breadcrumb: [Manage stakeholders, Using business architecture, Working with Portfolio list view, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Manage stakeholders, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Add a driver to a stakeholder

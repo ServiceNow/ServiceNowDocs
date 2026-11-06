@@ -1,5 +1,5 @@
 ---
-title: Manage CI details in CI Form
+title: Manage CI details using CI Form in CMDB Workspace
 description: Use CI Form in CMDB Workspace or in another workspace, to view, edit, and manage a comprehensive set of details of a CI such as its attributes, related lists, and CMDB 360 records. When updating CIs, IRE rules are applied to avoid potential issues such as duplicate CIs. CI Form supports derivation of form configurations throughout the CMDB hierarchy.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/ci-form-cmdb-workspace.html
@@ -7,12 +7,12 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 17
 breadcrumb: [CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Manage CI details in CI Form
+# Manage CI details using CI Form in CMDB Workspace
 
 Use CI Form in CMDB Workspace or in another workspace, to view, edit, and manage a comprehensive set of details of a CI such as its attributes, related lists, and CMDB 360 records. When updating CIs, IRE rules are applied to avoid potential issues such as duplicate CIs. CI Form supports derivation of form configurations throughout the CMDB hierarchy.
 
@@ -20,7 +20,7 @@ The CI Form feature is a centralized location with a comprehensive set of CI det
 
 General operations you can perform in CI Form:
 
--   Select the CI Summarization skill: Requires that ServiceNow Otto for CMDB is set up. For more information, see [Configure the CI summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-config-ci-summary.md).
+-   Select the CI Summarization skill: Requires that ServiceNow Otto® for CMDB is set up. For more information, see [Configure the CI summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-config-ci-summary.md).
 -   Select **Open map** to open the CI map in [Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/unified-map/cmdb-workspace-unified-map.md). This function isn't available for a non-operational CI. For information about using the **Life cycle stage** attribute to define a CI's operational state, see [Configure CIs to appear based on life cycle stage value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/unified-map/unified-map-confg-operational-state.md).
 
 In general, a CMDB Admin and a CMDB Editor can view and edit CI records, and a CMDB User can view CI details on the form.
@@ -88,7 +88,7 @@ A CI that is updated in CI Form, has its **discovery\_source** attribute set to 
 
 More information:
 
--   [Identification and Reconciliation engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/ire.md)
+-   [Identification and Reconciliation Engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/ire.md)
 -   [Reconciliation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/r_ReconciliationRulesPrinciples.md)
 -   [Identification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_IdentificationRules.md)
 -   [Mandatory attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/t_SetCIFieldMandatory.md)
@@ -158,7 +158,13 @@ This section shows related items such as open incidents and the activity stream 
     In this tab, you can:
 
     -   Select a chart to drill down to the records associated with different chart sections. Depending on configuration, records open in CMDB Workspace or in another workspace.
-    -   Configure the list of tables for which charts appear, which is stored in the Explore CI Related Item Configurations \[sn\_cmdb\_ws\_explore\_ci\_related\_item\_config\] table. You can add records to that table, or modify behavior settings such as where a record opens when selected: Requires the sn\_cmdb\_ws.config\_editor role.
+
+        Requires the itil user role.
+
+    -   Configure the list of tables for which charts appear, which is stored in the Explore CI Related Item Configurations \[sn\_cmdb\_ws\_explore\_ci\_related\_item\_config\] table. You can add records to that table, or modify behavior settings such as where a record opens when selected.
+
+        Requires the sn\_cmdb\_ws.config\_editor role.
+
     -   Configure your preferences for which of the available charts appear when you log in. Select the Related Item Settings icon in the Related Items tab and in the Related item settings dialog box, select any charts that you prefer to hide.
 -   **CI history**
 
@@ -228,7 +234,7 @@ More information:
 -   [Service Delivery domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/manage-tech-servs-domain.md)
 -   [Access CSDM features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-using.md)
 -   [CSDM implementation stage — Walk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-implement-walk-stage.md)
--   [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/application-services.md)
+-   [Service instances \(Application services\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/application-services.md)
 
 ## Health
 
@@ -251,8 +257,8 @@ This section appears only if CMDB 360 is enabled and configured.
 
 More information:
 
--   [CMDB 360/Multisource CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md)
--   [CMDB 360 experience in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb360-exp-cmdb-workspace.md)
+-   [CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md)
+-   [CMDB 360 experience in CMDB Workspace and in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb360-exp-cmdb-workspace.md)
 -   [Configure the CMDB 360 dashboard in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md)
 
 **Parent Topic:**[CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)

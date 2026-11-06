@@ -7,9 +7,9 @@ release: zurich
 product: MID Server
 classification: mid-server
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Installing the MID Server with manual or guided setup, Installing the MID Server, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Installing the MID Server, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Use MID Server guided setup
@@ -74,7 +74,7 @@ Each configuration activity provides the following resources to help you:
 
 7.  Select **Configure** for the next task, **Download &amp; Install MID**.
 
-    -   Java 17.0.12 is bundled with the MID Server installer package and is installed on the host for all new MID Servers. The installer automatically configures Java 17.0.12 to run in your environment. No additional configuration is required. This version supports both 64-bit Windows MID Servers and 64-bit Linux MID Servers. The MID Server requires a minimum JRE version 17.0.10, and recommended version 17.0.12. If you are using a lower version than 17.0.10, you may see encryption related issues.
+    -   Java 21.0.7 is bundled with the MID Server installer package and is installed on the host for all new MID Servers. The installer automatically configures Java 21.0.7 to run in your environment. No additional configuration is required. This version supports both 64-bit Windows MID Servers and 64-bit Linux MID Servers. The MID Server requires a minimum JRE version 17.0.10, and recommended version 21.0.7. If you are using a lower version than 17.0.10, you may see encryption related issues.
 
     -   For information about the system requirements to host MID Servers, see [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md)
 8.  Validate your new MID Server.

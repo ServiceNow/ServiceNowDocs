@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-create-edit-adr.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage architectural decision records \(ADR\), Working with information portfolio, Working with Portfolio list view, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Manage architectural decision records \(ADR\), Working with information portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Add or edit an architectural decision record \(ADR\)
@@ -38,7 +38,7 @@ Role required: sn\_apm.apm\_user to add an architectural decision record \(ADR\)
 
     -   To add an architectural decision record, select **New**.
     -   To update details of an existing architectural decision record, select the architectural decision record.
-6.  In the **New architectural** artifact pop-up window, fill in the form fields.
+6.  In the **New architectural artifact** pop-up window, fill in the form fields.
 
     For field information, see [Architectural artifact form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-new-arct-artfct-form.md).
 

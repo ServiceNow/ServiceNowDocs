@@ -7,7 +7,7 @@ release: zurich
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Reference, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -192,7 +192,7 @@ Often manifested in the form of contracts such as service level agreements, oper
 
 </td></tr><tr><td>
 
-Service instance \(called application service before CSDM v5\)
+Service instance \(formerly Application service\)
 
 </td><td>
 
@@ -202,7 +202,7 @@ A service type that is a logical representation of a deployed application stack.
 
 Examples of service instances are hosting, data backup, and recovery. **Note:** Applications and service instances do not have a one-to-one relationship. A service instance can include multiple applications. An application can be included in multiple service instances.
 
-See [Use Application Services dashboard to monitor health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/app-service-dashboard.md).
+See [Use Service instance \(Application Services\) dashboard to monitor health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/app-service-dashboard.md).
 
 </td></tr><tr><td>
 
@@ -234,7 +234,7 @@ Technology management offering
 
 </td><td>
 
-A technology management offering is a service offering with a service classification of "technical service". Technical service offerings may be further divided as follows:
+A Technology management offering is a service offering with a service classification of "technical service". Technical service offerings may be further divided as follows:
 
 -   Location and geography
 -   Environment \(production or non-production\)
@@ -248,7 +248,7 @@ The technical service offering comes from the service, based on how the parent s
 
 </td><td>
 
-**Note:** Not all technology management offerings must be related to applications or infrastructure CIs. Managed Service Providers can provide technical service offerings.
+**Note:** Not all Technology management offerings must be related to applications or infrastructure CIs. Managed Service Providers can provide technical service offerings.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[CSDM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-reference.md)

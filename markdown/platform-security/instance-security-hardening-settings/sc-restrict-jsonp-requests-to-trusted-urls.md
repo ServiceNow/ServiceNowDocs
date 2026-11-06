@@ -1,5 +1,5 @@
 ---
-title: Restrict JSONP Requests to Trusted URLs \[Updated in Security Center 1.3\]
+title: Restrict JSONP requests to trusted URLs
 description: Specify trusted URLs for the AngularJS $http service to allow or reject JSONP requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-restrict-jsonp-requests-to-trusted-urls.html
@@ -7,12 +7,12 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Restrict JSONP Requests to Trusted URLs \[Updated in Security Center 1.3\]
+# Restrict JSONP requests to trusted URLs
 
 Specify trusted URLs for the AngularJS $http service to allow or reject JSONP requests.
 

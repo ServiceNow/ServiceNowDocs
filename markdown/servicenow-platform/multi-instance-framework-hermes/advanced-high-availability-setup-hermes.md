@@ -7,7 +7,7 @@ release: zurich
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Learn how messages are produced and consumed in Hermes during normal operation, 
 
 ServiceNow production instances operate in geographically separate data centers. Each data center is paired with another data center to provide redundancy with failover support. One data center is designated as the active side and the other as standby. For example, your instance might be configured in the DC1 and DC2 data centers, with DC1 as the active side.
 
-With the activation of StreamConnect, LES, or IDR, a new Hermes Kafka cluster is provisioned in both data centers. To confirm high availability and provide failover support, Hermes uses a pair of active/active Kafka clusters, one in each data center.
+With the activation of StreamConnect, LES, or IDR, a new Hermes Kafka cluster is provisioned in both data centers. To ensure high availability and provide failover support, Hermes uses a pair of active/active Kafka clusters, one in each data center.
 
 -   **Near cluster**
 
@@ -43,7 +43,7 @@ Under the following circumstances, the cluster where messages are produced can c
 
 -   **Instance Advanced High Availability \(AHA\) Transfer**
 
-    When an instance undergoes an AHA transfer, the standby instance is set to active, and the previously active instance is set to standby. In this scenario, the instance switches to using the Hermes cluster on the newly-active side.
+    When an instance undergoes an AHA transfer, the standby instance becomes active, and the previously active instance becomes standby. In this scenario, the instance switches to using the Hermes cluster on the newly-active side.
 
     For example, if the instance is running in DC1 and DC2 datacenters with DC1 as the current active side, and an AHA transfer occurs, the instance switches to using the Hermes cluster in DC2.
 

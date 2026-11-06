@@ -1,16 +1,16 @@
 ---
-title: Create diagrams using ArchiMate shapes and relationships
+title: Create diagram using ArchiMate shapes and add relationships
 description: Use the industry standard ArchiMate shapes to create modeling diagrams for your enterprise in the Enterprise Architecture Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-modeling-create-diagram-archimate.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Working with ArchiMate Shapes, Working with Enterprise Modeling and Visualization, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with ArchiMate Shapes, Working with Enterprise Modeling and Visualization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Create diagrams using ArchiMate shapes and relationships
+# Create diagram using ArchiMate shapes and add relationships
 
 Use the industry standard ArchiMate shapes to create modeling diagrams for your enterprise in the Enterprise Architecture Workspace.
 
@@ -20,7 +20,7 @@ Role required: sn\_apm.apm\_user
 
 ## About this task
 
-You can create a diagram with the combination of CSDM and ArchiMate shapes or you can use only the ArchiMate shapes. To create the diagram with only ArchiMate shapes, skip including the Business Application name in the Create a business hierarchy map form. It creates an empty canvas.
+You can create a diagram with the combination of CSDM and ArchiMate shapes or you can use only the ArchiMate shapes. To create the diagram with only ArchiMate shapes, skip including the Business Application name in the Create a business hierarchy map form. This creates an empty canvas.
 
 ## Procedure
 
@@ -38,7 +38,7 @@ You can create a diagram with the combination of CSDM and ArchiMate shapes or yo
 
 6.  Select **Create diagram**.
 
-    An empty canvas gets created for the artifact.
+    A empty canvas gets created for the artifact.
 
 7.  Add ArchiMate shapes to the canvas.
 
@@ -49,10 +49,10 @@ You can create a diagram with the combination of CSDM and ArchiMate shapes or yo
 8.  Associate a CI to the shape by selecting a radio button.
 
     -   **Choose existing**- Select this radio button to associate the shape with an existing CI.
-    -   **Create new**- Select this radio button to create a CI for the selected shape.
+    -   **Create new**- Select this radio button to create a new CI for the selected shape.
 9.  Select a connector line to update the relationship type.
 
-    The Relationship side panel opens. Select a **Value** and **ArchiMate relationship type**. For more information on the ArchiMate shapes and relationships, see [ArchiMate shapes support in the Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-modeling-archimate.md).
+    The Relationship side panel opens. Select a **Relationship** and **Value**. For information on the ArchiMate shapes and relationships, see [ArchiMate shapes support in the Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-modeling-archimate.md).
 
     **Note:** Connector ports on ArchiMate shapes are bi-directional. You can use any connector port—top, bottom, left, or right—as either an input or an output.
 

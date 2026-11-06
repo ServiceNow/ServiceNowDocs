@@ -7,7 +7,7 @@ release: zurich
 product: Export to PowerPoint for Application Portfolio Management
 classification: export-to-powerpoint-for-application-portfolio-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Export to PowerPoint for Strategic Portfolio Management, Strategic Portfolio Management]
 ---

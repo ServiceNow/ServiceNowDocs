@@ -1,18 +1,18 @@
 ---
-title: Associate multiple Install base items to a case
-description: In the Customer Service Management application, you can associate one or more related Install base items to a case to access all items associated with the parent Install base item.
+title: Associate multiple install base items to a case
+description: In the Customer Service Management application, you can associate one or more related install base items to a case to access all items associated with the parent install base item.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/associate-multiple-install-base-items-case.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Install base items, Configure Install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
+breadcrumb: [Install base items, Configure install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
-# Associate multiple Install base items to a case
+# Associate multiple install base items to a case
 
-In the Customer Service Management application, you can associate one or more related Install base items to a case to access all items associated with the parent Install base item.
+In the Customer Service Management application, you can associate one or more related install base items to a case to access all items associated with the parent install base item.
 
 ## Before you begin
 
@@ -22,16 +22,21 @@ Role required: sn\_customerservice\_manager and admin
 
 1.  Navigate to **All** &gt; **Customer Service** &gt; **Cases** &gt; **All**.
 
-2.  Open the case that you want to associate the multiple Install base items to.
+2.  Open the case that you want to associate the multiple install base items to.
 
 3.  Open the Affected Install Base Items related list.
 
 4.  Select **Edit**.
 
-5.  From the existing list of Install base items in the **Collection** box, select the Install base that you want to add by selecting the arrow.
+5.  From the existing list of install base items in the **Collection** box, select the install base that you want to add by selecting the right arrow.
 
     The install base that you select is displayed in the **Affected Install Base Items List** box.
 
 6.  Select **Save**.
 
+
+**Related topics**  
+
+
+[Create an install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-install-base-item.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/create-a-new-entity-for-data-centers.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Methods to set up entities for Sustainable IT, Configure Sustainable IT, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---

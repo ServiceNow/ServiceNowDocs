@@ -7,9 +7,9 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management]
+breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Copy user or device allocations
@@ -51,8 +51,6 @@ Role required: sam\_admin or sam\_user.
     All the details of the source entitlement such as license metric, metric group appear on the Details page.
 
 6.  Select the Source allocations related list and select the allocations.
-
-    Allocations can only be copied one at a time. Repeat the process for each allocation.
 
 7.  Select **Submit**.
 

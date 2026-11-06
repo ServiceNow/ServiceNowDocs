@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2025-09-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Activate Schedule Optimization, Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
+breadcrumb: [Activate, Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Schedule Optimization for Planned Crews

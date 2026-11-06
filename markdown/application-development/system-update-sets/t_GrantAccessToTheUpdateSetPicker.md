@@ -1,20 +1,20 @@
 ---
 title: Grant access to the update set picker
-description: Enable a non-administrative user to use the update set picker.
+description: Enable specific roles to access the update set picker.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/system-update-sets/t\_GrantAccessToTheUpdateSetPicker.html
 release: zurich
 product: System Update Sets
 classification: system-update-sets
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administer system update sets, System update sets, Deploying applications, Building applications]
+breadcrumb: [Configure, System update sets, Deploying applications, Classic app development, Building applications]
 ---
 
 # Grant access to the update set picker
 
-Enable a non-administrative user to use the update set picker.
+Enable specific roles to access the update set picker.
 
 ## Before you begin
 
@@ -22,20 +22,24 @@ Role required: admin
 
 ## About this task
 
-The update set picker appears on the Settings panel. The picker allows users to choose an update set for making and tracking customizations. By default, only administrators can use the update set picker. You can grant access to additional users.
+The update set picker appears when selecting the globe icon. The picker enables you to choose an update set for making and tracking customizations. By default, only administrators can use the update set picker. You can grant access to additional users.
 
-\[Omitted image "u16-update-set-picker.jpeg"\] Alt text: update set picker
+\[Omitted image "UpdateSetList.png"\] Alt text: update set picker list.
 
 ## Procedure
 
-1.  [Grant the user role read access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/t_CreateAnACLRule.md) to the Update Set table \[sys\_update\_set\].
+1.  Grant the user role read access to the sys\_update\_set table.
 
-2.  Enable users to see the update set picker on the Settings panel.
+    For more information, see [Grant the user role read access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/t_CreateAnACLRule.md).
 
-    1.  [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) **glide.ui.update\_set\_picker.role** to the System Properties table.
+2.  Enable access to the update set picker when selecting the globe icon.
 
-    2.  Set the value of **glide.ui.update\_set\_picker.role** to the role for which you want to give access.
+    1.  Add glide.ui.update\_set\_picker.role to the System Properties table.
+
+    2.  Set the value of glide.ui.update\_set\_picker.role to the role that you want to grant access to.
+
+    See [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) and [Update sets properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/update-sets-properties.md) for more information.
 
 
-**Parent Topic:**[Administer system update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/administer-system-update-sets.md)
+**Parent Topic:**[Configuring System Update Sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/configure-system-update-sets.md)
 

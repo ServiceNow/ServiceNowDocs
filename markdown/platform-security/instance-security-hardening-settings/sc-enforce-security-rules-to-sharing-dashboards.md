@@ -1,5 +1,5 @@
 ---
-title: Enforce security rules to sharing dashboards \[New in Security Center 1.3\]
+title: Enforce security rules to sharing dashboards
 description: Use the glide.cms.dashboards.sharing\_with\_secure\_search property to control whether users can share dashboards.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-enforce-security-rules-to-sharing-dashboards.html
@@ -7,16 +7,18 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Enforce security rules to sharing dashboards \[New in Security Center 1.3\]
+# Enforce security rules to sharing dashboards
 
 Use the **glide.cms.dashboards.sharing\_with\_secure\_search** property to control whether users can share dashboards.
 
-When the **glide.cms.dashboards.sharing\_with\_secure\_search** property is not set to **true**, users can share dashboard groups and roles that they do not have access to. Enabling this property enforces access control lists \(ACLs\) when searching the sys\_user, sys\_user\_role, and sys\_user\_group tables during the dashboard sharing process. Sharing a dashboard excessively can lead to users, groups, or roles accessing data that they should not have permission to view, potentially compromising sensitive information. Therefore, it is recommended to set **glide.cms.dashboards.sharing\_with\_secure\_search** to true so that dashboards are shared only with those who have the appropriate permissions.
+When the **glide.cms.dashboards.sharing\_with\_secure\_search** system property is not set to **true**, a user can share a dashboard to groups and roles that they don't personally have access to. This property enforces ACLs on searching the User \[sys\_user\], Roles \[sys\_user\_role\], and Groups \[sys\_user\_group\] tables when sharing a dashboard.
+
+Set the **glide.cms.dashboards.sharing\_with\_secure\_search** system property is set to **true**.
 
 ## More information
 
@@ -70,6 +72,14 @@ false
 
 </td></tr><tr><td>
 
+Fallback value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
 Category
 
 </td><td>
@@ -84,7 +94,7 @@ Security risk
 
 -   Severity score: 3.5
 -   CVSS score: Low
--   Security risk details: Not setting this property to the recommended value of true causes access control lists to not be enforced when searching the sys\_user, sys\_user\_role, and sys\_user\_group tables. This could lead to dashboards being shared with unauthorized users, exposing sensitive information.
+-   Security risk details: Oversharing a dashboard may result in minor confidentiality impacts in cases where a user shares a dashboard with a user, group, or role that should not access to the dashboard.
 
 </td></tr><tr><td>
 

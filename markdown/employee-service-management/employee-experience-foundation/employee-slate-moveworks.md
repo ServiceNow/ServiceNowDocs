@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-04-24"
 reading_time_minutes: 3
 keywords: [EmployeeWorks Web App, Moveworks AI assistant, AI front door]
-breadcrumb: [Configuration flow, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configuration flow, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # EmployeeWorks Web App
@@ -21,7 +21,7 @@ EmployeeWorks Web App \(built for Moveworks\) combines the Moveworks AI assistan
 
 You start any request from one chat bar and complete the request. You can work across ServiceNow workflows and connected business applications without switching tools, opening separate forms, or filing tickets.
 
-\[Omitted image "es-moveworks-home.svg"\] Alt text: EmployeeWorks Web App home page with the conversation interface and chat bar
+\[Omitted image "es-moveworks-home.png"\] Alt text: EmployeeWorks Web App home page with the conversation interface and chat bar
 
 ## Quick features overview
 

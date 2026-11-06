@@ -7,9 +7,9 @@ release: zurich
 product: Atlassian Jira Integrations Common
 classification: atlassian-jira-integrations-common
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Customizing map configuration for your Jira projects, Setting up the integration between Jira and Agile Development 2.0, Atlassian Jira Integration for Agile Development, Integrate, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Customizing map configuration for your Jira projects, Setting up the integration between Jira and Agile Development 2.0, Atlassian Jira Integration for Agile Development, Strategic Portfolio Management]
 ---
 
 # Customize your table map configuration
@@ -100,7 +100,7 @@ Display name of the table in Jira.
     -   false, validation of your map configuration failed. Ensure that you enter correct values for all the fields and validate again.
 3.  Create a business rule to support export of this new table map configuration to Jira. See [Apply custom table map configuration for Agile Development 2.0 and Jira](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/atlassian-jira-integrations-common/jira-create-business-rule-to-apply-custom-table-map.md).
 4.  If you want to support import and export of attachments for this new table map, see [Allow import and export of attachments on a custom Agile Development 2.0 table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/atlassian-jira-integrations-common/jira-allow-import-and-export-of-attachments-on-custom-table-maps.md).
-5.  If you want to enable display of fields that reference Jira identifiers in your custom table map, see [Populate Jira identifier reference fields for Agile Development 2.0 custom table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/atlassian-jira-integrations-common/jira-populate-external-identifier-reference-fields-on-a-custom-table.md).
+5.  If you want to enable display of fields that reference Jira identifiers in your custom table map, see [Populate Jira project identifier reference fields for Agile Development 2.0 custom table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/atlassian-jira-integrations-common/jira-populate-external-identifier-reference-fields-on-a-custom-table.md).
 
 **Parent Topic:**[Customizing map configuration for your Jira projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/atlassian-jira-integrations-common/custom-map-configuration.md)
 

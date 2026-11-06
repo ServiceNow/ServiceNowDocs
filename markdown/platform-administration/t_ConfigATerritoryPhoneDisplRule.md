@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/t\_ConfigATerritoryPhoneDisplRule.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Phone number field type, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer]
+breadcrumb: [Phone number field type, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Configure a territory phone display rule
@@ -54,6 +54,8 @@ The Sys Phone Territory screen allows administrators to edit the display rules f
 ## Phone validations
 
 Phone validations are already configured for all territories and are automatically applied to the phone number to ensure that the number is valid for the territory.
+
+\[Omitted image "E164PhoneValidations.png"\] Alt text:
 
 ## Phone formats
 

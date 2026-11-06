@@ -7,9 +7,9 @@ release: zurich
 product: Journey Designer
 classification: journey-designer
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Journey designer features, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Explore, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Journey details guided tours

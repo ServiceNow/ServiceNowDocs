@@ -1,20 +1,20 @@
 ---
 title: Add custom Embedded Help content
-description: You can add a custom Embedded Help topic, for example, if you have a custom application and you want to provide help to users.
+description: You can create a new custom embedded help topic, for example, if you have a custom application and you want to provide help to users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/adoption-services/add-custom-help-topic.html
 release: zurich
 product: Adoption Services
 classification: adoption-services
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configure Embedded Help, Embedded Help, In-product help, Adoption services, Configure user experiences]
+breadcrumb: [Configuring Embedded Help, Embedded Help, In-product help, Adoption services, Configure user experiences]
 ---
 
 # Add custom Embedded Help content
 
-You can add a custom Embedded Help topic, for example, if you have a custom application and you want to provide help to users.
+You can create a new custom embedded help topic, for example, if you have a custom application and you want to provide help to users.
 
 ## Before you begin
 
@@ -31,13 +31,13 @@ When you write content for your users, keep the following limitations in mind.
 -   Any changes you make to embedded help are not automatically deployed to another instance.
 -   Changes to the embedded help table are not captured in update sets, update\_sync=false is set intentionally.
 
-**Note:** Embedded help records are also used to create content for the Help Center within a configurable workspace. For more information, see [Create Help Center content for configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/create-help-center-content.md).
+**Note:** Embedded help records are also used to create content for the Help Center within a configurable workspace. For more information, see [Create Help Center content for configurable workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/create-help-center-content.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Embedded Help** &gt; **Help Content**.
 
-2.  Select **New**.
+2.  Click **New**.
 
 3.  Complete the form.
 
@@ -55,7 +55,7 @@ Name
 
 </td><td>
 
-Enter the Embedded Help topic name. A typical name is the title of the page to which it applies.
+Enter the embedded help topic name. A typical name is the title of the page to which it applies.
 
 </td></tr><tr><td>
 
@@ -65,7 +65,7 @@ Page
 
 Enter the UI page this content provides help for, without the .do file extension.\[Omitted image "embedded-help-url-page.png"\] Alt text: Page name in the URL
 
-**Note:** If you're using the embedded help record to display in the Help Center, as described in [Create Help Center content for configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/create-help-center-content.md), enter the same value in the **Name** and **Page** fields, replacing spaces with underscores in the **Page** field.
+**Note:** If you are using the embedded help record to display in the Help Center, as described in [Create Help Center content for configurable workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/create-help-center-content.md), enter the same value in the Name and Page fields, replacing spaces with underscores in the Page field.
 
 </td></tr><tr><td>
 
@@ -91,7 +91,7 @@ Active
 
 </td><td>
 
-Select the check box to make this content appear. Clear the check box to hide the content from being available, for example, to have someone review it before it is accessed on the UI page.
+Select the check box to make this content appear. Clear the check box to prevent the content from being available, for example, to have someone review it before it is accessed on the UI page.
 
 </td></tr><tr><td>
 
@@ -144,10 +144,10 @@ Specify the domain this content is used for, if applicable.This field appears in
 
     To add an embedded video, see [Embed video content in help topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/embed-video-help-content.md).
 
-5.  To add another line below tables, videos, or related links, select the newline icon \(**⏎**\).
+5.  To add another line below tables, videos, or related links, click the newline icon \(**⏎**\).
 
-6.  Select **Submit**.
+6.  Click **Submit**.
 
 
-**Parent Topic:**[Configure Embedded Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/configuring-embedded-help.md)
+**Parent Topic:**[Configuring Embedded Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/configuring-embedded-help.md)
 

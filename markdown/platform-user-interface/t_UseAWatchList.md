@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/t\_UseAWatchList.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Forms in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -22,7 +22,7 @@ Role required: none
 
 1.  Navigate to a record that you want to add watchers to.
 
-    **Note:** Not all records have watch lists. If you’re unable to see a watch list, you may need to [adjust your form view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/view-management-overview.md) or ask your administrator to update the form to add a watch list.
+    **Note:** Not all records have watch lists. If you’re unable to see a watch list, you may have to [adjust your form view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/view-management-overview.md) or ask your administrator to update the form to add a watch list.
 
 2.  Expand the watch list by selecting the lock icon \( \[Omitted image "LockIconNE.png"\] Alt text: lock icon\).
 

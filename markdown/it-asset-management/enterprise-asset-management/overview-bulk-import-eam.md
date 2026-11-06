@@ -8,8 +8,8 @@ product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 3
-breadcrumb: [Manage enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+reading_time_minutes: 2
+breadcrumb: [Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Bulk import of your enterprise models and assets
@@ -51,11 +51,4 @@ The data that you enter in your spreadsheet is copied to one or more of the foll
 -   Model Import Staging \[sn\_eam\_model\_import\_row\]​
 -   Model Component Import Staging \[sn\_eam\_mc\_import\_row\]​
 -   Asset Import Staging \[sn\_eam\_asset\_import\_row\]​
-
--   **[Importing enterprise models and assets using AI assistance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/importing-data-ai-eam.md)**  
-You can import enterprise models and assets with minimal human intervention by using AI-assisted import.
--   **[Manually import enterprise models and assets in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/bulk-import-eam.md)**  
-Manually import multiple enterprise models and assets in one go in the Enterprise Asset Workspace.
-
-**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/it-asset-management.md)
 

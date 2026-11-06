@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Configure, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -189,7 +189,7 @@ Summarizes attachments in the Incident summarization skill record using Document
 
 8.  Cluster incidents
 
-    -   **Important:** Starting with the Zurich release, the Suggested steps skill is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. This feature is being replaced with [Learning Enhanced Automation Platform \(LEAP\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/aiops-leap.md). For information on how to get started see, [How to get started with LEAP](https://www.servicenow.com/community/itom-articles/leap-learning-enhanced-automation-platform-how-to-get-started/ta-p/3555322).
+    -   **Important:** Starting with the Brazil release, the Suggested steps skill is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. This feature is being replaced with [Learning Enhanced Automation Platform \(LEAP\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/aiops-leap.md). For information on how to get started see, [How to get started with LEAP](https://www.servicenow.com/community/itom-articles/leap-learning-enhanced-automation-platform-how-to-get-started/ta-p/3555322).
 
 To transition to LEAP:
 
@@ -320,7 +320,7 @@ Closed
             -   8-Canceled
             You can create a custom state and add a number for that state.
 
-        -   To create knowledge articles using Now Assist in any incident state, in the condition builder for the **KB generation** skill, select the **\[State\]\[is one of\]\[New, Resolved, In Progress, Closed, Canceled\]** filter condition.
+        -   To create knowledge articles using Otto in any incident state, in the condition builder for the **KB generation** skill, select the **\[State\]\[is one of\]\[New, Resolved, In Progress, Closed, Canceled\]** filter condition.
     2.  Select **Save and continue** to go to the next step.
 
 11. Select display.

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/vault-tools.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 breadcrumb: [ServiceNow Vault console dashboard, ServiceNow Vault]
 ---
 
@@ -14,11 +14,11 @@ breadcrumb: [ServiceNow Vault console dashboard, ServiceNow Vault]
 
 Learn about the tools and metrics ServiceNow Vault uses to protect and discover sensitive data.
 
-ServiceNow Vault integrates with several tools to provide a cohesive overview of your sensitive data security. You can hover over a widget to get further insight on the reported data. Select the **Go to** button on any tool to go to its respective page.
+ServiceNow Vault integrates with several tools to provide you with a cohesive overview of your sensitive data security. You can hover over a widget to get further insight on the reported data. Select the **Go to** button on any tool to go to its respective page.
 
 ## Know your data
 
-ServiceNow Vault uses Data Discovery and Data Classification to help you understand and know your data.
+ServiceNow Vault uses Data Discovery and Data Classification help you understand and know your data.
 
 <table id="table_ltz_vcb_1gc"><thead><tr><th>
 
@@ -62,7 +62,7 @@ Total sensitive data occurrences in attachments across tables in your instance.
 
 </td></tr><tr><td rowspan="2">
 
-[Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-classification/data-classification.md)Data Classification create data classes and helps organize your data into data classes for better management. Classified data can be protected at the class level.
+[Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-classification/data-classification.md)Data Classification creates data classes and helps organize your data into data classes for better management. Classified data can be protected at the class level.
 
 </td><td>
 
@@ -70,7 +70,7 @@ Classifiable data
 
 </td><td>
 
-Proportions of classifiable data.
+Tables or columns that can be classified.
 
 </td></tr><tr><td>
 
@@ -78,12 +78,12 @@ Classified data
 
 </td><td>
 
-Proportions of classified data.
+Dictionary entries, tables, or columns that are classified.
 
 </td></tr></tbody>
 </table>## Protect your data
 
-ServiceNow Vault uses data anonymization, cloud encryption, field encryption, and zero trust access to help secure and protect your data.
+ServiceNow Vault uses data anonymization, cloud encryption, field encryption, log export, and zero trust access to help secure and protect your data.
 
 <table id="table_vdj_n2b_1gc"><thead><tr><th>
 
@@ -99,7 +99,7 @@ Description
 
 </th></tr></thead><tbody><tr><td rowspan="3">
 
-[Anonymization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/dps-data-anonymization.md)Anonymize data by data class with different anonymization techniques to preserve data patterns but remove sensitive data. Useful for sanitizing instances for development or removing specific user data because of rights to be forgotten.
+[Anonymization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/dps-data-anonymization.md)Anonymize data by data class with different anonymization techniques to preserve data patterns but remove sensitive data. Useful for sanitizing instances for development or removing specific user data because of rights to be forgotten. Default real-time protection policies are available from this card and are applied in addition to any existing policies. For more information, see [Default policies and configurations in ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/vault-default-policies-configs.md).
 
 </td><td>
 
@@ -115,7 +115,7 @@ Real time data
 
 </td><td>
 
-The amount of anonymized real time data.
+Number of successful real-time calls to anonymize sensitive data as it enters the platform, by channel.
 
 </td></tr><tr><td>
 
@@ -123,9 +123,9 @@ Anonymization run times
 
 </td><td>
 
-Run times in hours of data anonymized in real time by channel, such as Now Assist or Virtual Agent.
+How long scheduled user- or data-based jobs ran in hours for existing data.
 
-</td></tr><tr><td>
+</td></tr><tr><td rowspan="2">
 
 [Cloud Encryption with Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/cloud-encryption/dare-overview.md)Securely protect sensitive data in encrypted storage for your data using block encryption, along with enhanced key management.
 
@@ -138,10 +138,6 @@ Active cloud key
 Total rotations of the active cloud key.**Note:** To view this data, you need the [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/encryption.md) admin role \(sn\_kmf.admin or sn\_kmf.cryptographic\_manager\).
 
 </td></tr><tr><td>
-
- 
-
-</td><td>
 
 Key rotation
 
@@ -177,9 +173,37 @@ Active encryption keys
 
 Number of active Field Encryption keys in your instance. Ideally, the number of active keys matches the number of classifications.**Note:** To view this data, you need the [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/encryption.md) admin role \(sn\_kmf.admin or sn\_kmf.cryptographic\_manager\) and the security\_admin role.
 
+</td></tr><tr><td rowspan="3">
+
+[Exploring Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/les-landing-page.md)Forward your instance's logs to external analytics tools to monitor data patterns. New users can activate default configurations from this card. For more information, see [Default policies and configurations in ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/vault-default-policies-configs.md).
+
+</td><td>
+
+Data exported in the past 6 months
+
+</td><td>
+
+Total volume of data, in MB, exported to external analytics tools each month over the past 6 months, excluding the current month. This trend shows how your monthly export volume changes over time.
+
+</td></tr><tr><td>
+
+Most exported topics in the past 6 months
+
+</td><td>
+
+The topics with the most exported data, in MB, over the past 6 months, excluding the current month. Topics are ranked from highest to lowest export volume.
+
+</td></tr><tr><td>
+
+Data exported this month by topic \(MB\)
+
+</td><td>
+
+Total volume of data, in MB, exported so far during the current month, categorized by topic. This metric covers the current month, which the 6-month metrics exclude.
+
 </td></tr><tr><td rowspan="2">
 
-[Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/session-access.md)Continuous authentication while accessing classified sensitive data in real time.
+[Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/session-access.md)Continuous authentication while accessing classified sensitive data in real time. Default step-up authentication policies are available for Vault customers. For more information, see [Default policies and configurations in ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/vault-default-policies-configs.md).
 
 </td><td>
 
@@ -187,7 +211,7 @@ Continuous Authentication classification status
 
 </td><td>
 
-Number of classifications that are protected due to the continuous authentication policies.
+Number of classifications that are protected due to the Continuous Authentication policies.
 
 </td></tr><tr><td>
 
@@ -195,10 +219,23 @@ Classes protected with Continuous authentication
 
 </td><td>
 
-Number of classes protected with continuous authentication, categorized by their class.
+Number of classes protected with continuous authentication, categorized by class.
 
 </td></tr></tbody>
-</table>## All ServiceNow Vault tools
+</table>## Monitor your data
+
+The AI Insights section within ServiceNow Vault helps you keep track of activities that may indicate potential threats or data leaks. These activities are generated from channels such as ServiceNow Otto and Virtual Agent, as well as database tables configured with real-time discovery. This insight can help you prioritize your data protection strategies more effectively. Select **View tool metrics** to see the underlying metrics.
+
+|Metric|Chart Component|Description|
+|------|---------------|-----------|
+|User entering sensitive data|In tables with real-time discovery|The number of users whose sensitive data entries were detected in database tables configured with real-time discovery.|
+|In channels|The number of users whose sensitive data entries were detected within channels such as ServiceNow Otto or Virtual Agent.|
+|Channels with sensitive data|Channel bars \(x-axis\)|Stacked bars representing each channel where sensitive data was detected, broken down by data patterns. The data pattern legend displays the color code for each pattern. They may include driver license numbers, financial information, and personal identifiers.|
+|Occurrences of sensitive data \(y-axis\)|The count of sensitive data instances detected per channel.|
+|Tables with sensitive data found through real-time discovery|Table bars \(x-axis\)|Stacked bars representing each database table where sensitive data was detected, broken down by data patterns.|
+|Occurrences of sensitive data|The count of sensitive data instances detected per table.|
+
+## All ServiceNow Vault tools
 
 <table id="table_ysx_slf_kfc" class="nav-card"><tbody><tr><td>
 
@@ -208,9 +245,9 @@ Number of classes protected with continuous authentication, categorized by their
 
 </td><td>
 
-[Code Signing\[Omitted image "bus-contract.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/code-signing-landing.md)
+[Zero Trust Access\[Omitted image "bus-block.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/session-access.md)
 
- [Help improve security by validating sensitive application configuration data and scripts before they are used.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/code-signing-landing.md)
+ [ServiceNow Session Access enables organizations to dynamically reduce user privilege in a web session](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/session-access.md)
 
 </td></tr><tr><td>
 
@@ -226,15 +263,13 @@ Number of classes protected with continuous authentication, categorized by their
 
 </td></tr><tr><td>
 
-[Log Export Services\[Omitted image "bus-log-store.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/les-landing-page.md)
+[Log Export Service\[Omitted image "bus-log-store.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/les-landing-page.md)
 
  [Improve security, performance, and user experience by importing ServiceNow log data into enterprise log analytics using the log export service.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/les-landing-page.md)
 
 </td><td>
 
-[Zero Trust Access\[Omitted image "bus-block.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/session-access.md)
-
- [ServiceNow Session Access enables organizations to dynamically reduce user privilege in a web session](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/session-access.md)
+ 
 
 </td></tr></tbody>
 </table>**Parent Topic:**[ServiceNow Vault console dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/vault-dashboard.md)

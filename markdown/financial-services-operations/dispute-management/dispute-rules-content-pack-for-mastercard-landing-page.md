@@ -7,7 +7,7 @@ release: zurich
 product: Dispute Management
 classification: dispute-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -42,7 +42,7 @@ The Dispute Rules Content Pack for Mastercard application can help you do the fo
 </td></tr></tbody>
 </table>## Request Dispute Rules Content Pack for Mastercard on the store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 Before you can use Dispute Rules Content Pack for Mastercard, you must first download it from the ServiceNow Store. When you have completed the download, you may need to clear your local cache before it appears on your instance.
 

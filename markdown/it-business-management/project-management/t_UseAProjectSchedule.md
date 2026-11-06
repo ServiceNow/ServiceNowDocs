@@ -9,7 +9,7 @@ classification: project-management
 topic_type: task
 last_updated: "2026-09-15"
 reading_time_minutes: 4
-breadcrumb: [Starting a project, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Assign a project schedule
@@ -53,6 +53,10 @@ A project uses a schedule to determine which days and hours count as working tim
 [Create an expense line]()
 
 [Create and manage waterfall projects]()
+
+[Schedule a project from a start date]()
+
+[Apply or change a task constraint]()
 
 [Update a project]()
 

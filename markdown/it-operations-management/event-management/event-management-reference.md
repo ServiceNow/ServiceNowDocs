@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -35,21 +35,13 @@ The form for creating or modifying a tag based alert clustering definition displ
 -   **[List of predefined tag-based alert grouping definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/alert-clustering-predefined-definition-list.md)**  
 A list of the predefined alert clustering definitions provided with the Tag Based Alert Clustering Engine  application.
 -   **[Domain properties installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/installed-domain-properties.md)**  
-Use the domain properties installed with Event Management to provide metadata that points to the appropriate table. This metadata identifies the domain in which to create the event.
+Use the domain properties installed with Event Management to provide metadata that identifies the appropriate domain table for event creation.
 -   **[Connector domain metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/connector-domain-metadata.md)**  
 Override push connector default domain metadata values installed with Event Management with the values in the event HTTP request, including the URL, headers, request body \(payload\), and connector parameters. Override pull connector domain metadata values with connector parameters only.
 -   **[Dynatrace connector instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/dynatrace-connector-instance-form.md)**  
 The Dynatrace connector instance form displays the fields you must fill in when creating a Dynatrace connector instance.
 -   **[Dynatrace connector instance value parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/dynatrace-connector-instance-value-parameters.md)**  
 The following table displays the Dynatrace connector instance value parameters that you can fill in, as needed, when creating a Dynatrace connector instance.
--   **[Datadog connector instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/datadog-connector-instance-form.md)**  
-The Datadog connector instance form displays the fields you must fill in when creating a Datadog connector instance.
--   **[Datadog connector instance value parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/datadog-connector-instance-value-parameters.md)**  
-The following table displays the Datadog connector instance value parameters that you can fill in, as needed, when creating a Datadog connector instance.
--   **[Kafka connector instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/kafka-connector-instance-form.md)**  
-The Kafka connector instance form displays the fields you must fill in when creating a Kafka connector instance.
--   **[Kafka connector instance value parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/kafka-connector-instance-value-parameters.md)**  
-The following table displays the Kafka connector instance value parameters that you can fill in, as needed, when creating a Kafka connector instance.
 -   **[Push connector instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/push-connector-instance-form.md)**  
 Push Connector Instance form displays the fields that you must fill when you create or modify a connector.
 -   **[Nagios connector instance value parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/nagios-connector-instance-value-parameters.md)**  

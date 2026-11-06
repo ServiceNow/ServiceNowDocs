@@ -7,10 +7,10 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-08-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [software categorization, software packages, ACC-VC]
-breadcrumb: [ACC deployment - endpoints, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Software packages categorization
@@ -30,4 +30,9 @@ Software is categorized or re-categorized automatically, without creating a new 
 
 -   An inactive signature is reactivated.
 -   New software is discovered that matches an existing active signature.
+
+-   **[Categorize discovered software](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-categorize-discovered-software.md)**  
+Group discovered installed software packages in your environment by business relevance.
+
+**Parent Topic:**[Deploying Agent Client Collector on endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-endpoint-deployment.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-03-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Setup task management, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Setup task management, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Enhanced Requests Experience
@@ -32,9 +32,7 @@ The Enhanced Requests Experience let's you create a request and keep it in your 
 
 The requests are displayed in a card view by default. You can the view toggle icons next to the search bar to switch between card view and list view. The toggle functionality is only available on Employee Center version 40 onwards.
 
-Enhance the visibility of requests by using the **Filter by** option. You can only have one filtering view for one portal. Filter options can be like **Request Type**, **State**, **Location**, and so on.Known Limitations
-
-**Important:** Keyword search in Enhanced Requests Experience searches only the table with the Source Configuration record. It does not extend to child or parent tables. For example, if you search for a Requested Item \(RITM\), related Request \(REQ\) records will not surface in the search results. Support for traversing related tables through grouping is planned for a future release.
+Enhance the visibility of requests by using the **Filter by** option. You can only have one filtering view for one portal. Filter options can be like **Request Type**, **State**, **Location**, and so on.
 
 The multiple tab interface and the filter options are configurable. For more information, see:
 
@@ -65,5 +63,5 @@ You can get the Enhanced Requests Experience on the Now Mobile app, bringing the
 
 To view the requests on your Now Mobile, you must opt for the mobile experience. For more information, refer to [Opt in to the enhanced Enhanced Requests Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/opt-in-emre.md) and select the Mobile experience.
 
-To know more about the mobile experience, refer to [Enhanced Requests Experience on Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/enhanced-req-exp-ec-mobile.md).
+To know more about the mobile experience, refer to [Enhanced Requests Experience on Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/enhanced-req-exp-ec-mobile.md).
 

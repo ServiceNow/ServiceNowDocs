@@ -1,5 +1,5 @@
 ---
-title: Implement the x-frame-options: SAMEORIGIN security header \[Updated in Security Center 1.3\]
+title: Implement the x-frame-options: SAMEORIGIN security header
 description: Use the glide.set\_x\_frame\_options property to set the X-Frame-Options response header to SAMEORIGIN for all UI pages.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-x-frame-options-sameorigin.html
@@ -7,16 +7,18 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Configuration, Hardening settings, Platform Security]
 ---
 
-# Implement the x-frame-options: SAMEORIGIN security header \[Updated in Security Center 1.3\]
+# Implement the x-frame-options: SAMEORIGIN security header
 
 Use the **glide.set\_x\_frame\_options** property to set the X-Frame-Options response header to SAMEORIGIN for all UI pages.
 
-Use the X-Frame-Options HTTP response header to indicate whether browser should be allowed to render a page in a `<frame>` or `<iframe>`. Sites can use this function to avoid clickjacking attacks by ensuring that their content is not embedded into other sites. An attacker could embed your page into their own page and make your page elements perform maliciously. The end user may think the page is legitimate because it resembles your page. The end user may click on elements like usual only to have malicious scripts or elements run.
+The **glide.set\_x\_frame\_options** system property controls the implementation of the security header X-Frame-Options: SAMEORIGIN. If **glide.set\_x\_frame\_options** is not set to the recommended value of **true**, then an instance will be allowed to be framed in an iframe of another page.
+
+Ensure the property **glide.set\_x\_frame\_options** is set to **true**.
 
 ## More information
 
@@ -30,7 +32,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Property name
+Configuration name
 
 </td><td>
 
@@ -46,19 +48,11 @@ System Properties \(/sys\_properties\_list.do\)
 
 </td></tr><tr><td>
 
-Category
+Data type
 
 </td><td>
 
-[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-configuration.md)
-
-</td></tr><tr><td>
-
-Purpose
-
-</td><td>
-
-To mitigate against ClickJacking attacks.
+Boolean
 
 </td></tr><tr><td>
 
@@ -78,11 +72,29 @@ true
 
 </td></tr><tr><td>
 
-Security risk rating
+Fallback value
 
 </td><td>
 
-5.9
+false
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-configuration.md)
+
+</td></tr><tr><td>
+
+Security risk
+
+</td><td>
+
+-   Severity score: 5.9
+-   CVSS rating: Medium
+-   Security risk details: This can lead to a clickjacking attack.
 
 </td></tr><tr><td>
 
@@ -94,27 +106,12 @@ This remediation enforces the restriction for rendering a ServiceNow AI Platform
 
 </td></tr><tr><td>
 
-Security risk
+Dependencies and prerequisites
 
 </td><td>
 
-\(Medium\) The Same Origin policy enables you to restrict a domain from retrieving a script or a resource from another domains. All modern browsers support this functionality. The policy validates the connection based on protocol, port, and host. CORS \(Cross Origin Request\) is a modification to Same Origin Policy that enables access to resources/scripts from another domain when explicitly stated as a part of header value.
-
--   In this case, the X-Frame-Options header controls whether the ServiceNow AI Platform application can be rendered on the third-party website.
--   It reduces the sensitive exposure, because the property value, when set to **SAMEORIGIN** doesn't enable the rendering to happen.
-
-</td></tr><tr><td>
-
-References
-
-</td><td>
-
-[Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/r_AvailableSystemProperties.md)
-
- [Configure iFrames](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/t_IFrame.md)
+None
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
-
-**Parent Topic:**[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-configuration.md)
+</table>**Parent Topic:**[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-configuration.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exporting and importing data via XML, Exporting data, Tables and data, Configure core features, Administer]
+breadcrumb: [Exporting and importing data via XML, Exporting data, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Export data to XML
@@ -26,15 +26,15 @@ Role required: admin
 
 2.  Export a record or a list of records to XML.
 
-<table id="choicetable_ndh_4j1_j1c"><thead><tr><th align="left" id="d299284e56">
+<table id="choicetable_ndh_4j1_j1c"><thead><tr><th align="left" id="d311674e56">
 
 Option
 
-</th><th align="left" id="d299284e59">
+</th><th align="left" id="d311674e59">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d299284e65">
+</th></tr></thead><tbody><tr><td id="d311674e65">
 
 **Export a record to XML**
 
@@ -45,7 +45,7 @@ Description
 3.  Select **Export** &gt; **XML This Record\)**.
 
 
-</td></tr><tr><td id="d299284e101">
+</td></tr><tr><td id="d311674e101">
 
 **Export a list of records to XML**
 

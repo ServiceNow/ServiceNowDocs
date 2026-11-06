@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [SAML, Multi-Provider single sign-on \(SSO\), Access Management]
+breadcrumb: [SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---
 
 # Install the identity provider certificate
@@ -18,7 +18,7 @@ You can paste a PEM certificate into a X.509 Certificate form so the identify pr
 
 ## Before you begin
 
-Role required: admin
+Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
 
 ## About this task
 

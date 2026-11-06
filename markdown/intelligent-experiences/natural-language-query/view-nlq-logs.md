@@ -7,9 +7,9 @@ release: zurich
 product: Natural Language Query
 classification: natural-language-query
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring NLQ, Natural Language Query, Enable AI experiences]
+breadcrumb: [Configuring NLQ, Natural Language Query, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # View NLQ logs
@@ -25,7 +25,7 @@ Role required: nlq\_admin, pa\_analyst, or admin
 Every natural language query is logged in the **NLQ Query Logs** table \[nlq\_query\_log\]. Each log entry provides details such as the table that was queried, whether the query succeeded, and how the results were generated. Other available fields include the following.
 
 -   Output Source: how the results were generated. The value **BNF** indicates a rules-based method. The value **GAI** indicates the Now LLM Service \(fallback\) method.
--   Source: the location from which the query was initiated. The value **AC** indicates Analytics Center. The value **CMDB\_WS** indicates CMDB Workspace.
+-   Source: the location from which the query was initiated. The value **AC** indicates Analytics Overview. The value **CMDB\_WS** indicates CMDB Workspace.
 -   Utterance: the original natural-language request which triggered NLQ.
 
 ## Procedure

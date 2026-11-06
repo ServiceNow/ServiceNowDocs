@@ -1,18 +1,18 @@
 ---
 title: Mobile experience for Field Service Management
-description: Manage your field service tasks from anywhere using the Field Service Management mobile application. When not connected to the Internet, you can still plan, work on, and complete tasks. Your mobile device will sync the information with when it next connects.
+description: Manage your field service tasks from anywhere using the Field Service Management mobile application. When not connected to the internet, you can still plan, work on, and complete tasks. Your mobile device will sync with the information when it next connects.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/mobile-experience-fsm.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Explore, Field Service Management]
 ---
 
 # Mobile experience for Field Service Management
 
-Manage your field service tasks from anywhere using the Field Service Management mobile application. When not connected to the Internet, you can still plan, work on, and complete tasks. Your mobile device will sync the information with when it next connects.
+Manage your field service tasks from anywhere using the Field Service Management mobile application. When not connected to the internet, you can still plan, work on, and complete tasks. Your mobile device will sync with the information when it next connects.
 
 The Field Service Management mobile application runs on the ServiceNow mobile platform.
 
@@ -48,12 +48,12 @@ The Field Service Management mobile application runs on the ServiceNow mobile pl
 
 </td></tr><tr><td align="left">
 
-\[Omitted image "bus-explore.svg"\] Alt text: Locate parts in real time
+\[Omitted image "bus-manager.svg"\] Alt text: Manage tasks and technicians
 
 </td><td align="left">
 
-[Inventory on ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/easily-track-parts.md) -   Locate parts using the asset map on the app
--   Record assets used for a work order task
+[Field Service Manager Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/manager-mobile-app.md) -   Update tasks from anywhere
+-   Manage your team from your mobile device
 
 </td></tr><tr><td align="left">
 
@@ -70,21 +70,36 @@ The Field Service Management mobile application runs on the ServiceNow mobile pl
 
 </td><td align="left">
 
-[Knowledge articles on ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/access-information-you-need-mobile.md) -   Search through knowledgebase articles for assistance
+[Knowledge articles on ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/access-information-you-need-mobile.md) -   Search through knowledge base articles for assistance
 -   Verify when your team members are on-site and whether they are on schedule to complete their tasks
 
 </td></tr></tbody>
 </table>When [offline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/work-offline-fieldservice-mobile.md), you can still execute assigned tasks, manage assets, access your schedule, track the time stamp of updated tasks, and close work orders and work order tasks. The data for tasks performed offline is stored on your device and synchronized when the device goes online.
 
-Watch this four-minute video for a demonstration of the ServiceNow Field Service mobile application for managing field service tasks.
-
 ## Empower technicians with an optimized mobile application
 
-From their supported smartphones and tablets, field service technicians can do various tasks, such as accept or reject tasks, track travel and work time, display tasks and parts using map views, and access their schedules. Questionnaires are available to collect and complete necessary task details, such as safety or work completion checklists. When assignments are complete, customers can acknowledge the work with a signature on the technician’s mobile device. Customers can also receive a work order summary by email.
+From their supported smartphones and tablets, field service technicians can do various tasks, such as accept or reject tasks, track travel and work time, display tasks and parts using map views, and access their schedules. Questionnaires are available to collect and complete necessary task details, such as safety or work completion checklists. When assignments are complete, customers can acknowledge the work with a signature on the technician's mobile device. Customers can also receive a work order summary by email.
 
 The mobile app also supports offline mode, enabling technicians to work without internet connectivity.
 
-Use and customize reports available with your application to get insights into task metrics, such as mean time for resolving work order tasks. Get real-time understanding of utilization, capacity, customers, locations requesting work, and other metrics using the dashboard. Managers can easily customize reports and dashboards to gain real-time insight into technician utilization and capacity. Managers will better understand customer and employee work requests and locations to pinpoint improvement opportunities.
+Use and customize reports available with your application to get insights into task metrics, such as mean time for resolving work order tasks. Get real-time understanding of utilization, capacity, customers, locations requesting work, and other metrics using the dashboard. Managers can easily customize reports and dashboards to gain real-time insight into technician utilization and capacity. Managers can better understand customer and employee work requests and locations to identify improvement opportunities.
+
+## Empower managers with Field Service Manager Mobile
+
+Field Service Manager Mobile gives Field Service managers the ability to manage their team, create work order tasks, view agents, and see SLAs from their mobile device. Field Service Manager Mobile empowers managers in the field to stay on top of their work without having to bring their laptop.
+
+## Example: Technician Completes Job
+
+A service technician needs to complete a work order task from the field without returning to the office. The Field Service Management mobile application gives technicians access to work order tasks and questionnaires, and syncs all updates automatically when the device reconnects.
+
+|Step|Actor|Action|
+|----|-----|------|
+|1|Technician|Opens the mobile app|
+|2|Technician|Reviews work order task|
+|3|Technician|Navigates to site and checks in when arrived|
+|4|Technician|Performs work|
+|5|Technician|Captures notes, photos, signature, and questionnaire responses|
+|6|Technician|Closes task|
 
 **Related topics**  
 
@@ -92,4 +107,8 @@ Use and customize reports available with your application to get insights into t
 [Configure the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/mobile-experience-for-field-service-management-glide-family/configure-field-service-mobile.md)
 
 [Completing work on the ServiceNow Agent mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/Use-mobile-app-fsm.md)
+
+[Activate Field Service Manager Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/mobile-experience-for-field-service-management-glide-family/activate-manager-mobile.md)
+
+[Field Service Manager Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/manager-mobile-app.md)
 

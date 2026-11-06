@@ -7,7 +7,7 @@ release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ The Service Graph Connector for Qualys pulls in asset inventory data \(hardwar
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Supported versions
 
@@ -45,7 +45,7 @@ The following are examples on how you can use the Service Graph Connector for Qu
 
 ## Guided Setup
 
-The guided setup for the Service Graph Connector for Qualys provides you with an organized sequence of tasks to configure the integration on your instance.
+The guided setup for the Service Graph Connector for Qualys provides you with an organized sequence of tasks to configure the integration on your instance. For instructions, see [Configure the Service Graph Connector for Qualys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/sgc-qualys-configure.md).
 
 ## CMDB integrations dashboard
 

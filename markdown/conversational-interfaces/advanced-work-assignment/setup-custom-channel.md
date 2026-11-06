@@ -7,7 +7,7 @@ release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -78,13 +78,4 @@ You can create a service channel record from the Service Channel module, but you
 ## Result
 
 Your custom service channel routes work to agents. In Agent Workspace, the service channel appears as an available service channel in the agent inbox.
-
--   **[Tutorial: Set up a custom service channel for change requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/custom-channel-tutorial.md)**  
-Learn how to configure Advanced Work Assignment to automatically assign change requests to agents. Use this tutorial as a guideline to help you understand how service channel records, queues, and assignment rules work together to create a custom service channel.
--   **[Create a service channel to route requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/custom-service-channel-tutorial.md)**  
-Create a service channel in Advanced Work Assignment so that you can route change requests to agents.
--   **[Create an assignment rule for change requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/assignment-rule-example.md)**  
-Create an assignment rule in Advanced Work Assignment that assigns change requests to agents who are available to do the tasks.
-
-**Parent Topic:**[Configuring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/installing-awa.md)
 

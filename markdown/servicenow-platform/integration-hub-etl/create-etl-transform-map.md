@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub ETL
 classification: integration-hub-etl
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 40
 breadcrumb: [IntegrationHub ETL, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -519,15 +519,15 @@ ITOM Visibility, if available, uses enhanced discovery patterns to identify and 
 
 3.  To add relationships, select **Add Relationship** or **Add Conditional Relationship** if you want to specify attribute conditions that must be met before adding a relationship. Then, complete the following actions as needed.
 
-<table id="choicetable_rvq_52s_2nb"><thead><tr><th align="left" id="d486293e1742">
+<table id="choicetable_rvq_52s_2nb"><thead><tr><th align="left" id="d490800e1742">
 
 Option
 
-</th><th align="left" id="d486293e1745">
+</th><th align="left" id="d490800e1745">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d486293e1751">
+</th></tr></thead><tbody><tr><td id="d490800e1751">
 
 **Add Relationship**
 
@@ -537,7 +537,7 @@ Description
 2.  Click **Add**.
 
 
-</td></tr><tr><td id="d486293e1781">
+</td></tr><tr><td id="d490800e1781">
 
 **Add Conditional Relationship**
 

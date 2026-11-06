@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/field-descriptions-product-domain-orders.html
 release: zurich
 topic_type: reference
-last_updated: "2025-10-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Order Management reference, Reference, Sales Customer Relationship Management]
 ---
@@ -27,8 +27,6 @@ The Resource Order form enables you to review and modify domain resource orders 
 
 
 [View domain orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/view-domain-orders.md)
-
-[Review the domain order related items associated with a domain order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-review-domain-order-related-item.md)
 
 [Order types in Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-order-types.md)
 

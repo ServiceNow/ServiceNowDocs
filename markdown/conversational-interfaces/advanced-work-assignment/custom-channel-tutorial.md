@@ -7,7 +7,7 @@ release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up a custom service channel, Configure, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -29,6 +29,4 @@ Before you begin:
 
 -   Ensure that the form layout for the Change Request table is configured for the workspace view; otherwise, work items from the Change Request service channel appear as read-only in Agent Workspace.
 -   Assign the awa\_agent and workspace\_agent roles to the Change Management group so that members can open work items in Agent Workspace.
-
-**Parent Topic:**[Set up a custom service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/setup-custom-channel.md)
 

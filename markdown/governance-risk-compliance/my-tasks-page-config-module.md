@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/my-tasks-page-config-module.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [General administration setup for BCM, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -34,7 +34,7 @@ My tasks page in the Home page displays the assigned tasks for the logged-in use
 
 \[Omitted image "my-tasks-page-all-tabs.png"\] Alt text: My tasks page in BCM UIB Workspace.
 
-For more information on My tasks page view in BCM UIB Workspace, see [My tasks page view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/my-tasks-page-uib-ws.md).
+For more information on My tasks page view in BCM UIB Workspace, see [My tasks page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/my-tasks-page-uib-ws.md).
 
 **Parent Topic:**[General administration setup for BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/set-up-bcm-bcmadmin-tasks.md)
 

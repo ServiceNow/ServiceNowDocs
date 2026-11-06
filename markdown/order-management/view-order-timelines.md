@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/view-order-timelines.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Order fulfillment, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -20,7 +20,7 @@ Role required: order\_approver, order\_viewer, sn\_ind\_tmt\_orm.order-fulfillme
 
 ## Procedure
 
-1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace.** .
+1.  Navigate to  **Workspaces** &gt; **CRM Workspace.** .
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -34,15 +34,15 @@ Role required: order\_approver, order\_viewer, sn\_ind\_tmt\_orm.order-fulfillme
 
 6.  To change the information or elements displayed in the timeline view, use these options.
 
-<table id="choicetable_pwy_bnv_c1c"><thead><tr><th align="left" id="d39470e116">
+<table id="choicetable_pwy_bnv_c1c"><thead><tr><th align="left" id="d36628e118">
 
 Option
 
-</th><th align="left" id="d39470e119">
+</th><th align="left" id="d36628e121">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d39470e125">
+</th></tr></thead><tbody><tr><td id="d36628e127">
 
 **Add or change columns**
 
@@ -53,7 +53,7 @@ Description
 3.  Select **Apply**.
 
 
-</td></tr><tr><td id="d39470e157">
+</td></tr><tr><td id="d36628e159">
 
 **Change the timeline elements displayed**
 
@@ -64,7 +64,7 @@ Description
 3.  Select **Apply**.
 
 
-</td></tr><tr><td id="d39470e189">
+</td></tr><tr><td id="d36628e191">
 
 **Adjust the time scale used**
 
@@ -75,4 +75,11 @@ In the time scale drop-down, select the time view, such as day, week month, or y
 </td></tr></tbody>
 </table>
 **Parent Topic:**[Order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/reviewing-orchestration-plans-order-fulfillment.md)
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-order-management.md)
 

@@ -1,20 +1,20 @@
 ---
 title: Choose and configure metrics to monitor
-description: Metric Intelligence uses data sources that can be monitoring hundreds of metrics for all CIs. Choose which details are important for which CIs for each data source type. Activate or deactivate the respective monitor type to control the amount of data that is being processed.
+description: Metric Intelligence uses data sources that can monitor hundreds of metrics for all CIs. Choose which details are important for each data source type and CI, then activate or deactivate the respective monitor type to control data processing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/configure-metric-monitors.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ACC deployment - endpoints, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Choose and configure metrics to monitor
 
-Metric Intelligence uses data sources that can be monitoring hundreds of metrics for all CIs. Choose which details are important for which CIs for each data source type. Activate or deactivate the respective monitor type to control the amount of data that is being processed.
+Metric Intelligence uses data sources that can monitor hundreds of metrics for all CIs. Choose which details are important for each data source type and CI, then activate or deactivate the respective monitor type to control data processing.
 
 ## Before you begin
 
@@ -101,3 +101,5 @@ Unit type that is associated with the source metric type, displayed in the Metri
 
 </td></tr></tbody>
 </table>
+**Parent Topic:**[Deploying Agent Client Collector on endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-endpoint-deployment.md)
+

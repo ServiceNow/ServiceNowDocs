@@ -7,7 +7,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2025-12-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---

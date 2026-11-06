@@ -7,8 +7,8 @@ release: zurich
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: concept
-last_updated: "2026-07-28"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Using AI agent workflows in ServiceNow Otto for WSD, ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -180,14 +180,28 @@ Active**Note:** When the status is Active, the AI agent is triggered autonomousl
 </td></tr></tbody>
 </table>## Select display
 
-In the Select display workflow, select **Display** to display the ServiceNow Otto panel. Workplace users with the now\_assist\_panel\_role receive notifications for the triggered use case output. When the ServiceNow Otto panel option is enabled, the AI agent output or notifications are displayed in the ServiceNow Otto panel.
+In the Select display workflow, select **Display** to display the Now Assist panel. Workplace users with the now\_assist\_panel\_role receive notifications for the triggered use case output. When the ServiceNow Otto panel option is enabled, the AI agent output or notifications are displayed in the ServiceNow Otto panel.
 
 **Note:** To view the output from a triggered use case, you should have the now\_assist\_panel\_role.
 
 Select this option to receive and review notifications sent by AI agents in the Now Assist panel. AI agents send notifications to Workplace Event planners in the ServiceNow Otto panel with the case resolution and summarization notes. The AI agent asks for Workplace Event planners confirmation before blocking a location and moving any impacted reservations to another available workspace. It also asks for confirmation before updating an existing reservation's date, time, and duration. For more information, see [Review notifications in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/agentic-workflow-notifications-nowassist.md).
 
+**Parent Topic:**[Using AI agent workflows in ServiceNow Otto for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/now-assist-wsd-using-agentic-use-cases.md)
+
 **Related topics**  
 
+
+[Help manage workplace reservations agentic workflow]()
+
+[Optimize cleaning activities agent overview]()
+
+[Automate map updates agentic workflow]()
+
+[Workplace Concierge agentic workflow]()
+
+[Process image to record agent for workplace case creation]()
+
+[Implement Autonomous L1 Agent for Workplace]()
 
 [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/na-ai-agents.md)
 

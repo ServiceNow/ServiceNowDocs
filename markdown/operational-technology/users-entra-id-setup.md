@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/users-entra-id-setup.html
 release: zurich
 topic_type: task
-last_updated: "2026-04-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Users page, Using the Discovery Console, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Users page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Set up a Microsoft Entra ID
@@ -61,7 +61,7 @@ To enable an **Entra ID** log in, an administrator must complete the following s
 
     2.  Next to the **Actions** button, select **Settings**.
 
-        \[Omitted image "image.entra-id-top-settings-5"\] Alt text: Settings
+        \[Omitted image "entra-id-top-settings-5.png"\] Alt text: Settings
 
     3.  Enter all required values.
 
@@ -70,7 +70,7 @@ To enable an **Entra ID** log in, an administrator must complete the following s
         -   Client ID
         -   Client Secret
         -   Object ID
-        \[Omitted image "image.entraId-setting"\] Alt text: Entra ID Settings
+        \[Omitted image "entraId-setting.png"\] Alt text: Entra ID Settings
 
     4.  Select **Save**.
 
@@ -78,7 +78,7 @@ To enable an **Entra ID** log in, an administrator must complete the following s
 
     -   In the Entra settings, toggle **Show Microsoft Log in button**.
     -   This enables the SSO log in for end users.
-    \[Omitted image "image.console-microsoft-log-in-smaller"\] Alt text: Microsoft sign in
+    \[Omitted image "console-microsoft-log-in.png"\] Alt text: Sign in with Microsoft
 
 
 ## Result
@@ -96,4 +96,6 @@ Once configured, user can log in by doing:
 -   The redirect URI in Entra must exactly match the Console URL.
 -   Incorrect Tenant ID or Client ID results in authentication failures.
 -   Admin consent may be required when configuring permissions in Entra.
+
+**Parent Topic:**[Users page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/users-page.md)
 

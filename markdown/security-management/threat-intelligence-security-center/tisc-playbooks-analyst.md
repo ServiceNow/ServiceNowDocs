@@ -7,7 +7,7 @@ release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [tisc, playbook, analyst, threat investigation, case, stages]
 breadcrumb: [Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
@@ -55,6 +55,8 @@ The Threat Hunting playbook is a guided workflow for a TISC Case record that hel
 
 [Creating cases using Threat Analyst Workbench]()
 
+[Summarize a Case using generative AI]()
+
 [Creating case task using Threat Analyst Workbench]()
 
 [Working with Investigation Canvas]()
@@ -62,6 +64,8 @@ The Threat Hunting playbook is a guided workflow for a TISC Case record that hel
 [Add artifacts to cases or case tasks]()
 
 [Run Enrichment Actions within a case]()
+
+[Generate a Case Report using generative AI]()
 
 [Generate a Case Report using a template]()
 

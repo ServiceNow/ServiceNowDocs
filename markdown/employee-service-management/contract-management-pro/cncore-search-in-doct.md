@@ -7,9 +7,9 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Search for keywords in contract templates
@@ -39,5 +39,5 @@ Role required: sn\_cm\_core.contract\_config
 
 Any contract template that has the keyword is listed.
 
-**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
+**Parent Topic:**[Common contract request tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-common-contract-req-tasks.md)
 

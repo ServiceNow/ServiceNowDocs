@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/cpq-cosmo-smartpredict.html
 release: zurich
 topic_type: concept
-last_updated: "2025-09-17"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [ServiceNow CPQ, Configure, price, quote, Explore, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Cosmo SmartPredict
@@ -20,7 +20,11 @@ Cosmo SmartPredict leverages a strong underlying AI model, but depends on the qu
 
 ## Setting up Cosmo SmartPredict
 
-Access to Cosmo SmartPredict is restricted. To have SmartPredict provisioned in your ServiceNow CPQ environment, contact support. Once provisioned, SmartPredict can be enabled on individual blueprints selectively. To enable SmartPredict on a blueprint, navigate to the blueprint, click the new Smart Predict tile in the blueprint, and click the toggle button on the SmartPredict screen.
+Access to Cosmo SmartPredict is restricted. To have SmartPredict provisioned in your ServiceNow CPQ environment, contact support.
+
+**Note:** Create a support case by using the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
+
+Once provisioned, SmartPredict can be enabled on individual blueprints selectively. To enable SmartPredict on a blueprint, navigate to the blueprint, click the new Smart Predict tile in the blueprint, and click the toggle button on the SmartPredict screen.
 
 To create a SmartPredict model, click **Create** to start defining the model parameters. At a minimum, a model must have a name and a variable name. Several additional model settings determine what data the model should use for training.
 

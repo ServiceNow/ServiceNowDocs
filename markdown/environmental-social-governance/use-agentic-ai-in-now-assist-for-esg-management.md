@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/use-agentic-ai-in-now-assist-for-esg-management.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 keywords: [use]
-breadcrumb: [ServiceNow Otto, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Now Assist, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Use agentic AI in ServiceNow Otto for Operational Sustainability \(formerly ESG\)
@@ -47,11 +47,7 @@ Accelerate carbon reporting with AI-powered calculations, validation, and insigh
 </td></tr></tbody>
 </table>## Supported Large Language Models
 
-**Note:**
-
--   You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md).
-
--   For the Now LLM Service updates, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-llm-model-updates.md).
+**Note:** For the Now LLM Service updates, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-llm-model-updates.md).
 
 ## Security implementation considerations
 
@@ -71,5 +67,5 @@ To run the AI agents autonomously, you must first [duplicate the agentic workflo
 -   **[Generate Scope 3 carbon calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/generate-carbon-calculcations-for-metrics.md)**  
 Use the AI-driven workflow to create calculated metric definitions \(CMD\) for Scope 3 carbon emissions. The workflow employs conversational agents and integrated tools to guide methodology selection, map metrics, and simplify sustainability reporting with accuracy and efficiency.
 
-**Parent Topic:**[ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/now-assist-for-esg.md)
+**Parent Topic:**[ServiceNow Otto for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/now-assist-for-esg.md)
 

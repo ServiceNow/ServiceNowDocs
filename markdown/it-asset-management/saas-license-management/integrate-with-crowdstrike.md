@@ -7,9 +7,9 @@ release: zurich
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Integrating with CrowdStrike
@@ -24,7 +24,7 @@ Integrating your Software Asset Management application with the CrowdStrike enab
 |-------|-------------------------------------------------|---------------------|
 |Download consumption|Falcon administrator|Sensor usage scope with read permissions|
 
-This process is applicable for Zurich Patch 7, Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) 16.3.0, and Software Asset Management \(sn\_itam\_samp\) 3.2.4 version onwards.
+This process is applicable for Zurich Patch 7, Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) 17.0.5, and Software Asset Management \(sn\_itam\_samp\) 4.1.0 version onwards.
 
 ## Register a CrowdStrike OAuth application
 
@@ -72,7 +72,7 @@ Create a CrowdStrike integration profile to track software subscriptions and opt
 
 The Software Asset Management - SaaS License Management plugin \(sn\_sam\_saas\_int\) must be installed from the [ServiceNow Store](https://store.servicenow.com/).
 
-ServiceNow Role required: admin or sam\_integrator
+ServiceNow Role required: sam\_admin or sam\_integrator
 
 **Important:** You must select the **CrowdStrike Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md).
 
@@ -91,15 +91,15 @@ If you are on any version for Yokohama below patch 1, refer [KB1801232](https://
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d72517e457">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d76016e457">
 
 Interface
 
-</th><th align="left" id="d72517e460">
+</th><th align="left" id="d76016e460">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d72517e466">
+</th></tr></thead><tbody><tr><td id="d76016e466">
 
 **Core UI**
 
@@ -110,7 +110,7 @@ Action
 3.  Select **CrowdStrike Integration Profile**.
 
 
-</td></tr><tr><td id="d72517e508">
+</td></tr><tr><td id="d76016e508">
 
 **Software Asset Workspace**
 

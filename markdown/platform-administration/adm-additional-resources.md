@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/adm-additional-resources.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Administer]
+breadcrumb: [Administer the ServiceNow AI Platform]
 ---
 
 # Additional resources for ServiceNow AI Platform products and solutions
@@ -297,34 +297,6 @@ Training
 </td><td>
 
 [Introduction to ServiceNow Instance Scan](https://learning.servicenow.com/lxp/en/now-platform/introduction-to-servicenow-healthscan-and-instance-scan?id=learning_course_prev&course_id=78370c2e47e8ca1090542034846d4336)
-
-</td></tr><tr><td>
-
-Miscellaneous
-
-</td><td>
-
-Best practices
-
-</td><td>
-
-[Best practices for building mobile apps with ServiceNow](https://mynow.servicenow.com/now/best-practices/assets/building-mobile-apps-with-servicenow-best-practices)
-
- [Best practices for LES](https://mynow.servicenow.com/now/best-practices/assets/log-export-service-process-guide)
-
-</td></tr><tr><td>
-
-Miscellaneous
-
-</td><td>
-
-FAQs
-
-</td><td>
-
-[Knowledge Management FAQs](https://www.servicenow.com/community/knowledge-management-articles/knowledge-management-faq/ta-p/2321021)
-
- [AWA FAQs](https://www.servicenow.com/community/agent-chat-routing-and-sidebar/advanced-work-assignment-awa-faqs/ta-p/2306792)
 
 </td></tr><tr><td>
 

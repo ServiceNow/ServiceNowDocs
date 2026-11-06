@@ -7,9 +7,9 @@ release: zurich
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Exploring UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Exploring UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # UI Builder quick start
@@ -58,31 +58,37 @@ In this UI Builder quick start, you perform the following tasks to build your fi
 
         **Note:** The application scope defaults to the scope that the user is currently in within the ServiceNow AI Platform®. For more information about the application scope, see [Learn about security and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/security-roles.md).
 
-    6.  Select **Continue**.
+    6.  Select a URL page type in the **Type** drop-down list.
 
-    7.  Add parameters to your page URL by selecting **+ Add**.
+        URL page types help you categorize and find important pages in the experience view. Select from **None**, **Dashboard**, **Knowledge base**, **List**, and **Record** page types. Pages assigned a type other than **None** are filtered more effectively in the experience view.
+
+        **Note:** A landing page is assigned a **Landing** URL type by default.
+
+    7.  Select **Continue**.
+
+    8.  Add parameters to your page URL by selecting **+ Add**.
 
         For more information, see [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-pages.md).
 
-    8.  Select **Looks good**.
+    9.  Select **Looks good**.
 
-    9.  Enter `Manager Start Page` as the name for the page variant.
+    10. Enter `Manager Start Page` as the name for the page variant.
 
-    10. Add one or more audiences for this page.
+    11. Add one or more audiences for this page.
 
         If an audience you need isn’t listed, you can choose the **Open audiences in the platform** link to create one.
 
-    11. Add conditions for when to display the page or tab.
+    12. Add conditions for when to display the page or tab.
 
-    12. Select **Continue**.
+    13. Select **Continue**.
 
-    13. On the next screen, select **Build responsive**.
+    14. On the next screen, select **Build responsive**.
 
-    14. Select **Create** to create your blank page.
+    15. Select **Create** to create your blank page.
 
     Congratulations! You’ve created your first page! The page is empty of content. You add components to the page to build functionality to it. Components are the building blocks of a page. UI Builder comes with many components ready for you to add to your page. Components can be as simple as a **Heading**, or as complex as a **List**.
 
-4.  Select **Editor** to start adding customizing your page.
+4.  Select the pencil icon \[Omitted image "crs-edit-pencil-icon-purple.png"\] to start customizing your page.
 
     \[Omitted image "select-page-editor.png"\] Alt text: Arrow pointing to the page editor link.
 

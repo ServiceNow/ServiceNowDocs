@@ -7,9 +7,9 @@ release: zurich
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Install and configure for provider, Service Exchange for Providers, Service Exchange]
+breadcrumb: [Use for providers, Service Exchange for Providers, Service Exchange]
 ---
 
 # Update settings for authorized users
@@ -37,4 +37,6 @@ Role required: admin
 
     **Note:** You can view the settings defined in the Remote Record Producers and Remote Task Definitions tabs but cannot modify them.
 
+
+**Parent Topic:**[Using Service Exchange for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/service-bridge-v2-administer.md)
 

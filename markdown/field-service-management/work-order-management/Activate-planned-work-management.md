@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Planned Work Management, Work orders and tasks, Configure, Field Service Management]
+breadcrumb: [Planned Work Management, Set up work orders and tasks, Configure, Field Service Management]
 ---
 
 # Install Planned Work Management
@@ -18,7 +18,7 @@ You can install the Planned Work Management application \(com.snc.fsm\_planned\_
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 -   Activation of Planned Work Management activates the following plugins if not already active.
     -   **Required ServiceNow plugins**

@@ -7,7 +7,7 @@ release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -38,8 +38,12 @@ Add data subject types to a processing activity in the Privacy Workspace.
 Add data subject types to privacy impact assessment from the Employee Center.
 -   **[Classify data subject type as vulnerable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/classify-data-subject-type-as-vulnerable.md)**  
 Classify a data subject type as vulnerable. When you mark a data subject type as vulnerable, the criticality score is calculated as High.
--   **[Add key stakeholders and send privacy assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/add-stakeholders-to-a-pa.md)**  
-Add key stakeholders to a processing activity to identify the key members who are responsible for processing the personal data within the processing activity. You can then send the respective privacy assessments to the stakeholders based on their responsibilities. For example, an entity owner is a key stakeholder for a processing activity.
+-   **[Add key stakeholders to a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/add-stakeholders-to-a-pa.md)**  
+Add key stakeholders to a processing activity. Based on their role, users are assigned default processing activity privileges that control whether they can edit a processing activity, view it, or respond to its privacy assessments.
+-   **[Enable key stakeholders to update processing activities directly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/assign-pa-to-keystakeholders.md)**  
+Enable stakeholders to update processing activities directly from the Employee Center by assigning the activity to them.
+-   **[Request edit access to a processing activity from the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/request-edit-access-pa.md)**  
+Access a processing activity directly from the Employee Center and request edit access to update the details your team is responsible for.
 -   **[Add a regulatory agency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/add-a-regulatory-agency.md)**  
 Add a regulatory agency in the Privacy Workspace to identify the relevant regulatory authorities that are responsible for overseeing the industries or sectors within each jurisdiction. The jurisdictions consolidate all the regulatory communications via emails and implement the notification rules for data privacy or security breaches for the reported privacy cases.
 -   **[Add relationships to a hierarchy for a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/create-a-data-lineage-for-a-processing-activity.md)**  
@@ -58,8 +62,6 @@ Add new risks or manage the risks that are automatically added to the processing
 Initiate quick discussions with key stakeholders while working on a processing activity, privacy case, or a personal data rights request. The chat feature is integrated with Microsoft Teams and a group is automatically created on Microsoft Teams when a discussion is initiated.
 -   **[Create or add issues on a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/create-or-manage-issues-on-a-pa.md)**  
 Create issues or add existing issues for a processing activity. Associating issues to a processing activity helps you to identify and prioritize remediation actions. Relating issues reduces the number of issues customers need to manage, thus improving the overall organizational efficiency in management of these issues.​
--   **[Assign a processing activity to a key stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/assign-pa-to-keystakeholders.md)**  
-Assign a processing activity to the defined key stakeholders for the stakeholders to start working on the processing activity.
 -   **[Accessing control through organizational structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/access-control-by-legal-entity.md)**  
 Access to processing activity records can be restricted by using Entity-Based Access \(EBA\).
 

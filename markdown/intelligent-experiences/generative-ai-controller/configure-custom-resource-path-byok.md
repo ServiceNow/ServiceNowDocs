@@ -1,6 +1,6 @@
 ---
 title: Configure a custom resource path for BYOK models
-description: Configure a custom resource path in your bring your own key \(BYOK\) model configuration so that Generative AI Controller can connect to your Azure OpenAI deployment using the correct endpoint.
+description: Enter a custom resource path in your bring-your-own-key \(BYOK\) model configuration so that Generative AI Controller can connect to AI service providers that use a different web address than the default.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/generative-ai-controller/configure-custom-resource-path-byok.html
 release: zurich
@@ -8,65 +8,54 @@ product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: task
 last_updated: "2026-04-03"
-reading_time_minutes: 2
-breadcrumb: [Bring your own key for third-party AI provider integration, Configuring Generative AI Controller, Generative AI Controller, AI Admin Hub, Enable AI experiences]
+reading_time_minutes: 1
+breadcrumb: [Bring your own key for third-party AI provider integration, Configuring Generative AI Controller, Generative AI Controller, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Configure a custom resource path for BYOK models
 
-Configure a custom resource path in your bring your own key \(BYOK\) model configuration so that Generative AI Controller can connect to your Azure OpenAI deployment using the correct endpoint.
+Enter a custom resource path in your bring-your-own-key \(BYOK\) model configuration so that Generative AI Controller can connect to AI service providers that use a different web address than the default.
 
 ## Before you begin
-
--   Bring your own key \(BYOK\) must be configured for your instance. For more information, see [Bring your own key for third-party AI provider integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/generative-ai-controller/byok-for-azure-open-ai.md).
--   You must have an active connection and credential alias for your Azure OpenAI service. For more information, see [Configure API credentials for Azure OpenAI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/generative-ai-controller/configure-api-credentials-for-azure-openai.md).
 
 Role required: admin
 
 ## About this task
 
-When you configure a bring your own key \(BYOK\) model in Generative AI Controller, it uses the connection and credential alias to send requests to your third-party AI service provider. The alias contains the base URL and API key for your provider. Some AI providers, such as Azure OpenAI, use a resource path prefix that is different from the default one that Generative AI Controller provides. This lets you tailor the resource path to match your provider's endpoint format.
+When you configure a bring your own key \(BYOK\) model provider in Generative AI Controller, it uses the connection and credential alias to send requests to your AI provider. The alias contains the base URL and API key for your provider. Some AI providers, such as Azure OpenAI, include an extra path segment in their web address that Generative AI Controller does not add by default. Without this segment, Generative AI Controller requests don't reach your provider correctly.
 
-The resource path prefix is configured in the **Chat Completions Resource Path** connection attribute of the Azure OpenAI connection alias record.
+The Resource Path field in the model configuration record is where you provide that extra segment.
 
-**Note:** The custom resource path configuration is supported for Azure OpenAI only.
+**Note:** The custom resource path configuration is currently supported for Azure OpenAI only.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Connections &amp; Credentials** &gt; **Connections &amp; Credential Aliases**.
 
-2.  Open the connection alias record for Azure OpenAI.
+2.  Open the Generative AI provider record for Azure OpenAI.
 
 3.  In the Connections Attributes related list, select the **Chat Completions Resource Path** attribute.
 
-4.  In the **Default value** field, update the existing value to match your resource path prefix.
+4.  Enter the custom resource path for your provider's endpoint in the **Default value** field.
 
-    The resource path prefix is the segment of your endpoint URL between the hostname and your deployment name.
-
-    For example, given the Azure OpenAI endpoint URL:
+    For example, for Azure OpenAI, if your full endpoint URL is:
 
     ```
     https://<your-resource-name>.openai.azure.com/openai/deployments/<your-deployment-name>
     ```
 
-    The resource path prefix is:
+    Enter the following resource path in the **Default value** field:
 
     ```
-    /openai/deployments
+    /openai/deployments/<your-deployment-name>
     ```
 
-    Enter the following resource path prefix in the **Default value** field:
-
-    ```
-    /openai/deployments/
-    ```
-
-    **Note:** You can find your resource name in the Azure portal. The base URL \(https://&lt;your-resource-name&gt;.openai.azure.com\) is already configured in your Connection URL field. Do not include the deployment name in this field.
+    **Note:** You can find your resource name and deployment name in the Azure portal.
 
 5.  Select **Update**.
 
 
 ## Result
 
-Generative AI Controller uses the resource path prefix you entered to send requests to your Azure OpenAI deployment. Your agentic AI skills are ready to use this provider.
+Generative AI Controller now connects to your AI provider using the resource path you entered. Your agentic AI skills are ready to use this provider.
 

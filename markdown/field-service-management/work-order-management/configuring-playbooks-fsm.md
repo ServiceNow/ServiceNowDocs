@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Work orders and tasks, Configure, Field Service Management]
+breadcrumb: [Set up work orders and tasks, Configure, Field Service Management]
 ---
 
 # Configuring Playbooks for Field Service Management
@@ -28,7 +28,7 @@ Playbooks are created using the [Process Automation Designer](https://raw.github
 
 Playbooks for the ServiceNow Agent application include stages for completing a work order task. Playbooks can be viewed under a selected work order task on the **My work** page. Tasks that have an active playbook associated with it display a **View Playbooks** button.
 
-Playbooks are organized in stages to provide a guided experience. They direct you to new or existing features of the mobile application and maintain a checklist of completed stages on that work order task. Stages can be marked complete or skipped at your discretion. The stages progress as follows:
+Playbooks direct you to new or existing features of the mobile application and maintain a checklist of completed stages on that work order task. Stages can be marked complete or skipped at your discretion. The stages progress as follows:
 
 1.  Troubleshoot
 2.  Parts
@@ -37,11 +37,9 @@ Playbooks are organized in stages to provide a guided experience. They direct yo
 5.  Verify work completion
 6.  Close work order task
 
-For more information, see [Playbooks on ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/playbooks-now-mobile-agent-app.md).
-
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Configuration Overview
 

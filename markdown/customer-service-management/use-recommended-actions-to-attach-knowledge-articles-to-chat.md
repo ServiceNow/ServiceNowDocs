@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/use-recommended-actions-to-attach-knowledge-articles-to-chat.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using the Recommended Actions application, Automate and optimize, Use, Customer Service Management]
 ---
@@ -36,7 +36,9 @@ Role required: sn\_nb\_action.next\_best\_action\_user
 
 6.  Select **Send in chat** from the side panel to send the respective knowledge article to the customer.
 
-    The **Send in chat**, part of Share KB in chat interactions guidance, is disabled for the inactive or concluded chats.
+    The **Send in chat**, part of Share KB in chat interactions guidance, is disabled for the inactive or concluded chats.\[Omitted image "ra-attach-kb-chat.png"\] Alt text: Agent view of the Chat window displaying the public chat, private chat of the customer along with case details, guidance card action, and success message.
+
+    \[Omitted image "chat-customer-view.png"\] Alt text: Customer view of the active chat window.
 
     The knowledge article number and its' link is sent to the customer in the public chat, by default. Additionally, the used recommended card is moved to the history.
 

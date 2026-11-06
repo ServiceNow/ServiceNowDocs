@@ -7,7 +7,7 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Manage controls, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -349,9 +349,7 @@ Entity based access restriction
 When **Entity based access restriction** is enabled, only users or user groups included in the access configuration for the entities associated with this control can access it.
 
 </td></tr></tbody>
-</table>    **Note:** If Attestation, Attestation method, Category, Classification, Description, Name, Reference, Supplemental guidance, and Type fields on the control objective are modified, the controls inherited from it will be moved back to Draft status.
-
-4.  Select **Copy entity frequency** related link to copy the value of the **Attestation frequency** field of the entity to the **Attestation frequency** field of the control.
+</table>4.  Select **Copy entity frequency** related link to copy the value of the **Attestation frequency** field of the entity to the **Attestation frequency** field of the control.
 
     When you select the **Copy entity frequency** related link, the respective entity’s attestation frequency gets copied to the **Attestation frequency** field in the Attestation section of the control table, and does not update the **Frequency** field of the control table.
 
@@ -360,5 +358,5 @@ When **Entity based access restriction** is enabled, only users or user groups i
 
 ## What to do next
 
-After you create a control, you can convert the control to a common control and add reliant entities and reliant entity types to it. For more information, see [Testing common control and implementing results on multiple reliant entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-compliance-management-workspace/common-controls-multiple-rel-entities.md).
+After you create a control, you can convert the control to a common control and add reliant entities and reliant entity types to it. For more information, see [Testing common control and implementing results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-compliance-management-workspace/common-controls-multiple-rel-entities.md).
 

@@ -7,16 +7,22 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure, Hardware Asset Management, IT Asset Management]
+keywords: [Configuration Console, HAM Setup, Product Hub]
+breadcrumb: [Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Configuration Console for Hardware Asset Management
 
 The Configuration Console gives administrators a centralized, module-by-module setup experience to configure Hardware Asset Management features after installation.
 
-**Important:** Product Hub and Configuration Console are available starting from Hardware Asset Management version 16.0.0 \(Zurich Patch 12\).
+## Requirements for the Configuration Console
+
+The Configuration Console is available when your ServiceNow instance meets the following requirements:
+
+-   Hardware Asset Management version 16.0.0 or later is installed.
+-   Setup Hub \(sn\_ia\_base\) version 3.0.4 or later is installed.
 
 ## Key benefits
 
@@ -28,7 +34,7 @@ The Configuration Console gives administrators a centralized, module-by-module s
     **Note:** AI-assisted configuration provides suggestions based on your instance data and may not always be accurate. Review and validate all AI-generated configurations before applying them to verify they meet your organization's requirements.
 
 
-## Access Configuration console
+## Access Configuration Console
 
 After installing the Hardware Asset Management application, a **Configure** option appears on the Product Hub page. Select this option to open the Configuration Console.
 
@@ -235,4 +241,11 @@ ham\_admin and sn\_hamp.ham\_system\_admin
 
 </td></tr></tbody>
 </table>For more details on setup using these modules, see [Modules in the Configuration Console for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/config-console-modules-ham.md).
+
+-   **[Configure Hardware Asset Management using the Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/configure-ham-from-console.md)**  
+Configure the Hardware Asset Management application to manage hardware asset lifecycle, inventory, integrations, and team management setup from a centralized console.
+-   **[Configure assignment groups, roles, and users using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/configure-team-using-ai.md)**  
+Use the AI conversational experience in the Configuration Console to configure assignment groups, roles, and users for Hardware Asset Management.
+
+**Parent Topic:**[Configuring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/configuring-ham.md)
 

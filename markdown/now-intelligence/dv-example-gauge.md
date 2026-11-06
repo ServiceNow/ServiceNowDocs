@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/dv-example-gauge.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Gauge visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -38,7 +38,7 @@ Use the gauge visualization when you want to compare a value to a target or benc
 
     2.  Choose the Incident \[incident\] table.
 
-    3.  Because this visualization shows open incidents, let's add the Incidents.Open condition in the Filters section.
+    3.  Because this visualization shows open incidents, let's add the predefined condition Incidents.Open in the Filters section.
 
         With this filter selected, the visualization only shows the number of active incidents.
 
@@ -74,11 +74,9 @@ Use the gauge visualization when you want to compare a value to a target or benc
 
         For example, if dashboard filters limit the value of the visualization, the icon indicates that you're seeing the number of open incidents that match the filters. You can then check to see which filters are in effect.
 
-    3.  Select **Enable drilldown** to let viewers navigate to relevant information by selecting a data point in the chart.
+    3.  Under Chart interaction, select **Allow chart interaction**.
 
-        Some visualizations only drill down to the list of associated data. Table data is generally restricted by access control lists \(ACLs\) and viewers may not see all of the associated records.
-
-        This control mirrors **Allow chart interaction**. Under Chart Interaction, you can also select the destination of drilling down.
+        From the Action menu, select **Drill down to chart** to let viewers navigate to relevant information by selecting a data point in the chart. Some visualizations only drill down to the list of associated data. Table data is generally restricted by access control lists \(ACLs\) and viewers may not see all of the associated records.
 
 6.  Under Presentation, configure the shape of the gauge and the size of the gauge value.
 

@@ -7,7 +7,7 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage policy exceptions and extensions, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -18,15 +18,7 @@ After reviewing a policy exception request, a compliance manager can accept or r
 
 ## Before you begin
 
-Role required:
-
-1.  For Requester:
-    1.  sn\_grc.business\_user
-    2.  sn\_grc.business\_user\_lite
-    3.  sn\_compliance.policy\_exception\_employee\_user
-2.  For Approver:
-    1.  sn\_compliance.manager \(sn\_compliance\_ws.corporate\_compliance\_manager\)
-    2.  sn\_compliance.policy\_manager
+Role required: compliance manager
 
 ## Procedure
 
@@ -36,15 +28,15 @@ Role required:
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_qjq_2vw_x1b"><thead><tr><th align="left" id="d247433e110">
+<table id="choicetable_qjq_2vw_x1b"><thead><tr><th align="left" id="d358180e83">
 
 Option
 
-</th><th align="left" id="d247433e113">
+</th><th align="left" id="d358180e86">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d247433e119">
+</th></tr></thead><tbody><tr><td id="d358180e92">
 
 **To view or add impacted controls to the policy exception**
 
@@ -58,88 +50,67 @@ Action
 3.  Choose the controls to associate to the policy exception.
 
 
-</td></tr><tr><td id="d247433e170">
+</td></tr><tr><td id="d358180e143">
 
 **To view mitigating controls on the policy exception**
 
 </td><td>
 
-Select the Mitigating Controls tab.
+Click the Mitigating Controls tab.
 
-</td></tr><tr><td id="d247433e182">
+</td></tr><tr><td id="d358180e155">
 
 **To view or add risks to the policy exception**
 
 </td><td>
 
-Select the Risks tab.
+Click the Risks tab.
 
  **Note:** This option is available when Risk Management plugin is also activated.
 
-</td></tr><tr><td id="d247433e197">
+</td></tr><tr><td id="d358180e170">
 
 **To view or add approvers to the policy exception**
 
 </td><td>
 
-Select the Details tab.
+Click the Approvers tab.
 
- **Note:** For approvals, Approver and Risk rating fields are mandatory. Select an approver from the approval group. For example, if the approver group is Compliance Managers, then select one of the managers belonging to the Compliance Managers group.
-
-</td></tr><tr><td id="d247433e216">
+</td></tr><tr><td id="d358180e186">
 
 **To request extension**
 
 </td><td>
 
-1.  Select the **Request extension** button in the **Details** tab.
+1.  Click the **Request extension** button.
 2.  Select a valid date that is later to the **Valid to** date in the **Extension date** field.
 3.  Select a reason from the list in the **Extension reason** field.
-4.  Select the extension reason.
-5.  Enter relevant information, in the mandatory **Additional comments** field.
-6.  Click the **Request** button.
+4.  Enter an explanation for the request extension in the **Justification** field. Justification is also displayed in the **Additional comments** field of the **Comments** tab.
+5.  Click **Request**.
 
 
 </td></tr></tbody>
 </table>4.  Perform one of the following actions.
 
-<table><thead><tr><th align="left" id="d247433e277">
+<table><thead><tr><th align="left" id="d358180e246">
 
 Option
 
-</th><th align="left" id="d247433e280">
+</th><th align="left" id="d358180e249">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d247433e286">
-
-**To request additional information before approval**
-
-</td><td>
-
-Select More \(...\) icon and select **Request more information**.
-
- An email notification is sent to the requester that the policy exception request was approved and goes into effect.
-
-</td></tr><tr><td id="d247433e304">
-
-**To provide additional information requested by approver**
-
-</td><td>
-
-Select **Send Information** To provide additional information requested by approver.**Note:** When an approver requests for additional information, the state changes to Analyze and substate to Awaiting requester information.
-
-</td></tr><tr><td id="d247433e318">
+</th></tr></thead><tbody><tr><td id="d358180e255">
 
 **To approve the policy exception**
 
 </td><td>
 
-Select **Approve**.
+Click **Approve**.
 
- An email notification is sent to the requester that the policy exception request was approved and goes into effect.
+ An email notification is sent to the requester that the PER was approved and goes into effect.
 
-</td></tr><tr><td id="d247433e336">
+</td></tr><tr><td id="d358180e273">
 
 **To reject the policy exception**
 
@@ -147,47 +118,47 @@ Select **Approve**.
 
 Click **Reject**.
 
- An email notification is sent to the requester that the policy exception was rejected and the request is closed.
+ An email notification is sent to the requester that the PER was rejected and the request is closed.
 
-</td></tr><tr><td id="d247433e355">
+</td></tr><tr><td id="d358180e291">
 
-**To approve the policy exception extension**
+**To approve the policy extension**
 
 </td><td>
 
-Select **Approve Extension**.
+Click **Approve Extension**.
 
- An email notification is sent to the requester that the policy exception extension request was approved and goes into effect.
+ An email notification is sent to the requester that the extension request was approved and goes into effect.
 
-</td></tr><tr><td id="d247433e373">
+</td></tr><tr><td id="d358180e309">
 
 **To reject the policy extension**
 
 </td><td>
 
-Select **Reject Extension**.
+Click **Reject Extension**.
 
  An email notification is sent to the requester that the extension request was rejected and the request is closed.
 
-</td></tr><tr><td id="d247433e391">
+</td></tr><tr><td id="d358180e328">
 
 **To request a risk assessment on the policy exception**
 
 </td><td>
 
-Select **Request Risk Assessment**.
+Click **Request Risk Assessment**.
 
  An email notification is sent to the risk managers group.
 
  **Note:** This option is available when Risk Management is also activated.
 
-</td></tr><tr><td id="d247433e415">
+</td></tr><tr><td id="d358180e352">
 
 **To request business owner approval**
 
 </td><td>
 
-Select **Request Business Owner Approval** .
+Click **Request Business Owner Approval** .
 
  An email notification is sent to the business owner.
 

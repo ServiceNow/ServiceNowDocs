@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/r\_InstalledWithCCTISoftphone.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Components installed with additional plugins for Customer Service Management, Reference, Customer Service Management]
 ---
@@ -13,8 +13,6 @@ breadcrumb: [Components installed with additional plugins for Customer Service M
 # Components installed with CTI Softphone
 
 Several types of components are installed with CTI Softphone.
-
-**Note:** Starting with the Zurich release, CTI Softphone Plugin is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Tables installed with CTI Softphone
 

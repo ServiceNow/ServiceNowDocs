@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/configure-data-visualizations.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -16,6 +16,8 @@ Learn about advanced configuration options in depth. While most configuration op
 
 -   **[Selecting data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/selecting-data-sources.md)**  
 The key purpose of a data visualization is to show data. Thus, one of the most important steps in creating a data visualization is to select the source of the data to show.
+-   **[Filter data visualizations with the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/filter-dv-condition-builder.md)**  
+Use the condition builder to help you create a custom filter for a visualization based on table data. You can save filters as predefined conditions for other visualizations based on the same table.
 -   **[Configure a data visualization to follow filters or not](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/configure-dv-follow-filters-or-not.md)**  
 Data visualizations follow filters by default. A data visualization follows filters in the same dashboard tab as itself or above the tabs. Data visualizations either follow all such tabs that target their data sources, or none.
 -   **[Control data source availability by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dv-use-data-source-acl.md)**  
@@ -28,6 +30,10 @@ In most data visualizations, you can configure how numerical values look when yo
 You can set what occurs when a user interacts with a visualization, such as by selecting a bar column. Possibilities include navigating to a URL, opening another data visualization, and filtering all visualizations on the dashboard by the selected value.
 -   **[Function fields in data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/function-fields-dvs.md)**  
 While regular fields store a value in the database, a function field displays the results of a database query. The function field generates the value based on computations of other fields and constants. You can use these fields in reports and data visualizations as you would other fields.
+-   **[Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/report-view-access-control.md)**  
+The report\_view operation is a record type ACL that restricts access to data visualizations and Core UI reports. Only users who have one of the required roles can view visualizations that contain the restricted resource.
+-   **[ACL Assessment for Data Visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/report-view-acl-dashboard.md)**  
+Use the ServiceNow® ACL Assessment for Data Visualizations to identify data visualizations and reports whose contents are blocked by report\_view or read ACLs \(access control lists\).
 -   **[Questions in data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/questions-in-dv.md)**  
 You can group or filter table data in data visualizations by questions. The table must support questions.
 -   **[Service catalog variables in data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dv-rep-sc-variables.md)**  

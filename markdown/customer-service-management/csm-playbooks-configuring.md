@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-playbooks-configuring.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -30,7 +30,7 @@ Create or customize a playbook record page
 
 </td><td>
 
-A record page provides the base structure for how a record is displayed in CSM Configurable Workspace. The following playbook record pages are available with the Playbooks for Customer Service Management application \[com.sn\_csm\_playbook\]:-   [Case playbook: horizontal stages page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-playbook-horizontal-stages.md)
+A record page provides the base structure for how a record is displayed in CRM Workspace. The following playbook record pages are available with the Playbooks for Customer Service Management application \[com.sn\_csm\_playbook\]:-   [Case playbook: horizontal stages page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-playbook-horizontal-stages.md)
 -   [Case playbook: vertical stages page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-playbook-vertical-stages.md)
 
 For more information, see [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/work-pages.md).
@@ -81,7 +81,7 @@ Configure a playbook to use compact mode
 
 </td><td>
 
-Compact mode moves the playbook from a tab in the Workspace to the contextual side panel. Agents can complete playbook activities in the side panel while viewing other tabs in the record page.Users with the system administrator role can configure a playbook to use compact mode in the playbook component configuration in UI Builder.
+Compact mode moves the playbook from a tab in the workspace to the contextual side panel. Agents can complete playbook activities in the side panel while viewing other tabs in the record page.Users with the system administrator role can configure a playbook to use compact mode in the playbook component configuration in UI Builder.
 
 </td></tr><tr><td>
 
@@ -97,11 +97,11 @@ Select a playbook experience
 
 </td><td>
 
-A playbook experience is a defined set of configurations that determines how the system renders a playbook in Workspace. You can use playbook experiences to customize the look and feel of a playbook, map user actions, and override activities.The Playbook Experience plugin \(com.playbook\_experience\) includes the Global Playbook Experience record, which defines a default playbook configuration.
+A playbook experience is a defined set of configurations that determines how the system renders a playbook in workspace. You can use playbook experiences to customize the look and feel of a playbook, map user actions, and override activities.The Playbook Experience plugin \(com.playbook\_experience\) includes the Global Playbook Experience record, which defines a default playbook configuration.
 
 The Playbooks for Customer Service Management plugin \(com.sn\_csm\_playbook\) includes the following additional playbook experience records:
 
--   CSM Configurable Workspace Playbook
+-   CRM Workspace Playbook
 -   CSM Agent Workspace Playbook
 
 Users with the system administrator role can select a playbook experience when adding a playbook to a page in UI Builder.

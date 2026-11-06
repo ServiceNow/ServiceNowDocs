@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/configuring-cpq.html
 release: zurich
 topic_type: concept
-last_updated: "2025-11-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Sales Customer Relationship Management]
 ---
@@ -14,29 +14,30 @@ breadcrumb: [Configure, Sales Customer Relationship Management]
 
 Learn how to configure the configure, price, quote applications to streamline complex product, pricing, and quote-to-contract workflows.
 
-Set up tools that enable accurate product configuration, pricing, and quoting. This process typically includes configuring the ServiceNow CPQ or the legacy product configurator, enabling quote management, and establishing contract and entitlements and sales agreement workflows to streamline complex sales cycles and improve quoting efficiency.
+This process typically includes configuring the ServiceNow CPQ or the configurator, enabling quote management, and establishing contract and entitlements and sales agreement workflows to streamline complex sales cycles and improve quoting efficiency.
 
-1.  [Setting up CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/setting-up-cpq-configurator.md)
+1.  [Setting up ServiceNow CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/setup-cpq-integrator.md)
 
     Plan and configure the implementation of the advanced configurator in ServiceNow CPQ. The advanced configurator runs in the CRM Workspace and the Business Portal for customers placing orders.
 
-2.  \(Optional\) [Setting up the legacy product configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/confguring-product-configurator.md)
+2.  [Configuring ServiceNow CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cpq-configuring.md)
+3.  \(Optional\) [Setting up the Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/confguring-product-configurator.md)
 
-    Control the product options displayed in the product configurator interface by using the Open State Management API framework.
+    Set up the base configurator and control the product options displayed in the product configurator interface by using the Open State Management API framework.
 
-3.  [Configuring product pricing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-managing-product-pricing.md)
+4.  [Configuring product pricing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-managing-product-pricing.md)
 
     Use the Pricing Management application to create the price lists and price list lines, define pricing adjustments, and manage other features that control pricing for product offerings. Product pricing is used by your sales and order agents when creating opportunities, quotes, and sales orders in Sales Customer Relationship Management.
 
-4.  [Configuring Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-quote-management.md)
+5.  [Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-crm-tm-quoting-configure.md)
 
     Install the Quote Management application to enable your sales agents to generate sales quotes for products or services that a customer wants to buy.
 
-5.  [Configure Customer Contracts and Entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configuring-post-sales-support.md)
+6.  [Configure Customer Contracts and Entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configuring-post-sales-support.md)
 
     Configure the Customer Contracts and Entitlements application to configure and display customer service contracts and entitlements.
 
-6.  [Configure Sales Agreement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-sales-agreement-mgmt.md)
+7.  [Configure Sales Agreement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-sales-agreement-mgmt.md)
 
     Activate the Sales Agreement Management plugin to enable users to create and manage sales agreements. This application enables users to create sales agreements between a buyer and a seller for future transactions.
 

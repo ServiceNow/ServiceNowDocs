@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-define-data-source.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Set up the Data Context Engine, Customer success, Configure, Customer Success Management]
+breadcrumb: [Data context engine, Customer success, Configure, Customer Success Management]
 ---
 
 # Define the data source
@@ -179,15 +179,8 @@ The source record used to resolve the **Group by** fields. This field is automat
     -   Product capability: Select the Product Capability Usage table.
     **Note:** You can define multiple context tables for a single data source.
 
-7.  Enable the **Active** check box and click **Submit** to create the data source. You can associate the data source with one or more context tables.
-8.  Define color bands as necessary. See the [Setup the color banding table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-setup-color-banding.md) for details. The color banding is applied to the health metric data displayed in the [Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-view-engage.md) tab on the Engagement home page.
+7.  Enable the **Active** check box and select **Submit** to create the data source. You can associate the data source with one or more context tables.
+8.  Define color bands as necessary. See the [Set up the color banding table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-setup-color-banding.md) for details. The color banding is applied to the health metric data displayed in the [Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-view-engage.md) tab on the Engagement home page.
 
 After setting up the data source and the context, the next step is to configure the context engine mapper. See the [Configure the Context Engine Mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-define-context-engine-mapper.md) for details.
-
--   **[Define a calculated metric data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-define-data-source-calculate.md)**  
-Define dynamic metrics using formulas based on other metrics.
--   **[Define a table data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-define-data-source-table.md)**  
-Use the **Table** data source to retrieve data from internal ServiceNow tables or from external sources using Workflow Data Fabric.
-
-**Parent Topic:**[Set up the Data Context Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-setup-dce.md)
 

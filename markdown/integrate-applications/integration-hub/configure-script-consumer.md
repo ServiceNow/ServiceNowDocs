@@ -7,8 +7,8 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Using Stream Connect for Apache Kafka, Import and stream data, Integration Hub, Workflow Data Fabric]
 ---
 
@@ -89,7 +89,7 @@ Application
 
 </td><td>
 
-Application scope for the Transform Map Consumer.
+Application scope for the Script Consumer.
 
 </td></tr><tr><td>
 
@@ -111,19 +111,57 @@ Registry for the selected schema. Select one of the following.
 
 ## Example
 
-This example shows a sample script for processing messages.
+This example shows a sample script for processing messages. It includes the **utc\_timestamp** field, a string-type field in UTC timezone, and the **metadata** field, which includes the following:
+
+-   **timestampEpoch**, data type: long
+-   **partition**, data type: int
+-   **offset**, data type: long
+-   **dataCenter**, data type: string
 
 ```
 (function process(messages) {
- // Add your code here to consume kafka messages 
- // sample message [ { 'key' : 'message_key' , 'message' : 'message' , 'headers' : [ { 'key' : 'header_key' , 'value' : 'header_value' } ] } ] 
+  for (var i = 0; i < messages.length; i++) {
+    var m = messages[i];
 
- for (var i = 0; i < messages.length; i++) {
-     var message = JSON.parse(messages[i].message);
-     gs.info('Number ' + message.number + ', short description ' + message.short_description +
-         ', headers ' + JSON.stringify(messages[i].headers));
- }
+    var headerParts = [];
+    for (var j = 0; j < m.headers.length; j++) {
+      headerParts.push('header[' + j + ']_key=' + m.headers[j].key + ' | header[' + j + ']_value=' + m.headers[j].value);
+    }
+
+    var line = [
+      'message_key='     + m.key,
+      'message_body='    + m.message,
+      'partition='       + m.metadata.partition,
+      'offset='          + m.metadata.offset,
+      'datacenter_id='   + m.metadata.datacenter_id,
+      'utc_timestamp='   + m.utc_timestamp,
+      'timestamp_epoch=' + m.metadata.timestamp_epoch
+    ].concat(headerParts).join(' | ');
+
+    gs.info('[Kafka Message] ' + line);
+  }
 })(messages);
+
+```
+
+To convert the **utc\_timestamp** field to GlideDateTime, see the following examples.
+
+```
+
+// Example 1
+var timestamp = new GlideDateTime("2025-08-19 23:31:45");
+console.log(timestamp.getValue());
+
+// Example 2 
+var timestamp2 = new GlideDateTime();
+timestamp2.setNumericValue(1755646305218);
+console.log(timestamp2.getValue());
+
+// Example 3
+var timestamp3 = new GlideDateTime("1970-01-01 00:00:00");
+timestamp3.add(1755646305218);
+console.log(timestamp3.getValue());
+
 ```
 
 ## What to do next

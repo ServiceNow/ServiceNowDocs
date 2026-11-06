@@ -7,7 +7,7 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
@@ -16,25 +16,106 @@ breadcrumb: [Access control, Hardening settings, Platform Security]
 
 Use the **glide.pop3.process\_locked\_out** property to control inbound email actions for locked out, active users.
 
-Set this property to **false** to disable inbound emails for locked out users.
+The **glide.pop3.process\_locked\_out** system property controls inbound email actions for locked out users. If **glide.pop3.process\_locked\_out** is set to **true**, there may be an information disclosure as inbound emails would be received by users with locked accounts.
+
+Ensure that the property **glide.pop3.process\_locked\_out** is set to **false**.
 
 **Note:** Consider the security implications of allowing users from untrusted domains, and why they were locked out, before allowing emails from them to trigger inbound email actions.
 
 ## More information
 
-|Attribute|Description|
-|---------|-----------|
-|Property name|**glide.pop3.process\_locked\_out**|
-|Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)|
-|Purpose|This property controls inbound email actions for locked out users.|
-|Data type|Boolean|
-|Recommended value|false|
-|Default value|false|
-|Security risk|\(High\) When you set this property to **true**, there may be an information disclosure as inbound emails would be received by users with locked accounts.|
-|Security risk rating|7.5|
+<table id="table_ajc_b43_3kb"><thead><tr><th>
 
-To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+Attribute
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Configuration name
+
+</td><td>
+
+**glide.pop3.process\_locked\_out**
+
+</td></tr><tr><td>
+
+Configuration type
+
+</td><td>
+
+System Properties \(/sys\_properties\_list.do\)
+
+</td></tr><tr><td>
+
+Data type
+
+</td><td>
+
+Boolean
+
+</td></tr><tr><td>
+
+Recommended value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
+Default value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
+
+</td></tr><tr><td>
+
+Security risk
+
+</td><td>
+
+-   Severity score: 7.5
+-   CVSS rating: High
+-   Security risk details: Allows locked-out users to continue submitting inbound emails that may create records or trigger workflows, posing a security risk by enabling potentially unauthorized actions.
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+Dependencies and prerequisites
+
+</td><td>
+
+None
+
+</td></tr></tbody>
+</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 **Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/configure-sales-territory-management.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Lead and opportunity management apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Configuring Sales Territory Management​
@@ -47,7 +47,7 @@ com.sn\_sales\_territory
 -   Lead to Cash Core - com.snc.l2c\_core
 
 </td></tr></tbody>
-</table>**Related topics**  
+</table>**Related information**  
 
 
 [Using Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/use-sales-territory-management.md)

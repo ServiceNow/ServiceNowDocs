@@ -1,18 +1,18 @@
 ---
 title: Activate an agentic workflow template
-description: Activate an agentic workflow that come installed with AI applications in AI Agent Studio.
+description: Activate an agentic workflow that come installed with ServiceNow applications in AI Agent Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/activate-aia-use-case.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create an agentic workflow, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Create an agentic workflow, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Activate an agentic workflow template
 
-Activate an agentic workflow that come installed with AI applications in AI Agent Studio.
+Activate an agentic workflow that come installed with ServiceNow applications in AI Agent Studio.
 
 ## Before you begin
 
@@ -44,7 +44,7 @@ These predefined agentic workflows can also be used as templates for your own cu
 
 9.  Toggle the display for the ServiceNow Otto panel and/or UI action so that it’s turned on.
 
-    You have enabled the agentic workflow in the ServiceNow Otto panel. If the option isn't available, you must enable the panel first. For more information, see [Turn on the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/activate-now-assist-panel.md).
+    You have enabled the agentic workflow in the ServiceNow Otto panel. If the option isn't available, you must enable the panel first. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/activate-now-assist-panel.md), [Activate ServiceNow Otto panel enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-panel-enhanced-activate.md), or [Display your assistant on Platform or ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/display-nap-assistant.md) for premium chat.
 
 10. Select **Save and test**.
 

@@ -7,7 +7,7 @@ release: zurich
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Map multiple application services suggested by classic Service Mapping, Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -47,6 +47,8 @@ If you are not sure which traffic-based connections are relevant, identify a gro
     For example, expand the **python - python** group.
 
 4.  Review the suggestion details paying attention to the parameters covered in the Connections Suggestions list.
+
+    See [Connection Suggestions list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/connection-suggestions-list.md).
 
 5.  Select the check boxes next to the relevant suggestions and click the action button at the bottom of the window:
 

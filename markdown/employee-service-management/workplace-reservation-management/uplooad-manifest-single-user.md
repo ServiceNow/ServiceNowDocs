@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2025-11-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Activate the add-in for Microsoft Outlook, Manage Workplace Reservations for Microsoft Outlook Add-in, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -32,10 +32,4 @@ Role required: admin
 
 4.  In the Custom add-ins section, select **Add a custom add-in** &gt; **Add from file**.
 
-
-**Parent Topic:**[Activate the add-in for Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/add-outlook-addin.md)
-
-**Previous topic:**[Activate the add-in for Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/add-outlook-addin.md)
-
-**Next topic:**[Upload the add-in file Microsoft Office 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/upload-manifest-msoffice.md)
 

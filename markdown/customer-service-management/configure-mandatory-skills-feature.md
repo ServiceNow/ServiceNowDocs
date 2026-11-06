@@ -1,20 +1,20 @@
 ---
-title: Configuring Mandatory Skills
+title: Configuring mandatory skills
 description: Configure the mandatory skills feature for use with the Customer Service Management and Field Service Management applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configure-mandatory-skills-feature.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Mandatory Skills, Configure skills management, Configure case routing and assignment, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Mandatory skills, Configure Skills Management, Configure case routing and assignment, Route and assign cases, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# Configuring Mandatory Skills
+# Configuring mandatory skills
 
 Configure the mandatory skills feature for use with the Customer Service Management and Field Service Management applications.
 
-Mandatory skills are an optional feature included with the Customer Service Management and Field Service Management plugins. Use the following steps to configure this feature with the desired application.
+Mandatory skills is an optional feature included with the Customer Service Management and Field Service Management plugins. Use the steps below to configure this feature with the desired application.
 
 ## Customer Service Management configuration
 
@@ -38,7 +38,7 @@ To configure the mandatory skills feature for use with Field Service Management:
 3.  \[Optional\] For existing work orders and tasks that have data populated in the **Skills** field on the Work Order and Work Order Task forms, run the **Migrate Skills to Task Skill M2M** script to move this data to the Task Skills table. By default, this fix script migrates the skills from existing entries in the Case, Work Order, and Work Order Task tables to the Task Skills table and configures them as optional skills. For more information, see [Migrate skills to the Task Skill table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/migrate-skills-m2m-table.md).
 4.  If you are using dynamic scheduling, update the task filter for the dynamic scheduling configuration and replace the **Matching Skills for Dynamic Scheduling** matching criteria with the **Matching Mandatory Skills for Dynamic Scheduling** matching criteria. For more information, see [Create a task filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/field-service-management/create-dynamic-scheduling-config.md).
 
-For configuring optional skills, navigate to **Field Service** &gt; **Administration** &gt; **Configuration**, select the **Assignment** tab and set **Auto-selection of agents for tasks requires them to have skills** to one of the following:
+For configuring optional skills, navigate to **Field Service** &gt; **Administration** &gt; **Configuration**, click the **Assignment** tab and set **Auto-selection of agents for tasks requires them to have skills** to one of the following:
 
 -   All - indicates that the agent must have all optional skills listed in the task for task assignment.
 -   Some - indicates that the agent must have at least one optional skill listed in the task for task assignment.
@@ -84,8 +84,12 @@ com.snc.skills\_management.task\_skill\_migrated\_tables
 
 </td><td>
 
-Contains a list of tables for which the **Skills** field has already been migrated to the Task Skills \[task\_m2m\_skill\] table. If the table name is listed in this property, it indicates that the data is migrated and cannot be migrated again. -   **Type**: choice list
+Contains a list of tables for which the **Skills** field has already been migrated to the Task Skills \[task\_m2m\_skill\] table. If the table name is listed in this property, the data has been migrated and will not be migrated again. -   **Type**: choice list
 -   **Default value**: none
 
 </td></tr></tbody>
-</table>
+</table>**Related topics**  
+
+
+[bundle-fsm.skills-table-fields]
+

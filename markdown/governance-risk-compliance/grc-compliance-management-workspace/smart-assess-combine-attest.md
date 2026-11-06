@@ -7,9 +7,9 @@ release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Group assessments for control attestations, Manage control objective, Manage control objectives and policies, Use, GRC Compliance Workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Group assessments for control attestations, Create control objective, Manage control objectives and policies, Use, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Combine assessments for control attestations
@@ -24,7 +24,7 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  Select \[Omitted image "TasksIcon.jpg"\] Alt text: Tasks icon. from the sidebar.
+2.  Select\[Omitted image "TasksIcon.jpg"\] Alt text: Tasks icon. from the sidebar.
 
 3.  Select the Control attestations on the left panel.
 

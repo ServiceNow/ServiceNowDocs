@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/cpq-picklist-extensions-tutorial.html
 release: zurich
 topic_type: task
-last_updated: "2025-09-17"
-reading_time_minutes: 4
-breadcrumb: [ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Configure picklist extensions
@@ -94,8 +94,6 @@ Role required: Admin
 
 **Related topics**  
 
-
-[Adding a field with an extended picklist to the layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 
 [Displaying a picklist extension on a layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/csv_layouts_how_do_i_display_a_picklist_extension.md)
 

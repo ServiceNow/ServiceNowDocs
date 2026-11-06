@@ -1,5 +1,5 @@
 ---
-title: Convert legacy certification schedules into Data Manager certification policies
+title: Convert legacy certification schedules into Data Manager certification policies in CMDB Workspace
 description: Convert certification schedules created in the legacy Data Certification application \(running on Core UI\), into draft Data Manager certification policies available in CMDB Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/convert-data-cert-definitions.html
@@ -7,12 +7,12 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Data Certification experience in a workspace, Data Certification, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Data Certification, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Convert legacy certification schedules into Data Manager certification policies
+# Convert legacy certification schedules into Data Manager certification policies in CMDB Workspace
 
 Convert certification schedules created in the legacy Data Certification application \(running on Core UI\), into draft Data Manager certification policies available in CMDB Workspace.
 
@@ -22,7 +22,7 @@ Role required: data\_manager\_admin or sn\_cmdb\_admin
 
 ## About this task
 
-If you have been using the legacy Data Certification application on Core UI, then any associated certification schedules aren't automatically available in the new implementation of Data Certification in CMDB Workspace version 6.0 . You can convert those definitions into draft Data Manager Certification policies. Then you can publish the converted policies in CMDB Workspace just like publishing any draft Data Manager policy.
+If you have been using the legacy Data Certification application on Core UI, then any associated certification schedules might not be automatically available in the implementation of Data Certification in CMDB Workspace . You can convert those definitions into draft Data Manager Certification policies. Then you can publish those converted policies in CMDB Workspace just like publishing any draft Data Manager policy.
 
 Important things to know:
 
@@ -32,15 +32,13 @@ Important things to know:
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CMDB Workspace**, and in the navigation panel select the Governance icon.
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Governance**. Then, in the Governance navigation pane, select **Data Manager overview**
 
-2.  Select the **Data Manager** link in Management tools, in the Manage section.
-
-3.  On the Data Manager overview page, select **Import** on the banner at the top of the page.
+2.  On the Data Manager overview page, select **Import** on the banner at the top of the page.
 
     If there aren't any legacy certification schedules to import, the notification banner about importing existing policies doesn't appear.
 
-4.  In the Confirm import of certification schedule into draft policies, select **Import into draft policies**.
+3.  In the Confirm import of certification schedule into draft policies, select **Import into draft policies**.
 
     1.  Track progression in the Import in progress dialog box.
 
@@ -54,13 +52,13 @@ Important things to know:
 
     3.  Select **View draft policies** to view the converted policies in the Data Manager policies page, under the Draft policies tab.
 
-5.  [Publish a draft CMDB Data Manager policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/data-manager-publish-draft-policy.md)
+4.  [Publish a draft CMDB Data Manager policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/data-manager-publish-draft-policy.md)
 
 
 ## Result
 
 -   If you log in while this conversion is in process, a progress message appears on the Data Manager overview page. You can select the **View details** link to open the Import in progress dialog box with details about the progress of the operation.
--   The legacy certification schedules are available as draft Certification policies in Data Manager in CMDB Workspaceand in Service Graph Workspace.
+-   The legacy certification schedules are available as draft Certification policies in Data Manager in CMDB Workspace .
 -   The legacy certification schedules are deactivated.
 -   The legacy certification tasks are unchanged and you can review and resolve them as needed.
 

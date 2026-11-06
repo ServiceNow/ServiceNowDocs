@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Request-based chat access for a guest user, Integration for Employee Experience, Setup for integrating self-configured apps, Setup the Servicenow instance, MS Teams and Microsoft 365, Integrate, ServiceNow for Microsoft Teams and Microsoft 365, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Request-based chat access for a guest user, Integration for Employee Experience, Setup for integrating self-configured apps, Setup the Servicenow instance, Integrating ServiceNow with Microsoft Teams and Microsoft 365, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
 # Enable authentication of guest users
@@ -87,7 +87,7 @@ Redirect the URL that includes your ServiceNow for Microsoft Teams instance URL 
 </td></tr></tbody>
 </table>4.  Select **Save**.
 
-5.  As a sn\_tcm\_collab\_hook.admin, navigate to **ServiceNow for Microsoft Teams** &gt; **Properties**.
+5.  Navigate to **ServiceNow for Microsoft Teams** &gt; **Properties**.
 
 6.  Select the option **Set this property to true to use integration hub action for Start Chat / Import chat flows**.
 

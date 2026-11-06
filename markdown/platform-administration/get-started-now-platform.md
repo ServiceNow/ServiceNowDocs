@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/get-started-now-platform.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Administer]
+breadcrumb: [Administer the ServiceNow AI Platform]
 ---
 
 # Getting started on the ServiceNow AI Platform
@@ -55,8 +55,8 @@ Basic system configuration encompasses changes made to the platform as well as s
 Admin Center provides a central hub for platform owners and admins to access platform capabilities, discover new applications, and get intelligent, actionable insights.
 -   **[Administering applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/administering-applications.md)**  
 You can install, update, and remove applications without leaving your instance.
--   **[Multi-instance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/data-sync-landing-page-new.md)**  
-Multi-instance Management offers tools and visibility to control how instances share information for enabled applications. This feature can be utilized for ServiceNow applications when they need to communicate data across multiple instances within a customer’s account.
+-   **[ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ia-landing.md)**  
+The ServiceNow Otto for Setup provides a unified, guided experience to set up, configure, and adopt ServiceNow products. It connects Admin Home, product hubs, and the Configuration Console into a single path from product activation to full configuration.
 -   **[Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/subscription-management-landing-page-v2.md)**  
 Subscription Management enables you to proactively manage your subscriptions and monitor subscription usage on your instances.
 -   **[Now Support administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/now-support-administration.md)**  

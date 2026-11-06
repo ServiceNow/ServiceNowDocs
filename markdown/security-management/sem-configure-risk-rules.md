@@ -5,16 +5,14 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sem-configure-risk-rules.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Configure rules to manage findings, Implement, Unified Security Exposure Management, Security Operations]
 ---
 
 # Configuring roll-up calculator rules
 
 Configure roll-up calculator rules to compute the cumulative risk score for remediation tasks and imported vulnerabilities.
-
-**Parent Topic:**[Configure rules to manage findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-configure-rules-manage-findings.md)
 
 **Related topics**  
 

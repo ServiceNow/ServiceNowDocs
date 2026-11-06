@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/view-sequence-design-time.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customer Engagement Sequences, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Customer Engagement Sequences, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Review sequences in Workflow Studio
@@ -20,7 +20,7 @@ Role required: Sequence reader \[sn\_crm\_sequence.reader\]
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -34,4 +34,11 @@ Role required: Sequence reader \[sn\_crm\_sequence.reader\]
 
 
 **Parent Topic:**[Using Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-customer-engagement-sequences.md)
+
+**Related topics**  
+
+
+[Configuring Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configuring-customer-engagement-sequences.md)
+
+[Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-customer-engagement-sequences.md)
 

@@ -1,21 +1,21 @@
 ---
 title: Generate a chat reply recommendation by using ServiceNow Otto for Customer Service Management \(CSM\)
-description: Generate a reply based on the context of the chat conversation using ServiceNow Otto icon. Chat reply recommendations can help provide agents with quick replies to common questions.
+description: Generate a reply based on the context of the chat conversation using AI icon. Chat reply recommendations can help provide agents with quick replies to common questions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/generate-chat-reply-recommendations.html
 release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Use generative AI skills, ServiceNow Otto for CSM, Customer Service Management]
+breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Generate a chat reply recommendation by using ServiceNow Otto for Customer Service Management \(CSM\)
 
-Generate a reply based on the context of the chat conversation using ServiceNow Otto icon. Chat reply recommendations can help provide agents with quick replies to common questions.
+Generate a reply based on the context of the chat conversation using AI icon. Chat reply recommendations can help provide agents with quick replies to common questions.
 
 See the video to understand how generative AI provides agents with suggested, personalized responses during live chat interactions. \[Omitted video\] Description: Chat reply recommendation
 
@@ -34,7 +34,7 @@ You can do these actions by using the AI icon:
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Open the inbox and accept the chat interaction.
 
@@ -44,17 +44,19 @@ You can do these actions by using the AI icon:
 
     For example, if the requester is having an issue with hardware, you may need the hardware model number and serial number.
 
-4.  In the chat message window, either type a response, or leave blank, and then select the AI icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon
+4.  In the chat message window, either type a response, or leave blank, and then select the AI icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist.
 
-<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d33200e144">
+    \[Omitted image "now-assist-chat-reply-recommendation.png"\] Alt text: Modal that shows a chat recommendation from the agent.
+
+<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d34728e162">
 
 Chat message window
 
-</th><th align="left" id="d33200e147">
+</th><th align="left" id="d34728e165">
 
 AI icon
 
-</th></tr></thead><tbody><tr><td id="d33200e153">
+</th></tr></thead><tbody><tr><td id="d34728e171">
 
 **Typed response**
 
@@ -71,7 +73,7 @@ Provides the option to refine your response:
 -   Sympathetic
 
 
-</td></tr><tr><td id="d33200e187">
+</td></tr><tr><td id="d34728e205">
 
 **Left blank**
 

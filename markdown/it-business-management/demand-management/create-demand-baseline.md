@@ -7,7 +7,7 @@ release: zurich
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a demand, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -30,15 +30,15 @@ Role required: it\_demand\_manager
 
 3.  To create a financial baseline of a demand, use either of the options.
 
-<table id="choicetable_zvg_42n_1cb"><thead><tr><th align="left" id="d337860e86">
+<table id="choicetable_zvg_42n_1cb"><thead><tr><th align="left" id="d362463e86">
 
 Option
 
-</th><th align="left" id="d337860e89">
+</th><th align="left" id="d362463e89">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d337860e95">
+</th></tr></thead><tbody><tr><td id="d362463e95">
 
 **From a related link**
 
@@ -49,7 +49,7 @@ Steps
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d337860e122">
+</td></tr><tr><td id="d362463e122">
 
 **From a related list**
 

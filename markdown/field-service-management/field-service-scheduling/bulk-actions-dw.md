@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Dispatcher Workspace, Assigning WOTs from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
+breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Edit multiple tasks in Dispatcher Workspace
@@ -25,7 +25,7 @@ The **Select All** check box selects all tasks on the current panel.
 The check box has three states.
 
 1.  None selected. No tasks are currently selected. This option is the default state.
-2.  All selected. All tasks are selected. This option is the initial state upon toggling **Select All**.
+2.  All selected. All tasks are selected. This option is the initial state on toggling **Select All**.
 3.  Indeterminate. Some tasks are selected. After toggling **Select All**, deselecting individual tasks will place the **Select All** check box in this state
 
 ## Bulk Open
@@ -34,7 +34,7 @@ When one or more tasks are selected, the **Bulk Open** action appears. Selecting
 
 ## Bulk Auto-assignment
 
-When one or more tasks are selected, the **Auto-assignment** action is enabled. Selecting **Auto-assignment** will dynamically schedule all selected tasks. For more information, see [Dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/dynamic-scheduling.md).
+When one or more tasks are selected, the **Auto-assignment** action is enabled. Selecting **Auto-assignment** dynamically schedules all selected tasks. For more information, see [Dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/dynamic-scheduling.md).
 
 ## Bundle
 

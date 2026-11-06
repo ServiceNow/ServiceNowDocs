@@ -7,7 +7,7 @@ release: zurich
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Working with SRM reliability tasks, Using Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Plan ahead of service disruptions and have SRM send notifications and create sta
 
 You can manually create incidents within SRM or create an error budget action to do so. See [Manually create an SRM incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-create-incident.md) or [Create SLOs, SLIs, and error budget policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-level-objective-management/sr-create-slo-sli.md) for more information.
 
--   [Manual creation from an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/open-incident.md).
+-   [Manual creation from an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/open-incident.md).
 -   [Manual creation from the incident view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-create-incident.md).
 -   Automatically from Alert automations, if Alert automations are installed.
 

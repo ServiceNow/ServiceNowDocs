@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-trm-technical-debt-states.html
 release: zurich
 topic_type: reference
-last_updated: "2026-08-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [technical debt, state]
-breadcrumb: [Reference, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # TRM technical debt states and transitions

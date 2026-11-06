@@ -1,5 +1,5 @@
 ---
-title: IBM reconciliation for IBM Authorized SAM Provider \(IASP\) integrations
+title: IBM reconciliation for IBM Authorized SAM Provider \(ASP\) integrations
 description: IBM reconciliation keeps your IBM license positions accurate and up-to-date without requiring manual calculations. Reconciliation runs weekly or on-demand.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/ibm-reconciliation-iasp-integrations.html
@@ -7,12 +7,12 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [CVA integrations, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [CVA integrations, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
-# IBM reconciliation for IBM Authorized SAM Provider \(IASP\) integrations
+# IBM reconciliation for IBM Authorized SAM Provider \(ASP\) integrations
 
 IBM reconciliation keeps your IBM license positions accurate and up-to-date without requiring manual calculations. Reconciliation runs weekly or on-demand.
 

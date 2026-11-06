@@ -7,16 +7,14 @@ release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring access to CI data on your Microsoft Azure account, Configure Cloud Cost Management for Microsoft Azure, Configure, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Configuring access to CI data on your Microsoft Azure account, Configure Cloud Cost Management for Microsoft Azure, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Proxy server configuration for your Cloud Cost Management MID Server
 
 You can configure any MID Server to use a proxy server for Cloud Cost Management operations. Proxy servers support all cloud-based activities such as running Discovery, Billing Download jobs, and Price Sheet Download jobs.
-
-**Important:** This information applies to both the Cloud Cost Management and Cloud Insights Billing apps. All references to Cloud Cost Management also apply to Cloud Insights Billing.
 
 ## Detailed instructions
 

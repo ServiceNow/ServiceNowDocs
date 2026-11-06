@@ -7,7 +7,7 @@ release: zurich
 product: Issue Auto Resolution for HR
 classification: issue-auto-resolution-for-hr
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Issue Auto Resolution for HR, HR Service Delivery, Employee Service Management]
 ---
@@ -29,7 +29,7 @@ The Virtual Agent process is as follows:
 1.  An HR case is submitted by the employee through an email.
 2.  The employee receives an email with the Virtual Agent topic recommendation in it.
 3.  The employee selects **Go to portal** to access the details of the case on the portal.
-4.  The employee accesses the Virtual Agent topic, by selecting the Virtual Agent chat icon \[Omitted image "chat-icon.png"\] on the portal and selecting the case recommendation notification.
+4.  The employee accesses the Virtual Agent topic, by selecting the Virtual Agent chat icon \[Omitted image "chat-icon.png"\] Alt text: Chat icon. on the portal and selecting the case recommendation notification.
 
 ## Enhanced recommendations preview on email for AI search flow
 

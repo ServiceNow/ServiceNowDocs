@@ -7,9 +7,9 @@ release: zurich
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [An app's table, Administer, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [An app's table, Administer, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Change a Creator Studio app's table
@@ -34,7 +34,7 @@ Some general guidelines for changing the table are:
 
 See [Changing the table for an app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-admin-app-table-about.md) for more information.
 
-Role required: admin, app configurator \(sn\_creatorstudio.app\_configurator\), or Creator Studio configuration admin \(sn\_creatorstudio.configuration\_admin\). For more information on working with granular roles, see [Granular admin roles required to secure your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/roles-within-platform-security.md).
+Role required: admin, app configurator \(sn\_creatorstudio.app\_configurator\), or Creator Studio configuration admin \(sn\_creatorstudio.configuration\_admin\). For more information on working with granular roles, see .
 
 ## About this task
 
@@ -57,7 +57,7 @@ To ensure that forms and automations work, a general guideline is to change the 
     You can change the scope in one of the following ways:
 
     -   Selecting the **here** in the message "To edit the record click here."
-    -   Selecting the application scope icon \(\[Omitted image "icon-scope-changed.png"\]\) and choosing the appropriate scope.
+    -   Selecting the application scope icon \[Omitted image "icon-scope-changed.png"\] and choosing the appropriate scope.
     For more information on scopes, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/c_ApplicationScope.md).
 
 5.  Enter the name of the table you want the app to write to in the **Request table** field.

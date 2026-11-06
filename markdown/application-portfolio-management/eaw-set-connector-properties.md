@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-05-12"
 reading_time_minutes: 2
 keywords: [connector, connector properties, relationship type, ArchiMate, line style]
-breadcrumb: [Working with Enterprise Modeling and Visualization, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with Enterprise Modeling and Visualization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Set shape connector properties in Enterprise Modeling and Visualization
@@ -16,6 +16,8 @@ breadcrumb: [Working with Enterprise Modeling and Visualization, Manage, Enterpr
 Configure the relationship type or visual style of a connector between shapes in an enterprise modeling diagram.
 
 ## Before you begin
+
+\[Omitted video\] Description: Configure the relationship type or visual style of a connector between shapens in an Enterprise Modeling diagram.
 
 Role required: sn\_apm.apm\_user
 

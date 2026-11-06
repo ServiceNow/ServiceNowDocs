@@ -7,9 +7,9 @@ release: zurich
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Customizing Password Reset processes, Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Customizing Password Reset processes, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Customize password reset processes and integrate third-party credential services
@@ -18,7 +18,7 @@ To customize password reset processes or to integrate them with third-party cred
 
 ## Before you begin
 
-Role required: password\_reset\_admin, or password\_reset\_credential\_manager
+Role required: admin, password\_reset\_admin, or password\_reset\_credential\_manager
 
 ## About this task
 

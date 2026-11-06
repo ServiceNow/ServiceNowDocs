@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/add-subscription-pricing-to-an-order.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Creating orders, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_ind\_tmt\_orm.order\_agent
 
 ## About this task
 
-Subscription pricing is a model where customers pay a recurring fee for products or services, typically at regular monthly or annually.
+Subscription pricing is a pricing model where customers pay a recurring fee for products or services, typically at regular intervals such as monthly or annually.
 
 In an order, you can set the contract start date and end date, or you can enter a term and the contract end date is automatically calculated.
 
@@ -30,17 +30,15 @@ See [Subscription revenue metrics](https://raw.githubusercontent.com/ServiceNow/
 
 ## Procedure
 
-1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace** .
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
-2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
+2.  Navigate to **Orders** &gt; **All**
 
-3.  Navigate to **Customer Orders** &gt; **All**
+3.  Select the order that you’re working with.
 
-4.  Select the order that you’re working with.
+4.  Select the More Actions icon \[Omitted image "icon-three-dot-menu.png"\] Alt text: and select **Order details**.
 
-5.  Select the More Actions icon \[Omitted image "icon-three-dot-menu.png"\] Alt text: and select **Order details**.
-
-6.  In the **Dates** section, add a **Contract start date** and a **Contract end date**.
+5.  In the **Order Details** tab, add a **Contract start date** and a **Contract end date**.
 
     When the dates are entered, the following information automatically updates.
 
@@ -51,7 +49,7 @@ See [Subscription revenue metrics](https://raw.githubusercontent.com/ServiceNow/
     |Total amount|Shows the total amount of the subscription pricing according to the contract start and end dates.|
     |Term|Shows the number of months the subscription is valid based on the contract start and end dates.|
 
-7.  Select **Update**.
+6.  Select **Update**.
 
 
 **Related topics**  

@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Configure Employee Profile for a portal, Employee profile, Setup task management, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Configure Employee Profile for a portal, Employee profile, Setup task management, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Employee Profile form
@@ -42,8 +42,68 @@ The following list of configurable fields indicates the personal, sensitive, and
 
 For HR profile field configuration, see [HR profile editable field configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_HRProfileEditableFieldConfig.md).
 
+**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/emp-center-reference.md)
+
 **Related topics**  
 
+
+[Activity Configuration form]()
+
+[Activity Configuration Detail form]()
+
+[Approvals experience reference]()
+
+[Connected Content form]()
+
+[Default Employee Profile Header Configuration record]()
+
+[Employee Center widgets]()
+
+[Employee Profile Header Configuration form]()
+
+[Employee Profile portal configuration form]()
+
+[Employee Profile upgrade scenarios]()
+
+[Enhanced Requests Experience forms]()
+
+[External Link form]()
+
+[Featured Content form]()
+
+[Footer form]()
+
+[Footer Menus form]()
+
+[Guided Self-Service reference]()
+
+[Menu Item form]()
+
+[Overview section form]()
+
+[Portal notification configuration form]()
+
+[Portal notification content form]()
+
+[Trigger conditions form]()
+
+[Quick Link form]()
+
+[Tab widget mapping form]()
+
+[Taxonomy form]()
+
+[Topic form]()
+
+[User Criteria form]()
+
+[User Criteria output]()
+
+[Schedule appointment form]()
+
+[Location Consent form]()
+
+[Website configuration form]()
 
 [Employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/employee-profile-portal.md)
 

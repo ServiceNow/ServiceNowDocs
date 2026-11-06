@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/hide-secs-mobcds-recscreen-actstrem.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Mobile properties, Considerations before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Mobile properties, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Hide seconds in date/time fields on mobile cards, record screen details pages, or activity streams
@@ -28,7 +28,7 @@ The following mobile properties are set to `True` by default for the date/time f
 
 When these properties are set to `True`, seconds display in the date/time fields. To hide the display of seconds in date/time fields for mobile cards, record screen details pages, and activity streams, set these properties to `False` on your ServiceNow® instance.
 
-These mobile properties are available in ServiceNow mobile app versions 18.2 and later. For more information about ServiceNow mobile app versions, see Mobile app version history for iOS and Android.
+These mobile properties are available in ServiceNow mobile app versions 18.2 and later. For more information about ServiceNow mobile app versions, see [Mobile app version history for iOS and Android](https://www.servicenow.com/docs/r/mobile-release-notes/mobile-apps.html).
 
 ## Procedure
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configure-escalation-management.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Case and account escalation, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Configure escalation management
@@ -16,7 +16,7 @@ Escalating a case or account raises awareness about important customer issues, f
 
 ## Before you begin
 
-Role required: admin
+Role required: csm\_guided\_setup\_user, sn\_crm\_escalation\_admin, sn\_crm\_foundation\_admin or admin
 
 ## About this task
 
@@ -26,7 +26,7 @@ An escalation provides increased attention to a customer issue and provides a wa
 
 1.  Navigate to **All** &gt; **Customer Service** &gt; **Administration** &gt; **Guided Setup**.
 
-2.  On the Getting Started page of the guided setup, select **Get Started**.
+2.  On the Getting Started page of the guided setup, click **Get Started**.
 
 3.  In the Case Management category, view the list of tasks to configure the feature.
 
@@ -45,7 +45,7 @@ Create escalation templates
 </td><td>
 
 An escalation template defines how an escalation request is processed and includes: -   Type of escalation request \(case or account\).
--   Approval group and subfloware , required when the request goes through an approval process. This triggers the default escalation approval flow.
+-   Approval group and subflow, required when the request goes through an approval process. This triggers the default escalation approval flow.
 -   Escalation watch list.
 
 
@@ -58,7 +58,7 @@ Create escalation severity definitions
 The escalation severity defines the type of escalation and the color used to represent the cases and accounts of this escalation severity in the user interface.
 
 </td></tr></tbody>
-</table>4.  To perform a task, select **Configure**.
+</table>4.  To perform a task, click **Configure**.
 
     The page in your instance where the configuration is completed is opened.
 

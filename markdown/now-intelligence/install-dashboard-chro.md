@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Chief Human Resources Officer \(CHRO\) Dashboard, Executive dashboard overview, Dashboards, Platform Analytics experience, Platform Analytics]
+breadcrumb: [Chief Human Resources Officer \(CHRO\) Dashboard, Executive dashboard overview, Platform Analytics]
 ---
 
 # Install the Chief Human Resources Officer Dashboard
@@ -39,8 +39,6 @@ Plugins:
 3.  Select the **Request Install** button to create the app installation request.
 
     Select **Request** to request the CHRO Dashboard application plugin for the specified instance and provide the instance details with your reason for request and validate the instance.
-
-    \[Omitted image "cxo-request-install.png"\] Alt text:
 
 4.  Navigate to **System applications** &gt; **All available applications**.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/tb-working-in-dark-theme.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Working with themes, Configure, Next Experience UI, Configure UIs a
 
 The dark theme emits less blue light, making the display easier for your eyes and less disturbing in low-light settings. The dark theme is supported for configurable workspaces, lists, forms, dashboards, and reports.
 
-The Next Experience Coral and Polaris themes have a dark variant that is enabled by default, but dark variants may not apply to all experiences.
+The Next Experience Coral and Polaris themes include a dark variant that is enabled by default, but dark theme support depends on how an experience or page is built and may not apply consistently across all UI experiences.
 
 **Note:** Some custom pages don’t inherit the dark theme, which may create visual inconsistencies in the classic environment. This behavior is expected and it’s the responsibility of your administrator to exclude the dark theme from your classic environment if the inconsistencies are unacceptable for your company.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/localization-native.html
 release: zurich
 topic_type: reference
-last_updated: "2025-11-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Localization on mobile devices, Considerations before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Localization, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Native localization

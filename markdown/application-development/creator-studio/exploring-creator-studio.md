@@ -7,9 +7,9 @@ release: zurich
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Exploring Creator Studio
@@ -56,7 +56,7 @@ In this example, the form has four fields:
 -   Requester's email address
 -   Request date
 
-These fields contain all the info the reviewer needs to accept or reject the request. You'll have to figure out all the information your reviewer needs to make a decision. Later, we'll show you how to create a form \(using Now Assist or on your own\) in the section [Working with forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-work-with-forms.md).
+These fields contain all the info the reviewer needs to accept or reject the request. You'll have to figure out all the information your reviewer needs to make a decision. Later, we'll show you how to create a form \(using AI or on your own\) in the section [Working with forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-work-with-forms.md).
 
 **Key terms:**
 

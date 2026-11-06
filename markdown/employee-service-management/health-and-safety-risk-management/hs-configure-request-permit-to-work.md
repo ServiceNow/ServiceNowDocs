@@ -7,7 +7,7 @@ release: zurich
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure permit-to-work, Configure, Health and Safety Risk Management, Health and Safety, Employee Service Management]
 ---
@@ -28,15 +28,15 @@ Role required: admin and sn\_hs\_rm.permit\_coordinator
 
 3.  Either add new questions or edit existing questions.
 
-<table id="choicetable_ltg_1fk_rgc"><thead><tr><th align="left" id="d674209e123">
+<table id="choicetable_ltg_1fk_rgc"><thead><tr><th align="left" id="d685275e123">
 
 Goal
 
-</th><th align="left" id="d674209e126">
+</th><th align="left" id="d685275e126">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d674209e132">
+</th></tr></thead><tbody><tr><td id="d685275e132">
 
 **Add a new question**
 
@@ -50,7 +50,7 @@ For a description of the field values, see [Variable new record form](https://ra
 3.  Select **Submit**.
 
 
-</td></tr><tr><td id="d674209e211">
+</td></tr><tr><td id="d685275e211">
 
 **Modify an existing question**
 

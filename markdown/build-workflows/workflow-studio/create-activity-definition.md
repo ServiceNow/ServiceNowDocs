@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Activity definitions, Stages and activities, Building playbooks, Use, Workflow Studio, Build workflows]
+breadcrumb: [Activity definitions, Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Create an activity definition
@@ -32,15 +32,15 @@ Specify the action or subflow you want an activity to run. Configure the inputs 
 
 2.  Fill in the Activity Definition form fields.
 
-<table id="choicetable_ndc_pgy_5lb"><thead><tr><th align="left" id="d180300e162">
+<table id="choicetable_ndc_pgy_5lb"><thead><tr><th align="left" id="d186180e162">
 
 Field
 
-</th><th align="left" id="d180300e165">
+</th><th align="left" id="d186180e165">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d180300e171">
+</th></tr></thead><tbody><tr><td id="d186180e171">
 
 **Label**
 
@@ -50,7 +50,7 @@ Enter a unique name for your activity.
 
  This name appears in the playbook in both the Workflow Studio Playbooks builder as well as during playbook runtime.
 
-</td></tr><tr><td id="d180300e198">
+</td></tr><tr><td id="d186180e198">
 
 **Table**
 
@@ -60,7 +60,7 @@ Select a table whose records the activity can access as inputs. When adding inpu
 
  **Note:** The table specified for a playbook's triggering input record overrides the activity definition table at design time. See [Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-automation-designer-triggers.md)
 
-</td></tr><tr><td id="d180300e242">
+</td></tr><tr><td id="d186180e242">
 
 **Description**
 
@@ -68,7 +68,7 @@ Select a table whose records the activity can access as inputs. When adding inpu
 
 Optionally, enter some descriptive details about your activity.
 
-</td></tr><tr><td id="d180300e251">
+</td></tr><tr><td id="d186180e251">
 
 **Accessible From**
 
@@ -78,7 +78,7 @@ Choose one of the following options:-   **All application scopes** - You can add
 -   **This application scope only** - You can only add this activity to playbooks within the same application scope specified in the **Application** field.
 
 
-</td></tr><tr><td id="d180300e280">
+</td></tr><tr><td id="d186180e280">
 
 **Required Roles**
 

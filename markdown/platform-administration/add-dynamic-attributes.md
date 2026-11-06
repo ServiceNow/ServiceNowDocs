@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/add-dynamic-attributes.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Working with Dynamic Schema, Dynamic Schema, Administer, Field administration, Forms, fields, and lists, Configure core features, Administer]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Working with Dynamic Schema, Dynamic Schema, Administer, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create a dynamic attribute
@@ -71,7 +71,10 @@ Type
 
 </td><td>
 
-Data type of the attribute.To define the attribute using a choice set, select String.
+Data type of the attribute.-   To define the attribute using a choice set, select String.
+-   To define the attribute as a reference to a record in another table, select Reference.
+
+Defining the attribute as a reference maintains accuracy by automatically reflecting changes from the linked record. This simplifies maintenance when related information changes. For example, a Covered Vehicle attribute in a policy record can reference a vehicle in the Vehicle table so updates to vehicle details appear in the policy without manual edits.
 
 </td></tr><tr><td>
 

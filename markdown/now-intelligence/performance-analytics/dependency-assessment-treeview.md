@@ -7,7 +7,7 @@ release: zurich
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [\(Legacy\) Dependency Assessment, Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---

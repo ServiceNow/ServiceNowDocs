@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/case-assignment-workbench.html
 release: zurich
 topic_type: concept
-last_updated: "2026-06-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Administer, Customer Service Management]
+breadcrumb: [Agent management, Use, Customer Service Management]
 ---
 
 # Assignment workbench overview

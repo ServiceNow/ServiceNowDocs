@@ -7,9 +7,9 @@ release: zurich
 product: Platform Performance
 classification: platform-performance
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Transaction cancellation, Resolve issues, Platform performance, Maintain and monitor, Administer]
+breadcrumb: [Transaction cancellation, Resolve issues, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
 
 # Canceled-transaction logging to a table

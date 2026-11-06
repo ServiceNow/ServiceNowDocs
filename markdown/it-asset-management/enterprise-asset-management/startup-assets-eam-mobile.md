@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-02-22"
-reading_time_minutes: 4
-breadcrumb: [Manage an Enterprise Asset Management task using the Mobile Agent application, Manage enterprise assets and tasks using Mobile Agent application, Enterprise Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Manage an Enterprise Asset Management task using the Mobile Agent application, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, Asset Management]
 ---
 
 # Start up enterprise assets after maintenance activities using the Mobile Agent application
@@ -17,8 +17,6 @@ breadcrumb: [Manage an Enterprise Asset Management task using the Mobile Agent a
 Move assets of a startup work order task to the In use state in the Mobile Agent application to indicate that the assets are available for use after maintenance.
 
 ## Before you begin
-
-**Important:** The Affected assets tab, Startup work type, and **Start up** option are available with Enterprise Asset Management version 10.0 and later.
 
 The startup work order task must be in the Work in progress state before you can start up assets.
 

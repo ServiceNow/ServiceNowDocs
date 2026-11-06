@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/dashboard-reference-page.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -31,8 +31,6 @@ The following tables relate to Platform Analytics dashboards and can be accessed
 [Common dashboard tasks in the in-line editor]()
 
 [Configuring dashboards]()
-
-[Executive dashboard overview]()
 
 [Proactive analytics insights on dashboards]()
 

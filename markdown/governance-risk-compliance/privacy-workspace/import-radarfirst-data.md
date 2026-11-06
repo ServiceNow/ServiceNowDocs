@@ -7,7 +7,7 @@ release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-07-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [RadarFirst, import, data elements, breach factors]
 breadcrumb: [RadarFirst configuration, Integrate with RadarFirst, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]

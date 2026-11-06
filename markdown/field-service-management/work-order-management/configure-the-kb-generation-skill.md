@@ -1,20 +1,20 @@
 ---
 title: Configure the KB generation skill
-description: Configure the KB generation skill that agents can use to draft a knowledge article with Now Assist.
+description: Configure the KB generation skill that agents can use to draft a knowledge article with ServiceNow Otto.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/configure-the-kb-generation-skill.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Configure, Work orders and tasks, Configure, Field Service Management]
+breadcrumb: [Configure, Set up work orders and tasks, Configure, Field Service Management]
 ---
 
 # Configure the KB generation skill
 
-Configure the KB generation skill that agents can use to draft a knowledge article with Now Assist.
+Configure the KB generation skill that agents can use to draft a knowledge article with ServiceNow Otto®.
 
 ## Before you begin
 
@@ -26,15 +26,15 @@ To allow agents to generate knowledge articles for work orders in a closed compl
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Experiences** to access the **Now Assist panel** tab of the AI Admin Hub console.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Experiences** to access the ServiceNow Otto® panel tab of the AI Admin Hub console.
 
-2.  In the summary section, select **Turn on**.\[Omitted image "FSM\_NowAssist\_enableNowAssistpanel.png"\] Alt text: Turn on the Now Assist panel
+2.  In the summary section, select **Turn on**.
 
 3.  Select **Go to features and skills**.
 
 4.  In the Customer workflow group, select **FSM**.
 
-5.  On the **Knowledge** feature card, select **View details**.\[Omitted image "FSM\_NowAssistSkills.png"\] Alt text: Now Assist FSM skill cards
+5.  On the **Knowledge** feature card, select **View details**.
 
 6.  In the All available knowledge skills section, select **Activate skill**.
 
@@ -43,11 +43,9 @@ To allow agents to generate knowledge articles for work orders in a closed compl
     You can select In-product, Now Assist panel, or both.
 
     -   **In-product**: When selected, Now Assist skills are displayed on forms and workspaces. Select the arrow next to the toggle switch to define the roles that can use this skill in-product.
-    -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel. Select the arrow next to the toggle switch to define roles that can use this skill in the Now Assist panel.
+    -   **Servicenow Otto panel**: When selected, ServiceNow Otto® skills are available in the ServiceNow Otto® panel. Select the arrow next to the toggle switch to define roles that can use this skill in the ServiceNow Otto® panel.
 
-        **Note:** If you don't see the Now Assist panel toggle, go back to step 1 to enable it.
-
-        \[Omitted image "FSM\_KBgeneration\_skilldisplay.png"\] Alt text: KB generation skill display options
+        **Note:** If you don't see the ServiceNow Otto® panel toggle, go back to step 1 to enable it.
 
 8.  Select **Save and continue** to go to the next step.
 
@@ -57,7 +55,7 @@ To allow agents to generate knowledge articles for work orders in a closed compl
 
 11. Select the Platform workflow.
 
-12. On the **Knowledge** feature card, select **View details**.\[Omitted image "FSM\_NowAssist\_enableWWNA.png"\] Alt text: Enable the Platform knowlege skill
+12. On the **Knowledge** feature card, select **View details**.
 
 13. In the All available knowledge skills section, select **Activate skill**.
 

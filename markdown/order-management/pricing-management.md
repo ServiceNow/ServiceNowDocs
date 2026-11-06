@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/pricing-management.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
@@ -20,7 +20,7 @@ The Pricing Management application is the foundation of any Sales Customer Relat
 
 ## Price lists
 
-Price lists define the prices for products and services offered by your organization. Your agents use price lists to find product pricing quickly when creating quotes and capturing orders. Your pricing admins or managers create price lists and add price list lines that define the list price for each of your product offerings. They can also copy a published price list and its price list lines and use the copy to update the pricing or reuse the price list without having to create a price list from scratch.
+Price lists define the prices for products and services offered by your organization. Your agents use price lists to find product pricing quickly when creating quotes and capturing orders. Your pricing admins or managers create price lists and add price list lines that define the list price for each of your product offerings. They can also copy a published price list and its price list lines and use the copy to update the pricing or reuse the price list without having to create a new price list.
 
 -   **Support for multiple price lists**
 
@@ -39,7 +39,7 @@ For details on setting up and managing price list features, see [Configuring pro
 
 If you're using the Sales Agreement feature, a published sales agreement price list is generated automatically when a sales agent creates a sales agreement from a completed quote. The sales agreement price list reflects the final unit price for each product that is captured as part of the sales agreement. The sales agreement price list is valid for the start and end dates specified for the agreement. To learn more about sales agreements, see [Sales Agreement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-agreement-mgmt.md).
 
-\[Omitted image "sales-agreement-price-list.png"\] Alt text: Sales Agreement Details tab and Price List Lines tab in CSM Configurable Workspace that show a sales agreement price list
+\[Omitted image "sales-agreement-price-list.png"\] Alt text: Sales Agreement Details tab and Price List Lines tab in CRM Workspace that show a sales agreement price list
 
 ## Cost books
 
@@ -58,7 +58,7 @@ As a pricing admin, you can capture the base cost for a product based on its cha
 In Pricing Management, you can adjust the list price of your products by specifying a markdown or markup fixed amount or percentage, or a price override, based on the following features:
 
 -   **Product attributes**: Define a price adjustment based on product characteristics, such as model or color. For more information, see [Create a product attribute-based pricing adjustment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-create-pricing-adjustment.md).
--   **Non-product attributes**: Create a price adjustment based on characteristics that aren’t related to a product, such as shipping state or sales channel. For example, you can create a pricing adjustment for customers in a particular region. For details, see [Create a non-product attribute pricing adjustment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-create-nonprod-attrib-adjustment.md).
+-   **Non-product attributes**: Create a price adjustment based on characteristics that aren’t related to a product, such as shipping information or sales channel. For example, you can create a pricing adjustment for customers in a particular region. For details, see [Create a non-product attribute pricing adjustment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-create-nonprod-attrib-adjustment.md).
 -   **Bundled products**: Create price adjustments for product offerings in a bundled product. For example, you might want to specify a markdown amount for certain product offerings in the bundle, because the bundle provides discounted pricing. For more information, see [Create pricing adjustments for bundled products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-create-bundle-adjustment.md).
 
 ## Pricing matrices
@@ -69,7 +69,6 @@ Pricing matrices are frameworks for setting conditions in decision rules, which 
 -   **Cost Book Defaulting**: Select the default cost book to be used, for example the standard cost book or an account-specific cost book. To learn more about configuring this matrix, see [Control the default cost book on transaction header or header line.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-control-default-costbook.md)
 -   **Standard Price Adjustment**: Apply an adjustment based on context variables that represent non-product attributes, such as shipping location or account. Pricing Management provides certain system-defined, non-product context variables that you can use in this matrix, but you can also create your own custom variables, for example, market segment. Your pricing administrator can work with your administrator to develop custom context variables that can be used in pricing matrixes. For details on configuring these adjustments, see [Create a non-product attribute pricing adjustment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-create-nonprod-attrib-adjustment.md). For more information on configuring custom context variables, see [Create a custom context variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-create-context-variable.md) and [Map a custom context variable to a transaction entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-map-variable.md).
 -   **Configuration Component Price Adjustment**: Adjust the price of a product when it's sold as part of a product bundle. For details, see [Create pricing adjustments for bundled products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-create-bundle-adjustment.md).
--   **Derived Pricing Matrix**: Define the rules for deriving the pricing of a product relative to other product offerings or pricing sources, such as transaction values from quote or order headers. To learn more, see [Configuring derived pricing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configuring-related-product-pricing.md).
 
 ## Matrix validations
 
@@ -78,10 +77,6 @@ As an admin, you can use system-defined validations or set your own validations 
 ## Pricing plans
 
 Pricing Management provides a default pricing plan that defines the sequence of steps in which pricing calculations and adjustments are applied to determine final product prices. Adjustments include the pricing changes set in the pricing adjustment matrices. You can use the default plan, or you can copy the default plan and customize it by adding or changing the pricing steps to tailor it for your organization. To learn more, see [Configurable pricing plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configuring-pricing-plan.md).
-
-## Related pricing
-
-As pricing admins, you can dynamically set product pricing in relation to other products or metrics such as ACV, rather than being limited to fixed prices or adjustments.
 
 ## Pricing extensions
 

@@ -7,7 +7,7 @@ release: zurich
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -24,6 +24,8 @@ System properties that you can configure to include other ServiceNow AI Platform
 Learn about the inputs of each skill of ServiceNow Otto for CWM. By configuring inputs for a skill, you can determine how and when a skill is used within the CWM workspace.
 -   **[Grouping of tasks in status reports of CWM My Work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/grouping-of-tasks-in-status-reports-of-cwm-my-work.md)**  
 Learn how various tasks assigned to you are grouped based on their State and Priority in My Work reports of Collaborative Work Management \(CWM\).
+-   **[Project task access in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/cwm-access-via-project-permissions.md)**  
+Learn how project users and CWM users can access project tasks and CWM tasks within the Collaborative Work Management workspace.
 
 **Parent Topic:**[Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/cwm-landing.md)
 

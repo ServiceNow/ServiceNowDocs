@@ -1,0 +1,120 @@
+---
+title: Evaluate asset AI agent
+description: This AI agent helps troubleshoot asset-related issues using the Web Search tool. It guides users to select a resolution and completes the troubleshooting task on confirmation.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/itam-evaluate-asset-ai-agent.html
+release: zurich
+topic_type: reference
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Asset Management AI agents, IT Asset Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+---
+
+# Evaluate asset AI agent
+
+This AI agent helps troubleshoot asset-related issues using the Web Search tool. It guides users to select a resolution and completes the troubleshooting task on confirmation.
+
+## Workflow
+
+The agent helps users troubleshoot asset-related issues.
+
+1.  Perform a web search and create a step by step hardware evaluation plan. Provide warranty consideration guidelines and void-prevention measures for different inspection scenarios. Give detailed steps for each issue.
+2.  Refine and format search results.
+3.  Display numbered troubleshooting steps to the user, one at a time.
+4.  If the user indicates that the problem is solved, end the workflow.
+5.  If the user indicates that the problem is not solved, go to the next troubleshooting step.
+6.  When all steps are exhausted, end the workflow.
+
+<table><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Allow third party to access this AI agent
+
+</td><td>
+
+When enabled, third-party AI agents can use this agent. This value is off \(false\) by default. This setting is defined in the AI Agent configs \[sn\_aia\_agent\_config\] table on the External discoverable field.
+
+</td></tr><tr><td>
+
+Allow AI specialists to access this AI agent
+
+</td><td>
+
+When enabled, AI specialists can use this agent. This value is off \(false\) by default. When set to true, more configuration options for tools become available so that an AI specialist can map inputs and response templates to tool outputs. This setting is defined in the AI Agent configs \[sn\_aia\_agent\_config\] table on the Specialist enabled field.
+
+</td></tr><tr><td>
+
+Manage long-term memory
+
+</td><td>
+
+When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/na-aia-reference.md).
+
+</td></tr><tr><td>
+
+Tools
+
+</td><td>
+
+-   **Conversational Topic**
+
+Repair Order - Troubleshooting result
+
+-   **Web search**
+
+Use web search
+
+
+</td></tr><tr><td>
+
+Allowed user roles The specific user roles that can access this AI agent.
+
+</td><td>
+
+inventory\_user
+
+</td></tr><tr><td>
+
+Data access roles The specific user identity roles that determine which data the AI agent can access and what actions it can take.
+
+</td><td>
+
+inventory\_user, sn\_eam.asset\_technician
+
+</td></tr><tr><td>
+
+Triggers
+
+</td><td>
+
+Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/add-trigger-aia.md).
+
+</td></tr><tr><td>
+
+Channels
+
+</td><td>
+
+Enable the AI agent for the ServiceNow Otto panel.
+
+</td></tr><tr><td>
+
+Used in agentic workflows
+
+</td><td>
+
+-   Help repair hardware assets
+-   Help repair enterprise assets
+
+</td></tr></tbody>
+</table>Learn more about Asset Management at  .
+
+**Parent Topic:**[Asset Management AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itam-ai-agents-overview.md)
+

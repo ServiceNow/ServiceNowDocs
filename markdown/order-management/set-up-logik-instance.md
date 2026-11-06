@@ -1,18 +1,19 @@
 ---
-title: Request a ServiceNow CPQ instance
-description: Request a ServiceNow CPQ instance by submitting a support ticket.
+title: Request a ServiceNow CPQ tenant
+description: Submit a support ticket on Now Support to request a ServiceNow CPQ instance for use with your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/set-up-logik-instance.html
 release: zurich
 topic_type: task
-last_updated: "2025-12-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Without guided setup, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+keywords: [Logik.ai]
+breadcrumb: [Without guided setup, Setting up ServiceNow CPQ, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Request a ServiceNow CPQ instance
+# Request a ServiceNow CPQ tenant
 
-Request a ServiceNow CPQ instance by submitting a support ticket.
+Submit a support ticket on Now Support to request a ServiceNow CPQ instance for use with your ServiceNow instance.
 
 ## Before you begin
 
@@ -32,20 +33,20 @@ Role required: admin
 
 6.  Select your instance and select **Next**.
 
-    **Note:** Contact Primary Customer Administrator \(PCA\) if your instance is not listed in the instances list.
+    **Note:** Contact the primary customer administrator \(PCA\) if your instance is not listed.
 
 7.  Select **Continue**.
 
-8.  Enter the Client ID and Client secret fetched from Step 2 and the public certificate details.
+8.  Enter the **Client ID** and **Client secret** and the public certificate details.
 
 9.  Select **Continue**.
 
 10. Review the summary and select **Confirm and Submit**.
 
 
-## Result
+## What to do next
 
-You will receive an email with the ServiceNow CPQ details. Select the **View request** to access the support portal and set a password.
+Connect the ServiceNow CPQ instance to your ServiceNow instance. See [Connect your instance with ServiceNow CPQ instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/connect-sn-instance-logik.md).
 
-**Note:** You can proceed with the guided setup only after you receive ServiceNow CPQ details.
+If you are implementing ServiceNow Quote Experience, configure the required tenant settings on this instance. See [ServiceNow Quote Experience tenant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/quote-exp-tenant-settings.md).
 

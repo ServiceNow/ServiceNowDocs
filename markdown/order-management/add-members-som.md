@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/add-members-som.html
 release: zurich
 topic_type: task
-last_updated: "2025-10-29"
-reading_time_minutes: 1
-breadcrumb: [Resources, Sales Territory Management, Lead and opportunity management apps, Configure, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Resources, Sales Territory Management, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Add members to a territory
@@ -130,4 +130,11 @@ However, more roles can be configured. For more information, see [Create related
 </td></tr></tbody>
 </table>    The member with the defined role appears in the Territory Member roles related list.
 
+
+**Related topics**  
+
+
+[Using Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/use-sales-territory-management.md)
+
+[Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-sales-territory-management.md)
 

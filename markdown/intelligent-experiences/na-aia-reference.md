@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/na-aia-reference.html
 release: zurich
 topic_type: reference
-last_updated: "2025-10-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
-breadcrumb: [AI Agent Studio, Enable AI experiences]
+breadcrumb: [AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # ServiceNow Otto AI agents reference
@@ -57,6 +57,38 @@ agent\_role\_config\_viewer
 </td><td>
 
 Can view the Agent role configurations with AI Agent Viewer \[sn\_aia\_viewer\] being the parent role.
+
+</td></tr><tr><td>
+
+itil\_admin or itil
+
+</td><td>
+
+Access to ITSM tables and workflows. Agents working with incident, Request, Change, Problem, CMDB records.
+
+</td></tr><tr><td>
+
+knowledge\_admin
+
+</td><td>
+
+Access to Knowledge Management tables and tools - Knowledge agents; KB article retrieval tools.
+
+</td></tr><tr><td>
+
+Custom role \(e.g., custom\_table.admin\)
+
+</td><td>
+
+Access to custom tables and fields. Agents accessing tables outside ITSM, Knowledge, or other standard modules.
+
+</td></tr><tr><td>
+
+snc\_internal
+
+</td><td>
+
+Overly permissive system role, use only if agent requires true system-level privileges \(rare\).**Note:** Don't use as fallback.
 
 </td></tr></tbody>
 </table>**Note:** The roles can be assigned manually through the user record directly. For the assigned roles to take effect, logout and login back to the application.
@@ -521,7 +553,7 @@ show\_citations
 
 </td><td>
 
-Determines whether agentic AI-generated responses in ServiceNow Otto panel or ServiceNow Otto for Virtual Agent add citations for their output
+Determines whether agentic AI-generated responses in ServiceNow Otto panel or in Virtual Agent add citations for their output.
 
 </td><td>
 
@@ -545,7 +577,7 @@ kill\_switch.mode
 
 </td><td>
 
-Controls how the feature responds to a detected breach
+Controls how the feature responds to a detected breach.
 
 </td><td>
 
@@ -680,7 +712,7 @@ Time window, in minutes, for checking for matching execution updates
 </td></tr></tbody>
 </table>## AI agents tables installed
 
-The following tables are installed so Now Assist AI agents works as expected:
+The following tables are installed so AI agents work as expected:
 
 <table id="table_trq_gvx_k2c"><thead><tr><th>
 
@@ -849,6 +881,14 @@ Invocation Sources \[sn\_aia\_invocation\_source\]
 </td><td>
 
 Functions as a registry of entry points and helps track and define the different contexts or surfaces from which an AI agent can be invoked or triggered.
+
+</td></tr><tr><td>
+
+generative AI Log \[sys\_generative\_ai\_log\]
+
+</td><td>
+
+Used for logging and auditing generative AI activity.
 
 </td></tr></tbody>
 </table>|Table|Description|

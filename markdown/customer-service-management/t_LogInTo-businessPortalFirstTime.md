@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_LogInTo-businessPortalFirstTime.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Self-register, Business Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Self-register, Use Business Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Log in to the Business Portal for the first time
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-After a registration request is approved, the customer contact receives an email with a user ID and temporary password. When logging in for the first time, the contact is asked to change the password.
+After a customer administrator creates your account or approves your registration request, you receive a temporary password by email. You must log in with that temporary password and then set a permanent password before you can use the Business Portal.
 
 ## Procedure
 
@@ -42,4 +42,11 @@ After a registration request is approved, the customer contact receives an email
 
 8.  Select **Submit**.
 
+
+**Related topics**  
+
+
+[Submit a self-registration request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_Submit-businessPortal-SelfRegRequest.md)
+
+[Request a password reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_RequestPasswordReset-businessportal.md)
 

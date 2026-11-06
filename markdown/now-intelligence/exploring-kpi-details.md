@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/exploring-kpi-details.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [KPI Details, Platform Analytics experience, Platform Analytics]
 ---
@@ -23,6 +23,8 @@ KPI Details lets you answer questions such as:
 -   “What are the top 3 groups with the highest increase in critical incidents over the past quarter?”
 -   “What specific incidents correspond to that spike in incidents last week?”
 -   “What’s my usual \(median/ average/ total\) number of new incidents over the past 3 weeks? Past 2 months?”
+
+**Note:** Data snapshots indicators do not support all KPI Details functions.
 
 Learn how to use KPI Details to accomplish the following tasks:
 

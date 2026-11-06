@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-modeling-create-diagram-aws.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Working with Amazon Web Services \(AWS\) shapes, Working with Enterprise Modeling and Visualization, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with Amazon Web Services \(AWS\) shapes, Working with Enterprise Modeling and Visualization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Create a diagram using AWS shapes

@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up a NameID policy for SAML, Service Provider \(SP\) system properties, SAML, Multi-Provider single sign-on \(SSO\), Access Management]
+breadcrumb: [Set up a NameID policy for SAML, Service Provider \(SP\) system properties, SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---
 
 # Values in the User table field for SAML

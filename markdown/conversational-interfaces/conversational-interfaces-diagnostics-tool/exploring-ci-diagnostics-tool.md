@@ -7,10 +7,10 @@ release: zurich
 product: Conversational Interfaces Diagnostics Tool
 classification: conversational-interfaces-diagnostics-tool
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [exploring, Diagnostic Tool, Conversational Interfaces]
-breadcrumb: [Conversational Interfaces Diagnostic Tool, Conversational Interfaces]
+breadcrumb: [Conversational Interfaces Diagnostic Tool, Manage people and work, Conversational Interfaces]
 ---
 
 # Exploring Conversational Interfaces Diagnostic Tool
@@ -29,7 +29,7 @@ The Conversational Interfaces Diagnostic Tool is available for both Virtual Agen
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Conversational Interfaces Diagnostic Tool workflow
 
@@ -45,6 +45,8 @@ For example, the diagnostic workflow does the following:
 The diagnostic workflow and the options and prompts you see correspond to the issue you are trying to diagnose and solve. The diagnostic workflow uses an AI Search filter as part of the diagnosis. For more information about AI Search and how to configure it, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/configuring-ais.md).
 
 The diagnostic topic block workflow also includes solutions for messaging integrations, such as Microsoft Teams. It also helps with Advanced Work Assignment configuration issues.
+
+\[Omitted image "ci-diagnostic-tool-work-flow.png"\] Alt text: Conversational Interfaces Diagnostic Tool workflow, in which the admin describes the issue. The tool runs a health check and returns available troubleshooting information.
 
 In the workflow, the admin describes the issue. The tool runs a health check and returns available troubleshooting information, as well as contact information for Now Support if the problem was not solved.
 

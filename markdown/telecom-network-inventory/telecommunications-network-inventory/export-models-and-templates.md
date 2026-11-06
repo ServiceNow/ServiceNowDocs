@@ -1,20 +1,20 @@
 ---
 title: Export models and templates
-description: Export selected inventory model or template records efficiently
+description: Export a selected inventory model or template records efficiently
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/export-models-and-templates.html
 release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Export hierarchy of models and templates, Use, Telecommunications Network Inventory]
+breadcrumb: [Use, Telecommunications Network Inventory]
 ---
 
 # Export models and templates
 
-Export selected inventory model or template records efficiently
+Export a selected inventory model or template records efficiently
 
 ## Before you begin
 
@@ -22,19 +22,23 @@ Role required: sn\_ni\_core.inventory\_admin
 
 ## About this task
 
-Export models and templates is used when an admin or catalog manager needs to download a copy of existing models or templates for offline reference, sharing with the team, or migrating to another instance.
+When you export a model or template by downloading a copy of it for offline reference. You can share the model or template with your team or migrate it to another instance.
+
+**Note:** When exporting a model or template with parent-child relationships, only the parent and its children are included. Siblings aren't exported.
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
 
-2.  Select the list icon \(\[Omitted image "ni-workspace-list-icon.png"\] Alt text: List icon.\), and then go to any model or inventory template.
+2.  Select the list icon \(\[Omitted image "ni-workspace-list-icon.png"\] Alt text: List icon.\).
 
-3.  Select a desired record.
+3.  Go to any model or inventory template.
 
-4.  Select **\[Omitted image "icon-menu.png"\] Alt text: Options icon** &gt; **Export**.
+4.  Select a desired record.
 
-5.  On the Export window, select the desired file type to export the data.
+5.  Select the options icon \(\[Omitted image "icon-menu.png"\] Alt text: Options icon\) and select **Export**.
+
+6.  On the Export window, select the desired file type to export the data.
 
     You can export the file in the following formats:
 
@@ -42,18 +46,16 @@ Export models and templates is used when an admin or catalog manager needs to do
     -   CSV
     -   JSON
     -   PDF
-6.  On the Export window, select the desired delivery type to export the data
+7.  On the Export window, select the desired delivery type.
 
     You can select the following formats:
 
     -   Download
     -   Email
-7.  Select **Export**.
-
-    When exporting a model or template with parent-child relationships, only the parent and its children are included. Siblings aren't be exported.
+8.  Select **Export**.
 
 
-**Parent Topic:**[Export hierarchy of models and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/export-hierarchy-of-models-and-template.md)
+**Parent Topic:**[Using Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/using-telecom-network-inventory.md)
 
 **Related topics**  
 

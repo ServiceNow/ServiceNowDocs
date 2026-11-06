@@ -7,9 +7,9 @@ release: zurich
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring advanced settings for your ML solutions, Configure Predictive Intelligence, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Configuring advanced settings for your ML solutions, Configure Predictive Intelligence, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Configure Connect Component algorithm and Levenshtein Distance method for a clustering solution
@@ -79,6 +79,8 @@ In this example scenario, you train your solution definition by using the third 
 
     \[Omitted image "configure-connect-component-levenshtein-distance-for-clustering5.png"\] Alt text: The three solution parameters you configured on the Advanced Solution Settings section of your clustering solution.
 
+
+**Parent Topic:**[Configuring advanced settings for your ML solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/predictive-intelligence/configuring-advanced-settings-ml-solutions.md)
 
 **Related topics**  
 

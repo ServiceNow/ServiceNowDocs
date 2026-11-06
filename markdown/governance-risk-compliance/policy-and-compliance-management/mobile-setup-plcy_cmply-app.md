@@ -7,9 +7,9 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Manage mobile experience for GRC Policy and Compliance, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Managing mobile experience for GRC Policy and Compliance, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Setup checklist for the GRC Mobile application
@@ -121,5 +121,5 @@ As a user with the sn\_compliance.manager role, verify notifications are enabled
 </table>    You have successfully set up your mobile device and the ServiceNow AI Platform for the GRC Mobile application. The next step is to log in to your ServiceNow AI Platform instance with the ServiceNow Agent app on your mobile device.
 
 
-**Parent Topic:**[Manage mobile experience for GRC Policy and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/mobile-policy_compliance-ovrvw.md)
+**Parent Topic:**[Managing mobile experience for GRC Policy and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/mobile-policy_compliance-ovrvw.md)
 

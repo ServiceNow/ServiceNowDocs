@@ -7,9 +7,9 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use HR Profile, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [HR Profile, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # HR profile and HR case security
@@ -68,5 +68,5 @@ See [Restricted caller access for HR](https://raw.githubusercontent.com/ServiceN
 
 See [Manage HR roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_ManageRoles.md).
 
-**Parent Topic:**[Use HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)
+**Parent Topic:**[HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)
 

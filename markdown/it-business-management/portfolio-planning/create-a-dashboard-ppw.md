@@ -7,9 +7,9 @@ release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use, Demands Dashboard, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Use, Monitor and track demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
 # Create or manage a dashboard
@@ -34,15 +34,15 @@ The inline editor provides elements for adding widgets, filters, and visualizati
 
 4.  Create, duplicate, share, or export the dashboard.
 
-<table id="choicetable_efx_dxn_bkc"><thead><tr><th align="left" id="d170744e98">
+<table id="choicetable_efx_dxn_bkc"><thead><tr><th align="left" id="d182463e98">
 
 Goal
 
-</th><th align="left" id="d170744e101">
+</th><th align="left" id="d182463e101">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d170744e107">
+</th></tr></thead><tbody><tr><td id="d182463e107">
 
 **Create a dashboard**
 
@@ -56,7 +56,7 @@ Action
     4.  Select **Create new dashboard**.
 
 
-</td></tr><tr><td id="d170744e151">
+</td></tr><tr><td id="d182463e151">
 
 **Duplicate a dashboard**
 
@@ -69,7 +69,7 @@ Action
 3.  Select **Duplicate**.
  The dashboard may take time to duplicate. Select **Continue in background** to keep using the application in the meantime.
 
-</td></tr><tr><td id="d170744e201">
+</td></tr><tr><td id="d182463e201">
 
 **Share a dashboard**
 
@@ -91,7 +91,7 @@ To manage sharing permissions, select a user, group, or role and enable the **Ca
 3.  Select **Confirm**.
  To update sharing rights, open the Share Dashboard dialog. Under the **Can view** or **Can share** list, select a user, group, or role and adjust permissions.
 
-</td></tr><tr><td id="d170744e272">
+</td></tr><tr><td id="d182463e272">
 
 **Export a dashboard**
 

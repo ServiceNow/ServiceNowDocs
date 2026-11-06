@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-11-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Advanced Portal Navigation, Setup Employee Center browse experience features, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Advanced Portal Navigation, Setup Employee Center browse experience features, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Simplified Navigation
@@ -50,7 +50,7 @@ Use some of the following guidance and tips.
 -   For the root item without any child items or any active associated quick link, only one-level is visible on click.
 -   When left navigation option is selected, the sync is supported up to one-level only.
 
-    **Note:** For top navigation option, sync supports up to three levels of navigation.
+    **Note:** For top navigation option, sync supports up to three levels of sub-navigation.
 
 
 For configuration steps, see [Configure simplified left navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/config-simplified-nav-as-menu.md).

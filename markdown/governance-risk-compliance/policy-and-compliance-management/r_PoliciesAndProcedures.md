@@ -7,8 +7,8 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
@@ -22,9 +22,9 @@ The Policies and Procedures module contains overview and detailed information re
 
 |Name|Visual|Description|
 |----|------|-----------|
-|Control compliance|Donut chart\[Omitted image "donut-icon.png"\] Alt text: Donut icon|Displays the overall compliance of all the controls in the system.|
-|Control details|Donut chart\[Omitted image "donut-icon.png"\] Alt text: Donut icon|Displays a breakdown of controls grouped by owner, category, or type.|
-|Control Overview|Column Chart\[Omitted image "column-icon.png"\] Alt text: Column icon|Displays the total number of controls related to each policy. The chart is stacked to display the overall control compliance status for each policy.|
+|Control compliance|Donut chart\[Omitted image "donut-icon.png"\]|Displays the overall compliance of all the controls in the system.|
+|Control details|Donut chart\[Omitted image "donut-icon.png"\]|Displays a breakdown of controls grouped by owner, category, or type.|
+|Control Overview|Column Chart\[Omitted image "column-icon.png"\]|Displays the total number of controls related to each policy. The chart is stacked to display the overall control compliance status for each policy.|
 |Control Issues by Policy \(Opened Date\)|Line Chart\[Omitted image "line-icon.png"\] Alt text: Line icon|Displays the number of control issues opened each week, grouped by policy.|
 |Policy Exceptions|List|Displays a list of control issues that have been closed with a response value of accept, meaning the issue was not remediated.|
 |Total Control Objectives by Policy|Bar graph|Displays a count of the overall number of control objectives in each policy. The chart is stacked to display control objectives by type.|
@@ -32,6 +32,8 @@ The Policies and Procedures module contains overview and detailed information re
 ## Policy approval process
 
 Policies are part of a strict approval process that ensures compliance and reduces exposure to risk. When a policy is published, it is automatically incorporated in the approval process. Compliance managers set the length of time that policies are valid, ensuring that the team reviews the policy often to affirm its validity. Policies have a type, such as a policy, procedure, standard, plan, checklist, framework, or template.
+
+\[Omitted image "GRCPolicyApprovalProcess.png"\] Alt text: The image depicts the approval process flow that is shown at the top of each policy record.
 
 <table id="table_amh_4kb_cv"><thead><tr><th>
 
@@ -94,24 +96,6 @@ Compliance managers catalog the control objectives and generate controls from th
 
 **Note:** UCF refers to control objectives as controls. When UCF data is imported, controls are imported into the control objectives table.
 
-## Control objective requirements
-
-A control objective requirement is a granular layer under a control objective that specifies a distinct compliance condition or expectation. Each control objective can have multiple statements, and each statement becomes a control objective requirement.
-
-When control objectives are imported, if any control objective requirements are available in the source, they will also be imported with the control objective.
-
-Control objective requirements can also be manually added or selected from existing requirements when configuring a control objective.
-
-When controls are generated under an entity, the control objective requirements help create corresponding control requirements.
-
-## Control requirements
-
-When Create control requirements option is enabled for a control objective, for every control generated under an entity type, control requirements are also created automatically. Previously, only controls were created for entity types. The number of Control Requirements equals the number of control objective requirements.
-
-## Attestation at control requirement level
-
-This feature allows attestation at a granular level for individual control requirements within a control. Admins can enable requirement-level attestation, assign respondents, and generate assessment tasks for each control requirement. Respondents then attest to requirements by indicating whether they are implemented or not, providing evidence or explanations as required. Failed attestations automatically generate issues, mark the parent control as non-compliant, and roll up the status to the associated entity and control objective.
-
 -   **[Create a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/t_DefineAPolicy.md)**  
 A policy defines an internal practice that processes must follow. Policies are defined as policies, procedures, standards, plans, checklists, frameworks, and templates.
 -   **[Approve and publish a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/t_ApprovePolicy.md)**  
@@ -137,5 +121,5 @@ Authority documents manage a process and citations are created within them to ma
 -   **[Deactivate an authority document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/t_DeactivateAnAuthorityDoc.md)**  
 The **Active** option in an authority document indicates whether the authority documents have been retired.
 
-**Parent Topic:**[Classic UI for Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/using-policy-compliance-legacy-ui.md)
+**Parent Topic:**[Classic UI for Policy and Control Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/using-policy-compliance-legacy-ui.md)
 

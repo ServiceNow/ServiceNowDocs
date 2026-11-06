@@ -1,31 +1,31 @@
 ---
-title: Zero Copy Connector for ERP Quote to Cash data product process extensions
-description: The Zero Copy Connector for ERP Quote to Cash data product contains process extensions that you may need when interacting with an SAP system.
+title: Zero Copy Connector for ERP Quote to Cash content pack process extensions
+description: The Zero Copy Connector for ERP \(Enterprise Resource Planning\) Quote to Cash content pack contains process extensions that you might need when interacting with an SAP system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/erp-canvas-content-pack-sales-order-process-extensions.html
 release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
-keywords: [erp, canvas, erp canvas, content, pack, content pack, process, extension]
-breadcrumb: [Quote to Cash data product, Data products, Building models, Use, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+keywords: [erp, canvas, erp canvas, content, pack, content pack, sales, order, process, extension, integration, data hub, zero, copy, connector, sap]
+breadcrumb: [Quote to Cash, Available SAP content packs, Content packs, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
-# Zero Copy Connector for ERP Quote to Cash data product process extensions
+# Zero Copy Connector for ERP Quote to Cash content pack process extensions
 
-The Zero Copy Connector for ERP Quote to Cash data product contains process extensions that you may need when interacting with an SAP system.
+The Zero Copy Connector for ERP \(Enterprise Resource Planning\) Quote to Cash content pack contains process extensions that you might need when interacting with an SAP system.
 
-## Quote to Cash data product process extensions
+## Quote to Cash content pack process extensions
 
 <table id="table_wwd_swl_1fc"><thead><tr><th>
 
-Process Extension \(Subflow\) Name
+Process extension \(subflow\) name
 
 </th><th>
 
-Short Description
+Short description
 
 </th></tr></thead><tbody><tr><td>
 
@@ -33,9 +33,8 @@ Manage Delivery and Billing Block
 
 </td><td>
 
--   Subflow 1: Read all sales orders having delivery blocks or billing block.
+-   Subflow 1: Read all sales orders that have a delivery block or a billing block.
 -   Subflow 2: Update the delivery and billing blocking status for a sales order.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP Quote to Cash data product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-sales-order-content-pack.md)
-
+</table>

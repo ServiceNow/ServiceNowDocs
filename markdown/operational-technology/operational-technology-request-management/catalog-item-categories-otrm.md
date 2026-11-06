@@ -7,7 +7,7 @@ release: zurich
 product: Operational Technology Request Management
 classification: operational-technology-request-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Operational Technology Request Management, Operational Technology]
 ---

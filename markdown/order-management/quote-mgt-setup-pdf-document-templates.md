@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/quote-mgt-setup-pdf-document-templates.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure quote PDF documents, Quote management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [PDF template for Quotes, ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Set up PDF document templates

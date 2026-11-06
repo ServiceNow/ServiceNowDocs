@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Software models and Software entitlements, Explore, Software Asset Management, IT Asset Management]
+breadcrumb: [Software models and software entitlements, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Automatic creation of software models
@@ -34,7 +34,7 @@ Discovery maps are associated to software models only if a discovery map exists 
 
 You can identify whether a software model or software model result is created automatically by checking which property is used: **com.snc.samp.automaticsmrcreation**, **com.snc.samp.automaticsmcreation**, or **com.snc.samp.unlicensed\_smr\_creation**. In the Software Model list view, select the gear icon to display the `Created source` column. If the value in this property says `System property`, then it indicates that the software model was automatically created by one of the properties. After you enable the properties, wait for the scheduled reconciliation to run, or trigger it manually, to see the results.
 
-**Parent Topic:**[Software models and Software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-models-and-entitlements.md)
+**Parent Topic:**[Software models and software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-models-and-entitlements.md)
 
 **Related topics**  
 

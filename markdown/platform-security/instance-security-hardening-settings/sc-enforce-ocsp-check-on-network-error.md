@@ -1,5 +1,5 @@
 ---
-title: Enforce OCSP check on network error \[New in Security Center 1.3 and updated in 2.0\]
+title: Enforce OCSP check on network error
 description: Learn how to configure the com.glide.communications.httpclient.ocsp\_allow\_network\_error property to prevent bad actors from bypassing Online Certificate Status Protocol \(OCSP\) checks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-enforce-ocsp-check-on-network-error.html
@@ -7,18 +7,19 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Communications, Hardening settings, Platform Security]
 ---
 
-# Enforce OCSP check on network error \[New in Security Center 1.3 and updated in 2.0\]
+# Enforce OCSP check on network error
 
 Learn how to configure the **com.glide.communications.httpclient.ocsp\_allow\_network\_error** property to prevent bad actors from bypassing Online Certificate Status Protocol \(OCSP\) checks.
 
-If **com.glide.communications.httpclient.ocsp\_allow\_network\_error** is not set to the recommended value of false, and the Online Certificate Status Protocol \(OCSP\) check encounters a network error \(for example, a timeout or problem fetching the revocation information\), it will bypass the OCSP security check and consider it successful. This could allow an attacker with a revoked certificate to break the Public Key infrastructure \(PKI\) and digital certificate trust that is foundational to the web. The use of revoked certificates is often an indicator of malicious activity unless the servers are out of sync.
+If this property is not set to **false**, the system treats OCSP validation as successful by default. This occurs when the Online Certificate Status Protocol \(OCSP\) check encounters a network-related issue such as a timeout or failure to retrieve revocation data.
 
-Ensure the property **com.glide.communications.httpclient.ocsp\_allow\_network\_error** exists and is set to false. If the property does not appear in the sys\_properties table, add a new record.
+1.  Navigate to /sys\_properties\_list.do on the instance.
+2.  Ensure the **com.glide.communications.httpclient.ocsp\_allow\_network\_error** property exists and is set to `false`.
 
 ## More information
 
@@ -72,6 +73,14 @@ true
 
 </td></tr><tr><td>
 
+Fallback value
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
 Category
 
 </td><td>
@@ -86,7 +95,7 @@ Security risk
 
 -   Severity score: 5.9
 -   CVSS score: Medium
--   Security risk details: Not setting this property to false could enable a bad actor to bypass the OCSP security check.
+-   Security risk details: An attacker using a revoked certificate can exploit this setting by simply omitting the OCSP response during a connection attempt. In such cases, the client incorrectly accepts the revoked certificate as valid. This undermines the integrity of the Public Key Infrastructure \(PKI\) and the trust model that underpins secure web communications. The use of revoked certificates is often indicative of malicious activity, unless attributable to temporary synchronization issues between certificate authorities and OCSP responders.
 
 </td></tr><tr><td>
 
@@ -94,7 +103,7 @@ Dependencies and prerequisites
 
 </td><td>
 
-None
+The **com.glide.communications.httpclient.ocsp\_allow\_network\_error** property has no effect unless the **com.glide.communications.httpclient.verify\_revoked\_certificate** property, the overall gate for certificate revocation checking, is set to `true`.
 
 </td></tr><tr><td>
 
@@ -102,7 +111,7 @@ Functional impact
 
 </td><td>
 
-This property determines whether a request against the Authority Information Access \(AIA\) Online Certificate Status Protocol \(OCSP\) uri results in a pass or fail outcome in the event of a connection or timeout error. When set to false, the revocation status of the presented server certificate can't be validated and will lead to a communication failure with that endpoint. If a network error occurs when the property is set to its default value of true, the certificate is treated as valid from a revocation standpoint.
+When the **com.glide.communications.httpclient.ocsp\_allow\_network\_error** property is set to `false`, an outbound HTTPS connection is not established if the OCSP responder becomes unreachable due to a network error. Network errors include timeouts or DNS failures. Administrators should monitor OCSP responder availability after making this change, as any outbound integration with a temporarily unreachable OCSP responder will fail to connect.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-communications.md)

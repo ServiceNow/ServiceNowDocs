@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configure-ci-report-groups.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure the Customer Information view using CSM Agent Workspace, Configure Customer Central, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -20,7 +20,9 @@ Role required: admin
 
 ## About this task
 
-Report groups are displayed in the Customer Information view in Agent Workspace.
+Report groups are displayed in the Customer Information view in CRM Workspace.
+
+\[Omitted image "report-groups.jpg"\] Alt text: Configured report group shows high priority cases in the Customer Information view.
 
 ## Procedure
 

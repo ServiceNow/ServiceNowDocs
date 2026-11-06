@@ -7,7 +7,7 @@ release: zurich
 product: Resource Management
 classification: resource-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Resource Management Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Learn about the features, functionalities, and business value that the Resource 
 
 This provides a centralized view of the resource allocation and requests. As a Resource manager, you get a dedicated workspace to view the team's allocation and breakdown of the work assigned to the resources.
 
-Resource Management Workspace provides a centralized view of the resource allocations and resource requests. This workspace eases resource management problems and is designed to cover a wider set of use cases.
+Resource Management Workspace provides a centralized view of the resource allocations and resource requests. This workspace eases resource management problems and covers a wider set of use cases.
 
 ## Features and benefits
 
@@ -49,6 +49,10 @@ The workspace is organized into the following areas:
 Resource managers often spend significant time manually searching for the right person to staff an unassigned assignment. The AI Resource Finder removes this guesswork by using Now Assist skills to analyze your resource pool and recommend the best-fit candidates. Each candidate is ranked by a fit score and accompanied by a plain-language rationale explaining the recommendation.
 
 Resource finder uses the Resource fit analysis skill, which considers multiple dimensions simultaneously. These dimensions include whether the resource's planning attributes, such as role and skills group, align with what the assignment demands. They also include how much capacity the resource has during the assignment period, and how the resource's historical allocation patterns compare to the requested effort.
+
+**Note:**
+
+Access to the Resource fit analysis skill is subject to the access requirements configured for the skill. If the current user doesn't meet those requirements, Resource finder shows candidates without a fit score or rationale.
 
 The output of this matching process is two-fold:
 

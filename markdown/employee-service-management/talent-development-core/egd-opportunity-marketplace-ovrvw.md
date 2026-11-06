@@ -7,9 +7,9 @@ release: zurich
 product: Talent Development Core
 classification: talent-development-core
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Explore, Talent Development Core, Growth Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Exploring Talent Development Core, Talent Development Core, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Opportunity Marketplace overview
@@ -166,7 +166,7 @@ Shows recommendations based on your top skills. Internal job listings show the j
  **Note:** You can also filter and sort the job list and view a profile.
 
 </td></tr></tbody>
-</table>**Note:** While mobile capabilities are supported for the Vancouver and Zurich release, mobile capability is not supported in the Utah release.
+</table>**Note:** While mobile capabilities are supported for the Vancouver and Brazil release, mobile capability is not supported in the Utah release.
 
 ## Hiring Core
 

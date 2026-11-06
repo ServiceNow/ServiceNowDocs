@@ -1,69 +1,47 @@
 ---
-title: Launch Onboarding modals
-description: Configure programmatic triggers to launch Onboarding modals when to access specific pages or perform certain actions on their instance.
+title: Launch an Onboarding Modal
+description: Launch an Onboarding Modal you have created in your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/adoption-services/launch-onboarding-modal.html
 release: zurich
 product: Adoption Services
 classification: adoption-services
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Onboarding modals launch]
-breadcrumb: [Configure, Onboarding modals, Adoption services, Configure user experiences]
+breadcrumb: [Onboarding modals, Adoption services, Configure user experiences]
 ---
 
-# Launch Onboarding modals
+# Launch an Onboarding Modal
 
-Configure programmatic triggers to launch Onboarding modals when to access specific pages or perform certain actions on their instance.
+Launch an Onboarding Modal you have created in your instance.
 
 ## Before you begin
 
 Role required: admin
 
-Ensure you have:
-
--   Created and published an Onboarding modals with at least one guidance step
--   Noted the sys\_id of your guidance record \(found in the URL when viewing the record\)
--   Identified the UI Builder page where the modal should launch
--   Access to UI Builder and the ability to create client scripts
-
 ## Procedure
 
-1.  Launch UI Builder and navigate to the page where you want the modal to appear.
+1.  To launch an Onboarding modal once created, do the following:
 
-2.  In the left panel, select **Scripts** tab and create a new client script.
+2.  Create a client script in UIB.
 
-3.  In the script editor, enter the following code, replacing 'YOUR\_GUIDANCE\_SYS\_ID' with the actual sys\_id of your guidance record:
+3.  Under code snippet enter `api.emit('SN_HELP#GUIDANCE_START_REQUESTED',{guidanceId:"ID"});`
 
-    ```
-    api.emit('SN_HELP#GUIDANCE_START_REQUESTED', {guidanceId:'YOUR_GUIDANCE_SYS_ID'});
-    ```
+4.  Replace the ID with the sys\_ID of the modal guidance to be opened.
 
-4.  Save the client script.
+5.  Save the page.
 
-5.  In the left panel of UI Builder, select **Body**.
+6.  Select **Body** in the left panel of the UIB page.
 
-6.  In the right panel, select **Events** tab.
+7.  In the right panel, select the **Events** tab.
 
-7.  Under Dispatched Events, select **Add**.
+8.  Under **Dispatched Events** select **Add**.
 
-8.  In the **Event name** field, enter: `SN_HELP#GUIDANCE_START_REQUESTED`
-
-9.  In the **Label** field, enter a descriptive name \(e.g., 'Onboarding Modal Launch'\).
+9.  In the event name, add `SN_HELP#GUIDANCE_START_REQUESTED` and give the label with a name.
 
 10. Select **Save**.
 
-11. Save and publish your UI Builder page.
 
-
-## Result
-
-The onboarding modal is configured to launch when users access the specified page. The modal will display the first guidance step and allow users to navigate through subsequent steps.
-
-## What to do next
-
-Test the modal launch by accessing the page as a user with the appropriate role assignment. Verify that all guidance steps display correctly and navigation options function as expected.
-
-**Parent Topic:**[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/configure-onboarding-modals.md)
+**Parent Topic:**[Onboarding modals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/next-experience-onboarding.md)
 

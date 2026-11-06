@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Visitor Management
 classification: workplace-visitor-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage, Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -57,6 +57,8 @@ The status of the visitor registration is updated.
 
 **Related topics**  
 
+
+[Use the receptionist portal]()
 
 [View visitor registrations]()
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/scripts.html
 release: zurich
 topic_type: concept
-last_updated: "2025-11-11"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow CPQ, Configure, price, quote, Explore, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Scripts
@@ -143,7 +143,7 @@ The scripting interface includes built-in tools:
 -   Help panel: Lists all supported functions and parameters with examples.
 -   Debugger: Accepts JSON input and displays output and `console.log()` results. Save common test inputs as comments for reuse.
 
-## Best practices
+## General guidelines
 
 -   Prefer declarative rules when possible.
 -   Keep scripts concise and focused on a single task.

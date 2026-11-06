@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/rules\_101.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
-reading_time_minutes: 10
-breadcrumb: [ServiceNow CPQ Configurator, ServiceNow CPQ, Configure, price, quote, Explore, Sales Customer Relationship Management]
+last_updated: "2026-03-12"
+reading_time_minutes: 9
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Rules
@@ -16,7 +16,7 @@ Learn how to create and manage rules to deliver dynamic configuration experience
 
 As the end user navigates through the configuration experience and populates information, rules provide its dynamic elements: hiding and showing content, calculating values, delivering recommendations and messages, and building the bill of materials \(BOM\).
 
-With a focus on administering rules in the administration user interface, this article discusses the two components of rules, conditions and actions, and the six action types available in ServiceNow CPQ. Much like other elements in the application, the UI is a good place to add or edit small numbers of rules. When many rules need manipulation, we recommend using the Matrix Loader. For more information, see [Matrix Loader: CSV rules upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/matrix_loader_csv_rules_upload.md).
+Rules have two components: conditions and actions. ServiceNow CPQ supports six action types. The administration UI is a good place to add or edit a small number of rules. To update many rules at once, use the Matrix Loader. For more information, see [Matrix Loader: CSV rules upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/matrix_loader_csv_rules_upload.md).
 
 In the administration UI, rules are accessible in two ways:
 

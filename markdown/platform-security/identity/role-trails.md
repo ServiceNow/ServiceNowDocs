@@ -7,7 +7,7 @@ release: zurich
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Identity Audit Results, Identity and Access Audit, Identity]
 ---
@@ -16,7 +16,10 @@ breadcrumb: [Identity Audit Results, Identity and Access Audit, Identity]
 
 Displays audits of roles in the ServiceNow® instance.
 
-Role Trails display attribute changes and parent-child relation changes for a role.
+For a given role, Role Trails show:
+
+-   Attribute changes
+-   Parent-child relation changes
 
 To access Role Trails, navigate to **All** &gt; **System Security** &gt; **Identity and Access Audit** &gt; **Role Trails**. The Role Trails page is displayed with the following information.
 
@@ -24,7 +27,7 @@ To access Role Trails, navigate to **All** &gt; **System Security** &gt; **Ident
 |---|---|
 |Role Name|Name of the role.|
 |Role Sys id|Details about the Role sys\_id for the audited record.|
-|Source Table|Details about the Source Table where the audit performed.|
+|Source Table|Details about the Source Table where the audit is performed.|
 |Action|Describes the audit action.|
 |Created By|The user who made the change.|
 |Created|The time and date the audit was performed.|

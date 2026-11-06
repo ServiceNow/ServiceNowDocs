@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-03-06"
+last_updated: "2026-03-12"
 reading_time_minutes: 19
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -30,7 +30,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-SAP Ariba spoke v1.15.1 is the latest version.
+SAP Ariba spoke v1.15.1 is the latest version. For version history of the spoke, see [SAP Ariba spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-sap-ariba.html).
 
 ## Supported versions
 
@@ -144,7 +144,7 @@ If you’re having trouble installing the app, ensure that these dependent plugi
 -   ServiceNow Flow Designer - Dynamic Inputs \(com.glide.hub.dynamic\_inputs\)
 -   ServiceNow IntegrationHub Runtime \(com.glide.hub.integration.runtime\)
 -   Flow Designer Action Step - Script on MID \(com.glide.hub.action\_step.script\_mid\)
--   [Utility Actions Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/utilityact-spoke.md)
+-   [Utility Actions Spoke]()
 
 **Note:** Some of these plugins are licensable features and require appropriate licenses, if used outside the spoke implementation.
 

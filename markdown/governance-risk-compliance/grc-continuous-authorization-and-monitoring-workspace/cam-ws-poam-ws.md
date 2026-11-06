@@ -1,5 +1,5 @@
 ---
-title: Managing POA&amp;Ms
+title: Managing POA&amp;Ms issues
 description: In CAM application, all issues related to an authorization package are called as Plan of Actions and Milestones \(POA&amp;Ms\). The issues can be package issues, or control issues, engagement issues, or control test issues that are related to the package.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-ws-poam-ws.html
@@ -7,12 +7,12 @@ release: zurich
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Continuous authorization and monitoring tasks in the CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
-# Managing POA&amp;Ms
+# Managing POA&amp;Ms issues
 
 In CAM application, all issues related to an authorization package are called as Plan of Actions and Milestones \(POA&amp;Ms\). The issues can be package issues, or control issues, engagement issues, or control test issues that are related to the package.
 
@@ -53,7 +53,7 @@ All users who can access the CAM Workspace can also access the POA&amp;Ms landin
 
 ## Access the POA&amp;Ms landing page
 
-To access the POA&amp;Ms page, navigate to **All** &gt; **CAM Workspace** and select the POA&amp;Ms icon \(\[Omitted image "cam-poams-icon.png"\] Alt text: POA&amp;Ms icon.\).
+To access the POA&amp;Ms page, navigate to **Workspaces** &gt; **CAM Workspace** and select the POA&amp;Ms icon \(\[Omitted image "cam-poams-icon.png"\] Alt text: POA&amp;Ms icon.\).
 
 **Parent Topic:**[Continuous authorization and monitoring tasks in the CAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-ws-continuous-auth-monitor.md)
 

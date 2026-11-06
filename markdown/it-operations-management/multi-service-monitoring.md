@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/multi-service-monitoring.html
 release: zurich
 topic_type: concept
-last_updated: "2026-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [synthetic monitoring, multi-service, application service, shared endpoint, CMDB]
-breadcrumb: [Explore, Landing page, ITOM AIOps, IT Operations Management]
+breadcrumb: [Explore, Synthetic monitoring, ITOM AIOps, IT Operations Management]
 ---
 
 # Multi-service monitoring for shared endpoints
@@ -23,7 +23,7 @@ You can now tag a single HTTP endpoint or discovered API to multiple application
 
 ## How it works
 
-When you select more than one application service for an HTTP endpoint or discovered API, synthetic monitoring creates a Connects to::Connected by relationship between the endpoint and each service you select. Adding a new service to an endpoint does not remove the relationships to services that were already tagged.
+When you select more than one application service for an HTTP endpoint or discovered API, synthetic monitoring creates a Connects to::Connected by relationship between the endpoint and each service you select. Adding a service does not remove relationships to services already tagged.
 
 The endpoint's related services list shows every application service tagged to it, with duplicate entries removed, so each team can see which other services share the same endpoint.
 
@@ -31,7 +31,7 @@ When a shared endpoint fails a test, the resulting event is evaluated against ev
 
 **Note:** Alert routing to each team individually is not part of this release. All teams tagged to a shared endpoint currently see the same alert configuration for the check.
 
-How the Service Health dashboard resolves impacted services depends on how the endpoint was added to the CMDB:
+otherprops="store-2026-09"&gt;How the Service Health dashboard resolves impacted services depends on how the endpoint was added to the CMDB:
 
 -   **Endpoints created directly in synthetic monitoring**
 

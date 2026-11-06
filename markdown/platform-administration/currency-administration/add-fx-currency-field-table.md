@@ -7,9 +7,9 @@ release: zurich
 product: Currency Administration
 classification: currency-administration
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Defaults required for FX Currency use, Configure, Currency administration, Configure core features, Administer]
+breadcrumb: [Defaults required for FX Currency use, Configure, Currency administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Add an FX Currency field to a table
@@ -44,7 +44,7 @@ For example, you create a new custom table, named `transactions`, that stores tr
 
     **Note:** Do not change the **Max length** value for **FX Currency** in custom tables. **Max length** must be 32 \(default\).
 
-6.  Select **Submit**.
+6.  Click **Submit**.
 
 
 **Parent Topic:**[Setting up defaults required for FX Currency use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/currency-administration/setting-up-defaults-fx-currency-use.md)

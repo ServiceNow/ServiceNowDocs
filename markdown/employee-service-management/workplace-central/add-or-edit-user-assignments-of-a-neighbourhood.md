@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2026-03-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Viewing or editing a scenario, Working with Space Optimization, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -21,6 +21,8 @@ Add a user to a neighborhood or edit the existing user assignments of a neighbor
 Make sure that you have created a scenario that is based on neighborhoods. For more information about creating neighborhoods and scenarios, see the following topics.
 
 **Important:** If allocation changes in your instance impact the scenario, the system displays a warning on the Space Details panel. You must review the changes, edit the scenario accordingly, then select **Move to valid** before continuing. For more information about allocation changes, see [Reviewing allocation changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-space-management/reviewing-allocation-changes.md).
+
+\[Omitted image "wsd-central-review-changes.png"\] Alt text: Space details panel displaying a warning about reviewing allocation changes.
 
 -   [Managing Neighborhoods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/neighborhoods.md)
 -   [Create a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
@@ -75,15 +77,15 @@ You can add or remove user assignments of a neighborhood in a building or a scen
 
     4.  Add or remove users from the neighborhood.
 
-<table id="choicetable_ebx_gdx_rfc"><thead><tr><th align="left" id="d199945e257">
+<table id="choicetable_ebx_gdx_rfc"><thead><tr><th align="left" id="d203495e262">
 
 Choice
 
-</th><th align="left" id="d199945e260">
+</th><th align="left" id="d203495e265">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d199945e266">
+</th></tr></thead><tbody><tr><td id="d203495e271">
 
 **Add users to the neighborhood**
 
@@ -97,7 +99,7 @@ Use the filter option to filter the users list. You can add up to 1000 users to 
 3.  Select **Add**.
  The users are added to the neighborhood. A new Workplace Profile Location Assignment is added to the user's workplace profile with the neighborhood assignment. The **Source** field of the user assignment is set as manual.
 
-</td></tr><tr><td id="d199945e304">
+</td></tr><tr><td id="d203495e309">
 
 **Remove users from the neighborhood**
 

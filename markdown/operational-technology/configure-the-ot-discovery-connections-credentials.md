@@ -1,28 +1,28 @@
 ---
 title: Configure the OT Discovery connections &amp; credentials
-description: Configure the Service Graph Connector authentication credentials and configuration used to connect to the ServiceNow OT Discovery devices.
+description: Configure the Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery authentication credentials and configuration used to connect to the ServiceNow OT Discovery devices.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/configure-the-ot-discovery-connections-credentials.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Service Graph Connector for ServiceNow Operational Technology\(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Configure the OT Discovery connections &amp; credentials
 
-Configure the Service Graph Connector authentication credentials and configuration used to connect to the ServiceNow OT Discovery devices.
+Configure the Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery authentication credentials and configuration used to connect to the ServiceNow OT Discovery devices.
 
 ## Before you begin
 
 Role required: admin
 
-**Note:** It's recommended that you switch to the application scope to Service Graph Connector for ServiceNow OT Discovery.
+**Note:** It's recommended that you switch to the application scope to Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery.
 
 ## Procedure
 
-1.  Confirm that the application scope is set to **Service Graph Connector for OT Discovery** by using the application picker.
+1.  Confirm that the application scope is set to the Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery by using the application picker.
 
 2.  Under **Configure the connection** section only configuring the MID Server is optional.
 
@@ -54,7 +54,7 @@ Role required: admin
 
 9.  In this window, fill in the following connection details as explained in the following table.
 
-    \[Omitted image "image.connection-window"\] Alt text: Create Connection
+    \[Omitted image "connection-window.png"\] Alt text: Create Connection
 
 <table id="table_utt_3fc_23c"><thead><tr><th>
 
@@ -122,4 +122,6 @@ This field is mandatory.
 ## What to do next
 
 The next step is to [Generate imports and validate the connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/generate-imports-validate-connections.md).
+
+**Parent Topic:**[Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/sgc-ot-discovery.md)
 

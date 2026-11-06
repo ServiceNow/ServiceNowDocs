@@ -7,9 +7,9 @@ release: zurich
 product: Upgrade Management
 classification: upgrade-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Upgrade Console, Upgrade, Administer]
+breadcrumb: [Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
 # Exploring Upgrade Console
@@ -20,15 +20,15 @@ Utilize Upgrade Console to gain a comprehensive understanding of your upgrade pr
 
 Upgrade Console is an application that provides the option to upgrade from the instance itself. When you request an upgrade, the instance automatically begins the process at the scheduled time. This upgrade includes both pre-upgrade and post-upgrade steps.
 
-**Note:** You can install the [Upgrade Management](https://store.servicenow.com/sn_appstore_store.do#!/store/application/62336aa2cc80d210f877639778ef1feb/2.1.0) store application from the ServiceNow store for the latest version.
+**Note:** You can install the [Upgrade Console](https://store.servicenow.com/sn_appstore_store.do#!/store/application/62336aa2cc80d210f877639778ef1feb/2.1.0) store application from the ServiceNow store for the latest version.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Upgrade Management summary\[Omitted image "um-icon-summary.png"\] Alt text: Upgrade Management summary.Access all the relevant information and tools required for your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-overview.md)
+[Upgrade Console summary\[Omitted image "um-icon-summary.png"\] Alt text: Upgrade Console summary.Access all the relevant information and tools required for your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-overview.md)
 
 </td><td>
 
-[Guided Upgrade\[Omitted image "um-icon-guided-setup.png"\] Alt text: Upgrade Management guided tour. Simplify your upgrade process with the guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-guided-tour.md)
+[Guided Upgrade\[Omitted image "um-icon-guided-setup.png"\] Alt text: Upgrade Console guided tour. Simplify your upgrade process with the guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-guided-tour.md)
 
 </td></tr></tbody>
 </table>**Note:** The **Guided Upgrade** tab shows up only when the upgrade process has started.
@@ -49,7 +49,7 @@ Using the application navigator
 
 </td><td>
 
-1.  Navigate to **All** &gt; **Admin Center** &gt; **Upgrade Management**.
+1.  Navigate to **All** &gt; **Admin Center** &gt; **Upgrade Console**.
 2.  Select one of the sections or tool tiles for more information.
 
 </td></tr><tr><td>
@@ -58,7 +58,7 @@ Using Admin tab option
 
 </td><td>
 
-1.  Navigate to **Admin** &gt; **Upgrade Management**.
+1.  Navigate to **Admin** &gt; **Upgrade Console**.
 2.  Select one of the sections or tool tiles for more information.
 
 </td></tr><tr><td>
@@ -76,7 +76,7 @@ Using Admin tab and Admin Home option
 
 |User|Description|
 |----|-----------|
-|System administrator \[admin\]|The system administrator user accesses all tables, tools and information within Upgrade Management Console on your instance.|
+|upgrade\_admin|The system administrator user accesses all tables, tools and information within Upgrade Console on your instance.|
 
 ## Upgrade Console benefits
 
@@ -92,5 +92,5 @@ To learn more about using Upgrade Console, see:
 
 -   [Using Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-using.md)
 -   [Administering Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-administer.md)
--   [Upgrade Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-references.md)
+-   [Upgrade Console references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-management/um-references.md)
 

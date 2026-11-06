@@ -7,7 +7,7 @@ release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -30,7 +30,7 @@ The following graphic illustrates how resource blocks fit between other componen
 
 -   **The CMDB**
 
-    Each resource block is based on a CI type from the CMDB. Resource blocks also have a response processor that handles responses from the cloud provider. The response processor can take actions in the CMDB, such as creating or updating a CI.
+    Each resource block is based on a CI type from the CMDB. Resource blocks also have a response processor that handles responses from the cloud provider. The response processor takes action in the CMDB, such as creating or updating a CI.
 
 
 ## How resource blocks are connected
@@ -135,7 +135,7 @@ Each resource block contains these components:
 
     Each operation requires a step to do the actual work. Each step calls a specific interface and method in CAPI, and passes along the input parameters required by that method. For example, the **Provision** operation on a virtual server provides one step to first connect and create a virtual machine. Another step creates the node in the cloud provider. Each step provides different input parameters. To connect and create a virtual machine, the cloud account, among many other parameters, is required. To create the node, the cloud account is not required.
 
-    You can add as many steps as needed for each operation. You can also use output attributes to pass values in attributes from one step to another step. Output attributes can also pass values from steps in one operation to steps in a subsequent operation. For example, the **Provision** operation for a virtual server can provide an output attribute for the network interface ID and another for the node ID. When the cloud provider sends the response, the actual ID of the network and node are parsed out of the response and saved in the output attributes. Subsequent steps can then use the IDs to perform actions.
+    You can add as many steps as needed for each operation. You can also use output attributes to pass values in attributes from one step to another step. You can pass values from steps in one operation to steps in a subsequent operation. For example, the **Provision** operation for a virtual server can provide an output attribute for the network interface ID and another for the node ID. When the cloud provider sends the response, the actual ID of the network and node are parsed out of the response and saved in the output attributes. Subsequent steps can then use the IDs to perform actions.
 
 -   **Response processors**
 

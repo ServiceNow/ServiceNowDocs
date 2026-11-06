@@ -7,7 +7,7 @@ release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Review request policies, Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -58,5 +58,5 @@ To test the policy, see [Test updates to a PaCE policy version](https://raw.gith
 
 To publish the policy, see [Publish a PaCE policy version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/pace-publish-policy-version.md).
 
-To add a new approval step in the flow designer, see [Using Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/building-workflow-studio-components.md).
+To add a new approval step in the flow designer, see [Exploring Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/exploring-workflow-studio.md).
 

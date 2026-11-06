@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/vibe-code-with-build-agent.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Build Agent overview, Develop, Agentic development, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
+breadcrumb: [Build Agent overview, Develop, Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Get started with agentic development using Build Agent
@@ -55,7 +55,7 @@ To maximize Build Agent effectiveness, use the following practices:
 Access Build Agent through either of the following options:
 
 -   Customer instance: Upgrade to a minimum of Zurich and activate Build Agent \(Trial\) with a 25 calls per month limit.
--   Personal developer instance: Request a Zurich or above Personal Development Instance \(PDI\) on the [Developer site](https://developer.servicenow.com/) with a 10 calls per month limit.
+-   Personal developer instance: Request a Zurich or later Personal Development Instance \(PDI\) on the [Developer site](https://developer.servicenow.com/) with a 10 calls per month limit.
 
 ## Tools for using Build Agent
 
@@ -90,5 +90,5 @@ ServiceNow resources for agentic development:
     [\#BuildWithBuildAgent Guidebook on Community](https://www.servicenow.com/community/developer-advocate-blog/your-buildwithbuildagent-guidebook-is-here/ba-p/3419535)
 
 
-**Parent Topic:**[AI-assisted ServiceNow AI Platform development with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/vc-build-agent-landing.md)
+**Parent Topic:**[Agentic ServiceNow AI Platform development with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/vc-build-agent-landing.md)
 

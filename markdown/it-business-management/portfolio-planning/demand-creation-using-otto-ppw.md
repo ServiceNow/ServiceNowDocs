@@ -7,7 +7,7 @@ release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Create a demand,]
 breadcrumb: [Create a demand, Manage demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
@@ -58,6 +58,8 @@ Virtual Agent starts a conversation to ask more information from you about the d
 -   What is the reason for this demand?
 -   What are the risks associated with performing this demand?
 The information you provide is used to fill in the fields of the Demand form. You can skip answering a question that is related to non-required fields by entering **skip**.
+
+\[Omitted image "now-assist-demand-short-prompt.png"\] Alt text: Basic instruction to create a demand using Virtual Agent chat in the Employee Center.
 
 </td></tr><tr><td>
 

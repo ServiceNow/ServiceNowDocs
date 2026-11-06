@@ -7,7 +7,7 @@ release: zurich
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Service Portfolio Management, IT Service Management]
 ---
@@ -69,7 +69,7 @@ Don't opt in — keep legacy service portfolios
 -   Average Availability \[ServiceOffering.MetricData.Availability.Daily\]
 -   Average Request Activity \[ServiceOffering.MetricData.Activity.Daily\]
 
-Therefore, if you have the Vendor Management Workspace application integrated with Service Portfolio Management, and if you are upgrading to the Service Portfolio Management standard portfolio, the metric data from the legacy indicators are no longer available. For information on vendor scores, see [Vendor KPI Groups in Vendor Management Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/vendor-manager-workspace-default-wep.md).
+Therefore, if you have the Vendor Management Workspace application integrated with Service Portfolio Management, and if you are upgrading to the Service Portfolio Management standard portfolio, the metric data from the legacy indicators are no longer available. For information on vendor scores, see .
 
 ## Portfolio administration
 

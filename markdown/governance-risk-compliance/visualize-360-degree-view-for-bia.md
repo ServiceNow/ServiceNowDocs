@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/visualize-360-degree-view-for-bia.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Structured workflows for BIAs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -48,7 +48,7 @@ The configurations for the 360° view are stored in **360° View Configurations*
     -   **Depends on**: Dependencies associated with the business impact analysis. You can select the **Depends on** capsule and view its details.
 4.  Select **BIA template** in the view.
 
-    The details of the BIA template such as the name and description of the template are displayed in the right panel of the view as shown in the example.
+    The BIA template details such as the name and description are displayed in the right panel.
 
     \[Omitted image "360-bia-bia-template.png"\] Alt text: 360-bia-template.
 

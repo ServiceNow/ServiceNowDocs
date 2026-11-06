@@ -7,7 +7,7 @@ release: zurich
 product: Workflow Activities
 classification: workflow-activities
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Utility workflow activities, Workflow activities reference, Workflow activities, Classic Workflow, Build workflows]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Utility workflow activities, Workflow activities reference, Workflo
 
 The legacy **REST Message** activity enables an administrator to override the REST endpoint or supply the variables configured in the REST Message module.
 
-This activity is deprecated in the Zurich release and no longer shows up in the Workflow canvas for new workflow development. New workflows should use the [Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/r-orchestration.md) REST Activity templates instead.
+This activity is deprecated in the Brazil release and no longer shows up in the Workflow canvas for new workflow development. New workflows should use the [Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/r-orchestration.md) REST Activity templates instead.
 
 Existing workflows using it will continue to work as designed. To edit this activity in an existing workflow, you must [re-activate the activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/t_ReactivateDeprecatedActivity.md).
 
@@ -72,7 +72,7 @@ Variables
 
 </td><td>
 
-Values to use for Variable substitution in outbound REST messages defined in the HTTP Method record. Use the following format for the string:
+Values to use for [Variable substitution in outbound REST messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/c_VariableSubstitutionREST.md) defined in the HTTP Method record. Use the following format for the string:
 
 ```
 name1=value1, name2=value2, . . .

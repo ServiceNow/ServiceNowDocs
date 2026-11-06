@@ -7,10 +7,10 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Agent Client Collector, Agent Client Collector for Visibility, ACC for Visibility, CNO for Visibility]
-breadcrumb: [ACC deployment - shared between servers and endpoints, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Cloud Native Operations for Visibility
@@ -19,5 +19,5 @@ Cloud Native Operations for Visibility \(CNO for Visibility\) has been renamed A
 
 For the Kubernetes Visibility Agent documentation, see [Kubernetes Visibility Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/acc-kubernetes-visibility-landing-page.md).
 
-**Parent Topic:**[Agent Client Collector deployment - shared between servers and endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-shared-deployment.md)
+**Parent Topic:**[Deploying Agent Client Collector on both servers and endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-shared-deployment.md)
 

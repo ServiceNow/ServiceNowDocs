@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-modeling-add-related-records.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Working with Enterprise Modeling and Visualization, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with Enterprise Modeling and Visualization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Add related records in the modeling diagram
@@ -15,6 +15,8 @@ breadcrumb: [Working with Enterprise Modeling and Visualization, Manage, Enterpr
 Fetch and add specific related records to the selected shape in a diagram.
 
 ## Before you begin
+
+\[Omitted video\] Description: Fetch and add specific related records to the selected shape in a diagram
 
 Role required: sn\_apm.apm\_user and Owner or Editor access to the artifact or diagram
 
@@ -33,7 +35,7 @@ You can add both upstream and downstream related entities to a shape in a diagra
 
 3.  Select an existing diagram from the Diagrams page.
 
-4.  Select a shape in the diagram and open the context menu and then the More Actions menu \(\[Omitted image "eaw-icon-menu.png"\] Alt text: More actions menu icon\).
+4.  Select a shape in the diagram and open the context menu.
 
 5.  Open the Add related records pop-up window by selecting the Add related records icon \(\[Omitted image "icon-add-related-records.png"\] Alt text: Add related records icon\).
 

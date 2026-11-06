@@ -7,9 +7,9 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Document Templates, HR Documents, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configuring Document Templates, Document Templates, HR Documents, HR Service Delivery, Employee Service Management]
 ---
 
 # Document Templates of type HTML
@@ -27,7 +27,7 @@ The following flow describes how you can use an HTML document template from conf
 
 -   [Configure an HTML document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-HTML-doc-template.md).
 -   [Create participants for an HTML document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/create-participants-html.md).
--   [Insert signatures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/create-participants-html.md).
+-   [Insert signatures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/insert-signatures.md).
 -   Publish the HTML document template.
 -   [Document tasks generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/task-mapped-participants.md).
 

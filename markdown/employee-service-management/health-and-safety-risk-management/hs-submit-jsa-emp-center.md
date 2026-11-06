@@ -7,7 +7,7 @@ release: zurich
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Job safety analysis, Use, Health and Safety Risk Management, Health and Safety, Employee Service Management]
 ---
@@ -32,15 +32,15 @@ Employees can also submit JSAs from their mobile device using the ServiceNow® N
 
 3.  Create a JSA.
 
-<table id="choicetable_uvx_3dr_dcc"><thead><tr><th align="left" id="d163065e100">
+<table id="choicetable_uvx_3dr_dcc"><thead><tr><th align="left" id="d165283e100">
 
 Option
 
-</th><th align="left" id="d163065e103">
+</th><th align="left" id="d165283e103">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d163065e109">
+</th></tr></thead><tbody><tr><td id="d165283e109">
 
 **From Health and Safety menu**
 
@@ -50,7 +50,7 @@ To start a JSA from scratch:1.  Under **Health and Safety** menu, select **Job s
 2.  Select **Submit a JSA**.
 An empty JSA form opens.
 
-</td></tr><tr><td id="d163065e137">
+</td></tr><tr><td id="d165283e137">
 
 **From a previously submitted JSA**
 

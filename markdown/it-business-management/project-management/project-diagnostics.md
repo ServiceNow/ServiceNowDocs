@@ -1,20 +1,20 @@
 ---
 title: Use Project Diagnostics to detect corrupt project data
-description: Project Diagnostics uses the Application Diagnostics Tool to detect corrupt data in a project. Examples include tasks with invalid parents, tasks without top tasks, and invalid or cyclic relations in a project.
+description: Project Diagnostics uses the Application Diagnostics Tool to detect corrupt project data. Examples include tasks with invalid parents, tasks without top tasks, and invalid or cyclic relations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-management/project-diagnostics.html
 release: zurich
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Project Diagnostics, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Project Diagnostics, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Use Project Diagnostics to detect corrupt project data
 
-Project Diagnostics uses the Application Diagnostics Tool to detect corrupt data in a project. Examples include tasks with invalid parents, tasks without top tasks, and invalid or cyclic relations in a project.
+Project Diagnostics uses the Application Diagnostics Tool to detect corrupt project data. Examples include tasks with invalid parents, tasks without top tasks, and invalid or cyclic relations.
 
 ## Before you begin
 
@@ -22,21 +22,21 @@ Role required: it\_pps\_admin
 
 ## About this task
 
-Project Diagnostics can also detect whether date calculations in a project appear to be incorrect, or whether the planning console does not open for a project. It can also detect whether a few tasks or relationships do not appear in the planning console.
+Project Diagnostics can also detect whether date calculations in a project appear to be incorrect. It can also identify when the planning console does not open for a project or when tasks or relationships don't appear in the planning console.
 
 ## Procedure
 
 1.  Determine whether you want to run a diagnostic scan on a single project or multiple projects.
 
-<table id="choicetable_ez5_jcj_hkb"><thead><tr><th align="left" id="d121794e64">
+<table id="choicetable_ez5_jcj_hkb"><thead><tr><th align="left" id="d128426e55">
 
 Scope
 
-</th><th align="left" id="d121794e67">
+</th><th align="left" id="d128426e58">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d121794e73">
+</th></tr></thead><tbody><tr><td id="d128426e64">
 
 **All Projects**
 
@@ -44,7 +44,7 @@ Steps
 
 Navigate to **All** &gt; **Project Administration** &gt; **Project Diagnostics**.
 
-</td></tr><tr><td id="d121794e97">
+</td></tr><tr><td id="d128426e88">
 
 **Single Project**
 
@@ -62,15 +62,15 @@ Navigate to **All** &gt; **Project Administration** &gt; **Project Diagnostics**
 
 4.  From the **Diagnostics** section, run a single diagnostic scan or multiple scans on the projects matching the filter criteria.
 
-<table id="choicetable_hqd_pcj_hkb"><thead><tr><th align="left" id="d121794e163">
+<table id="choicetable_hqd_pcj_hkb"><thead><tr><th align="left" id="d128426e154">
 
 Task
 
-</th><th align="left" id="d121794e166">
+</th><th align="left" id="d128426e157">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d121794e172">
+</th></tr></thead><tbody><tr><td id="d128426e163">
 
 **Run multiple diagnostic scans**
 
@@ -80,7 +80,7 @@ Steps
 2.  Select **Run Diagnostics** at the top-right corner of the page.
 
 
-</td></tr><tr><td id="d121794e193">
+</td></tr><tr><td id="d128426e184">
 
 **Run a specific diagnostic scan**
 

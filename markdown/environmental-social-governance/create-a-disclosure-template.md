@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/create-a-disclosure-template.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Disclosures in ESG Management, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Disclosures in Operational Sustainability Management \(formerly ESG Management\), Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Create a disclosure template
@@ -71,5 +71,5 @@ Document to add.**Note:** The file extension must be .docx.
     **Note:** Ensure that the size of the file does not exceed 10 MB and only one template for each disclosure type is defined.
 
 
-**Parent Topic:**[Disclosures in ESG Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/esg-disclosures.md)
+**Parent Topic:**[Disclosures in Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/esg-disclosures.md)
 

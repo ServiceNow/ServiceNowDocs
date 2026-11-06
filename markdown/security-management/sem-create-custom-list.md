@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sem-create-custom-list.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use the List view in the Security Exposure Management Workspace, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -57,6 +57,4 @@ Role required:
 
 12. To delete a list, with the list displayed, click the gear icon on the upper right of the page.
 
-
-**Parent Topic:**[Use the List view in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-ws-list-view.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/cto-it-components.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Care Team Operations for Healthcare IT, Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -88,6 +88,18 @@ CTO IT location contributor role
 </td><td>
 
 Reports cases, respond to cases, track cases at business location, views cases under their team.**Note:** This role is automatically inherited into the Care Team Member role when the Care Team Operations for Healthcare IT plugin is installed.
+
+</td></tr><tr><td>
+
+sn\_cto\_hcit.loc\_manager
+
+</td><td>
+
+Healthcare IT services support department manager
+
+</td><td>
+
+Monitors the tasks within their organizations.
 
 </td></tr></tbody>
 </table>## Plugins installed with Care Team Operations for Healthcare IT

@@ -7,9 +7,9 @@ release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
-breadcrumb: [Set up Telecom Visibility, Configure, Telecommunications Service Operations Management]
+breadcrumb: [Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
 
 # Configure Cisco Meraki Service Graph Connector
@@ -20,16 +20,16 @@ Configure the Cisco Meraki Service Graph Connector \(SGC\) to import physical an
 
 You must authenticate before initiating discovery. During the authentication process, the discovery service receives an access token, which it then uses for bulk or specific discovery operations. The integration uses Cisco Meraki REST APIs to discover managed elements such as network equipment, interfaces, and services.
 
-This integration uses REST APIs \(via a MID Server\) to ensure the CMDB reflects accurate, up-to-date telecom inventory aligned with the TM Forum-based data model. For a list of API references, see [Cisco Meraki Service Graph Connector API Endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/cisco-meraki-service-graph-connector-api-endpoints.md).
+This integration uses REST APIs \(through a MID Server\) so that the CMDB reflects accurate, up-to-date telecom inventory aligned with the TM Forum-based data model. For a list of API references, see [Cisco Meraki Service Graph Connector API endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/cisco-meraki-service-graph-connector-api-endpoints.md).
 
-**Note:** A valid subscription is required to use this connector.
+**Note:** A valid Telecommunications Service Operations Management subscription is required to use this connector.
 
 ## Required plugins
 
 |Plugin|Plugin ID|
 |------|---------|
 |Telecom Service Operations Core|sn\_tsom\_core|
-|Service Graph Connector for Meraki|sn\_tsom\_meraki\_connector|
+|Service Graph Connector for Meraki Telco SD-WAN|sn\_tsom\_meraki\_connector|
 
 **Note:** External requirements:
 
@@ -38,12 +38,12 @@ This integration uses REST APIs \(via a MID Server\) to ensure the CMDB reflects
 
 ## Configuration tasks overview
 
-The following sections are available under the Cisco Meraki navigation pane. Use the following table for post-guided setup or perform manual configurations.
+The following sections are available under the Cisco Meraki navigation pane. Use the following table for post-guided setup or to perform manual configurations.
 
 |Section|Description|
 |-------|-----------|
 |Setup|Configure MID Server, define Cisco Meraki connections, and schedule imports.|
-|Data Sources|Predefined data sources for bulk and filtered discovery \(SGC-Cisco Meraki Bulk Discovery, SGC-Cisco Meraki Filtering Discovery\). Enable parallel loading if needed. For more information on parallel loading.|
+|Data Sources|Predefined data sources for bulk and filtered discovery \(Cisco Meraki Full Discovery, Cisco Meraki Filtered Discovery\). Enable parallel loading if needed. For more information on parallel loading.|
 |Import Schedules|Manage scheduling for each Cisco Meraki connection alias. Run jobs manually or at defined intervals.|
 |Connections &amp; Credential Aliases|Define aliases for each Cisco Meraki instance. Store connection metadata and credentials.|
 |Connections|Define Cisco Meraki instance details, such as URL, selected MID Server, credential reference, and connection alias reference.|
@@ -51,10 +51,7 @@ The following sections are available under the Cisco Meraki navigation pane. Use
 |Filters|Configure filtering parameters used in filtered discovery \(for example, by device IP or name\).|
 |Properties|Modify system behavior using connector-specific properties. For more information, see.|
 
-## Access the Guided Setup
+## Access the guided setup
 
-Use the guided setup to simplify the configuration process. This setup provides an organized sequence of steps to help you complete integration quickly and correctly. To access the guided setup:
-
-1.  Navigate to **All** &gt; **Service Graph Connectors** &gt; **Cisco Meraki** &gt; **Setup**.
-2.  Follow the task sequence to configure MID Server settings, Cisco Meraki connections, filters, and import schedules. For more information, see [Set up the Service Graph Connector for Cisco Meraki schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/set-up-cisco-meraki.md).
+Use the guided setup to simplify the configuration process. This setup provides an organized sequence of steps to help you complete integration quickly and correctly. For more information, see [Set up the Service Graph Connector for Cisco Meraki schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/set-up-cisco-meraki.md).
 

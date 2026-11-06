@@ -7,7 +7,7 @@ release: zurich
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: concept
-last_updated: "2025-09-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [configure]
 breadcrumb: [CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
@@ -23,8 +23,8 @@ Activate and configure CSDM capabilities.
 Activate the CSDM plugin so you can begin implementing the CSDM data model.
 -   **[Configure the CSDM Data Foundations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-foundations-dashboard.md)**  
 Use the CSDM Data Foundations dashboard to monitor and evaluate key foundational metrics of the CSDM framework.
--   **[Migrate and sync existing data to the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/migrate.md)**  
-You complete several tasks to migrate your existing application data to the required tables in the CMDB.
+-   **[Migrate and synchronize existing data to the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/migrate.md)**  
+You complete several tasks to confirm that your existing application data migrates successfully to the required tables in the CMDB.
 
 **Parent Topic:**[Common Service Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-landing-page.md)
 

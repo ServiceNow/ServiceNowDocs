@@ -7,9 +7,9 @@ release: zurich
 product: Collaboration Services
 classification: collaboration-services
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Collaboration services, IT Service Management]
+breadcrumb: [Slack integration - Incident Management, Collaboration services, IT Service Management]
 ---
 
 # Create slack channel for an incident
@@ -51,6 +51,4 @@ The system property **sn\_tcm\_collab\_hook.slack\_on\_task** enables the slack 
 
     A slack channel is created and an invitation is sent to the participants. Any duplicate user is removed from the selected participant list before the notification is sent. The participants can click **Skip** or **Join Channel** to ignore or join a slack channel.
 
-
-**Parent Topic:**[Configuring Collaboration services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/collaboration-services/configuring-collab-services.md)
 

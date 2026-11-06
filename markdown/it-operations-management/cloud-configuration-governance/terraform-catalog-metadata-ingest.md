@@ -1,20 +1,20 @@
 ---
 title: Associate the Terraform input parameters with the Cloud Provisioning and Governance catalog item
-description: Create a JSON file to store the variables from the template file so you can map them to discovered resources, pools, and filters. Start with a Terraform template that you want to create as a catalog item. Use variables or parameters from the Terraform template to map to fields on the catalog item provision form.
+description: Create a JSON file to store Terraform template variables and map them to discovered resources, pools, filters, and catalog item provision form fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/terraform-catalog-metadata-ingest.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Use, Cloud Services Catalog Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Associate the Terraform input parameters with the Cloud Provisioning and Governance catalog item
 
-Create a JSON file to store the variables from the template file so you can map them to discovered resources, pools, and filters. Start with a Terraform template that you want to create as a catalog item. Use variables or parameters from the Terraform template to map to fields on the catalog item provision form.
+Create a JSON file to store Terraform template variables and map them to discovered resources, pools, filters, and catalog item provision form fields.
 
 ## Before you begin
 

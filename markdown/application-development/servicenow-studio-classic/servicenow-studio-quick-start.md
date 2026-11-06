@@ -1,39 +1,38 @@
 ---
 title: ServiceNow Studio quick start
-description: Familiarize yourself with ServiceNow Studio by completing several tasks. These tasks enable you to navigate around the interface and learn where to complete different types of activities.
+description: Complete these tasks to learn the core workflows in ServiceNow Studio, from finding apps and files to packaging and deploying changes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-studio-classic/servicenow-studio-quick-start.html
 release: zurich
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Explore, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Explore, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # ServiceNow Studio quick start
 
-Familiarize yourself with ServiceNow Studio by completing several tasks. These tasks enable you to navigate around the interface and learn where to complete different types of activities.
+Complete these tasks to learn the core workflows in ServiceNow Studio, from finding apps and files to packaging and deploying changes.
 
-## Quick start tasks
+## Where do I start in ServiceNow Studio?
 
-Complete these tasks to familiarize yourself with ServiceNow Studio.
-
-For a step-by-step tutorial specific to a departmental use case, see [ServiceNow Studio tutorial: Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/sns-z-tutorial-landing.md).
+Complete these tasks to learn the core workflows in ServiceNow Studio. For a step-by-step app creation tutorial, see [ServiceNow Studio and Build Agent tutorial](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/sns-ba-tutorial-landing.md).
 
 |Task|Description|
 |----|-----------|
-|[Find an app or app file using Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/qs-find-app-app-file-using-search.md)|Search from any page in ServiceNow Studio for quick access to your metadata.|
-|[Find an app or app file using the Navigator panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/qs-find-app-app-file-using-navigator-panel.md)|Locate files or metadata items in the taxonomy.|
-|[Bookmark apps and files in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/qs-bookmark-apps-files.md)|Access frequently used apps or app files in one location.|
-|[Bookmark lists in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/bookmark-lists-in-sns.md)|Access your favorite lists easily by bookmarking them.|
-|[Access recently opened apps and app files in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/qs-access-recently-opened-apps-files.md)|View and open files or apps that you have been working on recently.|
-|[Find info about an app in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/qs-find-info-about-an-app-servicenow-studio.md)|Access the App details page in an application to see metadata about your app and create new files.|
-|[Navigate directly to a table in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/qs-navigate-directly-to-table.md)|Open different table views directly by using shortcut commands like **.list**, **.do**, and **.config** after table names in the Search bar.|
-|[Open apps and app files across scopes in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/qs-open-apps-files-across-scopes.md)|Access global and scoped apps and files in ServiceNow Studio. Scoped apps are color-coded by tab for quick reference.|
-|[Focus the Navigator panel on an app or app file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/qs-focus-navigator-panel-on-app-app-file.md)|Focus the Navigator panel on any open file or application.|
-|[Access integrated development tools and builders in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/open-and-switch-between-integrated-development-tools.md)|Open any file type from the File Categories menu to access a suite of integrated development tools.|
-|[Create an update set in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/qs-create-update-set.md)|Package changes to your application for deployment.|
-|[Publish app changes to the Application Repository from ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/qs-publish-changes-to-app-using-app-repo.md)|Publish changes to the Application Repository. If your company has a deployment pipeline set up, you can also deploy through the pipeline in ServiceNow Studio.|
+|[ServiceNow Studio for ServiceNow IDE developers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/qs-sn-studio-for-ide-developers.md)|Learn about ServiceNow IDE features and capabilities in ServiceNow Studio.|
+|[Getting started with Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/qs-get-started-with-build-agent.md)|Learn how to start building apps using a conversational interaction with Build Agent.|
+|[Personalizing the ServiceNow Studio homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/qs-personalizing-sn-studio-homepage.md)|Update the theme and development style used in ServiceNow Studio.|
+|[Find an app or app file using Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/qs-find-app-app-file-using-search.md)|Search from any page in ServiceNow Studio to find and open metadata records quickly.|
+|[Find an app or app file using the Navigator panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/qs-find-app-app-file-using-navigator-panel.md)|Browse the Navigator panel taxonomy to locate files and metadata records by type.|
+|[Create a collection of files in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/qs-create-a-collection.md)|Curate a collection of your favorite files and apps, and organize them to fit your needs.|
+|[Add files to a collection in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/qs-add-files-to-a-collection.md)|Add apps, files, and lists to one or more collections.|
+|[Bookmark apps, files, and lists in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/qs-bookmark-apps-files.md)|Bookmark frequently used apps and app files so you can access them from one location.|
+|[Open apps and app files across scopes in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/qs-open-apps-files-across-scopes.md)|Learn how ServiceNow Studio switches automatically between scope when editing metadata records.|
+|[Find info about an app in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/qs-find-info-about-an-app-servicenow-studio.md)|Open the App details page to view app metadata and create files.|
+|[Navigate directly to a table in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/qs-navigate-directly-to-table.md)|Open table views directly by entering shortcut commands such as **.list**, **.do**, and **.config** after a table name in the Search bar.|
+|[Focus the Navigator panel on an app or app file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/qs-focus-navigator-panel-on-app-app-file.md)|Focus the Navigator panel on any open file or application so the panel reflects your current context.|
+|[Create an update set in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/qs-create-update-set.md)|Create an update set to package your app changes for deployment.|
 

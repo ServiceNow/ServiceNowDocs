@@ -7,7 +7,7 @@ release: zurich
 product: Legal Request Management
 classification: legal-request-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Work on a legal request, Managing legal requests, Use, Legal Request Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -41,15 +41,15 @@ You can assign these approvals to any user or user group in your organization wh
 
 3.  In the **Lists** tab, open a legal request by selecting an option under **Legal Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d728574e133">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d739753e133">
 
 Option
 
-</th><th align="left" id="d728574e136">
+</th><th align="left" id="d739753e136">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d728574e142">
+</th></tr></thead><tbody><tr><td id="d739753e142">
 
 **As an assignee**
 
@@ -61,7 +61,7 @@ Steps
 
 The state of the legal request is Work in progress and the document is Legal review.
 
-</td></tr><tr><td id="d728574e171">
+</td></tr><tr><td id="d739753e171">
 
 **As a collaborator**
 

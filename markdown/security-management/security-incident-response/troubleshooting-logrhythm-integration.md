@@ -7,7 +7,7 @@ release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [LogRhythm Overview, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -23,7 +23,7 @@ Refer to the following topics for troubleshooting:
 
 -   **[Verify connectivity for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/verify-connectivity.md)**  
 Verify your connection to the LogRhythm Client Console by sending curl requests to test the LogRhythm REST API. The verification process is optional.
--   **[Script execution and system log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/script-execution-logrhythm.md)**  
+-   **[Script execution and system log for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/script-execution-logrhythm.md)**  
 If you are troubleshooting an alarm ingestion issue, you can override the default five-minute polling interval to view results immediately. In this scenario, call the script execution manually to execute polling. This execution is optional.
 
 **Parent Topic:**[LogRhythm Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/ovrview-logrhythm.md)

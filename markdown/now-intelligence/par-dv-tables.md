@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/par-dv-tables.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -16,6 +16,7 @@ The following tables relate to Platform Analytics data visualizations and can be
 
 |Table|Description|
 |-----|-----------|
+|analytics\_visualization|Parent table for all sys\_report\* and par\_visualization\* tables. This table holds all fields common to both Platform Analytics data visualizations and Core UI reports.|
 |par\_component|Contains all data visualizations in the visualization library and all filters in the filter library. Extends sys\_metadata.|
 |par\_component\_permission|Contains the role, group, and user permissions for all data visualizations and filters in their respective libraries.|
 |par\_export|Lists all scheduled dashboard and data visualization exports. Extends sys\_metadata.|
@@ -27,6 +28,7 @@ The following tables relate to Platform Analytics data visualizations and can be
 |par\_notification\_email\_recipients|Stores groups and users who receive a notification email with a scheduled dashboard and data visualization export. Contains the non-metadata information for the emails.|
 |par\_visualization|Contains all data visualizations in the visualization library. Extends par\_component.|
 |par\_visualization\_permission|Contains the role, group, and user permissions for all data visualizations in the visualization library. Extends par\_component\_permission.|
+|report\_stats|Contains usage information for migrated reports and data visualizations including run times, most recent view time, and the number of recent executions.|
 
 **Parent Topic:**[Data visualization reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/data-visualization-reference.md)
 

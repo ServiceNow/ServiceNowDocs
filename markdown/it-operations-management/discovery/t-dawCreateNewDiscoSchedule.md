@@ -7,8 +7,8 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-12-09"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Running discoveries in your network, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -64,4 +64,11 @@ Role required: discovery\_admin
     |**Finish and run**|After being selected, all the information provided is validated. Then, a Discovery schedule is created in the background, a Discovery status is created, and the schedule is run. You're redirected to the Status Details page for the schedule.|
     |**Finish**|After being selected, all the information provided is validated. A Discovery schedule is created and you're redirected to its entry in the Discovery Schedules \[discovery\_schedule\] table. You can edit the schedule information or run it by selecting **Discover Now**.|
 
+
+## What to do next
+
+After you create and save a Discovery schedule, you can optionally configure the following settings:
+
+-   Define IP addresses or ranges to exclude from all Discovery schedules. See [Use Global Excludes List for IP addresses and ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/global-exlude-list.md).
+-   Define Discovery schedule attributes to automatically set CI field values such as location or asset tag on discovered CIs. You can define attributes at the schedule, range set, or IP address range level. See [Define CI field attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/define-ci-attributes.md).
 

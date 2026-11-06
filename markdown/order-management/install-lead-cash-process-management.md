@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/install-lead-cash-process-management.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Lead-to-Cash Process Management, Order operations apps, Configure, Sales Customer Relationship Management]
 ---
@@ -16,7 +16,7 @@ You can install the Lead-to-Cash Process Management application \(app-l2c-cockpi
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [Lead-to-Cash Process Management](https://store.servicenow.com/sn_appstore_store.do#!/store/application/05dc7eacff202210aa95ffffffffff1b) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 Role required: admin
@@ -63,4 +63,11 @@ The O2C Objects business object group also becomes available. It contains entiti
 ## What to do next
 
 Assign roles to Lead-to-Cash Process Management users so that they can access features and perform tasks using this app. For more information, see [Assign roles to Lead-to-Cash Process Management users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/assign-roles-lead-cash-process-management.md).
+
+**Related topics**  
+
+
+[Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-lead-cash-process-management.md)
+
+[Using Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-lead-cash-process-management.md)
 

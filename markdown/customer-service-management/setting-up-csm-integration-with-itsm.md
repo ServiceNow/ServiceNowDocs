@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/setting-up-csm-integration-with-itsm.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integrate with IT Service Management, Integrate, Customer Service Management]
 ---
@@ -32,7 +32,7 @@ Use the Guided Setup to integrate CSM with IT Service Management.
 
 </td></tr><tr><td>
 
-[Activate Customer Service Management with Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/activate-csm-sm-integration.md)
+[Install Customer Service Management with Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/install-csm-with-service-management.md)
 
 </td><td>
 
@@ -44,7 +44,7 @@ Activate the CSM with Service Management plugin \(com.sn\_cs\_sm\) to enable the
 
 </td></tr><tr><td>
 
-[Activate Customer Service Management with Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/activate-csm-rm-integration.md)
+[Install Customer Service Management with Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/install-csm-with-request-management.md)
 
 </td><td>
 

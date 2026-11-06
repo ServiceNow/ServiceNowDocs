@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/retail-industry/rahi-retail-add-hq-case-details.html
 release: zurich
 topic_type: task
-last_updated: "2026-01-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage store plans to generate cases and tasks, Manage store plans, Retail]
 ---
@@ -32,4 +32,6 @@ Role required: sn\_rtl\_hq\_ops.agent, sn\_rtl\_hq\_ops.agent\_manager, sn\_rtl\
 
 6.  Select **Save** to save the HQ case details or select **Save &amp; Continue** to go to the next step.
 
+
+**Parent Topic:**[Manage store plans to generate cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/rahi-retail-manage-store-plan-authoring.md)
 

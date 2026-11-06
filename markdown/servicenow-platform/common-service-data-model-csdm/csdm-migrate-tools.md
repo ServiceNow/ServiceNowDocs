@@ -1,5 +1,5 @@
 ---
-title: Assistance with the CSDM life-cycle sync process
+title: Assistance with the CSDM life-cycle synchronization process
 description: Several features help you to promote accuracy and completeness for the process of synchronizing legacy data with life-cycle data in the CSDM framework.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/common-service-data-model-csdm/csdm-migrate-tools.html
@@ -7,16 +7,16 @@ release: zurich
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Sync existing data, Configure, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Synchronize existing data, Configure, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Assistance with the CSDM life-cycle sync process
+# Assistance with the CSDM life-cycle synchronization process
 
 Several features help you to promote accuracy and completeness for the process of synchronizing legacy data with life-cycle data in the CSDM framework.
 
-## Before you perform the life-cycle sync process
+## Before you perform the life-cycle synchronization process
 
 -   **Legacy status values that are auto-updated**
 
@@ -49,15 +49,15 @@ Several features help you to promote accuracy and completeness for the process o
 
     If you already have CSDM data but not in the recommended tables, you can run a script to identify dependencies that you may have created on the nonconforming tables. The results of the script identify referenced dependencies such as reports, UI scripts, business rules, and other references for a specified table \(editable in the script\). See this [post on the Now Community site](https://www.servicenow.com/community/common-service-data-model/migrating-into-csdm-identifying-table-dependencies/ta-p/2308617)
 
--   **The life-cycle sync process presents the discrepancy report**
+-   **The life-cycle synchronization process presents the discrepancy report**
 
-    When you start the sync process, the discrepancy report [Enabling life-cycle sync from legacy-to-asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md) helps you to isolate and remediate mapping issues or missing data issues before proceeding with migration and synchronizing. The report identifies issues and presents links that take you to the mappings that must be resolved before you can sync the data.
+    When you start the synchronization process, the discrepancy report [Enabling life-cycle synchronization from legacy to asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md) helps you to isolate and remediate mapping issues or missing data issues before proceeding with migration and synchronization. The report identifies issues and presents links that take you to the mappings that must be resolved before you can synchronize the data.
 
 
-**Parent Topic:**[Migrate and sync existing data to the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/migrate.md)
+**Parent Topic:**[Migrate and synchronize existing data to the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/migrate.md)
 
 **Related topics**  
 
 
-[Enabling life-cycle sync from legacy-to-asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md)
+[Enabling life-cycle synchronization from legacy to asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md)
 

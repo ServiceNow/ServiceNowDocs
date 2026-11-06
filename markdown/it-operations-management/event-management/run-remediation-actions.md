@@ -38,7 +38,7 @@ Role required: evt\_mgmt\_admin or evt\_team\_operator
 
 4.  Select **+Create automation**.
 
-5.  Follow the steps in [Create Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/respond-alert-sow-itom.md).
+5.  Follow the steps in [Create Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/respond-alert-sow-itom.md).
 
 6.  To complete the setup, select **Mark as configured**.
 

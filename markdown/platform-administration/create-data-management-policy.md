@@ -1,20 +1,22 @@
 ---
-title: Create a data management policy
+title: Create a data management policy in Core UI
 description: Define a set of rules for managing table data on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/create-data-management-policy.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage data growth, Data Management, Tables and data, Configure core features, Administer]
+breadcrumb: [Manage data growth in Core UI, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Create a data management policy
+# Create a data management policy in Core UI
 
 Define a set of rules for managing table data on your instance.
 
 ## About this task
+
+Data management policies streamline administration by allowing you to define multiple archive and table cleaner rules for a table within a single policy record. Additionally, you can easily activate or deactivate all rules simultaneously from the data management policy record.
 
 After upgrading to Xanadu or higher, data management policies are automatically created for any table with an archive rule or table cleaner rule. If a data management policy doesn't exist for a table on your instance, you can create one manually.
 
@@ -86,8 +88,8 @@ A data management policy is established for the designated table. You can now cr
 
 Define archive and cleanup rules for the table by creating rules in the data management policy.
 
--   [Create an archive rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_CreateAnArchiveRule.md)
--   [Create a table cleanup rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/activate-table-cleanup.md)
+-   [Create an archive rule in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_CreateAnArchiveRule.md)
+-   [Create a table cleanup rule in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/activate-table-cleanup.md)
 
-**Parent Topic:**[Managing the growth of data on your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/data-management-policies.md)
+**Parent Topic:**[Managing data growth in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/data-management-policies.md)
 

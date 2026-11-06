@@ -1,26 +1,28 @@
 ---
 title: Access Management release notes
-description: The ServiceNow Access Management application provides robust tools to manage security data on the ServiceNow AI Platform. Access Management includes many controls, such as access control lists \(ACLs\), security attributes, contextual security manager, and data filtration. These controls provide granular control and help improve security for managing data access. Access Management was enhanced and updated in the Zurich release.The ServiceNow Access Management application provides robust tools to manage security data on the ServiceNow AI Platform. Access Management includes many controls, such as access control lists \(ACLs\), security attributes, contextual security manager, and data filtration. These controls provide granular control and help improve security for managing data access. Access Management is a new application in the Zurich release.
+description: The ServiceNow Access Management application provides robust tools to manage security data on the ServiceNow AI Platform. Access Management includes many controls, such as access control lists \(ACLs\), security attributes, security data filters, and machine identity access control. These controls provide granular control and help improve security for managing data access. See the following sections for release notes by version.The Brazil Early Availability release adds security features for Access Management.The Brazil Patch 5 release adds an agent to help you understand access control lists \(ACLs\) for Access Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/access-management-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow AI Platform security release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+breadcrumb: [ServiceNow AI Platform security release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Access Management release notes
 
-The ServiceNow® Access Management application provides robust tools to manage security data on the ServiceNow AI Platform. Access Management includes many controls, such as access control lists \(ACLs\), security attributes, contextual security manager, and data filtration. These controls provide granular control and help improve security for managing data access. Access Management was enhanced and updated in the Zurich release.
+The ServiceNow® Access Management application provides robust tools to manage security data on the ServiceNow AI Platform. Access Management includes many controls, such as access control lists \(ACLs\), security attributes, security data filters, and machine identity access control. These controls provide granular control and help improve security for managing data access. See the following sections for release notes by version.
 
 ## About Access Management
 
--   Enforce access to data via REST or SOAP endpoints using the Machine Identity Access Controls, which helps improve security, governance, and auditability.
--   Target all table columns of a given data type with a single ACL using Datatype ACLs.
--   Govern scripting permissions with the Scripting Governance tool, a new base system deny-by-default behavior.
+-   Validate access controls configured within various resources and agentic assets with Access Analyzer.
+-   Improve your security posture by ensuring that access to applications and data is granted on a least privilege basis with Zero Trust Access.
+-   Use Access Findings, the proactive detection and remediation layer within Access Management Console, to run base system access checks against your instance on a daily schedule.
+-   Restrict access to data by requiring users to pass a set of requirements before they can interact with it by using ACLs.
+-   Control which Customer Service and Support employees can access your instance, and when, using the SNC Access Control plugin \(com.snc.snc\_access\_control\).
 
-See [Access Control List Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/access-control-rules.md) for more information.
+See [Access Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/access-management-landing.md) for more information.
 
 ## Activation and other requirements
 
@@ -29,26 +31,32 @@ See [Access Control List Rules](https://raw.githubusercontent.com/ServiceNow/Ser
     Access Management is a ServiceNow AI Platform feature that is active by default.
 
 
-**Parent Topic:**[ServiceNow AI Platform security release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-platform-security-rn-landing.md)
+## Accessibility and localization
 
-## Zurich
+-   **Accessibility information**
 
-The ServiceNow® Access Management application provides robust tools to manage security data on the ServiceNow AI Platform. Access Management includes many controls, such as access control lists \(ACLs\), security attributes, contextual security manager, and data filtration. These controls provide granular control and help improve security for managing data access. Access Management is a new application in the Zurich release.
+    Coral is the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme uses brand-neutral illustrations. A dark theme option is available for web and mobile experiences.
+
+
+## Brazil Early Availability
+
+The Brazil Early Availability release adds security features for Access Management.
+
+### What's changed
+
+-   **[Explore Access Control Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/exploring-access-control-list.md)**
+
+    Improve access control predictability by enforcing strict denial when none of the referenced roles referenced in an ACL exist on the instance. This behavior doesn't apply to ACLs that have a mix of valid and invalid roles. This behavior is on by default for new instances. If you upgraded to this release, use the **glide.security.acl\_with\_invalid\_roles\_strict\_deny** property to turn it on. Navigate to **All** &gt; **Access Management** &gt; **Access Findings** to find these ACLs in the Access Checks list.
+
+
+## Brazil Patch 5
+
+The Brazil Patch 5 release adds an agent to help you understand access control lists \(ACLs\) for Access Management.
 
 ### What's new
 
--   **[Machine identity access controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/machine-identity-access-controls.md)**
+-   ****
 
-    Enforce fine-grained access to data via REST or SOAP endpoints using Machine Identity Access Controls. This feature enables you to define which integrations can access specific data, confirming that the integrations only have access to the resources they need.
-
--   **[Scripting Governance Tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/scripting-governance.md) tool and role**
-
-    Review and help reduce the number of users with scripting privileges using the Scripting Governance Tool. This tool helps improve platform security with scripting governance based on user role.
-
-    A new deny-by-default behavior is enforced for scripting unless you have the snc\_required\_script\_writer\_permission role. After an upgrade or zBoot, this role is automatically assigned via the Conditional Script Writer group.
-
--   **[Datatype ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/datatype-acl.md)**
-
-    Simplify and help reduce redundant ACL definitions with Datatype ACLs. Create a single ACL to target all table columns of a specific data type, streamlining access control configurations.
+    Understand what controls access to your ServiceNow resources without having to review every ACL. This agent finds inherited ACLs and other information automatically, without you having to open multiple ACLs to troubleshoot access to a resource.
 
 

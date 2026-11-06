@@ -5,15 +5,17 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/build-agent-reference-landing.html
 release: zurich
 topic_type: concept
-last_updated: "2026-04-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
+keywords: [reference, ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Build Agent reference
 
 Reference topics provide additional information about using Build Agent to create and edit apps, as well as ServiceNow metadata.
+
+Reference topics provide metadata compatibility information and example prompts to support your development workflow. Use the following topics alongside the task and concept documentation to get the most out of Build Agent.
 
 -   **[Supported metadata in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-supported-metadata.md)**  
 Metadata and app file types that Build Agent can create and manage.

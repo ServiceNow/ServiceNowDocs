@@ -7,22 +7,24 @@ release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Extend Your Employee Center to Pro
 
 The Extend Your Employee Center to Pro Accelerator provides prescriptive guidance on extending the Employee Center capabilities to include Pro features.
 
-## Overview
+## Accelerator Overview
 
 Extend Your Employee Center to Pro provides Impact customers with guidance on how to extend  their current Employee Center implementation with  Employee Center Pro features. Through an overview of Employee Center Pro features, such as Content Experiences, Publishing, and Employee Communications, customers are  educated on the features available with Employee Center Pro.
 
 Additionally, this Accelerator equips our customers with essential ServiceNow resources and leading  practice guides on how to best increase adoption and usage of the Employee Center Pro capabilities.  For additional information, see [Exploring Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/emp-center-vs-ec-pro.md).
 
-**Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
 
 Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 
@@ -30,8 +32,10 @@ Offered pursuant to the applicable ServiceNow Impact Package and Accelerator des
 
 -   **Session Preparation**
 
-    -   Provision a temporary instance 
-    -   Activate Employee Center Pro plugins
+    The Technical Accelerator Consultant:
+
+    -   Provisions a temporary instance 
+    -   Activates Employee Center Pro plugins
     ​
 
 -   **Customer Coaching Session \#1 \(Up to 90 minutes\)**

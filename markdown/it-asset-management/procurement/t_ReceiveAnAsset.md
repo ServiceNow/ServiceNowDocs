@@ -7,9 +7,9 @@ release: zurich
 product: Procurement
 classification: procurement
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Receive assets, Procurement, IT Asset Management]
+breadcrumb: [Receive assets, Procurement, Common applications, Asset Management]
 ---
 
 # Receive an asset
@@ -32,15 +32,15 @@ When you receive assets:
 
 1.  View purchase orders.
 
-<table id="choicetable_jg3_j33_4xb"><thead><tr><th align="left" id="d155866e71">
+<table id="choicetable_jg3_j33_4xb"><thead><tr><th align="left" id="d165496e71">
 
 UI
 
-</th><th align="left" id="d155866e74">
+</th><th align="left" id="d165496e74">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d155866e80">
+</th></tr></thead><tbody><tr><td id="d165496e80">
 
 **Core UI**
 
@@ -48,7 +48,7 @@ Action
 
 Navigate to **All** &gt; **Procurement** &gt; **Orders** &gt; **Purchase Orders**.
 
-</td></tr><tr><td id="d155866e104">
+</td></tr><tr><td id="d165496e104">
 
 **Hardware Asset Workspace**
 
@@ -58,9 +58,9 @@ Navigate to **All** &gt; **Procurement** &gt; **Orders** &gt; **Purchase Orders*
 2.  Select the **Purchase orders** tab.
 
 
-</td></tr><tr><td id="d155866e137">
+</td></tr><tr><td id="d165496e137">
 
-**Enterprise Asset Workspace**
+**Enterprise Asset WorkWorkspace**
 
 </td><td>
 
@@ -68,7 +68,7 @@ Navigate to **All** &gt; **Procurement** &gt; **Orders** &gt; **Purchase Orders*
 2.  Select the **Purchase orders** tab.
 
 
-</td></tr><tr><td id="d155866e170">
+</td></tr><tr><td id="d165496e170">
 
 **OT Asset Workspace**
 
@@ -143,7 +143,7 @@ Navigate to **All** &gt; **Procurement** &gt; **Orders** &gt; **Purchase Orders*
 
     7.  Enter the asset details that are required to proceed with receiving the assets.
 
-        If the assets that you’re receiving belong to model categories linked to a CI class with identification rules defined for fields like the Asset tag, Serial number, or MAC address, you should provide details for at least one of these fields. For example, if identification rules are defined for the Serial number and MAC address, you should provide a value for either of these fields to proceed. The Capture asset tags dialog box displays a message indicating the specific field values you should provide.
+        If the assets that you are receiving belong to model categories linked to a CI class with identification rules defined for fields like the Asset tag, Serial number, or MAC address, you should provide details for at least one of these fields. For example, if identification rules are defined for the Serial number and MAC address, you should provide a value for either of these fields to proceed. The Capture asset tags dialog box will display a message indicating the specific field values you should provide.
 
         The identification rules for a CI class are defined in the CMDB Identification and Reconciliation engine \(IRE\). For more details, see [Identification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/c_IdentificationRules.md) and [Create a CI identification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/t_CreateCIIdentificationRule.md). These rules help to uniquely identify the asset through these required fields and maintain accurate asset records.
 

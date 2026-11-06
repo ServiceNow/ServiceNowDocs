@@ -7,9 +7,9 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [Telecommunications Network Inventory function catalog, Reference, Telecommunications Network Inventory]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Function catalog, Reference, Telecommunications Network Inventory]
 ---
 
 # Path Search function
@@ -187,7 +187,7 @@ Option to select the action when the function fails. You can select an action fr
 Choice
 
 </td></tr></tbody>
-</table>To learn more about the variable data types, see Flow Designer input and output data variables.
+</table>To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/action-inputs-outputs.md).
 
 ## Output
 

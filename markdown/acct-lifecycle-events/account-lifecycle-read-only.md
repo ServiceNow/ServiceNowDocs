@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-read-only.html
 release: zurich
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Activate, Configure, Customer Success Management]
+breadcrumb: [Getting started, Configure, Customer Success Management]
 ---
 
 # Read-only field enhancements
@@ -22,4 +22,6 @@ Starting with Customer Success Management 5.3.11, the following plugins have sec
 -   Data Context Engine \[com.sn\_data\_ctx\_engine\]
 -   Telecom Core \[com.sn\_ind\_tsm\_core\]
 -   Product Capability Core \[com.sn\_prod\_cap\_core\]
+
+**Parent Topic:**[Getting started with Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-get-started.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Financial Services Card Operations
 classification: financial-services-card-operations
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up a new credit card account, Use, Card Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -34,15 +34,15 @@ A credit card task to evaluate the product eligibility is automatically created 
 
 3.  Open the task from a credit card service case or from the Credit Card Task list.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d73502e120">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d79642e120">
 
 Option
 
-</th><th align="left" id="d73502e123">
+</th><th align="left" id="d79642e123">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d73502e129">
+</th></tr></thead><tbody><tr><td id="d79642e129">
 
 **From a credit card service case**
 
@@ -53,7 +53,7 @@ Steps
 3.  In the case, click the **Tasks** tab and select the credit card task.
 
 
-</td></tr><tr><td id="d73502e162">
+</td></tr><tr><td id="d79642e162">
 
 **From the Credit Card Task list**
 

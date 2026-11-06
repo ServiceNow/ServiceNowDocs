@@ -7,7 +7,7 @@ release: zurich
 product: Document Management Services
 classification: document-management-services
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Document Management, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,6 +22,8 @@ Several types of components are installed with activation of the Document Manage
 Document Management is installed with these roles.
 -   **[Domain separation and Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/domain-separation-document-services.md)**  
 Domain separation is supported for Document Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+-   **[Granular admin roles in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/granular-admin-roles-dms.md)**  
+Granular admin roles enable organizations to assign specific administrative permissions based on functional responsibilities, replacing broad admin access with targeted role assignments. Use the new admin roles to grant users administrative capability without using the admin role.
 
 **Parent Topic:**[Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/document-management-services/doc-management-landing.md)
 

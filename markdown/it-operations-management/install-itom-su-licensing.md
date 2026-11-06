@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/install-itom-su-licensing.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---
@@ -17,7 +17,7 @@ Update the ServiceNow® ITOM/OT SU Licensing \[com.snc.itom.license\] applicatio
 ## Before you begin
 
 -   Ensure you have an ITOM product installed on your ServiceNow instance for the ITOM/OT SU Licensing application to work. Installing the ITOM/OT SU Licensing application is not required, as the system automatically installs the application alongside any ITOM product.
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [ITOM/OT SU Licensing](https://store.servicenow.com/sn_appstore_store.do#!/store/application/4cce117e53b9301046dfddeeff7b12eb/1.1.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%26q%3DITOM%2520Licensing&sl=sh) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 Role required: admin

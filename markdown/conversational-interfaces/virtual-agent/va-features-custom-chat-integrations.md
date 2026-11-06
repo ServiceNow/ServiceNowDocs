@@ -7,9 +7,9 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 8
-breadcrumb: [Conversational custom chat integrations, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+last_updated: "2026-09-10"
+reading_time_minutes: 9
+breadcrumb: [Create custom chat integrations, Configure, Virtual Agent, Conversational Interfaces]
 ---
 
 # Supported Virtual Agent and Agent Chat features for custom chat integrations
@@ -20,7 +20,7 @@ The chat integrations framework supports a multitude of Virtual Agent and Agent 
 
 -   **Synchronous authentication of messages**
 
-    Provider authentication is synchronous. They will get an immediate response with the request successful or failure code.
+    Provider authentication is synchronous. They will get an immediate response with the request successful or failure code. For configuration information, see [Synchronous authentication of messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/ccci-synch-auth-msgs.md).
 
     **Note:** As of the Paris release, asynchronous authentication is no longer supported.
 
@@ -30,7 +30,7 @@ The chat integrations framework supports a multitude of Virtual Agent and Agent 
 
 -   ****
 
-    Specify the outbound endpoint URL to which the Virtual Agent responses are posted and configure outbound authentication.
+    Specify the outbound endpoint URL to which the Virtual Agent responses are posted and configure outbound authentication. For configuration information, see [Outbound authentication using a token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/ccci-outbound-auth.md).
 
 -   **Secure data transfer**
 
@@ -46,8 +46,8 @@ The chat integrations framework supports a multitude of Virtual Agent and Agent 
 Design a rich and unique conversational experience for a channel through rich control transformation via inbound and outbound transformation scripts. All standard rich controls are supported. For detailed information about Virtual Agent controls, see the following sections:
 
 -   [Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-user-inputs.md)
--   [Assistant Designer Asset library bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md)
--   [Assistant Designer Asset library utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-utilities.md)
+-   [Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md)
+-   [Assistant Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-utilities.md)
 
 ## Supported Virtual Agent chat features
 
@@ -65,7 +65,7 @@ No configuration or scripting required to implement these features in Custom Cha
 
     Channels can be set up as either chat or messaging. For more information on long-running conversations, see [Using Asynchronous Chat in messaging channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/async-chat.md).
 
--   **[Custom Virtual Agent chat experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-default-chat-experience.md)**
+-   **[Custom Virtual Agent chat experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/configure-default-chat-experience.md)**
 
     Define a custom chat experience for a specific context in which your users run Virtual Agent.
 
@@ -99,7 +99,7 @@ No configuration or scripting required to implement these features in Custom Cha
 
 -   **Specify the default portal for URL navigation at the Provider Channel Identities level**
 
-    For a provider channel, specify the portal in which chat links, including links in output cards and cards for Virtual Agent notifications and AI Search results, are opened. For details on setting the default portal in the Provider Channel Identities \[sys\_cs\_provider\_application\] table, see [Create a channel identifier for your custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-channel-id-va-cccif.md). To learn more about URL navigation, see [Configure URL navigation for chat links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/ac-configure-url-navigation.md).
+    For a provider channel, specify the portal in which chat links, including links in output cards and cards for Virtual Agent notifications and AI Search results, are opened. For details on setting the default portal in the Provider Channel Identities \[sys\_cs\_provider\_application\] table, see [Create a channel identifier for your custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-channel-id-va-cccif.md). To learn more about URL navigation, see [\(Legacy\) Configure URL navigation for chat links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/ac-configure-url-navigation.md).
 
 
 ## Supported Agent Chat features
@@ -115,7 +115,7 @@ No configuration or scripting required to implement these features in Custom Cha
     -   Display agent name and avatar, if enabled in [Agent Chat settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/agent-chat/ac-configure-agent-chat.md).
 -   **Channel-level flag to initiate conversations with live agents, bypassing Virtual Agent**
 
-    Enable the **Live Agent Only** option in the Messaging Channels \[sys\_cs\_channel\] table to route conversations directly to a live agent and skip the Virtual Agent conversation greeting. If an agent isn't available, the message **No agent available** is displayed to the user. For channel configuration information, see [Create a new channel for your custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-channel-va-cccif.md).
+    Enable the **Live Agent Only** option in the Messaging Channels \[sys\_cs\_channel\] table to route conversations directly to a live agent and skip the Virtual Agent conversation greeting. If an agent isn't available, the message **No agent available** is displayed to the user. For channel configuration information, see [Create a channel for your custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-channel-va-cccif.md).
 
 -   **Pass the agent avatar and name if enabled in Agent Chat settings**
 
@@ -128,6 +128,10 @@ No configuration or scripting required to implement these features in Custom Cha
     -   The Virtual Agent Feedback setup topic is enabled.
     -   The chat service channel and the queues that your live agents support are configured in Advanced Work Assignment.
 
+-   **[Synchronous authentication of messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/ccci-synch-auth-msgs.md)**  
+Inbound message authentication is performed before the message is added to the hybrid queue.
+-   **[Outbound authentication using a token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/ccci-outbound-auth.md)**  
+Pass an outbound token from the authentication API to the sender script.
 -   **[Message delivery order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/ccci-message-delivery-order.md)**  
 Control message delivery order by enabling the **Maintain message ordering** option in the Provider Channel \[sys\_cs\_provider\] table. You can view the message order and status in the Custom Adapter Message \[sys\_cs\_ca\_message\] table.
 -   **[Virtual Agent action scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-action-scripts.md)**  

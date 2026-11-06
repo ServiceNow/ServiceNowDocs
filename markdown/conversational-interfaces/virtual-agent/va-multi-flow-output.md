@@ -7,9 +7,9 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Assistant Designer Asset library bot responses, Assistant Designer Asset library interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer bot responses, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Multi-response bot response control
@@ -78,176 +78,22 @@ No-code condition statement or low-code script that specifies a condition for pr
 </td></tr></tbody>
 </table>## Channel support
 
-<table id="table_v5p_kh4_tsb"><thead><tr><th>
-
-Channel
-
-</th><th>
-
-Support
-
-</th><th>
-
-Constraints
-
-</th></tr></thead><tbody><tr><td>
-
-Web UI
-
-</td><td>
-
-Supported
-
-</td><td>
-
-None
-
-</td></tr><tr><td>
-
-Mobile UI
-
-</td><td>
-
-Supported
-
-</td><td>
-
-None
-
-</td></tr><tr><td>
-
-ServiceNow Otto panel
-
-</td><td>
-
-Not supported
-
-</td><td>
-
-Not applicable
-
-</td></tr><tr><td>
-
-Microsoft Teams
-
-</td><td>
-
-Supported
-
-</td><td>
-
-None
-
-</td></tr><tr><td>
-
-Slack
-
-</td><td>
-
-Supported
-
-</td><td>
-
-None
-
-</td></tr><tr><td>
-
-Workplace
-
-</td><td>
-
-Supported
-
-</td><td>
-
-None
-
-</td></tr><tr><td>
-
-Facebook Messenger
-
-</td><td>
-
-Not supported
-
-</td><td>
-
-Not applicable
-
-</td></tr><tr><td>
-
-SMS Twilio
-
-</td><td>
-
-Not supported
-
-</td><td>
-
-Not applicable
-
-</td></tr><tr><td>
-
-LINE
-
-</td><td>
-
-Not supported
-
-</td><td>
-
-Not applicable
-
-</td></tr><tr><td>
-
-WhatsApp \(Twilio\)
-
-</td><td>
-
-Not supported
-
-</td><td>
-
-Not applicable
-
-</td></tr><tr><td>
-
-WhatsApp
-
-</td><td>
-
-Partial support
-
-</td><td>
-
-HTML is not supported. Response type text and link have a maximum limit of 1,024 characters.
-
-</td></tr><tr><td>
-
-Apple Messages for Business
-
-</td><td>
-
-Not supported
-
-</td><td>
-
-Not applicable
-
-</td></tr><tr><td>
-
-Alexa \(Voice\)
-
-</td><td>
-
-Partial support
-
-</td><td>
-
-Supported on devices with screens. For non-screen devices, the user receives a message if unsupported elements are used: `We found a link`. For details, see [Fine-tune Virtual Agent settings and topics for the best Alexa voice chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-settings-for-alexa.md).
-
-</td></tr></tbody>
-</table>## Example Multi-response control
+|Channel|Support|Constraints|
+|-------|-------|-----------|
+|Web UI|Supported|None|
+|Mobile UI|Supported|None|
+|ServiceNow Otto panel|Not supported|Not applicable|
+|Microsoft Teams|Supported|None|
+|Slack|Supported|None|
+|Workplace|Supported|None|
+|Facebook Messenger|Not supported|Not applicable|
+|SMS Twilio|Not supported|Not applicable|
+|LINE|Not supported|Not applicable|
+|WhatsApp|Not supported|Not applicable|
+|Apple Messages for Business|Not supported|Not applicable|
+|Alexa \(Voice\)|Partial support|Supported on devices with screens. For non-screen devices, the user receives a message if unsupported elements are used: `We found a link`. For details, see [\(Legacy\) Fine-tune Virtual Agent settings and topics for the best Alexa voice chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/va-settings-for-alexa.md).|
+
+## Example Multi-response control
 
 **Note:** Asset library controls may display and function differently in other channels.
 
@@ -265,8 +111,8 @@ Multi-response output
 
 </td><td>
 
- 
+\[Omitted image "va-multi-flow-web.png"\] Alt text: A basic response includes text output followed by a hyperlink.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Assistant Designer Asset library bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md)
+</table>**Parent Topic:**[Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md)
 

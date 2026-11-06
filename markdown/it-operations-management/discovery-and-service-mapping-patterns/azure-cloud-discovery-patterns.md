@@ -7,7 +7,7 @@ release: zurich
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2025-11-26"
+last_updated: "2026-10-13"
 reading_time_minutes: 16
 keywords: [Patterns, Azure, Cloud, Discovery]
 breadcrumb: [Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
@@ -62,7 +62,9 @@ Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servi
 
 ## Azure resources discovery by datacenters
 
-Azure has multiple datacenters around the world, but resources like load balancers and virtual machines are typically deployed in only some of them. The **Azure Datacenter Discovery** pattern executes before all other Azure patterns to identify the datacenters that have resources related to your service account \("active"\) and the datacenters that don't have your resources \("passive"\). This model improves the performance of the Azure discovery. This execution model is more efficient than the previous one, in which all datacenters were discovered regardless of having relevant resources in them.
+Azure has multiple datacenters around the world, but resources like load balancers and virtual machines are typically deployed in only some of them. The **Azure Datacenter Discovery** pattern executes before all other Azure patterns to identify the datacenters that have resources related to your service account \("active"\) and the datacenters that don't have your resources \("passive"\).
+
+This model improves the performance of the Azure discovery. This execution model is more efficient than the previous one, in which all datacenters were discovered regardless of having relevant resources in them.
 
 After identifying the "active" and "passive" datacenters, the Discovery schedule continues to execute all Azure patterns only for the "active" datacenters, to discover your Azure cloud resources. The "passive" datacenters are ignored while running the schedule.
 
@@ -81,7 +83,7 @@ If the MID Server property is set to **false**, the Azure Datacenters table show
 
 For management groups, Azure Cloud Discovery discovers all Azure datacenters.
 
-Starting with Discovery and Service Mapping Patterns version 1.29.0, the **Refresh Datacenters** flow displays all regions, not just active ones. You don’t need to create another schedule when a resource is added or a datacenter switches from passive to active.
+Starting with Discovery and Service Mapping Patterns version 1.29.0, the **Refresh Datacenters** flow displays all regions, not just active ones. You don't need to create another schedule when a resource is added or a datacenter switches from passive to active.
 
 ## Azure Hardware Type discovery
 
@@ -170,7 +172,7 @@ Either **Hardware Type \(LP\)** pattern or **Cloud Hardware Type \(LP\)** patter
 </td></tr></tbody>
 </table>## Tag information collected by Discovery during horizontal discovery
 
-When running the patterns, tag information is collected to populate the cmdb\_key\_value table.​ Each tag is related to a CI that was discovered during the discovery.​ Tag discovery is done in the extension section of each pattern.
+When running the patterns, tag information is collected to populate the cmdb\_key\_value table. Each tag is related to a CI that was discovered during the discovery. Tag discovery is done in the extension section of each pattern.
 
 ## Data collected by Service Mapping during tag-based discovery
 
@@ -276,4 +278,8 @@ Discovery and Service Mapping Patterns finds Azure App Service web applications 
 [Azure Key Vault certificate discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/azure-certificate-discovery-pattern.md)
 
 [Microsoft Foundry \(classic\) pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/microsoft-foundry-classic-pattern.md)
+
+[Microsoft Foundry \(new\) pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/microsoft-foundry-new-pattern.md)
+
+[Microsoft Foundry Hub pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/microsoft-foundry-hub-pattern.md)
 

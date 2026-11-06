@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/ne-start-options-admin.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring start page options, Working in Next Experience, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Start page options, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Next Experience administrator start options
@@ -22,7 +22,7 @@ The start page that you configure should address your needs and the needs of you
 
 -   **Next Experience default landing page**
 
-    The default landing page provides information to help orient you to your tasks in an instance with Next Experience enabled. Variants of this page are available, depending on your setup. For more information, see [Exploring your Next Experience default landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/exploring-your-next-experience-homepage.md)
+    The default landing page provides information to help orient you to your tasks. Variants of this page are available, depending on your setup. For more information, see [Exploring your Next Experience default landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/exploring-your-next-experience-homepage.md).\[Omitted image "ne-landing-page-admin.png"\] Alt text: Next Experience default landing page.
 
 -   **Custom Next Experience landing page**
 
@@ -42,4 +42,6 @@ The start page that you configure should address your needs and the needs of you
 
     You can start with a responsive dashboard created in the classic environment to use an existing dashboard that isn't available in a configurable workspace. For more information, see [Set responsive dashboards as your home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/t_SetDashboardsAsHome.md).
 
+
+**Parent Topic:**[Configuring Next Experience start page options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

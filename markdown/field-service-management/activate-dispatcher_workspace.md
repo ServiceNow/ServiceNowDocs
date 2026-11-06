@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/activate-dispatcher\_workspace.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dispatcher Workspace, CSM/FSM Configurable Workspace, Configure, Field Service Management]
 ---
@@ -46,6 +46,14 @@ sn-fsm-components\[com.sn\_fsm\_components\].
 
 Provides the repository in which to store Field Service Management custom components to be used in the UI Builder.
 
+</td></tr><tr><td>
+
+Application Common Configurationsn\_app\_cmn\_config
+
+</td><td>
+
+This plugin provides a set of generic artifacts that can be used to define configuration of various aspects of an application.
+
 </td></tr></tbody>
 </table>## Procedure
 
@@ -57,7 +65,7 @@ Provides the repository in which to store Field Service Management custom compon
 
 3.  Select **Install** to start the installation process.
 
-    **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
+    **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/find-components.md).
 

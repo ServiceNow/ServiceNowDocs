@@ -7,10 +7,10 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 3
 keywords: [license key discovery, parser script, file-based discovery, configuration]
-breadcrumb: [Discovering a license key in a file-based discovery framework, Agent Client Collector File-Based Discovery, ACC deployment - endpoints, Agent Client Collector, IT Operations Management]
+breadcrumb: [Discovering a license key in a file-based discovery framework, ACC File-Based Discovery, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Configure a license key discovery rule and write a parser script
@@ -95,4 +95,6 @@ The parser is created first because the file-matching rule references it.
 ## Result
 
 Your new rule is active and the agent will automatically discover license keys from files matching your configuration. The discovered licenses appear in the appropriate tables when they are successfully matched in the software catalog.
+
+**Parent Topic:**[Discovering a license key in a file-based discovery framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/license-key-discovery-fbd.md)
 

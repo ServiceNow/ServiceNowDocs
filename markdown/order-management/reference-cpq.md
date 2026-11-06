@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/reference-cpq.html
 release: zurich
 topic_type: concept
-last_updated: "2025-11-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Sales Customer Relationship Management]
 ---
@@ -14,17 +14,21 @@ breadcrumb: [Reference, Sales Customer Relationship Management]
 
 Reference for configure, price, and quote applications.
 
--   **[Components installed with Pricing Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/components-installed-with-pricing-management.md)**  
-Several types of components are installed with activation of the Pricing Management plugin, including tables and user roles.
--   **[Components Installed with Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/components-installed-quote-management.md)**  
-Several types of components are installed with activation of the Quote Management plugin, including user roles.
+-   **[Advanced Approval Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/advanced-approval-management-reference.md)**  
+Reference topics provide additional information about Advanced Approval Management.
+-   **[Components installed with Advanced Approval Management AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/components-installed-with-advanced-approval-mgmt-AI.md)**  
+MCP tools are installed with activation of the Advanced Approval Management AI plugin.
+-   **[Pricing Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/price-management-reference.md)**  
+Reference topics provide additional information about the Pricing Management group of applications.
+-   **[Quote Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/quote-management-reference.md)**  
+Reference topics provide additional information about the Quote Management application.
+-   **[Quote creation via Self-Service fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/quote-creation-fields-self-service.md)**  
+Store the main details related to a quote submitted and track the life cycle of the quote through its stages on the self-service quote \(sn\_quote\_mgmt\_core\_quote\) table. Use the fields to manage and store information related to quote creation.
 -   **[Customer Contracts and Entitlements reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/pss-reference.md)**  
 Reference topics provide additional information on service contract life cycle and forms available within the Customer Contracts and Entitlements application.
 -   **[Components installed with Sales Agreement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/components-installed-sales-agreement.md)**  
 Several types of components are installed with activation of the Sales Agreement Management plugins, including tables and user roles.
--   **[Quote Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/quote-management-reference.md)**  
-Reference topics provide additional information about the Quote Management application.
--   **[ServiceNow CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/servicenow-cpq-reference.md)**  
+-   **[ServiceNow CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)**  
 Reference topics provide additional information about ServiceNow CPQ.
 
 **Parent Topic:**[Sales Customer Relationship Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-reference.md)

@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrate, ServiceNow for Zoom, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Integrating and using ServiceNow with Zoom, ServiceNow for Zoom, EmployeeWorks, Employee Service Management]
 ---
 
 # Enhance employee experience by integrating ServiceNow with Zoom

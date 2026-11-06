@@ -7,9 +7,9 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 11
-breadcrumb: [References, Software Asset Management, IT Asset Management]
+last_updated: "2026-03-12"
+reading_time_minutes: 12
+breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software Asset Management properties
@@ -19,6 +19,8 @@ You can set default reconciliation properties such as grouping and reconciliatio
 These properties are available for the Software Asset Management application.
 
 To access these properties, navigate to **All** &gt; **Software Asset** &gt; **Administration** &gt; **Properties**.
+
+You can also access the SAM properties using the Configuration Console for Software Asset Management. For more details about the Configuration Console for Software Asset Management, see [Configuration Console for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/config-console-sam.md).
 
 <table id="table_ygc_2lb_dbb"><thead><tr><th>
 
@@ -43,6 +45,16 @@ Determines how rights and software installations are grouped during reconciliati
 -   **Country**
 -   **Department**
 -   **Region**
+
+</td></tr><tr><td>
+
+com.snc.sam.auto\_suite\_inference
+
+</td><td>
+
+Automatically infers the parent software model suite for a software model based on its child software models.
+
+ Default value is **false**. When enabled, individual software installations get mapped to the appropriate suite entitlement for accurate license compliance calculations.
 
 </td></tr><tr><td>
 
@@ -241,7 +253,7 @@ Determines whether it’s more cost-effective to license the physical hosts or v
 
 Default Region for IBM Devicessn\_samp\_ibm\_lic.default\_region
 
-**Note:** This property is available only if you have activated the Software Asset Management publisher pack for IBM and installed the IBM License Compliance for Software Asset Management application. For details on how to install the application, see [Request the IBM License Compliance for Software Asset Management application for authorized Software Asset Management provider integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/request-ibm-license-compliance-sam-application.md).
+**Note:** This property is available only if you have activated the Software Asset Management publisher pack for IBM and installed the IBM License Compliance for Software Asset Management application. For details on how to install the application, see [Request the IBM License Compliance for Software Asset Management application for Authorized Software Asset Management Provider \(ASP\) integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/request-ibm-license-compliance-sam-application.md).
 
 </td><td>
 
@@ -312,6 +324,23 @@ com.snc.samp.manage.published.products
 Enables you to publish software products in the phase-wise Software Asset Management implementation and also remove the published software products. The default value of this property is **false**. By setting the value of this property to **true**, you can view reports and dashboards only related to the software products that you manage in a phase-wise implementation of Software Asset Management in the following views of the Software Asset Workspace:-   [Software asset overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-workspace-landing.md)
 -   [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-workspace-workbench.md)
 
+</td></tr><tr><td>
+
+samp.spend\_prediction\_service.max\_label\_attempts
+
+</td><td>
+
+Sets the maximum number of times the **SAM - Label Spend Transactions** scheduled job attempts to label a pending spend transaction. The default value is 3.
+
 </td></tr></tbody>
 </table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/references.md)
+
+**Related topics**  
+
+
+[Configuration Console for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/config-console-sam.md)
+
+[Configuration Console overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/config-console-overview.md)
+
+[Configure Software Asset Management using the Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/configure-sam-from-config-console.md)
 

@@ -1,144 +1,113 @@
 ---
 title: Threat Intelligence Security Center release notes
-description: The ServiceNow Threat Intelligence Security Center application enables your organization to connect security and IT teams so you can respond faster and more efficiently to threats. Threat Intelligence Security Center was enhanced and updated in the Zurich release.The ServiceNow Threat Intelligence Security Center application enables your organization to connect security and IT teams so you can respond faster and more efficiently to threats. Threat Intelligence Security Center was enhanced and updated in the Zurich release.
+description: The ServiceNow Threat Intelligence Security Center  application is built natively on the ServiceNow AI Platform to operationalize threat intelligence from feed ingestion and enrichment to investigation, response, and sharing. TISC enables security teams to act efficiently on intelligence and defend against threats.  See the following sections for release notes by version.Extract threat intelligence from unstructured documents using AI, sightings with CrowdStrike NextGen SIEM, and link TISC entities directly to security incidents in the SIR workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/secops-tisc-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Security Operations release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Security Operations release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Threat Intelligence Security Center release notes
 
-The ServiceNow® Threat Intelligence Security Center application enables your organization to connect security and IT teams so you can respond faster and more efficiently to threats. Threat Intelligence Security Center was enhanced and updated in the Zurich release.
+The ServiceNow® Threat Intelligence Security Center  application is built natively on the ServiceNow AI Platform to operationalize threat intelligence from feed ingestion and enrichment to investigation, response, and sharing. TISC enables security teams to act efficiently on intelligence and defend against threats.  See the following sections for release notes by version.
 
 ## About Threat Intelligence Security Center
 
--   External sharing is now generally available, allowing secure and automated sharing of threat intelligence in STIX 2.1 and MISP formats.
--   Redesigned the Investigation Canvas with activity timelines, added internal intelligence, improved node design and interactions, enhanced related records to retrieve all the associated records, and upgraded the MITRE card with filter capabilities for a smoother experience.
--   Introduced the ability to import events directly from the MISP server.
--   Implemented a unified mapping experience for the text based feeds such as TEXT, CSV, and JSON import formats.
--   Implemented confidence mapping for the CrowdStrike \(CS\) Feed as part of additional settings. You can now map the malicious confidence levels of CrowdStrike indicators to the observable confidence values.
+-   Accelerate threat response with AI by summarizing cases, generating reports automatically, and extracting threats directly from imported documents.
+-   Reduce investigation time by centralizing threat intelligence from external feeds and internal sources into a single system of action.
+-   Resolve threats faster by investigating and responding to cases in the Threat Analyst Workbench, using investigation canvases, MITRE ATT&amp;CK mapping, and case management.
+-   Strengthen partner collaboration by sharing threat intelligence securely across trust boundaries with inbound and outbound sharing profiles, TAXII servers, and redaction controls.
+-   Keep your intelligence library accurate with less effort by automating expiration, tagging, deduplication, and archival of threat data.
 
 See [Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/tisc-landing-page.md) for more information.
 
 ## Activation and other requirements
 
-**Important:** Threat Intelligence Security Center is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
-
 -   **Activation information**
 
-    Install Threat Intelligence Security Center by requesting it from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Install Threat Intelligence Security Center by requesting it from the [ServiceNow store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). Visit the [ServiceNow store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
+    Install ServiceNow Otto for Threat Intelligence Security Center \(TISC\) to use the AI features.
 
-## Accessibility and localization
-
--   **Accessibility information**
-    -   **Dark theme**
-
-        The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
+-   **Upgrade information**
+    -   Changes to the automated correlation rules affect which relationships are created after upgrade. Relationships created under the previous rule logic are preserved and aren't modified.
+    -   Creation of potential relationships stops once the potential relationship table reaches its configured volume threshold. Review the threshold configuration after upgrade if your instance ingests high-volume feeds.
+    -   The Relate Indicators with Objects Based on Common Observables correlation rule is removed. Relationships it created previously are preserved.
+-   **Additional requirements**
+    -   The CrowdStrike vulnerability intelligence feed requires a CrowdStrike subscription that includes vulnerability intelligence, such as Falcon Adversary Intelligence or Falcon Adversary Intelligence Premium.
+    -   Sighting search with CrowdStrike NextGen SIEM requires the CrowdStrike API base URL, a client ID, and a client secret. Which log repositories you can search depends on the Falcon subscriptions enabled on your account.
+    -   The Extract information from documents skill must be enabled for the AI-powered intelligence import.
 
 **Parent Topic:**[Security Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/security-operations-rn-landing.md)
 
-## Zurich
+## Brazil Early Availability
 
-The ServiceNow® Threat Intelligence Security Center application enables your organization to connect security and IT teams so you can respond faster and more efficiently to threats. Threat Intelligence Security Center was enhanced and updated in the Zurich release.
+Extract threat intelligence from unstructured documents using AI, sightings with CrowdStrike NextGen SIEM, and link TISC entities directly to security incidents in the SIR workspace.
 
 ### What's new
 
--   **[Configuring Threat Intelligence External Sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/tisc-intel-sharing.md)**
+-   ****
 
-    Take advantage of external sharing for secure, automated, and on-demand dissemination of threat intelligence using STIX 2.1 and MISP formats. Supports sharing across external agencies \(CISA, ISAC\), integrations \(SIEMs, EDRs\), TAXII-based TISC instances, and inbound intelligence from external entities.
+    Import threat advisories as PDF or image files and let AI extract structured IOCs, threat actors, malware, and campaigns in seconds. Review extracted entities in a dedicated pane, grouped by type with AI extraction confidence score and reasoning, before they enter the library. Every AI-assisted import is captured in an audit record for full traceability.
 
+-   **[Configure CrowdStrike NextGen SIEM sighting search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/tisc-crowdstrike-ngsiem-integration.md)**
 
--   **[Configure report templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/tisc-report-templates.md)**
-
-    Generate reports outside case management using base templates through a new reporting section in the Threat Intelligence Library.
-
-
--   **[Configure custom MISP API feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/tisc-premium-misp.md)**
-
-    Import events, attributes, and objects from the MISP server into the Threat Intelligence Library.
-
-
--   **[Configure Custom Event Types for Timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/tisc-config-timeline.md) and [Using Timeline in Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/tisc-timeline-events.md)**
-
-    Define, visualize, and manage timeline events associated with nodes through the Investigation Canvas.
-
-
--   **[Configure TISC add-on in Splunk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/tisc-configure-splunk.md)**
-
-    Include optional attributes during configuration that can be stored in the Splunk KV Store.
+    Search CrowdStrike Falcon NextGen SIEM for observable sightings directly from the Threat Intelligence Library, case artifacts, or an automated workflow, with results captured as sighting records on the observable.
 
 -   **[Configure Premium Threat Feed for CrowdStrike](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/premium-threat-feed-for-crowdstrike.md)**
 
-    Map CrowdStrike Indicator Malicious confidence to TISC confidence.
+    Ingest and correlate threat intelligence with integrated vulnerability intelligence feed from CrowdStrike.
 
--   **[View Threat Intel Feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/base-system-threat-intel-feeds.md)**
+-   **[Add security incident to TISC case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/add-incident-to-case.md)**
 
-    Map specific source values to required observable fields during import process.
+    Link entities to security incidents directly from either the SIR workspace or the entity record without creating a TISC case first.
+
+-   **[Create a related record to link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/tisc-create-new-related-record.md)**
+
+    Add related intelligence without leaving your investigation. Create and link new records from within your workflow.
+
+-   **[Observable extraction from indicator patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/tisc-extract-observables-from-indicators.md)**
+
+    Observables are extracted from STIX indicator pattern values during ingestion, added to the library, and related to the parent indicator automatically.
 
 
 ### What's changed
 
--   ****
+-   **[Automated correlation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/automated-correlation-rules.md)**
 
-    Introduced **Add From Internal Intelligence** option to include the data from the internal systems.
+    Confirmed relationship rules now apply reputation checks and direction-agnostic deduplication, producing accurate source-of-traffic and destination-of-traffic relationships. Potential correlation rules are more selective and correlation requires a reputation match plus multiple shared observables.
 
+-   **[TISC integration within SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/tisc-sir-workspace.md)**
 
--   **[Define an Observable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/define-an-observable.md)**
+    Directly link or unlink TISC entities in TISC Context tab of SIR workspace. The changes made in TISC context or TISC internal intelligence tab reflect bidirectionally.
 
-    Introduced a notice when deleting an observable record to help prevent accidental removal of its associated source records.
+-   **[CrowdStrike Falcon EDR integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/crowdstrike-edr-integration.md)**
 
+    Indicators sent to CrowdStrike Falcon EDR now carry "TISC Intelligence" as the source. A configuration option applies the TISC expiration time, falling back to the observable type expiration when the option is disabled. The Prevent action is supported alongside Detect.
 
--   **[Configure Custom Field Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/tisc-field-mapping.md)**
+-   **[Configure Premium Threat Feed for CrowdStrike](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/premium-threat-feed-for-crowdstrike.md)**
 
-    The list view has been replaced with a code editor in the Sample data \(Input\) section of the field mapping, preserving the original structure and formatting of raw data.
+    Ingest Vulnerability intelligence from CrowdStrike. Feed configurations are set to read-only when they're enabled, preventing changes that would disrupt an ingestion already in progress.
 
+-   **[Review revoked MITRE tactic and technique associations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/tisc-review-revoked-mitre-associations.md)**
 
--   **[Creating an investigation canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/tisc-create-canvas.md) Clear canvas button**
-
-    A **Clear canvas** button to clear the canvas permanently removes all nodes from the investigation canvas.
-
-
--   **[Manage Techniques](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/tisc-manage-techniques.md)**
-
-    Introduced Priority levels and TISC Tags to categorize and tag MITRE Techniques more effectively.
+    MITRE ingestion now provides a review queue for revoked technique-to-tactic associations that the newer MITRE ATT&amp;CK version no longer defines.
 
 
--   **[Components installed with Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/tisc-components-installed.md)**
+### What's deprecated or removed
 
-    Introduced a new system property to configure the default Traffic Light Protocol \(TLP\) level.
+-   **Now LLM service deprecation**
 
-
--   **[Import data using structured file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/import-data-using-structured-file.md)**
-
-    Introduced an **Add Observable\(s\) to Security Control List** drop-down list to enable the importing of Allow listed observables directly through Import Intelligence.
+    Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
 
 
--   **Coral theme**
+### Plugin information
 
-    Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+-   **New plugins**
 
-
--   ****
-
-    Aggregate and analyze the data from internal systems through internal intelligence included in the Investigation Canvas module to help you identify potential threats more effectively.
-
-
--   **[Import Intelligence in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/importing-threat-intelligence.md)**
-
-    Enhanced the Import Intelligence functionality to support direct import of allow list observables.
-
--   **[Working with Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/tisc-investigation-canvases.md)**
-
-    The Investigation Canvas feature has been extended to include customized nodes, node relationships, and node legends, as well as the grouping and ungrouping of nodes.
-
--   **[Investigation canvas and MITRE ATT&amp;CK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/investigation-and-mitre.md)**
-
-    Navigate and use the MITRE-ATT&amp;CK model within the Investigation Canvas more effectively by taking advantage of enhanced filtering options.
+    sn\_sec\_cs\_sighting: Integrates Threat Intelligence Security Center with CrowdStrike Falcon NextGen SIEM for sighting search.
 
 

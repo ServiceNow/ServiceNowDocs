@@ -7,9 +7,9 @@ release: zurich
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Storage Discovery via SMI-S and CIM, Storage discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
+breadcrumb: [Storage discovery via SMI-S and CIM, Storage discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
 
 # Configure SMI-S Provider for storage Discovery
@@ -43,5 +43,5 @@ Role required: admin
 8.  Run a basic IP address Discovery.
 
 
-**Parent Topic:**[Storage Discovery via SMI-S and CIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/r_DataCollDiscoStorageviaSMISCIM.md)
+**Parent Topic:**[Storage discovery via SMI-S and CIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/r_DataCollDiscoStorageviaSMISCIM.md)
 

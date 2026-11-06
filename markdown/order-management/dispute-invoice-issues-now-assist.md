@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/dispute-invoice-issues-now-assist.html
 release: zurich
 topic_type: task
-last_updated: "2026-08-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Use, ServiceNow Otto for Order Management]
+breadcrumb: [Invoice case self-service, Business Portal, Use, Sales Customer Relationship Management]
 ---
 
 # Dispute invoice issues using ServiceNow Otto Virtual Agent
@@ -103,7 +103,7 @@ If you express dissatisfaction or explicitly request human assistance at any poi
 
 When the dispute is resolved, an email notification is sent to you with a summary and a hyperlink to the case.
 
-**Parent Topic:**[Using ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-order-management-using.md)
+**Parent Topic:**[Invoice and invoice case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/invoice-case-self-service.md)
 
 **Related topics**  
 

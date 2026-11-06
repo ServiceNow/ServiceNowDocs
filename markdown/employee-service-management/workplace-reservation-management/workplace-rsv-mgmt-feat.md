@@ -1,13 +1,13 @@
 ---
 title: Workplace Reservation Management
-description: The ServiceNow Workplace Reservation Management application makes it easier for employees to reserve meeting rooms, conference rooms, desks, and add workplace services to a reservation from the Employee Center portal.
+description: The ServiceNow Workplace Reservation Management application makes it easier for employees to reserve meeting rooms, conference rooms, desks, and any reservable workplace service from the Service Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-reservation-management/workplace-rsv-mgmt-feat.html
 release: zurich
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [room booking, desk booking]
 breadcrumb: [Workplace Service Delivery, Employee Service Management]
@@ -15,7 +15,7 @@ breadcrumb: [Workplace Service Delivery, Employee Service Management]
 
 # Workplace Reservation Management
 
-The ServiceNow® Workplace Reservation Management application makes it easier for employees to reserve meeting rooms, conference rooms, desks, and add workplace services to a reservation from the Employee Center portal.
+The ServiceNow® Workplace Reservation Management application makes it easier for employees to reserve meeting rooms, conference rooms, desks, and any reservable workplace service from the Service Portal.
 
 ## Get started
 
@@ -44,4 +44,11 @@ The ServiceNow® Workplace Reservation Management application makes it easier fo
 [Reference \[Omitted image "icon-reference.png"\] Alt text: Reference Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/rsv-mgmt-references.md)
 
 </td></tr></tbody>
-</table>
+</table>## Additional resources
+
+-   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/hr-service-delivery-landing.md).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
+-   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).
+-   Connect with other Customer Service Management users at [Now Community](https://www.servicenow.com/community/).
+

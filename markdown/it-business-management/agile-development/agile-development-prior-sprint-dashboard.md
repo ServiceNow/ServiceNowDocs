@@ -7,9 +7,9 @@ release: zurich
 product: Agile Development
 classification: agile-development
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Performance Analytics Content Pack for Agile 2.0, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Performance Analytics Content Pack for Agile 2.0, Agile Development, Strategic Portfolio Management]
 ---
 
 # Agile 2.0 Prior Sprint Dashboard
@@ -95,7 +95,7 @@ The following are the breakdowns used by the indicators.
 
 ## Data visualizations
 
-You might be upgrading from version 1.0.2 or earlier of Performance Analytics Content Pack for Agile 2.0. In that case, install this dashboard from Solution Library to upgrade its layout and access the Sprint Burnup visualization. For more information, see [Upgrading the layout of Agile 2.0 dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/using-solution-library-for-agile-2.0-dashboards.md).
+If you are upgrading from version 1.0.2 or earlier of Performance Analytics Content Pack for Agile 2.0. Install this dashboard from Solution Library to upgrade its layout and access the Sprint Burnup visualization. For more information, see [Upgrading the layout of Agile 2.0 dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/using-solution-library-for-agile-2.0-dashboards.md).
 
 <table id="table_mbk_ndk_k3b"><thead><tr><th>
 

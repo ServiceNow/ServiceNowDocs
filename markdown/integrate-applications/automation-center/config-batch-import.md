@@ -7,9 +7,9 @@ release: zurich
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring data import, Create an automation source, Working with Connection manager, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Configuring data import, Create an automation source, Working with Connection Manager, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Configure batch import for data

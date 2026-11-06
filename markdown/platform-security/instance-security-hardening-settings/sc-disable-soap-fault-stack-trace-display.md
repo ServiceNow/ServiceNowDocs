@@ -7,7 +7,7 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuration, Hardening settings, Platform Security]
 ---
@@ -16,7 +16,9 @@ breadcrumb: [Configuration, Hardening settings, Platform Security]
 
 Manage how stack traces are displayed in your instance.
 
-Use the **glide.soapfault.display\_stack\_trace**property to manage stack traces in your instance. If this property is configured to **false**, then sensitive information could be leaked. If it is set to **true**, then no stack trace will display.
+If the **glide.soapfault.display\_stack\_trace** system property is not set to the recommended value of **false**, then a stack trace in a SOAP fault detail element is displayed.
+
+Ensure that the property **glide.soapfault.display\_stack\_trace** is set to **false**.
 
 ## More information
 
@@ -70,6 +72,14 @@ false
 
 </td></tr><tr><td>
 
+Fallback value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
 Category
 
 </td><td>
@@ -83,8 +93,16 @@ Security risk
 </td><td>
 
 -   Severity score: 4.3
--   CVSS score: Medium
--   Security risk details: Setting this property to **false** could expose sensitive information from the stack trace.
+-   CVSS rating: Medium
+-   Security risk details: Displaying stack traces to users could lead to sensitive information disclosure.
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+None
 
 </td></tr><tr><td>
 

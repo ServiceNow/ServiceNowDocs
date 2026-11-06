@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/par-migration-tables.html
 release: zurich
 topic_type: reference
-last_updated: "2025-09-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Platform Analytics Migration Center, Platform Analytics experience, Platform Analytics]
 ---

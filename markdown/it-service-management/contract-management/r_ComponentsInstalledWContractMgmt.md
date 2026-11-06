@@ -7,9 +7,9 @@ release: zurich
 product: Contract Management
 classification: contract-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Contract Management, Asset Management, IT Service Management]
+breadcrumb: [Contract Management, Asset Management common applications, IT Service Management]
 ---
 
 # Components installed with Contract Management

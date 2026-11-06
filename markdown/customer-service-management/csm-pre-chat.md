@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-pre-chat.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the Consumer Service Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Consumer Service Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Pre-chat from the Consumer Service Portal
@@ -20,7 +20,7 @@ Role required: sn\_customerservice.consumer
 
 ## Procedure
 
-1.  Click the **Open chat window** icon on the portal page or use Facebook messenger if you are a Facebook user.
+1.  Select the chat icon \( \[Omitted image "chat-icon.png"\] Alt text: Chat icon.\) on the portal page or use Facebook messenger if you are a Facebook user.
 
 2.  Answer the questions that help set the context for an agent to resolve your issue.
 

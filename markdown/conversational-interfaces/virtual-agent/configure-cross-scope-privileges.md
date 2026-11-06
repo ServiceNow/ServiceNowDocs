@@ -7,7 +7,7 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Virtual Agent, Cross-scope, privileges, topic block, custom control]
 breadcrumb: [Configure, Virtual Agent, Conversational Interfaces]
@@ -50,6 +50,4 @@ Developers and topic authors may need to access [topic blocks](https://raw.githu
 ## Result
 
 The cross-scope privilege is listed in the Cross scope privileges \[sys\_scope\_privilege\] table. Topic authors or developers can access the topic blocks or custom controls from the target scope.
-
-**Parent Topic:**[Configuring Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-virtual-agent.md)
 

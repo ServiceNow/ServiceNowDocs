@@ -7,9 +7,9 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Assistant Designer Asset library bot responses, Assistant Designer Asset library interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer bot responses, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Table bot response control
@@ -155,19 +155,11 @@ No-code condition statement or low-code script that specifies a condition for pr
 
 |Channel|Support|Constraints|
 |-------|-------|-----------|
-|Web UI|Supported|None|
-|Mobile UI|Supported|None|
-|ServiceNow Otto panel|Not supported|Not applicable|
 |Microsoft Teams|Supported|None|
 |Slack|Supported|None|
-|Workplace|Supported|None|
-|Facebook Messenger|Not supported|Not applicable|
 |SMS Twilio|Not supported|Not applicable|
-|LINE|Supported|None|
-|WhatsApp \(powered by Twilio\)|Not supported|Not applicable|
-|WhatsApp|Supported|The header and fields together have a limit of 1,024 characters. You can view only 10 rows of the table at a time. If there are more than 10 rows, the pagination format is used to view more options.|
-|Apple Messages for Business|Supported|None|
-|Alexa \(Voice\)|Partial support|Supported on devices with screens. For nonscreen devices, the table will be read, if possible. For details, see [Fine-tune Virtual Agent settings and topics for the best Alexa voice chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-settings-for-alexa.md).|
+|WhatsApp|Not supported|Not applicable|
+|Google Chat|Supported|None|
 
 ## Example Table bot response output
 
@@ -187,12 +179,12 @@ Table bot response output
 
 </td><td>
 
- 
+\[Omitted image "table-bot-response-web-ui.png"\] Alt text: Table in a chat window that displays the 2020 Company Holidays by Holiday and Date.
 
 </td></tr><tr><td>
 
 \[Omitted image "table-bot-response-mobile.png"\] Alt text: Table in a chat window that displays the first six 2021 Company Holidays by Holiday and Date. The user can choose an option to view all 11 rows.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Assistant Designer Asset library bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md)
+</table>**Parent Topic:**[Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md)
 

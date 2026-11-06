@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/tb-edit-theme.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [customize theme, edit theme, manage theme, change theme]
 breadcrumb: [Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
@@ -17,7 +17,9 @@ Customize and manage your theme and styling in a time and cost efficient way. Af
 
 ## Before you begin
 
-Role required: admin
+Role required: ui\_builder\_admin
+
+For information on granular roles, see .
 
 ## Procedure
 
@@ -43,14 +45,14 @@ Role required: admin
     -   Delete: permanently removes the theme from your list.
     -   Add alternate color palette: applies a different color scheme to the theme for variation.
     -   Unpublish: removes the theme from active use without deleting it, so you can edit or republish later.
-    -   Mark as default: sets the theme as the first option shown in the Next Experience Theme user preference. This option appears if the theme isn’t the current default theme.
+    -   Mark as default: sets the theme as the first option shown in the Next Experience Theme user preference. This option appears if the theme is not the current default theme.
     Use the More actions icon \[Omitted image "tb-more-actions.png"\] Alt text:on a published theme with an alternate color palette defined to access these options:
 
     -   Edit group name: renames the theme group, which includes the base theme and all its alternate color palettes.
     -   Duplicate: creates a copy of the theme for reuse or modification.
     -   Delete: permanently removes the theme from your list.
     -   Unpublish: removes the theme from active use without deleting it, so you can edit or republish later.
-    -   Mark as default: sets the theme as the first option shown in the Next Experience Theme user preference. This option appears if the theme isn’t the current default theme.
+    -   Mark as default: sets the theme as the first option shown in the Next Experience Theme user preference. This option appears if the theme is not the current default theme.
     Use the More actions icon \[Omitted image "tb-more-actions.png"\] Alt text:on an unpublished theme to access these options:
 
     -   Duplicate: creates a copy of the theme for reuse or modification.
@@ -59,15 +61,15 @@ Role required: admin
     -   Publish: makes the theme available for use.
 3.  Choose the theme you want to edit using one of the following ways.
 
-<table id="choicetable_v1x_lnb_qfc"><thead><tr><th align="left" id="d52982e234">
+<table id="choicetable_v1x_lnb_qfc"><thead><tr><th align="left" id="d53155e240">
 
 Page
 
-</th><th align="left" id="d52982e237">
+</th><th align="left" id="d53155e243">
 
 Option
 
-</th></tr></thead><tbody><tr><td id="d52982e243">
+</th></tr></thead><tbody><tr><td id="d53155e249">
 
 **Manager \(Grid view\)**
 
@@ -75,7 +77,7 @@ Option
 
 From the Published or Unpublished section, choose the theme you want to edit and select **Edit**.
 
-</td></tr><tr><td id="d52982e255">
+</td></tr><tr><td id="d53155e261">
 
 **Manager \(List view\)**
 
@@ -83,7 +85,7 @@ From the Published or Unpublished section, choose the theme you want to edit and
 
 From the Published or Unpublished section, choose the theme you want to edit and select the pencil icon \[Omitted image "pencil-icon.png"\] Alt text:.
 
-</td></tr><tr><td id="d52982e269">
+</td></tr><tr><td id="d53155e275">
 
 **Editor**
 
@@ -108,17 +110,17 @@ Choose the theme you want to edit from the Theme drop-down list.\[Omitted image 
     -   **Shape**: Update the corner shapes of on-screen components. For more information, see [Edit corner shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/edit-corner-shapes.md).
 5.  Preview your theme before publishing.
 
-    1.  Select the **Experience preview** tab from the Global styles panel.
+    1.  Select the **Experiences** tab from the Global styles panel.
 
     2.  Select the experience that you want to preview from the Experience drop-down list.
 
     3.  Select the Open in new tab icon \[Omitted image "tb-icon-open-new-tab.png"\] Alt text: to open the experience in a new tab.
 
-        \[Omitted image "tb-experience-preview-1.png"\] Alt text: Global styles experience preview screen with Admin Center experience selected.
+        \[Omitted image "tb-experience-preview-1.png"\] Alt text: Global styles experience preview screen.
 
         An actual live instance appears with all the theme selections applied. You can preview it before implementing the selected themes on the actual instance.
 
-        **Note:** For published themes, data in the Experience preview is live data. The changes that you make in the preview are reflected on your instance.
+        **Note:** For published themes, data in the Experiences preview is live data. The changes that you make in the preview are reflected on your instance.
 
 6.  Publish your theme.
 
@@ -126,13 +128,13 @@ Choose the theme you want to edit from the Theme drop-down list.\[Omitted image 
 
 
 -   **[Core styles, colors, variants, and alternate color palettes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/difference-themes-variants.md)**  
-You can tailor the look and feel of the Next Experience UI for different users by configuring the core styles, variants, and alternate color palettes.
+You can tailor the look and feel of the Next Experience UI for different users by configuring the core styles, variants, and alternate color palettes. Core styles define the base theme, variants support accessibility needs, and alternate color palettes provide cosmetic customization options for end users.
 -   **[Add an alternate color palette](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/tb-edit-color-palette.md)**  
 Customize a Theme Builder theme by creating an alternate color palette for the theme and publishing it to your instance.
 -   **[Working with Global styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/working-with-global-styles.md)**  
 Global styles enable you to edit and define core design elements like fonts, colors, and shapes that apply across your entire theme.
 -   **[Working with Component styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/working-with-component-styles.md)**  
-Component styles enable you to fine-tune the appearance of individual UI elements such as buttons, form controls, and navigation.
+Component styles enable you to fine-tune the appearance of individual UI elements such as buttons, form controls, and navigation without affecting global theme settings. Use component styles when you need more granular control than what Global styles provide.
 -   **[Working with Image styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/working-with-image-styles.md)**  
 Image styles enable you to experiment with different color schemes for illustrations and replace default illustrations with your own custom images. The Image styles feature provides flexibility in customizing the visual elements of your theme.
 

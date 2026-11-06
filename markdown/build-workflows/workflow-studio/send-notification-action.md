@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Actions, Flows, subflows, and actions reference, Reference, Workflow Studio, Build workflows]
+breadcrumb: [Actions, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Send Notification action
@@ -55,7 +55,7 @@ Use these general guidelines when using the Send Notification action.
 
 -   **Use a Integration Hub spoke action for other types of notifications**
 
-    Use an Integration Hub spoke action to send a notification through an external service such as Microsoft Teams. For a list of available integration spokes and their actions, see .
+    Use an Integration Hub spoke action to send a notification through an external service such as Microsoft Teams. For a list of available integration spokes and their actions, see [Integration Hub spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/spokes-list.md).
 
 
 **Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-actions.md)

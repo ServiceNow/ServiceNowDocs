@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: task
-last_updated: "2026-03-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Google Calendar - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
@@ -22,7 +22,7 @@ Ensure the following:
 
 -   You have created the connection and credential alias. If not, do one of the following:
     -   Configure the default connection and credential alias. Refer to [Create a Connection and credential record for Google](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-calendar-synchronization/create-connection-configuration-with-google.md).
-    -   Create your own connection and credential alias if you do not want to use the default alias. Refer to [Configure your own Google connection and credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-calendar-synchronization/configure-your-own-google-connection-and-credential-alias.md).
+    -   Create your own connection and credential alias if you do not want to use the default alias. Refer to .
 -   Application scope is set to **Google Calendar Spoke**. If it is not set, complete the following:
     1.  Select the Application scope icon \(\[Omitted image "application-scope-globe-icon.png"\] Alt text: Application scope icon.\) your Employee Center homepage.
     2.  In the drop- down, select **Application scope**.

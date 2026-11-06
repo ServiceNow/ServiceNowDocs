@@ -7,9 +7,9 @@ release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [PDR external-facing form, Personal Data Rights \(PDR\), Privacy Management, Governance, Risk, and Compliance]
+breadcrumb: [Use, Personal Data Rights \(PDR\), Privacy Management, Governance, Risk, and Compliance]
 ---
 
 # Submit privacy requests using external-facing PDR form
@@ -58,4 +58,9 @@ After submitting your privacy request, verify your email address using a six-dig
 After successful verification, your privacy request is submitted for processing, and you receive an acknowledgment email with your PDR case number. If you submitted as an authorized agent, you receive an email asking you to provide proof of authorization for the request. After that proof is validated, the privacy team reviews the request and responds within the timeframe required by applicable privacy laws.
 
 **Note:** If you enter the verification code incorrectly or skip it, the request is not processed. For security reasons, you can't retry the code on the same submission. Start a new request if verification fails. This protects your data and the organization's systems from unauthorized or repeated attempts.
+
+-   **[External-facing PDR form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/ext-form-intake-fields.md)**  
+Use the field descriptions as reference when you fill the external-facing Personal Data Rights \(PDR\) form.
+
+**Parent Topic:**[Using Personal Data Rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/using-personal-data-right.md)
 

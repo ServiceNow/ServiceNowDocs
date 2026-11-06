@@ -7,9 +7,9 @@ release: zurich
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Universal Request, Configure, Universal Request, Employee Service Management]
+breadcrumb: [Configuring Universal Request, Setting up and configuring Universal Request, Universal Request, Employee Service Management]
 ---
 
 # Predictive Intelligence for Universal Request
@@ -94,8 +94,8 @@ Identifies and predicts that the UR is sensitive based on the short description 
 Train the Universal Request classification solution definition to identify and predict an assignment group using the short description and create service level tickets that are associated with the universal request.
 -   **[Train the similarity solution for similar knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/train-similarity-for-articles-ur.md)**  
 Train the Similar Knowledge articles for UR solution definition to identify and predict knowledge articles using the short description. When an agent opens a universal request, similar knowledge articles are displayed in the Related Search section of the Universal Request record.
--   **[Train the similarity solution for similar closed Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/train-similarity-for-closed-ur.md)**  
-Train the Similar Closed Universal Request solution definition to identify and predict similar Universal Request that are closed based on the short description, description, and the assignment group of the Universal Request created. When an agent opens a universal request, similar closed universal requests can be searched in the Related Search section of the Universal Request record.
+-   **[Train the similarity solution for similar closed Universal Requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/train-similarity-for-closed-ur.md)**  
+Train the Similar Closed Universal Request solution definition to identify and predict similar Universal Requests that are closed based on the short description, description, and the assignment group of the Universal Request created. When an agent opens a universal request, similar closed universal requests can be searched in the Related Search section of the Universal Request record.
 -   **[Train the classification solution to identify UR with sensitive information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-request-for-hr-service-delivery/train-classification-identify-restrict-ur.md)**  
 Train the Universal Request classification solution definition to identify and predict universal request with sensitive information using the short description and description. The solution identifies and marks the UR as restricted, allowing only agents with access or from the assignment group to work on the request.
 

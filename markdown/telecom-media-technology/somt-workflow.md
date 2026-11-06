@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/somt-workflow.html
 release: zurich
 topic_type: concept
-last_updated: "2026-10-09"
-reading_time_minutes: 5
+last_updated: "2026-11-06"
+reading_time_minutes: 6
 breadcrumb: [Explore, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
@@ -26,9 +26,9 @@ This diagram showcases the following key stages in the lifecycle including lead 
     -   **Configure, price, and quote**: Handles the detailed commercial configuration, pricing, and feasibility validation to ensure the proposed solution can be delivered. Feasibility results determine offer eligibility, compatibility, and pricing. The account is mandatory with a complete structure and hierarchy, and location information for all accounts must be provided. Site-level product configuration occurs at each child account, and global SLAs from the sales agreement apply automatically. The offer is configured with confirmed pricing, and approvals or repricing activities are completed. Quote versions accommodate iterative refinement. Quote confirmation produces a summary document and requires legal signature before proceeding to contract creation.
     -   **Create sales agreement**: Establishes the commercial framework and negotiates terms and conditions that govern all subsequent quotes and the entire customer relationship. Agreement is the reference for future quotes. Customer account is mandatory at the legal level, product catalog is also mandatory. Global level service-agnostic SLAs are negotiated that cascade to all service contracts. Terms and conditions for partner services are also negotiated at this level.
 
-        **Note:** This is applicable if an existing customer wants to create a new quote. In this case, the existing contract is used as a reference and a quote is immediately generated.
+        **Note:** This is applicable if an existing customer wants to create quote. In this case, the existing contract is used as a reference and a quote is immediately generated.
 
-4.  **Contract managementCreate sales contract**: Contracts can be sales contract or service contracts.
+4.  **Contract management / Create sales contract**: Contracts can be sales contract or service contracts.
     -   Sales contract: Following quote confirmation, the sales contract represents the legally binding commercial agreement between a customer and service provider. Quote confirmation is mandatory before proceeding, and accounts with contacts at the child level must be established. The sales contract directly reflects quote line items, capturing the confirmed commercial configuration, pricing, and terms.
     -   Service contract: Represents a post-confirmation contractual agreement that handles non-commercial configuration with entitlements and service level commitments. Entitlements are mandatory, modeled as Product Offering \(PO\) types, and must follow the global SLAs established in the sales agreement. Service contracts are created at the child account or site level based on specific quote Line Item configurations including routing type, access type, and POP redundancy requirements.
 5.  **Order submission**: The order consolidates all commercial and non-commercial configurations into a validated, ready-to-fulfill package. Account information including billing profile is mandatory. Order header and line items directly reflect the quote, maintaining traceability. Commercial modifications require reopening the quote, while non-commercial modifications occur directly in the order. The order is validated before approval.
@@ -39,8 +39,21 @@ This diagram showcases the following key stages in the lifecycle including lead 
     The workflow branches into two parallel paths for specialized handling of complex scenarios and exceptions.
 
     -   **Instantiate special project**: This path provides specialized handling for orders requiring project management discipline. A project is created with tasks designed for complex fulfillment scenarios. These scenarios include large enterprise deployments, multi-site installations, or any orders that require coordinated planning, resource management, and formal project tracking.
-    -   **Fall out management**: This path handles exception management and resolution. When orders encounter issues, errors, or require special intervention, this path ensures proper tracking, escalation, and resolution without blocking the main fulfillment flow. Problematic orders are managed separately while successful orders continue processing normally.
-9.  **Order closure**: The final stage consolidates fulfillment by progressively closing tasks at each level, from sub flows to domain orders to the complete order. Once all tasks are complete, the order closes and services are activated. Integration with the Configuration Management Database \(CMDB\) is established, enabling lifecycle management including monitoring, change control, and incident management.
+    -   **Fall out management**: This path handles exception management and resolution. When orders encounter issues, errors, or require special intervention, this path verifies proper tracking, escalation, and resolution without blocking the main fulfillment flow. Problematic orders are managed separately while successful orders continue processing normally.
+9.  **Order closure**: The final stage consolidates fulfillment by progressively closing tasks at each level, from sub flows to domain orders to the complete order. After all tasks are complete, the order closes and services are activated. Integration with the Configuration Management Database \(CMDB\) is established, enabling lifecycle management including monitoring, change control, and incident management.
 
-The Sales CRM for Telecommunications workflow, upon completion, activates services for customer use and fulfills the order. The workflow establishes CMDB integration for lifecycle management and monitoring. It creates service contracts with defined entitlements, maintains a complete audit trail for compliance, and provides end-to-end visibility across integrated systems.
+The Sales CRM for Telecommunications workflow, on completion, activates services for customer use and fulfills the order. The workflow establishes CMDB integration for lifecycle management and monitoring. It creates service contracts with defined entitlements, maintains a complete audit trail for compliance, and provides end-to-end visibility across integrated systems.
+
+## What to explore next
+
+To learn more about configuring and using, see:
+
+-   [Configuring product offerings and catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/configuring-product-offerings-catalog.md)
+-   [Configuring order priority and routing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/order-mgt-priority-management.md)
+-   [Integrating Order Management with southbound external systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/order-mgt-integrate-southbound.md)
+-   [Task plan templates driven order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/somt-flow-action-catalog-task.md)
+-   [Approving and fulfilling customer orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/order-mgt-fulfillment-processing.md)
+-   [Creating, reviewing, approving, and fulfilling service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/service-order-mgt-fulfilling-service-orders.md)
+-   [Creating orders for services, service changes, or disconnects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/order-capture-overview-service-orders.md)
+-   [Sales CRM for Telecommunications functional architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/somt-func-arch.md)
 

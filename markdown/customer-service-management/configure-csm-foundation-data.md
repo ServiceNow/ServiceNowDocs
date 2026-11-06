@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configure-csm-foundation-data.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Getting started with Customer Service Management, Set up your environment, Configure, Customer Service Management]
 ---
@@ -16,7 +16,7 @@ With Customer Service Management, you can import or create customer information 
 
 ## Before you begin
 
-Role required: admin
+Role required: csm\_guided\_setup\_user
 
 ## About this task
 
@@ -77,7 +77,7 @@ Import Consumers \(B2C\)
 
 </td><td>
 
-A consumer is a customer in the business-to-consumer \(B2C\) business model. Import and verify existing consumer data. For more information, see [Import consumers with guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/import-csm-consumers.md).
+A consumer is a customer in the business-to-consumer \(B2C\) business model. Import and verify existing consumer data. For more information, see [Import consumers through guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/import-csm-consumers.md).
 
 </td></tr><tr><td>
 
@@ -158,7 +158,7 @@ Import Install Base Items
 
 </td><td>
 
-Install base items represent the instances that have been configured for a customer. Each install base item references the configuration item record for the customer. For more information, see [Import Install base items with guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/import-csm-install-base-items.md).
+Install base items represent the instances that have been configured for a customer. Each install base item references the configuration item record for the customer. For more information, see [Import install base items with guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/import-csm-install-base-items.md).
 
 </td></tr><tr><td>
 
@@ -206,7 +206,7 @@ Create Account Teams
 
 </td><td>
 
-Account teams are made up of employees who fulfill specific jobs or roles for a particular account. Create these roles, or responsibility definitions, and then assign them to employees and contacts. For more information, see [Creating an account team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-csm-account-teams.md).
+Account teams are made up of employees who fulfill specific jobs or roles for a particular account. Create these roles, or responsibility definitions, and then assign them to employees and contacts. For more information, see [Creating an account team member](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-csm-account-teams.md).
 
 </td></tr></tbody>
 </table>

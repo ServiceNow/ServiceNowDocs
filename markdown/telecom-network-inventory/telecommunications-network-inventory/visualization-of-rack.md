@@ -1,20 +1,20 @@
 ---
-title: Rack / cabinet visualization
-description: Using rack or cabinet visualization in the Telecommunications Network Inventory application, you can visualize a rack or cabinet in the canvas. Here you can observe the loading of equipment and shelves into the front and rear accessible racks or cabinets, with each item placed in its designated Rack Units.
+title: Visualizing a rack or cabinet
+description: Visualize a rack or cabinet on the canvas using rack or cabinet visualization in the Telecommunications Network Inventory application. Observe the loading of equipment and shelves into front- and rear-accessible racks or cabinets, with each item placed in its designated slot—Rack Units
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/visualization-of-rack.html
 release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Explore, Telecommunications Network Inventory]
 ---
 
-# Rack / cabinet visualization
+# Visualizing a rack or cabinet
 
-Using rack or cabinet visualization in the Telecommunications Network Inventory application, you can visualize a rack or cabinet in the canvas. Here you can observe the loading of equipment and shelves into the front and rear accessible racks or cabinets, with each item placed in its designated Rack Units.
+Visualize a rack or cabinet on the canvas using rack or cabinet visualization in the Telecommunications Network Inventory application. Observe the loading of equipment and shelves into front- and rear-accessible racks or cabinets, with each item placed in its designated slot—Rack Units
 
 ## Rack visualization overview
 
@@ -36,7 +36,7 @@ The previous screenshot is an example of a rack. From the **Overview** tab of a 
 
     **Note:**
 
-    -   All rack capacities are calculated based on the capacity definition - rack capacity. To change the evaluation of the capacity, you can create a capacity definition and function. To learn more, see [Capacity management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configuring-capacity-management.md).
+    -   All rack capacities are calculated based on the capacity definition - rack capacity. To change the evaluation of the capacity, you can create a capacity definition and function. To learn more, see [Configuring capacity management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configuring-capacity-management.md).
     -   This KPI is only for racks.
 -   Explore different equipment types to optimize the placement of routers, shelves, or other network infrastructure.
 -   See both the front and rear views of the rack or cabinet.
@@ -87,6 +87,9 @@ To instantiate the creation of a rack or cabinet, you must:
 
     To learn more, see [Create a change request from Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/create_a_change_request_in_tni.md).
 
+
+-   See all the network interfaces for the equipment placed in a rack or cabinet, without opening each equipment record individually. To learn more, see [View network interfaces for rack or cabinet equipment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/view-network-interfaces-for-rack-or-cabinet-equipment.md)
+-   See all the physical connections for the equipment placed in a rack or cabinet, to audit connection status or find an available port before creating a new connection. To learn more, see [View physical connections for rack or cabinet equipment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/view-physical-connections-for-rack-or-cabinet-equipment.md)
 
 **Related topics**  
 

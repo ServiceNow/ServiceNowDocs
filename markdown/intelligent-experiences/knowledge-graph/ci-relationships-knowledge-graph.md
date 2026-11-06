@@ -7,19 +7,19 @@ release: zurich
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: concept
-last_updated: "2026-05-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [CI relationships, Rel CI, Knowledge Graph, CMDB, configuration items, CI relationship]
-breadcrumb: [Exploring Knowledge Graph, Knowledge Graph, Enable AI experiences]
+breadcrumb: [Exploring Knowledge Graph, Knowledge Graph, Managing data for AI, Enable AI Experiences]
 ---
 
 # Configuration item relationships and Knowledge Graph
 
 Configuration item \(CI\) Relationships enable Knowledge Graph to answer natural language questions about service dependencies and infrastructure topology by storing typed parent-child relationships between CMDB configuration items.
 
-The **CMDB\_REL\_CI** table stores relationships between configuration items \(CIs\) in the ServiceNow CMDB. Each relationship connects a parent CI to a child CI through a defined relationship type, enabling the Knowledge Graph to understand and traverse the topology of your IT environment.
+The **CMDB\_REL\_CI** table stores relationships between configuration items \(CIs\) in ServiceNow CMDB. Each relationship connects a parent CI to a child CI through a defined relationship type, enabling the Knowledge Graph to understand and traverse the topology of your IT environment.
 
-CI relationship support in Knowledge Graph allows users to ask natural language questions about how services, servers, databases, and other CIs relate to one another without writing queries or navigating CMDB tables directly.
+CI relationship support in Knowledge Graph enables users to ask natural language questions. You can ask about how services, servers, databases, and other CIs relate to one another without writing queries or navigating CMDB tables directly.
 
 ## Enabling CI relationship for Knowledge Graph
 
@@ -55,7 +55,7 @@ For example, a record in the CI relationship table has Bond Trading \(**cmdb\_ci
 The Knowledge Graph can answer questions about CI relationships when the query clearly specifies all three of the following:
 
 -   The class of the parent CI \(for example, service\)
--   The relationship direction — either the parent descriptor or child descriptor \(for example, depends on\)
+-   The relationship direction — either the parent to child relationship or child to parent relationship \(for example, depends on\)
 -   The class of the child CI \(for example, Linux server\)
 
 ## Class hierarchy inheritance
@@ -80,7 +80,7 @@ The following table shows examples of queries the Knowledge Graph can answer usi
 
 ## Unsupported query patterns
 
-The following query types aren't currently supported. Use the recommended alternatives to get the results you need.
+The following query types are not currently supported. Use the recommended alternatives to get the results you need.
 
 |Limitation|Unsupported Query|Recommended Alternative|
 |----------|-----------------|-----------------------|

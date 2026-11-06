@@ -7,7 +7,7 @@ release: zurich
 product: Contractor Service Center
 classification: contractor-service-center
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Contractor Service Center, Health and Safety, Employee Service Management]
 ---
@@ -42,7 +42,7 @@ Contractor Service Center application ships a default **CSC theme** that has the
 
     3.  Select **here** on the note to edit the record.
 
-    4.  Select the **Preview this record** icon \[Omitted image "icon-preview.png"\] Alt text: preview icon for the **Theme** field and select **Open record**.
+    4.  Select the **Preview this record** icon \(\[Omitted image "icon-preview.png"\] Alt text: preview icon\) for the **Theme** field and select **Open record**.
 
     5.  Select **here** on the note to edit the record.
 

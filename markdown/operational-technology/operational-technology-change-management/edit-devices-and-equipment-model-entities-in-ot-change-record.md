@@ -7,7 +7,7 @@ release: zurich
 product: Operational Technology Change Management
 classification: operational-technology-change-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Operational Technology Change Management, Operational Technology]
 ---
@@ -32,15 +32,15 @@ Role required: sn\_ot\_change\_write or sn\_ot\_change\_admin
 
 5.  Add or remove a related OT device.
 
-<table id="choicetable_x1v_mk5_g1c"><thead><tr><th align="left" id="d43498e108">
+<table id="choicetable_x1v_mk5_g1c"><thead><tr><th align="left" id="d43909e113">
 
 Action
 
-</th><th align="left" id="d43498e111">
+</th><th align="left" id="d43909e116">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d43498e117">
+</th></tr></thead><tbody><tr><td id="d43909e122">
 
 **Add a related OT device from the change record**
 
@@ -52,7 +52,7 @@ Description
 4.  Select **Add**.
 
 
-</td></tr><tr><td id="d43498e147">
+</td></tr><tr><td id="d43909e152">
 
 **Remove a related OT device from the change record**
 

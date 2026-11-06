@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/t\_EditMultiRecUsingEditingForm.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Methods for list edits, Lists in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -24,7 +24,7 @@ Depending on your ACL settings, some of these options might not be available eve
 
 1.  Perform one of the following actions.
 
-<table id="choicetable_f1q_l2n_pv"><tbody><tr><td id="d87198e66">
+<table id="choicetable_f1q_l2n_pv"><tbody><tr><td id="d85692e60">
 
 **Update selected records**
 
@@ -34,7 +34,7 @@ Depending on your ACL settings, some of these options might not be available eve
 2.  Select and hold \(or right-click\) any column header and select **Update Selected**.
 
 
-</td></tr><tr><td id="d87198e87">
+</td></tr><tr><td id="d85692e81">
 
 **Update all records in the list**
 

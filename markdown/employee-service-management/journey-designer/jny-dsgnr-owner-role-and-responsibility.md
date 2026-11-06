@@ -7,7 +7,7 @@ release: zurich
 product: Journey Designer
 classification: journey-designer
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Plan configuration components, Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Plan configuration components, Use, Journey designer, Employee Jour
 
 Plan configuration owners create and update plan configurations and publish changes.
 
-ServiceNow administrators [assign plan configuration owners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-assign-pconfig-owner-approver.md). The owners of a plan configuration publish updates for review and approval. The decentralized approach to plan configuration ownership and approval supports a workflow for area experts to customize and maintain plan configurations. These plan configurations are called journey templates in the Employee Center .
+ServiceNow application administrators [assign plan configuration owners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-assign-pconfig-owner-approver.md). The owners of a plan configuration publish updates for review and approval. The decentralized approach to plan configuration ownership and approval supports a workflow for area experts to customize and maintain plan configurations. These plan configurations are called journey templates in the Employee Center .
 
 -   **Owner**
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/install-customer-engagement-sequences.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customer Engagement Sequences, Lead and opportunity management apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Customer Engagement Sequences, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Install Customer Engagement Sequences
@@ -16,7 +16,7 @@ You can install the Customer Engagement Sequences application \(com.sn\_crm\_seq
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [Customer Engagement Sequences](https://store.servicenow.com/store/app/9979524e1b47261061c4eb18624bcb83) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 Role required: admin
@@ -48,4 +48,11 @@ For more information, see [Components installed with Customer Engagement Sequenc
 
 5.  Select **Install**.
 
+
+**Related topics**  
+
+
+[Using Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-customer-engagement-sequences.md)
+
+[Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-customer-engagement-sequences.md)
 

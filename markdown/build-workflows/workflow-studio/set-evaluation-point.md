@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-10-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Playbook variants, Playbooks in Workflow Studio, Building playbooks, Use, Workflow Studio, Build workflows]
+breadcrumb: [Playbook variants, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Set variant evaluation point

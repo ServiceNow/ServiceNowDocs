@@ -7,9 +7,9 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-08-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, AI Search, Search administration, Configure core features, Administer]
+breadcrumb: [Explore, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Deflect incidents in Service Portal with the AI Search Assist widget

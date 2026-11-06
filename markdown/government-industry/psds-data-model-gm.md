@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-data-model-gm.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-23"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Data Model, Reference, Public Sector Digital Services \(PSDS\)]
 ---

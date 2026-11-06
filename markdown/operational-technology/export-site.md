@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/export-site.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Sites page, Using the Discovery Console, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Sites page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Export sites
@@ -24,7 +24,7 @@ Role required: admin
 
 2.  Select the **Actions** button.
 
-    \[Omitted image "image.sites-action-menu"\] Alt text: Sites Action menu
+    \[Omitted image "sites-action-menu.png"\] Alt text: Sites Action menu
 
 3.  Select **Export Sites**.
 
@@ -35,5 +35,7 @@ The Sites information is downloaded in the CSV format.
 
 **Note:** The CVS file includes an Ignored IPs column when applicable to the Site.
 
-\[Omitted image "image.export-ignore"\] Alt text: Export CVS
+\[Omitted image "export-ignore.png"\] Alt text: Export CVS
+
+**Parent Topic:**[Sites page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/sites-page.md)
 

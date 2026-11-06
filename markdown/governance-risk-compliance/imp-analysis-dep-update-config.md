@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/imp-analysis-dep-update-config.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Scheduling an auto-update of dependencies, Structured workflows for BIAs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---

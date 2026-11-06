@@ -7,8 +7,8 @@ release: zurich
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Regulatory change tasks, Regulatory Change Management Core UI, Use, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
 
@@ -23,6 +23,8 @@ Role required: sn\_grc\_reg\_change.manager, sn\_grc\_reg\_change.user, or sn\_g
 ## About this task
 
 Regulatory change tasks are automatically created whenever a regulatory event alert is marked as applicable after the applicability assessment. Regulatory Compliance team members craft an action plan to identify the changes that need to be implemented so that your organization complies with the regulatory change.
+
+Starting with version 21.0.1, regulatory change tasks do not require approval before work begins. Tasks can move into the **Implementation** state before entering **Awaiting Approval**, allowing teams to start compliance activities earlier. Approval remains part of the workflow but is no longer enforced as a mandatory gate before implementation.
 
 ## Procedure
 
@@ -148,7 +150,7 @@ Action Tasks
 
 Regulatory action tasks. Select **New** to create a regulatory action task in response to the regulatory change task.**Note:**
 
-If there are regulatory action tasks that are in progress when the parent regulatory task is closed manually, all the associated regulatory action tasks are moved to the Cancelled state with the following warning message: `Action tasks for this Regulatory Change Task/Document Import Task are in-progress. Selecting OK will cancel them. Do you want to proceed?`
+If in-progress regulatory action tasks exist when the parent regulatory task is closed manually, all associated regulatory action tasks move to the Cancelled state. The following warning message appears: `Action tasks for this Regulatory Change Task/Document Import Task are in-progress. Selecting OK will cancel them. Do you want to proceed?`
 
 If there are no regulatory action tasks associated or if the regulatory action tasks are closed, the following message is displayed: `Are you sure you want to close this task? Select OK to close the task.`
 
@@ -173,16 +175,16 @@ Approval records that get created when an approval is requested.
 
 5.  If you want to add new action tasks that are related to the regulatory change task, select **New** in the Action Tasks related list.
 
-6.  To request an approval on the regulatory change task, log in as an approver and select **Request Approval** to request an approval.
+6.  If approval is required, log in as an approver and select **Request Approval** to request an approval.
 
-    The state of the regulatory change task is updated to the **Awaiting Approval** state. In the Approvers related list of the regulatory change task, the state of the approval is updated to **Requested**. The manager with the sn\_grc\_reg\_change.manager role, the user with the sn\_grc\_reg\_change.user role, or the admin user with the sn\_grc\_reg\_change.admin role can view the request in **My Approvals** of the regulatory change tasks.
+    If approval is requested, the state of the regulatory change task is updated to the **Awaiting Approval** state. In the Approvers related list of the regulatory change task, the state of the approval is updated to **Requested**. The manager with the sn\_grc\_reg\_change.manager role, the user with the sn\_grc\_reg\_change.user role, or the admin user with the sn\_grc\_reg\_change.admin role can view the request in **My Approvals** of the regulatory change tasks.
 
 7.  Select **Approve** to approve the request.
 
 
 ## Result
 
-The request is approved. The regulatory change task moves to the Implementation state. When the action task associated with the regulatory change task is completed, the regulatory change task is closed.
+The regulatory change task continues through the workflow based on its current state. Approval can occur before or after the task enters the **Implementation** state, depending on workflow configuration. When the action tasks associated with the regulatory change task are completed, the regulatory change task is closed.
 
 **Parent Topic:**[Regulatory change tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/reg-change-task.md)
 

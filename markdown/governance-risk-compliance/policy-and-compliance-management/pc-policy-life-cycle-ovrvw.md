@@ -7,7 +7,7 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Structural overview, Explore, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -26,7 +26,9 @@ The life cycle of a policy record passes through different states. This is desig
 
 -   **Review**
 
-    Only the policy reviewers can Update the policy in this state to ensure that it satisfies all regulatory requirements. They review the control objectives, its associated entities, controls, and citations, and add additional information, remove unnecessary mappings, or create new control objectives. The reviewer can move the policy Back to Draft state if the policy does not fulfil the requirements or if more details are needed. The reviewer can also Request Approval for the policy or Delete if no longer needed.
+    Only the policy reviewers can Update the policy in this state to ensure that it satisfies all regulatory requirements. They review the control objectives, its associated entities, controls, and citations, and add additional information, remove unnecessary mappings, or create new control objectives. The reviewer can move the policy Back to Draft state if the policy does not fulfill the requirements or if more details are needed.
+
+    Reviewers cannot request approval for a policy. However, the owner of the policy with sn\_compliance.user, which is the minimum required role, and users with compliance manager role can request approval for a policy.
 
 -   **Awaiting approval**
 

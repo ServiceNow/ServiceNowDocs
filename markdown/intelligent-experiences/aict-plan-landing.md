@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/aict-plan-landing.html
 release: zurich
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [PLACEHOLDER: Add keywords for search]
-breadcrumb: [Plan your AI strategy, AI Control Tower, Enable AI experiences]
+breadcrumb: [Plan your AI strategy, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Planning your AI strategy, prioritize, and execute

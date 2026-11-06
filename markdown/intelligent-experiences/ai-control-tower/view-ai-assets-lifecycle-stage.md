@@ -7,10 +7,10 @@ release: zurich
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-keywords: [Now Assist, generative AI]
-breadcrumb: [Use, AI Control Tower \(legacy\), Enable AI experiences]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # View AI assets by life-cycle stage
@@ -80,8 +80,4 @@ Role required: sn\_ai\_governance.ai\_steward or sn\_ai\_asset\_mgmt.ai\_asset\_
 
         **Note:** This tab is available only for AI systems.
 
-        For more information on evaluations, see .
-
-
-**Parent Topic:**[Using AI Control Tower \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/using-ai-control-tower.md)
 

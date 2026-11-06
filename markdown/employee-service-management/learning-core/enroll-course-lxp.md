@@ -7,9 +7,9 @@ release: zurich
 product: Learning Core
 classification: learning-core
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using My Learning, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Enroll in a course collection on My Learning
@@ -40,4 +40,23 @@ Role required: learning.user
 
     -   Although certain courses can be skipped in a course collection or a path, they must be completed or skipped in the order that they appear.
     -   The Show completed toggle switch is available only for content that is skipped within a course collection or path.
+
+**Parent Topic:**[Using My Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/manage-your-learning.md)
+
+**Related topics**  
+
+
+[Resume a course]()
+
+[Create a personal course collection]()
+
+[Create a Learning challenge]()
+
+[View recent activity]()
+
+[Assign Learning to your team]()
+
+[Manage Learning]()
+
+[Skill sensing for learning content]()
 

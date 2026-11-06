@@ -7,9 +7,9 @@ release: zurich
 product: Learning Core
 classification: learning-core
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using My Learning, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Manage Learning
@@ -35,5 +35,22 @@ Create achievement rules to define the criteria to be met to complete an achieve
 -   **[Create an achievement rule item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/achievement-rule-item.md)**  
 Create an achievement rule item to define if all or a count of items need to be completed to receive an achievement.
 
-**Parent Topic:**[HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-service-delivery.md)
+**Parent Topic:**[Using My Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/manage-your-learning.md)
+
+**Related topics**  
+
+
+[Enroll in a course collection on My Learning]()
+
+[Resume a course]()
+
+[Create a personal course collection]()
+
+[Create a Learning challenge]()
+
+[View recent activity]()
+
+[Assign Learning to your team]()
+
+[Skill sensing for learning content]()
 

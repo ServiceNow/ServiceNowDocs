@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/esg-workspace-personas.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Explore, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -32,12 +32,12 @@ ESG Administrator
 
 </td><td>
 
-Set up the ESG Management application so that it can be used by the users. -   [Create material topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/create-material-topics.md)
+Set up the Operational Sustainability Management application so that it can be used by the users. -   [Create material topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/create-material-topics.md)
 -   [Create an Operational Sustainability Management \(formerly ESG Management\) goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/create-esg-goal.md)
 -   [Set targets for goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/create-esg-target.md)
 -   [Add a goal to a material topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/associate-a-goal-to-mt.md)
 -   [Approve a material topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/approve-a-mt.md)
--   [Manage entities in ESG Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/entities-in-esg.md)
+-   [Manage entities in Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/entities-in-esg.md)
 -   [Create a new emission activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/create-an-emission-activity.md)
 -   [Create an emission factor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/create-an-emission-factor.md)
 -   [Manage all integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/integrate-esg.md)
@@ -56,7 +56,7 @@ ESG program manager
 -   [Set targets for goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/create-esg-target.md)
 -   [Add a goal to a material topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/associate-a-goal-to-mt.md)
 -   [Approve a material topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/approve-a-mt.md)
--   [Manage entities in ESG Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/entities-in-esg.md)
+-   [Manage entities in Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/entities-in-esg.md)
 -   [Manage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/esg-metrics.md)
 
 </td></tr><tr><td>
@@ -77,7 +77,7 @@ ESG metrics manager
 -   [Create a manual metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/create-manual-metric-definition.md)
 -   [Create a calculated metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/create-composite-metric-definition.md)
 -   [Create a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/create-a-metric.md)
--   [Integrating ESG Management \(formerly ESG\) with Watershed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/integrate-esg-with-watershed.md)
+-   [Integrating Operational Sustainability Management \(formerly ESG\) with Watershed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/integrate-esg-with-watershed.md)
 
 </td></tr><tr><td>
 

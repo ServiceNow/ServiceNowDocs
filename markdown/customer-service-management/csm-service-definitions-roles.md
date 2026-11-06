@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-service-definitions-roles.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Service definitions, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -98,7 +98,7 @@ None
 </td></tr></tbody>
 </table>## How users can use service definitions
 
-In CSM Configurable Workspace, users with the admin role or one of the following agent roles can access the **Service** field for cases and case tasks.
+In CRM Workspace, users with the admin role or one of the following agent roles can access the **Service** field for cases and case tasks.
 
 -   Customer service agent \(sn\_customerservice\_agent\)
 -   Consumer service agent \(sn\_customerservice.consumer\_agent\)

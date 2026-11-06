@@ -1,5 +1,5 @@
 ---
-title: Require authorization for import requests \[Updated in Security Center 1.3\]
+title: Require authorization for import requests
 description: Use the glide.basicauth.required.importprocessor property to designate if incoming import requests should require basic authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-import-request-authorization.html
@@ -7,18 +7,24 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [API and web service, Hardening settings, Platform Security]
 ---
 
-# Require authorization for import requests \[Updated in Security Center 1.3\]
+# Require authorization for import requests
 
 Use the **glide.basicauth.required.importprocessor** property to designate if incoming import requests should require basic authentication.
 
-## More information
+The **glide.basicauth.required.importprocessor** system property performs this authentication while importing data sources into the instance tables/pages.
+
+It restricts any guest users who are currently accessing this data. If **glide.basicauth.required.importprocessor** isn't set to the recommended value of **true**, then unauthenticated users could access import processor. Additional access controls, such as ACLs, are still enforced, but this value allows a guest user import request to be processed and not summarily denied.
+
+Ensure that the property **glide.basicauth.required.importprocessor** exists in the System Properties \[sys\_properties\] table and is set to **true**.
 
 **Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It is non-revertible.
+
+## More information
 
 <table id="table_ajc_b43_3kb"><thead><tr><th>
 
@@ -30,7 +36,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Property name
+Configuration name
 
 </td><td>
 
@@ -46,19 +52,11 @@ System Properties \(/sys\_properties\_list.do\)
 
 </td></tr><tr><td>
 
-Category
+Data type
 
 </td><td>
 
-[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
-
-</td></tr><tr><td>
-
-Purpose
-
-</td><td>
-
-To enforce basic authentication on import requests.
+Boolean
 
 </td></tr><tr><td>
 
@@ -70,11 +68,37 @@ true
 
 </td></tr><tr><td>
 
-Security risk rating
+Default value
 
 </td><td>
 
-5.3
+true
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
+
+</td></tr><tr><td>
+
+Security risk
+
+</td><td>
+
+-   Severity score: 5.3
+-   CVSS rating: Medium
+-   Security risk details: This property may allow unauthenticated users to initiate import requests via the import processor, potentially bypassing initial authentication checks and increasing the risk of unauthorized data manipulation despite enforced ACLs.
 
 </td></tr><tr><td>
 
@@ -89,19 +113,11 @@ This remediation enforces a combination of authentication methods, in the form o
 
 </td></tr><tr><td>
 
-Security risk
+Dependencies and prerequisites
 
 </td><td>
 
-\(Moderate\) Without appropriate authorization configured on the datasource import requests, an unauthorized user can get access to sensitive content/data on the target instance.
-
-</td></tr><tr><td>
-
-References
-
-</td><td>
-
-[SOAP web services security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/c_SOAPWebService.md) [SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/c_SOAPWebService.md)
+None
 
 </td></tr></tbody>
 </table>**Parent Topic:**[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-api-web-service.md)

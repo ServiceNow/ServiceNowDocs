@@ -7,9 +7,9 @@ release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Service Operations Workspace for ITSM to improve your experience, Configure, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Configuring Service Operations Workspace for ITSM to improve your experience, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Configure the task record information in the MS Teams Import tab
@@ -38,7 +38,7 @@ For information about collaborating on a task record using Microsoft Teams chat,
 
 4.  Edit the **Script** field.
 
-5.  Click **Update**.
+5.  Select **Update**.
 
 
 **Parent Topic:**[Configuring Service Operations Workspace for ITSM to improve your experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/configuring-sow-to-improve-experience.md)

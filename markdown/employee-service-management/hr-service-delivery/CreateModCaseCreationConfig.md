@@ -7,7 +7,7 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [case creation configuration]
 breadcrumb: [HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
@@ -125,22 +125,6 @@ Option for providing the ability to enter a partial name to return search result
  Selecting this option also helps provide consistent search results when creating an HR case.
 
 **Note:** If this option is not selected, users must enter the whole word to match.
-
-</td></tr><tr><td>
-
-Priority table name
-
-</td><td>
-
-The table that stores the priority values. This field and the **Priority column** field optimize search during case creation by limiting the drop down menu options.
-
-</td></tr><tr><td>
-
-Priority column
-
-</td><td>
-
-The column in the specified table that contains the priority values.
 
 </td></tr><tr><td>
 

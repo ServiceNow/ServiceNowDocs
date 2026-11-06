@@ -1,22 +1,22 @@
 ---
 title: Understand AI agents
-description: The Now Assist AI agents application is designed to securely leverage your data, workflows, and integrations directly within the ServiceNow AI Platform. AI agents can dynamically adjust their actions based on the progress and changing conditions of incidents or cases to help ensure that they stay focused on achieving their objectives.
+description: The AI Agent Studio is designed to securely use your data, workflows, and integrations directly within the ServiceNow AI Platform. AI agents can dynamically adjust their actions based on the progress and changing conditions of incidents or cases to help verify that they stay focused on achieving their objectives.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/understand-na-aia.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Explore, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Explore, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Understand AI agents
 
-The Now Assist AI agents application is designed to securely leverage your data, workflows, and integrations directly within the ServiceNow AI Platform. AI agents can dynamically adjust their actions based on the progress and changing conditions of incidents or cases to help ensure that they stay focused on achieving their objectives.
+The AI Agent Studio is designed to securely use your data, workflows, and integrations directly within the ServiceNow AI Platform. AI agents can dynamically adjust their actions based on the progress and changing conditions of incidents or cases to help verify that they stay focused on achieving their objectives.
 
 ## AI agents Orchestrator
 
-The AI Agent Studio guides users in leveraging AI agents effectively, while AI Orchestrator ensures seamless collaboration among them. The AI agent Orchestrator is a central management system that coordinates AI agents to ensure that they collaborate effectively to complete complex workflows. It can also retrieve missing context from users when needed. AI agents operate iteratively, seeking assistance from the Orchestrator if they encounter difficulties. The Orchestrator enhances inter-agent communication and centralizes coordination. The Orchestrator allows AI agents to share information effectively and transition tasks seamlessly, regardless of where the process originates. As a result, the Orchestrator is essential for managing intricate workflows, facilitating real-time adaptability, and efficient task delegation among agents.
+The AI Agent Studio guides users in using AI agents effectively, while AI Orchestrator verifies seamless collaboration among them. The AI agent Orchestrator is a central management system that coordinates AI agents to verify that they collaborate effectively to complete complex workflows. It can also retrieve missing context from users when needed. AI agents operate iteratively, seeking assistance from the Orchestrator if they encounter difficulties. The Orchestrator enhances inter-agent communication and centralizes coordination. The Orchestrator allows AI agents to share information effectively and transition tasks seamlessly, regardless of where the process originates. As a result, the Orchestrator is essential for managing intricate workflows, facilitating real-time adaptability, and efficient task delegation among agents.
 
 The role of Orchestrator in AI Agent Studio:
 
@@ -24,7 +24,7 @@ The role of Orchestrator in AI Agent Studio:
 2.  Dynamic Decision-Making: Can invoke AI models dynamically based on the scenario.
 3.  Seamless Integration with Enterprise Systems: Works with ServiceNow workflows, CMDB, and third-party APIs to enable end-to-end automation.
 4.  Handling Multi-Step Workflows: Enables chained execution of AI-driven tasks among multiple AI Agents.
-5.  Policy &amp; Governance Enforcement: Enforces governance rules to ensure that AI agents adhere to compliance and security standards.
+5.  Policy &amp; Governance Enforcement: Enforces governance rules to verify that AI agents adhere to conformance and security standards.
 
 The Orchestrator works with ReAct prompt, where the previous reflection prompt has been merged with the planning prompt for a streamlined execution experience improving the efficiency and visibility of planner actions. With the ReAct prompt, a scheduling mode called Route has been introduced that enables asynchronous, parallel tool execution within agents to reduce latency and improve performance when an agent needs assistance from another agent during the execution process.
 

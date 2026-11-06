@@ -7,9 +7,9 @@ release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Allowed client errors, Building and running automated tests with the Automated Test Framework, Test building and execution, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+breadcrumb: [Allowed client errors, Building and running automated tests with the Automated Test Framework, Automated Test Framework \(ATF\) test building and execution, Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # Allow client errors from the test logs
@@ -37,7 +37,7 @@ You can allow multiple or individual client errors. For each client error, you m
 
 3.  Select the client errors to be allowed.
 
-<table id="choicetable_pd5_3d2_1db"><tbody><tr><td id="d202300e109">
+<table id="choicetable_pd5_3d2_1db"><tbody><tr><td id="d174640e109">
 
 **Specific test log from the Test Log related list**
 
@@ -49,7 +49,7 @@ You can allow multiple or individual client errors. For each client error, you m
     -   **Add client error to warning list**: Allow the client error with a report level of Warning.
 
 
-</td></tr><tr><td id="d202300e143">
+</td></tr><tr><td id="d174640e143">
 
 **Multiple test logs from the Test Log related list**
 
@@ -61,7 +61,7 @@ You can allow multiple or individual client errors. For each client error, you m
     -   **Add client error to warning list**: Allow the client error with a report level of Warning.
 
 
-</td></tr><tr><td id="d202300e180">
+</td></tr><tr><td id="d174640e180">
 
 **Specific test log from Test Result Item record**
 

@@ -1,16 +1,16 @@
 ---
-title: Configure Key Alerts
+title: Set notifications for configured key alerts
 description: Follow these steps to configure Key Alerts on an instance where critical alerts have not yet been configured.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/configuring-io-alerts.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Key alerts – activation and notifications, Alerts in Instance Observer, Overview of Instance Observer, Platform Health, Using Impact, Impact]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Key alerts and notifications, Use alerts to monitor your instance, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
-# Configure Key Alerts
+# Set notifications for configured key alerts
 
 Follow these steps to configure Key Alerts on an instance where critical alerts have not yet been configured.
 
@@ -24,7 +24,11 @@ Role required: admin
 
 2.  Log in to Instance Observer and navigate to **Alerts** &gt; **Configure alerts**.
 
+    You can view all the alert type options. These are different metrics you can use to trigger that metrics from transactional date to database response time. They are technical indicators for potential issues on performance on a given instance.
+
     \[Omitted image "config-alert-banner.png"\] Alt text: Shows the Configure Alerts banner to begin alert configuration.
+
+    For example, long running job alerts can indicate potential performance issues or pre-emptive alerts for upcoming performance issues. For more information and how to configure long pending jobs, see [Configure long pending jobs alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-long-pending-jobs.md).
 
 3.  Select **Configure your alerts**.
 
@@ -50,8 +54,6 @@ Role required: admin
 
     A notification appears to confirm the alert configuration.
 
-    \[Omitted image "alert-confirmation.png"\] Alt text: Shows the alert configuration confirmation message.
-
 
 ## Result
 
@@ -59,7 +61,11 @@ After the request submission, all six alerts will be enabled automatically, no m
 
 **Note:** If one or more alerts out of the six available aren’t enabled automatically, then a threshold wasn’t available for that specific metric due to limited use in the instance.
 
+After the notifications and alerts are activated you can view them on the Instance Observer home page, which is the [User configurable dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/user-configurable-dashboard.md) as **Self-Service Alerts** in the **Alerts** card.
+
 ## What to do next
 
 [Manage Instance Observer alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/manage-io-alerts.md)
+
+**Parent Topic:**[Key alerts and notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-alerts.md)
 

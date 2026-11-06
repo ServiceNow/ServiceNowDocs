@@ -23,7 +23,7 @@ Verify the following:
 
 -   You're using the Zurich Patch 8 or later version of the ServiceNow AI Platform.
 -   You have installed the ITOM Visibility plugin. For more information, see [Install ITOM Visibility using ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/install-nowassist-setup-itom-visibility.md).
--   You have installed the ServiceNow Otto for IT Operations Management \(ITOM\) plugin. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/install-now-assist-itom.md).
+-   You have installed the ServiceNow Otto for IT Operations Management \(ITOM\) plugin. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/install-now-assist-itom.md).
 
 Role required: admin
 

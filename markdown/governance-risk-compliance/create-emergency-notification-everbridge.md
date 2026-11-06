@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/create-emergency-notification-everbridge.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Integrating Crisis Management with Everbridge, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -20,9 +20,9 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager, or sn\_bcm.admin
 
 ## About this task
 
-Send an event notification from the workspace that triggers a complete workflow of activities from the **Draft** to **Complete** state in Everbridge, where all the activities can be monitored from the workspace.
+Send an event notification from the workspace that triggers a complete workflow of activities from the **Draft** to **Complete** state in Everbridge. All the activities can be monitored from the workspace.
 
-When you send an emergency notification from the workspace, the action creates an incident and a notification for the incident in Everbridge to be sent to the right contacts and groups.
+When you send an emergency notification from the workspace, the action creates an incident. A notification for the incident in Everbridge to be sent to the right contacts and groups.
 
 ## Procedure
 

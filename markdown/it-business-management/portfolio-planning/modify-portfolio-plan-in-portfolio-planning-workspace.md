@@ -7,7 +7,7 @@ release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Manage portfolio plans, Portfolio Planning, Strategic Portfolio Management]
@@ -39,15 +39,15 @@ Role required: sn\_align\_core.apw\_user or business\_stakeholder
 
 4.  Update the details of the portfolio plan or delete it using the Portfolio plan actions menu.
 
-<table id="choicetable_hjj_wbj_gvb"><thead><tr><th align="left" id="d123792e141">
+<table id="choicetable_hjj_wbj_gvb"><thead><tr><th align="left" id="d130656e141">
 
 Choice
 
-</th><th align="left" id="d123792e144">
+</th><th align="left" id="d130656e144">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d123792e150">
+</th></tr></thead><tbody><tr><td id="d130656e150">
 
 **Update portfolio plan**
 
@@ -61,7 +61,7 @@ For more information on using this wizard, see [Create a portfolio plan](https:/
 3.  Select **Update**.
 
 
-</td></tr><tr><td id="d123792e190">
+</td></tr><tr><td id="d130656e190">
 
 **Delete portfolio plan**
 

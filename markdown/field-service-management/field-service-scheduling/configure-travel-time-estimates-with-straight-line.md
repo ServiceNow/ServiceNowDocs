@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-04-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up a travel estimate provider, Create a scheduling attribute, Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
+breadcrumb: [Travel estimate provider, Create a scheduling attribute, Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Configure travel time estimates with latitude and longitude

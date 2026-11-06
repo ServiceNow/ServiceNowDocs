@@ -1,16 +1,16 @@
 ---
-title: Configure IO alert notifications for a third-party application
+title: Configure alert notifications for a third-party application
 description: Set up a basic integration between Instance Observer \(IO\) and third-party integrations to route IO alert notifications to an external system in addition to emails and SMS.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/io-receive-notification-third-party.html
 release: zurich
 topic_type: task
-last_updated: "2026-04-28"
-reading_time_minutes: 4
-breadcrumb: [Alerts in Instance Observer, Overview of Instance Observer, Platform Health, Using Impact, Impact]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Use alerts to monitor your instance, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
-# Configure IO alert notifications for a third-party application
+# Configure alert notifications for a third-party application
 
 Set up a basic integration between Instance Observer \(IO\) and third-party integrations to route IO alert notifications to an external system in addition to emails and SMS.
 
@@ -169,4 +169,6 @@ Webhook URL as configured on your third-party \(external\) application.For more 
         1.  As **Alert Type** in **Alert** &gt; **Alert Console**
         2.  As Notifications from \[Omitted image "io-bell-icon.png"\] Alt text: bell icon. Select **View Notification History** and filter with `Integration Failed`.
         3.  As an email notification with the integration name, error number, and the message.
+
+**Parent Topic:**[Use alerts to monitor your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-alerts-intro.md)
 

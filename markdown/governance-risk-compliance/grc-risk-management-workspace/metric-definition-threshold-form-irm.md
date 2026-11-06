@@ -7,9 +7,9 @@ release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: reference
-last_updated: "2026-03-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a threshold for a metric, Configure, GRC: Metrics in Integrated Risk Management, Risk Management, Governance, Risk, and Compliance]
+breadcrumb: [Create a threshold for a metric definition, Configuring metrics, GRC: Metrics in Integrated Risk Management, Risk Management, Governance, Risk, and Compliance]
 ---
 
 # Metric Definition Threshold form
@@ -65,7 +65,7 @@ Valid from
 
 </td><td>
 
-Date from which the threshold configuration is valid.
+Date from which the threshold configuration is valid.**Note:** The threshold applies only to metric data tasks whose interval date falls within the **Valid from** and **Valid until** range.
 
 </td></tr><tr><td>
 
@@ -108,5 +108,5 @@ Actions
 Actions to execute when the threshold is exceeded. Available actions include Send email and create issue.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a threshold for a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/t_create-threshold-for-metrics.md)
+</table>**Parent Topic:**[Create a threshold for a metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/t_create-threshold-for-metrics.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Viewing metrics and activity transitions, Analyzing and getting process insights, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Viewing metrics and activity transitions, Analyzing and getting process insights, Use, Process Mining, Platform Analytics]
 ---
 
 # Viewing activity transitions
@@ -37,5 +37,5 @@ Select a transition link from the list to edit activities for the selected filte
 **Related topics**  
 
 
-[Apply a transition filter on an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/node-to-node-conditions.md)
+[Applying a process step filter on an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/node-to-node-conditions.md)
 

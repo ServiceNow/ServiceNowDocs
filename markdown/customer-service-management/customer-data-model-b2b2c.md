@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-data-model-b2b2c.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Customer service business models, Configure Customer Data Models for B2B2C, Data models, Set up your environment, Configure, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Customer service business models, Configure customer data models for B2B2C, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Customer data models for B2B2C
@@ -16,7 +16,7 @@ The customer data model for B2B2C supports complex business models with multi-le
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Overview of data models
 
@@ -44,7 +44,7 @@ For details on the advantages of using the B2B2C data model application, see the
 -   Enable service provider to have a complete view of the end consumers where they hold the relationship as direct customers \(B2C\) or through a business customer \(B2B2C\).
 -   Reduce costs by enabling self-service for various relationships \(B2C, B2B2C, B2B2E\).
 
-To get started with this application, see [Configure Customer Data Models for B2B2C](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-customer-data-model-b2b2c.md).
+To get started with this application, see [Configure customer data models for B2B2C](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-customer-data-model-b2b2c.md).
 
 To use this application, see [Using Customer Data Models for B2B2C](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/using-b2b2c.md).
 

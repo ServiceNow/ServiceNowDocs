@@ -8,7 +8,7 @@ product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 16
+reading_time_minutes: 17
 breadcrumb: [Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -102,6 +102,8 @@ Limitations:
 -   Responses are copied from the original assessment \(Assessment A\) to the newer assessment \(Assessment B\) one time. This copying occurs when Assessment B is submitted to a third party or an engagement. Any changes you make to Assessment A afterward won't be reflected in Assessment B. Both assessments remain separate.
 -   Inactive and retired metrics are excluded when copying responses between assessments.
 
+If the Smart Assessment Response Assist skill is active and template categories are configured for AI-assisted responses, internal and external assessment respondents can use ServiceNow Otto for Third-party Risk Management \(TPRM\) to generate draft responses from Document Management System documents and previously completed assessments. For more information, see [AI-assisted questionnaire pre-fill using the Document Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-dms-sae.md).
+
 ## Issues and tasks
 
 The role of TPR assessor \[sn\_vdr\_risk\_asmt.vendor\_assessor\] is required to create and manage both tasks and issues.
@@ -142,4 +144,6 @@ Even if one or all assessments are canceled, the due diligence request proceeds 
 [Collecting software bill of materials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-sbom.md)
 
 [Request a software bill of materials from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-sbom-collect.md)
+
+[AI-assisted questionnaire pre-fill using the Document Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-dms-sae.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/activate-case-digests.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure case digests, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 The Case Digests plugin automatically activates the following plugins:
 
--   Customer Service \(com.sn\_customerservice\)
+-   Case Management Core \(com.sn\_customerservice\)
 -   Customer Service Document Template \(com.sn\_csm\_doc\_template\)
 -   ServiceNow Document Viewer \(com.snc.documentviewer\)
 -   Targeted Communications \(com.sn\_publications\)

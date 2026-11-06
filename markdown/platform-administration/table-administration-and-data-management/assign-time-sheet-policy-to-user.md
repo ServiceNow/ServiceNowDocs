@@ -7,9 +7,9 @@ release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Time sheet policies, Time Card management, Working with Task table, Table admin, Tables and data, Configure core features, Administer]
+breadcrumb: [Time sheet policies, Time Card management, Working with Task table, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Assign a time sheet policy to a user

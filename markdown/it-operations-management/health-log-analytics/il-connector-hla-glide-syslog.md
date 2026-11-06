@@ -7,8 +7,8 @@ release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 keywords: [System Logs Retriever, data input, integration, configuration, ServiceNow, Health Log Analytics, HLA]
 breadcrumb: [Set up integrations from Integrations Launchpad, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -19,26 +19,27 @@ Set up an integration for streaming log data from your ServiceNow platform's Sys
 
 ## Before you begin
 
+-   Verify that the Health Log Analytics application is installed and provisioned on your instance. For more information, see [Install Health Log Analytics \(HLA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/install-health-log-analytics.md).
+-   Verify that a service instance is available.
+-   Verify that the HLA Engine is up and running.
+
 **Note:**
 
 -   This integration doesn't run on a MID Server.
 -   Only a single ServiceNow System Logs Retriever integration or data input can exist in the system.
-
--   Verify that the Health Log Analytics application is installed and provisioned on your instance. For more information, see [Install Health Log Analytics \(HLA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/install-health-log-analytics.md).
--   Verify that a service instance is available.
--   Verify that the HLA Engine is up and running.
+-   The HLA store app installation automatically creates the ServiceNow System Logs Retriever integration. Use this procedure if you need to recreate it manually.
 
 Role required: evt\_mgmt\_admin
 
 ## About this task
 
-You set up integrations through the Integrations Launchpad in Service Operations Workspace, which you access from the ITOM AIOps configuration center. The AIOps configuration center is a centralized workspace for configuring and managing AIOps features from a single place. The integrations setup process reduces implementation time compared to manual data input setup in the classic interface in Health Log Analytics. For more information, see [Integrations Launchpad in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/integrations-launchpad.md).
+Set up an integration from the Integrations Launchpad in Service Operations Workspace, which you access from the ITOM AIOps configuration center. The AIOps configuration center is a centralized workspace for configuring and managing AIOps features from a single place. The integrations setup process reduces implementation time compared to manual data input setup in the classic interface in Health Log Analytics. For more information, see [Integrations Launchpad in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/integrations-launchpad.md).
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the bottom of the navigation pane, select the AIOps configuration center icon \[Omitted image "icon-itom-aiops-config.png"\] Alt text: ITOM AIOps configuration center icon.
+2.  From the navigation pane, select the AIOps configuration center icon \[Omitted image "icon-itom-aiops-config.png"\] Alt text: ITOM AIOps configuration center icon.
 
     The ITOM AIOps configuration center page appears. The configuration center is a centralized workspace. Use it to configure and manage AIOps features from a single place.
 
@@ -77,7 +78,7 @@ You set up integrations through the Integrations Launchpad in Service Operations
 
 Log data starts streaming from the ServiceNow System Log table to the Health Log Analytics AI engine, based on the configured filters. The dedicated HLA engine for your instance starts analyzing your system logs in real-time.
 
-**Note:** Starting with Health Log Analytics version 37.0.15, you can use the ServiceNow System Logs Retriever integration to automatically detect errors and anomalies in your ServiceNow instance's system log. By combining HLA anomaly detection with ServiceNow Otto AI capabilities, you can identify and resolve platform issues more effectively for a better user experience. For more information, see [Use Case: Proactive monitoring of your ServiceNow instance in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-use-case-syslogs.md).
+**Note:** Starting with Health Log Analytics version 37.0.15, you can use the ServiceNow System Logs Retriever integration to automatically detect errors and anomalies in your ServiceNow instance's system log. By combining HLA anomaly detection with ServiceNow Otto for ITOM, you can identify and resolve platform issues more effectively for a better user experience. For more information, see [Use Case: Proactive monitoring of your ServiceNow instance in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-use-case-syslogs.md).
 
 ## What to do next
 
@@ -85,7 +86,7 @@ Use the information in the **Overview** tab to refine how HLA reads the log data
 
 **Note:**
 
--   The MID Server streaming status and the **Log streaming sources** table don't appear on the **Overview** tab for this integration, because it doesn't run on a MID Server.
+-   The MID Server streaming status and the **Log streaming sources** table do not appear on the **Overview** tab for this integration, because it doesn't run on a MID Server.
 -   When the integration is first configured, it may take up to 24 hours for the first alerts to appear. Once the data is populated, you can refresh the screen to see real-time metrics.
 
 Use the More menu to go directly from the **Overview** tab to the **Data Input Mapping**, **Source Type Structures**, and **Log Sources** pages with context from the integration. If your log data is not properly mapped, structured, or sourced, go back and adjust the configuration. If the Service Operations Workspace Log Analytics application is installed, the More menu also provides direct access to the **Log Viewer**, where you can see the raw logs that the integration ingests.

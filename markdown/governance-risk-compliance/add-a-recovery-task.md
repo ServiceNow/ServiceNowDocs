@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/add-a-recovery-task.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -24,11 +24,11 @@ Beginning with the Xanadu release, cyclic dependencies in recovery tasks can be 
 
 \[Omitted image "plan-record-tabs.png"\] Alt text: Plan record tabs.
 
-For example, in the Recovery task of Cyclic plan example 1 invokes Cyclic plan example 2, Cyclic plan example 2 invokes Cyclic plan example 3 and then again Cyclic plan example 3 invokes Cyclic plan example 1. If you attempt to add a link between Cyclic plan example 2 and Cyclic plan example 3, it isn’t allowed. An error message, similar to the one shown in the example, prompts you to choose a different related plan to help prevent such issues from occurring in an event.
+For example, in the Recovery task of Cyclic plan example 1 invokes Cyclic plan example 2, Cyclic plan example 2 invokes Cyclic plan example 3. Cyclic plan example 3 invokes Cyclic plan example 1. If you attempt to add a link between Cyclic plan example 2 and Cyclic plan example 3, it isn’t allowed. An error message, similar to the one shown in the example, prompts you to choose a different related plan. It helps prevent such issues from occurring in an event.
 
 \[Omitted image "cyclic-plan-error-message.png"\] Alt text: Cyclic plan error message.
 
-Similarly, if plans are activated beyond 10 levels or hierarchical links involving more than 10 levels of plans are created, an error message is displayed, suggesting the removal of the plan before saving the record.
+Similarly, if plans are activated beyond 10 levels or hierarchical links involving more than 10 levels of plans are created, an error message is displayed. The message suggests removing the plan before saving the record.
 
 \[Omitted image "cyclic-plan-levels.png"\] Alt text: Plan levels.
 
@@ -50,12 +50,14 @@ To automate a recovery task, administrators or application developers create an 
 
     If a plan has more than 500 tasks, the system doesn’t update the order of the tasks automatically. A manual intervention is required to set the order of the tasks. An informational message is displayed informing the users to select the **Update dependencies** UI action that is available in the plan and recovery task records.
 
+    You can select dependencies only from tasks in the same plan or in an upstream plan. An upstream plan has the current plan added as a related plan with the Downstream relationship. If you select a task from any other plan, the error "Recovery task dependencies should have a valid upstream dependency" appears.
+
     In a plan, while it’s possible to tag multiple assets, you can concentrate on particular assets for certain scenarios. Beginning with the Xanadu release, you can tag specific assets to a recovery task and calculate the time taken to recover each asset accurately during an event or exercise. The actual duration and total effort of the assets in the events are determined based on the tagging of the assets. You have these options in the **Tag assets** field for assigning assets to a recovery task:
 
     -   **None**
     -   **Specific**
     -   **All**
-    For example, when you select **Specific assets** in the **Tag assets** field, the **Asset scope** field is set to visible, enabling you to specify which assets can be tagged with the selected recovery task.
+    For example, when you select **Specific assets** in the **Tag assets** field, the **Asset scope** field becomes visible, enabling you to specify which assets can be tagged with the selected recovery task.
 
     The assets tagged in the recovery task are then included in the impacted assets for the event task. Properly tagging assets with recovery tasks verifies precise calculations of the recovery times for each asset. Note that only assets associated with newly created event tasks are copied over.
 
@@ -63,13 +65,13 @@ To automate a recovery task, administrators or application developers create an 
 
     The **Planned duration** field enables you to enter the anticipated time needed to complete the task. After the event and exercise have been carried out, you can revisit and modify the data in this field. It offers a detailed view of the task's progress and the time needed for its completion.
 
-    The Create Recovery task form is displayed.
+    The Create New Recovery task form is displayed.
 
-    \[Omitted image "create-new-recovery-task.png"\] Alt text: Create Recovery task form.
+    \[Omitted image "create-new-recovery-task.png"\] Alt text: Create New Recovery task form.
 
 4.  On the form, fill in the fields.
 
-    For more information on the fields in the form, see [Create New Recovery task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-recovery-task-form.md).
+    For more information on the fields in the form, see [Create Recovery task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-recovery-task-form.md).
 
 5.  Assign a phase to the recovery task.
 
@@ -95,9 +97,9 @@ To automate a recovery task, administrators or application developers create an 
 
 7.  Verify the achieved recovery level of the impacted assets of a task in the **Asset recovery level** field.
 
-    In events, the **Asset recovery level** field indicates the achieved recovery level of the impacted assets of that event task, once all tasks with that recovery level \(for example, all tasks with Partially recovered state\) are completed.
+    In events, the **Asset recovery level** field indicates the achieved recovery level of the impacted assets of that event task. This level is displayed once all tasks with that recovery level \(for example, all tasks with Partially recovered state\) are completed.
 
-    Previously, the assets were automatically marked as Recovered only when all event tasks were completed, even if those assets were in later phases such as Return to normal or Post-incident review. This approach delayed visibility into operational readiness. For example, even if an asset was functionally available during the Recovery phase, the system didn't reflect the status until all tasks were done.
+    Previously, assets were automatically marked as Recovered only when all event tasks were completed. This occurred even if those assets were in later phases such as Return to normal or Post-incident review. This approach delayed visibility into operational readiness. For example, even if an asset was functionally available during the Recovery phase, the system did not reflect the status until all tasks were completed.
 
     Starting with BCM release 9.x.x and later, the asset recovery status has been enhanced to provide granular tracking. Completing specific tasks now automatically updates the corresponding event asset state, progressing from **Not Recovered** → **Partially Recovered** → **Recovered**.
 
@@ -120,7 +122,7 @@ To automate a recovery task, administrators or application developers create an 
     The updated recovery tasks are now displayed in the UI.
 
 
--   **[Create New Recovery task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-recovery-task-form.md)**  
+-   **[Create Recovery task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-recovery-task-form.md)**  
 Use the Create New Recovery task form in the BCM Configurable Workspace to input the necessary details regarding the recovery task.
 
 **Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)

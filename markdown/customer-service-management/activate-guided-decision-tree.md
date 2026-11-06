@@ -1,18 +1,18 @@
 ---
 title: Activate a decision tree
-description: Activate a completed decision tree so you can use it in playbooks created using Playbooks, in recommendations created using Recommended Actions for Customer Service, or in Service Portal.
+description: Activate a completed decision tree so you can use it in playbooks created using Playbooks, in recommendations created using Recommended Actions for Service, or in Service Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/activate-guided-decision-tree.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring decision trees in Decision Tree Builder, Configuring guidances and decision trees, Guided Decisions configuration, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Activate a decision tree
 
-Activate a completed decision tree so you can use it in playbooks created using Playbooks, in recommendations created using Recommended Actions for Customer Service, or in Service Portal.
+Activate a completed decision tree so you can use it in playbooks created using Playbooks, in recommendations created using Recommended Actions for Service, or in Service Portal.
 
 ## Before you begin
 
@@ -49,6 +49,6 @@ If you make changes to an activated decision tree, remember to activate the deci
 ## What to do next
 
 -   Configure recommended actions to use the activated decision tree as a recommendation. The recommendations appear as cards in the contextual side panel of a workspace. For more information, see [Add Guided Decisions to Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/add-guided-decisions-to-recommended-actions.md).
--   Configure Playbooks to use the activated decision tree as part of a playbook in a record tab. For more information, see [Add Guided Decisions to playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/add-guided-decision-playbook.md).
+-   Configure Playbooks to use the activated decision tree as part of a playbook in a record tab. For more information, see [Add Guided Decisions to playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/add-guided-decision-playbook.md) and [Add Guided Decision with inputs/outputs to Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/add-gd-input-output-playbook.md).
 -   Configure a Service Portal page to use the activated decision tree for providing troubleshooting process to internal users. For more information, see [Add Guided Decisions to Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/add-guided-decisions-service-portal.md).
 

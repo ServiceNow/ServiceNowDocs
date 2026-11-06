@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Purge impact status and alert history, Rotate event and alert table for cleanup, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---

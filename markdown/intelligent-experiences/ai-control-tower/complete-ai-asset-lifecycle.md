@@ -7,9 +7,9 @@ release: zurich
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, AI Control Tower \(legacy\), Enable AI experiences]
+breadcrumb: [Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Complete AI asset lifecycle
@@ -45,7 +45,7 @@ Role required: AI steward \[sn\_ai\_governance.ai\_steward\] or Asset owner \[sn
 
 ## Result
 
-The lifecycle status of an AI asset is deployed and completed.
+The life cycle status of an AI asset is deployed and completed.
 
 \[Omitted image "aict-lifecycle-access.png"\] Alt text: Screenshot showing the completion of the Assess stage and its tasks.
 
@@ -53,5 +53,5 @@ The lifecycle status of an AI asset is deployed and completed.
 
 \[Omitted image "aict-lifecycle-deploy.png"\] Alt text: Screenshot showing the completion of the deploy stage and its tasks.
 
-**Parent Topic:**[Using AI Control Tower \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/using-ai-control-tower.md)
+To manage the approval workflow for ServiceNow® AI, see [Create a Playbook workflow in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/create-a-playbook-workflow-for-now-assist-approvals.md).
 

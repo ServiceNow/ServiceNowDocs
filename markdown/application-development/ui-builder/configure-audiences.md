@@ -7,9 +7,9 @@ release: zurich
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage UI Builder pages and page variants, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Manage UI Builder pages and page variants, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Add an audience to your UI Builder page
@@ -30,7 +30,7 @@ The **glide.ux.user\_criteria\_enabled** property needs to be set to **true** to
 
 3.  Expand the page to expose the associated variants.
 
-4.  Next to the page variant that you want to edit, select the Open settings icon \[Omitted image "gear-icon.png"\] Alt text: Gear icon.
+4.  Next to the page variant that you want to edit, select the Open settings icon \[Omitted image "gear-icon.png"\] Alt text:.
 
 5.  In the page variant settings window, select **Edit all audiences**.
 

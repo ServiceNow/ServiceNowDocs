@@ -7,9 +7,9 @@ release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Manage policy exceptions and extensions, Use, GRC Compliance Workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage policy exceptions and extensions using the Compliance Workspace, Use, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Request a policy exception using the Compliance Workspace
@@ -150,7 +150,7 @@ Control objective
 
 </td><td>
 
-Control objective associated with this policy exception.You must add impacted controls when creating the exception. When you select a control objective, the Impacted controls tab appears, where you can select controls associated to the control objective.
+Control objective associated with this policy exception.
 
 </td></tr><tr><td>
 
@@ -158,7 +158,7 @@ Issue
 
 </td><td>
 
-Issue associated with this policy exception.The issue must have at least one control associated with it, and the control must not be in draft or retired state.
+Issue associated with this policy exception.
 
 </td></tr><tr><td>
 
@@ -381,7 +381,6 @@ Option to enable confidentiality of the record. Only the assigned confidential u
     3.  If you didn’t select an issue in the **Issue** field, but a control objective is populated in the **Control objective** reference field, then the Issue reference field will list only those issues that are linked to this control objective.
     4.  As soon as you add an issue in the **Issue** field, then all the controls linked to the issue are added in the Impacted controls tab. However, when you select a control objective in the **Control objective** reference field, then all the controls listed in the Impacted controls tab are replaced with only those controls that are linked to the selected control objective and the issue. Controls can be in any state but not in Draft or Retired state.
     5.  An impacted control linked to one issue of a policy exception will not be listed for you to add in another policy exception because that control is already listed in the Impacted control tab of the first policy exception. If you add more controls to the issue later, and when you link the issue to the second policy exception, then all the newly added controls will be added as impacted controls but not the one that was already added as an impacted control of the first policy exception.
-    6.  Previously, an issue-based exception required a linked policy or control objective for additional approvals. Now, it requires any one of the following: a linked policy, control objective, or control. If a control is used, it must be linked to the policy exception itself, not just to the issue.
 4.  Save the policy exception.
 
     The Policy exception is in **New** state.

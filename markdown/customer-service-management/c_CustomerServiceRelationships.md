@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/c\_CustomerServiceRelationships.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [Configure accounts and contacts, Customer data, Set up your environ
 The Customer Service Management application provides the ability to establish different types of relationships between partners, customers, and contacts.
 
 These relationships make account and asset management easy and flexible. The following table describes the available customer relationships.
+
+**Note:** To use this functionality, you must have sn\_crm\_foundation\_data\_manager or sn\_crm\_foundation\_admin role.
 
 <table id="table_rn3_acct_rel_types"><thead><tr><th>
 

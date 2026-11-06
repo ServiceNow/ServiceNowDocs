@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/sg-screen-field-enhancements.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure a details screen, Record screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -104,6 +104,14 @@ When configuring a details screen, you select fields to display on your form. Wh
 </td><td>
 
 \[Omitted image "mobile-stage-field.png"\] Alt text: Mobile stage field.
+
+</td></tr><tr><td>
+
+**Scripts**Use the script screen field in record screens to display dynamic field values. The script runs to determine the field value before it displays in your form. The value returned by the script doesn’t replace the database value. For example, you can display translated content for dynamic variables within an email.
+
+</td><td>
+
+\[Omitted image "record-script-screen-platform.png"\] Alt text: Script screen option in a record screen.
 
 </td></tr></tbody>
 </table>-   **[Add screen fields to a record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/sg-mobile-add-screen-field.md)**  

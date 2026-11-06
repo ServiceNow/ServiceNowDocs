@@ -7,9 +7,9 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Create a Virtual Agent asset, Getting started with Assistant Designer Asset library, Build and deploy, Virtual Agent, Conversational Interfaces]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Creating a Virtual Agent topic, Build conversations, Virtual Agent, Conversational Interfaces]
 ---
 
 # Create a small talk topic
@@ -18,9 +18,7 @@ Build small talk topics that let Virtual Agent engage in casual conversation wit
 
 ## Before you begin
 
-If you're creating an LLM small talk topic, ensure you are familiar with LLM descriptions and instructions. For more information, see [LLM description and instruction guidelines for Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-llm-instruction-guidelines.md).
-
-If you're creating an NLU small talk topic, define the corresponding intent in the appropriate NLU model.
+Familiarize yourself with LLM descriptions and instructions. For more information, see [LLM description and instruction guidelines for Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-llm-instruction-guidelines.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -36,24 +34,16 @@ Small talk topics are conversations that diverge from the original bot conversat
 
 2.  Select the **Asset library** tab.
 
-3.  Set the topic discovery type toggle switch to **LLM** or **NLU/Keyword**, depending on which type you want to create.
+3.  In the Asset library, select **Create asset**.
 
-4.  Select **Create asset** or **Create topic**, depending on which topic discovery type you selected.
+4.  In the create a topic form, select **Small Talk** from the **Type** drop-down menu.
 
-5.  For the Type, select **Small Talk**.
+    \[Omitted image "small-talk.png"\] Alt text: Select Small Talk.
 
-6.  Follow the steps for [creating a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md).
+5.  Follow the steps for [creating a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md).
 
-    **Note:**
+    When you complete your small talk topic, remember to publish it when you're ready to deploy it to your Virtual Agent clients.
 
-    -   If you're creating an NLU/keyword small talk topic, fill in the following fields on the Properties page.
 
-        |Field|Description|
-        |-----|-----------|
-        |NLU Model|Model that defines the intent for this small talk topic.|
-        |Associated intent|Intent defined in the NLU model for this small talk topic.|
-
-    -   When you complete your small talk topic, remember to publish it when you are ready to deploy it to your Virtual Agent clients.
-
-**Parent Topic:**[Create a Virtual Agent asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
+**Parent Topic:**[Build conversations in the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

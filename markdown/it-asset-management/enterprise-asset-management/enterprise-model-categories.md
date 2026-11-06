@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 7
-breadcrumb: [References, Enterprise Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Enterprise Asset Management reference, Enterprise Asset Management, Asset Management]
 ---
 
 # Enterprise model categories and corresponding classes
@@ -116,7 +116,7 @@ sn\_ent\_facility\_model
 
 </td></tr><tr><td>
 
-UPS
+Uninterruptible Power Supply
 
 </td><td>
 
@@ -794,6 +794,7 @@ sn\_ent\_wearable\_model​
 |Teleprompter|cmdb\_ci\_teleprompter|sn\_ent\_mm\_prod\_equip\_asset|sn\_ent\_mm\_prod\_equip\_model​|
 |Production Camera|cmdb\_ci\_production\_camera|sn\_ent\_mm\_prod\_equip\_asset|sn\_ent\_mm\_prod\_equip\_model​|
 |Stage and Studio Lighting|cmdb\_ci\_stage\_studio\_lighting|sn\_ent\_mm\_prod\_equip\_asset|sn\_ent\_mm\_prod\_equip\_model​|
+|Multimedia Production Equipment General|cmdb\_ci\_multimedia\_production\_equipment|sn\_ent\_mm\_prod\_equip\_asset|sn\_ent\_mm\_prod\_equip\_model​|
 
 **Parent Topic:**[Enterprise Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/reference-enterprise-asset-management.md)
 
@@ -835,14 +836,6 @@ sn\_ent\_wearable\_model​
 [Enterprise asset disposal order stages]()
 
 [Terminology for linear assets]()
-
-[Installed with Enterprise Asset Management for Healthcare]()
-
-[Installed with OT Asset Management]()
-
-[Components installed with Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)]()
-
-[Components installed with Enterprise Asset Management for Providers]()
 
 [Scheduled jobs and tables installed with normalization of firmware models]()
 

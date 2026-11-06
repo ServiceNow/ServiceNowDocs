@@ -7,9 +7,9 @@ release: zurich
 product: Problem Management
 classification: problem-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Activate Problem Management Best Practice — Madrid — Knowledge Integration, Problem Management plugins, Configure, Problem Management, IT Service Management]
+breadcrumb: [Activate Problem Management Best Practice — Madrid — Knowledge Integration, Problem Management plugins, Configuring Problem Management, Problem Management, IT Service Management]
 ---
 
 # Components installed with Problem Management

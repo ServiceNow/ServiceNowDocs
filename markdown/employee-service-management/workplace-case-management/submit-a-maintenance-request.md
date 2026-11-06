@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Requesting a workplace service, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -22,49 +22,15 @@ Role required: sn\_wsd\_core.workplace\_user
 
 ## Procedure
 
-1.  Navigate to the portal from one of the following locations.
+1.  Navigate to **All** &gt; **Self-service** &gt; **Employee Center**.
 
-<table id="choicetable_presence_dashboard"><thead><tr><th align="left" id="d468242e57">
+2.  On the Employee Center portal, select **Help Center** &gt; **Workplace Services**.
 
-Location
+3.  From the list of workplace services, select **Submit a maintenance request**.
 
-</th><th align="left" id="d468242e60">
+    Alternatively, you can search for the workplace service and select it from the search results.
 
-Navigation
-
-</th></tr></thead><tbody><tr><td id="d468242e66">
-
-**Workplace Service Portal**
-
-</td><td>
-
-1.  Navigate to **All** &gt; **Workplace Core** &gt; **Workplace service portal**.
-
-The portal homepage opens.
-
-2.  Open the Site safety category.
-
-    1.  Select **Catalog**.
-    2.  Select **Browse by Categories**.
-    3.  In the Workplace Services Catalog, select **General**.
-**Note:** If there are multiple catalogs configured on the portal, go to the Catalogs list and select **Workplace Services Catalog** &gt; **General**.
-
-3.  Select **Submit a maintenance request**.
-
-
-</td></tr><tr><td id="d468242e136">
-
-**Employee Center**
-
-</td><td>
-
-1.  Navigate to **All** &gt; **Self-Service** &gt; **Employee Center**.
-2.  On the Employee Center landing homepage, select the **Workplace Services** &gt; **Maintenance**.
-3.  Select **Submit a maintenance request**
-
-
-</td></tr></tbody>
-</table>2.  On the form, fill in the fields.
+4.  On the form, fill in the fields.
 
 <table id="table_ogt_gql_w1c"><thead><tr><th>
 
@@ -141,7 +107,7 @@ Add attachments
 Select the option if you want to add any attachments.
 
 </td></tr></tbody>
-</table>3.  Select **Submit**.
+</table>5.  Select **Submit**.
 
     The maintenance request is submitted. A workplace maintenance case is created and the state is set to Work in Progress.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/create-forecast-adjustment.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Sales Forecasting, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Sales Forecasting, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Create forecast adjustment
@@ -20,7 +20,7 @@ Role required: sn\_sales\_forecast.adjustment\_writer
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -46,4 +46,11 @@ Role required: sn\_sales\_forecast.adjustment\_writer
 
 
 **Parent Topic:**[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-sales-forecasting.md)
+
+**Related topics**  
+
+
+[Configure Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-sales-forecasting.md)
+
+[Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-forecasting.md)
 

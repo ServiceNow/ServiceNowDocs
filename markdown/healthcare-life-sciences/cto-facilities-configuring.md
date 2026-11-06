@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/cto-facilities-configuring.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Care Team Operations for Facilities, Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -32,24 +32,30 @@ Set up the Care Team Operations for Facilities application.
 
     Create a healthcare organization to represent the fulfilling healthcare organization for healthcare facilities cases.
 
-5.  [Create a group for all location support agents in Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cto-facilities-create-group-support-agents.md)
+5.  [Add members to your healthcare facilities support organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cto-facilities-add-members-support-team.md)
+
+    Add members to your facilities support organization to provide visibility and access to healthcare facilities cases.
+
+6.  [Create a group for all location support agents in Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cto-facilities-create-group-support-agents.md)
 
     Create a group for location support agents with the sn\_cto\_facilities.loc\_support\_agent role assigned so that users added to this group will inherit the collection of roles for Care Team Operations for Facilities
 
-6.  [Create a group for all location managers in Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cto-facilities-create-group-managers.md)
+7.  [Create a group for all location managers in Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cto-facilities-create-group-managers.md)
 
     Create a group for location managers with the sn\_customerservice.svc\_location\_manager assigned so that users added to this group will inherit the collection of roles for Care Team Operations for Facilities.
 
-7.  [Set up assignment groups for Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cto-facilities-assignment-groups.md)
+8.  [Set up assignment groups for Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cto-facilities-assignment-groups.md)
 
     Associate assignment groups with your healthcare organizations to determine which user groups are associated with specific healthcare organizations.
 
-8.  [Modify state decision tables in Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cto-facilities-modify-state-tables.md)
+9.  [Modify state decision tables in Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cto-facilities-modify-state-tables.md)
 
     Use Decision Builder to change the state mappings for cases and incidents work orders in Care Team Operations for Facilities.
 
-9.  [Add custom record producers to the service catalog in Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cto-facilities-add-customer-record-producer.md)
+10. [Add custom record producers to the service catalog in Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cto-facilities-add-customer-record-producer.md)
 
     Add custom record producers you've configured into service catalogs in Care Team Operations for Facilities.
 
+
+**Note:** This application includes a knowledge base article that defines which details the ServiceNow Otto case intake AI agent asks for when it creates a case. To change the intake questions, see [Manage domain intelligence for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-operations-core/hco-now-assist-manage-domain-intelligence.md).
 

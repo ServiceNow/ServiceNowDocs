@@ -7,9 +7,9 @@ release: zurich
 product: Innovation Management
 classification: innovation-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Innovation Management reference, Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Form field information for Innovation Management

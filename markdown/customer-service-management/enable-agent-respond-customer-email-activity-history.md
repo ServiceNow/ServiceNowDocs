@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/enable-agent-respond-customer-email-activity-history.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Email Interaction for CSM]
-breadcrumb: [Email Interaction, Email channel, Configure, Enable communication channels, Configure, Customer Service Management]
+breadcrumb: [Configure the agent experience for email interactions, Email Interaction, Configure Email, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Enable agents to respond to customers with email activity history
@@ -17,7 +17,9 @@ Enable agents to respond to customers with email activity history, which is crea
 
 ## Before you begin
 
-Role required: admin
+Role required: admin, sn\_esm\_agent
+
+**Note:** Agents need the sn\_esm\_agent role to view the email client and email templates.
 
 ## Procedure
 
@@ -43,5 +45,5 @@ The get\_activity\_of\_case\_and\_related\_interaction\_for\_email script retrie
 **Related topics**  
 
 
-[Send case email replies containing interaction emails in activity history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/send-case-email-replies-interaction-emails-activity-history.md)
+[Send case email replies with interaction email history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/send-case-email-replies-interaction-emails-activity-history.md)
 

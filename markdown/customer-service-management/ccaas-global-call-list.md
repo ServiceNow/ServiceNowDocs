@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/ccaas-global-call-list.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [ICC for voice calls, Integrating with contact centers, Integrate, Customer Service Management]
+breadcrumb: [Enable ICC for CCaaS calls and callbacks, Configure voice, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Global call list
@@ -129,6 +129,4 @@ From the global call list view, Agents can do the following:
 -   Select the **Open interaction** link to open the interaction record details in their supported workspace in call resiliency mode. See: [Call resiliency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ccaas-call-resiliency.md).
 
 **Note:** The Transfer function isn't supported in the global call list feature.
-
-For more information on ICC call features, see [Interaction Controls Component \(ICC\) call features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/interaction-controls-component-icc-call-interaction-features.md).
 

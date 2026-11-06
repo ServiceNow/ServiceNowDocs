@@ -7,7 +7,7 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Project Workspace reference, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -25,7 +25,7 @@ Use this form to create expense lines for your actual expense.
 -   **[Create status report form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-status-report-form.md)**  
 Learn about the fields on the Create status report form of the Project Workspace. Use this form to create a new status report according to your requirement. The following are the heads in a report created using the Default status report template. A report created using the One-page status report template has fewer information heads.
 -   **[Create document template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-new-document-template-form.md)**  
-Learn about the fields on the Create new document template form of the Project Workspace. Use this form to create a new status report template according to your requirement.
+Learn about the fields on the Create New Document Template form of the Project Workspace. Use this form to create a status report or docs template according to your requirement.
 -   **[Decision form on Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/decision-form-project-workspace.md)**  
 Learn about the fields on the Decision form of the Project Workspace. Use this form to add decisions to your projects.
 -   **[Export status report form on Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/export-status-report-form-project-workspace.md)**  
@@ -33,9 +33,9 @@ Learn about the fields on the export status report form on the Project Workspace
 -   **[Issue form on Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/issue-form-project-workspace.md)**  
 Learn about the fields on the Issue form of the Project Workspace. Use this form to add an issue to your projects.
 -   **[Project form in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/project-form-pw.md)**  
-Learn about the fields on the project form of the Project Workspace. Use this form to create a project.
+Learn about the fields on the forms that you use to create a project in Project Workspace, either as a new project or from a project template.
 -   **[Project type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/project-type-form-pw.md)**  
-Fields on the Project type form and their descriptions . Use this form to create a project type for your projects.
+Learn about the fields on the Project type form of the Project Workspace. Use this form to create a project type for your projects and choose which modules the project type shows.
 -   **[Request change form on Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/request-change-form-project-workspace.md)**  
 Learn about the fields on the Request change form of the Project Workspace. Use this form to add a change request to your projects.
 -   **[Risk form of Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/risk-form-project-workspace.md)**  

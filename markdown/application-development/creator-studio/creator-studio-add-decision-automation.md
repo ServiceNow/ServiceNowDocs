@@ -7,9 +7,9 @@ release: zurich
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Automation in apps, Build apps, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Automation in apps, Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Add a decision to an app's playbook in Creator Studio
@@ -38,7 +38,7 @@ Each decision should have at least two branches, with each branch representing a
 
     \[Omitted image "crs-auto-copy-nav.png"\] Alt text: Select the automation in the navigation panel
 
-5.  Select the add icon \(\[Omitted image "cs-add-icon.png"\] Alt text:\) on the connector here you want to add a decision and choose the diamond-shaped **Add a decision** icon \(\[Omitted image "cs-add-decision-icon.png"\] Alt text:\) in the menu that pops up.
+5.  Select the add icon \[Omitted image "cs-add-icon.png"\] Alt text: on the connector here you want to add a decision and choose the diamond-shaped **Add a decision** icon \[Omitted image "cs-add-decision-icon.png"\] Alt text: in the menu that pops up.
 
     **Note:** You must be in the Diagram view to add a decision.
 

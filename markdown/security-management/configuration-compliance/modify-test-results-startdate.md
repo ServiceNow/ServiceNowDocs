@@ -7,9 +7,9 @@ release: zurich
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Resolve import issues, Reference, Configuration Compliance, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Resolving Configuration Compliance import issues, Reference, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
 
 # Modify Qualys PC Results start date

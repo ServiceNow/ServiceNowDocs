@@ -7,7 +7,7 @@ release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage team backlog, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -38,15 +38,15 @@ This task details the procedure of creating stories for work items such as Epic,
 
 5.  From the work item details page, create stories manually or with Now Assist.
 
-<table id="choicetable_bq5_qnc_tcc"><thead><tr><th align="left" id="d190762e131">
+<table id="choicetable_bq5_qnc_tcc"><thead><tr><th align="left" id="d203358e131">
 
 Choice
 
-</th><th align="left" id="d190762e134">
+</th><th align="left" id="d203358e134">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d190762e140">
+</th></tr></thead><tbody><tr><td id="d203358e140">
 
 **Creating manually**
 
@@ -59,7 +59,7 @@ Action
 
 The full details page of the created story is displayed.
 
-</td></tr><tr><td id="d190762e172">
+</td></tr><tr><td id="d203358e172">
 
 **Using Now Assist**
 
@@ -80,7 +80,7 @@ See [Create stories agentic workflow using ServiceNow Otto](https://raw.githubus
 
     From the full details page of a story, you can perform the following actions:
 
-    -   Refine the description with Now Assist.
+    -   Refine the description with Now Assist. See [Improve efficiency and quality using refine records skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/refine-text-with-write-planning-item-skill.md).
 
         This feature requires activating the Write planning item skill of ServiceNow Otto for SPM.
 

@@ -7,9 +7,9 @@ release: zurich
 product: Agile Development
 classification: agile-development
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Performance Analytics Content Pack for Agile 2.0, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Performance Analytics Content Pack for Agile 2.0, Agile Development, Strategic Portfolio Management]
 ---
 
 # Agile 2.0 Epic Dashboard
@@ -200,7 +200,7 @@ Identify the time taken for each story in the epic to move from an in-progress s
 
 From the Story State section towards the right of the report, you can filter the report to view the cycle time of the stories for the selected states. The chart displays the cycle time for each story as the cumulative sum of all duration of the selected states.
 
- Too many stories in any area of the chart can make the bubbles appear crowded on the report. To fix this, you can zoom in on that particular area of the report for a clearer view.
+ If there are too many stories at any area of the chart and the bubbles appear crowded on the report. You can zoom in on that particular area of the report for a clearer view.
 
 \[Omitted image "cycle-time-zoom.gif"\] Alt text: Cycle Time Zoom
 

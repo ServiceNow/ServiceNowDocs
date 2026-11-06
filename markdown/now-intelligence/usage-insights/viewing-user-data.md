@@ -7,9 +7,9 @@ release: zurich
 product: Usage Insights
 classification: usage-insights
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, Usage Insights, Platform Analytics]
+breadcrumb: [Using Usage Insights, Usage Insights, Platform Analytics]
 ---
 
 # Viewing user analytics
@@ -42,7 +42,7 @@ Hashed User ID
 
 </td><td>
 
-Generated hashed `sys_id` value for each user. Actual user IDs aren’t displayed. Instead they’re automatically hashed via the SHA-256 hash function.**Note:** Users not logged in to the portal are displayed as “Anonymous.”
+Generated hashed `sys_id` value for each user. **Note:** Users not logged in to the portal are displayed as “Anonymous.”
 
 </td></tr><tr><td>
 
@@ -103,7 +103,7 @@ You can view a breakdown analysis of active users by grouping them according to 
 
 You can filter the Users list by date range, User type, and Country by default. Using the **Add filter** option, you can filter on Locale, Department, Role, Group, and Manager, as well as by your custom User filters.
 
-**Note:** The Add filter options use a logical AND operator. This means that the results must meet both the criteria in the default filters AND the criteria in the additional filters to be included in the visualizations.
+**Note:** The Add filter options use a logical AND operator. Meaning that the results must meet both the criteria in the default filters AND the criteria in the additional filters to be included in the visualizations.
 
 **Parent Topic:**[Using Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/usage-insights/using-uxa.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Otto for Process Mining, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [ServiceNow Otto for Process Mining, Use, Process Mining, Platform Analytics]
 ---
 
 # Configuring ServiceNow Otto for Process Mining
@@ -20,19 +20,25 @@ Configure ServiceNow Otto for Process Mining to use the feature.
 
 Configure how you can use the ServiceNow Otto for Process Mining in the first skill.
 
--   [Activate work notes analysis skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/activate-na-skill.md)
--   [Configuring work notes analysis in Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/configure-worknotes.md)
+-   [Activate transition work notes analysis skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/activate-na-skill.md)
+-   [Configuring transition work notes analysis in Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/configure-worknotes.md)
 
 ## ServiceNow Otto for Process Mining plugin
 
-To work with generative AI capabilities, you need ServiceNow Otto for Creator. For information on how to install ServiceNow Otto for Creator, see .
+To work with generative AI capabilities, you need ServiceNow Otto for Creator. You can install this application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 After ServiceNow Otto for Creator is installed, the plugin \(ServiceNow Otto for Process Mining\) and Generative AI Controller are automatically installed.
 
--   **[Working with worknotes using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/worknotes.md)**  
-To work effectively with worknotes analysis using AI, you must activate the work notes analysis skill and configure work notes analysis for the process table.
+-   **[Working with transition work notes using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/worknotes.md)**  
+To work effectively with transition work notes analysis using AI, you must activate the Transition Work Notes Analysis skill and configure work notes analysis for the process table.
 -   **[Working with process inefficiency highlights using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/highlights.md)**  
 To work effectively with process inefficiency highlights using AI, you must activate the process inefficiency highlights skill and configure improvement opportunities for the process table and the project.
+-   **[Working with intent and activity analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/nowass-intent-activity-analysis.md)**  
+To work effectively with intent and activity analysis using AI, you must activate the Intent and Activity Analysis skill and configure the intent and activity analysis for the process table and the project.
+-   **[Generate process configuration using AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/activate-pro-config-skill.md)**  
+Use AI to generate a suggestion for the process configuration fields for a table, instead of selecting each field manually.
+-   **[Generate state responsibility mapping using AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/activate-gen-state-resp.md)**  
+Map process steps to stakeholder responsibilities using AI, enabling advanced Process Mining features.
 
 **Parent Topic:**[ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/now-assist.md)
 

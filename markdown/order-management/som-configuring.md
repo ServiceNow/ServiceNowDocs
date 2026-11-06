@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/som-configuring.html
 release: zurich
 topic_type: reference
-last_updated: "2025-11-25"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Sales Customer Relationship Management]
 ---
 
@@ -26,7 +26,7 @@ As a user with the admin role, complete the following main configuration tasks t
 
 </td><td>
 
-[Lead and opportunity management\[Omitted image "bus-funnel.svg"\] Alt text:Set up tools to capture leads, engage customers, manage opportunities, forecast sales, and define sales territories.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configuring-lead-opportunity-mgt.md)
+[Sales automation\[Omitted image "bus-funnel.svg"\] Alt text:Set up tools to capture leads, engage customers, manage opportunities, forecast sales, and define sales territories.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configuring-lead-opportunity-mgt.md)
 
 </td></tr><tr><td>
 
@@ -53,23 +53,12 @@ As a user with the admin role, complete the following main configuration tasks t
  
 
 </td></tr></tbody>
-</table>## Additional configuration tasks
-
--   [Assign user roles in Sales Customer Relationship Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-SOM-roles.md)
-
-    Review and assign roles to users of the Sales CRM applications that you install.
-
--   [Configuring agent tools in Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-agent-tools.md)
-
-    The applications in Sales Customer Relationship Management share common features and tools for agents, such as location-based transactions.
-
-
--   **[Configuring the lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configuring-lead-to-cash-foundation.md)**  
+</table>-   **[Configuring the lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configuring-lead-to-cash-foundation.md)**  
 Learn how to configure lead-to-cash foundation applications to establish a unified platform for Sales Customer Relationship Management entities such as managing leads, opportunities, quotes, and orders efficiently.
+-   **[Configuring the sales automation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configuring-lead-opportunity-mgt.md)**  
+Learn how to install and configure the sales automation applications to support pre-sales workflows.
 -   **[Configuring the configure, price, quote applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configuring-cpq.md)**  
 Learn how to configure the configure, price, quote applications to streamline complex product, pricing, and quote-to-contract workflows.
--   **[Configuring the lead and opportunity management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configuring-lead-opportunity-mgt.md)**  
-Learn how to install and configure the lead and opportunity management applications to support pre-sales workflows.
 -   **[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-configuring.md)**  
 Learn how to configure the features and components that you need for customer and service order processing, depending on whether you are a provider or an enterprise customer.
 -   **[Configuring the order operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configuring-order-operations.md)**  
@@ -79,11 +68,13 @@ Learn how to configure the Customer Life Cycle Management Workflows application 
 -   **[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-partner-relationship-management.md)**  
 Install the PRM \(com.snc.partner\_relationship\_management\) application from ServiceNow® Store to enable enterprises to hire partners and improve their sales cycles.
 -   **[Configuring the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-management-configure-business-portal.md)**  
-As an admin, you can configure the Business Portal \(sn\_b2b\_portal\) so your customers can browse products and create orders in Sales Customer Relationship Management.
+Enable B2B customers to self-serve key processes such as order creation, order case management, invoice management, request for quote \(RFQ\) creation by configuring the Business Portal \(sn\_b2b\_portal\).
 -   **[Configuring agent tools in Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-agent-tools.md)**  
 The applications in Sales Customer Relationship Management share common features and tools for agents.
--   **[Assign user roles in Sales Customer Relationship Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-SOM-roles.md)**  
-The Sales Customer Relationship Management \(Sales CRM\) applications use roles to control access to features and capabilities. Roles also determine access to information for data security, identify users, and define the work that users perform in your organization.
+-   **[Configuring AI capabilities in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configuring-ai-capabilities-sales-crm.md)**  
+Use the AI Admin Hub console to activate the various AI applications and skills that you're entitled to use.
+-   **[Configure Sales CRM Mobile Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-sales-crm-mobile.md)**  
+Activate the Sales CRM Mobile plugin, then use the Now Agent mobile app to log in and access Sales CRM Mobile application.
 
 **Parent Topic:**[Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-overview.md)
 

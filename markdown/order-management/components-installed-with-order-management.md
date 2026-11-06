@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/components-installed-with-order-management.html
 release: zurich
 topic_type: reference
-last_updated: "2025-09-04"
+last_updated: "2026-09-28"
 reading_time_minutes: 3
 breadcrumb: [Order Management reference, Reference, Sales Customer Relationship Management]
 ---
@@ -118,7 +118,7 @@ Order Approver
 
 </td><td>
 
-Approves customer orders in Order Management for Telecommunications. This role is included in the Order Management Business Stakeholder role.
+Approves customer orders in Order Management. This role is included in the Order Management Business Stakeholder role.
 
 </td><td>
 
@@ -132,7 +132,7 @@ Order Viewer
 
 </td><td>
 
-Views customer, product, service, and resource orders and any related order tasks in Order Management for Telecommunications. This role is included in the Order Management Business Stakeholder role.
+Views customer, product, service, and resource orders and any related order tasks in Order Management. This role is included in the Order Management Business Stakeholder role.
 
 </td><td>
 
@@ -231,6 +231,7 @@ Creates orders. Use this role to send order via REST Web Services.
 -   sn\_tmt\_core.inbound\_queue\_create
 -   sn\_tmt\_core.outbound\_request\_write
 -   sn\_ind\_tmt\_orm.order\_creator
+-   sn\_tmf\_api.party\_integrator
 
 </td></tr></tbody>
 </table>## Tables installed

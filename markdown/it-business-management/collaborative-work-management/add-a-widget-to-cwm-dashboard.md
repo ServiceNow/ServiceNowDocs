@@ -7,7 +7,7 @@ release: zurich
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-08-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [add widget, dashboard widget, chart widget, dial widget, CWM]
 breadcrumb: [Monitor and track work using dashboards in CWM, Manage work using Boards, Use, Collaborative Work Management, Strategic Portfolio Management]
@@ -53,15 +53,15 @@ For custom widgets, the columns common to CWM task types and other work item typ
 
 7.  Add a predefined widget or create a custom one.
 
-<table id="choicetable_at1_rhy_hkc"><thead><tr><th align="left" id="d330092e194">
+<table id="choicetable_at1_rhy_hkc"><thead><tr><th align="left" id="d354740e194">
 
 Goal
 
-</th><th align="left" id="d330092e197">
+</th><th align="left" id="d354740e197">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d330092e203">
+</th></tr></thead><tbody><tr><td id="d354740e203">
 
 **Add a predefined widget**
 
@@ -69,7 +69,7 @@ Action
 
 Select **Add** next to a predefined widget to add it to the dashboard as-is.\[Omitted image "cwm-widget-add-option.png"\] Alt text: Add option for predefined widgets next to the widget name.
 
-</td></tr><tr><td id="d330092e221">
+</td></tr><tr><td id="d354740e221">
 
 **Create a custom widget**
 

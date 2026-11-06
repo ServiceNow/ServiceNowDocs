@@ -7,7 +7,7 @@ release: zurich
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Service Portfolio Management, IT Service Management]
 ---
@@ -26,6 +26,8 @@ You can create a single service portfolio or multiple service portfolios, each w
 Create services that benefit and add value to your internal organization and external customers and users.
 -   **[Apply scope to a service in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-portfolio-management/SPM2-apply-scope-to-service.md)**  
 Define the limits of a service with scope details to grant or deny specific service views. Out of Scope items define what a service cannot provide and In Scope items define what a service provides. For example, nightly backups may be In Scope for the Desktop Support service, but Out of Scope for the Disaster Recovery service.
+-   **[Service Portfolio Management Premium notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-portfolio-management/SPM2-premium-notifications.md)**  
+Notifications are added with Service Portfolio Management Premium to manage your service offering to catalog item relationships.
 -   **[Edit and manage service portfolios in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-portfolio-management/SPM2-edit-manage-portfolios.md)**  
 Manage the CSDM life cycle fields of your portfolio taxonomy nodes in the Service Portfolio Management application. You can move taxonomy nodes easily from one portfolio to another to confirm that your portfolios are synchronized. You can also decide to show or hide the life cycle fields in the complimentary Digital Portfolio Management \(DPM\) Workspace.
 -   **[Service offerings in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-portfolio-management/SPM2-service-offerings.md)**  

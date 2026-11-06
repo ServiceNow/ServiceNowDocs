@@ -7,9 +7,9 @@ release: zurich
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Setting up Basic Software Asset Management, Basic Software Asset Management, ITSM Software Asset Management, Asset Management, IT Service Management]
+breadcrumb: [Setting up Basic Software Asset Management plugin, Basic Software Asset Management, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
 # Customize a Discovery pattern for Basic Software Asset Management
@@ -96,5 +96,5 @@ Product name \(for example, MySQL\).
 
 If the software product has an edition that is not being discovered, [Manually override SAM Foundation edition value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/t_ManOverrideEditionSAMF.md) so the software can be successfully reconciled.
 
-**Parent Topic:**[Setting up Basic Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/t_SAMSetupSAMF.md)
+**Parent Topic:**[Setting up Basic Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/t_SAMSetupSAMF.md)
 

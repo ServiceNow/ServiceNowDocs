@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/configure-class-settings.html
 release: zurich
 topic_type: task
-last_updated: "2026-05-19"
-reading_time_minutes: 1
-breadcrumb: [SGC Central, Service Graph Connector for ServiceNow Operational Technology\(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [SGC Central, Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Configure classification settings in SGC Central
@@ -26,7 +26,7 @@ Role required: admin
 
     **Note:** The OT Discovery classification settings define how OT Discovery categories are mapped to the target ServiceNow Instance CMDB classes. It also defines how they are configured to additional settings based on classification, such as the configuration item \(CI\) naming strategy and whether to permit OS classification. The default recommended classification settings are provided by the application, which you can then configure for your needs.
 
-    \[Omitted image "image.config-classification-settings2"\] Alt text: Configure classification settings
+    \[Omitted image "config-classification-settings2.png"\] Alt text: Configure classification settings
 
 3.  In this step, you can edit, export, or create settings.
 
@@ -91,4 +91,6 @@ For OT devices, you can select the OT device type to apply the device type to th
 </td></tr></tbody>
 </table>8.  Select **Continue** to move to the next step.
 
+
+**Parent Topic:**[SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/sgc-central-for-ot-discovery.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Auto-populate dates in contract]
 breadcrumb: [Configure additional features in CM Pro, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
@@ -48,7 +48,7 @@ Role required: admin
 
 The **Start date** and **End date** fields in the Initial contract window are automatically updated from the parent record while creating a contract request.
 
-For more information on initiating a contract request, see [Initiating a contract or amendment request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-initiate-contract.md).
+For more information on initiating a contract request, see [Parent-linked contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-initiate-contract.md).
 
 **Parent Topic:**[Configure additional features in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-additional-feature.md)
 

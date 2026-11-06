@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-manage-goals.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Using business architecture, Working with Portfolio list view, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Manage goals
@@ -28,6 +28,10 @@ You can create sub-goals that are associated with your main goals. Sub-goals are
 You can add existing drivers to a goal in the Enterprise Architecture Workspace, or create a driver directly from the goal record, to identify what influences the goal.
 -   **[Remove a driver from a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-remove-driver-from-goal.md)**  
 Remove drivers associated with a goal in Enterprise Architecture Workspace.
+-   **[Add a stakeholder to a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-add-stakeholder-to-goal.md)**  
+Add existing stakeholders to a goal in the Enterprise Architecture Workspace, or create a stakeholder directly from the goal record.
+-   **[Remove a stakeholder from a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-remove-stakeholder-from-goal.md)**  
+You can remove the stakeholders associated with a goal in the Enterprise Architecture Workspace.
 -   **[Add a business process to a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-add-business-process-to-goal.md)**  
 Associate business processes with goals to map how your organization's processes support strategic objectives.
 -   **[Remove a business process from a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-remove-business-process-from-goal.md)**  
@@ -38,4 +42,15 @@ Add existing business capabilities to goals, or create business capabilities dir
 Remove business capabilities associated with a goal in the Enterprise Architecture Workspace.
 
 **Parent Topic:**[Using business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-using-business-architecture.md)
+
+**Related topics**  
+
+
+[Add a goal to a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-add-goal-to-business-capability.md)
+
+[Remove a goal from a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-remove-goal-from-business-capability.md)
+
+[Add a goal to a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-add-goal-to-business-process.md)
+
+[Remove a goal from a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-remove-goal-from-business-process.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Conversational Integration with Google Chat
@@ -24,11 +24,11 @@ Enable requesters to chat with Google Chat or live agents using the Google Chat 
 
 </td><td>
 
-[Install\[Omitted image "bus-root-cause-issue-resolution.svg"\] Alt text:Install Conversational integration with Google Chat.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/install-ci-google-chat.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install Conversational integration with Google Chat.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/installing-ci-google-chat.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configuring your Conversational Integration with Google Chat.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-va-google-chat.md)
+[Integrate\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Integrate Conversational Integration with Google Chat.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/integrating-va-google-chat.md)
 
 </td></tr></tbody>
 </table>-   **[Exploring Conversational Integration with Google Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/exploring-ci-google-chat.md)**  

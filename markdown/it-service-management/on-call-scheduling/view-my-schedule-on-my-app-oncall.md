@@ -7,9 +7,9 @@ release: zurich
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [View schedules and request time-off, On-Call Scheduling, IT Service Management]
+breadcrumb: [Viewing schedules and request time-off, On-Call Scheduling, IT Service Management]
 ---
 
 # View my On-Call calendar on my calendar app

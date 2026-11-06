@@ -1,22 +1,22 @@
 ---
-title: Managing ad-hoc filters
-description: Create ad-hoc filters in Dispatcher Workspace to filter work order tasks with custom criteria.
+title: Managing ad hoc filters
+description: Create ad hoc filters in Dispatcher Workspace to filter work order tasks with custom criteria.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/managing-ad-hoc-filters.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Dispatcher Workspace, Assigning WOTs from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
+breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
-# Managing ad-hoc filters
+# Managing ad hoc filters
 
-Create ad-hoc filters in Dispatcher Workspace to filter work order tasks with custom criteria.
+Create ad hoc filters in Dispatcher Workspace to filter work order tasks with custom criteria.
 
-You can create an ad-hoc filters to be either temporary and unique to a working session, or saved for future use.
+You can create an ad hoc filters to be either temporary and unique to a working session, or saved for future use.
 
 There are two types of filters.
 

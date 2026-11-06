@@ -7,18 +7,14 @@ release: zurich
 product: Time Configuration
 classification: time-configuration
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Schedules, Explore, Time configuration, Configure core features, Administer]
+breadcrumb: [Schedules, Explore, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Repeat a monthly schedule
 
 Repeat a monthly schedule to reduce the amount of time required to define schedules and to provide consistency in scheduling.
-
-## Before you begin
-
-Before you begin, ensure you have administrator access to the ServiceNow instance. Role required: admin.
 
 ## About this task
 

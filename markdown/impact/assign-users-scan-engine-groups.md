@@ -1,57 +1,45 @@
 ---
-title: Assign users to Scan Engine groups
-description: In addition to assigning Impact users to groups, the Platform Health users must also be part of a group.
+title: Assign users to Platform Health groups
+description: In addition to assigning Impact users to groups, Platform Health users must also be part of a group for the Scan Engine feature.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/assign-users-scan-engine-groups.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-18"
-reading_time_minutes: 2
-breadcrumb: [Configure the Impact Store Application, Configuring Impact, Impact]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Assign roles, Configuring Impact, Impact]
 ---
 
-# Assign users to Scan Engine groups
+# Assign users to Platform Health groups
 
-In addition to assigning Impact users to groups, the Platform Health users must also be part of a group.
+In addition to assigning Impact users to groups, Platform Health users must also be part of a group for the Scan Engine feature.
 
 ## Before you begin
 
-Feature allocation and availability in the Platform Health Scan Engine is based on role and group assignment. See [Analytics Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/scan-engine-diagnostic-dashboards.md) for additional information on role-based feature availability.
+**Important:** Navigation to reach this step differs depending on whether you're using the [Impact Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/use-impact-setup-hub.md) or the legacy [Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/guided-setup-impact-in-app.md). See whichever one applies to you for the exact path.
 
-**Note:** You may return to the various steps in the configuration if you don't complete the entire setup at once. As you complete each step successfully, mark the step as complete. Subsequent tasks are locked until the previous step is completed.
+Feature allocation and availability in the Platform Health Scan Engine is based on role and group assignment. See [Track Platform Health trends](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/scan-engine-diagnostic-dashboards.md) for additional information on role-based feature availability.
 
-Role required: impact admin or admin
+Role required: impact app admin or admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Impact** &gt; **Guided Setup** &gt; **Assign Platform Health users**.
+1.  [Assign roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/assign-roles.md).
 
-2.  Assign users to groups.
+2.  Select the checkbox next to each role you want to assign.
 
-    Refer to [Use Guided Setup to onboard users to the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/onboard_users_impact_store_application.md) for information about role assignment.
+3.  Select **Assign users**.
 
-3.  Create Development Teams.
+4.  [Create a development team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/create-development-team.md).
 
-    Development teams are necessary so each persona can access the relevant Platform Health dashboard. Each record indicates a team and a development team lead that Scan Engine findings will be reported on the Analytics Dashboard.
-
-    1.  Navigate to **All** &gt; **Impact** &gt; **Configuration** &gt; **Scan Engine Properties**.
-
-    2.  In the Team Leads related list, select **New**.
-
-    3.  Create the relevant development teams assigned to the appropriate team lead.
-
-        See [Configure scanning properties per persona](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/teamdev-scanning-properties.md) for additional information on assigning team leads to development teams.
-
-4.  Select **Mark as Complete** to enable the next configuration step.
+    Development teams are necessary so each persona can access the relevant Platform Health dashboard.
 
 
 ## What to do next
 
+If a role assignment changed, affected users must log out and log back in to your instance for the permissions to apply.
+
 [Activate Scan Engine and review settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-initial-scan-engine-settings.md)
 
-**Parent Topic:**[Configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configuring-impact-platform.md)
-
-**Previous topic:**[Use Guided Setup to onboard users to the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/onboard_users_impact_store_application.md)
-
-**Next topic:**[Activate Scan Engine and review settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-initial-scan-engine-settings.md)
+**Parent Topic:**[Assign roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/assign-roles.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Orchestration
 classification: orchestration
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Active Directory activity pack, Orchestration activity packs, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -77,5 +77,5 @@ Powershell command result.
 |Policy Failure|New password does not comply with the organization's Active Directory requirements.|
 |Failure|An error occurred while attempting to reset the password. Additional details may be available in the workflow log.|
 
-**Parent Topic:**[Active Directory activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/c_OrchActiveDirectoryActivities.md)
+**Parent Topic:**[Active Directory activity pack]()
 

@@ -7,9 +7,9 @@ release: zurich
 product: CMDB CI Class Models
 classification: cmdb-ci-class-models
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [CMDB CI class models, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB CI class models, CMDB hierarchy, Explore, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # DNS resource record classes
@@ -18,13 +18,13 @@ The CMDB CI Class Models ServiceNow Store app adds or updates classes for DNS re
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## DNS zone resource records
 
-A DNS record is an entry in the domain name system \(DNS\) database that provides information about a specific aspect of a domain name. Each DNS record contains data associated with a domain name, such as IP addresses, mail server addresses, or other resources. Each type of record serves a specific purpose, such as mapping domain names to IP addresses \(A records\), identifying mail servers for a domain \(MX records\), and providing aliases for domain names \(CNAME records\), among others. DNS resource records are essential for the proper functioning of the DNS infrastructure on the internet.
+A DNS record is an entry in the domain name system \(DNS\) database that provides information about a specific aspect of a domain name to enable you to trace the ownership and tenure of a domain details from tools like who is and DNS lookup tools. Each DNS record contains data associated with a domain name, such as IP addresses, mail server addresses, or other resources. Each type of record serves a specific purpose, such as mapping domain names to IP addresses \(A records\), AAAA records, identifying mail servers for a domain \(MX records\), and providing aliases for domain names \(CNAME records\), among others. DNS resource records are essential for the proper functioning of the DNS infrastructure on the internet.
 
-See the CMDB CI Class Models release notes.
+See the release notes for all CMDB CI class models.
 
 **Note:** In CMDB CI Class Models release 1.57, existing classes in the CMDB schema that represent DNS resource records like A, AAAA, CName, and so on are deprecated. The following classes are defined with an ideal base, child class, and identification rule.
 
@@ -47,7 +47,7 @@ The supported record types enable actions like the following:
 
 ## Table: cmdb\_ci\_dns\_resource\_record
 
-This section lists the classes that the CMDB CI Class Models store app adds or updates. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
+This section lists the classes that the CMDB CI Class Models app adds or updates. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
 
 DNS record detail from Domain Name Server \(DNS\) for a WWW domain.
 
@@ -65,9 +65,9 @@ Details
 
 </th></tr></thead><tbody><tr><td>
 
-DNS Service Provider \[service\_provider\]
+DNS Service provider \[service\_provider\]
 
- Replaces the deprecated column: DNS Service Provider \[name\]
+ Replaces the deprecated column: DNS Service provider \[name\]
 
 </td><td>
 

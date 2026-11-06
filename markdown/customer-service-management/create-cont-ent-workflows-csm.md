@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-cont-ent-workflows-csm.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configuring Contracts and Entitlement Workflows, Customer Contracts and Entitlements, Product data, Set up your environment, Configure, Customer Service Management]
+breadcrumb: [Configuring Contracts and Entitlement Workflows, Configure Customer Contracts and Entitlements, Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Creating contracts and entitlements using workflows
@@ -19,8 +19,8 @@ There are the product offering scenarios and their configurations.
 |Offering types|Description|
 |--------------|-----------|
 |Offers for entitlements|The workflow creates entitlement records for such offerings. These entitlements can be associated with existing sold products, install base items, product inventory records, or the customer.|
-|Offers for services \(contract lines\)|The workflow enables automatic creation of a service contract, service contract lines, and the entitlements for those contract lines.|
-|Implicit offerings|Implicit entitlements and service contract lines are not shown on order lines. These offers can be marked as implicit when they do not need to be configured while capturing the order and are available as part of a package. These entitlements and service contract lines are automatically created as a part of this workflow.|
+|Offers for services \(contract lines\)|The workflow enables automatic creation of a customer contract, customer contract lines, and the entitlements for those contract lines.|
+|Implicit offerings|Implicit entitlements and customer contract lines are not shown on order lines. These offers can be marked as implicit when they do not need to be configured while capturing the order and are available as part of a package. These entitlements and customer contract lines are automatically created as a part of this workflow.|
 
 ## Creating a contract from an order
 
@@ -36,7 +36,7 @@ If the system property sn\_ind\_tmt\_orm.enable\_prod\_invt\_for\_order\_managem
 
 ## Configuring Customer Life Cycle Workflows Policy decision table
 
-Customer Life Cycle Workflows Policy decision table decides the target entity while renewing and modifying service contracts, service contract lines, and entitlements. Based on this decision table, you can create a quote, an order, an opportunity, or an opportunity and a quote together while renewing or modifying a service contract. For a target entity, you can also select when you want to initiate the renewal of the service contract.
+Customer Life Cycle Workflows Policy decision table decides the target entity while renewing and modifying customer contracts, customer contract lines, and entitlements. Based on this decision table, you can create a quote, an order, an opportunity, or an opportunity and a quote together while renewing or modifying a customer contract. For a target entity, you can also select when you want to initiate the renewal of the customer contract.
 
 \[Omitted image "customer-lc-decision-table-input.png"\] Alt text: Customer Life Cycle Workflows Policy decision table
 

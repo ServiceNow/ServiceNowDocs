@@ -47,21 +47,21 @@ You can use the ER interview summarization skill in either Core UI or Agent Work
 
     A summary of the interview record is displayed with a quick recap, key assertions, and responses.
 
-    \[Omitted image "int-summarize-aws.png"\] Alt text: ER interview summary in HR Agent Workspace \[Omitted image "int-summarize-aws-output.png"\] Alt text: ER interview summary in HR Agent Workspace
+    \[Omitted image "image.int-summarize-aws"\] Alt text: ER interview summary in HR Agent Workspace \[Omitted image "image.int-summarize-aws-output"\] Alt text: ER interview summary in HR Agent Workspace
 
-    \[Omitted image "int-summarize-coreui.png"\] Alt text: ER interview summary in Core UI \[Omitted image "int-summarize-coreui-output.png"\] Alt text: ER interview summary in Core UI
+    \[Omitted image "image.int-summarize-coreui"\] Alt text: ER interview summary in Core UI \[Omitted image "image.int-summarize-coreui-output"\] Alt text: ER interview summary in Core UI
 
 7.  When you finish summarizing the interview record, you can add it to the interview notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d641300e223">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d652501e217">
 
 Option
 
-</th><th align="left" id="d641300e226">
+</th><th align="left" id="d652501e220">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d641300e232">
+</th></tr></thead><tbody><tr><td id="d652501e226">
 
 **Save the summary to interview notes**
 
@@ -72,7 +72,7 @@ Procedure
 3.  Select **Save to AI Interview Summary**.
 
 
-</td></tr><tr><td id="d641300e259">
+</td></tr><tr><td id="d652501e253">
 
 **Expand or collapse the interview summary**
 
@@ -80,7 +80,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expand card icon.\) or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d641300e280">
+</td></tr><tr><td id="d652501e274">
 
 **Provide feedback for interview summary**
 
@@ -88,7 +88,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expa
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill.
 
-</td></tr><tr><td id="d641300e303">
+</td></tr><tr><td id="d652501e297">
 
 **Copy the interview summary**
 
@@ -96,7 +96,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d641300e319">
+</td></tr><tr><td id="d652501e313">
 
 **View the information about the interview summary**
 
@@ -104,7 +104,7 @@ Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: 
 
 If you want to check some details about the summary, select the more info icon \(\[Omitted image "icon-more-info.png"\] Alt text: More info icon.\).
 
-</td></tr><tr><td id="d641300e334">
+</td></tr><tr><td id="d652501e328">
 
 **Refine list**
 
@@ -114,7 +114,7 @@ Elaborate or shorten the summary.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
+**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 **Related topics**  
 
@@ -150,6 +150,8 @@ Elaborate or shorten the summary.
 [Submit an HR request with Gen AI Virtual Agent]()
 
 [ServiceNow Otto for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework]()
+
+[Generate activity responses for HR cases]()
 
 [Analyze sentiments in ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 

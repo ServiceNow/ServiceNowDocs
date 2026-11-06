@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-10-09"
-reading_time_minutes: 7
-breadcrumb: [ACC deployment - endpoints, Agent Client Collector, IT Operations Management]
+last_updated: "2026-11-06"
+reading_time_minutes: 8
+breadcrumb: [ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Create a configuration settings rule
@@ -1308,6 +1308,11 @@ CI/Metric
 
 </td></tr></tbody>
 </table>
+-   **[Synchronize configuration settings rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/synch-config-settings-rules.md)**  
+Metric Intelligence configuration settings rules contain user specified values that override default values that currently exist on Metric Intelligence MID Servers. To take effect, the Metric Intelligence MID Servers must be synchronized with the updated set of configuration settings rules.
+
+**Parent Topic:**[Deploying Agent Client Collector on endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-endpoint-deployment.md)
+
 **Related topics**  
 
 

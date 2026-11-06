@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/sgcc-configure-and-test-connection.html
 release: zurich
 topic_type: task
-last_updated: "2026-05-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [SGC Central, Service Graph Connector for ServiceNow Operational Technology\(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [SGC Central, Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Configure and test connections
@@ -20,13 +20,13 @@ Role required: admin
 
 ## Procedure
 
-1.  From **Setup** section, select **Configure and test connections**.
+1.  From the **Setup** section, select **Configure and test connections**.
 
     After you select the **Create connection** button, a guided playbook experience launches automatically. The playbook walks you through each required configuration step for the Operational Technology Discovery connector.
 
 2.  Select the **Create connection** button.
 
-    \[Omitted image "image.sgc-central-configure-connections-2"\] Alt text: Create connection
+    \[Omitted image "sgc-central-configure-connections-2.png"\] Alt text: Create connection
 
     The **Create connection** window opens.
 
@@ -36,7 +36,7 @@ Role required: admin
 
 5.  Fill in the connection details as explained in the following table.
 
-    \[Omitted image "image.config-and-test-connection-11"\] Alt text: Configure and test connection
+    \[Omitted image "config-and-test-connection-11.png"\] Alt text: Configure and test connection
 
 <table id="table_utt_3fc_23c"><thead><tr><th>
 
@@ -62,7 +62,7 @@ Connection URL
 
 </td><td>
 
-Navigate to the Console and copy its URL and paste it into the Connection URL field. For example: https://OTDiscoveryConsole.net:8443/
+Navigate to the Discovery Console for OT and copy its URL and paste it into the Connection URL field. For example: https://OTDiscoveryConsole.net:8443/
 
 This field is mandatory.
 
@@ -96,4 +96,6 @@ This is optional. Check this box to use a MID Server for the connection.
 
 8.  Select **Continue** to move to the next step.
 
+
+**Parent Topic:**[SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/sgc-central-for-ot-discovery.md)
 

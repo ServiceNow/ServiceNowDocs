@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-02-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Manage work order plans, Manage work orders for your enterprise assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Asset work order plans, Manage work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Create a work order plan for enterprise assets
@@ -30,15 +30,15 @@ A work order plan can be created for individual enterprise assets and asset grou
 
 1.  Create a work order plan.
 
-<table id="choicetable_zfb_tsx_j3c"><thead><tr><th align="left" id="d334306e75">
+<table id="choicetable_zfb_tsx_j3c"><thead><tr><th align="left" id="d356422e75">
 
 Create from
 
-</th><th align="left" id="d334306e78">
+</th><th align="left" id="d356422e78">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d334306e84">
+</th></tr></thead><tbody><tr><td id="d356422e84">
 
 **Work management view**
 
@@ -52,7 +52,7 @@ A list of existing work order plans is displayed.
 3.  Select **New**.
 
 
-</td></tr><tr><td id="d334306e125">
+</td></tr><tr><td id="d356422e125">
 
 **Asset group**
 
@@ -88,7 +88,7 @@ A list of existing asset groups is displayed.
     4.  **Track status**
     All the activities are in Pending status before you start working on them.
 
-3.  In the **Details** activity, complete the work order plan details.
+3.  In the **Details activity**, complete the work order plan details.
 
     **Note:** If you selected a work order plan template, the following fields on the Details form are automatically populated from the template:
 
@@ -177,7 +177,7 @@ Date and time by which the work order plan must be completed.
     -   To remove an asset, select the asset and then select **Remove**.
     -   To confirm the assets and proceed to the next activity, select **Mark complete**.
 
-5.  In the **Review work order tasks** activity, assign the work order tasks to technicians and schedule the tasks.
+5.  In the **Review work order tasks**, assign the work order tasks to technicians and schedule the tasks.
 
     1.  In the **Review assignments** activity, assign an assignment group to each work order task.
 

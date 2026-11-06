@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Stages and activities, Building playbooks, Use, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Start with delay input properties
@@ -63,7 +63,7 @@ Template Value
 
 </td><td>
 
-Option to set a duration value manually or to select a Duration data pill from the data pill picker \[Omitted image "data-pill-picker-icon.png"\] Alt text: Data pill picker.-   **Explicit Duration**: Wait duration in hours, minutes, and seconds.
+Option to set a duration value manually or to select a Duration data pill from the data pill picker \[Omitted image "data-pill-picker-icon.png"\] Alt text: Data pill picker. -   **Explicit Duration**: Wait duration in hours, minutes, and seconds.
 -   **Relative Duration**: Wait duration in hours, minutes, and seconds before or after a specific time. Select **Relative Duration** to specify a wait duration from a specific date.
 
 **Note:** Past dates don't affect the wait duration.
@@ -97,33 +97,4 @@ Schedule used to calculate an end date that occurs during your hours of operatio
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md)
-
-**Related topics**  
-
-
-[Add and configure a stage in a playbook]()
-
-[Activity definitions]()
-
-[Add and configure an activity in a playbook]()
-
-[Use AI agent as an activity]()
-
-[Use an AI skill as an activity]()
-
-[Automation Assets]()
-
-[Optional activities]()
-
-[Decision activities]()
-
-[Decision stages]()
-
-[Questionnaire activity]()
-
-[Parallel branches]()
-
-[Add dynamic inputs to an activity]()
-
-[Playbook activity state mapping]()
 

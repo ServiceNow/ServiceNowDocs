@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-trm-technical-debt-form.html
 release: zurich
 topic_type: reference
-last_updated: "2026-08-24"
+last_updated: "2026-10-01"
 reading_time_minutes: 3
 keywords: [TRM technical debt, technical debt form, technology reference model]
-breadcrumb: [Reference, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # TRM technical debt form
@@ -148,7 +148,7 @@ The **Discovered Technology** related list shows the TLM discovered technology r
 
 Use this related list as your starting point to investigate and remediate the technical debt. Open a discovered technology record from the list. Use its **Number** field to open the full TPM Discovered Technology record, or its **TLM technology lifecycle** field to open the associated technology lifecycle record. From there, you can identify and update the underlying TRM product or TRM product lifecycle that's causing the debt.
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-form-field-information.md)
 
 **Related topics**  
 

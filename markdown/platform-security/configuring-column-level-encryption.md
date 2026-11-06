@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/configuring-column-level-encryption.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Field Encryption, Encryption]
 ---
@@ -36,7 +36,7 @@ Activate either Field Encryption Starter or Field Encryption Enterprise.
 -   **[Role requirements for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/fe-roles.md)**  
 Learn about the roles required to configure Field Encryption.
 -   **[Configure Field Encryption modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/configure-fe-modules.md)**  
-Learn how to configure Field Encryption modules.
+ Configure Field Encryption modules by selecting and updating module settings.
 -   **[Cryptographic specifications for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/configure-fe-crypto-specs.md)**  
 Use cryptographic specifications to define the purpose, algorithm, key length, mode, and origin of your encryption key.
 -   **[Module keys for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/fe-module-keys.md)**  
@@ -46,10 +46,10 @@ Use module lifecycle policy exceptions to customize the lifecycle of your module
 -   **[Configure Customer-supplied keys for Field Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/fe-config-customer-supplied-keys.md)**  
 Bring your own data encryption key to the platform instead of using the one that ServiceNow generates.
 -   **[Configure encrypted field configurations for fields or attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/configure-fe-fields-attachments.md)**  
-Create an encrypted field configuration to specify which fields are encrypted on a table, and whether that tables attachments are encrypted.
+Create an encrypted field configuration to specify which fields are encrypted on a table, and whether that table's attachments are encrypted.
 -   **[Configure multi-module encrypted field configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/multi-module-fe-config.md)**  
 Create an encrypted field configuration that uses more than one encryption module.
--   **[Configure module access policies for field encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/maps-for-fe.md)**  
+-   **[Configure module access policies for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/maps-for-fe.md)**  
 Create a module access policy to control which users, scripts, or system processes can encrypt or decrypt data encrypted by a field encryption module.
 -   **[Migrating to Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/migration-to-platform-encryption.md)**  
 Scheduled jobs migrate your keys and encrypted data from Encryption Support to Field Encryption.

@@ -7,7 +7,7 @@ release: zurich
 product: Adoption Services
 classification: adoption-services
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Adoption services, Configure user experiences]
 ---
@@ -20,16 +20,16 @@ Some onboarding modals are included by default in your instance, such as the onb
 
 When you switch between dark, light or coral user interface themes, the images in Onboarding modals match the theme of the instance you choose. This provides a visually cohesive experience.
 
-\[Omitted image "onboarding-experience.png"\] Alt text: An onboarding modal introduction slide on Now Assist admin dashboard.
+**Note:** The **com.glide.sn\_help.modal.enabled** system property controls the display of onboarding modals independently from the help panel. By default value is **true**. To disable onboarding modals across your instance without affecting the help panel,set this property to `false`
 
--   **[Exploring new experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/exploring-onboarding-modals.md)**  
-Onboarding modals introduce you to new ServiceNow® experiences through wizard-like interfaces in Next Experience. Learn about capabilities, benefits, and implementation approaches for effective user onboarding.
--   **[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/configure-onboarding-modals.md)**  
-Plan and configure the Onboarding modals to experience new applications.
--   **[Edit default Onboarding modals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/configure-next-experience-onboarding.md)**  
-Customize and edit default templates to optimize the onboarding experience and personalize content for your users.
--   **[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/onboarding-modals-reference.md)**  
-Reference information for user roles and best practices when implementing onboarding modals.
+\[Omitted image "onboarding-experience.png"\] Alt text: An onboarding modal introduction slide in an ITIL dashboard.
+
+-   **[Create an onboarding modal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/create-unified-nav-onboarding-experience.md)**  
+Create your own onboarding modals to introduce your users to a new experience or application.
+-   **[Launch an Onboarding Modal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/launch-onboarding-modal.md)**  
+Launch an Onboarding Modal you have created in your instance.
+-   **[Edit the default onboarding modal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/configure-next-experience-onboarding.md)**  
+Edit the default onboarding modal to personalize content for your users.
 
 **Parent Topic:**[Adoption services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/adoption-services.md)
 

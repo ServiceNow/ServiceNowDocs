@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Interactive activities, Playbooks reference, Reference, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Interactive activities, Playbooks reference, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Docusign activities
@@ -18,7 +18,7 @@ Enable agents and fulfillers to collect electronic signatures during a playbook 
 
 ## Roles and availability
 
--   These activities are available as an application in the ServiceNow Store. Users with the playbook.admin or pd\_author role can add these activities to a playbook.
+-   Users with the playbook.admin or pd\_author role can add these activities to a playbook.
 -   You must have access to Workflow Data Fabric's Docusign spoke.
 
 ## Inputs
@@ -165,6 +165,4 @@ Account record from the sn\_docusign\_spoke\_accounts table that specifies where
 </table>## Outputs
 
 Your signed document, available for review.
-
-**Parent Topic:**[Interactive activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/interactive-activities.md)
 

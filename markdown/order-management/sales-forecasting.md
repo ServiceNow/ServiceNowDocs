@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-forecasting.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Lead and opportunity management, Explore, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Sales automation, Explore, Sales Customer Relationship Management]
 ---
 
 # Sales Forecasting
@@ -22,6 +22,16 @@ Sales managers own the overall forecast for a group of sales representatives. Sa
 
 -   Resource allocation:  Efficiently allocate budget and resources based on projected sales and revenue expectations.
 -   Budgeting and Financial Planning: Supports financial planning and budget creation by offering insights into anticipated revenue.
+-   Primary and secondary level hierarchy: Enable forecast owners to configure forecasting with product family as a secondary hierarchy with the primary hierarchy as territory or sales team.
+-   Base forecast source: Enable forecast owners to submit and adjust forecasts at base forecast source.
+-   Multi-Period forecast rollups: Achieve better planning and strategy by configuring and managing forecasting for multiple time periods \(weekly, monthly, quarterly\) within a single forecast model for flexible data reporting.
 -   Sales Target Setting: Define sales targets and quotas for sales teams, territories, and individual sales representatives.​
 -   Tracking Sales Targets: Track the sales and status of quota target achieved for your agents and team.
+
+## What to explore next
+
+The following topics provide more information about configuring and using Sales Forecasting:
+
+-   [Configure Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-sales-forecasting.md)
+-   [Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-sales-forecasting.md)
 

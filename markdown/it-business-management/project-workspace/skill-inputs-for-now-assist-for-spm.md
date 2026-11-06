@@ -7,10 +7,10 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Inputs for Now Assist for SPM, Inputs for the feedback summarization skill]
-breadcrumb: [Configure AI Admin features, Configure, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+keywords: [Inputs for ServiceNow Otto for SPM, Inputs for the feedback summarization skill]
+breadcrumb: [Configure AI Admin features, Configuring Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Skill inputs for ServiceNow Otto for Strategic Portfolio Management
@@ -99,12 +99,12 @@ Product idea \[sn\_align\_core\_product\_idea\]
  Story \[rm\_story\]
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/configuring-na-spm.md)
+</table>**Parent Topic:**[Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/configuring-na-spm.md)
 
 **Related topics**  
 
 
-[Configure Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/configuring-na-spm.md)
+[Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/configuring-na-spm.md)
 
-[Using AI agent or agentic workflows in ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-na-spm-ai-agents.md)
+[Use AI agent or agentic workflows in ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/using-na-spm-ai-agents.md)
 

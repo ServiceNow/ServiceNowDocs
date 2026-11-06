@@ -7,9 +7,9 @@ release: zurich
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
-breadcrumb: [Out of Box, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Out Of Box Catalogs using Cloud Services Catalog, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Google Cloud Platform Linux Out Of Box Catalog items
@@ -48,7 +48,7 @@ This catalog item form allows ordering up to 10 additional disks \(volumes\) att
 
 </td></tr><tr><td>
 
-CSC GCP Linux Cloud Firewall: Order a secure Linux virtual machine with enhanced security. Control traffic to and from your VM instances based on your specified configuration.
+CSC GCP Linux Cloud Firewall: Order a secure Linux virtual machine with enhanced security. Control traffic to and from your VM instances based on your configuration.
 
 </td><td>
 

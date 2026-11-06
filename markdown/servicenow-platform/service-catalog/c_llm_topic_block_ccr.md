@@ -7,7 +7,7 @@ release: zurich
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-06-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [LLM topic block, Virtual Agent, Conversational Catalog Request, generative AI]
 breadcrumb: [Conversational catalog item requests, Conversational Catalog Requests, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
@@ -17,7 +17,9 @@ breadcrumb: [Conversational catalog item requests, Conversational Catalog Reques
 
 The LLM topic block is a Virtual Agent topic component that connects a conversational catalog request to ServiceNow Otto. It enables generative AI to interpret requester input during the conversation.
 
-Virtual Agent topics for Conversational Catalog Requests use the LLM topic block to hand off requester input to ServiceNow Otto. When a requester describes what they need in the chat interface, the LLM topic block sends that natural language input to ServiceNow Otto, which processes it and returns the most relevant catalog item for the conversation to continue with.
+Virtual Agent topics for Conversational Catalog Requests use the LLM topic block to hand off requester input to ServiceNow Otto.
+
+When a requester describes what they need in the chat interface, the LLM topic block sends that natural language input to ServiceNow Otto, which processes it and returns the most relevant catalog item for the conversation to continue with.
 
 The LLM topic block sits within the Virtual Agent topic flow and acts as the integration point between the conversation and the ServiceNow Otto generative AI service. Without it, the Virtual Agent topic can't route requester input to ServiceNow Otto for catalog item resolution.
 

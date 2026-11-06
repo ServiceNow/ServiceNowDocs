@@ -7,9 +7,9 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create an application service, Application services, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Create a Service instance, Service instances \(Application services\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Use tags to populate application services
@@ -33,7 +33,7 @@ If you have [configured tag-based service families and tag categories](https://r
 
 Alternatively, you can define tag keys and their values while choosing the tag-based population method for a new application service. Define up to three tag keys and tag values for the population criteria. CIs that have discovered tag keys and tag values, become part of an service instance.
 
-For information about the different types of application services and the different methods you can use to populate application services, including using tags, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/application-services.md).
+For information about the different types of application services and the different methods you can use to populate application services, including using tags, see [Service instances \(Application services\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/application-services.md).
 
 **Note:** Service Mapping includes CIs that are part of CI relationships even if these CIs do not have tags assigned to them. For more information, see [Tag-based discovery in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/tag-based-mapping.md).
 
@@ -61,7 +61,7 @@ For information about the different types of application services and the differ
 
     1.  Select **Use a candidate from a tag-based service family**.
 
-    2.  To see the tag definitions for this tag-based service family, select the **Preview** button.
+    2.  To see the tag definitions for this tag-based service family, populate the **Preview** button
 
     3.  From the **Tag-Based Service Family** list, select the relevant family.
 

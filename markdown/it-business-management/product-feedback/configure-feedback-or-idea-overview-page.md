@@ -1,5 +1,5 @@
 ---
-title: Configure filters for feedback or idea overview page
+title: Configure filters for feedback or product idea overview
 description: Configure the filters for the feedback or product idea overview page to display information based on the preferences of your users. Use filters to find and engage with feedback and product ideas that are the most relevant to their interests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/product-feedback/configure-feedback-or-idea-overview-page.html
@@ -7,12 +7,12 @@ release: zurich
 product: Product Feedback
 classification: product-feedback
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Feedback, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Configure, Feedback in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Configure filters for feedback or idea overview page
+# Configure filters for feedback or product idea overview
 
 Configure the filters for the feedback or product idea overview page to display information based on the preferences of your users. Use filters to find and engage with feedback and product ideas that are the most relevant to their interests.
 

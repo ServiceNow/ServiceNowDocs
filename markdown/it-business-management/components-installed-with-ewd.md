@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/components-installed-with-ewd.html
 release: zurich
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Reference, SPM Enterprise-Wide Deployment, Strategic Portfolio Management]
 ---
@@ -29,6 +29,7 @@ The following roles are installed with Enterprise-Wide Deployment and govern par
 |------------|-----------|
 |Partition \[sn\_spm\_ewd\_partition\]|Stores partition details that define a data separation boundary, with an assigned role association and criteria configuration.|
 |Partitioned table \[sn\_spm\_ewd\_partitioned\_table\]|Stores partitioned table details that define the scope of data separation, with a criteria field configuration that controls record visibility for each supported table.|
+|Partition Dashboard \[sn\_spm\_ewd\_partition\_dashboard\]|Stores the mapping between a partition and a dashboard for an experience, such as Demand Management.|
 
 ## Scheduled jobs installed
 
@@ -61,5 +62,7 @@ Determines whether system administrators bypass partition role requirements to a
 Set to **true** to grant administrators access to all partitioned data without partition role assignment.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[SPM Enterprise-Wide Deployment reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ewd-reference.md)
+</table>**Parent Topic:**[Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/r_ITBusinessManagement.md)
+
+**Parent Topic:**[SPM Enterprise-Wide Deployment reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ewd-reference.md)
 

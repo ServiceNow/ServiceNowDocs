@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/plan-template-form.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure the BCP template, Configuring plan template, Setup for a BCP, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -91,7 +91,9 @@ Loss scenarios to be included in the plan. Available options are:
 -   **Vendor Disruption**
 -   **Loss of Windows Servers**
 
- You can also create a loss scenario and add it to the template. For more information on creating a loss scenario, see [Add loss scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/add-loss-scenario-recovery-task-bcp-uib-ws.md).
+ You can also create a loss scenario and add it to the template.
+
+ For more information on creating a loss scenario, see [Add loss scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/add-loss-scenario-recovery-task-bcp-uib-ws.md).
 
 </td></tr><tr><td>
 

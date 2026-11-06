@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/migration-of-account-manager-responsibility-access.html
 release: zurich
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Create related party configurations, Configuring customer access management, User management, Set up your environment, Configure, Customer Service Management]
 ---
@@ -63,7 +63,7 @@ You can manually populate the **Type** field by navigating to the related party 
 
 ## Example
 
-Suppose you want to populate the **Type** field in the account team member \[sn\_customerservice\_team\_member\] table, where the table uses the following responsibilities:
+Suppose that you want that to populate the **Type** field in the account team member \[sn\_customerservice\_team\_member\] table, where the table uses the following responsibilities:
 
 -   Account Manager 1
 -   Account Manager 2

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/installed-with-engagement-messenger.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Customer Service Management]
 ---
@@ -59,7 +59,11 @@ Can view existing configurations for Embedded Messenger modules**Note:** This ro
 None
 
 </td></tr></tbody>
-</table>## Tables installed
+</table>|Role title \[name\]|Description|Contains roles|
+|-------------------|-----------|--------------|
+|\[sn\_csm\_ec.ec\_admin\]|Role required to have granular admin access for engagement messenger tables and Rest APIs.|None|
+
+## Tables installed
 
 <table id="table_fbz_45z_vdb"><thead><tr><th>
 
@@ -211,6 +215,6 @@ The property contains a comma-separated list of service portal record sys\_ids. 
 </td></tr></tbody>
 </table>## Plugins installed
 
--   Customer Service \(com.sn\_customerservice\)
+-   Case Management Core \(com.sn\_customerservice\)
 -   Integration - Multiple Provider Single Sign-On Installer \(com.snc.integration.sso.multi.installer\)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Building subflows, Use, Workflow Studio, Build workflows]
+breadcrumb: [Build subflows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Get started with Dynamic Flow and Get Flow Outputs
@@ -244,7 +244,7 @@ Role required: flow\_designer or admin
 
 7.  Select the tab for your **Process Cloud Provisioning Requests** flow and close the Test Flow modal.
 
-8.  In the Flow header, select **Activate** to make your flow accessible within the Cloud Instance Provisioning Application scope.
+8.  In the Flow header, select **Activate** to make your flow accessible within the Cloud Instance Provisioning [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/c_ApplicationScope.md).
 
 
 ### Result

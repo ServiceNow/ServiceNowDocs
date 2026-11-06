@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/ask-card-holder-and-transaction-details.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Example configuration of a decision tree, Guided Decisions configuration, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -27,6 +27,8 @@ In the question node, you can add the questions that you want to ask customers o
 1.  Select **Open in Builder**.
 
     The new decision tree opens in Decision Tree Builder in a new tab.
+
+    \[Omitted image "ex-open-in-builder.png"\] Alt text: After entering the details in Decision tree new record and submitting the form, the Open in Builder button is shown.
 
 2.  Select **New node**, which is a start node of your decision tree.
 

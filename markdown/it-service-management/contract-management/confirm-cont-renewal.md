@@ -7,9 +7,9 @@ release: zurich
 product: Contract Management
 classification: contract-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Contract renewal workflow, Contract Management, Asset Management, IT Service Management]
+breadcrumb: [Contract renewal workflow, Contract Management, Asset Management common applications, IT Service Management]
 ---
 
 # Review contract renewal details
@@ -34,15 +34,15 @@ This task must be completed before the contract renewal request is eligible for 
 
 4.  Determine whether to close this task.
 
-<table id="choicetable_vzl_j1k_25b"><thead><tr><th align="left" id="d419388e77">
+<table id="choicetable_vzl_j1k_25b"><thead><tr><th align="left" id="d330224e77">
 
 Result of review
 
-</th><th align="left" id="d419388e80">
+</th><th align="left" id="d330224e80">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d419388e86">
+</th></tr></thead><tbody><tr><td id="d330224e86">
 
 **The details are accurate**
 
@@ -50,7 +50,7 @@ Action
 
 Select **Yes**.
 
-</td></tr><tr><td id="d419388e101">
+</td></tr><tr><td id="d330224e101">
 
 **The details are not accurate**
 

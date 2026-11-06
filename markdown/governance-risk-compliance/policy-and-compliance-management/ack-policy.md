@@ -7,18 +7,14 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage control objectives and policies, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Acknowledge a policy
 
 After a policy has been published, you can create an acknowledgement campaign to define a group of your employees who must provide an acknowledgement that a particular policy is in compliance. When the campaign has been defined, you can submit the request to the audience.
-
-Changes to the audience or validity dates in an Acknowledgement Campaign aren't immediately reflected in the associated acknowledgement records. Instead, these updates are processed by the "Policy acknowledgement nightly run" scheduled job.
-
-To apply changes immediately, navigate to **All** &gt; **System Definition** &gt; **Scheduled Jobs** and manually trigger "Policy acknowledgement nightly run."
 
 -   **[Set up a policy acknowledgement campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/setup-ack-request.md)**  
 A policy campaign is the record used to prepare for a policy acknowledgement request. It defines the audience who must provide an acknowledgement that a particular policy is in compliance. A policy campaign is requested only if the compliance user decides it is needed.

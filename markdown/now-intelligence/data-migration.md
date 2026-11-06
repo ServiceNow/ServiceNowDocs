@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/data-migration.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Migrate a dashboard, migrate a Core UI dashboard, migrate a responsive dashboard]
 breadcrumb: [Platform Analytics experience, Platform Analytics]
@@ -19,7 +19,9 @@ When you migrate your Core UI data, your existing dashboards, reports, interacti
 
 To learn more about Platform Analytics and the Migration Center, see the [Platform Analytics enablement toolkit](https://sn.works/analytics/pae) on the ServiceNow Community.
 
-From the Zurich release, however both Core UI and Platform Analytics experience dashboards and visualizations sit side by side in the Platform Analytics library.
+From the Zurich release, both Core UI and Platform Analytics experience dashboards and visualizations sit side by side in the Platform Analytics library. Analytics managers can choose to migrate individual Core UI dashboards from the common library page.
+
+Platform Analytics experience is enabled by default for all users on upgrade to Australia.
 
 Once migration is complete, you won't be able to add Core UI reports, PA widgets and filters to Platform Analytics experience dashboards. It is possible to add only migrated content and content created within Platform Analytics experience to these dashboards.
 
@@ -27,7 +29,7 @@ You cannot use update sets to move the migrated material from a non-production i
 
 ## What is migrated
 
-The migration process takes your dashboard content and migrates it from Core UI \(Dashboards and visualizations in the classic environment\) to the Platform Analytics library. You then access all of your analytics through a unified navigation menu. If you use indicators, you get tools to alert you of significant changes.
+Both Core UI and Platform Analytics experience content is available in the library. The migration process takes your dashboard content and migrates it from Core UI \(Dashboards and visualizations in the classic environment\) to Platform Analytics experience. If you use indicators, you get tools to alert you of significant changes.
 
 **Note:** When you upgrade releases, the Migration Center automatically migrates any previously incompatible content that is now compatible.
 
@@ -55,7 +57,7 @@ The migration process has the following steps.
 
 -   **Activate the migration**
 
-    Activation might be time-consuming, depending on how much content you are migrating.
+    Activation might be time-consuming, depending on how much content you're migrating.
 
 
 ## Create custom content
@@ -68,9 +70,9 @@ Before migration, users navigated to **Self Service** &gt; **Dashboards** to vie
 
 ## Block Migration Options
 
-You can disable the **Start Moving** and **Activate** Platform Analytics experience options. Create the system property `com.glide.par.coreui.migration.enabled` and set it to `False`. If you set the property to `False` before you migrate any content, both options are disabled. If you set the property to false after you migrate your content, only the **Activate** button is disabled.
+You can disable the **Start Moving** and **Activate** Platform Analytics experience options. Create the system property `com.glide.par.coreui.migration.enabled` and set it to `False`. If you set the property to `False` before you migrate any content, both options are turned off. If you set the property to false after you migrate your content, only the **Activate** button is inactive.
 
-If you want to start the migration and view what artifacts are in compatibility mode, and resolve any issues, set the property to `False` after you run the migration to prevent activation of Platform Analytics experience. If you want to prevent the migration process, set the property to `False` first.
+If you want to start the migration and view what artifacts are in compatibility mode, and resolve any issues, set the property to `False` after you run the migration to help prevent activation of Platform Analytics experience. If you want to prevent the migration process, set the property to `False` first.
 
 For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 

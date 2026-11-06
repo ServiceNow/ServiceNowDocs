@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/configure-next-experience-theme.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configuring Next Experience themes, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -39,7 +39,7 @@ The Next Experience includes two themes, Polaris and Coral. You can reuse or cus
 
 3.  Enter a name and a description for your theme.\[Omitted image "next-exp-theming-form.png"\] Alt text: UX Theme form.
 
-4.  Select the additional actions icon \[Omitted image "icon-context-p.png"\] Alt text: and select **Save**.
+4.  Select the Additional actions icon \[Omitted image "icon-context-p.png"\] Alt text: and select **Save**.
 
 5.  On the **Compositional: App Theme** tab, insert rows to add styles that are associated with your theme.
 
@@ -69,7 +69,7 @@ The Next Experience includes two themes, Polaris and Coral. You can reuse or cus
 
         Specifies two types: Core and Variant. The Core styles include the color, shape and form, typography, and imagery. Variants specify a different version of the theme, such as the different colors that users can select. The most common variant is a dark version of the theme. The Dark theme is the only variant that is shipped with Next Experience. For more information, see [Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/next-experience-theming.md).
 
-6.  Select the **Style** field and select the search icon \[Omitted image "ux-style-search.png"\] Alt text:.
+6.  Select the **Style** field and select the lookup icon \[Omitted image "ux-style-search.png"\] Alt text:.
 
 7.  Select **New**.
 

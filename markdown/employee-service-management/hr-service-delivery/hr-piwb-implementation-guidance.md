@@ -7,9 +7,9 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [HR Predictive Intelligence Workbench, Integrate with ServiceNow applications, HR Service Delivery, Employee Service Management]
+breadcrumb: [HR Predictive Intelligence Workbench, Integration of HR Service Delivery with ServiceNow applications, HR Service Delivery, Employee Service Management]
 ---
 
 # HR Predictive Intelligence Workbench implementation
@@ -60,6 +60,8 @@ Use a guided template that walks you through setting up a machine learning model
 Use a guided template that walks you through setting up a machine learning model to predict the correct HR service for cases.
 -   **[HR PIWB template: Predict the assignment group for incoming cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-piwb-predict-ag.md)**  
 Use a guided template that walks you through setting up a machine learning model to predict the correct assignment group for cases.
+-   **[HR PIWB template: Predict knowledge case clusters and demand insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-piwb-kb-case-clusters.md)**  
+Use the classic setup template to configure and train your Cluster solution template with machine learning model to predict the case clusters that do not have knowledge, identify knowledge demand, and improve the knowledge articles.
 -   **[HR PIWB template: Predict knowledge gaps and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-piwb-kb-gaps-insights.md)**  
 Use the classic template that walks you through setting up a machine learning model to automate the discovery of knowledge gaps and recommend insights into improving knowledge by demand.
 -   **[HR PIWB template: Predict knowledge for HR case resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-piwb-similar-hrcases-agent.md)**  

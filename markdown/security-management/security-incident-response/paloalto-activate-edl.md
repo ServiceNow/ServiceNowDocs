@@ -7,7 +7,7 @@ release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Palo Alto Networks Next-Generation Firewall integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -38,15 +38,15 @@ After the EDL is configured, as the security incident administrator, you can act
 
 4.  To complete the configuration and move the EDL from inactive to active, you must choose one of the following options to notify the firewall administrator that the retrieval URL is available.
 
-<table><thead><tr><th align="left" id="d179176e138">
+<table><thead><tr><th align="left" id="d180652e138">
 
 Option
 
-</th><th align="left" id="d179176e141">
+</th><th align="left" id="d180652e141">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d179176e147">
+</th></tr></thead><tbody><tr><td id="d180652e147">
 
 **Select __Email FW retrieval URL__.**
 
@@ -56,7 +56,7 @@ Email EDL Retrieval URL directly to the firewall administrator. This option perm
 
  **Note:** The security incident administrator manually activates the EDL in the ServiceNow AI Platform® after receiving notice that the Palo Alto Networks Next-Generation Firewall configuration is completed. See: [Activate an EDL manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/paloalto_activate_edl_manually.md).
 
-</td></tr><tr><td id="d179176e195">
+</td></tr><tr><td id="d180652e195">
 
 **Complete the ServiceNow AI Platform® change request and assign the configuration tasks to the firewall administrator.**
 

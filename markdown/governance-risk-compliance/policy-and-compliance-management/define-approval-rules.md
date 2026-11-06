@@ -7,7 +7,7 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Allow policy exception requests, Enhancement steps, Implement, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -28,7 +28,7 @@ You can configure approvals to be sent out automatically or manually after revie
 
 For policy exceptions created using Policy and Compliance Management, exceptions can be requested for a policy without impacted controls being present, even if both policies and control objectives are added to the exception form. However, for policy exceptions created for control objectives alone, impacted controls must be present before you can request approval.
 
-You can also use the GRC Approval Configurator to configure policy exception rules. For more information, see [Define the policy verification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/define-policy-exception-verification-rules.md).
+You can also use the GRC Approval Configurator to configure policy exception rules. For more information, see [Define policy exception and extension rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/define-policy-exception-verification-rules.md).
 
 ## Procedure
 
@@ -55,7 +55,7 @@ You can also use the GRC Approval Configurator to configure policy exception rul
 
     The Approver Levels related list appears. This related list allows you to define multiple approver levels for a rule. One or more users, or a group of users can be selected as approvers for each level. Approvers must be assigned the survey\_reader role. You can make it mandatory for all selected users to approve the exception or optionally allow a single user to approve on behalf of all approvers.
 
-5.  Click **New**.
+5.  Select **New**.
 
 6.  On the form, fill in the fields.
 

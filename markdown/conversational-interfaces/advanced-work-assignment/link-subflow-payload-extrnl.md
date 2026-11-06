@@ -7,7 +7,7 @@ release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Configure, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -46,6 +46,4 @@ Role required: admin
 ## What to do next
 
 You can perform a quick setup test using the demo data by connecting to your external provider. For more information, see [Define external routing test implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/define-extrnl-routng-plugin.md).
-
-**Parent Topic:**[Configuring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/installing-awa.md)
 

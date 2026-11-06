@@ -7,9 +7,9 @@ release: zurich
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Viewing and sharing VTB, Use, Visual Task Boards, Personalize your experience, Configure user experiences]
+breadcrumb: [Viewing and sharing Visual Task Boards, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # View Visual Task Boards details
@@ -24,9 +24,7 @@ Role required: none
 
 1.  Navigate to**All** &gt; **Self-Service** &gt; **Visual Task Boards**.
 
-2.  Select a task board.
-
-3.  Click the board information icon \(\[Omitted image "BoardInfoIcon.png"\] Alt text: Board information icon\).
+2.  Click the board information icon \(\[Omitted image "BoardInfoIcon.png"\] Alt text: Board information icon\).
 
 
 ## Result

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/actions-font-icons.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Mobile icon reference, Mobile icons, Mobile styles, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -1488,6 +1488,114 @@ Zurich
 </td><td>
 
 \[Omitted image "mab-icon-action-chat-ai-spark.png"\] Alt text: Chat-AI-Sparkle-Solid example
+
+</td><td>
+
+ 
+
+</td></tr><tr><td class="sub-head" colspan="5">
+
+Icon added in the Australia release
+
+</td></tr><tr><td>
+
+Servicenow-Lens-App-Outline
+
+</td><td>
+
+e946
+
+</td><td>
+
+Australia
+
+</td><td>
+
+\[Omitted image "mab-icon-action-lens-app-outline.png"\] Alt text: Servicenow-Lens-App-Outline example
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Microphone-AI-Spark-Solid
+
+</td><td>
+
+e947
+
+</td><td>
+
+Australia
+
+</td><td>
+
+\[Omitted image "mab-icon-action-mic-ai-sparkle-solid.png"\] Alt text: Microphone-AI-Spark-Solid example
+
+</td><td>
+
+ 
+
+</td></tr><tr><td class="sub-head" colspan="5">
+
+Icon added in the Brazil release
+
+</td></tr><tr><td>
+
+Microphone-AI-Spark-Outline
+
+</td><td>
+
+e949
+
+</td><td>
+
+Brazil
+
+</td><td>
+
+\[Omitted image "mab-icon-action-mic-ai-sparkle-out.png"\] Alt text: Microphone AI Sparkle outline example
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+SN-Sparkmoji-Logo
+
+</td><td>
+
+e948
+
+</td><td>
+
+Brazil
+
+</td><td>
+
+\[Omitted image "mab-icon-image-sparkmoji.png"\] Alt text: Otto logo example
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Chat-AI-Sparkle-Solid-New
+
+</td><td>
+
+e94a
+
+</td><td>
+
+Brazil
+
+</td><td>
+
+\[Omitted image "mab-icon-action-chat-ai-sparkle-sol.png"\] Alt text: Chat AI sparkle example
 
 </td><td>
 

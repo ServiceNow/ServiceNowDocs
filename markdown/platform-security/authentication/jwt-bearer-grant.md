@@ -1,22 +1,31 @@
 ---
 title: JSON Web token bearer grant
-description: Use this flow when a client application needs secure, unattended access to ServiceNow resources, either as itself or on behalf of a user.
+description: Configuring an OAuth JSON Web Token \(JWT\) bearer grant secures token-based authentication without user interaction. Use this flow when a client application needs secure, unattended access to ServiceNow resources, either as itself or on behalf of a user.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/jwt-bearer-grant.html
 release: zurich
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Inbound Integrations, OAuth inbound, OAuth authentication, Access Management]
+breadcrumb: [Inbound integrations, OAuth inbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # JSON Web token bearer grant
 
-Use this flow when a client application needs secure, unattended access to ServiceNow resources, either as itself or on behalf of a user.
+Configuring an OAuth JSON Web Token \(JWT\) bearer grant secures token-based authentication without user interaction. Use this flow when a client application needs secure, unattended access to ServiceNow resources, either as itself or on behalf of a user.
 
 The client application generates a signed JWT that includes identity-related claims, such as the user or system it represents. It sends it to the ServiceNow instance to request an access token.
+
+-   **Ideal for:**
+
+    Client applications that need secure access to ServiceNow resources—either on behalf of a user or as themselves—without requiring user interaction or storing a shared secret.
+
+-   **How it works:**
+
+    The client application creates a signed JWT \(JSON Web Token\) that includes identity-related claims—such as the user or system it represents—and presents it to the ServiceNow instance to request an access token.
+
 
 ## JWT Structure
 

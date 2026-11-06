@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/ip-allow-listing-update.html
 release: zurich
 topic_type: concept
-last_updated: "2025-11-06"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow CPQ, Configure, price, quote, Explore, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # IP allow-listing update
@@ -16,20 +16,20 @@ To better support our growing needs and increase capacity, we have expanded the 
 
 **Important:** This change is relevant only if you use allow-listing to control which external systems can communicate with your integration servers. If you rely on allow-listing, it is important to update your configuration to include the new addresses listed below. This will help ensure that your integration calls from ServiceNow CPQ continue to function smoothly and without interruption.
 
--   **Inbound production \(prod01.logik.io\)**
+-   **Inbound production \(prod01.ServiceNow CPQ.io\)**
     -   35.224.151.71
     -   34.83.141.224
--   **Outbound production \(prod01.logik.io\)**
+-   **Outbound production \(prod01.ServiceNow CPQ.io\)**
     -   34.72.98.104
     -   104.198.22.182
     -   35.238.218.128
     -   35.233.220.207
     -   35.222.102.215\(new\)
--   **Inbound non-production \(test.logik.io\)**
+-   **Inbound non-production \(test.ServiceNow CPQ.io\)**
 
     Inbound:34.135.130.9
 
--   **Oubound non-production \(test.logik.io\)**
+-   **Oubound non-production \(test.ServiceNow CPQ.io\)**
     -   34.68.236.64
     -   34.30.162.13
     -   35.226.98.108

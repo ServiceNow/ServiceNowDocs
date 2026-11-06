@@ -7,7 +7,7 @@ release: zurich
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: task
-last_updated: "2026-03-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Industrial Workspace, Operational Technology]
 ---
@@ -24,9 +24,9 @@ Role required: ot\_progress\_scorecard\_viewer
 
 1.  Navigate to **All** &gt; **Industrial Workspace**.
 
-2.  Select the **OT Progress Scorecard** \(\[Omitted image "image.scorecard-icon-button"\] Alt text:\) icon.
+2.  Select the **OT Progress Scorecard** \(\[Omitted image "ot-progress-scorecard-icon.png"\] Alt text: OT Progress Scorecard icon\) icon.
 
-3.  Select the Ascending \(\[Omitted image "image.ascending-icon"\] Alt text:\) or Descending \(\[Omitted image "image.descending-icon"\] Alt text:\) icon.
+3.  Select the Ascending \(\[Omitted image "ascending-button.png"\] Alt text: Ascending icon\) or Descending \(\[Omitted image "descending-button.png"\] Alt text: Descending icon\) icon.
 
 
 ## Result

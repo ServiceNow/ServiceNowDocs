@@ -7,7 +7,7 @@ release: zurich
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Tangible/physical life cycle, Reference, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -33,7 +33,7 @@ Tangible/physical and software CIs are managed using the tangible/physical life-
     When one of the service instances is retired, the database service and host cannot be retired. All other service instances still depend on the database service that is running on the host.
 
 
-See [Use Application Services dashboard to monitor health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/app-service-dashboard.md).
+See [Use Service instance \(Application Services\) dashboard to monitor health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/app-service-dashboard.md).
 
 **Parent Topic:**[Life cycle of tangible/physical CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-hardware.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/pre-visit-proc-scheduler-grp.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Pre-Visit Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---

@@ -7,9 +7,9 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Viewing metrics and activity transitions, Analyzing and getting process insights, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Viewing metrics and activity transitions, Analyzing and getting process insights, Use, Process Mining, Platform Analytics]
 ---
 
 # Viewing records for an activity or connection
@@ -18,7 +18,7 @@ See the list of records which passed through an activity or connection to analyz
 
 Select an activity or connection on a route to display the metrics box. You can then also select **Show Records** to open the list of records that passed through it.
 
-**Note:** The **Show Records** link displays for a maximum of 100,000 records returned for an activity or connection. An administrator can add and the promin.show\_records.limit system property to change this limit. The sn\_process\_optimization\_analyst role must have read access to the promin.show\_records.limit system property.​ For instructions on adding properties, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+**Note:** The **Show Records** link displays for a maximum of 100,000 records returned for an activity or connection. An administrator can add and the promin.show\_records.limit system property to change this limit. The sn\_process\_mining\_analyst role must have read access to the promin.show\_records.limit system property.​ For instructions on adding properties, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 \[Omitted image "view-records-node-arc.png"\] Alt text: View records for an activity or connection
 

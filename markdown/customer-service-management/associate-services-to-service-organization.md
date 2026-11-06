@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/associate-services-to-service-organization.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring service definitions, Service definitions, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_csm\_case\_types.service\_definition\_manager, sn\_csm\_case\
 
 ## About this task
 
-An SO can have multiple services associated with it. A service-to-service organization criteria association is contained in the Service Organizations offering Service \[service\_organizations\_offering\_service\] table.
+An SO can have multiple services associated with it. A service-to-service organization criteria association is contained in the Organizations offering Service \[service\_organizations\_offering\_service\] table.
 
 ## Procedure
 
@@ -28,7 +28,7 @@ An SO can have multiple services associated with it. A service-to-service organi
 
 2.  Select a service definition.
 
-3.  In the Service Organizations offering Service related list, select **New**.
+3.  In the Organizations offering Service related list, select **New**.
 
 4.  On the form, fill in the fields.
 
@@ -46,7 +46,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Service organization criteria
+Organization criteria
 
 </td><td>
 
@@ -82,7 +82,7 @@ True/False
 
 </td><td>
 
-Check box to activate or deactivate the service organization criteria.
+Check box to activate or deactivate the organization criteria.
 
  By default, the active field is set to **True**.
 
@@ -91,6 +91,6 @@ Check box to activate or deactivate the service organization criteria.
 </td></tr></tbody>
 </table>5.  Select **Submit**.
 
-    The service organization criteria are added to the Service Organizations offering Service related list.
+    The organization criteria are added to the Organizations offering Service related list.
 
 

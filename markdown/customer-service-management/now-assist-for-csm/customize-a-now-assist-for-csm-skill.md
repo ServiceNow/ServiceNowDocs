@@ -58,7 +58,7 @@ From the AI Admin Hub, you can select the input table, related records, and fiel
 
 5.  View the input data for each skill, such as the base input fields and related lists for the different input templates.
 
-    You can change the base input table and add case extension tables for the copied skill. To create an extended table, select **New** on the Tables list page, and select the table to extend from the **Extends table** search field. This option is only available when you're creating a table. It incorporates all of the fields of the original table and creates system fields for the new table.
+    You can change the base input table and add case extension tables for the copied skill. To create an extended table, select **New** on the Tables list page, and select the table to extend from the **Extends table** search field. This option is only available when you’re creating a table. It incorporates all of the fields of the original table and creates system fields for the new table.
 
     Configure the base input table fields and related lists for the different input templates \(Case new, Case work in progress, or Case resolved states\) for the skill.
 
@@ -121,7 +121,7 @@ Description of the base input field value.
 
         You can also add the rule conditions to these additional data sources.
 
-        The selection of the related table fields may have a direct impact on the quality of the corresponding prompt header. For example, if a prompt header requires a specific field from the related table, but that field isn't selected as input, the summary for that prompt header will contain missing information. For example, as a base case, you see one related table, such as a Service level agreement \(SLA\), that includes all the required fields and filtering conditions for the prompt header. The SLA prompt header is preselected to help you understand how the related table, its fields, and the prompt header work together to produce a summary. You can use the SLA as a reference to configure the other related tables to determine which fields to select and which description adds the requirements of their respective prompt headers. Apply any additional conditions to filter the data further.
+        The selection of the related table fields may have a direct impact on the quality of the corresponding prompt header. For example, if a prompt header requires a specific field from the related table, but that field isn’t selected as input, the summary for that prompt header will contain missing information. For example, as a base case, you see one related table, such as a Service level agreement \(SLA\), that includes all the required fields and filtering conditions for the prompt header. The SLA prompt header is preselected to help you understand how the related table, its fields, and the prompt header work together to produce a summary. You can use the SLA as a reference to configure the other related tables to determine which fields to select and which description adds the requirements of their respective prompt headers. Apply any additional conditions to filter the data further.
 
     4.  Select **Save and continue** to go to the next step.
 
@@ -154,8 +154,8 @@ Description of the base input field value.
     Default and Custom Roles:
 
     -   If no changes are made, the default roles sn\_customerservice\_agent and sn\_customerservice.consumer\_agent will automatically appear in **Define Access** and **Select Display**.
-    -   If custom roles were added before the upgrade, they'll be updated automatically by a script.
-    -   If new roles are created after the upgrade, you'll need to manually add them in both the **Define Access** and **Select Display**.
+    -   If custom roles were added before the upgrade, they’ll be updated automatically by a script.
+    -   If new roles are created after the upgrade, you’ll need to manually add them in both the **Define Access** and **Select Display**.
 
         **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you still need to manually select it in **Select Display** to make it active.
 

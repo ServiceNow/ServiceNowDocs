@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Overriding default binding, Binding alerts to CIs, Event rules, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -48,7 +48,7 @@ To achieve this, follow these steps:
 
 5.  Select the **Binding** tab.
 
-    In this tab, you select the CI type as a service \(non-host\) instead of a host. The goal is to bind alerts to an Application Service, not to a physical or virtual machine.
+    In this tab, select the CI type as a service \(non-host\) instead of a host. The goal is to bind alerts to an Application Service, not to a physical or virtual machine.
 
 6.  Perform the following steps:
 
@@ -65,7 +65,7 @@ To achieve this, follow these steps:
 
     1.  Clear the **Node** field.
 
-        When an event is processed, it often comes with multiple fields of information. The **Node** field typically contains the host or device name. However, the goal is to bind the alert to an Application Service rather than a host. Clearing the **Node** field ensures that the system identifies the correct service instead of associating the alert with a host CI.
+        When an event is processed, it often comes with multiple fields of information. The **Node** field typically contains the host or device name. However, the goal is to bind the alert to an Application Service rather than a host. Clearing the **Node** field ensures that the system focuses on identifying the correct service instead of mistakenly associating the alert with a host CI.
 
         \[Omitted image "em-example-clear-node.png"\] Alt text: Clear the Node field.
 

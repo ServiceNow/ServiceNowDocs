@@ -7,9 +7,9 @@ release: zurich
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Storage Discovery via SMI-S and CIM, Storage discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
+breadcrumb: [Storage discovery via SMI-S and CIM, Storage discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
 
 # Discovery of storage area networks \(SAN\)
@@ -28,5 +28,5 @@ This diagram shows the relationship of SAN storage volumes to a host computer.St
 
 \[Omitted image "SimpleLinuxMultipathDiagram.png"\] Alt text: Multipath SAN storage
 
-**Parent Topic:**[Storage Discovery via SMI-S and CIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/r_DataCollDiscoStorageviaSMISCIM.md)
+**Parent Topic:**[Storage discovery via SMI-S and CIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/r_DataCollDiscoStorageviaSMISCIM.md)
 

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-add-driver-to-goal.html
 release: zurich
 topic_type: task
-last_updated: "2026-08-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [goals, drivers, business architecture]
-breadcrumb: [Manage goals, Using business architecture, Working with Portfolio list view, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Manage goals, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Add a driver to a goal
@@ -37,7 +37,7 @@ Role required: sn\_apm.apm\_user
 
     -   To add an existing driver:
         1.  Select **Add**.
-        2.  In the Add driver window, select the driver and the relationship type between the goal and the driver.
+        2.  In the Add driver window, select the driver. A suggested relationship type appears in the **Relationship type** field, but you can select a different type from the list, if needed.
         3.  Select **Add**.
     -   To create a driver: Select **New** and complete the fields on the form. For descriptions of the fields on the Driver form, see [Create a driver form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-create-a-driver-form.md).
 

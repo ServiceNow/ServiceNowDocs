@@ -7,7 +7,7 @@ release: zurich
 product: Critical Event Management
 classification: critical-event-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage impacted people, Critical Event Management, Health and Safety, Employee Service Management]
 ---
@@ -41,7 +41,7 @@ Role required: sn\_critical.agent
 8.  Select **Save**.
 
 
-**Parent Topic:**[Managing impacted people](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/critical-event-management/manage-impacted-people.md)
+**Parent Topic:**[Manage impacted people](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/critical-event-management/manage-impacted-people.md)
 
 **Related topics**  
 

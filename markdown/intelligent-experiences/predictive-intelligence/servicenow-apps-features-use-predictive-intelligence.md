@@ -7,9 +7,9 @@ release: zurich
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: concept
-last_updated: "2026-01-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore Predictive Intelligence, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Explore Predictive Intelligence, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # ServiceNow apps and features that use Predictive Intelligence

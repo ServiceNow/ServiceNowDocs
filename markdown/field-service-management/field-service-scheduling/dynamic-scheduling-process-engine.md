@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Dynamic Scheduling, Setting up a Field Service scheduling method, Configure, Field Service Management]
+breadcrumb: [Dynamic Scheduling, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Learn Dynamic scheduling process engine
@@ -55,7 +55,7 @@ The following are the key steps involved in the dynamic scheduling process:
 
 The following is the process flow diagram for Dynamic Scheduling.
 
-\[Omitted image "dynamic-scheduling-process-engine-flow.png"\] Alt text: dynamic scheduling process flow
+\[Omitted image "dynamic-scheduling-process-engine-flow.png"\] Alt text: Dynamic scheduling process flow
 
 **Related topics**  
 

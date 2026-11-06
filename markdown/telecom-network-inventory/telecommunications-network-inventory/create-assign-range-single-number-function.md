@@ -7,9 +7,9 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Telecommunications Network Inventory function catalog, Reference, Telecommunications Network Inventory]
+breadcrumb: [Function catalog, Reference, Telecommunications Network Inventory]
 ---
 
 # Create and Assign Range/Single Number function
@@ -160,7 +160,7 @@ Reference.Inventory Number record
 No
 
 </td></tr></tbody>
-</table>To learn more about the variable data types, see Flow Designer input and output data variables.
+</table>To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/action-inputs-outputs.md).
 
 ## Output
 

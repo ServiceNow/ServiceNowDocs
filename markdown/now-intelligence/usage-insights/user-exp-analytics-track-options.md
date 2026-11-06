@@ -1,20 +1,20 @@
 ---
 title: User privacy, tracking, and user consent management in Usage Insights
-description: Usage Insights relies on tracking user activity to measure the adoption, retention, and usage of KPIs \(key performance indicators\) to help you make better product and implementation decisions.
+description: Usage Insights relies on tracking user activity to measure the adoption, retention, and usage of KPIs to help you make better product and implementation decisions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/usage-insights/user-exp-analytics-track-options.html
 release: zurich
 product: Usage Insights
 classification: usage-insights
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, Usage Insights, Platform Analytics]
+breadcrumb: [Configuring Usage Insights, Usage Insights, Platform Analytics]
 ---
 
 # User privacy, tracking, and user consent management in Usage Insights
 
-Usage Insights relies on tracking user activity to measure the adoption, retention, and usage of KPIs \(key performance indicators\) to help you make better product and implementation decisions.
+Usage Insights relies on tracking user activity to measure the adoption, retention, and usage of KPIs to help you make better product and implementation decisions.
 
 ## Tracking users in Usage Insights
 

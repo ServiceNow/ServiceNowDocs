@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/process-opt-csm.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Integrate, Customer Service Management]
 ---
 
@@ -14,7 +14,13 @@ breadcrumb: [Integrate, Customer Service Management]
 
 Integrate Customer Service Management with the Process Mining application to analyze processes relevant to your KPIs, and identify bottlenecks associated with customer service cases.
 
-For more information about enabling the Process Mining Content Pack for CSM, see [Activate Process Mining content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/po-content-pack.md).
+**Important:**
+
+Beginning with the Brazil release, the Process Mining Content Pack application is set to be part of the core ServiceNow AI Platform and is automatically installed for Customer Service Management. To auto-install the Process Mining Content Pack application, upgrade your instance to Brazil.
+
+Support for the standalone CSM Process Mining Content Pack \(com.snc.csm\_process\_optimization\) ends with this change; it remains active on upgrade, but is no longer supported.
+
+For more information about enabling the Process Mining Content Pack for CSM, see [Activate a content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/activate-po-content-pack.md).
 
 ## End user and roles
 
@@ -34,13 +40,13 @@ Several projects are included with the Process Mining Content Pack for CSM \(sn\
 
 -   [Case evaluation project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/evaluation-pm-csm.md): Use this project to evaluate Process Mining and become familiar with the Process Mining capabilities.
 -   **Long resolution time analysis project**: Use this project to identify bottlenecks to minimize delays in the case flow.
--   [SLA Breach Analysis project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/csm-po-sla-breach-analysis.md): Use this project to identify and analyze customer service cases where service level agreements \(SLAs\) have been violated.
+-   **SLA Breach Analysis project**: Use this project to identify and analyze customer service cases where service level agreements \(SLAs\) have been violated.
 
 ## Optimization project for customer service cases
 
 The Process Mining Content Pack for CSM \(com.snc.csm\_process\_optimization\) adds a prebuilt project that includes a predefined **Customer Service Cases** process model definition for customer service cases. By default, the **Customer Service Cases** project filters customer service cases for the last two quarters. You can also configure a new process project based on the prebuilt project. For more information, see [Create a project using ServiceNow platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/create-proj.md).
 
-The **Customer Service Cases** process model definition includes default activity definitions and breakdown definitions for customer service cases. Use the definitions as they’re or modify them for a custom configuration.
+The **Customer Service Cases** process model definition includes default activity definitions and breakdown definitions for customer service cases. Use the definitions as they are or modify them for a custom configuration.
 
 -   Use activity definitions to understand state transitions and analyze the linked processes such as Problem \(PRB\) records. Transitions can include, for example, going from the work in progress state to the solution proposed state.
 -   Use breakdown definitions to filter records and analyze a process map by categories. For example, you can filter the customer service case data by different channels, products, assignment groups, and locations.
@@ -55,10 +61,5 @@ If the Performance Analytics application is enabled, the available template conf
 
 ## Process configuration for customer service cases
 
-Select the Process Mining Content Pack for CSM \(com.snc.csm\_process\_optimization\) templates to set up projects with preconfigured default settings. Process configurations specify preferences that activate key functionalities within the Process Mining workspace and streamline project setup for cases. Well Configured processes enable you to build projects autonomously and derive insights efficiently, supporting enterprise-wide scalability of process mining. For more information, see [Creating process configurations using content pack templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/content-pack-config.md).
-
-**Related topics**  
-
-
-[Process Optimization for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/example-po-csm.md)
+Select the Process Mining Content Pack for CSM \(com.snc.csm\_process\_optimization\) templates to quickly set up projects with pre-configured default settings. Process configurations specify preferences that activate key functionalities within the Process Mining workspace and streamline project setup for cases. Fully configured processes allow users to build projects autonomously and derive insights efficiently, supporting enterprise-wide scalability of process mining. For more information, see [Creating process configurations using content pack templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/content-pack-config.md).
 

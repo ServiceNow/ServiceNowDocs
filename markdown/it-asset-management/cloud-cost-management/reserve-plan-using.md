@@ -7,9 +7,9 @@ release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Use, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Reduce resource cost with Commitments
@@ -142,7 +142,7 @@ Do not recommend if savings are below threshold
 
 Minimum cost, as calculated over the Lookback period, to use when deciding whether to recommend a Commitment for a resource.
 
- For example, a setting of ¥100 means that the app should ignore any Commitments recommendation that would result in less than ¥100 in savings.
+ For example, a setting of ¥100 means that the app should ignore any Reservation/Saving plan recommendation that would result in less than ¥100 in savings.
 
 </td></tr><tr><td>
 

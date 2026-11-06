@@ -7,9 +7,9 @@ release: zurich
 product: Workplace Maintenance Management
 classification: workplace-maintenance-management
 topic_type: concept
-last_updated: "2025-09-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage plans, Workplace Maintenance Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Manage, Workplace Maintenance Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Workplace Maintenance Management dashboard and analytics
@@ -82,7 +82,7 @@ Selecting a plan from the list of plans take the user to a tab that lists the de
 
 **Parent Topic:**[Manage Workplace Maintenance Management plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/manage-maintenance-plans.md)
 
-**Previous topic:**[Create plan service configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/create-maint-service-config.md)
+**Previous topic:**[Workplace maintenance cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/create-maint-cases.md)
 
 **Next topic:**[Workplace Maintenance Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-maintenance-management/workplace-maintenance-mgmt-references.md)
 

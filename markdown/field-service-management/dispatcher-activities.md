@@ -1,24 +1,49 @@
 ---
 title: Dispatcher Workspace
-description: Dispatchers can efficiently manage field teams and customer experience to achieve positive outcome for your organization through Dispatcher Workspace. Forecast potential problem areas before they arise and maximize operational efficiency for both field teams and customers.
+description: Dispatchers can efficiently manage field teams and customer experience to achieve positive outcomes for your organization through Dispatcher Workspace. Forecast potential problem areas before they arise and maximize operational efficiency for both field teams and customers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/dispatcher-activities.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Field Service Management]
 ---
 
 # Dispatcher Workspace
 
-Dispatchers can efficiently manage field teams and customer experience to achieve positive outcome for your organization through Dispatcher Workspace. Forecast potential problem areas before they arise and maximize operational efficiency for both field teams and customers.
+Dispatchers can efficiently manage field teams and customer experience to achieve positive outcomes for your organization through Dispatcher Workspace. Forecast potential problem areas before they arise and maximize operational efficiency for both field teams and customers.
 
 \[Omitted video\] Description: Dispatcher Workspace Overview
 
 Watch this short video to see how dispatchers use Dispatcher Workspace.
 
-The Dispatcher Workspace is the main working space for dispatchers, bringing speed and efficiency to field service scheduling. It provides dispatchers and managers with a complete view of tasks, teams, locations, and status. Dispatcher Workspace has a configurable layout so dispatchers can create a personalized display with custom filters, advanced search, and sort options. Task and agent cards can be customized to display relevant information.
+Dispatcher Workspace is the main working space for dispatchers, bringing speed and efficiency to field service scheduling. It provides dispatchers and managers with a complete view of tasks, teams, locations, and status. Dispatcher Workspace has a configurable layout so dispatchers can create a personalized display with custom filters, advanced search, and sort options. Task and agent cards can be customized to display relevant information.
+
+## Example: Assign HVAC Technician
+
+A customer reports that their AC unit is not cooling. The system automatically assigns a qualified HVAC technician matched to the customer's location and service agreement, and the technician receives the job assignment with real-time status updates.
+
+|Step|Actor|Action|
+|----|-----|------|
+|1|Dispatcher|Reviews the queue|
+|2|System|Evaluates technician fit|
+|3|Dispatcher|Assigns the job|
+|4|System|Notifies technician|
+|5|System|Updates work order status to Dispatched|
+
+## Example: Optimize Technician Daily Route
+
+A dispatcher assigns multiple work orders across different locations and needs to minimize technician travel time without manually reordering the schedule. Route Optimization evaluates all job locations, calculates the most efficient route, and reorders tasks automatically, reducing travel time and improving the number of jobs a technician can complete in a single shift.
+
+|Step|Actor|Action|
+|----|-----|------|
+|1|Dispatcher|Assigns multiple jobs|
+|2|System|Evaluates job locations|
+|3|System|Calculates optimal route|
+|4|System|Reorders task schedule|
+|5|Technician|Follows optimized route|
+|6|System|Minimizes travel time|
 
 ## Key features
 
@@ -48,11 +73,11 @@ With Dispatcher Workspace, you can manage work efficiently, simplify resource ma
 
 -   **Assignment assistance**
 
-    Quickly sort a list of the best agents to assign a work order task based on the criteria that you choose from.
+    Quickly sort a list of the best agents to assign a work order task based on the criteria that dispatchers choose from.
 
 -   **Drag work assignments based on proximity, availability, and skills**
 
-    Enable dispatchers to drag-and-drop work assignment so they can assign tasks to technicians based on proximity, availability, and the specific skills required. Dispatchers can see an overview of what times are available for technicians and the current distance from tasks. Dispatchers can then drag unassigned work onto available times for technicians.
+    Enable dispatchers to drag-and-drop work assignments so they can assign tasks to technicians based on proximity, availability, and the specific skills required. Dispatchers can see an overview of what times are available for technicians and the current distance from tasks. Dispatchers can then drag unassigned work onto available times for technicians.
 
     Dispatchers can efficiently route work to technicians and monitor their performance. Route optimization determines the optimal route for them to service multiple locations.
 

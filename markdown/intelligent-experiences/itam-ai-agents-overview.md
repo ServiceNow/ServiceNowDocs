@@ -1,0 +1,31 @@
+---
+title: Asset Management AI agents
+description: The following AI agents are available for Asset Management.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/itam-ai-agents-overview.html
+release: zurich
+topic_type: concept
+last_updated: "2026-08-04"
+reading_time_minutes: 1
+breadcrumb: [IT Asset Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+---
+
+# Asset Management AI agents
+
+The following AI agents are available for Asset Management.
+
+-   **[Asset next best action AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itam-asset-next-best-action-ai-agent.md)**  
+This AI agent validates task numbers, identifies task types, and routes workflows to the correct specialized agent for troubleshooting or repair. It processes one task at a time for accurate handling of hardware asset repair order tasks.
+-   **[Asset sourcing AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itam-asset-sourcing-ai-agent.md)**  
+This AI agent helps source a requested item by generating and executing sourcing plans through consumption, transfer, and purchase. The agent creates plans autonomously or with user guidance, coordinates with external agents for transfer and purchase orders, and validates sourcing status throughout the process.
+-   **[Evaluate asset AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itam-evaluate-asset-ai-agent.md)**  
+This AI agent helps troubleshoot asset-related issues using the Web Search tool. It guides users to select a resolution and completes the troubleshooting task on confirmation.
+-   **[Purchase order creation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itam-purchase-order-creation-ai-agent.md)**  
+This AI agent is used to create a purchase order.
+-   **[Repair asset AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itam-repair-asset-ai-agent.md)**  
+This AI agent assists users in resolving issues with assets that are in a defective or pending repair state. It specializes in identifying and suggesting appropriate repair steps by leveraging the Web Search tool. The agent guides users through the repair process, helps them select a suitable resolution, and automatically updates and completes the repair task upon confirmation.
+-   **[Transfer order creation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/itam-transfer-order-creation-ai-agent.md)**  
+This AI agent is used for creating a transfer order to source a requested item.
+
+**Parent Topic:**[ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-agent-landing-page.md)
+

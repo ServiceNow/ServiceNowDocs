@@ -1,20 +1,20 @@
 ---
 title: Service Delivery domain in the CSDM model
-description: The Service Delivery domain represents the overall end-to-end service delivery system that includes the infrastructure, technologies, integration patterns \(infrastructure, systems, data, processes, dependency models\), service delivery networks, and operational models. Together, these items deliver the CSDM-conforming services to internal and external users and organizations.
+description: The Service Delivery domain represents the overall end-to-end service delivery system that includes the infrastructure, technologies, integration patterns \(infrastructure, systems, data, processes, dependency models\), service delivery networks, and operational models. Together, these items deliver the services that conform to CSDM to internal and external users and organizations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/common-service-data-model-csdm/manage-tech-servs-domain.html
 release: zurich
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
 breadcrumb: [CSDM data domains, Explore, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Service Delivery domain in the CSDM model
 
-The Service Delivery domain represents the overall end-to-end service delivery system that includes the infrastructure, technologies, integration patterns \(infrastructure, systems, data, processes, dependency models\), service delivery networks, and operational models. Together, these items deliver the CSDM-conforming services to internal and external users and organizations.
+The Service Delivery domain represents the overall end-to-end service delivery system that includes the infrastructure, technologies, integration patterns \(infrastructure, systems, data, processes, dependency models\), service delivery networks, and operational models. Together, these items deliver the services that conform to CSDM to internal and external users and organizations.
 
 ## Tables in the Service Delivery domain
 
@@ -24,14 +24,14 @@ The tables in the Service Delivery domain represent the technology that your bus
 
 -   Technology management service \(formerly Technical service\) \[cmdb\_ci\_service\_technical\] table. The **Service Classification** is Technical Service.
 -   Technology management offering \(formerly Technical service offering\) \[service\_offering\] table. The **Service Classification** is Technical Service.
--   Request catalog. Technology consumers can request technology management offerings through a request catalog. Catalogs are described in detail in [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/service-catalog.md).
+-   Request catalog. Technology consumers can request Technology management offerings through a request catalog. Catalogs are described in detail in [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/service-catalog.md).
 -   Dynamic CI group \[cmdb\_ci\_query\_based\_service\] table. **Service Classification** is Technical Service. Technology management services in Event Management use the cmdb\_ci\_query\_based\_service table.
--   Service instance \(called application service before CSDM v5\) \[cmdb\_ci\_service\_auto\] tables. The **Service Classification** is Application Service.
+-   Service instance \(formerly Application service\) \[cmdb\_ci\_service\_auto\] tables. The **Service Classification** is Application Service.
     -   For manually-created and Service Mapping: Mapped Application Service \[cmdb\_ci\_service\_discovered\] table \(included in the base system\).
     -   When query-based: \[cmdb\_ci\_query\_based\_service\].
     -   When tag-based: \[cmdb\_ci\_service\_by\_tags\].
 
-The CIs in this domain are deployed instances of digital products and their related and discoverable components \(such as installed applications, servers, and network components\) plus documentation of the services that provide and support the deployed instances. The domain also represents the portfolio of technology management services in use. For more information on life cycles, see [Definitions of life-cycle values for tangible/physical CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-df-tangible-physical.md).
+The CIs in this domain are deployed instances of digital products and their related and discoverable components \(such as installed applications, servers, and network components\) plus documentation of the services that provide and support the deployed instances. The domain also represents the portfolio of Technology management services in use. For more information on life cycles, see [Definitions of life-cycle values for tangible/physical CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-df-tangible-physical.md).
 
 The services are operational, which means that you can select them for ITSM Incident Management, Problem Management, or Change Management.
 
@@ -39,7 +39,7 @@ The services are operational, which means that you can select them for ITSM Inci
 
 ## Relationships between Service Delivery tables
 
--   SDLC component **Contains::Contained by** Service instance \(optional to use this item\).
+-   Agile development component **Contains::Contained by** Service instance \(optional to use this item\).
 -   Business application **Consumes::Consumed** by Service instance.
 -   Service instance \(a logical representation of a deployed system or application stack\)**Depends on::Used by** /**Sends Data To::** Service instance.
 -   Service instance **Depends on::Used by** Application.
@@ -50,7 +50,7 @@ The services are operational, which means that you can select them for ITSM Inci
 -   Dynamic CI Group \(a dynamic grouping of CIs, based on results of CMDB Groups queries\) uses a related list to specify the relationship with Infrastructure CIs.
 -   Business Service Offering **Depends on::Used by** Service instance.
 
-**Note:** Business services and technology management services connect to the spm\_service\_portfolio through the spm\_taxonomy\_node. See [Service Portfolio Management taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/SPM2-taxonomy.md).
+**Note:** Business services and Technology management services connect to the spm\_service\_portfolio through the spm\_taxonomy\_node. See [Service Portfolio Management taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/SPM2-taxonomy.md).
 
 ## Tables used during the Service Delivery phase of the service life cycle
 
@@ -74,15 +74,15 @@ Al Application: Al software applications that can run on various platforms such 
 
 Technology management services are associated with service owners and are typically layered under one or more business services or service instances. A technology management service may have one or more technology management offerings.
 
-Users of technology management services can view and manage the technologies that you provide to the business. Event Management enables you to monitor service performance. You can also use Event Management to identify health issues for related infrastructure CIs and service instances.
+Users of Technology management services can view and manage the technologies that you provide to the business. Event Management enables you to monitor service performance. You can also use Event Management to identify health issues for related infrastructure CIs and service instances.
 
-Technology management services can be managed as part of the Service Portfolio in the Service Consumption domain \(that is, a Service Portfolio hierarchy can be referenced from a technology management service\). This allows for a more complete hierarchy and management of both technology management services and business services within the Service Portfolio Management workspace and related workspaces. You can make better decisions when you know how spend on technology management services can improve performance and reliability of your business services.
+Technology management services can be managed as part of the Service Portfolio in the Service Consumption domain \(that is, a Service Portfolio hierarchy can be referenced from a Technology management service\). This allows for a more complete hierarchy and management of both Technology management services and business services within the Service Portfolio Management workspace and related workspaces. You can make better decisions when you know how spend on Technology management services can improve performance and reliability of your business services.
 
-**Note:** Business services and technology management services connect to the spm\_service\_portfolio through the spm\_taxonomy\_node. See [Service Portfolio Management taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/SPM2-taxonomy.md).
+**Note:** Business services and Technology management services connect to the spm\_service\_portfolio through the spm\_taxonomy\_node. See [Service Portfolio Management taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/SPM2-taxonomy.md).
 
 ## Technology management offerings
 
-Technology consumers can request technology management offerings \(TMO\) through the request catalog. Catalogs are described in [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/service-catalog.md). The consumer can typically select the following features and options:
+Technology consumers can request Technology management offerings \(TMO\) through the request catalog. Catalogs are described in [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/service-catalog.md). The consumer can typically select the following features and options:
 
 -   Level of performance
 -   Location or geography
@@ -106,9 +106,9 @@ Technology management offerings typically have the following components:
     -   Support for a non-production-level offering: Limited availability and criticality for non-production instances. Includes a 60-minute response time guarantee between 8:00 a.m. and 5:00 p.m., Monday through Friday.
 -   **A service offering subscription that records which users have access to an offering**
 
-    A technology management offering references the **Service Categorization** attribute in service tables to denote whether a technology management offering or offering is related to a business service or to a technology management service. Technology management offerings that are mapped to the \[service\_offering\] table are classified as “technology management service" and are derived from the service. The technology management offering is based on how the parent serves a specific technical need. Every technology management service should have at least one technology management offering.
+    A Technology management offering references the **Service Categorization** attribute in service tables to denote whether a Technology management offering or offering is related to a business service or to a Technology management service. Technology management offerings that are mapped to the \[service\_offering\] table are classified as “technology management service" and are derived from the service. The Technology management offering is based on how the parent serves a specific technical need. Every Technology management service should have at least one Technology management offering.
 
-    **Important:** Each CI associated through a Dynamic CI Group can be related to only one technology management service or technology management offering. Conflicts can result when one service includes multiple offerings with different SLAs, OLAs, Support Groups, and commitments.
+    **Important:** Each CI associated through a Dynamic CI Group can be related to only one Technology management service or Technology management offering. Conflicts can result when one service includes multiple offerings with different SLAs, OLAs, Support Groups, and commitments.
 
 
 ## Dynamic CI groups
@@ -117,7 +117,7 @@ A dynamic CI group is comprised of CIs that result from a CMDB Groups query. For
 
 **Note:** Dynamic CI groups contain only CIs and can't contain other CI groups.
 
-Dynamic CI groups are mapped to the \[cmdb\_ci\_query\_based\_service\] table and are classified as either service instance or technology management service, as applicable. You might want to use dynamic CI groups in the following situations:
+Dynamic CI groups are mapped to the \[cmdb\_ci\_query\_based\_service\] table and are classified as either service instance or Technology management service, as applicable. You might want to use dynamic CI groups in the following situations:
 
 -   **Query-based service instance**
 
@@ -127,14 +127,14 @@ Dynamic CI groups are mapped to the \[cmdb\_ci\_query\_based\_service\] table an
 
 -   **Managed group of Infrastructure CIs**
 
-    The web servers in Detroit are managed by the DetroitRockCity technology management offering. Instead of manually creating relationships from technology management offerings to Infrastructure CIs, use a dynamic CI group. A single relationship from your technology management offering CI \(DetroitRockCity\) to your dynamic CI Group \(web servers in Detroit\) gives you the visibility you need.
+    The web servers in Detroit are managed by the DetroitRockCity Technology management offering. Instead of manually creating relationships from Technology management offerings to Infrastructure CIs, use a dynamic CI group. A single relationship from your Technology management offering CI \(DetroitRockCity\) to your dynamic CI Group \(web servers in Detroit\) gives you the visibility you need.
 
 -   **A way to manage patches for your CIs**
 
-    In Change Management, you can select the dynamic CI group for the CIs that you must update and use a business rule to auto-populate the **Affected CI** field.
+    In Change Management, you can select the dynamic CI group for the CIs you must update and use a business rule to auto-populate the **Affected CI** field.
 
 
-## Service instances \(called application services before CSDM v5\)
+## Service instances \(formerly application services\)
 
 Service instance a relabel of \[cmdb\_ci\_service\_auto\], which previously was called application service.
 
@@ -142,7 +142,7 @@ Application services still exist. They were there as extended tables depending o
 
 For manual creation or service mapping, you go into the mapped application service.
 
-For tag-based, it would live in the tag-based application service table. The tables still exist and they are still application services and you're still gonna go to the application service wizard to create application services.
+For tag-based, it would live in the tag-based application service table. The tables still exist and they are still application services and you're still going to go to the application service wizard to create application services.
 
 New types of service instances are extensions of \[cmdb\_ci\_service\_auto\]:
 
@@ -152,15 +152,15 @@ New types of service instances are extensions of \[cmdb\_ci\_service\_auto\]:
 -   Connection service instance \[cmdb\_ci\_connection\_service\_instance\]
 -   Facility service instance \[cmdb\_ci\_facility\_service\_instance\]
 
-The Service Instance \(called application service before CSDM v5\) \[cmdb\_ci\_service\_auto\] table supports service instances. A service instance is a set of interconnected applications and hosts that are configured to offer a service. A service instance is a logical representation of a deployed system or an application stack. Using service instances, you can view maps and change history for services. For example, the Event Management application can monitor service performance and identify health issues for service instances.
+The Service Instance \[cmdb\_ci\_service\_auto\] table \(formerly Application Service table\) supports service instances. A service instance is a set of interconnected applications and hosts that are configured to offer a service. A service instance is a logical representation of a deployed system or an application stack. Using service instances, you can view maps and change history for services. For example, the Event Management application can monitor service performance and identify health issues for service instances.
 
 Service instances can be internal, like an organization's email system or customer-facing, like an organization's website. For example, creating financial reports through a web-based application requires a computer, web server, application server, databases, middleware, and network infrastructure. The applications and hosts are configured to offer the service of financial reporting. A service instance represents an instance of such a business application or system in the development, test, or production environment.
 
-Service instances are the entry points for the Service Mapping feature. Service instances underpin a business or technology management service and are mapped to the CMDB Service Instance \(called application service before CSDM v5\) \[cmdb\_ci\_service\_auto\] table for common reporting.
+Service instances are the entry points for the Service Mapping feature. Service instances underpin a business or Technology management service and are mapped to the CMDB Service Instance \[cmdb\_ci\_service\_auto\] table \(formerly Application Service table\) for common reporting.
 
 Service instances are key relationship entities for IT Service Management \(ITSM\), IT Operations Management \(ITOM\), Strategic Portfolio Management \(SPM\), and Customer Service Management \(CSM\).
 
-Service instances include relationships between business applications, business services, technology management services, applications, and infrastructure CIs. You can expose a service instance by using the related business or technology management offering. For more information, see [Use Application Services dashboard to monitor health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/app-service-dashboard.md).
+Service instances include relationships between business applications, business services, Technology management services, applications, and infrastructure CIs. You can expose a service instance by using the related business or Technology management offering. For more information, see [Use Service instance \(Application Services\) dashboard to monitor health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/app-service-dashboard.md).
 
 Types of service instance in the Service Instance data model:
 
@@ -179,7 +179,7 @@ The table that a service instance maps to depends on the method used to create i
 |Tags|cmdb\_ci\_service\_tags|
 |Manual entry, using the Create a Service Instance form \(formerly, the Create an Application Service form\)|cmdb\_ci\_service\_discovered|
 
--   For more information about service instances and the methods you can use to create them, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/application-services.md) and [Create an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/create-it-services.md).
+-   For more information about service instances and the methods you can use to create them, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/application-services.md) and [Create a Service instance \(application service\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/create-it-services.md).
 -   You can specify required attributes for service instances. For more information, see [Modify the attributes and relationships required for application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/modify-req-fields-appservice.md).
 -   You can set a relationship between a service instance and the components of other CSDM domains. See [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/c_ServiceMappingOverview.md).
 

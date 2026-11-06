@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-dms-integration-overview.html
 release: zurich
 topic_type: concept
-last_updated: "2026-07-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [DMS integration, Dealer Management System, STAR API, automotive integration, OEM integration]
 breadcrumb: [Integrate, Manufacturing Commercial Operations]
@@ -32,5 +32,5 @@ Key capabilities:
 
 [Set up inbound DMS integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-configure-dms.md)
 
-[manufacturing-integrate]
+[MCO Integration APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/manufacturing-integrate.md)
 

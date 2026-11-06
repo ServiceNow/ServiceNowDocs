@@ -7,9 +7,9 @@ release: zurich
 product: Access Control
 classification: access-control
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ACL configuration watcher, ACL debugging tools, Advanced ACL configuration, Access Control List Rules, Access Management]
+breadcrumb: [ACL configuration watcher, ACL debugging tools, Advanced ACL configuration, Access Control Lists \(ACLs\), Access Management]
 ---
 
 # Use the ACL configuration watcher

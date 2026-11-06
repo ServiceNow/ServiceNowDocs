@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/configure-flow-designer-flows-fso-apps.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Financial Services Operations \(FSO\)]
 ---
@@ -33,7 +33,7 @@ Role required: Based on the application that you are configuring, you need the f
 
 ## About this task
 
-The flows are built using ServiceNow Workflow Studio, so make sure you’re familiar with [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/flow-designer-home-landing-page.md) basics.
+The flows are built using ServiceNow Workflow Studio, so make sure you’re familiar with [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/flow-designer.md) basics.
 
 For information on flows that are installed with Financial Services Operations applications, see [Designer flows for Financial Services Operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/flow-designer-flows-fso-apps.md).
 

@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Configure, ServiceNow Otto for PSDS, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Activate ServiceNow Otto skills, Configure, ServiceNow Otto for PSDS, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Configure chat summarization skill in ServiceNow Otto for Public Sector Digital Services \(PSDS\)
@@ -25,7 +25,7 @@ Agents can utilize chat summarization to gain contextual understanding of suppor
 In the ServiceNow Otto for PSDS Admin Console, admins can:
 
 -   Define the trigger that determine when a summary is generated \(chat handoff, quick action, wrap-up\)
--   Define where to display \(CRM Workspace and/or ServiceNow Otto panel\)
+-   Define where to display \(Public Sector Workspace and/or ServiceNow Otto panel\)
 -   Add/remove roles to control who can view the skill
 
 ## Procedure

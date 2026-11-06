@@ -7,7 +7,7 @@ release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -30,11 +30,11 @@ Cloud Provisioning and Governance checks the following conditions to invoke the 
 -   The **sn\_cmp.targeted.disco.patterns** system property is set to **True**.
 -   The sn\_capi\_resource\_type table contains a one-to-one association between the resource type and the single-resource-discovery pattern.
 
-For example, if you use CFT to provision an Amazon S3 bucket, Cloud Provisioning and Governance reads the resource type from the cloud response \(AWS::S3::Bucket\). It then identifies the appropriate pattern \(AWS S3\) from the sn\_capi\_resource\_type table. The pattern discovers the newly provisioned Amazon S3 bucket only and updates its attributes in the appropriate CMDB CI class \(Cloud Object Storage \[cmbd\_ci\_cloud\_object\_storage\] table\).
+For example, if you use CFT to provision an Amazon S3 bucket, Cloud Provisioning and Governance reads the resource type from the cloud response \(AWS::S3::Bucket\). It then identifies the appropriate pattern \(AWS S3\) from the sn\_capi\_resource\_type table and invokes the pattern to discover the newly provisioned Amazon S3 bucket only. The pattern updates the bucket's attributes in the appropriate CMDB CI class \(Cloud Object Storage \[cmbd\_ci\_cloud\_object\_storage\] table\).
 
 If both CAPI-based targeted discovery and pattern-based targeted discovery are implemented for the resource type, then the system uses CAPI-based targeted discovery.
 
-If neither CAPI-based nor pattern-based targeted discovery is implemented for the resource type, the resource type is classified as a generic cloud resource. It is stored in the Cloud Resources \[cmdb\_ci\_cmp\_resource\] table. In such cases, you can create a single-resource-discovery pattern and associate it with the resource type. For more information, see [Create or customize patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/t_CreatePatternPatDef.md) and [Associate a resource type with a single-resource-discovery pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/pattern-based-targeted-discovery.md).
+If neither CAPI-based nor pattern-based targeted discovery is implemented for the resource type, the resource type is classified as a generic cloud resource. The resource appears in the Cloud Resources \[cmdb\_ci\_cmp\_resource\] table. In such cases, you can create a single-resource-discovery pattern and associate it with the resource type. For more information, see [Create or customize patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/t_CreatePatternPatDef.md) and [Associate a resource type with a single-resource-discovery pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/pattern-based-targeted-discovery.md).
 
 **Related topics**  
 

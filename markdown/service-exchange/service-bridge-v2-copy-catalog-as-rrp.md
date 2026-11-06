@@ -7,9 +7,9 @@ release: zurich
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use for providers, Service Exchange for Providers, Service Exchange]
+breadcrumb: [Configure for providers, Service Exchange for Providers, Service Exchange]
 ---
 
 # Publish catalog items as remote record producers
@@ -21,7 +21,6 @@ As a provider, you can copy your local catalog items to Service Exchange as remo
 Make sure that the catalog items you want to copy meet the following requirements:
 
 -   Must be in the published state
--   Must be of a supported class: sc\_cat\_item, sc\_cat\_item\_producer, pc\_hardware\_cat\_item, or pc\_software\_cat\_item
 -   Must not have been already copied to Service Exchange
 
 Role required: admin

@@ -7,9 +7,9 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Implement, HR Predictive Intelligence Workbench, Integrate with ServiceNow applications, HR Service Delivery, Employee Service Management]
+breadcrumb: [HR Predictive Intelligence Workbench implementation, HR Predictive Intelligence Workbench, Integration of HR Service Delivery with ServiceNow applications, HR Service Delivery, Employee Service Management]
 ---
 
 # HR PIWB template: Predict knowledge gaps and insights
@@ -51,9 +51,6 @@ When the configuration is complete, machine learning algorithm provides various 
 ## What to do next
 
 You can verify the integration status from **HR Administration** &gt; **HR AI Configurations** &gt; **Solution definition**. The use case is now mapped to the selected solution definition.
-
--   **[PIWB template: Predict knowledge case clusters and demand insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-piwb-kb-case-clusters.md)**  
-Use the classic setup template to configure and train your Cluster solution template with machine learning model to predict the case clusters that do not have knowledge, identify knowledge demand, and improve the knowledge articles.
 
 **Parent Topic:**[HR Predictive Intelligence Workbench implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-piwb-implementation-guidance.md)
 

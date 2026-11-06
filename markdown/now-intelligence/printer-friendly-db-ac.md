@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/printer-friendly-db-ac.html
 release: zurich
 topic_type: task
-last_updated: "2025-12-01"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Working with in-line dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -43,6 +43,8 @@ Role required: Any
 
 
 [Create a dashboard with the in-line editor]()
+
+[Create Core UI dashboards on upgraded instances]()
 
 [Edit Platform Analytics dashboards]()
 

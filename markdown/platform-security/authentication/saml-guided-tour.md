@@ -7,16 +7,16 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [SAML, Multi-Provider single sign-on \(SSO\), Access Management]
+breadcrumb: [SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---
 
 # SAML Guided Tour
 
 Use the SAML Guided Tour to configure SAML for single sign-on.
 
-SAML Guided tour helps you to get trained and configure the SSO for your ServiceNow® instance. Admins can select the guided tour to quickly know the required actions when configuring SSO for the instances.
+SAML Guided tour use a series of steps that span across multiple pages to complete the configuration, following the steps and instructions provided as part of the tour and complete the tour. It helps you to get trained and configure the SSO for your ServiceNow® instance. You can select the guided tour to quickly know the required actions when configuring SSO for the instances.
 
 Before using the guided tour, you must configure a SAML application in your preferred Identity Provider, such as Okta, Microsoft Azure, ADFS, and so on. To learn how to configure a SAML application, refer the following documentation:
 
@@ -37,5 +37,5 @@ To use the SAML Guided Tour, follow these steps:
 4.  Click the **Help** icon.
 5.  Click **Take a Tour**.
 
-SAML Guided tour use a series of steps that span across multiple pages to complete the configuration, following the steps and instructions provided as part of the tour and complete the tour. To know more about SAML configuration, see [SAML 2.0 configuration using Multi-Provider SSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/t_CreateASAML2Upd1SSOConfigMultiSSO.md).
+To know more about SAML configuration, see [SAML 2.0 configuration using Multi-Provider SSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/t_CreateASAML2Upd1SSOConfigMultiSSO.md).
 

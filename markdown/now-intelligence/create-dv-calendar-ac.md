@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/create-
 release: zurich
 topic_type: task
 last_updated: "2026-09-25"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [Create calendar report, Create calendar visualization]
 breadcrumb: [Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -17,7 +17,7 @@ Create calendar report visualizations to show and highlight date-driven events.
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/platform-analytics-roles.md).
 
 For information about the use of the Calendar report visualizations on dashboards, see [the Developer Site](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/shared-components/sn-par-calendar-connected/usage). This site gives information about Calendar report components in the UI Builder, and some configuration options may differ from the Visualization Designer.
 
@@ -33,7 +33,7 @@ Calendar report limitations:
 
     The KB article [Weekly calendar view does not display all entries](https://support.servicenow.com/nav_to.do?uri=%2Fkb%3Fid%3Dkb_article_view%26sysparm_article%3DKB0598360) covers scenarios in which some expected entries do not display.
 
-    To show more or fewer days, edit the **glide.report.calendar.max\_days\_back** property. See [Reporting properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/reporting-properties.md).
+    To show more or fewer days, edit the **glide.report.calendar.max\_days\_back** property. See [Core UI Reporting properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/reporting-properties.md).
 
     **Note:** Performance may degrade if this value is too large.
 
@@ -68,6 +68,22 @@ A title for the calendar report visualization that reflects the information bein
 
 </td></tr><tr><td>
 
+Title alignment
+
+</td><td>
+
+Choose Start to align the title with the start of line, End to align it with the end of the line, or Center for center alignment.
+
+</td></tr><tr><td>
+
+Line of truncation
+
+</td><td>
+
+Specify where to truncate long labels with an ellipsis. Options are 1, 2, and 3.
+
+</td></tr><tr><td>
+
 Use large font size
 
 </td><td>
@@ -88,7 +104,7 @@ Show description
 
 </td><td>
 
-Adds an information icon \(\[Omitted image "icon-info.png"\] Alt text: Information icon\) to the visualization. This icon opens the component description in a popup.
+Adds an information icon \(\[Omitted image "icon-info.png"\] Alt text: Information icon\) to the visualization. This icon opens the component description in a pop-up.
 
 </td></tr></tbody>
 </table>5.  In the **Data** section, specify the source table, predefined condition, date range, and filter options.
@@ -123,7 +139,7 @@ Edit filter table
 
 </td><td>
 
-Conditions for filtering event records. This filter is applied when the end user views the calendar. Users can filter further if a filter component is added to the page. **Note:** This property adds a filter condition in addition to the table and predefined conditions, if any are applied.
+Conditions for filtering event records. This filter is applied when the end user views the calendar. Users can filter further if a filter component is added to the page. **Note:** This property adds a filter condition to the table and predefined conditions, if any are applied.
 
 </td></tr><tr><td>
 
@@ -139,7 +155,25 @@ End date field
 
 </td><td>
 
-Field to report on as the ending event. You must select a date field. Default value: Closed \[closed\_at\]
+Field to report on as the ending event. You must select a date field. Hidden if you select **Hide end date**.
+
+Default value: Closed \[closed\_at\]
+
+</td></tr><tr><td>
+
+Highlight based on
+
+</td><td>
+
+Choose a field that has platform-defined field styling to highlight calendar events by configured colors. For more information, see [Define field styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_DefineFieldStyles.md).
+
+</td></tr><tr><td>
+
+Allow change highlighting field
+
+</td><td>
+
+Select this option to enable users to choose the field that governs highlighting.
 
 </td></tr><tr><td>
 
@@ -191,7 +225,7 @@ Default value: Month
 </td></tr></tbody>
 </table>7.  Select **Save**.
 
-    Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** to return to the Data Visualization list.
+    Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** to return to the data visualization list.
 
 
 ## What to do next

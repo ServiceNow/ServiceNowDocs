@@ -7,9 +7,9 @@ release: zurich
 product: Team Development
 classification: team-development
 topic_type: task
-last_updated: "2025-10-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with changes, Team Development, Planning your application, Building applications]
+breadcrumb: [Explore, Team Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Back out a local change
@@ -18,7 +18,7 @@ Back out all local changes and restore the last version reconciled with the pare
 
 ## Before you begin
 
-Role required: admin
+Role required: none.
 
 ## Procedure
 
@@ -30,8 +30,10 @@ Role required: admin
 
 4.  Filter the Local Changes list to show only the changes that you want to back out.
 
-5.  Select the local change and select **Back Out** or **Back Out All**.
+5.  Do one of the following actions:
 
+    -   Click **Back Out All**.
+    -   Right-click the local change you want to back out, and then click **Back Out**.
+    \[Omitted image "LocalChangesBackOutAll.png"\] Alt text: Local changes back out all
 
-**Parent Topic:**[Local changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_LocalChanges.md)
 

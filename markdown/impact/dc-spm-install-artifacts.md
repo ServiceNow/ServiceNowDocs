@@ -1,16 +1,16 @@
 ---
-title: Review SPM artifacts
+title: Review Strategic Portfolio Management artifacts
 description: The Data Collection app contains a pre-build data metric structure for the ServiceNow Performance/Platform Analytics application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/dc-spm-install-artifacts.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Install the Data Collection Pack, Impact Value Management Data Collection Content Pack for SPM, Impact Value Management data collection apps, Configuring Impact, Impact]
+breadcrumb: [Impact Value Management Data Collection Content Pack for Strategic Portfolio Management, Enable data collection for Value Management, Guided Setup \(Legacy\), Configuring Impact, Impact]
 ---
 
-# Review SPM artifacts
+# Review Strategic Portfolio Management artifacts
 
 The Data Collection app contains a pre-build data metric structure for the ServiceNow Performance/Platform Analytics application.
 
@@ -66,4 +66,6 @@ The app contains the following artifacts for each of the above-specified artifac
 |Formula|Impact VM - % attainment of forecasted benefits this month|
 |Automated|Impact VM - Total actual benefits attained for the completed projects this month|
 |Automated|Impact VM - Total forecasted benefits attained for the completed projects this month|
+
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-spm.md)
 

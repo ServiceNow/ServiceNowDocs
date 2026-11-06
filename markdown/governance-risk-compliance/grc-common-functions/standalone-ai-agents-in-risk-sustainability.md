@@ -7,10 +7,10 @@ release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [ServiceNow Otto, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Use agentic AI, ServiceNow Otto, Common GRC features, Governance, Risk, and Compliance]
+keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
+breadcrumb: [Use agentic AI, ServiceNow Otto for Integrated Risk Management \(IRM\), Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Standalone AI Agents in ServiceNow Otto for Integrated Risk Management \(IRM\)
@@ -27,6 +27,6 @@ The following AI agents are available in the ServiceNow Otto for IRM application
 
 -   Control Objective Change Agent
 
-    For more information, see [Use the control objective change agent to update control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/update-impacted-control-objectives-AI.md).
+    For more information, see [Use Control Objective Change Agent to update control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/update-impacted-control-objectives-AI.md).
 
 

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/activate-now-assist-panel.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-keywords: [Activate, Now Assist, panel, skills, admin, experiences]
-breadcrumb: [Configuring AI skills, AI Admin Hub, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+keywords: [Activate, Now Assist, ServiceNow, Otto, panel, skills, admin, experiences]
+breadcrumb: [Configuring plugins and skills in AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Activate the ServiceNow Otto panel standard chat
@@ -17,38 +17,40 @@ Activate the ServiceNow Otto panel standard chat to enable your agents to use AI
 
 ## Before you begin
 
-You must install at least one ServiceNow Otto application before you can turn on ServiceNow Otto panel.
+You must install at least one AI application before you can turn on the ServiceNow Otto panel.
 
 Role required: sn\_generative\_ai.nsa\_admin
 
 ## About this task
 
-You must have the now\_assist\_panel\_user role to have access to the panel once you turn it on.
+You must have the now\_assist\_panel\_user role to have access to the ServiceNow Otto panel once you turn it on.
 
 To learn more about the ServiceNow Otto panel, and how it can assist your agents, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-panel-overview.md).
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Experiences**.
+1.  Navigate to **Admin** &gt; **AI Admin Hub**.
 
     If you’re already in AI Admin Hub, select the **AI Experiences** tab.
 
 2.  Select **ServiceNow Otto panel**.
 
-3.  Enable the panel on your instance by selecting **Turn On**.
+3.  Select **Turn On**.
+
+    **Note:** If **Turn On** is unavailable, verify that at least one ServiceNow Otto application is installed on your instance and that you have the sn\_generative\_ai.nsa\_admin role. If you have the role but **Turn On** remains unavailable, see [Solving installation and configuration issues with ServiceNow AI features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-install-config-checklist.md).
 
     \[Omitted image "config-now-assist-2.png"\] Alt text: On the Settings tab, select ServiceNow Otto panel, and then select Turn on.
 
-4.  In the Turn on ServiceNow Otto panel dialog box, select **Turn on**.
+4.  In the Turn on ServiceNow Otto Panel dialog box, select **Turn on**.
 
 5.  If you want to use assistants, you must activate them.
 
-    See [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/configure-now-assist-va.md) for information on activating assistants.
+    See [Activate ServiceNow Otto panel assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-panel-activate-assistant.md) for information on activating assistants.
 
 
 ## What to do next
 
-For help with installation, see [Solving installation and configuration issues with ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-install-config-checklist.md).
+For help with installation, see [Solving installation and configuration issues with ServiceNow AI features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-install-config-checklist.md).
 
 For examples of the ServiceNow Otto panel in action for ServiceNow Otto applications, see the following topics:
 
@@ -57,5 +59,5 @@ For examples of the ServiceNow Otto panel in action for ServiceNow Otto applicat
 -   [Summarize an issue using ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/summarize-an-issue.md)
 -   [Generate a knowledge article from HR Agent Workspace with ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/gen-kb-now-assisthr.md)
 
-**Parent Topic:**[Configuring AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configuring-na-landing.md)
+**Parent Topic:**[Configuring plugins and skills in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configuring-na-landing.md)
 

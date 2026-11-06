@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-03-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -42,7 +42,7 @@ Sentiment is calculated using several factors:
 -   Frequency of updates and response time
 -   Language tone
 
-The Sentiment Reasoning field provides details on which factors were considered. This includes:
+The Sentiment Reasoning field in the record provides details on which factors were considered for reasoning. This includes:
 
 -   Tone of the requester's messages across the transcript.
 -   Feedback or continued frustration in the latest requester's messages.
@@ -64,7 +64,7 @@ The Sentiment Reasoning field provides details on which factors were considered.
 
 5.  Select **Choose Input** and review the tables and fields to create prompts that determine where data is pulled from.
 
-    **Note:** You can't modify the input data source.
+    **Note:** You cannot modify the input data source.
 
 <table id="table_qrf_yz5_r3c"><thead><tr><th>
 
@@ -95,7 +95,7 @@ Input fields
 </td></tr></tbody>
 </table>6.  Select **Role attribution**
 
-    **Note:** You can't modify the input data source in base system.
+    **Note:** You cannot modify the input data source in base system.
 
 <table id="table_dj3_lg5_r3c"><thead><tr><th>
 
@@ -185,5 +185,5 @@ Assigned to
 
 [Analyze sentiments in ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/analyze-sentiments-in-now-assist-for-csm.md)
 
-[Enable and configure Sentiment analysis](https://support.servicenow.com/kb?sys_kb_id=ec531aab47a48794b6d8aa25126d4322&id=kb_article_view)
+[Enable and configure the Sentiment Analysis](https://support.servicenow.com/kb?sys_kb_id=ec531aab47a48794b6d8aa25126d4322&id=kb_article_view)
 

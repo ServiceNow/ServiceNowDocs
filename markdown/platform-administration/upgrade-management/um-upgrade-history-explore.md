@@ -7,9 +7,9 @@ release: zurich
 product: Upgrade Management
 classification: upgrade-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Upgrade Console summary, Explore, Upgrade Console, Upgrade, Administer]
+breadcrumb: [Upgrade Console summary, Explore, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
 # Explore Upgrade History in Upgrade Console
@@ -32,7 +32,7 @@ Using left navigation
 
 </td><td>
 
-1.  Navigate to **All** &gt; **Admin Center** &gt; **Upgrade Management** &gt; **Upgrade History**.
+1.  Navigate to **All** &gt; **Admin Center** &gt; **Upgrade Console** &gt; **Upgrade History**.
 2.  Select an upgrade from the list. On selecting an upgrade from the list, the System Upgrades form appears.
 
 </td></tr><tr><td>
@@ -41,7 +41,7 @@ Using Admin tab option
 
 </td><td>
 
-1.  Navigate to **Admin** &gt; **Upgrade Management** &gt; **Upgrade History**.
+1.  Navigate to **Admin** &gt; **Upgrade Console** &gt; **Upgrade History**.
 2.  Select an upgrade from the list. On selecting an upgrade from the list, the System Upgrades form appears.
 
 </td></tr></tbody>

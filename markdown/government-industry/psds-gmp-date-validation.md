@@ -5,8 +5,8 @@ locale: en-us
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-gmp-date-validation.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-30"
-reading_time_minutes: 6
+last_updated: "2026-10-09"
+reading_time_minutes: 10
 keywords: [date validation, grants management, funding program, grant program, timeline]
 breadcrumb: [Grants Management reference, Reference, Public Sector Digital Services \(PSDS\)]
 ---
@@ -34,9 +34,15 @@ The following table defines each date used in the grants management validation h
 |Proposal close date|The hard deadline for proposal submission. After this date, new submissions are blocked and any proposal still in Draft is auto-cancelled by the "Cancel Expired Grant Proposals" scheduled job.|Publish program|
 |Announcement removal date|The date the public announcement is taken down from the portal.|Publish program|
 |Review task due date|The deadline for the Merit Review activity's review task.|Merit Review|
-|Milestone due date|The deadline for a Performance Milestone defined on the program.|Grant Program setup \(Performance Milestones activity\)|
+|Program Milestone due date|The deadline for a Program Milestone defined on the program.|Grant Program setup \(Program Milestones activity\)|
 |Goals \(Calendar period\)|The calendar period attached to a proposal goal.|Proposal Narrative|
 |Deliverables \(Calendar period\)|The calendar period attached to a Goal's deliverable.|Proposal Narrative|
+|Award start date|The date the award starts. It must fall within the grant program's start and end dates.|Award setup|
+|Award end date|The date the award ends. Milestone due dates and disbursement dates must fall within the award start and end dates.|Award setup|
+|Award milestone due date|The deadline for a milestone on an award. It must fall within the award start and end dates.|Award milestones|
+|Disbursement start date|A date field on the award's disbursement plan. Disbursement schedule generation doesn't use it. The schedule runs on the award's own start and end dates. If the field is changed, the new date must fall within the award start and end dates.|Award disbursements|
+|Disbursement end date|A date field on the award's disbursement plan. Disbursement schedule generation doesn't use it. The schedule runs on the award's own start and end dates. If the field is changed, the new date must fall within the award start and end dates.|Award disbursements|
+|Disbursement task due date|The due date of a disbursement task on an award. It must fall within the award start and end dates.|Award disbursements|
 
 ## Error prevention checklist
 
@@ -88,10 +94,6 @@ Result
 
 Message shown
 
-</th><th>
-
-Where the validation lives \(Server/Client logic\)
-
 </th></tr></thead><tbody><tr><td rowspan="4">
 
 Grant Program
@@ -108,10 +110,6 @@ BLOCKED
 
 The program start date cannot be after the \{date name\} \{date\}.
 
-</td><td>
-
-ServiceApplicantPgrmMgmtUtilImpl.onValidateStartAndEndDate
-
 </td></tr><tr><td>
 
 Program end date is before the latest of its other dates \(milestone dates excluded\).
@@ -123,10 +121,6 @@ BLOCKED
 </td><td>
 
 The program end date cannot be before the \{date name\} \{date\}.
-
-</td><td>
-
-ServiceApplicantPgrmMgmtUtilImpl.onValidateStartAndEndDate
 
 </td></tr><tr><td>
 
@@ -140,10 +134,6 @@ BLOCKED
 
 The program start date cannot be before the funding program start date \{date\}.
 
-</td><td>
-
-ServiceApplicantPgrmMgmtUtilImpl.onValidateStartAndEndDate
-
 </td></tr><tr><td>
 
 Program end date is after the funding program's end date.
@@ -155,10 +145,6 @@ BLOCKED
 </td><td>
 
 The program end date cannot be after the funding program end date \{date\}.
-
-</td><td>
-
-ServiceApplicantPgrmMgmtUtilImpl.onValidateStartAndEndDate
 
 </td></tr><tr><td rowspan="3">
 
@@ -176,10 +162,6 @@ BLOCKED
 
 Date can't be before program start date. Date must be in the future.
 
-</td><td>
-
-onValidateDatesOfPublishProgram + isBetweenStartCurrentAndEndDate
-
 </td></tr><tr><td>
 
 A date is earlier than the running-maximum valid date already seen earlier in the sequence \(Announcement Publication ≤ Proposal Publication ≤ Proposal Close ≤ Announcement Removal\)
@@ -194,10 +176,6 @@ Date can't be before \{publish program-date option\}Example: Date can't be befor
 
 Example: Date can't be before proposal close date.
 
-</td><td>
-
-onValidateDatesOfPublishProgram + isBetweenStartCurrentAndEndDate
-
 </td></tr><tr><td>
 
 Any of the four dates is after the Program End Date.
@@ -209,10 +187,6 @@ BLOCKED
 </td><td>
 
 Date can't be after program end date.
-
-</td><td>
-
-onValidateDatesOfPublishProgram + isBetweenStartCurrentAndEndDate
 
 </td></tr><tr><td rowspan="3">
 
@@ -230,10 +204,6 @@ BLOCKED
 
 Date cannot be in the past.
 
-</td><td>
-
-Client script MeritReviewDateCheck
-
 </td></tr><tr><td>
 
 Review task due date is before the Grant Program's own start date.
@@ -246,10 +216,6 @@ BLOCKED
 
 The review task due date cannot be before the program start date.
 
-</td><td>
-
-Next Experience alert \(alert\_2\)
-
 </td></tr><tr><td>
 
 Review task due date is after the Grant Program's own end date.
@@ -261,10 +227,6 @@ BLOCKED
 </td><td>
 
 The review task due date cannot be after the program end date.
-
-</td><td>
-
-Next Experience alert \(alert\_2\)
 
 </td></tr><tr><td>
 
@@ -282,12 +244,222 @@ BLOCKED
 
 Inline error on the milestone due date field.
 
+</td></tr><tr><td rowspan="3">
+
+Award dates
+
 </td><td>
 
-Milestones activity client logic \(sn\_gsm\_grnt\_mgmt\)
+The award start date is after the award end date.
+
+</td><td>
+
+BLOCKED
+
+</td><td>
+
+`Award start date must occur before the award end date.`
+
+</td></tr><tr><td>
+
+The award start date is outside the grant program's start and end dates.
+
+</td><td>
+
+BLOCKED
+
+</td><td>
+
+`Award start date must fall within the grant program's start and end dates.`
+
+</td></tr><tr><td>
+
+The award end date isn't after the award start date.
+
+</td><td>
+
+Error shown on the field
+
+</td><td>
+
+`Award end date must occur after the award start date.`
+
+</td></tr><tr><td rowspan="2">
+
+Award milestones
+
+</td><td>
+
+A milestone due date is before the award start date or after the award end date, on the form or when the milestone is saved.
+
+</td><td>
+
+BLOCKED
+
+</td><td>
+
+`Milestone due date must fall within the award start and end dates.`
+
+</td></tr><tr><td>
+
+A milestone is created under an award that is cancelled or closed.
+
+</td><td>
+
+BLOCKED
+
+</td><td>
+
+`Cannot create a milestone under a cancelled or closed award.`
+
+</td></tr><tr><td rowspan="4">
+
+Award disbursements
+
+</td><td>
+
+The disbursement start date field is changed to a date outside the award start and end dates. The field isn't used to generate the disbursement schedule.
+
+</td><td>
+
+BLOCKED
+
+</td><td>
+
+`Disbursement start date must fall within the award start and end dates.`
+
+</td></tr><tr><td>
+
+The disbursement end date field is changed to a date outside the award start and end dates. The field isn't used to generate the disbursement schedule.
+
+</td><td>
+
+BLOCKED
+
+</td><td>
+
+`Disbursement end date must fall within the award start and end dates.`
+
+</td></tr><tr><td>
+
+A disbursement task due date is outside the award start and end dates.
+
+</td><td>
+
+BLOCKED \(form only\)
+
+</td><td>
+
+`Disbursement task due date must fall within the award start and end dates.`
+
+</td></tr><tr><td>
+
+A disbursement task is created under an award that is cancelled or closed.
+
+</td><td>
+
+BLOCKED
+
+</td><td>
+
+`Cannot create a disbursement task under a cancelled or closed award.`
+
+</td></tr><tr><td rowspan="7">
+
+Activate award
+
+</td><td>
+
+The award start date or end date is empty.
+
+</td><td>
+
+BLOCKED
+
+</td><td>
+
+`Complete the required award fields.`
+
+</td></tr><tr><td>
+
+The award has no milestone, or a milestone has no due date.
+
+</td><td>
+
+BLOCKED
+
+</td><td>
+
+`Add at least one performance milestone with a due date.`
+
+</td></tr><tr><td>
+
+A disbursement task has no due date.
+
+</td><td>
+
+BLOCKED
+
+</td><td>
+
+`Set due dates on all disbursements.`
+
+</td></tr><tr><td>
+
+The system property **sn\_svc\_appl\_pgm\_mg.grant\_agreement.required** is set to `true` and no grant agreement document is uploaded to the award. This check isn't enforced while the property is `false`, its shipped value.
+
+</td><td>
+
+BLOCKED
+
+</td><td>
+
+`Upload the signed grant agreement.`
+
+</td></tr><tr><td>
+
+The award has no disbursement type.
+
+</td><td>
+
+BLOCKED
+
+</td><td>
+
+`Configure the disbursement plan.`
+
+</td></tr><tr><td>
+
+A milestone due date is before today.
+
+</td><td>
+
+BLOCKED
+
+</td><td>
+
+`Update the past-due performance milestone due date(s): {record numbers}`
+
+</td></tr><tr><td>
+
+A disbursement task due date is before today.
+
+</td><td>
+
+BLOCKED
+
+</td><td>
+
+`Update the past-due disbursement due date(s): {record numbers}`
 
 </td></tr></tbody>
-</table>## Supported customization points
+</table>**Note:**
+
+When you select **Activate award** on a draft award and confirm, the Activate award checks all run together and the award activates only if none fails. If one check fails, the message is `Cannot activate award. The award can't be activated because` followed by the reason. If several checks fail, the message is `Cannot activate award. Resolve the following before you activate this award:` followed by one bullet for each failed check. The record numbers in the past-due messages link to the milestone or disbursement task. Milestones in any state are checked for missing and past-due dates. Cancelled and Rejected disbursement tasks aren't checked. Today is the server date when you confirm the activation.
+
+The grant agreement check applies only when the system property **sn\_svc\_appl\_pgm\_mg.grant\_agreement.required** is set to `true`. The property ships set to `false`, so by default an award can be activated without a grant agreement document.
+
+## Supported customization points
 
 A customization point is the correct place to modify a validation's behavior. It's always a public wrapper class \(like `ServiceApplicantPgrmMgmtUtil`\), not the internal implementation \(Impl\) class.
 
@@ -303,12 +475,158 @@ The date-validation logic spans three application scopes. Stay in scope and conf
 
 Customize program and publish opportunity date logic at the public API class `ServiceApplicantPgrmMgmtUtil` that callers already reference and not by subclassing internal implementation \(Impl\) classes. All components run within a specific application scope. Always test in a non-production instance first.
 
-|Validation area|Customize at|Scope|Notes|
-|---------------|------------|-----|-----|
-|Grant program &amp; funding program dates|Public class `ServiceApplicantPgrmMgmtUtil`|sn\_svc\_appl\_pgm\_mg|—|
-|Publish program dates|Public class `ServiceApplicantPgrmMgmtUtil`|sn\_svc\_appl\_pgm\_mg|The `onChange` client scripts and the client-to-server bridge only forward parameters to this class. Customize the public wrapper, never the Impl class directly.|
-|Draft proposal auto-cancellation after close date|Scheduled Job "Cancel Expired Grant Proposals" \(runs daily at 3:30 AM\)|sn\_gsm\_grnt\_mgmt|Adjust the job schedule, or disable it, to change automatic cancellation of draft proposals.|
-|Proposal deliverables \(Goals\)|UX Client Script Include `serviceApplicantInfoUIUtils`|sn\_svc\_appl\_info|UI-layer validation for required, unique, and non-empty deliverables.|
-|Milestones|Milestones activity client logic|sn\_gsm\_grnt\_mgmt|No standalone validator — change milestone date behavior within the activity logic rather than a shared utility.|
-|Merit Review task due date|Client script MeritReviewDateCheck \(past-date check\) and `ServiceApplicantPgrmMgmtUtilImpl.onValidateStartAndEndDate` \(same general check as Grant Program\)|sn\_svc\_appl\_pgm\_mg|Three separate mechanisms enforce the same field, so a change needs to span across all three|
+<table><thead><tr><th>
 
+Validation area
+
+</th><th>
+
+Customize at
+
+</th><th>
+
+Scope
+
+</th><th>
+
+Notes
+
+</th></tr></thead><tbody><tr><td>
+
+Grant program &amp; funding program dates
+
+</td><td>
+
+Public class `ServiceApplicantPgrmMgmtUtil`
+
+</td><td>
+
+sn\_svc\_appl\_pgm\_mg
+
+</td><td>
+
+—
+
+</td></tr><tr><td>
+
+Publish program dates
+
+</td><td>
+
+Public class `ServiceApplicantPgrmMgmtUtil`
+
+</td><td>
+
+sn\_svc\_appl\_pgm\_mg
+
+</td><td>
+
+The `onChange` client scripts and the client-to-server bridge only forward parameters to this class. Customize the public wrapper, never the Impl class directly.
+
+</td></tr><tr><td>
+
+Draft proposal auto-cancellation after close date
+
+</td><td>
+
+Scheduled Job "Cancel Expired Grant Proposals" \(runs daily at 3:30 AM\)
+
+</td><td>
+
+sn\_gsm\_grnt\_mgmt
+
+</td><td>
+
+Adjust the job schedule, or disable it, to change automatic cancellation of draft proposals.
+
+</td></tr><tr><td>
+
+Proposal deliverables \(Goals\)
+
+</td><td>
+
+UX Client Script Include `serviceApplicantInfoUIUtils`
+
+</td><td>
+
+sn\_svc\_appl\_info
+
+</td><td>
+
+UI-layer validation for required, unique, and non-empty deliverables.
+
+</td></tr><tr><td>
+
+Milestones
+
+</td><td>
+
+Milestones activity client logic
+
+</td><td>
+
+sn\_gsm\_grnt\_mgmt
+
+</td><td>
+
+No standalone validator — change milestone date behavior within the activity logic rather than a shared utility.
+
+</td></tr><tr><td>
+
+Merit Review task due date
+
+</td><td>
+
+Client script MeritReviewDateCheck \(past-date check\) and `ServiceApplicantPgrmMgmtUtilImpl.onValidateStartAndEndDate` \(same general check as Grant Program\)
+
+</td><td>
+
+sn\_svc\_appl\_pgm\_mg
+
+</td><td>
+
+Three separate mechanisms enforce the same field, so a change needs to span across all three
+
+</td></tr><tr><td>
+
+Award activation checks
+
+</td><td>
+
+The **Activate award** UI action, and the helper methods on the public class `AwardProgramManagementUtil`
+
+</td><td>
+
+sn\_svc\_appl\_pgm\_mg
+
+</td><td>
+
+Customize the helper methods on the public class, not the Impl class. To change which checks run or the messages shown, customize the UI action.
+
+The helper methods are:
+
+-   `validatePerformanceMilestoneByAward`
+-   `getMilestonesWithPastDueDate`
+-   `getMilestonesWithMissingDueDate`
+-   `getDisbursementTasksWithPastDueDate`
+-   `getDisbursementTasksWithMissingDueDate`
+-   `isGrantAgreementRequired`
+
+</td></tr><tr><td>
+
+Award, milestone, and disbursement date checks
+
+</td><td>
+
+The business rules **Milestone due date check** and **Validate Disbursement Dates Within Award Window**, and the client scripts on the award, milestone, and disbursement review task forms
+
+</td><td>
+
+sn\_svc\_appl\_pgm\_mg
+
+</td><td>
+
+No shared public validator exists. Change the behavior in the individual business rule or client script.
+
+</td></tr></tbody>
+</table>

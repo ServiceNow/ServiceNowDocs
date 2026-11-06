@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sem-unassigning-findings.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Automating prioritization and triaging, Security Exposure Management workflow, Explore, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Assigning findings to remediation teams using assignment rules, Automating prioritization and triaging, Security Exposure Management workflow, Explore, Unified Security Exposure Management, Security Operations]
 ---
 
 # Removing assignments from findings and remediation tasks
@@ -78,10 +78,12 @@ To view reassignment counts:
 
 Each reassigned record retains a reference to its original assignment rule. The list view displays reassignment counts for each assignment rule, helping you identify rules that may need adjustment.
 
-**Parent Topic:**[Automating prioritization and triaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-automating-prioritization-triaging.md)
+**Parent Topic:**[Assigning findings to remediation teams using assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-assigning-findings-to-remediation-teams.md)
 
 **Related topics**  
 
 
 [Remove assignments from findings and remediation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-configure-assignment-rules.md)
+
+[Approve or reject an unassign request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-approve-unassign-requests.md)
 

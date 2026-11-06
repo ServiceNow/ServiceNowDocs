@@ -1,5 +1,5 @@
 ---
-title: Working with version records
+title: Versions
 description: Version records track changes to a customized record over time so that administrators can compare or revert to specific versions later.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/c\_Versions.html
@@ -7,27 +7,29 @@ release: zurich
 product: Team Development
 classification: team-development
 topic_type: concept
-last_updated: "2025-10-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Team Development, Planning your application, Building applications]
+breadcrumb: [Administer, Team Development, Planning your application, Classic app development, Building applications]
 ---
 
-# Working with version records
+# Versions
 
 Version records track changes to a customized record over time so that administrators can compare or revert to specific versions later.
 
-A baseline version record represents the version of a base system object as it was delivered in the most recent upgrade. Baseline versions are created only for objects that have been modified. Baseline versions update each time the system is upgraded.
+Administrators can also transfer versions between instances with Update Sets or team development.
 
--   **[Versions and local changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_VersionsAndLocalChanges.md)**  
-Version records track changes to a customizable record over time so that you can compare or revert to a specific version later.
--   **[Compare to peer instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_CompareToAPeerInstance.md)**  
-You can compare the local instance to any other remote instance and commit any current versions from the remote instance on your development instance.
+-   **[Version record navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_NavigatingVersionRecords.md)**  
+There are a variety of methods for viewing a list of versions for an object.
+-   **[Versions transferring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_TransferringVersions.md)**  
+Administrators transfer version records between instances by moving customizations with Update Sets or the Team Development application.
+-   **[Version records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/r_VersionRecords.md)**  
+The Update Versions `[sys_update_version]` table contains records that represent the state of a customizable object at a particular time.
 -   **[Compare to the current version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_CompareToCurrentVersion.md)**  
-Compare a version to the current version for any customizable object that is modified, such as a form layout or business rule. Team Development can be used to compare the local and current pulled version of an object.
+You can compare a version to the current version for any customizable object that a user has modified, such as a form layout or business rule. You can also compare the local and current pulled version of an object in Team Development. Administrators can suppress versions for specific tables.
 -   **[Revert a change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_RevertAChange.md)**  
-Undo changes to a customized record by reverting to an older version.
+You can undo changes to a customized record by reverting to an older version.
 -   **[Suppress versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_SuppressVersions.md)**  
-Administrators can configure a table so that it doesn’t track customizations in the Versions `[sys_update_version]` table.
+Administrators can configure a table so that it does not track customizations in the Versions `[sys_update_version]` table.
 
-**Parent Topic:**[Planning your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/planning-applications.md)
+**Parent Topic:**[Administer Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/administer-team-development.md)
 

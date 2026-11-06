@@ -1,16 +1,16 @@
 ---
-title: Filter activities with tags
+title: Use tags in the Activity stream
 description: Use tags to filter through the Activity stream.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/tags-activity-stream-agent.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working on records in your Workspace, Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Activity stream, Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Filter activities with tags
+# Use tags in the Activity stream
 
 Use tags to filter through the Activity stream.
 
@@ -20,17 +20,17 @@ Role required: workspace\_user
 
 ## About this task
 
-Tags enable you to filter your activities in the Activity stream by dynamic and static states not offered in filter lists.
+Use tags to filter activities in the Activity stream by dynamic and static states that are not offered in filter lists.
 
-**Important:** Tags are enabled and created by your system administrator. To enable and add tags for agents as a system administrator, see [Create tags for the Activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/tags-activity-stream-admin.md) for more information.
+**Important:** Tags are enabled and created by your administrator. For instructions, see [Configure tags for the Activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/tags-activity-stream-admin.md).
 
 ## Procedure
 
-1.  Open a Workspace record in your instance.
+1.  Open a record in your instance.
 
-2.  In the Activity stream, select the filter icon \(\[Omitted image "filter-icon-new.png"\] Alt text: Filter icon\).
+2.  From the Activity stream, select the filter icon \(\[Omitted image "filter-icon-new.png"\] Alt text: Filter icon\).
 
-3.  Select the **Tags** list, and select tags related to activities you want to view.
+3.  Select the **Tags** filter, and select tags related to activities you want to view.
 
 
 ## Result

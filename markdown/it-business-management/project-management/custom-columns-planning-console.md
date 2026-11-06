@@ -7,16 +7,16 @@ release: zurich
 product: Project Management
 classification: project-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Planning console - Legacy, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Using Planning console - Legacy, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Custom columns in the planning console
 
 In addition to the regular columns that are provided in the base system, as the PPS admin, you can configure which columns appear in the planning console.
 
-You can define the columns that are available in the [project planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/c_TheProjectPlanningConsole.md), program workbench, planning, and tracking views in portfolio workbench, and the release management Gantt chart. From this list of defined columns, you can select the columns that you want to view in these planning console UIs at any time.
+You can define the columns that are available in the [project planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/c_TheProjectPlanningConsole.md), [program workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/program-management/c_ProgramWorkbench.md), planning and tracking views in portfolio workbench, and the release management Gantt chart. From this list of defined columns, you can select the columns that you want to view in these planning console UIs at any time.
 
 These tables are used for custom column configuration:
 

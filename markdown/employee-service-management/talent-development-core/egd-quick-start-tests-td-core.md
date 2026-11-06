@@ -7,9 +7,9 @@ release: zurich
 product: Talent Development Core
 classification: talent-development-core
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
-breadcrumb: [Configure, Talent Development Core, Growth Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Installing and configuring the Talent Development Core app, Talent Development Core, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Quick start tests for Talent Development Core

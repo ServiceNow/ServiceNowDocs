@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/som-agent-tools.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Sales Customer Relationship Management]
 ---
@@ -20,4 +20,11 @@ This section describes common features that you can configure for your agents, s
 In Sales Customer Relationship Management, agents can create opportunities, quotes, and orders tailored to customer location. These transactions are called location-based product transactions.
 
 **Parent Topic:**[Configuring Sales Customer Relationship Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-configuring.md)
+
+**Related topics**  
+
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-order-management.md)
+
+[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-order-management.md)
 

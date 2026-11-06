@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 15
 breadcrumb: [Explore, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -84,7 +84,7 @@ The following tabs provide summaries about CIs:
 
     A chart of Cls with **Managed By Group** being one of the groups you are a part of. CIs are grouped by up to 20 common class categories such as **Applications**, **Devices**, and **Servers**. If there are more than 20 classes to show, then all remaining classes are lumped into one additional bar on the chart.
 
-    Select a class bar to drill down into the CIs for the class. Then drill down to a CI's form with a timeline, health overview, and several types of attributes such as key and discovery attributes.
+    Select a class bar to drill down into the CIs for the class. Then drill down to the CI form with a timeline, health overview, and several types of attributes such as key and discovery attributes.
 
     Use the [sn\_cmdb\_ws.ci\_overview.managed\_by\_me.enabled​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/installed-with-cmdb-workspace.md) property to show or hide this chart.
 
@@ -98,15 +98,15 @@ The following tabs provide summaries about CIs:
     -   The Logical Datacenter \[cmdb\_ci\_logical\_datacenter\] table must contain at least one record for a cloud datacenter.
     -   The Datacenter Types \[sn\_cmdb\_ws\_datacenter\_type\] table must contain at least one record for a datacenter that is classified as cloud storage in the organization. In the base system, this table is pre-populated with several records for common cloud services such as the Azure Datacenter \[cmdb\_ci\_azure\_datacenter\] class. The chart calculates and shows data only for cloud services for which there's a record in the Datacenter Types \[sn\_cmdb\_ws\_datacenter\_type\] table.
 
-        For details about adding datacenters in your organization, with the cloud or non-cloud classification, see [Configure datacenters for Cloud vs Non-cloud resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-config-datacenter.md).
+        For details about adding datacenters in your organization, with the cloud or non-cloud classification, see [Configure datacenters for Cloud vs Non-cloud resources in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-config-datacenter.md).
 
     The following cloud vs Non-cloud charts are available:
 
     -   CI classes bar chart:
 
-        Each bar in the CI classes chart represents a pair of a CI class and a storage type \(cloud, non-cloud\), such as the bar for Applications/Cloud. For each bar, there's a scheduled job that runs every 24 hours to collect and calculate the data for the bar. The running time depends on the amount and complexity of the data that a job collects, which can be different for each scheduled job. Also, the schedules of the jobs are staggered so that they don't all run at the same time and exhaust resources. For details about the class-specific criteria used for the chart calculations, see [Class criteria in Cloud vs Non-cloud resources chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/criteria-cloud-resources-chart.md).
+        Each bar in the CI classes chart represents a pair of a CI class and a storage type \(cloud, non-cloud\), such as the bar for Applications/Cloud. For each bar, there's a scheduled job that runs every 24 hours to collect and calculate the data for the bar. The running time depends on the amount and complexity of the data that a job collects, which can be different for each scheduled job. Also, the schedules of the jobs are staggered so that they don't all run at the same time and exhaust resources. For details about the class-specific criteria used for the chart calculations, see [Class criteria in Cloud vs Non-cloud resources chart in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/criteria-cloud-resources-chart.md).
 
-        If there’s a CI class/type pair that isn't important in the organization, you can exclude that pair from the CI classes chart. For more details, see [Configure classes for Cloud vs Non-cloud resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-config-classes-cloud.md).
+        If there’s a CI class/type pair that isn't important in the organization, you can exclude that pair from the CI classes chart. For more details, see [Configure classes for Cloud vs Non-cloud resources in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-config-classes-cloud.md).
 
         On the CI classes chart, you can:
 
@@ -191,7 +191,7 @@ CMDB Health
 
 </td><td>
 
-asset or itil role
+asset, sn\_cmdb\_editor, or itil role
 
  [Configuring CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealthSetupandConfig.md)
 

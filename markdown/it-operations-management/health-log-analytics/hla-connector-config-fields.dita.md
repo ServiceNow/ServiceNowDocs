@@ -1,5 +1,5 @@
 ---
-title: Integration configuration field descriptions
+title: Integration configuration fields
 description: This section provides descriptions of the fields on the integration configuration forms for Health Log Analytics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-connector-config-fields.dita.html
@@ -7,16 +7,18 @@ release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [data input, integration, configuration, fields, description, ServiceNow, Health Log Analytics, HLA]
 breadcrumb: [Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Integration configuration field descriptions
+# Integration configuration fields
 
 This section provides descriptions of the fields on the integration configuration forms for Health Log Analytics.
 
+-   **[ACC Log Analytics \(ACC-L\) integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/il-connector-hla-accl-fields.md)**  
+Description of the fields on the ACC Log Analytics \(ACC-L\) integration configuration forms for Health Log Analytics.
 -   **[Amazon CloudWatch integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/il-connector-hla-cloudwatch-fields.md)**  
 Description of the fields on the Amazon CloudWatch integration configuration forms for Health Log Analytics.
 -   **[Amazon S3 integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/il-connector-hla-aws-s3-fields.md)**  

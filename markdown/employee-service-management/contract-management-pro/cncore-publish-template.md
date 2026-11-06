@@ -7,7 +7,7 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure contract templates, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -47,7 +47,7 @@ The contract template is published.
 
 **Note:** If the contract type associated with the contract template is deactivated when the contract template is in the Draft or Editing state, an error is displayed when you try to publish the template.
 
-**Parent Topic:**[Configure templates for a contract and amendment request in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-document-templates.md)
+**Parent Topic:**[Configure templates for a contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-document-templates.md)
 
 **Related topics**  
 

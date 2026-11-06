@@ -7,7 +7,7 @@ release: zurich
 product: Lifecycle Events
 classification: lifecycle-events
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
@@ -20,7 +20,7 @@ Use Lifecycle Events to automate the fulfillment of HR cases such as new hire on
 
 Each lifecycle event is a collection of activities that often span multiple departments and are organized into activity sets. To configure a lifecycle event, you must first document the business process for your event. Next, you must configure all of the supporting components. You can then configure the lifecycle event and its associated activity sets and activities. Finally, you configure a corresponding HR service so that the lifecycle event can be requested for service.
 
-\[Omitted image ""\] Alt text: In progress
+\[Omitted image "lifecycle-event-builder-ui.gif"\] Alt text: create Hire Onboarding Lifecycle Event in the Lifecycle Event tab with Active check box selected, and a description entered, and the activities selected in the Activity Sets tab.
 
 -   [Building a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/hr-lifecycle-event-configuration.md)
 

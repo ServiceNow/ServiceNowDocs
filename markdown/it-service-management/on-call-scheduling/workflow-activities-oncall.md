@@ -7,9 +7,9 @@ release: zurich
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [On-Call Scheduling workflows, Reference, On-Call Scheduling, IT Service Management]
+breadcrumb: [On-Call Scheduling workflows, Reference for on-call scheduling, On-Call Scheduling, IT Service Management]
 ---
 
 # Workflow Activities for On-Call Scheduling

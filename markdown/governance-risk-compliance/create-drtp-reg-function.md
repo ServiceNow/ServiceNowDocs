@@ -1,18 +1,18 @@
 ---
 title: Create a function and enhance digital resilience data
-description: Create a function record in Digital resilience third-party registers where you can configure details of the function such as function identifier, license activity, function name, criticality or importance assessment details, and so on. You can then enhance its digital resilience information for compliance with DORA regulation.
+description: Create a function record in Digital resilience third-party registers where you can configure function details such as identifier, license activity, name, and criticality assessment. You can then enhance its digital resilience information for compliance with DORA regulation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/create-drtp-reg-function.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Use, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Create a function and enhance digital resilience data
 
-Create a function record in Digital resilience third-party registers where you can configure details of the function such as function identifier, license activity, function name, criticality or importance assessment details, and so on. You can then enhance its digital resilience information for compliance with DORA regulation.
+Create a function record in Digital resilience third-party registers where you can configure function details such as identifier, license activity, name, and criticality assessment. You can then enhance its digital resilience information for compliance with DORA regulation.
 
 ## Before you begin
 

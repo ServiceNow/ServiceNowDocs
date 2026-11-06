@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/logs.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Platform Security]
 ---
@@ -33,6 +33,8 @@ Logs module provides a variety of logs that you can use to troubleshoot and debu
 The System Logs module provides a variety of logs that you can use to troubleshoot and debug transactions and events that take place within the instance.
 -   **[Logging, auditing, and errors \(instance security hardening\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/logging-auditing-errors-instance-security-hardening.md)**  
 Apply a logging and auditing strategy so that you can identify and act on suspicious activity in a timely manner.
+-   **[Granular admin roles for Logging tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/granular-admin-roles-logging.md)**  
+Granular admin roles replace broad admin access with targeted, feature-specific permissions. Use these roles to grant the administrative capabilities needed for specific tasks without assigning the admin role.
 
 **Parent Topic:**[Platform Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platsec-sublanding.md)
 

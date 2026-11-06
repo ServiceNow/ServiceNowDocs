@@ -7,7 +7,7 @@ release: zurich
 product: Contact Tracing
 classification: contact-tracing
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Setting up Contact Tracing, Contact Tracing, Safe Workplace, Health and Safety, Employee Service Management]
 ---

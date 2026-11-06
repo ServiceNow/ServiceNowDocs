@@ -7,8 +7,9 @@ release: zurich
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
+keywords: [Advanced Risk Assessments, migrate to advanced risk, risk score roll-up, AI Risk and Compliance]
 breadcrumb: [Configure, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
@@ -18,7 +19,7 @@ Enable Advanced Risk Assessments \(ARA\) to confirm that risk‑based assessment
 
 ## Before you begin
 
-Make sure that the Advanced Risk application is installed. You don't need to install the Advanced Risk application separately if you’re using AI Control Tower.
+Make sure that the Advanced Risk application is installed. You don't need to install the Advanced Risk application separately if you're using AI Control Tower.
 
 If the **Migrate to Advanced Risk Assessments** property is already enabled, AI Control Tower uses the same configuration, and no further setup is required.
 
@@ -30,7 +31,7 @@ Advanced Risk Assessments \(ARA\) is a system-level configuration in AI Risk and
 
 **Important:**
 
-After you enable the **Migrate to Advanced Risk Assessments** property, you can’t revert to legacy risk calculation. This property is set to **No** by default.
+After you enable the **Migrate to Advanced Risk Assessments** property, you can't revert to legacy risk calculation. This property is set to **No** by default.
 
 To confirm risk-based assessments on AI assets and risk roll-up function correctly in AI Risk and Compliance, the **Migrate to Advanced Risk Assessments** property must be enabled. If the property is set to **No**, AI Risk and Compliance doesn't consider risk score roll-up.
 
@@ -44,102 +45,33 @@ When **Migrate to Advanced Risk Assessments** is set to **Yes**:
 When **Migrate to Advanced Risk Assessments** is set to **No**:
 
 -   Supports risk‑based assessments for AI assets.
--   Risk score roll-up isn’t supported for risk-based assessments on AI assets. As a result, rolled-up risk scores aren’t displayed in the AI Risk and Compliance dashboards.
+-   Risk score roll-up isn't supported for risk-based assessments on AI assets. As a result, rolled-up risk scores aren't displayed in the AI Risk and Compliance dashboards.
+
+For descriptions of all available Advanced Risk properties, see [Advanced Risk properties reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/advanced-risk-properties-ref.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **AI Risk and Compliance** &gt; **Risk Assessments** &gt; **Properties**.
 
-2.  On the Advanced Risk Properties form, fill in the fields:
-
-<table id="table-create-metric"><thead><tr><th>
-
-Properties
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Migrate to Advanced Risk Assessments
-
- \[sn\_risk\_advanced.hide\_risk\_legacy\_lifecycle\]
-
-</td><td>
-
-Enables the Advanced Risk Assessment \(ARA\) framework in the instance. When enabled, all risk assessments use Risk Assessment Methodologies \(RAMs\), advanced scoring, and rollups.
-
-</td></tr><tr><td>
-
-Define risk appetite
-
- \[sn\_risk\_advanced.risk\_appetite\_scale\]
-
-</td><td>
-
-Specifies how risk appetite is evaluated during assessments.
-
-</td></tr><tr><td>
-
-Express risk appetite limits in
-
- \[sn\_risk\_advanced.risk\_appetite\_analysis\]
-
-</td><td>
-
-Determines how appetite thresholds are expressed. Whether limits are qualitative, quantitative, or both.
-
-</td></tr><tr><td>
-
-Enable Advanced Risk PPM Integration
-
- \[sn\_risk\_advanced.enable\_advanced\_risk\_ppm\_integration\]
-
-</td><td>
-
-Enables integration between Advanced Risk and Project Portfolio Management \(PPM\).
-
-</td></tr><tr><td>
-
-Number of days before which an email should be sent to review risk appetite
-
- \[sn\_risk\_advanced.risk\_appetite\_review\_notifcation\]
-
-</td><td>
-
-Defines advance notification timing for risk appetite reviews. Number of days before the review date that reminder emails are sent.
-
-</td></tr><tr><td>
-
-Field from the risk table that will be displayed as the header for each risk in the focus mode of the risk assessment project
-
- \[sn\_risk\_advanced.assessment\_heading\_risk\_field\_name\]
-
-</td><td>
-
-Controls which risk attribute is shown as the header in Focus Mode.
-
-</td></tr><tr><td>
-
-This string contains the default column details for individual control assessments. The listed columns can be customized or modified as needed. The default columns include classification, weighting, status, and key\_control.
-
- \[sn\_risk\_advanced.grid\_individual\_control\_assessment\_columns\]
-
-</td><td>
-
-Defines the default columns shown when assessing individual controls.
-
-</td></tr></tbody>
-</table>3.  Set the **Migrate to Advanced Risk Assessments** property to **Yes**.
+2.  Set the **Migrate to Advanced Risk Assessments** property to **Yes**.
 
     \[Omitted image "ara-property-airc.png"\] Alt text: Migrate to Advanced Risk Assessments property.
 
-4.  Select **Save**.
+3.  Select **Save**.
 
+
+## Result
+
+Advanced Risk Assessments are enabled. Risk score roll-up and aggregated scoring are now active for AI assets in the AI Risk and Compliance Workspace. RAMs can now be published and used for risk assessments across AI assets.
+
+## What to do next
+
+Publish the Risk Assessment Methodologies \(RAMs\) that were unlocked by enabling this property. For more information, see [Risk assessment methodologies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/airc-rams.md). To configure which RAMs are used by default during intake and risk assessments, see [Set up AI Risk and Compliance properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/configure-airc-properties.md).
 
 **Related topics**  
 
 
 [Risk score rollup in Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/risk-rollup-ara-concept.md)
+
+[Advanced Risk properties reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/advanced-risk-properties-ref.md)
 

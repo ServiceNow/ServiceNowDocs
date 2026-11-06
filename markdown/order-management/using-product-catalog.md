@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/using-product-catalog.html
 release: zurich
 topic_type: concept
-last_updated: "2025-11-15"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Lead-to-cash foundation apps, Use, Sales Customer Relationship Management]
 ---
 
@@ -16,13 +16,15 @@ The product catalog provides a visual display of the available product offerings
 
 Agents use the Catalog tab \(related list\) for a transaction in the CRM Workspace to open the product catalog. Customers engaged in self-service transactions such as placing orders, use the product catalog in the Business Portal.
 
-**Note:** When you start a lead, the Catalog tab displays only simple products that can be added and don't require further customization.
+**Note:** When you start a lead, the Catalog tab displays only simple products that can be added and do not require further customization.
+
+In test or pre-production environments, you can view and configure product offerings that are in the In Test and Staged states, if your admin has enabled the extended life cycle states. For more information, see [Validating product offerings before publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/extended-product-lifecycle-states.md).
 
 Starting with the Product Catalog Management Core v17.0.0 release, the product catalog interface supports semantic search queries powered by AI Search, in addition to keyword searches.
 
 ## Product catalog interface with simple search
 
-The product catalog interface enables agents and customers to find product offerings by navigating product catalogs and categories. Or, they can use the search bar to match by product name, code, or description.
+The product catalog interface helps agents and customers find product offerings by navigating product catalogs and categories. Or, they can use the search bar to match by product name, code, or description.
 
 \[Omitted image "som-catalog-ui.png"\] Alt text: Product catalog interface that shows the product catalog hierarchy, product tiles with product images, and search option.
 
@@ -32,18 +34,22 @@ The catalog view has the following features for selecting products:
 -   **Search bar**: Option for finding product offerings using simple searches by product name, code, or description. The search feature displays the product tiles that match the product name, code, or search string \(description\).
 -   **Product tiles**: Cards that depict each product, which has a brief description, optional image, and an option to add or customize the product offer. The **Add** option displays when the product is a simple \(fixed\) product offering. The **Customize** option displays for configurable product offerings that have different options and attributes that can be selected. Selecting **Customize** opens the product configurator for configuring the product offering.
 
+    When a product offering is a derived product, the product tile displays a message indicating that the product is derived.
+
+-   **Sort by**: Organize how search results are returned. Select Display Order to sort by the display order that's configured for catalogs, categories, or product offerings, or select an option such as name to sort alphabetically.
+
 ## Product catalog interface with AI Search
 
-AI Search in the product catalog interface enables agents and customers to find relevant product offerings by using semantic search queries, in addition to keyword searches.
+AI Search in the product catalog interface helps agents and customers find relevant product offerings by using semantic search queries, in addition to keyword searches.
 
-Entering a query term or phrase in the search bar finds all catalog items that contain sedan as a characteristic, any parent products containing child products with this characteristic, and related products that have semantic similarity. In AI Search, semantic similarity means that the context of the query, such as the user, the catalog selected, and the terms entered, are evaluated to return the most useful catalog items first.
+Entering a query term or phrase in the search bar, for example `sedan`, finds all catalog items that contain that term as a characteristic, any parent products containing child products with this characteristic, and related products that have semantic similarity. In AI Search, semantic similarity means that the context of the query, such as the user, the catalog selected, and the terms entered, are evaluated to return the most useful catalog items first.
 
 AI Search provides other features to enhance the search process:
 
 -   **Search query language options**: Use Boolean operators, wildcards, and multi-term and quoted phrases in queries to broaden or narrow search results.
--   **Auto-complete suggestions:** When you start entering text in the search bar, AI Search displays auto-complete suggestions to help you get directly to the results you need. Suggestions may include recent search queries, recently viewed search results, or search queries or results that match the terms you're typing into the search bar.
--   **Auto-corrections of misspelled or incomplete words**: If your queries contain misspelled words or are incomplete, AI Search automatically replaces those search query terms with correct spellings, based on the search sources \(product offerings and service specifications\). Typo corrections are shown above search results.
--   Sort by filter: Organize how search results are returned, for example, by relevancy or product description. Control the order, descending or ascending, in which the results are displayed.
+-   **Auto-complete suggestions:** When you start entering text in the search bar, AI Search displays auto-complete suggestions to help you get directly to the results you need. Suggestions may include recent search queries, recently viewed search results, or search queries or results that match the terms that you're typing into the search bar.
+-   **Auto-corrections of misspelled or incomplete words**: If your queries contain misspelled words or are incomplete, AI Search automatically replaces those search query terms with correct spellings, based on the search sources \(product offerings and service specifications\). Typo corrections are shown before search results.
+-   Relevancy sort option: Sort search results by relevancy. This option appears only when AI Search is turned on.
 
 \[Omitted image "ai-search-bar-catalog.png"\] Alt text: AI Search features in product catalog interface: Sort by filter options, sort order, and search bar. Another example shows search bar with auto-complete suggestions.
 
@@ -55,4 +61,11 @@ For more information on search queries and the search query language that you ca
 As an agent or customer, use AI Search queries in the product catalog to find relevant product offerings or service specifications. For example, you can search by product offering characteristics or other attributes, when adding products in Sales Customer Relationship Management transactions.
 
 **Parent Topic:**[Using lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-lead-cash-foundation.md)
+
+**Related topics**  
+
+
+[Configuring the lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configuring-lead-to-cash-foundation.md)
+
+[Lead-to-cash foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/lead-to-cash-foundation-landing.md)
 

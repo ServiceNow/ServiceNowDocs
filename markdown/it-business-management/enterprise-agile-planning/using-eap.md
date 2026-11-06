@@ -7,7 +7,7 @@ release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: concept
-last_updated: "2026-05-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -101,6 +101,8 @@ Create stories, features, epics, or capabilities for teams to add work to their 
 Streamline breaking down work by creating child work items directly from the parent record page in Enterprise Agile Planning workspace.
 -   **[Create stories for work items in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/create-single-or-multiple-child-items-for-epic-in-eap.md)**  
 Create stories directly from a work item's form. Create them manually or save time by generating them using Now Assist in the Enterprise Agile Planning \(EAP\) workspace.
+-   **[Assess the status of an epic using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/assess-epic-status-now-assist-eap.md)**  
+Use the Epic status assessment skill to evaluate epic health across six risk dimensions in Enterprise Agile Planning \(EAP\). ServiceNow Otto returns a red, yellow, or green health status with plain-English reasoning, giving portfolio managers a consolidated view of epic risks.
 -   **[Generate a story from an epic using ServiceNow Otto in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/generate-stories-quickly-for-eap-and-agile-2-0.md)**  
 Generate a complete user story directly from an epic using Quick story generation feature in EAP. Provide brief context, and ServiceNow Otto generates a story title, description, and acceptance criteria that you can review and edit before saving.
 -   **[Generate multiple stories at once in EAP using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/generate-stories-from-epics-now-assist-eap.md)**  

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/t\_ConvertADataPolicyToAUIPolicy.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Data policy, Administer, Field administration, Forms, fields, and lists, Configure core features, Administer]
+breadcrumb: [Data policy, Administer, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Convert a data policy to a UI policy
@@ -22,7 +22,7 @@ Role required: admin
 
 Converting deactivates the data policy. The new UI policy is applied only at the UI layer only and not to import sets or data imported from SOAP web services.
 
-**Note:** An alternative to converting from a data policy to a UI policy is to select the **Use as UI Policy on client** check box on the data policy record. This field extends the data policy to the UI. The main difference between converting and using the **Use as UI Policy on client** check box is that converting provides the Visible field on the UI policy record. Use the **Visible** field to select how the UI policy affects the visible state of the field.
+**Note:** An alternative to converting from a data policy to a UI policy is to select the **Use as UI Policy on client** checkbox on the data policy record. This field extends the data policy to the UI. The main difference between converting and using the **Use as UI Policy on client** checkbox is that converting provides the Visible field on the UI policy record. Use the **Visible** field to select how the UI policy affects the visible state of the field.
 
 ## Procedure
 

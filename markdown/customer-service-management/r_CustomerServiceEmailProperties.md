@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/r\_CustomerServiceEmailProperties.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Email to case, Email channel, Configure, Enable communication channels, Configure, Customer Service Management]
+breadcrumb: [Configure email addresses and properties for email to case, Email to case, Configure Email, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Customer service email properties
@@ -48,7 +48,7 @@ Create case for non matched user\[sn\_customerservice.email.create\_case\_for\_n
 
 </td><td>
 
-Enable the creation of new customer service cases when emails are received from users with email addresses that do not currently exist in the system.
+Enable creating of new customer service cases when a sender's email address isn't in the system yet.
 
 </td></tr><tr><td>
 
@@ -80,7 +80,7 @@ Email history notifications
 
 </td><td>
 
-By default, the email history shows the last three messages in the case record. To show all activities on a case record in email replies and email notifications, add this script `${mail_script:get_emails_comments_activity_history}` to the email reply system property \(reply-received\) and the case commented system property \(case.commented.for.customer\). For more information, refer to [Configure email and comment notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/config-email-notifications.md)
+By default, the email history shows the last three messages in the case record. To show every activity on a case record instead, add this script `${mail_script:get_emails_comments_activity_history}` to the email reply system property \(reply-received\) and the case commented system property \(case.commented.for.customer\). For more information, refer to [Configure email and comment notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/config-email-notifications.md)
 
 .
 

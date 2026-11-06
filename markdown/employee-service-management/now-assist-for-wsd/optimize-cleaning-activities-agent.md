@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: concept
-last_updated: "2026-07-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Optimize cleaning activities agent overview, Using AI agent workflows in ServiceNow Otto for WSD, ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
@@ -63,7 +63,7 @@ The Case Utilization Optimizer analyzes cases grouped by location, schedule type
 </td></tr></tbody>
 </table>## Case Optimizer AI Agent
 
-The Case Optimizer AI Agent analyzes cases grouped by location, schedule type, and date to optimize resource utilization. It verifies that maintenance cases stay within the defined utilization thresholds. It creates maintenance cases when the utilization threshold is too high. When the utilization threshold is low, it deactivates the maintenance cases for underutilized floors. While deactivating a maintenance case, this agent provides minimum case availability for each maintenance schedule group. It retains at least one maintenance case before deactivating all underutilized maintenance cases. The output from the Utilization rate AI agent is given as input to this agent for space optimization.
+The Case Optimizer AI Agent analyzes cases grouped by location, schedule type, and date to optimize resource utilization. It verifies that maintenance cases stay within the defined utilization thresholds. It creates maintenance cases when the utilization threshold is too high. When the utilization threshold is low, it deactivates the maintenance cases for underutilized floors. While deactivating a maintenance case, this agent ensures minimum case availability for each maintenance schedule group. It retains at least one maintenance case before deactivating all underutilized maintenance cases. The output from the Utilization rate AI agent is given as input to this agent for space optimization.
 
 ## Case Aggregator AI Agent
 

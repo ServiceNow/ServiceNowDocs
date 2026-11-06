@@ -7,7 +7,7 @@ release: zurich
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Text analytics and text widgets, Performance Analytics widgets, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -22,7 +22,7 @@ Role required: pa\_analyst or admin
 
 ## About this task
 
-To filter a word cloud by keywords, click the words in the cloud. You can save a list of the keywords, which will be used whenever someone views the widget. Each list of keywords applies to one breakdown and element combination for the indicator in one widget. In the following example, the word "battery" has been specified as a keyword. If you click **Save**, all viewers will see this widget filtered by "battery." Anyone with the required roles can delete the saved keywords later.
+To filter a word cloud by keywords, select the words in the cloud. You can save a list of the keywords, which will be used whenever someone views the widget. Each list of keywords applies to one breakdown and element combination for the indicator in one widget. In the following example, the word "battery" has been specified as a keyword. If you select **Save**, all viewers will see this widget filtered by "battery." Anyone with the required roles can delete the saved keywords later.
 
 \[Omitted image "word-cloud-bottom.png"\] Alt text: Word cloud of text from open incidents, bottom half
 
@@ -30,7 +30,7 @@ Alternatively, you can create or edit the record where the keywords are saved. T
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Text Analytics** &gt; **Keywords** and click **New**.
+1.  Navigate to **All** &gt; **Text Analytics** &gt; **Keywords** and select **New**.
 
 2.  In the **Widget** field, specify the widget to which the keywords apply.
 
@@ -46,6 +46,6 @@ Alternatively, you can create or edit the record where the keywords are saved. T
 
 6.  In the **Keywords** field, enter a comma-separated list of keywords.
 
-7.  Click **Submit**.
+7.  Select **Submit**.
 
 

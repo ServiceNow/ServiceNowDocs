@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/quote-create-pdf-document.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -16,15 +16,13 @@ In Quote Management, sales agents can create a PDF of a quote that can be sent t
 
 ## Before you begin
 
-Role required: sales\_agent
-
-## About this task
-
 \[Omitted video\] Description: Create a quote PDF document
+
+Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Quotes** &gt; **All**.
 
@@ -32,7 +30,7 @@ Role required: sales\_agent
 
 4.  On the **Details** tab, go to **Quote Document Details** and fill in the fields.
 
-<table id="choicetable_sbm_qvt_pdc"><tbody><tr><td id="d31646e105">
+<table id="choicetable_sbm_qvt_pdc"><tbody><tr><td id="d110027e102">
 
 **Document template**
 
@@ -40,7 +38,7 @@ Role required: sales\_agent
 
 A document template is required to create a quote document PDF. A standardized template is included with the base system. Select the template that you want. See [Set up PDF document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/quote-mgt-setup-pdf-document-templates.md) for more information about how to create customized templates.
 
-</td></tr><tr><td id="d31646e124">
+</td></tr><tr><td id="d110027e121">
 
 **External signer**
 
@@ -48,7 +46,7 @@ A document template is required to create a quote document PDF. A standardized t
 
 Option that enables you to have the quote document signed by someone outside the organization. See [Set up PDF document signers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/quote-mgt-configure-pdf-document-signers.md) for more details on how to set up external signers. When you select **Send for signature**, the external signer's email address is used to send an email through Docusign for review and electronic signature.
 
-</td></tr><tr><td id="d31646e151">
+</td></tr><tr><td id="d110027e148">
 
 **Internal signer**
 

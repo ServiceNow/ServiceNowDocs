@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [CI de-duplication experience in a workspace, Duplicate CIs remediation, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,12 +22,12 @@ The de-duplication template that you want to create a schedule for, must be in a
 
 Role required:
 
--   To access the [Governance view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-governance-view.md) to perform de-duplication tasks, sn\_cmdb\_admin
--   To perform this task, cmdb\_dedup\_admin or any role containing cmdb\_dedup\_admin \(such as sn\_cmdb\_admin\)
+-   To access the [Governance view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-governance-view.md) to perform de-duplication tasks: sn\_cmdb\_editor or sn\_cmdb\_admin
+-   To perform de-duplication tasks, cmdb\_dedup\_admin or any role containing cmdb\_dedup\_admin \(such as sn\_cmdb\_admin\)
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CMDB Workspace** and then select the Governance icon in the navigation panel.
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Governance**.
 
 2.  Select the **De-duplication Dashboard** link in Management tools, in the Manage section.
 
@@ -54,7 +54,7 @@ Track the state and details of templates:
     -   Select **Cancel** to stop a template's run. The details for the cancelled template are added in the **Completed** tab with the state of Cancel Requested. Upon completing the cancellation, the state changes to Cancelled.
     After a template run completes, its details no longer appear under the **Running** tab, but are available in the **Completed** tab. Also, the completed template is available again for running in the **Ready** tab.
 
--   Select the **Completed** tab to view general counts per template, such as erroneous and skipped tasks, and general run time. The templates are sorted by their completion time, with the template that completed most recently at the top of the list. Select **Details** for a template to access a list view of the template's assigned de-duplication tasks. This list view shows details for each de-duplication task, such as its state\(color coded\) and error message if applicable. You can drill down a de-duplication task for further details.
+-   Select the **Completed** tab to view general counts per template, such as erroneous and skipped tasks, and general run time. The templates are sorted by their completion time, with the template that completed most recently at the top of the list. Select **Details** for a template to access a list view of the template's assigned de-duplication tasks. This list view shows details for each de-duplication task, such as its state \(color coded\) and error message if applicable. You can drill down a de-duplication task for further details.
 -   Select **View de-duplication tasks that need your attention** in the De-duplication tasks completed with errors card in the De-duplication insights pane on the right. The De-duplication tasks with errors list view shows de-duplication tasks that didn't complete successfully along with an error message. You can drill down de-duplication tasks in the list for more details.
 
 On the De-duplication templates pane, select the More options icon for a template with a schedule. Some of the following options appear, according to the state of the schedule:

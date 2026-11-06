@@ -1,5 +1,5 @@
 ---
-title: Managing crew tasks using the ServiceNow Agent application
+title: Managing crew tasks using the Now Mobile Agent application
 description: After the dispatcher dispatches work order tasks to a crew, tasks are sent to the assigned members of the crew, which includes the crew leader.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-manager-workforce/executing-crew-tasks.html
@@ -7,18 +7,18 @@ release: zurich
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Crew operations, Workforce, Use, Field Service Management]
+breadcrumb: [Using Crew operations, Managing workforce, Use, Field Service Management]
 ---
 
-# Managing crew tasks using the ServiceNow Agent application
+# Managing crew tasks using the Now Mobile Agent application
 
 After the dispatcher dispatches work order tasks to a crew, tasks are sent to the assigned members of the crew, which includes the crew leader.
 
-The crew leader and agents can access the work order task using the ServiceNow Agent application. Only the leader can accept or reject the work order task and other management actions. If the leader accepts the task, the task state automatically changes to Accepted. Other crew members can view the task details.
+The crew leader and agents can access the work order task using the Now Mobile Agent application. Only the leader can accept or reject the work order task and other management actions. If the leader accepts the task, the task state automatically changes to Accepted. Other crew members can view the task details.
 
-Crew members can use the ServiceNow Agent application to view the list of work order tasks assigned to them individually or to the crew they belong to. Agents cannot self-assign any tasks to themselves that require a crew.
+Crew members can use the Now Mobile Agent application to view the list of work order tasks assigned to them individually or to the crew they belong to. Agents cannot self-assign any tasks to themselves that require a crew.
 
 Crew leaders can perform the following actions on the work order task:
 

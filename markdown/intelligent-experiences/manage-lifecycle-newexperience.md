@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/manage-lifecycle-newexperience.html
 release: zurich
 topic_type: concept
-last_updated: "2026-04-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Working with AI asset records, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Working with AI asset records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Managing your AI asset lifecycle

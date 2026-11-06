@@ -1,5 +1,5 @@
 ---
-title: Enable Jelly JS interpolation protection for nested expressions \[Updated in Security Center 2.0\]
+title: Enable Jelly JS interpolation protection for nested expressions
 description: Manage the interpolation protection on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-enable-jelly-js-interpolation-protection-for-nested-expressions.html
@@ -7,16 +7,18 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
 
-# Enable Jelly JS interpolation protection for nested expressions \[Updated in Security Center 2.0\]
+# Enable Jelly JS interpolation protection for nested expressions
 
 Manage the interpolation protection on your instance.
 
-Use the **glide.ui.jelly.js\_interpolation.protect\_nested\_expressions**property to manage interpolation protection. Interpolation protection ensures that when Jelly expressions are used in JavaScript, that they must be deemed as safe by either falling under certain categories or being marked as SAFE in the expression itself. Without this mitigation enabled, a bad actor can send a GET parameter to a Jelly page and cause the contents of that parameter to be evaluated as server-side JavaScript with admin privileges. If this property is not set to the recommended value of **true**, malicious Jelly expressions interpolated in JavaScript are allowed and a user can execute code using a Jelly template.
+Use the **glide.ui.jelly.js\_interpolation.protect\_nested\_expressions** system property to turn on or off interpolation protection specifically for nested Jelly expressions. Interpolation protection ensures that when Jelly expressions are used in JavaScript, they must be deemed safe by either falling under certain categories OR being marked as SAFE in the expression itself. This property was added to protect against possibly dangerous Jelly expressions which are nested in another Jelly expression.
+
+Ensure that the **glide.ui.jelly.js\_interpolation.protect\_nested\_expressions** system property exists and is set to the value **true**. If the property does not appear in the System Properties \[sys\_properties\] table, add a new record.
 
 **Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It is non-revertible.
 
@@ -68,6 +70,14 @@ Default value
 
 </td><td>
 
+true
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
 false
 
 </td></tr><tr><td>
@@ -86,7 +96,15 @@ Security risk
 
 -   Severity score: 9
 -   CVSS score: Critical
--   Security risk details: If the property is set to **false**, then malicious Jelly expressions are allowed.
+-   Security risk details: Unprotected interpolated jelly expression may result in a malicious actor sending a crafted GET parameter to a Jelly page and cause the contents of that parameter to be evaluated as server-side JavaScript with admin privileges.
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+None
 
 </td></tr><tr><td>
 

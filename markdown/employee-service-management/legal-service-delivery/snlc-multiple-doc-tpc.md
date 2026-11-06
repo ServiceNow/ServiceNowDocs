@@ -7,7 +7,7 @@ release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a legal request for a third-party contract review, Third-party contract review requests, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -28,28 +28,15 @@ For a custom record producer, if no documents are attached while submitting the 
 
 1.  Open the third-party contract review request.
 
-<table id="d8040e52"><thead><tr><th align="left" id="d253857e65">
+<table id="d9328e54"><thead><tr><th align="left" id="d259100e65">
 
 Method
 
-</th><th align="left" id="d253857e68">
+</th><th align="left" id="d259100e68">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d253857e74">
-
-**Using Legal Service Portal**
-
-</td><td>
-
-1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Service Portal**
-2.  Select the **My Requests** option on the header menu.
-3.  Select **View all requests**.
-4.  Open your submitted legal request from the list.
-5.  On the Standard Ticket page, from the Actions menu, select **Edit Request**.
-
-
-</td></tr><tr><td id="d253857e123">
+</th></tr></thead><tbody><tr><td id="d259100e74">
 
 **Employee Center**
 
@@ -62,18 +49,31 @@ Action
 5.  On the Standard Ticket page, from the Actions menu, select **Edit Request**.
 
 
+</td></tr><tr><td id="d259100e122">
+
+**Using Legal Service Portal**
+
+</td><td>
+
+1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Service Portal**
+2.  Select the **My Requests** option on the header menu.
+3.  Select **View all requests**.
+4.  Open your submitted legal request from the list.
+5.  On the Standard Ticket page, from the Actions menu, select **Edit Request**.
+
+
 </td></tr></tbody>
 </table>2.  In the Documents section, attach documents.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d253857e180">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d259100e180">
 
 Method
 
-</th><th align="left" id="d253857e183">
+</th><th align="left" id="d259100e183">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d253857e189">
+</th></tr></thead><tbody><tr><td id="d259100e189">
 
 **__Choose a file__**
 
@@ -83,7 +83,7 @@ Actions
 2.  Select the files to attach and select **Open**.
 
 
-</td></tr><tr><td id="d253857e214">
+</td></tr><tr><td id="d259100e214">
 
 **__Drag file__**
 
@@ -91,7 +91,7 @@ Actions
 
 Drag files from your local computer into your browser window to attach them to the current record.
 
-</td></tr><tr><td id="d253857e224">
+</td></tr><tr><td id="d259100e224">
 
 **Copy and paste clipboard files**
 
@@ -106,15 +106,15 @@ Drag files from your local computer into your browser window to attach them to t
 
 3.  Classify the attached documents.
 
-<table id="choicetable_kjj_yws_5yb"><thead><tr><th align="left" id="d253857e254">
+<table id="choicetable_kjj_yws_5yb"><thead><tr><th align="left" id="d259100e254">
 
 Classification
 
-</th><th align="left" id="d253857e257">
+</th><th align="left" id="d259100e257">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d253857e263">
+</th></tr></thead><tbody><tr><td id="d259100e263">
 
 **Contract document**
 
@@ -127,7 +127,7 @@ Only active contract types are displayed in the list.
 
  **Note:** At least one document should be classified as a contract document.
 
-</td></tr><tr><td id="d253857e289">
+</td></tr><tr><td id="d259100e289">
 
 **Supporting document**
 

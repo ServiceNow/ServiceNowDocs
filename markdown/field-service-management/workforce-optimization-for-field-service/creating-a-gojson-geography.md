@@ -1,13 +1,13 @@
 ---
 title: Creating a GeoJSON geography
-description: Create a GeoJSON geography by importing GeoJSON co-ordinates or drawing shapes directly on the map.Create a geography of type GeoJSON.Draw boundaries on the map to define your geographic areas and create GeoJSON geographies. These geographies not only give you a clear visual on the map but also used task scheduling.
+description: Create a GeoJSON geography by importing GeoJSON co-ordinates or drawing shapes directly on the map.Create a GeoJSON geography to define territory boundaries with polygons, multipolygons, or circles.Draw boundaries on the map to define your geographic areas and create GeoJSON geographies. These geographies not only give you a clear visual on the map but also used task scheduling.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/workforce-optimization-for-field-service/creating-a-gojson-geography.html
 release: zurich
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create geographies, Territory Planning, Set up workforce, Configure, Field Service Management]
 ---
@@ -18,7 +18,7 @@ Create a GeoJSON geography by importing GeoJSON co-ordinates or drawing shapes d
 
 ## Create a GeoJSON geography
 
-Create a geography of type GeoJSON.
+Create a GeoJSON geography to define territory boundaries with polygons, multipolygons, or circles.
 
 ### Before you begin
 
@@ -30,7 +30,7 @@ Role required: sn\_fsm\_tp.fsm\_territory\_planner, sn\_fsm\_tp.territory\_manag
 
 Use GeoJSON geography type to accommodate scenarios where detailed geo-spatial information is available externally, enabling organizations to incorporate diverse geographic datasets into the planning processes.
 
-**Note:** For effective task assignments using Schedule Optimization, use consistent shapes, such as polygons or circles, and avoid overlapping or intersecting geographies to ensure accurate results.
+**Note:** For accurate task assignments with Schedule Optimization, use consistent shapes, such as polygons or circles, and avoid overlapping or intersecting geographies.
 
 ### Procedure
 
@@ -43,7 +43,7 @@ Use GeoJSON geography type to accommodate scenarios where detailed geo-spatial i
     |Field|Description|
     |-----|-----------|
     |Name|Name of the geography.|
-    |Geography Type|Select **GeoJSON**.|
+    |Geography Type|Type of geography. Select **GeoJSON**.|
     |GeoJSON|GeoJSON content that defines the geography. Supported geometry types are Polygon, MultiPolygon, and Point \(circle\). For format requirements, see [GeoJSON format requirements for territory geographies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/geojson-format-requirements.md).|
 
 4.  Select **Submit**.

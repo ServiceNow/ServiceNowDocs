@@ -7,9 +7,9 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Application services, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Service instances \(Application services\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # View CI attributes in an application service map in classic Service Mapping

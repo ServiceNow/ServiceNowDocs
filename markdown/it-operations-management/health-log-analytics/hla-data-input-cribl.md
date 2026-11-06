@@ -1,21 +1,21 @@
 ---
-title: Configure a Cribl data input in Health Log Analytics manually
-description: Set up a dedicated Cribl data input to enable Health Log Analytics to process Cribl log messages streaming into your ServiceNow instance.
+title: Configure a Cribl data input in Health Log Analytics
+description: Configure a dedicated Cribl data input to enable Health Log Analytics to process Cribl log messages streaming into your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-data-input-cribl.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-keywords: [Cribl, data input, configuration, ServiceNow, Health Log Analytics, HLA]
+keywords: [Cribl, data input, manual, configuration, ServiceNow, Health Log Analytics, HLA]
 breadcrumb: [Manual data input configuration, Set up data inputs manually, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Configure a Cribl data input in Health Log Analytics manually
+# Configure a Cribl data input in Health Log Analytics
 
-Set up a dedicated Cribl data input to enable Health Log Analytics to process Cribl log messages streaming into your ServiceNow instance.
+Configure a dedicated Cribl data input to enable Health Log Analytics to process Cribl log messages streaming into your ServiceNow instance.
 
 ## Before you begin
 
@@ -25,13 +25,13 @@ Set up a dedicated Cribl data input to enable Health Log Analytics to process Cr
 
     **Important:** Health Log Analytics does not support IPv6. To work with the application, configure the MID Server to IPv4.
 
--   Unless the MID Server and external clients are on the same network, the MID Server must have a public IP address. This is required when its IP is exposed through network address translation \(NAT\), a load balancer, or a similar device. The public IP address enables external clients, such as Filebeat agents located outside its network, to reach the MID Server. Private IP addresses are not routable over the internet. Without a public IP, external clients cannot connect to the MID Server even if they are configured with its address. In the MID Server properties, add a property named **mid.public\_ip** with the public IP address as the value. For more information, see [Create a MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/r_MIDServerProperties.md). If the MID Server and external clients are on the same network, connections can be made using the private IP address.
+-   Unless the MID Server and external clients are on the same network, verify that the MID Server has a public IP address. This is required when its IP is exposed through network address translation \(NAT\), a load balancer, or a similar device. The public IP address enables external clients, such as Filebeat agents located outside its network, to reach the MID Server. Private IP addresses aren't routable over the internet. Without a public IP, external clients can't connect to the MID Server even if they are configured with its address. In the MID Server properties, add a property named **mid.public\_ip** with the public IP address as the value. For more information, see [Create a MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/r_MIDServerProperties.md). If the MID Server and external clients are on the same network, connections can be made using the private IP address.
 
 Role required: evt\_mgmt\_admin
 
 ## About this task
 
-If your organization uses Cribl for filtering and routing large volumes of log data from various sources, the log format Health Log Analytics receives is distinct from other types. The Cribl data input enables HLA to detect and separate transport headers from inner log messages. Only the inner message is forwarded to the source type structure for processing.
+If your organization uses Cribl for filtering and routing large volumes of log data from various sources, the log format Health Log Analytics receives is distinct from other types. The Cribl data input enables HLA to detect and separate transport headers from inner log messages in this format. It forwards only the inner message to the source type structure for processing.
 
 ## Procedure
 
@@ -47,11 +47,7 @@ If your organization uses Cribl for filtering and routing large volumes of log d
 
 5.  On the **Config** tab, fill in the form fields and then select **Next**.
 
-    For a description of the fields, see [Cribl data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-cribl-ref.md).
-
 6.  On the **Process** tab, select the required route and then select **Next**.
-
-    For more information, see [Cribl data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-cribl-ref.md).
 
     **Note:** For troubleshooting issues related to this step, see the [Cribl - Setting up Cribl data input \| Troubleshooting setup &amp; data ingestion issues \[KB0558611\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1787528) article in the Now Support Knowledge Base.
 
@@ -61,7 +57,7 @@ If your organization uses Cribl for filtering and routing large volumes of log d
 
     You can use the Cribl commands displayed on the **Finish** tab as needed.
 
-8.  When the configuration is correct, return to the data input configuration **Finish** tab and select **Publish** to publish the data input.
+8.  If the configuration is correct, return to the data input configuration **Finish** tab and select **Publish** to publish the data input.
 
 
 ## Result
@@ -74,7 +70,7 @@ For resolving issues related to the ingestion of log data from Cribl, see the [C
 
 ## What to do next
 
-[Make sure that the data input is streaming data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-streaming.md)
+[Verify that the data input is streaming data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-streaming.md)
 
 **Parent Topic:**[Configuring data inputs for Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-inputs-configuring.md)
 

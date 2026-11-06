@@ -9,17 +9,17 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2026-08-06"
 reading_time_minutes: 1
-keywords: [esc, servicenow esc, ServiceNow Otto, AI Agents, Agentic AI]
-breadcrumb: [Unified Employee Experience, Employee Service Management]
+keywords: [esc, servicenow esc, Now Assist, AI Agents, Agentic AI]
+breadcrumb: [EmployeeWorks, Employee Service Management]
 ---
 
 # ServiceNow Otto for Employee Center Pro
 
 ServiceNow Otto for Employee Center Pro expands across AI-powered capabilities, enterprise search, and omnichannel delivery to meet productivity needs.
 
-ServiceNow Otto for Employee Center Pro offers the portal experience with all the employee communications and engagement tools. ServiceNow Otto employee experience with seamless conversational interactions, and AI search, which provides a consumer-grade search engine for Service Portal, Now Mobile, and Virtual Agent.
+ServiceNow Otto for Employee Center Pro offers the portal experience with all the employee communications and engagement tools. The employee experience is enhanced with seamless conversational interactions, and AI search, which provides a consumer-grade search engine for Service Portal, Now Mobile, and Virtual Agent.
 
-**Note:** ServiceNow Otto for Employee Center Pro only provides employee or requester conversations and might require other ServiceNow Otto products to deliver AI agents or other related features.
+**Note:** ServiceNow Otto for Employee Center Pro only provides employee or requester conversations and might require other Now Assist products to deliver AI agents or other related features.
 
 ## Get started
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-product-adopt.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer success, Explore, Customer Success Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Customer success, Explore, Customer Success Management]
 
 Product adoption and capability usage measure how effectively customers are adopting or engaging with a product.
 
-It provides insights into how a product is used and integrated into customer workflows. Product adoption and capability scores are calculated based on product usage metrics. These metrics include licenses used, tasks completed, and number of active users. Higher product adoption is associated with greater customer satisfaction, retention, and potential for expansion.
+It provides insights into how a product is used and integrated into customer workflows.​ Product adoption and capability scores are calculated based on product usage metrics. These metrics include licenses used, tasks completed, and number of active users. Higher product adoption is associated with greater customer satisfaction, retention, and potential for expansion.
 
 You can use this feature to:
 
@@ -23,7 +23,7 @@ You can use this feature to:
 -   Predict churn risk by pinpointing users with low engagement or low adoption levels.
 -   Demonstrate value realization by ensuring that users can achieve their desired outcomes.
 
-You can calculate product adoption and capability scores for any sold product associated with an engagement. Before calculating the scores, you must create product capability records and associate them with one or more capability usage records. You can associate a primary capability directly with a specific product. You can also associate multiple secondary capabilities that belong to a single primary capability. See [Create a product capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-prod-cap.md) for details.
+You can calculate product adoption and capability scores for any sold product associated with an engagement. Before calculating the scores, you must create product capability records and associate them with one or more capability usage records. You can associate a primary capability directly with a specific product. You can also associate multiple secondary capabilities that belong to a single primary capability. See [Create a product capability record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-prod-cap.md) for details.
 
 For example:
 

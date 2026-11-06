@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/intro\_to\_runtime\_api\_calls.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [API overview and resources, ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [API overview and resources, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Intro to runtime API calls
@@ -272,5 +272,5 @@ raw: '{{logik}}' host:
 
 For more information about ServiceNow CPQ APIs, see the following eight-slide presentation:
 
-[Logik.io APIs](https://docs.google.com/presentation/d/1dN5rfpk4jjS__GkBcarieNUEfyVY6bAvrhxkkm9DagI/edit?slide=id.g18313200e09_0_207#slide=id.g18313200e09_0_207).
+[APIs](https://docs.google.com/presentation/d/1dN5rfpk4jjS__GkBcarieNUEfyVY6bAvrhxkkm9DagI/edit?slide=id.g18313200e09_0_207#slide=id.g18313200e09_0_207).
 

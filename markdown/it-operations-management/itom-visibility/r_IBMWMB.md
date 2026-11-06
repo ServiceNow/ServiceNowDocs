@@ -7,7 +7,7 @@ release: zurich
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [WMB, IBM WMB, IBM WebSphere Message Broker, HTTP listener, IBM WebSphere Message Broker HTTP listener, IBM Integration Bus, IIB, IBM App Connect Enterprise, IBM ACE]
 breadcrumb: [Software discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/hidden-insights.html
 release: zurich
 topic_type: concept
-last_updated: "2025-09-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Questions and responses in an exploration, Use, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---

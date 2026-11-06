@@ -7,7 +7,7 @@ release: zurich
 product: Goal Framework
 classification: goal-framework
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
@@ -19,7 +19,7 @@ As an administrator, use this section to set up the Goal Framework and Goal Fram
 -   **[Install Goal Framework and Goal Framework for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/goal-framework/install-goal-framework.md)**  
 You can install the Goal Framework \(sn\_gf\) and Goal Framework for SPM \(sn\_gfa\) applications if you have the admin role.
 -   **[Migrate existing goals data to Goal Framework tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/goal-framework/migrate-existing-goals-data.md)**  
-With the admin role, you can migrate the existing goals data to the Goal Framework tables by running the scheduled job.
+If your organization uses the legacy goal and strategy tables \(Goal, Enterprise Strategy, Business Unit Strategy, and Strategic Objective\), you can migrate the existing data to the Goal Framework tables by running the scheduled job.
 -   **[Configure goal preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/goal-framework/configure-goal-preferences.md)**  
 Configure goal preferences to manage goals such as the calendar type used for goal setting, weighted average calculation for goal progress, and deletion of goals and targets.
 -   **[Configure a table for an assigned entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/goal-framework/configure-assigned-entity.md)**  
@@ -36,6 +36,14 @@ After upgrading to Goal Framework for SPM v2.3.0 or later, run the **Migrate Bre
 Defining a custom unit of measure helps the goal users to set the unit of measure for targets as per their choice. Unit of measures are two types, quantitative and qualitative.
 -   **[Configure automatic status calculation for targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/goal-framework/configure-automatic-status-calculation.md)**  
 Configure system-wide automatic status calculation settings to determine target and goal status automatically based on achievement percentages. Enable or disable automatic calculation and customize Green, Yellow, and Red threshold values to align with your organizational governance policies.
+-   **[Configure the tolerance for Maintain constant targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/goal-framework/configure-maintain-constant-tolerance.md)**  
+Set the tolerance percentage for Maintain constant targets to define the range of acceptable actual values and control how progress and status are calculated.
+-   **[Change the number prefix for goals and targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/goal-framework/change-number-prefix-goals-targets.md)**  
+Change the prefix of the Number field for goals and targets, for example, from GOAL and TRGT to OBJ and KR when your organization uses objectives and key results, and apply the new prefix to existing records.
+-   **[Setting a goal calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/goal-framework/set-a-goal-calendar.md)**  
+The goal calendar decides which periods your targets use for their check-in frequency and breakdowns. You can use the Gregorian calendar or a fiscal calendar.
+-   **[Managing stale targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/goal-framework/managing-stale-targets-gf.md)**  
+Understand which targets become stale after a goal calendar change, and how to recover them.
 
 **Parent Topic:**[Goal Framework and Goal Framework for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/goal-framework/goal-framework.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Response templates, Contextual side panel, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
+breadcrumb: [Response templates in Agent Workspace for HR Case Management, Agent Workspace for HR Case Management contextual side panel, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Using a Response template in an email
@@ -24,7 +24,7 @@ Role required: sn\_hr\_core.case\_writer
 
 1.  From the **Details** tab of an HR case, select the **More Actions** button then select **Compose Email**.
 
-2.  From the **New Email Draft** tab, select the Response Templates icon \(\[Omitted image "response-template-icon.png"\]\).
+2.  From the **New Email Draft** tab, select the Response Templates icon \(\[Omitted image "response-template-icon.png"\] Alt text: Response template icon\).
 
 3.  Open the response template, copy, and paste the text into the body of the email.
 

@@ -7,8 +7,8 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 keywords: [Patterns, Azure, Cloud, Discovery, Visibility, CMDB]
 breadcrumb: [Cloud discovery solutions comparison, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -111,7 +111,7 @@ If an entry is marked with two asterisks, the resource type is supported by Serv
 |compute.googleapis.com/ForwardingRule|Yes|Yes|cmdb\_ci\_lb\_service|
 |compute.googleapis.com/HttpHealthCheck|Yes|Yes|cmdb\_ci\_lb\_health\_service|
 |compute.googleapis.com/Image|Yes|No|cmdb\_ci\_os\_template|
-|compute.googleapis.com/Instance|Yes|N,A|cmdb\_ci\_lb\_pool\_member|
+|compute.googleapis.com/Instance|Yes|N/A|cmdb\_ci\_lb\_pool\_member|
 |compute.googleapis.com/Instance|N/A|Yes|cmdb\_ci\_server|
 |compute.googleapis.com/Instance|Yes|Yes|cmdb\_ci\_vm\_instance|
 |compute.googleapis.com/Instance/networkInterfaces|Yes|No|cmdb\_ci\_endpoint\_vnic|
@@ -206,6 +206,10 @@ If an entry is marked with two asterisks, the resource type is supported by Serv
 |storage.googleapis.com/Bucket|N/A|Yes|cmdb\_ci\_cloud\_object\_storage|
 |storage.googleapis.com/Bucket|Yes|N/A|cmdb\_ci\_cmp\_resource|
 |storage.k8s.io/storageclass|Yes\*|Yes\*\*|cmdb\_ci\_cmp\_resource|
+
+\* These resource types are supported in Patterns only by utilizing the **Google Asset inventory** pattern's inclusion list. For more information, see [Google Cloud Platform \(GCP\) resource inventory discovery with Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/gcp-resource-inventory-discovery.md).
+
+\*\* These resource types are supported in Service Graph Connecters only by utilizing the \[sn\_cmdb\_int\_util\_service\_graph\_resource\_inclusion\_whitelist\] table.
 
 **Parent Topic:**[Cloud discovery solutions comparison](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cloud-discovery-methods-comparison.md)
 

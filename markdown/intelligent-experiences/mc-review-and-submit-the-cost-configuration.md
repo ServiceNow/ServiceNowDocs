@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/mc-review-and-submit-the-cost-configuration.html
 release: zurich
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
-breadcrumb: [Cost, Configure, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
+breadcrumb: [Cost, Configure, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Review and submit the cost configuration

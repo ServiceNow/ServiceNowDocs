@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/schedule-optimization-components.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Field Service Management]
 ---
@@ -97,18 +97,46 @@ Territory Scheduling Attributes snc\_schedule\_optim\_territory\_m2m\_sched\_att
 
 Links a territory to a scheduling attribute configuration.**Note:** This table is installed only if the FSM Territory plugin is active
 
+</td></tr><tr><td>
+
+Optimization Job Distribution snc\_schedule\_optim\_job\_distribution
+
+</td><td>
+
+Stores the distribution of Schedule Optimization jobs when qualifiers are split across multiple parallel jobs. Records are created based on qualifiers linked to batches and are automatically updated or inserted when batch qualifiers or scopes change.
+
 </td></tr></tbody>
 </table>## Roles
 
 Field Service Schedule Optimization adds the following roles.
 
-|Role|Description|
-|----|-----------|
-|schedule\_optimization\_user|User role for accessing the Schedule Optimization application. This role allows users to trigger on-demand schedule optimization executions.|
-|schedule\_optimization\_planner|Planner role for the Schedule Optimization application. This role allows administrators to perform administration configurations for the Schedule Optimization application and perform schedule planning activities.|
+<table id="table_zpq_bgk_21c"><thead><tr><th>
 
--   **[Tables installed with FSM for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/tables-installed-with-fsm-for-schedule-optimization.md)**  
-The following tables are installed with the Field Service Management plugin, but are only used bySchedule Optimization.
+Role
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+schedule\_optimization\_user
+
+</td><td>
+
+User role for accessing the Schedule Optimization application. This role allows users to trigger on-demand schedule optimization executions.
+
+</td></tr><tr><td>
+
+schedule\_optimization\_planner
+
+</td><td>
+
+Planner role for the Schedule Optimization application. This role allows administrators to perform administration configurations for the Schedule Optimization application and perform schedule planning activities.Contains assignment\_rule\_admin role.
+
+</td></tr></tbody>
+</table>-   **[Tables installed with FSM for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/tables-installed-with-fsm-for-schedule-optimization.md)**  
+The following tables are installed with the Field Service Management plugin, but are only used by Schedule Optimization.
 -   **[Objectives and constraints used with Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/hard-soft-constraints.md)**  
 Objectives and constraints are optimization features that determine how tasks are assigned to agents in Schedule Optimization.
 -   **[Schedule Optimization properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/schedule-optimization-properties.md)**  
@@ -117,4 +145,11 @@ You can set parameters that control how optimization runs.
 Describes the access requirements for the shared integration user account used by Schedule Optimization.
 
 **Parent Topic:**[Field Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/fsm-reference.md)
+
+**Related topics**  
+
+
+[Configuring Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/schedule-optimization-engine.md)
+
+[Activate Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/schedule-optimization-engine-plugin.md)
 

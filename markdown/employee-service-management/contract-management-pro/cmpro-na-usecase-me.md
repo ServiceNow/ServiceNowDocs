@@ -9,8 +9,8 @@ classification: contract-management-pro
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-keywords: [Use cases for contract metadata extraction, Now Assist use cases, Contract metadata extraction, Now Assist in contract management pro, AI for contract management pro]
-breadcrumb: [Configure metadata extraction, Configure, Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+keywords: [Use cases for contract metadata extraction, Now Assist use cases, Contract metadata extraction, Now Assist in contract management pro, ServiceNow Otto for contract management pro, AI for contract management pro]
+breadcrumb: [Configure metadata extraction, Configure AI capabilities, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Create use cases for contract metadata extraction
@@ -34,6 +34,8 @@ The CM Pro - Contract Metadata Extraction use case is available with the base sy
 2.  Navigate to **Employee** &gt; **CM Pro**.
 
 3.  Select **Activate skill** on the skill you want to activate.
+
+    \[Omitted image "cmpro-NA-skills.png"\] Alt text: AI skills available for Contract Management Pro.
 
 4.  On the General details page, view the skill details and select **Save and continue**.
 
@@ -71,7 +73,7 @@ Language of the files
 
 </td><td>
 
-Language of the contract documents from which you want to extract the metadata.For more information on supported languages, see [Languages supported by Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/languages-supported-by-document-intelligence.md).
+Language of the contract documents from which you want to extract the metadata.For more information on supported languages, see .
 
 </td></tr><tr><td>
 
@@ -106,7 +108,9 @@ Displays the skill name for which you’re creating the use case.
 
     2.  Enter details for the new field.
 
-        For more information on the field form, see [Field form for use case setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/document-extraction-single-field-form.md).
+        For more information on the field form, see .
+
+        \[Omitted image "cmpro-na-fields-me.png"\] Alt text: Field information for contract metadata extraction.
 
     3.  Select **Save**.
 
@@ -163,5 +167,5 @@ In contract metadata extraction, use cases specify the information that you want
 
 [Contract metadata extraction use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/metadata-extraction-use-case.md)
 
-[Select large language models for use cases in Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-na-manage-llm.md)
+[Select large language models for use cases in ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-na-manage-llm.md)
 

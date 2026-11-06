@@ -7,9 +7,9 @@ release: zurich
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Zing displays search suggestions as users enter search terms, Zing text indexing and search engine, Search administration, Configure core features, Administer]
+breadcrumb: [Zing displays search suggestions as users enter search terms, Zing text indexing and search engine, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Set the maximum number of search suggestions Zing displays

@@ -7,9 +7,9 @@ release: zurich
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: reference
-last_updated: "2023-11-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Knowledge Graph roles, Reference for Knowledge Graph, Knowledge Graph, Enable AI experiences]
+breadcrumb: [Knowledge Graph roles, Reference for Knowledge Graph, Knowledge Graph, Managing data for AI, Enable AI Experiences]
 ---
 
 # Knowledge Graph Admin \[kg\_admin\]
@@ -20,7 +20,7 @@ This user can create and update Knowledge Graph schema using Knowledge Graph des
 
 List of roles contained within the role.
 
-Knowledge Graph Admin \[kg\_admin\].
+Knowledge Graph administrator \[kg\_admin\].
 
 ## Groups
 

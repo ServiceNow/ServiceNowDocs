@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/ra-csm-recommendations.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Recommended Actions, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -19,6 +19,7 @@ There are three types of recommendations that are provided to agents:
 -   **Guidance**: An action that an agent can take or information that they can share.
 -   **Decision tree**: A guided flow to troubleshoot an issue and provide a solution.
 -   **Field recommendation**: A recommended value to use for a field.
+-   **Playbooks**: A playbook to run for step-by-step resolution
 
 ## Creating a recommendation
 
@@ -79,6 +80,7 @@ Action type
 The type of recommendation:-   Guidance
 -   Decision tree
 -   Field recommendation
+-   Playbooks
 
 This field is automatically filled with the selection from the New Recommendation screen.
 
@@ -89,6 +91,19 @@ Action
 </td><td>
 
 The action to select for the recommendation. The available actions are determined by the selection in the **Action type** field.You can also create an action for the selected action type of guidance, decision tree, or field recommendation.
+
+</td></tr><tr><td>
+
+Launch mode
+
+</td><td>
+
+Defines how to open the playbook from Recommended Actions panel:
+
+ -   Launch and show in side panel: The playbook opens in the Suggested Actions tab of the Recommended Actions Contextual Side Panel.
+-   Launch only: The playbook opens in record view.
+
+ **Note:** This field appears when you select the `Playbooks` option in the Action Type field.
 
 </td></tr><tr><td>
 
@@ -144,4 +159,6 @@ Group created by a defined grouping strategy that displays relevant recommendati
 
 </td></tr></tbody>
 </table>**Note:** The **Action type**, **Action**, and **Recommendation hint** fields aren’t shown for the AI search resource generator. You can configure the **Action type** and **Action** fields, and mapping between AI search outputs and guidance actions inputs in the Search result mapping related list.
+
+\[Omitted image "ra-recommendation.png"\] Alt text: Recommendations form - Guidance action type
 

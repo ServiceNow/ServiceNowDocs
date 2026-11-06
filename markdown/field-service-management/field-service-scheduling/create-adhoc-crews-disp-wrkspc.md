@@ -1,20 +1,20 @@
 ---
-title: Create ad-hoc crews in Dispatcher Workspace
-description: Create ad-hoc crews for a task if no existing crews are available to work on the task or the task requires specific skills to complete the job.
+title: Create ad hoc crews in Dispatcher Workspace
+description: Create ad hoc crews for a task if no existing crews are available to work on the task or the task requires specific skills to complete the job.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/create-adhoc-crews-disp-wrkspc.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Crew operations, Using Dispatcher Workspace, Assigning WOTs from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Crew operations, Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
-# Create ad-hoc crews in Dispatcher Workspace
+# Create ad hoc crews in Dispatcher Workspace
 
-Create ad-hoc crews for a task if no existing crews are available to work on the task or the task requires specific skills to complete the job.
+Create ad hoc crews for a task if no existing crews are available to work on the task or the task requires specific skills to complete the job.
 
 ## Before you begin
 
@@ -35,13 +35,13 @@ The Create Crew option is available in the work order task form if the following
 
 1.  Navigate to **All** &gt; **Field Service** &gt; **Dispatching** &gt; **Dispatcher Workspace**.
 
-2.  Click **Dispatcher Workspace**.
+2.  Select **Dispatcher Workspace**.
 
 3.  Search for and open a work order task for which you want to create a crew.
 
     For more information, see [Search for tasks that need a crew on Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/search-crew-task.md).
 
-4.  Click **Create Crew**.
+4.  Select **Create Crew**.
 
 5.  On the form, fill the fields.
 
@@ -59,7 +59,7 @@ Name
 
 </td><td>
 
-Name of the crew. This field is auto-populated based on the work order task for which an ad-hoc crew is created. For example, WOT9001007 Crew.
+Name of the crew. This field is auto-populated based on the work order task for which an ad hoc crew is created. For example, WOT9001007 Crew.
 
 </td></tr><tr><td>
 
@@ -83,7 +83,7 @@ Size
 
 </td><td>
 
-Read-only field. The value of this field is reference from the crew membership table.
+Read-only field. The value of this field is is referenced from the crew membership table.
 
 </td></tr><tr><td>
 
@@ -91,7 +91,7 @@ Initiated From
 
 </td><td>
 
-The work order task number for which you are creating a crew. This field is auto-populated with the work order task number for which an ad-hoc crew is created. For example, WOT9001007.
+The work order task number for which you’re creating a crew. This field is auto-populated with the work order task number for which an ad hoc crew is created. For example, WOT9001007.
 
 </td></tr><tr><td>
 
@@ -99,7 +99,7 @@ Schedule
 
 </td><td>
 
-Read-only field. Working hours of the crew. The value of this field is reference from the Schedule travel start and Estimated end fields in the work order task.
+Read-only field. Working hours of the crew. The value of this field is is referenced from the Schedule travel start and Estimated end fields in the work order task.
 
 </td></tr><tr><td>
 
@@ -134,10 +134,10 @@ Active
 Option to indicate whether the crew is available for selection when assigning a work order task.
 
 </td></tr></tbody>
-</table>6.  Click **Save**.
+</table>6.  Select **Save**.
 
 
 ## Result
 
-An ad-hoc task-specific crew is created along with the related list records, such as Details, Groups, Skills, and Task Assignees.
+An ad hoc task-specific crew is created along with the related list records, such as Details, Groups, Skills, and Task Assignees.
 

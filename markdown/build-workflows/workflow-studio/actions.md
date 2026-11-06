@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Use, Workflow Studio, Build workflows]
+breadcrumb: [Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Building actions
@@ -86,8 +86,10 @@ Create a skill for the conversational action and make the skill available for us
 Configure conversation settings to make an action available to conversational interfaces.
 -   **[Configure LLM to generate descriptions for conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/configure-default-llm-for-conversational-actions.md)**  
 Choose which LLM you want to use by default to generate descriptions for inputs, outputs, and skills for conversational actions.
+-   **[Test conversational action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/test-conversational-action.md)**  
+Test a conversational action to verify it responds correctly to user inputs and performs the expected operations before deploying it in production.
 -   **[Complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/complex-data.md)**  
 Use a graphical interface to work with collections of complex structured data. Help design users understand the organization of structured data, and add, remove, or configure its individual elements.
 
-**Parent Topic:**[Using Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/building-workflow-studio-components.md)
+**Parent Topic:**[Workflow Studio flows, subflows, and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/workflow-studio-flows-subflows-and-actions-landing.md)
 

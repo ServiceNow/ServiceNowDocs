@@ -7,9 +7,9 @@ release: zurich
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use, Insurance claims, Claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Insurance claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Initiate an Insurance claims case
@@ -46,15 +46,15 @@ This procedure references service definitions and products that are used in the 
 
 10. In the Add claim participant form, enter the details of the participant, and then select **Save**.
 
-<table id="choicetable_x5k_v1y_tcc"><thead><tr><th align="left" id="d38971e177">
+<table id="choicetable_x5k_v1y_tcc"><thead><tr><th align="left" id="d39934e177">
 
 Reporter status
 
-</th><th align="left" id="d38971e180">
+</th><th align="left" id="d39934e180">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d38971e186">
+</th></tr></thead><tbody><tr><td id="d39934e186">
 
 **Is a policy participant**
 
@@ -66,7 +66,7 @@ Steps
 -   Enter how the participant is related to the insured in the **Relationship to insured** field.
 
 
-</td></tr><tr><td id="d38971e225">
+</td></tr><tr><td id="d39934e225">
 
 **Is not a policy participant**
 

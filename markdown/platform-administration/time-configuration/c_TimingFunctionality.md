@@ -7,9 +7,9 @@ release: zurich
 product: Time Configuration
 classification: time-configuration
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Timeline pages, Viewing record information over time, Reference, Time configuration, Configure core features, Administer]
+breadcrumb: [Timeline pages, Viewing record information over time, Reference, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Timing functionality
@@ -57,9 +57,9 @@ The Task `[task]` table provides a time-tracking field called **Time worked**. T
 
 Any table that extends Task can use this field. To add the field, [Personalize a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/t_PersonalizeAForm.md).
 
-As the record is viewed, the timer counts upward. To pause the timer, select the **Stop icon** \(\[Omitted image "TimerStop.png"\] Alt text: Stop icon\).
+As the record is viewed, the timer counts upward. To pause the timer, click the stop icon \(\[Omitted image "TimerStop.png"\] Alt text: Stop icon\)
 
-To resume the timer, select the **Start icon** \(\[Omitted image "TimerStart.png"\] Alt text: Start icon\).
+To resume the timer, click the start icon \(\[Omitted image "TimerStart.png"\] Alt text: Start icon\).
 
 When the task is saved, the amount of new time in the timer is used to generate a record on the Time Worked \[`task_time_worked`\] table. This table can be viewed as a related list on the task form.
 

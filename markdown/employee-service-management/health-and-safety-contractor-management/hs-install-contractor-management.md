@@ -7,7 +7,7 @@ release: zurich
 product: Health and Safety Contractor Management
 classification: health-and-safety-contractor-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Health and Safety Contractor Management, Health and Safety, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ You can install the Health and Safety Contractor Management application \(sn\_hs
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [Health and Safety Contractor Management](https://store.servicenow.com/sn_appstore_store.do#!/store/application/b2c1c5980b7b02102c01a9a4c677b242) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 Role required: admin

@@ -7,7 +7,7 @@ release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Platform Analytics Solutions for Advanced Work Assignment, Analytics &amp; Reporting Solutions, Reference, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -198,5 +198,4 @@ Single Score\[Omitted image "single-score.svg"\] Alt text: Single score report
 Average agent response time in the last 24 hours.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Platform Analytics Solutions for Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-content-pack.md)
-
+</table>

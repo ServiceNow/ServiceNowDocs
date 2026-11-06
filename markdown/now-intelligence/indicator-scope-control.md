@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/indicator-scope-control.html
 release: zurich
 topic_type: concept
-last_updated: "2026-07-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [Indicator Scope Control, Performance Analytics, AI search, ambient search, indicator boost, Query Generation, configure, Indicator Scope Control, Performance Analytics, boost, configuration]
 breadcrumb: [Configure, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]

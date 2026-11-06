@@ -7,9 +7,9 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up campaign, Acknowledge policy, Manage control objectives and policies, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Set up campaign, Acknowledge policy, Manage, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Create an audience
@@ -24,7 +24,7 @@ Role required: sn\_compliance\_admin or sn\_compliance\_manager
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Policy Acknowledgement** &gt; **Audience**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  Enter a name and description for the new audience, and save the record.
 
@@ -32,7 +32,7 @@ Role required: sn\_compliance\_admin or sn\_compliance\_manager
 
 5.  Use the three tabs to identify members for this audience.
 
-<table id="choicetable_iyr_syf_mjb"><tbody><tr><td id="d169225e101">
+<table id="choicetable_iyr_syf_mjb"><tbody><tr><td id="d100480e101">
 
 **Users**
 
@@ -40,7 +40,7 @@ Role required: sn\_compliance\_admin or sn\_compliance\_manager
 
 Click **Edit** and add one or more individual users to the audience.
 
-</td></tr><tr><td id="d169225e113">
+</td></tr><tr><td id="d100480e113">
 
 **Groups**
 
@@ -48,7 +48,7 @@ Click **Edit** and add one or more individual users to the audience.
 
 Click **Edit** and add one or more predefined groups of users to the audience.
 
-</td></tr><tr><td id="d169225e125">
+</td></tr><tr><td id="d100480e125">
 
 **User Filters**
 

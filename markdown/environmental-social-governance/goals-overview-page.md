@@ -1,20 +1,20 @@
 ---
-title: Goals overview in the Operational Sustainability Workspace
+title: Goals overview in the Operational Sustainability Workspace \(formerly ESG Workspace\)
 description: Goals refer to objectives that an organization sets for itself to make an impact on their ESG initiatives. They help you to track your progress toward the material topics that you have identified.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/goals-overview-page.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Overview pages in the Operational Sustainability Workspace \(formerly ESG Workspace\), Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
-# Goals overview in the Operational Sustainability Workspace
+# Goals overview in the Operational Sustainability Workspace \(formerly ESG Workspace\)
 
 Goals refer to objectives that an organization sets for itself to make an impact on their ESG initiatives. They help you to track your progress toward the material topics that you have identified.
 
-When you create a goal, the overview page of the goal displays the summary of all the relevant information for the goal. To view the goals overview page for a goal, navigate to **ESG workspace** &gt; **Program setup** &gt; **Goals**. You can then select and open the goal for which you want to view the information.
+When you create a goal, the overview page of the goal displays the summary of all the relevant information for the goal. To view the goals overview page for a goal, navigate to **Operational Sustainability Workspace** &gt; **Program setup** &gt; **Goals**. You can then select and open the goal for which you want to view the information.
 
 The following sections are displayed on this page:
 

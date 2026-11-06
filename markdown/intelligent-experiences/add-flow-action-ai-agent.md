@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/add-flow-action-ai-agent.html
 release: zurich
 topic_type: task
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Add a flow action to an AI agent
@@ -48,7 +48,7 @@ Name that you want to specify for your selected flow action.
 
 </td></tr><tr><td>
 
-Tool description
+Description
 
 </td><td>
 

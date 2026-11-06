@@ -7,9 +7,9 @@ release: zurich
 product: Problem Management
 classification: problem-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Explore, Problem Management, IT Service Management]
+breadcrumb: [Exploring Problem Management, Problem Management, IT Service Management]
 ---
 
 # Problem Management models

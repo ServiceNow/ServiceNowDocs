@@ -7,9 +7,9 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Policy authoring and redlining, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Policy authoring and redlining in Compliance Workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Import policy text for redlining
@@ -28,7 +28,7 @@ You can import the content only when you’re the policy owner and the policy mu
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, select the List icon \(\[Omitted image "ws-list-icon.png"\]\).
+2.  In the Compliance Workspace, select the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: List\).
 
 3.  Navigate to **Compliance library** &gt; **My policies**.
 

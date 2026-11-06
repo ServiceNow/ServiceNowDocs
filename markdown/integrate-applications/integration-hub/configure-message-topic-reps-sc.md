@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Message replication, Using Stream Connect for Apache Kafka, Import and stream data, Integration Hub, Workflow Data Fabric]
 ---
@@ -34,7 +34,7 @@ Set up message and topic replications to replicate data between your Apache Kafk
 
     If you're using a MID Server cluster, it must have a cluster type of **Load Balance**. The **Failover** cluster type is not supported.
 
--   Stream Connect Message Replication uses a Connection &amp; Credential alias to connect to your local Kafka. [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connection-alias.md) with a **Connection type** of **Kafka**. A Connection &amp; Credential alias requires a [Kafka Connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/configure-kafka-connection.md) and a [Kafka SSL Credential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/create-kafka-ssl-credentials.md).
+-   Stream Connect Message Replication uses a Connection &amp; Credential alias to connect to your local Kafka. [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connection-alias.md) with a **Connection type** of **Kafka**. A Connection &amp; Credential alias requires a [Kafka Connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/configure-kafka-connection.md) and a [Kafka Credential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/create-kafka-ssl-credentials.md).
 -   Stream Connect Message Replication requires the ServiceNow Stream Connect Installer \[com.glide.hub.stream\_connect.installer\] plugin.
 
 ## About this task

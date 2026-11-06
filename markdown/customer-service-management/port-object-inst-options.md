@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/port-object-inst-options.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Configurable Portal widgets instance options, Configurable Portal Widgets reference, Reference, Customer Service Management]
 ---
 
@@ -43,6 +43,21 @@ The system identifier \(sys\_id\) of the record from the specified table.The def
 -   Displays details of the record identified by the sys\_id in the URL. If no sys\_id is found in the URL, displays details of the record identified by the sys\_id in the instance option.
 -   If the sys\_id is provided in both the portal web page URL and the **Record** field, the widget displays information based on the portal web page URL.
 -   The sys\_id of a record should be taken from the table specified in the **Table** field.
+
+</td></tr><tr><td>
+
+Dynamic portal object
+
+</td><td>
+
+Option to display record dynamically based on the configuration provided in the parameter of a portal page URL. **Note:**
+
+-   The configuration enables administrator to display record from a table in the Portal Object Widget by passing following URL parameters: table, sys\_id and view.
+-   The portal object title and displayed columns are derived from the view specified in the URL parameter. The first column in the view is used as the object title, and the remaining columns are displayed in the summary view.
+-   When the **Dynamic portal object** is selected, only the following three Instance options can be configured:
+    -   Actions
+    -   Enable Service Definitions
+    -   Enable Editing Record
 
 </td></tr></tbody>
 </table><table id="table_hpn_kb1_fzb"><thead><tr><th>

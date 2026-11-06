@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configure, CMDB Identification and Reconciliation \(IRE\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -30,7 +30,7 @@ There are two types of reconciliation rules:
 
 -   **Dynamic reconciliation rules**
 
-    Dynamic reconciliation rules are based on attribute values processed by [CMDB 360/Multisource CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md) rather than on discovery source priority. First, CMDB 360 processes the current payload data into the CMDB 360 data store. Then, applying a dynamic reconciliation rule, IRE selects the largest or most reported value, for example, across all discovery sources. Because dynamic reconciliation rules leverage CMDB 360, you must enable that feature to use dynamic reconciliation rules.
+    Dynamic reconciliation rules are based on attribute values processed by [CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md) rather than on discovery source priority. First, CMDB 360 processes the current payload data into the CMDB 360 data store. Then, applying a dynamic reconciliation rule, IRE selects the largest or most reported value, for example, across all discovery sources. Because dynamic reconciliation rules leverage CMDB 360, you must enable that feature to use dynamic reconciliation rules.
 
     Creating dynamic reconciliation rules can be useful, for example, if it becomes difficult to set priority order for multiple discovery sources. Only a single dynamic reconciliation rule can exist per class attribute.
 
@@ -93,13 +93,11 @@ As you create reconciliation rules, keep in mind the following principles which 
     Like example rule \#1 above, this new rule applies to the **name** attribute in the **cmdb\_ci\_computer** class so both Discovery and ServiceWatch can update the attribute. Any reconciliation rules are enforced to prevent the discovery sources from overwriting each other's updates.
 
 
-For more information about reconciliation rules, see the [\[CMDB - Data Precedence Rules\] Understanding the CMDB data precedence rules and troubleshooting \[KB0756709\]](https://support.servicenow.com/kb_view_customer.do?sysparm_article=KB0756709) knowledge base article.
+For more information about reconciliation rules, see the [CMDB - Data Precedence Rules Understanding the CMDB data precedence rules and troubleshooting \[KB0756709\]](https://support.servicenow.com/kb_view_customer.do?sysparm_article=KB0756709) knowledge base article.
 
 ## Domain separation
 
-If Domain Separation is enabled, then you can scope reconciliation rules to specific domains. Rules of the parent domain, if not overridden, apply to CIs of child domain. All rules that are visible to a domain are applied, and a rule overriding the parent domain displays thele child domain version.
-
-[Understanding the CMDB reconciliation rules and troubleshooting \[KB0756709\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0756709)
+If Domain Separation is enabled, then you can scope reconciliation rules to specific domains. Rules of the parent domain, if not overridden, apply to CIs of child domain. All rules that are visible to a domain are applied, and a rule overriding the parent domain displays the child domain version.
 
 -   **[Create a CI reconciliation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/create-reconciliation-rule.md)**  
 Create a static or a dynamic CI reconciliation rule.

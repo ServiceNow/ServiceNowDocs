@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/t\_IntegratingInboundEvents.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [References, Inbound email, Notifications, Configure core features, Administer]
+breadcrumb: [References, Inbound email, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Integrate inbound events
@@ -62,7 +62,7 @@ The following example steps assume you have your own demonstration instance.
 
 10. Verify that the import set table has an event matching your JSON request.
 
-    \[Omitted image "rest-import-set-table.png"\] Alt text: Import set table showing an event record that matches the JSON request data
+    \[Omitted image "RESTImportSetTable.png"\] Alt text: REST import set table
 
 
 **Parent Topic:**[References for Inbound email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/references-inbound-email.md)

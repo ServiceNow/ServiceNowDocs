@@ -7,7 +7,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2025-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Process flow, Explore, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
@@ -29,7 +29,7 @@ To optimize system performance, a table cleaner automatically removes old certif
 
 **Note:** You can toggle various behaviors related to Certificate Inventory and Management depending on your needs, using specific certificate properties as shown in [Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r_DiscoveryProperties.md) and [System properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/r_AvailableSystemProperties.md).
 
-The system scans for certificates that are expired or archived for more than six months. If a replacement certificate exists, the system removes outstanding tasks for these obsolete certificates.
+The system scans for certificates expired or archived for more than six months. If a replacement certificate exists, the system removes outstanding tasks for these obsolete certificates.
 
 The same six-month grace period applies for expired and archived certificates and certificate tasks in the **failed** state.
 

@@ -1,24 +1,26 @@
 ---
 title: Major issue management overview
-description: Major issue management enables customer communication for issues that impact a wider audience. Use this feature to proactively identify impacted customers, provide information to these customers, and manage the resolution process.
+description: Major issue management enables customer communication for issues that impact a wider audience. Use this application to proactively identify impacted customers, provide information to these customers, and manage the resolution process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/major-issue-management.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Administer, Customer Service Management]
+breadcrumb: [Manage cases, Use, Customer Service Management]
 ---
 
 # Major issue management overview
 
-Major issue management enables customer communication for issues that impact a wider audience. Use this feature to proactively identify impacted customers, provide information to these customers, and manage the resolution process.
+Major issue management enables customer communication for issues that impact a wider audience. Use this application to proactively identify impacted customers, provide information to these customers, and manage the resolution process.
 
-This feature enables you to efficiently manage the communication and resolution process for issues that impact multiple customers. With major issue management, you can identify impacted customers who have not yet reported an issue and proactively create cases for these customers.
+This application enables you to efficiently manage the communication and resolution process for issues that impact multiple customers. With major issue management, you can identify impacted customers who have not yet reported an issue and proactively create cases for these customers.
 
 Major issue management introduces the concept of a major case which contains the details about a particular issue. Child cases can easily be created for a major case, with one child case created for each customer affected by the issue. These child cases contain the customer-specific information.
 
-Identify affected customers by creating a recipients list of accounts or consumers and attaching it to the major case. Create this list using the Targeted Communications application. Build a recipients list by identifying dynamic conditions, running a script, or importing customer information into a template. Once attached to a major case, use the recipients list to create a child case for each customer included in the list.
+Identify affected customers by creating a recipients list of accounts, consumers, or business organizationsand attaching it to the major case. Create this list using the Targeted Communications application. Build a recipients list by identifying dynamic conditions, running a script, or importing customer information into a template. Once attached to a major case, use the recipients list to create a child case for each customer included in the list.
+
+Install the [Major issue management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/major-issue-management-application.md) application from the ServiceNow® Store.
 
 A major case is created in one of two ways:
 
@@ -28,6 +30,8 @@ A major case is created in one of two ways:
 Major case candidates are created either by promoting an existing customer service case \(for customer reported issues\) or by creating a candidate case directly \(for non-customer reported issues\). Candidate cases require approval before being promoted to major cases.
 
 Major issue management also provides properties that enable automatic synchronization from a major case to the associated child cases. Use these properties to enable synchronization and to identify the synchronized fields.
+
+Major issue management supports creating major cases that match the case type of the candidate case. When the `enable_case_type_for_major_case` property is set to true, the system uses the `sys_class_name` of the candidate case to determine the case type of the resulting major case and its child cases, rather than defaulting to the base Case table.
 
 Major Issue Management menu can be used in the ServiceNow AI Platform interface and in the Agent Workspace interface.
 

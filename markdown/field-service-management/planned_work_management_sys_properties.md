@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/planned\_work\_management\_sys\_properties.html
 release: zurich
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Planned Work Management components, Components installed with additional plugins, Reference, Field Service Management]
 ---
@@ -46,11 +46,7 @@ sn\_fsm\_planned\_wm.valid\_order\_states\_for\_update
 
 </td><td>
 
-Holds a list of state values.
-
- When a schedule is updated, the other schedule occurrences are validated. If any occurrence has a work order with the state not in the list of sate values that this property holds, the work order and the schedule occurrence is not cancelled.
-
- The schedule occurrence and its corresponding work order is deleted for any other scenarios.
+Maintains a list of work order states that can be selected to reflect the appropriate state of work orders.
 
  -   Type: choice list
 -   Default value: 1, 10, 15
@@ -61,7 +57,7 @@ sn\_fsm\_planned\_wm.tolerance\_span
 
 </td><td>
 
-Maintains the configurable time window for applying schedule suppression. It offers the options of going forward, backward, or in both directions for selecting the span in which the suppression will be active.-   Type: choice list
+Maintains the configurable time window for applying schedule suppression. It offers the options of going forward, backward, or in both directions from the current date for selecting the span in which the suppression will be active.-   Type: choice list
 -   Default value: Both
 
 </td></tr><tr><td>

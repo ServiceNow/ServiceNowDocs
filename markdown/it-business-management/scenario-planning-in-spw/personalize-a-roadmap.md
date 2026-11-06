@@ -7,7 +7,7 @@ release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Plan roadmaps, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -30,15 +30,15 @@ Any settings that you apply here are saved as preferences per roadmap. All users
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d309620e79">
+<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d332520e79">
 
 Roadmap type
 
-</th><th align="left" id="d309620e82">
+</th><th align="left" id="d332520e82">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d309620e88">
+</th></tr></thead><tbody><tr><td id="d332520e88">
 
 **Portfolio plan roadmap**
 
@@ -48,7 +48,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d309620e109">
+</td></tr><tr><td id="d332520e109">
 
 **Free-form roadmap**
 

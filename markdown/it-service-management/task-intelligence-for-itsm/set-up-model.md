@@ -7,7 +7,7 @@ release: zurich
 product: Task Intelligence for ITSM
 classification: task-intelligence-for-itsm
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Create an incident prediction model, Manage, Task Intelligence for ITSM, IT Service Management]
 ---
@@ -117,15 +117,15 @@ The model has flexible options. Based on the sensitivity and requirements of eac
 
 4.  Choose one of the following options from the **Prediction preference** drop-down list for each field.
 
-<table id="choicetable_lzr_gyr_zyb"><thead><tr><th align="left" id="d300202e417">
+<table id="choicetable_lzr_gyr_zyb"><thead><tr><th align="left" id="d121690e417">
 
 Options
 
-</th><th align="left" id="d300202e420">
+</th><th align="left" id="d121690e420">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d300202e426">
+</th></tr></thead><tbody><tr><td id="d121690e426">
 
 **Autofill**
 
@@ -133,7 +133,7 @@ Description
 
 Adds the best predicted value to the field on the Incident form.
 
-</td></tr><tr><td id="d300202e435">
+</td></tr><tr><td id="d121690e435">
 
 **Recommendations**
 
@@ -141,7 +141,7 @@ Adds the best predicted value to the field on the Incident form.
 
 Shows the top recommended values for a field. Agents can choose to accept or reject the recommendation. You can configure the number of recommended values using Advanced Recommended actions for ITSM. For more information, see [Recommended Actions for ITSM in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/recommended-actions-for-itsm-in-service-operations-workspace.md).
 
-</td></tr><tr><td id="d300202e460">
+</td></tr><tr><td id="d121690e460">
 
 **Turn off predictions**
 
@@ -149,7 +149,7 @@ Shows the top recommended values for a field. Agents can choose to accept or rej
 
 Stops the model from performing any predictions.
 
-</td></tr><tr><td id="d300202e469">
+</td></tr><tr><td id="d121690e469">
 
 **Monitor only**
 

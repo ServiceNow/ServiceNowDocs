@@ -7,7 +7,7 @@ release: zurich
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Edit a catalog item in Catalog Builder, Creating or editing catalog item template, Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---

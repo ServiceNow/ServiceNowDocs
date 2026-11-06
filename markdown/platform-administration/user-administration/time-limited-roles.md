@@ -7,9 +7,9 @@ release: zurich
 product: User Administration
 classification: user-administration
 topic_type: task
-last_updated: "2026-03-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Time-limited role, Managing roles, User admin, Configure core features, Administer]
+breadcrumb: [Time-limited role, Managing roles, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Grant a time-limited user role
@@ -18,7 +18,7 @@ Learn how to assign a role to a user temporarily. Use this feature if you have a
 
 ## Before you begin
 
-Role required: admin
+Role required: user\_admin
 
 **Note:**
 

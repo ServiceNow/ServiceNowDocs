@@ -7,9 +7,9 @@ release: zurich
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Building a data model, App creation tutorial, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Building a data model, App creation tutorial, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Share data between tables
@@ -18,7 +18,7 @@ Share data between tables to avoid data duplication.
 
 ## Before you begin
 
-Role required: sn\_app\_eng\_studio.admin, sn\_app\_eng\_studio.user, or delegated\_developer
+Role required: admin, sn\_app\_eng\_studio.user, or delegated developer
 
 Select the following link to download the material needed for this step in the app creation tutorial.
 
@@ -93,11 +93,11 @@ Download the airport spreadsheet and follow along with the tutorial to create re
 
     1.  Select the airport table from your application dashboard in App Engine Studio.
 
-    2.  On the table landing page, select the More actions icon \(\[Omitted image "three-dot-icon.png"\] Alt text: More actions icon\) next to **Data** in the top ribbon, then select **Fields**.
+    2.  On the table landing page, select the More actions icon \(\[Omitted image "three-dot-icon.png"\] Alt text:\) next to **Data** in the top ribbon, then select **Fields**.
 
         \[Omitted image "app-tutorial-connect-tables-data-fields.png"\] Alt text: Choose theFields data view to add and configure fields in your table.
 
-    3.  On the **Fields** page, in the **Name** field, toggle on the **Display** switch \(\[Omitted image "toggle-on.png"\] Alt text: Toggle on.\) to enable other tables to reference airport names.
+    3.  On the **Fields** page, in the **Name** field, toggle on the **Display** switch \(\[Omitted image "toggle-on.png"\] Alt text:\) to enable other tables to reference airport names.
 
         **Important:** You can select only one field to be referenced by other tables. If you attempt to select multiple fields, Table Builder keeps only one of your selections when you save your changes.
 
@@ -107,7 +107,7 @@ Download the airport spreadsheet and follow along with the tutorial to create re
 
 4.  Select the employee travel request table, where you’ll create the reference fields that pull data from the airport table.
 
-5.  On the table landing page, select the More actions icon \(\[Omitted image "three-dot-icon.png"\] Alt text: More actions icon\) next to **Data**, then select **Fields**.
+5.  On the table landing page, select the More actions icon \(\[Omitted image "three-dot-icon.png"\] Alt text:\) next to **Data**, then select **Fields**.
 
 6.  Create the reference fields.
 

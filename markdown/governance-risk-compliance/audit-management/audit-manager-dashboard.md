@@ -7,9 +7,9 @@ release: zurich
 product: Audit Management
 classification: audit-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Analytics and Reporting, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Analytics and reporting solutions, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Audit Manager Performance Analytics dashboard

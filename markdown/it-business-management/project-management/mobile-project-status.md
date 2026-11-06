@@ -7,14 +7,18 @@ release: zurich
 product: Project Management
 classification: project-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Manage status of your projects using Project Status application
 
 The Project Status mobile app enables you to track the status of your projects, collaborate with stakeholders to resolve exceptions, and take timely actions regardless of your location.
+
+**Important:**
+
+Starting with the Australia release, the Project Status mobile application is being prepared for future deprecation. It will be hidden and no longer available for installation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. Use Project Workspace to generate status reports while tracking project health, metrics, risks, issues, and milestones.
 
 You can use the Project Status features to do the following:
 

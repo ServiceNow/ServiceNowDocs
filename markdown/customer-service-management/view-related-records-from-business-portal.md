@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/view-related-records-from-business-portal.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Business Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Business Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # View cases and case tasks from the Business Portal
@@ -36,4 +36,11 @@ If a case has one or more related records, a Related Records widget is displayed
 
 5.  Select the **X** in the upper corner to close the details window.
 
+
+**Related topics**  
+
+
+[View or modify a case from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_ViewOrModCaseFrom-businessportal.md)
+
+[Approve, change, or registration request from Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/approve-request-from-business-portal.md)
 

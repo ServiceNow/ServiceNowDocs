@@ -5,11 +5,11 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/vibe-coding-tool-comparison.html
 release: zurich
 topic_type: concept
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [agentic development, tool comparison, development tools, artificial intelligence, application development, workflow comparison, development workflow, AI agents, code generation]
 audience: developer
-breadcrumb: [Explore, Agentic development, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
+breadcrumb: [Explore, Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Tool comparison for agentic development
@@ -80,7 +80,7 @@ ServiceNow Otto for Creator
 
 </td><td>
 
-Service Catalog item creation with variables and workflows, app generation, flow generation, playbook generation, UI generation, and many more AI-assisted development skills
+Service Catalog item creation with variables and workflows, app generation, flow generation, playbook generation, UI generation, and many more agentic development skills
 
 </td><td>
 
@@ -92,7 +92,7 @@ Medium
 
 </td><td>
 
-Catalog items, record producers, order guidesFor a list of included generative, development, and summarization skills, see [AI-assisted app creation with ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/vibe-code-now-assist-creator.md).
+Catalog items, record producers, order guidesFor a list of included generative, development, and summarization skills, see [Agentic app creation with ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/vibe-code-now-assist-creator.md).
 
 </td><td>
 
@@ -235,7 +235,7 @@ The following table shows how to access ServiceNow agentic development tools.
 |----|-------------|
 |Build Agent|Chat panel in ServiceNow Studio or ServiceNow IDE|
 |ServiceNow Otto for Creator|Embedded in Service Catalog and Workflow Studio|
-|ServiceNow SDK|Local VS Code or ServiceNow IDE with ServiceNow Fluent SDK|
+|ServiceNow SDK|Local VS Code or the ServiceNow IDE with ServiceNow Fluent SDK|
 
 ## Performance and scalability considerations
 
@@ -248,4 +248,6 @@ The following table shows performance and scaling considerations for ServiceNow 
 |ServiceNow IDE|Complex business rules, script includes, advanced customization|Developer expertise required|
 |ServiceNow Otto for Creator|Service Catalog items \(one at a time\)|Creates single Service Catalog items, not full applications|
 |ServiceNow SDK|Local development with TypeScript|Limited platform metadata manipulation compared to ServiceNow Studio|
+
+**Parent Topic:**[Exploring agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/exploring-vibe-coding.md)
 

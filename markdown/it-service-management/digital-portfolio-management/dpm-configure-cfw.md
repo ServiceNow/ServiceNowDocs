@@ -7,7 +7,7 @@ release: zurich
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: concept
-last_updated: "2026-04-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Digital Portfolio Management, IT Service Management]
 ---

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Manage, Business Continuity Management, Governance, Risk, and Compl
 
 Perform the structured workflows that are outlined in this section to create a business continuity plan in Business Continuity Workspace \(also known as BCM Configurable Workspace\).
 
-Business continuity plan owner creates a business continuity plan as per the plan template, adds an asset and scope to the plan, creates documentation sections, adds the related plan and recovery team, adds a loss scenario with recovery strategy and recovery task, and generates and saves the PDF of the analysis for reference.
+Business continuity plan owner creates a business continuity plan as per the plan template. The owner adds an asset and scope to the plan, creates documentation sections, and adds the related plan and recovery team. The owner also adds a loss scenario with recovery strategy and recovery task, then generates and saves the PDF of the analysis for reference.
 
 -   For information on creating a business continuity plan, see [Create a business continuity plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-bcp-plan-in-uib-ws.md). For information on adding an asset and scope to the plan, see [Add asset and scope to the BCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/add-asset-plan-scope-for-bcp-uib-ws.md).
 -   For information on creating a documentation section, see [Create documentation sections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-documentation-section-bcp.md). For information on adding the related plan and recovery team, see [Add associated plans and recovery teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/add-related-plans-recovery-teams-bcp-uib-ws.md).
@@ -23,7 +23,7 @@ Business continuity plan owner creates a business continuity plan as per the pla
 
 ## Hierarchical plan structure enhancement
 
-Starting with BCM, version 9.x.x, the hierarchical structure of parent-child plans verifies logical organization and execution of recovery tasks. With this enhancement, when an event is triggered, only relevant child plans are brought into the scope, allowing plan execution and dependencies to cascade downward in a controlled manner.
+Starting with BCM, version 9.x.x, the hierarchical structure of parent-child plans verifies logical organization and execution of recovery tasks. With this enhancement, when an event is triggered, only relevant child plans are brought into the scope. Plan execution and dependencies cascade downward in a controlled manner.
 
 Parent plans are excluded to prevent the inclusion of unrelated scenarios that may require subsequent cancellation. This approach confirms that only relevant plans are considered, maintaining a focused and efficient recovery process.
 
@@ -41,7 +41,7 @@ By introducing this hierarchical structure, the system provides an organized and
 
 Beginning with the Xanadu release, the handling of nested related plans has improved. This enhancement helps in managing potential cyclic dependencies by detecting and highlighting any problems that could cause cyclic dependencies during the execution of tasks.
 
-Additionally, the refined recovery timelines enable you to monitor the planned and actual timeframes. A task may be applied to all assets within a plan or to none at all, facilitating an accurate aggregation of recovery timeframes across various levels, including assets, tasks, and plans.
+Additionally, the refined recovery timelines enable you to monitor the planned and actual timeframes. A task may be applied to all assets within a plan or to none at all. This facilitates an accurate aggregation of recovery timeframes across various levels, including assets, tasks, and plans.
 
 ## Additional information on Business Continuity Planning
 
@@ -54,7 +54,7 @@ When you create a business continuity plan \(BCP\), certain UI actions are assoc
 -   **[Recovery strategy and task templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/recovery-strategy-and-task-templates-overview.md)**  
 Business continuity planners often rebuild the same recovery structures each time they author a plan. Reusable templates remove that repetition by capturing standard strategies, tasks, and task groupings once and applying them wherever they are needed.
 -   **[Create a business continuity plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-bcp-plan-in-uib-ws.md)**  
-Create a business continuity plan in BCM UIB Workspace.
+Create a business continuity plan in ServiceNow Business Continuity Management.
 -   **[Create a business continuity plan from a plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-bcp-plan-from-template-in-uib-ws.md)**  
 Create a business continuity plan from a plan template in BCM UIB Workspace so that the loss scenarios, recovery strategies, and recovery tasks defined on the template are generated automatically.
 -   **[Scheduling auto-update of related assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/import-cmdb-updates-in-plans.md)**  

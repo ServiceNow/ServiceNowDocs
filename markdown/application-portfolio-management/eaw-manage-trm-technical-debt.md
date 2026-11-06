@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2026-09-04"
 reading_time_minutes: 2
-breadcrumb: [Technology Reference Model in Enterprise Architecture Workspace, Exploring Technology Portfolio view, Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Technology Reference Model in Enterprise Architecture Workspace, Exploring Technology Portfolio view, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # TRM technical debt

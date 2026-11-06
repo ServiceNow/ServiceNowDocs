@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/set-csm-account-code-property.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Import accounts and contacts with guided setup, Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -16,7 +16,7 @@ After importing customer account information, update the **com.snc.cs\_base.last
 
 ## Before you begin
 
-Role required: admin
+Role required: import\_admin and sn\_crm\_foundation\_admin
 
 ## About this task
 
@@ -32,7 +32,7 @@ Use the following steps to fix this error.
 
 ## Procedure
 
-1.  Determine the account code for the last created account.
+1.  Determine the highest or last used account code value from the account \(customer\_account\) table.
 
 2.  Navigate to the System Property \[sys\_properties\] table.
 

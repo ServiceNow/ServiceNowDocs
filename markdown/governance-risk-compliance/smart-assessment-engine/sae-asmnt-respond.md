@@ -7,7 +7,7 @@ release: zurich
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Respond to assessments, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -33,17 +33,29 @@ When you’re assigned a task to respond to an assessment, you submit your respo
     Here’s an example of how to navigate to this list in the Compliance Workspace.
 
     1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
-    2.  Select the tasks icon \[Omitted image "task-icon.png"\] Alt text:.
-    3.  Select the Control attestations on the left panel.
-    4.  In the My pending tasks related list, the assessments are displayed.
-3.  Review any instructions or reference information.
+    2.  Select the tasks icon \[Omitted image "list-icon.png"\] Alt text:.
+    3.  Select the **Control attestations** &gt; **Smart Assessments** on the left panel.
+    4.  The smart assessments list is displayed.
+3.  Select the assessment you want to respond to.
+
+4.  Review any instructions or reference information.
 
     You may see additional question guidance text for your review as you complete the questions.
 
-4.  Answer all relevant questions in the questionnaire.
+5.  Answer all relevant questions in the questionnaire.
 
     Your responses are automatically saved.
 
-5.  Select **Submit**.
+6.  Select **Submit**.
+
+7.  Alternatively, you can complete smart assessment responses from the Employee Center.
+
+    To respond to an assessment from the portal:
+
+    1.  In the Employee Center, open **My Assessments**.
+
+    2.  Open the assigned assessment and answer the questions.
+
+    3.  Select **Submit**.
 
 

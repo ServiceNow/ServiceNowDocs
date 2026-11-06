@@ -7,7 +7,7 @@ release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Walk-up Experience appointment booking, Configure Walk-up Experience for Customer Service Management, Set up self-service, Configure, Customer Service Management]
 ---
@@ -18,7 +18,7 @@ Create or modify appointment booking configurations for Walk-up Experience servi
 
 ## Before you begin
 
-Role required: admin or sn\_csm\_walkup.walkup\_admin
+Role required: sn\_csm\_walkup.walkup\_admin
 
 ## Procedure
 
@@ -73,14 +73,6 @@ Availability table
 </td><td>
 
 The table calculates appointment availability. For Walk-up Experience, choose Walk-up Appointment \[wu\_appointment\].
-
-</td></tr><tr><td>
-
-Enable advanced configurations
-
-</td><td>
-
- 
 
 </td></tr><tr><td>
 
@@ -168,7 +160,7 @@ The number of days after the current day for which an appointment can be booked 
 
 </td></tr><tr><td>
 
-Reschedule/Cancel by time
+Reschedule / Cancel by time
 
 </td><td>
 

@@ -7,9 +7,9 @@ release: zurich
 product: Access Control
 classification: access-control
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Datatype ACL, ACL rule types, Explore Access Control Lists, Access Control List Rules, Access Management]
+breadcrumb: [Datatype ACL, ACL types, Explore Access Control Lists, Access Control Lists \(ACLs\), Access Management]
 ---
 
 # Create a datatype ACL
@@ -22,7 +22,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **System Security** &gt; **Access Controls**.
+1.  Navigate to **All** &gt; **System Security** &gt; **Access Control \(ACL\)**.
 
 2.  Select the **New** button.
 
@@ -34,12 +34,12 @@ Role required: admin
 
 6.  Fill in any additional details on the **Create an ACL** form.
 
-    See [Configure an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/t_CreateAnACLRule.md) for additional information.
+    See [Configure an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/t_CreateAnACLRule.md) for additional information.
 
 7.  Select **Submit**.
 
 8.  Verify the security rules for the ACL in the popup **Verify Security Rules** window.
 
-    \[Omitted image "acl-datatype-verify.png"\] Alt text: An example verify security rules.
+    \[Omitted image "acl-datatype-verify.png"\] Alt text: An example of verifying security rules.
 
 

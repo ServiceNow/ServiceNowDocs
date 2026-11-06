@@ -1,18 +1,18 @@
 ---
 title: Enterprise Architecture shapes
-description: You can use the Enterprise Architecture shapes to model current and future-state architectures in Enterprise Architecture Workspace.
+description: Use the Enterprise Architecture shapes to create diagrams with icons related to enterprise architecture.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-modeling-ea-shapes.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Shapes to create a modeling diagram, Exploring Enterprise Modeling and Visualization in the EA Workspace, Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Shapes to create a modeling diagram, Exploring Enterprise Modeling and Visualization in the EA Workspace, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Enterprise Architecture shapes
 
-You can use the Enterprise Architecture shapes to model current and future-state architectures in Enterprise Architecture Workspace.
+Use the Enterprise Architecture shapes to create diagrams with icons related to enterprise architecture.
 
 You can add a shape to the canvas by either selecting the shape or by dragging the shape from the **Shapes** palette to the canvas.
 

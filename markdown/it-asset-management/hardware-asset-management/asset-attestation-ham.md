@@ -7,10 +7,10 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-keywords: [Asset attestation]
-breadcrumb: [Explore, Hardware Asset Management, IT Asset Management]
+keywords: [Asset attestation, Attestation playbook, Attestation schedule]
+breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Asset Attestation
@@ -79,6 +79,8 @@ If you plan to audit your assets by using Asset Attestation, then consider the f
 2.  The **ITAM Common- Asset attestation** daily job runs daily to check through all the asset attestation schedules. This daily job then creates asset attestations based on the frequency specified in the attestation schedule.
 
 For more details on Asset Attestation, see [Audit your hardware assets by using Asset Attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/audit-hardware-assets-attestation.md).
+
+**Parent Topic:**[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/exploring-ham.md)
 
 **Related topics**  
 

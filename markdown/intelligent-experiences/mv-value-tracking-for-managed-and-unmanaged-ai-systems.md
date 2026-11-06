@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-23"
 reading_time_minutes: 3
 keywords: [managed AI system, unmanaged AI system, value dashboard, value template]
-breadcrumb: [Value, Explore, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
+breadcrumb: [Value, Explore, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Value tracking for managed and unmanaged AI systems

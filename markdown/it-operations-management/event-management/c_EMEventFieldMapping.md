@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Use Event field mappings rules to map values from specific fields to values in o
 
 Event Management stores event field mappings in the Event Field Mapping \[em\_mapping\_rule\] table. The mappings apply after event rule processing and prior to alert generation. The mapping values from the Event Mapping Pair \[em\_mapping\_pair\] table apply to the alert. The original event severity remains unchanged.
 
-For example, if events come with the field "**org\_severity**" with the values "**Low**, **Medium**, **High**" and you want the alert **Severity** to hold this value, create an event field mapping rule that maps the field **org\_severity** to **Severity**, with these values:
+For example, if events use the field **org\_severity** with values **Low**, **Medium**, **High** and you want the alert **Severity** to use these values, create a mapping rule from **org\_severity** to **Severity**:
 
 |Original org\_severity value|Map to alert Severity value|
 |----------------------------|---------------------------|

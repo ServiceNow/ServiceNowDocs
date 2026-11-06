@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-29"
 reading_time_minutes: 5
 keywords: [Ways to preview an experience, Preview in Lux Lab, Preview locally with the dev server, Preview a production build locally, Verify server-rendered output]
-breadcrumb: [Test and deploy a Lux app, Lux Development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Test and deploy a Lux app, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Ways to preview a Lux experience

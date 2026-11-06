@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/cpq-authenticating-api-calls.html
 release: zurich
 topic_type: concept
-last_updated: "2025-09-16"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [API overview and resources, ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [API overview and resources, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Authenticating ServiceNow CPQ API calls
@@ -48,10 +48,8 @@ There are four ways to authenticate your admin API calls:
 
 -   Google IdP
 
-    If you are not connected to a Salesforce environment and choose not to use admin API keys, you can use Google IdP to authenticate. If you do not use Google IdP, open a support case or email support@logik.io to discuss options for admin API authentication.
+    If you are not connected to a Salesforce environment and choose not to use admin API keys, you can use Google IdP to authenticate. If you do not use Google IdP, open a support case to discuss options for admin API authentication.
 
-    For information on setting up a Google IdP JWT token, see:
-
-    [Setting up a Google IdP JWT Token for Headless admin API Authentication](https://logikio.atlassian.net/wiki/spaces/CS/pages/1614479620/Setting+up+a+Google+IdP+JWT+Token+for+Headless+Admin+API+Authentication)
+    **Note:** Create a support case by using the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
 
 

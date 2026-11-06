@@ -1,19 +1,19 @@
 ---
 title: Configure prompt injection attack protection
-description: Activate or deactivate prompt injection attack detection settings to protect all generative AI interactions on your instance from malicious inputs and unintended model behaviors.
+description: Activate or deactivate prompt injection attack detection to protect all generative AI applications and AI-generated text and conversations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/configure-prompt-injection-attack-protection.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 keywords: [Now Assist, prompt injection attck prevention, Generative AI, GenAI, Guardian, Admin, Detection impact]
-breadcrumb: [AI Guardian, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [AI Guardian, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Configure prompt injection attack protection
 
-Activate or deactivate prompt injection attack detection settings to protect all generative AI interactions on your instance from malicious inputs and unintended model behaviors.
+Activate or deactivate prompt injection attack detection to protect all generative AI applications and AI-generated text and conversations.
 
 ## Before you begin
 
@@ -21,51 +21,28 @@ Role required: sn\_generative\_ai.nsa\_admin
 
 ## About this task
 
-AI Guardian detects and logs prompt injection attempts across all generative AI applications and features on your instance. You can configure AI Guardian to block the AI-generated response when an attack is detected.
+Prompt injection attacks are a type of cybersecurity attack where someone tries to override the initial instructions of an LLM to cause unintended behaviors. AI Guardian detect and log these prompt injection attack attempts across all generative AI applications and features. You can also configure the prompt injection detection guardrail to block the AI-generated response when an attack is detected in addition to logging it.
 
-Prompt injection detection is enabled by default for all ServiceNow Otto skills, except Platform and custom skills, which can be configured manually. The default action is block and log, with a medium severity threshold. When a skill has its own setting, AI Guardian automatically applies the more protective of the two settings, the skill-level setting or the instance-level setting.
-
-You can export logs for review. For more information, see [Export ServiceNow Otto Guardian logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/export-now-assist-guardian-logs.md).
+You can export logs for review. For more information, see [Export Now Assist Guardian logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/export-now-assist-guardian-logs.md).
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **ServiceNow Otto Admin** &gt; **Settings**.
+1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Settings**.
 
-2.  In the side panel, go to **ServiceNow Otto Guardian** &gt; **Prompt Injection**.
+2.  In the side panel, go to **Now Assist Guardian** &gt; **Prompt Injection**.
 
-3.  Select the **Enable at instance level** toggle to activate prompt injection detection at the instance, if it is not already enabled.
+3.  Select the toggle to activate or deactivate prompt injection attack detection.
 
-    \[Omitted image "na-guardian-prompt-injection.png"\] Alt text: Prompt Injection guardrail settings at instance level with the "Log the output" action and "Medium" severity level selected.
+4.  Under **Detection impact**, select the options icon \(\[Omitted image "naa-more-options-icon.png"\] Alt text: Options icon.\) and then select **Edit** to change how detected attacks are handled.
 
-4.  In the **Choose an action when prompt injection is detected** section, select one of the following options to handle the detected attacks:
+    You can choose whether prompt injection attacks are blocked as well as logged.
 
-    -   To log the request and conversation while keeping the model response visible to the user, select **Log the output**.
-    -   To block the model response and log the request and conversation, select **Block the response and log the output**.
-5.  In the **Select the attack severity level to check for prompt injection** section, select a severity level to check for prompt injection.
-
-    -   To flag even the slightest hints of injection or manipulation attempts, select **Low**.
-    -   To flag clear or moderate prompt injection attempts, select **Medium**.
-    -   To flag only high certainty prompt injection attempts, select **High**.
-6.  In the **Product-specific configuration for skills** section, select the skill you want to configure.
-
-    The Prompt injection for the selected skill page opens.
-
-    1.  In the **Choose an action when prompt injection is detected** section, select the detection mode for the skill:
-
-        -   To log the request and conversation while keeping the model response visible to the user, select **Log the output**.
-        -   To block the model response and log the request and conversation, select **Block the response and log the output**.
-        **Note:** This option is only available when the instance-level action is set to Log the output.
-
-    2.  In the **Select the attack severity level to check for prompt injection** section, select a severity level, **Low**, **Medium**, or **High**.
-
-    The skill uses the configured detection mode, or the global setting if it is stricter.
-
-7.  Select **Save**.
+    \[Omitted image "image.na-guradian-prompt-injection"\] Alt text: Prompt injection protection detection impact selection card with an option to choose the detection impact.
 
 
 ## Result
 
-Prompt injection detection is configured on your instance for all generative AI workflows. AI Guardian detects prompt injection attempts based on the severity level you selected and responds according to the action you configured. When a skill has its own setting, the more protective setting applies automatically.
+Prompt injection detection is configured on your instance. When enabled, you see a standard error message when an attack is detected.
 
 **Parent Topic:**[AI Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-guardian.md)
 

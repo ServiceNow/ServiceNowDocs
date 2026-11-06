@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowotto-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 34
 breadcrumb: [Products combined by family]
 ---
@@ -455,7 +455,7 @@ Initiate and view agentic workflows from within Google Chat.
 
 Access the Gen AI Metrics \[sys\_generative\_ai\_metric\] table to review the logged invocations of sensitive topics and gain insights into how these topics are being triggered and monitored.
 
--   **[Long term stable models](https://www.servicenow.com/docs/access?context=long-term-stable-models&family=zurich&ft:locale=en-US)**
+-   **[\[Placeholder link text to key bundle-platai.long-term-stable-models\]](https://www.servicenow.com/docs/access?context=long-term-stable-models&family=zurich&ft:locale=en-US)**
 
 Long term stable \(LTS\) models are part of Now LLM Service and provide longer model stability windows for regulated industries. These models can integrate with tools to provide governance, monitoring, and compliance controls.
 
@@ -1046,7 +1046,7 @@ Zurich
 
  Zurich
 
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 -   Select your preferred large language model \(LLM\) provider for Now Assist base system skills. Apart from Now LLM Service, the platform supports Azure OpenAI GPT-4.1 and GPT-4.1 mini, Google Gemini 2.5 Flash and 2.5 Pro, and AWS Anthropic Claude 3.7 Sonnet LLM providers with ServiceNow® third-party model strategy.
 -   Suppress the modeless window for a custom Now Assist context menu event.
 -   View numbered citations and links to the information sources when you use the Now Assist context menu for email reply recommendation.

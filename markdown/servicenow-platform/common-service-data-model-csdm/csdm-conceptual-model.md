@@ -1,22 +1,22 @@
 ---
 title: CSDM data domains
-description: The CSDM is the data model that admins should follow when they set up ServiceNow products and applications. The standards for defining configuration items \(CIs\) and relationships between CIs in the CMDB helps to promote that your data resides in the appropriate CMDB tables. The result is maximum value from ServiceNow AI Platform applications.
+description: The CSDM is the data model that admins should follow when they set up ServiceNow products and applications. The standards for defining configuration items \(CIs\) and relationships between CIs in the CMDB help to promote that your data resides in the appropriate CMDB tables. The result is maximum value from ServiceNow AI Platform applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/common-service-data-model-csdm/csdm-conceptual-model.html
 release: zurich
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: concept
-last_updated: "2025-08-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Explore, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # CSDM data domains
 
-The CSDM is the data model that admins should follow when they set up ServiceNow products and applications. The standards for defining configuration items \(CIs\) and relationships between CIs in the CMDB helps to promote that your data resides in the appropriate CMDB tables. The result is maximum value from ServiceNow AI Platform applications.
+The CSDM is the data model that admins should follow when they set up ServiceNow products and applications. The standards for defining configuration items \(CIs\) and relationships between CIs in the CMDB help to promote that your data resides in the appropriate CMDB tables. The result is maximum value from ServiceNow AI Platform applications.
 
-## CSDM domains
+## CSDM data domains
 
 As described in [Exploring the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-exploring.md), each domain is associated with one or more products, services, or service types, each of which you can extend as needed. Every box in the diagram \(except Catalog Item\) represents tables that hold CIs in the CMDB. Each connecting line represents a relationship between CI classes. Roles and user types appear next to their area of responsibility.
 
@@ -42,7 +42,7 @@ As described in [Exploring the CSDM model](https://raw.githubusercontent.com/Ser
 
 -   **Service Delivery domain**
 
-    The Service Delivery domain represents the overall end-to-end service delivery system that includes the infrastructure, technologies, integration patterns \(infrastructure, systems, data, processes, dependency models\), service delivery networks, and operational models. Together, these items deliver the CSDM-conforming services to internal and external users and organizations. For more information, see [Service Delivery domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/manage-tech-servs-domain.md).
+    The Service Delivery domain represents the overall end-to-end service delivery system that includes the infrastructure, technologies, integration patterns \(infrastructure, systems, data, processes, dependency models\), service delivery networks, and operational models. Together, these items deliver the services that conform to CSDM to internal and external users and organizations. For more information, see [Service Delivery domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/manage-tech-servs-domain.md).
 
 -   **Service Consumption domain**
 
@@ -64,7 +64,7 @@ The ServiceNow AI Platform includes the following base-system service types that
     Technology management services are the systems associated with the admins of CIs in the Service Delivery domain. Service instance owners, Technology management service owners, and Technology service owners. Technology management services are typically lower-level leaf nodes of one or more business services or business service instances in a structured hierarchy.
 
     -   Technology management services are operational CIs.
-    -   A technology management service must be a one-level service and not a hierarchy of technology management services.
+    -   A Technology management service must be a one-level service and not a hierarchy of Technology management services.
     -   Technology management services are used for impact in Incident Management, Problem Management, and Change Management. Also used for approvals for Change Management.
     -   Technology management services must be provider-focused and include the technology provided for the business to consume or sell.
     For more information, see [Manage Portfolio domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/manage-business-services-domain.md).
@@ -79,7 +79,7 @@ The ServiceNow AI Platform includes the following base-system service types that
     -   Can be created via manual mapping, service mapping with entry point, and dynamic query.
     For more information about leaf nodes and structured hierarchies, see [Design &amp; Planning domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/design-domain.md).
 
-    You can monitor service instances \(called application service before CSDM v5\) on the Application Services dashboard. For more information, see [Use Application Services dashboard to monitor health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/app-service-dashboard.md).
+    You can monitor service instances \(called application service before CSDM v5\) on the Application Services dashboard. For more information, see [Use Service instance \(Application Services\) dashboard to monitor health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/app-service-dashboard.md).
 
 -   **Business services \(cmdb\_ci\_service\_business\)**
 
@@ -107,7 +107,7 @@ Enterprise architects and digital product owners work on the design and planning
 -   **[Build &amp; Integration domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/build-domain.md)**  
 Development teams use the tables in the Build &amp; Integration domain during the build effort \(systems development life cycle — Agile development\) of digital products. The tables represent the logical development details of the enterprise applications \(digital products\) to be deployed and used by your organization. These are not operational CIs.
 -   **[Service Delivery domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/manage-tech-servs-domain.md)**  
-The Service Delivery domain represents the overall end-to-end service delivery system that includes the infrastructure, technologies, integration patterns \(infrastructure, systems, data, processes, dependency models\), service delivery networks, and operational models. Together, these items deliver the CSDM-conforming services to internal and external users and organizations.
+The Service Delivery domain represents the overall end-to-end service delivery system that includes the infrastructure, technologies, integration patterns \(infrastructure, systems, data, processes, dependency models\), service delivery networks, and operational models. Together, these items deliver the services that conform to CSDM to internal and external users and organizations.
 -   **[Service Consumption domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/sell-consume-domain.md)**  
 Internal or external consumers can request business services through the request catalogs in the Service Consumption domain. The business service offerings in the request catalogs are the deployed digital products in the Service Delivery domain. Business relationship managers and customer service managers might sell or even consume elements of the Service Delivery domain.
 -   **[Manage Portfolio domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/manage-business-services-domain.md)**  

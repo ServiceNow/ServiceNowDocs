@@ -1,33 +1,55 @@
 ---
 title: Create a customer play
-description: Create a customer play in collaboration with customers to define planned and unplanned activities that are required to support an engagement. The customer play playbook is your starting point to configure the success processes required in your organization.
+description: Create a customer play in collaboration with customers to define planned and unplanned activities required to support an engagement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-create-success-case-playbook.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Manage playbooks, Customer success, Configure, Customer Success Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Manage playbooks, Customer success, Use, Customer Success Management]
 ---
 
 # Create a customer play
 
-Create a customer play in collaboration with customers to define planned and unplanned activities that are required to support an engagement. The customer play playbook is your starting point to configure the success processes required in your organization.
+Create a customer play in collaboration with customers to define planned and unplanned activities required to support an engagement.
 
 ## Before you begin
 
 Role required: sn\_acct\_lc.customer\_success\_agent
 
+## About this task
+
+A customer play monitors external activities of unplanned actions that a provider may take to support a customer touchpoint, stakeholder request, or engagement activity. It may not be associated with an objective or outcome, but can be based on the nature of the customer play and why it was created. A customer play is a form of case type with its own case tasks.
+
 ## Procedure
 
-1.  Navigate to **Workspace** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
+1.  Navigate to **Workspace** &gt; **CRM Workspace** and select the **List** icon.
 
-2.  Navigate to the **Customer Success** &gt; **All Customer Plays** and select **New**.
+2.  Navigate to the **Customer Success Management** &gt; **All Customer Plays** and select **New**.
 
 3.  In the `Initiate` phase, you can perform the following activities:
 
     -   Select engagement: In the Number field, a unique number for the customer play is auto-populated. In the Engagement field, select the engagement for which the customer play is being created and select **Continue**. A customer play record is created.
-    -   Enter core information: In this page, enter the details for the customer play record and select **Mark Complete** to move to the next activity. See [Create a customer play record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-success-case.md) for a detailed description of this form.
+    -   Enter core information: In this page, enter the purpose of the customer play including the following details:
+
+        -   Assigned to: The key internal team member responsible for this internal play.
+        -   Priority: Priority of this internal play in comparison to others. This can be:
+            -   Critical
+            -   High
+            -   Medium
+            -   Low
+            -   Very Low
+        -   The category associated with this internal play. This can be:
+            -   Guidance
+            -   Architecture review
+            -   Demos and POCs
+            -   Training
+        -   Due date: Date by which the customer play should be completed.
+        -   Short description" The short description for the customer play. This is a mandatory field.
+        -   Description: The description for the customer play. This is a mandatory field.
+        Select **Mark Complete** to move to the next activity.
+
     -   Add squad: Select one or more squad members who will involved in the customer play and the related activities and select **Mark Complete** to move to the next stage.
 4.  In the `Assist` phase, you can perform the following activities:
 
@@ -49,13 +71,20 @@ Role required: sn\_acct\_lc.customer\_success\_agent
 
     The customer play record State is set **Closed** and Progress is set to **Completed**.
 
-    **Note:** If after creating the customer play playbook, you close or cancel the playbook, all pending activities, and lanes are automatically canceled and the playbook State is set to Canceled.
+    **Note:** If after creating the customer play record, you close or cancel the record, all pending activities and lanes of the playbook are automatically canceled, and the record State is set to Closed or Canceled.
 
 
--   **[Create a customer play record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-success-case.md)**  
-Create a customer play to specify an unplanned activity required to support an engagement. customer plays can be monitored by the customer during the engagement life cycle.
+## What to do next
+
+-   Select **Discuss** to start a sidebar discussion about this customer play. In the pop-up window, select the participants who must participate in the discussion, enter a brief message, and select **Start discussion**. A window appears with a link to the record for this initiative. Select **Open record** and start the discussion. When the discussion has been completed, you can see the details in the **Activity stream**.
+-   Create success play: See [Create a success play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-success-play.md).
+
+-   **[Create a customer play task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-success-case-task.md)**  
+Create a customer play task to define a planned action that a provider or customer must complete in support of a customer play. A customer play task must be clearly defined and can be visible to internal stakeholders or external customers.
 -   **[Close or cancel a customer play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-cancel-success-case.md)**  
 You can close or cancel a customer play and all the related tasks.
+-   **[Summarize a customer play using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/now-assist-tmt-summarize-success-play.md)**  
+Generate a summary from a customer play record and all associated customer play tasks.
 
 **Parent Topic:**[Manage customer success playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-manage-cust-succ-playbooks.md)
 

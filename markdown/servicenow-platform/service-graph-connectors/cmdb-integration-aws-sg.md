@@ -7,7 +7,7 @@ release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
-last_updated: "2026-03-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,15 +18,15 @@ Use the Service Graph Connector for AWS to securely bring in Amazon Web Services
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 The integration uses AWS native technologies and AWS security best practices to enable cloud teams to connect the data within their ServiceNow workflow. For more information about the Service Graph Connector for AWS, see the [Service Graph Connector for AWS - Introduction](https://community.servicenow.com/community?id=community_article&sys_id=13aa801f1b1ec910c465ece6b04bcbec) article on the ServiceNow Community site.
 
 ## Supported ServiceNow versions
 
--   Yokohama
 -   Zurich
 -   Australia
+-   Brazil
 
 ## Use cases
 
@@ -52,7 +52,7 @@ After you've installed the latest version of the Service Graph Connector for AWS
 
 You can configure a connection for the connector by using the SGC Central view in the Service Graph Workspace or CMDB Workspace. The view enables you to discover and install connectors, and then effectively manage the full life cycle of creating, editing, monitoring, and debugging connections. To configure the connector using SGC Central, see [Configure Service Graph Connector for AWS using SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/sgcc-configure-aws-integ.md).
 
-**Important:** Unless there are configuration issues, use the SGC Central view in the Service Graph Workspace or CMDB Workspace to configure the connection for the connector, as the guided setup method is planned for deprecated.
+**Important:** Unless there are configuration issues, use the SGC Central view in the Service Graph Workspace or CMDB Workspace to configure the connection for the connector, as the guided setup method is planned for deprecation.
 
 ## CMDB integrations dashboard
 
@@ -83,7 +83,6 @@ Import CI relationships established between virtual private clouds \(VPCs\), sub
 See the following articles on the ServiceNow Community site for any additional information on the AWS set up:
 
 -   [Service Graph Connector for AWS - Introduction](https://www.servicenow.com/community/cmdb-articles/service-graph-connector-for-aws-introduction/ta-p/2300757)
--   [How do I configure the AWS Service Graph Connector?](https://www.servicenow.com/community/cmdb-articles/aws-service-graph-connector/ta-p/2958151)
 -   [Service Graph Connector for AWS - Diagnostic Tool &amp; Troubleshooting Issues](https://community.servicenow.com/community?id=community_article&sys_id=668651e71bde4150c465ece6b04bcb23)
 -   [Service Graph Connector for AWS - Functional Spec and CI](https://www.servicenow.com/community/cmdb-articles/service-graph-connector-for-aws-functional-spec-and-ci/ta-p/2301845)
 -   [Cloud Discovery and SG-AWS](https://www.servicenow.com/community/cmdb-articles/cloud-discovery-and-sg-aws/ta-p/2300607)

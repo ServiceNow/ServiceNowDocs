@@ -7,9 +7,9 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, HR Service Delivery integration with Oracle Cloud HCM, Integrate with third-party systems, HR Service Delivery, Employee Service Management]
+breadcrumb: [Reference - HR Service Delivery integration with Oracle Cloud HCM, HR Service Delivery integration with Oracle Cloud HCM, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
 # Transform maps for HR Service Delivery integration with Oracle Cloud HCM
@@ -20,7 +20,7 @@ HR Profile Transform Map, Job Transform Map, Department Transform Map, Location 
 
 **Note:** Ensure that you index coalesce fields for better transformation performance.
 
-**Parent Topic:**[HR Service Delivery integration with Oracle Cloud HCM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/reference-hrsd-int-oracle-cloud-hcm.md)
+**Parent Topic:**[Reference - HR Service Delivery integration with Oracle Cloud HCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/reference-hrsd-int-oracle-cloud-hcm.md)
 
 **Related topics**  
 

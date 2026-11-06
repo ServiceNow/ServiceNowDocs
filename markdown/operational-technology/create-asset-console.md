@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/create-asset-console.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Assets page, Using the Discovery Console, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Assets page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Create an asset
@@ -41,6 +41,7 @@ Role required: admin
         -   **Purdue Level**: Optional. Provides a pop-up list to choose from.
         -   **Operating System**: Required. Provides a pop-up list to choose from.
         -   **Details**: Optional.
+    -   **Network Interfaces**: Displays available network interfaces.
     -   **Metadata**: If applicable, add the following information:
         -   Alias
         -   Description
@@ -48,6 +49,7 @@ Role required: admin
         -   Location
     -   **Installed Software**: If applicable, select the Add Software button and select the software you want to include.
     -   **Attributes**: If applicable, select the Add Attribute button and select the Attributes you want to include.
+    -   **MAC Address**
     -   **Comments**: If applicable, add comments.
 4.  Select **Create Asset** to create an asset or select **Cancel** to discard your entries.
 
@@ -55,4 +57,6 @@ Role required: admin
 ## Result
 
 The asset is created and added to the Assets page.
+
+**Parent Topic:**[Assets page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/assets-page-console.md)
 

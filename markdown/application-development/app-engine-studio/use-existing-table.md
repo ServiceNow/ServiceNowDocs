@@ -7,9 +7,9 @@ release: zurich
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Create a data model, Enhance your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Create a data model, Enhance your app, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Create a blank table
@@ -18,7 +18,7 @@ Add a data table to your application from an existing table that you or someone 
 
 ## Before you begin
 
-Role required: sn\_app\_eng\_studio.user, sn\_app\_eng\_studio.admin, or delegated developer for AES. For more information about granular admin roles, see [Granular admin roles required to secure your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/roles-within-platform-security.md). For more information about delegated development, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: admin, sn\_app\_eng\_studio.user, or delegated\_developer
 
 ## Procedure
 
@@ -32,7 +32,7 @@ Role required: sn\_app\_eng\_studio.user, sn\_app\_eng\_studio.admin, or delegat
 
 5.  Choose from the following choices.
 
-<table id="choicetable_qfr_n3p_tvb"><tbody><tr><td id="d151144e123">
+<table id="choicetable_qfr_n3p_tvb"><tbody><tr><td id="d311021e97">
 
 **Create new table**
 
@@ -42,7 +42,7 @@ Select this option to create a blank table from scratch.1.  Choose **Create new 
 2.  Click **Continue**.
 
 
-</td></tr><tr><td id="d151144e147">
+</td></tr><tr><td id="d311021e121">
 
 **Create from an extensible table**
 

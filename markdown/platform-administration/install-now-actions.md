@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/install-now-actions.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Notifications in messaging applications, System notifications, Notifications, Configure core features, Administer]
+breadcrumb: [Notifications in messaging applications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Install the Now Actions messaging app
@@ -16,7 +16,7 @@ As an administrator for both ServiceNow and the third-party application, find an
 
 ## Before you begin
 
-To activate this feature, request the Messaging Notification plugin \(com.glide.notification.messaging\) through the HI Customer Service system. This plugin activates related plugins if they are not already active. For more information, see [Request Messaging Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/request-messaging-notification.md).
+To activate this feature, request the Messaging Notification plugin \(com.glide.notification.messaging\) through the HI Customer Service system. This plugin activates related plugins if they are not already active. For more information, see [Request the Messaging Notification plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/request-messaging-notification.md).
 
 Roles required:
 

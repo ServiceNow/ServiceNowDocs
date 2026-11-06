@@ -7,7 +7,7 @@ release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure a control effectiveness assessment, Perform Advanced Risk Assessment, Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -135,6 +135,18 @@ Score label
 </td><td>
 
 Option to rename the qualitative score label in the Scoring section of the assessment form. For example, if you rename Control risk as Preventive risk, the new score label will be displayed in the scoring section where Control risk was previously referred.
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
+Other Configurations
+
+</td></tr><tr><td>
+
+Comments required to complete this assessment type
+
+</td><td>
+
+Option to make comments mandatory before an assessor can complete the control assessment.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Configure a control effectiveness assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/configure-control-assess.md)

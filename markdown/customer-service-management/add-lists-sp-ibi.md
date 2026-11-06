@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/add-lists-sp-ibi.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Administer Customer Contracts and Entitlements, Administer, Customer Service Management]
 ---
@@ -28,15 +28,15 @@ To see the contracts, contract line items, and entitlements associated with a so
 
 1.  Add related lists to sold products and install base items.
 
-<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d108281e65">
+<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d121594e65">
 
 Add to
 
-</th><th align="left" id="d108281e68">
+</th><th align="left" id="d121594e68">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d108281e74">
+</th></tr></thead><tbody><tr><td id="d121594e74">
 
 **Sold Product**
 
@@ -46,7 +46,7 @@ Procedure
 2.  Select the sold product.
 
 
-</td></tr><tr><td id="d108281e107">
+</td></tr><tr><td id="d121594e107">
 
 **Install Base Item**
 

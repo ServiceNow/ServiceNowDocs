@@ -7,8 +7,8 @@ release: zurich
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: concept
-last_updated: "2026-07-28"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -57,11 +57,11 @@ Help manage workplace reservations
 
 This team of AI agents help Workplace Event Planners and autonomously reschedule events happening in the workplace. AI agents support Workplace Event Planners with all relevant information and preparation work when changes are occurring to a planned reservation. AI Agents gather relevant information and provide suggestions to the Workplace Event planners for the next best possible action. Event planners can review and optimize reservations as required by looking at the workplace case details.
 
- To finish the task, AI agents perform the following:
+ In order to finish the task, AI agents perform the following:
 
- -   Retrieves the change event edit workplace case details.
--   Analyzes the reservation retrieved from the previous step.
--   Updates Workplace case notes with all the actions taken.
+ -   Retrieve the change event edit workplace case details.
+-   Analyze the reservation retrieved from the previous step.
+-   Update Workplace case notes with all the actions taken.
 
  For more information, see [Help manage workplace reservations agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/manage-workplace-reservations-agent-ai.md).
 
@@ -122,4 +122,21 @@ To run the AI agents autonomously, you must first duplicate the agentic workflow
 -   Activate the trigger to invoke the use case automatically. If you prefer to invoke it manually, activating the trigger isn't necessary.
 
 There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/find-ai-agents.md).
+
+-   **[Manage temporary space closures agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/maintenance-meeting-room-agent-ai.md)**  
+This team of AI agents temporarily block a location when there’s an emergency workplace maintenance case is submitted.
+-   **[Help manage workplace reservations agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/manage-workplace-reservations-agent-ai.md)**  
+The Help manage workplace reservations agentic AI workflow enables Workplace Event Planners with rescheduling a planned reservation. AI Agents gather relevant information from a workplace reservation and update an existing planned reservation with a new date, time, and duration.
+-   **[Optimize cleaning activities agent overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/optimise-cleaning-agent-overview.md)**  
+The Optimize cleaning activities agent performs cleaning activities on a workplace location based on the space utilization threshold data.
+-   **[Automate map updates agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/automate-map-updates-agent-ai.md)**  
+This AI agent helps map admins configure the map during bulk updates to Indoor Mapping.
+-   **[Workplace Concierge agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/workplace-concierge-ai-agent.md)**  
+Use the Workplace Concierge agentic workflow to register visitors from existing communication tools like emails, calendars, or the Virtual Agent.
+-   **[Process image to record agent for workplace case creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/process-image-to-record-agent-for-workplace-case-creation.md)**  
+The Process image for new tasks workflow enables workplace users to report workplace issues by capturing and uploading images through the virtual agent interface. The system automatically analyzes the image and creates a workplace case with populated fields including short description, description, and priority.
+-   **[Implement Autonomous L1 Agent for Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/implement-autonomous-l1-agent-for-workplace.md)**  
+Use the Autonomous L1 Agent for Workplace agent that automatically resolves frequently asked General Inquiry workplace cases without requiring manual agent intervention.
+
+**Parent Topic:**[ServiceNow Otto for Workplace Service Delivery \(WSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/now-assist-wsd-landing.md)
 

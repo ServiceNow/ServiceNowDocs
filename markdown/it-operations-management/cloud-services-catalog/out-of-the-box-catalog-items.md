@@ -7,7 +7,7 @@ release: zurich
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -45,7 +45,7 @@ Cloud Services Catalog Linux VM with agent client collector \(ACC\), up to 10 ad
 -   **[Microsoft Azure Windows Out Of Box Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/azure-microsoft-windows-out-of-box-catalogs.md)**  
 Cloud Services Catalog Windows VM, up to 10 additional disks on Microsoft Azure or with security groups.
 -   **[Microsoft Azure Out Of Box permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/azure-oob-permissions.md)**  
-Cloud Services Catalog Microsoft Azure Out Of Box catalog items permissions. These catalog items are available out of box in CSC Content Pack applications.
+Cloud Services Catalog Microsoft Azure Out Of Box catalog items permissions.
 -   **[Microsoft Azure Functions App Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/azure-functions-app.md)**  
 Cloud Services Catalog Microsoft Azure Function App with pay-as-you-go pricing benefit.
 -   **[Out Of Box Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/out-of-box-actions.md)**  

@@ -1,20 +1,21 @@
 ---
 title: Severity mapping for Unified Security Exposure Management
-description: Severity mapping is a critical feature that enables organizations to standardize and normalize the severity levels of findings detected across different sources. This process involves mapping the severity levels from various scanners and sources to a common severity scale used within Unified Security Exposure Management.
+description: Severity mapping standardizes and normalizes the severity levels of findings detected across different sources. This process involves mapping the severity levels from various scanners and sources to a common severity scale used within Unified Security Exposure Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sem-severity-mapping.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [Severity mapping]
 breadcrumb: [Automating prioritization and triaging, Security Exposure Management workflow, Explore, Unified Security Exposure Management, Security Operations]
 ---
 
 # Severity mapping for Unified Security Exposure Management
 
-Severity mapping is a critical feature that enables organizations to standardize and normalize the severity levels of findings detected across different sources. This process involves mapping the severity levels from various scanners and sources to a common severity scale used within Unified Security Exposure Management.
+Severity mapping standardizes and normalizes the severity levels of findings detected across different sources. This process involves mapping the severity levels from various scanners and sources to a common severity scale used within Unified Security Exposure Management.
 
-## Severity Mapping
+## Severity mapping
 
 **Note:** Business rules run in the background to evaluate the priority for Qualys data and perform the corresponding mapping to the **Priority** field. Therefore, the business rule is responsible for handling the mapping of Qualys data.
 
@@ -36,17 +37,15 @@ Calculates the severity values received from the scanner.
 
 </td></tr><tr><td>
 
-Source\_severity
+**Source\_severity**
 
 </td><td>
 
--   Data from the severity\_score table is mapped to the source\_severity table during the execution of the **Rapid7 Vulnerability Integration- API.**
--   Data from the SEVERITY\_LEVEL is mapped to the source\_severity table during the execution of the **Qualys Knowledge Base Integration**.
--   Data for risk\_factor table is mapped to source\_severity during the execution of the **Tenable.io Plugin Integration**.
--   Data for riskFactor table is mapped to source\_severity during the execution of the **Tenable.io Plugin Integration**.
--   Data from severity table is mapped to source\_severity during the execution of the **Microsoft TVM Vulnerability\(CVE\) Integration**.
-
-.
+-   Data from the **severity\_score** table is mapped to the **source\_severity** table during the execution of the **Rapid7 Vulnerability Integration- API.**
+-   Data from the **SEVERITY\_LEVEL** is mapped to the **source\_severity** table during the execution of the **Qualys Knowledge Base Integration**.
+-   Data for **risk\_factor** table is mapped to **source\_severity** during the execution of the **Tenable.io Plugin Integration**.
+-   Data for **riskFactor** table is mapped to **source\_severity** during the execution of the **Tenable.io Plugin Integration**.
+-   Data from **severity** table is mapped to **source\_severity** during the execution of the **Microsoft TVM Vulnerability\(CVE\) Integration**.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Automating prioritization and triaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-automating-prioritization-triaging.md)

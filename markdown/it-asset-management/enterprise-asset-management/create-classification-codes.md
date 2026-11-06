@@ -1,20 +1,20 @@
 ---
-title: Create classification codes
-description: Create classification codes and assign them to enterprise models and model categories to increase the efficiency of enterprise models.
+title: Create a classification code
+description: Create a classification code and assign it to enterprise models and model categories to increase the efficiency of enterprise models.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/create-classification-codes.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create and manage enterprise models, Manage enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Configure, Enterprise Asset Management, Asset Management]
 ---
 
-# Create classification codes
+# Create a classification code
 
-Create classification codes and assign them to enterprise models and model categories to increase the efficiency of enterprise models.
+Create a classification code and assign it to enterprise models and model categories to increase the efficiency of enterprise models.
 
 ## Before you begin
 
@@ -24,11 +24,15 @@ Role required: sn\_eam.enterprise\_admin
 
 ## Procedure
 
-1.  Navigate to **Enterprise Asset Workspace** &gt; **Enterprise model management** &gt; **Classification**.
+1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace**.
 
-2.  Select **New**.
+2.  From the Enterprise Asset Workspace, open the Admin center view.
 
-3.  On the form, fill in the details.
+3.  From the navigation panel of the Admin center view, navigate to **Model classifications** &gt; **Classifications**.
+
+4.  Select **New**.
+
+5.  On the form, fill in the details.
 
 <table id="table_vkt_jhj_rwb"><thead><tr><th>
 
@@ -91,10 +95,8 @@ Model categories
 Mode categories assigned to the code.
 
 </td></tr></tbody>
-</table>4.  Select **Save**.
+</table>6.  Select **Save**.
 
     The display name of the classification code is generated and displayed in the **Classification** field. The display name represents the code, the description, and the source. You can view the new classification code record in the Classifications list view page.
 
-
-**Parent Topic:**[Create and manage enterprise models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-manage-enterprise-models.md)
 

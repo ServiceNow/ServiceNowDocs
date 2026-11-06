@@ -7,7 +7,7 @@ release: zurich
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Implement, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -19,8 +19,8 @@ In the Crawl stage, you work on base-system CMDB tables that are associated with
 ## Benefits of the operations that you perform in the Crawl stage
 
 -   The operations provide the minimum CMDB support requirements for Incident Management and Change Management.
--   Setting up APM is faster because your business application data is in the right place in the CMDB.
--   The operations build the foundation for using DevOps because your SDLC component data is populated and ready to relate to your applications.
+-   Setting up APM is faster because your business application data is in the correct place in the CMDB.
+-   The operations build the foundation for using DevOps because your Agile development component data is populated and ready to relate to your applications.
 -   Service Mapping is ready to use for mapping entry points because your service instance data is populated.
 -   The operations build the foundation for using TLM risk details, a capability of APM.
 
@@ -52,15 +52,15 @@ Start by focusing on applications and the application-related data in these area
 
     **Note:** Because this table holds conceptual data, not operational CIs, it is not used by ITSM Incident Management, Problem Management, or Change Management processes.
 
--   **SDLC Component \[cmdb\_ci\_sdlc\_component\] table**
+-   **Agile Development Component \[cmdb\_ci\_sdlc\_component\] table**
 
-    An Agile development component is a CI that represents a unique development effort of code. It represents parts of a larger business application or digital product broken down into its individually developed components. In other words, the Agile development component is a software element of a larger application or technology. Agile development component CI records in the Agile development Component \[cmdb\_ci\_sdlc\_component\] table enable the DevOps product to provide enhanced capabilities for visualizing and managing your application development pipeline.
+    An Agile development component is a CI that represents a unique development effort of code. It represents parts of a larger business application or digital product broken down into its individually developed components. In other words, the Agile development component is a software element of a larger application or technology. Agile development component CI records in the Agile Development Component \[cmdb\_ci\_sdlc\_component\] table enable the DevOps product to provide enhanced capabilities for visualizing and managing your application development pipeline.
 
-    This table represents the software part or element of a larger whole for applications and infrastructure. Related material may serve as representative of developmental details. It can be used if you need to identify the stratification of a business application or digital product.
+    The table represents the software part or element of a larger whole for applications and infrastructure. Related material may serve as representative of developmental details. It can be used if you must identify the stratification of a business application or digital product.
 
-    **Note:** Because this table holds logical data, not operational CIs, it is not used by ITSM Incident Management, Problem Management, or Change Management processes.
+    **Note:** Because the table holds logical data, not operational CIs, it is not used by ITSM Incident Management, Problem Management, or Change Management processes.
 
--   **Service Instance \(called application service before CSDM v5\) \[cmdb\_ci\_service\_auto\] table**
+-   **Service Instance \[cmdb\_ci\_service\_auto\] table \(formerly Application Service table\)**
 
     The service instance is typically the system that a caller identifies when they report an issue with an application.
 
@@ -70,7 +70,7 @@ Start by focusing on applications and the application-related data in these area
 
     Because service instances are logical in nature, they should use the Logical life-cycle value pairs. Service instances follow the same life-cycle guidance as any other logical CI.
 
-    See [Use Application Services dashboard to monitor health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/app-service-dashboard.md).
+    See [Use Service instance \(Application Services\) dashboard to monitor health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/app-service-dashboard.md).
 
 -   **Application \[cmdb\_ci\_appl\] table**
 

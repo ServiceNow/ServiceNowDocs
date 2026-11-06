@@ -7,9 +7,9 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Use HR Profile, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [HR Profile, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Add or modify an HR profile
@@ -18,7 +18,7 @@ Employees can directly edit some information in their HR profile, such as emerge
 
 ## Before you begin
 
-Role required: sn\_hr\_core.secure\_info\_writer, sn\_hr\_core.basic, or sn\_hr\_core.manager
+Role required: sn\_hr\_core.profile\_writer, sn\_hr\_core.secure\_info\_writer, sn\_hr\_core.basic, or sn\_hr\_core.manager
 
 ## About this task
 
@@ -477,5 +477,5 @@ Lists the labor union information associated with the employee. Select **New** t
     **Note:** Some HR profile information, such as department, is synchronized between the User \[sys\_user\] and HR Profile \[hr\_profile\] records. Updating information in one record automatically applies the updates in the other record.
 
 
-**Parent Topic:**[Use HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)
+**Parent Topic:**[HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)
 

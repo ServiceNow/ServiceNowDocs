@@ -7,9 +7,9 @@ release: zurich
 product: App Engine Management Center
 classification: app-engine-management-center
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuration tasks, Configure Pipelines and Deployments, Configure, App Engine Management Center, Governing app development, Building applications]
+breadcrumb: [Configuration tasks, Configure Pipelines and Deployments, Configure, App Engine Management Center, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Enable Automated Test Framework \(ATF\) properties
@@ -24,7 +24,7 @@ Role required: admin
 
 The tests in the Application Deployment Test Suite can be run on production instances; however, the flows included in the base system run only on non-production \(Test\) instances. Additionally, the tests should run only on an instance defined with an **Instance Type** of **Testing**. For more information, see [Configure your pipeline environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-management-center/config-pipeline-environments.md).
 
-**Note:** If you plan on cloning your production instance to one or more non-production instances, you should either create a data preserver for these settings or enable these settings on your production instance. For more information, see [System clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/system-clone-landing.md).
+**Note:** If you plan on cloning your production instance to one or more non-production instances, you should either create a data preserver for these settings or enable these settings on your production instance. For more information, see [Create a clone preserver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/create-new-clone-preserver.md).
 
 ## Procedure
 
@@ -36,4 +36,6 @@ The tests in the Application Deployment Test Suite can be run on production inst
     -   sn\_atf.schedule.enabled
 3.  If you want these tests to run automatically on non-production instances whenever an app is deployed to a Test instance, open each property record, change the **Value** field to true, and select **Update**.
 
+
+**Parent Topic:**[Pipelines and Deployments configuration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-management-center/p-and-d-config-tasks.md)
 

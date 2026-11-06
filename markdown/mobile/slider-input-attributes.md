@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/slider-input-attributes.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Number render types and compatible input attributes, Input form screen attributes for inputs, Configure inputs, Configure an input form screen, Input form screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -50,7 +50,7 @@ A visual step slider makes it clear to users what each position on the slider re
 
 \[Omitted image "ifs-slider-enforced-step-size.png"\] Alt text: A enforced step slider with an error message stating that the selected number of 0.1 is not a valid and needs to be within a range of 0.0 and 0.5.
 
-Use an enforced step size slider to make sure that users can only select specific predefined incremental values. This slider is a more appropriate choice than a visual step slider, if the range of values is large. The image shows a scenario where the chosen figure doesn't conform with the enforced incremental value. As a consequence, an error message displays. The following are input attributes that are required to create a slider with enforced steps.
+Use an enforced step size slider to make sure that users can only select specific predefined incremental values. This slider is a more appropriate choice than a visual step slider, if the range of values is large. The image shows a scenario where the chosen figure doesn't conform with the enforced incremental value. The following are input attributes that are required to create a slider with enforced steps.
 
 -   Min
 -   Max

@@ -7,9 +7,9 @@ release: zurich
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Install and configure for provider, Service Exchange for Providers, Service Exchange]
+breadcrumb: [Configure for providers, Service Exchange for Providers, Service Exchange]
 ---
 
 # Create remote choice definitions in Service Exchange for Providers
@@ -157,6 +157,7 @@ Type Specifications
 -   **Remote choice reference** that includes the remote choice definition that you use for consumer queries for this variable.
 -   **Remote choice display** field that includes the primary data value that appears to your consumers in their querying results.
 -   **Remote choice additional info** field that includes the secondary data value that appears to your consumers in their querying results.
+-   **Remote choice dependent on** field is a variable that this remote choice variable depends on.
 -   **Reference qualifier condition** that includes the filter options that you define to limit the data that is returned by the definition.
 
 

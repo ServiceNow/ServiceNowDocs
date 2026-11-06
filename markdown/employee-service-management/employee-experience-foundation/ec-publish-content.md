@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
-breadcrumb: [Manage, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Authoring and managing employee communications, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Creating employee communications
@@ -154,7 +154,7 @@ Create and publish content in the Content Library using the following process:
 
         -   [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/notify-landing-page.md)
         -   [Enable SMS delivery with the email client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/r_EnableTheSMSDeliveryOption.md)
-        -   [Configuring Employee Center for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/ec-mobile-configrations.md)
+        -   [Configuring Employee Center for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-mobile-configrations.md)
     -   Microsoft Teams: Notifications sent to your employees via Microsoft Teams. This requires the ServiceNow for Microsoft Teams integration. See [Sending notifications to employees using Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/using-campaigns-ms-teams-mt.md).
 -   **[To-do content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-to-do-content.md)**
 

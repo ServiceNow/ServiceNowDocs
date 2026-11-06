@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-zoom-meeting-summary.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up Zoom and touchpoint integration, Touchpoint home page, Customer success, Use, Customer Success Management]
+breadcrumb: [Touchpoints, Customer success, Use, Customer Success Management]
 ---
 
 # Generate summary for Zoom meetings
@@ -20,7 +20,7 @@ Role required: sn\_acct\_lc.customer\_success\_application\_admin
 
 ## Procedure
 
-1.  Navigate to **Workspace** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
+1.  Navigate to **Workspace** &gt; **CRM Workspace** and select the **List** icon.
 
 2.  Navigate to **Customer Success** &gt; **All Touchpoints**.
 
@@ -41,6 +41,8 @@ Role required: sn\_acct\_lc.customer\_success\_application\_admin
 -   If a meeting occurs outside the scheduled date and time window, the meeting details are captured in the parent record.
     -   For recurring meetings, the summaries for all occurrences are grouped under the parent record.
     -   The Virtual Meeting Details record contains each child meeting summary.
+    When a meeting ends, the system populates the attendees field with each participant who joined and their join timestamp, including external participants not on the invite list.
+
 6.  To view the summary, navigate to **All** &gt; **Touchpoints** &gt; **Meetings** &gt; **All**.
 
 7.  Select the **Number** link to open the Meeting Details page and navigate to the Meeting Summary related list.
@@ -55,5 +57,5 @@ Role required: sn\_acct\_lc.customer\_success\_application\_admin
     -   Internal notes
     -   External notes
 
-**Parent Topic:**[Configure Zoom to create a touchpoint meeting summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-config-zoom-sum.md)
+**Parent Topic:**[Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-use-touchpoints.md)
 

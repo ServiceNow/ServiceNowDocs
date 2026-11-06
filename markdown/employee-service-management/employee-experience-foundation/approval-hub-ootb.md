@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 7
-breadcrumb: [Reference, Employee Center, Unified Employee Experience, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+breadcrumb: [Employee Center reference, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Approvals experience reference
@@ -108,21 +108,35 @@ Use the out-of-the-box **Approvals action group** to display the actions such as
 
 [Activity Configuration Detail form]()
 
-[Browser Extension for Employee Center forms]()
-
 [Connected Content form]()
 
 [Default Employee Profile Header Configuration record]()
 
 [Employee Center widgets]()
 
+[Employee Profile form]()
+
+[Employee Profile Header Configuration form]()
+
+[Employee Profile portal configuration form]()
+
+[Employee Profile upgrade scenarios]()
+
 [Enhanced Requests Experience forms]()
 
 [External Link form]()
 
+[Featured Content form]()
+
+[Footer form]()
+
+[Footer Menus form]()
+
 [Guided Self-Service reference]()
 
 [Menu Item form]()
+
+[Overview section form]()
 
 [Portal notification configuration form]()
 

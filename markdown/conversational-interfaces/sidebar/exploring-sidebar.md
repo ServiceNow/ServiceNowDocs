@@ -7,7 +7,7 @@ release: zurich
 product: Sidebar
 classification: sidebar
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 keywords: [Virtual Agent, sidebar, workspace, discussion panel, activity stream]
 breadcrumb: [Sidebar, Conversational Interfaces]

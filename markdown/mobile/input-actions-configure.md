@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/input-actions-configure.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Input form actions, Input actions and input sources, Configure an input form screen, Input form screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -185,15 +185,15 @@ Determine where or how the action handles the generated data.**Note:** Unless ot
 
 12. Do the following for input actions that you want to include to the input field area.
 
-<table id="choicetable_p4n_gxy_42c"><thead><tr><th align="left" id="d68586e487">
+<table id="choicetable_p4n_gxy_42c"><thead><tr><th align="left" id="d71662e487">
 
 Input action type
 
-</th><th align="left" id="d68586e490">
+</th><th align="left" id="d71662e490">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d68586e496">
+</th></tr></thead><tbody><tr><td id="d71662e496">
 
 **Attachment**
 
@@ -204,7 +204,7 @@ Procedure
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d68586e532">
+</td></tr><tr><td id="d71662e532">
 
 **Comment**
 
@@ -215,7 +215,7 @@ Procedure
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d68586e568">
+</td></tr><tr><td id="d71662e568">
 
 **Navigation button**
 

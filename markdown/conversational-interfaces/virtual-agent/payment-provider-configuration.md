@@ -1,5 +1,5 @@
 ---
-title: Complete the Payment Provider Configuration
+title: Complete the payment provider configuration
 description: Fill out the information in the Payment Provider Configuration table to connect your payment provider information to your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/payment-provider-configuration.html
@@ -7,12 +7,12 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Conversational Integration with Apple Messages for Business, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Configure, Apple Messages for Business, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
-# Complete the Payment Provider Configuration
+# Complete the payment provider configuration
 
 Fill out the information in the Payment Provider Configuration table to connect your payment provider information to your ServiceNow® instance.
 

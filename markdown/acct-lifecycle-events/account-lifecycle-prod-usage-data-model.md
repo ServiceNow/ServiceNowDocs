@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-prod-usage-data-model.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create a product capability, Customer success, Configure, Customer Success Management]
+breadcrumb: [Create a product capability record, Product capabilities, Customer success, Configure, Customer Success Management]
 ---
 
 # Product and capability usage records
@@ -294,5 +294,5 @@ Calculated adoption score for this capability.
 </td></tr></tbody>
 </table>To configure how this usage data is displayed in the workspace, see [Configure DCE Visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-configure-dce-visual.md).
 
-**Parent Topic:**[Create a product capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-prod-cap.md)
+**Parent Topic:**[Create a product capability record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-prod-cap.md)
 

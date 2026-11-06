@@ -7,7 +7,7 @@ release: zurich
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Resolving disputes without network integration, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -17,7 +17,7 @@ breadcrumb: [Resolving disputes without network integration, Processing, Use, Di
 Complete tasks such as determining a recovery option, writing off a disputed transaction amount, and provide immediate final credit, notify the merchant, initiate provisional credit, determine reversal of provisional credit, and investigate the transaction.
 
 -   **[Detect friendly fraud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/resolve-friendly-fraud.md)**  
-Detect friendly fraud and determine the course of actions required depending on the amount being disputed, the customer relationship, and the outcome of the detection logic.
+Detect friendly fraud and determine the course of action required depending on the amount being disputed, the customer relationship, and the outcome of the detection logic. When the Friendly fraud AI agent is enabled as part of the Help resolve friendly fraud disputes agentic workflow, the agent recommends an action and helps draft the customer response.
 -   **[Manage customer communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/resolve-fraud-customer-communication.md)**  
 Provide a response and feedback to the customer for a decision made on a dispute, such as friendly fraud.
 -   **[Issue provisional credit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/provide-provisional-credit-to-customer.md)**  

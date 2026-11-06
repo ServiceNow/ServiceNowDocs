@@ -1,20 +1,20 @@
 ---
 title: Create the MID Server user and grant the role
-description: To communicate with the instance, MID Servers need a user ID and the appropriate role. Create the user ID for a MID Server and grant the ID the mid\_server role. To prevent MID Server validation failure, the system runs business rules to monitor the settings selected for MID Server users.Real-time system validation of MID Server role assignments prevents incompatible settings.
+description: To communicate with the instance, MID Servers need a user ID and the mid\_server role. Create the user ID for a MID Server and grant the respective role. To prevent MID Server validation failure, ServiceNow enforces role requirements for MID Server users.Real-time system validation of MID Server role assignments prevents incompatible settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/mid-server/t\_SetupMIDServerRole.html
 release: zurich
 product: MID Server
 classification: mid-server
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Installing the MID Server with manual or guided setup, Installing the MID Server, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Installing the MID Server, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Create the MID Server user and grant the role
 
-To communicate with the instance, MID Servers need a user ID and the appropriate role. Create the user ID for a MID Server and grant the ID the **mid\_server** role. To prevent MID Server validation failure, the system runs business rules to monitor the settings selected for MID Server users.
+To communicate with the instance, MID Servers need a user ID and the **mid\_server** role. Create the user ID for a MID Server and grant the respective role. To prevent MID Server validation failure, ServiceNow enforces role requirements for MID Server users.
 
 ## Before you begin
 
@@ -27,7 +27,7 @@ Role required: admin
 </td></tr></tbody>
 </table>## About this task
 
-The MID Server connects to an instance by using the SOAP web service. To allow authentication with the instance, create a separate user account for each MID Server or share the same account across multiple MID Servers. Grant each MID Server user the mid\_server role, which is required for the MID Server user on any instance on which basic authentication is enabled. The mid\_server role allows the MID Server to access protected tables when strict SOAP security is in place. The system adds the necessary SOAP roles automatically with this role.
+The MID Server connects to an instance using the SOAP web service. To allow authentication with the instance, each MID Server must be associated with a ServiceNow user account. The same ServiceNow user account can be shared across multiple MID Servers, but if the account uses Basic Auth, use separate accounts per MID Server so login credentials are unique. Following this task will grant each MID Server user the **mid\_server** role, which is required for the MID Server user on all instances. The **mid\_server** role allows the MID Server to access protected tables when strict SOAP security is in place. The system adds the necessary roles automatically with this role.
 
 **Note:** The strict SOAP security feature, enabled by default for any instance that uses basic authentication, protects all tables with Access Control Lists \(ACL\).
 

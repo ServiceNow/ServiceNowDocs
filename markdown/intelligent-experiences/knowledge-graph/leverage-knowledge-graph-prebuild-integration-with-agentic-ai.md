@@ -1,5 +1,5 @@
 ---
-title: Knowledge Graph
+title: Knowledge Graph integration with AI agents
 description: The prebuilt integrations of Knowledge Graph, improve live agent productivity by assisting AI agents in performing tasks and answering user queries.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/knowledge-graph/leverage-knowledge-graph-prebuild-integration-with-agentic-ai.html
@@ -7,12 +7,14 @@ release: zurich
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Exploring Knowledge Graph, Knowledge Graph, Enable AI experiences]
+keywords: [Knowledge Graph, AI agents, prebuilt integration, user context, user profile schema, personalized responses, AI agent tool, agentic AI]
+audience: administrator
+breadcrumb: [Exploring Knowledge Graph, Knowledge Graph, Managing data for AI, Enable AI Experiences]
 ---
 
-# Knowledge Graph
+# Knowledge Graph integration with AI agents
 
 The prebuilt integrations of Knowledge Graph, improve live agent productivity by assisting AI agents in performing tasks and answering user queries.
 
@@ -22,10 +24,6 @@ In this release, the available prebuilt integrations with AI agents are:
 2.  Integration with AI agents as a tool: Used to perform specific tasks that are assigned to the AI agents.
 
 ## Integration with AI agents for User Context
-
-For the users of Now Assist, AI agents integrates the context from the prebuilt User Profile schema to fetch relevant data and provide personalized responses.
-
-By leveraging relationships between users, teams, and content, Now Assist AI agents can fetch relevant, permission-aware user information and provide answers to reduce slot-filing requirement.
 
 ServiceNow AI agents integrates the context from the prebuilt User Profile schema to fetch relevant data and provide personalized responses.
 
@@ -117,5 +115,5 @@ When a user ask a query `What is my Manager's name?`, AI agents reaches out to K
 } 
 ```
 
-In this example, the table that is called is `sys_user` and column referred is `user_name`. The output also displays SysId , example: `"sysId": "62826bf03710200044e0bfc8bcbe5df1"`.
+In this example, the table that is called is `sys_user` and column referred is `user_name`. The output also displays sysId, example: `"sysId": "62826bf03710200044e0bfc8bcbe5df1"`.
 

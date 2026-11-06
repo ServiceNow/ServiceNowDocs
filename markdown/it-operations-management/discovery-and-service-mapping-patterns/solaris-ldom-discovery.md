@@ -7,7 +7,7 @@ release: zurich
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -16,13 +16,13 @@ breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by
 
 Discovery uses the Solaris Logical Domain \(LDOM\) infrastructure pattern and Solaris LDOM shared library pattern to find all LDOM data. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
-Discovery uses these patterns to run horizontal discovery. You can use the patterns on the ServiceNow AI Platform using the Zurich release or later.
+Discovery uses these patterns to run horizontal discovery. You can use the patterns on the ServiceNow AI Platform using the Brazil release or later.
 
 The Solaris LDOM infrastructure pattern is triggered automatically on Solaris Server discovery. The pattern verifies if there is an LDOM controller, and stops running if it doesn't find a controller.
 
 The Solaris LDOM shared library pattern is run as an Extension Section to the Solaris Server pattern​. The pattern modifies the Serial Number \(SN\) on LDOM machines so that it matches the SN populated by the Solaris LDOM infrastructure pattern. For further information about Solaris Server, see [Solaris discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/r_DataCollDiscoSolarisComputers.md).
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Prerequisites
 

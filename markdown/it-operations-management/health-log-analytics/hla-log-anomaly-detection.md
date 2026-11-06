@@ -7,7 +7,7 @@ release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing alert generation, prioritization, anomaly detection, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -34,11 +34,4 @@ You can manage lexical keywords as follows:
 
     View the list of lexical keywords that can indicate important issues in log entries. By default, the table lists only global keywords.
 
-
--   **[Add, edit, or delete lexical keywords in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-lexical-keywords-admin.md)**  
-Manage the keywords that Health Log Analytics looks for in your log data.
--   **[View the lexical keywords that generate alerts in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-lexical-keywords-manage.md)**  
-View the list of lexical keywords that can indicate important issues in log entries.
-
-**Parent Topic:**[Managing alert generation, prioritization, anomaly detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-controlling-alert-generation.md)
 

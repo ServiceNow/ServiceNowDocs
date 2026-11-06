@@ -7,7 +7,7 @@ release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -36,6 +36,10 @@ Instead of using the default template, you can create a questionnaire template f
 
 4.  Select **Submit**.
 
+
+## What to do next
+
+You can revise the assessment template from the **Assessment workspace**. All new assessments use the revised version once published. In-progress assessments based on the retired version finish against the questionnaire they started with. See [Update a privacy assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/create-new-smart-asmt-version.md).
 
 -   **[Assessment metric type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/prm-assessment-metric-form.md)**  
 Use the Assessment Metric Type form to create an assessment questionnaire template instead of using the default template.

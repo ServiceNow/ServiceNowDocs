@@ -7,8 +7,8 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 11
+last_updated: "2026-09-10"
+reading_time_minutes: 13
 breadcrumb: [HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
@@ -43,6 +43,16 @@ To use response templates in a chat in Agent Workspace for HR Service Delivery, 
 For more information on setting up chat in Virtual Agent, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent-landing-page.md).
 
 ## How to use response templates with form \(HR case or task\)
+
+HR administrators and managers can create response templates. Each template is associated with an HR table that is an extension of the Task \[task\] table. Configure the template to include variables pulled from that table. Also, use a condition builder to specify what a case must meet for the template to be available, such as for a specific HR service.
+
+For more information on creating or modifying a response template, see [Create or modify an HR Service Delivery response template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-templated-snippets.md).
+
+Response templates appear for an HR case form for templates associated with the Form channel and satisfy the conditions on the response template. For the HR case form, the **Responses** button appears at the top. If there are multiple templates available, you can select the appropriate one. See [Work an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_CreateAnHRCase.md).
+
+**Note:** For more information on using a response template with an HR case, see [Copy a response template to an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-templated-snippets.md).
+
+For Agent Workspace for HR Service Delivery, the Response Templates icon \(\[Omitted image "response-template-icon.png"\] Alt text: Response template icon\) appears in the Contextual sidebar. For more information, see [Using Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-use.md).
 
 HR administrators and managers can create response templates. Each template is associated with an HR table that is an extension of the Task \[task\] table. Configure the template to include variables pulled from that table. Also, use a condition builder to specify what a case must meet for the template to be available, such as for a specific HR service.
 
@@ -258,14 +268,6 @@ Indicates what groups have access to the response template.Adding groups filters
 
 </td></tr><tr><td>
 
-Language
-
-</td><td>
-
-Language in which you want the response template to be translated. **Note:** Translation feature is available only when the required language plugins are installed on the instance.
-
-</td></tr><tr><td>
-
 Template body
 
 </td><td>
@@ -292,6 +294,8 @@ Variables you can add to the template body. For example, if you choose the HR Ca
 </table>    The following GIF shows an example of an HR manager in the HR Service Delivery application creating a response template to escalate payroll discrepancy cases. The template is associated with the HR Payroll Case \[sn\_hr\_core\_case\_payroll\] table, and a condition is set to filter on cases that match the Payroll Discrepancy HR service. The template text is pasted into the body, and then a variable for the subject person is added to the salutation.
 
     \[Omitted image "response-template.png"\] Alt text: Response Template
+
+    \[Omitted image "response-template-example.gif"\] Alt text: How you can create a response template with conditions and variables.
 
 4.  Click **Submit** or **Update**.
 

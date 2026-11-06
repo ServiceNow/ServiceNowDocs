@@ -7,10 +7,10 @@ release: zurich
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
 keywords: [creator studio, servicenow creator studio, creator studio srvicenow, creatorstudio, creator studio app, creater studio, cretor studio, creter studio, servicenow customization, studio creator, no code, no-code, request app, citizen development, delegated development, delegate development, request app, request fulfill app, fulfllment app, fulfillment, visual development]
-breadcrumb: [Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Creator Studio tutorial
@@ -122,7 +122,7 @@ Role required: Creator Studio User
 
 ### About this task
 
-You can also use ServiceNow Otto for Creator on the **Build with Now Assist** tab to customize a form. But for this tutorial, you will manually enter questions.
+You can also use ServiceNow Otto for Creator on the **Build with AI** tab to customize a form. But for this tutorial, you will manually enter questions.
 
 ### Procedure
 
@@ -150,7 +150,7 @@ You can also use ServiceNow Otto for Creator on the **Build with Now Assist** ta
 
     \[Omitted image "crs-tut-add-image.png"\] Alt text: Select the image icon to upload an image
 
-    1.  Select the add image icon \(\[Omitted image "crs-tut-add-image-icon.png"\] Alt text:\).
+    1.  Select the add image icon \[Omitted image "crs-tut-add-image-icon.png"\] Alt text:.
 
     2.  Search for and choose your image to add to the form.
 
@@ -301,7 +301,7 @@ Role required: Creator Studio User
 
         \[Omitted image "crs-tut-playbook-plus.png"\] Alt text: Select the plus sign to add an activity
 
-    2.  Select the Add an activity icon \(\[Omitted image "cs-add-activity-icon.png"\]\).
+    2.  Select the Add an activity icon \[Omitted image "cs-add-activity-icon.png"\].
 
         \[Omitted image "crs-tut-playbook-step2.png"\] Alt text: Select the square to add an activity
 
@@ -326,11 +326,11 @@ Role required: Creator Studio User
 
 5.  Add the finance approval activity.
 
-    1.  Select the add icon \(\[Omitted image "cs-add-icon.png"\]\).
+    1.  Select the add icon \[Omitted image "cs-add-icon.png"\].
 
         \[Omitted image "crs-tut-playbook-step5.png"\] Alt text: Select the plus sign to add an activity
 
-    2.  Select the add an activity icon \(\[Omitted image "cs-add-activity-icon.png"\]\).
+    2.  Select the add an activity icon \[Omitted image "cs-add-activity-icon.png"\].
 
         \[Omitted image "crs-tut-playbook-step6.png"\] Alt text: Select the square to add an activity
 

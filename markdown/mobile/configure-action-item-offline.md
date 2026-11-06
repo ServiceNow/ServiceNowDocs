@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/configure-action-item-offline.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Offline mode, Considerations before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Action items/action steps, Offline mode setup options, Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Configure action items and action steps in offline mode
@@ -16,11 +16,11 @@ Configure action items to execute actions like create, edit and delete records w
 
 ## Before you begin
 
-Role required: admin
+Role required: mobile\_admin, admin
 
 ## About this task
 
-For an action item to work in offline mode you need to define the action item type to be multi-step and at least one action step to have a offline mode option.
+For an action item to work in ofﬂine mode, you must deﬁne the action item type to be multi-step and at least one action step to have an ofﬂine mode option and at least one online mode option. Offline steps only affect the local database on the user's device, so any offline step that modifies local data must have a corresponding online step to update the instance database.
 
 ## Procedure
 
@@ -42,12 +42,20 @@ For an action item to work in offline mode you need to define the action item ty
 
 9.  In the **Applicable for** field, select either **Offline** or **Both**.
 
-10. In the **Type** field, select either **New**, **Update** or **Delete**.
+    **Note:** Mobile scripting can use write-back actions and write-back-action steps. For an explanation as to how you work with mobile scripts in offline and online, see [Write-back action support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/wba-mobile-script.md).
 
-11. Complete the rest of the form as required.
+10. In the **Type** field, select either **New**, **Update**, **Delete** or **Local Save**.
 
-12. Select **Submit**.
+    **Note:** The **Local Save** option relates only to offline steps. The option is used to save input form data locally on the user's device when users perform either a Save or Submit action.
+
+11. Select the associated attachments to current record field and choose the relevant attachment inputs.
+
+    Attachments added in the input form are linked to the record when the write-back action step is triggered by a Save or Submit action. For more information, see [Associate input form attachments to the activity stream in offline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/input-form-attach-activity-stream.md).
+
+12. Complete the rest of the form as required.
+
+13. Select **Submit**.
 
 
-**Parent Topic:**[Offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/mobile-offline-mode.md)
+**Parent Topic:**[Using action items and action item steps in ofﬂine mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/offline-action-item-steps.md)
 

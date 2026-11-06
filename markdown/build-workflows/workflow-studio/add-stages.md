@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Flow and subflow stages, Building flows, Use, Workflow Studio, Build workflows]
+breadcrumb: [Flow and subflow stages, Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Configure stages and add them to a flow

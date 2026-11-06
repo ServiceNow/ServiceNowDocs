@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_EnableOnScreenAlertProperties.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure special handling notes, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -24,15 +24,15 @@ Role required: sn\_shn.admin
 
 2.  Configure the following properties.
 
-<table id="choicetable_oj1_stz_55"><tbody><tr><td id="d166474e94">
+<table id="choicetable_oj1_stz_55"><tbody><tr><td id="d189332e94">
 
-**Display special handling notes only once according to session**
+**Display special handling notes only once per session**
 
 </td><td>
 
-Special handling notes are displayed each time you access a record. Enable this property to display special handling notes only once as per the session.
+Special handling notes are displayed each time you access a record. Enable this property to display special handling notes only once per session.
 
-</td></tr><tr><td id="d166474e103">
+</td></tr><tr><td id="d189332e103">
 
 **Maximum number of notes displayed in the Special Handling Notes pop-up window**
 
@@ -40,15 +40,15 @@ Special handling notes are displayed each time you access a record. Enable this 
 
 Increase or decrease this number as desired. The default is 20 alerts.
 
-</td></tr><tr><td id="d166474e112">
+</td></tr><tr><td id="d189332e112">
 
 **Width of the Special Handling Notes pop-up window in pixels**
 
 </td><td>
 
-The width of the pop-up window in pixels. The default width is 500. If you specify less than 300, the window automatically uses the default width.
+The width of the pop-up window in pixels. The default width is 500. If you specify less that 300, the window automatically uses the default width.
 
 </td></tr></tbody>
-</table>3.  Select **Save**.
+</table>3.  Click **Save**.
 
 

@@ -1,20 +1,20 @@
 ---
 title: Identity and Access Audit
-description: Use the Identity and Access Audit to understand changes made for users, groups, roles, and ACLs.
+description: Use the Identity and Access Audit to understand changes made to users, groups, roles, and ACLs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/identity/identity-audit.html
 release: zurich
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Identity]
 ---
 
 # Identity and Access Audit
 
-Use the Identity and Access Audit to understand changes made for users, groups, roles, and ACLs.
+Use the Identity and Access Audit to understand changes made to users, groups, roles, and ACLs.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 

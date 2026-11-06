@@ -7,9 +7,9 @@ release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Parameterized tests, Building and running automated tests with the Automated Test Framework, Test building and execution, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+breadcrumb: [Parameterized tests, Building and running automated tests with the Automated Test Framework, Automated Test Framework \(ATF\) test building and execution, Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # Add parameterized data sets
@@ -38,15 +38,15 @@ Test designers can add data sets manually, or import data from a file.
 
 3.  In the Test Run Data Sets related list, add or import data sets.
 
-<table id="choicetable_ndb_zsg_5fb"><thead><tr><th align="left" id="d204107e113">
+<table id="choicetable_ndb_zsg_5fb"><thead><tr><th align="left" id="d346102e113">
 
 Option
 
-</th><th align="left" id="d204107e116">
+</th><th align="left" id="d346102e116">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d204107e122">
+</th></tr></thead><tbody><tr><td id="d346102e122">
 
 **Add**
 
@@ -59,7 +59,7 @@ The New Parameter Value Set form opens. This form includes all parameters availa
 3.  Click **Submit**.
 
 
-</td></tr><tr><td id="d204107e153">
+</td></tr><tr><td id="d346102e153">
 
 **Import**
 

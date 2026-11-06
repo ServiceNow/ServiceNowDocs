@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub Remote Process Sync
 classification: integration-hub-remote-process-sync
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 20
 breadcrumb: [Integration Hub Remote Process Sync, Workflow Data Fabric]
 ---
@@ -31,13 +31,13 @@ If you choose to use Remote Process Sync as your multi-instance integration fram
 
 Building your integration involves creating and configuring a process sync definition and its related records. For more information on how to get started with building your Remote Process Sync integration, either step through an example of how to [Build your first Remote Process Sync integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub-remote-process-sync/build-first-remote-process-sync-integration.md), or learn about [Process sync definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub-remote-process-sync/getting-started-with-remote-process-sync.md).
 
-
+\[Omitted image "remote-process-sync-design-time.png"\] Alt text: Building your Remote Process Sync integration.
 
 Managing your integration involves monitoring the outbound and inbound queues and checking for errors related to any triggered process sync definitions. For more information on how to monitor and check for errors with your Remote Process Sync integration, see [Outbound queues and inbound queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub-remote-process-sync/getting-started-with-remote-process-sync.md) and [Monitoring and troubleshooting your integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub-remote-process-sync/getting-started-with-remote-process-sync.md). You may also want to periodically evaluate the outbound and inbound flows that run automatically for your integration and determine whether to make any changes to these flows in [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio.md).
 
 **Note:** Both building and managing a Remote Process Sync integration on your instance also requires that you collaborate effectively with users of the remote instance, or remote instances. Be sure to meet with the stakeholders involved in your integration regularly to plan, manage, and continually improve the automated business processes that your multi-instance integration handles.
 
-
+\[Omitted image "remote-process-sync-overview.png"\] Alt text: Managing your Remote Process Sync integration.
 
 ## Process sync definitions
 
@@ -154,21 +154,115 @@ If your process relates to a specific domain, choose a domain other than `global
 
 A remote system contains the configurations for the outbound and inbound connections related to another ServiceNow instance. A Remote System record has the following fields:
 
-|Field|Description|
-|-----|-----------|
-|Name|Enter a name that describes the remote instance. For example, if the instance is managed by one of your customers, Customer A, enter `Customer A's Instance` in the name field.|
-|Description|Optionally, enter more details that describe the remote instance's general purpose in your business process.|
-|External ID|Enter the Sys ID for the Remote System record that shares the same process event with your instance. To get a record's Sys ID, select **Copy sys\_id** from the context menu \(\[Omitted image "context-menu-icon.png"\] Alt text: Context menu icon\) in the record's form view. For example, if your Remote Process Sync integration spans two instances, Instance A and Instance B, use the Sys ID from Instance A's Remote System record as the External ID in Instance B and vice-versa. Connecting the Sys IDs and External IDs in this way helps multiple instances know which instance to connect to when the automated outbound and inbound flows run.|
-|Application|Automatically set to your current [application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/c_ApplicationScope.md).|
-|Domain|If your process relates to a specific domain, choose a domain other than `global`. For more information, see [Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/domain-sep-landing-page.md).|
-|Error Subflow|Select the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\) to find and choose a subflow that you want to run when the connection to the remote instance fails. The subflow that you select will run whenever your local instance can't connect to the remote instance after your process sync definition triggers. You can view remote systems that your instance fails to connect to by navigating to **IntegrationHub** &gt; **Remote Process Sync** &gt; **Remote Systems - With Errors**.|
-|Connection Alias|Select the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\) to find and choose a Connection &amp; Credential Alias record that you want to use to authenticate with the remote instance. If you haven't set up a Connection &amp; Credential Alias record for this purpose yet, create a new record with Connection and Credential in the Type field. For more information, see [Create a Connection and Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connection-alias.md).|
-|Outbound State|Set to `Disabled` by default. You can change this field's value to `Active` by selecting the **Validate and Activate Remote System** related link in this Remote System record's form view after you finish creating the record.|
-|Inbound API User|User who can connect to the remote instance. This user must have credentials that match those of the user with the ih\_process\_sync\_api role in the remote instance.|
-|Run Inbound Flows as|Select the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\) to find and choose a user that you want to run the inbound flow for the associated process event. Option to specify the user that runs the flow. You can select the system user or the user who initiates the session. Select the user who initiates the session option when updates should come from the user who triggered the flow. For example, use this option when you want the incident record comments to come from the user who started the flow. Settings for the Run as option in a flow don't apply to child subflows.|
-|Inbound State|Set to `Disabled` by default. You can change this field's value to `Active` by selecting the **Validate and Activate Remote System** related link in this Remote System record's form view after you finish creating the record.|
+<table id="table_ofm_nck_2nb"><thead><tr><th>
 
-**Note:** After creating a Remote System record with the appropriate fields filled in, you must then click the **Validate and Activate Remote System** related link. Clicking this link checks that you can successfully connect to the remote instance and then activates the outbound and inbound connections.
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Name
+
+</td><td>
+
+Enter a name that describes the remote instance. For example, if the instance is managed by one of your customers, Customer A, enter `Customer A's Instance` in the name field.
+
+</td></tr><tr><td>
+
+Description
+
+</td><td>
+
+Optionally, enter more details that describe the remote instance's general purpose in your business process.
+
+</td></tr><tr><td>
+
+External ID
+
+</td><td>
+
+Enter the Sys ID for the Remote System record that shares the same process event with your instance. To get a record's Sys ID, select **Copy sys\_id** from the context menu \(\[Omitted image "context-menu-icon.png"\] Alt text: Context menu icon\) in the record's form view. For example, if your Remote Process Sync integration spans two instances, Instance A and Instance B, use the Sys ID from Instance A's Remote System record as the External ID in Instance B and vice-versa. Connecting the Sys IDs and External IDs in this way helps multiple instances know which instance to connect to when the automated outbound and inbound flows run.
+
+</td></tr><tr><td>
+
+Application
+
+</td><td>
+
+Automatically set to your current [application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/c_ApplicationScope.md).
+
+</td></tr><tr><td>
+
+Domain
+
+</td><td>
+
+If your process relates to a specific domain, choose a domain other than `global`. For more information, see [Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/domain-sep-landing-page.md).
+
+</td></tr><tr><td>
+
+Error Subflow
+
+</td><td>
+
+The subflow to run if the Inbound or Outbound State becomes errored.
+
+ Use the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\) to select a subflow. A subflow appears on this list if:
+
+1.  It is an active, published subflow, and
+2.  An input to the subflow is of type Reference to the Process Sync Remote Systems \[ih\_sync\_remote\_system\] table.
+
+ Choose the subflow you want to run when the connection to the remote instance fails. The subflow you select runs whenever your local instance can't connect to the remote instance after your process sync definition triggers.
+
+ There is an error subflow template you can copy and use to make your own Error Subflows. The RPS Error Subflow Template enables you to select notification methods for when the Inbound and Outbound States are errored. You can view the template by navigating to Workflow Studio and searching for it in the Subflows tab.
+
+ You can view remote systems that your instance fails to connect to by navigating to **All** &gt; **IntegrationHub** &gt; **Remote Process Sync** &gt; **Remote Systems - With Errors**.
+
+</td></tr><tr><td>
+
+Connection Alias
+
+</td><td>
+
+Select the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\) to find and choose a Connection &amp; Credential Alias record that you want to use to authenticate with the remote instance. If you haven't set up a Connection &amp; Credential Alias record for this purpose yet, create a new record with Connection and Credential in the Type field. For more information, see [Create a Connection and Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connection-alias.md).
+
+</td></tr><tr><td>
+
+Outbound State
+
+</td><td>
+
+Set to `Disabled` by default. You can change this field's value to `Active` by selecting the **Validate and Activate Remote System** related link in this Remote System record's form view after you finish creating the record.
+
+</td></tr><tr><td>
+
+Inbound API User
+
+</td><td>
+
+User who can connect to the remote instance. This user must have credentials that match those of the user with the ih\_process\_sync\_api role in the remote instance.
+
+</td></tr><tr><td>
+
+Run Inbound Flows as
+
+</td><td>
+
+Select the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\) to find and choose a user that you want to run the inbound flow for the associated process event. Option to specify the user that runs the flow. You can select the system user or the user who initiates the session. Select the user who initiates the session option when updates should come from the user who triggered the flow. For example, use this option when you want the incident record comments to come from the user who started the flow. Settings for the Run as option in a flow don't apply to child subflows.
+
+</td></tr><tr><td>
+
+Inbound State
+
+</td><td>
+
+Set to `Disabled` by default. You can change this field's value to `Active` by selecting the **Validate and Activate Remote System** related link in this Remote System record's form view after you finish creating the record.
+
+</td></tr></tbody>
+</table>**Note:** After creating a Remote System record with the appropriate fields filled in, you must then click the **Validate and Activate Remote System** related link. Clicking this link checks that you can successfully connect to the remote instance and then activates the outbound and inbound connections.
 
 After creating a Process Event record and a Remote System record, you can then associate Workflow Studio subflows with these records so that automated actions run whenever your process sync definition triggers.
 
@@ -302,6 +396,22 @@ Domain in which the automated action for your integration ran
 
 </td></tr><tr><td>
 
+Time In Queue
+
+</td><td>
+
+Time spent waiting for the processing of the record.
+
+</td></tr><tr><td>
+
+Processing Time
+
+</td><td>
+
+Time spent processing the record, in milliseconds.
+
+</td></tr><tr><td>
+
 Outbound Subflow Context
 
 </td><td>
@@ -325,32 +435,27 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Sequence
+Transform Context
 
 </td><td>
 
-Order in the queue. A lower number is processed before a higher number.
+Sys ID of the execution record for the inbound flow that processed the payload
 
 </td></tr><tr><td>
 
-Status
+Domain
 
 </td><td>
 
-Processing status of the payload in the inbound queue. Options include:-   Ready
--   Processed
--   Error
--   Skipped
-
- **Note:** If an Inbound Queue record has an Error status, change the status to Ready to retry processing the inbound payload.
+Domain in which the automated action for your integration ran
 
 </td></tr><tr><td>
 
-Process Event
+Local Correlation ID
 
 </td><td>
 
-[Process event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub-remote-process-sync/getting-started-with-remote-process-sync.md) associated with the integration action
+Correlation ID on the local instance
 
 </td></tr><tr><td>
 
@@ -364,19 +469,19 @@ Type of record operation that the remote instance performed, which caused the re
 
 </td></tr><tr><td>
 
-Transform Context
+Payload
 
 </td><td>
 
-Sys ID of the execution record for the inbound flow that processed the payload
+String as JSON payload for inbound data
 
 </td></tr><tr><td>
 
-Local Correlation ID
+Process Event
 
 </td><td>
 
-Correlation ID on the local instance
+[Process event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub-remote-process-sync/getting-started-with-remote-process-sync.md) associated with the integration action
 
 </td></tr><tr><td>
 
@@ -396,19 +501,40 @@ Remote System
 
 </td></tr><tr><td>
 
-Domain
+Sequence
 
 </td><td>
 
-Domain in which the automated action for your integration ran
+Order in the queue. A lower number is processed before a higher number.
 
 </td></tr><tr><td>
 
-Payload
+Time In Queue
 
 </td><td>
 
-String as JSON payload for inbound data
+Time spent waiting for the processing of the record.
+
+</td></tr><tr><td>
+
+Processing Time
+
+</td><td>
+
+Time spent processing the record, in milliseconds.
+
+</td></tr><tr><td>
+
+Status
+
+</td><td>
+
+Processing status of the payload in the inbound queue. Options include:-   Ready
+-   Processed
+-   Error
+-   Skipped
+
+ **Note:** If an Inbound Queue record has an Error status, change the status to Ready to retry processing the inbound payload.
 
 </td></tr></tbody>
 </table>**Note:** Both the Outbound Queue and Inbound Queue tables are maintained by table cleaners that remove records from these tables every 30 days.

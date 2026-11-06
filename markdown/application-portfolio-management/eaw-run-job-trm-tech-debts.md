@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-run-job-trm-tech-debts.html
 release: zurich
 topic_type: task
-last_updated: "2026-08-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with Technology Reference Model \(TRM\) in EA Workspace, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with Technology Reference Model \(TRM\) in EA Workspace, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Update TRM technical debt data using scheduled job

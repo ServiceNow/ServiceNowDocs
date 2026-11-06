@@ -18,7 +18,7 @@ Manage distributed version control and source code in GitHub from your ServiceNo
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-GitHub spoke v3.6.4 is the latest version.
+GitHub spoke v3.6.4 is the latest version. For version history of the spoke, see [GitHub spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-github.html).
 
 ## Supported versions
 
@@ -121,7 +121,7 @@ ServiceNow supports specific events on GitHub that create triggers. You must fir
 |Release Deleted|Flow is triggered when a release is removed on GitHub.|
 |Release Released|Flow is triggered when a release is released on GitHub.|
 
-For information about setting up the triggers for the GitHub spoke, see [Activate the trigger definition on ServiceNow instance for the GitHub spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/set-up-triggers-github-spoke.md). For more information about inbound integration, see [Conditional and event-driven inbound integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/conditional-and-event-driven-inbound-integration.md).
+For information about setting up the triggers for the GitHub spoke, see [Activate the trigger definition on ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/set-up-triggers-github-spoke.md). For more information about inbound integration, see [Conditional and event-driven inbound integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/conditional-and-event-driven-inbound-integration.md).
 
 ## Spoke subflows
 

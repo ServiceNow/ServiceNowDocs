@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/record-usage-entitlement.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer Contracts and Entitlements, Customer management, Use, Customer Service Management]
 ---
@@ -16,7 +16,9 @@ Record the consumption or usages made out of the total characteristic quantities
 
 ## Before you begin
 
-Role required: sn\_customerservice\_manager, sn\_customerservice\_agent and sn\_customerservice.consumer\_agent
+Role required: sn\_customerservice\_manager, sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, or sn\_bus\_loc.svc\_location\_support\_agent
+
+**Note:** Location support agent can access Customer contracts and Entitlements lists only in the seismic UI. For details on which entitlements, a user with sn\_bus\_loc.svc\_location\_support\_agent role can edit entitlement usage, see [Location Support Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-data-model-roles.md).
 
 ## About this task
 
@@ -26,56 +28,56 @@ When an entitlement moves to the Active state, usage records are created. You ca
 
 1.  Navigate to the ServiceNow AI Platform interface or the CRM Workspace.
 
-<table id="choicetable_m1c_yvj_d1c"><thead><tr><th align="left" id="d294569e63">
+<table id="choicetable_m1c_yvj_d1c"><thead><tr><th align="left" id="d333141e72">
 
 Interface
 
-</th><th align="left" id="d294569e66">
+</th><th align="left" id="d333141e75">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d294569e72">
+</th></tr></thead><tbody><tr><td id="d333141e81">
 
 **Platform interface**
 
 </td><td>
 
-Navigate to **All** &gt; **Customer Service** &gt; **Contracts and Entitlements** &gt; **Service Contracts**.
+Navigate to **All** &gt; **Customer Service** &gt; **Contracts and Entitlements** &gt; **Customer Contracts**.
 
-</td></tr><tr><td id="d294569e96">
+</td></tr><tr><td id="d333141e105">
 
 **CRM Workspace**
 
 </td><td>
 
--   Navigate to **All** &gt; **Workspace Experience** &gt; **Workspaces** &gt; **CSM Configurable Workspace**.
+-   Navigate to **All** &gt; **Workspace Experience** &gt; **Workspaces** &gt; **CRM Workspace**.
 -   In the list view, navigate to **Contracts and Entitlements** &gt; **Entitlements**.
 
 
 </td></tr></tbody>
 </table>2.  Record the usage on an entitlement.
 
-<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d294569e148">
+<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d333141e158">
 
 From
 
-</th><th align="left" id="d294569e151">
+</th><th align="left" id="d333141e161">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d294569e157">
+</th></tr></thead><tbody><tr><td id="d333141e167">
 
-**Service Contracts**
+**Customer Contracts**
 
 </td><td>
 
 1.  Select the contract that has the entitlement that you want to track the usage on.
-2.  From the Service Contract Lines related list, select the contract line that has the entitlement.
+2.  From the Customer Contract Lines related list, select the contract line that has the entitlement.
 3.  From the Entitlements related list, select the entitlement.
 4.  From the Entitlement Usages related list, open the usage record.
 
 
-</td></tr><tr><td id="d294569e181">
+</td></tr><tr><td id="d333141e191">
 
 **Entitlements**
 
@@ -92,6 +94,6 @@ Do this
 
 5.  On the Entitlement page, select **Update** to save the entitlement.
 
-    If you have used the Service Contracts menu to record the usage, then select **Update** to save the contract line and then the service contract.
+    If you have used the Customer Contracts menu to record the usage, then select **Update** to save the contract line and then the customer contract.
 
 

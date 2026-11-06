@@ -7,9 +7,9 @@ release: zurich
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Create your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Create your app, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Create your application from scratch
@@ -20,7 +20,7 @@ If the available application templates in App Engine Studio \(AES\) don't fit yo
 
 **Note:** To create apps in AES, you must be an admin or in the App Engine Studio Users group. If you are in the App Engine Studio User Limited group, you can only edit existing apps, not create new ones.
 
-Role required: admin, sn\_app\_eng\_studio.user, sn\_app\_eng\_studio.admin
+Role required: admin, sn\_app\_eng\_studio.user
 
 ## Procedure
 

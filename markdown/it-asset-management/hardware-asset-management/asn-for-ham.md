@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-01-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Explore, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Advanced Shipment Notification \(ASN\)
@@ -18,15 +18,13 @@ Advanced Shipment Notification \(ASN\) automates the creation of asset records i
 
 When a purchase order is created for specific models, vendors can provide detailed asset and shipment information ahead of delivery. ASN uses this information to generate asset records in the In Transit state automatically, reducing manual entry, and enhancing tracking accuracy.
 
-Starting with Hardware Asset Management version 15.0.0, you can initiate the ASN workflow with any of the following roles:
+You can initiate the ASN workflow with any of the following roles:
 
 -   ham\_admin
 -   ham\_user
 -   procurement\_admin
 -   asset
--   admin \(existing role\)
-
-Starting with Hardware Asset Management version 15.0.0, you can initiate the ASN import process in the Procurement view of the Hardware Asset Workspace.
+-   admin
 
 ## ASN Workflow
 
@@ -74,4 +72,6 @@ The system validates the data in the ASN import template to verify its accuracy 
     2.  If the provided quantity exceeds 1, logs an error message in the staging table, resets the quantity to **1**, and creates an asset record.
 
 For more details on ASN import process, see [Use Advanced Shipment Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/advanced-shipment-notification.md).
+
+**Parent Topic:**[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/exploring-ham.md)
 

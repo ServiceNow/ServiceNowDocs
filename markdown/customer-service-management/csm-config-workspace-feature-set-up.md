@@ -1,20 +1,20 @@
 ---
-title: Set up additional CSM workspace features
-description: You can set up additional features for use in CSM workspaces. These features typically require plugin activation and some configuration.
+title: Set up additional CRM Workspace features
+description: You can set up additional features for use in CRM Workspace. These features typically require plugin activation and some configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-config-workspace-feature-set-up.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# Set up additional CSM workspace features
+# Set up additional CRM Workspace features
 
-You can set up additional features for use in CSM workspaces. These features typically require plugin activation and some configuration.
+You can set up additional features for use in CRM Workspace. These features typically require plugin activation and some configuration.
 
-You can set up the following features for use in CSM workspaces.
+You can set up the following features for use in CRM Workspace.
 
 <table id="table_hzb_13k_xnb"><thead><tr><th>
 

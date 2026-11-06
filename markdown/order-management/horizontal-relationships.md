@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/horizontal-relationships.html
 release: zurich
 topic_type: concept
-last_updated: "2026-07-28"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Order fulfillment, Order Management, Use, Sales Customer Relationship Management]
 ---
 
@@ -35,7 +35,14 @@ You can establish the relationship by selecting the specifications or by definin
 
 Let's look at an example of a horizontal relationship, such as the relationship between the Voice over Internet Protocol \(VoIP\) and an internet service. VoIP requires an active internet connection but VoIP and an internet service are defined in a different product hierarchy. With a horizontal relationship, you can define a Requires relationship between VoIP and an internet service in the product catalog to support the order creation process for VoIP and to fulfill the order.
 
-**Note:** To configure a compatibility rule for a horizontal relationship, see  and .
+**Note:** To configure a compatibility rule for a horizontal relationship, see [Configuring compatibility rules for horizontal relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-compatibility-management.md).
 
 **Parent Topic:**[Order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/reviewing-orchestration-plans-order-fulfillment.md)
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-order-management.md)
 

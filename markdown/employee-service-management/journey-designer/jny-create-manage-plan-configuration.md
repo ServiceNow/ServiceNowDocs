@@ -1,26 +1,26 @@
 ---
-title: Create and manage plan configurations in Journey designer version 1
-description: Create and manage plan configurations that are based on a plan type in Journey designer version 1. Plan configurations are customized for specific employee audiences.
+title: Create and manage plan configurations in Journey designer
+description: Create and manage plan configurations that are based on a plan type. Plan configurations are customized for specific employee audiences.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-designer/jny-create-manage-plan-configuration.html
 release: zurich
 product: Journey Designer
 classification: journey-designer
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Journey designer features, Configure, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
-# Create and manage plan configurations in Journey designer version 1
+# Create and manage plan configurations in Journey designer
 
-Create and manage plan configurations that are based on a plan type in Journey designer version 1. Plan configurations are customized for specific employee audiences.
+Create and manage plan configurations that are based on a plan type. Plan configurations are customized for specific employee audiences.
 
 ## Before you begin
 
 -   A plan type must exist: [Create and manage plan types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-create-manage-plans.md)
 -   Journey designer v1
--   Role required: admin
+-   Role required: admin \[sn\_jny.admin\]
 
 ## Procedure
 

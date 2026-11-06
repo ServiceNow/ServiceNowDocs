@@ -7,7 +7,7 @@ release: zurich
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2025-09-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dispute Rules Content Pack for Nacha, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---

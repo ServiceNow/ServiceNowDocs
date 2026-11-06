@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/javascript-modules-third-party-libraries.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 5
-breadcrumb: [Building applications in source code, Building pro-code applications, Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Building applications in source code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # JavaScript modules and third-party libraries
@@ -16,7 +16,7 @@ Optimize your code base using JavaScript modules to group related code or add th
 
 ## Overview of using JavaScript modules
 
-A module is a JavaScript file that contains related code that's shared and reused within applications on an instance. You can add JavaScript modules and third-party libraries in scoped applications that are created or convertedwith the ServiceNow IDE or ServiceNow SDK. You can also use TypeScript to create modules and compile them to JavaScript before building your application. After installing an application on an instance, JavaScript modules are stored in the EcmaScript Module \[sys\_module\] table.
+A module is a JavaScript file that contains related code that's shared and reused within applications on an instance. You can add JavaScript modules and third-party libraries in applications that are created or convertedwith the ServiceNow IDE or ServiceNow SDK. You can also use TypeScript to create modules and compile them to JavaScript before building your application. After installing an application on an instance, JavaScript modules are stored in the EcmaScript Module \[sys\_module\] table.
 
 In a module, you identify code for reuse with export statements. Then, use import or require statements to reuse the code elsewhere in your applications. You must add third-party Node Package Manager \(npm\) libraries to applications as dependencies to use their module code. For general information about the syntax used to create JavaScript modules, see the [JavaScript modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) page on the MDN Web Docs website.
 
@@ -24,7 +24,7 @@ In a module, you identify code for reuse with export statements. Then, use impor
 
 ## Limitations
 
--   Global applications and application customizations aren't supported with instances on the Zurich release.
+-   Application customizations aren't supported.
 -   Modules can be used only within the application scope in which they're added. They can't be used across application scopes.
 -   A subset of ECMAScript features are supported in modules in accordance with the [JavaScript engine feature support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/javascript-engine-feature-support.md).
 -   Node.js APIs aren’t supported in modules. The ServiceNow SDK build process polyfills any Node.js built-in modules while packaging modules, otherwise modules are resolved from the `node_modules` directory.
@@ -33,7 +33,7 @@ In a module, you identify code for reuse with export statements. Then, use impor
 -   import and export statements are only supported in modules. To import module code in scripts, such as business rules or script includes, use require statements.​
 -   JavaScript modules \[sys\_module\] can be modified only in the ServiceNow IDE or in Visual Studio Code with the ServiceNow SDK.
 
-**Important:** You can't use third-party libraries that rely on unsupported functionality, such as unsupported APIs or ECMAScript features. For more information, see [Third-party library support in Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/third-party-library-support.md).
+**Important:** You can't use third-party libraries that rely on unsupported functionality, such as unsupported APIs or ECMAScript features. For more information, see [Third-party library support in Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/third-party-library-support.md).
 
 ## Exporting modules
 

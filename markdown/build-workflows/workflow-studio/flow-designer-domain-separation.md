@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Flows, Explore, Workflow Studio, Build workflows]
+breadcrumb: [Explore flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Domain separation and Workflow Studio
@@ -83,11 +83,6 @@ Follow these general guidelines when using domain separation with Workflow Studi
 
     Users in a parent domain can't see flows, actions, and subflows in a child domain. They must change to the domain to which they belong to edit them. For example, an administrator in the TOP domain can't see flows from the ACME domain. The administrator must switch to the ACME domain to see and edit them.
 
-
--   **[Generate group approvals for domain separated requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/generate-group-approvals-domain.md)**  
-Configure Workflow Studio to generate approvals for all members of a group or to restrict approvals to only group members who are visible from the domain of the request.
-
-**Parent Topic:**[Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/exploring-flows.md)
 
 **Related topics**  
 

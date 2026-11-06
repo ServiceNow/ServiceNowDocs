@@ -7,7 +7,7 @@ release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 20
 breadcrumb: [Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -39,14 +39,6 @@ Starting with previous release, many terms within all the GRC core applications 
 |**Policy and Compliance**|**Policy Statement**|**Control Objective**|
 |**Risk**|**All Risks** &gt; **Statement** &gt; **field**|**My Risks** &gt; **Risk Statement** field|
 |**My Risks** &gt; **Statement** field|**My Risks** &gt; **Risk Statement** field|
-
-\[Omitted image "indicator-nomenclature.png"\] Alt text: indicator form showing the control/risk field
-
-\[Omitted image "indicator-template-nomenclature.png"\] Alt text: indicator template form showing the control/risk field
-
-\[Omitted image "grc-issue-nomenclature.png"\] Alt text: GRC issue record with the Details tab showing highlighted areas for Control Objective/Risk Statement and Control/Risk
-
-\[Omitted image "risk-nomenclature.png"\] Alt text: Risk record showing highlighted areas for Risk Statement field
 
 ## Industry references
 

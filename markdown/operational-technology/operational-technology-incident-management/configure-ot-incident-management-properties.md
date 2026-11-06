@@ -7,7 +7,7 @@ release: zurich
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Operational Technology Incident Management, Operational Technology]
 ---
@@ -27,15 +27,15 @@ Set the system properties for the Operational Technology Incident Management app
 
 2.  Enable the following properties as needed for your organization.
 
-<table id="choicetable_xc5_cxy_wvb"><thead><tr><th align="left" id="d50051e97">
+<table id="choicetable_xc5_cxy_wvb"><thead><tr><th align="left" id="d50569e99">
 
 Property
 
-</th><th align="left" id="d50051e100">
+</th><th align="left" id="d50569e102">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d50051e106">
+</th></tr></thead><tbody><tr><td id="d50569e108">
 
 **com.sn\_ot\_inc\_mgmt.sn\_ot\_incident\_task.closure**
 
@@ -43,7 +43,7 @@ Description
 
 Property to close the open OT incident tasks when the related incident is closed or canceled.If you want to close the open incident tasks when the related incident is closed or canceled, set this field to **Yes**.
 
-</td></tr><tr><td id="d50051e120">
+</td></tr><tr><td id="d50569e122">
 
 **com.snc.sn\_ot\_incident.create.child.enable**
 
@@ -51,7 +51,7 @@ Property to close the open OT incident tasks when the related incident is closed
 
 Property to create a child incident feature for the OT incident records.If you want to create a child incident for inciden records, set this field to **Yes**.
 
-</td></tr><tr><td id="d50051e134">
+</td></tr><tr><td id="d50569e136">
 
 **com.snc.sn\_ot\_incident.copy.attributes**
 
@@ -59,7 +59,7 @@ Property to create a child incident feature for the OT incident records.If you w
 
 Property to list the attributes that you want to copy from the parent incident to the child incident.Add any additional attributes needed in the comma-separated list.
 
-</td></tr><tr><td id="d50051e145">
+</td></tr><tr><td id="d50569e147">
 
 **glide.ui.sn\_ot\_incident\_activity.fields**
 

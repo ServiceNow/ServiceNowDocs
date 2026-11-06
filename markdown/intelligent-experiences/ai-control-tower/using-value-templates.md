@@ -7,9 +7,9 @@ release: zurich
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Use, AI Control Tower \(legacy\), Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Using value templates
@@ -23,9 +23,7 @@ Value templates offer the following benefits.
 -   Transparency: Provides visibility into how value is determined for an AI asset.
 -   Customization: Supports various persona-driven and formula-based definitions.
 
-**Note:** When you change an AI asset state from Managed to Unmanaged, the associated value template state automatically changes from Published to Unmanaged and Draft to Retired. Existing value template mappings remain same, but the AI asset is excluded from value calculations. When you again change the AI asset to Managed state, the value template state \(only Unmanaged mappings\) automatically reverts to Published.
-
-Currently, value templates are supported for skills, AI agents, and AI use cases. A value template is assigned to an asset when a skill, AI agent, or AI use case is activated and deployed as an asset in the system. The following table lists the default value templates.
+Currently, value templates are supported for skills and agents. A value template is assigned to an asset when a skill or agent is activated and deployed as an asset in the system. The following table lists the default value templates.
 
 <table id="table_fbp_pvw_xfc"><thead><tr><th>
 
@@ -59,25 +57,5 @@ AWS and Microsoft AI agents
 
 Daily AI agent invocations \(Usage\) x 15 mins \(Time\) x 50% \(Acceptance rate\)
 
-</td></tr><tr><td>
-
-ServiceNow AI use case
-
-</td><td>
-
-Daily AI use case invocations \(Usage\) x average time per invocation \(Time\) x 50% \(Acceptance rate\)
-
 </td></tr></tbody>
-</table>-   **[Create a new value template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/create-new-value-template.md)**  
-Add a value template to define, calculate, and track the value delivered by an AI asset.
--   **[Edit a value template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/edit-value-template.md)**  
-Edit a value template to update how value is calculated for AI assets.
--   **[Create a new value template mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/create-value-template-mapping.md)**  
-Create a value template mapping for an AI asset to standardize the usage of templates.
--   **[Assign a default template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/assign-default-template.md)**  
-Assign a template as default to an AI system.
--   **[Review a value template mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/review-value-template-mapping.md)**  
-Review and approve value template mapping for an AI asset.
-
-**Parent Topic:**[Using AI Control Tower \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/using-ai-control-tower.md)
-
+</table>

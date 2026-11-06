@@ -7,9 +7,9 @@ release: zurich
 product: Procurement
 classification: procurement
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Sourcing items in a service catalog request, Procurement, Asset Management, IT Service Management]
+breadcrumb: [Sourcing items in a service catalog request, Procurement, Asset Management common applications, IT Service Management]
 ---
 
 # Create a purchase order from a request
@@ -22,17 +22,17 @@ Role required: procurement\_admin or procurement\_user
 
 ## About this task
 
-If you don't have the Sourcing and Procurement Operations \(SPO\) application, you can create a purchase order to obtain items and fulfill requests from the Service Catalog.
+If you don't have the Sourcing and Procurement Operations \(SOP\) application, you can create a purchase order to obtain items and fulfill requests from the Service Catalog.
 
 If you have the Sourcing and Procurement Operations \(SPO\) application along with required plugins installed, and the necessary role assigned, you can create a purchase order by accessing the Shopping Hub catalog items.
 
--   Required plugins:
+-   Required Plugins:
     -   Asset Management Integration for Sourcing and Procurement Operations \(com.snc.sn\_spend\_asset\)
     -   Sourcing and Purchasing Automation \(com.snc.sn\_pr\)
     -   Shopping Hub \(com.snc.uib.sn\_spend\_uib\)
--   Required roles: The procurement manager has the asset manager role \(sn\_spend\_asset.spo\_shopper\) and other roles depending on the IT Asset Management applications.
+-   Required Roles: The procurement manager has the asset manager role \(sn\_spend\_asset.spo\_shopper\) and other roles depending on the IT Asset Management applications.
 
-For more information about the Asset Management Integration for Sourcing and Procurement Operations \(com.snc.sn\_spend\_asset\) plugin, see [Sourcing and Procurement Operations integration with IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/spo-itam-better-together.md). For more information about Asset Management Integration for Sourcing and Procurement Operations better together feature, see [Enhancing the asset procurement experience using IT Asset Management \(ITAM\) and Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/better-together/use-ham-spo-for-po-creation.md).
+For more information about the Asset Management Integration for Sourcing and Procurement Operations \(com.snc.sn\_spend\_asset\) plugin, see [Sourcing and Procurement Operations integration with IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/spo-itam-better-together.md).
 
 ## Procedure
 

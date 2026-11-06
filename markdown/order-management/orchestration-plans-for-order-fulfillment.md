@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/orchestration-plans-for-order-fulfillment.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Order orchestration, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -29,7 +29,7 @@ Use the order orchestration UI to see:
 
 -   A pictorial representation that shows the hierarchy of all order line items, domain orders, and order tasks for an order, order line item, or a domain order.
 -   The dependencies between the domain orders and order tasks.
--   The current state of the associated order line items, domain orders, and order tasks within the hierarchy.
+-   The current state of the associated order line items, domain orders, and order tasks in the hierarchy.
 
 The following image shows the order orchestration UI:
 

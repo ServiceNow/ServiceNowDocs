@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Authenticator applications, Using MFA, Multi-factor authentication, Access Management]
+breadcrumb: [Authenticator applications, Using MFA, Multi-factor authentication, Authentication, Access Management]
 ---
 
 # Change an Authenticator app
@@ -26,15 +26,15 @@ Role required: none
 
 1.  Navigate to **All** &gt; **Self-Service** &gt; **My Profile**.
 
-    **Note:** You can also access your profile by clicking on your user name in the instance header.
+    **Note:** You can also access your profile by selecting your user name in the instance header.
 
-2.  In your user profile, click **Muti-factor Authentication** in the **Related Links** section.
+2.  In your user profile, select **Multi-factor Authentication** in the **Related Links** section.
 
 3.  Under **Authenticator app**, select the edit icon.
 
     \[Omitted image "manage-authenticator-app.png"\] Alt text: Manage Authenticator
 
-4.  In the Change authenticator code window, click **Change**.
+4.  In the Change authenticator code window, select **Change**.
 
 5.  Follow the directions on the screen to register the authenticator app with the device.
 

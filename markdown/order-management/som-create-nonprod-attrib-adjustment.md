@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/som-create-nonprod-attrib-adjustment.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Pricing Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a non-product attribute pricing adjustment
@@ -16,11 +16,11 @@ Create a pricing adjustment for a product offering based on non-product characte
 
 ## Before you begin
 
-Role required: sn\_csm\_pricing\_pricelist\_administrator, sn\_csm\_pricing\_pricelist\_manager
+Role required: sn\_csm\_pricing.pricelist\_administrator, sn\_csm\_pricing.pricelist\_manager
 
 ## About this task
 
-Non-product attributes are represented as context variables, which identify non-product characteristics, such as account, shipping state, and product offering. Pricing Management provides a set of default context variables for non-product attributes. You can view the list of context variables for non-product attributes in the **Context variables** field in the Standard Price Adjustment Rule Matrix. You can also review a list of system-defined context variables in the Context Variables \[sn\_csm\_ctxrul\_mgt\_context\_variable\] table.
+Non-product attributes are represented as context variables, which identify non-product characteristics, such as billing state or shipping zip code. Pricing Management provides a set of default context variables for non-product attributes. You can view the list of context variables for non-product attributes in the **Context variables** field in the Standard Price Adjustment Rule Matrix. You can also review a list of system-defined context variables in the Context Variables \[sn\_csm\_ctxrul\_mgt\_context\_variable\] table.
 
 However, if you have a non-product attribute that is not available as a default context variable, such as sales channel, your system administrator can [create a custom context variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-create-context-variable.md) for that attribute. You can then use the custom context variable as an input in the decision table for the Standard Price Adjustment Matrix.
 
@@ -32,7 +32,7 @@ However, if you have a non-product attribute that is not available as a default 
 
 3.  In the Pricing Matrices list, select Standard Price Adjustment Matrix.
 
-4.  If you want to remove any of the context variables in the Content variables section In the Rule Matrix Standard Price Adjustment Matrix record, delete the pills that represent context variables for non-product attributes.
+4.  If you want to remove any of the context variables in the Context variables section In the Rule Matrix Standard Price Adjustment Matrix record, delete the pills that represent context variables for non-product attributes.
 
 5.  If you have a large number of rows in the decision table and you want to optimize rule matrix performance, in **Query optimization variables**, select one or more context variables that the system uses to filter the pricing decision table rows that are evaluated.
 
@@ -60,8 +60,8 @@ However, if you have a non-product attribute that is not available as a default 
 
     6.  Select **Save**.
 
-10. Select **Publish** to apply the pricing rule for the non-product attribute.
+    7.  Select **Publish**.
 
-    The adjustments are available to sales or order agents when working on quotes or orders.
+        The adjustments are available to agents when working on Sales Customer Relationship Management transactions, such as quotes or orders and to customers using the Business Portal.
 
 

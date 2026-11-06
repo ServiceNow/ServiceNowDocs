@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/using-lead-cash-process-management.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Order operations apps, Use, Sales Customer Relationship Management]
 ---
@@ -40,7 +40,7 @@ Access the Lead-to-Cash Process Management application from the CRM Workspace to
 
 -   [View and send emails in Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/view-send-emails-sales-process.md)
 
-    View consolidated emails for all hard-linked entities monitored within a sales process record and compose emails from the sales process dashboard.
+    View consolidated emails for all hard-linked entities monitored in a sales process record and compose emails from the sales process dashboard.
 
 -   [Linking, delinking, and link conversion conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/conditions-link-delink-toggle-records.md)
 
@@ -64,11 +64,18 @@ Attach files, documents, or images such as implementation plans, customer-provid
 -   **[Manage attachments for a sales process record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/manage-attachments-l2c-process-management.md)**  
 Rename, download, or delete files, documents, or images such as implementation plans, customer-provided specifications, or finalized quotes related to a customer account you're monitoring with a sales process record.
 -   **[View and send emails in Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/view-send-emails-sales-process.md)**  
-View consolidated emails for all hard-linked entities monitored within a sales process record and compose emails from the sales process dashboard.
+View consolidated emails for all hard-linked entities monitored in a sales process record and compose emails from the sales process dashboard.
 -   **[Linking, delinking, and link conversion conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/conditions-link-delink-toggle-records.md)**  
 Several conditions can enable or disable you from linking, delinking, and hard or soft-linking records in Lead-to-Cash Process Management.
 -   **[Create business process tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/create-business-process-tasks.md)**  
 Track tasks for sales process records in Lead-to-Cash Process Management such as the closure of all linked opportunities or generating orders.
 
 **Parent Topic:**[Using order operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-order-operations.md)
+
+**Related topics**  
+
+
+[Configuring Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configuring-lead-cash-process-management.md)
+
+[Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-lead-cash-process-management.md)
 

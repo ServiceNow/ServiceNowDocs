@@ -7,9 +7,9 @@ release: zurich
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage, Incident Management, IT Service Management]
+breadcrumb: [Managing incidents, Incident Management, IT Service Management]
 ---
 
 # Create an incident task
@@ -24,13 +24,15 @@ Role required: itil, sn\_incident\_write, or admin
 
 1.  Navigate to **All** &gt; **Incident** &gt; **Open**.
 
+    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
+
 2.  Open the incident record.
 
-3.  In the **Incident Tasks** related list, click **New**.
+3.  In the Incident Tasks related list, select **New**.
 
-    If you don't see the **Incident Tasks** related list, you need to add it. For information on how to add a related list, see [Add a related list to a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/configure-form-layout.md).
+    If you don't see the Incident Tasks related list, add it to the form. For information on how to add a related list, see [Add a related list to a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/configure-form-layout.md).
 
-    Alternatively, you can also right-click on the header form and on the context menu, and then select **Create Incident Task**.
+    Alternatively, select the Additional Action icon \[Omitted image "additional-actions.png"\] Alt text: and then select **Create Incident Task**.
 
 4.  On the form, fill in the fields.
 
@@ -64,7 +66,7 @@ Configuration item
 
 </td><td>
 
-The affected CI.
+Affected CI.
 
 </td></tr><tr><td>
 
@@ -72,7 +74,7 @@ State
 
 </td><td>
 
-The state is updated and tracks the incident task through several stages of resolution.**Note:** When an incident task is closed, you can no longer edit the field values in the incident task form.
+State of the incident task as it moves through the stages of resolution.**Note:** When an incident task is closed, you can no longer edit the field values in the incident task form.
 
 </td></tr><tr><td>
 
@@ -88,7 +90,7 @@ Assignment group
 
 </td><td>
 
-Group who works on the incident task. If you leave it blank, the incident is automatically assigned.
+Group that works on the incident task. If this field is empty, the incident is assigned automatically.
 
 </td></tr><tr><td>
 
@@ -104,7 +106,7 @@ Short description
 
 </td><td>
 
-A brief description of the incident task.
+Brief description of the incident task.
 
 </td></tr><tr><td>
 
@@ -112,7 +114,7 @@ Description
 
 </td><td>
 
-Detailed explanation on the incident task.
+Detailed explanation of the incident task.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -124,7 +126,7 @@ Work notes list
 
 </td><td>
 
-Users who receive notifications about this incident task when work notes are added. **Note:** You can the add me icon \[Omitted image "add-me.png"\] Alt text: Add me icon to add yourself to the work notes list.
+Users who receive notifications about this incident task when work notes are added. **Note:** Select the add me icon \[Omitted image "add-me.png"\] Alt text: to add yourself to the work notes list.
 
 </td></tr><tr><td>
 
@@ -135,7 +137,7 @@ Work notes
 Information about how to resolve the incident task, or steps taken to resolve it, if applicable.
 
 </td></tr></tbody>
-</table>5.  Click **Submit**.
+</table>5.  Select **Submit**.
 
 
 ## What to do next

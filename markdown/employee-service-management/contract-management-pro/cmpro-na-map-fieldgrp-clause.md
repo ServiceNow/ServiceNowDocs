@@ -9,8 +9,8 @@ classification: contract-management-pro
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [Contract analysis, Contract analysis clause mapping, Clause mapping, Now Assist in contract management pro, AI for contract management pro]
-breadcrumb: [Configure contract analysis, Configure, Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+keywords: [Contract analysis, Contract analysis clause mapping, Clause mapping, Now Assist in contract management pro, ServiceNow Otto for Contract Management Pro, AI for contract management pro]
+breadcrumb: [Configure contract analysis, Configure AI capabilities, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Map a field group to a clause
@@ -30,6 +30,8 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_core.contract\_conf
 2.  Navigate to **Employee** &gt; **CM Pro**.
 
 3.  Select **Activate skill** on the skill you want to activate.
+
+    \[Omitted image "cmpro-NA-skills.png"\] Alt text: AI skills available for Contract Management Pro.
 
 4.  In the General details page, view the skill details and select **Save and continue**.
 
@@ -63,7 +65,11 @@ Request table
 
 </td><td>
 
-Request table that contains the clauses that you want to map.**Note:** The Contract Request table \[sn\_cm\_core\_contract\_request\] is selected by default to centralize the configuration on a single table and improve reusability across product lines. You can choose a different table for the mapping.
+Request table that contains the clauses that you want to map.**Note:**
+
+-   The Contract Request table \[sn\_cm\_core\_contract\_request\] is selected by default to centralize the configuration on a single table and improve reusability across product lines. You can choose a different table for the mapping.
+-   For standalone requests the configurations should be done on the Contract Request table \[sn\_cm\_core\_contract\_request\].
+
 
 </td></tr><tr><td>
 
@@ -83,6 +89,8 @@ Clause that you want to map the field group to.**Note:** Only active clauses are
 
 </td></tr></tbody>
 </table>8.  Add another field group to a clause variation by selecting **New mapping**.
+
+    \[Omitted image "cmpro-na-clause-map.png"\] Alt text: Clause mapping for contract analysis with the option of adding multiple mappings.
 
 9.  Select **Save**.
 

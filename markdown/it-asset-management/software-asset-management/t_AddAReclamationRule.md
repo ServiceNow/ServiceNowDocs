@@ -7,9 +7,9 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 6
-breadcrumb: [Software Asset Management administration, Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Management administration, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Add a software reclamation rule
@@ -133,7 +133,7 @@ Software install condition/Subscription condition
 
 </td><td>
 
-The software install condition field appears if you select **Installed Software** in the **Applies to** field.
+The **Software install condition** field appears if you select **Installed Software** in the **Applies to** field.
 
  The Subscription condition field appears when the **Applies to** field is set to **Subscription software** in preconfigured rules.
 

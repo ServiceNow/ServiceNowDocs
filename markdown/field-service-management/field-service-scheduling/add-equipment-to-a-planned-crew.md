@@ -1,13 +1,13 @@
 ---
 title: Assign equipment to a planned crew
-description: Assign equipment to a planned crew to ensure they have tools for their work order tasks. Dispatchers can assign equipment through the ServiceNow AI Platform or Dispatcher Workspace. Crew leaders can assign equipment or modify their crews through the Now Mobile Agent application.Assign equipment to a planned crew through the ServiceNow AI Platform. A planned crew is a predefined group of agents and equipment.Assign equipment to a planned crew through Dispatcher Workspace. A planned crew is a predefined group of agents and equipment.Assign equipment to a planned crew through the ServiceNow Agent application. A planned crew is a predefined group of agents and equipment.
+description: Assign equipment to a planned crew to ensure they have tools for their work order tasks. Dispatchers can assign equipment through the ServiceNow AI Platform or Dispatcher Workspace. Crew leaders can assign equipment or modify their crews through the Now Mobile Agent application.Assign equipment to a planned crew through the ServiceNow AI Platform. A planned crew is a predefined group of agents and equipment.Assign equipment to a planned crew through Dispatcher Workspace. A planned crew is a predefined group of agents and equipment.Assign equipment to a planned crew through the Now Mobile Agent application. A planned crew is a predefined group of agents and equipment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/add-equipment-to-a-planned-crew.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Scheduling and assigning equipment to tasks and crews, Scheduling and dispatching, Use, Field Service Management]
 ---
@@ -69,15 +69,15 @@ Role required: wm\_ admin, wm\_dispatcher
 
 3.  Use either the dispatcher calendar or the dispatcher calendar sidebar to add equipment to a crew.
 
-<table id="choicetable_pvs_vdv_dwb"><thead><tr><th align="left" id="d130001e324">
+<table id="choicetable_pvs_vdv_dwb"><thead><tr><th align="left" id="d142447e339">
 
 Method
 
-</th><th align="left" id="d130001e327">
+</th><th align="left" id="d142447e342">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d130001e333">
+</th></tr></thead><tbody><tr><td id="d142447e348">
 
 **Dispatcher calendar**
 
@@ -88,7 +88,7 @@ Action
 3.  Select a crew to add the equipment to.
 
 
-</td></tr><tr><td id="d130001e363">
+</td></tr><tr><td id="d142447e378">
 
 **Dispatcher calendar sidebar**
 
@@ -114,7 +114,7 @@ Equipment is added to the planned crew. This crew is eligible for tasks with equ
 
 ## Assign equipment to planned crews through the Now Mobile app
 
-Assign equipment to a planned crew through the ServiceNow Agent application. A planned crew is a predefined group of agents and equipment.
+Assign equipment to a planned crew through the Now Mobile Agent application. A planned crew is a predefined group of agents and equipment.
 
 ### Before you begin
 

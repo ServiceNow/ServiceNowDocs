@@ -7,7 +7,7 @@ release: zurich
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Intake, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_customerservice.consumer or sn\_customerservice.customer
 
 1.  Create a request by going to the portal landing page or the portal menu header and then performing one of the following actions.
 
-<table id="choicetable_vsj_nl4_21c"><tbody><tr><td id="d49579e75">
+<table id="choicetable_vsj_nl4_21c"><tbody><tr><td id="d51792e75">
 
 **__Request Something__**
 
@@ -32,7 +32,7 @@ Role required: sn\_customerservice.consumer or sn\_customerservice.customer
 
 On the portal landing page, select the **Request Something** link.
 
-</td></tr><tr><td id="d49579e88">
+</td></tr><tr><td id="d51792e88">
 
 **__Requests__**
 

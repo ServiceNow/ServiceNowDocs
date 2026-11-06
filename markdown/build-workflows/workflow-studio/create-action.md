@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Building actions, Use, Workflow Studio, Build workflows]
+breadcrumb: [Build actions, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Create an action in Workflow Studio
@@ -24,7 +24,7 @@ Create a reusable component to automate one or more steps of a process.
 
 Action designers should know the application table structure and be aware of any existing business logic associated with the target tables of an action. Be sure to disable any conflicting business rules or workflows before creating an action.
 
-Creating a custom application to contain your Workflow Studio content enables you to deploy it using the application repository or the ServiceNow Store.
+Creating a custom application to contain your Workflow Studio content enables you to [deploy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/c_SharingApplications.md) it using the application repository or the ServiceNow Store.
 
 ## Procedure
 

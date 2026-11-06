@@ -7,9 +7,9 @@ release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Certificates for authentication, Establish MS Teams Graph connection on ServiceNow AI Platform, Integrate, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
+breadcrumb: [Use certificate for authentication, Establish Microsoft Teams Graph connection on ServiceNow AI Platform, Integrate, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
 # Configure the JWT provider for MS Teams
@@ -41,5 +41,5 @@ Add a JSON Web Token \(JWT\) provider to your ServiceNow instance.
 4.  Click **Update**.
 
 
-**Parent Topic:**[Using Certificates for authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/using-certificates-for-authentication.md)
+**Parent Topic:**[Use certificate for authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/using-certificates-for-authentication.md)
 

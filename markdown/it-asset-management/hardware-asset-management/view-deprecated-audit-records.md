@@ -7,10 +7,10 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-12-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [deprecated audits]
-breadcrumb: [Audit hardware asset inventory, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Audit hardware asset inventory, Inventory and stockroom operations, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # View deprecated audit records
@@ -24,8 +24,6 @@ Role required: asset
 Set the **migrate\_hamaudit** system property to **true**.
 
 ## About this task
-
-**Important:** This feature is available with Hardware Asset Management version 15.0.0 onwards.
 
 You can view deprecated asset audit records in the Audits \[Deprecated\] list. These records are read only and you can’t perform any actions on them or create audit records from this view. Before enabling audit enhancements and migrating to the common audit table, you must complete and close all in-progress and new audit records. Once the **migrate\_hamaudit** system property is set to **true**, you can't act on in-progress and new audit records, because they’re considered deprecated audits.
 

@@ -5,14 +5,18 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/order-lifecycle-states.html
 release: zurich
 topic_type: concept
-last_updated: "2025-09-09"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Order Management, Use, Sales Customer Relationship Management]
 ---
 
 # Order life cycle states
 
 Learn about the order states from initial capture through enrichment, decomposition, fulfillment, and completion.
+
+When you create an order with add as the action type, the order state changes after each step or a decision point as shown in the following illustration.
+
+\[Omitted image "add-order-states.svg"\] Alt text: Infographic showing order states from initial capture through enrichment, decomposition, fulfillment, and completion. For details, refer to the steps that follow.
 
 1.  A new order gets created in the Draft state.
 2.  After you review and submit the order, either of the two things happen:
@@ -81,4 +85,11 @@ On hold
 
 </td></tr></tbody>
 </table>6.  After the cancellation request is reviewed and processed, orders in the Accessing cancellation state change to Canceled.
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-order-management.md)
 

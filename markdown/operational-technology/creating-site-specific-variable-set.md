@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/creating-site-specific-variable-set.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Sites page, Using the Discovery Console, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Sites page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Create a Site-specific Variable set
@@ -28,7 +28,7 @@ Role required: admin
 
 2.  Create a Variable as described in [Create a Variable set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/create-variable-set.md).
 
-3.  Select a Site to associate to the Variable.
+3.  Select a Site to associate with the Variable.
 
 4.  Create an Auto Query as described in [Create an Auto Query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/add-auto-query-console.md).
 
@@ -43,5 +43,7 @@ Role required: admin
 
 ## Result
 
-Your Site is associated with the Variable and queried.
+Your Site is associated with the Variable and then queried.
+
+**Parent Topic:**[Sites page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/sites-page.md)
 

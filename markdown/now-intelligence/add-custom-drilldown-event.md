@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/add-custom-drilldown-event.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 keywords: [Add a drilldown event to a data visualization in UI Builder, Add a drilldown event to a report in UI Builder]
 breadcrumb: [Technical dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---

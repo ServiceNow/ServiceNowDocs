@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/order-mgt-tsq-subflow.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service qualification requests, Managing service orders, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -33,4 +33,11 @@ If the response is received asynchronously, the response should be passed to the
 In this example response, the `qualificationresult` is set to Qualified for all the service orders in the hierarchy and the final `result` is also set to Qualified.
 
 **Parent Topic:**[Service qualification requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-tsq-about.md)
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-order-management.md)
 

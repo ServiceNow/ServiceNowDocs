@@ -7,7 +7,7 @@ release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -20,7 +20,7 @@ Cloud Account Management brings together ServiceNow cloud solutions in a unified
 
 The Cloud Account Management feature automates the management process for AWS accounts and Azure subscription creation. Key benefits include automating account management, streamlining approval workflows, reducing provisioning time, and enhancing security with automated certifications.
 
-\[Omitted image "CAM-overview.png"\] Alt text: CAM overview
+\[Omitted image "CAM-overview.png"\] Alt text: Cloud Account Management workflow
 
 ## Get Started
 

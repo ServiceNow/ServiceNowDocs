@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/mobile-dark-theme.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Next Experience theming, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -36,5 +36,5 @@ Administrators can enable dark mode on an instance using the `glide.ui.polaris.d
 
 ## Access dark theme in the mobile UI
 
-As a user, you can switch between the default and dark theme in the **Preferences** section of the **Settings** tab. For details see [Enable dark theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/enable-dark-theme.md).
+As a user, you can switch between the default and dark theme in the **Preferences** section of the **Settings** tab. For details see [Theme settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/enable-dark-theme.md).
 

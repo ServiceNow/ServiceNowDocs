@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/filtering-results.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Results page, Using the Discovery Console, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Results page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Filter results
@@ -16,9 +16,9 @@ The Results page provides a filter to find specific types of queries of informat
 
 ## Filtering the query results
 
-Much like the Assets page, the Results page provides a filter to the left of the Results list. To open the Filter type list, select the plus sign \[Omitted image "image.filter-plus-icon"\] Alt text: under the Filter header. This opens the drop-down selection field.
+Much like the Assets page, the Results page provides a filter to the left of the Results list. To open the Filter type list, select the plus sign \[Omitted image "filter-plus-icon.png"\] Alt text: under the Filter header. This opens the drop-down selection field.
 
-\[Omitted image "image.add-filter"\] Alt text: Drop-down selection field
+\[Omitted image "add-filter.png"\] Alt text: Drop-down selection field
 
 The menu drops down and you can select from the following list.
 
@@ -33,11 +33,13 @@ The menu drops down and you can select from the following list.
 -   Scan Types
 -   Host Status
 
-\[Omitted image "image.selection-list"\] Alt text: Selection list
+\[Omitted image "selection-list.png"\] Alt text: Selection list
 
 If you select Operating System, for example, another drop-down menu opens with a list of possible OS.
 
-\[Omitted image "image.type-list"\] Alt text: Operating System type list
+\[Omitted image "type-list.png"\] Alt text: Operating System type list
 
 After you have made your selection, any query that matches the filter displays on the Result page.
+
+**Parent Topic:**[Results page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/results-page-console.md)
 

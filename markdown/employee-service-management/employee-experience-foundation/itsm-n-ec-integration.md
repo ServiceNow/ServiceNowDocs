@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Explore, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Exploring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Employee Center for IT Service Management
@@ -133,7 +133,7 @@ Configure mobile content
 
 </td><td>
 
-[Configure mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/ecpro-content-delivery-mobile.md)
+[Configure mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-content-delivery-mobile.md)
 
 </td><td>
 

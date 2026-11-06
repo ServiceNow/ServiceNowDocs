@@ -7,7 +7,7 @@ release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-04-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -18,7 +18,7 @@ As a risk manager, use your Android or iOS mobile device to manage your work.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Overview of using mobile device to manage risks
 
@@ -30,11 +30,17 @@ With the GRC Mobile application, you can perform the following Risk Management a
 -   Assign unassigned tasks to your team with the Indicator Tasks, Issues, and Remediation Tasks applets.
 -   Manage and reassign your team's overdue tasks with the Assessments and overdue Issues applets.
 
+The following figure illustrates how you log in to your ServiceNow AI Platform instance from your mobile device and the landing screen that is displayed after you log in.
+
+\[Omitted image "mobile\_Risk\_overview-app-redo.png"\] Alt text: Landing page for the Risk Mobile app.
+
 For step-by-step instructions about how to set up your ServiceNow AI Platform instance and install the GRC Mobile application, see [Set up checklist for the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/mobile-setup-risk-app.md). For instructions about how to log in, see [Log in to the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/mobile-login-risk-mobileapp.md).
 
 -   **Applications**
 
     Applications are the ServiceNow® software components such as Policy and Compliance Management, Risk Management, and Audit Management that provide specific features and functionalities within your ServiceNow AI Platform instance. After you install these core applications and the GRC Mobile app on your ServiceNow AI Platform instance, these applications are displayed as icons on the bottom of your Android or iOS mobile device after you log in.
+
+    \[Omitted image "risk-icons.jpg"\] Alt text: Icons on the bottom of the device screen.
 
 -   **Folders**
 

@@ -7,9 +7,9 @@ release: zurich
 product: Problem Management
 classification: problem-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage, Problem Management, IT Service Management]
+breadcrumb: [Managing Problems, Problem Management, IT Service Management]
 ---
 
 # Assess a problem task
@@ -34,15 +34,15 @@ Assessing a problem task involves analyzing the scale and extent of the task, as
 
 2.  After assessing the task, perform the action based on your option.
 
-<table id="choicetable_yjt_n3k_wfb"><thead><tr><th align="left" id="d124651e86">
+<table id="choicetable_yjt_n3k_wfb"><thead><tr><th align="left" id="d200509e86">
 
 Option
 
-</th><th align="left" id="d124651e89">
+</th><th align="left" id="d200509e89">
 
 Action to be taken
 
-</th></tr></thead><tbody><tr><td id="d124651e95">
+</th></tr></thead><tbody><tr><td id="d200509e95">
 
 **When you’re ready to work on the task**
 
@@ -50,7 +50,7 @@ Action to be taken
 
 Select **Start Work**. \[Omitted image "pm-task-start-work.png"\] Alt text: start stateThe problem task enters the **Work in Progress** state.
 
-</td></tr><tr><td id="d124651e118">
+</td></tr><tr><td id="d200509e118">
 
 **When you’re working on the task**
 
@@ -58,7 +58,7 @@ Select **Start Work**. \[Omitted image "pm-task-start-work.png"\] Alt text: star
 
 Select **Re-asses**.\[Omitted image "pm-task-reassess.png"\] Alt text: re-assess stateThe state of the problem task changes from **Work in Progress** back to **Assess**.
 
-</td></tr><tr><td id="d124651e143">
+</td></tr><tr><td id="d200509e143">
 
 **When you don’t want to work on the task, for example, the problem task is a duplicate or no longer needed**
 

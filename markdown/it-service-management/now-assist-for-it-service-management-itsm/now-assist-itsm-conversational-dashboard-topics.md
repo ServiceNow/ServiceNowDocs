@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2026-07-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Now Assist, agentic AI, generative AI, Gen AI]
 breadcrumb: [Track metrics, Use ITSM Virtual Agent analytics dashboard, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]

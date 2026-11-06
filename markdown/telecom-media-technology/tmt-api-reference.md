@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/tmt-api-reference.html
 release: zurich
 topic_type: reference
-last_updated: "2025-10-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -16,11 +16,11 @@ Get the details of ServiceNow® implementation of TM Forum \(TMF\) APIs for Tele
 
 ServiceNow® supports multiple TM Forum \(TMF\) Open APIs through its telecommunications industry solutions, such as Telecommunications Service Management \(TSM\) and Technology Provider Service Management \(TPSM\). These APIs enable standardized integrations and help ensure seamless interoperability across Business Support Systems \(BSS\) and Operations Support Systems \(OSS\).
 
-|API|Application|Description|
-|---|-----------|-----------|
+|Application|API|Description|
+|-----------|---|-----------|
 |Sales CRM for Telecommunications|[TMF620 - Product Catalog Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/product-catalog-open-api.md)|The Product Catalog Open API provides endpoints to create and retrieve product catalogs, product offerings, and product specifications. Use this API to manage product catalog information between external systems and the ServiceNow AI Platform.|
 |Sales CRM for Telecommunications|[TMF622 - Product Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/tmf622_product_ordering-api.md)|The Product Order Open API provides endpoints that enable a standardized mechanism for placing product orders. Use this API to receive the Sales/Product Order from external CPQ/CRM.|
-|Sales CRM for Telecommunications|[TMF633 - Service Catalog Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/service-catalog-open-api.md)|The Service Catalog Open API provides endpoints to create and retrieve service specifications. Use this API to manage service catalog information between external systems and the ServiceNow AI Platform.|
+|Customer foundation|[TMF633 - Service Catalog Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/service-catalog-open-api.md)|The Service Catalog Open API provides endpoints to create and retrieve service specifications. Use this API to manage service catalog information between external systems and the ServiceNow AI Platform.|
 |Sales CRM for Telecommunications|[TMF637 - Product Inventory Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/product-inventory-open-api.md)|The Product Inventory Open API provides endpoints to create and retrieve product inventories. Use this API to manage product inventory information between external systems and the ServiceNow AI Platform.|
 |Sales CRM for Telecommunications|[TMF641 - Service Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/service-order-open-api.md)|The Service Order Open API provides endpoints that enable a standardized mechanism for placing service orders.|
 |Sales CRM for Telecommunications|[TMF645 - Technical Service Qualification Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/ts-qualification-api.md)|The Technical Service Qualification Open API provides endpoints to check the availability of resources and services before submitting orders for fulfillment.|
@@ -31,6 +31,7 @@ ServiceNow® supports multiple TM Forum \(TMF\) Open APIs through its telecommun
 |Telecommunications Service Operations Management|[TMF642 - Alarm Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/alarm-open-api.md)|The Alarm Management Open API provides endpoints to create, update, and retrieve data from the Events \[em\_event\] and Alert \[em\_alert\] tables.|
 |Telecommunications Service Operations Management|[TMF688 - Event Notification Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/event_open-api.md)|The Event Notification Management Open API provides an endpoint to create, update, and delete events from the Events \[em\_event\] table.|
 |Field Service Management for Telecommunication|[TMF646 - Appointment Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/appointment-open-api.md)|The Appointment Open API is a telecommunication API that allows you to interact with the appointment booking application. Use this API to book appointments and search available time slots.|
+|Sales CRM for Telecommunications|TMF679 Product Offering Qualification|The Product Offering Qualification API determines eligibility for product offerings in the ServiceNow® product catalog, scoped to a customer account, sales channel, and geographic location.|
 |Field Service Management for Telecommunication|[TMF697 - Work Order management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/work-order-mgmt-api.md)|The Work Order Management API provides endpoints to create, update, and retrieve work orders.This API is exposed by Field Service Management for Telecommunication and used by Sales CRM for Telecommunications and Telecommunications Service Management. It is used to trigger a work order from either an order task or a case task.|
 |Customer Service Problem Management|[TMF653 - Service Test Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/service-test-management-api.md)|The Service Test Management Open API provides endpoints to create and retrieve service test definitions and service tests. Use this API to manage service problem management information between external systems and the ServiceNow AI Platform.|
 

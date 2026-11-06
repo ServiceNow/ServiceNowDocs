@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Planned Work Management, Work orders and tasks, Configure, Field Service Management]
+breadcrumb: [Planned Work Management, Set up work orders and tasks, Configure, Field Service Management]
 ---
 
 # Using extension point for planned work management
@@ -31,6 +31,4 @@ The default extension points that are provided with an application cannot be mod
 
 
 [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/extension-points.md)
-
-[Planned Work Management components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/planned-work-components.md)
 

@@ -1,22 +1,22 @@
 ---
-title: Using the Test Activity Sets tool for aLifecycle Events activity set
-description: Use the Lifecycle event test tool to thoroughly test a Lifecycle event before launching it.
+title: Using the Test Activity Sets tool for a lifecycle event activity set
+description: Use the lifecycle event test tool to thoroughly test a lifecycle event before launching it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/lifecycle-events/hr-lifecycle-event-test-tool.html
 release: zurich
 product: Lifecycle Events
 classification: lifecycle-events
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Building a lifecycle event, Use, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
-# Using the Test Activity Sets tool for aLifecycle Events activity set
+# Using the Test Activity Sets tool for a lifecycle event activity set
 
-Use the Lifecycle event test tool to thoroughly test a Lifecycle event before launching it.
+Use the lifecycle event test tool to thoroughly test a lifecycle event before launching it.
 
-The Lifecycle event test tool provides different views of a Lifecycle event. The different views available are:
+The lifecycle event test tool provides different views of a lifecycle event. The different views available are:
 
 -   Use filters to show only applicable activity sets and activities for the subject person. For example, you can select a subject person and preview what that person will see and what tasks are assigned to them.
 -   You can use conditions like HR criteria to view what activity sets and activities the selected people will see and what tasks are assigned to them.
@@ -27,13 +27,13 @@ The Lifecycle event test tool provides different views of a Lifecycle event. The
 
 -   **Inapplicable activities and sets**
 
-    When using the Lifecycle event test tool, you can show activities and sets that are inapplicable for a subject person.
+    When using the lifecycle event test tool, you can show activities and sets that are inapplicable for a subject person.
 
     A subject person is considered inapplicable when they do not meet the audience criteria for a specific activity or activity set.
 
 -   **Indeterminate activities and sets**
 
-    When using the Lifecycle event test tool, you can show activities and sets that are indeterminate for a subject person.
+    When using the lifecycle event test tool, you can show activities and sets that are indeterminate for a subject person.
 
     A subject person is considered indeterminate when there is not enough information to determine if the subject person is part of the audience.
 

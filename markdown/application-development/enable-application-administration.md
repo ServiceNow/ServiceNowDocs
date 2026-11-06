@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/enable-application-administration.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Application administration, Contextual development environment, Learning about developing on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Application administration, Contextual development environment, Learning about developing on the ServiceNow AI Platform, Classic app development, Building applications]
 ---
 
 # Restrict access to an application
@@ -86,7 +86,7 @@ Manage Developers
 
 Modal that enables the application-specific admin to manage these tasks: -   Designate developers for the application.
 -   Make themselves a delegated developer. After the application-specific admin becomes a delegated developer, the application-specific admin can perform a subset of administration tasks without having the system-level admin role.
- Learn more: [Exploring Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md)
+ Learn more: [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md)
 
 </td></tr><tr><td>
 

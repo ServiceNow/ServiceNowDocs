@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/exploring-subscription-management-v2.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Subscription Management, Get started, Administer]
+breadcrumb: [Subscription Management, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Exploring Subscription Management
@@ -33,7 +33,7 @@ Subscription Management gives you an accurate, consolidated view of your entitle
 
 This infographic shows a sample end-to-end workflow of how different users in an organization work together to purchase, allocate, and manage subscriptions.
 
-\[Omitted image "MMASSET0020642-subscription-management-workflow-vertical.png"\] Alt text: Different users in an organization work together to purchase, allocate, and manage subscriptions. View the steps after the infographic for details.
+\[Omitted image "MMASSET0021656.png"\] Alt text: Different users in an organization work together to purchase, allocate, and manage subscriptions. Refer to the following steps for details.
 
 In this workflow:
 
@@ -43,7 +43,7 @@ In this workflow:
 4.  The usage admin performs the following tasks in Subscription Management:
     -   Allocates per-user subscriptions by adding groups to a product subscription, which grants entitlement to all group members. For more information, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/managing-user-subscriptions-v2.md).
     -   Maps custom tables and custom applications to subscriptions with available entitlements to maximize subscription usage and stay in compliance. For more information, see [Managing custom tables and applications in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/allocating-custom-tables-subscr-apps-v2.md).
-5.  If the organization requires security approvals before adding users to groups or financial approvals before subscriptions are allocated to users, the usage admin works with group managers to create subscription approval workflows that determine who gets a subscription when new users are added to groups.
+5.  If the organization requires security approvals before adding users to groups or financial approvals before subscriptions are assigned to users, the usage admin works with group managers to create subscription approval workflows that determine who gets a subscription when new users are added to groups.
 6.  The usage admin monitors subscription usage to stay in compliance and make informed decisions on future purchases, consistently monitoring the following data:
     -   Over-allocated subscriptions
     -   Unmapped custom applications and tables

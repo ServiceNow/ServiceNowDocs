@@ -7,7 +7,7 @@ release: zurich
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2025-08-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Service catalog variables, Service Catalog Reference, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -79,7 +79,7 @@ To configure prefilling forms for inline catalog items, perform these steps:
 
 There are two ways of configuring this feature. You can provide a stringed JSON object or you can write a script.
 
-In this example, as shown in the image, there are two variables, Department and Business justification. Set the value to true for both the variables. You can specify "Department" as “Sales” and "Business justification" as “employee onboarding”.\[Omitted image "script-dept.png"\] Alt text: Prefilled variable values for inline catalog items in Virtual Agent
+In this example, as shown in the image, there are two variables, Department and Business justification. Set the value to true for both the variables. You can specify "Department" as “Sales” and "Business justification" as “employee onboarding”.\[Omitted image "script-dept.png"\] Alt text: Example of prefilling forms for inline catalog items in Virtual Agent
 
 Once you configure this, when requesters request items, they would see the forms prefilled.
 

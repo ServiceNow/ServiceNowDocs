@@ -7,8 +7,8 @@ release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2026-08-25"
-reading_time_minutes: 2
+last_updated: "2026-10-21"
+reading_time_minutes: 3
 breadcrumb: [Manage team backlog, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -34,7 +34,9 @@ This task doesn't apply to teams connected to CWM. For these teams, start or com
 
         -   For a Sprint, the option is displayed as **Complete Sprint**.
         -   For a PI, the option is displayed as **Complete Planning Interval**.
-        **Note:** Before marking a Planning Interval as Complete, all its associated child Sprints must be complete.
+        **Note:** Before you complete a Planning Interval, complete all of its child Sprints. If open Sprints of the child teams overlap the dates of the Planning Interval, the **Complete Planning interval** alert shows how many teams and Sprints are still open. The alert lists each team with its open Sprints. Each Sprint is a link that opens the team Backlog, the Agile 2.0 sprint planning board, or the CWM board, depending on how the team plans its work. Close the Sprints, and then complete the Planning Interval again. To close the alert, select **Got it**.
+
+        \[Omitted image "eap-complete-pi-open-sprints-alert.png"\] Alt text: Complete Planning interval alert listing the open Sprints of two teams, with a Got it button.
 
         \[Omitted image "eap-complete-sprint.png"\] Alt text: Complete Sprint in EAP.
 
@@ -65,6 +67,8 @@ This task doesn't apply to teams connected to CWM. For these teams, start or com
 
         -   For a Sprint, the option is displayed as **Start Sprint**.
         -   For a PI, the option is displayed as **Start Planning Interval**.
+        A team can have only one current iteration at a time. Complete the current iteration before you start the next one.
+
         \[Omitted image "eap-start-sprint.png"\] Alt text: Start next sprint in EAP.
 
     The stories that are in the iteration when it starts are recorded as its committed stories. This set is what the **Spillover** and **New scope** fields are measured against when you complete the Sprint.

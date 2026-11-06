@@ -7,9 +7,9 @@ release: zurich
 product: Agile Development
 classification: agile-development
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Use, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Managing your product development using Agile Development 2.0, Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
 
 # Manage your product backlog in Agile Development 2.0
@@ -76,7 +76,7 @@ Prioritize stories in your backlog. You can add stories, assign stories to a rel
 
     -   Use the mouse device to select and hold a story, drag it to the required position, and drop it.
     -   Use the keyboard. For more information, see [Arrange Agile Development 2.0 stories in Agile Board using the keyboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/arrange-stories.md)
-    Rearranging stories in the backlog adjusts the ranking of stories in the global\_rank column in the Story \[rm\_story\] table. When you move a story within a backlog, its rank changes relative to the stories within the same backlog. So, the story at the top of the backlog list has a lower rank value and assumes higher priority. The story at the bottom of the backlog list has a higher rank value and assumes lower priority.
+    Rearranging stories in the backlog adjusts the ranking of stories in the global\_rank column in the Story \[rm\_story\] table. When you move a story within a backlog, its rank changes relative to the stories within the same backlog. So, the story at the top of the backlog list has a lower rank value and assumes higher priority. In contrast, the story at the bottom of the backlog list has a higher rank value and assumes lower priority.
 
 9.  Perform any of the following actions on a single story or a set of stories by selecting the required stories and clicking the Options icon \(\[Omitted image "ellipsis.png"\] Alt text: Options icon.\).
 
@@ -127,7 +127,7 @@ Prioritize stories in your backlog. You can add stories, assign stories to a rel
 -   **[Arrange Agile Development 2.0 stories in Agile Board using the keyboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/arrange-stories.md)**  
 Learn how to use the keyboard to move and rearrange Agile Development 2.0 stories in the Backlog and Sprint Planning tabs of your Agile board.
 
-**Parent Topic:**[Using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/using-agile-development-2-0.md)
+**Parent Topic:**[Managing your product development using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/using-agile-development-2-0.md)
 
 **Related topics**  
 

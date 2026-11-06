@@ -7,9 +7,9 @@ release: zurich
 product: Asset Management
 classification: asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Transfer order tasks, Manage transfer order, Use, Asset Management, IT Asset Management]
+breadcrumb: [Transfer order tasks, Manage transfer order, Use, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Perform bulk updates for transfer order lines
@@ -20,7 +20,7 @@ Update tasks for multiple transfer order lines at one go to streamline the trans
 
 Transfer order lines enable the transfer of multiple assets on a transfer order. When you create a transfer order line, a transfer order line task is automatically created. Transfer order line tasks are created to move transfer order lines from one stage to the other. Each transfer order line can have multiple tasks such as **Requested**, **Shipment Preparation**, **In Transit**. For information on the stages of a transfer order line task, see [Summary of transfer order line tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/r_SummaryOfTransferOrderStages.md).
 
-Role required: inventory\_user
+Role required: asset\_system\_admin or inventory\_user
 
 ## Procedure
 

@@ -7,7 +7,7 @@ release: zurich
 product: Security Center
 classification: security-center
 topic_type: concept
-last_updated: "2025-10-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Security configuration console, Security Center, Platform Security]
 ---

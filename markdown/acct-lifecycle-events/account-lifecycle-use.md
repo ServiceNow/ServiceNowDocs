@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-use.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Customer Success Management]
 ---
@@ -14,13 +14,13 @@ breadcrumb: [Use, Customer Success Management]
 
 With the account onboarding solution, service providers can repeatedly define, measure, and collaborate with customers on the activities needed to onboard rapidly.
 
-**Important:** Account Lifecycle Events has been renamed to Customer Success Management in Zurich.
-
 -   **[Account onboarding landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-events-onboarding-landing.md)**  
-Get real time visibility into your onboarding cases and track your onboarding tasks.
+Get real-time visibility into your onboarding cases and track your onboarding tasks.
+-   **[Manage account onboarding cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-manage-acct-onboard.md)**  
+Work through the activities in the account onboarding playbook to manage an account onboarding case from creation through go-live and post-support.
 -   **[View account onboarding cases in the CSM portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-view-csm-portal.md)**  
 View the account onboarding case records or case task records on the Customer Service Management \(CSM\) portal.
--   **[Recommended Actions available with account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-oob-rec.md)**  
+-   **[Recommended actions available with account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-oob-rec.md)**  
 Use the predefined recommended actions that are available with the base system during the account onboarding process.
 -   **[Create a success play for account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-onboard-success-play.md)**  
 Use this option to create a success play for successfully completing an account onboarding journey.

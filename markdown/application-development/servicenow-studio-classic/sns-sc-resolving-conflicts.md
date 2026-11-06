@@ -1,26 +1,26 @@
 ---
 title: Resolve conflicts
-description: Resolve conflicts in ServiceNow Studio before applying remote or stashed changes. Conflicts occur when there are multiple change versions of the same application file: one set of changes in the remote or stashed version and another set of changes in the local version.
+description: Resolve conflicts in ServiceNow Studio when applying remote or stashed changes that conflict with the local version of the same application file.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-studio-classic/sns-sc-resolving-conflicts.html
 release: zurich
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Work with changes in Git, Source control in ServiceNow Studio, Applications in ServiceNow Studio, Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Work with changes in Git, Metadata source control in ServiceNow Studio, Source control integration, Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Resolve conflicts
 
-Resolve conflicts in ServiceNow Studio before applying remote or stashed changes. Conflicts occur when there are multiple change versions of the same application file: one set of changes in the remote or stashed version and another set of changes in the local version.
+Resolve conflicts in ServiceNow Studio when applying remote or stashed changes that conflict with the local version of the same application file.
 
 ## Before you begin
 
 [Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/link-app-to-source-control.md)
 
-You must have one or more stashed changes applied.
+At least one stashed change must be applied.
 
 Role required: admin
 
@@ -32,18 +32,18 @@ Role required: admin
 
 3.  Select **App details** to open the app in the canvas.
 
-4.  Pull from a repository or stash local changes.
+4.  Pull from a repository or apply stashed changes.
 
-    If the system detects a conflict, the Resolve Conflicts modal appears.
+    If the system detects a conflict, the Resolve Conflicts modal appears and displays the conflicting files.
 
 5.  Select an option to resolve the conflict.
 
     |Option|Description|
     |------|-----------|
-    |**Select an action**|Option to apply or discard all stashed changes.|
-    |**Manually merge changes**|Option to individually select which changes to apply.|
+    |**Select an action**|Apply or discard all stashed changes at once.|
+    |**Manually merge changes**|Select individual changes to apply or discard.|
 
-6.  If you want to apply or discard all changes, select an **Action**.
+6.  To apply or discard all changes, select an **Action**.
 
     |Option|Description|
     |------|-----------|
@@ -54,14 +54,18 @@ Role required: admin
 
 8.  Select **Close dialog**.
 
-9.  If you want to merge the conflicting changes, select **Manually Apply**.
+9.  To merge conflicting changes individually, select **Manually Apply**.
 
     The ServiceNow AI Platform displays a list of the version differences by field.
 
-10. Select the field values you want the merged application file to have.
+10. Select the field values for the merged application file.
 
 11. Select **Save Merge**.
 
+
+## Result
+
+The conflict is resolved and the application file reflects the selected changes. Continue with normal pull and push operations to update the Git repository.
 
 **Parent Topic:**[Work with changes in Git](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/sns-sc-work-with-changes-in-git.md)
 

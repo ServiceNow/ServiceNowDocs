@@ -7,9 +7,9 @@ release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure, GRC: Metrics in Integrated Risk Management, Risk Management, Governance, Risk, and Compliance]
+breadcrumb: [Configuring metrics, GRC: Metrics in Integrated Risk Management, Risk Management, Governance, Risk, and Compliance]
 ---
 
 # Update a metric
@@ -22,15 +22,11 @@ Role required: sn\_grc\_metric.manager, sn\_risk.user, and sn\_compliance.user
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace**.
+1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace** &gt; **Lists** &gt; **Metrics** &gt; **Metrics**.
 
-2.  Select the list \[Omitted image "list-icon-risk-workspace.png"\] Alt text: icon.
+2.  Select a metric from the list.
 
-3.  Navigate to **Metrics** &gt; **Metrics**.
-
-4.  Select a metric from the list.
-
-5.  On the form, update the fields as necessary.
+3.  On the form, update the fields as necessary.
 
 <table id="table_l2g_jzy_vqb"><thead><tr><th>
 
@@ -315,15 +311,15 @@ Citations
 Details of the citations, such as reference, name, authority document, description, and compliance score percentage \(%\). To add a new citation, click **Add**.
 
 </td></tr></tbody>
-</table>6.  To save the metric, select **Save**.
+</table>4.  To save the metric, click **Save**.
 
-7.  To delete the metric definition, select **Delete**.
+5.  To delete the metric definition, click **Delete**.
 
-8.  To execute the metric, select **Execute**.
+6.  To execute the metric, click **Execute**.
 
     A metric data score is created if it doesn’t exist for the current interval. Re-executing a metric or a metric definition for the current interval only updates the score.
 
-9.  To visually explore the 360° relationship view of the metric definition, click **360° view**.
+7.  To visually explore the 360° relationship view of the metric definition, click **360° view**.
 
 
 **Parent Topic:**[Configuring metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/configuring-irm-metrics.md)

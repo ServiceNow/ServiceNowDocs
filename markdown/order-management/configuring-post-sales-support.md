@@ -1,18 +1,18 @@
 ---
 title: Configure Customer Contracts and Entitlements
-description: Use the Customer Contracts and Entitlements application to configure and display customer service contracts and entitlements.
+description: Use the Customer Contracts and Entitlements application to configure and display customer contracts and entitlements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/configuring-post-sales-support.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Configure Customer Contracts and Entitlements
 
-Use the Customer Contracts and Entitlements application to configure and display customer service contracts and entitlements.
+Use the Customer Contracts and Entitlements application to configure and display customer contracts and entitlements.
 
 ## Activate Customer Contracts and Entitlements
 

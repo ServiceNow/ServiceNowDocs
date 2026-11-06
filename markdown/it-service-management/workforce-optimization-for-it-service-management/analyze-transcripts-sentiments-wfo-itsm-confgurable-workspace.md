@@ -7,7 +7,7 @@ release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Voice, Routing work items, Channels, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -32,15 +32,15 @@ When an agent interacts with an external caller, the call gets recorded and tran
 
 2.  Select an interaction record for analysis.
 
-<table id="choicetable_icf_qv5_1nb"><thead><tr><th align="left" id="d69412e97">
+<table id="choicetable_icf_qv5_1nb"><thead><tr><th align="left" id="d85545e97">
 
 To analyze call transcripts and sentiments
 
-</th><th align="left" id="d69412e100">
+</th><th align="left" id="d85545e100">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d69412e106">
+</th></tr></thead><tbody><tr><td id="d85545e106">
 
 **From Channels**
 
@@ -52,7 +52,7 @@ Do this
 2.  From the **All Interaction** tab, select an interaction record.
 
 
-</td></tr><tr><td id="d69412e133">
+</td></tr><tr><td id="d85545e133">
 
 **From Teams**
 
@@ -64,7 +64,7 @@ Do this
 4.  Select an interaction record.
 
 
-</td></tr><tr><td id="d69412e160">
+</td></tr><tr><td id="d85545e160">
 
 **From Coaching**
 

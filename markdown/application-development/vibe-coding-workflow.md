@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/vibe-coding-workflow.html
 release: zurich
 topic_type: concept
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [agentic development, workflow, conversational prompts, text-to-code generation, code explanations, optimization suggestions, governance, security, enterprise compliance, scalability, natural language, blueprint, tables, roles, UI components, workflows, full-stack components, JavaScript, metadata, business rules, integration points, automated tests, self-heal, iterative development, deployment, audit trails]
-breadcrumb: [Explore, Agentic development, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
+breadcrumb: [Explore, Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Workflow for agentic development
@@ -17,12 +17,12 @@ The agentic development workflow begins with developers providing conversational
 
 Integrated tools like Build Agent and ServiceNow Otto for Creator enhance the experience by offering text-to-code generation, code explanations, and optimization suggestions. Governance and security are embedded throughout the process, ensuring enterprise-grade compliance and scalability.
 
-**Note:** The term "vibe coding" can be anything between two distinct philosophies:
+**Note:** Agentic development encompasses a range of approaches to AI-assisted app building:
 
--   One definition of vibe coding state that developers don't review or touch generated code before checking it in; simply provide an idea, get code back, no review needed.
--   Another definition of vibe coding is an umbrella term that encompasses AI-assisted, agentic-assisted development, where developers still need to understand and support the generated code.
+-   In one approach, developers provide a goal and deploy the generated output without reviewing the underlying code.
+-   In another approach, agentic development is an iterative, conversational process in which developers guide AI generation, review the output, and retain responsibility for the generated code.
 
-ServiceNow has tools to help you review, refine, and test apps for both vibe coding, like Build Agent, and agentic development, such as ServiceNow Otto for Creator.
+ServiceNow provides tools to help you review, refine, and test apps throughout agentic development, including Build Agent and ServiceNow Otto for Creator.
 
 ## Step-by-step general workflow
 
@@ -37,6 +37,8 @@ ServiceNow has tools to help you review, refine, and test apps for both vibe cod
 2.  Generate the plan: Build Agent interprets your prompt and creates a blueprint, including tables, roles, UI components, and workflows.
 
     Benefit: Architectural clarity before coding begins. For more information, see [Vibe coding: Chatting your way to a new app with ServiceNow Build Agent](https://www.servicenow.com/community/developer-advocate-blog/vibe-coding-chatting-your-way-to-a-new-app-with-servicenow-build/ba-p/3383952).
+
+    For larger implementations with well-defined requirements, Autonomous Engineer can replace this step. It conducts an interview, generates a structured plan with work items, and builds all work items in parallel. For more information, see [Autonomous Engineer in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-autonomous-engineer.md).
 
 3.  Build and generate code: The ServiceNow AI Platform autonomously creates full-stack components using ServiceNow Fluent, JavaScript, and ServiceNow metadata.
 
@@ -58,4 +60,6 @@ ServiceNow has tools to help you review, refine, and test apps for both vibe cod
 
     For more information, see [Agentic development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/vc-and-deployment.md).
 
+
+**Parent Topic:**[Exploring agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/exploring-vibe-coding.md)
 

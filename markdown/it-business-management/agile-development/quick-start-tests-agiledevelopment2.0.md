@@ -7,9 +7,9 @@ release: zurich
 product: Agile Development
 classification: agile-development
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
 
 # Quick start tests for Agile Development 2.0
@@ -203,9 +203,7 @@ If the PPM Standard plugin \(com.snc.financial\_planning\_pmo\) is active, verif
 Quebec
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/setting-up-agile-development-2.md)
-
-**Related topics**  
+</table>**Related topics**  
 
 
 [Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/quick-start-tests.md)

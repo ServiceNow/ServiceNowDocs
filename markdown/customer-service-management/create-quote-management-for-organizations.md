@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-quote-management-for-organizations.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Quote management for business organization, Integration with Sales Customer Relationship Management, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-The channel partners can view a detailed price breakdown for each quote line item, ensuring transparency in net price calculations. Quotes can be exported as PDFs and shared with customers for confirmation and signatures, improving communication and record-keeping. Additionally, quote-related parties can be created to facilitate sharing quotes with other business organizations in multi-partner sales scenarios.
+The channel partners can view a detailed price breakdown for each quote line item, confirming transparency in net price calculations. Quotes can be exported as PDFs and shared with customers for confirmation and signatures, improving communication and record-keeping. Additionally, quote-related parties can be created to facilitate sharing quotes with other business organizations in multi-partner sales scenarios.
 
 ## Procedure
 
@@ -32,7 +32,7 @@ The channel partners can view a detailed price breakdown for each quote line ite
 
 3.  On the Quote New record form, fill in the fields.
 
-    To learn more about the fields on the form, see [Create a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/create-new-quote.md)
+    To learn more about the fields on the form, see .
 
 4.  Select **Submit**.
 

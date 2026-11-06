@@ -7,8 +7,8 @@ release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 13
+last_updated: "2026-09-10"
+reading_time_minutes: 12
 breadcrumb: [Domain separation in Cloud Provisioning and Governance - considerations for service providers, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
@@ -61,7 +61,7 @@ Domain separation for Cloud Provisioning and Governance is designed to give Serv
     |Type|Description|
     |----|-----------|
     |[Quotas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/quotas.md)|Quotas are limitations or requirements for groups and users on CIs or cloud resources. Use quotas to prevent wasteful resource usage in your cloud environment.|
-    |[Policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cloud-policy.md)|A cloud policy can override a property value set by a user, create an approval task, reserve an IP address, pre-populate or hide form fields, execute custom scripts, call the Cloud API, or start or abort subflows. A cloud policy gives you system-wide control over approvals, resource operations, blueprint operations, or catalog item settings.|
+    |[Policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cloud-policy.md)|A cloud policy can override a property value set by a user, create an approval task, reserve an IP address, pre-populate or hide form fields, execute custom scripts, call the Cloud API, or start or abort subflows. It gives you system-wide control over approvals, resource operations, blueprint operations, or catalog item settings.|
     |[Pools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/pools.md)|A resource pool is a query or script that filters a table. You configure a resource pool to limit the values that are available to users when they request a catalog item.|
     |[Permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cloud-permissions.md)|Permissions are user group-level access rights to features in the Cloud Provisioning and Governance application and to specific records in the instance, such as blueprints or cloud accounts.|
 
@@ -89,7 +89,7 @@ Domain separation for Cloud Provisioning and Governance is designed to give Serv
 
 -   [Create Cloud Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/create-cloud-template.md)
 
-    Do not add private information such as CIDR values, IP addresses, credentials, etc, to the template content, if setting up the catalog item as a global catalog item. The sensitive information could be exposed to other cloud admins.
+    Do not add private information such as CIDR values, IP addresses, or credentials to the template content, if setting up the catalog item as a global catalog item. Other cloud admins can access this information.
 
     Create a cloud template and associate the template with a catalog item. Once you've created a template, you can reuse the template to create additional catalog items for the services you want to provision.
 

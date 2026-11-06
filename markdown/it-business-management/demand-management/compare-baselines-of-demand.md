@@ -7,7 +7,7 @@ release: zurich
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create a baseline of a demand, Create a demand, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -30,15 +30,15 @@ With the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin activa
 
 1.  To compare financial baselines of a demand, perform one of the following options.
 
-<table id="choicetable_ydr_q2x_xfb"><thead><tr><th align="left" id="d299947e97">
+<table id="choicetable_ydr_q2x_xfb"><thead><tr><th align="left" id="d322030e97">
 
 Option
 
-</th><th align="left" id="d299947e100">
+</th><th align="left" id="d322030e100">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d299947e106">
+</th></tr></thead><tbody><tr><td id="d322030e106">
 
 **From the Demand form**
 
@@ -51,7 +51,7 @@ Steps
 5.  On the Demand Workbench, select the baseline information icon \( \[Omitted image "new-baseline-info-icon.png"\] Alt text: \) and then select **Compare Baselines**.
 
 
-</td></tr><tr><td id="d299947e165">
+</td></tr><tr><td id="d322030e165">
 
 **From the Baseline form**
 

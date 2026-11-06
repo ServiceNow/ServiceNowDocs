@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/setup\_logik\_io\_configuration\_for\_salesforce\_rlm.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 13
 breadcrumb: [ServiceNow CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
@@ -32,7 +32,7 @@ Note that Salesforce Development states that its RLM and CPQ apps are incompatib
 -   Uninstall any Salesforce CPQ for ServiceNow CPQ package that may be installed on the Salesforce environment.
 -   If the ServiceNow CPQ environment previously had a Salesforce Subscription Management for ServiceNow CPQ package installed on it, this must be uninstalled. Some Subscription Management package elements conflict with the elements installed by the Salesforce Revenue Lifecycle Management for ServiceNow CPQ package.
 
-ServiceNow CPQ base package: Salesforce for Logik Base package v2.2, or greater installed.
+ServiceNow CPQ base package: Salesforce for CPQ Base package v2.2, or greater installed.
 
 ## Set up ServiceNow CPQ Configuration for SalesForce RLM
 
@@ -205,6 +205,9 @@ Configure from account is not currently supported. In the future, the user will 
 ## ServiceNow CPQ Webhook Setup
 
 1.  If Webhooks are not enabled on your ServiceNow CPQ environment, create a Support case and request Webhooks be turned on in the environment.
+
+    To create a support case, use the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
+
 2.  When Webhooks are enabled, navigate to ServiceNow CPQ Admin Home → Utilities → Webhooks, and create a new Webhook with the following settings:
 
     -   Integration Type: Salesforce

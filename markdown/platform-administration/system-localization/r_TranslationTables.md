@@ -7,9 +7,9 @@ release: zurich
 product: System Localization
 classification: system-localization
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [System Localization reference, System Localization, Translation and localization, Configure core features, Administer]
+breadcrumb: [System Localization reference, System Localization, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Translation tables

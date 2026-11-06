@@ -7,7 +7,7 @@ release: zurich
 product: Financial Services Treasury Operations
 classification: financial-services-treasury-operations
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Treasury Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -36,15 +36,15 @@ A treasury agent can also create a treasury service case by navigating to **Trea
 
 3.  Create a treasury case from the treasury case list or an interaction record.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d123698e127">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d137537e127">
 
 Option
 
-</th><th align="left" id="d123698e130">
+</th><th align="left" id="d137537e130">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d123698e136">
+</th></tr></thead><tbody><tr><td id="d137537e136">
 
 **Treasury case from the treasury case list**
 
@@ -54,7 +54,7 @@ Steps
 2.  Click **New**.
 
 
-</td></tr><tr><td id="d123698e166">
+</td></tr><tr><td id="d137537e166">
 
 **Treasury case from an interaction record**
 

@@ -7,8 +7,9 @@ release: zurich
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [remote tasks, remote task definition, incident fulfillment, bidirectional workflow]
 breadcrumb: [Explore, Service Exchange]
 ---
 

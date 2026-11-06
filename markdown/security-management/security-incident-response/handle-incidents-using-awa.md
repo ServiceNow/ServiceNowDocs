@@ -7,7 +7,7 @@ release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-11-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -50,6 +50,10 @@ Role required: sn\_si.analyst and awa\_agent
 
 **Related topics**  
 
+
+[Using ServiceNow Otto for Security Incident Response \(SIR\) generative AI skills]()
+
+[Using agentic AI workflows]()
 
 [Working with Security Incident Records]()
 

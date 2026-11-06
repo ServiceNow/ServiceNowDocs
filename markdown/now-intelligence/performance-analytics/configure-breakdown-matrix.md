@@ -20,7 +20,7 @@ Collect a matrix of the two-breakdown combinations for an indicator. Exclude unn
 
 Breakdowns must be assigned to the indicator. See [Assign and map breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/create-breakdown-mapping.md).
 
-**Important:** If you enable data snapshots for an indicator, you are not limited to two-breakdown combinations and the indicator does not have a breakdown matrix. For more information, see [Data snapshots and multiple breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/multi-level-breakdowns.md).
+**Important:** If you enable Data snapshots for an indicator, you are not limited to two-breakdown combinations and the indicator does not have a breakdown matrix. For more information, see [Data snapshots and multiple breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/multi-level-breakdowns.md).
 
 Role required: pa\_data\_collector, pa\_power\_user, pa\_admin, or admin
 

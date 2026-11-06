@@ -7,9 +7,9 @@ release: zurich
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Explore, Proactive Service Experience Workflows]
+breadcrumb: [Explore, Proactive Service Experience Workflows, Product Support for Technology]
 ---
 
 # Proactive Service Experience Workflows and Incident Management within the Service Operations Workspace
@@ -59,5 +59,5 @@ The following example demonstrates how Proactive Service Experience Workflows is
     The resolution information is copied down to each case record, while the Major Issue Manager resolves the major case record and any associated cases.
 
 
-**Parent Topic:**[Exploring the Proactive Service Experience Workflows architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/explore-assurance-workflows.md)
+**Parent Topic:**[Exploring the Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/explore-assurance-workflows.md)
 

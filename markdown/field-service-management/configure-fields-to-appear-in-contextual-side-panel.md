@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/configure-fields-to-appear-in-contextual-side-panel.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Field Service Territory Planning Console, CSM/FSM Configurable Workspace, Configure, Field Service Management]
+breadcrumb: [Configuring Field Service Territory Planning Console, CSM/FSM Configurable Workspace, Configure, Field Service Management]
 ---
 
 # Configure territory fields to appear in Territory Planning console

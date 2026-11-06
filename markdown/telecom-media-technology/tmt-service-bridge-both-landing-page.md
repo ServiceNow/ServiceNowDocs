@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/tmt-service-bridge-both-landing-page.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -38,11 +38,11 @@ ServiceNow® Service Exchange connects multiple ServiceNow instances to provide 
 
 </td><td>
 
-[Configure FDS for providers\[Omitted image "bus-transaction.svg"\] Alt text:Configure foundation data sync \(FDS\) settings for provider instances.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-exchange/service-bridge-v2-using-foundation-data-sync.md)
+[Configure outbound FDS for providers\[Omitted image "bus-transaction.svg"\] Alt text:Configure outbound foundation data sync \(FDS\) settings for provider instances.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-exchange/service-bridge-v2-using-foundation-data-sync.md)
 
 </td></tr><tr><td>
 
-[Configure FDS for consumers\[Omitted image "bus-transaction-data.svg"\] Alt text:Configure foundation data sync \(FDS\) settings for consumer instances.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-exchange/service-bridge-v2-using-foundation-data-sync-for-consumer.md)
+Configure outbound FDS for consumers\[Omitted image "bus-transaction-data.svg"\] Alt text:Configure outbound foundation data sync settings \(FDS\) for consumer instances.
 
 </td><td>
 
@@ -50,17 +50,29 @@ ServiceNow® Service Exchange connects multiple ServiceNow instances to provide 
 
 </td><td>
 
+[Service Exchange data model\[Omitted image "bus-database.svg"\] Alt text:Explore the tables and access control rights used in the Service Exchange data model.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-exchange/service-bridge-v2-data-model.md)
+
+</td></tr><tr><td>
+
 [Reference\[Omitted image "bus-work-order.svg"\] Alt text:Get additional details about Service Exchange, including data model, error log, and cloning instances.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-exchange/service-bridge-v2-reference.md)
+
+</td><td>
+
+Automate\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use generative AI skills and agentic workflows to automate Service Exchange connections
+
+</td><td>
+
+ 
 
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/service-bridge-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/service-bridge-rn.md).
+-   Learn more about what's new and changed, see the  .
 -   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see [TMF APIs for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/tmt-api-reference.md).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/telecommunications-service-management/service-bridge-for-implementers?id=learning_path_prev&path_id=995e40f5c3008ad45922751ce00131cf&s=1&ssa=3).
--   Log in to your ServiceNow® account and find additional information about implementing and deploying Service Exchange features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
+-   Get step-by-step guidance to help with your ServiceNow® implementations, upgrades, and more, see [Best Practices](https://mynow.servicenow.com/now/best-practices/home).
 -   Connect with other Service Exchange users at [Now Community](https://www.servicenow.com/community/technology-provider/ct-p/technology).
--   Find useful resources related to your role and explore general guidelines at [ServiceNow Impact](https://www.servicenow.com/success.html).
--   View KB articles at the [Service Exchange Knowledge Base.](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1509053)
--   View Service Exchange product related information at the [Service Exchange product page](https://www.servicenow.com/products/service-bridge.html).
+-   Find useful resources related to your role and explore general guidelines at the [ServiceNow Impact](https://www.servicenow.com/success.html).
+-   View KB articles at [Service Exchange Knowledge Base.](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1509053)
+-   Access Service Exchange product page from [Service Exchange product](https://www.servicenow.com/products/service-bridge.html).
 

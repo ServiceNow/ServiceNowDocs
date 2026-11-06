@@ -1,5 +1,5 @@
 ---
-title: Mandatory Skills
+title: Mandatory skills
 description: Use the mandatory skills feature to identify any skills that are required for agents and technicians to work on customer service cases and field service work orders and tasks. Then assign cases and tasks to agents and technicians who have those required skills.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/workforce-optimization-for-field-service/mandatory-skills.html
@@ -7,12 +7,12 @@ release: zurich
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage skills, Users, Set up workforce, Configure, Field Service Management]
 ---
 
-# Mandatory Skills
+# Mandatory skills
 
 Use the mandatory skills feature to identify any skills that are required for agents and technicians to work on customer service cases and field service work orders and tasks. Then assign cases and tasks to agents and technicians who have those required skills.
 
@@ -23,7 +23,7 @@ When assigning cases, work orders, and work order tasks, the assignment tools co
 
 Field service dispatchers \(wm\_dispatcher\), field service technicians \(wm\_agent\), customer service managers \(sn\_customerservice\_manager\), and customer service agents \(sn\_customerservice\_agent\) can specify both skills and mandatory skills for cases and tasks.
 
-Mandatory skills are an optional feature. Mandatory skills can be identified on the assignment workbench. In addition to the **Skills** list, the assignment workbench includes a **Mandatory Skills Added** list. Agents are ranked in the workbench based on the number of skills that match the skills identified in the skills list. If the mandatory skills feature is being used, then the agents displayed are filtered by the skills listed in the Mandatory Skills Added list and then ranked by the other matching criteria.
+Mandatory skills are an optional feature. Mandatory skills can be identified on the assignment workbench. In addition to the **Skills** list, the assignment workbench includes a **Mandatory Skills Added** list. Agents are ranked in the workbench based on the number of skills that match the skills identified in the Skills list. If the mandatory skills feature is being used, then the agents displayed are filtered by the skills listed in the Mandatory Skills Added list and then ranked by the other matching criteria.
 
 **Related topics**  
 

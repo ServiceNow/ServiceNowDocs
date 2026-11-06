@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ba-models-versions.html
 release: zurich
 topic_type: concept
-last_updated: "2026-07-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
+breadcrumb: [Explore, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Supported models and versions
@@ -18,9 +18,14 @@ Learn which AI models and versions Build Agent supports and how to change them. 
 
 Build Agent currently supports the following models:
 
--   Azure OpenAI 5.4
--   Azure OpenAI 5.5
+-   Azure OpenAI GPT 5.4
+-   Azure OpenAI GPT 5.5
+
+    **Note:** GPT 5.5 support is not available in the APAC region.
+
 -   Azure OpenAI GPT 5.6 Sol 
+-   Azure OpenAI GPT 6.1å Sol 
+-   Google Gemini 3.8 Flash
 -   Google Gemini 3.7 Flash
 -   Google Gemini 3.5 Flash
 -   Gemini 2.5 Pro
@@ -30,13 +35,11 @@ Build Agent currently supports the following models:
 
 ## Changing the model and version
 
-You can change the version by selecting it directly in the Build Agent.
+You can change the version by selecting it directly in Build Agent or Autonomous Engineer.
 
 \[Omitted image "ba-model-version-change.png"\] Alt text: Model selection drop-down showing model options.
 
-**Note:** You must be on Zurich Patch 5 or later to change the model version in the chat panel.
-
-To change the model in use, navigate to the AI Admin Hub. For information on changing the model that Build Agent uses, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/edit-model-providers.md).
+To change the model in use, navigate to the AI Admin Hub. For information on changing the model that Build Agent or Autonomous Engineer uses, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/edit-model-providers.md).
 
 **Parent Topic:**[Exploring Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/exploring-build-agent.md)
 

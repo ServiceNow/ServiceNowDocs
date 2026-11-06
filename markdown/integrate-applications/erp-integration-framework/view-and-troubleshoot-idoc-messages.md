@@ -1,6 +1,6 @@
 ---
 title: View and troubleshoot IDoc messages
-description: When working with SAP business entities that can only be created or changed using IDoc, view outbound messages for details and troubleshooting information.
+description: When working with SAP business entities that can only be created or changed using IDoc, view outbound messages for details and troubleshooting information in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/view-and-troubleshoot-idoc-messages.html
 release: zurich
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, idoc, outbound, message, details, information, troubleshoot]
-breadcrumb: [Create and change SAP business entities with IDoc, Add an entity to a model, Building models, Use, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [IDoc, Connecting Zero Copy Connector for ERP to SAP ECC and SAP S/4HANA, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # View and troubleshoot IDoc messages
 
-When working with SAP business entities that can only be created or changed using IDoc, view outbound messages for details and troubleshooting information.
+When working with SAP business entities that can only be created or changed using IDoc, view outbound messages for details and troubleshooting information in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
 
 ## Before you begin
 
@@ -23,9 +23,9 @@ Role required: sn\_erp\_integration.erp\_admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Zero Copy Connector for ERP Home**.
+1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the outbound messages list by selecting the outbound messages icon \[Omitted image "image.erp-outbound-messages-icon"\] Alt text: in the side panel.
+2.  Open the outbound messages list by selecting the outbound messages icon \[Omitted image "erp-outbound-messages-icon.png"\] Alt text: in the side panel.
 
 3.  Select an outbound message.
 
@@ -50,6 +50,4 @@ Role required: sn\_erp\_integration.erp\_admin
 
     For a detailed description of the column values, see [Outbound message IDoc status for IDoc log tab fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-outbound-message-idoc-status-for-idoc-log-tab-columns.md).
 
-
-**Parent Topic:**[Create and change SAP business entities with IDoc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/create-and-change-sap-business-entities-with-idoc.md)
 

@@ -1,22 +1,22 @@
 ---
 title: Cross-instance application trust configuration
-description: Multi-instance management provides a mechanism to streamline the management of trust configurations across your entire multi-instance environment.
+description: Multi-Instance Management provides a mechanism to streamline the management of trust configurations across your entire multi-instance environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/grant-access-v2.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure, Multi-instance Management, Get started, Administer]
+breadcrumb: [Multi-Instance Management, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Cross-instance application trust configuration
 
-Multi-instance management provides a mechanism to streamline the management of trust configurations across your entire multi-instance environment.
+Multi-Instance Management provides a mechanism to streamline the management of trust configurations across your entire multi-instance environment.
 
 The multi-instance capability introduces new concepts, describing how communication is supported across instances for enabled applications and their capabilities. In order to do this securely, you need to define how these instances trust each other. This can be defined as a trust profile. The trust profile defines how a set of instances communicate for a given application. In order for this profile to be applied to each instance, that profile needs to be propagated out to the instances that will participate in a given application.
 
-Multi-instance management offers a centralized mechanism for configuring and maintaining trust settings across your multi-instance deployment. This simplifies the process of propagating trust settings to all instances under your control by designating a production instance by designating a production instance to manage the trust configurations on all the instances it should manage remotely.
+Multi-Instance Management offers a centralized mechanism for configuring and maintaining trust settings across your multi-instance deployment. This simplifies the process of propagating trust settings to all instances under your control by designating a production instance by designating a production instance to manage the trust configurations on all the instances it should manage remotely.
 
 ## Trust concepts
 
@@ -67,11 +67,4 @@ Multi-instance management offers a centralized mechanism for configuring and mai
 
     **Note:** An instance can’t be both a managing and a managed instance. An instance can manage several instances simultaneously. An application within an instance can be managed by only one instance at a time.
 
-
--   **[Configure Manager Instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/mif-conf-manager-instance.md)**  
-Implement the following steps to configure the Manager Instances in Multi-Instance Management.
--   **[Configure Managed Instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/mif-conf-managed-instance.md)**  
-Implement the following steps to configure the Managed Instances in Multi-Instance Management.
-
-**Parent Topic:**[Configuring Multi-instance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/data-sync-configure.md)
 

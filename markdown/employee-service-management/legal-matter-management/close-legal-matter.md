@@ -7,7 +7,7 @@ release: zurich
 product: Legal Matter Management
 classification: legal-matter-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Work on a legal matter, Use, Legal Matter Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -36,15 +36,15 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d286978e110">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d293130e110">
 
 Option
 
-</th><th align="left" id="d286978e113">
+</th><th align="left" id="d293130e113">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d286978e119">
+</th></tr></thead><tbody><tr><td id="d293130e119">
 
 **As an assignee**
 
@@ -56,7 +56,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d286978e148">
+</td></tr><tr><td id="d293130e148">
 
 **As a collaborator**
 

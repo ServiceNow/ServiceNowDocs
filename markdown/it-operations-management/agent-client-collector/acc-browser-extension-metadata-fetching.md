@@ -7,10 +7,10 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-08-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [browser extension metadata, browser extension discovery, ACC-VC]
-breadcrumb: [Browser extension discovery and categorization, ACC deployment - endpoints, Agent Client Collector, IT Operations Management]
+breadcrumb: [Browser extension discovery and categorization, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Browser extension metadata fetching
@@ -39,4 +39,6 @@ The type of data browser extension metadata fetching collects depends on the bro
 Turning on browser extension metadata fetching increases the amount of data the agent reads and sends for each extension. Turn it on deliberately instead of leaving it on by default.
 
 **Note:** If you turn off browser extension metadata fetching after previously turning it on, existing metadata records aren't deleted, but they stop being refreshed.
+
+**Parent Topic:**[Browser extension discovery and categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-browser-extension-discovery.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Pools and Filters for Cloud Provisioning, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -40,7 +40,7 @@ Type
 
 </td><td>
 
-Select the type that determines whether the available value count remains the same \(Static\) or decreases by one \(Diminishing\).
+Select the type that determines whether the total count of available values remains the same \(Static\) or decreases by one each time a user selects the option \(Diminishing\).
 
 </td></tr><tr><td>
 

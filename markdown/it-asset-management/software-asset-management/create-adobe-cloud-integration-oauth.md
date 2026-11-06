@@ -7,9 +7,9 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Integrate Adobe Cloud using OAuth Server-to-Server credentials, Integrating with Adobe Cloud, Software Asset Management publisher pack for Adobe, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Integrate Adobe Cloud using OAuth Server-to-Server credentials, Integrating with Adobe Cloud, Software Asset Management publisher pack for Adobe, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create an Adobe Cloud integration profile using OAuth
@@ -35,15 +35,15 @@ If you’re using Software Asset Workspace, the option to create the Adobe Cloud
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d289654e106">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d308270e106">
 
 Interface
 
-</th><th align="left" id="d289654e109">
+</th><th align="left" id="d308270e109">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d289654e115">
+</th></tr></thead><tbody><tr><td id="d308270e115">
 
 **Core UI**
 
@@ -54,7 +54,7 @@ Action
 3.  Select **Adobe Cloud Integration Profile**.
 
 
-</td></tr><tr><td id="d289654e158">
+</td></tr><tr><td id="d308270e158">
 
 **Software Asset Workspace**
 
@@ -147,7 +147,7 @@ After creating an integration profile, view information about the profile in the
 -   Subscription Identifier Exclusion Rule
 -   Subscription User Exclusion Rule
 
-After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/subscription-exclusions.md).
+After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/subscription-exclusions.md).
 
 **Related topics**  
 

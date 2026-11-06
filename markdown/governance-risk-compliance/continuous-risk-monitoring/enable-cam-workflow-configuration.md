@@ -7,7 +7,7 @@ release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2025-12-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CAM workflow configuration, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
@@ -26,9 +26,7 @@ Role required: sn\_irm\_cont\_auth.admin
 
 2.  In the **CAM System Properties** page, select **Enable CAM workflow configuration**.
 
-    \[Omitted image "enable-CAM-workflow-configuration.png"\] Alt text: Enabling CAM workflow configuration.
-
-3.  In the **Enable CAM Workflow Configuration** pop-up page, read the impact listed under **Turning this property on will update your CAM experience**.
+3.  In the **Enable CAM Workflow Configuration** pop-up, read the impact listed under **Turning this property on will update your CAM experience**.
 
     The impacts to the CAM experience when you enable the CAM workflow configuration.
 
@@ -37,9 +35,9 @@ Role required: sn\_irm\_cont\_auth.admin
     -   Any custom workflow changes will need to be managed separately.
     -   New boundaries and packages will not be affected.
     -   Once enabled, this property cannot be turned off.
-    \[Omitted image "enable-CAM-workflow-configuration-1.png"\] Alt text: Impact on enabling CAM workflow configuration.
-
 4.  Select **I will run the data migration script to complete the setup** option to confirm you’ll migrate existing data after enabling the workflow configuration.
+
+    The Confirm button is enabled only after you select this checkbox. If you select Cancel or do not select the checkbox, the property remains disabled.
 
 5.  Select **Confirm** to enable the property.
 
@@ -48,5 +46,9 @@ Role required: sn\_irm\_cont\_auth.admin
 
 ## What to do next
 
-To proceed with data migration, select **Script for migrating data to cam workflow configurator** link under the **Enable CAM workflow configuration** option. See [Run migration scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/run-migration-scheduled-job.md) from Step 4 for detailed migration steps.
+To proceed with data migration, select **Script for migrating data to cam workflow configurator** link under the **Enable CAM workflow configuration** option.
+
+This link is available at all times, even after the property is enabled, so you can run migration when required.
+
+See [Run migration scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/run-migration-scheduled-job.md) from Step 4 for detailed migration steps.
 

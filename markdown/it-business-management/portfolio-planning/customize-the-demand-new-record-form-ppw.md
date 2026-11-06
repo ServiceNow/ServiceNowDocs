@@ -7,7 +7,7 @@ release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-04-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -19,6 +19,8 @@ Customize the demand form in Next Experience for Demand Management to configure 
 ## Before you begin
 
 Role required: admin
+
+**Note:** If the demand also has a demand experience selected, the experience's own view rule may take precedence over this customization, depending on execution order. See [Demand experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/demand-experiences-dw.md).
 
 ## Procedure
 
@@ -43,5 +45,5 @@ Role required: admin
 
 ## Result
 
-The customized form layout is applied to the demand record form.
+The customized form layout is applied to the demand record form, unless a demand experience with a lower-execution-order view rule takes precedence for a given demand. See [Demand experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/demand-experiences-dw.md).
 

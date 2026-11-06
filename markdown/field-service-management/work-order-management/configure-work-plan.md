@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Work plans, Planned Work Management, Work orders and tasks, Configure, Field Service Management]
+breadcrumb: [Configure work plans, Planned Work Management, Set up work orders and tasks, Configure, Field Service Management]
 ---
 
 # Configure a work schedule
@@ -20,7 +20,7 @@ After creating a work plan, it’s important to define specific criteria to dete
 
 Role required: sn\_fsm\_planned\_wm.planned\_work\_admin and model\_manager
 
-You must create a work plan before configuring a work schedule for the plan.
+Create a work plan before configuring a work schedule for the plan.
 
 ## About this task
 
@@ -312,10 +312,5 @@ Determine how often the planned work is scheduled to be performed. For example, 
 
 The schedule is created for a work plan. The Schedule Occurrences related list is added to the schedule to track the occurrence of maintenance cycles for the schedule.
 
-The schedule occurrences are created immediately after saving the schedule for duration-based schedules. However, if a different trigger option is selected for a schedule, the occurrence is created only when the specified condition or meter value is met. The creation of schedule occurrences depend on the effective end date. If no effective end date is specified, the application generates the next occurrence of the schedule. For more information see, [View schedule occurrences for a planned work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/view-schedule-occurrences-for-the-planned-work.md).
-
-**Related topics**  
-
-
-[Learn about triggers for work schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/schedule-trigger-types.md)
+The schedule occurrences are created automatically for duration-based schedules. However, if a different trigger option is selected for a schedule, the occurrence is created only when the specified condition or meter value is met. The creations of schedule occurrences depend on the effective end date. If no effective end date is specified, the application generates the next occurrence of the schedule. For more information, see [View schedule occurrences for a planned work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/view-schedule-occurrences-for-a-planned-work.md).
 

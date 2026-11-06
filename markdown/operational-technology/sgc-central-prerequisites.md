@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/sgc-central-prerequisites.html
 release: zurich
 topic_type: task
-last_updated: "2026-05-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [SGC Central, Service Graph Connector for ServiceNow Operational Technology\(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [SGC Central, Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # SGC Central prerequisites
@@ -26,7 +26,7 @@ Role required: admin
 
 2.  In the results, under ServiceNow OT Discovery, the **Setup Using SGC Central** option displays.
 
-    \[Omitted image "image.result-drop-down-2"\] Alt text: Setup Using SGC Central
+    \[Omitted image "result-drop-down-2.png"\] Alt text: Setup Using SGC Central
 
 3.  Select the **SGC Central** tab.
 
@@ -34,19 +34,21 @@ Role required: admin
 
 5.  The first prerequisite is download and install the OT Discovery components.
 
-    \[Omitted image "image.downloadpage2-sgcc"\] Alt text: OT Discovery Downloads
+    \[Omitted image "downloadpage2-sgcc.png"\] Alt text: OT Discovery Downloads
 
     1.  Download and install the Discovery Console for OT package.
     2.  Download and install the Discovery Sensor for OT package \(ISO and OVR\).
     3.  Download and install the OT Discovery Collector package that's compatible with your OS.
-    **Note:** If you want to download and install the Console and Collector containerized packages, see [Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/air-gapped-networks-installation.md) for more information.
+    **Note:** You can download and install the Console and Collector containerized packages. Be sure to select the Collector package that is compatible to your OS. For more information, see [Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/air-gapped-networks-installation.md).
 
 6.  The second prerequisite is to configure the MID Server.
 
     Configure the MID Server using the MID Server Guided Setup. Select the link to review the MID Server certificate check policies.
 
-    \[Omitted image "image.sgcc-configure-mid-server2"\] Alt text: Configure the MID Server
+    \[Omitted image "sgcc-configure-mid-server2.png"\] Alt text: Configure the MID Server
 
 7.  Verify that the prerequisites are complete and select **Continue**.
 
+
+**Parent Topic:**[SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/sgc-central-for-ot-discovery.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2025-12-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [GRC state model configuration, CAM workflow configuration, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
@@ -27,8 +27,6 @@ Role required: sn\_irm\_cont\_auth.admin
 2.  Open the state model record to which you want to add workflow states.
 
 3.  In the **GRC workflow states** section, select **New** to create a workflow state.
-
-    \[Omitted image "WF-state1.png"\] Alt text: Adding workflow states.
 
 4.  On the **GRC workflow state New record** form, fill in the fields.
 
@@ -65,9 +63,7 @@ Stepper Label
 Enter the display name of the state that appears in the authorization package.
 
 </td></tr></tbody>
-</table>    \[Omitted image "WF-state2.png"\] Alt text: Workflow states fields.
-
-5.  Select **Submit** to add the workflow state to the state model.
+</table>5.  Select **Submit** to add the workflow state to the state model.
 
 
 ## Result

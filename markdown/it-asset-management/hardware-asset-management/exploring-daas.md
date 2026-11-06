@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Hardware Asset Management, IT Asset Management]
+breadcrumb: [Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Device as a Service
@@ -93,4 +93,10 @@ Systematically refresh, decommission, and dispose of assets at the end of their 
 -   Inventory user
 
 </td></tr></tbody>
-</table>
+</table>-   **[Configuring DaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/configuring-daas.md)**  
+Plan and configure the Device as a Service \(DaaS\) features and functionalities.
+-   **[DaaS reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/reference-daas.md)**  
+Reference topics provide additional information about the lists and forms that you use to configure and administer Asset as a Service.
+
+**Parent Topic:**[Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/ham-landing-page.md)
+

@@ -1,5 +1,5 @@
 ---
-title: Manage Capabilities Maps for the Impact Store Application
+title: Manage capabilities maps
 description: Explore and manage the usage status for the capabilities you are entitled to use.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/impact-product-adoption-roadmap/manage-capability-maps.html
@@ -7,60 +7,80 @@ release: zurich
 product: Impact Product Adoption Roadmap
 classification: impact-product-adoption-roadmap
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Capabilities maps, Product Adoption, Using Impact, Impact]
+last_updated: "2026-09-21"
+reading_time_minutes: 3
+breadcrumb: [Entitlements and usage using capabilities, Product adoption, Using Impact, Impact]
 ---
 
-# Manage Capabilities Maps for the Impact Store Application
+# Manage capabilities maps
 
 Explore and manage the usage status for the capabilities you are entitled to use.
 
 ## Before you begin
 
-Role required: Impact Platform Owners, Impact Admins, Impact Executives, and Impact Users
+Role required: Impact\_platform\_owner, impact\_admin, impact\_executive, or impact\_user
 
 ## About this task
 
+Use the capabilities map to track which entitled capabilities your organization is using, planning to use, or not using. Update usage status, add notes, and organize the view to support product adoption planning.
+
+**Note:** Starting with the Brazil release, the Impact Store Application displays 375 entitled and non-entitled capabilities, compared to 1,155 capabilities in previous releases.
+
 ## Procedure
 
-1.  Navigate to **Impact Workspace ** &gt; **Product Adoption** &gt; **Capabilities map**.
+1.  Navigate to **Impact Workspace** &gt; **Product Adoption** &gt; **Capabilities map**.
 
-2.  In the **Product adoption summary** section, view the overall usage summary for capabilities under your specific product area.
+2.  From the **View by** list, select your product.
 
-3.  To filter results specific to your product, select your product from the **View by** list.
+    The Product Adoption Summary displays capabilities that your organization is planning or actively using, along with percentage usage trends over time.
 
-    The Product Adoption Summary provides a clear overview of the capabilities your organization is currently planning or actively using. It also highlights a list of recommended capabilities that include squad recommended capabilities and ServiceNow locked list of recommended standard capabilities.\[Omitted image "product-adoption-summary.png"\] Alt text: Product adoption summary section
+    To adjust the time period for **% in use capabilities**, select \[Omitted image "ellipsis-vertical-fill-24.svg"\] Alt text: time period icon icon.
 
-4.  In the **Capabilities** section, you can expand the workflows and products to view the capabilities and their details such as usage status, entitled, related accelerators, available notes, and last updated date.
+    **Note:**
 
-    \[Omitted image "store-capabilities-section.png"\] Alt text: Capabilities for every workflow along with the necessary information such as usage status and last updated date
+    Even if your Impact Store Application instance is not integrated with Impact Delivery Instance using Service Exchange, you can view the capabilities map with a list of applications, and their entitlement status.
 
-    **Note:** In the **Capabilities** section header, you can view the details of the user who last updated the capabilities map along with the timestamp.
+    \[Omitted image "image.capabilities\_withoutservicebridge"\] Alt text: Capabilities map showing applications and entitlement status without Service Bridge connection
 
-5.  Navigate the workflows and select a product.
+    To view the complete capabilities map experience, connect to ServiceNow Impact Delivery Instance. For more information see,
 
-    All capabilities for the selected workflow and product are displayed in a table with color-coded status indicators\[Omitted image "store-capabilities-selected.png"\] Alt text: List of Capabilities indicating Usage status such as Needs Validation and Not in Use.
+    -   [Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-exchange/tmt-service-bridge-both-landing-page.md)
+    -   [Use manual registration to establish the connection to the provider instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/connect-instance-impact-store-app.md)
+3.  In the **Capabilities** section, you can expand the products lines to view capabilities that are of type application their entitled status, usage status, related accelerators, available notes, and last updated date.
 
-6.  Update the capabilities by selecting a capability from the list of capabilities and then select a status from the **Change Status** menu.
+    By default, you can only view entitled and non-hidden capabilities. Adjust the filters to change the view.
 
-    -   Select a capability from the list of capabilities and then select a status from the **Change Status** menu.
-    -   Select the **Usage Status** by double-clicking the usage status column of the selected capability row
-    \[Omitted image "store-capability-change-status.png"\] Alt text: Change status for the selected capability.
+    In the **Capabilities** section header, you can view the details of the user who last updated the capabilities map along with the timestamp.
 
-7.  Select a capability to display the Capability Details Page **About** tab with the **Related Resources**.
+4.  Navigate to a product to view its capabilities.
 
-    \[Omitted image "view-related-resources.png"\] Alt text: View information about a capability along with Notes and link to the product documentation.
+5.  To view capabilities recommended by your Squad, see the **Squad prioritized** column.
 
-8.  To hide the capability from appearing in the default view of the capabilities map, select the check box beside the capability, then select **Hide** button.
+    Squad prioritized capabilities are identified by your Impact squad team as most relevant for your organization based on your entitlements and goals.
+
+    **Note:** To filter by Squad prioritized capabilities, select the \[Omitted image "filter-icon.png"\] Alt text: filter icon filter icon in the **Capabilities** section and then select **Squad Prioritized** from the filter options.
+
+    Without an active Service Exchange integration, the **Squad prioritized** column displays an icon and a message in place of squad recommendations.
+
+6.  To update a capability's usage status, use one of the following methods:
+
+    -   Double-click the **Usage Status** column for the capability.
+    -   Select \[Omitted image "ellipsis-horizontal-fill-24.svg"\] Alt text: for the capability and then select **Change Status** from the list.
+    The capabilities map reflects your updates to usage status, notes, and visibility settings. Use these updates to track product adoption and plan capability implementation.
+
+    **Note:** Usage status is shown with a \[Omitted image "image.capabilities\_notconnected"\] Alt text: Usage not displayed icon for all applications, and you can manually edit usage status without an active Service Exchange connection.
+
+7.  Select a usage status from the list in the Edit Usage Status Pop-up window.
+
+8.  Select a capability to display the Capability Details Page **About** tab with the **Related Resources**.
+
+9.  To hide the capability from appearing in the default view of the capabilities map, select the check box beside the capability, then select **Hide** button.
 
     \[Omitted image "hide-capabilities.png"\] Alt text: Hide one or more capabilities if you do not want to view them in the table.
 
     You can bulk hide capabilities by selecting the check box for multiple capabilities, then select the **Hide** button.
 
-9.  To view the hidden capabilities, select the **View Hidden Capabilities** link.
-
-    The default view of the capabilities map displays the hidden capabilities.To restore one or more hidden capabilities, select the check box beside the capability, then select **Hide** button.
+    **Note:** Starting with the Brazil release, capabilities aren’t hidden by default. You can hide or unhide capabilities based on your preferences.
 
 10. To edit capability notes, select the capability to open its details window, then select **Edit** next to the **Capability notes** section under the **About** tab.
 
@@ -68,10 +88,10 @@ Role required: Impact Platform Owners, Impact Admins, Impact Executives, and Imp
 
     **Note:** If there are no capability notes, select **Add** to add them.
 
-11. To add a new capability manually, select the **Add manual capability** button and enter the required information in the **Add manual capability** window.
+11. To add a capability manually, select the **Add manual capability** button and enter the required information in the **Add manual capability** window.
 
-12. To view the capabilities that have related accelerators, view the related accelerator column for the selected capability.
+12. To view the related accelerators for a capability, select the count of **Related accelerator** column.
 
-    \[Omitted image "related-accelerators-capmap.png"\] Alt text: The Related Accelerators tab for the selected recommendation.
+    The capability details and its related accelerators are displayed.
 
 

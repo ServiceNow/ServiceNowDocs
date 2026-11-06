@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-risk-demo-data.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a risk definition, Manage engagements, Customer success, Configure, Customer Success Management]
+breadcrumb: [Define risk criteria, Engagements, Customer success, Configure, Customer Success Management]
 ---
 
 # Sample risk definitions
@@ -34,5 +34,5 @@ This is a table based risk definition and generates a risk signal if the contrac
 
 \[Omitted image "account-lifecycle-risk-defn-renew-date.png"\] Alt text: Missing renewal date
 
-**Parent Topic:**[Create a risk definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-setup-risk-defn.md)
+**Parent Topic:**[Define risk criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-setup-risk-defn.md)
 

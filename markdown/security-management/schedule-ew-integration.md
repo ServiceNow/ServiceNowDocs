@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/schedule-ew-integration.html
 release: zurich
 topic_type: task
-last_updated: "2025-12-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Early Warning for Security Exposure Management, Integrations, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Early Warning for Security Exposure Management, Integrate, Unified Security Exposure Management, Security Operations]
 ---
 
 # Schedule the Early Warning for Security Exposure Management integrations
@@ -34,6 +34,4 @@ Role required: sn\_vul\_int\_fw.configure\_integrations
 ## What to do next
 
 [View Early Warning for Security Exposure Management integration health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/view-armis-early-warning-health.md)
-
-**Parent Topic:**[Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/armis-early-warning-integration.md)
 

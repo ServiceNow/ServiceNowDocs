@@ -7,7 +7,7 @@ release: zurich
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2025-12-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Vmware vCenter, Vmware discovery]
 breadcrumb: [Operating systems discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]

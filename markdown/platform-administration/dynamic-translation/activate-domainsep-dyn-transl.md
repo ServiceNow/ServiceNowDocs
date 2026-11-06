@@ -7,9 +7,9 @@ release: zurich
 product: Dynamic Translation
 classification: dynamic-translation
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Dynamic Translation, Dynamic Translation, Translation and localization, Configure core features, Administer]
+breadcrumb: [Configuring Dynamic Translation, Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Request for domain separation in Dynamic Translation
@@ -86,5 +86,5 @@ For information about configuring domain separation in Dynamic Translation, see 
 **Related topics**  
 
 
-[List of plugins \(Zurich\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/list-of-plugins.md)
+[Available plugins and applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/list-of-plugins.md)
 

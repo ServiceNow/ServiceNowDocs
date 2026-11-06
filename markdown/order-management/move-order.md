@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/move-order.html
 release: zurich
 topic_type: concept
-last_updated: "2026-01-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing post-fulfillment order changes, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -29,4 +29,11 @@ For all the product inventory records that are in **Activation pending** state a
 On successful completion of the order, the old inventory with state **Change pending** becomes **Inactive**. The new inventory with state **Activation pending** becomes **Active**.
 
 **Parent Topic:**[Managing post-fulfillment order changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/managing-orders.md)
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-order-management.md)
 

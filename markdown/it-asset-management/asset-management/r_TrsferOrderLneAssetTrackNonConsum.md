@@ -7,9 +7,9 @@ release: zurich
 product: Asset Management
 classification: asset-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Transfer order line asset tracking, Manage transfer order, Use, Asset Management, IT Asset Management]
+breadcrumb: [Transfer order line asset tracking, Manage transfer order, Use, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Transfer order line asset tracking of non-consumables

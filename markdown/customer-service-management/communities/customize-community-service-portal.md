@@ -7,7 +7,7 @@ release: zurich
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Community Service Portal, Configuring communities, Communities, Customer Service Management]
 ---
@@ -18,7 +18,11 @@ Customize community service portal according to your needs.
 
 ## Before you begin
 
-Role required: admin
+Role required: sp\_admin
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Procedure
 

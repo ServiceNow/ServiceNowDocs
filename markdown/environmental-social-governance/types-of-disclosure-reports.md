@@ -1,20 +1,20 @@
 ---
 title: Types of disclosure reports
-description: The ESG Management application provides the multiple types of disclosures reports and each type is used for a specific purpose.
+description: The Operational Sustainability Management application provides the multiple types of disclosures reports and each type is used for a specific purpose.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/types-of-disclosure-reports.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Disclosures in ESG Management, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Disclosures in Operational Sustainability Management \(formerly ESG Management\), Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Types of disclosure reports
 
-The ESG Management application provides the multiple types of disclosures reports and each type is used for a specific purpose.
+The Operational Sustainability Management application provides the multiple types of disclosures reports and each type is used for a specific purpose.
 
-The ESG Management application supports the following types of disclosures reports.
+The Operational Sustainability Management application supports the following types of disclosures reports.
 
 -   **Annual report**: An annual report is a comprehensive document that companies publish at the end of each fiscal year to communicate their financial performance and overall business activities to shareholders and other stakeholders. It typically includes financial statements, management discussions and analysis, corporate governance information, and may also touch upon sustainability matters.
 -   **ESG report**: An ESG report, also known as a sustainability report or corporate social responsibility \(CSR\) report, focuses specifically on a company's environmental, social, and governance performance. It provides detailed information on the company's efforts, initiatives, and performance related to sustainability, ethical practices, and social responsibility. ESG reports are increasingly important for companies looking to communicate their commitment to responsible business practices.
@@ -24,5 +24,5 @@ The ESG Management application supports the following types of disclosures repor
 -   **Supplier questionnaire**: A supplier questionnaire is a document or set of questions that a company uses to gather information from its suppliers regarding various aspects of their business, including operational sustainability related practices. The questionnaire may cover topics such as environmental impact, social responsibility, labor practices, and governance. Companies use this information to evaluate the operational sustainability performance of their supply chain and make informed procurement decisions aligned with sustainability goals.
 -   **Others**: Any other type of disclosure.
 
-**Parent Topic:**[Disclosures in ESG Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/esg-disclosures.md)
+**Parent Topic:**[Disclosures in Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/esg-disclosures.md)
 

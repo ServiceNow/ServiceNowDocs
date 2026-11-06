@@ -7,10 +7,10 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-08-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [HAM settings analysis, CI to asset synchronization, field and model category mappings, CMDB Data Manager policy coverage, CI state and substate usage, HAM settings evaluation, CI to asset field mappings, hardware model category mappings, Data Manager policies for HAM, Settings tab status tiles, HAM settings assessment, asset CI field mappings review, create asset on CI insertion, model category mapping review, CMDB Data Manager policies for HAM]
-breadcrumb: [Use HAM advisor, Asset and CI management, Explore, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Use HAM advisor, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Analyzing CMDB settings for HAM
@@ -94,15 +94,15 @@ Role required: sn\_cmdb\_admin
 
 5.  Evaluate each setting that requires attention and use the available actions to open the related configuration pages and make updates.
 
-<table id="choicetable_acr_fw5_ggc"><thead><tr><th align="left" id="d332993e487">
+<table id="choicetable_acr_fw5_ggc"><thead><tr><th align="left" id="d355335e487">
 
 Action
 
-</th><th align="left" id="d332993e490">
+</th><th align="left" id="d355335e490">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d332993e496">
+</th></tr></thead><tbody><tr><td id="d355335e496">
 
 **Manage rule**
 
@@ -110,7 +110,7 @@ Description
 
 Opens the configuration page for the related business rule that automates tasks between assets and CIs.
 
-</td></tr><tr><td id="d332993e505">
+</td></tr><tr><td id="d355335e505">
 
 **Manage model categories**
 
@@ -118,7 +118,7 @@ Opens the configuration page for the related business rule that automates tasks 
 
 Opens the Model categories list page where you can select a model category to review and update mappings between asset model categories and CI classes.
 
-</td></tr><tr><td id="d332993e514">
+</td></tr><tr><td id="d355335e514">
 
 **Manage mappings**
 
@@ -126,7 +126,7 @@ Opens the Model categories list page where you can select a model category to re
 
 Opens the Asset CI Field Mappings list page where you can select a CI and review and change how asset fields connect to CI fields to keep data accurate.
 
-</td></tr><tr><td id="d332993e523">
+</td></tr><tr><td id="d355335e523">
 
 **Manage policies**
 
@@ -134,7 +134,7 @@ Opens the Asset CI Field Mappings list page where you can select a CI and review
 
 Opens the Data Manager overview page where you can create or update policies for different CI classes to automate asset management.
 
-</td></tr><tr><td id="d332993e533">
+</td></tr><tr><td id="d355335e533">
 
 **Create policy**
 
@@ -153,7 +153,7 @@ Opens the New policy form to create a policy for a CI class. The **Create policy
 
 [Administer CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/administer-data-manager.md)
 
-[Asset and CI management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/c_ManagingAssets.md)
+[Asset and CI management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/c_ManagingAssets.md)
 
 [Model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/product-catalog/c_ModelCategories.md)
 

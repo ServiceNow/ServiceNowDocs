@@ -7,8 +7,8 @@ release: zurich
 product: Workplace Visitor Management
 classification: workplace-visitor-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Registering a visitor, Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -22,6 +22,8 @@ Role required: none
 
 ## About this task
 
+**Warning:** The steps in this topic describe the behavior in Workplace Visitor Management version 1.19 or earlier. In Workplace Visitor Management version 2.0.0 or later, the **Read and sign policies** and **Decline policies** buttons have been removed from visitor emails. You can acknowledge policies on the visitor portal, or during the check-in process on a kiosk.
+
 When you register a visit to a workplace, or if someone creates a visitor registration on your behalf, you might receive an email about reviewing the workplace policies. You can review and accept the policies based on your preference.
 
 You can also accept the policies on the Workplace Services Kiosk during the visitor check-in process. For more information about the kiosk check-in process, see [Check in using an invite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-services-kiosk/visitor-check-in.md).
@@ -34,15 +36,15 @@ You can also accept the policies on the Workplace Services Kiosk during the visi
 
 2.  Accept or decline the visitor policies based on your preference.
 
-<table id="choicetable_if1_vtw_tfc"><thead><tr><th align="left" id="d127971e84">
+<table id="choicetable_if1_vtw_tfc"><thead><tr><th align="left" id="d129634e94">
 
 Choice
 
-</th><th align="left" id="d127971e87">
+</th><th align="left" id="d129634e97">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d127971e93">
+</th></tr></thead><tbody><tr><td id="d129634e103">
 
 **Accept the policies**
 
@@ -56,7 +58,7 @@ The Visitor Policies page opens with details about all visitor policies.
 
 Based on the configuration set by the admin, you might have to add a signature to agree to the policies.
 
-</td></tr><tr><td id="d127971e121">
+</td></tr><tr><td id="d129634e131">
 
 **Decline the policies**
 
@@ -72,6 +74,10 @@ A page opens confirming that you have declined the policies. You can review the 
 
 **Related topics**  
 
+
+[Use the host portal]()
+
+[Adding visitors]()
 
 [Make a visitor registration]()
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/cpq-picklists-and-picklist-extensions-in-rules.html
 release: zurich
 topic_type: concept
-last_updated: "2025-09-17"
-reading_time_minutes: 4
-breadcrumb: [Configure picklist extensions, ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+last_updated: "2026-03-12"
+reading_time_minutes: 5
+breadcrumb: [Configure picklist extensions, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Picklists and picklist extensions in rules
@@ -21,6 +21,8 @@ Picklist extensions \(PLEs\) are a powerful way for administrators to display as
 -   Try using Filter Options &amp; Product Info first.
 -   Do not use inclusion rules for PLEs. PLE filtering works like inclusion rules, so in order to remove further options, the user should use exclusion rules.
 -   **Contains** and **Equals** act differently on multi-select picklists. `Array.includes()` and `==` also act differently.
+
+For information about rules, including inclusion and exclusion rules, see [Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/rules_101.md).
 
 ## Simple rules
 

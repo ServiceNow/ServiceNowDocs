@@ -1,26 +1,33 @@
 ---
 title: Assign a team member to a household
-description: Assign a team member to a household by selecting an employee and their role or responsibility in the Customer Service Management \(CSM\) application.
+description: Assign a team member to a household by selecting an employee. You can then select the employee’s role or responsibility in the Customer Service Management \(CSM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/assign-team-member-to-household.html
 release: zurich
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Configuring households, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Assign a team member to a household
 
-Assign a team member to a household by selecting an employee and their role or responsibility in the Customer Service Management \(CSM\) application.
+Assign a team member to a household by selecting an employee. You can then select the employee’s role or responsibility in the Customer Service Management \(CSM\) application.
 
 ## Before you begin
 
-Role required: sn\_customerservice\_manager or admin
+Role required: One of the following roles:
+
+-   sn\_crm\_foundation\_admin
+-   sn\_crm\_foundation\_data\_manager
+-   sn\_crm\_household\_relationship\_data\_manager
+-   sn\_crm\_consumer\_relationship\_data\_manager
+-   sn\_customerservice\_manager
+-   admin
 
 ## About this task
 
-If you're the system administrator or a customer service manager, you can assign a team member to a household from the Current Members related list on the Household form.
+If you're the administrator or a customer service manager, you can assign a team member to a household from the Current Members related list.
 
 ## Procedure
 

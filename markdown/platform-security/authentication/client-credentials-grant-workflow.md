@@ -1,5 +1,5 @@
 ---
-title: Client credentials grant workflow
+title: Authenticate a client application with the client credentials grant
 description: Authenticate a client application using a client credentials workflow. The client credentials grant workflow is used by back-end services or system integrations to access ServiceNow APIs without user involvement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/client-credentials-grant-workflow.html
@@ -7,18 +7,18 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Client Credentials Grant, Inbound Integrations, OAuth inbound, OAuth authentication, Access Management]
+breadcrumb: [Client credentials grant, Inbound integrations, OAuth inbound, OAuth authentication, Authentication, Access Management]
 ---
 
-# Client credentials grant workflow
+# Authenticate a client application with the client credentials grant
 
 Authenticate a client application using a client credentials workflow. The client credentials grant workflow is used by back-end services or system integrations to access ServiceNow® APIs without user involvement.
 
 ## Before you begin
 
-Role required: `oauth_admin, mi_admin, admin`
+Role required: oauth\_admin, mi\_admin, admin
 
 ## About this task
 
@@ -28,7 +28,7 @@ This workflow describes how a client application \(back-end service or system in
 
 ## Procedure
 
-1.  **The client application makes a token request** to the ServiceNow end point with the following parameters:
+1.  Make a token request to the ServiceNow end point with the following parameters:
 
     ```
     Method: POST
@@ -69,7 +69,7 @@ Yes
 
 </td><td>
 
-Unique identifier for the client application.Example:Y`OUR_CLIENT_ID`
+Unique identifier for the client application.Example: `OUR_CLIENT_ID`
 
 </td></tr><tr><td>
 

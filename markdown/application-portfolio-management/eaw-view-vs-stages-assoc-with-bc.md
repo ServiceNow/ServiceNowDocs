@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-view-vs-stages-assoc-with-bc.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage business capabilities, Using business architecture, Working with Portfolio list view, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Manage business capabilities, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # View value stream stages for a business capability
@@ -48,5 +48,5 @@ Role required: sn\_apm.apm\_user
 
 [View value stream stage details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-view-all-value-stream-stages.md)
 
-[Add or remove business capabilities from value stream stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/add-or-remove-a-bc-from-vs-stage.md)
+[Add or remove business capabilities from a value stream stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/add-or-remove-a-bc-from-vs-stage.md)
 

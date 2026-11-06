@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sem-approve-ex-rule-request.html
 release: zurich
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Configuring an exception rule, Configure rules to manage findings, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -40,6 +40,4 @@ If you are deploying the VR application for the first time, the flow designer fo
 
     You can review the **Impacted findings** metric on the **Overview** tab to see how many findings match the rule's conditions. Select the count to view the matching findings or refresh it to recalculate based on the latest data.
 
-
-**Parent Topic:**[Configuring an exception rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-configure-exception-rule.md)
 

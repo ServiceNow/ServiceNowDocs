@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/cpq-using-uam.html
 release: zurich
 topic_type: concept
-last_updated: "2025-09-09"
-reading_time_minutes: 2
+last_updated: "2026-03-12"
+reading_time_minutes: 3
 breadcrumb: [ServiceNow CPQ admin settings, ServiceNow CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
 
@@ -16,7 +16,7 @@ Manage access to the ServiceNow CPQ Admin interface. Grant or remove admin right
 
 The User Access utility allows managing access to selected areas of ServiceNow CPQ Admin. Admin users have full admin access unless their access level is modified via CSV import.
 
-**Note:** The User Access utility is enabled via a support request.
+**Note:** The User Access utility is enabled via a support request. Open a ticket by using the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
 
 ServiceNow CPQ Admins can control access to the ServiceNow CPQ Admin interface by granting admin access only to specific users. All existing users have admin access, which can be adjusted to end-user access as needed. New users automatically receive end-user access and need to be explicitly granted admin access by a user with admin access.
 
@@ -55,7 +55,7 @@ Newly created users have END\_USER permissions only. The access level can be cha
 
 ## Troubleshooting
 
--   Once granted access, new users may need to do one or mor of the following:
+-   Once granted access, new users may need to do one or more of the following:
     -   Restart the browser
     -   Clear the browser cache
     -   Remove ServiceNow CPQ session cookies before accessing ServiceNow CPQ Admin
@@ -63,4 +63,11 @@ Newly created users have END\_USER permissions only. The access level can be cha
 
     If necessary, edit the CSV so that user names are in lowercase, and import the user again.
 
+
+**Related topics**  
+
+
+[User access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
+
+[User Access Control reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/cpq-user-access-control-ref.md)
 

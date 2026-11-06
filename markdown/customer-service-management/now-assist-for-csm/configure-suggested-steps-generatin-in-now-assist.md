@@ -1,6 +1,6 @@
 ---
 title: Configure Suggested Steps Generation
-description: Configure suggested steps generation to analyze clusters of similar cases and suggest next steps for case resolution for accelerated and consistent agent case troubleshooting.Learn how to enable the suggested steps generation in the CRM Workspace after skill activation.Replace the default sn\_customerservice\_agent or sn\_customerservice.consumer\_agent role with a custom role.
+description: Configure suggested steps generation to analyze clusters of similar cases and suggest next steps for case resolution for accelerated and consistent agent case troubleshooting.Learn how to enable the suggested steps generation in the CRM Workspace after skill activation.Replace the default sn\_customerservice\_agent and sn\_customerservice.consumer\_agent role with a custom role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/configure-suggested-steps-generatin-in-now-assist.html
 release: zurich
@@ -8,7 +8,7 @@ product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 6
+reading_time_minutes: 9
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents, generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
@@ -127,55 +127,164 @@ Learn how to enable the suggested steps generation in the CRM Workspace after sk
 
 ### Before you begin
 
-Role required: admin
+After activating the Suggested steps generation feature in the AI Admin Hub, follow these steps to make the skill visible in CRM Workspace.
 
-After activating the Suggested steps generation feature in the , follow the steps outlined to make the skill available in CRM Workspace.
+Verify these before proceeding:
+
+-   Recommended Action 1 widget exists on your instance
+-   UI Builder is accessible to administrators
+-   CRM Workspace has been provisioned
+
+Role required: admin
 
 ### Procedure
 
 1.  Navigate to **All** &gt; **UI Builder**.
 
-2.  Go to **Experiences** &gt; **CSM/FSM Configurable Workspace** &gt; **Record** &gt; **Front-line Case Page**.
+2.  Go to **Experiences** &gt; **CRM Workspace** &gt; **Record** &gt; **Front-line Case Page**.
 
 3.  In the left content navigation pane, scroll down and select **Recommended Action 1**.
 
-4.  In the right pane, clear the checkbox **Hide recommended actions**.
+4.  In the right pane, clear the **Hide recommended actions** check box.
 
 5.  Select **Save** to apply the changes.
 
 
 ### Result
 
-Recommended Actions will be displayed in the CRM Workspace and you can see the Suggested steps generation skill under it.
+After saving configuration, open a case record in CRM Workspace. Suggested Steps generation skill appears below the case form in the Recommended Actions section.
+
+**Configure Recommended Actions for custom tables**
+
+To enable Suggested Steps on custom case tables or extensions, configure the Recommended Actions widget in UI Builder.
+
+Prerequisites for custom tables:
+
+-   Custom table must extend sn\_customerservice\_case
+-   Table must have Short Description and Edited Conditions fields or custom equivalents
+-   UI Builder experience must exist for the custom form
+
+Configuration steps:
+
+1.  Navigate to **All** &gt; **UI Builder**.
+2.  Go to **Experiences** &gt; **\[Your Custom Workspace\]** &gt; **Record** &gt; **\[Your Custom Form Page\]**.
+3.  In the left pane, scroll to find Recommended Action widgets or add if missing.
+4.  In the right pane, clear the **Hide recommended actions** check box.
+5.  Under Widget Settings, verify:
+    -   Recommended Actions data source points to your custom table
+    -   Binding context includes Short Description field
+6.  Select **Save**.
+
+If Recommended Actions Widget is missing:
+
+1.  Navigate to **All** &gt; **UI Builder** &gt; **Experiences** &gt; **\[Your Workspace\]** &gt; **Record** &gt; **\[Your Form\]**.
+2.  In the left pane, select **Add** &gt; **Widgets** &gt; **Recommended Actions** or **Recommended Action 1**.
+3.  Configure the widget data source to point to your custom table.
+4.  Test on the custom form to verify suggestions appear.
+
+**Troubleshooting**
+
+If suggestions aren't visible:
+
+-   Clear browser cache \(Ctrl+Shift+Delete\)
+-   Hard refresh the case page \(Ctrl+F5\)
+-   Verify your role is in the **Select Display** step
+-   Confirm the case is not excluded by Edited Conditions filter
+-   Check that Suggested Steps skill clustering completed under **AI Admin Hub** &gt; **Logs**
+-   For custom tables: Verify table extends sn\_customerservice\_case
+-   For custom tables: Confirm widget data source is set to correct table
 
 ## Customize access control for suggested steps
 
-Replace the default sn\_customerservice\_agent or sn\_customerservice.consumer\_agent role with a custom role.
+Replace the default sn\_customerservice\_agent and sn\_customerservice.consumer\_agent role with a custom role.
 
 ### Before you begin
 
 Role required: admin
 
+### About this task
+
+For custom roles to access Suggested Steps and other AI-powered skills, proper Generative AI Framework \(GAF\) configuration is required. The `sn_gaf.data_writer` role is the base permission for all AI skill access and should be added to the Contains Role list for custom agent roles. don't assign this role directly to users.
+
 ### Procedure
 
-1.  Update role permissions
+1.  Add the GAF data writer role to your custom role
 
-    In the sys\_user\_role table, open your custom role and add sn\_gaf.data\_writer to the Contains Role related list.
+    In the sys\_user\_role table, open your custom role and add `sn_gaf.data_writer` to the Contains Role related list.
 
-2.  Update ACLs
+    **Tip:** The `sn_gaf.data_writer` role should always be inherited through an agent role such as `sn_customerservice_agent`, never assigned directly to users.
 
-    In the sys\_security\_acl table, filter for ACL names starting with gaf\_suggested\_steps\_csm. Add your custom role to each of the four matching records.
+2.  Identify GAF-related ACLs
 
-3.  Configure skill access
+    Navigate to the sys\_security\_acl table and filter where Name starts with `gaf_suggested_steps_csm`.
 
-    In , complete the setup for the CSM Suggested Steps Generation skill:
+    Four matching ACL records appear.
 
-    -   Add your custom role in the **Define Access** step.
-    -   Add the same role in the **Select Display** step.
-    **Note:** The `sn_gaf.data_writer` role includes `platform_ml_read` by default. Since `sn_gaf.data_writer` is assigned to agent roles like `sn_esm_agent`, those agents inherit `platform_ml_read` as well, which gives them broader access than intended. To avoid unintended access, never assign `platform_ml_read` directly to a user- it should always be inherited through their agent role.
+3.  Add your custom role to each GAF ACL
 
+    For each of the four matching ACL records:
+
+    1.  Open the ACL record.
+    2.  In the Roles related list, add your custom role.
+    3.  Save the record.
+4.  Configure skill access in AI Admin Hub
+
+    Complete the setup for the CSM Suggested Steps Generation skill:
+
+    -   In the **Define Access** step, add your custom role.
+    -   In the **Select Display** step, add the same custom role.
+    **Warning:** The `sn_gaf.data_writer` role includes `platform_ml_read` by default. Since `sn_gaf.data_writer` is assigned to agent roles like `sn_esm_agent`, those agents inherit `platform_ml_read` as well, which gives them broader access than intended. To avoid unintended access, never assign `platform_ml_read` directly to users.
+
+5.  Verify GAF access
+
+    Test that your custom role has proper access:
+
+    1.  Assign the custom role to a test user.
+    2.  Log in as the test user and navigate to a case.
+    3.  Verify that Suggested Steps appear in Recommended Actions.
 
 ### Result
 
-By default, the sn\_customerservice\_agent and sn\_customerservice.consumer\_agent role is used. These steps allow you to configure a custom role if needed.
+Your custom role now has the same access to Suggested Steps as the default `sn_customerservice_agent` and `sn_customerservice.consumer_agent` roles.
+
+### What to do next
+
+Before marking the Suggested Steps skill as complete and activating it for all agents, validate all aspects of the configuration.
+
+|Validation item|Expected result|Status|
+|---------------|---------------|------|
+|Case volume|2000+ similar cases identified for clustering|☐ Pass ☐ Fail|
+|Short Description coverage|80%+ of cases have populated Short Description|☐ Pass ☐ Fail|
+|Edited Conditions consistency|Conditions are formatted consistently across cases|☐ Pass ☐ Fail|
+|Data freshness|Most cases created in last 6-12 months|☐ Pass ☐ Fail|
+|Special characters|No parsing-breaking characters in descriptions|☐ Pass ☐ Fail|
+
+|Configuration item|Verification step|Status|
+|------------------|-----------------|------|
+|Choose Inputs|Verify Short Description and Edited Conditions selected|☐ Pass ☐ Fail|
+|Record Clustering|Clustering job completed successfully; check logs for errors|☐ Pass ☐ Fail|
+|Define Access|Custom role added to Define Access \(or default role confirmed\)|☐ Pass ☐ Fail|
+|Select Display|Same role toggled ON in Select Display \(not just present\)|☐ Pass ☐ Fail|
+|Role Permissions|Role includes sn\_gaf.data\_writer permission|☐ Pass ☐ Fail|
+|ACL Configuration|Role added to all 4 gaf\_suggested\_steps\_csm ACL records|☐ Pass ☐ Fail|
+
+|Workspace item|Verification step|Status|
+|--------------|-----------------|------|
+|Recommended Action widget|Widget exists in form; "Hide recommended actions" is unchecked|☐ Pass ☐ Fail|
+|Custom tables|If used: Widget data source set to custom table; extends case table|☐ Pass ☐ Fail|
+|Widget visibility|Test user sees Recommended Actions section on case form|☐ Pass ☐ Fail|
+
+|Access check|How to verify|Status|
+|------------|-------------|------|
+|Test user role|Confirm test user has assigned role|☐ Pass ☐ Fail|
+|Role inheritance|Verify role includes sn\_gaf.data\_writer via Contains Roles|☐ Pass ☐ Fail|
+|Skill activation|Confirm Suggested Steps skill shows "Activated" status|☐ Pass ☐ Fail|
+|Browser cache|Clear cache and hard refresh; suggestions still visible|☐ Pass ☐ Fail|
+
+|Quality check|Expected result|Status|
+|-------------|---------------|------|
+|Suggestions appear|Suggested Steps visible for test cases|☐ Pass ☐ Fail|
+|Suggestion relevance|Suggestions are relevant to the case context|☐ Pass ☐ Fail|
+|Suggestion consistency|Similar cases receive similar suggestions|☐ Pass ☐ Fail|
+|Suggestion freshness|Suggestions reference recent resolution patterns|☐ Pass ☐ Fail|
 

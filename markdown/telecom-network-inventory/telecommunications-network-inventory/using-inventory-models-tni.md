@@ -1,20 +1,20 @@
 ---
 title: Network inventory models
-description: You define an inventory model in the Telecommunications Network Inventory application to track technical information from the manufacturer about a network asset, such as telco equipment or a network interface.
+description: You define an inventory model in the Telecommunications Network Inventory application to track technical information from the manufacturer. This information relates to a network asset, such as telco equipment or a network interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/using-inventory-models-tni.html
 release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Model your workflow, Explore, Telecommunications Network Inventory]
 ---
 
 # Network inventory models
 
-You define an inventory model in the Telecommunications Network Inventory application to track technical information from the manufacturer about a network asset, such as telco equipment or a network interface.
+You define an inventory model in the Telecommunications Network Inventory application to track technical information from the manufacturer. This information relates to a network asset, such as telco equipment or a network interface.
 
 ## Inventory models overview
 
@@ -181,7 +181,7 @@ When setting up model relationships, you select one of the following options in 
     -   The **Parent product model** field shows a list of all the logical connection models.
     -   The **Child product model** field shows a list of all the channel models that have **Behaviour** as **Channel**.
 
-To learn more about how to model your network inventory relationships, see [Modeling network inventory relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/inventory-modeling-process.md).
+To learn more about how to model your network inventory relationships, see [Model relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/inventory-modeling-process.md).
 
 ## Accessing Inventory Model forms
 

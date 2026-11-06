@@ -7,7 +7,7 @@ release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [SolarWinds, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Use the playbook available with the SGC Central application to set up the Servic
 
 ## Before you begin
 
-Install Service Graph Connector for SolarWinds version 2.6.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_InstallApplications.md).
+Install Service Graph Connector for SolarWinds version 2.6.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/installing-applications-in-application-manager.md).
 
 Air gap connections are available from version 2.5.0 of the Service Graph Connector for SolarWinds. You can set up either standard data sources or air gap data sources. Before you set up air gap data sources, you must configure the air gap solution for the Service Graph Connector for SolarWinds in your high-secure server and low-secure server. See [Configuring air gap connections for Service Graph Connector for SolarWinds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/airgap-solarwinds.md).
 
@@ -32,7 +32,7 @@ The playbook experience for onboarding connectors is activated with SGC Central 
 
 1.  Use one of the following methods to open SGC Central:
 
-    -   Navigate to **Workspaces** &gt; **Service Graph Workspace**, and from the left navigation panel, select the Ingestion icon to open the SGC Central view.
+    -   Navigate to **Workspaces** &gt; **Service Graph Workspace**, and from the left navigation panel, select the Ingestion icon \[Omitted image "icon-sgc-central.png"\] to open the SGC Central view.
     -   Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **SGC Central**.
 2.  On the Dashboard page, select **Create connection**.
 
@@ -57,7 +57,7 @@ The playbook experience for onboarding connectors is activated with SGC Central 
         2.  Select **Continue**.
     2.  Download and run the PowerShell scripts to set up an air gap connection.
 
-        **Note:** Before you add an air gap connection, you must configure the air gap solution for the Service Graph Connector for SolarWinds in your high-secure and low-secure servers. See [Configuring air gap connections for Service Graph Connector for SolarWinds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/airgap-solarwinds.md).
+        **Note:** Before you add an air gap data source, you must configure the air gap solution for the Service Graph Connector for SolarWinds in your high-secure and low-secure servers. See [Configuring air gap connections for Service Graph Connector for SolarWinds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/airgap-solarwinds.md).
 
         1.  In the **Setup** stage of the playbook, select the **Download PowerShell scripts** activity.
 

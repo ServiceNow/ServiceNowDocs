@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Capacity Console, Capacity, Workforce, Use, Field Service Management]
+breadcrumb: [Using the Capacity Console, Capacity, Managing workforce, Use, Field Service Management]
 ---
 
 # View data in capacity console
@@ -76,5 +76,5 @@ The capacity data appears in the calendar based on the applied filters.
 
 [Update capacity value and reservation for a territory in capacity console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-manager-workforce/update-reservation-rule-in-capacity-console.md)
 
-[Activate Field Service Capacity console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md)
+[Activate Field Service Advanced Capacity and Reservations management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md)
 

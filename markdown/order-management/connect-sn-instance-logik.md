@@ -1,16 +1,16 @@
 ---
-title: Set up ServiceNow instance connection with CPQ instance
+title: Connect your instance with ServiceNow CPQ instance
 description: Set up the connections between the ServiceNow instance and the ServiceNow CPQ instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/connect-sn-instance-logik.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Without guided setup, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Without guided setup, Setting up ServiceNow CPQ, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Set up ServiceNow instance connection with CPQ instance
+# Connect your instance with ServiceNow CPQ instance
 
 Set up the connections between the ServiceNow instance and the ServiceNow CPQ instance.
 
@@ -44,9 +44,9 @@ Role required: admin
 
 4.  Navigate to **All** &gt; **CPQ Administration** to validate the connection to ServiceNow CPQ.
 
-    If ServiceNow CPQ fails to open, check the previous steps for any incorrect values \(typos and trailing slashes\).
+    If ServiceNow CPQ fails to open, check the previous steps for any incorrect values \(typing errors and trailing slashes\).
 
-5.  Generate the Admin API key in ServiceNow CPQ.
+5.  Generate the Admin API key in ServiceNow CPQ using the following steps.
 
     1.  Log in as admin and navigate to **All** &gt; **CPQ Administration** &gt; **Utilities** &gt; **Admin API Keys**.
 
@@ -64,7 +64,7 @@ Role required: admin
 
         **Important:** Be sure to do this step. After closing the confirmation modal, the token will no longer be accessible.
 
-6.  Populate the Connection and Credential Aliases.
+6.  Populate the Connection and Credential Aliases using the following steps.
 
     1.  In ServiceNow Sales CRM, navigate to `https://<service_instance_url>/now/workflow-studio/integration/connection`
 
@@ -83,4 +83,13 @@ Role required: admin
 
     6.  Select **Save**.
 
+
+## What to do next
+
+[Set up an external connection in ServiceNow CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/set-up-external-connection-logik.md)
+
+**Related topics**  
+
+
+[Request a ServiceNow CPQ tenant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/set-up-logik-instance.md)
 

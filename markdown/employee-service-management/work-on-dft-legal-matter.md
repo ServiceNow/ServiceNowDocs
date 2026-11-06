@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/work-on-dft-legal-matter.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Manage, Legal Digital Forensics, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -32,15 +32,15 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d317393e112">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d322651e112">
 
 Option
 
-</th><th align="left" id="d317393e115">
+</th><th align="left" id="d322651e115">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d317393e121">
+</th></tr></thead><tbody><tr><td id="d322651e121">
 
 **As an assignee**
 
@@ -52,7 +52,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d317393e150">
+</td></tr><tr><td id="d322651e150">
 
 **As a collaborator**
 

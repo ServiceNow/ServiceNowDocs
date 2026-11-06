@@ -7,7 +7,7 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Decision tables, Configure, Telecommunications Network Inventory]
 ---
@@ -37,5 +37,5 @@ You can specify criteria and rules that fit your requirements, enabling a tailor
     The field value having value as False isn’t included in the validation process.
 
 
-**Parent Topic:**[Configuring decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/decision_tables.md)
+**Parent Topic:**[Configuring decision tables for Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/decision_tables.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
@@ -16,24 +16,17 @@ breadcrumb: [Reference, Continuous Authorization and Monitoring, Governance, Ris
 
 Activating the GRC: CAM plugin adds or modifies several tables, user roles, and other components.
 
-**Parent Topic:**[CAM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/reference-grc-cam.md)
+**Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/reference-grc-cam.md)
 
 ## Continuous Authorization and Monitoring system properties
 
 Default properties are set with activation of CAM plug-in.
 
-To configure the CAM report properties, navigate to **All** &gt; **Continuous Authorization and Monitoring** &gt; **Administration** &gt; **Report Properties**.
-
-Enter the days in the **Auto generate engagement** field to automatically create the next engagement in the authorization package. The days entered in the **Auto Generate Engagement** field in System Properties are subtracted from the next authorization date to determine the next engagement date, which is recorded in the authorization package. For more information, see [View package details in CAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/auth-package-overview-ws.md).
-
-When you **Enable** CAM **workflow configuration** property:
-
--   The system displays a confirmation dialog explaining the impacts
--   Existing packages and boundaries must be migrated to associate them with workflows
--   The property can’t be inactive after activation
--   The system refreshes to apply the new configuration
+To configure the CAM system properties, navigate to **All** &gt; **Continuous Authorization and Monitoring** &gt; **Administration** &gt; **System Properties**.
 
 \[Omitted image "cam-ato-artifacts-system-properties.png"\] Alt text: ATO Artifacts System Properties.
+
+### Report template configuration properties
 
 <table id="table_wxn_rh3_ydc"><thead><tr><th>
 
@@ -160,4 +153,13 @@ Specifies the type of template to be used for Executive Summary report. By defau
 -   Word: a533486e47711250ce3ab9b4416d4303
 
 </td></tr></tbody>
-</table>
+</table>### Other system properties
+
+-   **Days before Next Authorization to create engagement**: Enter the days in the field to automatically create the next engagement in the authorization package. The days entered in this field are subtracted from the next authorization date to determine the next engagement date, which is recorded in the authorization package.
+
+    For more information, see [View package details in CAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/auth-package-overview-ws.md).
+
+-   **Homepage Title**: You can customize the homepage title using this field. Enter your organization-specific terminology. The default value is Continuous Authorization Monitoring. The homepage title updates immediately after saving.
+-   **Days before next authorization to set boundary to re-authorize**: You can configure authorization period in this field. Specify how many days before the authorization due date the system should display a re-authorization warning.
+-   **Overlay execution**: You can configure the execution mode of the overlay operation that's applied to an authorization package. When set to Sync, the operation runs synchronously and the Overlay screen \(Add, Edit, or Remove\) remains open until the operation completes. When set to Async, the operation runs asynchronously in the background and the pop-up closes immediately on submission.
+

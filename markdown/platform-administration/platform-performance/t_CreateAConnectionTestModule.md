@@ -7,9 +7,9 @@ release: zurich
 product: Platform Performance
 classification: platform-performance
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Resolve issues, Platform performance, Maintain and monitor, Administer]
+breadcrumb: [Resolve issues, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
 
 # Add a module to test connection speed
@@ -24,15 +24,15 @@ Role required: admin
 
 1.  Perform the appropriate action for your version of the UI.
 
-<table id="choicetable_bbq_5lz_hfc"><thead><tr><th align="left" id="d64012e54">
+<table id="choicetable_bbq_5lz_hfc"><thead><tr><th align="left" id="d65885e54">
 
 UI version
 
-</th><th align="left" id="d64012e57">
+</th><th align="left" id="d65885e57">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d64012e63">
+</th></tr></thead><tbody><tr><td id="d65885e63">
 
 **Core UI**
 
@@ -42,7 +42,7 @@ Steps
 2.  Open the application menu to which you want to add the module, for example, **System Diagnostics**.
 
 
-</td></tr><tr><td id="d64012e94">
+</td></tr><tr><td id="d65885e94">
 
 **UI15**
 

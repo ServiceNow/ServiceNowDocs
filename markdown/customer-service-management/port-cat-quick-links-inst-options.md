@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/port-cat-quick-links-inst-options.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configurable Portal widgets instance options, Configurable Portal Widgets reference, Reference, Customer Service Management]
 ---
@@ -23,14 +23,6 @@ Instance option
 Description
 
 </th></tr></thead><tbody><tr><td>
-
-Catalog Item Table
-
-</td><td>
-
-Table from which the records shown as a card on the widget are selected.By default, this field is set to the Item \[sc\_cat\_item\)\] table.
-
-</td></tr><tr><td>
 
 Display Catalog Items
 
@@ -77,7 +69,7 @@ Sort Order
 
 </td><td>
 
-The order in which the catalog items appear on a widget.The default sort order is Z to A.
+The order in which the catalog items appear on a widget.The default sort order is A to Z.
 
 </td></tr></tbody>
 </table>|Instance option|Description|
@@ -119,7 +111,7 @@ The display style of a card on the widget.The available options are:
 -   Thumbnail
 -   Icon on top
 -   Icon on left
--   Simple text
+-   Title &amp; description
 -   Title only
 
 The default display style is Thumbnail.

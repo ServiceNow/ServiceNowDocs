@@ -7,9 +7,9 @@ release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: concept
-last_updated: "2025-12-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Exploring tables, Table admin, Tables and data, Configure core features, Administer]
+breadcrumb: [Exploring tables, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Custom tables

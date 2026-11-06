@@ -1,170 +1,291 @@
 ---
 title: Strategic Planning release notes
-description: The ServiceNow Strategic Planning application helps you accomplish end-to-end planning using a single workspace. Strategic Planning was enhanced and updated in the Zurich release.The ServiceNow Strategic Planning application helps you accomplish end-to-end planning using a single workspace. Strategic Planning was enhanced and updated in the Zurich release.The ServiceNow Strategic Planning application helps you accomplish end-to-end planning using a single workspace. Strategic Planning was enhanced and updated in the Zurich release.
+description: The ServiceNow Strategic Planning application helps you accomplish end-to-end planning using a single workspace. See the following sections for release notes by version.Version 4.20.0 adds fiscal calendar support for goals. You can set goal targets, breakdowns, and check-in due dates on Standard, 13-Period, 4-4-5, 4-5-4, and 5-4-4 fiscal calendars in the Strategic Planning workspace and the Goal Framework and Advanced Goal Framework features.The version 4.19.0 release adds capabilities for demand management and Enterprise Agile Planning \(EAP\). You can partition demand data by department or business unit and define demand experiences that control fields, modules, and layout. Scrum and Kanban teams can plan under the same Agile Release Train in EAP. Goal targets support Maintain types and unique numbers, and target type changes keep recorded actuals.The version 4.18.0 delivers dedicated RIDAC pages within portfolio plans to consolidate portfolio governance \(risks, issues, decisions, actions, requested changes\) in one interface. Programs enhanced experience provides automatic dedicated planning views for every program with zero setup required. Additional enhancements include automated cost recalculation, scenario approval notifications, automatic target status calculation, and Scrum configuration options in Enterprise Agile Planning.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/strategic-planning-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2025-07-31"
-reading_time_minutes: 9
-breadcrumb: [Strategic Portfolio Management release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 20
+breadcrumb: [Strategic Portfolio Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Strategic Planning release notes
 
-The ServiceNow® Strategic Planning application helps you accomplish end-to-end planning using a single workspace. Strategic Planning was enhanced and updated in the Zurich release.
+The ServiceNow® Strategic Planning application helps you accomplish end-to-end planning using a single workspace. See the following sections for release notes by version.
 
 ## About Strategic Planning
 
--   Categorize your strategic priorities, goals, planning items, and execution items—projects and demands as Artificial Intelligence to track and monitor their progress from the AI Control Tower workspace.
--   Experience consistent roadmap bar colors for choice list attribute values across all portfolio plans. View the roadmap-level milestone row while scrolling down the Roadmap page. Use different icons to distinguish item-level milestones.
--   Apply filters using string-type and boolean field values to view the desired data on the Planning and Scoring pages.
--   Work on financial planning for various planning items such as Capabilities, Features, and so on.
--   View the planned costs of your planning items for the past fiscal periods.
--   Use Display mode to switch between different views of the financials record page.
--   Create and manage monetary benefit plans to capture and track projected and actual benefits.
--   Manage and run projects in various global currencies besides the functional currency using multicurrency.
--   Generate labor cost on sub-projects based on the resource assignments.
+-   Define and manage strategic plans, goals, and targets while aligning planning items across portfolio plans, enterprise agile iterations, and organizational hierarchies to drive business outcomes.
+-   Prioritize, roadmap, and score work items using predefined or custom lenses, with support for capacity planning, financial planning, and scenario planning to optimize portfolio decisions.
+-   Capture and assess customer feedback and demands through configurable playbooks, using AI to summarize, identify similar items, and accelerate prioritization before converting them into work items.
+-   Track risks, issues, decisions, actions, and changes \(RIDAC\) across planning items, iterations, and goals, and gain actionable insights through dashboards covering strategy, planning, feedback, and execution.
 
 See [Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/alignment-planner-workspace-landing-page.md) for more information.
 
 ## Activation and other requirements
 
-**Important:** Strategic Planning is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
-
 -   **Activation information**
 
-    Install Strategic Planning by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
--   **Upgrade information**
-
-    After upgrading to Strategic Planning v4.8.0, the existing **Investment type** and **Investment class** fields will appear as **Investment type \(Deprecated\)** and **Investment class \(Deprecated\)** respectively across the Planning page including in the Prioritization and Roadmap views and in the Scenario Planning page. The values from these deprecated fields will be automatically copied to the new **Investment type** and **Investment class** fields.
-
-    If you previously applied filters or personalized your view using the deprecated fields, you must update those configurations to use the new **Investment type** and **Investment class** fields across the workspace—including in the Prioritization and Roadmap views on the Planning page, as well as in the Scenario Planning page.
+    Install Strategic Planning by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store.
 
 
 **Parent Topic:**[Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/it-business-management-rn-landing.md)
 
-## December 2025
+## Version 4.20.0
 
-The ServiceNow® Strategic Planning application helps you accomplish end-to-end planning using a single workspace. Strategic Planning was enhanced and updated in the Zurich release.
+Version 4.20.0 adds fiscal calendar support for goals. You can set goal targets, breakdowns, and check-in due dates on Standard, 13-Period, 4-4-5, 4-5-4, and 5-4-4 fiscal calendars in the Strategic Planning workspace and the Goal Framework and Advanced Goal Framework features.
 
 ### What's new
 
--   **[Integrate Enterprise Agile Planning \(EAP\) with Atlassian Jira](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/spw-jira-landing.md)**
+-   **Fiscal calendars for goals**
 
-    Facilitate execution of the work planned in EAP and executed in Jira. With this integration, enable seamless tracking of work across tools with bidirectional sync between Jira and EAP. Key updates made in one system, such as a status change or field update for Epics and Stories, will automatically reflect in the other. This integration ensures your team can collaborate and track development efforts without switching contexts, reducing manual effort and improving visibility across platforms.
+    Create, edit, and break down goal targets on fiscal calendars. The supported calendar types are Standard, 13-Period, 4-4-5, 4-5-4, and 5-4-4. Target breakdowns, due dates, and roll-ups follow the fiscal periods of the active calendar. Gregorian calendar behavior does not change.
 
--   **[Enterprise Agile Planning \(EAP\) integration with CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/agile-sprint-planning-in-cwm.md)**
+-   **Setting and switching goal calendars**
 
-    Enhance visibility, planning, and execution for your teams with seamless integration between EAP and CWM.
+    Set the goal calendar to Gregorian, which is the default, or to fiscal. Fiscal calendars come in three types: Regular, 4-4-5, and 13 Period. Switch from Gregorian to fiscal in the **sn\_gfa.calendar\_type** system property. Switch between fiscal types by changing the fiscal calendar type property, setting the fiscal unit, and regenerating the fiscal periods. A calendar change can make targets stale.
 
-    For Agile teams managing non-agile work items such as incidents and change tasks, this integration bridges the gap by automatically creating a dedicated Space and Board in CWM. Agile work is seamlessly brought over via Connected Work, while EAP sprints are reflected directly in CWM’s Sprint planning view, thus enabling unified planning across work types. Teams can plan work for their sprints and update work status directly from the CWM Board, with performance reports in EAP dynamically reflecting these changes. This integration enables teams to manage their full scope of work from a single, connected workspace.
+-   **Fiscal check-in due dates and reminders**
 
--   **[Dynamic data linking in Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/docs-for-planning-items-in-spw.md)**
+    Set check-in due dates by fiscal period for goal targets. When you enter actuals on a target breakdown, the check-in due date updates to match the fiscal period. Reminders for the Period check-in frequency follow the fiscal calendar.
 
-    Keep record information in your documentation always current and reduce manual effort with the Dynamic data linking feature in Docs. You can now reference any ServiceNow application record and Docs will automatically reflect the latest updates from those records. For example, if you add a reference to a Project record, the reference will show the latest field information of the project in Docs without requiring manual edits. Clicking the project reference opens up the project form so that you can view the full details of the project record and make any necessary changes. Dynamic linking also enables adding references to a particular field of a record, such as Assigned to of an Incident record.
+-   **Fiscal planning range and time scale**
 
-    You can add references from any ServiceNow table you have access to, with no setup or configuration needed, thereby eliminate the hassle of switching between applications to copy and paste data from various records into Docs.
+    View goals in fiscal mode in the Strategic Planning workspace. The planning range, time scale, saved preferences, graph, stale target actions, and check-in panel all use the fiscal periods of the active calendar. The grid and goals list show the generated fiscal period names.
 
--   **[Scenario planning enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/enable-scenario-planning-in-strategic-planning.md)**
+-   **Fiscal check-in frequencies for targets**
 
-    With the sn\_align\_core.apw\_admin role, you can enable or disable the scenario planning feature. The **sn\_align\_ws.is\_scenario\_planning\_disabled** system property allows you to enable or disable the scenario planning feature.
+    Choose a check-in frequency that the active fiscal calendar supports. The target form offers only the frequencies that are valid for the calendar and the target date range, including Period. The target breakdown preview shows each generated period with its display name. The server validates every frequency and period on save, so a rejected change keeps the current breakdowns and shows the reason.
+
+-   **Stale target protection for goals**
+
+    Identify goal targets that become stale after a goal calendar change. Only targets with breakdowns can become stale, and stale targets stay locked until they are recovered. Recover a stale target in one of two ways. An administrator runs the **Goal calendar alignment - Reset check-in frequency for stale targets** scheduled job, and the target owner then selects a check-in frequency again. Or the target owner duplicates the target and sets a check-in frequency on the copy. The copy starts without the remarks, work notes, and history of the stale target.
+
+-   **[AI target generation and goal insights in fiscal mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/generate-insights-for-goal-spw.md)**
+
+    Generate goal targets with the AI target generation skill on fiscal calendars. Generation uses the active calendar, the allowed frequencies, and the generated period names and dates. The server validates the generated output before it fills the new target form. Goal insights read fiscal period history in period order and do not assume Gregorian months or quarters.
+
+-   **[Fiscal target automation and check-in history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/target-actuals-automation-spw.md)**
+
+    Automation writes target values into the breakdown of the current fiscal period, using the fiscal period boundaries in the fiscal calendar time zone. Check-in history records take their reporting period from the fiscal calendar, and the roll-up remark shows the fiscal period name.
+
+-   **Track work within a state using substates**
+
+    Teams that do several kinds of work in one state can't see where that work waits. Substates divide a state into steps that match how your team works. A scrum master creates substates on the **Substates** tab of Team Settings, sets their order, and marks one default for each state. When you change the state of a story, the substate changes to the default of the new state. The **Substate** field is hidden for teams that have no substates.
+
+-   **Spot overloaded lanes with WIP limits on the Planning board**
+
+    A lane that holds more work than planned can hide where work is stuck. WIP limits make those lanes visible on the Planning board. Each lane header shows the number of stories and the limit, for example 3/5. An amber header marks a lane at its limit. A red header with an alert icon marks a lane over its limit. Counts update as you move stories, and a limit never blocks a move.
+
+-   **Set WIP limits for your own team**
+
+    Each team works differently, so each team sets its own limits. A scrum master selects **Team Settings** on the Planning board and adds limits on the **Kanban WIP limits** tab. Choose a lane, which is a state or a substate of the team, and enter the limit. The **Team** field is set automatically, and each lane can have one limit.
 
 
 ### What's changed
 
--   **[Enhancements to tables in Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/docs-for-planning-items-in-spw.md)**
-    -   Resize the column width of a table per your preference.
-    -   Add color to single or multiple table cells.
+-   **Target import check-in frequencies**
 
-## Zurich
+    Target import accepts Period as a check-in frequency. Import rejects a check-in frequency that the active calendar does not allow and shows a message that states the reason.
 
-The ServiceNow® Strategic Planning application helps you accomplish end-to-end planning using a single workspace. Strategic Planning was enhanced and updated in the Zurich release.
+-   **[Duplicate target behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/create-a-copy-of-a-goal-or-target.md)**
+
+    When you duplicate a target, the copy keeps the source check-in frequency only if the active calendar supports it. The copy gets new breakdowns from the active calendar and never copies the source breakdowns. The source target does not change.
+
+-   **[Find the open sprints that block Planning Interval completion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/start-or-complete-iteration-in-eap.md)**
+
+    When open child sprints prevent you from completing a Planning Interval, you must know which sprints to close. The completion alert now lists every open sprint by team. Each sprint links to the Agile board of the team for Agile Development 2.0 sprints. CWM teams link to the CWM board. All other sprints link to the EAP Backlog of the team.
+
+
+## Version 4.19.0
+
+The version 4.19.0 release adds capabilities for demand management and Enterprise Agile Planning \(EAP\). You can partition demand data by department or business unit and define demand experiences that control fields, modules, and layout. Scrum and Kanban teams can plan under the same Agile Release Train in EAP. Goal targets support Maintain types and unique numbers, and target type changes keep recorded actuals.
 
 ### What's new
 
--   **[Strategic Planning and AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/better-together-with-other-apps-spw.md)**
+-   **Enterprise-wide deployment for demands**
 
-    Categorize your strategic priorities, goals, planning items, and execution items—projects and demands as Artificial Intelligence to track and monitor strategy progress from the AI Control Tower workspace.
+    Partition demand data by any criteria, such as department or business unit, using Enterprise-Wide Deployment \(EWD\) partitioning on the Demand table and related entities. Demands are stamped with a matching partition, and users see only the demands, list views, search results, and dashboards for the partitions their role grants them.
 
-    Use the **Type** field for strategic priorities, the **Category** field for goals, the **Investment type** field for planning items - to classify them as Artificial Intelligence and monitor their progress in the AI Control Tower workspace.
+    EWD for demands includes the following functionalities:
 
--   **[Portfolio plan enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/create-portfolio-plans-in-alignment-planner-workspace.md)**
-    -   Create portfolio plans for AI-related items by applying a filter on the planning item tables, setting the **Investment type** field value to **Artificial Intelligence** during portfolio plan creation. This allows you to focus exclusively on AI-related items.
-    -   With the sn\_align\_core.apw\_admin role, you can update the following system properties:
-        -   **sn\_align\_core.planning\_item\_types\_allow\_list** - Defines the planning item types that can be configured and allowed for a portfolio plan.
-        -   **glide.ui.sn\_align\_core\_dependency\_activity.fields** - Enables activity stream for the dependency formatter fields.
-        -   **sn\_align\_ws.gantt\_show\_higher\_planning\_upper\_entities** - Enables display of entire hierarchy of lens structure from top to bottom in prioritization hierarchy view for high-level portfolio plans.
-        -   **sn\_align\_ws.portfolio\_plan\_items\_limit** - Defines the number of planning items to be loaded on the planning page.
--   **[Roadmap enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/roadmaps-in-alignment-planner-workspace.md)**
-    -   Create custom themes for your roadmap bar colors to align with your organization’s standards.
-    -   Experience consistent roadmap bar colors for choice list attribute values across all portfolio plans.
-    -   View the roadmap-level milestone row while scrolling down the Roadmap page.
-    -   Use different icons to distinguish item-level milestones.
-    -   Match milestone colors with their status labels across the roadmap, milestone popover, and side panel. For example, a missed milestone displays the same color in all locations.
-    -   With the sn\_align\_core.apw\_admin role, you can define the number of milestone items to be loaded in the Roadmap tab. The **sn\_align\_ws.item\_milestone\_limit** system property allows you to define the number of milestone items to be loaded in the Roadmap tab.
-    -   With the sn\_align\_core.apw\_admin role, you can define the list of planning item types that can be created in a free-form roadmap. The **sn\_align\_ws.freeform\_planning\_items\_creation\_list** system property allows you to define the list of planning item types that can be created in a free-form roadmap.
--   **[Quick filters enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/managing-backlog-alignment-planner-workspace.md)**
+    -   Demand experiences: Define the way a particular demand should work including its form view, modules, and dynamic attributes. For example, a particular view or certain functions available on a demand or menu items hidden or visible for different types of demands.
+    -   Demand partitions: Control the data visible to different users.
+    -   Demand partitions dashboard: Dedicated dashboard for different demand partitions.
+-   **Smart assessments for demands**
 
-    Apply filters using string-type and boolean field values across the Planning page and Scoring page to view the required dataset. These filters are saved as part of your user preferences, enabling you to access the same filtered data when you log back in and continue your planning seamlessly.
+    Smart assessments are now available for demands, which are triggered on moving the demand to screening. These assessments are controlled by the **sn\_align\_ws.enable\_smart\_assessments** system property. After this property is enabled, smart assessments are triggered for the new demands and the ones that aren't yet in the screening state.
 
--   **[Investment type and Investment class fields on the Planning item table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/planning-item-form.md)**
+    The smart assessment form is more intuitive and supports text-based questions. The assessments are available at the individual demand record and in a consolidated Smart Assessments module in the main navigation menu. This module displays all assigned smart assessments across demands.
 
-    The **Investment type** and **Investment class** fields have been added to the Planning item \[sn\_align\_core\_planning\_item\] table to enable these attributes to be defined at the parent planning item level.
+-   **Resource profiling for demands**
 
-    A new value, **Artificial Intelligence**, has also been added to the **Investment type** field to categorize a planning item as an Artificial Intelligence initiative.
+    Plan and manage resource assignments for a demand from the **Resources** tab in Next Experience for Demand Management. The resource board shows assignments alongside resource capacity so you can confirm availability before converting a demand to a project. Create, copy, move, split, end, or reassign resource assignments directly from the grid, group by primary group, role, or skill, and use the allocation heatmap to identify over-allocated and available resources. Use the Resource Finder to get fit-scored, ranked resource recommendations with rationale for unassigned work.
 
--   **[Goal management enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/managing-goals-in-alignment-planner-workspace.md)**
-    -   With the sn\_gf\_goal\_admin role, you can update goal-specific system properties:
-        -   **sn\_align\_ws.goal\_hierarchy.max\_records** - Defines the number of targets to load on the Hierarchy tab in the Targets view. The default value is 250.
-        -   **glide.ui.sn\_gf\_goal\_activity.fields** - Enables activity stream for fields of the goals.
-    -   Experience faster loading of goals data, even when large volumes of data are present.
-    -   With the sn\_gf.goal\_admin role, you can edit any goal and target as needed, even when you aren’t the owner or contributor of a goal or target.
-    -   With both the sn\_gf\_goal\_admin and sn\_apw\_advanced.spw\_goal\_user roles, you can edit target breakdowns as needed.
--   **[Financial enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/using-financials-spw.md)**
-    -   View only the planned costs of your planning items to track the total cost of your planning items.
-    -   Use Display mode to switch between focused views to better plan and track the financials of your planning items.
-    -   Manage the planned and actual monetary benefit plans for your projects to identify the financial performance of your project using the Cost and benefits screen.
-    -   Use multicurrency to view and manage financial records of the project in Investment currency, which can be different from your functional currency. Manage multiple financial records such as planned and actual expenses, planned and actual benefits, and so on.
-    -   Generate and track labor cost for sub-projects, based on the resource assignments of your sub-projects and planning items such as features and capabilities.
+-   **Kanban teams in the portfolio structure in EAP**
+
+    Run Scrum and Kanban teams under the same Agile Release Train \(ART\). Select a planning methodology when you add a team to an ART, or set the Planning methodology field on an existing team. Kanban teams plan from the team backlog: sprint controls are hidden, planning intervals skip them, and the Home page shows the Kanban Team dashboard. Both team types appear side by side on the ART planning board.
+
+-   **Maintain-type targets**
+
+    Track targets that must hold steady across every check-in period using the **Maintain above**, **Maintain below**, and **Maintain constant** target types. Each breakdown period's planned target defaults to the final target value, or 0 if no final value is set, and you can edit it for each period. Target progress is the share of periods that met the condition: at or above the target for Maintain above, at or below it for Maintain below, and within a tolerance band around it for Maintain constant. The default tolerance band is ±5%, and administrators can change it with the **sn\_gf.maintain\_constant\_tolerance\_percent** system property. For example, a Maintain above target of 75 with quarterly actuals of 78, 72, 80, and 76 shows 75% progress, because one of the four quarterly actuals didn't meet the target.
+
+    When you change the start date, end date, or final target value, the breakdowns and planned values adjust automatically and actuals in the remaining periods are kept. The **Target value distribution** field is hidden for Maintain types.
+
+-   **Unique numbers and prefixes for goals and targets**
+
+    Differentiate goals and targets that share a name across teams by using the **Number** field. Goals use the OBJ prefix and targets use the KR prefix, for example OBJ0004512 and KR0009871. The number appears on goal and target forms, list views, board views, and exports. The **GF - Override Goal and Target Number fields with customized prefixes** scheduled job updates existing GOAL and TRGT numbers to OBJ and KR and keeps the numeric portion. An administrator can run the scheduled job to override default populated prefixes.
+
 
 ### What's changed
 
--   **Coral theme**
+-   **Switching a team to Kanban in EAP**
 
-    Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+    Sprints that aren't complete are cancelled when you set a team's Planning methodology to Kanban, including the team's current sprint. Completed and cancelled sprints aren't changed, and work items stay assigned to the sprints that were cancelled. A team connected to Collaborative Work Management \(CWM\) can't be switched to Kanban while it has active or planned sprints.
 
--   **[Financials UI changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/using-financials-spw.md)**
-    -   New Display mode in the Financials record page to select and view forecast, compare planned vs actual costs, planned costs, or allocate budget.
-    -   Select and view forecasts, compare planned vs. actual costs, and view planned costs or the allocated budget through a new display mode on the Financials record page.
-    -   Renamed **Cost** tab as **Costs and benefits** to manage cost plans and benefit plans in one view.
-    -   Renamed **Baselines** as **Baseline comparison** to create and compare financial baselines.
-    -   Renamed **Time scope** as **Filter time scope** to adjust the time scope to view a focused and customized financial snapshot.
-    -   New **Generate labor costs** button to generate labor costs based on the resource assignments.
-    -   New **Currency** list option to switch between functional and investment currency.
-    -   New **Edit investment currency** option to define investment currency for your projects.
-    -   **New monetary benefit plan** option to create new forecast benefit plans.
-    -   New **Planned Benefits** widget displays the total forecasted benefits.
-    -   New **Total Return** widget displays the total actual benefits form the projects.
-    -   New **Record type** column to classify the financial records between benefits and costs.
-    -   Renamed **Estimate At Completion** widget to **EAC Cost**.
-    -   Renamed **Actual Cost To Date** to **Actuals \(Incl. current fiscal period\)**.
+-   **Planning methodology on existing teams in EAP**
 
--   **[Investment type and Investment class fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/planning-item-form.md)**
+    Each existing agile team is assigned a planning methodology when you upgrade: Scrum if the team or its configuration has a business calendar, Kanban if neither has one. Because Kanban teams don't show sprint controls, review any team created without a business calendar and set its Planning methodology to Scrum if that team plans in sprints.
 
-    The **Investment type** and **Investment class** fields have been deprecated from the Project and Demand planning item tables. These fields are now created at the parent level in the Planning item \[sn\_align\_core\_planning\_item\] table.
+-   **[Automatic status for Maintain type targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/automatic-status-calculation-targets-spw.md)**
 
--   **[Goal management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/managing-goals-in-alignment-planner-workspace.md)**
+    Automatic status calculation extends to Maintain type targets. Each breakdown period is set to Green when its actual meets the Maintain condition and Red when it doesn't.
 
-    By default, only active goals—those goals with the **Active** field set to **true**—are displayed across the workspace. This change applies to the **Dashboards** and **Goals and targets** tabs on the Goals page, the **Goal**/**Parent goal** reference fields in all applicable tables, and all relevant dashboards.
+-   **Target type changes**
 
--   **[Default related list view changes for Stories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/create-single-or-multiple-child-items-for-epic-in-eap.md)**
+    Change a target's type after actuals are recorded, without deleting and recreating the target. Actuals to date are kept and recorded in the latest breakdown period. Planned values are recalculated for the new type, and progress is evaluated under the new type's logic. A confirmation message appears before the change is applied, and selecting **Cancel** keeps the previous type and data. Type changes are captured in the audit history.
 
-    In the Stories list for an Epic, Feature, or Capability in the Enterprise Agile Planning workspace, the Assignment group and Sprint columns in the default related list view are replaced with the EAP team and Iteration columns.
+-   **[Unit of measure on targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/set-targets-for-goal-egm.md)**
+
+    Select the target type before the unit of measure when you create a target. Milestone sets the unit of measure to Yes/No, and Maximize, Minimize, and Maintain types default to Count. Later type changes keep the unit of measure you selected. If it isn't valid for the new type, you're prompted to pick one. This applies to the target modals in Enterprise Goals and portfolio plan goals, and to inline editing in the target list.
+
+-   **[No status label](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/components-installed-with-alignment-planner-workspace.md)**
+
+    The None status choice is labeled **No status** for goals, strategic priorities, targets, target progress, and target breakdowns.
+
+-   **[RIDAC by portfolio and program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/portfolio-plan-ridac-spw.md)**
+
+    View decisions alongside other RIDAC items for portfolios and programs when you open RIDAC from the Strategic Planning Workspace RIDAC menu. The **Portfolio Risks** and **Program Risks** menus are renamed **RIDAC by Portfolio** and **RIDAC by Program**.
+
+-   **[Target generation for Maintain-type targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/generate-targets-for-goal.md)**
+
+    Generate Maintain above, Maintain below, and Maintain constant targets with ServiceNow Otto target generation skill for goals that sustain a level rather than move toward one, such as platform uptime, a cost ceiling, or team headcount. When a Maintain type is suggested, the target modal shows the threshold value and hides the start value field. Review the suggested type and change it if needed before you save the target.
+
+-   **[Goal insights for Maintain-type targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/generate-insights-for-goal-spw.md)**
+
+    ServiceNow Otto goal insights include Maintain-type targets \(Maintain above, Maintain below, and Maintain constant\) when summarizing goal progress.
+
+-   **[Resource assignment offsets when converting a demand to a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/data-migrated-from-demand-to-project-dw.md)**
+
+    When a demand with resource assignments is converted to a project, assignment offsets are recalculated against the project's schedule, which counts only the working days defined in the project schedule, instead of the demand, which has no schedule and counts every calendar day.
+
+-   **[Execution URL on planning item demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/update-execution-url-for-demand-spw.md)**
+
+    Run the **Update Demand Planning Item Execution URL** scheduled job to update the execution URLs on your existing demands to the latest format.
+
+-   **[Roadmap export range](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/export-a-portfolio-plan-to-powerpoint-strategic-planning.md)**
+
+    The maximum date range for exporting a roadmap to PowerPoint increased from 1 year to 3 years, within the start and end dates of the portfolio. The exported timescale adjusts to the range you select: months for a range of 1 year or less, and quarters for a range longer than 1 year.
+
+-   **[Program portfolio plan enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/program-portfolio-plan-spw.md)**
+    -   **Program details** — Select the information icon next to the program name to view the planning item types, program timeline, and program manager.
+    -   **Program value for new items** — When you create a demand or project from a program portfolio plan, the **Program** field is prefilled with that program.
+    -   **Prioritization default layout** — The default **Prioritization** view shows the Rank, Name, Planning state, Planning item type, Status, Cost status, Resource status, Schedule status, Scope status, Percent complete, Primary goal, and Owner columns.
+    -   **Goals tab** — Program portfolio plans include the **Goals** tab, which shows all primary and non-primary goals linked to the planning items in the plan, along with goals assigned directly to the program.
+    -   **Public views** — Any user who can access a program portfolio plan can create and update its public views. Previously, only plan editors could create or update public views.
+
+## Version 4.18.0
+
+The version 4.18.0 delivers dedicated RIDAC pages within portfolio plans to consolidate portfolio governance \(risks, issues, decisions, actions, requested changes\) in one interface. Programs enhanced experience provides automatic dedicated planning views for every program with zero setup required. Additional enhancements include automated cost recalculation, scenario approval notifications, automatic target status calculation, and Scrum configuration options in Enterprise Agile Planning.
+
+### What's new
+
+-   **[RIDAC for portfolio plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/portfolio-plan-ridac-spw.md)**
+
+    Access portfolio risks, issues, decisions, actions, and requested changes \(RIDAC\) directly from the portfolio plan using the dedicated RIDAC page within the portfolio plan. View all portfolio governance items in a single, integrated interface without navigating to the separate RIDAC menu. The RIDAC page reduces context-switching and improves portfolio visibility by consolidating governance data. The portfolio plan RIDAC displays the RIDAC items that match the portfolio plan's criteria or belong to the planning items of that portfolio plan.
+
+-   **[Show or hide RIDAC page of a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/show-or-hide-the-features-for-your-portfolio-plan-spw.md)**
+
+    As a portfolio manager, show or hide the RIDAC page of your portfolio plan. This capability helps you share only the portfolio plan data that matters to your stakeholders and restrict access to the other data.
+
+-   **[Programs enhanced experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/program-portfolio-plan-spw.md)**
+
+    Access dedicated program planning views automatically created with zero setup. Navigate to the new Programs menu and click any program to open its dedicated plan with Prioritization, Roadmap, Kanban, and Financials views. New programs get plans instantly; existing programs receive them through an automatic one-time backfill \(500 at a time, newest first\). Role-based access ensures users with the sn\_align\_core.ap\_read\_only role can read, users with the sn\_align\_core.apw\_user role can manage items, and program managers are automatic plan owners.
+
+-   **[Program-scoped data with fiscal calendar support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/program-portfolio-plan-spw.md)**
+
+    View and manage program-scoped planning data in a focused, streamlined interface. Program plans display only that program's planning items. The Financials tab defaults to your fiscal calendar; if the fiscal calendar doesn't span the program dates, the system gracefully falls back to Gregorian with an explanatory message. Making the portfolio plan public and scenario planning for these program portfolio plans are hidden.
+
+-   **[Automated email notification for scenario approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/approve-a-scenario-in-strategic-planning.md)**
+
+    Receive email notification when a scenario is approved. The system sends the notification to the scenario approver and portfolio owner. During the approval process, the portfolio plan becomes read-only to prevent unintended modifications and maintain data integrity.
+
+-   **[Automatic status calculation for targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/automatic-status-calculation-targets-spw.md)**
+
+    Automatically determine target status based on actual achievement percentages. When you enter actual values for a target period, the system compares the achievement percentage against predefined thresholds and automatically assigns a status \(Green, Yellow, or Red\). This eliminates manual status selection, reducing data entry errors and improving organizational governance.
+
+    Status is calculated and updated when you enter actual values using the formula: \(\(Actual Value - Start Value\) / \(Planned Target - Start Value\)\) x 100. Target owners can override automatically calculated status values at any time. If you update the actual value after a manual override, the system recalculates the status automatically.
+
+-   **[Configure automatic status calculation thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/configure-automatic-status-calculation-spw.md)**
+
+    Enable administrators to customize automatic status calculation thresholds and enable or disable the feature based on organizational requirements. By default, automatic status calculation is enabled with system-defined thresholds of Green \(≥90%\), Yellow \(75-89%\), and Red \(&lt;75%\).
+
+    Administrators can adjust threshold percentages using the system property **sn\_gfa.target.auto\_status.thresholds**. To disable automatic status calculation and revert to manual status selection, set the system property to `false`.
+
+-   **[Scrum Configuration in Enterprise Agile Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/agile-configurations-in-eap.md)**
+
+    Set up teams that run Sprints without a Planning Interval above them by using the Scrum Configuration in Enterprise Agile Planning. It defines a single team level of the type Agile Team and allows the Epic and Story work item types. Story is the default work item type for that level and is mapped to the new **Scrum Sprint** planning calendar. The **Epic methodology** field is set to **Scrum**. Like the other default configurations, the Scrum Configuration is inactive until you activate it.
+
+-   **[Unique iteration cadence for each team in Enterprise Agile Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/simplified-iteration-creation-in-eap.md)**
+
+    Let each team set its own iteration dates by selecting **Allow unique cadence for each team** on an Enterprise Agile Planning configuration. If the configuration has planning calendars at more than one team level, each top-level team receives its own calendar. If the configuration has a single level of iterations, such as Sprints only, the iterations carry their own start and end dates instead of following a planning calendar entry. Teams that you add after you select this option receive a unique calendar, and teams that already exist continue to use the default calendar of the configuration.
+
+-   **[Spillover and New scope fields on iterations in Enterprise Agile Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/start-or-complete-iteration-in-eap.md)**
+
+    See how the scope of a Sprint moved during its run by using the **Spillover** and **New scope** fields on the Enterprise agile iteration \[sn\_apw\_advanced\_eap\_iteration\] record. Spillover is the sum of the story points of the committed stories that are no longer in the iteration when it completes. New scope is the sum of the story points of the stories that were added after the iteration started. Both fields are read-only and are calculated when you complete the iteration. Select a value to open the stories that it counts.
+
+-   ****
+
+    Tailor demand summaries to your organization's process by copying the base demand summarization skill and customizing it with your own input fields, related entities, and prompt. When you activate a copy of the demand summarization skill, the previously active skill, either the base skill or an earlier copy, is automatically deactivated. Only one version of the skill can be active at a time.
+
+-   **[Work with demands in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/my-demands-widget.md)**
+
+    Create and track demands without leaving the conversation-first Employee Slate workspace. Describe the demand in a conversation to have matching catalog items identified and relevant fields prepopulated from your message, then track its status, activity, and progress using the new My Demands widget on your canvas or the standard Requests widget. Demands appear in Employee Slate only when both Project Workspace and Employee Slate Core apps are installed.
+
+
+### What's changed
+
+-   **Financials**
+
+    Added in-context help \(hover info icons\) on the Financials page widgets, explaining how the key fields like Budget, EAC, Planned Cost, Actuals, Return, ROI, and NPV are calculated.
+
+-   **[Enterprise Agile Planning configuration options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/create-eap-configuration.md)**
+    -   The **Have unique calendars** option is renamed to **Allow unique cadence for each team**.
+    -   An EAP admin can now clear the **Allow unique cadence for each team** option after selecting it. Selecting the option doesn't change the calendars or the iterations that already exist.
+    -   The **Scrum Sprint** planning calendar type is available by default, alongside **Planning Interval** and **Sprint**.
+-   **[Iteration dates in Enterprise Agile Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/edit-pi-sprint-iteration-details-in-eap.md)**
+    -   The **Enterprise agile calendar entry** field on the Enterprise agile iteration \[sn\_apw\_advanced\_eap\_iteration\] table is no longer mandatory, which supports iterations that carry their own start and end dates. A fix script makes the field optional when you upgrade.
+    -   Users with the `sn_apw_advanced.eap_user` role can set the start date and the end date while they create an iteration. They can change those dates afterward on an iteration that doesn't follow a planning calendar entry. However, changing the dates on an iteration that follows a planning calendar entry still requires the `sn_apw_advanced.eap_scrum_master` role.
+-   **[Sprint sync with Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/sync-eap-and-agile-2.md)**
+    -   Sprints that don't follow a planning calendar entry now sync to Agile Development 2.0 by using the start date and the end date on the iteration.
+    -   Changing the start date or the end date of an iteration now updates the dates on the corresponding Sprint in Agile Development 2.0.
+-   **[Program planning updates and enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/program-portfolio-plan-spw.md)**
+    -   **Programs menu addition** — A new Programs menu has been added to the workspace as L2 menu, positioned below Portfolio Plan. This menu lists every program in your portfolio and provides single-click navigation to each program's enhanced planning view.
+    -   **Role-based access for program planning** — Users with the sn\_align\_core.ap\_read\_only role have read access to program plans \(where they already have program-level read access\). Users with the sn\_align\_core.apw\_admin and program manager roles receive full access to create, update, and manage planning items within program plans
+-   **[Summarize demands with the demand summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/summarize-demand-in-demand-workspace.md)**
+
+    The default trigger is not set to **Automatic** for demands in any state. You can select how you want the skill to be triggered for any state.
 
 
 ### What's deprecated or removed
 
-The **Investment class** and **Investment type** fields have been deprecated from the Project \[sn\_align\_core\_project\] and Demand \[sn\_align\_core\_demand\] tables.
+-   **Now LLM Service**
+
+    Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+-   **Process Mining**
+
+    Starting Brazil release, Process Mining Content Pack for SPM \(`com.snc.itbm_po`\) will be migrated to Process Mining Content Pack store application. Upgrade your instance to Brazil or higher releases. For more information, see [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/process-mining.md) documentation.
+
 

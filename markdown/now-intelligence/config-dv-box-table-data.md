@@ -1,18 +1,18 @@
 ---
-title: Table data options for box plot visualizations
-description: When you select a table data source for a box plot visualization, the following Data configuration options are available.
+title: Table data options for boxplot visualizations
+description: When you select a table data source for a boxplot visualization, the following Data configuration options are available.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/config-dv-box-table-data.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Box plot visualization, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
+breadcrumb: [Boxplot visualization, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
-# Table data options for box plot visualizations
+# Table data options for boxplot visualizations
 
-When you select a table data source for a box plot visualization, the following Data configuration options are available.
+When you select a table data source for a boxplot visualization, the following Data configuration options are available.
 
 <table id="table_wqy_sjr_qtb"><thead><tr><th>
 
@@ -124,10 +124,12 @@ Field for \[table\]
 
 </td><td>
 
-The field to group by. For example, in a visualization of incident data grouped by **Assignment group**, all incidents that belong to Software, Service Desk, and Network are placed in separate groups. If the table contains variables or question fields, you have the option to group by one of them at the end of the list of fields.**Note:**
+The field to group by. You can group by any field in the table including list fields.For example, in a visualization of incident data grouped by **Assignment group**, all incidents that belong to Software, Service Desk, and Network are placed in separate groups. If the table contains variables or question fields, you have the option to group by one of them at the end of the list of fields.
+
+**Note:**
 
 -   It is not possible to group or stack data by the **Tags** field, or by certain field types, such as MEDIUMTEXT.
--   Fields with continuous values, such as date or integer, are automatically grouped according to any report ranges that are defined for the data. For more information, see [Report ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_ReportRanges.md).
+-   Fields with continuous values, such as date or integer, are automatically grouped according to any report ranges defined for the data. For more information, see [Report ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_ReportRanges.md).
 
 </td></tr><tr><td>
 
@@ -135,7 +137,9 @@ Add alternative group by
 
 </td><td>
 
-This selection opens a dialog in which you select additional items that the data in the visualization may be grouped by. The viewer of the visualization can then select which of these items to group the data by. The viewer toggles the visibility of the selector in the visualization's More actions menu. In the additional items dialog, you can set whether this selector is visible by default by toggling **Selector visible by default**.If you select a value in **Group by**, that is the default group-by value. You do not have to select a **Group by** value to specify alternative group-by values. In this case, no default group-by value is used.
+This selection opens a dialog in which you select additional items that the data in the visualization may be grouped by. The viewer of the visualization can then select which of these items to group the data by. The viewer toggles the visibility of the selector in the visualization's More actions menu. In the additional items dialog, you can set whether this selector is visible by default by toggling **Selector visible by default**.If you select a value in **Group by**, that is the default group-by value. You don't have to select a **Group by** value to specify alternative group-by values. In this case, no default group-by value is used.
+
+Data snapshots indicators support only reference, Boolean, and choice fields for alternative group bys.
 
 For more information about setting alternative group-bys for multiple metrics, see [Options for time series data visualizations with multiple metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/chart-options-multi-metrics.md). For more information about the viewer experience selecting from alternative group-by values, see [Select a group-by value in a data visualization as a viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/select-group-runtime.md).
 
@@ -174,7 +178,7 @@ Sorting options of the main and alternative groups set in **Group by**. Options 
 
 **Note:**
 
--   The choices of what to sort by are based on the main, default **Group by**, if one is defined. This sorting applies to any alternative group-bys if possible. If the sorting criterion selected for the main group-by cannot apply to an alternative group-by, the sorting defaults to Value. For example, sorting by Element order when the alternative group-by is not on the Choice table defaults to Value.
+-   The choices of what to sort by are based on the main, default **Group by**, if one is defined. This sorting applies to any alternative group-bys if possible. If the sorting criterion selected for the main group-by can't apply to an alternative group-by, sorting defaults to Value. For example, sorting by Element order when the alternative group-by is not on the Choice table.
 -   If no main **Group by** has been set, but alternative group-bys are defined, you can sort only by Name or Value.
 -   Sorting is not available for Pareto bar visualizations. Pareto charts are always sorted by value in descending order.
 

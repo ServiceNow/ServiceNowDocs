@@ -7,7 +7,7 @@ release: zurich
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use translation management, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ The Bulk Translations feature extends the localization service in Knowledge Mana
 
 ## Translation workflow
 
-You can define a workflow to determine the actions required to complete a translation. For information, see [Workflows in the Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/workflow-localization-framework.md) .
+You can define a workflow to determine the actions required to complete a translation. For information, see [Workflows in the Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/workflow-localization-framework.md).
 
 ## Preferences configuration
 

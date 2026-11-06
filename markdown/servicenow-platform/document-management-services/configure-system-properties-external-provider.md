@@ -7,7 +7,7 @@ release: zurich
 product: Document Management Services
 classification: document-management-services
 topic_type: task
-last_updated: "2025-12-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Document Management integration with external content providers, Use, Document Management, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---

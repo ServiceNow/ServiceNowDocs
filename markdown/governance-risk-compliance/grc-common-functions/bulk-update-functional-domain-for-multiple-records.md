@@ -7,7 +7,7 @@ release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2025-11-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Tag records with functional domain, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -24,9 +24,9 @@ Role required: sn\_grc.admin
 
 1.  Navigate to **All** &gt; **GRC Administration** &gt; **Functional domains** &gt; **Domain bulk update**.
 
-2.  Select the table for which you want to update the functional domains.
+2.  Select the table for which you want to update functional domain.
 
-3.  In the **Functional domain** column, select the required domains.
+3.  Double-click in the functional domain column and select the preconfigured functional domains.
 
 4.  Select **Apply**.
 

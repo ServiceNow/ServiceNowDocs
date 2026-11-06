@@ -7,35 +7,30 @@ release: zurich
 product: Team Development
 classification: team-development
 topic_type: concept
-last_updated: "2025-10-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Versions and local changes, Working with version records, Team Development, Planning your application, Building applications]
+breadcrumb: [Versions, Administer, Team Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Version record navigation
 
 There are a variety of methods for viewing a list of versions for an object.
 
-## Forms
-
-For forms, select and hold \(or right-click\) the header and select **Configure** &gt; **Form Layout**.
-
-## Lists
-
-Select the **Show Versions** related link.
-
-## Tables
-
-For tables that use the update\_synch attribute, add the **Versions** related list to the form. This list is on several forms by default, including, business rules, UI actions, and client scripts.
-
-## Customizable object
-
-For any customizable object, select and hold \(or right-click\) the form header and select **Show Application File**, then scroll down to the Related Record Versions related list.
+-   For forms, right-click the header and select **Configure** &gt; **Form Layout**.
+-   For lists, perform the appropriate action for the list version.
+    -   List v2: Right-click the header and select **Configure** &gt; **List Layout**.
+    -   List v3: Open the list title menu and select **List Layout**.
+-   Click the **Show Versions** related link.
+-   For tables that use the update\_synch attribute, add the **Versions** related list to the form. This list is on several forms by default, including, business rules, UI actions, and client scripts.
+-   For any customizable object, right-click the form header and select **Show Application File**, then scroll down to the Related Record Versions related list.
 
 You can navigate from a version record to:
 
--   The customized object: Select the **Show Related Record** related link.
--   The application file records for the object: Select the **Show Application File** related link.
+-   The customized object: Click the **Show Related Record** related link.
+-   The application file record for the object: Click the **Show Application File** related link.
 
-**Parent Topic:**[Versions and local changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_VersionsAndLocalChanges.md)
+    \[Omitted image "VersionRecord.png"\] Alt text:
+
+
+**Parent Topic:**[Versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_Versions.md)
 

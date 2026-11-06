@@ -7,8 +7,8 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -26,7 +26,7 @@ Use playbooks to deliver a guided, stage-based experience within the project wor
 
 Create a status report for your projects and run analytics for your projects. Experience the Gen AI feature in Project Workspace. Summarize, elaborate, or shorten the selected content on Docs to quickly understand the key information in documents using Project Gen AI Docs skill.
 
-Refine planning item descriptions using write items skill to improve the clarity and completeness of your work item. This also reduces the rework due to missing or unclear planning item information.
+Refine planning item descriptions using write items skill to improve the clarity and completeness of your work item. This reduces rework due to missing or unclear planning item information.
 
 ## Get started
 
@@ -58,14 +58,14 @@ The ServiceNow® Project Workspace application helps you to manage projects, res
 Set up and configure the Project Workspace application to initiate and plan your projects, financials, and resources.
 -   **[Use AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/using-na-admin-spm.md)**  
 Use AI Admin Hub to explore the various ServiceNow Otto® plugins, skills and associated Generative AI application features you're entitled to.
--   **[Use AI agent or agentic workflows in ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-na-spm-ai-agents.md)**  
+-   **[Use AI agent or agentic workflows in ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/using-na-spm-ai-agents.md)**  
 Use the AI agents for SPM to monitor project tasks autonomously.
 -   **[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/use-projects-pw.md)**  
 Use the features of Project Workspace to plan and manage your project.
 -   **[Manage Risk, Issue, Decision, Action, or Request Change \(RIDAC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/manage-ridac-pw.md)**  
 Use RIDAC to identify, track, and manage risks, issues, decisions, actions, and change requests in Project Workspace.
 -   **[Managing financials for your projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/using-financials-prj-wrkspc.md)**  
-Manage budget, cost plans as forecasts, actual expenses as expense lines, and generate labor costs. Create financial baselines, and view, analyze, and compare the financial performance of your projects at required cadence in Project Workspace.
+Manage budget, cost plans as forecasts, actual expenses as expense lines, generate labor costs, create financial baselines. View, analyze, and compare the financial performance of your projects at required cadence in Project Workspace.
 -   **[Resource planning with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/use-resource-mgmt-prj-wksp.md)**  
 Use the Resource Management application to allocate and manage your resources in the Project Workspace.
 -   **[Project Workspace integration with CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/cwm-integration-pw.md)**  

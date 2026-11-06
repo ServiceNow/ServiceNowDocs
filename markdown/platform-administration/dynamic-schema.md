@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/dynamic-schema.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Administer, Field administration, Forms, fields, and lists, Configure core features, Administer]
+breadcrumb: [Administer, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Dynamic Schema
@@ -59,6 +59,7 @@ You have flexibility when deciding how to implement Dynamic Schema.
     For example, assume you have a custom Products table that stores records for different types of products like televisions, sunscreens, pillows, and shirts. You can create dynamic attributes for each type of product \(like screen type, UPC, color, or size\). You can organize the dynamic attributes into dynamic categories \(like Electronics, Health and Beauty, Home Goods, and Clothing\). Users can add records to your Products table and capture different attributes in each product record.
 
 -   Describe a record by capturing one or more transient attributes, with values stored as string objects in a dynamic attribute store field. You can also capture transient attributes on a record by adding a dynamic attribute store field to a table and populating the field with string data using the GlideRecord API.
+-   Filter Workspace lists using dynamic schema elements in the condition builder. For example, you can define dynamic categories and attributes for product offerings and use them to search for transactions using the condition builder in the Sales Order Management Workspace.
 
 ## APIs
 

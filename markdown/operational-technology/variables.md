@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/variables.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Using the Discovery Console, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Variables
@@ -34,10 +34,10 @@ The columns on the page are:
 
 -   Variables \(number of variables\)
 -   Tools
-    -   Select the pencil icon \[Omitted image "image.edit-icon"\] Alt text: to edit the variable set.
-    -   Select the trash can icon \[Omitted image "image.trash-icon"\] Alt text: to delete the variable set.
+    -   Select the pencil icon \[Omitted image "edit-icon.png"\] Alt text: to edit the variable set.
+    -   Select the trash can icon \[Omitted image "trash-icon.png"\] Alt text: to delete the variable set.
 
-\[Omitted image "image.variable-sets-page"\] Alt text: Variable page
+\[Omitted image "variable-sets-page.png"\] Alt text: Variable page
 
 ## Special Variable sets
 
@@ -48,7 +48,7 @@ There are the following special variable sets:
 
 The Custom-Global variable set can be edited by a user while the Driver - Global is read-only. The Custom - Global variable sets can be used to override indirectly the Driver - Global variable sets.
 
-\[Omitted image "image.special-variable-sets"\] Alt text: Special variable sets
+\[Omitted image "special-variable-sets.png"\] Alt text: Special variable sets
 
 You can use variable sets \(Custom - Global or Site-specific sets\) to override a Variable set. See [Edit a Variable set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/editing-a-variable-set.md) or [Create a Site-specific Variable set to use with Auto Query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/add-variable-site-auto-query.md) for more information on editing a Variable set.
 
@@ -60,15 +60,26 @@ During a query, the query configuration is reviewed to see which Sites are being
 
 You can import or export variable sets. You can select either the JSON or CSV formats. Select **Actions** to import or export.
 
-\[Omitted image "image.action-button-variable-sets"\] Alt text: Action button
+\[Omitted image "action-button-variable-sets.png"\] Alt text: Action button
 
-When you export Variable sets in either JSON or CSV format, you are prompted to include encrypted password variables. If you select yes, the values are exported as plain text. If you select no, the export excludes encrypted password variables.
+When you export Variable sets in either JSON or CSV format, you're prompted to include encrypted password variables. If you select yes, the values are exported as plain text. If you select no, the export excludes encrypted password variables.
 
-\[Omitted image "image.export-variable-sets"\] Alt text: Export prompt
+\[Omitted image "export-variable-sets.png"\] Alt text: Export prompt
 
 If the encrypted password is exported as plain text, it is no longer hidden and secure.
 
 **Note:** Encrypted Variable values in Variable Sets are obscured. Encrypted values display as dots when set to encrypted.
 
-\[Omitted image "image.encrypted-passwords"\] Alt text: Encrypted values
+\[Omitted image "encrypted-passwords.png"\] Alt text: Encrypted values
+
+**Note:** For information on creating a Site-specific Variable set, refer to [Create a Site-specific Variable set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/creating-site-specific-variable-set.md).
+
+-   **[Create a Variable set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/create-variable-set.md)**  
+Create a Variable set for an Auto Query scan created in the Discovery Console for OT.
+-   **[Edit a Variable set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/editing-a-variable-set.md)**  
+Edit a Variable set for an Auto Query scan created in the Discovery Console for OT.
+-   **[Create a Site-specific Variable set to use with Auto Query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/add-variable-site-auto-query.md)**  
+Create a Site-specific Variable set for use in Auto Queries.
+
+**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/using-discovery-console.md)
 

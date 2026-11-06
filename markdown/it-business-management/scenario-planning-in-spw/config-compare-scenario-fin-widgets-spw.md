@@ -7,7 +7,7 @@ release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring scenario planning in Strategic Planning, Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -32,15 +32,15 @@ Role required: admin
 
 3.  Edit an existing widget or create a widget to use it in scenario planning.
 
-<table id="choicetable_rl1_scr_dfc"><thead><tr><th align="left" id="d260796e96">
+<table id="choicetable_rl1_scr_dfc"><thead><tr><th align="left" id="d281080e96">
 
 Choice
 
-</th><th align="left" id="d260796e99">
+</th><th align="left" id="d281080e99">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d260796e105">
+</th></tr></thead><tbody><tr><td id="d281080e105">
 
 **Edit an existing widget**
 
@@ -50,7 +50,7 @@ Description
 2.  Edit the **Script** field to customize and fetch required financial information into the widget.
 
 
-</td></tr><tr><td id="d260796e126">
+</td></tr><tr><td id="d281080e126">
 
 **Create a widget**
 

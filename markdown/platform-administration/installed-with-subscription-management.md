@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/installed-with-subscription-management.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Subscription Management, Get started, Administer]
+breadcrumb: [Reference, Subscription Management, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Components installed with Subscription Management
@@ -55,16 +55,6 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Subscribed Groups
-
- \[sn\_sub\_man\_st\_subscribed\_groups\]
-
-</td><td>
-
-\[Remote table\] Groups that you add to a product subscription
-
-</td></tr><tr><td>
-
 Subscription Insights definition
 
  \[sn\_sub\_man\_st\_subscription\_insights\]
@@ -82,16 +72,6 @@ Subscription license detail definition
 </td><td>
 
 \[Remote table\] Subscription allocation metrics and history
-
-</td></tr><tr><td>
-
-Unallocated Group Recommendations
-
- \[sn\_sub\_man\_st\_unallocated\_group\_recommendation\]
-
-</td><td>
-
-\[Remote table\] Product recommendations for unallocated groups
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Subscription Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/subscription-management-reference-v2.md)

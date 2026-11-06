@@ -1,22 +1,22 @@
 ---
-title: Properties
-description: Use the Identification and Reconciliation properties to configure the identification and reconciliation engine \(IRE\).
+title: Properties for Identification and Reconciliation
+description: Use the Identification and Reconciliation properties to configure the Identification and Reconciliation Engine \(IRE\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/properties-id-reconciliation.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 17
+last_updated: "2026-09-10"
+reading_time_minutes: 18
 breadcrumb: [Reference, CMDB Identification and Reconciliation \(IRE\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Properties
+# Properties for Identification and Reconciliation
 
-Use the Identification and Reconciliation properties to configure the identification and reconciliation engine \(IRE\).
+Use the Identification and Reconciliation properties to configure the Identification and Reconciliation Engine \(IRE\).
 
-These properties are available for Identification and Reconciliation. To view and edit these properties, the admin role is required.
+These properties are available for Identification and Reconciliation. To view and edit these properties, the sn\_cmdb\_admin or admin role is required.
 
 **Note:** To open the System Properties \[sys\_properties\] table, enter `sys_properties.list` in the navigation filter.
 
@@ -321,7 +321,7 @@ Maximum number of items allowed when creating a partial payload. When that limit
 
  -   Type: integer
 -   Default: 1000
--   Learn more: [Identification and Reconciliation engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/ire.md)
+-   Learn more: [Identification and Reconciliation Engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/ire.md)
 -   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table
 
 </td></tr><tr><td>
@@ -365,7 +365,7 @@ Determines how IRE updates the **last\_discovered** and the **discovery\_source*
 
  -   Type: true \| false
 -   Default: true
--   Learn more: [Identification and Reconciliation engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/ire.md)
+-   Learn more: [Identification and Reconciliation Engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/ire.md)
 -   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
 
 </td></tr><tr><td>
@@ -378,7 +378,7 @@ If Robust Transform Engine \(RTE\) does not pass the **ire.skip\_updating\_last\
 
  -   Type: true \| false
 -   Default: false
--   Learn more: [Identification and Reconciliation engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/ire.md)
+-   Learn more: [Identification and Reconciliation Engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/ire.md)
 -   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
 
 </td></tr><tr><td>
@@ -398,7 +398,7 @@ Determines how IRE uses the **source\_recency\_timestamp** value in a payload to
 
  -   Type: true \| false
 -   Default: true
--   Learn more: [About mapping data columns to CMDB classes and attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/integration-hub-etl/create-etl-transform-map.md) and [Identification and Reconciliation engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/ire.md)
+-   Learn more: [About mapping data columns to CMDB classes and attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/integration-hub-etl/create-etl-transform-map.md) and [Identification and Reconciliation Engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/ire.md)
 -   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
 
 </td></tr><tr><td>
@@ -411,7 +411,7 @@ If RTE does not pass the **ire.skip\_updating\_last\_scan\_to\_now** custom prop
 
  -   Type: true \| false
 -   Default: false
--   Learn more: [About mapping data columns to CMDB classes and attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/integration-hub-etl/create-etl-transform-map.md) and [Identification and Reconciliation engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/ire.md)
+-   Learn more: [About mapping data columns to CMDB classes and attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/integration-hub-etl/create-etl-transform-map.md) and [Identification and Reconciliation Engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/ire.md)
 -   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
 
 </td></tr><tr><td>
@@ -427,7 +427,7 @@ Toggles domain separation support mode during IRE processing.
 
  -   Type: true \| false
 -   Default: false
--   Learn more: [Domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/domain-separation-identification-reconciliation.md)
+-   Learn more: [Domain separation and CMDB Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/domain-separation-identification-reconciliation.md)
 -   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
 
 </td></tr><tr><td>
@@ -478,7 +478,22 @@ Determines whether IRE identification processes have the priority in being used 
 
  -   Type: true \| false
 -   Default: false
--   Learn more: [Identification and Reconciliation engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/ire.md)
+-   Learn more: [Identification and Reconciliation Engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/ire.md)
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
+
+</td></tr><tr><td>
+
+glide.identification\_engine.lookup\_match.create\_duplicate\_task\_ci.enabled
+
+</td><td>
+
+Enables IRE behavior of creating de-duplication tasks for duplicate related items in a lookup table detected during a lookup-based identification.
+
+ Set the property to reflect on whether such duplication is valid in the organization and doesn't require remediation, or isn't valid and the duplication should be remediated.
+
+ -   Type: true \| false
+-   Default: false
+-   Learn more: [Detecting duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/id-detect-dup-ci.md)
 -   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
 
 </td></tr><tr><td>
@@ -487,7 +502,7 @@ glide.identification\_engine.dynamic\_ire\_enabled
 
 </td><td>
 
-Switch between using Dynamic IRE or Static IRE. Set to 'true' to use Dynamic IRE and to turn off Static IRE.
+Switches between using Dynamic IRE or Static IRE. Set to 'true' to use Dynamic IRE and to turn off Static IRE.
 
  -   Type: true \| false
 -   Default: false
@@ -502,10 +517,34 @@ glide.identification\_engine.dynamic\_ire.auto\_compare
 
 Enables comparison between the processing outputs of Dynamic IRE and Static IRE for all payloads.
 
+ If both properties:
+
+-   **glide.identification\_engine.dynamic\_ire.auto\_compare**
+-   **glide.identification\_engine.dynamic\_ire.auto\_compare.sampling.enabled**
+
+are **true**, then the system runs a comparison between Static IRE and Dynamic IRE for all payloads. If both of those properties are **false**, then there are no comparisons.
+
  -   Type: true \| false
 -   Default: true
 -   Learn more: [Dynamic IRE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/dynamic-ire.md)
 -   Location: System Properties \[sys\_properties\] table
+
+</td></tr><tr><td>
+
+glide.identification\_engine.non\_dependency\_relation.duplicate\_detection
+
+</td><td>
+
+Sets IRE behavior when the payload contains duplicate non-dependent relationships \(identical parent/child relationship type\).
+
+ When **true**, IRE detects duplicate non-dependent relationships in a payload.
+
+ When **false**, IRE doesn't detect duplicate non-dependent relationships in a payload.
+
+ -   Type: true \| false
+-   Default: false
+-   Learn more: [CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_CMDBIdentifyandReconcile.md)
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
 
 </td></tr><tr><td>
 

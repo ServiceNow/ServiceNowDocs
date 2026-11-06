@@ -1,20 +1,20 @@
 ---
-title: Product Support for Technology table
-description: The Product Support for Technology application adds the Product Support for Technology \(sn\_tech\_product\_support\_case\) table.
+title: Tech Product Support Case table
+description: The Technology Product Support Case application adds the Tech Product Support Case \(sn\_tech\_product\_support\_case\) table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-table.html
 release: zurich
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Technology Product Support Case, Proactive Service Experience Workflows]
+breadcrumb: [Reference, Technology Product Support Case, Product Support for Technology]
 ---
 
-# Product Support for Technology table
+# Tech Product Support Case table
 
-The Product Support for Technology application adds the Product Support for Technology \(sn\_tech\_product\_support\_case\) table.
+The Technology Product Support Case application adds the Tech Product Support Case \(sn\_tech\_product\_support\_case\) table.
 
 <table id="table_kbz_1nf_n1c"><thead><tr><th>
 
@@ -401,4 +401,5 @@ Work notes list
 Users who receive notifications about this case when work notes are added.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Technology Product Support Case reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/tpsc-reference.md)
+

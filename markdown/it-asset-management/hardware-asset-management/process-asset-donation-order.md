@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Donate assets to charity organizations, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Donate assets to charity organizations, Asset lifecycle and disposal, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Process an Asset Donation Order
@@ -101,7 +101,7 @@ You can cancel an Asset Donation Order until it reaches the transit stage in the
 
     1.  Select the Confirmation from charity organization task.
 
-    2.  In the Details related list, select the Attachment icon \[Omitted image "paper-clip-icon.png"\] Alt text: Attachment icon.
+    2.  In the Details related list, select the Attachment icon \[Omitted image "paper-clip-icon.png"\] Alt text:.
 
     3.  Select the document.
 
@@ -124,6 +124,4 @@ All the asset donation tasks are in the Closed Complete state and the Asset Dona
 [Create an Asset Donation Order]()
 
 [Approve or reject an Asset Donation Order]()
-
-[Add a charity organization for donating assets]()
 

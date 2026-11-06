@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/blueprints.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow CPQ Configurator, ServiceNow CPQ, Configure, price, quote, Explore, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Blueprints
@@ -47,6 +47,7 @@ Each blueprint record includes multiple tabs that provide visibility into its st
 -   Configurable Products: View all products that launch the configuration experience defined by the blueprint.
 -   Deployments: Track the most recent deployments, including date, user, and status.
 -   Enrichments: Manage enrichment scripts that run outside the rules engine \(for example, initialization or pricing scripts\).
+-   Field Mapping: View and manage field mapping for context variables.
 
 ## Deployment and environments
 
@@ -64,13 +65,13 @@ Blueprints can be exported and imported across environments to support developme
 
 When importing, administrators can update Product IDs, rule mappings, and environment-specific references to ensure compatibility in the target org. ServiceNow CPQ maintains unique IDs for each Configurable Product to preserve data integrity across environments.
 
-## Best practices
+## General guidelines
 
 -   Create modular blueprints for each major product or configuration flow.
 -   Use descriptive names and variable names for clarity and maintainability.
 -   Review inactive rules regularly to prevent outdated logic from re-entering deployments.
 -   Deploy changes in a controlled environment before promoting to production.
--   Document Enrichment scripts and custom external connections used by each blueprint.
+-   Document the enrichment scripts and custom external connections that are used by each blueprint.
 
 **Related topics**  
 

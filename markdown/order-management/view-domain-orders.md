@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/view-domain-orders.html
 release: zurich
 topic_type: task
-last_updated: "2025-10-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Order decomposition, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_ind\_tmt\_orm.fulfillment\_agent, sn\_ind\_tmt\_orm.fulfillme
 
 ## Procedure
 
-1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace** .
+1.  Navigate to  **Workspaces** &gt; **CRM Workspace** .
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -50,4 +50,11 @@ Role required: sn\_ind\_tmt\_orm.fulfillment\_agent, sn\_ind\_tmt\_orm.fulfillme
 
     -   Cease composed of item: Shows old composed of Items from the existing service location.
     -   Provide composed of item: Shows new Composed of Items in the new service location.
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-order-management.md)
 

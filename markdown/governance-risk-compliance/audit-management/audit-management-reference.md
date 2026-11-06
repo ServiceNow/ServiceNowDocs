@@ -7,7 +7,7 @@ release: zurich
 product: Audit Management
 classification: audit-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Audit Management, Governance, Risk, and Compliance]
 ---
@@ -19,7 +19,7 @@ The following sections show the roles and access limitations to the tables used 
 -   **[Components installed with Audit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/r_InstallWAudit.md)**  
 Activating the GRC: Audit Management \(com.sn\_audit\) plugin adds or modifies several tables, user roles, and other components.
 -   **[Roles required for Engagement project planning for Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/Engagement-project-roles-ppm.md)**  
-The advanced planning capability enables integration of Advanced Audit with the Project Portfolio Management \(PPM\) product. The capability creates an equivalent project for the engagement, and provides planning features that could be used for resource planning, cost planning, and so on, from the engagement project.
+The advanced planning capability enables integration of Advanced Audit with the Project Portfolio Management \(PPM\) product. The capability creates an equivalent project for the engagement and provides planning features for resource planning, cost planning, and more.
 -   **[Roles required for Advanced planning capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/roles-for-audit-and-ppm.md)**  
 The advanced planning capability enables integration of Advanced Audit with the Project Portfolio Management \(PPM\) product. The capability creates an equivalent project for the engagement, and provides planning features that could be used for resource planning, cost planning, and so on, from the engagement.
 -   **[Domain separation and Audit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/audit-management-domain-separation.md)**  

@@ -1,11 +1,11 @@
 ---
 title: Configure Mobile Agent for Public Sector Digital Services
-description: Configure Mobile Agent for the Information Request and Service Request Playbooks.Install the Customer Service Mobile and Information Request Administration plugins to enable government agents to track public record information requests on the Mobile Agent. You can then configure the roles.Install the Customer Service Mobile and Service Request Playbook plugins to enable government service agents to track non-emergency service requests on the Mobile Agent. You can then configure the roles.Configure user roles for government service agents to access the Mobile Agent app. This step is mandatory for any government service agent to be able to work from the app.
+description: Configure Mobile Agent for the Information Request and Service Request Playbooks.Install the Customer Service Mobile and Information Request Administration plugins to enable government agents to track public record information requests on the Mobile Agent. You can then configure the roles.Install the Customer Service Mobile and Service Request Administration plugins to enable government service agents to track non-emergency service requests on the Mobile Agent. You can then configure the roles.Configure user roles for government service agents to access the Mobile Agent app. This step is mandatory for any government service agent to be able to work from the app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-config-mobile-agent.html
 release: zurich
 topic_type: concept
-last_updated: "2026-01-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Agent tools, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
@@ -55,9 +55,9 @@ Configure user roles in order for government agents to access the Mobile Agent a
 </td></tr></tbody>
 </table>Once the Customer Service Management mobile application is activated and configured, agents can download the ServiceNow Mobile Agent on their mobile devices and access ServiceNow instances.
 
-## Configure Mobile Agent for Service Request Playbook
+## Configure Mobile Agent for Service Request Administration
 
-Install the Customer Service Mobile and Service Request Playbook plugins to enable government service agents to track non-emergency service requests on the Mobile Agent. You can then configure the roles.
+Install the Customer Service Mobile and Service Request Administration plugins to enable government service agents to track non-emergency service requests on the Mobile Agent. You can then configure the roles.
 
 As a user with the admin role, complete the following configuration tasks to set up the Mobile Agent application.
 
@@ -75,7 +75,7 @@ Description
 
 </td><td>
 
-Install Service Request Playbook \(sn\_gsm\) from the ServiceNow® Store.
+Install Service Request Administration \(sn\_gsm\) from the ServiceNow® Store.
 
 </td></tr><tr><td>
 
@@ -122,7 +122,7 @@ Role required: admin
 
 3.  If prompted, switch from the Global application to the Customer Service Mobile application.
 
-4.  Select the edit icon \(\[Omitted image "icon-edit-pencil.png"\] Alt text: Edit icon.\) under Required Roles and add the following roles:
+4.  Select the edit icon \(\[Omitted image "edit-icon.png"\] Alt text: Edit icon.\) under Required Roles and add the following roles:
 
     -   sn\_gsm.agency\_manager
     -   sn\_gsm.government\_service\_manager

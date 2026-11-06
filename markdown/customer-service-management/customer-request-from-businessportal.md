@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-request-from-businessportal.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Business Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Business Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Request an item or service from the Business Portal
@@ -16,7 +16,7 @@ Browse the catalog and create a request for an item or a service from the busine
 
 ## Before you begin
 
-Role required: sn\_customerservice.customer\_admin, sn\_customerservice.partner, sn\_customerservice.customer\_case\_manager, sn\_customerservice.customer, sn\_customerservice.consumer, sn\_customerservice.proxy\_contact
+Role required: sn\_customerservice.customer\_admin, sn\_customerservice.partner, sn\_customerservice.customer\_case\_manager, sn\_customerservice.customer, sn\_customerservice.consumer, sn\_csm\_proxy\_cont
 
 ## About this task
 
@@ -40,4 +40,9 @@ Users can make requests for a product or service from the business portal. Custo
 
     The system processes the request, creates it along with related records, and shows the details on the record view page.
 
+
+**Related topics**  
+
+
+[View cases and case tasks from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/view-related-records-from-business-portal.md)
 

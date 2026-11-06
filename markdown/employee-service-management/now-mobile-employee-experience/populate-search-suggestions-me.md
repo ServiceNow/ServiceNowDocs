@@ -7,9 +7,9 @@ release: zurich
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Mobile app, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configuring Now Mobile, EmployeeWorks, Employee Service Management]
 ---
 
 # Populate search suggestions in the mobile apps
@@ -44,4 +44,6 @@ Search suggestions improve over time as more people use the app. Search Suggesti
 ## Result
 
 Users see suggestions when they start typing in a search field in the Now Mobile app.
+
+**Parent Topic:**[Configuring Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/setup-mobile-employee.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
@@ -22,7 +22,7 @@ The HR Triaging Dashboard enables you to review your teams' case assignments in 
 -   Ability to configure case fields and the order by which you want case fields to appear on the case card.
 -   Auto-update priority, assignment, or HR service of an HR case by moving a case card from one lane to another.
 
-\[Omitted image "triage-by-user.png"\] Alt text: Triaging cases by users or assignment groups
+\[Omitted image "triage-by-user.png"\] Alt text: HR Triaging Dashboard showing case cards organized in lanes by user or assignment group
 
 ## Configure the HR Triaging Dashboard
 

@@ -1,17 +1,17 @@
 ---
-title: Implement the Interaction Controls Component \(ICC\) for contact center voice call and callback integration
+title: Implement the Interaction Controls Component \(ICC\) for contact center voice call and callback integrations
 description: Implement prebuilt, certified integrations with Contact Center as a Service \(CCaaS\) providers using the ServiceNow voice reference architecture.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/enable-icc-for-ccaas.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ICC for contact center integration, ICC for CCaaS, NVC for CCaaS integration]
-breadcrumb: [Enable communication channels, Configure, Customer Service Management]
+breadcrumb: [Configure voice, Configure omnichannel, Configure, Customer Service Management]
 ---
 
-# Implement the Interaction Controls Component \(ICC\) for contact center voice call and callback integration
+# Implement the Interaction Controls Component \(ICC\) for contact center voice call and callback integrations
 
 Implement prebuilt, certified integrations with Contact Center as a Service \(CCaaS\) providers using the ServiceNow® voice reference architecture.
 

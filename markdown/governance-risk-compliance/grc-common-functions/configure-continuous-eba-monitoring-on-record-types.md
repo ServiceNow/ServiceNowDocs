@@ -7,7 +7,7 @@ release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage Entity Based Access, Entity Based Access, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -26,7 +26,7 @@ Role required:sn\_grc\_ent\_access.admin or sn\_grc\_ent\_access.bulk\_access\_a
 
 2.  Select **New**.
 
-    \[Omitted image "record-attribute-user-access.png"\] Alt text: Entity based access rules new record form.
+    \[Omitted image "record-attribute-user-access.png"\] Alt text: New entity-based record access rule form.
 
 3.  From the **Record type** drop-down list, select the type for which you want to configure entity-based record access rules.
 
@@ -53,7 +53,7 @@ Role required:sn\_grc\_ent\_access.admin or sn\_grc\_ent\_access.bulk\_access\_a
 
 The entity-based access restrictions are automatically applied to both primary and secondary record types based on primary record selection and activation of rule for new records.
 
-When record attribute user access is configured, users and groups referenced in user fields or user group fields continue to have record level access. This access persists even after entity based access restrictions are applied.
+When record attribute user access is configured, users and groups referenced in user fields or user group fields continue to have record level access even after entity based access restrictions are applied.
 
 **Parent Topic:**[Managing Entity Based Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/using-entity-based-access.md)
 

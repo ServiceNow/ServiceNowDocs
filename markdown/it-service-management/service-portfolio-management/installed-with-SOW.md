@@ -7,9 +7,9 @@ release: zurich
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: reference
-last_updated: "2026-02-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Install the Service Portfolio Management Sample Content Pack, Configure, Service Portfolio Management, IT Service Management]
+breadcrumb: [Configure, Service Portfolio Management, IT Service Management]
 ---
 
 # Installed with Service Portfolio Management Premium
@@ -70,5 +70,5 @@ SPM Node Weight\[spm\_node\_weight\]
 Used to assign a weight value to a node in relation to the value of its sibling nodes.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Install the Service Portfolio Management Sample Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-portfolio-management/activate-SPM2-content-pack-plugin.md)
+</table>**Parent Topic:**[Configuring Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-portfolio-management/SPM2-configuring.md)
 

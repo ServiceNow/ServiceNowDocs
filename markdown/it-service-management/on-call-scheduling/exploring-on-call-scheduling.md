@@ -7,8 +7,8 @@ release: zurich
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [On-Call Scheduling, IT Service Management]
 ---
 
@@ -130,8 +130,14 @@ Download and use the Mobile agent to perform all these activities on the go.
 itil, rota\_manager
 
 </td></tr></tbody>
-</table>-   **[On-Call Scheduling capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/on-call-scheduling-capabilities.md)**  
-The key features and capabilities of On-Call Scheduling can be used by the various user roles.
+</table>## Redirection of UI16 module links to Service Operations Workspace
+
+If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the On-Call Scheduling module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
+
+**Note:** For new instances, this redirection configuration is automatically available in the base system. For upgrade instances, administrators can configure the redirection behavior from the SOW Admin Center.
+
+-   **[On-Call Scheduling actions by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/on-call-scheduling-capabilities.md)**  
+On-Call Scheduling provides role-based capabilities for members, shift managers, and shift administrators to manage on-call schedules, time-off requests, and escalations.On-Call Scheduling can be used by the various user roles.
 -   **[On-Call Scheduling new schedule engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/oncall-schedule-engine.md)**  
 Introducing the new On-call schedule engine with enhanced capabilities and user experience.
 -   **[On-Call Scheduling new trigger engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/on-call-new-trigger-engine.md)**  

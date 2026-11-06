@@ -7,9 +7,9 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Cluster analysis, Analyzing and getting process insights, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Cluster analysis, Analyzing and getting process insights, Use, Process Mining, Platform Analytics]
 ---
 
 # Configure a process for a clustering solution
@@ -22,8 +22,8 @@ Configure a process to be able to generate a cluster analysis.
 
 -   You can create one configuration per table for each project based on a process.
 -   Role required:
-    -   The sn\_process\_optimization\_admin and sn\_process\_optimization\_power\_user roles can associate a clustering solution definition with a project, but cannot create a definition.
-    -   The sn\_process\_optimization\_analyst role can view a clustering solution definition, but cannot create, edit, associate, or delete a definition.
+    -   The sn\_process\_mining\_admin and sn\_process\_mining\_power\_user roles can associate a clustering solution definition with a project, but cannot create a definition.
+    -   The sn\_process\_mining\_analyst role can view a clustering solution definition, but cannot create, edit, associate, or delete a definition.
 
 ## Procedure
 

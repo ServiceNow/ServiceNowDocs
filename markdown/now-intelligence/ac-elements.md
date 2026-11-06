@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/ac-elements.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Dashboards, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -14,74 +14,190 @@ breadcrumb: [Dashboards, Platform Analytics experience, Platform Analytics]
 
 Use Platform Analytics dashboards to access, organize, and share data in a visual format.
 
-## Dashboard overview
+## Dashboards library overview
 
-You can find all the [dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dashboards-glossary.md) that you have permission to access, dashboards that you own, dashboards that you've [bookmarked](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dashboards-glossary.md), and dashboards that have been shared with you by navigating to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**.
+You can find all the [dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dashboards-glossary.md) that you have permission to access by navigating to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**. You can filter what dashboards are listed, for example seeing only dashboards you own or you have bookmarked. You can also directly access Dashboards from the filter navigation in Platform Analytics library pages.
 
-For more information, see [Dashboards in the library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/find-dashboard-library.md).
+Library pages like this one include a navigation pane that provides access to the other libraries and the Usage Insights page. Use it to navigate between the libraries without interrupting your workflow.
 
-## Dashboards for users with the admin roles
+For information on role-based access for the filter navigation pane and Platform Analytics overview page, see [Roles applicable for Platform Analytics overview page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center.md).
 
-The configuration of the Dashboards page and the data access depends on the user roles. Users without admin roles have limited capabilities, as compared to users with the admin roles. Users with the admin roles can perform such actions as deactivating, activating, deleting, or creating categories.
+For more information on Dashboards library, see [Dashboards in the library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/find-dashboard-library.md).
 
-For more information, see [Dashboards for users with admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dashboards-for-admin-users.md). For more information on the types of admin roles in Platform Analytics, see [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/platform-analytics-roles.md).
+## Dashboards for analytics admins
 
-## Dashboard components
+The configuration of the Dashboards page and the data access depends on the user roles. Users without admin roles have limited capabilities, as compared to the analytics admins. The analytics admins can perform actions such as deactivating, activating, deleting, or creating categories. For Dashboards, the applicable roles are dashboard\_admin, platform\_analytics\_admin, and admin. The lowest role required is dashboard\_admin. For more information on all dashboard roles, see table [Dashboard roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/platform-analytics-roles.md).
+
+On Brazil instances, you can find both Core UI dashboards and Platform Analytics experience dashboards in the Dashboards library.
+
+For more information, see [Dashboards for analytics admins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dashboards-for-admin-users.md). For more information on the types of admin roles in Platform Analytics, see [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/platform-analytics-roles.md).
+
+## Dashboards components
 
 When you open a dashboard, you can view the components.
 
 \[Omitted image "inline-db-components3.png"\] Alt text: Section of a dashboard. Refer to the following list for the descriptions of the components.
 
-1.  Dashboard title
+<table id="table_exj_dht_k3c"><thead><tr><th>
 
-    Displays the dashboard title. Select the arrow to choose a different dashboard.
+ 
 
-2.  Refresh information
+</th><th>
 
-    Displays the time or duration when the dashboard was last refreshed. Users with admin roles can configure the refresh intervals. For more information, see [Configure Platform Analytics dashboard settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/configure-ac-db-settings.md).
+Field / component name
 
-3.  [Certification badge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dashboards-glossary.md)
+</th><th>
 
-    Whether the dashboard is company-approved and recommended for use.
+Description
 
-4.  Category badge
+</th></tr></thead><tbody><tr><td>
 
-    Terms or phrases that describe one or more dashboard categories. This information is provided by the dashboard creator or the analytics\_categories\_admin.
+1
 
-5.  Refresh button
+</td><td>
 
-    Button for refreshing all the visualizations on the dashboard.
+Open library
 
-6.  Details button
+</td><td>
 
-    Button for displaying the ownership and sharing information about the dashboard. You can view the user, groups, roles, and access permissions. For more information, see [Configure Platform Analytics dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/config-db-in-ac.md).
+Returns the viewer to the Dashboard library
 
-7.  Insights button
+</td></tr><tr><td>
 
-    Button for viewing the insights cards. For more information, see [Proactive analytics insights on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/proactive-analytics/proactive-analytics.md).
+2
 
-8.  Edit button
+</td><td>
 
-    Button for editing the dashboard. Only users with admin roles, edit permissions, and ownership of the dashboard can edit the contents of the dashboard.
+Dashboard title
 
-9.  More actions button
+</td><td>
 
-    Button for creating, duplicating, sharing, printing, bookmarking, clearing the filters for, or deleting the dashboard. For more information on sharing the dashboard information, see [Share a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/share-db-in-ac.md).
+Displays the dashboard title. Select the arrow to choose a different dashboard.
 
-    \[Omitted image "db-share-dialog.png"\] Alt text: Dashboard sharing dialog that shows who the dashboard has been shared with and whether they can edit or only view it.
+</td></tr><tr><td>
 
-10. [Top stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dashboards-glossary.md)
+3
 
-    Elements that are visible no matter which [tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dashboards-glossary.md) has the focus. Filters in this section apply to visualizations on all of the tabs.
+</td><td>
 
-11. Tabs
+[Certification badge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dashboards-glossary.md)
 
-    Tabs for managing information on your dashboard and keeping related information in the same place.
+</td><td>
 
+Whether the dashboard is company-approved and recommended for use.
 
--   **[Dashboards in the library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/find-dashboard-library.md)**  
+</td></tr><tr><td>
+
+4
+
+</td><td>
+
+Category badge
+
+</td><td>
+
+Terms or phrases that describe one or more dashboard categories. This information is provided by the dashboard creator or the analytics\_categories\_admin.
+
+</td></tr><tr><td>
+
+5
+
+</td><td>
+
+Refresh button
+
+</td><td>
+
+Button for refreshing all the visualizations on the dashboard. In the dashboard settings, an admin user can set whether to display the last refresh near the title. They can also set up automatic dashboard refreshes. For more information, see [Configure Platform Analytics dashboard settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/configure-ac-db-settings.md).
+
+</td></tr><tr><td>
+
+6
+
+</td><td>
+
+Details button
+
+</td><td>
+
+Button for displaying the ownership and sharing information about the dashboard. You can view the user, groups, roles, and access permissions. For more information, see [Configure Platform Analytics dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/config-db-in-ac.md).
+
+</td></tr><tr><td>
+
+7
+
+</td><td>
+
+Insights button
+
+</td><td>
+
+Button for viewing the insights cards. For more information, see [Proactive analytics insights on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/proactive-analytics/proactive-analytics.md).
+
+</td></tr><tr><td>
+
+8
+
+</td><td>
+
+Edit button
+
+</td><td>
+
+Button for editing the dashboard. Only users with admin roles, edit permissions, and ownership of the dashboard can edit the contents of the dashboard.
+
+</td></tr><tr><td>
+
+9
+
+</td><td>
+
+More actions button
+
+</td><td>
+
+Button for creating, duplicating, sharing, printing, bookmarking, clearing the filters for, or deleting the dashboard. For more information on sharing the dashboard information, see [Share a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/share-db-in-ac.md).
+
+</td></tr><tr><td>
+
+10
+
+</td><td>
+
+Collapse/Expand container
+
+</td><td>
+
+Some dashboard elements, typically filters, can be in a container above or below the tabs. This control hides or shows that container and its contents.
+
+</td></tr><tr><td>
+
+11
+
+</td><td>
+
+Filter
+
+</td><td>
+
+In this example dashboard, there is a filter in a container above the tabs. Because it is outside the tabs, it applies to the contents of all tabs. For more information, see [Create or add a filter on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/select-workspace-filter-type.md).
+
+</td></tr><tr><td>
+
+12
+
+</td><td>
+
+[Tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dashboards-glossary.md)
+
+</td><td>
+
+Tabs for managing information on your dashboard and keeping related information in the same place.
+
+</td></tr></tbody>
+</table>-   **[Dashboards in the library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/find-dashboard-library.md)**  
 Use Platform Analytics dashboards to access, organize, and share data in a visual format. Dashboards contain data visualizations, filters, and other visual elements.
--   **[Dashboards for users with admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dashboards-for-admin-users.md)**  
+-   **[Dashboards for analytics admins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dashboards-for-admin-users.md)**  
 Use Platform Analytics dashboards to access, organize, and share data in a visual format. Dashboards contain data visualizations, filters, and other visual elements.
 -   **[Dashboard elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dashboard-elements.md)**  
 Elements refer to the visual objects you can place on a dashboard, including filters.
@@ -98,8 +214,6 @@ Depending on your needs, you have four different ways to present a collection of
 [Common dashboard tasks in the in-line editor]()
 
 [Configuring dashboards]()
-
-[Executive dashboard overview]()
 
 [Proactive analytics insights on dashboards]()
 

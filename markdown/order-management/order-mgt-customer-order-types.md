@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/order-mgt-customer-order-types.html
 release: zurich
 topic_type: concept
-last_updated: "2025-09-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -43,10 +43,6 @@ Change an existing order, which changes a previously ordered or fulfilled produc
 -   Change characteristics or service location for existing products.
 -   As part of the fulfillment workflows, define a PONR \(Point of No Return\) step for each service or resource order.
 
-The change order is approved, the state of product inventory is changed to Change pending.
-
-The change order is fulfilled, the state of product inventory is changed to Active or Inactive.
-
 </td></tr><tr><td>
 
 Disconnect
@@ -80,7 +76,9 @@ No change
 Order line items with No change action are included in the order for informational purpose only. For example, an order contains multiple items, but only one of those items must be changed \(such as the speed, which has changed from 100 Mbps to 1000 Mbps\), which affects the parent line item. However, all the other line items in the order remain unchanged.
 
 </td></tr></tbody>
-</table>**Related topics**  
+</table>**Note:** The Move action type has been deprecated and can't be used.
+
+**Related topics**  
 
 
 [Suspend and resume products and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-suspend-resume-action.md)

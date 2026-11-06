@@ -7,10 +7,10 @@ release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [MID Server, data input, integration, configuration, field, description, ServiceNow, Health Log Analytics, HLA]
-breadcrumb: [Integration configuration field descriptions, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Integration configuration fields, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # MID Server integration configuration fields
@@ -119,5 +119,5 @@ Drop if queue is full
 Option to discard logs if many processes are waiting in the queue to access the MID Server.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Integration configuration field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
+</table>**Parent Topic:**[Integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

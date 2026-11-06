@@ -1,18 +1,18 @@
 ---
 title: MCP Server Console release notes
-description: The ServiceNow MCP Server Console application enables secure and governed access to functionality on a ServiceNow instance for AI applications with Model Context Protocol \(MCP\) servers. MCP servers extend ServiceNow AI Platform functionality into any external MCP client and employee experience over the Model Context Protocol. MCP Server Console is a new application in the Zurich release.The ServiceNow MCP Server Console application enables secure and governed access to functionality on a ServiceNow instance for AI applications with Model Context Protocol \(MCP\) servers. MCP servers extend ServiceNow AI Platform functionality into any external MCP client and employee experience over the Model Context Protocol. MCP Server Console is a new application in the Zurich release.The ServiceNow MCP Server Console application enables secure and governed access to functionality on a ServiceNow instance for AI applications with Model Context Protocol \(MCP\) servers. MCP servers extend ServiceNow AI Platform functionality into any external MCP client and employee experience over the Model Context Protocol. MCP Server Console is a new application in the Zurich release.The ServiceNow MCP Server Console application enables secure and governed access to functionality on a ServiceNow instance for AI applications with Model Context Protocol \(MCP\) servers. MCP servers extend ServiceNow AI Platform functionality into any external MCP client and employee experience over the Model Context Protocol. MCP Server Console is a new application in the Zurich release.
+description: The ServiceNow MCP Server Console application enables secure and governed access to functionality on a ServiceNow instance for AI applications with Model Context Protocol \(MCP\) servers. MCP servers extend ServiceNow AI Platform functionality into any external MCP client and employee experience over the Model Context Protocol. MCP Server Console is a new application in the Brazil release.The ServiceNow MCP Server Console application enables secure and governed access to functionality on a ServiceNow instance for AI applications with Model Context Protocol \(MCP\) servers. MCP servers extend ServiceNow AI Platform functionality into any external MCP client and employee experience over the Model Context Protocol. MCP Server Console is a new application in the Brazil release.The ServiceNow MCP Server Console application enables secure and governed access to functionality on a ServiceNow instance for AI applications with Model Context Protocol \(MCP\) servers. MCP servers extend ServiceNow AI Platform functionality into any external MCP client and employee experience over the Model Context Protocol. MCP Server Console is a new application in the Brazil release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/mcp-server-console-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2025-11-04"
-reading_time_minutes: 4
-breadcrumb: [AI Experiences release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow AI Platform administration release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # MCP Server Console release notes
 
-The ServiceNow® MCP Server Console application enables secure and governed access to functionality on a ServiceNow instance for AI applications with Model Context Protocol \(MCP\) servers. MCP servers extend ServiceNow AI Platform® functionality into any external MCP client and employee experience over the Model Context Protocol. MCP Server Console is a new application in the Zurich release.
+The ServiceNow® MCP Server Console application enables secure and governed access to functionality on a ServiceNow instance for AI applications with Model Context Protocol \(MCP\) servers. MCP servers extend ServiceNow AI Platform® functionality into any external MCP client and employee experience over the Model Context Protocol. MCP Server Console is a new application in the Brazil release.
 
 ## About MCP Server Console
 
@@ -37,67 +37,35 @@ See [MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNow
     **Note:** For patch compatibility, see the [Model Context Protocol Server listing](https://store.servicenow.com/store/app/6e521bf447713e9482f632c4f16d434e#versionSummary) in the ServiceNow Store.
 
 
-**Parent Topic:**[AI Experiences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/intelligent-experiences-rn-landing.md)
+**Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-platform-admin-rn-landing.md)
 
-## April 2026
+## Brazil Early Availability 2
 
-The ServiceNow® MCP Server Console application enables secure and governed access to functionality on a ServiceNow instance for AI applications with Model Context Protocol \(MCP\) servers. MCP servers extend ServiceNow AI Platform® functionality into any external MCP client and employee experience over the Model Context Protocol. MCP Server Console is a new application in the Zurich release.
-
-### What's new
-
--   **[Create tools from additional capabilities for use with ServiceNow MCP clients](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/creating-tools-mcp-server.md)**
-
-    With this release, you can now create tools from additional categories like, Knowledge graphs, Subflow, Action, and REST APIs and Now Assist skills.
-
-
-## March 2026
-
-The ServiceNow® MCP Server Console application enables secure and governed access to functionality on a ServiceNow instance for AI applications with Model Context Protocol \(MCP\) servers. MCP servers extend ServiceNow AI Platform® functionality into any external MCP client and employee experience over the Model Context Protocol. MCP Server Console is a new application in the Zurich release.
+The ServiceNow® MCP Server Console application enables secure and governed access to functionality on a ServiceNow instance for AI applications with Model Context Protocol \(MCP\) servers. MCP servers extend ServiceNow AI Platform® functionality into any external MCP client and employee experience over the Model Context Protocol. MCP Server Console is a new application in the Brazil release.
 
 ### What's new
 
--   **[Create tools from additional capabilities for use with ServiceNow MCP clients](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/creating-tools-mcp-server.md)**
+-   ****
 
-    With this release, Moveworks is shipping a Moveworks Quickstart Server. This server allows users to pilot access to upcoming capabilities like Knowledge graph, Subflow, Action, and scripted REST APIs for use with Moveworks MCP client, and ServiceNow Model Context Protocol Client application. These tools can only be added to Moveworks Quickstart Server.
+    Create a tool from a Playbook to expose it to Model Context Protocol \(MCP\) clients from MCP server.
+
+-   ****
+
+    Create a tool from a Search to expose it to Model Context Protocol \(MCP\) clients from MCP server.
 
 
-## Zurich
+## Brazil Early Availability
 
-The ServiceNow® MCP Server Console application enables secure and governed access to functionality on a ServiceNow instance for AI applications with Model Context Protocol \(MCP\) servers. MCP servers extend ServiceNow AI Platform® functionality into any external MCP client and employee experience over the Model Context Protocol. MCP Server Console is a new application in the Zurich release.
+The ServiceNow® MCP Server Console application enables secure and governed access to functionality on a ServiceNow instance for AI applications with Model Context Protocol \(MCP\) servers. MCP servers extend ServiceNow AI Platform® functionality into any external MCP client and employee experience over the Model Context Protocol. MCP Server Console is a new application in the Brazil release.
 
 ### What's new
 
--   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md)**
+-   ****
 
-    The ServiceNow AI Platform now brings you an AI native experience with three licensing tiers available:
+    Explore MCP Server monitoring dashboard to review the performance and usage of the MCP servers and tools in a specific time frame.
 
-    -   Foundation: AI agents and skills to deliver insights
-    -   Advanced: AI agents and skills to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI agents and skills, and create your own
+-   **[Create client authorizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/create-client-authorizations.md)**
 
--   **[Get started with the preconfigured Quickstart Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-mcp-server-console.md)**
-
-    Learn about MCP Server Console and connecting MCP Server Console clients to a ServiceNow instance with the preconfigured Quickstart Server. The Quickstart Server includes tools for looking up and summarizing incident and case records.
-
--   **[Create MCP servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/create-mcp-server.md)**
-
-    Create MCP Server Console servers that expose different tools for different use cases, such as for HR or IT workflows, or for different MCP Server Console clients.
-
--   **Create tools from Now Assist skills**
-
-    Create tools for MCP Server Console servers from Now Assist skills and configure which fields are exposed as tool inputs.
-
--   **[Connect to MCP clients using an OAuth inbound integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/connect-mcp-server-client.md)**
-
-    Create an OAuth inbound integration to use when configuring MCP Server Console clients to connect to an MCP Server Console server.
-
-
-### Plugin information
-
--   **New plugins**
-
-    The following plugins are new in Zurich:
-
-    Model Context Protocol Server \(sn\_mcp\_server\): MCP Server Console enables secure and governed access to functionality on a ServiceNow instance for AI applications with Model Context Protocol \(MCP\) servers.
+    Explore an alternate way of OAth creation with Client Authorization option by integrating OAuth Client registration directly within the MCP Server Console. This feature eliminates the need to switch between different consoles.
 
 

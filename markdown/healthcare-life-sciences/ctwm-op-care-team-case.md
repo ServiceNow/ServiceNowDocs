@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/ctwm-op-care-team-case.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Operational Rounding playbook, Care Team Work Management, Healthcare Operations, Healthcare and Life Sciences]
+breadcrumb: [Operational rounding playbook, Care Team Work Management, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
 # Input Care team case details into the Operational Rounding playbook
@@ -35,5 +35,5 @@ Role required: sn\_hco\_orc.loc\_support\_agent or sn\_hco\_orc.plan author
 
 ## What to do next
 
-[Input Care team task details into the Operational Rounding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/ctwm-op-care-team-task.md)
+[Complete Care team task details in Operational Rounding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/ctwm-op-care-team-task.md)
 

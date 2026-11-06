@@ -7,8 +7,8 @@ release: zurich
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Use generative AI skills, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
@@ -38,15 +38,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 4.  Select one of the following in the **Add resolution notes** window.
 
-<table id="choicetable_tz3_gql_khc"><thead><tr><th align="left" id="d361727e127">
+<table id="choicetable_tz3_gql_khc"><thead><tr><th align="left" id="d367179e127">
 
 Option
 
-</th><th align="left" id="d361727e130">
+</th><th align="left" id="d367179e130">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d361727e136">
+</th></tr></thead><tbody><tr><td id="d367179e136">
 
 **Save notes**
 
@@ -54,7 +54,7 @@ Description
 
 Add resolution notes to the **Close notes** field.**Note:** Review the generated text and make sure it's accurate. You may edit the notes or delete them to provide your own.
 
-</td></tr><tr><td id="d361727e150">
+</td></tr><tr><td id="d367179e150">
 
 **Skip notes**
 
@@ -71,14 +71,14 @@ Skip adding resolution notes to the case.
 
     Resolution notes can be generated from the ServiceNow Otto context menu even when the case isn’t in **Closed Complete** state.
 
-    1.  In the **Close notes** field, select the ServiceNow Otto icon\(\[Omitted image "now-assist-icon.png"\] Alt text: Servicenow Otto icon\).
+    1.  In the **Close notes** field, select the ServiceNow Otto icon\(\[Omitted image "now-assist-icon.png"\] Alt text: Now Assist icon\).
 
     2.  Select **Refine** to elaborate or shorten the text.
 
     3.  Select **Insert** to add the generated content into the **Close notes** field.
 
 
-**Parent Topic:**[Using ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
+**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 **Related topics**  
 
@@ -97,9 +97,9 @@ Skip adding resolution notes to the case.
 
 [Summarize an HR case using ServiceNow Otto for HRSD]()
 
-[Summarize an ER case using ServiceNow Otto for HRSD]()
-
 [Summarize an ER case interview using ServiceNow Otto for HRSD]()
+
+[Summarize an ER case using ServiceNow Otto for HRSD]()
 
 [View employee summary reports]()
 
@@ -114,6 +114,8 @@ Skip adding resolution notes to the case.
 [Submit an HR request with Gen AI Virtual Agent]()
 
 [ServiceNow Otto for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework]()
+
+[Generate activity responses for HR cases]()
 
 [Analyze sentiments in ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 

@@ -1,20 +1,20 @@
 ---
-title: Integrating ESG Management \(formerly ESG\) with Watershed
+title: Integrating Operational Sustainability Management \(formerly ESG\) with Watershed
 description: Watershed is a tool that enables organizations to measure their carbon emissions and renewable energy and its impact. It also enables organizations to act to reduce emissions, and to report on the progress to reduce their carbon footprint.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/integrate-esg-with-watershed.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Integrating ESG Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
-# Integrating ESG Management \(formerly ESG\) with Watershed
+# Integrating Operational Sustainability Management \(formerly ESG\) with Watershed
 
 Watershed is a tool that enables organizations to measure their carbon emissions and renewable energy and its impact. It also enables organizations to act to reduce emissions, and to report on the progress to reduce their carbon footprint.
 
-ESG Management users can use Watershed to calculate their Scope 1, 2, and 3 emissions for their business. A company’s greenhouse gas \(GHG\) emissions are classified into three Scopes. The following table explains the difference between each Scope.
+Operational Sustainability Management users can use Watershed to calculate their Scope 1, 2, and 3 emissions for their business. A company’s greenhouse gas \(GHG\) emissions are classified into three Scopes. The following table explains the difference between each Scope.
 
 <table id="table_cn1_xvk_jtb"><thead><tr><th>
 
@@ -52,7 +52,7 @@ Indirect emissions from the following sources:-   Purchased goods and services
 -   Leased assets and franchises
 
 </td></tr></tbody>
-</table>Watershed maintains its data in spreadsheets and provides those spreadsheets to the ESG Management program manager. As an ESG Management program manager, with the role sn\_esg.program\_manager, you must import the data from the spreadsheets into the source tables in the ESG Management application. The source tables are then specified in the metric definitions in a ServiceNow instance.
+</table>Watershed maintains its data in spreadsheets and provides those spreadsheets to the Operational Sustainability Management program manager. As an Operational Sustainability Management program manager, with the role sn\_esg.program\_manager, you must import the data from the spreadsheets into the source tables in the Operational Sustainability Management application. The source tables are then specified in the metric definitions in a ServiceNow instance.
 
 To use the features of Watershed, you must activate the Operational Sustainability Integration with Watershed plugin and [configure the metric integrations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/configure-metric-integrations.md)
 
@@ -81,12 +81,12 @@ Modify the Operational Sustainability Integration with Watershed configurations 
 Create data mappings to import Watershed data from columns other than the pre-configured columns of the Watershed spreadsheet. By default, data import from three columns is supported.
 -   **[Create a record identifier in an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/create-an-entity-mapping.md)**  
 Create record identifiers with text for correctly mapping the entities. This activity saves time for the ESG program managers by not having to create new entities.
--   **[Load data from Watershed into ESG Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/load-data-from-watershed.md)**  
+-   **[Load data from Watershed into Operational Sustainability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/load-data-from-watershed.md)**  
 Load data from the Watershed spreadsheets into the staging table. After you load the data and complete the setup, you can start using the Operational Sustainability Integration with Watershed.
 -   **[View and verify the import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/view-and-verify-the-import-sets.md)**  
 Verify if your data is imported correctly from an external source. This verification enables you to identify if there were any errors during the data import.
 -   **[Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/create-a-transform-map.md)**  
 Create a transform map to match the columns from the staging table to the columns in the target table. The transformation helps to convert the data from the source table into metric data.
 
-**Parent Topic:**[Integrating ESG Management \(formerly ESG\) with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/integrate-esg.md)
+**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/integrate-esg.md)
 

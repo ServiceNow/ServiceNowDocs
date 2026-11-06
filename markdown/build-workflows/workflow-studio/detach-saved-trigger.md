@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Build triggers, Use, Workflow Studio, Build workflows]
+breadcrumb: [Build triggers, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Detach a saved trigger from a flow
@@ -36,7 +36,7 @@ Role required: trigger\_designer, flow\_designer, or admin
 
 6.  In the **Trigger** drop-down list, select the trigger name.
 
-7.  Select the **Detach saved trigger** icon\[Omitted image "detach-flow-trigger.png"\] Alt text: Detach saved trigger from a flow..
+7.  Select the **Detach saved trigger** icon \[Omitted image "detach-flow-trigger.png"\] Alt text: Detach saved trigger from a flow..
 
 8.  On the confirmation window, select **Detach**.
 

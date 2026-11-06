@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/run-assignments.html
 release: zurich
 topic_type: task
-last_updated: "2025-10-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Sales Territory Management, Lead and opportunity management apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Sales Territory Management, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Run Assignments
@@ -36,8 +36,17 @@ Role required: sales territory admin
     -   Account \(customer\_account\)
 4.  Select **Run Assignment Rules**.
 
+    **Note:** After an account is created, the assignment algorithm runs automatically and assigns the relevant territories to that account.
+
 
 ## Result
 
 Sales Territory Management is assigned in the CRM entities. All the Sales Territory admins will receive an email notification when the job is completed. The selected sources entities are assigned to a territory if they fulfill the territory conditions.
+
+**Related topics**  
+
+
+[Using Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/use-sales-territory-management.md)
+
+[Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-sales-territory-management.md)
 

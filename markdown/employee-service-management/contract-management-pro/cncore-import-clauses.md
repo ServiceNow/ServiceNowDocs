@@ -7,7 +7,7 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create contract template by manually adding content controls, Configure contract templates, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -38,15 +38,15 @@ For more information on clause variations, see [Create a clause variation](https
 
 4.  Either update an existing clause variation with the content available in the imported clause or create a new clause or clause variation with that content.
 
-<table id="choicetable_j14_bd2_2yb"><thead><tr><th align="left" id="d366782e116">
+<table id="choicetable_j14_bd2_2yb"><thead><tr><th align="left" id="d372182e116">
 
 Usage of the imported clause data
 
-</th><th align="left" id="d366782e119">
+</th><th align="left" id="d372182e119">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d366782e125">
+</th></tr></thead><tbody><tr><td id="d372182e125">
 
 **Do not update any of the existing clause or clause variation**
 
@@ -57,7 +57,7 @@ Steps
 3.  In the **Mapping clause** field, select an active clause from the clause library.
 
 
-</td></tr><tr><td id="d366782e155">
+</td></tr><tr><td id="d372182e155">
 
 **Create a new clause and its clause variation**
 
@@ -68,7 +68,7 @@ Steps
 3.  In the **Mapping clause** field, do not take any action.
 
 
-</td></tr><tr><td id="d366782e185">
+</td></tr><tr><td id="d372182e185">
 
 **Create a new clause variation**
 

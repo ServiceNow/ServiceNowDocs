@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-17"
 reading_time_minutes: 2
 keywords: [business application, AI system, relationships]
-breadcrumb: [Managing AI asset details, Working with AI asset records, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Managing AI asset details, Working with AI asset records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Associate a business application with an AI system

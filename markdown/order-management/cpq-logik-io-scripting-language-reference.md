@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/cpq-logik-io-scripting-language-reference.html
 release: zurich
 topic_type: reference
-last_updated: "2025-10-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Setting up enrichments and rules scripting, ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Setting up enrichments and rules scripting, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # ServiceNow CPQ scripting language reference
@@ -195,7 +195,7 @@ The following returns a Boolean value indicating whether an input is a number: `
 
 ## Accessing object properties
 
-You can access the properties of objects such as `cfg`, `cfgRequest`, and `ProductList` in two ways.
+You can access the properties of map objects such as `cfgRequest` in two ways.
 
 ```
 objectName.propertyName
@@ -318,6 +318,8 @@ else{
   }
 } 
 ```
+
+If your instance of ServiceNow CPQ needs functionality not described here, contact support@logik.io with your use case.
 
 **Related topics**  
 

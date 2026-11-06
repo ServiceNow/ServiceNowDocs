@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/create-collaboration-thread-crisis-event-form.html
 release: zurich
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a collaboration thread in a crisis event, Creating collaboration threads in exercises and crisis events, Structured workflows for crisis events, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---

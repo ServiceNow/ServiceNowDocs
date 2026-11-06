@@ -71,8 +71,3 @@ Integrating AI exposure remediation with Employee Center provides several advant
 -   Provides asset owners with visibility into security issues affecting their AI assets
 -   Streamlines the remediation process through a simplified task interface that does not require specialized security expertise
 
--   **[Resolve tasks for AI assets in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/ai-security-exposure-management-employee-task.md)**  
-Resolve the finding or request an exception from Employee Center AI posture findings.
-
-**Parent Topic:**[Exploring AI Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/exploring-ai-security-exposure.md)
-

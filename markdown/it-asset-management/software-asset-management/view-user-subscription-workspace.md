@@ -7,9 +7,9 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management]
+breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create user subscriptions in the workspace
@@ -30,15 +30,15 @@ If you’re using Software Asset Workspace, the option to create user subscripti
 
 1.  Navigate to the Create New Software Subscription form.
 
-<table id="choicetable_sw5_ydb_ddc"><thead><tr><th align="left" id="d99983e77">
+<table id="choicetable_sw5_ydb_ddc"><thead><tr><th align="left" id="d105456e77">
 
 Interface
 
-</th><th align="left" id="d99983e80">
+</th><th align="left" id="d105456e80">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d99983e86">
+</th></tr></thead><tbody><tr><td id="d105456e86">
 
 **Core UI**
 
@@ -46,7 +46,7 @@ Action
 
 Navigate to **All** &gt; **Software Asset** &gt; **Software Subscriptions**.
 
-</td></tr><tr><td id="d99983e108">
+</td></tr><tr><td id="d105456e108">
 
 **Software Asset Workspace**
 
@@ -71,7 +71,7 @@ Navigate to **All** &gt; **Software Asset** &gt; **Software Subscriptions**.
 **Related topics**  
 
 
-[Software models and Software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-models-and-entitlements.md)
+[Software models and software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-models-and-entitlements.md)
 
 [Create a software model in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/create-swmodels-workspace.md)
 

@@ -7,8 +7,8 @@ release: zurich
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Service Graph Connector Integration for Claroty CTD, Integrate, Operational Technology Manager, Operational Technology]
 ---
 

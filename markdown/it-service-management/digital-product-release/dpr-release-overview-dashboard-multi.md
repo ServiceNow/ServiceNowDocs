@@ -1,20 +1,20 @@
 ---
 title: Release Overview dashboard for a multi-product release
-description: The Release overview dashboard provides an overview of all the information about an individual product's release in a multi-product release, which the product team can use to assess its readiness.
+description: The Release overview dashboard displays key metrics and status information for a product release within a multi-product release, enabling product teams to assess readiness.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-product-release/dpr-release-overview-dashboard-multi.html
 release: zurich
 product: Digital Product Release
 classification: digital-product-release
 topic_type: concept
-last_updated: "2025-12-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Release dashboards, Explore, Digital Product Release, IT Service Management]
 ---
 
 # Release Overview dashboard for a multi-product release
 
-The Release overview dashboard provides an overview of all the information about an individual product's release in a multi-product release, which the product team can use to assess its readiness.
+The Release overview dashboard displays key metrics and status information for a product release within a multi-product release, enabling product teams to assess readiness.
 
 \[Omitted image "dpr-release-overview-multi.png"\] Alt text: Release Overview dashboard provides high-level information about a single product or service release and its progress.
 
@@ -62,6 +62,22 @@ Number of change requests in the release, grouped by their state.
 
 </td></tr><tr><td>
 
+Policies
+
+</td><td>
+
+Number of policies for the selected product release, grouped by their run status.
+
+</td></tr><tr><td>
+
+Approvals
+
+</td><td>
+
+Number of approval tasks for the selected product release, grouped by their state.
+
+</td></tr><tr><td>
+
 Enhancements
 
 </td><td>
@@ -84,24 +100,10 @@ Related tasks
 
 Number of related tasks \(incidents, problems\) linked to the release, grouped by their type, and stacked by their state.
 
-</td></tr><tr><td>
-
-Policies
-
-</td><td>
-
-List of all policies, grouped by the phases they’re mapped to.
-
-</td></tr><tr><td>
-
-Approvals
-
-</td><td>
-
-List of all approval tasks, grouped by their approval status.
-
 </td></tr></tbody>
-</table>**Parent Topic:**[Digital Product Release dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-dashboard-release.md)
+</table>**Note:** Counts and charts reflect only tasks, policies, approvals, and other items mapped to active phases. Items associated with a cancelled or superseded phase \(for example, after a phase restart\) aren't included.
+
+**Parent Topic:**[Digital Product Release dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-dashboard-release.md)
 
 **Related topics**  
 

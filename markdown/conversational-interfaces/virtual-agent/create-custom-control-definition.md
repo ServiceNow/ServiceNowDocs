@@ -7,10 +7,10 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-10-24"
 reading_time_minutes: 1
 keywords: [Create, Virtual agent, custom control definition, Conversational Interfaces]
-breadcrumb: [Customizing Virtual Agent with custom controls, Exploring other Virtual Agent features, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Use custom controls, Other Virtual Agent features, Build conversations, Virtual Agent, Conversational Interfaces]
 ---
 
 # Create a custom control definition
@@ -84,7 +84,7 @@ Field
 
 </th><th>
 
-Descrlption
+Description
 
 </th></tr></thead><tbody><tr><td>
 
@@ -128,9 +128,9 @@ Domain where this control is used.
 
 ## Result
 
-The custom control definition is available for use. You can specify it when you create the appropriate control in Assistant Designer Asset library.
+The custom control definition is available for use. You can specify it when you create the appropriate control in Assistant Designer.
 
 ## What to do next
 
-[Create the custom control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-custom-control.md) in Assistant Designer Asset library.
+[Create the custom control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-custom-control.md) in Assistant Designer.
 

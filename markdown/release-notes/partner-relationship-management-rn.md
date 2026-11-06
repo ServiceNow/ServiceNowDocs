@@ -1,105 +1,53 @@
 ---
 title: Partner Relationship Management release notes
-description: The ServiceNow Partner Relationship Management application provides a unified workspace for sales, delivery, marketing, and operations to help you manage the entire partner life cycle. Partner Relationship Management is a new application in the Zurich release.The ServiceNow Partner Relationship Management application provides a unified workspace for sales, delivery, marketing, and operations to help you manage the entire partner life cycle. Partner Relationship Management is a new application in the Zurich release.The ServiceNow Partner Relationship Management application provides a unified workspace for sales, delivery, marketing, and operations to help you manage the entire partner life cycle. Partner Relationship Management is a new application in the Zurich release.The ServiceNow Partner Relationship Management application provides a unified workspace for sales, delivery, marketing, and operations to help you manage the entire partner life cycle. Partner Relationship Management is a new application in the Zurich release.The ServiceNow Partner Relationship Management application provides a unified workspace for sales, delivery, marketing, and operations to help you manage the entire partner life cycle. Partner Relationship Management is a new application in the Zurich release.
+description: The ServiceNow Partner Relationship Management application provides a unified solution for sales, delivery, marketing, and operations to manage the entire partner life cycle. See the following sections for release notes by version.Streamline deal registration with a natural language AI agent that assists users in capturing deal details, validating information, and creating deal records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/partner-relationship-management-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Sales Customer Relationship Management release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+keywords: [partner relationship management, PRM, partner portal, deal registration, partner life cycle, partner relationship management, deal registration, AI agent, agentic AI]
+breadcrumb: [Sales Customer Relationship Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Partner Relationship Management release notes
 
-The ServiceNow® Partner Relationship Management application provides a unified workspace for sales, delivery, marketing, and operations to help you manage the entire partner life cycle. Partner Relationship Management is a new application in the Zurich release.
+The ServiceNow® Partner Relationship Management application provides a unified solution for sales, delivery, marketing, and operations to manage the entire partner life cycle. See the following sections for release notes by version.
 
 ## About Partner Relationship Management
 
-Use the CRM Workspace to enable your enterprise administrators to view all the details that are related to their partners.
+-   Submit and track cases through the Partner Portal to reduce resolution time and improve collaboration between partners and enterprises.
+-   Manage partner life cycle activities and collaboration through a single platform.
+-   Register and track partner-sourced deals in a unified system to help avoid conflicts and provide proper recognition.
+-   Provide partners with role-based access to case management, knowledge articles, and program visibility to reduce manual escalations and enable faster independent problem resolution.
+-   View partner engagement, performance, and participation through partner overview for enterprise roles.
 
 See [Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/partner-relationship-management.md) for more information.
 
 ## Activation and other requirements
 
-**Important:** Partner Relationship Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
-
 -   **Activation information**
 
-    Install Partner Relationship Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Install Partner Relationship Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html). Partner Relationship Management is available with activation of the Partner Relationship Management plugin. For details, see [Install Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/install-partner-relationship-management.md).
 
 
 **Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/sales-order-management-rn-landing.md)
 
-## January 2026
+## Version 11.0.2
 
-The ServiceNow® Partner Relationship Management application provides a unified workspace for sales, delivery, marketing, and operations to help you manage the entire partner life cycle. Partner Relationship Management is a new application in the Zurich release.
-
-### What's new
-
--   ****
-
-    Install the Quote Management for Channel Partners \(com.snc.partner\_relationship\_management\_qm\) plugin to enable channel partners, B2B and B2C sales representatives, and managers to create, read, update, and track quotes associated with channel partners.
-
-
--   ****
-
-    Install the Order Management for Channel Partners plugin \(com.snc.partner\_relationship\_management\_orm\) to facilitate the entire order life cycle, especially indirect sales and enable channel partners to track orders with channel partners.
-
-
-## December 2025
-
-The ServiceNow® Partner Relationship Management application provides a unified workspace for sales, delivery, marketing, and operations to help you manage the entire partner life cycle. Partner Relationship Management is a new application in the Zurich release.
+Streamline deal registration with a natural language AI agent that assists users in capturing deal details, validating information, and creating deal records.
 
 ### What's new
 
--   ****
+-   **Deal Registration AI agent**
 
-    Use the segment \[sn\_seg\_segment\] table to create records, track partner progress toward the next tier, and group partners effectively based on performance into multiple segments for tailored support, incentives, and visibility.
+    Accelerate deal registration with an AI agent that assists users with deal intake, validation, and record creation. This helps reduce manual effort by guiding users through the deal registration process and supporting more accurate deal submissions.
 
--   ****
+    The agent captures deal details, validates records, summarizes information for review, and creates the deal. If validation fails or additional information is needed, the agent suggests corrective actions.
 
-    Provide channel partners with exclusive rights to work on a particular deal registration or customer for a period of time.
+-   **[Channel Partner components on workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/channel-partner-components.md)Partner criteria for deals**
 
-    Use the configurable deal registration form to track deal registrations, information related to it, and successfully convert deal registrations to opportunities.
-
-    Use the deal registration playbook on the Partner portal to provide channel partners the flexibility to create new deal registrations and track their end to end life cycle.
-
-
-### What's changed
-
--   ****
-
-    Create and update deal registrations on the Partner portal to enable enterprise agents to convert them into an opportunity.
-
-
-## Zurich Early Availability
-
-The ServiceNow® Partner Relationship Management application provides a unified workspace for sales, delivery, marketing, and operations to help you manage the entire partner life cycle. Partner Relationship Management is a new application in the Zurich release.
-
-### What's new
-
--   **[Data model for Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/data-model-for-partner-relationship-management.md)**
-
-    Enable a user with the sn\_prm.enterprise\_partner\_admin role to map the fields on the channel partner record to their corresponding fields on the company record.
-
--   **[Partner Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/partner-workspace.md)**
-
-    Manage and view the partner details via the Partner workspace if you have the sn\_prm.enterprise\_partner\_admin role or the sn\_prm.enterprise\_partner\_rel\_manager role.
-
--   **[Partner Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/partner-workspace.md)**
-
-    Enable a user with the sn\_prm.enterprise\_partner\_rel\_manager role to manage cases, orders, sold products, and install bases by using the **Partner Overview** tab in the CRM Workspace.
-
-
-## Zurich
-
-The ServiceNow® Partner Relationship Management application provides a unified workspace for sales, delivery, marketing, and operations to help you manage the entire partner life cycle. Partner Relationship Management is a new application in the Zurich release.
-
-### What's changed
-
--   **[Partner portal experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/using-partner-relationship-management.md)**
-
-    The new Partner portal landing page provides a new look and navigation to raise inquiries or register members.
+    Added filtering rules to control partner access to accounts and consumers when creating deals. These rules help verify partners select only relevant records, reducing errors and supporting cleaner transaction creation.
 
 

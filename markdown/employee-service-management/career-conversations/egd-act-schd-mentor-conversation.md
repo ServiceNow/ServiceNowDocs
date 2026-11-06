@@ -7,9 +7,9 @@ release: zurich
 product: Career Conversations
 classification: career-conversations
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use, Career Conversations, Growth Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using the Career Conversations application, Career Conversations, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Schedule a mentoring conversation in Career Conversations

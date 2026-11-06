@@ -7,9 +7,9 @@ release: zurich
 product: Usage Insights
 classification: usage-insights
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Usage Insights, Platform Analytics]
+breadcrumb: [Configuring Usage Insights, Usage Insights, Platform Analytics]
 ---
 
 # Add user properties as filters to Usage Insights

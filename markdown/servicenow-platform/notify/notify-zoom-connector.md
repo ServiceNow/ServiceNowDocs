@@ -7,9 +7,9 @@ release: zurich
 product: Notify
 classification: notify
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Exploring Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Notify Zoom connector

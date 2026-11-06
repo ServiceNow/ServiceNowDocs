@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Token based authentication \(User logins\), Access Management]
+breadcrumb: [Token based authentication \(user logins\), Authentication, Access Management]
 ---
 
 # Time limited authentication
@@ -30,7 +30,7 @@ Support time limited authentication for your ServiceNow instance.
 
 </td></tr><tr><td>
 
-[Tutorial: Time limited authentication\[Omitted image "icon-reference.png"\] Alt text: Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/time-based-authentication-with-mfa.md)
+[Tutorial: Time limited authentication\[Omitted image "bus-learn.svg"\] Alt text: Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/time-based-authentication-with-mfa.md)
 
  [Know about the properties in Zero Trust Access.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/time-based-authentication-with-mfa.md)
 

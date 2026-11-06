@@ -7,8 +7,8 @@ release: zurich
 product: Talent Development Core
 classification: talent-development-core
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
@@ -28,28 +28,28 @@ Helps employees identify growth and development areas, create a plan, and track 
 
 </td><td>
 
-[Administer\[Omitted image "icon-managing.png"\] Alt text:Administrators maintain the Talent app and related features over time as the organization grows and evolves.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-administration.md)
+[Administer\[Omitted image "bus-management-console.svg"\] Alt text:Administrators maintain the Talent app and related features over time as the organization grows and evolves.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-administration.md)
 
 </td></tr><tr><td>
 
-[Using \[Omitted image "icon-collaboration-02.png"\] Alt text:From the ServiceNow® Employee Center, managers and employees work with the Talent app and related features on career growth and development.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-use.md)
+[Using \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:From the ServiceNow® Employee Center, managers and employees work with the Talent app and related features on career growth and development.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-use.md)
 
 </td><td>
 
-[Integration \[Omitted image "icon-integrate.png"\] Alt text:Integrate with different applications to expand the capabilities and effectiveness of the Talent app.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-integrations.md)
+[Integration \[Omitted image "bus-integration-and-apis.svg"\] Alt text:Integrate with different applications to expand the capabilities and effectiveness of the Talent app.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-integrations.md)
 
 </td><td>
 
-[Reference \[Omitted image "icon-reference.png"\] Alt text: Reference information provides important details related to how the Talent Development Core app works.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Reference information provides important details related to how the Talent Development Core app works.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-reference.md)
 
 </td></tr></tbody>
 </table>## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Additional resources
 
--   Learn more about what's new and changed, see the .
+-   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/hr-service-delivery-landing.md).
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).

@@ -7,10 +7,10 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-06-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [enable running process-based discovery, file-based discovery, FBD, process scan, system property]
-breadcrumb: [Running process-based discovery, Agent Client Collector File-Based Discovery, ACC deployment - endpoints, Agent Client Collector, IT Operations Management]
+breadcrumb: [Running process-based discovery, ACC File-Based Discovery, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Enable running process-based discovery
@@ -49,4 +49,6 @@ The associated agent policy activates during the next agent synchronization. Fro
 For Linux and macOS hosts, complete the privilege configuration to obtain full coverage across all users. For details, see [Platform coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/running-process-based-discovery-platform-coverage-properties.md).
 
 To exclude specific directories from running process-based discovery, see [Exclude directories from running process-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/exclude-directories-running-process-based-discovery.md).
+
+**Parent Topic:**[Running process-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/running-process-based-discovery.md)
 

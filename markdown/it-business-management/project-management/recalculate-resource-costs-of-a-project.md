@@ -1,20 +1,20 @@
 ---
 title: Recalculating costs of all resource plans in a project
-description: Recalculate the resource costs of all resource plans in a project whenever the hourly rates change in the associated rate model . This keeps the plan costs up to date.
+description: Recalculate resource costs for all resource plans in a project when hourly rates change in the associated rate model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-management/recalculate-resource-costs-of-a-project.html
 release: zurich
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-08"
 reading_time_minutes: 5
-breadcrumb: [Starting a project, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Recalculating costs of all resource plans in a project
 
-Recalculate the resource costs of all resource plans in a project whenever the hourly rates change in the associated rate model . This keeps the plan costs up to date.
+Recalculate resource costs for all resource plans in a project when hourly rates change in the associated rate model.
 
 ## Before you begin
 
@@ -120,6 +120,10 @@ Option for including the planned cost of a Confirmed or Allocated plan.The optio
 [Create an expense line]()
 
 [Create and manage waterfall projects]()
+
+[Schedule a project from a start date]()
+
+[Apply or change a task constraint]()
 
 [Update a project]()
 

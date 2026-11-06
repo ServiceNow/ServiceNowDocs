@@ -7,7 +7,7 @@ release: zurich
 product: Service Catalog
 classification: service-catalog
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [generative AI, AI Authoring for Catalog Builder]
 breadcrumb: [Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
@@ -21,7 +21,7 @@ Use AI Authoring for Catalog Builder to create catalog items of your choice by g
 
 <table id="table_dch_f2f_cbc" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about catalog generation by ServiceNow Otto.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/explore-now-assist-for-catalog-generate.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about catalog generation with AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/explore-now-assist-for-catalog-generate.md)
 
 </td><td>
 
@@ -29,7 +29,7 @@ Use AI Authoring for Catalog Builder to create catalog items of your choice by g
 
 </td></tr><tr><td>
 
-[Generate\[Omitted image "bus-start-developing.svg"\] Alt text:Learn how to create a catalog item using ServiceNow Otto.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/create-catalog-item-using-now-assist.md)
+[Generate\[Omitted image "bus-start-developing.svg"\] Alt text:Learn how to create a catalog item using AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/create-catalog-item-using-now-assist.md)
 
 </td><td>
 
@@ -57,14 +57,16 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
+For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-products.md).
+
 -   **[Exploring AI Authoring for Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/explore-now-assist-for-catalog-generate.md)**  
-Learn how the AI Authoring for Catalog Builder application helps you to create catalog items by simply describing them. ServiceNow Otto generates catalog items with more detailed descriptions and question labels.
+Learn how the AI Authoring for Catalog Builder application helps you to create catalog items by simply describing them. AI generates catalog items with more detailed descriptions and question labels.
 -   **[Install AI Authoring for Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/install-now-assist-catalog-generation.md)**  
 Install the ServiceNow Otto for Creator application from the ServiceNow® Store to get AI Authoring for Catalog Builder.
--   **[Configuring ServiceNow Otto in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/configuring-catalog-item-generation.md)**  
-Install and configure ServiceNow Otto in Catalog Builder.
--   **[Using ServiceNow Otto conversation to create and edit catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/use-now-assist-conversation-to-create-and-edit-catalog-items.md)**  
-ServiceNow Otto provides a conversational interface that enables you to create catalog items, making these items available in the Service Catalog for users to request.
+-   **[Configuring AI in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/configuring-catalog-item-generation.md)**  
+Install and configure AI in Catalog Builder.
+-   **[Using AI conversation to create and edit catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/use-now-assist-conversation-to-create-and-edit-catalog-items.md)**  
+AI provides a conversational interface that enables you to create catalog items, making these items available in the Service Catalog for users to request.
 -   **[AI Authoring for Catalog Builder reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/catalog-item-generation-reference.md)**  
 Reference topics provide additional information about configuration properties, roles, and more.
 

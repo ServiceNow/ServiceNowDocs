@@ -1,5 +1,5 @@
 ---
-title: Enforce HTML Sanitization \[Updated in Security Center 1.3\]
+title: Enforce HTML sanitization
 description: Use the com.glide.security.check\_unsanitized\_html property to enforce sanitization behavior of translated\_html fields on a global level for field assignments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-check-unsanitized-html.html
@@ -7,37 +7,113 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
 
-# Enforce HTML Sanitization \[Updated in Security Center 1.3\]
+# Enforce HTML sanitization
 
 Use the **com.glide.security.check\_unsanitized\_html** property to enforce sanitization behavior of translated\_html fields on a global level for field assignments.
 
-HTML is one of the types that can be assigned to the dictionary fields. Assigning HTML fields to any field type provides the functionality to format content using HTML tags \(for example, `<p>`, `<a href>`, `<b>`, `<font>`, `<img>`\). To prevent malicious activity, certain HTML tags can be disallowed using a block list. This property will prevent disallowed tags from being used in translated\_html fields on your instance.
+The **com.glide.security.check\_unsanitized\_html** system property enforces sanitization behavior of translated\_html fields on a global level for field assignments.
 
--   Set this property to **enforce** to enforce sanitization behavior of translated\_html fields.
--   Set property to **disable** to turn off the html sanitization to allow blocked html tags on translated\_html fields.
+Ensure that the property **com.glide.security.check\_unsanitized\_html** is set to `enforce`.
 
 **Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It is non-revertible.
 
 ## More information
 
-|Attribute|Description|
-|---------|-----------|
-|Property name|**com.glide.security.check\_unsanitized\_html**|
-|Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)|
-|Purpose|Prevents the use of insecure HTML tags to protect against attacks such as cross-site scripting.|
-|Type|String|
-|Recommended value|enforce|
-|Default value|enforce|
-|Security risk rating|7.3|
-|Functional impact|This remediation enforces HTML sanitization to occur on the UI and renders translated html fields to the user. It can have an impact on readability and formatting.|
-|Security risk|\(High\) Input validation must occur on the application to defend against cross-site scripting attacks. These attacks enable foreign scripts to execute on user sessions in the logged in browser's context. Attackers can use it to steal session information and sensitive data.|
-|References|[HTML sanitizer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/c_HTMLSanitizer.md)|
+<table id="table_ajc_b43_3kb"><thead><tr><th>
 
-**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
+Attribute
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Configuration name
+
+</td><td>
+
+**com.glide.security.check\_unsanitized\_html**
+
+</td></tr><tr><td>
+
+Configuration type
+
+</td><td>
+
+System Properties \(/sys\_properties\_list.do\)
+
+</td></tr><tr><td>
+
+Data type
+
+</td><td>
+
+String
+
+</td></tr><tr><td>
+
+Recommended value
+
+</td><td>
+
+enforce
+
+</td></tr><tr><td>
+
+Default value
+
+</td><td>
+
+enforce
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+log\_only
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
+
+</td></tr><tr><td>
+
+Security risk
+
+</td><td>
+
+-   Severity score: 7.3
+-   CVSS rating: High
+-   Security risk details: An attacker could be able to execute arbitrary javascript in the victim's browser \(XSS attacks\).
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+Dependencies and prerequisites
+
+</td><td>
+
+None
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

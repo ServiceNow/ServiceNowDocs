@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/assign-csm-roles.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [User management, Set up your environment, Configure, Customer Service Management]
 ---
@@ -16,7 +16,7 @@ Roles control access to features, capabilities, and data in the Customer Service
 
 ## Before you begin
 
-Role required: admin
+Role required: import\_admin, user\_admin, and sn\_crm\_foundation\_admin
 
 Before you can assign roles to your users, make sure that these users have already been configured.
 
@@ -38,7 +38,7 @@ Internal Roles
 
 External Roles
 
-</th></tr></thead><tbody><tr><td>
+</th></tr></thead><tbody><tr><td rowspan="2">
 
 **Business-to-business \(B2B\)** -   sn\_customerservice\_agent
 -   sn\_customerservice\_manager
@@ -51,21 +51,23 @@ External Roles
 
 </td></tr><tr><td>
 
-**Business-to-consumer \(B2C\)** -   sn\_customerservice.consumer\_agent
--   sn\_customerservice\_manager
-
-</td><td>
-
 **Business-to-business \(B2B\) Partner** -   sn\_customerservice.partner
 -   sn\_customerservice.partner\_admin
 
-</td></tr><tr><td>
+</td></tr><tr><td rowspan="2">
 
- 
+**Business-to-consumer \(B2C\)** -   sn\_customerservice.consumer\_agent
+-   sn\_customerservice\_manager
+
+**Note:** Assigning a consumer role without a linked consumer record prevents the user from performing consumer activities. You can create the consumer record by navigating to **All** &gt; **Customer Service** &gt; **Customer** &gt; **Consumers** before assigning the role.
 
 </td><td>
 
 **Business-to-consumer \(B2C\)** sn\_customerservice.consumer
+
+</td></tr><tr><td>
+
+**Unified Consumer**sn\_customerservice.unified\_consumer
 
 </td></tr></tbody>
 </table>## Procedure

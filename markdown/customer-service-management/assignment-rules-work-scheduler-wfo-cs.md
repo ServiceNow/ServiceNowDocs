@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/assignment-rules-work-scheduler-wfo-cs.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Assigning work using Work Scheduler, Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [Assigning work using Work Scheduler, Workforce Optimization for Cus
 Add a criteria for a matching rule to enable assignment of work items to team members based on the rule.
 
 ## Before you begin
+
+**Important:**
+
+Starting with the Brazil release, Work scheduler is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Role required: admin
 

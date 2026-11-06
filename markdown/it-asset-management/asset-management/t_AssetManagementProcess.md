@@ -7,9 +7,9 @@ release: zurich
 product: Asset Management
 classification: asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, Asset Management, IT Asset Management]
+breadcrumb: [Explore, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Example Asset Management process
@@ -48,4 +48,6 @@ These steps are one possible process for getting started with Asset Management.
 
 6.  Manage assets by counting software licenses, viewing assets that are in stock, setting asset states and substates, and analyzing unallocated software.
 
+
+**Parent Topic:**[Exploring Asset Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/exploring-asset-management.md)
 

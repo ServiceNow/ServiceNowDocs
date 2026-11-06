@@ -7,7 +7,7 @@ release: zurich
 product: Benchmarks for Strategic Portfolio Management
 classification: benchmarks-for-strategic-portfolio-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring SPM Benchmarks, SPM Benchmarks, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ As an admin, you can install the SPM Benchmarks application \(sn\_spm\_bm\) from
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [SPM Benchmarking](https://store.servicenow.com/sn_appstore_store.do#!/store/application/0dea03fbfdb81110fa9b3913e759b382) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 Role required: admin

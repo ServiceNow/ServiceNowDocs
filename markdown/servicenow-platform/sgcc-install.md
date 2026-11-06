@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/sgcc-install.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring SGC Central, SGC Central, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ You can install the SGC Central application \(sn\_sgc\_central\) if you have the
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [SGC Central](https://store.servicenow.com/sn_appstore_store.do#!/store/application/0327142c93def150b7b532bb5cba10db) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 -   Review the supported CMDB Workspace versions for the corresponding ServiceNow versions as listed in the following table.
 

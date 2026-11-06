@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/logik\_salesforce\_cpq\_request\_for\_quote\_api.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [API overview and resources, ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [API overview and resources, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # The RFQ \(Request for Quote\) API
@@ -35,7 +35,7 @@ This API is exposed as an Apex Rest Service in the Salesforce org with a path of
 
 This API is exposed in the Salesforce org and requires authorization with Salesforce to be accessed and called. See [Salesforce Help on Authorization options for making API calls](https://help.salesforce.com/s/articleView?id=sf.remoteaccess_oauth_flows.htm&type=5). This API can also be tested using the [Salesforce Workbench Application](https://workbench.developerforce.com/).
 
-In ServiceNow CPQ, the only step is to ensure that in Admin settings, **Push BOM Data to Logik Salesforce Object** is enabled. ServiceNow CPQ uses the data stored in the Configuration Line Items \(LGK\_\_ConfigurationLineItem\_\_c\) to create any additional sales BOM lines on the quote and write the BOM Data field on the quote line.
+In ServiceNow CPQ, the only step is to ensure that in Admin settings, **Push BOM Data to ServiceNow CPQ Salesforce Object** is enabled. ServiceNow CPQ uses the data stored in the Configuration Line Items \(LGK\_\_ConfigurationLineItem\_\_c\) to create any additional sales BOM lines on the quote and write the BOM Data field on the quote line.
 
 **Note:** The API will also respect normal Salesforce user access levels, so if the authenticated Salesforce user \(or a partner site itself, via sharing settings\) does not have certain object or field level access, the API call may fail or not behave as expected. The user calling the API needs access to the standard Salesforce CPQ and related objects as well as the ServiceNow CPQ Configuration Line Item object and its fields.
 
@@ -265,7 +265,7 @@ Sample response body:
 }
 ```
 
-[Logik Salesforce CPQ Extension APIs Postman Collection](https://drive.google.com/file/d/1Slr7O1QIzfpAat-16x-vkuGeshzLv3Kw/view?usp=share_link):
+[Salesforce CPQ Extension APIs Postman Collection](https://drive.google.com/file/d/1Slr7O1QIzfpAat-16x-vkuGeshzLv3Kw/view?usp=share_link):
 
 ```
 {

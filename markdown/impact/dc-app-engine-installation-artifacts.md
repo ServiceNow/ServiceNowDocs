@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/dc-app-engine-installation-artifacts.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Impact Value Management Data Collection Content Pack for App Engine, Impact Value Management data collection apps, Configuring Impact, Impact]
+breadcrumb: [Impact Value Management Data Collection Content Pack for App Engine, Enable data collection for Value Management, Guided Setup \(Legacy\), Configuring Impact, Impact]
 ---
 
 # Review App Engine artifacts
@@ -43,4 +43,6 @@ The app contains the following artifacts for each of the above-specified artifac
 |Manual|Impact VM - Avg. time for application delivery \(IT\): idea to prod \(Weeks\)|
 |Manual|Impact VM - Avg. time for application delivery \(LOB\): idea to prod \(Weeks\)|
 |Manual|Impact VM - Former LCAP systems run-rate|
+
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-app-engine.md)
 

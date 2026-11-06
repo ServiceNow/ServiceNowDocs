@@ -7,7 +7,7 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a status report in Project Workspace, Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -22,7 +22,7 @@ Role required: it\_pps\_admin, it\_project\_manager
 
 ## About this task
 
-By default, the status report is read-only and the **sn\_pw.status\_report\_doc\_read\_only** system property is set to true. To edit the status report, you can disable this system property by setting it to false. Once you change the property to false, you can edit or update the report. You can also navigate to the Details page and set **Allow edit status report** field to true.
+By default, the status report is read-only and the **sn\_pw.status\_report\_doc\_read\_only** system property is set to true. To edit the status report, you can disable this system property by setting it to false. After you change the property to false, you can edit or update the report. You can also navigate to the Details page and set **Allow edit status report** field to true.
 
 Any updates made on the status report form are reflected in the status report, regardless of whether the property is set to true or false.
 
@@ -36,7 +36,7 @@ Any updates made on the status report form are reflected in the status report, r
 
 3.  From the Pages section, select the name of the status report you want to update.
 
-4.  Select the **More actions** icon and select **Edit status report** to edit the status report.
+4.  Select the me of the stat icon and select **Edit status report** to edit the status report.
 
     -   When editing is disabled, all fields in the status report are read-only.
     -   When editing is enabled, only dynamic fields in the status report remain read-only and you can add any static or manual information in the report.

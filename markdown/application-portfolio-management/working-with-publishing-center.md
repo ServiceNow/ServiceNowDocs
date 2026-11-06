@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/working-with-publishing-center.html
 release: zurich
 topic_type: concept
-last_updated: "2026-02-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Working with the publishing center
@@ -48,10 +48,10 @@ Republish a TRM catalog to apply the latest TRM updates to the published knowled
 View publishing run logs to monitor publishing activity and review the publishing history for a TRM catalog.
 -   **[Access the published TRM catalog knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/access-the-published-kb.md)**  
 Access the published TRM catalog to view approved technology standards and lifecycle information in the knowledge base.
--   **[Publishing results and knowledge base output](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/understand-publishing-output.md)**  
+-   **[Understanding the publishing results and knowledge base output](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/understand-publishing-output.md)**  
 Understand what happens after you publish or republish a TRM catalog and how to interpret the results in the Publishing Center and the knowledge base.
 -   **[AI Search on the TRM catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/ai-search-trm-cat.md)**  
-Use the ServiceNow Otto panel to search published Technology Reference Model \(TRM\) catalog records using natural language queries.
+Use the Now Assist panel to search published Technology Reference Model \(TRM\) catalog records using natural language queries.
 -   **[Retire or archive a published TRM catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/retire-archive-pub-trm-cat.md)**  
 Use the Knowledge Base management controls to retire or archive the content generated from a published Technology Reference Model \(TRM\) catalog.
 
@@ -68,7 +68,7 @@ Use the Knowledge Base management controls to retire or archive the content gene
 
 [Access the published TRM catalog knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/access-the-published-kb.md)
 
-[Publishing results and knowledge base output](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/understand-publishing-output.md)
+[Understanding the publishing results and knowledge base output](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/understand-publishing-output.md)
 
 [Technology Reference Model in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-managing-the-technology-portfolio.md)
 

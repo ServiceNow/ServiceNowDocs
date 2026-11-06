@@ -7,7 +7,7 @@ release: zurich
 product: Resource Management
 classification: resource-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -40,7 +40,7 @@ The ServiceNow® Resource Management Workspace helps Resource Managers have a ce
 -   **[Exploring Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/explore-rmw.md)**  
 Learn about the features, functionalities, and business value that the Resource Management Workspace provides.
 -   **[Configure Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/configure-rmw.md)**  
-Configure Resource Management Workspace.
+Install and configure Resource Management Workspace to manage efforts and allocations of your resources.
 -   **[Use resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/use-resource-assignment.md)**  
 The Resource Management Workspace is presented as a new approach to assigning resources to outcomes. Resource Management Workspace integrates with Project Workspace, Strategic Planning, and Portfolio Planning enabling the portfolio stakeholders to create resource assignments for their work.
 -   **[Resource Management Workspace references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/rmw-references.md)**  

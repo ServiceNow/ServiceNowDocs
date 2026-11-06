@@ -1,5 +1,5 @@
 ---
-title: Limit policy based session access mobile refresh token interval \[New in Security Center 1.5\]
+title: Limit the policy-based mobile refresh token interval
 description: Use the glide.authenticate.session\_access.mobile.refresh\_token\_interval property to govern the length of time that must elapse before a mobile device user will be forced to re-authenticate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-limit-policy-based-session-access-mobile-refresh.html
@@ -7,16 +7,18 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Session management, Hardening settings, Platform Security]
 ---
 
-# Limit policy based session access mobile refresh token interval \[New in Security Center 1.5\]
+# Limit the policy-based mobile refresh token interval
 
 Use the **glide.authenticate.session\_access.mobile.refresh\_token\_interval** property to govern the length of time that must elapse before a mobile device user will be forced to re-authenticate.
 
-A user will be asked to re-authenticate only if the admin has configured the Identity Provider attributes in the session policy \(attributes can vary each login\), and the user authenticates using Single Sign On \(SSO\). The default value represents the time in seconds that a user has before being re-authenticated. A larger default value provides a bad actor more time for session access in the event of a session hijacking.
+The **glide.authenticate.session\_access.mobile.refresh\_token\_interval** system property governs the length of time after which a mobile device user will be forced to re-authenticate. This only applies if the admin has configured the Identity Provider attributes \(which can vary for each login\) in the session access policy and the user authenticates via Single Sign On \(SSO\). The property value is an integer in seconds. The recommended value is `1800` \(30 minutes\).
+
+Ensure that the **glide.authenticate.session\_access.mobile.refresh\_token\_interval** property is set to a value of `1800` or below.
 
 ## More information
 
@@ -58,7 +60,7 @@ Recommended value
 
 </td><td>
 
-1800 \(seconds\)
+An integer less than or equal to 1800
 
 </td></tr><tr><td>
 
@@ -66,7 +68,15 @@ Default value
 
 </td><td>
 
-1800 \(seconds\)
+1800
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+1800
 
 </td></tr><tr><td>
 
@@ -84,7 +94,7 @@ Security risk
 
 -   Severity score: 4.3
 -   CVSS score: Medium
--   Security risk details: If the ZTA policy is enabled on the instance, then users who are using SSO during mobile login will be forced to logout and re-login after the default value of 1800 seconds \(30 minutes\) have eclipsed. If a higher value is used, then users will be forced to wait that elapsed time.
+-   Security risk details: A large value may grant a larger time frame for session access to be hijacked by an attacker.
 
 </td></tr><tr><td>
 
@@ -92,7 +102,7 @@ Dependencies and prerequisites
 
 </td><td>
 
-Zero Trust- Policy Based Session Access
+Zero trust: Policy-based session access
 
 </td></tr><tr><td>
 
@@ -100,7 +110,7 @@ Functional impact
 
 </td><td>
 
-This setting governs the time in seconds after login, that users will be forced to logout from mobile devices if they are using Single Sign On to authenticate, and admin has configured the Identify provider attributes in the session access policy.
+This setting governs the post-login timeout for mobile SSO users. Users are logged out if the admin has configured Identity provider attributes in the session access policy.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-session-management.md)

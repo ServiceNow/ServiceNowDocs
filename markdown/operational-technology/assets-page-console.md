@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/assets-page-console.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-30"
-reading_time_minutes: 5
-breadcrumb: [Using the Discovery Console, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Assets page
@@ -20,7 +20,7 @@ The Assets page shows a list of all available assets for the Discovery Console f
 
 The Assets page shows all assets that were automatically discovered along with all assets that were manually added to the system. To view the assets list, use the navigational menu on the left side of the screen and select **Assets &gt; Assets**.
 
-\[Omitted image "image.asset-page"\] Alt text: Assets page
+\[Omitted image "asset-page.png"\] Alt text: Assets page
 
 You can add assets with the following methods.
 
@@ -30,15 +30,15 @@ You can add assets with the following methods.
 
 **Filter panel**
 
-When you open the Assets page, there is a Filter panel you can use to filter which Assets appear in the list. There are preset filters which appear as tabs at the bottom of the panel. The preset filters are:
+When you open the Assets page, there is a Filter panel you can use to filter which Assets appear in the list. There are preset filters which appear as tabs at the bottom of the panel. The preset filters are \(you can also check the Default Tab box\):
 
 -   Sites
--   Presets \(You can also check the Default Tab box above these 3 tabs.\)
+-   Presets
 -   Filters
 
-Select the X at the top of the panel to close the filter. To open the panel, select the filter icon \[Omitted image "image.filter-icon"\] Alt text:.
+Select the X at the top of the panel to close the filter. To open the panel, select the filter icon \[Omitted image "filter-icon.png"\] Alt text:.
 
-Views
+**Views**
 
 In the top right area of the Assets list, there are different icons that control how the Assets are viewed.
 
@@ -150,7 +150,7 @@ Ignore from Auto Query
 
 </td><td>
 
-Option to mark devices that need to be ignored from the auto queries. This field is automatically set to inactive,
+Option to mark devices that must be ignored from the auto queries. This field is automatically set to inactive,
 
 </td></tr></tbody>
 </table>**Classification**
@@ -237,7 +237,13 @@ The Timeline section contains the following dates and times related to the asset
 
 The Open Ports section lists all open ports available on the asset that were identified by Discovery and shown on the Discovery Console for OT.
 
-\[Omitted image "image.section-ports-n-metadata"\] Alt text: Ports and Metadata sections
+\[Omitted image "section-ports-n-metadata.png"\] Alt text: Ports and Metadata sections
+
+**Network Interfaces**
+
+The Network Interfaces section displays the Asset's Vendor, Vendor Address, IPV4 Address, IPV6 Address, MAC Address, Gateway, and CIDR.
+
+\[Omitted image "network-interfaces.png"\] Alt text: Network Interfaces section
 
 **Metadata**
 
@@ -318,7 +324,7 @@ The Attributes section contains the attributes discovered by the Discovery proce
 
 The detected MAC Addresses section includes a list of all the MAC addresses that are associated with a given asset. The Real Address toggle is used to indicate that a MAC address belongs to an asset and should be considered the primary or main MAC address. Each detected MAC address in the list includes the **Vendor Name**, **Vendor Address**, **First Detected On**, and **Last Detected On** fields.
 
-\[Omitted image "image.vender-mac-address"\] Alt text: MAC address
+\[Omitted image "vender-mac-address.png"\] Alt text: MAC address
 
 To add a MAC address, complete the following actions.
 
@@ -341,4 +347,13 @@ The Comments section provides an area to enter additional information about the 
 4.  Select **Save**.
 
 The added comment is listed in the Comments section of the asset.
+
+-   **[Create an asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/create-asset-console.md)**  
+Manually create an asset to the Discovery Console for OT.
+-   **[Deleting assets in bulk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/bulk-delete-assets.md)**  
+Filter assets and do a bulk deletion in the Discovery Console for OT.
+-   **[Import or export assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/import-export-assets.md)**  
+You can import or export assets, and ignored assets, to either CSV or JSON formats.
+
+**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/using-discovery-console.md)
 

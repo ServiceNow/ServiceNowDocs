@@ -7,10 +7,10 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-05-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ACC health instance scan, agent client collector scan checks, ACC instance scan suite]
-breadcrumb: [ACC health instance scan suite, ACC deployment - shared between servers and endpoints, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC-F reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
 
 # Agent Client Collector health instance scan checks
@@ -120,5 +120,5 @@ For details on importing the `global.ACCInstanceScanUtil` script include, see th
 
 For details on running the ACC health instance scan, see [Schedule the Agent Client Collector \(ACC\) health instance scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-instance-scan-run.md).
 
-**Parent Topic:**[Agent Client Collector health instance scan suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-instance-scan-suite.md)
+**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
 

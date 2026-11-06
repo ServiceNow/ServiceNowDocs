@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -18,7 +18,7 @@ The Calendly spoke provides actions to view and analyze meaningful usage data fo
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Calendly spoke v1.3.1 is the latest version.
+Calendly spoke v1.3.1 is the latest version. For version history of the spoke, see [Calendly spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-calendly.html).
 
 ## Spoke requirements
 
@@ -53,8 +53,8 @@ The Calendly spoke provides actions to automate Calendly tasks when events occur
 |--------|------|-----------|
 ||||
 |Event Management|Cancel Event|Cancels the specified event.|
-|Look up Event|Retrieves the details of a specified event.|
-|Look up Scheduled Events Stream|Retrieves details about all scheduled events within an organization.|
+| |Look up Event|Retrieves the details of a specified event.|
+| |Look up Scheduled Events Stream|Retrieves details about all scheduled events within an organization.|
 |User Management|Invite User to Organization|Invites the specified user to the organization.|
 |Look up Organization|Retrieves the URI of the organization that the authenticated user currently belongs to.|
 |Look up Organization Members Stream|Retrieves details about all members within an organization.|

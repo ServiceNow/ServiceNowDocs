@@ -7,9 +7,9 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Linking parent-child contracts, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Linking parent-child contracts, Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Link and inherit parent contract fields
@@ -38,15 +38,15 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 1.  Open the contract request from workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d70336e96">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d71682e96">
 
 Method
 
-</th><th align="left" id="d70336e99">
+</th><th align="left" id="d71682e99">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d70336e105">
+</th></tr></thead><tbody><tr><td id="d71682e105">
 
 **Contract Workspace listing**
 
@@ -58,7 +58,7 @@ Steps
 4.  Select a contract request.
 
 
-</td></tr><tr><td id="d70336e152">
+</td></tr><tr><td id="d71682e152">
 
 **Workspace used by your application**
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/modify-territory.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Sales Territory Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Sales Territory Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Assigning a territory on opportunity
@@ -32,4 +32,11 @@ Role required: sales territory admin \(or a user with sales territory override r
 
 
 **Parent Topic:**[Using Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/use-sales-territory-management.md)
+
+**Related topics**  
+
+
+[Configuring Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-sales-territory-management.md)
+
+[Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-sales-territory-management.md)
 

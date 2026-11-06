@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ACC-M default checks and policies, Agent Client Collector Monitoring reference, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC-M default checks and policies, ACC-M reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
 
 # Linux log monitoring default checks and policies
@@ -66,10 +66,9 @@ Usage:-   -i --icase: Run a case insensitive match.
 -   -M, --return-error-limit N: Max number of returned matched lines\(log entries\).
 -   -n, --name NAME Set state file dir automatically using name.
 -   -s, --state\_dir DIR Dir to keep state files under.
--   -G, --skip-events-for-nonexistent: Skip event creation if the log file is missing or not found at the specified path. Default = False.
 -   -w, --warn N: Warning level if pattern has a groupWarning level if pattern has a group.
 
-Usage example: `command: check-log.rb -c 2 -w 1 -q "SEVERE|Exception" -s /tmp/cache/check-log -f /var/log/servicenow/agent-client-collector/acc.log`
+ Usage example: `command: check-log.rb -c 2 -w 1 -q "SEVERE|Exception" -s /tmp/cache/check-log -f /var/log/servicenow/agent-client-collector/acc.log`
 
 </td><td>
 
@@ -105,11 +104,9 @@ Usage:-   -i --icase: Run a case insensitive match
 -   -M, --return-error-limit N: Max number of returned matched lines\(log entries\).
 -   -n, --name NAME: Set state file dir automatically using name.
 -   -s, --state\_dir DIR: Dir to keep state files under
--   -G, --skip-events-for-nonexistent: Skip event creation if the log file is missing or not found at the specified path. Default = False.
 -   -w, --warn N: Warning level if pattern has a groupWarning level if pattern has a group.
--   must\_sudo: Enables the servicenow user to run the command with sudo permissions.
 
-Usage example: `command: check-log.rb -c 2 -w 1 -q "SEVERE|Exception" -s /tmp/cache/check-log -f /var/log/servicenow/agent-client-collector/acc.log`
+ Usage example: `command: check-log.rb -c 2 -w 1 -q "SEVERE|Exception" -s /tmp/cache/check-log -f /var/log/servicenow/agent-client-collector/acc.log`
 
 </td><td>
 

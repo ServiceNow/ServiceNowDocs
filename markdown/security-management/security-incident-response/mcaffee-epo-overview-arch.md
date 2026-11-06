@@ -7,7 +7,7 @@ release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Security Incident Response integrations, Security Incident Response
 
 The McAfee ePO integration endpoint detection and response \(EDR\) capability that helps Security Operations Center \(SOC\) analysts identify cyberthreats and repair the damage caused by malicious files.
 
-## Overview
+## Overview of McAfee ePO integration
 
 There are two sets of McAfee ePO capabilities used in this integration, the capabilities that invoke actions, such as isolating a host and initiating a malware scan, and the capabilities that run queries to gather system details and threat events. Both types of capabilities, the actions and the queries, are invoked from your ServiceNow AI Platform® instance. You can group these capabilities together so that they automatically run when a specific type of security event occurs, or, you can invoke them manually from a ServiceNow AI Platform® security incident.
 

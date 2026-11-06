@@ -7,10 +7,10 @@ release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Use generative AI skills, ServiceNow Otto for CSM, Customer Service Management]
+breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Summarize a call by using ServiceNow Otto for Customer Service Management \(CSM\)
@@ -36,7 +36,7 @@ The call summarization skill enables you to do the following actions:
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Set your status as Available in CRM Workspace so that you can receive a call request when a customer calls in and requests to speak to an agent.
 
@@ -71,16 +71,18 @@ The call summarization skill enables you to do the following actions:
 
 6.  Review the text in the **Short description** and **Chat Summary** fields and make any necessary corrections.
 
-    Because the information in these fields is automatically generated, human review of the text is necessary to verify its accuracy.
+    Because the information in these fields is automatically generated, human review of the text is necessary to ensure its accuracy.
 
 7.  Select **Save**.
+
+    \[Omitted image "now-assist.csm-call-summary.png"\] Alt text: AI-generated call summary for an interaction.
 
 
 ## What to do next
 
 If necessary, you can create a case from an interaction record. The system uses the information from the **Short description** and **Chat Summary** fields in the interaction record to populate the **Short description** and **Description** fields in the case record.
 
-The system displays the AI icon \(\[Omitted image "bus-ai-sparkle.svg"\] Alt text: sparkle icon.\) next to these fields and removes the icon if the agent changes the fields and saves the record.
+The system displays the AI icon \(\[Omitted image "bus-ai-sparkle.svg"\] Alt text: AI icon.\) next to these fields and removes the icon if the agent changes the fields and saves the record.
 
 **Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 

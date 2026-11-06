@@ -7,10 +7,10 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [ServiceNow Otto for AI Search reference, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
+breadcrumb: [ServiceNow Otto for AI Search reference, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # ServiceNow Otto for AI Search properties
@@ -19,7 +19,7 @@ System properties that you can use to modify behavior for ServiceNow® Otto for 
 
 These properties are available for ServiceNow Otto for AI Search.
 
-**Note:** To open the System Property \[sys\_properties\] table's list view, select **All**, enter `sys_properties.list` in the **Filter** field, and press **Enter**.
+**Note:** To open the System Property \[sys\_properties\] table's list view, select **All**, enter `sys_properties.list` in the navigation field, and press **Enter**.
 
 <table id="table_s4h_h2x_jdc"><thead><tr><th>
 
@@ -35,12 +35,12 @@ sn\_ais\_assist.semantic\_cache\_mode
 
 </td><td>
 
-Operational mode for the Now Assist Q&amp;A Genius Results caches. Use this mode to control how AI Search uses the caches and the Now LLM Service when looking for Now Assist Q&amp;A Genius Result answers. For details about how AI Search caches Now Assist Q&amp;A Genius Result answers, see [Caching for Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/caching-now-assist-q-a-gr.md).
+Operational mode for the Q&amp;A Genius Results caches. Use this mode to control how AI Search uses the caches and the Now LLM Service when looking for Q&amp;A Genius Result answers. For details about how AI Search caches Q&amp;A Genius Result answers, see [Caching for Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/caching-now-assist-q-a-gr.md).
 
 -   Type: string
 -   Default value: off
 -   Supported values:
-    -   **off**: Use the first-level cache and the Now LLM Service to find Now Assist Q&amp;A Genius Result answers.
+    -   **off**: Use the first-level cache and the Now LLM Service to find Knowledge base articles Genius Result answers.
 
 AI Search looks in the first-level cache for Knowledge base articles Genius Result answers that exactly match your search query and knowledge article result. If it doesn't find a matching answer, it sends your query and Knowledge article sys\_id to the Now LLM Service for answer generation.
 
@@ -82,9 +82,9 @@ sn\_ais\_assist.u\_question\_regex
 
 </td><td>
 
-Case-insensitive Java regular expression pattern that defines searches eligible for Now Assist Q&amp;A answer generation. As an example, the pattern `^(what|where|when|why|who|whom|which|how)\b` restricts eligibility to search queries that begin with one of the specified keywords. When this system property has a value defined, only searches in supported applications that match the specified pattern are eligible for Now Assist Q&amp;A answer generation.
+Case-insensitive Java regular expression pattern that defines searches eligible for Q&amp;A answer generation. As an example, the pattern `^(what|where|when|why|who|whom|which|how)\b` restricts eligibility to search queries that begin with one of the specified keywords. When this system property has a value defined, only searches in supported applications that match the specified pattern are eligible for Q&amp;A answer generation.
 
- When no value is defined, all searches in supported applications are eligible for Now Assist Q&amp;A answer generation.
+ When no value is defined, all searches in supported applications are eligible for Q&amp;A answer generation.
 
  -   Type: string
 -   Default value: none

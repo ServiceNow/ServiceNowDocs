@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Connectors
 classification: workplace-connectors
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Workplace Connectors, Workplace Service Delivery, Employee Service Management]
 ---
@@ -41,10 +41,12 @@ The Provider Space Mapping data table stores the workplace locations and externa
 Retrieve Actions from occupancy data provider using Flow Designer Integration Hub. Specify the transform definitions and invoke the Sub flow to retrieve Occupancy data. For example, Metrikus Spoke integration. The occupancy sensor data from the Occupancy data provider is transformed to derive space occupancy data in Workplace Connectors.
 8.  [Retrieving Space Occupancy Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/space-occupancy-data.md)  
 Retrieve the Space Occupancy Data table for loading workplace occupancy data and space occupancy data insights for a selected workplace location.
+9.  [Archive and Purge space occupancy data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/archive-purge-occupancy-data.md)  
+Archive and purge the Space Occupancy data \(sn\_wsd\_wc\_space\_occupancy\) table after every five days.
 
 **Parent Topic:**[Configure Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/configure-workplace-connectors.md)
 
-**Previous topic:**[Extension point for badging data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/extension-point-badging-data.md)
+**Previous topic:**[Attendance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/attendance-analytics.md)
 
 **Next topic:**[Activate Metrikus Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/install-metrikus-plugin.md)
 

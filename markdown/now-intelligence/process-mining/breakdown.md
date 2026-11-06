@@ -7,9 +7,9 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Scoping your analysis, Create a project or template using Project Builder, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Scoping your analysis, Create a project or template using Project Builder, Use, Process Mining, Platform Analytics]
 ---
 
 # Set breakdown definitions
@@ -18,7 +18,7 @@ Set the breakdown definitions that act as filters for your project. Breakdown de
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin
+Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
 
 -   [Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/define-workflow-model.md)
 
@@ -34,7 +34,7 @@ This is an optional task.
 
 1.  Navigate to **Workspaces** &gt; **Process Mining Workspace**.
 
-    If you continue from the **Set Objectives** page, you're on the **Scope your analysis** page.
+    If you continue from the **Set Objectives** page, you are on the **Scope your analysis** page.
 
 2.  Select **Edit** for the project that you want to edit.
 

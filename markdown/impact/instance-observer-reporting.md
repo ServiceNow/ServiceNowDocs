@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/instance-observer-reporting.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [Overview of Instance Observer, Platform Health, Using Impact, Impact]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Reports, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
 # Instance performance telemetry reports
@@ -45,7 +45,7 @@ Some Instance Observer reporting features vary between the Impact package that y
 |Data retention|45 days|6 months|6 months|
 |Self Service Alerts|X|✓|✓|
 
-**Note:** For more information on subscription support, see [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-packages.md).
+**Note:** For more information on subscription support, see [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-packages1.md).
 
 ## Daily Performance Metrics Report
 
@@ -88,6 +88,8 @@ Top 10 Slow Transactions
 -   Finds the most executed transactions by total execution time and then takes the top 10 transactions that incur the highest average execution time.
 -   Results list the instance page along with the average and total execution times, and the total count the page was executed.
 
+ **Note:** Top 10 Slow Transactions is not available for Guided Impact customers in sub‑production instances.
+
 </td></tr><tr><td>
 
 Top 10 Slow Queries
@@ -96,6 +98,8 @@ Top 10 Slow Queries
 
 -   Finds the most executed queries by total execution time and then takes the top 10 queries that incur the highest average execution time.
 -   Results list the query along with the average and total execution times, and the total count the query was executed.
+
+ **Note:** Top 10 Slow Queries is not supported for Guided Impact customers in sub-production instances.
 
 </td></tr><tr><td>
 
@@ -166,4 +170,13 @@ There are several database growth reports that are available that show how the i
 |Primary Database|Various metrics on how the database has either grown or decreased over the selected time frame. Total DBI size based on the sum of all tables, calculated every 4 hours.|
 |Database by Size \(Including Shards\)|Various metrics on how the database has either grown or decreased over the selected, including shards. Total DBI Size align with primary shards, this is calculated every 4 hours and can be used to visualize database growth over time.|
 |Top 20 Tables \(By Size\)|Lists table name, size \(GB\), 1 day growth and rate, and the 7 day growth rate.|
+
+## Encryption Report
+
+**Important:** This report is not available in the Regulated market.
+
+-   **DBI encryption status**: ServiceNow offers three types of encryption to the dbi's which is a paid service. They are Disk Encryption, Table Space Encryption \(TSE\), and Cloud Encryption.
+-   With this report you can check the status of encryption service that you have subscribed for the dbi's associated with the instances.
+
+**Parent Topic:**[IO reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/i-o-reports.md)
 

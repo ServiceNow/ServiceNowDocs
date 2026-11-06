@@ -7,7 +7,7 @@ release: zurich
 product: Orchestration
 classification: orchestration
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Classic Orchestration, Workflow Data Fabric]
 ---
@@ -60,7 +60,7 @@ If Orchestration does not provide the activities you need for an integration, cr
 -   Any database with a compliant [JDBC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/t_CreateAJDBCActivity.md) driver
 -   Additional Activity Packs are also available with other ServiceNow products, such as Security Operations
 
-
+\[Omitted image "OrchestrationDiagram.png"\] Alt text: Orchestration capabilities
 
 ## Orchestration workflow
 

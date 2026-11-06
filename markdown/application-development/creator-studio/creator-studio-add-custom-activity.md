@@ -7,9 +7,9 @@ release: zurich
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [About custom activities, Administer, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [About custom activities, Administer, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Make a custom activity available for playbooks in Creator Studio
@@ -68,7 +68,7 @@ Activity
 
 Search for and select the type of activity that will be the basis of your custom activity.For example, create a complex approval activity by selecting **Request Multi-Level Approval**.
 
-**Note:** Once you choose an activity, you can select the information icon \(\[Omitted image "icon-information.png"\] Alt text:\) to preview its Activity Definition record.
+**Note:** Once you choose an activity, you can select the information icon \[Omitted image "icon-information.png"\] Alt text: to preview its Activity Definition record.
 
 </td></tr><tr><td>
 

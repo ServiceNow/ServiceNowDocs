@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/create-data-rel-fortemp-config.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Set up the template configurations, Generating reports using Document designer, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_grc\_doc\_design.admin and sn\_bcm.admin
 
 ## About this task
 
-When you create data relationships, you can specify how selected records, such as plans to recovery teams or plans to related assets, are connected to the table \(for example, \[sn\_bcp\_plan\]\) in the template relationship registry. You can then establish a path to navigate to these respective records. You can create as many relationships as needed.
+When you create data relationships, you can specify how selected records are connected to the table in the template relationship registry. For example, you can connect plans to recovery teams or plans to related assets to the \[sn\_bcp\_plan\] table. You can then establish a path to navigate to these respective records. You can create as many relationships as needed.
 
 ## Procedure
 

@@ -7,9 +7,9 @@ release: zurich
 product: SaaS License Management
 classification: saas-license-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [SaaS License Connections, SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [SaaS License Connections, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a subflow to reclaim a user
@@ -20,7 +20,7 @@ Create a subflow to reclaim a user subscription.
 
 This subflow requires an action to remove a user. For more information, see [Create an action to remove a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/create-data-stream-remove-user.md).
 
-Role required: flow\_designer or admin
+Role required: flow\_designer
 
 ## About this task
 

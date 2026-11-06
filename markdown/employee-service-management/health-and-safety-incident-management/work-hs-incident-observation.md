@@ -7,9 +7,9 @@ release: zurich
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Manage incidents and observations, Manage incidents, observations, and anonymous safety concerns, Health and Safety Incident Management, Health and Safety, Employee Service Management]
+breadcrumb: [Manage incidents and observations, Manage, Health and Safety Incident Management, Health and Safety, Employee Service Management]
 ---
 
 # Work on a safety incident
@@ -24,7 +24,7 @@ Role required: sn\_ohs\_im.manager, sn\_ohs\_im.agent, or sn\_ohs\_im.operations
 
 Use the **Report an incident** playbook available with Health and Safety Incident Management to manage safety incidents and resolve them. You can access the **Report an incident** playbook tab when a safety incident is assigned to you.
 
-For more information on how to interact with a playbook, see [Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/playbook-ui.md).
+For more information on how to interact with a playbook, see [Running playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/playbook-agents-and-fulfillers.md).
 
 **Note:** To work in a tab-based experience for safety incidents, your administrator can disable the playbook through Health and Safety properties. For more information, see [Disable the safety incident playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/health-and-safety-incident-management/disable-safety-incident-playbook.md).
 

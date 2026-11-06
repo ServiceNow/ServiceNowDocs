@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 12
 keywords: [AI Agent, Agentic AI]
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
@@ -19,7 +19,7 @@ The Microsoft Teams Graph spoke manages applications, calendar, teams, channels,
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 **Note:**
 
@@ -34,7 +34,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Microsoft Teams Graph spoke v4.5.2 is the latest version.
+Microsoft Teams Graph spoke v4.5.2 is the latest version. For version history of the spoke, see [Microsoft Teams Graph Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-ms-teams.html).
 
 ## Supported version
 

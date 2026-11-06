@@ -7,9 +7,9 @@ release: zurich
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Testing and monitoring predictions, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Testing and monitoring predictions, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Test a similarity solution prediction
@@ -116,6 +116,8 @@ This scenario illustrates a similarity solution prediction for a hypothetical ML
 
         \[Omitted image "predict-intel-simtest-soldef-recommendation.png"\] Alt text: Shows the user the Resolution notes in one of the Incident records.
 
+
+**Parent Topic:**[Testing and monitoring predictions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/predictive-intelligence/testing-reviewing-ml-solutions.md)
 
 **Related topics**  
 

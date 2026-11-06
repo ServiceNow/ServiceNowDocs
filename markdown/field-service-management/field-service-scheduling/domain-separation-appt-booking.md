@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
+breadcrumb: [Configure Appointment Booking, Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Domain Separation and Appointment Booking
@@ -28,7 +28,7 @@ Sample use case: When a service provider \(SP\) uses chat to respond to a tenant
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/domain-separated-apps.md).
 
-## Overview
+## Domain separation and Appointment Booking overview
 
 Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
@@ -68,7 +68,9 @@ Service Configuration Rule\[sn\_appmnt\_booking\_config\_rule\]
 
 </td><td>
 
-Attributes-   domain\_master=sn\_apptmnt\_bookig\_service\_config
+Attributes:
+
+ domain\_master=sn\_apptmnt\_bookig\_service\_config
 
 </td></tr><tr><td>
 
@@ -76,7 +78,9 @@ Advanced Configurations\[sn\_appmnt\_booking\_day\_configuration\]
 
 </td><td>
 
-Attributes-   domain\_master=sn\_apptmnt\_bookig\_service\_config
+Attributes
+
+ domain\_master=sn\_apptmnt\_bookig\_service\_config
 
 </td></tr><tr><td>
 

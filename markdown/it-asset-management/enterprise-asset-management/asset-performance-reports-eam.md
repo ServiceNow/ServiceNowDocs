@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-04-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Explore, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Asset performance reports in the Enterprise Asset Workspace
@@ -216,7 +216,7 @@ The count of total outage records for an asset excluding planned outages account
 -   Contextual side bar: You can view the following reports on the contextual side bar:
     -   [Asset availability and related KPIs report for an individual asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/view-availability-for-ent-aaset.md).
     -   [Asset task time summary report for all enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/view-total-time-spent-on-asset-eam.md).
--   Asset performance tab on the Asset analytics view: You can view the average values of the KPIs, including Average availability, Average MTTR, and Average MTBF, for all the assets that are being tracked. Additionally, you can see a list of the assets that contributed to the calculation of these KPIs. For details, see [Asset Analytics overview for Enterprise Asset workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/eam-asset-dboard.md).
+-   Asset performance tab on the Asset analytics view: You can view the average values of the KPIs, including Average availability, Average MTTR, and Average MTBF, for all the assets that are being tracked. Additionally, you can see a list of the assets that contributed to the calculation of these KPIs. For details, see [Asset analytics overview for Enterprise Asset workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/eam-asset-dboard.md).
 
 ## Scheduled job for calculation of asset KPIs
 
@@ -231,4 +231,9 @@ The count of total outage records for an asset excluding planned outages account
     -   Evaluate task
     -   Recall task
 -   The **Asset availability data collection** scheduled weekly job runs every Sunday to calculate the average values of the KPIs that includes Average availability, Average MTTR, and Average MTBF. The job then generates the reports in the Asset performance tab of the Asset analytics view.
+
+-   **[Monitor enterprise asset performance with Asset KPIs report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/view-availability-for-ent-aaset.md)**  
+Track the asset availability and related KPI values in the report to see how well an enterprise asset is performing.
+
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

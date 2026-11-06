@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/retail-industry/rahi-retail-monitor-published-store-plan.html
 release: zurich
 topic_type: task
-last_updated: "2026-02-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage store plans, Retail]
 ---
@@ -33,4 +33,6 @@ Role required: sn\_rtl\_hq\_ops.agent, sn\_rtl\_hq\_ops.agent\_manager, sn\_rtl\
     -   Store cases
     -   Store tasks
     -   Affected stores
+
+**Parent Topic:**[Manage store plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/rahi-retail-manage-store-plans.md)
 

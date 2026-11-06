@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub ETL
 classification: integration-hub-etl
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -23,7 +23,7 @@ The IntegrationHub ETL \(sn\_int\_studio\) plugin provides the IntegrationHub ET
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Roles required
 
@@ -31,7 +31,7 @@ Users with the cmdb\_inst\_admin role can use IntegrationHub ETL to create integ
 
 ## Support for non-CMDB tables
 
-Starting with the Zurich release, IntegrationHub ETL supports the integration of third-party data into some non-CMDB tables. IntegrationHub ETL supports those non-CMDB tables that are supported by Identification and Reconciliation \(IRE\). For details about which non-CMDB tables are supported and any needed configuration, see [IRE support for non-CMDB tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/ire-support-non-cmdb-tables.md).
+Starting with the Brazil release, IntegrationHub ETL supports the integration of third-party data into some non-CMDB tables. IntegrationHub ETL supports those non-CMDB tables that are supported by Identification and Reconciliation \(IRE\). For details about which non-CMDB tables are supported and any needed configuration, see [IRE support for non-CMDB tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/ire-support-non-cmdb-tables.md).
 
 Supported non-CMDB tables are available in IntegrationHub ETL when specifying classes, conditional classes, class associations, and reference sources in mapping definitions. However, there are some differences between using CMDB classes and non-CMDB tables in IntegrationHub ETL:
 
@@ -46,7 +46,7 @@ Supported non-CMDB tables are available in IntegrationHub ETL when specifying cl
 The two key components that IntegrationHub ETL uses for processing are:
 
 -   [Robust Transform Engine \(RTE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/robust-import-set-transformers.md): Used to transform raw source data that is stored in staging tables, into the data that is mapped and integrated into the CMDB. RTE uses ETL transform maps that were created for the integration during data transformation.
--   [Identification and Reconciliation engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/ire.md): Used as a centralized framework for identification and reconciliation processes across different data sources. IRE processes help maintain data integrity in the CMDB and in supported non-CMDB tables.
+-   [Identification and Reconciliation Engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/ire.md): Used as a centralized framework for identification and reconciliation processes across different data sources. IRE processes help maintain data integrity in the CMDB and in supported non-CMDB tables.
 
 IntegrationHub ETL uses RTE and IRE which work together to process and integrate data. Data is first imported from a data source, and is then stored in temporary staging tables in Import Sets systems. Using the data in the staging tables and the ETL transform map created by IntegrationHub ETL, RTE creates IRE payloads which are then processed by IRE. IRE applies reconciliation processes to avoid potential problems such as duplicate CIs, ensuring that the CMDB or non-CMDB tables remain healthy, and then integrates the resulting data.
 

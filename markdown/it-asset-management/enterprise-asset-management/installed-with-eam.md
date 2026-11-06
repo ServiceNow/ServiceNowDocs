@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [References, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Enterprise Asset Management reference, Enterprise Asset Management, Asset Management]
 ---
 
 # Components installed with Enterprise Asset Management
@@ -378,7 +378,7 @@ Expanded Model and Asset Classes\(com.sn\_ent\)
 
 </td><td>
 
-Adds enterprise model and asset classes that extend out-of-the-box product model and asset classes within the CMDB class hierarchy. In addition, creates model categories that associate these enterprise model and asset classes with CMDB configuration item \(CI\) classes.For more information on the Expanded Model and Asset Classes application, see [Expanded Model and Asset Classes Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/enterprise-model-asset-classes-app.md).
+Adds enterprise model and asset classes that extend out-of-the-box product model and asset classes within the CMDB class hierarchy. In addition, creates model categories that associate these enterprise model and asset classes with CMDB configuration item \(CI\) classes.For more information on the Expanded Model and Asset Classes application, see [Expanded Model and Asset Classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/enterprise-model-asset-classes-app.md).
 
 </td></tr><tr><td>
 
@@ -541,14 +541,6 @@ Uses generative AI to scan, extract, comprehend, and synthesize data so that you
 [Enterprise asset disposal order stages]()
 
 [Terminology for linear assets]()
-
-[Installed with Enterprise Asset Management for Healthcare]()
-
-[Installed with OT Asset Management]()
-
-[Components installed with Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)]()
-
-[Components installed with Enterprise Asset Management for Providers]()
 
 [Scheduled jobs and tables installed with normalization of firmware models]()
 

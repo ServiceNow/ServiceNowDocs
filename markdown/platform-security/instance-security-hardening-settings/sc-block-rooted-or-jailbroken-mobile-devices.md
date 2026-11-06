@@ -7,7 +7,7 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Malicious code, Hardening settings, Platform Security]
 ---
@@ -16,7 +16,11 @@ breadcrumb: [Malicious code, Hardening settings, Platform Security]
 
 Secure your instance by preventing unauthorized access from jailbroken devices.
 
-Use the **glide.sg.allow\_rooted\_jailbroken\_device** property to secure your instance from unauthorized access by jailbroken devices. If a user tries to authenticate into an instance using a mobile app while this property is set to **false**, they receive the following alert: `This device appears to be jailbroken and cannot be used to access this instance. Please contact your ServiceNow Administrator.` The app is frozen while the alert message is displayed, and the only way to dismiss this message is to select **Log out**. If this property is set to **true** users authenticate into an instance using a jailbroken device.
+If **glide.sg.allow\_rooted\_jailbroken\_device** is not set to the recommended value of **false**, then the mobile app allows users to use the app from jailbroken or rooted mobile devices. Jailbroken or rooted mobile devices run untrusted code at the system level that can bypass the platform's security model which our mobile apps rely on. Setting **glide.sg.allow\_rooted\_jailbroken\_device** to **false** enables a limited client-side check to display an error message to the user if attempting to use the app from one of these devices.
+
+This configuration maps to MASVS v1.4.2 requirement 8.1 at R-level.
+
+Ensure that the property **glide.sg.allow\_rooted\_jailbroken\_device**is set to **false**.
 
 ## More information
 
@@ -70,6 +74,14 @@ false
 
 </td></tr><tr><td>
 
+Fallback value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
 Category
 
 </td><td>
@@ -84,7 +96,7 @@ Security risk
 
 -   Severity score: 4.5
 -   CVSS score: Medium
--   Security risk details: The lack of security on jailbroken devices makes them a prime target by bad actors. Having unauthorized entities accessing corporate data can weaken the security posture of a corporate network.
+-   Security risk details: Allowing rooted or jailbroken mobile devices significantly increases the risk of credential theft, data leakage, and malicious code execution.
 
 </td></tr><tr><td>
 

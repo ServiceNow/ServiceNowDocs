@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Using Service Catalog for Enterprise Asset Management requests and flows, Enterprise Asset Management, Asset Management]
 ---
 
 # Enterprise asset reclamation
@@ -33,4 +33,9 @@ The Enterprise Asset Reclamation Line also has a stage field, which changes when
 -   Pending
 -   Pending evaluation
 -   Complete
+
+-   **[Create a catalog request to reclaim enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-enterprise-catalog-request.md)**  
+Create a catalog request to efficiently reclaim enterprise assets when an employee leaves an organization or moves to a different role.
+
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/asset-management-landing-page.md)
 

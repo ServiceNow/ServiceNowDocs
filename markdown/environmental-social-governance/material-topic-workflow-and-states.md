@@ -1,18 +1,18 @@
 ---
 title: Material topic workflow and states
-description: Material topics are the point of origin for sustainability initiatives. A material topic must be identified before it can be tracked and measured for success.The workflow states for a material topic depend on how the material topic was created.
+description: Material topics are the point of origin for sustainability initiatives. A material topic must be identified before it can be tracked and measured for success. The workflow states for a material topic depend on how the material topic was created.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/material-topic-workflow-and-states.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Material topic workflow and states
 
-Material topics are the point of origin for sustainability initiatives. A material topic must be identified before it can be tracked and measured for success.The workflow states for a material topic depend on how the material topic was created.
+Material topics are the point of origin for sustainability initiatives. A material topic must be identified before it can be tracked and measured for success. The workflow states for a material topic depend on how the material topic was created.
 
 ## Default workflow
 
@@ -66,7 +66,7 @@ Material topics imported from Socialsuite include additional fields that store m
 **Related topics**  
 
 
-[Integrating ESG Management \(formerly ESG\) with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/integrate-esg.md)
+[Integrating Operational Sustainability Management \(formerly ESG\) with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/integrate-esg.md)
 
 [Set Material topic selection system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/set-material-topic-selection-system-property.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Basic Software Asset Management Administration, Basic Software Asset Management, ITSM Software Asset Management, Asset Management, IT Service Management]
+breadcrumb: [Basic Software Asset Management Administration, Basic Software Asset Management, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
 # Add a Basic Software Asset Management custom software product

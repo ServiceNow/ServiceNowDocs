@@ -7,9 +7,9 @@ release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Incident Management in Service Operations Workspace reference, Incident Management in Service Operations Workspace, Operate, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Incident Management in Service Operations Workspace reference, Incident Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Extension points for batch processing in Service Operations Workspace

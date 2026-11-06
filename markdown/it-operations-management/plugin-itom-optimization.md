@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/plugin-itom-optimization.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ITOM Optimization reference, ITOM Optimization, IT Operations Management]
 ---
@@ -33,5 +33,5 @@ Table that lists the plugins that are activated with the ITOM Optimization appli
 
 [Plugins or applications installed with ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/plugin-app-itom-health.md)
 
-[Applications installed with ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/app-now-assist-itom.md)
+[Applications installed with ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/app-now-assist-itom.md)
 

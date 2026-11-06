@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/enable-semantics-generation.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---

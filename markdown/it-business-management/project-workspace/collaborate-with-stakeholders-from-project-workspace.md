@@ -7,7 +7,7 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -32,15 +32,15 @@ Browse and upload files from your computer. Add comments and tag stakeholders fo
 
 2.  Attach files to your project or project task.
 
-<table id="choicetable_sj5_5hz_hsb"><thead><tr><th align="left" id="d139500e92">
+<table id="choicetable_sj5_5hz_hsb"><thead><tr><th align="left" id="d148012e82">
 
 Option
 
-</th><th align="left" id="d139500e95">
+</th><th align="left" id="d148012e85">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d139500e101">
+</th></tr></thead><tbody><tr><td id="d148012e91">
 
 **Project**
 
@@ -55,7 +55,7 @@ If you have attachment, select the Add file icon \(\[Omitted image "icon-add-fil
     2.  Browse and upload a file.
 
 
-</td></tr><tr><td id="d139500e145">
+</td></tr><tr><td id="d148012e135">
 
 **Project task**
 
@@ -76,15 +76,15 @@ If you have attachment, select the Add File icon \(\[Omitted image "icon-add-fil
 
     You can add comments directly at the project level or for a project task.
 
-<table id="choicetable_fx3_gjz_hsb"><thead><tr><th align="left" id="d139500e198">
+<table id="choicetable_fx3_gjz_hsb"><thead><tr><th align="left" id="d148012e188">
 
 Option
 
-</th><th align="left" id="d139500e201">
+</th><th align="left" id="d148012e191">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d139500e207">
+</th></tr></thead><tbody><tr><td id="d148012e197">
 
 **Project**
 
@@ -98,7 +98,7 @@ If you want to address your comments to a user, @-mention their name in the comm
 3.  Select **Post Comments**.
 
 
-</td></tr><tr><td id="d139500e240">
+</td></tr><tr><td id="d148012e230">
 
 **Project task**
 

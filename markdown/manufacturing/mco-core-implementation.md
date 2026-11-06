@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-core-implementation.html
 release: zurich
 topic_type: concept
-last_updated: "2026-07-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [MCO, Manufacturing Commercial Operations, core implementation, foundational configuration, implementation planning]
 breadcrumb: [Configure, Manufacturing Commercial Operations]
@@ -17,5 +17,5 @@ Configure the baseline settings that establish Manufacturing Commercial Operatio
 
 This implementation provides the foundation for configuring Manufacturing Commercial Operations core applications.
 
-\[Omitted image "image.MCO-core-implementation"\] Alt text: Implementation steps for configuring Manufacturing Commercial Operations core features.
+\[Omitted image "MCO-core-implementation.png"\] Alt text: Implementation steps for configuring Manufacturing Commercial Operations core features.
 

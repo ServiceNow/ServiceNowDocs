@@ -7,15 +7,17 @@ release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Cloud Cost Management, IT Asset Management]
+breadcrumb: [Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Using Cloud Cost Management
 
 Use Cloud Cost Management to rightsize, identify, assign, manage, and analyze usage data of your cloud resources.
 
+-   **[Analyze cloud spend using the Cloud cost summarizer generative AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/spend-summary-otto-ccm.md)**  
+View actionable optimization insights with a comprehensive AI-generated summary of your cloud spend trends, top cost drivers, and budget alignment with your selected filters and groupings.
 -   **[Manage unused resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/manage-unused-mac.md)**  
 Reduce cost by identifying the unused resources and scheduling jobs to power-off or terminate the unused resources.
 -   **[Resize resources with Rightsizing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/resize-res-ci.md)**  
@@ -43,5 +45,5 @@ Set up or update the preferred currency options for your cloud cost and usage da
 -   **[Compare MetricBase data with spend data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/compare-metricbase-spend.md)**  
 Compare MetricBase \(Clotho\) data with your Spend data for Amazon Web Services \(AWS\), Microsoft Azure, and Google Cloud Platform \(GCP\) to diagnose and troubleshoot Cloud Cost Management billing issues.
 
-**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/it-asset-management.md)
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/asset-management-landing-page.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Configure the Employee Profile overview widget, Employee profile, Setup task management, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Configure the Employee Profile overview widget, Employee profile, Setup task management, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Overview section form
@@ -30,7 +30,7 @@ Name
 
 </td><td>
 
-Unique name that identifies the section. For example, About and Personal information. For navigation and other information, see [Configure the Employee Profile overview widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/config-employee-profile-widget.md)
+Unique name that identifies the section. For example, About and Personal information.
 
 </td></tr><tr><td>
 
@@ -84,4 +84,66 @@ Visibility settings for the section:-   Mobile only
 -   Desktop and mobile
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/emp-center-reference.md)
+
+**Related topics**  
+
+
+[Activity Configuration form]()
+
+[Activity Configuration Detail form]()
+
+[Approvals experience reference]()
+
+[Connected Content form]()
+
+[Default Employee Profile Header Configuration record]()
+
+[Employee Center widgets]()
+
+[Employee Profile form]()
+
+[Employee Profile Header Configuration form]()
+
+[Employee Profile portal configuration form]()
+
+[Employee Profile upgrade scenarios]()
+
+[Enhanced Requests Experience forms]()
+
+[External Link form]()
+
+[Featured Content form]()
+
+[Footer form]()
+
+[Footer Menus form]()
+
+[Guided Self-Service reference]()
+
+[Menu Item form]()
+
+[Portal notification configuration form]()
+
+[Portal notification content form]()
+
+[Trigger conditions form]()
+
+[Quick Link form]()
+
+[Tab widget mapping form]()
+
+[Taxonomy form]()
+
+[Topic form]()
+
+[User Criteria form]()
+
+[User Criteria output]()
+
+[Schedule appointment form]()
+
+[Location Consent form]()
+
+[Website configuration form]()
+

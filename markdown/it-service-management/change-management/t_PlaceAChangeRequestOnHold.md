@@ -7,7 +7,7 @@ release: zurich
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Process a change request, Use, Change Management, IT Service Management]
 ---
@@ -48,7 +48,7 @@ Change tasks inherit some state conditions from the parent change request they a
 
 4.  In the **On hold reason** field, enter the reason for placing the change request on hold.
 
-5.  Click **Update**.
+5.  Select **Update**.
 
 
 **Parent Topic:**[Process a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/t_ProcessAChangeRequest.md)

@@ -7,7 +7,7 @@ release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2025-12-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, SPW Jira Integrations, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -39,7 +39,7 @@ Role required: sn\_jira\_int.user
 
 ## Result
 
-After the State of the import request changes to Complete, all the work items from Jira would have been imported into Strategic Planning Workspace tables. This import is based on the mapping configuration defined for the project.
+After the State of the import request changes to Complete. All the work items from Jira would have been imported into Strategic Planning Workspace tables, based on the mapping configuration defined for the project.
 
 ## What to do next
 

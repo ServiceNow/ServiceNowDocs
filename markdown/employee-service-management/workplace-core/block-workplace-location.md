@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Core
 classification: workplace-core
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Manage, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_wsd\_core.admin
 
 ## About this task
 
-You can block a workplace location, such as a region, a site, campus, a building, a floor, an area, a room, or a space. When you block a location, the location is unavailable for any type of reservation on the Workplace Reservation Management Reservation portal. Because of the block action, any existing reservations made on the workplace location are automatically canceled.
+You can block a workplace location, such as a region, a site, a campus, a building, a floor, an area, a room, or a space. When you block a location, the location is unavailable for any type of reservation on the Workplace Reservation Management Reservation portal. Because of the block action, any existing reservations made on the workplace location are automatically canceled.
 
 You can also block a location directly. Open the location and select the **Block location** option on the form.
 

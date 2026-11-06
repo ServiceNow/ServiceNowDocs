@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/ccaas-call-resiliency.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [ICC for voice calls, Integrating with contact centers, Integrate, Customer Service Management]
+breadcrumb: [Enable ICC for CCaaS calls and callbacks, Configure voice, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Call resiliency
@@ -90,6 +90,4 @@ The call resiliency workflow improves the efficiency and reliability of handling
 
     A clear and efficient workflow enhances the agent's experience, making call and interaction management easier.
 
-
-For more information on ICC call features, see [Interaction Controls Component \(ICC\) call features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/interaction-controls-component-icc-call-interaction-features.md).
 

@@ -7,7 +7,7 @@ release: zurich
 product: Task Intelligence for ITSM
 classification: task-intelligence-for-itsm
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Task Intelligence for ITSM, IT Service Management]
 ---
@@ -18,7 +18,7 @@ You can install the Task Intelligence for ITSM application \(com.snc.itsm\_ml\_t
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [Task Intelligence for ITSM](https://store.servicenow.com/sn_appstore_store.do#!/store/application/7778b2352b5c0200c5244f74b4da153b) application listing in the ServiceNow Store for information on dependencies, licensing and subscription requirements, and release compatibility.
 -   Installing Task Intelligence for ITSM requires the ITSM Pro Package subscription.
 

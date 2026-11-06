@@ -1,20 +1,20 @@
 ---
 title: Install Journey designer
-description: Install the Journey designer \[sn\_jny\] application to enable administrators and managers to create and manage various professional and personal events and journeys.
+description: Install the Journey designer version 3 \[sn\_jny\] application to enable administrators and managers to create and manage various professional and personal events and journeys.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-designer/jny-install-version-3.html
 release: zurich
 product: Journey Designer
 classification: journey-designer
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Install Journey designer
 
-Install the Journey designer \[sn\_jny\] application to enable administrators and managers to create and manage various professional and personal events and journeys.
+Install the Journey designer version 3 \[sn\_jny\] application to enable administrators and managers to create and manage various professional and personal events and journeys.
 
 ## Before you begin
 
@@ -32,7 +32,9 @@ Role required: admin.
 
 ## About this task
 
-**Important:** The Journey designer app also installs the Journey Accelerator v6.2.2 \[sn\_ja\] \(JA\) application.
+Journey designer must be installed as a store application.
+
+**Important:** The Journey designer app also installs the Journey Accelerator \[sn\_ja\] \(JA\) application.
 
 ## Procedure
 

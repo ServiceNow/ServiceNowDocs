@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configure-special-handling-notes.html
 release: zurich
 topic_type: task
-last_updated: "2025-08-14"
+last_updated: "2026-10-14"
 reading_time_minutes: 1
 breadcrumb: [Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -16,11 +16,13 @@ Use special handling notes to bring important case information to an agent’s a
 
 ## Before you begin
 
-Role required: admin
+Role required: csm\_guided\_setup\_user or admin
 
 ## About this task
 
 Configure the desired entity tables to use special handling notes and then configure the corresponding forms to display either the Special Handling Notes list or pop-up window.
+
+**Note:** Demo and sample data plugins aren't included in the family-to-store migration. The Special Handling Notes Demo Data plugin has no store application and remains installed as a family plugin after you upgrade to Brazil. Its demo data is now delivered with Special Handling Instruction \(com.snc.app\_shn\).
 
 ## Procedure
 

@@ -7,7 +7,7 @@ release: zurich
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [AI in Compliance Case Management, Compliance Case Management, Governance, Risk, and Compliance]
 ---
@@ -121,7 +121,14 @@ AI-powered analysis of the case timeline and overall investigation effort.-   **
 -   **Investigation effort level**- Effort assessment ranked as low, medium, or high, based on case complexity, activity log, and timelines.
 
 </td></tr></tbody>
-</table>**Related topics**  
+</table>-   **[Activate the GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/compliance-case-management/activate-case-summarization-cocm.md)**  
+Activate the **GRC case summarization** skill from the AI Admin Hub to generate AI-powered summaries of compliance case records.
+-   **[Summarize a compliance case using GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/compliance-case-management/summarize-compliance-case.md)**  
+Use the GRC case summarization skill to generate an AI summary of a compliance case. The summary provides a consolidated view of a compliance case record.
+
+**Parent Topic:**[AI in Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/compliance-case-management/ai-compliance-case-mgmt.md)
+
+**Related topics**  
 
 
 [Activate the GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/activate-grc-case-summarization-skill.md)

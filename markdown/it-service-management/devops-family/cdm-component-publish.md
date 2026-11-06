@@ -7,7 +7,7 @@ release: zurich
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sharing components among applications — Component libraries, Using DevOps Config, DevOps Config, IT Service Management]
 ---
@@ -42,15 +42,15 @@ When a version is unpublished, it means that the component and its version can n
 
 6.  Publish or unpublish a version of the component.
 
-<table id="choicetable_ow3_zws_2xb"><thead><tr><th align="left" id="d425898e127">
+<table id="choicetable_ow3_zws_2xb"><thead><tr><th align="left" id="d348281e127">
 
 Option
 
-</th><th align="left" id="d425898e130">
+</th><th align="left" id="d348281e130">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d425898e136">
+</th></tr></thead><tbody><tr><td id="d348281e136">
 
 **Publish a version of a shared component**
 
@@ -58,7 +58,7 @@ Description
 
 Select an unpublished version from the list and select **Publish**.If there’s any existing published version of the component, then it’s unpublished before publishing the selected version. The **Published** value updates to **true**.
 
-</td></tr><tr><td id="d425898e156">
+</td></tr><tr><td id="d348281e156">
 
 **Unpublish a version of a shared component**
 

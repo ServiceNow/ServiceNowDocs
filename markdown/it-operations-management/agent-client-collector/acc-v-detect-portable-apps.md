@@ -7,10 +7,10 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Agent Client Collector, Agent Client Collector for Visibility, ACC for Visibility]
-breadcrumb: [ACC deployment - shared between servers and endpoints, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Detecting portable applications using push-based discovery
@@ -35,5 +35,5 @@ When the portable application is executed, it creates a running process. The app
 
 Name, Version, and Vendor attributes are fetched from the Portable software and are found in the appinfo.ini files. appinfo.ini is the mandatory file to execute any portable application. If SAM is installed, the information is displayed in Software installation \[cmdb\_sam\_sw\_install\] table. If SAM is not installed, the information shows in the Software instance \[cmdb\_software\_instance\] table.
 
-**Parent Topic:**[Agent Client Collector deployment - shared between servers and endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-shared-deployment.md)
+**Parent Topic:**[Deploying Agent Client Collector on both servers and endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-shared-deployment.md)
 

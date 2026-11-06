@@ -7,10 +7,10 @@ release: zurich
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Now Assist, generative AI]
-breadcrumb: [Creating AI assets, Use, AI Control Tower \(legacy\), Enable AI experiences]
+breadcrumb: [Creating AI assets, Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create AI model assets
@@ -31,7 +31,7 @@ An AI model is a program that is trained to process data and generate outputs, s
 
 2.  From the AI Control Tower, open the AI assets view.
 
-3.  From the navigation menu of the AI assets view, navigate toeither **AI asset inventory - Managed** &gt; **AI Models**or **AI asset inventory - Unmanaged** &gt; **AI Models**.
+3.  From the navigation menu of the AI assets view, navigate to either **AI asset inventory - Managed** &gt; **AI Models** or **AI asset inventory - Unmanaged** &gt; **AI Models**.
 
 4.  Select **Add AI model**.
 

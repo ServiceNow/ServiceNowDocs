@@ -7,9 +7,9 @@ release: zurich
 product: System Localization
 classification: system-localization
 topic_type: reference
-last_updated: "2026-06-25"
-reading_time_minutes: 4
-breadcrumb: [System Localization reference, System Localization, Translation and localization, Configure core features, Administer]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [System Localization reference, System Localization, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # System Localization properties
@@ -126,6 +126,30 @@ Determines the system's default currency into which all prices are automatically
 -   Learn more: [Locale settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/currency-administration/locales.md)
 
  **Note:** After you have set a value on this system property and your system has gone into production, do not change this value. If a user's locale must be changed, update the "Country code" field on the user record.
+
+</td></tr><tr><td>
+
+Determines whether the platform displays dates and times formatted according to the user's locale.
+
+ **glide\_i18n.date.default\_to\_locale**
+
+</td><td>
+
+Determines whether the platform displays dates and times formatted according to a user's locale when no date or time format has been selected in user preferences. If this option isn't enabled, dates and times are formatted using patterns set in the **glide.sys.date\_format** and **glide.sys.time\_format** properties. -   Options: Yes \| No
+-   Default value: No
+-   Learn more: [Locale settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/currency-administration/locales.md)
+
+</td></tr><tr><td>
+
+For guest users, enables using their IP address to try to set the user's initial language.
+
+ **glide\_i18n.ip\_geolocation**
+
+</td><td>
+
+Determines the platform's default language used from the country associated with the user's IP address if locale can't be determined from other settings. If this option isn't enabled, the platform language defaults to English for guest users whose locale can't be determined.-   Options: Yes \| No
+-   Default value: No
+-   Learn more: [Locale settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/currency-administration/locales.md)
 
 </td></tr><tr><td>
 

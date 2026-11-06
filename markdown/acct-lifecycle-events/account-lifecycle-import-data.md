@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-import-data.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Data capture and validation, Set up playbook, Account onboarding, Configure, Customer Success Management]
+breadcrumb: [Data capture and validation, Account onboarding playbook, Manage account onboarding cases, Account onboarding, Use, Customer Success Management]
 ---
 
 # Import data into the account onboarding playbook
@@ -16,7 +16,7 @@ As part of the Customer Success Management process, you can import, configure, a
 
 ## Before you begin
 
--   Role required: admin
+-   Role required: sn\_acct\_lc.onb\_agent
 
 ## About this task
 
@@ -30,13 +30,15 @@ To import data into these default tables, follow these steps:
 
 2.  In the Upload files window, select **Add file**, select the file and then select **Upload**.
 
-    **Note:** Verify that the XLSX file contains the accurate data that passes all the pre-defined validation checks or any custom validations that have been defined.
+    **Note:** Verify that the XLSX or csv file contains the accurate data that passes all the pre-defined validation checks or any custom validations that have been defined.
 
-    The uploaded file appears in the Upload &amp; process file page. You can upload multiple files. For each uploaded file, the name of the file, the date on which it was uploaded, the person who uploaded the file, and upload status \(Unprocessed\) is displayed.
+    The uploaded XLSX or csv file appears in the Upload &amp; process file page.
+
+    You can upload multiple files. For each uploaded file, the name of the file, the date on which it was uploaded, the person who uploaded the file, and upload status \(Unprocessed\) is displayed.
 
 3.  Select one or more files to be uploaded, and select **Process files**.
 
-    If any of the files being uploaded contains validation errors, none of the files get uploaded to the staging table, and an error message is displayed. You must fix all the errors before uploading the files. If there are no validation errors, you see a message indicating that files are being uploaded and once the process is complete, the upload status changes to `Processed`.
+    If any of the files being uploaded contains validation errors, none of the files get uploaded to the staging table, and an error message is displayed. You must fix all the errors before uploading the files. If there are no validation errors, you’ll see a message indicating that files are being uploaded and once the process is complete, the upload status changes to `Processed`.
 
 4.  Navigate to the `Validate records` tab.
 
@@ -46,6 +48,8 @@ To import data into these default tables, follow these steps:
     -   Needs attention: Records in this state have some issues that must be addressed.
     -   Yet to validate: Records in this state haven’t been validated.
 6.  Review the records in the **Needs attention** state, verify the information in the Comment column, and modify the record if necessary, and select **Save**.
+
+    All the errors must be fixed to move to yet to validate state.
 
 7.  After editing the record, navigate to the **Yet to validate** list, and select **Validate**.
 

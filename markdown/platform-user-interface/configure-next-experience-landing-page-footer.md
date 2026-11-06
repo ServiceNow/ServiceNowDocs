@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/configure-next-experience-landing-page-footer.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Landing pages, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -45,6 +45,8 @@ The footer is hidden by default. To configure the footer, you enable it in UI Bu
 7.  In the Client state parameters section, clear the **hideResourcesSection** initial value check box.
 
     This action enables the landing page footer.
+
+    \[Omitted image "disable-hideresourcessection-param.png"\] Alt text:
 
 8.  Select the **Apply**.
 

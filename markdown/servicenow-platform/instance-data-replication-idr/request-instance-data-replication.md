@@ -7,7 +7,7 @@ release: zurich
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Instance Data Replication, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -93,5 +93,5 @@ Plan your replication strategy. See [Preparing for Instance Data Replication](ht
 **Related topics**  
 
 
-[List of plugins \(Zurich\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/list-of-plugins.md)
 

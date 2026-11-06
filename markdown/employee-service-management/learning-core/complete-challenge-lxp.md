@@ -7,9 +7,9 @@ release: zurich
 product: Learning Core
 classification: learning-core
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a Learning challenge, Use, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Create a Learning challenge, Using My Learning, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Complete a learning challenge
@@ -36,4 +36,6 @@ Role required: no role required
 ## Result
 
 The current challenge will be completed, but you can always revisit it under the **Activity** tab.
+
+**Parent Topic:**[Create a Learning challenge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/learning-challenge.md)
 

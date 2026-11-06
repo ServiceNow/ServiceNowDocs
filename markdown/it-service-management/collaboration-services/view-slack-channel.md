@@ -7,9 +7,9 @@ release: zurich
 product: Collaboration Services
 classification: collaboration-services
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Collaboration services, IT Service Management]
+breadcrumb: [Slack integration - Incident Management, Collaboration services, IT Service Management]
 ---
 
 # View or join slack channel from an incident
@@ -47,9 +47,4 @@ The system property **sn\_tcm\_collab\_hook.slack\_on\_task** enables the slack 
 
 6.  To import messages from any slack channel, click **Import messages**.
 
-
--   **[Add form section to view slack channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/collaboration-services/add-slack-channels-section.md)**  
-View unarchived slack channels associated with an incident in the form section. The form section saves you the effort of opening the available channel list manually from the related list.
-
-**Parent Topic:**[Configuring Collaboration services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/collaboration-services/configuring-collab-services.md)
 

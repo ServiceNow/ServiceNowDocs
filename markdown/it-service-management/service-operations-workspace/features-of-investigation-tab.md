@@ -7,9 +7,9 @@ release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Incident Management in Service Operations Workspace reference, Incident Management in Service Operations Workspace, Operate, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Incident Management in Service Operations Workspace reference, Incident Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Features of the Investigation tab
@@ -47,7 +47,7 @@ The metrics data includes the following information:
     This link is available to the agent only if the following conditions are met:
 
     -   The selected CI is of type Device, which is also known as Endpoint.
-    -   The DEX plugin is installed on the instance. For more information on DEX, see [Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/dex-landing.md).
+    -   The DEX plugin is installed on the instance. For more information on DEX, see .
     -   The DEX agent is installed on the selected CI.
 -   Asset utilization: Utilization of the assets for the CI. The following information is displayed along with the date and time:
 

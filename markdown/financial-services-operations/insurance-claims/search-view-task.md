@@ -7,9 +7,9 @@ release: zurich
 product: Insurance Claims
 classification: insurance-claims
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Add an ad-hoc task, Use, Commercial Lines Claims, Claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Add an ad-hoc task, Use, Commercial Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # View ad-hoc and system generated tasks for a claim

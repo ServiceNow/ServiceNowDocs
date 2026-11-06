@@ -7,7 +7,7 @@ release: zurich
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuration tasks for knowledge demand insights, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,7 +22,7 @@ This task describes the process for configuring a scheduled job.
 
 Instead of doing the configuration through this procedure, consider using a guided setup. Navigate to **Knowledge** &gt; **Administration** &gt; **Guided Setup**, click **Get Started**, and then scroll to the Knowledge Demand Insights section.
 
-Ensure that you have configured a similarity type and clustering type solution definitions for a task type. For more information, see [Configure solution definitions to find gaps in a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/configure-km-solution-defintions.md).
+Ensure that you have configured a similarity type and clustering type solution definitions for a task type. For more information, see [Configure solution definitions to find gaps in a knowledge base]().
 
 Role required: admin
 
@@ -67,5 +67,5 @@ Set the frequency of the scheduled job for your task. For more information, see 
 **Related topics**  
 
 
-[Configure solution definitions to find gaps in a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/configure-km-solution-defintions.md)
+[Configure solution definitions to find gaps in a knowledge base]()
 

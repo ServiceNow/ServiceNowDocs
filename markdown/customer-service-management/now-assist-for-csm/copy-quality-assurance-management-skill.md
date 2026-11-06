@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-02-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Automated quality assurance, Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -23,7 +23,7 @@ Role required: Admin
 
 ## About this task
 
-The skills that come with the AI applications have default configurations that are optimized to serve the most common use cases. If you want to change the skill settings, you can edit a skill with the  or you can create a copy of the skill. Creating a copy leaves the original skill configuration intact in case that you want to use it later or want to create another copy from the original. You can activate and configure the copies of the skills by using the same guided setup as the default skills. This process verifies that all skill settings, parameters, and configurations are properly replicated before activation.
+The skills that come with the AI applications have default configurations that are optimized to serve the most common use cases. If you want to change the skill settings, you can edit a skill with the AI Admin Hub or you can create a copy of the skill. Creating a copy leaves the original skill configuration intact in case that you want to use it later or want to create another copy from the original. You can activate and configure the copies of the skills by using the same guided setup as the default skills. This process verifies that all skill settings, parameters, and configurations are properly replicated before activation.
 
 **Note:** In a default scenario, only one version of a skill can be active at a time. If you create and activate a copy of the skill, any previously activated version of the skill is deactivated.
 
@@ -31,11 +31,11 @@ The skills that come with the AI applications have default configurations that a
 
 1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Skills**.
 
-    If you’re already in the , select the **AI Skills** tab.
+    If you're already in the AI Admin Hub, select the **AI Skills** tab.
 
 2.  In the navigation pane, select the **Customer** workflow, and **CSM** as the product.
 
-3.  On the feature card that contains the default Automated quality assurance skill, select **Options** icon \[Omitted image "csm-ws-dashboards-more-actions-icon.png"\].
+3.  On the feature card that contains the default Automated quality assurance skill, select **Options** icon \[Omitted image "csm-ws-dashboards-more-actions-icon.png"\] Alt text: More options.
 
 4.  Select **Make a copy**.
 

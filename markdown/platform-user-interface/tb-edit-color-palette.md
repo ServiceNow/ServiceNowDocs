@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/tb-edit-color-palette.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [add alternate color, alternate color palette, customize a theme, create alternate color theme]
 breadcrumb: [Manage or edit a theme, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
@@ -15,13 +15,11 @@ breadcrumb: [Manage or edit a theme, Configuring Next Experience with Theme Buil
 
 Customize a Theme Builder theme by creating an alternate color palette for the theme and publishing it to your instance.
 
-## About this task
-
-An alternate color palette enables you to create additional color schemes beyond the primary theme colors.
-
 ## Before you begin
 
-Role required: admin
+Role required: ui\_builder\_admin
+
+For information on granular roles, see .
 
 You can also watch a short video on how to create an alternate color palette.
 
@@ -39,11 +37,9 @@ You can also watch a short video on how to create an alternate color palette.
 
     **Important:** When you have selected the theme you want to work on, verify that you have selected the correct scope for the theme from the application scope picker.
 
-    \[Omitted image "tb-available-themes.png"\] Alt text: Manager page view with available published themes.
-
 3.  Select the theme to which you want to add an alternate color palette to.
 
-    -   For published or unpublished themes without an alternate color palette already defined, select the More actions icon \(\[Omitted image "tb-more-actions.png"\] Alt text:\), and select **Add alternate color palette**.\[Omitted image "tb-select-alt-color-pal.png"\] Alt text: Add an alternate color palette.
+    -   For published or unpublished themes without an alternate color palette already defined, select the More actions icon \[Omitted image "tb-more-actions.png"\] Alt text:, and select **Add alternate color palette**.\[Omitted image "tb-select-alt-color-pal.png"\] Alt text: Add an alternate color palette.
     -   For a published or unpublished theme group, which has alternate color palettes defined, navigate to the Edit drop-down list and select **Add an alternate color palette**.
     The alternate color palette wizard appears.
 
@@ -52,8 +48,6 @@ You can also watch a short video on how to create an alternate color palette.
 4.  Enter a **Theme group name** and the **Color Palette name**, then choose from either **Light Palette** or **Dark Palette**.
 
 5.  Select **Create color palette**.
-
-    **Note:** The alternate color palette uses the same font, shapes, and logo as the primary theme. To edit those styles, edit the primary theme.
 
     The Editor page for the current palette appears.
 
@@ -67,7 +61,7 @@ You can also watch a short video on how to create an alternate color palette.
 
 ## Result
 
-The alternate color palette is added to your primary theme. The theme name now appears as a theme group with the palette recorded under the Color palette drop-down list.\[Omitted image "tb-color-palette-list.png"\] Alt text: Color palette drop-down list.
+The alternate color palette is added to your core theme. The theme name now appears as a theme group with the palette recorded under the Color palette drop-down list.\[Omitted image "tb-color-palette-list.png"\] Alt text: Color palette drop-down list.
 
 If your theme is currently published, your alternate color palette is available for selection in the user's Theme preferences. For information on publishing your theme, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/tb-apply-theme.md).
 

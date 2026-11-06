@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Services Kiosk
 classification: workplace-services-kiosk
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage, Workplace Services Kiosk, Workplace Service Delivery, Employee Service Management]
 ---
@@ -22,7 +22,7 @@ You can access the kiosk page by using the following URL: `https://<instance nam
 
 \[Omitted image "wsd-kiosk-home.png"\] Alt text: Kiosk setup welcome page. Kiosk operators can configure and select a kiosk to bind it to a physical device.
 
-**Parent Topic:**[Manage Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-services-kiosk/manage-workplace-services-kiosk.md)
+**Parent Topic:**[Managing Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-services-kiosk/manage-workplace-services-kiosk.md)
 
 ## Select a kiosk for a device
 
@@ -73,15 +73,15 @@ Role required: sn\_wsd\_kiosk.operator
 
 2.  On the Kiosk setup page, select any of the following options.
 
-<table id="choicetable_qxc_hnq_pbc"><thead><tr><th align="left" id="d154878e265">
+<table id="choicetable_qxc_hnq_pbc"><thead><tr><th align="left" id="d156607e265">
 
 Option
 
-</th><th align="left" id="d154878e268">
+</th><th align="left" id="d156607e268">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d154878e274">
+</th></tr></thead><tbody><tr><td id="d156607e274">
 
 **Remove Kiosk**
 
@@ -89,7 +89,7 @@ Description
 
 Remove the assigned kiosk from the device.
 
-</td></tr><tr><td id="d154878e283">
+</td></tr><tr><td id="d156607e283">
 
 **Change Kiosk**
 
@@ -107,7 +107,7 @@ Assign a different kiosk to the device by following these steps:1.  Select **Cha
 
 Security features of Google Chrome on iOS don't allow permanent camera access to websites, therefore, camera-related functions of the kiosk are disabled.
 
-</td></tr><tr><td id="d154878e324">
+</td></tr><tr><td id="d156607e324">
 
 **Update Kiosk**
 

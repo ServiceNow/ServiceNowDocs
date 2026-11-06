@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/dashboards-glossary.html
 release: zurich
 topic_type: concept
-last_updated: "2026-05-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [dashboard glossary, dashboard terms, bookmark dashboard, dashboard category, certified dashboard, dashboard, data visualization, dashboard element, dashboard filter, filter group, inline editor, dashboard editor, Platform Analytics library, dashboards library, dashboard tab, top stage, dashboard top stage, widget, dashboard widget]
 breadcrumb: [Dashboards, Platform Analytics experience, Platform Analytics]

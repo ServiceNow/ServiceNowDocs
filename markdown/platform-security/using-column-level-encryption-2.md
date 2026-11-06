@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/using-column-level-encryption-2.html
 release: zurich
 topic_type: concept
-last_updated: "2026-02-01"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Column Level Encryption, Encryption]
 ---
 
@@ -17,7 +17,7 @@ Use Column Level Encryption to manage access to encrypted data on your instances
 Use the related links to find information on common Field Encryption tasks.
 
 -   **[Create cryptographic module for Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/create-PE-cryptographic-module-2.md)**  
-Create a Column Level Encryption cryptographic module to define the mechanisms used for cryptographic operations.
+Create a Field Encryption cryptographic module to define the mechanisms used for cryptographic operations.
 -   **[Encrypt data using the Multiple Modules feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/encrypt-data-using-multiple-modules-feature.md)**  
 Encrypt data with more than one encryption module permitting the user to determine which keys are used for specific rows within the encrypted data.
 -   **[Create a cryptographic specification for Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/create-crypto-spec-pe-2.md)**  
@@ -28,7 +28,7 @@ Create a cryptographic specification to define the algorithm for a cryptographic
 You can use your own customer-supplied key instead of using the ServiceNow® system-generated keys.
 -   **[Encrypting fields and attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/field-encryption-key-management.md)**  
 Once cryptographic modules are created, a security admin can define the encrypted fields configuration \(EFC\) and opt to encrypt a field or attachment on a table.
--   **[Column Level Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/kmf-walkthrough-tutorials-2.md)**  
+-   **[Column Level Encryption Enterprise examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/kmf-walkthroughs-tutorials-2.md)**  
 These examples walk you through the encryption of fields and attachments using customer-supplied keys.
 
 **Parent Topic:**[Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/column-level-encryption-landing.md)
@@ -45,6 +45,4 @@ These examples walk you through the encryption of fields and attachments using c
 [Configure properties for customer-supplied keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/customer-supplied-keys.md)
 
 [Encrypting fields and attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/field-encryption-key-management.md)
-
-[Column Level Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/kmf-walkthrough-tutorials-2.md)
 

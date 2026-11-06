@@ -7,9 +7,9 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Analytics and Reporting, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Analytics and Reporting solutions for GRC: Policy and Compliance Management, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # NIST Framework Profiling Overview dashboard

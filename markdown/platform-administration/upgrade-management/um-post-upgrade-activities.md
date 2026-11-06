@@ -7,9 +7,9 @@ release: zurich
 product: Upgrade Management
 classification: upgrade-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 5
-breadcrumb: [Access guided upgrade on a non-production instance, Configure, Upgrade Console, Upgrade, Administer]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Access guided upgrade on a non-production instance, Configure, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
 # Implement post-upgrade activities on a non-prod instance
@@ -20,7 +20,7 @@ Implement the post-upgrade tasks for a successful upgrade completion on your ins
 
 **Note:** You will be able to perform the post-upgrade tasks only after completing the pre-upgrade and instance upgrade tasks.
 
-Role required: admin
+Role required: upgrade\_admin
 
 ## Procedure
 
@@ -57,6 +57,25 @@ Role required: admin
         -   Apps updated: Total apps that got upgraded during the upgrade or post upgrade
         -   Apps to be updated: Total apps that have updates but are yet to be upgraded
         -   Scheduled Apps: Total selected apps for scheduled upgrade at later point of time
+    -   Otto update suite: Select **Suite Version** to select a suite version from the dropdown menu. The dropdown menu shows the suite versions available for the Otto App suite.
+
+        **Note:** Only the applications whose upgraded versions are available to be upgraded in the selected suite version are shown in the list. No new applications can be installed here. The applications that are already updated in the Preview application upgrade step are not listed in the list.
+
+        Select **Updated suite** if you want to upgrade all the applications mentioned in the list.
+
+        -   Application: Name of the application within the selected suite version
+        -   Current Version: Current version of the application
+        -   Latest Version: Latest available version of the application
+        -   Selected Version: Configured version of the application in the selected suite version
+        -   Status: Status of the application
+        **Note:** Downgrading of application versions is not allowed.
+
+        Select **All dependent apps and plugins** to see the calculated list of all dependent applications and plugins for the Otto update suite applications list.
+
+        \[Omitted image "uc-dependent-apps.png"\] Alt text:
+
+        For example, if you have 5 applications in the selected version of Otto update suite, the Otto update suite dependencies modal lists only the dependencies of these 5 applications.
+
     -   Upgrade store applications: List of applications that have been selected in the pre-upgrade stage and have updated versions available.
 
         \[Omitted image "um-store-app-upgrades.png"\] Alt text: Screenshot showing app updates
@@ -94,6 +113,7 @@ Role required: admin
         -   Generated: States if it has been generated or recently created
         -   Start time: States the start time of testing of the test suite
         -   Duration: States the total duration for the testing of the test suite
+    -   ATF troubleshooting agent: Select ATF troubleshooting agent to identify the root cause of test failures on specific metadata. See [ATF troubleshooting agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/atf-troubleshooting-agent-landing-page.md) for more information.
 4.  Prepare next environment.
 
     In this step, you can see the currently selected upgrade plan. You then prepare the update set and export it to the next production or non-production instance. This task is used to ensure that all necessary modifications are applied to the next production or non-production instance.

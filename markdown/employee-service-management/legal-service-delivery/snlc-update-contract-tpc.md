@@ -7,7 +7,7 @@ release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Third-party contract review requests, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -26,34 +26,34 @@ Role required: sn\_lg\_ops.legal\_user and sn\_cm\_core.contract\_user
 
 1.  Open the third-party contract review request.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d779801e83">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d791452e83">
 
 Method
 
-</th><th align="left" id="d779801e86">
+</th><th align="left" id="d791452e86">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d779801e92">
-
-**Using Legal Service Portal**
-
-</td><td>
-
-1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Service Portal**
-2.  Select the **My Requests** option on the header menu.
-3.  Select **View all requests**.
-4.  Open your submitted legal request from the list.
-5.  On the Standard Ticket page, from the Actions menu, select **Edit Request**.
-
-
-</td></tr><tr><td id="d779801e141">
+</th></tr></thead><tbody><tr><td id="d791452e92">
 
 **Employee Center**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Self-Service** &gt; **Employee Center**
+2.  Select the **My Requests** option on the header menu.
+3.  Select **View all requests**.
+4.  Open your submitted legal request from the list.
+5.  On the Standard Ticket page, from the Actions menu, select **Edit Request**.
+
+
+</td></tr><tr><td id="d791452e140">
+
+**Using Legal Service Portal**
+
+</td><td>
+
+1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Service Portal**
 2.  Select the **My Requests** option on the header menu.
 3.  Select **View all requests**.
 4.  Open your submitted legal request from the list.

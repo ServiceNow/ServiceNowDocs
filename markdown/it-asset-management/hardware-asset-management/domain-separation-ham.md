@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Reference, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Reference, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Domain separation and Hardware Asset Management
@@ -41,6 +41,8 @@ In HAM, domain separation occurs in two stages: data separation and process sepa
 **Note:**
 
 The [Recommended practice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/bp-domain-sep-recommended.md) is to avoid customizing the base system domain configuration record.
+
+\[Omitted image "ham-multitenant.png"\] Alt text: Multi-tenant support for IT Asset Management
 
 ## Required plugins
 

@@ -7,9 +7,9 @@ release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Set up Telecom Visibility, Configure, Telecommunications Service Operations Management]
+breadcrumb: [Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
 
 # Install Horizontal Discovery and set up Discovery Patterns
@@ -28,14 +28,14 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 Dependencies and Requirements:
 
--   Telecom Core \(sn\_tsom\_core\)
+-   Telecom Visibility Core \(sn\_tsom\_core\)
 -   Discovery Core plugin \(com.snc.discovery.core\), which is automatically installed by Discovery.
 -   ITOM Discovery License plugin \(com.snc.itom.discovery.license\). You must activate this plugin.
 -   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/t_ActivateTheDiscoveryPlugin.md).
 
 Pattern execution logic: By default, when a TSOM pattern is run, it executes both the TSOM-specific and the corresponding ITOM pattern \(e.g., Telco Router runs Router\). This ensures shared ITOM libraries are reused when needed. To override this behavior:
 
--   Use the system property `sn_tsom_patterns.itom_pattern_enabled`.
+-   Use the system property sn\_tsom\_patterns.itom\_pattern\_enabled.
 -   Setting this property to false ensures only the TSOM-specific pattern is executed.
 
 ## Procedure

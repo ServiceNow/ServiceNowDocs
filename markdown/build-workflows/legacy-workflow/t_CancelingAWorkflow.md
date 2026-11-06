@@ -7,7 +7,7 @@ release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: task
-last_updated: "2026-07-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Administering workflow contexts, Workflow administration, Classic Workflow, Build workflows]
 ---
@@ -67,7 +67,7 @@ Role required: admin
 
 ### About this task
 
-For more information, see the .
+For more information, see the [Workflow - cancelContext\(GlideRecord context\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_Workflow_api.md).
 
 ## Define an on-cancel script
 

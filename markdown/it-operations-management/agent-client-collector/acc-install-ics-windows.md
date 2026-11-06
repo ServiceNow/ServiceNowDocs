@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Installing MID-less ACC, Configuring MID-less ACC, ACC deployment - endpoints, Agent Client Collector, IT Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Installing MID-less ACC, Configuring MID-less ACC, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Install MID-less Agent Client Collector using a single-line command in a Windows environment
@@ -25,7 +25,7 @@ Install MID-less Agent Client Collector on a Windows machine to enable sending d
 
 ## About this task
 
-For details on sending data through the cloud in a MID-less deployment, see [DEX Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/dex-architecture.md).
+For details on sending data through the cloud in a MID-less deployment, see [DEX architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/dex-architecture.md).
 
 ## Procedure
 
@@ -40,70 +40,8 @@ For details on sending data through the cloud in a MID-less deployment, see [DEX
     msiexec /i <msi_file_path> /quiet /qn /norestart CONNECT_WITHOUT_MID="true" ACC_CNC="<gateway_endpoint>" REGISTRATION_KEY="<registration_key>" INSTANCE_URL="https://<instance_url>"
     ```
 
-    The following table shows the parameter values in the command.
+    For details on the parameter values in the command, see [Agent Client Collector MID-less installation command parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-ics-command-params.md).
 
-<table id="table_usf_fpf_wfc"><thead><tr><th>
 
-Parameter
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-CONNECT\_WITHOUT\_MID
-
-</td><td>
-
-Specify **true** to enable MID-less Agent Client Collector installation. If you don't specify a value, the regular MID Server websocket installation is invoked.
-
-</td></tr><tr><td>
-
-ACC\_CNC
-
-</td><td>
-
-Specify a public gateway endpoint for Agent Client Collector.
-
-</td></tr><tr><td>
-
-REGISTRATION\_KEY
-
-</td><td>
-
-Active and valid registration key for the agent to communicate with.
-
-</td></tr><tr><td>
-
-INSTANCE\_URL
-
-</td><td>
-
-ServiceNow instance that the agent is registered with.
-
-</td></tr><tr><td>
-
-ACC\_ALLOW\_LIST
-
-</td><td>
-
-Optional string. To disable the allow list, set **ACC\_ALLOW\_LIST=0**. By default, the allow list is enabled.**Note:** Disabling the allow list compromises your system's security and is intended as a temporary measure while you’re updating the allow list. After completing the update, enable the allow list by setting **ACC\_ALLOW\_LIST=1**.
-
-</td></tr><tr><td>
-
-ACC\_VALIDATE\_SIG
-
-</td><td>
-
-Optional string. To disable verification of the installer certification validation, set **ACC\_VALIDATE\_SIG=0** that you can add to disable the verification of the installer certification validation. By default, validation is enabled.**Note:** Disable the certification validation only when using non-standard signature validation tools.
-
-</td></tr></tbody>
-</table>
 **Parent Topic:**[Installing MID-less Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-itom-cloud-services.md)
-
-**Related topics**  
-
-
-[Agent Client Collector MID-less installation command parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-ics-command-params.md)
 

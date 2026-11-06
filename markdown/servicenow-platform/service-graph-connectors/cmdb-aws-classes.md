@@ -7,7 +7,7 @@ release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: reference
-last_updated: "2026-03-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 17
 breadcrumb: [AWS, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -501,22 +501,6 @@ The following attributes in the Image \[cmdb\_ci\_os\_template\] table are popul
 |------------|-----------------|-----------|
 |Image \[cmdb\_ci\_os\_template\]|Hosted on::Hosts|AWS Datacenter \[cmdb\_ci\_aws\_datacenter\]|
 |Image \[cmdb\_ci\_os\_template\]|Reference|Key Value|
-
-## Instance Scale Set \[cmdb\_ci\_instance\_scale\_set\]
-
-The following attributes in the Instance Scale Set \[cmdb\_ci\_instance\_scale\_set\] table are populated by collected data:
-
-|Attribute label|Attribute name|
-|---------------|--------------|
-|Name|name|
-|Object ID|object\_id|
-|Install Status|install\_status|
-|Operational status|operational\_status|
-|State|state|
-
-|Parent class|Relationship type|Child class|
-|------------|-----------------|-----------|
-|Instance Scale Set \[cmdb\_ci\_instance\_scale\_set\]|Hosted on::Hosts|Azure Datacenter \[cmdb\_ci\_azure\_datacenter\]|
 
 ## Instance Scale Set \[cmdb\_ci\_instance\_scale\_set\]
 
@@ -1156,7 +1140,6 @@ The following attributes in the Virtual Machine Instance \[cmdb\_ci\_vm\_instanc
 |Virtual Machine Instance \[cmdb\_ci\_vm\_instance\]|Reference|Key Value \[cmdb\_key\_value\]|
 |Virtual Machine Instance \[cmdb\_ci\_vm\_instance\]|Contains::Contained by|Storage Volume \[cmdb\_ci\_storage\_volume\]|
 |Virtual Machine Instance \[cmdb\_ci\_vm\_instance\]|Use End Point To::Use End Point From|Cloud Mgmt Network Interface \[cmdb\_ci\_nic\]|
-|Virtual Machine Instance \[cmdb\_ci\_vm\_instance\]|Managed by::Manages|Instance Scale Set \[cmdb\_ci\_instance\_scale\_set\]|
 |Virtual Machine Instance \[cmdb\_ci\_vm\_instance\]|Managed by::Manages|Instance Scale Set \[cmdb\_ci\_instance\_scale\_set\]|
 
 ## VNIC Endpoint \[cmdb\_ci\_endpoint\_vnic\]

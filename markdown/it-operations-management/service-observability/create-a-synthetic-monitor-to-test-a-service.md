@@ -7,7 +7,7 @@ release: zurich
 product: Service Observability
 classification: service-observability
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use synthetic monitoring with Service Observability, Customize dashboard templates, Configuring Service Observability, Service Observability, ITOM AIOps, IT Operations Management]
 ---
@@ -42,6 +42,4 @@ Role required: n\_sow\_svcobs.admin, sn\_sow\_synthetics.synthetics\_admin
 Once you create the monitor, it begins running tests. View the results of those tests to verify the results before embedding synthetic monitoring into a Service Observability dashboard. For more information about viewing monitor test results, see [Identifying system issues with synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/identifying-system-issues.md).
 
 Once you have expected results, move on to [Add synthetic monitor results to a Service Observability dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/add-synthetic-monitor-results-to-a-service-observability-dashboard.md).
-
-**Parent Topic:**[Use synthetic monitoring with Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/use-synthetic-monitoring-with-service-observability.md)
 

@@ -82,6 +82,14 @@ Report types can include:
 -   Linkage report showing documents associated with assessments, engagements, and tasks.
 -   Audit report for document actions and life-cycle events.
 
+## DMS and Smart assessment
+
+If you have the third‑party risk manager role \[sn\_vdr\_risk\_asmt.vendor\_risk\_manager\], you can access and use third‑party and engagement documentation during assessment activities. The Document Management System \(DMS\) works with SAE to make documents available during assessments. When a document is uploaded or updated in DMS, the system retrieves the file and associated metadata so the information can be made available during assessment activities.
+
+This capability reduces manual effort by ensuring that essential vendor documentation remains accessible throughout the assessment process, while still allowing users to review, edit, and finalize their responses.
+
+For more information, see [AI-assisted questionnaire pre-fill using the Document Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-dms-sae.md).
+
 ## ServiceNow Otto® document skills
 
 If your organization uses DMS and ServiceNow Otto for TPRM, you can leverage AI-driven skills to streamline document-heavy workflows. These capabilities reduce manual effort, improve accuracy, and accelerate risk tasks. ServiceNow Otto® in Document Management and ServiceNow Otto for TPRM offer the following key skills:
@@ -127,4 +135,6 @@ For more information on Now Assist for Document Management skills, see [Explore 
 [Exploring Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/explore-doc-management.md)
 
 [Explore Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/explore-now-assist-in-document-management.md)
+
+[bundle-platai.cu-explore-content-understanding]
 

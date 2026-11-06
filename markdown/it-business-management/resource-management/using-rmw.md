@@ -7,8 +7,8 @@ release: zurich
 product: Resource Management
 classification: resource-management
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 13
+last_updated: "2026-09-10"
+reading_time_minutes: 15
 keywords: [resource assignments, resource management, resource allocation]
 breadcrumb: [Use, Resource Management Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -190,6 +190,35 @@ For example, when you group a resource board by Primary Group to view the alloca
 
 **Note:** The efforts in the allocation modal are displayed in Hours.
 
+## Resource finder
+
+-   **AI-powered resource matching**
+
+    Resource Finder is a ServiceNow Otto for SPM skill that evaluates resources against the requirements of an unassigned assignment. The skill considers multiple dimensions simultaneously. These include whether a resource's planning attributes \(role, skills, or group\) align with the requirement of assignment, how much capacity the resource has during the assignment period. They also include the resource's historical allocation patterns compared to the requested effort.
+
+-   **Fit scoring**
+
+    The fit score is a percentage representing how closely a candidate resource matches the requirements of an unassigned assignment. Fit score blends attribute alignment, temporal availability, and workload balance into one number so that you can compare candidates at a glance.
+
+-   **AI-generated rationale**
+
+    Every recommended resource comes with a rationale which is a short and simple explanation of why the skill considers a resource as a good fit. The rationale references specific factors like availability windows and attribute matches.
+
+-   **Two operating modes**
+
+    The AI Resource Finder adapts its behavior based on whether the Now Assist AI skill is enabled on your instance.
+
+    With AI enabled, the experience is recommendation-driven. Candidates are ranked by fit score with rationale, and detailed availability data. You can view this using a toggle so the initial view stays focused on the AI insights. You can reveal period-by-period capacity whenever you want to cross-check the AI's recommendations against raw numbers.
+
+    Without AI enabled, the experience is data-driven. You see candidates listed with their availability data up front and a requested effort row appears immediately for side-by-side comparison. This mode functions as a streamlined staffing search tool without the scoring and reasoning layer.
+
+-   **Availability and effort comparison**
+
+    Resource Finder lists each candidate's available capacity against the effort the assignment requires, giving you a quick comparison view. Effort values honors the user preferences configured in your workspace such as hours, FTE, or person days on a weekly or monthly basis.
+
+    The availability heatmap uses color coding to make this comparison instant. A green cell means the resource has enough capacity to meet the requested effort for that period. A red cell means they fall short. For example, if the requested effort is 1 FTE per month and a candidate shows 1 for April and 0 for May. April appears green and May appears red, giving you the availability instantly without doing any mental math.
+
+
 ## Group resources on resource board
 
 The resource board provides a comprehensive list of resources, which are fetched depending on various resource attribute types, projects, and work items. You can group these resources to gain an accurate perspective on specific attributes, owner, or the parent items associated with the projects. You can group the resources by **Primary Group**, **Primary Role**, **Primary Skill**, **Owner** of the task, or **Parent Item** of the work.
@@ -210,7 +239,7 @@ Availability for terminated resources is automatically updated to 0 when you run
 
 -   **[Create a resource card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/rmw-create-rsrc-card.md)**  
 Create a custom resource card to view resources and unassigned tasks, and work on resource mapping for your persistent and focused portfolios.
--   **[Create resource assignments in Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/create-ra-rmw.md)**  
+-   **[Create resource assignments and operation resource assignments in Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/create-ra-rmw.md)**  
 Create and assign resource assignments and operation resource assignments from Resource Management Workspace.
 -   **[Copy a resource assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/copy-ra-rmw.md)**  
 Copy an existing resource assignment to create one with inherited values, then adjust the fields before submitting. This reduces repetitive data entry when similar assignments recur across plans.
@@ -222,7 +251,9 @@ Assign resource using the AI suggestions which match the skill-set and primary a
 Filter the unassigned work to view priority requests and assign them to resources. Quickly connect with the requester via Microsoft Teams to get additional insights and approve the assigned work using the inline editing feature.
 -   **[Extend or reduce duration of an assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/extend-reduce-assignment-time-rmw.md)**  
 Extend or reduce the duration of an assignment from the grid view in the Resource Management Workspace when the work duration shifts. The system updates the assignment dates and recalculates the allocated effort across the new date range based on the effort redistribution property.
--   **[Edit allocated efforts for tasks with actual hours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/edit-allocated-efforts-ra-rmw.md)**  
+-   **[End a resource assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/end-resource-assignment-rmw.md)**  
+End a resource assignment at a specific date to release a resource from a task before the planned end date. Future effort is removed and the heatmap updates to reflect the resource's availability.
+-   **[Edit allocated efforts for tasks with actual hours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/edit-actual-effrots-ra-rmw.md)**  
 Edit allocated efforts for tasks which have partial actual efforts logged directly from the grid view. This keeps reported time accurate without rolling back time entries through other channels.
 -   **[Move a resource assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/move-ra-rmw.md)**  
 Move a resource assignment to a different start and end dates depending on the availability of the resource.
@@ -233,7 +264,7 @@ Splitting a resource assignment at a specific date creates a resource assignment
 -   **[Manage resource allocations in Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/manage-resource-allocations-rmw.md)**  
 Manage resource allocations to change efforts, start and end dates, extend and so on to adjust resources based on their availability and the priority of the tasks.
 -   **[Export resource portfolio view to Excel or CSV format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/export-rmw-card-view.md)**  
-Export your resource portfolio view in Resource Management Workspace as Microsoft Excel or CSV format to review or share the resource status with stakeholders. This works even if they don't have access to your instance.
+Export your resource portfolio view in Resource Management Workspace as Microsoft Excel or CSV format to review or share the resource status with stakeholders, even if they don't have access to your instance.
 
 **Parent Topic:**[Use resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/use-resource-assignment.md)
 

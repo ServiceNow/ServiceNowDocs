@@ -7,8 +7,8 @@ release: zurich
 product: Continual Improvement Management
 classification: continual-improvement-management
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Overview, Continual Improvement Management, IT Service Management]
 ---
 
@@ -20,7 +20,7 @@ You can link multiple tasks from integrated applications to a single CIM task an
 
 ## Applications from which you can create Improvement Initiatives
 
--   [Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/benchmarks/benchmarks-landing.md)
+-   
 -   [Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/coaching/cf-coaching-landing.md)
 -   [Configuration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/manage-cmdb.md)
 -   [Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/c_CustomerServiceManagement.md)
@@ -31,7 +31,6 @@ You can link multiple tasks from integrated applications to a single CIM task an
 -   [Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/problem-management/c_ProblemManagement.md)
 -   [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/process-mining.md)
 -   [Survey Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/r_SurveyManagementLandingPage.md)
--   [Vendor Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/vendor-management-workspace/vendor-management-workspace-landing-page.md)
 
 For more information, see [Create improvement initiatives from integrated applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/create-improvmt-from-apps.md).
 
@@ -42,7 +41,7 @@ For more information, see [Create improvement initiatives from integrated applic
 -   Knowledge base article \([Create a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/create-knowledge-article.md)\)
 -   Demand record \([Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/c_DemandManagement.md)\)
 -   Project \([Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/c_ProjectApplicationOverview.md)\)
--   Story record \([Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/agile-landing-page.md)\)
+-   Story record \(Agile Development\)
 
 For more information, see [Create application records from improvement initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/create-app-records.md).
 
@@ -69,12 +68,8 @@ For more information, see [Create application records from improvement initiativ
 |Service Management|
 |Coaching|Coaching opportunity|X|X|
 
--   **[Create improvement initiatives from integrated applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/create-improvmt-from-apps.md)**  
-Create improvement initiatives from applications integrated with Continual Improvement Management to enable planning, implementation, monitoring, and impact assessment of improvements in a centralized framework.
--   **[Create application records from improvement initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/create-app-records.md)**  
-Create records for integrated applications from improvement initiatives or CIM tasks to transform improvement initiatives into broader, actionable efforts to enable improvements across teams and processes.
--   **[Configure CIM integration property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/configure-cim-int-property.md)**  
-Configure the CIM sn\_cim.initiative\_copy\_attributes integration property to define field values to be copied from an improvement initiative to application records that you create from the initiative.
+-   **[Integrate Continual Improvement Management using extension point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/integrate-extension-api.md)**  
+Integrate CIM with other applications by using the CIMIntegrationAPI extension point. It defines the inbound and outbound extension points for integrating CIM with other applications.
 
 **Parent Topic:**[Continual Improvement Management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/get-started-cim.md)
 

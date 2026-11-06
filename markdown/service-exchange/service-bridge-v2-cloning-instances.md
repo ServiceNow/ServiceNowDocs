@@ -1,20 +1,20 @@
 ---
 title: Reestablish connection after a clone for a provider
-description: After you clone Service Exchange, you must reestablish the connection between the provider and consumer instances.
+description: After you clone your instance, you must reestablish the connection between the provider and consumer instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/service-exchange/service-bridge-v2-cloning-instances.html
 release: zurich
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2025-09-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use for providers, Service Exchange for Providers, Service Exchange]
 ---
 
 # Reestablish connection after a clone for a provider
 
-After you clone Service Exchange, you must reestablish the connection between the provider and consumer instances.
+After you clone your instance, you must reestablish the connection between the provider and consumer instances.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ The clone must be completed. For more information on cloning, see [Instance Clon
 
 ## About this task
 
-After you clone your Service Exchange, the inbound and outbound connections move to an error state. You must reestablish the connection between provider and consumer target instances to promote proper functionality.
+After you clone your Service Exchange, the inbound and outbound connections move to an error or down state. You must reestablish the connection between provider and consumer target instances to promote proper functionality.
 
 ## Procedure
 
@@ -40,6 +40,8 @@ After you clone your Service Exchange, the inbound and outbound connections move
 
 5.  Activate inactive Capture Definitions.
 
+    **Note:** When the connection goes down after the clone, automatic mitigation can activate inactive capture definitions. Check the state of each capture definition before you change it.
+
     1.  Navigate to **All** &gt; **IntegrationHub** &gt; **Remote Process Sync** &gt; **Process Sync Definitions**.
 
     2.  Select the Service Exchange Provider Definition.
@@ -50,6 +52,8 @@ After you clone your Service Exchange, the inbound and outbound connections move
 ## Result
 
 The state of the Outbound and the Inbound fields changes to **Active**.
+
+**Parent Topic:**[Using Service Exchange for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/service-bridge-v2-administer.md)
 
 **Related topics**  
 

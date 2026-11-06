@@ -1,20 +1,20 @@
 ---
 title: Create a technology product case
-description: Customers can create a Product Support for Technology case to report an issue about the service from the Customer Service Portal.
+description: Customers can create a technology product case to report an issue about the service from the Customer Service Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/proactive-service-exp-workflows/product-support-for-technology/create-technology-product-case.html
 release: zurich
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Technology Product Support Case, Proactive Service Experience Workflows]
+breadcrumb: [Use, Technology Product Support Case, Product Support for Technology]
 ---
 
 # Create a technology product case
 
-Customers can create a Product Support for Technology case to report an issue about the service from the Customer Service Portal.
+Customers can create a technology product case to report an issue about the service from the Customer Service Portal.
 
 ## Before you begin
 
@@ -28,7 +28,7 @@ Role required: sn\_tech\_support.agent
 
 3.  In the **Categories**, select a **Support** category from the list.
 
-4.  Select **Create a Product support for technology Case**.
+4.  Select **Create a Technology Product Case**.
 
     Case form as been created using a record producer. For more information about how to create record producer, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/c_RecordProducer.md).
 
@@ -125,4 +125,6 @@ Displays the time zone of the user in the Contact field.
 
     When the service problem case is submitted, the stage is automatically set to **Verify** and state as **New**.
 
+
+**Parent Topic:**[Using Technology Product Support Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/use-technology-product-support-case.md)
 

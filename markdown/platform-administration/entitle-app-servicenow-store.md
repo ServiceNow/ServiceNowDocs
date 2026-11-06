@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/entitle-app-servicenow-store.html
 release: zurich
 topic_type: task
-last_updated: "2026-08-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [application entitlements, entitle instance, msp, managed service provider]
-breadcrumb: [Configure, ServiceNow Store, Administering applications, Get started, Administer]
+breadcrumb: [Configure, ServiceNow Store, Administering applications, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Block application entitlements from the ServiceNow Store

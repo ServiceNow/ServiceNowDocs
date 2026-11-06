@@ -7,7 +7,7 @@ release: zurich
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -26,7 +26,7 @@ Widget types include:
 
 -   **Reports**
 
-    Report visualizations are snapshots of your data that show the state of your information in real time. For more information, see [Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/reporting-landing-page.md).
+    Report visualizations are snapshots of your data that show the state of your information in real time. For more information, see [Core UI Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/reporting-landing-page.md).
 
 -   **Performance Analytics**
 

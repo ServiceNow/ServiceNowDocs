@@ -7,7 +7,7 @@ release: zurich
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with incidents in SRM, Working with SRM reliability tasks, Using Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
@@ -36,7 +36,7 @@ Role required: srm\_manager, srm\_responder, or srm\_admin
 
 4.  You have two options.
 
-<table id="choicetable_llb_1fq_vyb"><tbody><tr><td id="d409260e108">
+<table id="choicetable_llb_1fq_vyb"><tbody><tr><td id="d443822e110">
 
 **Option**
 
@@ -44,7 +44,7 @@ Role required: srm\_manager, srm\_responder, or srm\_admin
 
 Description
 
-</td></tr><tr><td id="d409260e117">
+</td></tr><tr><td id="d443822e119">
 
 **In the incident list view**
 
@@ -52,7 +52,7 @@ Description
 
 Double-click the **Assigned to** field for the incident and replace the team member from the list menu.
 
-</td></tr><tr><td id="d409260e129">
+</td></tr><tr><td id="d443822e131">
 
 **In the __Details__ tab of incident form**
 

@@ -1,22 +1,24 @@
 ---
 title: Localization on mobile devices
-description: ServiceNow mobile apps are localized in many languages, including both left-to-right and right-to-left languages. Additionally, you can customize non-default languages on the client-side. These features confirm that your translations remain consistent across your mobile applications.
+description: ServiceNow mobile apps are localized in many languages, including both left-to-right and right-to-left languages. Additionally, you can customize non-default languages on the client-side. These features verify that your translations remain consistent across your mobile applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/localization-mobile-device.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-10-04"
 reading_time_minutes: 2
-breadcrumb: [Considerations before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Localization on mobile devices
 
-ServiceNow mobile apps are localized in many languages, including both left-to-right and right-to-left languages. Additionally, you can customize non-default languages on the client-side. These features confirm that your translations remain consistent across your mobile applications.
+ServiceNow mobile apps are localized in many languages, including both left-to-right and right-to-left languages. Additionally, you can customize non-default languages on the client-side. These features verify that your translations remain consistent across your mobile applications.
+
+**Note:** For new customers on client version 22.2, only one language option is displayed to the user in the Settings menu. After users select Language in the menu they are navigated to the language accounts page. The single language option is displayed if you configure the property glide.sg.unify\_language\_settings and mark it as `true`. For more information, see .
 
 \[Omitted image "mobile-language-selector.png"\] Alt text: Mobile language selector
 
-ServiceNow mobile applications are localized from different sources, which means that there's a blending of localization visible inside native applications.
+ServiceNow mobile applications draw localized texts from multiple sources, which means that native apps may display a mix of localization methods.
 
 -   **Native localization**
 

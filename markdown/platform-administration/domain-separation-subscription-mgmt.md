@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/domain-separation-subscription-mgmt.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Reference, Subscription Management, Get started, Administer]
+breadcrumb: [Reference, Subscription Management, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Domain separation and Subscription Management
@@ -22,9 +22,11 @@ The support level is Basic but has some exceptions or special conditions.
 -   The user interface, cache keys, reporting, rollups, and aggregations all use the domain at production run time.
 -   The owner of the instance must be able to set up the application to function across multiple tenants.
 
+Sample use case: When an SP uses chat to respond to a tenant-customer’s message, the client must be able to see the SP's response.
+
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/domain-separated-apps.md).
 
-## Overview of domain separation inSubscription Management
+## Overview of domain separation in Subscription Management
 
 Subscription Management enables you to manage your subscriptions and monitor subscription usage on your instances. Domain separation is enabled for user-based subscriptionsand for monitoring Now Assist usage.
 

@@ -7,7 +7,7 @@ release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Coaching, Workforce Optimization for ITSM, IT Service Management]
 ---

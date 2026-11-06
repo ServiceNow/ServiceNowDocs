@@ -7,7 +7,7 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
@@ -32,5 +32,5 @@ The Create Physical Connection form enables you to review, create, and modify th
 **Related topics**  
 
 
-[Design your GPON Broadband Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/gpon-broadband-change-model.md)
+[Design and assign GPON broadband service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/gpon-broadband-service.md)
 

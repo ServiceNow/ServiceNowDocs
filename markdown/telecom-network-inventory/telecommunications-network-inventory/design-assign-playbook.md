@@ -7,7 +7,7 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Explore, Telecommunications Network Inventory]
 ---
@@ -82,12 +82,12 @@ Playbook admin \[playbook.admin\]
 
 </td><td>
 
-Uses the  application to author, configure, and monitor the Design and Assign function.
+Uses the [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio.md) application to author, configure, and monitor the Design and Assign function.
 
 </td></tr></tbody>
 </table>## Creating and configuring Design and Assign function for your network services
 
-You can create the Design and Assign function for various types of network services such as designing a Gigabyte Passive Optical Network \(GPON\) Broadband service. You can use ServiceNow AI Platform capabilities and Workflow Studio application to create and configure the Design and Assign function. To learn more, see [Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md).
+You can create the Design and Assign function for various types of network services such as designing a Gigabyte Passive Optical Network \(GPON\) Broadband service. You can use ServiceNow AI Platform capabilities and Workflow Studio application to create and configure the Design and Assign function. To learn more, see [Configuring Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md).
 
 ## Using Design and Assign function
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/create-new-quote.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
@@ -33,34 +33,62 @@ When you start a quote, a dialog box prompts you for quote information. You can 
 
 3.  On the **Create new quote** form, fill in the fields.
 
-<table id="choicetable_wss_lcm_11c"><thead><tr><th align="left" id="d124168e105">
+<table id="choicetable_wss_lcm_11c"><thead><tr><th align="left" id="d172935e114">
 
 To
 
-</th><th align="left" id="d124168e108">
+</th><th align="left" id="d172935e117">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d124168e114">
+</th></tr></thead><tbody><tr><td id="d172935e123">
 
 **Create quote for an account**
 
 </td><td>
 
-Select the **Account** and enter the following:-   Contact: Name of the primary customer contact.
--   Short description: Brief description of the quote for this account.
--   Expiration date: Date and time that the quote expires.
+Select the **Account** and enter the following:-   Expiration date: Date and time that the quote expires.
+-   Contact: Name of the primary customer contact.
+-   Route to market: Identifies the exact sales channel used to execute the deal:
+    -   Direct
+    -   Reseller
+    -   Distributor
+-   Deal type: Indicates the type of deal associated with the quote:
+    -   Direct: The seller engages directly with the customer, with no intermediary partner involved.
+    -   Indirect: The seller engages the customer through an intermediary, such as a reseller, service provider, or distributor.
 -   Channel partner: \(Optional\) The name of the organization selling a product or service.
+-   Short description: Brief description of the quote for this account.
 
 
-</td></tr><tr><td id="d124168e140">
+</td></tr><tr><td id="d172935e175">
 
 **Create quote for a consumer**
 
 </td><td>
 
-Select the **Consumer** name and enter the following:-   Short description: Brief description of the quote for this consumer.
+Select the **Consumer** name and enter the following:-   Deal type: Indicates the type of deal associated with the quote:
+    -   Direct: The seller engages directly with the customer, with no intermediary partner involved.
+    -   Indirect: The seller engages the customer through an intermediary, such as a reseller, service provider, or distributor.
+-   Channel partner: \(Optional\) The name of the organization selling a product or service.
 -   Expiration date: Date and time that the quote expires.
+-   Route to market: Identifies the exact sales channel used to execute the deal:
+    -   Direct
+    -   Reseller
+    -   Distributor
+-   Short description: Brief description of the quote for this consumer.
+
+
+</td></tr><tr><td id="d172935e223">
+
+**Create quote for a buyer organization**
+
+</td><td>
+
+Select the **Buyer Organization** and enter the following:-   Buyer organization member: Name of the buyer organization for which the quote is created.
+-   Channel partner: \(Optional\) The name of the organization selling a product or service.
+-   Short description: Brief description of the quote for this organization.
+-   Start Date: Start date of the quote.
+-   End Date: End date of the quote.
 
 
 </td></tr></tbody>

@@ -7,9 +7,9 @@ release: zurich
 product: Continual Improvement Management
 classification: continual-improvement-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Requesting improvements, Continual Improvement Management, IT Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Continual Improvement Management, IT Service Management]
 ---
 
 # Create an improvement request
@@ -59,7 +59,14 @@ As part of the improvement identification process, the incident manager analyzed
 |State|New|
 |Priority|4 - Low \(default\)|
 
-**Parent Topic:**[Requesting improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/cim-improvement-request.md)
+-   **[Create improvement initiatives from integrated applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/create-improvmt-from-apps.md)**  
+Create improvement initiatives from applications integrated with Continual Improvement Management to enable planning, implementation, monitoring, and impact assessment of improvements in a centralized framework.
+-   **[Create application records from improvement initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/create-app-records.md)**  
+Create records for integrated applications from improvement initiatives or CIM tasks to transform improvement initiatives into broader, actionable efforts to enable improvements across teams and processes.
+-   **[Configure CIM integration property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/configure-cim-int-property.md)**  
+Configure the CIM sn\_cim.initiative\_copy\_attributes integration property to define field values to be copied from an improvement initiative to application records that you create from the initiative.
+
+**Parent Topic:**[Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/cim-landing-page.md)
 
 **Related topics**  
 

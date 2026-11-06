@@ -1,20 +1,20 @@
 ---
 title: Create a variable set for Request cloud account catalog
-description: Customize the Request cloud account catalog by creating or editing variable sets. A variable set groups related variables into a single, reusable collection. Select only the necessary variables for specific cloud account requests to ensure a streamlined and uniform process.
+description: Customize the Request cloud account catalog by creating or editing variable sets. Build a variable set to group related variables into a single, reusable collection. Select only the necessary variables for specific cloud account requests to promote an organized and uniform process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-account-management/create-a-varaible-set-for-request-cloud-account.html
 release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2025-08-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up Cloud Account Management in Cloud Workspace, Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Create a variable set for Request cloud account catalog
 
-Customize the Request cloud account catalog by creating or editing variable sets. A variable set groups related variables into a single, reusable collection. Select only the necessary variables for specific cloud account requests to ensure a streamlined and uniform process.
+Customize the Request cloud account catalog by creating or editing variable sets. Build a variable set to group related variables into a single, reusable collection. Select only the necessary variables for specific cloud account requests to promote an organized and uniform process.
 
 ## Before you begin
 

@@ -7,7 +7,7 @@ release: zurich
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Getting started, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -18,13 +18,20 @@ The Workforce Optimization for ITSM Configurable Workspace plugin \(sn\_wfo\_cfg
 
 ## Before you begin
 
-**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM \(com.snc.wfo\_itsm\) is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+Plugins affected:
+
+-   Workforce Optimization for ITSM Configurable Workspace \(com.snc.sn\_wfo\_cfg\_itsm\).
+-   User Surveys in Workforce Optimization for ITSM \(com.snc.sn\_wfo\_usersurveys\). For more information, see [Surveys in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/surveys-wfo-itsm.md).
+-   Skills Review \(com.snc.sn\_wfo\_skill\_review\). For more information, see [Skills Management in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/skills-management-wfo-itsm.md).
+-   Work Scheduler \(com.snc.sn\_wfo\_work\_sched\). For more information, see [Work scheduler in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/work-scheduling-wfo-itsm.md).
 
 Role required: admin
 
 ## About this task
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 <table id="table_vgp_3dq_n4b"><thead><tr><th>
 
@@ -132,7 +139,7 @@ Enables you to assess your teams' abilities to resolve incidents efficiently.
 
 3.  Select **Install** to start the installation process.
 
-    **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
+    **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/find-components.md).
 

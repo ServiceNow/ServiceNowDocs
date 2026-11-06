@@ -7,7 +7,7 @@ release: zurich
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integrate Digital Portfolio Management with other ServiceNow applications, Configure, Digital Portfolio Management, IT Service Management]
 ---

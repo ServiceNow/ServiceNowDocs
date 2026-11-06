@@ -1,5 +1,5 @@
 ---
-title: Require authorization for csv requests \[Updated in Security Center 1.3\]
+title: Require authorization for csv requests
 description: Use the glide.basicauth.required.csv property to designate if incoming CSV \(Comma-Separated Values\) requests should require basic authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-require-authorization-for-csv-requests.html
@@ -7,18 +7,24 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [API and web service, Hardening settings, Platform Security]
 ---
 
-# Require authorization for csv requests \[Updated in Security Center 1.3\]
+# Require authorization for csv requests
 
 Use the **glide.basicauth.required.csv** property to designate if incoming CSV \(Comma-Separated Values\) requests should require basic authentication.
 
 ## More information
 
+If the **glide.basicauth.required.csv** system property isn't set to the recommended value of **true**, then Basic Authentication for CSV format export processor is disabled. This also happens when combined with a wrong role within the guest\_user related property \(Ex: high privileged role\). This will lead to unauthenticated access to instance data.
+
+Ensure the property **glide.basicauth.required.csv** exists in the System Properties \[sys\_properties\] table and is set to **true**.
+
 **Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It is non-revertible.
+
+## More information
 
 <table id="table_ajc_b43_3kb"><thead><tr><th>
 
@@ -30,7 +36,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Property name
+Configuration name
 
 </td><td>
 
@@ -46,19 +52,11 @@ System Properties \(/sys\_properties\_list.do\)
 
 </td></tr><tr><td>
 
-Category
+Data type
 
 </td><td>
 
-[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
-
-</td></tr><tr><td>
-
-Purpose
-
-</td><td>
-
-To enforce basic authentication on CSV requests.
+Boolean
 
 </td></tr><tr><td>
 
@@ -70,11 +68,37 @@ true
 
 </td></tr><tr><td>
 
-Security risk rating
+Default value
 
 </td><td>
 
-7.5
+true
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
+
+</td></tr><tr><td>
+
+Security risk
+
+</td><td>
+
+-   Severity score: 7.5
+-   CVSS rating: High
+-   Security risk details: Unauthenticated access to CSV export data, when combined with misconfigured guest user role, poses a significant risk of unauthorized data exposure.
 
 </td></tr><tr><td>
 
@@ -89,19 +113,11 @@ This remediation enforces a combination of authentication methods, in the form o
 
 </td></tr><tr><td>
 
-Security risk
+Dependencies and prerequisites
 
 </td><td>
 
-\(High\) Without appropriate authorization configured on the incoming CSV requests, an unauthorized user can get access to sensitive content and data on the target instance. Ensure that **glide.basicauth.required.csv** exists in the sys\_properties table and is set to true.
-
-</td></tr><tr><td>
-
-References
-
-</td><td>
-
-[Web service security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/c_WebServiceSecurity.md)
+None
 
 </td></tr></tbody>
 </table>**Parent Topic:**[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-api-web-service.md)

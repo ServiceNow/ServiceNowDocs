@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Space Management
 classification: workplace-space-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Manage, Workplace Space Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -183,7 +183,7 @@ You can assign the allocation to the child locations such as areas, rooms, and s
 
 [Create a view-by configuration]()
 
-[Create a KPI Configuration]()
+[]()
 
 [Reviewing allocation changes]()
 

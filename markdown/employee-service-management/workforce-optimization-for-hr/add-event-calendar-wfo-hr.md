@@ -7,9 +7,9 @@ release: zurich
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Scheduling in Workforce Optimization for HR, Use, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
+breadcrumb: [Scheduling in Workforce Optimization for HR, Using Workforce Optimization for HR, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
 ---
 
 # Add events to a team calendar
@@ -32,15 +32,15 @@ Role required: sn\_hr\_wfo.admin
 
 5.  Create an event.
 
-<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d584130e99">
+<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d594976e99">
 
 To
 
-</th><th align="left" id="d584130e102">
+</th><th align="left" id="d594976e102">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d584130e108">
+</th></tr></thead><tbody><tr><td id="d594976e108">
 
 **Create a meeting, training, or time-off request.**
 
@@ -65,7 +65,7 @@ In the **Attendees** field, start typing the name of each of the attendees for t
     6.  In the **Description** field, enter a description for the meeting.
 
 
-</td></tr><tr><td id="d584130e212">
+</td></tr><tr><td id="d594976e212">
 
 **Create a work shift**
 

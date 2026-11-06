@@ -7,7 +7,7 @@ release: zurich
 product: Service Creator
 classification: service-creator
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Creator, Build workflows]
 ---
@@ -18,13 +18,15 @@ Using the Service Creator, department managers can request a new service categor
 
 ## Before you begin
 
-Role required: none
+Role required: none.
 
 ## About this task
 
 Editors create and modify services. Service fulfillers complete the tasks generated from service requests.
 
 A service category request involves assigning a service category manager, which is typically the department manager who makes the request. After the request is submitted, a catalog administrator approves the request to publish the service category. When the category is published, the service category manager can assign service category editors and service fulfillers, and create services to offer in the service catalog.
+
+To request a new service category:
 
 ## Procedure
 

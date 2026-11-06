@@ -7,9 +7,9 @@ release: zurich
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Access external courses, Learning in Workforce Optimization for HR, Coaching in Workforce Optimization for HR, Use, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
+breadcrumb: [Access external courses on Workforce Optimization for HR, Learning in Workforce Optimization for HR, Coaching in Workforce Optimization for HR, Using Workforce Optimization for HR, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
 ---
 
 # Assign a course item to agents
@@ -43,15 +43,15 @@ You can analyze the course items that were most taken by your team members. You 
 
 6.  In the **Assign learning course** screen, assign the learning course to groups or team members.
 
-<table id="choicetable_byw_mnk_rvb"><thead><tr><th align="left" id="d380617e150">
+<table id="choicetable_byw_mnk_rvb"><thead><tr><th align="left" id="d386041e150">
 
 To
 
-</th><th align="left" id="d380617e153">
+</th><th align="left" id="d386041e153">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d380617e159">
+</th></tr></thead><tbody><tr><td id="d386041e159">
 
 **Assign the course to all groups that you directly and additionally manage**
 
@@ -59,7 +59,7 @@ Do this
 
 Select **To my groups**.
 
-</td></tr><tr><td id="d380617e171">
+</td></tr><tr><td id="d386041e171">
 
 **Assign the course to specific groups or team members**
 

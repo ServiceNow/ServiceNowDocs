@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/set-encrypted-field-config.html
 release: zurich
 topic_type: task
-last_updated: "2026-07-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Encrypting fields and attachments, Using Field Encryption, Field Encryption, Encryption]
 ---
@@ -16,7 +16,7 @@ Configure which table columns or attachments that the system encrypts using a pr
 
 ## Before you begin
 
-Role required: sn\_kmf.cryptographic\_manager and security\_admin or elevate role to security admin.
+Role required: sn\_kmf.cryptographic\_manager or sn\_kmf.admin and security\_admin or elevate role to security admin.
 
 ## About this task
 
@@ -30,6 +30,12 @@ Only users with access to the cryptographic module used in this configuration ca
 
 See [Create a cryptographic module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/create-cryptographic-module.md) or [Create cryptographic module for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/create-PE-cryptographic-module.md) to begin.
 
+You can create configurations in various ways:
+
+-   Select the **Encrypted Fields** option from a module tile on the Field Encryption Experience Module page.
+-   Within an open module pending initial configuration, select **Configure fields encrypted in this module** or **Encrypted Fields**.
+-   Select **Create new** from the **Configurations** tab.
+
 **Important:**
 
 After encrypting a column, any new data inserted into the column is encrypted automatically. However, data that existed in the column before the encryption was active is not automatically encrypted.
@@ -38,11 +44,17 @@ In order to encrypt data that existed before the column was encrypted, you must 
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **System Security** &gt; **Field Encryption** &gt; **Encrypted Field Configurations** &gt; **New**.
+1.  Navigate to **All** &gt; **System Security** &gt; **Field Encryption** &gt; **Field Encryption Experience**.
 
-2.  Select **New**.
+2.  Select **View module details** for the module you are setting up encrypted field configurations.
 
-3.  Complete the form.
+3.  Select the **Configure fields encrypted in this module** option from the **Complete these steps in any order to set up the module** section.
+
+    **Note:** To establish a Field Encryption configuration that will be used by multiple modules or manage the Encrypt by default option, navigate to the **Configurations** tab and select **Create new**. This method allows you to select the module the configuration will apply to.
+
+4.  Select **Configure**.
+
+5.  Complete the form.
 
 <table id="table_kfg_lzv_bkb"><thead><tr><th>
 
@@ -129,7 +141,7 @@ Algorithm Encrypted Preserving\[read-only\]
 Indicates if the crypto module that you selected is already configured to support non-deterministic encryption. This means that if the same data is encrypted more than once, the encryption is different each time.
 
 </td></tr></tbody>
-</table>4.  Select **Submit**.
+</table>6.  Select **Submit**.
 
 
 **Parent Topic:**[Encrypting fields and attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/field-encryption-key-management.md)

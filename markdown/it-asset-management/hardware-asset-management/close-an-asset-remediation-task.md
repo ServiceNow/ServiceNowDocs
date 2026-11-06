@@ -7,10 +7,10 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-01-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Open asset remediation tasks, close an asset remediation task, asset remediation tasks]
-breadcrumb: [Audit hardware asset inventory, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Audit hardware asset inventory, Inventory and stockroom operations, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Close an asset remediation task
@@ -19,11 +19,9 @@ View the open asset remediation from the **Inventory** view and close the task a
 
 ## Before you begin
 
-Role required: admin
+Role required: asset, and sn\_itam\_common.asset\_audit\_admin, or sn\_itam\_common.asset\_audit\_user
 
 ## About this task
-
-**Important:** This feature is available with Hardware Asset Management version 15.0.0 onwards.
 
 A new asset record is created when all of the following are true:
 

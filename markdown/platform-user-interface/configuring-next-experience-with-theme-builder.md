@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/configuring-next-experience-with-theme-builder.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -42,23 +42,19 @@ Theme Builder includes an option on the home page that you can use to provide fe
 -   Enables adding alternate color palettes to existing themes
 -   Enables publishing or unpublishing your themes to your experience
 
-\[Omitted image "tb-manager-page-Z.png"\] Alt text: Manager page shown in Grid view.
+\[Omitted image "tb-manager-page-Z.png"\] Alt text: Theme Builder Manager page.
 
 ## Theme Builder Editor page
 
--   Customize your themes in the Editor page, including color palette customization, logo, typography, shape adjustment, and component editing
+-   Customize your themes in the Editor page, including color palette customization, logo, typography, shape adjustment, component and image editing.
 -   Offers real-time preview of theme changes
 
 \[Omitted image "tb-editor-page-view.png"\] Alt text: Editor page with global styles tab selected.
 
--   **[Guided tours in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/guided-tours-theme-builder.md)**  
-Learn about Theme Builder guided tours, including how to access and take them to build your knowledge of Theme Builder.
--   **[Dark mode in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/dark-mode-theme-builder.md)**  
-Learn how to switch to dark mode in Theme Builder.
 -   **[Create a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/tb-create-theme.md)**  
 Create a theme record for your web or mobile experiences by using the Home view in the Theme Builder application.
 -   **[Theme creation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/theme-creation-with-ai.md)**  
-Use AI to generate themes from images directly in Theme Builder or from the ServiceNow Otto® panel. This feature is available for instances running Zurich Patch 7 or later.
+Use AI to generate themes from images directly in Theme Builder or from the ServiceNow Otto® panel.
 -   **[Manage or edit a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/tb-edit-theme.md)**  
 Customize and manage your theme and styling in a time and cost efficient way. After customizing, publish your new theme to either a web or mobile implementation of your instance.
 -   **[Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/tb-apply-theme.md)**  

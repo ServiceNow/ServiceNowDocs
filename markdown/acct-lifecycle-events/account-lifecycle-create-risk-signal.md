@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-create-risk-signal.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Basic setup, Customer success, Configure, Customer Success Management]
+breadcrumb: [Manage engagements, Customer success, Use, Customer Success Management]
 ---
 
 # Create a risk signal
@@ -20,13 +20,13 @@ Role required: sn\_acct\_lc.customer\_success\_agent
 
 ## About this task
 
-Risk Signals and Issues are used to record and manage risks associated with an engagement so that appropriate actions can be taken. Risks may have different degrees of severity and need to be evaluated before they are addressed. For example, an external system may flag missing information to the customer success manager who may address the issue using an internal play. If the risk is low in impact, the customer success manager may decide to accept the risk and proceed with the engagement. See [Create a risk definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-setup-risk-defn.md) for details on setting up a risk definition.
+Risk Signals and Issues are used to record and manage risks associated with an engagement so that appropriate actions can be taken. Risks may have different degrees of severity and must be evaluated before they’re addressed. For example, an external system may flag missing information to the customer success manager who may address the issue using an internal play. If the risk is low in impact, the customer success manager may decide to accept the risk and proceed with the engagement. See [Define risk criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-setup-risk-defn.md) for details.
 
 ## Procedure
 
-1.  Navigate to **Workspace** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
+1.  Navigate to **Workspace** &gt; **CRM Workspace** and select the **List** icon.
 
-2.  Navigate to the **Customer Success** &gt; **All Risk Signal and Issue Records** and click **New**.
+2.  Navigate to the **Customer Success** &gt; **All Risk Signal and Issue Records** and select **New**.
 
 3.  On the form, fill in the fields.
 
@@ -60,7 +60,7 @@ Engagement
 
 </td><td>
 
-Select the engagement record to which the risk signal is related. This is a mandatory field.
+Select the engagement record to which the risk signal is related. This is a required field.
 
 </td></tr><tr><td>
 
@@ -68,7 +68,7 @@ Reported by
 
 </td><td>
 
-The internal team member who reported this risk signal.
+Automatically filled by the logged-in user name while creating the risk signal.
 
 </td></tr><tr><td>
 
@@ -133,7 +133,7 @@ Short description
 
 </td><td>
 
-Enter a short description for this risk signal. This is a mandatory field.
+Enter a short description for this risk signal. This is a required field.
 
 </td></tr><tr><td>
 
@@ -157,7 +157,7 @@ Description
 
 </td><td>
 
-Enter a description for this risk signal. This is a mandatory field.
+Enter a description for this risk signal. This is a required field.
 
 </td></tr><tr><td>
 
@@ -217,7 +217,7 @@ The probability that this risk may occur. This can be:-   Very high
 -   Moderate
 -   Low
 -   Very low
-This is a mandatory field.
+This is a required field.
 
 </td></tr><tr><td>
 
@@ -236,8 +236,8 @@ Products impacted
 The products impacted by this risk or issue.
 
 </td></tr></tbody>
-</table>4.  Click **Save** to create a new risk signal.
+</table>4.  Select **Save** to create risk signal.
 
 
-**Parent Topic:**[Basic customer success setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-basic-config.md)
+**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-manage-engage.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Sidebar
 classification: sidebar
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up Sidebar, Configuring Sidebar, Sidebar, Conversational Interfaces]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## Procedure
 
-1.  On the Collaboration Chat Requester Mapping screen, fill in the fields:
+1.  On the Sidebar Requester Mapping screen, fill in the fields:
 
 <table id="table_tnb_j4y_42c"><thead><tr><th>
 

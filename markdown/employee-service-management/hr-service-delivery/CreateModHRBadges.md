@@ -7,7 +7,7 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Badges]
 breadcrumb: [HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
@@ -25,7 +25,7 @@ Role required: sn\_hr\_core.admin
 
 **Badges** are configurable labels in HR workspace that display important employee or case information, such as status, employment type, and special flags.
 
-Custom badges only appear for specific types of HR activities.
+Custom badges only appear for specif .
 
 -   The base system provides defaults and is configurable.
 -   On the **HR Ticket** page, you can filter to-dos based on badges.

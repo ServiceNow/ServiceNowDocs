@@ -1,18 +1,18 @@
 ---
-title: Filter KPI Details by breakdown elements
-description: In KPI Details, you apply breakdowns and elements to the indicator in the Filters sidebar.When you filter an indicator by multiple breakdown elements, you can either view a single aggregate score of all elements or a separate score for each element. However, not all indicators support an aggregate score of multiple elements.
+title: Filter indicator scores by breakdown elements in KPI Details
+description: Apply breakdowns and elements to filter classic and Data snapshots-enabled indicators. The filter controls are in the KPI Details sidebar.When you filter an indicator by multiple breakdown elements, you can either view a single aggregate score of all elements or a separate score for each element. However, not all indicators support an aggregate score of multiple elements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/apply-brkdowns-element-kpi-details.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Examining indicators with KPI Details, KPI Details, Platform Analytics experience, Platform Analytics]
+breadcrumb: [Examining indicators, KPI Details, Platform Analytics experience, Platform Analytics]
 ---
 
-# Filter KPI Details by breakdown elements
+# Filter indicator scores by breakdown elements in KPI Details
 
-In KPI Details, you apply breakdowns and elements to the indicator in the Filters sidebar.
+Apply breakdowns and elements to filter classic and Data snapshots-enabled indicators. The filter controls are in the KPI Details sidebar.
 
 ## Before you begin
 
@@ -20,7 +20,13 @@ Role required: None. However, upgraded instances may require pa\_viewer.
 
 ## About this task
 
-You can select as many breakdowns as the indicator supports. With [breakdown matrix collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/configure-breakdown-matrix.md) enabled on the indicator, you can select up to two levels of breakdown, and you can select multiple elements on the first breakdown. \(If the indicator is a formula indicator, breakdown matrix collection must be enabled on the contributing automated indicators.\) With [data snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/multi-level-breakdowns.md) enabled on the indicator, you can select any number of breakdowns and elements.
+You can select as many breakdowns as the indicator supports.
+
+For classic indicators, you can select up to two levels of breakdown, and you can select multiple elements on the first breakdown. [Breakdown matrix collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/configure-breakdown-matrix.md) must be enabled on the indicator to have more than one breakdown. For classic formula indicators, breakdown matrix collection must be enabled on the contributing automated indicators.
+
+For indicators with Data snapshots enabled, you can select any number of breakdowns and elements.
+
+Filtering native Data snapshots indicators is different enough that it is described in a separate topic. For more information, see [Filter native Data snapshots indicator scores in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/filter-data-snapshots-indicator-scores.md).
 
 **Important:** Filter conditions do not persist between KPI Details page refreshes.
 
@@ -35,6 +41,8 @@ You can select as many breakdowns as the indicator supports. With [breakdown mat
     You see a list of the elements of the breakdown.
 
 3.  If an elements filter exists for the breakdown, you can use it to refine the list of elements.
+
+    Only classic indicators support elements filters.
 
     1.  Expand the **Refine by** list to see the available element filters.
 

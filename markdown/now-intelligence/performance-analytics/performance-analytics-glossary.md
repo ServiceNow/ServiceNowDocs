@@ -7,8 +7,9 @@ release: zurich
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+keywords: [performance analytics]
 breadcrumb: [Reference, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
@@ -22,7 +23,7 @@ Automated breakdowns are based on a breakdown source, which is a set of records 
 
 ## automated indicator
 
-An automated indicator uses an indicator source as its data set. The indicator source specifies a table or database view, conditions for filtering records from that source, and the frequency at which you expect to display the data. The indicator applies an aggregator and optional conditions to this data. The indicator also specifies a data collection job and any breakdowns to apply.
+An automated indicator uses an indicator source as its data set. The indicator source specifies a table or database view, conditions for filtering records from that source, and the frequency at which you expect to display the data. The indicator applies an aggregator and optional conditions to this data. In classic Performance Analytics, the indicator also specifies a data collection job and any breakdowns to apply.
 
 **Related topics**  
 
@@ -75,6 +76,14 @@ A set of records from a table or database view that constitute the unique values
 ## bucket group
 
 Gathers continuous data into discrete groups when there is no table field that can serve as breakdown elements. For example, a bucket group might take differences between timestamps and divide them up into hourly periods.
+
+## bucket group mapping
+
+Connects a bucket group to a field on a Data snapshots source, allowing users to group, filter, and analyze indicators using bucketed breakdowns. Map to a Data snapshots calculated field for date/time data.
+
+## calculated field
+
+Shows the difference between two date/time fields on a Data snapshots source table. For example, a calculated field on the Created and Updated fields shows the time difference between when a record was created and the last update made to it. Often requires a [bucket group mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md).
 
 ## contributing indicator
 

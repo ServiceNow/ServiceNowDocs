@@ -1,58 +1,47 @@
 ---
 title: Opportunity Management release notes
-description: The ServiceNow Opportunity Management application enables your sales agents and account executives to create and manage opportunities. These opportunities identify and track potential sales based on identified customer needs. ServiceNow Opportunity Management is a new application in the Zurich release.The ServiceNow Opportunity Management application enables your sales agents and account executives to create and manage opportunities. These opportunities identify and track potential sales based on identified customer needs. ServiceNow Opportunity Management is a new application in the Zurich release.
+description: The ServiceNow Opportunity Management application enables your sales agents and account executives to create and manage opportunities. See the following sections for release notes by version.The September 2026 release includes ServiceNow Otto support for better user experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/opportunity-management-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2025-11-04"
-reading_time_minutes: 2
-breadcrumb: [Sales Customer Relationship Management release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Sales Customer Relationship Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Opportunity Management release notes
 
-The ServiceNow® Opportunity Management application enables your sales agents and account executives to create and manage opportunities. These opportunities identify and track potential sales based on identified customer needs. ServiceNow® Opportunity Management is a new application in the Zurich release.
+The ServiceNow® Opportunity Management application enables your sales agents and account executives to create and manage opportunities. See the following sections for release notes by version.
 
 ## About Opportunity Management
 
--   Enhance visibility and flexibility in pricing amendments for existing contracts or services through Move, Add, Change, Delete \(MACD\) actions on Sold Products \(SP\), Product Instances \(PI\), or Contracts.
--   Identify multiple stakeholders and accurately qualify opportunities with opportunity associated contacts and their defined roles. This is vital for streamlining sales processes and gaining clarity on how each contact influences the outcome of a deal.
--   Drive structured collaboration among multiple stakeholders involved in closing a deal using Opportunity Teams. The teams verify collaboration across various roles such as Account Executives, Sales Engineers, Customer Success Managers, and Partner Managers.
+-   Evaluate an opportunity's total worth with integrated pricing that computes the combined prices of each product offering, helping teams strategize resource and budget allocation for deals.
+-   Focus your sales team on deals with the highest financial impact by analyzing the potential revenue of each opportunity.
+-   Customize offers that meet customer needs while maintaining profitability, using real-time pricing insights during negotiation.
+-   Generate an AI summary for an opportunity to get information from emails, touchpoints, deal stage, and line items without opening every related record.
+-   Review AI-generated win probability scores and contextual insights to assess deal health, prioritize pipeline opportunities, and identify risks.
+-   Ask questions and issue commands to work on an opportunity in plain language using an MCP client and ServiceNow Otto.
 
-See [Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/opportunity-mgmt-using.md) for more information.
+See [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/opportunity-management.md) for more information.
 
 ## Activation and other requirements
 
-**Important:** Opportunity Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
-
 -   **Activation information**
 
-    Install Opportunity Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Install Opportunity Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/sales-order-management-rn-landing.md)
 
-## Zurich
+## Version 14.1.0
 
-The ServiceNow® Opportunity Management application enables your sales agents and account executives to create and manage opportunities. These opportunities identify and track potential sales based on identified customer needs. ServiceNow® Opportunity Management is a new application in the Zurich release.
+The September 2026 release includes ServiceNow Otto support for better user experience.
 
 ### What's new
 
--   **[Delta pricing for opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/opportunity-management-details-tab.md)**
+-   **ServiceNow Otto support on Opportunity Management**
 
-    The following new fields added to the Opportunity and Opportunity Line objects improve visibility and provide greater flexibility in managing pricing amendments:
-
-    -   Contract Start/End Dates
-    -   Renewal Amount
-    -   Upsell/Downsell Amounts
-    -   Total Net New Amount
--   **[Add an opportunity associated contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/add-opportunity-associated-contact.md)**
-
-    Create opportunity associated contacts to associate multiple account contacts, verifying clear identification of all stakeholders and their respective roles.
-
--   **[Add a new opportunity team member](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/create-new-opportunity-team-member.md)**
-
-    Create a new opportunity team member to associate multiple team members with an opportunity to enable structured collaboration and grant access based on their roles. The ability to grant access is available from Zurich Patch 3 release.
+    Retrieve, update, and create opportunity records and related CRM data from ServiceNow Otto using natural language.
 
 

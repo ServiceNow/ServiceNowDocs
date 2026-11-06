@@ -7,10 +7,10 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-keywords: [Contract metadata extraction, Contract use case mapping, Metadata extraction use case mapping, Now Assist use case mapping, Now Assist in contract management pro, AI for contract management pro]
-breadcrumb: [Configure metadata extraction, Configure, Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+keywords: [Contract metadata extraction, Contract use case mapping, Metadata extraction use case mapping, Now Assist use case mapping, Now Assist in contract management pro, ServiceNow Otto for contract management pro, AI for contract management pro]
+breadcrumb: [Configure metadata extraction, Configure AI capabilities, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Map a use case for contract metadata extraction
@@ -19,7 +19,7 @@ Map a use case to specific tables, and define conditions to apply the use case f
 
 ## Before you begin
 
-Ensure that the application is in the Global or Now Assist in Contract Management scope. If you are configuring the use case mapping in a different application scope, add the scoped ACL to the Use Case Mapping table \(sn\_cm\_gen\_ai\_usecase\_configuration\).
+Ensure that the application is in the Global or ServiceNow Otto for Contract Management Pro scope. If you are configuring the use case mapping in a different application scope, add the scoped ACL to the Use Case Mapping table \(sn\_cm\_gen\_ai\_usecase\_configuration\).
 
 Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_core.contract\_config
 
@@ -30,6 +30,8 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_core.contract\_conf
 2.  Navigate to **Employee** &gt; **CM Pro**.
 
 3.  Select **Activate skill** on the skill you want to activate.
+
+    \[Omitted image "cmpro-NA-skills.png"\] Alt text: AI skills available for Contract Management Pro.
 
 4.  In the General details page, view the skill details and select **Save and continue**.
 

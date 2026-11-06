@@ -7,9 +7,9 @@ release: zurich
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Analytics Hub, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [\(Legacy\) Analytics Hub, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Analytics Hub list of indicators

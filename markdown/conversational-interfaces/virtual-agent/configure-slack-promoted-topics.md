@@ -7,10 +7,10 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Virtual Agent, Slack, Conversational Integration, bot, configure, promoted, topics, Conversational Interfaces, Custom greetings]
-breadcrumb: [Configure Virtual Agent settings for Slack, Conversational Integration with Slack, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Configure Virtual Agent settings for Slack, Slack, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Configure promoted topics for Conversational Integration with Slack
@@ -27,7 +27,7 @@ Role required: admin or virtual\_agent\_admin
 
 2.  On the Virtual Agent settings page, navigate to Custom greetings and setup, and then select **View All**.
 
-    The promoted topics that you have previously configured reside in the default chat experience. For more information, see [Promote or demote LLM assets in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/promote-demote-va-topics.md). If the default chat experience is the only record that you have on your instance, the promoted topics will be applied to the chat widget, Microsoft Teams, and Slack \(unless you configure something unique for Slack as instructed in this topic.\)
+    The promoted topics that you have previously configured reside in the default chat experience. For more information, see [Promote or demote LLM conversational subflows, actions, and topics in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/promote-demote-va-topics.md). If the default chat experience is the only record that you have on your instance, the promoted topics will be applied to the chat widget, Microsoft Teams, and Slack \(unless you configure something unique for Slack as instructed in this topic.\)
 
     If you want to set up unique promoted topics for Slack that are different from the chat widget, continue to the next step.
 

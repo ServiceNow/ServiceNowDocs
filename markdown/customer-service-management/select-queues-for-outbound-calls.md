@@ -1,47 +1,51 @@
 ---
-title: Selecting queues for outbound calls
-description: Agents can select a queue for their outbound calls directly from the keypad or phone directory in the Global Call window to improve routing and reporting accuracy.
+title: Queue selection for outbound calls
+description: Queue selection for outbound calls enables agents to route calls through a specific queue directly from the Global Call window, improving routing accuracy and reporting.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/select-queues-for-outbound-calls.html
 release: zurich
 topic_type: concept
-last_updated: "2026-01-02"
-reading_time_minutes: 1
-breadcrumb: [ICC for voice calls, Integrating with contact centers, Integrate, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Enable ICC for CCaaS calls and callbacks, Configure voice, Configure omnichannel, Configure, Customer Service Management]
 ---
 
-# Selecting queues for outbound calls
+# Queue selection for outbound calls
 
-Agents can select a queue for their outbound calls directly from the keypad or phone directory in the Global Call window to improve routing and reporting accuracy.
+Queue selection for outbound calls enables agents to route calls through a specific queue directly from the Global Call window, improving routing accuracy and reporting.
 
 ## Queue selection overview
 
-This feature provides a search interface that enables agents to find and select a queue, and then choose to either:
+A search interface enables agents to find and select a queue, and then choose to either:
 
 -   Set it as default for all outbound dialing methods
 -   Apply it to the current call only
 
-\[Omitted image "int-select-outbound-queue.png"\] Alt text: Select a queue for outbound calls
+\[Omitted image "int-select-outbound-queue.png"\] Alt text: Contact Center panel in CSM/FSM Configurable Workspace showing the Select Outbound Queue search field and a dial pad
 
-Agents can modify queue settings during the idle state or during active calls. The default queue selection persists until changed or log out, and applies across keypad, phone directory, and click-to-dial workflows. This feature is available for CCaaS partner integration.
+Agents can modify queue settings during the idle state or during active calls. The default queue selection persists until changed or until the agent logs out, and applies across keypad, phone directory, and click-to-dial workflows. This feature is available for CCaaS partner integration.
 
 ## Key benefits
 
-Queue selection for outbound calls addresses the following capabilities for contact center users:
+Queue selection for outbound calls provides the following capabilities for contact center users:
 
--   Easy-to-use queue selection directly from the Global Call window.
+-   Queue selection directly from the Global Call window.
 -   Accurate reporting to track call outcomes by queue.
--   Compliance to ensure calls meet queue-specific requirements.
+-   Queue-specific requirements applied to each call.
 -   Consistent routing by applying business logic based on the selected queue.
--   Efficient workflow to reduce repetitive actions and errors.
+-   Reduced repetitive actions and errors.
 
-## Queue selection Features
+## Queue selection features
 
 \[Omitted image "int-search-to-select-queue.png"\] Alt text: Search or select a queue from the available list
 
+-   **Turn-on toggle for selecting queues for outbound calls**
+
+    You can turn-on the toggle for **Select option to use queue for all outbound calls**, and set the queue as default, which applies to all outbound calls.
+
 -   **Find and select a queue in Global Call**
 
-    Search for a queue by entering in the **Search** field and select the relevant queue.
+    Search for a queue by entering a name in the **Search** field and select the relevant queue.
 
 -   **Active context behavior**
 
@@ -60,5 +64,5 @@ Queue selection for outbound calls addresses the following capabilities for cont
     Queue selection is embedded within the keypad and phone directory, as required by the CCaaS platform.
 
 
-See [Select queues for outbound calls from keypad, phone directory, and Interaction record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/select-queue-for-outbound-calls-from-keypad.md).
+See: [Using queues for outbound calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/using-queues-for-outbound-calls.md) and [Select queues from keypad, directory, and Interaction record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/select-queue-for-outbound-calls-from-keypad.md).
 

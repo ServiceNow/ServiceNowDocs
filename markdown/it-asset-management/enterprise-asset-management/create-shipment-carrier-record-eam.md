@@ -1,42 +1,36 @@
 ---
-title: Create a shipment carrier record in Enterprise Asset Workspace
-description: Create a shipping carrier record in the Enterprise Asset Workspace to associate the carrier with an integration profile.
+title: Create a shipping carrier record in the Enterprise Asset Workspace
+description: Create a shipping carrier record in the Enterprise Asset workspace to associate the carrier with an integration profile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/create-shipment-carrier-record-eam.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing enterprise asset shipments, Manage enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Configuring shipping, Configure, Enterprise Asset Management, Asset Management]
 ---
 
-# Create a shipment carrier record in Enterprise Asset Workspace
+# Create a shipping carrier record in the Enterprise Asset Workspace
 
-Create a shipping carrier record in the Enterprise Asset Workspace to associate the carrier with an integration profile.
+Create a shipping carrier record in the Enterprise Asset workspace to associate the carrier with an integration profile.
 
 ## Before you begin
 
 Role required: sn\_eam.enterprise\_admin
 
-## About this task
-
-Create a shipping carrier record used to associate the carrier with an integration profile.
-
-**Important:** When using the Sourcing and Procurement Operations application with the Asset Management Integration for Sourcing and Procurement Operations \(com.snc.sn\_spend\_asset\) installed, the IT Asset Management application shares shipment details with the Sourcing and Procurement Operations application. To enable the Sourcing and Procurement Operations application to view shipment and tracking numbers associated with Purchase Orders, read-only access has been provided to the Shipping carrier \[sn\_itam\_common\_shipping\_carrier\] table.
-
-For more information about the Asset Management Integration for Sourcing and Procurement Operations \(com.snc.sn\_spend\_asset\) plugin, see [Sourcing and Procurement Operations integration with IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/spo-itam-better-together.md).
-
 ## Procedure
 
-1.  Navigate to **Enterprise Asset Workspace** &gt; **Admin center**.
+1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace**.
 
-2.  Select **Shipping carrier** from the Shipping list.
+2.  From the Enterprise Asset Workspace, open the Admin center view.
 
-3.  Select **New**.
+3.  From the navigation panel of the Admin center view, navigate to **Shipping** &gt; **Shipping carrier**.
 
-4.  On the form fill in the fields.
+4.  Select **New**.
+
+5.  On the form fill in the fields.
 
 <table id="table_j25_fts_rzb"><thead><tr><th>
 
@@ -115,7 +109,7 @@ Notes
 Additional information about the carrier.
 
 </td></tr></tbody>
-</table>5.  Select **Save**.
+</table>6.  Select **Save**.
 
     The shipping carrier record is created and added to the Shipping carrier list.
 

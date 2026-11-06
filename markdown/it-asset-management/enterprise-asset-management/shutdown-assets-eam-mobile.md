@@ -7,10 +7,10 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-02-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Shut down enterprise assets, Shutdown work order task, Shutdown work type]
-breadcrumb: [Manage an Enterprise Asset Management task using the Mobile Agent application, Manage enterprise assets and tasks using Mobile Agent application, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Manage an Enterprise Asset Management task using the Mobile Agent application, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, Asset Management]
 ---
 
 # Set enterprise assets to the shutdown state using the Mobile Agent application
@@ -18,8 +18,6 @@ breadcrumb: [Manage an Enterprise Asset Management task using the Mobile Agent a
 Move assets of a shutdown work order task to the shutdown state in the Mobile Agent application to indicate that the assets are unavailable for use during maintenance.
 
 ## Before you begin
-
-**Important:** The Affected assets tab, Shutdown work type, and **Shutdown** option are available with Enterprise Asset Management version 10.0 and later.
 
 The shutdown work order task must be in the Work in progress state before you can shut down assets. The assets must be in the In use or In maintenance state.
 

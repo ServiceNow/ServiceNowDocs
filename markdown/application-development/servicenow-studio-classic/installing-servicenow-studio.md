@@ -7,9 +7,9 @@ release: zurich
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Configure, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Installing ServiceNow Studio
@@ -50,9 +50,9 @@ If your company has an App Engine Enterprise license, you can access these addit
 -   Deploy scoped and global apps using the App Engine pipeline. For more information, see [Managing deployments using Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-management-center/manage-deployments-using-p-and-d-aemc.md).
 
 -   **[ServiceNow Studio instance strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/servicenow-studio-instance-strategy.md)**  
-ServiceNow Studio should be available on all ServiceNow instances where you develop applications.
+Install ServiceNow Studio on every ServiceNow instance where you develop applications, then define your company's access and deployment strategy.
 -   **[Components installed with ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/components-installed-with-sn-studio.md)**  
-When you activate the ServiceNow Studio plugin, various components like tables are automatically installed.
+Activating the ServiceNow Studio plugin installs tables, roles, and dependencies automatically.
 
 **Parent Topic:**[Configuring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/configuring-servicenow-studio.md)
 

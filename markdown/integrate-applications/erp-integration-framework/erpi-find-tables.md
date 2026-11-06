@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, remote, table, view, edit, setting]
-breadcrumb: [Using remote tables, Use, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Using remote tables, Data retrieval, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # View and edit ERP remote table details with Zero Copy Connector for ERP
@@ -27,15 +27,15 @@ To promote data integrity, you can't create new remote tables in Zero Copy Conne
 
 For information on adding and removing fields to and from remote tables, see [Customize fields for an ERP remote table in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-build-remote-table.md).
 
-ERP remote tables have a limit of 1,000 records. If you need a larger amount of data, use an ERP extraction table. For more information, see [Extracting and transforming data in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-extraction-tables.md).
+ERP remote tables have a limit of 1,000 records. If you need a larger amount of data, use an ERP extraction table.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the Remote tables page by selecting the remote tables icon \[Omitted image "image.erpc-remote-table-icon"\] Alt text: in the side panel.
+2.  Open the Remote tables page by selecting the remote tables icon \[Omitted image "erpc-remote-table-icon.png"\] Alt text: in the side panel.
 
-    \[Omitted image "image.erpc-remote-tables-list"\] Alt text: Remote tables list
+    \[Omitted image "erpc-remote-tables-list.png"\] Alt text: Remote tables list
 
 3.  View the details for a remote table by selecting the remote table **Name**.
 
@@ -53,6 +53,4 @@ ERP remote tables have a limit of 1,000 records. If you need a larger amount of 
 
 8.  Select **Save**.
 
-
-**Parent Topic:**[Using ERP remote tables in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-work-with-remote-tables.md)
 

@@ -1,20 +1,20 @@
 ---
-title: Install Agent Client Collector on a Windows machine manually
-description: Install Agent Client Collector on a Windows machine manually when you want to test the agent on a single system.
+title: Install the Agent Client Collector on a Windows machine manually
+description: Install the Agent Client Collector on a Windows machine manually when you want to test the agent on a single system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-install-windows.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [ACC installation on a Windows machine, ACC deployment - servers, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC installation on a Windows machine, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
-# Install Agent Client Collector on a Windows machine manually
+# Install the Agent Client Collector on a Windows machine manually
 
-Install Agent Client Collector on a Windows machine manually when you want to test the agent on a single system.
+Install the Agent Client Collector on a Windows machine manually when you want to test the agent on a single system.
 
 ## Before you begin
 
@@ -111,7 +111,7 @@ Due to Windows UAC restrictions, running the agent as a local SYSTEM account is 
 
     7.  To enable the **Allow-List** containing the checks enabled to run after setup, select the **Enable executing command allow list** check box on the resulting page.
 
-        \[Omitted image "ACC-Allow-List-Windows.png"\] Alt text: Allow list check box
+        \[Omitted image "ACC-Allow-List-Windows.png"\] Alt text: Enable executing command allow list check box
 
     8.  Select **Next** to open the installation page.
 

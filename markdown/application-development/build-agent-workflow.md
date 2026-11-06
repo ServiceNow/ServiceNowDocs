@@ -8,12 +8,14 @@ topic_type: concept
 last_updated: "2026-09-22"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Explore, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
+breadcrumb: [Explore, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Build Agent workflow
 
 The Build Agent workflow automates building applications, testing, and deploying update sets on the ServiceNow AI Platform. Build Agent streamlines development by handling code compilation, quality checks, and deployment steps without manual intervention.
+
+**Note:** For large or complex implementations, you can use Autonomous Engineer instead of the conversational workflow that follows. Autonomous Engineer accepts your requirements up front, interviews you to resolve ambiguity, generates a plan with work items, and builds all work items in parallel in the background. For more information, see [Autonomous Engineer in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-autonomous-engineer.md).
 
 A general workflow for using Build Agent in either ServiceNow Studio or the ServiceNow IDE is the following:
 
@@ -28,7 +30,7 @@ A general workflow for using Build Agent in either ServiceNow Studio or the Serv
 9.  Instruct Build Agent to build the application; verify results in the File Navigator or Metadata Explorer.
 10. Deploy the application. If you're using source control, you can push to Git.For more information, see [Deploying what you built with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-deployment.md).
 
-When your app is connected to Git-based source control, you can also manage source control operations from the Build Agent chat panel without switching to the VS Code UI. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-source-control.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-source-control.md).
+When your app is connected to Git-based source control, you can also manage source control operations from the Build Agent chat panel without switching to the VS Code UI. For more information, see .
 
 **Parent Topic:**[Exploring Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/exploring-build-agent.md)
 

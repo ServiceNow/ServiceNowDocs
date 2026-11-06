@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/data-management-overview.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Analyze data usage, Data Management, Tables and data, Configure core features, Administer]
+breadcrumb: [Analyze data usage, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Data Management overview
@@ -49,7 +49,7 @@ Monitor the top ten tables consuming the most amount of storage on your instance
 
 To effectively manage the growth of data on your instance, review the tables that are currently growing the most in size and monitor the size of the largest tables on your instance.
 
-In addition, you can gain a more knowledge about a table's impact on your instance's overall storage usage by monitoring the size of its associated records.
+In addition, you can gain a more comprehensive understanding of a table's impact on your instance's overall storage usage by monitoring the size of its associated records.
 
 -   A table that contributes to the size of an associated table is considered a driver table.
 -   Associated tables store attachments, audit records, and journal entries that are generated when records are created in the driver table.
@@ -75,6 +75,6 @@ Review the top tables on your instance in terms of growth and table size, and th
 After reviewing the top tables, start managing the growth of data on your instance.
 
 -   Manage the growth of audit records from the audit management console by selecting **Manage audit config**.
--   Delete older or unwanted records by selecting **New cleanup rule**. See [Create a table cleanup rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/activate-table-cleanup.md).
--   Move data that's no longer needed to an archive table by selecting **New archive rule**. See [Create an archive rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_CreateAnArchiveRule.md).
+-   Delete older or unwanted records by selecting **New cleanup rule**. See [Create a table cleanup rule in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/activate-table-cleanup.md).
+-   Move data that's no longer needed to an archive table by selecting **New archive rule**. See [Create an archive rule in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_CreateAnArchiveRule.md).
 

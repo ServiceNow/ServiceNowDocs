@@ -7,7 +7,7 @@ release: zurich
 product: Identity
 classification: identity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SCIM Client, System for Cross-domain Identity Management \(SCIM\), Identity]
 ---
@@ -18,13 +18,13 @@ Configure a REST message for all outbound calls for a particular SCIM Provider.
 
 ## Before you begin
 
-Role required: admin
+Role required: scim\_client\_config\_admin
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Web Services** &gt; **Outbound** &gt; **REST Message**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 
@@ -58,7 +58,7 @@ Authentication Type
 
 </td><td>
 
-Type of authentication to be used to connect to the external SCIM Provider. For more information see, [Outbound REST authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/c_OutboundRESTAuth.md).
+Type of authentication to be used to connect to the external SCIM Provider. For more information, see [Outbound REST authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/c_OutboundRESTAuth.md).
 
 </td></tr><tr><td>
 
@@ -71,7 +71,7 @@ The content type that is expected from the external SCIM Provider.
  For example, Header Name is the content type in the following API request body: `Content-type: application/scim+json`
 
 </td></tr></tbody>
-</table>4.  In the  HTTP Methods  related list, click  **New**.
+</table>4.  In the  HTTP Methods  related list, select  **New**.
 
 5.  Configure the following HTTP Methods.
 
@@ -132,7 +132,7 @@ POST
     -   A sample REST message is shipped from the base system.
     \[Omitted image "rest-message.png"\] Alt text: REST message
 
-6.  Click **Submit**.
+6.  Select **Submit**.
 
 
 ## Result
@@ -141,7 +141,7 @@ The REST message record is created.
 
 ## What to do next
 
-Use the REST message to create a SCIM Provider. For more information, see [Create a SCIM Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/identity/create-scim-provider.md).
+Use the REST message to create a SCIM Provider. For more information, see [Create a SCIM provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/identity/create-scim-provider.md).
 
 To learn more about how to create a REST message, see [Create a REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/t_ConfiguringARESTMessage.md).
 

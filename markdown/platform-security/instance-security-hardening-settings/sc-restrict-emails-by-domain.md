@@ -1,5 +1,5 @@
 ---
-title: Disable creating users from incoming emails \[Updated in Securty Center 1.3\]
+title: Disable creating users from incoming emails
 description: Use the glide.user.trusted\_domain property to specify the comma-separated list of trusted domains used in the creation of users from incoming emails.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-restrict-emails-by-domain.html
@@ -7,16 +7,18 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authentication, Hardening settings, Platform Security]
 ---
 
-# Disable creating users from incoming emails \[Updated in Securty Center 1.3\]
+# Disable creating users from incoming emails
 
 Use the **glide.user.trusted\_domain** property to specify the comma-separated list of trusted domains used in the creation of users from incoming emails.
 
-An administrator can set an email property to automatically create users from incoming emails. If set this property to the insecure value, the instance will automatically create users from incoming email. Each user created will have the same hard coded default password which makes bypassing authentication through brute force easier.
+An administrator can set the **glide.pop3readerjob.create\_caller** system property to automatically create users from incoming emails. If set this property to the insecure value, the instance automatically creates users from incoming email. Each user created will have the same hardcoded default password which makes bypassing authentication through brute force easier.
+
+Ensure that the **glide.pop3readerjob.create\_caller** system property is set to **false**.
 
 ## More information
 
@@ -30,7 +32,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Property name
+Configuration name
 
 </td><td>
 
@@ -46,11 +48,11 @@ System Properties \(/sys\_properties\_list.do\)
 
 </td></tr><tr><td>
 
-Category
+Data type
 
 </td><td>
 
-[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-authentication.md)
+Boolean
 
 </td></tr><tr><td>
 
@@ -70,19 +72,19 @@ false
 
 </td></tr><tr><td>
 
-Security risk rating
+Fallback value
 
 </td><td>
 
-5.4
+false
 
 </td></tr><tr><td>
 
-Functional impact
+Category
 
 </td><td>
 
-Once this property is configured, the instance only accepts emails from trusted domains. If you do not include the domain in the trusted list, there is an impact to guest users because accounts are created automatically.
+[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-authentication.md)
 
 </td></tr><tr><td>
 
@@ -90,15 +92,25 @@ Security risk
 
 </td><td>
 
-\(Moderate\) If the property is not enabled, an attacker might use an email spoofing/spamming campaign to send multiple emails resulting in the creation of more unnecessary guest users.
+-   Severity score: 5.4
+-   CVSS rating: Medium
+-   Security risk details: Allowing automatic user creation without strong password controls undermines authentication security and increases the likelihood of system compromise.
 
 </td></tr><tr><td>
 
-References
+Functional impact
 
 </td><td>
 
-[Inbound mail configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/r_InboundMailConfiguration.md)
+None
+
+</td></tr><tr><td>
+
+Dependencies and prerequisites
+
+</td><td>
+
+None
 
 </td></tr></tbody>
 </table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).

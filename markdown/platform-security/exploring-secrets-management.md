@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/exploring-secrets-management.html
 release: zurich
 topic_type: concept
-last_updated: "2026-05-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Secrets Management, Platform Security]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Secrets Management, Platform Security]
 
 Use ServiceNow Secrets Management for granular management of access to your passwords to fit your business needs.
 
-**Important:** Admins must have the role to see modules and records related to Secrets Management. For secrets management role information, see [Secrets management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/roles-sec-man.md).
+**Important:** Admins must have the role to see modules and records related to Secrets Management. For secrets management role information, see [Secrets Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/roles-sec-man.md).
 
 ## Select from Core and Enterprise versions of Secrets Management
 

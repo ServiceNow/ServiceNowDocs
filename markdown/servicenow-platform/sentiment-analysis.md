@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/sentiment-analysis.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Survey administration, Use, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Sentiment analysis for surveys
@@ -27,6 +27,76 @@ The sentiment analysis results are displayed under **Survey** &gt; **Question Se
 |-1 to 0|Negative|
 |0|Neutral|
 |0 to 1|Positive|
+
+## API Version and Score Calculation
+
+Currently, this plugin uses the MSAzure text analytics API \(v2\), which is now deprecated. To ensure continued functionality and compatibility, we are migrating to the newer v3 API.
+
+**v2 API response format:**
+
+```
+
+               {
+               "documents": [
+               {
+               "id": "1",
+               "score": 0.14829033613204956
+               }
+               ],
+               "errors": []
+               }
+            
+```
+
+**v3 API response format:**
+
+```
+
+               {
+               "documents": [
+               {
+               "id": "1",
+               "sentiment": "negative",
+               "confidenceScores": {
+               "positive": 0.02,
+               "neutral": 0.0,
+               "negative": 0.97
+               },
+               "sentences": [
+               {
+               "sentiment": "negative",
+               "confidenceScores": {
+               "positive": 0.02,
+               "neutral": 0.0,
+               "negative": 0.97
+               },
+               "offset": 0,
+               "length": 44,
+               "text": "I love this hotel, but the service was slow."
+               }
+               ],
+               "warnings": []
+               }
+               ],
+               "errors": [],
+               "modelVersion": "2025-01-01"
+               }
+            
+```
+
+**Score Calculation for v3 API**
+
+Since the v3 API response format provides confidence scores instead of a single score, the normalized score is calculated using the following formula:
+
+`score = (1 × positive) + (0.5 × neutral) + (0.01 × negative)`
+
+This formula ensures:
+
+-   Positive confidence pushes the score toward 1
+-   Neutral confidence centers the score around 0.5
+-   Negative confidence slightly pulls the score toward 0, with minimal weight \(0.01\) to account for negative sentiment
+
+Since the three confidence scores always sum to 1, this formula generates a consistent value in the range of -1 to 1, representing the full mix of sentiment information from the Azure API.
 
 -   **[Configure a sentiment connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configure-sentiment-connector.md)**  
 Specify the service URL and other configuration information for third party APIs that are used for sentiment analysis.

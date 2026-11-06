@@ -7,9 +7,9 @@ release: zurich
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Amazon Web Services EC2 Linux Out Of Box Catalog items, Out of Box, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [AWS EC2 Linux items, Out Of Box Catalogs using Cloud Services Catalog, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Amazon Web Services EC2 Linux Out Of Box permissions

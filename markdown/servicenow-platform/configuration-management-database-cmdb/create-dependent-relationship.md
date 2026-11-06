@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [dependent relationship, dependent rules, hosting rule, containment rule]
 breadcrumb: [CMDB dependent relationship rules, Configure, CMDB Identification and Reconciliation \(IRE\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
@@ -27,7 +27,7 @@ Use the CI Class Manager to create a basic dependent relationship rule \(hosting
 
 ### Before you begin
 
-Role required: itil has read access, itil\_admin \(on top of itil\) has full access.
+Role required: sn\_cmdb\_editor and itil have read access, sn\_cmdb\_admin and itil\_admin have full access.
 
 ### About this task
 
@@ -67,7 +67,7 @@ Create containment rule for CIs to help with correctly identifying dependent CIs
 
 ### Before you begin
 
-Role required: admin
+Role required: sn\_cmdb\_admin or admin
 
 ### About this task
 
@@ -122,7 +122,7 @@ A hosting rule is a dependent relationship rule which defines a relationship bet
 
 A hosting rule implicitly contains two rules, which are the reversal of each other. When you create the rule '&lt;CI Type1&gt; &lt;relationship type&gt; &lt;CI Type2&gt;', the rule '&lt;CI Type2&gt; &lt;reversed relationship type&gt; &lt;CI Type1&gt;' is automatically added.
 
-Role required: admin
+Role required: sn\_cmdb\_admin or admin
 
 ### Procedure
 

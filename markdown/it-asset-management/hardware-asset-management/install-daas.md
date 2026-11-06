@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring DaaS, Device as a Service, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Configuring DaaS, Device as a Service, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Install Hardware Asset Management for DaaS
@@ -18,7 +18,7 @@ You can install the Hardware Asset Management for DaaS application \(com.sn\_daa
 
 ## Before you begin
 
--   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 Role required: admin
@@ -55,4 +55,6 @@ For more information, see [Components installed with Hardware Asset Management f
 
 6.  Select **Install**.
 
+
+**Parent Topic:**[Configuring DaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/configuring-daas.md)
 

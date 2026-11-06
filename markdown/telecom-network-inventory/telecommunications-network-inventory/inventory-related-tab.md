@@ -1,5 +1,5 @@
 ---
-title: Related tabs in the network inventory forms
+title: Related tabs in the Network inventory forms
 description: The related tabs in the Network Inventory forms display the related records that dynamically change based on the connection and relationships with the other network assets. You can selectively view, modify, or update these records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/inventory-related-tab.html
@@ -7,12 +7,12 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
 
-# Related tabs in the network inventory forms
+# Related tabs in the Network inventory forms
 
 The related tabs in the Network Inventory forms display the related records that dynamically change based on the connection and relationships with the other network assets. You can selectively view, modify, or update these records.
 
@@ -101,7 +101,7 @@ Physical Connections
 
 </td><td>
 
-List of the physical connections that are associated with the network inventory.**Note:** This tab is available only for the Telco Equipment form.
+List of all physical connections where the equipment or interfaces in the rack or cabinet are an endpoint. A connection appears if any of its endpoint fields \(Port A, Port Z, Equipment A, or Equipment Z\) matches equipment or an interface from equipment in the rack or cabinet. Connections that span sites are included. **Note:** This tab is available only on Rack / Cabinet records and on equipment level
 
 </td></tr><tr><td>
 
@@ -109,7 +109,21 @@ Logical Connections
 
 </td><td>
 
-List of the logical connections that are associated with the network inventory.**Note:** This tab is available only for the Telco Equipment form.
+List of all network interfaces from equipment placed in the rack or cabinet, including interfaces from equipment nested at any depth in the hierarchy.
+
+ **Note:**
+
+This tab is available only on Rack and Cabinet records \(cmdb\_ci\_container\_rack and cmdb\_ci\_container\_cabinet\). It does not appear on individual equipment records.
+
+.
+
+</td></tr><tr><td>
+
+Network Interfaces
+
+</td><td>
+
+List of all network interfaces from equipment placed in the rack or cabinet, including interfaces from equipment nested at any depth in the hierarchy. Note: This tab is available only on Rack and Cabinet records \(cmdb\_ci\_container\_rack and cmdb\_ci\_container\_cabinet\). It does not appear on individual equipment records. **Note:** This tab is available for the Rack and Cabinet forms.
 
 </td></tr><tr><td>
 

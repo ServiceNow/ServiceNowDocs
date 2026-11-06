@@ -7,9 +7,9 @@ release: zurich
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Report on function fields, Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Report on function fields, Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Edit a function field
@@ -22,13 +22,11 @@ Role required: admin, function\_field\_admin
 
 ## Procedure
 
-1.  Perform one of the following actions:
+1.  Navigate to **Platform Analytics Administration** &gt; **Core UI artifacts** &gt; **Reports.**
 
-    -   On an upgraded instance that has not been fully migrated to Platform Analytics, navigate to **All** &gt; **Reports** &gt; **Create New**.
-    -   On a new instance or one that has been fully migrated to Platform Analytics, navigate to **All** &gt; **Core UI artifacts** &gt; **Reports** and select **New**.
-2.  Select a report based on the table that you want to add a function field to.
+2.  Select a report based on the table that you want to edit a function field on.
 
-    When you configure a function field, it is available in any report on the same table. For example, a function field that calculates how long incidents have been open is available for all reports on the incident table.
+    When you configure a function field, it is available in any report or data visualization on the same table. For example, a function field that calculates how long incidents have been open is available for all reports and visualizations on the incident table.
 
 3.  Open the **Configure** tab and select **Configure function field**.
 

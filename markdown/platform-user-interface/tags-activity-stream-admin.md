@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/tags-activity-stream-admin.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Activity stream, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -30,15 +30,15 @@ Tags enable you to filter entries in the Activity stream by dynamic and static s
 
 1.  Open your Configurable Workspace experience in UI Builder.
 
-    For instructions, [Open experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/open-your-configurable-workspace-experience-in-ui-builder.md).
+    For instructions, see [Open experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/open-your-configurable-workspace-experience-in-ui-builder.md).
 
 2.  Select a page from your experience.
 
-3.  In the content panel, select the Activity Stream component.
+3.  In the Content tree, select the Activity Stream component.
 
 4.  From the Configure panel, select **Tags** to expand the section.
 
-5.  In the Data Source field, select a data source for your tags.
+5.  In the Data Source field, select a data source for the tags.
 
 6.  Select **Add** to create a new tag.
 
@@ -73,7 +73,7 @@ Tags enable you to filter entries in the Activity stream by dynamic and static s
 
 ## Result
 
-All tags you create appear under the Tags section.
+All tags you created appear under the Tags section.
 
 \[Omitted image "x-activity-tags-admin.png"\] Alt text: Tags property
 

@@ -1,18 +1,18 @@
 ---
 title: Create a new emission activity
-description: Create new emission activities to track the activity that leads to emissions if you do not want to use the standard emission activities provided through the ESG content accelerator application.
+description: Create new emission activities to track the activity that leads to emissions if you do not want to use the standard emission activities provided through the Unified content management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/create-an-emission-activity.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up the emission factor library, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Create a new emission activity
 
-Create new emission activities to track the activity that leads to emissions if you do not want to use the standard emission activities provided through the ESG content accelerator application.
+Create new emission activities to track the activity that leads to emissions if you do not want to use the standard emission activities provided through the Unified content management application.
 
 ## Before you begin
 

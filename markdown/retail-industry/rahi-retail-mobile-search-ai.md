@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/retail-industry/rahi-retail-mobile-search-ai.html
 release: zurich
 topic_type: task
-last_updated: "2026-02-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Fulfill In-store operations cases and tasks in Retail Mobile, Manage store plans, Retail]
 ---
@@ -18,7 +18,7 @@ Use the Search function in Retail Mobile to find cases or tasks based on relevan
 
 Role required: sn\_rtl\_instore\_ops.manager or sn\_rtl\_instore\_ops.associate
 
-**Note:** This requires AI search to be enabled within the Retail Mobile instance. For more information on AI Search, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/overview-ais.md).
+**Note:** This requires AI search to be enabled within the Retail Mobile instance. For more information, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/overview-ais.md).
 
 ## Procedure
 
@@ -26,6 +26,8 @@ Role required: sn\_rtl\_instore\_ops.manager or sn\_rtl\_instore\_ops.associate
 
 2.  Enter a keyword or description related to a case or task.
 
-3.  Select matching store cases and tasks as needed.
+3.  Select a matching store case as task as needed.
 
+
+**Parent Topic:**[Fulfill In-store operations cases and tasks in Retail Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/rahi-retail-fulfill-in-store-ops-mobile.md)
 

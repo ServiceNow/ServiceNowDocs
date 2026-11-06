@@ -7,9 +7,9 @@ release: zurich
 product: Learning Core
 classification: learning-core
 topic_type: task
-last_updated: "2025-11-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Skill sensing for learning content, Use, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Skill sensing for learning content, Using My Learning, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Add or discard multiple skills with skill sensing
@@ -40,4 +40,6 @@ Plugin requirement: Now Assist for HR Service Delivery \(HRSD\) plugin \(sn\_hr\
 
     The selected skills are added to the Course item skills table \(sn\_lc\_course\_item\_m2m\_cmn\_skill\) and linked to the relevant learning courses. They are then removed from the Course Item Recommended Skills list.
 
+
+**Parent Topic:**[Skill sensing for learning content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/skill-sensing-for-learning-content.md)
 

@@ -7,8 +7,9 @@ release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+keywords: [security incident, observables, TISC case, create incident]
 breadcrumb: [Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
@@ -80,6 +81,8 @@ Role required: sn\_si\_basic
 
 [Creating cases using Threat Analyst Workbench]()
 
+[Summarize a Case using generative AI]()
+
 [Creating case task using Threat Analyst Workbench]()
 
 [Working with Investigation Canvas]()
@@ -87,6 +90,8 @@ Role required: sn\_si\_basic
 [Add artifacts to cases or case tasks]()
 
 [Run Enrichment Actions within a case]()
+
+[Generate a Case Report using generative AI]()
 
 [Generate a Case Report using a template]()
 

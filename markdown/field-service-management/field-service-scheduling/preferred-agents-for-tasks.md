@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Assigning WOTs using Dynamic Scheduling, Scheduling and dispatching, Use, Field Service Management]
+breadcrumb: [Assigning tasks using Dynamic Scheduling, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Assigning preferred agents to work on tasks
@@ -88,5 +88,5 @@ This example shows how when a customer books an appointment, it’s automaticall
     Navigate to **Field Service** &gt; **Dispatching** &gt; **Dispatcher Workspace** and see that the task has been assigned to the preferred agent Mona Lisa.
 
 
-For more information on adding a preferred agent to a work order task see, [Assign preferred agents to tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/assign-preferred-agents-tasks.md).
+For more information on adding a preferred agent to a work order task see, [Set technician preferences for tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/assign-preferred-agents-tasks.md).
 

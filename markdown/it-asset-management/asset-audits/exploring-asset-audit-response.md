@@ -7,9 +7,9 @@ release: zurich
 product: Asset Audits
 classification: asset-audits
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Asset Audit Response, IT Asset Management]
+breadcrumb: [Asset Audit Response, IT Asset Management, Asset Management]
 ---
 
 # Exploring Asset Audit Response
@@ -29,7 +29,7 @@ The Asset Audit Response application provides an Asset Governance Workspace and 
 
 ## Asset Audit Response workflow
 
-The following section describes the steps that are involved in the Asset Audit Response workflow.\[Omitted image "asset-audit-response-workflow.png"\] Alt text: Asset Audit Response workflow.
+The following section describes the steps that are involved in the Asset Audit Response workflow. \[Omitted image "asset-audit-response-workflow.png"\] Alt text: Asset Audit Response workflow.
 
 1.  An organization receives an audit letter from a financial regulatory agency, such as the Federal Financial Institutions Examination Council \(FFIEC\).
 2.  In the Audit Workspace, the audit manager creates an engagement to scope, plan, and conduct the requested audit.
@@ -53,6 +53,8 @@ The following section describes the steps that are involved in the Asset Audit R
 |Create and manage financial regulatory audit engagements and corresponding evidence requests.|[Audit Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-audits/audit-workspace.md)|Audit managers|
 |Track and manage responses to evidence requests for your financial regulatory audits.|[Asset Governance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-audits/asset-governance-workspace.md)|Asset managers|
 |Fulfill evidence requests for your financial regulatory audits.|[Asset Response Guided Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-audits/fulfill-evidence-requests-guided-experience.md)|Asset managers|
+
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 ## What to explore next
 

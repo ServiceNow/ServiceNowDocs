@@ -1,20 +1,20 @@
 ---
 title: Run tests for a story in Agile Development 2.0
-description: For a story whose tests are marked ready to be run, run those tests. Execute all the test steps using the Sprint Tracking tab of the Agile board in Agile Development 2.0.
+description: For a story whose tests are marked ready to be run, run those tests and execute all the test steps. Do this using the Sprint Tracking tab of the Agile board in Agile Development 2.0.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/agile-development/run-test-plan-within-agile.html
 release: zurich
 product: Agile Development
 classification: agile-development
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Managing your product development using Agile Development 2.0, Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
 
 # Run tests for a story in Agile Development 2.0
 
-For a story whose tests are marked ready to be run, run those tests. Execute all the test steps using the Sprint Tracking tab of the Agile board in Agile Development 2.0.
+For a story whose tests are marked ready to be run, run those tests and execute all the test steps. Do this using the Sprint Tracking tab of the Agile board in Agile Development 2.0.
 
 ## Before you begin
 
@@ -71,5 +71,5 @@ The result of each test is indicated on the Agile board as Passed, Failed, Block
 
 [View the test results for a story in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/view-test-result-form.md)
 
-**Parent Topic:**[Using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/using-agile-development-2-0.md)
+**Parent Topic:**[Managing your product development using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/using-agile-development-2-0.md)
 

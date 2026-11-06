@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/clone-states.html
 release: zurich
 topic_type: concept
-last_updated: "2025-09-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Instance Clone, Configure core features, Administer]
+breadcrumb: [Reference, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Clone states
@@ -28,6 +28,21 @@ A reference topic displaying the various states of a clone.
 |Rollback failure|The request to roll back the clone has failed.|
 |Rolling back|The clone is in the process of rolling back to a previous state.|
 |Rolled back|The clone request to roll back to a previous state is complete.|
+
+## Cleanup script execution states
+
+After a clone completes, each cleanup script on the target instance displays one of the following states. The normal progression is: Ready to schedule → Scheduled → Executing → Completed, Error, or Not executed.
+
+|State|Description|
+|-----|-----------|
+|Ready to schedule|The script is queued and will run when its turn comes. Shown before and during clone execution for scripts that have not yet started.|
+|Scheduled|The script has been scheduled to run.|
+|Executing|The script is actively running.|
+|Completed|The script finished successfully.|
+|Error|The script encountered an error. The error message is shown in the **Error message** column. See [Monitor cleanup script execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/monitor-cleanup-script-execution.md) to retry failed scripts.|
+|Not executed|The script was intentionally skipped due to conditional logic. The reason is shown in the **Error message** column.|
+
+**Note:** If a script is retried after an error, the state returns to **Executing** and the **Runs** column increments by 1.
 
 **Parent Topic:**[Instance Clone reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/instance-clone-reference.md)
 

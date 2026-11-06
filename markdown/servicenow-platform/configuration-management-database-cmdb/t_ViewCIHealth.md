@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [CMDB Health, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,17 +26,17 @@ Role required: sn\_cmdb\_user \(CMDB user\)
 
 CI health scores are based on settings of CMDB Health KPIs and metrics. Aggregations are calculated in real-time from data stored in health-related tables which the CMDB Health Dashboard jobs update on a recurring schedule. The completeness and correctness KPIs are always up to date. However, the compliance KPI depends on audit cycles and on the **CMDB Health Dashboard - Compliance Score Calculation** dashboard job that might not have run yet.
 
-To ensure that the latest updates to these KPIs are reflected, navigate to the respective CMDB Health dashboard job, and select **Execute Now**. For more information, see [Enable and configure a CMDB Health Dashboard job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/t_EnableCMDBHealthDashboardJob.md).
+To ensure that the latest updates to these KPIs are reflected, navigate to the respective CMDB Health Dashboard job, and select **Execute Now**. For more information, see [Enable and configure a CMDB Health Dashboard job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/t_EnableCMDBHealthDashboardJob.md).
 
 ## Procedure
 
-1.  Open the CI form for a CI, in CMDB Workspace.
+1.  Open the CI form for a CI, in a workspace.
 
-    -   On a CI form that isn't in CMDB Workspaceand in Service Graph Workspace select **Open in Workspace** to view CI health.
+    -   On a CI form outside of CMDB Workspaceand Service Graph Workspace, select **Open in Workspace**.
 
         Role required: sn\_cmdb\_user \(minimum\)
 
-    -   In CMDB Workspace,or in Service Graph Workspace select a CI in a list view to open the CI's form. For example, on the CMDB Health Dashboard, drill down a KPI tile and then select a CI in the tile's list view.
+    -   In CMDB Workspaceor in Service Graph Workspace, select a CI in a list view to open the CI's form. For example, on the CMDB Health Dashboard, drill down a KPI tile and then select a CI in the tile's list view.
 2.  Select the right \(&gt;\) or left \(&lt;\) handles in the CI Health tile to see all CI health-related widgets.
 
 

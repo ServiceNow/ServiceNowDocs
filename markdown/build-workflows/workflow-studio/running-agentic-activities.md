@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-09-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Agentic Playbooks, Playbook, Explore, Workflow Studio, Build workflows]
+breadcrumb: [Agentic Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Using Agentic Playbooks
@@ -59,6 +59,4 @@ In the following example, Beth Anglin, a CSM / FSM Workspaces user, is creating 
 6.  Beth reviews the drafted email and selects to send it to the customer. \[Omitted image "agentic-playbook-send-email.png"\] Alt text: Beth review the email draft and selects Send.
 
 By leveraging Agentic Playbooks, Beth efficiently manages the contract renewal process, reducing manual effort and enhancing customer communication.
-
-**Parent Topic:**[Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/agentic-playbooks-landing.md)
 

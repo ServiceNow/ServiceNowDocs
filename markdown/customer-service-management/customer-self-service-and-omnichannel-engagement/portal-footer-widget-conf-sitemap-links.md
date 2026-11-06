@@ -7,7 +7,7 @@ release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Portal Polaris Footer widget, Set up Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
 ---
@@ -22,7 +22,7 @@ The Portal Next Experience theme should have been activated.
 
 The Portal Polaris Footer widget must have been configured. For more information, see [Configure the Portal Polaris Footer widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-footer-widget.md)
 
-Role required: admin or sp\_admin
+Role required: sp\_admin
 
 ## Procedure
 

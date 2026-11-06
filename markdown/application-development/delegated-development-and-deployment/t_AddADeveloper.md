@@ -1,26 +1,26 @@
 ---
-title: Delegating development permissions to personnel
-description: A system administrator can assign a non-administrator user or group as a developer for a specific application. You can set permissions that designate what specific actions the assigned user can perform in the current instance. You can also make the user a Delegated Admin to grant access to all permissions at once.
+title: Delegate development and deployment permissions to personnel
+description: A system administrator can assign a non-administrator user or group as a developer or deployment resource for a specific application. You can set permissions that designate what specific actions the assigned user can perform in the current instance, or make the user a Delegated Admin to grant access to all permissions at once.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/delegated-development-and-deployment/t\_AddADeveloper.html
 release: zurich
 product: Delegated Development and Deployment
 classification: delegated-development-and-deployment
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administer, Delegated Development, Planning your application, Building applications]
+breadcrumb: [Administer, Delegated Development, Planning your application, Classic app development, Building applications]
 ---
 
-# Delegating development permissions to personnel
+# Delegate development and deployment permissions to personnel
 
-A system administrator can assign a non-administrator user or group as a developer for a specific application. You can set permissions that designate what specific actions the assigned user can perform in the current instance. You can also make the user a Delegated Admin to grant access to all permissions at once.
+A system administrator can assign a non-administrator user or group as a developer or deployment resource for a specific application. You can set permissions that designate what specific actions the assigned user can perform in the current instance, or make the user a Delegated Admin to grant access to all permissions at once.
 
 ## Before you begin
 
 -   Role required: admin or application administrator
 
-    If [Application administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/application-administration.md) is enabled, only an application administrator of the target application can delegate developers to an application. If application administration isn’t enabled, an admin user can delegate developers.
+    If [Application administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/application-administration.md) is enabled, only an application administrator of the target application can delegate developers to an application. If application administration is not enabled, an admin user can delegate developers.
 
 -   Records required:
     -   Application
@@ -47,14 +47,14 @@ A system administrator can assign a non-administrator user or group as a develop
 
     |Option|Description|
     |------|-----------|
-    |**Developers**|To add individual users as developers.|
-    |**Groups**|To add all members of a group as developers.|
+    |**Developers**|To add individual users as developers or deployers.|
+    |**Groups**|To add all members of a group as developers or deployers.|
 
-5.  In **Developer Name** or **Group Name**, enter the name of the user or group you want to grant developer permissions.
+5.  In **Developer Name** or **Group Name**, enter the name of the user or group you want to grant developer or deployment permissions.
 
-6.  Select custom developer permissions for the application, or select **Delegated Admin** to grant access to all permissions for the application.
+6.  Select specific developer and deployment permissions for the application, or select **Delegated Admin** to quickly grant access to all permissions for the application.
 
-    For details, see [Developer permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/developer-permissions.md).
+    For details, see [Developer and deployment permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/developer-permissions.md).
 
 7.  Select **Save**.
 

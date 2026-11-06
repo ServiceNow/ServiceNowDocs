@@ -7,7 +7,7 @@ release: zurich
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Setting up the Catalog Builder, Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,15 +32,15 @@ This video shows you how to add a step, section, or question to a catalog item w
 
 3.  Add steps, sections, or questions to the Catalog Builder wizard.
 
-<table id="choicetable_stn_4yc_vtb"><thead><tr><th align="left" id="d601722e97">
+<table id="choicetable_stn_4yc_vtb"><thead><tr><th align="left" id="d607625e97">
 
 Option
 
-</th><th align="left" id="d601722e100">
+</th><th align="left" id="d607625e100">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d601722e106">
+</th></tr></thead><tbody><tr><td id="d607625e106">
 
 **Create a step**
 
@@ -54,7 +54,7 @@ For a description of the field values, see [Fields in Service Catalog Wizard for
 3.  Select **Submit**.
 
 
-</td></tr><tr><td id="d601722e144">
+</td></tr><tr><td id="d607625e144">
 
 **Create a section**
 

@@ -7,9 +7,9 @@ release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Service Operations Workspace for ITSM to improve your experience, Configure, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Configuring Service Operations Workspace for ITSM to improve your experience, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Assign the service desk agent role to the user in Service Operations Workspace
@@ -22,7 +22,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Service Operations Workspace** &gt; **Configurations**.
+1.  Navigate to **All** &gt; **Service Operations Workspace Admin Center** &gt; **Configurations**.
 
 2.  On the Admin Center page, do one of the following:
 
@@ -34,7 +34,7 @@ Role required: admin
     -   **Available groups and users**: List of all available users in the system.
 3.  Select the **Available groups and users** tab.
 
-4.  Select a group to assign all the users in the group with the service desk agent role.
+4.  Select a group to assign the service desk agent role to all the users in the group.
 
     Select a user to assign the service desk agent role.
 
@@ -43,7 +43,7 @@ Role required: admin
 
 ## Result
 
-The selected users are assigned with a service desk agent role.
+The selected users are assigned the service desk agent role.
 
 **Parent Topic:**[Configuring Service Operations Workspace for ITSM to improve your experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/configuring-sow-to-improve-experience.md)
 

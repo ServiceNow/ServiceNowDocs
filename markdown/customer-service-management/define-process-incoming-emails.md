@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/define-process-incoming-emails.html
 release: zurich
 topic_type: task
-last_updated: "2025-09-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure process rules for incoming emails, Email to case, Email channel, Configure, Enable communication channels, Configure, Customer Service Management]
+breadcrumb: [Configure process rules for incoming emails, Email to case, Configure Email, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Define rules to process incoming emails
@@ -20,10 +20,10 @@ Role required: admin, sn\_customerservice\_manager
 
 ## About this task
 
-Email flows use conditional logic to incorporate multiple business processes in one flow. When designing inbound email flows, note the following:
+Email flows use conditional logic to incorporate multiple business processes into one flow. When designing inbound email flows, note the following:
 
--   The execution order of the inbound email flows takes a higher precedence than inbound actions.That is, if an email flow executes, it prevents the execution of inbound actions.
--   The user who sends an email should have the necessary roles to perform operations specified in the flow or the operation will stop.
+-   The execution order of the inbound email flows comes before inbound actions. For example, if an email flow executes, it prevents the execution of inbound actions.
+-   The user who sends an email should have the necessary roles to perform the operations specified in the flow. Otherwise the system stops the operation.
 
 ## Procedure
 
@@ -65,10 +65,6 @@ Email flows use conditional logic to incorporate multiple business processes in 
 
     The defined inbound email flow is activated.
 
-
-## Result
-
-The defined inbound email flow is activated.
 
 **Related topics**  
 

@@ -7,7 +7,7 @@ release: zurich
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
@@ -39,24 +39,7 @@ Before creating management rules, you must install and configure the Service Rel
 
 **Parent Topic:**[Configuring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/configuring-service-reliability-management.md)
 
-**Related topics**  
+**Previous topic:**[Configure Twilio to send notifications in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-add-twilio-key.md)
 
-
-[Install Service Reliability Management from Admin Center or ServiceNow Store]()
-
-[Assign an administrator to Service Reliability Management]()
-
-[Activate teams and services in SRM]()
-
-[Customize service approval settings]()
-
-[Customize team approval settings]()
-
-[Configure error budget actions for breached SRM SLOs]()
-
-[Approve a change request for SRM]()
-
-[Configure fields for escalation triggers]()
-
-[Configure Twilio to send notifications in SRM]()
+**Next topic:**[Using Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/using-service-reliability-management.md)
 

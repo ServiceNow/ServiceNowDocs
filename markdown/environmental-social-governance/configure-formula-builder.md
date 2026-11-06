@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/configure-formula-builder.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Formula building in a calculated metric definition, Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-It’s necessary to configure the formula builder before a formula can be built in a calculated metric definition. During configuring, you can specify the formula context, the tables to use, and their conditions. In the context of ESG Management, if you build the formula at the metric definition level, you must select the metric definition table and the metric table during configuration. To build the formula at the entity level, you must select the metric definition and the emission factor table. Other applications can use the tables that are required for their use. You can configure the columns and their labels that you want to display along with the emission factor during building the formula. These labels help in easily identifying the emission factors.
+It’s necessary to configure the formula builder before a formula can be built in a calculated metric definition. During configuring, you can specify the formula context, the tables to use, and their conditions. In the context of Operational Sustainability Management, if you build the formula at the metric definition level, you must select the metric definition table and the metric table during configuration. To build the formula at the entity level, you must select the metric definition and the emission factor table. Other applications can use the tables that are required for their use. You can configure the columns and their labels that you want to display along with the emission factor during building the formula. These labels help in easily identifying the emission factors.
 
 ## Procedure
 

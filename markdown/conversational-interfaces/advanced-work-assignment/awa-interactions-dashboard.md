@@ -7,7 +7,7 @@ release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Platform Analytics Solutions for Advanced Work Assignment, Analytics &amp; Reporting Solutions, Reference, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -17,6 +17,8 @@ breadcrumb: [Platform Analytics Solutions for Advanced Work Assignment, Analytic
 Enable managers to monitor Interaction \[interaction\] work items so that their agents can better support customer needs.
 
 This dashboard is available in the Performance Analytics - Content Pack - Advanced Work Assignment plugin. For information on activating the content pack, see [Platform Analytics Solutions for Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-content-pack.md).
+
+\[Omitted image "AWAInteractions-update.png"\] Alt text: The dashboard displays indicators and reports to track agent interactions with customers
 
 ## End users and roles
 
@@ -121,6 +123,4 @@ For more information on analyzing data with breakdowns, see [Using breakdowns on
 |Accepted Work Items - Last Hour|Single Score\[Omitted image "single-score.svg"\] Alt text: Single score report|Number of interaction work items that agents have accepted in the past hour.|
 |Abandoned Work Items - Last Hour|Single Score\[Omitted image "single-score.svg"\] Alt text: Single score report|Number of interaction work items that agents have abandoned in the past hour.|
 |Average Wait Time - Last Hour|Single Score\[Omitted image "single-score.svg"\] Alt text: Single score report|Average amount of time that customers have spent waiting for an agent response in the past hour.|
-
-**Parent Topic:**[Platform Analytics Solutions for Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/awa-content-pack.md)
 

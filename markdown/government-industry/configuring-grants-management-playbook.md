@@ -38,7 +38,7 @@ Install Grants Management from the ServiceNow® Store.
 
 </td><td>
 
-Enable publishing of grant programs, and authorized representative activities.
+Enable publishing of grant programs, as well as authorized representative activities.
 
 </td></tr><tr><td>
 

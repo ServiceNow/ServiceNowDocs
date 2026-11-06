@@ -1,0 +1,42 @@
+---
+title: Configure AI skills for merging articles
+description: To merge the duplicate knowledge articles, activate AI skills for merging the duplicate articles. Once configured, these skills enable the system to merge duplicate articles effectively, ensuring consistent and streamlined content management.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/now-assist-in-knowledge-management/configure-merge-article.html
+release: zurich
+product: Now Assist in Knowledge Management
+classification: now-assist-in-knowledge-management
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Configure ServiceNow Otto in Knowledge Management, ServiceNow Otto in Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
+---
+
+# Configure AI skills for merging articles
+
+To merge the duplicate knowledge articles, activate AI skills for merging the duplicate articles. Once configured, these skills enable the system to merge duplicate articles effectively, ensuring consistent and streamlined content management.
+
+## Before you begin
+
+A data set of at least 2000 articles is necessary for the AI duplicate feature to work reliably.
+
+Role required: admin
+
+## Procedure
+
+1.  Navigate to **All** &gt; **AI Admin** &gt; **AI Skills** &gt; **Platform** &gt; **knowledge**.
+
+2.  Select the **Merge duplicate articles** to activate or deactivate the skill.
+
+
+## Result
+
+Verify that the skills display an **Active** or **Deactivated** status based on your selection. Once activated, you can merge duplicate articles.
+
+**Parent Topic:**[Configuring ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/configuring-now-assist-km.md)
+
+**Related topics**  
+
+
+[Merge duplicate articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/merge-duplicate-articles.md)
+

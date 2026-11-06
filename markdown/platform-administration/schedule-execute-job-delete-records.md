@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/schedule-execute-job-delete-records.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Delete records safely, Data Management, Tables and data, Configure core features, Administer]
+breadcrumb: [Deleting records safely in Core UI, Manage data growth in Core UI, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Schedule or execute a job to delete records
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-Consider scheduling the delete job to run during non-business hours to minimize the potential performance impact on your users. Deleting all records in a table temporarily locks the table, which prevents inserts and updates. If you want to delete all records from a table, use the table cleaner option instead. For more information, see [Deleting older or unwanted records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/deleting-older-records.md).
+Consider scheduling the delete job to run during non-business hours to minimize the potential performance impact on your users. Deleting all records in a table temporarily locks the table, which prevents inserts and updates. If you want to delete all records from a table, use the table cleaner option instead. For more information, see [Deleting older or unwanted records in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/deleting-older-records.md).
 
 ## Procedure
 
@@ -35,5 +35,5 @@ Consider scheduling the delete job to run during non-business hours to minimize 
 
 The records are scheduled for deletion or deleted immediately. If you want to restore the deleted records, see [Rollback a delete job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/rollback-delete-job.md).
 
-**Parent Topic:**[Deleting records safely](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/deleting-records-safely.md)
+**Parent Topic:**[Deleting records safely in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/deleting-records-safely.md)
 

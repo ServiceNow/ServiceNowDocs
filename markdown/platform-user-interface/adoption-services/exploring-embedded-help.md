@@ -7,7 +7,7 @@ release: zurich
 product: Adoption Services
 classification: adoption-services
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Embedded Help, In-product help, Adoption services, Configure user experiences]
 ---
@@ -20,7 +20,7 @@ Embedded help provides targeted help content to a user in a UI page, based on th
 
 Embedded Help enables you to provide the help that your users need, as well as benefit from help topics available in the base system. You can add new embedded help content or replace content. Replacing content involves deactivating the existing topic and adding a topic.
 
-Your organization may want to add or replace Embedded Help content for some of the following reasons:
+Your organization may want to add or replace embedded help content for some of the following reasons:
 
 -   To provide help for custom applications.
 -   To provide more specific instructions or embedded videos to describe your business process.
@@ -36,11 +36,11 @@ Starting this release, Embedded Help also supports non-English content import wi
 
 ## Embedded Help workflow
 
-The ServiceNow datacenter contains the Content Delivery Network \(CDN\) where embedded help content is stored. Topics in the local \(instance\) Embedded Help content \[sys\_embedded\_help\_content\] table are populated from the CDN. Help content in the CDN is refreshed every 30 days.
+The ServiceNow datacenter contains the Content Delivery Network \(CDN\) where embedded help content is stored. Topics in the local \(instance\) Embedded Help Content \[sys\_embedded\_help\_content\] table are populated from the CDN. Help content in the CDN is refreshed every 30 days.
 
 When a user accesses a UI page, the embedded help process displays a custom topic if one exists for the user's role. If there is no custom topic, the following steps are performed.
 
-1.  Checks the browser cache first, and displays the content if found in the cache. It then checks the Embedded Help content \[sys\_embedded\_help\_content\] table for the corresponding embedded help topic with the role and qualifier, if applicable.
+1.  Checks the browser cache first, and displays the content if found in the cache. It then checks the Embedded Help Content \[sys\_embedded\_help\_content\] table for the corresponding embedded help topic with the role and qualifier, if applicable.
     -   If a topic is found, it checks the date in the **Last sync** field. If the date is 15 or more days old, it places a request in the Embedded Help Queue \[sys\_embedded\_help\_queue\] table with the last sync date and the resource ID.
     -   If a topic is not found, it places a request in the Embedded Help Queue \[sys\_embedded\_help\_queue\] table with the current date and the resource ID.
 2.  Within a minute of the page being viewed, the system processes the request and checks the CDN. In the first case, it checks whether the topic was updated since the **Last sync** date. In either case, after a minute, refresh the page to see the content.
@@ -48,5 +48,5 @@ When a user accesses a UI page, the embedded help process displays a custom topi
     -   If the topic was not updated, it displays the local cached or database topic, and updates the **Last sync** date.
 3.  If the topic was not in the local database, it pulls the topic into the table if it exists on the CDN. If it does not exist, there is no action.
 
-The administrator can modify the default 15-day synchronization duration in [system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/embedded-help-sys-properties.md).
+The administrator can modify the default 15-day synchronization duration in [system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/adoption-services/embedded-help-sys-properties.md)
 

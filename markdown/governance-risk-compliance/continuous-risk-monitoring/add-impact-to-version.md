@@ -7,7 +7,7 @@ release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2025-12-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Add version to workflow, Workflow configuration, CAM workflow configuration, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
@@ -26,7 +26,7 @@ Role required: sn\_irm\_cont\_auth.admin
 
 2.  Select a Workflow Configuration.
 
-3.  To view the impact list, select the expand icon \(\[Omitted image "WF-version-and-impact-icon.png"\] Alt text: impact expand icon\) in the **Versions** tab.
+3.  In the **Versions** tab, expand the version to view the impact list.
 
 4.  Select **New** to add a new impact.
 

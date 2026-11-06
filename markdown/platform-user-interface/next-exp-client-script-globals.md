@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/next-exp-client-script-globals.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -22,7 +22,7 @@ Next Experience global variables are used in client scripts to determine whether
 
     Returns **true** if the page is running in the Next Experience Unified Navigation. This global variable exists only in the Unified Navigation.
 
-    For more information about the Unified Navigation, see [Using the Next Experience Unified Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/using-the-next-experience-global-header.md).
+    For more information about the Unified Navigation, see [Next Experience Unified Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/using-the-next-experience-global-header.md).
 
 
 Client script:

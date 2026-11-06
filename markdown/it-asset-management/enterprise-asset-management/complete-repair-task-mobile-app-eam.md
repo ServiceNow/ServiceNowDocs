@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage enterprise asset repair tasks using the Mobile Agent application, Manage enterprise assets and tasks using Mobile Agent application, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Manage enterprise asset repair tasks using the Mobile Agent application, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, Asset Management]
 ---
 
 # Close an enterprise asset repair task using the Mobile Agent application
@@ -48,15 +48,15 @@ You can close any task that belongs to the following task types:
 
 7.  On the Repair task input form screen, enter the result of your task.
 
-<table id="choicetable_g14_wv2_yxb"><thead><tr><th align="left" id="d183292e168">
+<table id="choicetable_g14_wv2_yxb"><thead><tr><th align="left" id="d194675e168">
 
 Task
 
-</th><th align="left" id="d183292e171">
+</th><th align="left" id="d194675e171">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d183292e177">
+</th></tr></thead><tbody><tr><td id="d194675e177">
 
 **Troubleshoot asset**
 
@@ -67,7 +67,7 @@ In the **Troubleshoot result** field, select any of the following:-   **Repairab
 -   **Redeployable**
 
 
-</td></tr><tr><td id="d183292e203">
+</td></tr><tr><td id="d194675e203">
 
 **Repair asset**
 
@@ -78,7 +78,7 @@ In the **Repair result** field, select any of the following: -   **Repaired**
 -   **Redeployable**
 
 
-</td></tr><tr><td id="d183292e229">
+</td></tr><tr><td id="d194675e229">
 
 **Evaluate asset**
 

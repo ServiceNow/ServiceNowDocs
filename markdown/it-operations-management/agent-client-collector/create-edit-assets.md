@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [ACC deployment - servers, Agent Client Collector, IT Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Create and edit Agent Client Collector plugins
@@ -123,4 +123,9 @@ Role required: agent\_client\_collector\_admin
     |**Advanced**|Selected to enable selecting the operating system version to be monitored by the plugin.|
     |**OS Version**|Selects the operating system version to be monitored by the plugin. This field appears only when selecting the **Advanced** check box.|
 
+
+-   **[Secure a custom plugin with a certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-self-sign-certificate.md)**  
+When you customize or create an Agent Client Collector plugin, you can secure the plugin with either a third-party certificate or an internal secure certificate in the plugin's script. Official plugins are signed by an external certificate authority.
+
+**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-server-deployment.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Content Management System
 classification: content-management-system
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure UIs and portals, Configure user experiences]
 ---
@@ -16,7 +16,11 @@ breadcrumb: [Configure UIs and portals, Configure user experiences]
 
 The Content Management System \(CMS\) is a ServiceNow application that enables users to create a custom interface for the ServiceNow platform and ServiceNow applications.
 
-**Important:** Use Service Portal for new development instead of CMS. Service Portal is an alternative to CMS with a refined user experience, and is active by default in the base system. For more information, see [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/c_ServicePortal.md) and [Content Management and Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/c_CMSAndSP.md).
+**Important:**
+
+The com.glide.cms and com.glide.cms.extensions plugins are being prepared for future deprecation. They will be hidden and no longer available for activation but will continue to be supported for regression and security defects until the C release \(GA\). The CMS application can no longer be activated and will be deprecated in the C release \(GA\) and support will end for Content Management System. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
+
+Use Service Portal for new development instead of CMS. Service Portal is an alternative to CMS with a refined user experience, and is active by default in the base system. For more information, see [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/c_ServicePortal.md) and [Content Management and Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/c_CMSAndSP.md).
 
 A CMS typically requires a systems administrator or a web developer to set up and add features. Non-technical users can use the CMS application as a tool for website maintenance. You also want to consider the timing of the addition of content management, and the maturity level of ServiceNow data. For more information, see [CMS Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/content-management-system/c_ContentManagementPlanning.md).
 

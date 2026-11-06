@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/r\_PropInstallWFieldServMgmnt.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 19
+last_updated: "2026-10-23"
+reading_time_minutes: 23
 breadcrumb: [Components installed, Reference, Field Service Management]
 ---
 
@@ -104,7 +104,7 @@ Calculates and automatically populates the potential assignment groups. Updates 
 
 **Note:** The **wm\_work\_order\_task\_potential\_assignment\_groups** table is populated only when:
 
--   The **sn\_fsm.update\_potential\_assignment\_groups** system property is set to true.
+-   The **sn\_fsm.update\_potential\_assignment\_groups** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/r_PropInstallWFieldServMgmnt.md) is set to true.
 -   More than one assignment group is found for the location.
 -   Territory model is inactive.
 
@@ -363,6 +363,78 @@ sn\_schedule\_optim.scheduled\_state\_count\_of\_task
 Enables admin to control how many tasks are assigned to a technician at any given time.-   Type: Integer
 -   Default value: 1
 
+</td></tr><tr><td>
+
+google.maps.map\_id
+
+</td><td>
+
+Enables Field Service Management to use the map ID for Google Maps used for cloud-based maps styling, vector map, advanced markers. You must obtain your own map ID, to do so visit [https://developers.google.com/maps/documentation/javascript/map-ids/get-map-id](https://developers.google.com/maps/documentation/javascript/map-ids/get-map-id).**Important:** You must add `FSM_Map` as the value to use advanced markers.
+
+-   Type: String
+-   Default value: `Blank`
+
+</td></tr><tr><td>
+
+sn\_fsm\_shift\_schdl.enable\_embed\_break\_in\_wot
+
+</td><td>
+
+Enables or disables break embedding within work order tasks globally.-   Type: Boolean
+-   Default value: true
+-   Location: System Properties list \[sys\_properties\] table
+
+</td></tr><tr><td>
+
+sn\_fsm\_shift\_schdl.wfo.break.auto\_status
+
+</td><td>
+
+When enabled, a break's status updates automatically once its scheduled end time passes, so technicians don't have to manually mark the break as taken.-   Type: Boolean
+-   Default value: true
+-   Location: System Properties list \[sys\_properties\] table
+
+</td></tr><tr><td>
+
+sn\_fsm\_shift\_schdl.wfo.break.reminder\_minutes
+
+</td><td>
+
+Sets how many minutes before a break's scheduled start time the system sends a reminder.-   Type: Integer
+-   Default value: 15
+-   Location: System Properties list \[sys\_properties\] table
+
+</td></tr><tr><td>
+
+sn\_fsm\_shift\_schdl.break\_buffer\_enabled
+
+</td><td>
+
+When true, pre/post break window buffering is active. Buffer values come from attribute plan records \(per-agent\) or break\_buffer\_minutes \(global fallback\).-   Type: Boolean
+-   Default value: false
+-   Location: System Properties list \[sys\_properties\] table
+
+</td></tr><tr><td>
+
+sn\_fsm\_shift\_schdl.break\_buffer\_minutes
+
+</td><td>
+
+Number of minutes of buffer time allowed around break windows.-   Type: Integer
+-   Default value: 0
+-   Allowed values: any positive integer — minutes of flexibility added to each side of the break window slot \(for example, a value of 5 expands the slot by 5 minutes on each side\)
+-   Location: System Properties list \[sys\_properties\] table
+
+</td></tr><tr><td>
+
+sn\_fsm\_shift\_schdl.wfo.break.end\_early\_enabled
+
+</td><td>
+
+When enabled \(and sn\_fsm\_shift\_schdl.wfo.break.auto\_status is off\), technicians can end a break early from the mobile agent app instead of waiting for it to end automatically. If sn\_fsm\_shift\_schdl.wfo.break.auto\_status is on, then sn\_fsm\_shift\_schdl.wfo.break.end\_early\_enabled is ignored.-   Type: Boolean
+-   Default value: false
+-   Location: System Properties list \[sys\_properties\] table
+
 </td></tr></tbody>
 </table>## Properties for calculating estimated travel time and distance
 
@@ -461,6 +533,16 @@ work.management.travel.calculation.schedule\_assistant
 Uses the Google Maps API, Beans.AI, or straight-line estimates to calculate estimated agent travel time and distance to task locations for assignment assistance calculation.-   Type: choice list
 -   Default value: Use straight line estimate
 -   Location: **Field Service** &gt; **Administration** &gt; **Properties**
+
+</td></tr><tr><td>
+
+use\_default\_duration
+
+</td><td>
+
+The create work order task form displays two fields, **Estimated travel duration** and **Estimated work duration**. For both the fields, the default duration is one hour, which is defined at the schema level, but the values can be changed manually in the form. If the property value is set to **false**, the work order task records the values overridden by the user in these fields. However, if the property value is set to **true**, these two fields retain their default values even if the user overrides them.-   Type: true/false
+-   Default value: true
+-   Location: System Properties list
 
 </td></tr></tbody>
 </table>## Part sourcing properties
@@ -1035,18 +1117,6 @@ Enable the SLA timer shown within the Work order task cards inside the Task Pane
 
 </td></tr><tr><td>
 
-sn\_fsm\_disp\_wrkspc.calendarCollapsedBehavior
-
-</td><td>
-
-Show Collapsed territories or assignment group view.**Warning:** Setting this value to false will load all the territories or assignment groups which may cause performance issues.
-
--   Type: true/ false
--   Default value: true
--   Location: System Properties list \[sys\_properties\] table
-
-</td></tr><tr><td>
-
 sn\_fsm\_disp\_wrkspc.dispatcher\_workspace.task\_panel\_sla\_timer\_type
 
 </td><td>
@@ -1086,10 +1156,122 @@ work.management.task\_state\_color.use\_hex
 
 </td><td>
 
-Enable administrators to use hex colors to update the colors on work order tasks in Dispatcher Workspace. The default value, False, doesn't allow for updating task state colors.
+Enable administrators to use hex colors to update the colors on work order tasks in Dispatcher Workspace. The default value, false, doesn't allow for updating task state colors.
 
  -   Type: true/ false
 -   Default value: false
+-   Location: System Properties list \[sys\_properties\] table
+
+</td></tr><tr><td>
+
+work.management.enable.resource.time.indicator
+
+</td><td>
+
+Controls time zone display for work order task. When set to "true", date time fields show on record page forms, task assignment confirmation forms and the time indicator in Dispatcher Workspace is segmented and corresponds with the technician's time zone.
+
+ -   Type: true/ false
+-   Default value: false
+-   Location: System Properties list \[sys\_properties\] table
+
+</td></tr><tr><td>
+
+sn\_fsm\_disp\_wrkspc.calendar\_viewport.scroll\_behavior
+
+</td><td>
+
+Controls scroll behavior on the Dispatcher Workspace calendar. When enabled, the position you scrolled to on the calendar is maintained when you navigate to different days.-   Type: true/ false
+-   Default value: true
+-   Location: System Properties list \[sys\_properties\] table
+
+</td></tr><tr><td>
+
+sn\_fsm\_disp\_wrkspc.dispatcher\_workspace.viewport\_calendar\_resources\_page\_size
+
+</td><td>
+
+Number of resources to load per page on the Dispatcher Workspace calendar when viewport scroll behavior is enabled. The value must be between 1 and 500.-   Type: integer
+-   Default value: 100
+-   Location: System Properties list \[sys\_properties\] table
+
+</td></tr><tr><td>
+
+sn\_fsm\_disp\_wrkspc.collapse\_task\_panel\_in\_init\_load
+
+</td><td>
+
+Gives dispatchers the option to collapse all tasks in the task panel in Dispatcher Workspace when Dispatcher Workspace loads. Dispatchers can expand assignment groups or territories to see the members.-   Type: true/ false
+-   Default value: true
+-   Location: System Properties list \[sys\_properties\] table
+
+</td></tr><tr><td>
+
+sn\_fsm\_disp\_wrkspc.calendar\_viewport.total\_resources\_to\_fetch\_events\_for
+
+</td><td>
+
+The number of resources to fetch events for. If you customize the day selection, for example adding a view for the five day work week, then you must update this property. If you add a value over 100, then it will revert back to 30.-   Type: string
+-   Default value: TIMELINE\_DAY=50; TIMELINE\_DAY\_WORK\_DAY=50; TIMELINE\_WEEK=30; TIMELINE\_FLEXIBLE\_WEEK\_DAYS=30
+-   Location: System Properties list \[sys\_properties\] table
+
+</td></tr><tr><td>
+
+sn\_fsm\_disp\_wrkspc.dispatcher\_workspace.task\_panel\_card\_hover\_popover
+
+</td><td>
+
+Enable on-hover popover on the task card in the task panel on Dispatcher Workspace.-   Type: true/ false
+-   Default value: true
+-   Location: System Properties list \[sys\_properties\] table
+
+</td></tr><tr><td>
+
+sn\_fsm\_disp\_wrkspc.dispatcher\_workspace.calendar\_event\_hover\_popover
+
+</td><td>
+
+Enable on-hover popover on events in the calendar on Dispatcher Workspace.-   Type: true/ false
+-   Default value: true
+-   Location: System Properties list \[sys\_properties\] table
+
+</td></tr><tr><td>
+
+sn\_fsm\_disp\_wrkspc.dispatcher\_workspace.operational\_notes\_enabled
+
+</td><td>
+
+Enable operational notes on Dispatcher Workspace.-   Type: true/ false
+-   Default value: true
+-   Location: System Properties list \[sys\_properties\] table
+
+</td></tr><tr><td>
+
+sn\_fsm\_disp\_wrkspc.dispatcher\_workspace.avoid\_ferry\_routes
+
+</td><td>
+
+When set to true, routes avoid ferries unless no other land route is available. Land routes are used even if they take longer than a ferry route. A ferry route is used only if there is no available land route.-   Type: true/ false
+-   Default value: false
+-   Location: System Properties list \[sys\_properties\] table
+
+</td></tr><tr><td>
+
+work.management.allow.doublebooking.event
+
+</td><td>
+
+Allow dispatchers to double book tasks along with events-   Type: string
+-   Default value: false.
+-   Location: System Properties list \[sys\_properties\] table
+
+</td></tr><tr><td>
+
+sn\_fsm\_disp\_wrkspc.dispatcher\_workspace.calendar\_display\_time\_format
+
+</td><td>
+
+Sets the time format for the Dispatcher Workspace calendar, including the stacked time zone row headers. The default hides seconds. The user's platform time format is not changed.-   Type: string
+-   Default value: HH:mm
 -   Location: System Properties list \[sys\_properties\] table
 
 </td></tr></tbody>

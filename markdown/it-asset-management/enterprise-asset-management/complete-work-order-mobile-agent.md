@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
-breadcrumb: [Manage an Enterprise Asset Management task using the Mobile Agent application, Manage enterprise assets and tasks using Mobile Agent application, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Manage an Enterprise Asset Management task using the Mobile Agent application, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, Asset Management]
 ---
 
 # Take action on an enterprise asset using the Mobile Agent application
@@ -19,10 +19,6 @@ Deploy, remove, or swap any assets or parts that are required for an enterprise 
 ## Before you begin
 
 Role required: wm\_agent
-
-## About this task
-
-**Note:** Starting with Enterprise Asset Management version 10.0, a work order can be associated with more than one asset or an asset group.
 
 ## Procedure
 
@@ -77,9 +73,6 @@ The asset or part must have a status of Not Used. You can also deploy assets or 
 -   **Result**
     -   The Asset Usages list reloads to display the deployed asset or part with a Status of **Used** and State of **In use**. The Status of a consumable asset changes to **Consumed**.
     -   If the work order task has an asset group and affected assets list, the deployed asset is added to the asset group and to the **Affected assets** section in the **Related** list.
-
-**Note:** The Affected assets tab is available with Enterprise Asset Management version 10.0 and later.
-
     -   If the work order task has an affected assets list but no asset group selected, the deployed asset is added to the **Affected assets** list only.
 
 
@@ -92,6 +85,11 @@ Remove an asset or part
 The asset or part must have a state of In use, In maintenance, or Consumed.1.  Select the asset or part.
 2.  Tap **Remove**.
 3.  On the Remove asset screen, tap the asset or part that you want to remove.
+
+**Note:** The assets available in this field depend on whether the **Affected assets** list is populated.
+
+    -   If the Affected assets list is populated, only assets in the list and their descendants with **Required** set to **false** are available.
+    -   If the Affected assets list is empty — for example, when the work order and work order task are based on a location— assets associated with the work order task location and descendant locations are available. Descendant assets are included only if **Required** is set to **false**.
 4.  Tap **Remove**.
 -   **Result**
     -   The **Asset Usage** section reloads to display the removed asset or part, which now has the Status of**Removed** and State of **In stock**.
@@ -106,6 +104,11 @@ Swap an asset or part with a replacement part
 
 1.  Tap **Swap**.
 2.  On the Select asset to swap screen, tap the asset or part that you want to swap.
+
+**Note:** The assets available in this field depend on whether the Affected assets list is populated.
+
+    -   If the Assets Affected list is populated, only assets in the list and their descendants with **Hot swappable** set to **true** are available.
+    -   If the affected assets list is empty — for example, when the work order and work order task are based on a location— assets associated with the work order task location and descendant locations are available. Descendant assets are included only if **Hot swappable** is set to **true**.
 3.  On the Swap assets screen, in the **Swap in asset** field, select the replacement part that you want to swap in from the asset list.
 
 **Note:** The replacement part must have a State of In stock and a substate of Available.
@@ -116,35 +119,28 @@ Swap an asset or part with a replacement part
         -   The Swap out asset has a status of Removed.
         -   The Swap in asset has a status of Used.
     -   The replacement asset is automatically added to the **Affected assets** section in the **Related** list.
-
-**Note:** The Affected assets section is available with Enterprise Asset Management version 10.0 and later.
-
     -   If the work order task is based on an asset group, the swapped-out asset is removed from the asset group, and the replacement asset is added to the asset group.
 
 
 </td></tr></tbody>
 </table>    -   If you want to calibrate the associated enterprise asset, use the following steps:
-        1.  Navigate to the calibration playbook.
-            -   In Enterprise Asset Management version 10.0 and later, perform these steps:
-                1.  Tap **View calibrations** on the work order task.
+        1.  Tap **View calibrations** on the work order task.
 
-                    **Note:** The **View calibrations** button is only visible when the work order task is in the Work in progress state. If the work order task is associated with an asset group that has no calibration attributes defined for the assets, the **View calibrations** button is not visible.
+            **Note:** The **View calibrations** button is only visible when the work order task is in the Work in progress state. If the work order task is associated with an asset group that has no calibration attributes defined for the assets, the **View calibrations** button is not visible.
 
-                    The Calibration events screen opens with two tabs: **Open** and **Completed**.
+            The **Calibration events** screen opens with two tabs: **Open** and **Completed**.
 
-                    -   The **Open** tab displays all calibration events that are not yet completed.
-                    -   The **Completed** tab displays all completed calibration events.
-                2.  Tap the calibration event that you want to complete.
-            -   In Enterprise Asset Management versions prior to 10.0, tap **Calibrate** on the work order task.
-            -   **Result**
+            -   The **Open** tab displays all calibration events that are not yet completed.
+            -   The **Completed** tab displays all completed calibration events.
+        2.  Tap the calibration event that you want to complete.
 
-                The Calibration event playbook opens.
+            The Calibration event playbook opens.
 
-                **Note:** Each lane in the playbook represents an activity that you must complete as part of the calibration event workflow.
+            **Note:** Each lane in the playbook represents an activity that you must complete as part of the calibration event workflow.
 
-        2.  Expand the Calibration event playbook.
-        3.  Expand the Details lane and then tap **Calibration event details**.
-        4.  On the Calibration event details screen, fill in the fields.
+        3.  Expand the Calibration event playbook.
+        4.  Expand the **Details** lane and then tap **Calibration event details**.
+        5.  On the Calibration event details screen, fill in the fields.
 
             |Field|Description|
             |-----|-----------|
@@ -154,15 +150,15 @@ Swap an asset or part with a replacement part
             |Temperature unit|Unit of temperature that you are using to measure the environmental temperature.|
             |Humidity \(%\)|Relative humidity level of the environment in which you are performing the calibration.|
 
-        5.  Tap **Mark as complete**.
+        6.  Tap **Mark as complete**.
 
             The Details lane is marked as Complete and you automatically progress to the Calibration Lines lane.
 
-        6.  On the Calibration lines screen, select the calibration line that you want to complete or skip.
+        7.  On the Calibration lines screen, select the calibration line that you want to complete or skip.
 
             Each calibration line corresponds with a calibration attribute on the associated enterprise asset. If any calibration attribute contains multiple points at which you can measure accuracy, the Enterprise Asset Management application creates a separate calibration line for each point. You can choose to complete or skip each calibration line as needed. For more details on calibration attributes, see [Add calibration attributes to an enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/add-calibration-attributes-enterprise-asset.md) or [Add calibration attributes to an enterprise model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/add-calibration-attributes-enterprise-model.md).
 
-        7.  On the Calibration line record, use one of the following options to complete or skip the calibration line:
+        8.  On the Calibration line record, use one of the following options to complete or skip the calibration line:
             -   To complete the calibration line, tap **Edit**. On the Edit calibration line screen, fill in the fields and then tap **Submit**.
 
 <table id="table_mp2_h23_cbc"><thead><tr><th>
@@ -215,16 +211,16 @@ Additional comments about the calibration.
 
 </td></tr></tbody>
 </table>            -   To skip the calibration line, tap **Skip**.
-        8.  Return to the Calibration lines screen.
-        9.  Repeat steps f to h for each of your calibration lines.
+        9.  Return to the Calibration lines screen.
+        10. Repeat steps f to h for each of your calibration lines.
 
             **Note:** If any of your calibration lines have a Result of Failed, you can remediate the entire calibration event by initiating a new work order and corresponding work order tasks. See [Remediate an unsuccessful enterprise asset calibration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/remediate-unsuccessful-enterprise-asset-calibration.md) for detailed instructions.
 
-        10. Tap **Mark as complete**.
+        11. Tap **Mark as complete**.
 
             The Calibration lines lane is marked as Complete.
 
-        11. Repeat steps b through j for each calibration event in the **Open** tab.
+        12. Repeat steps b through k for each calibration event in the **Open** tab.
 
 ## What to do next
 

@@ -7,9 +7,9 @@ release: zurich
 product: Service Level Management
 classification: service-level-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Service Level Management, IT Service Management]
+breadcrumb: [Service Level Management reference, Service Level Management, IT Service Management]
 ---
 
 # Task SLA table
@@ -69,7 +69,7 @@ Breach time
 
 </td><td>
 
-The time the SLA breaches. The time reflected is adjusted after business pause duration \(for task SLAs with a schedule specified\) or pause duration \(for task SLAs with no schedule\).**Note:** Breach time is the same as Planned end time. Actual breach time is dynamic and often different from the original breach time calculated when a task SLA is first attached.
+The time the SLA will breach, adjusted for business pause duration \(for task SLAs with a schedule specified\) or pause duration \(for task SLAs with no schedule\).**Note:** Breach time is the same as Planned end time.
 
 </td></tr><tr><td>
 
@@ -125,7 +125,7 @@ Original breach time
 
 </td><td>
 
-The date/time the SLA would breach, as calculated when the SLA is first attached after a task record matches an SLA Definition start condition.**Note:** You may have to configure the form to see this field.
+The date/time the SLA would breach, as calculated when the SLA is first attached.**Note:** You may have to configure the form to see this field.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Service Level Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-level-management/service-level-management-reference.md)

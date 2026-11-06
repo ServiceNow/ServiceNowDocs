@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/recovery-team-collaboration.html
 release: zurich
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [recovery team, business continuity management, collaboration, crisis coordination, BCM]
 breadcrumb: [Manage, Business Continuity Management, Governance, Risk, and Compliance]
@@ -55,7 +55,7 @@ The BCM recovery team and collaboration functionality provides key capabilities 
 
 ## Components used in recovery teams
 
-The global recovery team consists of the following components:
+The global recovery team includes the following components:
 
 |Component|Description|
 |---------|-----------|

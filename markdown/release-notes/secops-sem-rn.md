@@ -1,162 +1,144 @@
 ---
-title: Unified Security Exposure Management release notes
-description: The ServiceNow Unified Security Exposure Management application enhances exposure management with role-based views, enabling faster decision-making, efficient task handling, and streamlined approvals. It centralizes workflows, improves visibility across exposures, and enforces governance through configurable rules. With consistent navigation and integrated configuration, USEM boosts productivity, collaboration, and control across security operations, delivering a unified experience for exposures across assets. Unified Security Exposure Management is a new application in the Zurich release.The ServiceNow Unified Security Exposure Management application enhances exposure management with role-based views, enabling faster decision-making, efficient task handling, and streamlined approvals. It centralizes workflows, improves visibility across exposures, and enforces governance through configurable rules. With consistent navigation and integrated configuration, USEM boosts productivity, collaboration, and control across security operations, delivering a unified experience for exposures across assets. Unified Security Exposure Management is a new application in the Zurich release.The ServiceNow Unified Security Exposure Management application enhances exposure management with role-based views, enabling faster decision-making, efficient task handling, and streamlined approvals. It centralizes workflows, improves visibility across exposures, and enforces governance through configurable rules. With consistent navigation and integrated configuration, USEM boosts productivity, collaboration, and control across security operations, delivering a unified experience for exposures across assets. Unified Security Exposure Management is a new application in the Zurich release.The ServiceNow Unified Security Exposure Management application enhances exposure management with role-based views, enabling faster decision-making, efficient task handling, and streamlined approvals. It centralizes workflows, improves visibility across exposures, and enforces governance through configurable rules. With consistent navigation and integrated configuration, USEM boosts productivity, collaboration, and control across security operations, delivering a unified experience for exposures across assets. Unified Security Exposure Management is a new application in the Zurich release.
+title: Unified Security Exposure Management \(USEM\) release notes
+description: The ServiceNow Unified Security Exposure Management \(USEM\) \(USEM\) application enhances exposure management with role-based views, enabling faster decision-making, efficient task handling, and streamlined approvals. See the following sections for release notes by release.The ServiceNow Unified Security Exposure Management \(USEM\) application enhances exposure management with role-based views, enabling faster decision-making, efficient task handling, and streamlined approvals. It centralizes workflows, improves visibility across exposures, and enforces governance through configurable rules. With consistent navigation and integrated configuration, USEM boosts productivity, collaboration, and control across security operations, delivering a unified experience for exposures across assets. USEM was enhanced and updated in the Brazil release.This release adds a Change Request approval path to scheduled patch deployments, and separates risk modification from exception requests.This release rolls up SSVC decision values from CVEs to third-party entries, automatically re-evaluates remediation tasks when a finding's preferred solution changes, and adds support for deploying multiple patches in a single Microsoft SCCM or HCL BigFix deployment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/secops-sem-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2026-07-31"
-reading_time_minutes: 11
-breadcrumb: [Security Operations release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+keywords: [usem release notes, Unified Security Exposure Management, USEM, Patch Orchestration, Risk modification, Exception Management, Unified Security Exposure Management, USEM, SSVC, Patch Orchestration]
+breadcrumb: [Security Operations release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
-# Unified Security Exposure Management release notes
+# Unified Security Exposure Management \(USEM\) release notes
 
-The ServiceNow® Unified Security Exposure Management application enhances exposure management with role-based views, enabling faster decision-making, efficient task handling, and streamlined approvals. It centralizes workflows, improves visibility across exposures, and enforces governance through configurable rules. With consistent navigation and integrated configuration, USEM boosts productivity, collaboration, and control across security operations, delivering a unified experience for exposures across assets. Unified Security Exposure Management is a new application in the Zurich release.
+The ServiceNow® Unified Security Exposure Management \(USEM\) \(USEM\) application enhances exposure management with role-based views, enabling faster decision-making, efficient task handling, and streamlined approvals. See the following sections for release notes by release.
 
-## About Unified Security Exposure Management
+## About Unified Security Exposure Management \(USEM\)
 
-Starting with Zurich Patch 12, Now Assist for Vulnerability Response is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. The change is reflected in the name of ServiceNow® products, including Now Assist for Vulnerability Response which is called ServiceNow Otto for Unified Security Exposure Management with these enhancements for the new AI experience. See [ServiceNow Otto for Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/now-assist-for-usem-landing-ties.md) for more information.
-
--   Experience a standardized data model and modular workflows for Vulnerability Response applications with Unified Security Exposure Management. This transformation and architectural design ensures consistent features across all modules, simplifies configuration, and enables flexible, role-based experiences. The modular approach allows faster updates and seamless integration, creating a scalable and future-ready platform.
--   Manage security exposures with Findings and Remediation views with a centralized platform in the Security Exposure Management Workspace.
--   Configure all USEM apps, including rules, email templates, email notifications, and severity mapping for integrations with the Administration console.
--   Enhanced exception management: Streamlined exception request and approval workflows with comprehensive tracking and audit trails.
--   Use generative AI with features in the SEM workspace that are included with the ServiceNow Otto for Unified Security Exposure Management application.
+-   Centralize exposure management workflows, improve visibility across exposures, and enforce governance through configurable rules.
+-   Reduce the AI attack surface by using AI Security Exposure Management and supported integrations to remediate security exposures in AI assets.
+-   Manage user and group role assignments, configure watchdogs with custom conditions, and access advanced settings directly from the Security Exposure Management Workspace.
+-   Assign tags to security incidents, response tasks, vulnerable items, observables, IoCs, and security cases to define metadata and access control.
+-   Normalize third-party source severity fields into standard ServiceNow severity values.
 
 See [Unified Security Exposure Management \(USEM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/unified-security-exposure-management-landing-page.md) for more information.
 
 ## Activation and other requirements
 
-**Important:** Unified Security Exposure Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
-
 -   **Activation information**
 
-    Unified Security Exposure Management is a ServiceNow AI Platform feature that is available with activation of the Security Exposure Management \(com.snc.security\_support.core\). For details, see [Install Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/sem-install-and-configure.md).
+    Install Unified Security Exposure Management \(USEM\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
--   **Upgrade information**
+    Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
 
-    Unified Security Exposure Management is available to all customers who are entitled to Vulnerability Response. However, migrating to USEM is a major upgrade that introduces a unified architecture for improved performance, scalability, and streamlined workflows. Before upgrading, leverage the Migration assistant for Unified Security Exposure Management that is available as an update set. See the [Migration Guidance to Unified Security Exposure Management \[KB2556844\]](https://support.servicenow.com/kb?sys_kb_id=8652717893a8ba94f538fb2d6cba1078&id=kb_article_view) Knowledge Base article for more information. This tool provides a guided experience for plugin installation, data mapping, rule migration, and post-migration validation, reducing risk and manual effort. Ensure that all integrations and workflows are reviewed for compatibility before initiating migration. For more information, see [Migrating from Vulnerability Response to Unified Security Exposure Management \(USEM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/migrating-to-usem.md) and [Migrate to Unified Security Exposure Management \(USEM\) from Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/migrate-to-usem.md).
+-   **Additional requirements**
 
-
-## Accessibility and localization
-
--   **Accessibility information**
-    -   **Dark theme**
-
-        The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+    The Security Support Common plugin is activated automatically when any of the plugins for the main Security Operations applications are activated. These applications include Unified Security Exposure Management \(USEM\), Security Incident Response, Threat Intelligence, and Configuration Compliance.
 
 
 **Parent Topic:**[Security Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/security-operations-rn-landing.md)
 
-## April 2026
+## November 2026
 
-The ServiceNow® Unified Security Exposure Management application enhances exposure management with role-based views, enabling faster decision-making, efficient task handling, and streamlined approvals. It centralizes workflows, improves visibility across exposures, and enforces governance through configurable rules. With consistent navigation and integrated configuration, USEM boosts productivity, collaboration, and control across security operations, delivering a unified experience for exposures across assets. Unified Security Exposure Management is a new application in the Zurich release.
-
-### What's new
-
--   **[Remediation task rule execution mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/sem-grouping-multiple-findings-remediation-tasks-processing.md)**
-
-    You can now choose how remediation task rules are evaluated during ingestion. The new Match First execution mode evaluates rules sequentially and applies only the first matching rule, assigning each finding to exactly one remediation task. The default Match All mode continues to evaluate all applicable rules.
-
--   **[Unified Microsoft Defender Integration for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/ms-defender-sem.md)**
-
-    The Microsoft Defender for Cloud and Microsoft Defender Threat and Vulnerability Management \(MS TVM\) plugins are now consolidated into a single plugin: Microsoft Defender Integration for Security Exposure Management. This consolidation deprecates the standalone Microsoft Defender for Cloud plugin. The unified plugin also introduces container image vulnerability ingestion from Microsoft Defender for Cloud, creating Container Vulnerable Items on your instance. A guided migration path is available to transfer existing data from the deprecated applications to the unified plugin.
-
--   **[GitHub Application Vulnerability Integration – Generic secrets support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/github-vuln-integration.md)**
-
-    The GitHub Secret Scanning Integration now imports generic secrets in addition to standard secrets from your GitHub repositories. A new Manage generic secrets in ServiceNow configuration option lets you control whether generic secrets are ingested. Imported secrets are mapped to Application Vulnerable Items \(AVIs\) with the scan type Secret, while generic secrets are mapped with the scan type Generic Secret.
-
--   **[Optimized Tenable.io Compliance Results ingestion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/tenable-io-integrations-list.md)**
-
-    Starting with v 6.1.3, the Tenable.io Compliance Results Integration is replaced by the Tenable.io Fixed Compliance Results Integration and Tenable.io Open Compliance Results Integration. Compliance results are now imported based on their status, optimizing ingestion performance and scalability for environments with large volumes of compliance data while keeping remediation and compliance tracking aligned with the current state of findings.
-
--   **[Improved vulnerability assessment workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/vr-ws-vuln-assessment.md)**
-    -   CI filtering for vulnerability assessments: You can now filter which configuration items are included in a vulnerability assessment using a condition builder.
-    -   Business Application population on AVITs: AVITs created from SBOM assessment results now include Business Application information, helping you understand application impact and prioritize remediation.
-    -   Priority roll‑down from vulnerability assessments: Updates to the priority of a vulnerability assessment now automatically roll down to associated VITs and AVITs, ensuring consistent prioritization based on the highest severity.
--   **[Enhanced Compensatory controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/requesting-approving-risk-reduction.md)**
-
-    When new vulnerable items are ingested and associated with a remediation task that already has an approved compensating control, the reduced risk rating is now automatically inherited by those new vulnerable items.
-
-
-## March 2026
-
-The ServiceNow® Unified Security Exposure Management application enhances exposure management with role-based views, enabling faster decision-making, efficient task handling, and streamlined approvals. It centralizes workflows, improves visibility across exposures, and enforces governance through configurable rules. With consistent navigation and integrated configuration, USEM boosts productivity, collaboration, and control across security operations, delivering a unified experience for exposures across assets. Unified Security Exposure Management is a new application in the Zurich release.
+The ServiceNow® Unified Security Exposure Management \(USEM\) application enhances exposure management with role-based views, enabling faster decision-making, efficient task handling, and streamlined approvals. It centralizes workflows, improves visibility across exposures, and enforces governance through configurable rules. With consistent navigation and integrated configuration, USEM boosts productivity, collaboration, and control across security operations, delivering a unified experience for exposures across assets. USEM was enhanced and updated in the Brazil release.
 
 ### What's new
 
--   **[Qualys Integration – API enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/qualys-rest-messages-cc.md)**
+-   **[Unified exposure pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/integrating-usem.md)**
 
-    Qualys Integration has been upgraded to support newer Qualys API versions across Host Detection, Host List, Knowledgebase, PC Controls, PC Policies, and PCRS integrations. The integrations now ingest additional data fields, including vulnerability detection source, authentication privilege status, active status for controls and policies, and cloud metadata, giving you better visibility into your vulnerability and compliance data. Use the new `posture_api_version` integration instance parameter to choose between the default v2.0 APIs or the newer v5.0 streaming APIs for the PCRS Policy Host and PCRS Test Results integrations.
+    Configure, monitor, and troubleshoot scanner integrations within the Unified Security Exposure Management \(USEM\) interface. It has a unified ingestion and normalization pipeline that normalizes assets and exposure findings from across scanners.
+
+    The Security Assets view in the SEM workspace displays normalized and deduplicated assets reported by your security integrations. Each asset shows its risk rating, open findings, labels, and sources. The asset context enables USEM to create precise CIs in appropriate CMDB classes.
+
+    **Note:** Th unified exposure pipeline can't be configured alongside the standard scanner integration applications from ServiceNow Store. You must disable all standard scanner integration applications and clear their data before using the unified exposure pipeline.
+
+-   **[Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/fix-intel-for-usem-landing.md)**
+
+    Accelerate remediation using the deduplicated USEM exposure findings and fix guidance. Automatically identify and group findings by fixes, remediation categories, and software versions for fix-oriented remediation workflows.
+
+    Each fix record gives the recommended remediation, such as a software package and version to update, with its category, related security advisories, and patch month. The fix record also shows the number of affected findings and assets, with a rolled-up risk score and risk rating. Use these details to prioritize fixes that reduce the most exposure.
+
+    **Note:** It is available only when scanner integrations are configured using the unified exposure pipeline.
 
 
-## Zurich
+## Brazil Early Availability
 
-The ServiceNow® Unified Security Exposure Management application enhances exposure management with role-based views, enabling faster decision-making, efficient task handling, and streamlined approvals. It centralizes workflows, improves visibility across exposures, and enforces governance through configurable rules. With consistent navigation and integrated configuration, USEM boosts productivity, collaboration, and control across security operations, delivering a unified experience for exposures across assets. Unified Security Exposure Management is a new application in the Zurich release.
+This release adds a Change Request approval path to scheduled patch deployments, and separates risk modification from exception requests.
 
 ### What's new
 
--   **[Enhanced security exposure management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/sem-workspace-user-interface.md)**
+-   **[Schedule patch deployments through Change Request approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/vr-ws-patch-schedule-change-request.md)**
 
-    Introduced Security Exposure Management Workspace for all security personas, providing a centralized platform for managing security exposures. It includes the following views:
+    Route patch deployments scheduled from remediation tasks through Change Request approval for Microsoft SCCM and HCL BigFix integrations. This lets you align patch deployment for critical vulnerabilities with your organization's change management approval process, and optionally deploy the patch automatically once the change is approved.
 
-    -   Findings view: Comprehensive filtering, dashboard creation, and visualization controls enable efficient analysis and prioritization.
-    -   Remediation view: Multiple work modes \(tasks, findings, assets\) facilitate effective remediation strategies.
-    -   Approval view: The Exception Management UI now provides enhanced insights directly within the Change Approval record, enabling approvers to make informed decisions without navigating to related records. Additionally, the Approver landing page has been redesigned with an improved table view and additional columns, delivering better visibility and context for all findings. These enhancements streamline the approval workflow, reduce manual effort, and accelerate decision-making for exception requests.
--   **[Streamlined administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/sem-administration-console.md)**
+-   **[Modify risk rating in bulk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/sem-modify-risk.md)**
 
-    Introduced Administration console to enable one-stop configuration for all Unified Security Exposure Management applications, including assignment rules, classification rules, and remediation targets. It provides consistent workflows across Vulnerability Response, Application Vulnerability Response, Container Vulnerability Response, and Configuration Compliance applications.
+    Vulnerability Admins can now modify risk rating directly on individual or bulk findings across host, application, or container vulnerable item, or on a remediation task without an approval workflow. Remediation Owners can also modify risk ratings, with changes routed through a change approval process. Associating a compensating control with the change is optional for all roles.
 
--   **[Centralised Approval Experience via Employee Service Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/employee-center-vr-overview.md)**
 
-    The Employee Service Center ESC now provides a standardized approval experience for Business Unit Heads, Service Owners, and IT Heads who may not regularly access the USEM platform. This enhancement ensures that vulnerability-related approvals can be managed from a single, central location, improving efficiency and transparency.
+### What's changed
 
--   **[Configure approval workflow with unified Approval Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/sem-approval-rules-overiew.md)**
+-   **Risk rating options are no longer part of exception or deferral requests**
 
-    The Approval Rules now provide a standardized way to configure approval workflows across multiple findings and remediation task tables in Security Exposure Management. Administrators can now define approval conditions, select applicable tables, and configure multi‑level approvers through a single, unified interface.
+    Changing a risk rating is no longer available from the Request Exception dialog, or from the Bulk Edit dialog by selecting **Mitigating Control in Place** as a deferral reason. Risk rating and compensating control fields have been removed from both. Use **Modify risk** or **Request risk modification**, according to your role, to change a risk rating instead for individual records or in bulk.
 
--   **[Cloud Exposure view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/vr-cloud-exposure-view-db.md)**
 
-    View and act on all your cloud-related security findings from multiple vendors across your cloud environments with the Cloud Exposure View supported by USEM. The Cloud Exposure View provides a single location for your cloud security teams to monitor your cloud security posture.
+## Brazil Early Availability
 
--   **[Monitor integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/integrating-usem.md)**
+This release rolls up SSVC decision values from CVEs to third-party entries, automatically re-evaluates remediation tasks when a finding's preferred solution changes, and adds support for deploying multiple patches in a single Microsoft SCCM or HCL BigFix deployment.
 
-    USEM introduces integration monitoring capabilities within the Security Exposure Management Workspace Administration console. Administrators can now view and troubleshoot integration run statuses for installed third-party applications, ensuring better visibility and operational health.
+### What's new
 
--   **[Generate insights to prioritize findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/sem-insights-skill.md)**
+-   **[Enhancements to AI Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/ai-security-exposure-home.md)**
+    -   Expanded AI posture findings for cloud assets. The system now stores and displays cloud account ID, region, and resource tags for AI assets hosted in cloud environments, including managed assets and agents. Cloud asset references are maintained for each discovered AI asset, enabling visibility into hosting relationships.
+    -   Added remediation guidance and evidence for AI posture findings. Remediation steps for cloud configuration findings are now retrieved from Wiz and shown in a dedicated section within AI posture findings. Evidence provided by Wiz is also displayed in a scrollable section for review.
+    -   Delta time supported for AI security findings integration. The integration now supports delta start time for importing findings, aligning with other Wiz integrations and improving data synchronization.
+    -   Updated UI for AI posture findings. The posture rule description field is now split into a short description and a detailed description. The remediation section title is updated to "Remediation guidance," and an evidence section is added for findings. Metadata fields for managed AI assets are now displayed, including fallback to hosting asset or configuration item if direct values are unavailable.
+    -   Added evidence mapping for the Wiz AI Security Findings integration. Updated the import set dictionary, REST message function, and "WizAISecurityFindingsProcessor" script include to capture and map finding evidence data from Wiz.
+-   **[SSVC decision values roll up from CVEs to third-party entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/nvd-ssvc-enrichment.md)**
 
-    SEM Workspace uses Now Assist to bring generative AI to your dashboard. This capability helps you focus on critical risks and make informed decisions faster, improving overall security outcomes. It provides:
+    USEM rolls up the Exploitation, Automatable, and Technical Impact SSVC \(Stakeholder-Specific Vulnerability Categorization\) values from CVE entries to the corresponding third-party entry \(TPE\) records. Changes to these values automatically trigger a risk score recalculation when the TPE risk calculator uses one or more of them.
 
-    -   Contextual summaries to quickly understand your security posture
-    -   Actionable recommendations to address prioritized risks
--   **[Create custom widgets in the Visualization Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/sem-create-widget.md)**
+-   **[Automatic re-evaluation of remediation tasks on Preferred solution change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/sem-grouping-multiple-findings-remediation-tasks-processing.md)**
 
-    Create and manage custom widgets in the finding view of the SEM workspace to visualize findings data that align with your organization’s reporting needs. The Visualization Library lets you define widget attributes such as chart type, visualization group, and data filters, enabling you to build dashboards that highlight the insights most relevant to your teams. This flexibility helps you focus on meaningful security metrics and make data-driven decisions.
+    Remediation tasks can now automatically re-evaluate findings when their Preferred solution changes, so items are regrouped into the appropriate remediation task without manual intervention. This helps keep remediation tasks accurate and reduces manual cleanup.
 
--   **[Improved remediation target date handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/sem-configure-remediation-target-rules.md)**
+-   **[Deploy multiple patches to multiple collections with Microsoft SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/mspatch-integration.md)**
 
-    Remediation target \(RT\) dates now dynamically recalculate when a finding’s risk rating changes. When enabled, the system recalculates the SLA from the most recent risk rating update date, preventing RT dates from being set in the past and ensuring accurate SLA tracking.
+    Deploy more than one patch to more than one collection in a single deployment, instead of one patch to one collection at a time. When you select more than one patch for a deployment, the integration automatically creates a Software Update Group in Microsoft SCCM to bundle the patches.
 
--   **[Exception management configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/sem-configure-exp-mngmt-vr.md)**
-    -   Manual and automated exception request and approval workflow: Flexible, customizable workflows streamline submission, review, and approval of exception requests.
-    -   Comprehensive exception tracking and audit trails: Detailed records of approvals, justifications, and timelines support compliance efforts and simplify regulatory reporting.
--   **Consistent remediation task management with [remediation views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/sem-workspaces-ui-remediation-module.md) and [centralized findings configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/sem-configure-rules-manage-findings.md)**
+-   **[Deploy multiple patches to multiple computer groups with HCL BigFix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/vr-bigfix-integration.md)**
 
-    Unified task management: Supports both manual task creation and automated rule-based task generation across all Unified Security Exposure Management applications.Centralized rule definition: Enables efficient management of tasks across Vulnerability Response, Application Vulnerability Response, Container Vulnerability Response, and Configuration Compliance applications.
+    Deploy more than one patch to more than one computer group in a single deployment, instead of one patch to one computer group at a time.
 
--   **[Advanced risk management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/sem-vuln-calc-define-risk-rule-fields.md)**
+-   **[Resolve AI exposure tasks in workflow with Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/ai-security-exposure-employee-workflow.md)**
 
-    Risk calculators: Introduced for all Unified Security Exposure Management applications, enabling definition of risk rules based on multiple factors and calculation mechanisms.Risk rollup calculators: Aggregate scores from findings to higher-level entities, ensuring consistent risk scoring across applications.
+    AI Security Exposure Management integrates with Employee Center and third-party security tools to enable AI asset owners to remediate AI posture findings \(configuration issues\) directly through lightweight tasks.
 
--   **[Generate approval recommendations with generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/sem-approval-recommendation-skill.md)**
+-   **[Cisco AI Defense integration for AI security exposure management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/exploring-cisco-ai-defense-integration.md)**
 
-    AI-powered recommendations for Exception and False Positive requests. Provides an on-demand recommendation to approve or reject a request using the Now Assist skill framework. The framework analyzes contextual data such as vulnerability details, risk factors, exploit availability, and related indicators. The recommendations are accessible directly from the Exception Change Approval record in the Security Exposure Management Workspace, enabling approvers to make faster, more consistent decisions while reducing the manual analysis effort.
+    The Vulnerability Response Integration with Cisco AI Defense imports AI model vulnerabilities and AI model validation data \(results from automated red teaming or pentests\) into your ServiceNow AI Platform instance. You can use this data to detect security risks, drive remediation workflows, and verify compliance with AI security requirements.
 
--   **Exception Rule &amp; Change Approval Enhancements**
-    -   [Change Approval Creation for Exception Rule submission](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/sem-exception-rules-overview.md): Previously, Change Approval \(CA\) was created only for a few types of exception requests. Now, the Change Approval\(CA\) is also created during exception rule submission. This enhancement verifies consistency across exception workflows and improves traceability.
-    -   [Vulnerability Intelligence Tile on Change Approval Record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/sem-configure-approval-view.md): The Vulnerability Intelligence Tile is added to change approval records, displaying vulnerability intelligence such as CISA KEV information, Known ransomware indicators, and EPSS percentile. This tile is visible only when the Intelligence and App-Vuln NVD plugins are installed. This enhancement provides approvers with the critical threat context for informed decision-making.
-    -   [Summary Tiles on Change Approval Record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/sem-configure-approval-view.md). The Impact Tile is added in the overview tab of the Change Approval record to provide approvers with the visibility of the impacted count information such as, Impacted CIs, Total Findings, and Total Vulnerabilities on the Change Approval for a Remediation Task. This enhancement improves visibility of potential impact during approval or rejection of requests.
-    -   [Application-Based Filtering on Approvals View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/sem-configure-approval-view.md): Added filtering capability on the Approvals view by application type such as: Application vulnerabilities \(AVR\), Container vulnerabilities \(CVR\), Infra Vulnerabilities \(VR\), and Misconfigurations \(CC\). This capability enables approvers to quickly drill down and manage approvals by category.
-    -   [Reapply Assignment Rules for Deferred and Manually Assigned Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/sem-configure-assignment-rules.md): Introduced the ability to reapply assignment rules for Deferred items and Manually assigned items. This enhancement provides the flexibility to reassign items through the Re-evaluate action in the list view.
+-   **[Palo Alto Prisma AIRS AI Service Graph Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/palo-alto-prisma-airs-ai-sgc.md)**
+
+    This integration imports AI inventory data from Palo Alto Prisma AIRS and populates the CMDB in your ServiceNow AI Platform instance. In addition to inventory data, this integration imports key metrics related to AI model vulnerabilities, validation findings \(automated red teaming results\) that can be viewed in AI control tower.
+
+-   **[Palo Alto Prisma AIRS Integration for AI Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/prisma-airs-integration.md)**
+
+    Import AI security exposures such as model vulnerabilities, model validation findings \(automated red teaming alerts\), and posture findings \(configuration/policy violations\) into AI Security Exposure Management and automate workflows for remediation.
+
+-   **[Configure the Wiz Test Results Integration to import AI findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/wiz-test-result-tab-filters.md)**
+
+    Import cloud configuration findings as Test Results into Configuration Compliance. Configuration issues related to AI assets, such as AI models and agents and AI security scans are routed into AI security exposure management tables \(AI posture findings\) if you have AI security exposure management activated.
+
+-   **Attach findings to a penetration testing assessment request**
+
+    Admins can now link pentest findings to existing pentest requests during manual upload, enabling consolidation of findings from multiple vendors under a single request.
+
+-   **[Remove older SBOM records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/sbom-cleanup.md)**
+
+    SBOM cleanup lets you create a one-time rule to purge older software bill of materials records that match specified conditions that you create. Cleanup runs are permanent and can't be reversed, and you must review the conditions you set carefully before running one.
+
 

@@ -7,9 +7,9 @@ release: zurich
 product: Procurement
 classification: procurement
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating with external procurement applications, Procurement, IT Asset Management]
+breadcrumb: [Integrating with external procurement applications, Procurement, Common applications, Asset Management]
 ---
 
 # Integrating with Coupa

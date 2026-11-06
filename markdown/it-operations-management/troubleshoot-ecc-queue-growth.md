@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/troubleshoot-ecc-queue-growth.html
 release: zurich
 topic_type: reference
-last_updated: "2026-08-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Troubleshoot, Reference, Landing page, ITOM AIOps, IT Operations Management]
+breadcrumb: [Troubleshoot, Reference, Synthetic monitoring, ITOM AIOps, IT Operations Management]
 ---
 
 # Troubleshoot ECC queue growth

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/schedule-adherence-configurable-wfo-cs.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
@@ -51,7 +51,7 @@ Consider the following steps to determine the schedule adherence and conformance
     6.  At the end-of-the-day, the agent's time worked summary is generated with key performance indicators \(KPIs\), such as Start Time, End Time, Planned Work, Time Not Worked, Available Non Planned Time, Time Worked, and Adherence%, Conformance %​.
 3.  The agent's manager logs in to Manager Workspace to view the agent's time worked in the **Team Calendar**. The manager can also view the agent's actual time worked and working pattern for all historical days. If required, the manager can coach the agent to a desired performance that fits in with the team culture.
 
-**Parent Topic:**[Using Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/use-configurable-wfo-cs.md)
+**Parent Topic:**[Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/use-configurable-wfo-cs.md)
 
 **Related topics**  
 

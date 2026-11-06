@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/setting-up-assignment-groups.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
@@ -13,6 +13,8 @@ breadcrumb: [Configure Service Model Foundation, Data models, Set up your enviro
 # Setting up assignment groups
 
 Associate your assignment groups with an internal or an external business location. This association forms a one-to-many \(1:M\) relationship, which means, one or more groups can be associated with a service organization. This process makes it easier to route cases to the appropriate team member using the inter-organization support capability.
+
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/renamed-entities.md).
 
 |Task|Description|
 |----|-----------|

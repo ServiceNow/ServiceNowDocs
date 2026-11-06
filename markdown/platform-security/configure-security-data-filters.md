@@ -1,18 +1,18 @@
 ---
 title: Create a security data filter
-description: Learn how to create security data filter rules to grant your users' access to records are tables.
+description: Learn how to create security data filter rules to grant your users' access to records and tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/configure-security-data-filters.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security data filters, Access Management]
 ---
 
 # Create a security data filter
 
-Learn how to create security data filter rules to grant your users' access to records are tables.
+Learn how to create security data filter rules to grant your users' access to records and tables.
 
 ## Before you begin
 
@@ -88,7 +88,7 @@ Filter
 
 </td><td>
 
-The filter condition that determines which records the data filter applies to
+The filter condition that determines which records the data filter applies to. To learn more, see [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/c_ConditionBuilder.md).
 
 </td></tr><tr><td>
 
@@ -96,7 +96,7 @@ Security Attributes
 
 </td><td>
 
-The security attributes that control if the data filter will apply or not
+The security attributes that control whether the data filter will apply.
 
 </td></tr></tbody>
 </table>4.  Select **Save** from the form menu.

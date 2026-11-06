@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/source-record-change-notifications.html
 release: zurich
 topic_type: concept
-last_updated: "2026-08-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [source record, notifications, DRIR case, incident changes, email notification]
 breadcrumb: [Reporting incidents from SOW and SIR Workspace in DRIR, Manage, Using Digital resilience incident reporting, Manage, Operational Resilience, Governance, Risk, and Compliance]
@@ -17,7 +17,7 @@ When the incident linked to your Digital resilience incident reporting \(DRIR\) 
 
 ## Source record changes
 
-Starting with Digital resilience incident reporting version 23.x.x, the Digital resilience incident reporting \(DRIR\) application detects modifications to the incident linked to your DRIR case. When field-level changes occur on that source incident, you receive notifications to keep your case current with the latest incident data.
+Starting with Digital resilience incident reporting version 23.0.4, the Digital resilience incident reporting \(DRIR\) application detects modifications to the incident linked to your DRIR case. When field-level changes occur on that source incident, you receive notifications to keep your case current with the latest incident data.
 
 This feature tracks changes to critical fields such as state, impact, and urgency. Each time the source incident is modified, the system generates audit-trail records with complete information about the changes. These records include field names, old and new values, the user who made the change, and the timestamp.
 
@@ -39,9 +39,7 @@ Notifications are sent through two channels:
 
 -   **Email notification**
 
-    An email notification is sent to members of the case watch list and the assigned analyst whenever a tracked field changes on the linked source record.
-
-    \[Omitted image "drir-src-record-updated-noti.png"\] Alt text: Email notifications.\[Omitted image "drir-email-preview-src-record.png"\] Alt text: Preview email.
+    An email notification is sent to members of the case watch list and the assigned analyst whenever a tracked field changes on the linked source record.\[Omitted image "drir-src-record-updated-noti.png"\] Alt text: Email notifications.\[Omitted image "drir-email-preview-src-record.png"\] Alt text: Preview email.
 
 -   **Email contents**
 
@@ -51,9 +49,7 @@ Notifications are sent through two channels:
     -   The user who made the change and the timestamp
     -   The names of fields that changed, with old and new values for each
     -   A direct link to the DRIR case
-    **Note:**
-
-    Email delivery requires a configured mail protocol.
+    **Note:** Email delivery requires a configured mail protocol.
 
 
 ## Tracked fields on the form
@@ -66,7 +62,7 @@ Additional fields may be tracked depending on your DRIR configuration. Confirm t
 
 ## Orphaned pending updates
 
-If the source incident linked to a pending update is deleted or unlinked from the DRIR case before you review the change, the pending update record remains visible but is flagged as **orphaned**. Orphaned pending updates are not automatically removed so that the audit trail of what changed is preserved, but they can no longer be traced back to an active source record.
+If the source incident linked to a pending update is deleted or unlinked from the DRIR case, the pending update record remains visible but is flagged as **orphaned**. Orphaned pending updates are not automatically removed to preserve the audit trail. They can no longer be traced back to an active source record.
 
 **Note:**
 

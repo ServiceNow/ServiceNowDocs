@@ -7,9 +7,9 @@ release: zurich
 product: Usage Insights
 classification: usage-insights
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [User privacy, tracking, and consent, Configure, Usage Insights, Platform Analytics]
+breadcrumb: [User privacy, tracking, and consent, Configuring Usage Insights, Usage Insights, Platform Analytics]
 ---
 
 # Types of tracking consent policies in Usage Insights
@@ -46,11 +46,11 @@ The default consent policies are set to No Consent Required for all countries/gr
 -   If a country’s tracking consent policy is set to **Disabled**, user metrics aren't tracked and aggregate data collection continues.
 -   The distinction between **Basic** and full tracking is in how data is presented, not in what is collected.
 -   Counters in the Usage Insights application contain aggregated user numbers.
--   Analytics administrators can choose to store additional user properties. See [Add user properties as filters to User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/usage-insights/uxa-add-filters-uxa-pages.md) for more information.
+-   Analytics administrators can choose to store additional user properties. See [Add user properties as filters to Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/usage-insights/uxa-add-filters-uxa-pages.md) for more information.
 -   When Consent policies are updated to display a notice or require opt-ins, capturing detailed user and session data may be impacted due to individual opt-outs. Aggregated metrics will continue to reflect the total user base, including those who have opted out of individual session tracking.
 
--   **[View assigned consent policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/usage-insights/uxa-define-consent-policy.md)**  
-View the list of tracking consent policies and select a consent policy to see all countries which are assigned to it. Within the consent policies list, you can assign the same tracking consent policy for all countries or reset all countries to the default value of No Consent Required.
+-   **[Define consent policies according to country](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/usage-insights/uxa-define-consent-policy.md)**  
+Define the tracking consent policies for users within different countries. You can either select the same tracking consent policy for all countries, use the allocated default values, or define different consent policies for individual countries.
 -   **[View and update an individual country’s consent policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/usage-insights/uxa-view-policy-country.md)**  
 View a list of all countries with their assigned consent policies and select a country to update its existing policy.
 -   **[Define how to detect your user's location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/usage-insights/uxa-define-detect-location.md)**  

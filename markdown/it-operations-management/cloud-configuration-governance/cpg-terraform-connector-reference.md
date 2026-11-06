@@ -7,7 +7,7 @@ release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Cloud Services Catalog Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -24,7 +24,7 @@ Cloud Services Catalog Terraform Connector uses the SSH private key credential t
 Cloud Services Catalog Terraform Connector uses the Windows credential to connect with the Windows server on which Terraform Open Source is running.
 -   **[Cloud Services Catalog Terraform Connector API Key Credentials form reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-api-key-credentials-form-reference.md)**  
 The Cloud Services Catalog Terraform Connector uses API key credentials to authenticate the requests sent to the Terraform Enterprise and Terraform Cloud and the version control systems provisioned in them.
--   **[Cloud Services Catalog Terraform Connector IAC Catalog Item Task form reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-catalog-item-task-form.md)**  
+-   **[Cloud Services Catalog Terraform Connector Terraform Catalog Item Task form reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-catalog-item-task-form.md)**  
 Use the Terraform Catalog Item Task form to specify the action you want to take to resolve the catalog item change task.
 
 **Parent Topic:**[Cloud Services Catalog Terraform Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-landing-page.md)

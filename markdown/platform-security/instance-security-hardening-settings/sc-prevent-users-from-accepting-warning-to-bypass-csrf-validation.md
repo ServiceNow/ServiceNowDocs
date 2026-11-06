@@ -7,7 +7,7 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
@@ -16,27 +16,106 @@ breadcrumb: [Access control, Hardening settings, Platform Security]
 
 Reduce the risk of Cross-Site Request Forgery \(CSRF\) by preventing users from accepting warning to bypass CSRF validation.
 
-Enable CSRF token strict validation to prevent Cross-Site Request Forgery \(CSRF\) tokens from being reused, which may allow CSRF attacks.
+The **glide.security.csrf.strict.validation.mode** system property prevents users from being able to accept a warning, which allows a potentially malicious request to be sent to the instance. This warning appears when a POST request fails due to having a mismatched anti-CSRF token belonging to one of the victim's other active sessions. If **glide.security.csrf.strict.validation.mode** isn't set to the recommended value of **true**, then an attacker can formulate a CSRF attack utilizing a leaked anti-CSRF token from a different active session belonging to the victim.
 
-Set the **glide.security.csrf.strict.validation.mode** system property value to **true** to enable CSRF token strict validation. If this property doesn’t exist on your System Properties \[sys\_properties\] table, the default value is **true** starting in Xanadu.
+A POST request to an instance contains an anti-CSRF token within "sysparm\_ck" or "X-UserToken" which matches the user's current session. If the anti-CSRF token is instead tied to one of the user's other active sessions, the POST request will return a 302 redirection to security\_interceptor.do with a **Continue** button available to the user when this property is set to **false**.
+
+Clicking this button will re-submit the request to the instance, except it will now having a valid anti-CSRF token. When this property is set to **true**, the 302 redirection to the security\_interceptor.do page will not display a **Continue** button and the user isn't allowed to resubmit the request.
+
+Ensure that the property **glide.security.csrf.strict.validation.mode** is set to **true**.
 
 ## More information
 
-|Attribute|Description|
-|---------|-----------|
-|Technical configuration name|glide.security.csrf.strict.validation.mode|
-|Plugin applicability|None|
-|Security risk|Cross-site request forgery is a significant security risk that violates the integrity of the instance data. An attacker can launch the CSRF attack on any instance user by abusing the trust of the instance user. With the help of social engineering attacks, a user can submit a malformed request to the instance on behalf of the attacker.|
-|Common Vulnerability Scoring System \(CVSS\) score|3.7|
-|Common Vulnerability Scoring System \(CVSS\) rating|Low|
-|Functional impact|This remediation enables an extra validation step before the user submits a write request to the instance. It checks whether the current CSRF token has been used previously. If it has, then it prevents submission of further write requests.|
-|Dependencies and prerequisites|None|
-|Data type|Boolean|
-|Base system value|true|
-|Fallback value|true|
-|Recommended value|true|
+<table id="table_ajc_b43_3kb"><thead><tr><th>
 
-To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+Attribute
 
-**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Configuration name
+
+</td><td>
+
+**glide.security.csrf.strict.validation.mode**
+
+</td></tr><tr><td>
+
+Configuration type
+
+</td><td>
+
+System Properties \(/sys\_properties\_list.do\)
+
+</td></tr><tr><td>
+
+Data type
+
+</td><td>
+
+Boolean
+
+</td></tr><tr><td>
+
+Recommended value
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
+Default value
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Security risk
+
+</td><td>
+
+-   Severity score: 3.7
+-   CVSS rating: Low
+-   Security risk details: A successful CSRF attack will allow an attacker to effectively perform any operation that the victim is able to perform.
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+Dependencies and prerequisites
+
+</td><td>
+
+None
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

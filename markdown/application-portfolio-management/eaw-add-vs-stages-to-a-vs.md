@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-add-vs-stages-to-a-vs.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage with value streams, Using business architecture, Working with Portfolio list view, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Manage value streams, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Add value stream stages to a value stream
@@ -43,7 +43,7 @@ Role required: sn\_apm.apm\_user
 9.  Select **Save**.
 
 
-**Parent Topic:**[Manage with value streams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-manage-value-streams.md)
+**Parent Topic:**[Manage value streams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-manage-value-streams.md)
 
 **Related topics**  
 

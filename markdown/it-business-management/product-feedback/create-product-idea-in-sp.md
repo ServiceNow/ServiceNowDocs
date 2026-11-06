@@ -7,9 +7,9 @@ release: zurich
 product: Product Feedback
 classification: product-feedback
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage Feedback, Feedback, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Use, Feedback in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Create a product idea in Strategic Planning
@@ -43,6 +43,6 @@ User-created product ideas help in identifying focus areas of a product. These p
 
 -   [Update Feedback or Product idea records from the list page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/update-feedback-or-idea.md)
 -   [Associate a product idea with feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/associate-product-idea-with-feedback.md)
--   [Associate feedback or product idea with non-planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/associate-feedback-with-non-planning-item.md)
+-   [Associate feedback or product ideas with non-planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/associate-feedback-with-non-planning-item.md)
 -   [Associate a product idea with a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/associate-product-idea-with-goals.md)
 

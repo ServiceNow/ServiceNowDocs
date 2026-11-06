@@ -7,7 +7,7 @@ release: zurich
 product: Unified Map
 classification: unified-map
 topic_type: task
-last_updated: "2025-10-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Unified Map, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -27,7 +27,7 @@ Role required:
 
 ## About this task
 
-When a user applies a shared preset or a user preset, all filter settings are overridden. Filter attributes from a shared preset or a user preset that do not apply to the current map are listed in the **Unused filter attributes** section of the filter panel. The order of filter-setting precedence from the various sources is as follows:
+When a user applies a shared preset or a user preset, all filter settings are overridden. Filter attributes from a shared preset or a user preset that don't apply to the current map are listed in the **Unused filter attributes** section of the filter panel. The order of filter-setting precedence from the various sources is as follows:
 
 1.  user presets
 2.  shared presets
@@ -40,7 +40,7 @@ When a user applies a shared preset or a user preset, all filter settings are ov
 
 1.  While working in a map, select the Map filter icon \[Omitted image "icon-um-filter-outline.png"\] and then select or clear criteria in any filter category.
 
-    Only attributes of elements currently on the map are listed as filter criteria. Attributes that do not apply to the current elements are listed in the **Unused filter attributes** list.
+    Only attributes of elements currently on the map are listed as filter criteria. Attributes that don't apply to the current elements are listed in the **Unused filter attributes** list.
 
 2.  Close the Map filter panel.
 

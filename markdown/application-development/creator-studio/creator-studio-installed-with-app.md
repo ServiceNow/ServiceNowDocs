@@ -7,9 +7,9 @@ release: zurich
 product: Creator Studio
 classification: creator-studio
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administer, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Administer, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Artifacts that Creator Studio generates when users create an app

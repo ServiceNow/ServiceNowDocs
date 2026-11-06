@@ -7,9 +7,9 @@ release: zurich
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Basic Software Asset Management Administration, Basic Software Asset Management, ITSM Software Asset Management, Asset Management, IT Service Management]
+breadcrumb: [Basic Software Asset Management Administration, Basic Software Asset Management, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
 # Migrate Basic Software Asset Management software installations
@@ -22,7 +22,7 @@ Role required: sam\_admin
 
 ## About this task
 
-If you are running Discovery and have used a version of [ITSM Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/asset-management/itsm-sam.md) previously, there is no need to run this script. Additionally, if the \[cmdb\_sam\_sw\_install\] table is already populated with software installation records, this script is disabled. You can run Discovery again to repopulate the table.
+If you are running Discovery and have used a version of [ITSM Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/itsm-sam.md) previously, there is no need to run this script. Additionally, if the \[cmdb\_sam\_sw\_install\] table is already populated with software installation records, this script is disabled. You can run Discovery again to repopulate the table.
 
 When running the Migrate Software Installs script, allow enough time for the process to complete.
 

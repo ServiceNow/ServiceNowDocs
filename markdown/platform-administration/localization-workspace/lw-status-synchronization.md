@@ -7,9 +7,9 @@ release: zurich
 product: Localization Workspace
 classification: localization-workspace
 topic_type: concept
-last_updated: "2025-12-12"
-reading_time_minutes: 2
-breadcrumb: [Exploring Localization Workspace, Localization Workspace, Translation and localization, Configure core features, Administer]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Exploring Localization Workspace, Localization Workspace, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Localization Workspace Home and translation job status
@@ -18,24 +18,33 @@ Start a translation request and monitor the current status of your translation r
 
 ## Overview of Localization Workspace Home
 
-The Home screen of Localization Workspace is where you can launch a new translation request. Also, in the Home screen's **My Requests** list, you can track the progress of translation requests in the system.
+The Home screen of Localization Workspace is where you can launch a new translation request using the **Request translation** button.
 
--   A translation request that has been saved but not submitted has the State of **Draft**.
--   A translation request that has been submitted to the translation service provider has a State of **In progress** \(after its project has been packaged\).
+Also you can track and manage the progress of translation requests in the Home screen's **My Requests** list.
+
+-   Get an overview of a request, including due date and status, at a glance.
+-   Open the Translation Request Details window from the request's Number.
+-   Archive a closed request, delete a draft request, or cancel an in-progress request from the **Action** column.
+
+## Guided Tours available from Help Center on Home
+
+From version 3.0.0, two guided tours are available. One guided tour assists with configuring a language provider, and is accessible to users with the Localization administrator role \(localization\_admin\). The other guided tour assists with configuring language groups, and is accessible to the Localization admin \(localization\_admin\) and Localization requester \(localization\_requestor\) roles. Find the guided tours by selecting the Help Center icon \[Omitted image "Banner\_HelpIcon.png"\] on the Home screen.
+
+## Projects
 
 \[Omitted image "lw-status-synchronization-home-overview.png"\] Alt text: The Home screen of Localization Workspace including the My Requests list displaying one saved translation request and one submitted request. A tab for a localization project is highlighted.
 
-**Note:** When displayed in the Requests list, the Cost is based on a rate rounded up to the decimal place that is set in your Display Value Currency field. However, the calculation of the informational cost estimate uses the actual rate that you have configured in Localization Workspace. The calculation does not use the currency's display value. For more information, see [Identify the FX Currency field and its display parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/currency-administration/fx-currency-display-parameters.md).
-
-Localization Workspace extends and builds upon projects in Localization Framework. From the My Requests list you can review details of the translation request's project by selecting the **LF Project** number.
+Localization Workspace extends and builds on projects in [Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/localization-framework-landing.md). When you create a translation request, the system creates a project in Localization Framework for you. You can open a tab for the translation request's project by selecting the **LF Project** number from the Requests list.
 
 \[Omitted image "lw-status-synchronization-project.png"\] Alt text: A localization project tab which has been opened from the Home screen. The project details can be reviewed and optionally updated.
 
-For information about creating a translation request, see [Requesting translations in Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-workspace/requesting-translations-localization-workspace.md).
+In the Localization Project tab you can drill down into project components such as Localization Tasks. You can fulfill a localization task using the **Translate** button in a Localization Task tab, when the project state is In Progress.
+
+Any update you make here in Localization Workspace is saved to the underlying Localization Framework tables. Completed and archived projects can't be updated. For more information, see [Fulfill a localization task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/fulfill-localization-task.md) in the Localization Framework documentation.
 
 ## Translation request states
 
-The state of translation requests in Localization Workspace corresponds to Localization Framework projects as follows.
+The **State** column of **My Requests** is where you can find the status of your translation requests. States in Localization Workspace correspond to Localization Framework projects as follows.
 
 <table id="table_yrw_dtn_bgc"><thead><tr><th>
 
@@ -51,7 +60,13 @@ Draft
 
 </td><td>
 
-The translation request is saved but not submitted. Corresponding Localization Framework status: Draft.
+The translation request is saved but not submitted. The **Save** button is available in each step of the translation request wizard. Draft requests can be re-opened and updated from My Requests by selecting the value in the Number column.
+
+ **Action** column: The available action is **Delete draft**. From version 3.0.0.
+
+ **Note:** Draft requests are not subject to the scheduled job Remove discarded Translation Requests.
+
+Corresponding Localization Framework status: Draft.
 
 </td></tr><tr><td>
 
@@ -67,7 +82,9 @@ In progress
 
 </td><td>
 
-The translation project and its tasks have been successfully created in Localization Framework and sent to the selected translation provider.Corresponding Localization Framework status: In Progress.
+The translation project and its tasks have been successfully created in Localization Framework and sent to the selected translation provider. **Action** column: The available action is **Cancel request**. From version 3.0.0.
+
+ Corresponding Localization Framework status: In Progress.
 
 </td></tr><tr><td>
 
@@ -75,7 +92,9 @@ Complete
 
 </td><td>
 
-The translation project is complete and all tasks within the project are complete and closed.Corresponding Localization Framework status: Closed Complete.
+The translation project is complete and all tasks within the project are complete and closed. **Action** column: The available action is **Archive request**. From version 3.0.0.
+
+ Corresponding Localization Framework status: Closed Complete.
 
 </td></tr><tr><td>
 
@@ -83,10 +102,42 @@ Closed: Project Incomplete
 
 </td><td>
 
-The translation project is incomplete when at least one of the tasks within the project has been marked as closed but isn’t complete.Corresponding Localization Framework status: Closed Incomplete.
+The translation project is incomplete when at least one of the tasks within the project has been marked as closed but isn’t complete.From version 3.0.0, when you select Cancel for a translation request, its status displays as Closed: Project Incomplete. **Action** column: The available action is **Archive request**. From version 3.0.0.
+
+ Corresponding Localization Framework status: Closed Incomplete.
 
 </td></tr></tbody>
-</table>The status of your translation request is displayed in the My Requests list in the **State** column.
+</table>## Archiving translation requests
+
+From version 3.0.0 you can optionally archive your translation requests by selecting **Archive request** in the **Action** column. This is a table view of translation requests, so it isn't a status.
+
+\[Omitted image "lw-switch-archived-requests-a.png"\] Alt text: On the My Requests list, the link Switch to archived requests is highlighted. Also highlighted is Archive request in the Action column.
+
+Select the **Switch to archived requests** link to view the list of archived requests. You can return to My Requests by selecting the link **Switch to my requests**.
+
+-   Only requests in a state of Complete or Closed: Incomplete can be archived.
+-   Archived requests are maintained indefinitely. They are not subject to the scheduled job Remove discarded Translation Requests.
+-   **Action** column: After archiving, selecting **Unarchive request** moves the row back to My Requests.
+-   Archived requests are read-only, so they can't be reopened or edited.
+
+## Translation request details
+
+You can open a modal window displaying details about your translation request by selecting the value in the **Number** column. From version 3.0.0, the details window displays the request's translation method. Possible values are [TMS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/tms-configuration.md), MT \(machine translation\), or Mixed.
+
+Also in the details window you can modify the Due date for requests that are handled by a TMS. Select the Due date field to open a calendar picker.
+
+-   The Due date field is available after the translation request's project is fully created.
+-   Due dates can be postponed to a later date, but can't be moved to an earlier date.
+
+After modifying the date, select Update to save the new date, or Cancel to abandon the modification.
+
+**Note:** Notify your third-party providers directly regarding any changes to due dates.
+
+\[Omitted image "lw-tr-request-method-a.png"\] Alt text: In the Translation Request Details modal window, the Translation Method field is highlighted. The method in this example is TMS.
+
+## The display of Cost in the My Requests list
+
+When displayed in the Requests list, the Cost uses a rate rounded up to the decimal place that is set in your Display Value Currency field. However, the base calculation of the informational cost estimate uses the actual rate that you have configured in Localization Workspace. The base calculation does not use the currency's display value. For more information, see [Identify the FX Currency field and its display parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/currency-administration/fx-currency-display-parameters.md).
 
 **Related topics**  
 

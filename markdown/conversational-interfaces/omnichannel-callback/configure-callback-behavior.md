@@ -7,9 +7,9 @@ release: zurich
 product: Omnichannel Callback
 classification: omnichannel-callback
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Omnichannel Callback, Omnichannel Callback, Manage people and work, Conversational Interfaces]
+breadcrumb: [Configure, Omnichannel Callback, Manage people and work, Conversational Interfaces]
 ---
 
 # Configure callback behavior for a channel
@@ -38,12 +38,8 @@ Role required: admin
 
     After the maximum number of callback attempts is reached, the callback task is closed and no further callback attempts are made.
 
-6.  Provide the **Callback timeout threshold \(in hours\)**.
+6.  Provide the **Callback timeout \(threshold \(in hours\)**.
 
     When the callback timeout is reached, no further callback attempts are made and the callback task is closed.
-
-7.  Provide the **Time between callback attempts \(in minutes\)**.
-
-    When a callback request is attempted, the next callback request can be attempted only after the time that you've set between multiple attempts.
 
 

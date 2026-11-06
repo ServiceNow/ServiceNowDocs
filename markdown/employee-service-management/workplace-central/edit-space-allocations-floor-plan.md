@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2026-03-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use Floor Plan, Working with Space Planning, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -52,15 +52,15 @@ Role required: sn\_wsd\_core.workplace\_manager or sn\_wsd\_spcmgmt.space\_plann
 
 6.  Edit the space allocations based on your requirement.
 
-<table id="choicetable_vyl_2qc_f3c"><thead><tr><th align="left" id="d205637e169">
+<table id="choicetable_vyl_2qc_f3c"><thead><tr><th align="left" id="d209371e169">
 
 Action
 
-</th><th align="left" id="d205637e172">
+</th><th align="left" id="d209371e172">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d205637e178">
+</th></tr></thead><tbody><tr><td id="d209371e178">
 
 **Edit space allocation**
 
@@ -80,7 +80,7 @@ Steps
 6.  Select **Apply**.
  **Note:** For Workplace Entities, if you add a parent and child entity as allocations, only the child entity is displayed on the map legend.
 
-</td></tr><tr><td id="d205637e258">
+</td></tr><tr><td id="d209371e258">
 
 **Remove allocations**
 

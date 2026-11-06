@@ -7,16 +7,16 @@ release: zurich
 product: Procurement
 classification: procurement
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Procurement, IT Asset Management]
+breadcrumb: [Procurement, Common applications, Asset Management]
 ---
 
 # Sourcing items in a service catalog request
 
 A service catalog request can contain multiple items that must be sourced.
 
-\[Omitted image "mmassert0021870-source-request-type-source-request-type.png"\] Alt text: Methods of sourcing requested items
+\[Omitted image "source\_request\_type.png"\] Alt text: Methods of sourcing requested items
 
 **Note:** Only items with an assigned model can be sourced. You can’t source bundles.
 

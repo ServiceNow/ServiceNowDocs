@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/start-event.html
 release: zurich
 topic_type: task
-last_updated: "2025-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -69,7 +69,7 @@ Role required: sn\_recovery.event\_user, sn\_recovery.event\_manager
 
 6.  Check the state of the assets in the event.
 
-    The example shows that the Facebook asset is partially recovered as the partially recovered tasks of Facebook asset are completed, but the Photoshop asset is still not recovered because both its partial and full recovery tasks remain incomplete.
+    The example shows that the Facebook asset is partially recovered as the partially recovered tasks of Facebook asset are completed. The Photoshop asset is still not recovered because both its partial and full recovery tasks remain incomplete.
 
     \[Omitted image "event-asset-par-recovered.png"\] Alt text: Assets.\[Omitted image "event-asset-another-activated-plan.png"\] Alt text: Plan.
 
@@ -101,7 +101,7 @@ Role required: sn\_recovery.event\_user, sn\_recovery.event\_manager
 
     **Note:**
 
-    If an asset is recovered with the completion of an earlier event task, such as step 4 in the example, the actual start time and actual end time are calculated until the end of the last event task in the plan \(step 6 in this example\).
+    If an asset is recovered during an earlier task \(step 4\), actual start and end times are calculated through the last event task \(step 6\).
 
     \[Omitted image "event-task-time-taken.png"\] Alt text: Event tasks.
 

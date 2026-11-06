@@ -7,14 +7,16 @@ release: zurich
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
 
 # Responding to assessments
 
 Use the Smart Assessment Engine application to help assessors complete survey requests. Track your progress and let the system automatically save your information. Administrators and template managers manage the assessment process.
+
+## Assessment response overview
 
 If you have the Assessment actor \[sn\_smart\_asmt.actor\] role, you can submit responses to an assigned assessment. Here are some more key functionalities:
 
@@ -23,7 +25,9 @@ If you have the Assessment actor \[sn\_smart\_asmt.actor\] role, you can submit 
 -   Your work is automatically saved, eliminating the risk of potential data loss.
 -   An assessment administrator \[sn\_smart\_asmt.assessment\_admin\] can cancel assessments that are no longer needed.
 
-If you have the assessment reassign \[sn\_smart\_asmt.reassign\] role, you can reassign in-progress assessments to another user. If your template manager or administrator has added reference information, such as scope-related information, you can view it in the Details section of your assessment. If relevant to the state of the assessment, the scope, requester, assignee, the requested and due dates are listed in the Details section by default.
+If you have the assessment reassign \[sn\_smart\_asmt.reassign\] role, you can reassign in-progress assessments to another user. If your template manager or administrator has added reference information, such as scope-related information, you can view it in the Details section of your assessment. If relevant to the state of the assessment, the scope, requestor, assignee, the requested and due dates are listed in the Details section by default.
+
+While responding to an assessment, you can collaborate at the level of individual questions through four features on each question card. **Comments** supports question-specific conversation. **Work notes** provides private threads for users with a configured role. Question **Flags** marks questions that need attention. Question-level **Change history** tracks how the response, justification, and flag state changed. For an overview of these features, including how their visibility and permissions are controlled, see [Collaboration in assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/collaboration-in-assessments.md). For details on the change history panel, see [Question change history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-question-change-history.md).
 
 The following example shows how your progress, save status, assessment status, reference information, actions, and more are indicated in the assessment view.
 
@@ -43,20 +47,16 @@ The following example shows how your progress, save status, assessment status, r
 
     The progress bar indicates how many questions remain in the assessment including required and optional questions.
 
+-   **Filtering questions**
+
+    Responders can narrow the question list by selecting one or more filters from the filter drop-down list. Multiple filters can be combined to focus on questions that match every selected criterion. For details on each available filter and how to combine them, see [Filtering questions in an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/filtering-questions-in-an-assessment.md).
+
 -   **Default focus when opening or reopening an assessment**
 
     When you open or reopen an assessment, the view defaults to the assessment instructions if configured. Otherwise, the view defaults to the first question of the first section or subsection. This default focus applies even if you or a contributor already answered later questions, or a response was set by response automation.
 
-    **Note:** This feature is available starting with Zurich Patch 10.
-
 -   **Searching reference-type question responses**
 
     For single-select and multi-select reference-type questions, if the specified table returns more than 10 records, you see only the first 10 by default. Select the search icon to open a list of all matching records and choose from the full set.
-
-    **Note:** This feature is available starting with Zurich Patch 10.
-
--   **Question-level change history**
-
-    Review a log of every response, justification, and flag-state change made to a question, including who made the change and when. For details, see [Question change history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-question-change-history.md).
 
 

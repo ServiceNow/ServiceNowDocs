@@ -9,8 +9,8 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2026-08-06"
 reading_time_minutes: 1
-keywords: [ServiceNow Otto for Employee Center Pro, ServiceNow Otto, Agentic AI]
-breadcrumb: [ServiceNow Otto for Employee Center Pro, Unified Employee Experience, Employee Service Management]
+keywords: [Now Assist for Employee Center Pro, Now Assist, Agentic AI]
+breadcrumb: [ServiceNow Otto for Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Configuring ServiceNow Otto for Employee Center Pro
@@ -21,7 +21,7 @@ ServiceNow Otto for Employee Center Pro features are organized into categories, 
 
 -   [Content Engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-content-engagement.md)
 
-    Enhances news articles by providing users with a way to comment and react to articles and for managers to measure the effectiveness of their content using engagement metrics.
+    Content engagement provides users with a way to comment and react to articles and for managers to measure the effectiveness of their content using engagement metrics.
 
 -   [Creating employee communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-publish-content.md)
 
@@ -35,7 +35,7 @@ ServiceNow Otto for Employee Center Pro features are organized into categories, 
 
     Outlook actionable messages plugin enables users to respond to the survey from within the Microsoft Outlook application.
 
--   Use the ServiceNow Otto admin console to activate the various ServiceNow Otto applications and skills that you’re entitled to.
+-   Use the admin console to activate the various ServiceNow Otto applications and skills that you’re entitled to.
 
     **Note:** ServiceNow Otto for Employee Center Pro only provides employee or requester conversations and might require other ServiceNow Otto products to deliver AI agents or other related features.
 

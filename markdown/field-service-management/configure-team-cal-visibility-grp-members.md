@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/configure-team-cal-visibility-grp-members.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Workforce, CSM/FSM Configurable Workspace, Configure, Field Service Management]
+breadcrumb: [Configuring Workforce, CSM/FSM Configurable Workspace, Configure, Field Service Management]
 ---
 
 # Configure team calendar visibility for group members

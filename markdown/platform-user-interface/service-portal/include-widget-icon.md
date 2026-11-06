@@ -7,8 +7,8 @@ release: zurich
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Create a widget dependency, Developing custom widgets, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
 
@@ -84,7 +84,7 @@ Adding an icon to a specific widget keeps the icon scoped and prevents it from i
 
 An icon that you can select in the widget or widget instance. For example:
 
-\[Omitted image "IconExample.png"\] Alt text: Example matches the HTML with a check circle stating,"you did it!"
+\[Omitted image "IconExample.png"\] Alt text: Example icon that matches the HTML in the widget example, with a check circle that says "you did it!"
 
 ## What to do next
 

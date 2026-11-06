@@ -1,18 +1,18 @@
 ---
 title: Activate Continuous Authentication
-description: For activating the Continuous Authentication feature on your instance, install the Zero Trust - Continuous Authentication \(com.snc.zero\_trust\_continuous\_authentication\) plugin.
+description: To activate the Continuous Authentication feature on your instance, install the Zero Trust - Continuous Authentication \(com.snc.zero\_trust\_continuous\_authentication\) plugin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/activate-continuous-authentication.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Continuous Authentication \(CA\), Zero Trust Access, Access Management]
 ---
 
 # Activate Continuous Authentication
 
-For activating the Continuous Authentication feature on your instance, install the **Zero Trust - Continuous Authentication** \(`com.snc.zero_trust_continuous_authentication`\) plugin.
+To activate the Continuous Authentication feature on your instance, install the **Zero Trust - Continuous Authentication** \(`com.snc.zero_trust_continuous_authentication`\) plugin.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: admin
 
 This plugin enables security administrators to define security policies that require step-up authentication \(MFA\) or re-authentication \(SSO\) within a logged-in session, based on the data the user is accessing and the activities they are performing.
 
-You must install the **Zero Trust - Continuous Authentication** \(`com.snc.zero_trust_continuous_authentication`\) for opting CA which requires a license.
+The **Zero Trust - Continuous Authentication** \(`com.snc.zero_trust_continuous_authentication`\) must be installed to use CA, which requires a license.
 
 ## Procedure
 
@@ -32,7 +32,7 @@ You must install the **Zero Trust - Continuous Authentication** \(`com.snc.zero_
 
 3.  Select **Install** to start the installation process.
 
-    **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
+    **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/find-components.md).
 
@@ -44,5 +44,5 @@ You must install the **Zero Trust - Continuous Authentication** \(`com.snc.zero_
 
 [Configure Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/configure-ca.md)
 
-[High Assurance session with Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/high-assurance-ca.md)
+[High assurance session with continuous authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/high-assurance-ca.md)
 

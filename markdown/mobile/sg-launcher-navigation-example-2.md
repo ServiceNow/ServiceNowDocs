@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/sg-launcher-navigation-example-2.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure navigation to a launcher screen, Navigation functions, Mobile functions, Mobile app components, Building mobile apps, Mobile Platform]
 ---

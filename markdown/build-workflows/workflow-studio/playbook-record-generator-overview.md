@@ -8,8 +8,8 @@ product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
 last_updated: "2026-09-15"
-reading_time_minutes: 2
-breadcrumb: [Designing playbooks, Use, Workflow Studio, Build workflows]
+reading_time_minutes: 3
+breadcrumb: [Design Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Playbook record generator
@@ -36,14 +36,13 @@ You can configure more than one record generator for the same table. When severa
 
 Administrators can specify the name of the record generator activity, the form view, and the process definition shown to the user before the record is created. The button the user selects to submit the form \(**Continue**\) is itself a declarative action. Administrators can override its label, styling, or conditions the same way they would customize any other declarative action.
 
+## Relationship to decision tables
+
+A decision table determines a business value, such as which product or path applies to a request. The record generator creates the record and starts the playbook. The two aren't linked automatically. To connect them, use the outcome of a decision table as a value in the record generator's template fields, which set the initial values of the new record.
+
+For example, a decision table can identify the product that applies to a request, and the record generator can create the record with that product already set. For more information, see [Workflow Studio decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/workflow-studio-decision-tables-landing.md).
+
 ## Redirect to the created record
 
-The out-of-the-box playbook layouts handle the refresh and redirect to the newly created record automatically. If you build a custom layout, you're responsible for wiring this yourself: binding the playbook component to the target parent table, and handling the event the component dispatches when the record is created so your page can route to it.
-
--   **[Configure a playbook record generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/configure-playbook-record-generator.md)**  
-Configure a record generator to let a user create the parent record for a process from inside the Playbook Experience.
--   **[Edit a record after record generator submission](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/edit-record-after-record-generator-submission.md)**  
-Keep a record editable after a playbook record generator creates it.
-
-**Parent Topic:**[Designing playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-experience-admins.md)
+The predefined playbook layouts handle the refresh and redirect to the newly created record automatically. If you build a custom layout, you're responsible for wiring this yourself: binding the playbook component to the target parent table, and handling the event the component dispatches when the record is created so your page can route to it.
 

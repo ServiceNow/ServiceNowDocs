@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Scheduling, Workforce Optimization, Workforce, Use, Field Service Management]
+breadcrumb: [Scheduling, Workforce Optimization, Managing workforce, Use, Field Service Management]
 ---
 
 # Add events to the team calendar
@@ -28,23 +28,23 @@ You can create custom event types and add or remove fields. For more information
 
 1.  Navigate to **All** &gt; **Workspaces** &gt; **Manager Workspace**.
 
-2.  Select the Schedule icon \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon.\).
+2.  Click the Schedule icon \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon.\).
 
-3.  Select the **Team Calendar** tab.
+3.  Click the **Team Calendar** tab.
 
-4.  Select **+New**.
+4.  Click **+New**.
 
 5.  Create an event.
 
-<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d56280e122">
+<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d61558e122">
 
 To
 
-</th><th align="left" id="d56280e125">
+</th><th align="left" id="d61558e125">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d56280e131">
+</th></tr></thead><tbody><tr><td id="d61558e131">
 
 **Create a meeting, training, or time-off request.**
 
@@ -63,23 +63,23 @@ Do this
         -   For a time-off request, enter the names of the agents in the **Agents** field.
 In the **Attendees** field, start typing the name of each of the attendees for the meeting and select the name.
 
-    3.  In the **Start date** field, select the calendar icon and select the date you want to start the meeting and select **OK**.
-    4.  In the **End date** field, select the calendar icon and select the date you want to end the meeting and select **OK**.
-    5.  If the meeting spans for the whole day, select the **All Day** slider.
+    3.  In the **Start date** field, click the calendar icon and select the date you want to start the meeting and click **OK**.
+    4.  In the **End date** field, click the calendar icon and select the date you want to end the meeting and click **OK**.
+    5.  If the meeting spans for the whole day, click the **All Day** slider.
     6.  In the **Description** field, enter a description for the meeting.
 
 
-</td></tr><tr><td id="d56280e237">
+</td></tr><tr><td id="d61558e237">
 
 **Create a work shift**
 
 </td><td>
 
-1.  Select **Work**.
+1.  Click **Work**.
 2.  In the **Agents** field, start typing the name of each agent to be assigned to the work shift and select the name.
-3.  In the **Start date** field, select the calendar icon, select the date you want to start the work shift, and select **OK**.
-4.  In the **End date** field, select the calendar icon, select the date you want to end the work shift, and Select **OK**.
-5.  Select the **Select Shift** field and select a shift.
+3.  In the **Start date** field, click the calendar icon, select the date you want to start the work shift, and click **OK**.
+4.  In the **End date** field, click the calendar icon, select the date you want to end the work shift, and click **OK**.
+5.  Click the **Select Shift** field and select a shift.
 
 
 </td></tr></tbody>

@@ -7,7 +7,7 @@ release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [GRC use case accelerators, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -26,7 +26,7 @@ As part of the Cyber Risk Institute's \(CRI\) Accelerator, you can:
 
 For more information, see:
 
--   [Perform CRI tiering questionnaire to determine the tier value of entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-compliance-management-workspace/perform-cri-tier-pc-ws.md).
+-   [Perform CRI tiering questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-compliance-management-workspace/perform-cri-tier-pc-ws.md).
 -   [Verify the NIST CSF Use Case Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/verify-nist-csf.md).
 
 **Parent Topic:**[Governance, Risk, and Compliance use case accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/grc-use-case-accelerators.md)

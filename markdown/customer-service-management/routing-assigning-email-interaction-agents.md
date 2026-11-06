@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/routing-assigning-email-interaction-agents.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 keywords: [Email Interaction for CSM, Email Interaction for CSM]
 breadcrumb: [Using Email Interaction for CSM, Customer communication, Use, Customer Service Management]
 ---
@@ -17,22 +17,9 @@ Route and assign email interactions to the appropriate agents based on predefine
 
 When agents accept email interactions routed by Advanced Work Assignment \(AWA\), the interaction state changes from New to Work in progress and it’s assigned to the agent.
 
-For more information on the configuration required to route and assign email interactions, see [Configure Advanced Work Assignment for routing email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-advanced-work-assignment-route-email-interactions.md).
+For information on the configuration required to route and assign email interactions, see [Configure Advanced Work Assignment for routing email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/configure-advanced-work-assignment-route-email-interactions.md).
 
-Alternatively, agents can assign the email interactions manually. For more information on how to assign email interactions, see [Assign an interaction manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/routing-assigning-email-interaction-agents.md).
-
-Agents can send emails to the customer requesting for more information. Agents can keep the interactions On Hold while waiting for the customer response. While an email interaction is on hold, customers receive periodic reminders prompting them to respond quickly.
-
-Once a customer replies to the on-hold email interaction, the interaction’s status is automatically updated to Work in progress. At this point, if the agent to whom the interaction is assigned isn’t available, the email interaction can be optionally rerouted to the next available agent. This behavior occurs when the system property **sn\_eaai\_csm.email.reroute.enabled** is set to true. By default, it is set to false. The automated rerouting process confirms that customer inquiries are addressed promptly. Enterprises can unify routing of omnichannel interactions within CCaaS to reduce admin effort. For more information about unified routing of email interactions, see [Unified routing of email interactions via CCaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/unified-email-routing-via-ccaas.md).
-
-.
-
-**Related topics**  
-
-
-[System properties for configuring Email Interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/system-properties-for-configuring-email-as-an-interaction.md)
-
-[Unified routing of email interactions via CCaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/unified-email-routing-via-ccaas.md)
+Alternatively, agents can assign the email interactions manually.
 
 ## Assign an interaction manually
 
@@ -50,7 +37,7 @@ The **Assign to me** button is only visible if the interaction is in the New sta
 
 1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon \(\[Omitted image "List\_icon.jpg"\] Alt text: List icon\).
+2.  Select the List icon \(\[Omitted image "List\_icon\_eaai\_new.png"\] Alt text: List icon that displays the interactions.\).
 
 3.  From the Interactions section, select **My Interactions**.
 

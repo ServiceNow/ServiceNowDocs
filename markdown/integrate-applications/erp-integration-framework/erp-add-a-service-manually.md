@@ -1,39 +1,34 @@
 ---
 title: Add an OData service manually in Zero Copy Connector for ERP
-description: When adding an entity to a model using OData, if the service you need isn't listed, add the service manually.
+description: When adding an entity to a model using OData, if the service you need isn't listed, add the service manually in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/erp-add-a-service-manually.html
 release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-11-03"
 reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, odata, service, manually, metadata, url, file, xml]
-breadcrumb: [Connect to SAP with OData and HTTP, Configure, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [OData, Connecting Zero Copy Connector for ERP to SAP ECC and SAP S/4HANA, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Add an OData service manually in Zero Copy Connector for ERP
 
-When adding an entity to a model using OData, if the service you need isn't listed, add the service manually.
+When adding an entity to a model using OData, if the service you need isn't listed, add the service manually in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_erp\_integration.erp\_admin
 
-As of the Zurich Patch 4 release, you can connect to an ERP system based on a metadata URL or an uploaded metadata file \(xml\). The file option enables you to, for example, access data from SuccessFactors. For more information, see [Obtain data from SAP SuccessFactors using OData v2 APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/obtain-data-from-successfactors-using-odata-v2-apis.md).
+You can connect to an ERP system based on a metadata URL or an uploaded metadata file \(xml\). The file option enables you to, for example, access data from SuccessFactors. For more information, see [Obtaining data from SAP SuccessFactors using OData V2 APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/obtain-data-from-successfactors-using-odata-v2-apis.md).
 
 Before you can add a service manually, you must do the following:
 
 -   Confirm that you have an SAP system that has been enabled to make an OData connection.
 -   Enable the **sn\_erp\_integration.enableModelModification** property. For more information, see [Install Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/install-erp-integration.md).
 -   Create a connection and credential alias, specifying HTTP as the **Connection type**. For more information, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connection-alias.md).
--   Create an HTTP connection for the service. Add the connection alias that you created, the connection URL, and the odata\_ping\_url.
-
-    \[Omitted image "image.erp-add-system-manually1"\] Alt text: Http connection record with key fields highlighted.
-
-    For more information, see [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/create-https-connection.md).
-
+-   Create an HTTP connection for the service. Add the connection alias that you created and the connection URL.
 -   Create a system that uses the HTTP connection. For more information, see [Create an ERP system in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/create-an-erp-system.md). On the system record, confirm that the heartbeats are successful and the retrieval status is complete. If any have failed, select **Restart data retrieval**.
 -   If you're going to connect using a URL, copy the metadata URL from the ERP system to which you're linking. Use the relative URL containing only the path following the domain, for example, v2/northwind/northwind.svc/$metadata.
 
@@ -41,7 +36,7 @@ Before you can add a service manually, you must do the following:
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the model page by selecting the models icon \[Omitted image "image.erpc-data-model-icon"\] Alt text: in the side panel.
+2.  Open the model page by selecting the models icon \[Omitted image "erpc-data-model-icon.png"\] Alt text: in the side panel.
 
 3.  Select the model to which you want to add an operation entity.
 
@@ -59,7 +54,7 @@ Before you can add a service manually, you must do the following:
 
 9.  Select **+ Add service manually**.
 
-    \[Omitted image "image.erp-add-system-manually2"\] Alt text: Add entity options with add service manually link highlighted.
+    \[Omitted image "erp-add-system-manually2.png"\] Alt text: Add entity options with add service manually link highlighted.
 
 10. If you're using a metadata URL, follow these substeps \(if you're uploading a metadata file, go to the next step\).
 
@@ -75,7 +70,7 @@ Before you can add a service manually, you must do the following:
 
         -   Provide a different **Metadata URL**.
         -   In the **All** menu, enter `sn_erp_integration_odata_service_catalog.list` and delete the previous entry of service from the table.
-        \[Omitted image "image.erp-add-system-manually3"\] Alt text: Add service manually fields filled in with details.
+        \[Omitted image "erp-add-system-manually3.png"\] Alt text: Add service manually fields filled in with details.
 
 11. If you're uploading a metadata file, follow these substeps.
 
@@ -91,7 +86,7 @@ Before you can add a service manually, you must do the following:
 
         You can download, edit, or delete the xml file by selecting an icon.
 
-        \[Omitted image "image.erp-add-system-manually6"\] Alt text: Add service manually modal with three icons highlighted.
+        \[Omitted image "erp-add-system-manually6.png"\] Alt text: Add service manually modal with three icons highlighted.
 
 12. When you're finished, select **Add service**.
 
@@ -99,7 +94,7 @@ Before you can add a service manually, you must do the following:
 
     **Note:** If there's an issue, an error message appears. Select **Flow context** for more information. You can also view execution details in Workflow Studio.
 
-    \[Omitted image "image.erp-add-system-manually4"\] Alt text: Error message with flow context link highlighted.
+    \[Omitted image "erp-add-system-manually4.png"\] Alt text: Error message with flow context link highlighted.
 
     The service is added to the entity record.
 
@@ -107,6 +102,4 @@ Before you can add a service manually, you must do the following:
 
 14. When you're finished, select **Add entity**.
 
-
-**Parent Topic:**[Connect Zero Copy Connector for ERP to SAP using OData and HTTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-use-odata-and-http-connection.md)
 
