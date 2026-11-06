@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-complian
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -22,7 +22,7 @@ Role required: sn\_bcm.admin, sn\_bcm.program\_manager, or sn\_bcm.planner
 
 You can select a primary asset and track its related assets in the plan. You can also designate the same asset as either a primary or a related asset within the plan, as indicated in the Types column of the plan record. To add the related assets in the **Asset dependencies** tab, select the **Update Dependencies** button in the plan. The source of the relationship is displayed in the Primary Source column, which includes sources such as Configuration Management Database \(CMDB\), Manual, BIA upstream, or BIA downstream.
 
-You can check the Types column in the **Scope** tab to see the classification of an asset. An asset can be classified as a primary scope type, a related asset type, or both. To understand the source of the relationship for related assets, such as an upstream BIA or a CMDB asset from which the dependency originates, refer to the Relationship Source column in the Plan Asset and Snapshot records. The Relationship source column in the **Asset dependencies** tab shows the actual record responsible for pulling this relationship. If two business impact analyses \(BIAs\) have the same asset dependencies, the most recent BIA is recognized as the relationship source and it is shown in the Types column in the plan.
+You can check the Types column in the **Scope** tab to see the classification of an asset. An asset can be classified as a primary scope type, a related asset type, or both. The Relationship Source column in the Plan Asset and Snapshot records shows the origin of each related asset relationship. Sources include upstream BIA, downstream BIA, and CMDB assets. The Relationship source column in the **Asset dependencies** tab shows the actual record responsible for pulling this relationship. When two BIAs share the same asset dependencies, the most recent BIA is the relationship source shown in the Types column.
 
 You can use the Hierarchical view in the plan form to view the parent-child relationship of the assets. You can toggle the view to display either the List view or the Hierarchical view. When the dependencies are updated, the values in the columns of the **Scope** and **Asset dependencies** tabs are updated and color-coded for reference as shown in the examples:
 
@@ -31,7 +31,7 @@ You can use the Hierarchical view in the plan form to view the parent-child rela
 -   Recovery point objective \(RPO\)
 -   Recovery tier \(RT\)
 
-You can use the updated dependencies from the most recent BIA record to conduct a dependency assessment on an asset. Employing these updated dependencies enables you to accurately carry out the business impact analysis. Additionally, it assists in determining the essential recovery timeframe and data backup needs for the assets, which are then shown in the Required Recovery Timeframe and Required Data Backup columns of the BIA record.
+Use the updated dependencies from the most recent BIA record to conduct a dependency assessment on an asset. The **Required Recovery Timeframe** and **Required Data Backup** columns show the recovery timeframe and data backup needs for each asset.
 
 \[Omitted image "data-pulled-in-scope-tab.png"\] Alt text: Data in scope tab.
 

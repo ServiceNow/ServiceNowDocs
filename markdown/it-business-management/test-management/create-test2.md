@@ -7,7 +7,7 @@ release: zurich
 product: Test Management
 classification: test-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-16"
 reading_time_minutes: 3
 breadcrumb: [Testing using Test Management 2.0, Test Management 2.0, Test Management applications, Strategic Portfolio Management]
 ---
@@ -20,19 +20,23 @@ Create a test specifying conditions or steps to determine whether a feature is w
 
 Role required: sn\_test\_management.tester or sn\_test\_management.test\_manager
 
+## About this task
+
+A test is a set of conditions or steps that determine whether a feature works correctly. Create a test here, and then link it to the stories that it verifies.
+
 ## Procedure
 
 1.  Create a test using either of the following options.
 
-<table id="choicetable_fmy_53j_5cb"><thead><tr><th align="left" id="d291242e61">
+<table id="choicetable_fmy_53j_5cb"><thead><tr><th align="left" id="d296161e67">
 
 Option
 
-</th><th align="left" id="d291242e64">
+</th><th align="left" id="d296161e70">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d291242e70">
+</th></tr></thead><tbody><tr><td id="d296161e76">
 
 **From Test Management 2.0**
 
@@ -42,7 +46,7 @@ Description
 2.  To create a test, click **New**.
 
 
-</td></tr><tr><td id="d291242e100">
+</td></tr><tr><td id="d296161e106">
 
 **From Agile Development 2.0**
 
@@ -201,6 +205,8 @@ To add a test to a test set:
 
 1.  Select the test from the Test list.
 2.  Click **Add to Test Set**.
+
+To link the test to a story, see [Create a test for a story](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/create-test-plan-for-story-agile2.md). To select a story, you also need the scrum\_user role.
 
 **Parent Topic:**[Testing using Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/release-readiness-testing.md)
 

@@ -8,7 +8,7 @@ product: Reporting
 classification: reporting
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
@@ -21,6 +21,10 @@ Use the MetricBase application to create time-series reports from MetricBase dat
 You must have the MetricBase product. To get it, see [Requesting the MetricBase product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/request-metricbase.md). For more information about MetricBase, see [MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/metricbase.md).
 
 Roles required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. To create a meaningful report, you must have the right to access the data you want to report on.
+
+## About this task
+
+**Note:** This topic refers to Core UI reports, not Platform Analytics data visualizations.
 
 ## Procedure
 

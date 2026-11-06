@@ -952,7 +952,7 @@ When you download the Business Continuity Management application, several script
 |BCPRecordAPI|Contains the utility functions that are used in the BCP record API.|
 |BCPTemplateUtilsBase|Contains the utility functions that are used in the BCP template utilities base.|
 |BIAAjaxProcessor|Helper class to handle Ajax requests from client scripts. Implementing methods:1. To determine visibility of "Include CIA" field on BIA Template form.2. To set "Applies to table" field with source table name of primary element assessed.|
-|BIARecordAPIBase|An API built to interact with BIA records. The goal of this API is to hide the implementation details about BIA records, and provide the consumers with a structured API to retrieve and update data for BIA records.|
+|BIARecordAPIBase|Structured API for retrieving and updating BIA record data.|
 |BIAAssessmentUIBase|Utility class to support Business Impact Analysis Assessment UI pages.|
 |BIAUtil|Script to handle insert and updates on BIA table, including validationsSetting depends on table field based on dependency group element definition.|
 |BIASmartAssessmentBase|Utility class to support all Smart Assessment functionality.|

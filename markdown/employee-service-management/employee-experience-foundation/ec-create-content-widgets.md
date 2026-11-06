@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2025-11-10"
 reading_time_minutes: 2
-breadcrumb: [Microsites, Creating employee communications, Manage, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Microsites, Creating employee communications, Manage, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Create and edit content from portal widgets

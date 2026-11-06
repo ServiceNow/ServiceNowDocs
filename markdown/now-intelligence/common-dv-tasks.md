@@ -24,7 +24,7 @@ Add a visualization from the Visualization Designer to a new dashboard or to an 
 Duplicate a visualization so that you can use aspects of the source in a copy of the visualization.
 -   **[Share a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/share-dv-ac.md)**  
 Share a visualization to provide view or edit permissions to users, groups, or roles. A user can access a shared visualization in any workspace on the original instance.
--   **[Export a data visualization from the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/export-visualization-vd.md)**  
+-   **[Export a Platform Analytics data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/export-visualization-vd.md)**  
 Export individual data visualizations to various formats and sizes. Download the exports or share them over email.
 -   **[Schedule the export of data visualizations or dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/schedule-visn-export-vd.md)**  
 Automate the export and mailing of data visualizations. Help colleagues build presentations, share information with external users, or track data over time.

@@ -18,17 +18,17 @@ The External Communication Channel \(ECC\) Queue is a connection point between y
 
 ## Contents of the ECC Queue
 
-The ECC queue contains records that are created during all stages of discovery. Each record is a message from the instance to system your are targeting for discovery, classified as **output**, or a message from that system to the instance, classified as **input**.
+The ECC queue contains records that are created during all stages of discovery. Each record is a message from the instance to system you are targeting for discovery, classified as **output**, or a message from that system to the instance, classified as **input**.
 
-ECC queue records provide you with a connected flow of probe and sensor activity along with the XML payload sent to or from an instance and the assets you're targeting.
+ECC queue records show probe and sensor activity and the XML payload sent to or from an instance and the assets you're targeting.
 
 ## Automatic deletion of ECC queue records
 
 As your IT Asset Discovery runs, the size of the ECC queue can grow to several gigabytes. Most of the “completed tasks” records are unnecessary, but some might be important for issue resolution.
 
-For example, if Discovery is not properly capturing the disk drives on a particular Windows server, you can look in the ECC Queue at the data returned by the Windows - System Information probe. For this reason, you should retain ECC Queue data from Discovery for at least a month.
+For example, if Discovery is not capturing disk drives on a Windows server, check the ECC queue for data returned by the Windows - System Information probe. Retain ECC queue data from Discovery for at least a month.
 
-By default, records in the ECC Queue older than 7 days are deleted automatically. You can set the deletion schedule by updating the ECC queue \(as we will explain in the next section\) and the table rotation schedule. The table rotation names are:
+By default, records in the ECC queue older than 7 days are deleted automatically. You can set the deletion schedule by updating the ECC queue and the table rotation schedule. The table rotation names are:
 
 -   **ecc\_queue\_event**
 -   **ecc\_queue**
@@ -42,7 +42,7 @@ You can access the ECC queue from either of these locations:
 
 The following image is an example of a record in the ECC queue. This record shows that a ConnectorProbe was instructed to run and has been processed. Note the XML payload it returned as the discovery task collected data. See [The MID Server ECC queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ecc-queue-mid-server.md) for a description of each field.
 
-\[Omitted image "ECCQueue.png"\] Alt text: An example ECC Queue
+\[Omitted image "ECCQueue.png"\] Alt text: ECC queue record showing a ConnectorProbe that ran and was processed, with the XML payload it returned.
 
 ## ECC queue states
 

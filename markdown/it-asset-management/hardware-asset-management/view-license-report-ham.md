@@ -70,7 +70,5 @@ Role required: admin, usage\_admin
 **Related topics**  
 
 
-[Opt-in or opt-out of HAM license resource categories]()
-
-[Exclude assets]()
+[Hardware Asset Management license exclusion]()
 

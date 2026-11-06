@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-09-08"
 reading_time_minutes: 1
 keywords: [product naming, rebranding, ServiceNow EmployeeWorks, Employee Slate]
-breadcrumb: [EmployeeWorks introduction, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [EmployeeWorks introduction, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Employee Slate product family rebranding

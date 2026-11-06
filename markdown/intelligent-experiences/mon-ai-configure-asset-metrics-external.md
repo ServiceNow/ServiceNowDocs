@@ -35,15 +35,15 @@ You can optionally override which metrics are evaluated for specific external AI
 
     **Important:** Adding more metrics increases the visibility you gain into each session, but also increases assist usage to evaluate it. Select the metrics that give you the insight you need.
 
-<table id="choicetable_asset_metric_actions"><thead><tr><th align="left" id="d262549e138">
+<table id="choicetable_asset_metric_actions"><thead><tr><th align="left" id="d272554e138">
 
 Option
 
-</th><th align="left" id="d262549e141">
+</th><th align="left" id="d272554e141">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d262549e147">
+</th></tr></thead><tbody><tr><td id="d272554e147">
 
 **Add one or more AI systems and selected metrics**
 
@@ -56,7 +56,7 @@ Steps
 5.  Select **Add metrics**.
 
 
-</td></tr><tr><td id="d262549e183">
+</td></tr><tr><td id="d272554e183">
 
 **Remove one or more metrics**
 

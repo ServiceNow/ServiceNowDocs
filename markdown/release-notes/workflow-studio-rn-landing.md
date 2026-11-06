@@ -18,6 +18,8 @@ The ServiceNow® Workflow Studio application consolidates playbooks, flows, acti
 The ServiceNow® Workflow Studio application enables process analysts to automate work without having to code and to build multiple-step flows from reusable components. Workflow Studio flows, subflows, and actions were enhanced and updated in the Zurich release.
 -   **[Playbooks in Workflow Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/process-automation-designer-rn.md)**  
 The ServiceNow® Playbooks builder within the ServiceNow® Workflow Studio application enables playbook owners to create multiple-flow processes in a diagram or task board interface. The Playbooks builder was enhanced and updated in the Zurich release.
+-   **[Decision tables release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/decision-builder-rn.md)**  
+The ServiceNow® decision tables application enable you to separate decision logic from your code by creating and managing decision rules in a structured, readable format in Workflow Studio. See the following sections for release notes by version.
 
 **Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/build-automate-rn-landing.md)
 

@@ -35,7 +35,7 @@ The following list provides all the possible solution types that you can filter 
 -   Technology management services
 -   Technology management service offerings
 -   Business services
--   Business services offerings
+-   Business service offerings
 -   Service instances
 
 ## Editing personal portfolios

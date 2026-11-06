@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Time off balances in Employee Center Pro Kiosk, Configure, Employee Center Pro Kiosk, Employee Center Integrations, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Time off balances in Employee Center Pro Kiosk, Configure, Employee Center Pro Kiosk, Employee Center Integrations, EmployeeWorks, Employee Service Management]
 ---
 
 # Customize the time off widget

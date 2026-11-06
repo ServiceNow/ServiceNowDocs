@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-05-27"
 reading_time_minutes: 1
-breadcrumb: [SGC Central, Service Graph Connector for ServiceNow Operational Technology\(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [SGC Central, Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Review imports
@@ -26,7 +26,7 @@ Role required: admin
 
 1.  Navigate to the **All** menu and type in "discovery" in the search field.
 
-2.  From the drop-down list, choose one a review task.
+2.  From the drop-down list, choose a review task.
 
     After completing the configurations and scheduling imports in the SGC Central, you can now go back and review the settings. Select:
 

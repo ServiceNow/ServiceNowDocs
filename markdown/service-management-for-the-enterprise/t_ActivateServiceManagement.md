@@ -48,7 +48,7 @@ After the Service Management Core plugin has been activated, you can activate ot
 
 [Process flow formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/r_ProcessFlowFormatter.md)
 
-[State flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/c_StateFlows.md)
+[bundle-platcap.c_StateFlows]
 
-[Managed Documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/c_ManagedDocuments.md)
+[bundle-platcap.c_ManagedDocuments]
 

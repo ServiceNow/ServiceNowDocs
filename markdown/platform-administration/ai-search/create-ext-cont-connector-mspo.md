@@ -159,7 +159,9 @@ Option to run a short test crawl to verify whether your connection settings and 
 **Important:** For connectors that support user permission crawls, all searchable content and metadata indexed by the validation test crawl is public until the connector completes its first user permission crawl. This means the test crawl's content will be visible to all users of portals and search applications that the connector is linked to.
 
 </td></tr></tbody>
-</table>6.  Save and validate your connection settings by selecting **Validate Connection**.
+</table>    **Note:** The **Settings for regulated markets** connection settings aren't shown for Microsoft SharePoint Online connectors that you created in versions of External Content Connectors prior to version 4.0. Starting with External Content Connectors version 4.0, these connection settings are shown when you create a new Microsoft SharePoint Online external content connector.
+
+6.  Save and validate your connection settings by selecting **Validate Connection**.
 
     **Note:** If validation of your connection settings fails, the system shows an error message. Verify your connection settings to ensure they're correct. If permissions required by the connector are missing or incorrectly configured in the source system, a warning message appears showing the permissions that must be corrected. Provide the information from this message to your source system administrator.
 
@@ -169,9 +171,9 @@ Option to run a short test crawl to verify whether your connection settings and 
 
     If you want to skip this step for now, select **Skip** instead of **Next**. You can modify the crawl settings for this connector from the External Content Admin Home page. For details on this procedure and the available crawl settings, see [Configure crawl settings for the Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-crawl-settings-spo-ext-cont-connector.md).
 
-9.  On the User permission settings page, modify any default user permission settings that you want to override for this connector.
+9.  On the User mapping settings page, modify any default user mapping settings that you want to override for this connector.
 
-    If you want to skip this step for now, select **Skip** instead of **Next**. You can modify the user permission settings for this connector from the External Content Admin Home page. For details on this procedure and user permission settings, see [Configure user permission settings for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-user-mapping-settings-external-content-connector.md).
+    If you want to skip this step for now, select **Skip** instead of **Next**. You can modify the user mapping settings for this connector from the External Content Admin Home page. For details on this procedure and user mapping settings, see [Configure user mapping settings for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-user-mapping-settings-external-content-connector.md).
 
 10. On the Create crawl page, create a content crawl for this connector by selecting a crawl scope \(if supported\) and any desired options, then select **Next**.
 

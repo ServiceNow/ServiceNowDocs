@@ -38,8 +38,6 @@ Health and Safety Incident Management enables the safety department to receive i
     -   Log meeting minutes and actions.
     -   Flag meetings and minutes as sensitive
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
-
 ## Personas
 
 Health and Safety Incident Management is aimed at the following personas:

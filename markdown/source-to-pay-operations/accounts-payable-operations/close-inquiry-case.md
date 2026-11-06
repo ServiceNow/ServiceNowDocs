@@ -38,7 +38,7 @@ Role required: sn\_ap\_cm.agent or sn\_ap\_cm.admin
 
         The Close inquiry dialog box is displayed.
 
-    -   Select the down arrow icon \(\[Omitted image "down-arrow-icon.png"\] Alt text: Down arrow icon\) and then select **Close incomplete**.\[Omitted image "apo-close-invoice-inquiry-case.png"\] Alt text: Close an invoice inquiry case
+    -   Select the down arrow icon \(\[Omitted image "down-arrow-icon.png"\] Alt text: Down arrow icon\) and then select **Close incomplete**.\[Omitted image "image.apo-close-invoice-inquiry-case"\] Alt text: Close an invoice inquiry case
 
         The Closure details dialog box is displayed.
 

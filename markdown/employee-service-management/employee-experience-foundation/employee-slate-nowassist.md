@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-05-27"
 reading_time_minutes: 3
 keywords: [Employee Slate for Now Assist, Employee Slate \(built for Now Assist\), Now Assist, conversational catalog, AI widget builder, conversational announcements, notifications]
-breadcrumb: [Configuration flow, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [EmployeeWorks, Employee Service Management]
 ---
 
 # Employee Slate \(built for Now Assist\)

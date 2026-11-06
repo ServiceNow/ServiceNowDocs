@@ -26,7 +26,7 @@ The BIA templates store information such as the impact categories and dependency
 
 ## BIA templates in BCM
 
-If you have the sn\_bcm.admin role, you can view the BIA templates that are installed with demo data when you install the application or configure a BIA template in the **BIA Templates** module. The example shows the BIA templates that are installed with demo data in the Business Continuity Management application.
+With the sn\_bcm.admin role, you can view the BIA templates installed with demo data or configure a BIA template in the BIA Templates module. The example shows the BIA templates that are installed with demo data in the Business Continuity Management application.
 
 \[Omitted image "bia-templates.png"\] Alt text: BIA templates that are installed with demo data.
 
@@ -65,7 +65,7 @@ For more information on how to configure a BIA template with the sn\_bcm.admin r
 
 ## Impact dependency groups
 
-The BIA template used for creating a business impact analysis has dependency groups associated with it. When conducting an assessment, the dependency groups are automatically populated in the BIA. You can view them as Applications, Hardware, Software, Vendors, Workplaces, and others, each in its own container depending on how many of these groups are associated to the template.
+The BIA template used for creating a business impact analysis has dependency groups associated with it. When conducting an assessment, the dependency groups are automatically populated in the BIA. These groups include Applications, Hardware, Software, Vendors, Workplaces, and others. Each group appears in its own container. The number of containers depends on how many groups are associated with the template.
 
 \[Omitted image "impact-dep-groups.png"\] Alt text: Dependency groups.
 

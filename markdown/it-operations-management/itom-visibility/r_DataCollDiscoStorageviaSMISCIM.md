@@ -18,7 +18,7 @@ Discovery can explore storage devices that contain a Storage Management Initiati
 
 To see the current list of vendors and products conforming to SMI-S as tested by SNIA, see the [SNIA website](https://www.snia.org/ctp/conforming_providers).
 
-Other types of storage, such as storage that is attached via a host, VM storage that is available on VMware ESX servers, and storage for Kernel VM \(KVM\), use a separate set of probes and sensors.
+Other storage types use a separate set of probes and sensors. These include host-attached storage, VM storage on VMware ESX servers, and storage for Kernel VM \(KVM\).
 
 Discovery collects information about storage area networks \(SAN\) and network-attached storage \(NAS\) from specialized devices, such as storage arrays and Fibre Channel \(FC\) switches. Discovery collects and creates CIs in the CMDB for the following information items:
 
@@ -49,7 +49,9 @@ Discovery collects information about storage area networks \(SAN\) and network-a
 
 ## CIM architecture
 
-CIM probes can explore any device based on the Common Information Model \(CIM\) by querying a CIM server, also referred to as a CIMOM - Common Information Model Object Manager. By default, Discovery uses CIM probes to explore storage systems as well as to get the serial numbers of ESX servers.
+CIM probes can explore any device based on CIM by querying a CIM server, also referred to as a CIMOM \(Common Information Model Object Manager\).
+
+Discovery uses CIM probes to explore storage systems and to get the serial numbers of ESX servers.
 
 Discovery queries SMI-S compliant storage devices using CIMIQL queries.
 

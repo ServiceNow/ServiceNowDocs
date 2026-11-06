@@ -18,7 +18,7 @@ Use anomaly model testing to apply and evaluate anomaly detection for a small se
 
 For example, before enabling anomaly detection for Linux Servers, you can use anomaly model testing with actual metric data collected for those Linux Servers. Existing alerts might indicate an anomaly for a specific metric and CI. You can create an anomaly test rule to test anomaly detection for those CIs and metrics, and then check if the expected anomaly is detected. You can also examine the bounds calculated by the anomaly model to see if they match expected bounds. After you fine-tune the test model, you can enable anomaly detection for Linux Servers.
 
-Anomaly model testing supports up to 20 time series, which can include 20 metric types for the same CI, the same metric type for 20 different CIs, or any combination of those options.
+Anomaly model testing supports up to 20 time series: 20 metric types for one CI, one metric type for 20 CIs, or any combination.
 
 ## View test results in the Insights Explorer
 
@@ -31,5 +31,5 @@ Each chart in the Insights Explorer, contains the Anomaly Test Statistics sectio
 
 ## Use test results to fine-tune anomaly detection
 
-Anomaly model testing uses the [upper and lower bounds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/metric-intelligence/override-metric-bounds.md) configured for selected series in the anomaly test rule. The anomaly model test results show how many anomaly alerts would have been generated based on the specified settings, if anomaly detection was enabled for the tested CIs and metrics. You can then decide if this result is acceptable. Fine-tune the bounds so that the number of anomaly alerts that are generated is not excessive, but sufficient to accurately indicate an out of bounds score.
+Anomaly model testing uses the [upper and lower bounds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/metric-intelligence/override-metric-bounds.md) configured for selected series in the anomaly test rule. The anomaly model test results show how many anomaly alerts would have been generated for the tested CIs and metrics based on the specified settings. You can then decide if this result is acceptable. Fine-tune the bounds so that the number of anomaly alerts that are generated is not excessive, but sufficient to accurately indicate an out of bounds score.
 

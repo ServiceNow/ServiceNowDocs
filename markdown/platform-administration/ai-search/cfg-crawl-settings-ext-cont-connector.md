@@ -76,7 +76,7 @@ Connector administrators can configure crawl settings for each external content 
 
 [Configure crawl settings for a ServiceNow instance external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-crawl-settings-snow-instance-external-content-connector.md)
 
-[Configure crawl settings for the ServiceNow product documentation external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-crawl-settings-snowdoc-ext-cont-connector.md)
+[Configure crawl settings for a ServiceNow product documentation external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-crawl-settings-snowdoc-ext-cont-connector.md)
 
 [Configure crawl settings for the Slack external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-crawl-settings-slack-ext-cont-connector.md)
 

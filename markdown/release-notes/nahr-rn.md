@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/nahr-rn.ht
 release: zurich
 topic_type: topic
 last_updated: "2025-07-31"
-reading_time_minutes: 11
+reading_time_minutes: 10
 breadcrumb: [HR Service Delivery release notes, Employee Service Management release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
 
@@ -50,9 +50,9 @@ The ServiceNow Otto for HR Service Delivery \(HRSD\) application brings generati
 
 Zurich Early Availability
 
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 
-See [ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-hrsd.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -82,19 +82,19 @@ The ServiceNow Otto for HR Service Delivery \(HRSD\) application brings generati
 
 ### What's new
 
--   **[ER Interview Summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-hrsd-er-interview.md)**
+-   **ER Interview Summarization**
 
     Use the ER interview summarization skill to obtain summary of the ER case interview, which includes details such as quick recap, key assertions and responses.
 
--   **[Self-scheduling option in Schedule interviews agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/use-ai-agents-to-schedule-interviews.md)**
+-   **Self-scheduling option in Schedule interviews agentic workflow**
 
     Recruiters and recruitment coordinators can now use self-scheduling to streamline interview scheduling by presenting applicants with available time slots to choose from. This option reduces the time to schedule in the absence of overlapping applicant-declared availability and minimizes the probability of manual handover to recruiter. The workflow recommends self-scheduling when beneficial, offers panelist-compatible slots sorted by confidence level, and automatically schedules interviews once applicants select their preferred time.
 
--   **[Offboarding knowledge transfer plan generation agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/offboarding-knowledge-x-agentic-wf.md)**
+-   **Offboarding knowledge transfer plan generation agentic workflow**
 
     The offboarding knowledge transfer plan generation agentic workflow captures and organizes critical knowledge when employees leave. AI agents interact with managers to collect requirements, discover documents from the specified time period, categorize content into meaningful work areas, and facilitate employee review before sharing with successors.
 
--   **[Generate onboarding ramp-up plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/onboarding-ramp-up-plan-agentic-wf.md)**
+-   **Generate onboarding ramp-up plan**
 
     The generate onboarding ramp-up plan workflow has been enhanced to create more relevant and personalized ramp-up plans for new hires. The workflow now recommends additional Journey services \(catalogs and order guides\) based on previously completed journeys and services requested by peers in similar roles. Managers can review these recommendations in Now Assist in Virtual Agent and add new services through a conversational experience.
 
@@ -116,40 +116,40 @@ The ServiceNow Otto for HR Service Delivery \(HRSD\) application brings generati
 
 ### What's new
 
--   **[Predict service and transfer HR cases agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/predict-transfer-hrcase.md)**
+-   ****
 
     Analyze an HR case and automatically route it to the most appropriate HR service with the predict service and transfer HR cases agentic workflow.
 
--   **[Resolve noncritical HR cases agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-issue-resolver-na.md)**
+-   ****
 
     Use the resolve noncritical HR cases agentic workflow to assess the criticality of HR cases, and automatically respond to noncritical inquiries without human intervention. Human agent intervention is required when the request is identified as critical.
 
--   **[Resolve critical HR case agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-issue-resolve-critical.md)**
+-   ****
 
     Resolve critical HR requests efficiently with the resolve critical HR case agentic workflow. This workflow generates a tailored fulfillment plan for an HR case using fulfillment instructions, KB articles, or resolution notes of similar past cases. It helps accelerate the resolution process by providing planning support to HR agents.
 
--   **[Summarize an ER case using ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-hrsd-summarize-er-case.md)**
+-   ****
 
     Use the ER case summarization skill to obtain a comprehensive overview of the ER case, which includes key details, such as allegations, evidences, and interviews.
 
--   **[Help resolve tuition reimbursement requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/resolve-tuition-reimbursement-requests.md)**
+-   ****
 
     Use the policy based HR evaluator skill to automatically compare employee tuition reimbursement submissions against company policies and return a decision of approval, denial, or request for additional information.
 
--   **[HR AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-hrsd-voice-ai-agents.md)**
+-   ****
 
     Help employees handle self-service HR issues, such as creating cases, checking case status, and requesting time off, using real-time voice interactions with HR AI voice agents. With advanced speech-to-text and text-to-speech capabilities, configurable caller authentication, and seamless integration with Contact Center as a Service \(CCaaS\) providers, such as Twilio and Genesys, the agents can deliver an efficient and personalized experience for employees.
 
 
 ### What's changed
 
--   **[Functional change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-issue-resolver-na.md)**
+-   **Functional change**
 
     The resolve HR cases agentic workflow has been broken down into three agentic flows:
 
-    -   [Predict service and transfer HR cases agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/predict-transfer-hrcase.md)
-    -   [Resolve noncritical HR cases agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-issue-resolver-na.md)
-    -   [Resolve critical HR case agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-issue-resolve-critical.md)
+    -   
+    -   
+    -   
 
 ## Zurich General Availability
 
@@ -161,35 +161,35 @@ The ServiceNow Otto for HR Service Delivery \(HRSD\) application brings generati
 
     Enable security settings to run AI agents and agentic workflows by using ACLs and user identities. You can configure and manage the ACLs in AI Agent Studio.
 
--   **[HCM AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/conversational-agents.md)**
+-   ****
 
     Use AI agents to enable employees to place requests to the HCM system, such as apply for time off or update details.
 
--   **[Resolve HR cases agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-issue-resolver-na.md)**
+-   **Resolve HR cases agentic workflow**
 
     Generate a fulfillment plan in a series of steps for an HR case by selecting the **Generate Plan** button on the HR case. HR agents can add prompts to further refine the AI-generated fulfillment plan before the plan is published to the work notes of the case.
 
--   **[HR case sentiment analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/analyze-sentiments-now-assist.md)**
+-   **HR case sentiment analysis**
 
     Prioritize cases by the sentiment score and monitor sentiment trends over time. HR agents can review a brief summary to understand the reasoning for the sentiment score for each HR case.
 
--   **[Schedule interviews agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/use-ai-agents-to-schedule-interviews.md)**
+-   ****
 
     Use AI agents to automate the interview scheduling process from the Now Assist panel and use the inputs from recruiters or recruitment coordinators to send out interview invites.
 
 
--   **[Generate onboarding ramp-up agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/onboarding-ramp-up-plan-agentic-wf.md)**
+-   **Generate onboarding ramp-up agentic workflow**
 
     Accelerate onboarding with the generate onboarding ramp-up plan agentic workflow, which creates personalized and team-specific plans for every new hire. Powered by AI agents, it tailors learning paths, team tasks, and 1:1 introductions to help employees ramp up fast, build stronger connections, and reach productivity quickly.
 
--   **[Resolve noncritical HR cases agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-issue-resolver-na.md)**
+-   ****
 
     Evaluate case criticality and retrieve relevant knowledge articles to resolve HR cases, minimizing the need for agent intervention. Generate a fulfillment plan for an HR case, which helps resolve the HR case fast.
 
 
 ### What's changed
 
--   **[Flow name](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-issue-resolver-na.md)**
+-   **Flow name**
 
     The resolve noncritical HR cases workflow has been renamed to the resolve HR cases workflow.
 
@@ -207,17 +207,17 @@ The ServiceNow Otto for HR Service Delivery \(HRSD\) application brings generati
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Australia Early Access\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
 
--   **[Streamline feedback collection and review using the Employee feedback collection AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-feedback-agent.md)**
+-   **Streamline feedback collection and review using the Employee feedback collection AI agent**
 
     As an admin, create reusable feedback templates using the Platform Surveys tool allowing managers to select and preview templates when requesting feedback, and help them quickly view a summarized snapshot of a reportee’s recent feedback with easy navigation to the feedback page in Manager Hub for detailed insights.
 
 
--   **[Collect employee feedback with the help of an agent in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-feedback-agent.md)**
+-   **Collect employee feedback with the help of an agent in Now Assist**
 
     As a manager, collect feedback from employees with the help from an agent in Now Assist. Identify which colleagues to request feedback from through Talent Development applications, journeys, and interaction patterns in Microsoft. Send, track, and manage feedback requests with built-in reminders. Leverage existing to-dos to send and manage feedback requests seamlessly.
 
 
--   **[Create a growth conversation with the help of an agent in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/agentic-wf-conversations-na-td.md)**
+-   **Create a growth conversation with the help of an agent in Now Assist**
 
     As a manager, use the growth conversations preparation AI agent to schedule and prepare for employee growth discussions. The agent provides a clear summary of employee activity and career journey as well as data-driven talking points for focused and impactful conversations.
 
@@ -228,7 +228,7 @@ The ServiceNow Otto for HR Service Delivery \(HRSD\) application brings generati
 
     Google Gemini and AWS Claude are available for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 
--   **[Use AI agents to create job requisition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/use-ai-agents-to-create-job-req.md)**
+-   ****
 
     Use AI agents to automate the process for creating a job requisition from the Virtual Agent chat window by using the inputs from your hiring managers.
 

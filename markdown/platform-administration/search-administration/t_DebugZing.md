@@ -41,7 +41,7 @@ Role required: admin
 
     1.  Select **All**.
 
-    2.  In the **Filter** field, enter `ts_word.list`.
+    2.  In the navigation field, enter `ts_word.list`.
 
     3.  Press Enter.
 

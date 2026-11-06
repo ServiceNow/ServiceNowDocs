@@ -16,7 +16,7 @@ Configure the Public Sector Digital Services service catalog so that you can def
 
 ## About this task
 
-For more information on creating and maintaining service catalogs, see [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/service-catalog.md).
+For more information on creating and maintaining service catalogs, see .
 
 ## Before you begin
 
@@ -71,9 +71,9 @@ Application
 </td><td>
 
 Application scope of the service. Select from the following options:-   Public Sector Digital Services Core
--   License and Permit Playbook
+-   License and Permit Administration
 -   Information Request Administration
--   Service Request Playbook
+-   Service Request Administration
 
 
 </td></tr><tr><td>

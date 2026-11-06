@@ -7,8 +7,8 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-07-02"
-reading_time_minutes: 2
+last_updated: "2026-09-30"
+reading_time_minutes: 3
 breadcrumb: [Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer]
 ---
 
@@ -30,11 +30,18 @@ When the time since a source record's last update exceeds the limit from the ind
 
 To limit the set of records indexed from a source table, define filter conditions for your indexed source. AI Search only indexes records that match all defined filter conditions.
 
-Adding filter conditions can reduce the number of records indexed from a source table and reduce indexing frequency. As an example, if you exclude frequently updated open records based on their status, AI Search doesn't index data from those records, reducing your index size and the compute resources needed to index changes from the source table.
+Adding filter conditions can reduce the number of records indexed from a source table and reduce indexing frequency. As an example, if you exclude frequently updated open records based on their status, AI Search doesn't index data from those records. Excluding these records reduces your index size and the compute resources needed to index changes from the source table.
 
 When a source record no longer satisfies the indexed source's filter conditions, AI Search marks the corresponding indexed record as stale.
 
-**Note:** . Adding filter conditions doesn't reduce the number of AI Search indexing events generated for the indexed source. The system generates indexing events for every change to an indexed source table, unless the change is to a column that has a **no\_text\_index** field setting defined in the indexed source. The filter condition can reduce the number of records indexed for each event, however.
+**Note:** Adding filter conditions doesn't reduce the number of AI Search indexing events generated for the indexed source. The system generates indexing events for every change to an indexed source table, unless the change is to a column that has a `no_text_index` field setting defined in the indexed source. The filter condition can reduce the number of records indexed for each event, however.
+
+Indexed source filter conditions only operate on source record fields that are indexed. Fields in the following table aren't indexed by default.
+
+|Field|Description|
+|-----|-----------|
+|Tags|The Tags field on source records isn't indexed by default. To use tags in an indexed source filter condition, you must first configure indexing for tags in the indexed source. For details on this procedure, see [Enable indexing of tags for an AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/enable-tag-indexing-ais.md).|
+|Fields on referenced records|Fields on referenced records aren't indexed by default. To use a referenced record field in an indexed source filter condition, you must first configure indexing for the field in the indexed source. For details on this procedure, see [Enable indexing of referenced table fields for an AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/enable-ref-table-field-index-ais.md).|
 
 ## Purging stale records
 

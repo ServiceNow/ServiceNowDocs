@@ -104,6 +104,8 @@ The properties accept comma separated lists with operators. The first name in th
 
 [MID Server configuration file security]()
 
+[MID Server authentication methods comparison]()
+
 [MID Server authentication credentials and SOAP requests]()
 
 [MID Server unified key store]()
@@ -125,4 +127,6 @@ The properties accept comma separated lists with operators. The first name in th
 [MID Server FIPS Enforced Mode]()
 
 [MID Server Governance]()
+
+[MID Server IPKI authentication]()
 

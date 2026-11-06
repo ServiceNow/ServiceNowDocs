@@ -34,6 +34,8 @@ You can create a model based on any of the following Enterprise Asset Management
 
 **Note:** The Enterprise Asset Management application supports only facilities models that fall under the Facility model \[sn\_ent\_facility\_model\] child class of the Enterprise good model \[sn\_ent\_model\] class. The application does not support facilities models that are listed in the Facility Models \[cmdb\_facility\_product\_model\] table.
 
+**Note:** This topic provides details on how to create individual enterprise models. For details on how to create multiple enterprise models in one go, see [Bulk import of your enterprise models and assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/overview-bulk-import-eam.md).
+
 Role required: sn\_eam.enterprise\_admin or sn\_eam.enterptrise\_asset\_manager
 
 ## Procedure

@@ -1,18 +1,18 @@
 ---
-title: Create a list visualization with variable columns
-description: You can create a list visualization with variables columns based on a data source or table that has variables associated with it. For example, if an item has a variable called Storage, you can create a list report that has a column for the values in this variable.
+title: Create a list with variable or question columns
+description: You can create a list data visualization with variables or questions as columns based on a data source or table that has variables associated with it. For example, if an item has a variable called Storage, you can create a list report that has a column for the values in this variable.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/create-list-dv-with-var-col.html
 release: zurich
 topic_type: task
 last_updated: "2026-07-28"
-reading_time_minutes: 7
+reading_time_minutes: 8
 breadcrumb: [List visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
-# Create a list visualization with variable columns
+# Create a list with variable or question columns
 
-You can create a list visualization with variables columns based on a data source or table that has variables associated with it. For example, if an item has a variable called **Storage**, you can create a list report that has a column for the values in this variable.
+You can create a list data visualization with variables or questions as columns based on a data source or table that has variables associated with it. For example, if an item has a variable called **Storage**, you can create a list report that has a column for the values in this variable.
 
 ## Before you begin
 
@@ -68,7 +68,7 @@ Table
 The raw data from a table with no filters applied.
 
 </td></tr></tbody>
-</table>6.  In the Presentation section, select **+Add**and select the arrow next to **Variables** at the bottom of the available fields.
+</table>6.  In the Presentation section, select **+Add** and select the arrow next to **Variables** at the bottom of the available fields.
 
     Depending on system configuration, you can add fields from tables that extend the selected table.\[Omitted image "choose-fields-variables-1.png"\] Alt text: The Choose fields dialog with Variables option highlighted and the pointer on the the Open item: Variables arrow.
 
@@ -439,5 +439,5 @@ Enables the list to be divided across multiple pages. When cleared, list paginat
 </table>10. Select **Save**.
 
 
-**Parent Topic:**[Create a list visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-dv-analytics-list.md)
+**Parent Topic:**[Create a Platform Analytics list visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-dv-analytics-list.md)
 

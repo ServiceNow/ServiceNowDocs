@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/mon-ai-reviewing-ai-system-scores.html
 release: zurich
 topic_type: concept
-last_updated: "2026-04-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, use]
 breadcrumb: [Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]

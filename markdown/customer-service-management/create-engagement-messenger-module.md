@@ -253,7 +253,7 @@ Option for enabling the collection of user experience analytics from users of yo
 
 </td></tr><tr><td colspan="2">
 
-As an administrator, you can configure the Proactive Recommendations feature for Engagement Messenger. For more information, see [Proactive Recommendations configuration for Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/em-behav-recom.md).
+As an administrator, you can configure the Proactive Recommendations feature for Engagement Messenger. For more information, see [Proactive and Recommendations configuration for Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/em-behav-recom.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

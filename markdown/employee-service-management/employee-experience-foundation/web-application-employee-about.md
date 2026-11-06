@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Setup task management, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Setup task management, Configure, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # App Launcher

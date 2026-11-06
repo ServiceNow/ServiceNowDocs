@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-04-07"
 reading_time_minutes: 1
-breadcrumb: [Retiring or archiving versioned specifications and product offerings, Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Retire or archive versioned specs, Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Retire or archive a specification version
@@ -31,7 +31,7 @@ You retire or archive service and resource specification versions in the same ma
 
 ## Procedure
 
-1.  Open CRM Workspace.
+1.  Open CSM Configurable Workspace.
 
 2.  Navigate to **List** &gt; **Specifications** &gt; **Product Specifications**.
 

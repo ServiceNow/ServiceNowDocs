@@ -270,6 +270,21 @@ ServiceNow Otto panel
 
 </td><td>
 
+Panel is activated but stays in a loading or frozen state
+
+</td><td>
+
+-   Verify all ServiceNow Otto plugins are up to date.
+-   Repair Generative AI Controller.
+-   Clear browser cookies and cache.
+-   Verify Next Experience is enabled.
+
+</td></tr><tr><td>
+
+ServiceNow Otto panel
+
+</td><td>
+
 Can't access skills in the ServiceNow Otto panel
 
 </td><td>

@@ -498,9 +498,9 @@ Contains data about various objects associated with a Hyper-V server, such as pa
 |Hyper-V Resource Pool \[cmdb\_ci\_hyper\_v\_resource\_pool\]|Defines resources for:Gets resources from|Hyper-V Server \[cmdb\_ci\_hyper\_v\_server\]|
 |Hyper-V Resource Pool Components \[cmdb\_ci\_hyper\_v\_rpool\_comp\]|Contained by::Contains|Hyper-V Resource Pool \[cmdb\_ci\_hyper\_v\_resource\_pool\]|
 |Hyper-V Cluster \[cmdb\_ci\_hyper\_v\_cluster\]|Members::Member of|Hyper-V Server \[cmdb\_ci\_hyper\_v\_server\]|
-|Hyper-V Server \[cmdb\_ci\_hyper\_v\_server\]|Runs on::Runs|Windows Servers \[cmdb\_ci\_win\_server\]|
-|Windows Servers \[cmdb\_ci\_win\_server\]|Instantiates::Instantiated by|Hyper-V Virtual Machine Instance \[cmdb\_ci\_hyper\_v\_instance\]|
-|Windows Servers \[cmdb\_ci\_win\_server\]|Virtualized by::Virtualizes|Hyper-V Server \[cmdb\_ci\_hyper\_v\_server\]|
+|Hyper-V Server \[cmdb\_ci\_hyper\_v\_server\]|Runs on::Runs|Windows Server \[cmdb\_ci\_win\_server\]|
+|Windows Server \[cmdb\_ci\_win\_server\]|Instantiates::Instantiated by|Hyper-V Virtual Machine Instance \[cmdb\_ci\_hyper\_v\_instance\]|
+|Windows Server \[cmdb\_ci\_win\_server\]|Virtualized by::Virtualizes|Hyper-V Server \[cmdb\_ci\_hyper\_v\_server\]|
 
 **Parent Topic:**[Operating systems discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/c_Computers.md)
 

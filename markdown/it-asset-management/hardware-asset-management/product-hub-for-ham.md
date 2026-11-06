@@ -47,8 +47,8 @@ Product Hub is accessible from the Admin Home page through the **Hardware Asset 
 
 **Important:** The **Hardware Asset Management** card is available only after you install one of the following applications on your ServiceNow instance:
 
--   AI Native SKUs: ServiceNow Otto for Setup \(sn\_ia\)
--   Non-AI Native SKUs: Setup Hub \(sn\_ia\_base\)
+-   AI Native SKUs: ServiceNow Otto for Setup \(sn\_ia\), version 5.0.10 or later.
+-   Non-AI Native SKUs: Setup Hub \(sn\_ia\_base\), version 3.0.4 or later.
 
 -   **First-time installation**
 

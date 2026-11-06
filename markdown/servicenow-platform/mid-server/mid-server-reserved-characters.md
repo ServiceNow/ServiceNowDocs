@@ -18,7 +18,7 @@ Some MID Server records cannot be altered. Certain special characters are pre-de
 
 <table id="table_dlr_pv4_nhb"><tbody><tr><td>
 
-![Links to each of the MID Server sections](../image/MIDRefIconBar.png)
+![MID Server reference navigation](../image/MIDRefIconBar.png)
 
 </td></tr></tbody>
 </table>## MID Server Records that cannot be altered

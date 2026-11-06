@@ -17,8 +17,8 @@ breadcrumb: [AI Control Tower \(legacy\), Enable AI experiences]
 
 Use AI Control Tower for creating governance workflows.
 
--   **[Create an AI Control Tower Playbook workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/create-a-playbook-workflow-for-now-assist-approvals.md)**  
-Create a AI Control Tower Playbook workflow for Now Assist approvals to approve or reject an asset.
+-   **[Create a Playbook workflow in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/create-a-playbook-workflow-for-now-assist-approvals.md)**  
+Create a Playbook workflow in AI Control Tower for Now Assist approvals to approve or reject an asset.
 -   **[Create a ServiceNow Otto approval task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/create-an-now-assist-approval-task.md)**  
 Create an ServiceNow Otto approval task to evaluate the assets.
 -   **[Creating AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/creating-ai-assets.md)**  

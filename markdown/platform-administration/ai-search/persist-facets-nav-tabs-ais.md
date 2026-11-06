@@ -8,7 +8,7 @@ product: AI Search
 classification: ai-search
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Search application configurations, Configure, AI Search, Search administration, Configure core features, Administer]
 ---
 
@@ -28,7 +28,7 @@ Administrators can override this default behavior by setting the value of the **
 
 This option is global and applies to all AI Search applications on your instance.
 
-**Note:** If an existing facet filter cannot be applied to search results from a selected source facet bucket, AI Search ignores the facet filter. This behavior only occurs in search applications where you've disabled search result counts for facets. For more details on search result counts for facets, see [Show search result counts for facets on the results page for a search application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/display-result-counts-ais.md).
+**Note:** If an existing facet filter cannot be applied to search results from a selected source facet bucket, AI Search ignores the facet filter. This behavior only occurs in search applications where you've disabled search result counts for facets. For more details on search result counts for facets, see .
 
 ## Procedure
 
@@ -36,7 +36,7 @@ This option is global and applies to all AI Search applications on your instance
 
     1.  Select **All**.
 
-    2.  In the **Filter** field, enter `sys_properties.list`.
+    2.  In the navigation field, enter `sys_properties.list`.
 
     3.  Press Enter.
 

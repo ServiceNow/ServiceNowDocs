@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Enhance employee experience by integrating ServiceNow with Zoom, Integrate, ServiceNow for Zoom, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Enhance employee experience by integrating ServiceNow with Zoom, Integrate, ServiceNow for Zoom, EmployeeWorks, Employee Service Management]
 ---
 
 # Chat-specific configuration for Collaboration services for Zoom

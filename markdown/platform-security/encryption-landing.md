@@ -85,7 +85,7 @@ ServiceNow® Cloud Encryption offers encrypted storage for the database using bl
 -   **[Full disk encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/full-disk-encryption.md)**  
 Full disk encryption \(FDE\) applies encryption to the entire storage system within the database server only, because this is the only customer data-storing component. FDE protects only against physical loss or theft of storage devices. When encrypted disk servers are powered on and providing data, the encryption provides no additional protection.
 -   **[Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/edge-encryption.md)**  
-ServiceNow® Edge Encryption ™ encrypts sensitive data on your company premises before sending it over the Internet to your ServiceNow instance \(encrypted in flight\), where it remains encrypted at rest.
+ServiceNow® Edge Encryption ™ encrypts sensitive data on your company premises before sending it to your ServiceNow instance. Data is encrypted in flight and remains encrypted at rest.
 -   **[Database Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/database-encryption-with-customer-controlled-switch/db-full-disk-encryption.md)**  
 ServiceNow® offers database encryption \(DBE\) and full-disk encryption methods for customers with statutory obligations for data protection which may require at-rest protection for all data.
 

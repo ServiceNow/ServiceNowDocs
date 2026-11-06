@@ -40,7 +40,7 @@ Role required: sn\_tm\_core.power\_user, sn\_tm\_core.admin
 
     -   **Event Field Replacement Value**
 
-        Determines the replacement term for any event fields when the replaced event filter is applied. The default value is **BLOCKLISTED**. For more information, see [Avoid capturing and displaying application details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/task-mining/replace-application-details.md).
+        Determines the replacement term for any event fields when the replaced event filter is applied. The default value is **BLOCKLISTED**. For more information, see [Create event filters to capture or exclude activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/task-mining/replace-application-details.md).
 
     -   **Minimum level of anonymization**
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/rn
 release: zurich
 topic_type: concept
 last_updated: "2025-06-02"
-reading_time_minutes: 43
+reading_time_minutes: 44
 ---
 
 # Products combined by family
@@ -167,6 +167,8 @@ Consolidated page of all release notes for Data Privacy from Yokohama to Zurich.
 Consolidated page of all release notes for Data Separation from Yokohama to Zurich.
 -   **[Combined Decision Builder in Workflow Studio release notes for upgrades from Yokohama to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/zurich-yokohama-decisionbuilderinworkflowstudio-release-notes.md)**  
 Consolidated page of all release notes for Decision Builder in Workflow Studio from Yokohama to Zurich.
+-   **[Combined Decision tables release notes for upgrades from Yokohama to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/zurich-yokohama-decisiontables-release-notes.md)**  
+Consolidated page of all release notes for Decision tables from Yokohama to Zurich.
 -   **[Combined Developer Sandboxes release notes for upgrades from Yokohama to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/zurich-yokohama-developersandboxes-release-notes.md)**  
 Consolidated page of all release notes for Developer Sandboxes from Yokohama to Zurich.
 -   **[Combined DevOps Change Velocity release notes for upgrades from Yokohama to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/zurich-yokohama-devopschangevelocity-release-notes.md)**  
@@ -321,6 +323,10 @@ Consolidated page of all release notes for Lifecycle Events from Yokohama to Zur
 Consolidated page of all release notes for Listening Posts from Yokohama to Zurich.
 -   **[Combined Localization Workspace release notes for upgrades from Yokohama to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/zurich-yokohama-localizationworkspace-release-notes.md)**  
 Consolidated page of all release notes for Localization Workspace from Yokohama to Zurich.
+-   **[Combined Lux release notes for upgrades from Yokohama to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/zurich-yokohama-lux-release-notes.md)**  
+Consolidated page of all release notes for Lux from Yokohama to Zurich.
+-   **[Combined Lux Lab release notes for upgrades from Yokohama to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/zurich-yokohama-luxlab-release-notes.md)**  
+Consolidated page of all release notes for Lux Lab from Yokohama to Zurich.
 -   **[Combined Manager Hub release notes for upgrades from Yokohama to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/zurich-yokohama-managerhub-release-notes.md)**  
 Consolidated page of all release notes for Manager Hub from Yokohama to Zurich.
 -   **[Combined Manufacturing Commercial Operations release notes for upgrades from Yokohama to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/zurich-yokohama-manufacturingcommercialoperations-release-notes.md)**  
@@ -493,10 +499,12 @@ Consolidated page of all release notes for ServiceNow Add-in for Microsoft 365 f
 Consolidated page of all release notes for ServiceNow AI Lens from Yokohama to Zurich.
 -   **[Combined ServiceNow AI Platform core feature release notes for upgrades from Yokohama to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowaiplatformcorefeature-release-notes.md)**  
 Consolidated page of all release notes for ServiceNow AI Platform core feature from Yokohama to Zurich.
--   **[Combined ServiceNow Cowork release notes for upgrades from Yokohama to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowcowork-release-notes.md)**  
-Consolidated page of all release notes for ServiceNow Cowork from Yokohama to Zurich.
+-   **[Combined ServiceNow Arc release notes for upgrades from Yokohama to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowarc-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Arc from Yokohama to Zurich.
 -   **[Combined ServiceNow IDE release notes for upgrades from Yokohama to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowide-release-notes.md)**  
 Consolidated page of all release notes for ServiceNow IDE from Yokohama to Zurich.
+-   **[Combined ServiceNow Lux Lab for VS Code release notes for upgrades from Yokohama to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowluxlabforvscode-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Lux Lab for VS Code from Yokohama to Zurich.
 -   **[Combined ServiceNow Otto release notes for upgrades from Yokohama to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowotto-release-notes.md)**  
 Consolidated page of all release notes for ServiceNow Otto from Yokohama to Zurich.
 -   **[Combined ServiceNow Otto for App Engine release notes for upgrades from Yokohama to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowottoforappengine-release-notes.md)**  

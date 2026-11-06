@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-05-28"
 reading_time_minutes: 2
 keywords: [employee communications, announcements, content library, employee slate, chat promotion]
-breadcrumb: [Tasks and requests, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Tasks and requests, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Manage tasks and approvals

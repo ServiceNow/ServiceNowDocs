@@ -16,6 +16,8 @@ breadcrumb: [List reports, Report types, Reporting, Reporting, dashboards, and P
 
 Add a title to your list report configure the title's size, color, and alignment.
 
+**Important:** This topic is about Core UI List reports. For information about the newer Platform Analytics lists, see [Create a Platform Analytics list visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-dv-analytics-list.md).
+
 When you create or edit a list report, you can add a title that replaces the report name you provide on the Data tab. Users you share the report with see the new title instead of the name of the report.
 
 <table id="table_zcc_2g1_wr"><thead><tr><th>

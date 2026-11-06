@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/enable-ai-guest-user.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Feature configuration, Set up Engagement Messenger, Enable communication channels, Configure, Customer Service Management]
 ---
@@ -37,5 +37,5 @@ As an admin, you must enable the EC AI Homepage Search, Typeahead Search, and AI
 
 ## What to do next
 
-Enable the Typeahead Search and AI Search Assist widgets. For information, see [Enable AI search in the Customer and Consumer Service Portals for unauthenticated users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/configure_search_csp_guestuser.md).
+Enable the Typeahead Search and AI Search Assist widgets. For information, see [Enable AI search in the Business Portals for unauthenticated users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/configure_search_businessportal_guestuser.md).
 

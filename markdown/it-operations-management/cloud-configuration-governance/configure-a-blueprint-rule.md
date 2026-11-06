@@ -245,7 +245,7 @@ Value
 
 </td><td>
 
-Enter an optional value that you want to assign to the target field. For example, if you selected **SetValue** for the **Action Type** field and you want to update the **Resource Group Name**, you can use the value `${ResourceGroup}`, which pulls the names of the resource groups from the blueprint.
+Enter an optional value that you want to assign to the target field. For example, if you selected **SetValue** for the **Action Type** field and you want to update the **Resource Group Name**, you can use the value `${ResourceGroup}`. This pulls the names of the resource groups from the blueprint.
 
 </td></tr><tr><td>
 

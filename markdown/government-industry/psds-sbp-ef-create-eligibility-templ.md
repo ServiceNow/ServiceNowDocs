@@ -24,7 +24,7 @@ Role required: admin
 
 ## Procedure
 
-1.  From the CRM Workspace sidebar, navigate to the **Policy Home**.
+1.  From the Public Sector Workspace sidebar, navigate to the **Policy Home**.
 
 2.  Navigate to **Templates** &gt; **All Templates**.
 
@@ -107,7 +107,7 @@ Date and time when the policy template was created.
 
 6.  Select the **Template Builder** tab and fill in the conditions in the Policy logic section, then select **Save**.
 
-    For more information about the parameters and condition fields, see [Passing parameters to PaCE policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/pace-passing-parameters.md) and [Policy logic condition fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/pace-policy-logic-fields.md).
+    For more information about the parameters and condition fields, see  and .
 
 
 ## What to do next
@@ -135,7 +135,7 @@ Role required: admin
 
 ### Procedure
 
-1.  From the CRM Workspace sidebar, navigate to the **Policy Home**.
+1.  From the Public Sector Workspace sidebar, navigate to the **Policy Home**.
 
 2.  Select **Templates** &gt; **All Templates**.
 

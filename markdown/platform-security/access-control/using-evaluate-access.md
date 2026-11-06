@@ -9,7 +9,7 @@ classification: access-control
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Use Access analyzer, Access analyzer, Access Management]
+breadcrumb: [Use Access Analyzer, Access analyzer, Access Management]
 ---
 
 # Use Evaluate access
@@ -20,34 +20,34 @@ Analyze identities on the ServiceNow® instance.
 
 Role required: admin, access\_analyzer\_admin
 
-The following procedure describes the steps for accessing Evaluate Access in the Access Analyzer and using its various features.
+The following procedure describes the steps for accessing Evaluate access in the Access Analyzer and using its various features.
 
-**Note:** Access analyzer is a ServiceNow Store product.
+**Note:** Access Analyzer is a ServiceNow Store app.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Access Analyzer** &gt; **Analyze Permissions**.
 
-    The Analyze access and permissions homepage is displayed.
+    The Analyze access and permissions home page is displayed.
 
 2.  Select the **Evaluate access** tab.
 
-3.  Select your criteria as follows:
+3.  Select your criteria as follows.
 
     |Field|Description|
     |-----|-----------|
-    |Analyze by \*|Analyze access for a user, a role, or a group|
-    |Select user \*|Specify a user name to select from the list.|
-    |Rule type \*|Analyze access for a table, a UI page, a REST Endpoint, or a client callable script include.|
-    |Select table \*|Specify a table name to select from the list.|
-    |Select record|Specify a record name to select from the list.|
-    |Select field|Specify a field name to select from the list.|
+    |Analyze by|Access analysis for a user, a role, or a group|
+    |Select user|User name from the list.|
+    |Rule type|Access analysis for a table, a UI page, a REST Endpoint, or a client callable script include.|
+    |Select table|Table name from the list.|
+    |Select record|Record name from the list.|
+    |Select field|Field name from the list.|
 
 4.  Specify the description in the **Description** field.
 
 5.  Select **Analyze permissions**.
 
-    The access results for the user are displayed. Similarly you can analyze the permissions of a Group or Role for the following rule types:
+    The access results for the user are displayed. Similarly, you can analyze the permissions of a group or role for the following rule types:
 
     -   Table \(record\)
     -   Client callable scripts include
@@ -56,11 +56,11 @@ The following procedure describes the steps for accessing Evaluate Access in the
 
     \[Omitted image "use-access-analyzer-results.png"\] Alt text: Access results
 
-    The Access results table includes the following fields:
+    The Access results table includes the following fields.
 
 <table id="table_dqg_wxp_dyb"><thead><tr><th>
 
-Fields
+Field
 
 </th><th>
 
@@ -108,7 +108,7 @@ Data filtration
 
 </td><td>
 
-A data filter is a form of access control designed to work along with the existing Access Control rules \(ACLs\) on your instance.
+A data filter is a form of access control that works along with the existing Access Control rules \(ACLs\) on your instance.
 
 </td></tr><tr><td>
 

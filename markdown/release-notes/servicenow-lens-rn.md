@@ -53,7 +53,7 @@ Lens as a Service now supports auto-mapping of Excel column headers, choice valu
 -   Configure Lens actions to launch ServiceNow AI Lens from any part of the ServiceNow AI Platform, such as a workspace form or a portal.
 -   Trigger ServiceNow AI Lens from a Virtual Agent conversation on a mobile device or in a portal.
 -   View captured images that are attached to an auto-filled record using ServiceNow AI Lens.
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for ServiceNow AI Lens in addition to Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for ServiceNow AI Lens in addition to Azure OpenAI.
 
 See [ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/servicenow-lens-landing-page.md) for more information.
 
@@ -249,7 +249,7 @@ With ServiceNow AI Lens, which is a ServiceNow® Otto application, you can use g
 
 -   **[New third-party AI model provider options available for all AI applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md)**
 
-    Use Google Gemini and Anthropic Claude on AWS as AI model providers for ServiceNow AI Lens in addition to Azure OpenAI.
+    Use Google Gemini and Anthropic Claude as AI model providers for ServiceNow AI Lens in addition to Azure OpenAI.
 
 
 ## Zurich

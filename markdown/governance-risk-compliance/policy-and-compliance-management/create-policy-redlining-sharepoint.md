@@ -54,6 +54,8 @@ Apart from associating documents that reside in Microsoft OneDrive and Google Dr
 
     This path is the location where the document will reside.
 
+    Currently, you can create, connect, and retrieve documents only from the default document library of the configured SharePoint site.
+
 8.  Enter the name of the document in the **Document name** field.
 
 9.  Select **Create**.

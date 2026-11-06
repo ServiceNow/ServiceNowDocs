@@ -8,7 +8,7 @@ product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 16
+reading_time_minutes: 17
 breadcrumb: [Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -112,9 +112,14 @@ For follow-up work that stays within your own organization instead of going to a
 
 Before creating an issue manually, TPR assessors \[sn\_vdr\_risk\_asmt.vendor\_assessor\] can use ServiceNow Otto for TPRM to generate a quick summary of an existing issue, or to get AI-driven recommendations for potential issues based on assessment responses and historical data. For more information, see [Generate a summary of a TPRM issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/create-a-summary-of-issue.md) and [Generate issue recommendations for TPRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/create-recommendation-tprm-issue.md).
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
-
 The TPR manager, TPR assessor, or contract negotiator can also create an issue manually to help ensure the teams concerns about a third party or engagement are remediated. They can also manage the existing issues to verify that they’re understood, shared with the correct persons, and are acted on as needed. For more information about creating and managing tasks, see [Create an issue for a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-ws-issue-create.md) and [Manage issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-ws-issue-manage.md).
+
+**Important:**
+
+-   Not all model providers are available for customers with in-country SKUs, and some AI products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
+-   Some AI products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
+-   Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+-   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
 
 ## Additional assessment actions
 

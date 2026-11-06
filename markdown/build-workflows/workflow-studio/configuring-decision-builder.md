@@ -1,6 +1,6 @@
 ---
 title: Configuring decision tables
-description: Workflow Studio is installed automatically with each family upgrade. By updating to the latest version of Workflow Studio, you have the latest updates to decision tables. Configure Workflow Studio and assign roles to your staff based on the permission level they require.The responsibilities of your staff are controlled by roles assigned to each member. Personas aren’t explicitly part of decision tables in Workflow Studio, but administrators assign roles to give team members permission to configure or use decision tables.
+description: Workflow Studio is installed automatically with each family upgrade. By updating to the latest version of Workflow Studio, you have the latest updates to decision tables. Configure Workflow Studio and assign roles to your staff based on the permission level they require.Learn about the personas who use decision tables in Workflow Studio, including roles and permissions required for certain tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/configuring-decision-builder.html
 release: zurich
@@ -20,11 +20,11 @@ For more information, see [Update to the latest version of Workflow Studio](http
 
 **Parent Topic:**[Configuring Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/configuring-workflow-studio.md)
 
-## Decision tables personas and roles
+## Decision tables roles and permissions
 
-The responsibilities of your staff are controlled by roles assigned to each member. Personas aren’t explicitly part of decision tables in Workflow Studio, but administrators assign roles to give team members permission to configure or use decision tables.
+Learn about the personas who use decision tables in Workflow Studio, including roles and permissions required for certain tasks.
 
-### Personas and roles
+### Personas
 
 Review the personas and roles used in decision tables in Workflow Studio.
 
@@ -43,6 +43,10 @@ Review the personas and roles used in decision tables in Workflow Studio.
 -   **Decision result editor**
 
     The decision result editor can only edit result values in existing decision rows. The decision result editor may change a value based on a new business decision or policy.
+
+-   **Delegated developer**
+
+    A delegated developer can create, read, edit, and delete decision tables that belong to an application they have delegated developer access to. A delegated developer can't access decision tables in other applications or scopes.
 
 
 <table id="table_bvq_s5d_qqb"><thead><tr><th>
@@ -95,6 +99,14 @@ decision\_result\_editor
 Read-only access to inputs, decision table columns, and conditions.
 
  In decision tables, users with this role can edit result values in existing decision rows.
+
+</td></tr><tr><td>
+
+delegated\_developer
+
+</td><td>
+
+Create, read, edit, and delete decision tables in applications that the user has delegated developer access to.
 
 </td></tr></tbody>
 </table>

@@ -1,6 +1,6 @@
 ---
-title: ServiceNow Cowork
-description: ServiceNow Cowork is an enterprise autonomous AI agent that connects to your enterprise applications and systems and executes complex and multi-step tasks autonomously, and operates within defined security, access, and governance policies.
+title: ServiceNow Arc
+description: ServiceNow Arc is an enterprise autonomous AI agent that connects to your enterprise applications and systems and executes complex and multi-step tasks autonomously, and operates within defined security, access, and governance policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/servicenow-cowork-landing.html
 release: zurich
@@ -10,30 +10,34 @@ reading_time_minutes: 3
 breadcrumb: [Enable AI experiences]
 ---
 
-# ServiceNow Cowork
+# ServiceNow Arc
 
-ServiceNow Cowork is an enterprise autonomous AI agent that connects to your enterprise applications and systems and executes complex and multi-step tasks autonomously, and operates within defined security, access, and governance policies.
+ServiceNow Arc is an enterprise autonomous AI agent that connects to your enterprise applications and systems and executes complex and multi-step tasks autonomously, and operates within defined security, access, and governance policies.
+
+\[Omitted video\] Description: ServiceNow Arc overview
 
 ## Get started
 
 <table id="table_servicenow-cowork-landing" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn what Cowork can do, who uses it, and how it fits into your organization's workflows.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-cowork-exploring.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn what Arc can do, who uses it, and how it fits into your organization's workflows.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-cowork-exploring.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install Cowork, connect your integrations, and set up your agent for the first time.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-cowork-configuring.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install Arc, connect your integrations, and set up your agent for the first time.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-cowork-configuring.md)
 
 </td></tr><tr><td>
 
-[User\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use ServiceNow Cowork start tasks and work with skills, workflows, and sub agents.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-cowork-using.md)
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use ServiceNow Arc to start tasks and work with skills, workflows, and sub agents.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-cowork-using.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Additional information about ServiceNow Cowork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-cowork-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Additional information about ServiceNow Arc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-cowork-reference.md)
 
 </td></tr></tbody>
-</table>**Important:**
+</table>For help with common issues, such as sign in errors, AI connection errors, or sandbox failures, see [Troubleshoot Arc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/troubleshoot-arc.md).
+
+**Important:**
 
 -   Not all model providers are available for customers with in-country SKUs, and some AI products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
 -   Some AI products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
@@ -53,4 +57,6 @@ This application requires data to be transferred from ServiceNow customers' indi
 ## Data collection
 
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+
+For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-products.md).
 

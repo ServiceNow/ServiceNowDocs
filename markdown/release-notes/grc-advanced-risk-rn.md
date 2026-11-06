@@ -30,7 +30,7 @@ The ServiceNow® Advanced Risk application enables you to identify, analyze, eva
 -   Use matrix report in the Risk Workspace to assess and analyze the risk posture of your organization.
 -   Use large language models \(LLMs\) from the third party providers to generate the risk assessment summary.
 
-See [Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/advanced-risk-assessment.md) for more information.
+See Advanced Risk Assessment for more information.
 
 ## Activation and other requirements
 
@@ -59,11 +59,11 @@ The ServiceNow® Advanced Risk application enables you to identify, analyze, eva
 
 ### What's new
 
--   **[Identify risks for an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/suggest-potential-risks-workflow.md)**
+-   **Identify risks for an entity**
 
     If you’re a Workspace user with the sn\_grc\_sharegenai.risk\_suggestion\_aiagent\_user role, you can use the Risk Suggestion AI Agent to identify risks related to an entity. The AI agent analyzes the entity and suggests relevant risks from various sources, consolidating them into a reviewable list to verify for accuracy. Risk managers can then confirm and promote these risks to the risk register for further assessment. This feature automates risk discovery, helping identify potential risks and prepare for compliance requirements.
 
--   **[Reporting views from Risk Assessment Methodology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/reporting-views-from-ram.md)**
+-   ****
 
     The reporting view provides an overview of all assessments under a specific Risk Assessment Methodology \(RAM\). It consolidates assessment data such as factor responses, scores, issues, controls, and associated risks into a single structure. When a RAM is published, the system automatically creates this view, which you can use to review assessments and build custom reports. It simplifies report and dashboard creation for risk assessments.
 
@@ -72,7 +72,7 @@ The ServiceNow® Advanced Risk application enables you to identify, analyze, eva
 
 ### What's changed
 
--   **[Downstream risks related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/entities-in-risk-ws.md)**
+-   **Downstream risks related list**
 
     The Downstream risks related list on the entity record page has been renamed Risks.
 
@@ -83,7 +83,7 @@ The ServiceNow® Advanced Risk application enables you to identify, analyze, eva
 
 ### What's new
 
--   **[Risk event summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/generate-risk-event-summary-in-the-risk-workspace.md)**
+-   **Risk event summarization**
 
     Generate risk event summary using the ServiceNow Otto for IRM application. Risk event summarisation is a Generative AI driven capability that generates clear and consistent summaries automatically. It reduces the need for manual effort, helps risk managers save time, and enables approvers to quickly understand the key details for faster decisions. Check your entitlements to confirm whether you have access to risk event summarization.
 
@@ -101,15 +101,15 @@ The ServiceNow® Advanced Risk application enables you to identify, analyze, eva
 
 ### What's new
 
--   **[Grid based risk and control assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/perform-assessment-risk-assessment-project-grid-view.md)**
+-   **Grid based risk and control assessment**
 
     Gain efficient control over risk assessments with the new grid-based Risk and Control Self Assessment \(RCSA\). Quickly compare, edit, and prioritize risks and controls using the flexible, spreadsheet-style interface. Use side-by-side views and bulk editing to complete assessments faster.
 
--   **[Matrix report in Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/matrix-report-in-risk-workspace.md)**
+-   ****
 
     Access and analyze the risk posture of your organization using entity-related data, such as risks, controls, KRIs, and events in a centralized, configurable grid-based view. This feature reduces time spent switching views and helps risk managers assess data more easily, leading to more proactive and streamlined risk management.
 
--   **[Support third party large language models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/generate-risk-assessment-summary-genai.md)**
+-   **Support third party large language models**
 
     Risk assessment summarization and Risk event summarization support the LLMs from the third party providers, such as Anthropic Claude, Google Gemini, and OpenAI, in addition to Now LLM. This enhancement gives you greater flexibility to choose the model that best fits your organization’s needs for generating risk assessment and risk event summaries.
 

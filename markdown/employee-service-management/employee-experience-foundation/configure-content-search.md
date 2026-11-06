@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Video hosting integrations framework, Setup employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Video hosting integrations framework, Setup employee communications, Configure, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure video content search

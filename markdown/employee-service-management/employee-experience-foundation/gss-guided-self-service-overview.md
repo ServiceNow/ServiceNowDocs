@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Setup Employee Center browse experience features, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Setup Employee Center browse experience features, Configure, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Guided Self-Service in Employee Center

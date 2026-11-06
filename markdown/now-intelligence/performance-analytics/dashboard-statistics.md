@@ -16,6 +16,8 @@ breadcrumb: [Administering dashboards, Responsive dashboards in the Core UI, Rep
 
 The **Dashboard Stats** list enables you to view how often each of your dashboards is run and how long it takes to run them.
 
+**Note:** This topic refers to Core UI dashboards. If you are looking for information about the newer Platform Analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center-dashboards.md).
+
 To view dashboard statistics, navigate to **All** &gt; **dashboard\_stats.list**. The admin or dashboard\_admin role is required. By default, the Dashboard Statistics list displays all dashboards that have been viewed. There is one entry in this table for each dashboard on the instance that has been viewed at least once. The entries increment until an entry is deleted or the dashboard itself is deleted.
 
 -   The **Dashboard Stats** list enables you to view how often each of your dashboards is run and how long it takes to run them.

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-ma
 release: zurich
 topic_type: task
 last_updated: "2026-07-22"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Working with digital integrations, Working with digital integration management in Enterprise Architecture Workspace, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
@@ -15,8 +15,6 @@ breadcrumb: [Working with digital integrations, Working with digital integration
 Use the conversational experience of ServiceNow Otto in Virtual Agent to register a digital integration from any application that supports Virtual Agent.
 
 ## Before you begin
-
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 Ensure that the following tasks are completed:
 
@@ -39,15 +37,15 @@ In the application that supports Virtual Agent, for example Employee Service Cen
 
     You can start with a basic instruction such as **Request a digital integration** or an elaborate instruction that includes the digital integration information. The following examples show how each instruction is handled in the chat.
 
-<table id="choicetable_ttr_fll_b2c"><thead><tr><th align="left" id="d41656e162">
+<table id="choicetable_ttr_fll_b2c"><thead><tr><th align="left" id="d41659e152">
 
 Instruction
 
-</th><th align="left" id="d41656e165">
+</th><th align="left" id="d41659e155">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d41656e171">
+</th></tr></thead><tbody><tr><td id="d41659e161">
 
 **Short: Request a digital integration**
 
@@ -65,7 +63,7 @@ Virtual Agent starts a conversation to ask more information from you about the b
 -   Can you please describe the digital integration you would like to enter?
  The information you provide is used to fill in the fields of the digital integration form. \[Omitted image "register-digital-integration.png"\] Alt text: Screenshot showing ServiceNow OttoVirtual Agent chat window showing a request for the requesting a digital integration.
 
-</td></tr><tr><td id="d41656e224">
+</td></tr><tr><td id="d41659e214">
 
 **Elaborate: Request the new digital integration for the subscriber business application BuyIt and provider business application is Case Management.**
 

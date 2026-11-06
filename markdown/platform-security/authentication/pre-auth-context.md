@@ -82,6 +82,10 @@ The policy used for this context uses. This field appears only when the **Defaul
 </td></tr></tbody>
 </table>**Note:**
 
+Allow Policy denies access to all users by default. Deny Policy allows access to all users by default. After an upgrade to Zurich, check this field. See [Changes due to the Multi-factor Authentication enforcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/changes-mfa-enforcement.md).
+
+**Note:**
+
 You can only use the IP Filter, Trusted Mobile App Filter, and Location Filter criteria in the Pre Authentication Policy Context.
 
 ## Policy inputs and conditions

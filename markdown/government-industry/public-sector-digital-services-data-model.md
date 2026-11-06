@@ -24,7 +24,7 @@ Public Sector Digital Services Core application provides a framework to enable i
 This section outlines the Service Request Playbook data model and the tables installed with the Service Request application.
 -   **[Public Sector Digital Services Information Request Administration Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-data-model-ir-playbook.md)**  
 This section outlines the Information Request data model and the tables installed with the Information Request application.
--   **[Public Sector Digital Services License and Permit Playbook Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-data-model-lp-playbook.md)**  
+-   **[Public Sector Digital Services License and Permit Administration Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-data-model-lp-playbook.md)**  
 This section outlines the License and Permit data model and the tables installed with the License and Permit application.
 -   **[Public Sector Digital Services Social Benefits Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-data-model-sb-playbook.md)**  
 This section outlines the Social Benefits data model and the tables installed with the Social Benefits application.

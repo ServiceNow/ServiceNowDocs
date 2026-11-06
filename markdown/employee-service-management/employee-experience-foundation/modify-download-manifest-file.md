@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Integrating Employee Center and Virtual Agent with Microsoft Teams for GCC-H or DoD, MS Teams for GCC-H or DoD, Integrate, ServiceNow for Microsoft Teams and Microsoft 365, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Integrating Employee Center and Virtual Agent with Microsoft Teams for GCC-H or DoD, MS Teams for GCC-H or DoD, Integrate, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
 # Modify and download the manifest file for GCC-H or DoD

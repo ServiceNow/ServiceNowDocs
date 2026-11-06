@@ -1,6 +1,6 @@
 ---
-title: Adding the Discuss button
-description: To use Sidebar, you must add the Discuss button to assets that do not have it automatically installed and to custom workspaces where you need to enable Sidebar on an asset. After you add the Discuss button, you can create Sidebar discussions.
+title: Add the Discuss button
+description: To use Sidebar, you must add the Discuss button to assets that don't have it automatically installed. You must also add it to custom workspaces where you need to enable Sidebar on an asset. After you add the Discuss button, you can create Sidebar discussions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/sidebar/add-sidebar-button.html
 release: zurich
@@ -12,9 +12,9 @@ reading_time_minutes: 3
 breadcrumb: [Configuring Sidebar, Sidebar, Conversational Interfaces]
 ---
 
-# Adding the Discuss button
+# Add the Discuss button
 
-To use Sidebar, you must add the **Discuss** button to assets that do not have it automatically installed and to custom workspaces where you need to enable Sidebar on an asset. After you add the **Discuss** button, you can create Sidebar discussions.
+To use Sidebar, you must add the **Discuss** button to assets that don't have it automatically installed. You must also add it to custom workspaces where you need to enable Sidebar on an asset. After you add the **Discuss** button, you can create Sidebar discussions.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-You do not need to add the **Discuss** button to these workspaces because it is automatically installed for the specified types:
+These workspaces automatically include the **Discuss** button for the specified types, so you don't need to add it:
 
 |Workspace|Button shipped with base system|
 |---------|-------------------------------|
@@ -34,7 +34,7 @@ You do not need to add the **Discuss** button to these workspaces because it is 
 |ITSM Manager Workspace|Catalog task, change request, incident, interaction, request, request item|
 |Vendor Management Workspace|Change request, CMDB CI outage, core company, service credit|
 
-**Note:** After you add the **Discuss** button, you must configure the activity stream. For more information, see [Activity stream in Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/sidebar/activity-stream-sidebar.md).
+**Note:** After you add the **Discuss** button, you need to configure the activity stream. For more information, see [Activity stream in Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/sidebar/activity-stream-sidebar.md).
 
 ## Procedure
 
@@ -52,14 +52,14 @@ You do not need to add the **Discuss** button to these workspaces because it is 
 
     For example, use workforce optimization configurable workspace core application for Manager Workspace Actions.
 
-6.  Select the UX Form Action Layout Items tab.
+6.  Select the **UX Form Action Layout Items** tab.
 
 7.  Create a new record or edit an existing one:
 
-    -   Create a new record - create a new UX Form actions layout record to add a Sidebar discussion button to assets that extend from task and interaction tables.
+    -   Create a new record: Create a UX Form Actions Layout record to add a Sidebar discussion button to assets that extend from task and interaction tables.
         1.  Define the name and select the table from the drop-down menu.
 
-            **Note:** The remaining fields should be filled in automatically. Note that Sidebar discussions only support tables that extend from the task and interaction tables.
+            **Note:** The remaining fields are filled in automatically. Sidebar discussions support only tables that extend from the task and interaction tables.
 
         2.  On the UX Form Actions Layout Item screen, enter this information:
 
@@ -67,7 +67,7 @@ You do not need to add the **Discuss** button to these workspaces because it is 
             |-----|-----|
             |Name|Open Collab Chat|
             |Label|Discuss|
-            |Action|Open collab chat \(Make sure the right action is selected as per your need. Either Open collab chat for Task or for Interaction. In this example we are configuring Discuss button on Incident, so we have used Open collab chat action for Task\)|
+            |Action|Open collab chat for Task or Open collab chat for Interaction, depending on the table. For example, the Incident table uses Open collab chat for Task.|
             |Application|Incident Management – Service Operations Workspace|
             |Table|Global|
 
@@ -75,17 +75,17 @@ You do not need to add the **Discuss** button to these workspaces because it is 
         4.  Select `Save`.
     -   Edit an existing record.
         1.  Select `Edit`.
-        2.  Search for label value "Discuss" in the Collection field.
+        2.  Search for the Discuss label value in the **Collection** field.
         3.  Add it to the UX Form Actions Layout Item list.
         4.  Select `Save`.
-        5.  If your organization has multiple UX Form Actions layout Items for Sidebar discussions, ensure that you relate the proper items to actions based on the label value.
-8.  In the filter navigation field, enter `sys_us_form_action_layout.list`.
+        5.  If your organization has multiple UX Form Actions Layout items for Sidebar discussions, ensure that you relate the proper items to actions based on the label value.
+8.  In the navigation filter, enter `sys_us_form_action_layout.list`.
 
 9.  Filter for name = Incident and Action Config = SOW.
 
 10. Select the **UX Form - Action Layout Items** tab.
 
-11. Select **New** to create a new entry and enter the following fields:
+11. Select **New** and fill in the fields.
 
     |Field|Value|
     |-----|-----|
@@ -95,10 +95,10 @@ You do not need to add the **Discuss** button to these workspaces because it is 
     |Application|Incident Management - Service Operations Workspace|
     |Table|global|
 
-12. Save the UX form Action Layout item..
+12. Save the UX Form Action Layout item.
 
 
 ## What to do next
 
-If you want to enable Sidebar for non-task tables and add the Discuss button to the layout, see [Adding the Discuss button for non-task tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/sidebar/add-sidebar-button-advanced.md).
+To enable Sidebar for non-task tables and add the **Discuss** button to the layout, see [Adding the Discuss button for non-task tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/sidebar/add-sidebar-button-advanced.md).
 

@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
 keywords: [HAM licensing, Hardware Asset Management licensing]
-breadcrumb: [Hardware Asset Management subscription, Explore, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage Hardware Asset Management subscriptions, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Hardware Asset Management license exclusion
@@ -37,12 +37,13 @@ You can't select and use the excluded assets in the following HAM flows and task
 
 **Note:** Any workflow once started on an asset is allowed to complete even if the asset is marked excluded midway through.
 
-**Parent Topic:**[Hardware Asset Management subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/ham-subscription.md)
+-   **[Opt-in or opt-out of HAM license resource categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/optin-optout-ham-license-resource-categories.md)**  
+Opt in the Hardware Asset Management \(HAM\) license resource categories that are part of the HAM subscription. You can purchase and opt in the resource categories that you use, and you can opt out and not pay for the categories that you don't use.
+
+**Parent Topic:**[Manage Hardware Asset Management subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/managing-ham-subscriptions.md)
 
 **Related topics**  
 
 
-[Hardware Asset Management licensing]()
-
-[Licensing framework for Hardware Asset Management solutions]()
+[View the license report for the Hardware Asset Management application]()
 

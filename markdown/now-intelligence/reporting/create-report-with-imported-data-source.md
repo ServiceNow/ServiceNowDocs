@@ -8,7 +8,7 @@ product: Reporting
 classification: reporting
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
@@ -39,7 +39,9 @@ The following restrictions apply to imported data:
 
 ## About this task
 
-Importing report data in this way is useful when you have information that is maintained outside of your instance, for example, recurring third-party data. To import an external data set into your instance permanently, see Importing data using import sets.
+**Note:** This topic refers to Core UI reports, not Platform Analytics data visualizations.
+
+Importing report data in this way is useful when you have information that is maintained outside of your instance, for example, recurring third-party data. To import an external data set into your instance permanently, see [Importing data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/c_ImportDataUsingImportSets.md).
 
 ## Procedure
 
@@ -100,7 +102,7 @@ Importing report data in this way is useful when you have information that is ma
 
     2.  Search for a table whose name contains the name of the report source you specified in Step 4b.
 
-        For example, if you uploaded a file named 'External asset inventory,' you would search for `*external_asset` and find the table u\_rep\_snc\_global\_admin\_external\_asset\_inventory, reflecting that it was created in the global scope by an admin user.
+        For example, if you uploaded a file named 'External asset inventory,' you would search for `*external_asset` and find the table u\_rep\_snc\_global\_admin\_external\_asset\_inventory. This name reflects that the table was created in the global scope by an admin user.
 
         \[Omitted image "aanbouw-table.png"\] Alt text: The table that was created by the external file import, in the list of tables.
 

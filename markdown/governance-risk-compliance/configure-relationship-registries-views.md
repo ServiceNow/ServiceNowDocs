@@ -44,7 +44,7 @@ Name
 
 </td><td>
 
-A descriptive name for this registry.
+Descriptive name for this registry.
 
 </td></tr><tr><td>
 
@@ -52,7 +52,7 @@ Table
 
 </td><td>
 
-The table for which you want to define a relationship.
+Table for which you want to define a relationship.
 
 </td></tr><tr><td>
 
@@ -60,7 +60,7 @@ Relationship type
 
 </td><td>
 
-The type of relationship you are defining:-   One-to-many
+Type of relationship you are defining:-   One-to-many
 -   Many-to-many
 -   Scripted: a custom relationship from the ServiceNow AI Platform
 -   One-to-one: any relationship that is available as a field in the selected table
@@ -72,7 +72,7 @@ Active
 
 </td><td>
 
-Select if the relationship is active.
+Option to select if the relationship is active.
 
 </td></tr><tr><td>
 
@@ -80,7 +80,7 @@ Relationship
 
 </td><td>
 
-The relationship table of the selected relationship type. For example, if you are defining relationships for the Entity table and select a many-to-many relationship type, the list of relationship tables consists of all many-to-many relationships that apply to the Entity table.
+Relationship table of the selected relationship type. For example, if you select a many-to-many relationship type for the Entity table, the list shows all many-to-many relationships that apply to that table.
 
 </td></tr><tr><td>
 
@@ -88,7 +88,7 @@ Relationship table
 
 </td><td>
 
-The table name you selected in the **Relationship** field.
+Table name you selected in the **Relationship** field.
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.

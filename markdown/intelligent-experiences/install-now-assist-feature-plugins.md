@@ -36,11 +36,11 @@ Explore 'View default-active skills' to find the list of skills currently activa
 
 \[Omitted image "activate-plugin-toggle.png"\] Alt text: Deactivate auto activation of skills with product plugins installation
 
-Generative AI applications often function interdependently. Now Assist Suites help reduce runtime errors and update issues by bundling compatible versions of generative AI applications together during installation and updates.
+Generative AI applications often function interdependently. AI Suites help reduce runtime errors and update issues by bundling compatible versions of generative AI applications together during installation and updates.
 
-For more information about how generative AI product Suites work, see [Now Assist suite versions in the Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-suites-app-mgr.md).
+For more information about how generative AI product Suites work, see [AI Suites versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-suites-app-mgr.md).
 
-For details about available Suites and their compatibility with ServiceNow AI Platform versions, see [Now Assist Suite release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-now-assist-suite-release-notes.html).
+For details about available Suites and their compatibility with ServiceNow AI Platform versions, see [AI Suites release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-now-assist-suite-release-notes.html).
 
 ## Procedure
 
@@ -72,9 +72,9 @@ For details about available Suites and their compatibility with ServiceNow AI Pl
 
 7.  In the **Select suite version** drop-down menu, select a Now Assist Suite version.
 
-    The available suite versions are compatible with your instance. If you have other generative AI applications already installed on your instance, they might require update for suite compatibility. For more information about Suite compatibility, see [Now Assist suite versions in the Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-suites-app-mgr.md).
+    The available AI Suites versions are compatible with your instance. If you have other generative AI applications already installed on your instance, they might require update for suite compatibility. For more information about AI Suites compatibility, see [AI Suites versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-suites-app-mgr.md).
 
-    If you haven't installed a Now Assist Suite version yet, you have the option to choose **none** in the version selector. This option enables you to begin using Now Assist Suites at a time that works best for your organization.
+    If you haven't installed an AI Suites version yet, you have the option to choose **none** in the version selector. This option enables you to begin using AI Suites at a time that works best for your organization.
 
 8.  If you have available application customizations, use the **Customized ver.** drop-down menu to select which customization to use.
 
@@ -94,15 +94,15 @@ For details about available Suites and their compatibility with ServiceNow AI Pl
 
 11. Install the application now or schedule installation for a later time.
 
-<table><thead><tr><th align="left" id="d105956e448">
+<table><thead><tr><th align="left" id="d111951e446">
 
 Installation option
 
-</th><th align="left" id="d105956e451">
+</th><th align="left" id="d111951e449">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d105956e457">
+</th></tr></thead><tbody><tr><td id="d111951e455">
 
 **Install now**
 
@@ -112,7 +112,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d105956e481">
+</td></tr><tr><td id="d111951e479">
 
 **Install later**
 

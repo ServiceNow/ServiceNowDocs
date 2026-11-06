@@ -37,9 +37,9 @@ ServiceNow
 
 </td><td>
 
--   Washington DC
--   Xanadu
--   Yokohama
+-   Zurich
+-   Australia
+-   Brazil
 
 </td></tr></tbody>
 </table>## Important information for upgrading Service Graph Connector for Tanium

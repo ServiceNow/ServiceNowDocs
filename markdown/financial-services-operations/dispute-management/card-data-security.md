@@ -7,7 +7,7 @@ release: zurich
 product: Dispute Management
 classification: dispute-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -46,4 +46,6 @@ The Card data security application embeds a tokenization service that enables Fi
 </table>## Disclaimer
 
 **Important:** Customer is responsible for implementation of this application, including decisions relating to tokenization/detokenization of data. Customer remains solely responsible for complying with applicable legal obligations, including Payment Card Industry Data Security Standards \(PCI DSS\).
+
+Card Data Security is hosted in the United States only. For other regional support, contact your ServiceNow representative for more information.
 

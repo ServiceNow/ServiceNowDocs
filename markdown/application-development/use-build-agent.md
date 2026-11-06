@@ -48,8 +48,6 @@ Generate documentation for the structure, tables, and UI components of an applic
 The conversation change log tracks every change Build Agent makes to your application. It appears automatically in an integrated tab in ServiceNow Studio and lets you view updates, roll back to a previous checkpoint, and deploy changes to an update set.
 -   **[Update sets and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-update-sets.md)**  
 When you work with Build Agent, your changes are automatically tracked in update sets so you can review, revert, and deploy them without leaving ServiceNow Studio.
--   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-source-control.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-source-control.md)**  
-
 -   **[Deploying what you built with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-deployment.md)**  
 Learn about deployment methods and workflows for moving applications created with Build Agent from development to production environments. Choose the right deployment approach based on your application complexity and organizational requirements.
 -   **[Issues and solutions in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-troubleshooting.md)**  

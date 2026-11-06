@@ -124,7 +124,7 @@ If the breakdown has an elements filter defined for its breakdown source, you ca
 
 If breakdown relations are defined for the indicator, after you select a first-level breakdown and element, you can navigate to a related element. The element can be in a parent-child relationship in the same breakdown, or it can be in another breakdown. For more information about breakdown relations including procedures for creating them, see [Navigating breakdown elements with breakdown relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/breakdown-relations.md).
 
-\[Omitted image "image.child-locations"\] Alt text: Analytics Hub showing breakdown relations between parent and child elements in the same breakdown
+\[Omitted image "child-locations.png"\] Alt text: Analytics Hub showing breakdown relations between parent and child elements in the same breakdown
 
 After you select a first-level breakdown and element, you can select a second-level breakdown and element. You cannot select more than two levels of breakdown in total.
 

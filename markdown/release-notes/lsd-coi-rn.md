@@ -18,7 +18,7 @@ The ServiceNow® Legal Conflict of Interest enables you to manage the disclosure
 
 Disclose conflicts of interest using natural language from Now Assist in Virtual Agent rather than having to fill out intake forms. The risk assessment utility then automatically evaluates each submission and routes it to the appropriate approval workflow, enabling faster resolution.
 
-See [Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/legal-conflict-of-interest-landing-page.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -37,13 +37,13 @@ The ServiceNow® Legal Conflict of Interest enables you to manage the disclosure
 
 ### What's new
 
--   **[Configure risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/lsd-coi-config-risk-fac.md)**
+-   ****
 
     The risk assessment utility evaluates conflict of interest disclosures against predefined risk factors to calculate a risk score and determine the risk level \(Low, Medium, or High\). The risk level automatically triggers the appropriate approval workflow. The utility supports three evaluation types: Condition, Subflow, and AI skill.
 
     **Note:** AI skill evaluation is available once you have installed and configured ServiceNow Otto for Legal Service Delivery \(LSD\).
 
--   **[Submit COI request using ServiceNow Otto conversational intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-lsd-convi.md)**
+-   ****
 
     Using natural language to submit a conflict of interest request from Now Assist in the Virtual Agent interface reduces the effort required to fill in form fields because details provided in natural language are automatically populated into the intake form. Achieve faster resolution due to automated risk assessment that routes requests to the appropriate approval workflow based on calculated risk scores.
 

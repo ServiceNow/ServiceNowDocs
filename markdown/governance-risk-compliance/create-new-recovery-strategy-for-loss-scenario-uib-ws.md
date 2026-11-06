@@ -36,7 +36,7 @@ Role required: sn\_bcm.program\_manager or sn\_bcm.planner
 
 5.  On the form, fill in the fields.
 
-    For more information on the fields in the form, see [Create New Recovery strategy form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-recovery-strategy-form.md).
+    For more information on the fields in the form, see [Create Recovery strategy form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-recovery-strategy-form.md).
 
 6.  Select **Save**.
 
@@ -63,8 +63,8 @@ On the recovery strategy **Recovery tasks** tab, select **Add groups** or **Add 
 
 For information on creating reusable recovery strategy templates, see [Configure a recovery strategy template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/configure-recovery-strategy-template-uib-ws.md).
 
--   **[Create New Recovery strategy form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-recovery-strategy-form.md)**  
-Use the Create New Recovery strategy form in BCM UIB Workspace to add details about the recovery strategy for the identified loss scenario.
+-   **[Create Recovery strategy form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-recovery-strategy-form.md)**  
+Use the Create Recovery strategy form in BCM UIB Workspace to add details about the recovery strategy for the identified loss scenario.
 
 **Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
 

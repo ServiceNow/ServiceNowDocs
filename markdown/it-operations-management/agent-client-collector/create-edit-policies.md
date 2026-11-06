@@ -22,7 +22,7 @@ Role required: agent\_client\_collector\_admin
 
 ## About this task
 
-When associating a check definition with a policy, a copy of the definition is created as a check instance. These values appear on the **Check Instances** tab on the bottom of the **Policy** form. Any changes you make to a check instance affect only the instance in the policy; the original check definition remains unchanged. When changing the original check definition, the changes do not apply to already created check instances. It is recommended you make a copy of a check definition if you are changing its default parameters after having initiated one or more check definitions in a policy.
+When associating a check definition with a policy, a copy of the definition is created as a check instance. These values appear on the **Check Instances** tab on the bottom of the **Policy** form. Any changes you make to a check instance affect only the instance in the policy; the original check definition remains unchanged. When changing the original check definition, the changes do not apply to already created check instances. Copy a check definition before changing its default parameters if one or more check instances have already been created in a policy.
 
 Some policy checks require credentials, while others don't. For example:
 

@@ -22,7 +22,7 @@ The ServiceNow® Journey designer application enables managers and employees to 
     -   Configure the Journey overview page using the widgets option to hide or show Task Templates and Create a Journey for Your Team widgets.
 -   The pre-hire onboarding experience enables a seamless journey for an applicant transitioning from an onboarding pre-hire to a full-time employee.
 
-See [Journey Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/jny-dsgnr-landing-page.md) for more information.
+See Journey Designer for more information.
 
 ## Activation and other requirements
 
@@ -41,7 +41,7 @@ The ServiceNow® Journey designer application enables managers and employees to 
 
 ### What's new
 
--   **[Offboarding knowledge transfer plan generation agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/offboarding-knowledge-x-agentic-wf.md)**
+-   **Offboarding knowledge transfer plan generation agentic workflow**
 
     The offboarding knowledge transfer plan generation agentic workflow captures and organizes critical knowledge when employees leave. AI agents interact with managers to collect requirements, discover documents from the specified time period, categorize content into meaningful work areas, and facilitate employee review before sharing with successors.
 
@@ -52,7 +52,7 @@ The ServiceNow® Journey designer application enables managers and employees to 
 
 ### What's new
 
--   **[Generate onboarding ramp-up agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/onboarding-ramp-up-plan-agentic-wf.md)**
+-   **Generate onboarding ramp-up agentic workflow**
 
     Use the Generate onboarding ramp-up plan agentic workflow to establish an efficient process for generating onboarding plans that are personalized for each new employee joining your organization.
 
@@ -72,7 +72,7 @@ The ServiceNow® Journey designer application enables managers and employees to 
     Google Gemini and AWS Claude are available for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 
 
--   **[Configure the journey overview page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/manager-journeys-view.md)**
+-   **Configure the journey overview page**
 
     As an admin, you can now configure the journey overview page and hide the Task Templates and Create a Journey for Your Team widgets.
 
@@ -83,7 +83,7 @@ The ServiceNow® Journey designer application enables managers and employees to 
 
     Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
--   **[Cancel Journey Accelerator Journeys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cancel-ja-journeys.md)**
+-   **Cancel Journey Accelerator Journeys**
 
     Journey owners having access to Journey Accelerator only journeys now have a **Cancel** option instead of the **Delete** option in the Employee Center portal.
 

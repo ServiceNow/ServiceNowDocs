@@ -34,6 +34,8 @@ Users with the **snc\_read\_only** role have the following restrictions regardle
 
 **Note:** These role restrictions are in place even if impersonating another user with write access such as an admin.
 
+If a user has both the admin role and the snc\_read\_only role, the snc\_read\_only restrictions still apply. The admin role does not override them.
+
 ## Exempt tables from the read-only restriction
 
 Three system properties control which tables users with the **snc\_read\_only** role can still create, update, or delete records on. These properties are not created on instances by default. To use them, manually add each property to the System Properties \[sys\_properties\] table and set the value to a comma-separated list of table names. See [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_AddAPropertyUsingSysPropsList.md).

@@ -33,7 +33,7 @@ Learn about the fields on the export status report form on the Project Workspace
 -   **[Issue form on Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/issue-form-project-workspace.md)**  
 Learn about the fields on the Issue form of the Project Workspace. Use this form to add an issue to your projects.
 -   **[Project form in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/project-form-pw.md)**  
-Learn about the fields on the project form of the Project Workspace. Use this form to create a project.
+Learn about the fields on the forms that you use to create a project in Project Workspace, either as a new project or from a project template.
 -   **[Project type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/project-type-form-pw.md)**  
 Fields on the Project type form and their descriptions . Use this form to create a project type for your projects.
 -   **[Request change form on Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/request-change-form-project-workspace.md)**  

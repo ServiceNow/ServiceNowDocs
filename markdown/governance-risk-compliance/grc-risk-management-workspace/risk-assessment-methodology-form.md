@@ -174,7 +174,7 @@ Allow single risk response
 
 </td><td>
 
-Option to make the risk response selection a single select in the risk assessment form. For example, the options could be "Accept," "Avoid," "Mitigate," or "Transfer." With a single select, assessors can choose only one of these options to indicate the risk response strategy.**Note:** This option can only be enabled when there are no ongoing assessments.
+Option to make the risk response selection a single select in the risk assessment form. For example, the options could be "Accept," "Avoid," "Mitigate," or "Transfer." With a single select, assessors can choose only one of these options to indicate the risk response strategy.**Note:** Set this option on the Risk Assessment Methodology form in the classic UI, in the Default view. The option isn't shown in the workspace view of the form. When it's turned on, the risk response is a single choice in the workspace risk assessment. In the classic risk assessment form, the risk response field remains a multi-value field. You can turn on this option only when the methodology has no in-progress assessments. You can turn it off at any time.
 
 </td></tr><tr><td>
 

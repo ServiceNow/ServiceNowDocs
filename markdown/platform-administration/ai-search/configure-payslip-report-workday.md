@@ -7,7 +7,7 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2025-10-17"
+last_updated: "2026-10-20"
 reading_time_minutes: 6
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Workday external content connector, Configure, External Content Connectors, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
@@ -53,7 +53,7 @@ This task is optional. The Workday external content connector can retrieve paysl
 
 3.  In the Data Source field, search for the **Payroll Results** entry and select it.
 
-    Workday automatically populates the Data Source Filter field.
+    Workday automatically populates the Data Source navigation filter.
 
 4.  Configure the columns for your new custom report.
 

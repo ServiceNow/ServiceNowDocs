@@ -18,6 +18,8 @@ When you create custom content to be placed as widgets on dashboards and home pa
 
 ## Outside of ServiceNow support
 
+**Note:** This topic refers to Core UI dashboards. If you are looking for information about the newer Platform Analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center-dashboards.md).
+
 As with any custom implementations, several actions have limited or no support when they are beyond the control of ServiceNow.
 
 -   Custom content blocks: Content blocks that are not part of the base system or part of a plugin.

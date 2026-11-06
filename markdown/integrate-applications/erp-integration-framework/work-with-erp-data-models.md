@@ -7,7 +7,7 @@ release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-10-27"
 reading_time_minutes: 7
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, model, platform, entity, entities, operation, input, output, map, field, data]
 breadcrumb: [Use, Zero Copy Connector for ERP overview, Workflow Data Fabric]

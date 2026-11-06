@@ -20,6 +20,8 @@ Before starting the migration from SAFe, verify that the default mapping of tabl
 
 [Verify EAP configuration for migration from SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/verify-eap-configuration-for-migration-from-safe.md).
 
+If you map a custom field, make sure the column exists in both the SAFe table and the EAP table before you create the field map.
+
 Role required: sn\_apw\_advanced.eap\_admin
 
 ## About this task

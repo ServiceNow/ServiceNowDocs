@@ -22,15 +22,21 @@ The Premium version of Build Agent is part of ServiceNow Otto for Creator, and i
 -   Review the [ServiceNow Otto for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 -   You can use Build Agent on a Personal Development Instance \(PDI\) or in Developer Sandboxes. For more information, see [Accessing Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/access-build-agent.md).
 -   Build Agent supports the following models:
-    -   Azure OpenAI 5.4
-    -   Azure OpenAI 5.5
+    -   Azure OpenAI GPT 5.4
+    -   Azure OpenAI GPT 5.5
+
+        **Note:** GPT 5.5 support is not available in the APAC region.
+
     -   Azure OpenAI GPT 5.6 Sol 
+    -   Azure OpenAI GPT 6.1å Sol 
+    -   Google Gemini 3.8 Flash
     -   Google Gemini 3.7 Flash
     -   Google Gemini 3.5 Flash
     -   Gemini 2.5 Pro
     -   Claude Opus 4.6
     -   Claude Opus 4.8
     -   Claude Opus 5.0
+    -   ß
 
 Role required: admin
 

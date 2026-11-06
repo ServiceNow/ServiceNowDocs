@@ -8,7 +8,7 @@ product: Discovery
 classification: discovery
 topic_type: concept
 last_updated: "2026-03-23"
-reading_time_minutes: 12
+reading_time_minutes: 13
 breadcrumb: [Running discoveries in your network, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
@@ -60,7 +60,7 @@ Potential impacts include the following:
 
 ## Application Discovery
 
-Disabling the discovery of application data affects all host devices on which the application runs. For example, if you configure Discovery to ignore databases, no information is gathered for either Linux or Windows databases. Conversely, if you configure the system to ignore a device type, such as a Windows server, no databases running on that server are explored, even if they are configured to be discovered. The instance cannot identify applications running on a server until it discovers that server first.
+Disabling the discovery of application data affects all host devices on which the application runs. For example, if you configure Discovery to ignore databases, no information is gathered for either Linux or Windows databases. Conversely, if you configure the system to ignore a device type, such as a Windows server, no databases running on that server are explored, even if they are configured to be discovered. The instance cannot identify applications on a server until it discovers that server first.
 
 When you exclude an item from the **Applications** section, the system disables the relevant process classifier. The probes that belong to this classifier, including the [Horizontal Pattern probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r-HorizontalPatternProbe.md) that launches patterns, never launch.
 
@@ -123,7 +123,7 @@ Device info, such as:-   Network Device Exploration
 
 </td><td>
 
-The **Active** field is inactive on both the Classifier Probes \[discovery\_classifier\_probe\] and the Discovery Patterns \[sa\_pattern\] tables for the related probe or pattern that performs the identification and exploration of the CI.
+The **Active** field is inactive on the Classifier Probes \[discovery\_classifier\_probe\] table for the related probe. It is also inactive on the Discovery Patterns \[sa\_pattern\] table for the related pattern that performs CI identification and exploration.
 
  These tables are referred to from the Device Info Category \[discovery\_category\_device\_info\] table.
 

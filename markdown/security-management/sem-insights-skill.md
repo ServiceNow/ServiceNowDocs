@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sem-
 release: zurich
 topic_type: task
 last_updated: "2026-07-29"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Use, Unified Security Exposure Management, Security Operations]
 ---
 
@@ -15,8 +15,6 @@ breadcrumb: [Use, Unified Security Exposure Management, Security Operations]
 Use the Security Exposure Management \(SEM\) Insights generative AI skill to provide contextual summaries and actionable recommendations in the Security Exposure Management \(SEM\) Workspace. Use insights based on exposure data, threat intelligence, remediation status, and asset context to surface dynamic insights for findings views. Help admins, analysts, and vulnerability managers prioritize critical risks and take immediate remediation actions.
 
 ## Before you begin
-
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 The ServiceNow Otto® panel must be activated. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
 

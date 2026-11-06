@@ -20,14 +20,14 @@ As you view the following tables, keep in mind that what you're able to see in D
 
 ## KPI groups for service instances
 
-If your organization uses the enterprise portfolio module with the latest enterprise portfolio tables, then an service instance rolls up to its related business application. This enables you to create a portfolio with business applications that will have the service instances. You could also create a separate portfolio for service instances which contains the application service. In both cases, the service instances inherit KPI groups from both portfolios.
+If your organization uses the enterprise portfolio module with the latest enterprise portfolio tables, then a service instance rolls up to its related business application. This enables you to create a portfolio with business applications that will have the service instances. You could also create a separate portfolio for service instances which contains the application service. In both cases, the service instances inherit KPI groups from both portfolios.
 
--   An service instance can be in a business application portfolio because:
+-   A service instance can be in a business application portfolio because:
     -   Service instances roll up to business applications.
     -   Run data from the service instance shows at the business application level.
--   An service instance can be added to an application-type portfolio.
+-   A service instance can be added to an application-type portfolio.
 
-Incidents, problems, and changes can be added to an service instance's Impacted services or the Affected CIs related list. After this addition, you see the rolled up data in the following areas when you:
+Incidents, problems, and changes can be added to a service instance's Impacted services or the Affected CIs related list. After this addition, you see the rolled up data in the following areas when you:
 
 -   Select **View details** on any affected solution page.
 -   View the **Run** tab of any solution page to view the KPI indicators.
@@ -67,7 +67,7 @@ The inherited KPI groups from the enterprise portfolio.
 
 The service instance enterprise portfolio type contains service instances and isn't linked to a business application type.
 
- You can link an service instance to a business application enterprise portfolio type using cmdb\_rel\_ci. The parent should be a business application and the supporting item should be an service instance. The required relationship is **Consumes: Consumed by**.
+ You can link a service instance to a business application enterprise portfolio type using cmdb\_rel\_ci. The parent should be a business application and the supporting item should be a service instance. The required relationship is **Consumes: Consumed by**.
 
 </td></tr><tr><td>
 

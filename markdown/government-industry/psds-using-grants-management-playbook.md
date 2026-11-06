@@ -21,7 +21,7 @@ The Grants Application Workflow in the Public Sector Digital Services \(PSDS\) G
 
 The Grants Management experience begins on the Grants Management landing page for grants agents and grants program managers. Grants organizations may customize their landing pages with branding colors or other display changes, but the components may remain the same.
 
-The following is an example of how the default landing page appears in the CRM Workspace Grants Management workspace for a grant agents or grant program manager.
+The following is an example of how the default landing page appears in the Public Sector Workspace Grants Management workspace for a grant agents or grant program manager.
 
 \[Omitted image "psds\_gmp\_landing\_page.png"\] Alt text: grants management landing page view for agents or managers
 

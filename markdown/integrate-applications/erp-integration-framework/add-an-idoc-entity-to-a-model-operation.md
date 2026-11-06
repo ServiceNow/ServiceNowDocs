@@ -41,7 +41,7 @@ Explore the API for interacting with Zero Copy Connector for ERP models. For det
 
 5.  Select a Create or Update operation \(IDoc cannot be used with Read operations\).
 
-6.  For help finding relevant entities using the **Ask AI** button, see [Use generative AI to help add an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/use-ai-to-help-add-an-entity-to-a-model.md).
+6.  For help finding relevant entities using the **Ask AI** button, see .
 
 7.  Select **Select entity**.
 

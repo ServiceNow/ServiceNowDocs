@@ -76,11 +76,11 @@ The ServiceNow® Integration Hub application extends the ServiceNow® Workflow S
 
     AI agents that implement different agentic workflows are available for various spokes. Use these spoke-specific AI agents to execute agentic workflows.
 
--   **[Save draft, publish, update external trigger definition, and support domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/create-saved-external-trigger.md)**
+-   **Save draft, publish, update external trigger definition, and support domain separation**
 
     The external trigger definition is updated to match the trigger builder so that the external trigger definition supports the saving of draft, publishing, updating external trigger definition, and supporting domain separation.
 
--   **[Create and manage external event sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/manage-external-event-sources.md)**
+-   **Create and manage external event sources**
 
     Define and manage custom trigger definitions after creating external event sources.
 
@@ -99,7 +99,7 @@ The ServiceNow® Integration Hub application extends the ServiceNow® Workflow S
 
     Enable more detailed logging in the Stream Connect logs with the **glide.ih.kafka.stream\_connect.debug** property. This property replaces the **glide.ih.kafka.debug.consume** property.
 
--   **[Spoke Generator license changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/spoke-builder.md)**
+-   **Spoke Generator license changes**
 
     Starting with Zurich, the Spokes list page and Spoke details pages are a part of the ServiceNow Integration Hub Starter Pack. To create a spoke using OpenAPI or Postman collection specification or Now Assist, you need a ServiceNow Integration Hub Professional license in your prod and sub-prod environments.
 

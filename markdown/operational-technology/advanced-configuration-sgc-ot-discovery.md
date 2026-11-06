@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Service Graph Connector for ServiceNow Operational Technology\(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Use advanced configurations
@@ -38,7 +38,7 @@ Role required: admin
 
     5.  Once the script is complete, validate the data by running a test load of the Data Source.
 
-    6.  After you run the test load, navigate to **All** &gt; **System Import Sets** &gt; **Staging SG-OT Discovery Asset**.
+    6.  After you run the test load, navigate to **All** &gt; **System Import Sets** &gt; **SG-OT Discovery &gt; Asset**.
 
     7.  Validate that the Data column contains the `custom_attribute` that you added in step 1d.
 

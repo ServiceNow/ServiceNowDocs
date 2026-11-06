@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-03-27"
 reading_time_minutes: 3
-breadcrumb: [Configure the Discovery Sensor for OT, Discovery Sensor for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Configure the Discovery Sensor for OT, Discovery Sensor for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Install the Discovery Sensor for OT
@@ -36,7 +36,7 @@ You can register the Sensor after you have installed the OT Discovery Console an
 
 ## Procedure
 
-1.  On your instance, navigate to the [Service Graph Connector for ServiceNow Operational Technology Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/sgc-ot-discovery.md) Guided Setup page.
+1.  On your instance, navigate to the [Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/sgc-ot-discovery.md) Guided Setup page.
 
 2.  Select the **Get Started**.
 
@@ -45,8 +45,6 @@ You can register the Sensor after you have installed the OT Discovery Console an
 3.  In the first section of the setup, select **Download &amp; Deploy OT Discovery**.
 
 4.  Select **Configure** and the **Downloads** page opens.
-
-    \[Omitted image "image.downloads-page-containerized2"\] Alt text: Downloads page
 
     **Note:** Read the End User License Agreement \(EULA\) carefully and then check **Agree**.
 
@@ -118,9 +116,9 @@ You can register the Sensor after you have installed the OT Discovery Console an
 
     \[Omitted image "sensor-install-dmi-ip.png"\] Alt text: DMI page URL
 
-26. Use this URL to log into the DMI and register your Discovery Sensor for OT to the Console.
+26. Use this URL to log in to the DMI and register your Discovery Sensor for OT to the Console.
 
-    See [Register the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/registering-ot-sensor.md) on how to register the Sensor.
+    For more information, see [Register the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/registering-ot-sensor.md).
 
 
 ## What to do next

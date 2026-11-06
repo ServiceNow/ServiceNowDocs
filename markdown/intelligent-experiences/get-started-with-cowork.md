@@ -1,26 +1,26 @@
 ---
-title: Start a ServiceNow Cowork chat session
-description: Send your first request to ServiceNow Cowork, from a simple question to a complex multi-step task, and track its progress.
+title: Start a ServiceNow Arc chat session
+description: Send your first request to ServiceNow Arc, from a simple question to a complex multi-step task, and track its progress.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/get-started-with-cowork.html
 release: zurich
 topic_type: task
 last_updated: "2026-09-25"
 reading_time_minutes: 1
-breadcrumb: [Use, ServiceNow Cowork, Enable AI experiences]
+breadcrumb: [Use, ServiceNow Arc, Enable AI experiences]
 ---
 
-# Start a ServiceNow Cowork chat session
+# Start a ServiceNow Arc chat session
 
-Send your first request to ServiceNow Cowork, from a simple question to a complex multi-step task, and track its progress.
+Send your first request to ServiceNow Arc, from a simple question to a complex multi-step task, and track its progress.
 
 ## Before you begin
 
-Role required: sn\_app\_cowork.user
+Role required: sn\_app\_arc.user
 
 ## Procedure
 
-1.  Open ServiceNow Cowork application.
+1.  Open the ServiceNow Arc application.
 
     The home screen opens with the message box and suggestions.
 
@@ -35,24 +35,24 @@ Role required: sn\_app\_cowork.user
 
 3.  In the message box, describe what you need done, or edit the selected prompt.
 
-    You can ask for a single answer or a complete piece of work. Cowork identifies the steps and completes them for you.
+    You can ask for a single answer or a complete piece of work. Arc identifies the steps and completes them for you.
 
     To speak your request instead, select the microphone icon.
 
-4.  Select the add icon in the message box, and then select an option to add context or change how Cowork handles the request.
+4.  Select the add icon in the message box, and then select an option to add context or change how Arc handles the request.
 
     |Option|Description|
     |------|-----------|
     |**Attach files or photos**|Add a file or photo as context for your request. Attached items don't change your workspace.|
     |**Web search**|Turn web search on or off. A check mark shows that web search is on.|
     |**Workspace**|View your default workspace folder. To change it, select **Open in Settings**.|
-    |**ServiceNow**|View the ServiceNow instance Cowork connects to.|
-    |**Diagnose issues**|Run a health check on Cowork and get suggested fixes.|
+    |**ServiceNow**|View the ServiceNow instance Arc connects to.|
+    |**Diagnose issues**|Run a health check on Arc and get suggested fixes.|
 
 5.  Select the send icon.
 
     The chat appears in the sidebar so you can return to it later.
 
 
-**Parent Topic:**[Using ServiceNow Cowork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-cowork-using.md)
+**Parent Topic:**[Using ServiceNow Arc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-cowork-using.md)
 

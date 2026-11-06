@@ -7,7 +7,7 @@ release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 7
 breadcrumb: [Time Card management, Working with Task table, Table admin, Tables and data, Configure core features, Administer]
 ---
@@ -116,7 +116,7 @@ Each row in the Logged Time Cards section represents a time card entry for a giv
 -   The **Rate type** column is visible only when the **Allow multiple rate types** option in the time sheet policy of the user is selected.
 -   The **Resource plan** column is visible only when the **Update actual hours and cost in resource plan/reports** option in the time sheet policy of the user is selected.
 
-The icon beside the short description of a row indicates a time card state. The merge icon \(\[Omitted image "MergeIcon.png"\] Alt text: Merge duplicate time cards icon\) in a time card row indicates that a duplicate time card for the same task exists in the time sheet and provides option to merge them into a single time card.
+The icon beside the short description of a row indicates a time card state. The merge icon \(\[Omitted image "MergeIcon.png"\] Alt text: Merge duplicate time cards icon\) in a time card row indicates that a duplicate time card for the same task exists in the time sheet. You have an option to merge them into a single time card.
 
 When there are no time cards, the Logged Time Cards section displays the **Generate Time Cards** and **Copy from previous time sheet** buttons to create time cards.
 

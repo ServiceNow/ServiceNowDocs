@@ -8,7 +8,7 @@ product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Create and use dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
@@ -16,7 +16,10 @@ breadcrumb: [Create and use dashboards, Responsive dashboards in the Core UI, Re
 
 You can add breakdown sources to a responsive Core UI dashboard. Dashboard users then can select a breakdown source and one or more breakdown elements to filter scores in the visualizations on the dashboard.
 
-**Note:** Platform Analytics uses a combination of breakdowns specified in the Data visualization configuration and breakdown filters on dashboards. For more information, see [Viewing multiple breakdown elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/view-multiple-breakdown-elements.md).
+**Note:**
+
+-   This topic refers to Core UI dashboards. If you are looking for information about the newer Platform Analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center-dashboards.md).
+-   Platform Analytics does not have a special way to choose breakdown sources to apply to a dashboard. Instead, you create a normal filter on a dashboard and use an indicator as the filter source. When a dashboard with breakdown sources is migrated to Platform Analytics, a Select filter is created for each breakdown source. For more information, see [Viewing multiple breakdown elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/view-multiple-breakdown-elements.md) and [Configure a Single/Multiple select or cascading filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-select-filter-workspace.md).
 
 The selected elements filter those Performance Analytics widgets on the dashboard that follow these conditions:
 

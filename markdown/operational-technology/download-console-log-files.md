@@ -39,7 +39,7 @@ To download these logs, do the following.
 
 ## Sensor log files
 
-The Console has an early access capability for retrieving Sensor logs. Currently, accessing these logs requires deep technical expertise of the system. We recommend leaving this feature disabled unless directed to enable from Customer Service and Support.
+The Console has an early access capability for retrieving Sensor logs. Currently, accessing these logs requires deep technical expertise of the system. Leave this feature inactive unless directed to enable from Customer Service and Support.
 
 If you have questions or need assistance, [contact Customer Service and Support.](https://support.servicenow.com/now?draw=case)
 

@@ -18,7 +18,7 @@ Properties control the behavior of all MID Servers or a particular MID Server.
 
 <table id="table_gwj_2sf_khb"><tbody><tr><td>
 
-![Links to each of the MID Server sections](../image/MIDRefIconBar.png)
+![MID Server reference navigation](../image/MIDRefIconBar.png)
 
 </td></tr></tbody>
 </table>The MID Server properties are in the MID Server Property \[ecc\_agent\_property\] table and can be accessed by navigating to **MID Server** &gt; **Properties**. To set these properties, you must add them, if they are not already present.

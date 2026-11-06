@@ -29,7 +29,7 @@ The ServiceNow® Recruitment workspace application provides a flexible workspace
 -   Do all your work, such as managing job requisitions, interviews, talent pools, and more, in one centralized workspace, with streamlined sourcing capabilities included.
 -   Monitor and improve hiring efficiency by tracking key metrics and applicant feedback.
 
-See [Recruitment workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/recruitment-workspace-concept.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -52,18 +52,18 @@ The ServiceNow® Recruitment workspace application provides a flexible workspace
 
 ### What's new
 
--   **[Substitute interviewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/manage-interviews-recruiter.md)**
+-   **Substitute interviewer**
 
     Substitute an interviewer for any interview on a job where you're part of the hiring team, from Recruitment workspace. You don't need to reschedule the interview or update invites.
 
--   **[List view in Recruitment workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/list-view-recruit-workspace.md)**
+-   ****
 
     Monitor interview health from the Needs attention list view in Recruitment workspace.
 
 
 ### What's changed
 
--   **[Get overview of recruitment workload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/recruitment-workspace-oveview.md)**
+-   ****
 
     View all the job requisitions where you're listed as an additional recruiter or recruitment coordinator, on the home page cards and list view in Recruitment workspace. Previously, only the primary recruiter saw these requisitions in Recruitment workspace.
 
@@ -74,35 +74,35 @@ The ServiceNow® Recruitment workspace application provides a flexible workspace
 
 ### What's new
 
--   **[Create a job requisition as a recruiter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/request-job-hiring.md)**
+-   ****
 
     Create a job requisition for a vacancy that you want to fill in your organization.
 
--   **[Track a job requisition in the Recruitment workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/job-req-details-re-workspace.md)**
+-   ****
 
     Track a job requisition and view the job details, associated applications, hiring team, interview phases, approvers, and prospects.
 
--   **[Manage hiring team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/manage-hiring-team.md)**
+-   ****
 
     Add, edit, or remove hiring team members from a job requisition.
 
--   **[Add a job description to a requisition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/add-job-description.md)**
+-   ****
 
     Manually add a description to a job requisition or use predesigned templates to fill it out faster.
 
--   **[Manage the job requisitions as a recruiter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/manage-job-reqs.md)**
+-   ****
 
     Update or duplicate a job requisition, put it on hold, send it for approval, or close it from the Recruitment workspace.
 
--   **[Tracking an application in the Recruitment workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/application-record-details-re-workspace.md)**
+-   ****
 
     Track an application for a job requisition and its corresponding applicant and interview details as a recruiter or recruitment coordinator.
 
--   **[Hiring tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/applicant-tasks-recruitr.md)**
+-   ****
 
     Create and assign tasks to your job applicants or internal stakeholders, and manage them within the Recruitment workspace.
 
--   **[Collaborate with the hiring manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/collab-hiring-manager.md)**
+-   ****
 
     Collaborate with the hiring manager on the job requisition in the activity stream.
 
@@ -110,7 +110,7 @@ The ServiceNow® Recruitment workspace application provides a flexible workspace
 
     Send targeted emails to the internal and external talent types from different access points in the Recruitment workspace for effective communication.
 
--   **[View the Talent Acquisition Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/access-kpi-ta.md)**
+-   ****
 
     Understand the hiring trend in your organization with the Talent Acquisition dashboard.
 

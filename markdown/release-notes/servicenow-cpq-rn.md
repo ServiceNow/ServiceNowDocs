@@ -55,6 +55,6 @@ The ServiceNow® CPQ Configurator interface streamlines the configuration and pr
 
 -   **[CPQ Configurator interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/using-servicenowcpq.md)**
 
-    Enable agents and customers to configure customizable products using the CPQ Configurator embedded in Sales Customer Relationship Management workflows. The configurator is used in both the CRM Workspace and the Business Portal.
+    Enable agents and customers to configure customizable products using the CPQ Configurator embedded in Sales Customer Relationship Management workflows. The configurator is used in both the CSM Configurable Workspace and the Business Portal.
 
 

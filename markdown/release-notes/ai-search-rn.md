@@ -1,13 +1,13 @@
 ---
 title: AI Search release notes
-description: The ServiceNow AI Search application provides a consumer-grade search experience for ServiceNow AI Platform users. See the following sections for release notes by version.The ServiceNow AI Search application provides a consumer-grade search experience for ServiceNow AI Platform users. AI Search was enhanced and updated in the Zurich release.The ServiceNow AI Search application provides a consumer-grade search experience for ServiceNow AI Platform users. AI Search was enhanced and updated in the Zurich release.The ServiceNow AI Search application provides a consumer-grade search experience for ServiceNow AI Platform users. AI Search was enhanced and updated in the Zurich release.The ServiceNow AI Search application provides a consumer-grade search experience for ServiceNow AI Platform users. AI Search was enhanced and updated in the Zurich release.The ServiceNow AI Search application provides a consumer-grade search experience for ServiceNow AI Platform users. AI Search was enhanced and updated in the Zurich release.
+description: The ServiceNow AI Search application provides a consumer-grade search experience for ServiceNow AI Platform users. See the following sections for release notes by version.The Zurich Patch 13 release adds the option to display search suggestions and search result titles as links that you can open in new browser tabs.The Zurich Patch 12 includes name changes for the Now Assist in AI Search application and its Genius Result configurations.The Zurich Patch 11 release expands multi-source synthesis to include information from any indexed source in your system.The Zurich Patch 4 release includes support for hybrid search, support for Now Assist Multi-Content Response Genius Results in global and workspace search, a role change, and a refreshed and updated Search Preview UI.The Zurich General Availability release adds support for custom and third-party embedding models in semantic search, the ability to sort facet buckets alphabetically, and multiple UI improvements.The Zurich Early Availability release adds the ability to filter external content search results by language, support for indexing variables in Catalog Item records, and new display properties for Search Result EVAM cards.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/ai-search-rn.html
 release: zurich
 topic_type: topic
 last_updated: "2026-09-03"
-reading_time_minutes: 6
-keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, ServiceNow Otto, AI Agents, generative AI, agentic AI, ServiceNow Otto, AI Agents, generative AI, agentic AI, ServiceNow Otto, AI Agents, generative AI, agentic AI, ServiceNow Otto, AI Agents, generative AI, agentic AI, ServiceNow Otto, AI Agents, generative AI, agentic AI]
+reading_time_minutes: 7
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, ServiceNow Otto, AI Agents, generative AI, agentic AI, ServiceNow Otto, AI Agents, generative AI, agentic AI, ServiceNow Otto, AI Agents, generative AI, agentic AI, ServiceNow Otto, AI Agents, generative AI, agentic AI, ServiceNow Otto, AI Agents, generative AI, agentic AI, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [ServiceNow AI Platform administration release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
 
@@ -45,9 +45,24 @@ See [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zuri
 
 **Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-platform-admin-rn-landing.md)
 
-## August 2026
+## Zurich Patch 13
 
-The ServiceNow® AI Search application provides a consumer-grade search experience for ServiceNow AI Platform® users. AI Search was enhanced and updated in the Zurich release.
+The Zurich Patch 13 release adds the option to display search suggestions and search result titles as links that you can open in new browser tabs.
+
+### What's new
+
+-   **[Display search suggestion links as standard HTML anchors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/display-search-suggestion-links-standard.md-anchors.md)**
+
+    Preserve your search state in portal search and global/workspace search by configuring display of search suggestion links as standard HTML anchors. With this setting configured, you can open search suggestions in new browser tabs using your browser's native right-click or long-press functionality.
+
+-   **[Display search result title links as standard HTML anchors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/display-search-result-links-standard.md-anchors.md)**
+
+    Preserve your search state in portal search and global/workspace search by configuring display of search result title links as standard HTML anchors. With this setting configured, you can open search results in new browser tabs using your browser's native right-click or long-press functionality.
+
+
+## Zurich Patch 12
+
+The Zurich Patch 12 includes name changes for the Now Assist in AI Search application and its Genius Result configurations.
 
 ### What's new
 
@@ -57,12 +72,12 @@ The ServiceNow® AI Search application provides a consumer-grade search experien
 
     -   Now Assist in AI Search is now ServiceNow Otto for AI Search.
     -   Now Assist Actions is now Actions.
-    -   Now Assist Q &amp; A is now Knowledge base articles.
-    -   Now Assist Multi Content Response is now Summary.
+    -   Now Assist Q&amp;A is now Knowledge base articles.
+    -   Now Assist Multi-Content Response is now Summary.
 
-## July 2026
+## Zurich Patch 11
 
-The ServiceNow® AI Search application provides a consumer-grade search experience for ServiceNow AI Platform® users. AI Search was enhanced and updated in the Zurich release.
+The Zurich Patch 11 release expands multi-source synthesis to include information from any indexed source in your system.
 
 ### What's new
 
@@ -71,9 +86,9 @@ The ServiceNow® AI Search application provides a consumer-grade search experien
     AI Search can now use multi-source synthesis to gather and combine information from any indexed source in your system.
 
 
-## December 2025
+## Zurich Patch 4
 
-The ServiceNow® AI Search application provides a consumer-grade search experience for ServiceNow AI Platform® users. AI Search was enhanced and updated in the Zurich release.
+The Zurich Patch 4 release includes support for hybrid search, support for Now Assist Multi-Content Response Genius Results in global and workspace search, a role change, and a refreshed and updated Search Preview UI.
 
 ### What's new
 
@@ -99,7 +114,7 @@ The ServiceNow® AI Search application provides a consumer-grade search experien
 
 ## Zurich General Availability
 
-The ServiceNow® AI Search application provides a consumer-grade search experience for ServiceNow AI Platform® users. AI Search was enhanced and updated in the Zurich release.
+The Zurich General Availability release adds support for custom and third-party embedding models in semantic search, the ability to sort facet buckets alphabetically, and multiple UI improvements.
 
 ### What's new
 
@@ -127,14 +142,14 @@ The ServiceNow® AI Search application provides a consumer-grade search experien
 
     Override the default sorting of facet buckets by their search result counts and display them sorted alphabetically by their labels.
 
--   **Improved display for grouped attachment search results**
+-   **[Improved display for grouped attachment search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/grouping-attachment-srch-results-ais.md)**
 
     When grouped with their parent search results, attachment search results now appear in collapsed form to save space. If a parent search result includes more than three grouped attachments, you can use the new **Show more** and **Show less** links to control how many attachments are visible.
 
 
 ## Zurich Early Availability
 
-The ServiceNow® AI Search application provides a consumer-grade search experience for ServiceNow AI Platform® users. AI Search was enhanced and updated in the Zurich release.
+The Zurich Early Availability release adds the ability to filter external content search results by language, support for indexing variables in Catalog Item records, and new display properties for Search Result EVAM cards.
 
 ### What's new
 

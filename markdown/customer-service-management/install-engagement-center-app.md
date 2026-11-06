@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/install-engagement-center-app.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up Engagement Messenger, Enable communication channels, Configure, Customer Service Management]
 ---
@@ -53,7 +53,7 @@ For more information, see [Components installed with Engagement Messenger](https
 
 ## What to do next
 
--   If you want to enable Virtual Agent chat support in the Engagement Messenger, activate the Glide Virtual Agent plugin \(com.glide.cs.chatbot\).
+-   If you want to enable Virtual Agent chat support in the Engagement Messenger, activate the Glide Virtual Agent plugin \(com.glide.cs.chatbot\) and set the **com.glide.cs.embed.csp\_frame\_ancestors** system property value to **'self' &lt;your website URL&gt;**.
 
     For more information, see [Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/activate-virtual-agent.md).
 

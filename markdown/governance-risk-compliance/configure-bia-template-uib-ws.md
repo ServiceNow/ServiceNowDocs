@@ -30,7 +30,7 @@ You can use the preconfigured BIA templates that are provided with the base syst
 -   Service Offering Impact Assessment
 -   Workplace Impact Assessment
 
-Beginning with the Yokohama release, you can configure the BIA template with the legacy or Smart assessment. The legacy assessment shows only drop-down questions, while the Smart assessment enables multiple question types and configures RTO, RPO, and recovery tier calculations based on the responses to the questionnaire.
+You can configure the BIA template with the legacy or Smart assessment. The legacy assessment shows only drop-down questions. The Smart assessment enables multiple question types and configures RTO, RPO, and recovery tier calculations based on the responses to the questionnaire.
 
 ## Procedure
 

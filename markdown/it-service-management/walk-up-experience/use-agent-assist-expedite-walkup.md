@@ -39,5 +39,5 @@ Agent Assist is a contextual search option available in Agent Workspace when a w
     For more detailed information about Agent Assist and using it to expedite incidents and requests, refer to [Using Agent Assist in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/agent-assist.md) and [Order a catalog item using Agent Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/order-catalog-item-agent-assist.md).
 
 
-**Parent Topic:**[Manage Walk-up Experience queue and interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/use-walkup-to-manage-demand.md)
+**Parent Topic:**[Manage Walk-up Experience queue and interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/use-walkup-to-manage-demand.md)
 

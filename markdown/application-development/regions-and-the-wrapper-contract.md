@@ -80,7 +80,7 @@ The deprecated `<stack>` tag does not reach the editor. Both editor inputs go th
 
 [Placing Lux widgets in regions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/placing-widgets-in-regions.md)
 
-[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/layouts-and-editable-regions.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/layouts-and-editable-regions.md)
+[Layouts and editable regions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/layouts-and-editable-regions.md)
 
 [Configurable properties for Lux experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/configurable-properties.md)
 

@@ -57,6 +57,7 @@ The risk reader can do the following in the Risk Management application:
 -   sn\_grc.reader
 -   survey\_reader
 -   sn\_rvw\_feedback.reader
+-   sn\_risk\_advanced.ara\_reader
 
 </td></tr><tr><td>
 
@@ -88,6 +89,9 @@ The risk user can also create risks. The risk user can be assigned risks and has
 -   survey\_reader
 -   sn\_grc.business\_user
 -   sn\_risk\_advanced.ara\_creator
+-   sn\_risk\_advanced.ara\_assessor
+-   sn\_risk\_advanced.ara\_approver
+-   sn\_risk\_advanced.quantitative\_risk\_appetite\_reader
 
 </td></tr><tr><td>
 
@@ -181,9 +185,16 @@ Users with this role can perform the following tasks:-   Take risk assessment.
     -   Elevate enterprise risks.
     -   Initiate any object assessment.
 
+Permissions for advanced risk assessment, such as taking and approving assessments, come from the sn\_risk\_advanced.ara\_assessor and sn\_risk\_advanced.ara\_approver roles. These roles aren't contained by this role, so assign them separately.
+
 </td><td>
 
-None
+-   canvas\_user
+-   sn\_grc.user\_hierarchy\_reader
+-   sn\_grc\_workspace.task\_reader
+-   sn\_grc\_workspace.user
+-   sn\_smart\_asmt.actor
+-   workspace\_user
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Components installed with Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/r_InstallWRisk.md)

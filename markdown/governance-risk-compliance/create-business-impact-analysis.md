@@ -119,7 +119,7 @@ Person who owns and is responsible for completing the BIA. BCM lead can review t
 
     -   **Archived**
 
-        When the BIA is archived, it becomes read only. All the underlying tables like impact dependency groups, impact category results, and dependencies from where the BIA retrieves data to populate in the impact assessment and dependency assessment tabs become read only. You can no longer edit the information in these tabs. In this state, you can also generate a PDF of the BIA.
+        When the BIA is archived, it becomes read only. The impact assessment and dependency assessment tabs are read only. Generate a PDF of the BIA in this state.
 
     **Note:** A scheduled job runs weekly to move the BIAs that have expired to **Archived** state.
 

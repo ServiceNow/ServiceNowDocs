@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2025-11-13"
 reading_time_minutes: 1
-breadcrumb: [Integrating Request-based chat with Microsoft Teams for GCC-H or DoD, MS Teams for GCC-H or DoD, Integrate, ServiceNow for Microsoft Teams and Microsoft 365, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Integrating Request-based chat with Microsoft Teams for GCC-H or DoD, MS Teams for GCC-H or DoD, Integrate, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
 # Create record with Azure GCC details

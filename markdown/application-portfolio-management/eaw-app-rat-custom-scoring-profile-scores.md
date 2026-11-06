@@ -20,7 +20,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** and in the filter enter `sys_properties.list`.
+1.  Navigate to **All** and in the navigation filter enter `sys_properties.list`.
 
 2.  Verify that the property does not exist by searching for the property name in the System Properties table.
 

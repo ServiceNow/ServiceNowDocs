@@ -42,7 +42,7 @@ To help meet the air-gapped challenge, ServiceNow provides containerized version
 
 7.  Decompress the downloaded packages.
 
-    **Note:** In case you're installing on a Debian OS, install Docker for Debian OS. For instructions, see [Install Docker Engine on Debian](https://docs.docker.com/engine/install/debian/)
+    **Note:** In case you're installing on a Debian OS, install Docker for Debian OS. For more information, see [Install Docker Engine on Debian](https://docs.docker.com/engine/install/debian/)
 
 8.  Set up the latest version of docker:
 

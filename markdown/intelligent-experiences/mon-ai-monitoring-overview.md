@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 7
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Review scores, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Reviewing scores, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
 ---
 
 # Monitoring overview
@@ -123,11 +123,11 @@ Choose which metrics to display by selecting an option from the list.
 
 -   **__Lowest performing metrics__**
 
-    Show the top five metrics that had the biggest drop in performance over the selected time period. This is the default selection.
+    Show the top five metrics with the lowest average score over the selected time period. This is the default selection.
 
 -   **Top performing metrics**
 
-    Show the top five metrics that had the biggest increase in performance over the selected time period.
+    Show the top five metrics with the highest average score over the selected time period.
 
 -   **__Quality metrics__**
 

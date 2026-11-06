@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/rn-summary-new-features.html
 release: zurich
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 439
+last_updated: "2026-11-04"
+reading_time_minutes: 438
 breadcrumb: [Release notes summaries for Zurich features, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
 
@@ -368,7 +368,7 @@ Create AI system assets to track and manage the complete life cycles of your age
 
 -   **[Define the use and purpose of an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/create-ai-system-assets.md)**
 
-Specify the intended use and purpose of an AI system. Provide insight into who is using the AI system, what the AI system is being used for, and how the AI system works and provides value. This information can help you determine the benefits and risks that are associated with the AI system. For more information on classifying AI systems based on regulatory risk at intake by applying a configured Risk Assessment Methodology \(RAM\), see [Assessment templates and risk assessment methodologies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/assessment-templates-rams.md) and [Request an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/request-ai-system.md).
+Specify the intended use and purpose of an AI system. Provide insight into who is using the AI system, what the AI system is being used for, and how the AI system works and provides value. This information can help you determine the benefits and risks that are associated with the AI system. For more information on classifying AI systems based on regulatory risk at intake by applying a configured Risk Assessment Methodology \(RAM\), see  and .
 
 -   **[Associate additional related AI asset types with AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/create-ai-system-assets.md)**
 
@@ -441,7 +441,7 @@ Monitor and track your AI strategies and associated goals and targets.
     -   Enable users to edit, view, and create customized value templates by enabling a value template assignment experience in inventory records.
     -   Provide transparency to value calculations of each AI system through value templates.
     -   Perform calculations and approximations for the read and write time saved by users using AI systems by using data point and timestamps from the invoking records.
--   **[Risk and compliance tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/risk-and-complaince-tab.md)**
+-   ****
 
 Display the risk classification of AI assets and the compliance posture for selected authority documents and policies through the **Risk and compliance** tab. This tab provides visibility into AI systems, models, and datasets. The Risk overview section uses visual charts to categorize AI assets.Review adherence to frameworks in the Compliance overview section. For example, adherence to the NIST AI Risk Management Framework or the EU Artificial Intelligence Act, presenting scores based on citations and control attestations that are set by the customer. You can filter data by authority documents or policies, view overall compliance percentages, and identify critical issues and AI cases tied to items deemed non-compliant by the customer.
 
@@ -551,62 +551,62 @@ AI Risk and Compliance
 
 </td><td>
 
--   **[Assess multiple risks and controls for AI assets simultaneously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/risk-assessment-project-airc.md)**
+-   **Assess multiple risks and controls for AI assets simultaneously**
 
 Create a risk assessment project to perform bulk assessments on multiple risks for an AI asset, enabling assessors to evaluate them in a single project. This approach reduces time and effort, confirms consistency across multiple assessments, and provides a more comprehensive view of risks and controls within the same project. You can scope multiple risks related to the assessable entity within the project and perform assessments.
 
 AI Risk and Compliance team can determine inherent risks, control effectiveness, residual risks, and target risks in the risk assessment project. They can also reassess completed assessments or reassign in-progress assessment projects to another assessor.
 
--   **[AI asset data segregation with entity based access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/entity-based-access-for-ai-assets.md)**
+-   **AI asset data segregation with entity based access**
 
 Enhance data segregation and security to ensure that only authorized users can access sensitive AI Risk and Compliance data while maintaining visibility into core entities. AI Risk and Compliance managers can control access risks, controls, related entities, issues, indicators, AI asset tasks, risk assessments, attestations, and AI assets data through entity-based access. Entities themselves stay visible to all users, while visibility of linked records is limited to authorized users.
 
--   **[AI Risk and Compliance content accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/unified-content-management-in-airc.md)**
+-   **AI Risk and Compliance content accelerator**
 
 Use the AI Risk and Compliance content accelerator icon on the AI Risk and Compliance workspace to activate the pre-configured content packs. Content Accelerator includes regulatory packs such as the EU Artificial Intelligence Act and NIST AI Risk Management Framework, offering citations, control objectives, and risk statements. The unified content hub helps to streamline scoping, reduce manual navigation between frameworks, and promote consistent use of regulatory content accelerator packs. This feature supports AI Risk and Compliance team in meeting relevant business requirements, maintaining team consistency, and speeding up the activation and management of global regulatory frameworks.
 
--   **[Automatic creation of AI cases and inquiries from inbound email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/automatic-creation-cases-inquiries-from-email.md)**
+-   ****
 
 Report AI cases or raise AI inquiries by sending an email to a dedicated email address. Your email automatically creates a new AI Case or AI Inquiry record in the system. This feature remove manual work and scattered reporting methods, ensuring every case or inquiry is automatically captured, categorized, and tracked.
 
--   **[360° Relationship Visualization of an AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/visualization-of-ai-assest.md)**
+-   ****
 
 Use the 360° AI asset view in the AI Control Tower to explore the relationship between your AI assets and all its associated records in a distinctive visualization. This visualization provides valuable insights into how these objects interact and relate to each other within the AI asset. You can view related records such as, datasets, AI model, risks, controls, and assessments.
 
--   **[AI asset offboarding workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/airc-offboarding-ai-assets.md)**
+-   **AI asset offboarding workflow**
 
 Manage AI asset changes and retirements through structured workflows that ensure compliance and reduce operational risk. Track and approve modifications to models, datasets, and systems while automatically identifying impacts on dependent assets. Initiate formal offboarding processes that remove access, close documentation, and update related controls when retiring underperforming or deprecated AI assets. Maintain complete audit trails integrated with your policy and risk frameworks to demonstrate governance continuity during lifecycle transitions.
 
 
--   **[Deliver system-level AI risk score aggregation and visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/ai-assets-airc.md)**
+-   **Deliver system-level AI risk score aggregation and visualization**
 
 Aggregate AI system-level risk scores by integrating heatmaps and residual risk score widgets directly within your AI asset overview records. These visual tools help you to see the cumulative risk exposure and track the residual risks across the entire AI asset inventory. With this feature, you get clear, data-driven insights into the overall AI system risk posture.
 
--   **[Enable AI risk and compliance views with updated content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/ai-assets-airc.md)**
+-   **Enable AI risk and compliance views with updated content packs**
 
 Get the dedicated AI risk and compliance views for your AI models and dataset records. With these views, you get a structured and comprehensive overview of the related risks, controls, and compliance obligations, including the refreshed content packs that feature the updated assessment questionnaires and templates that align with the latest governance frameworks and regulatory standards. Your organization can perform accurate and timely risk assessments while maintaining compliance with evolving AI governance requirements.
 
--   **[Implement robust access control and AI asset management capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/roles-installed-with-ai-risk-and-compliance.md)**
+-   **Implement robust access control and AI asset management capabilities**
 
 Apply role-based access controls across AI assets and dashboards to ensure that data access is based on user roles. You can enable employees to request access to AI assets through a governed process and enforce consistent tracking of life-cycle states \(such as development, deployment, monitoring, and retirement\) across all AI assets.
 
--   **[Use the AI cases tab to monitor and manage AI case activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/ai-cases-tab-airc.md)**
+-   **Use the AI cases tab to monitor and manage AI case activity**
 
 Gain a centralized overview of all your AI asset cases and inquiries by using the **AI cases** tab in the AI Risk and Compliance workspace. On this tab, you see a list of records that include the case details such as the status, priority, owner, and timeline of your AI cases. You can monitor the progression of a case, stay informed about ongoing investigations, follow up on pending actions, and ensure timely resolutions. On the tab, you can also find filtering and sorting options that help you to prioritize cases that require immediate attention.
 
--   **[Filter the risk heatmap by Risk Assessment Methodology for targeted risk analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/risk-and-compliance-tab-airc.md)**
+-   **Filter the risk heatmap by Risk Assessment Methodology for targeted risk analysis**
 
 Apply the Risk Assessment Methodology filter to customize the display of the risk heatmap that is based on the specific risk evaluation frameworks from the AI risk and compliance home page. You can segment and analyze the AI risks according to the risk assessment models that your organization adopts, such as the internal standards, regulatory frameworks, or industry benchmarks, so that you can understand how different risk factors are identified, scored, and distributed.
 
--   **[Group control attestations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/attest-controls-for-ai-systems.md)**
+-   **Group control attestations**
 
 Group control attestations by such predefined criteria as the control objectives, frameworks, or assessment cycles so that you can more efficiently manage and review attestations, reduce redundancy, and improve your visibility into the compliance status across related controls for the AI Risk and Compliance team.
 
--   **[Scan and analyze updates from global regulators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/ai-risk-and-compliance-workspace.md)**
+-   **Scan and analyze updates from global regulators**
 
 Enable the AI Risk and Compliance team to scan and interpret regulatory updates that are issued by global authorities. Your organization can stay informed about emerging compliance requirements, assess their potential impact, and take timely action.
 
--   **[Manage reporting compliance posture insights on key regulations or policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/risk-and-compliance-tab-airc.md)**
+-   **Manage reporting compliance posture insights on key regulations or policies**
 
 Control the reporting of compliance posture insights that are related to key regulations and internal policies by using a setting to determine which insights are shared, their level of detail, and the reporting cadence. Your organization can align reporting outputs with regulatory obligations and internal governance requirements.
 
@@ -617,14 +617,23 @@ AI Search
 
 </td><td>
 
+-   **[Display search suggestion links as standard HTML anchors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/display-search-suggestion-links-standard.md-anchors.md)**
+
+Preserve your search state in portal search and global/workspace search by configuring display of search suggestion links as standard HTML anchors. With this setting configured, you can open search suggestions in new browser tabs using your browser's native right-click or long-press functionality.
+
+-   **[Display search result title links as standard HTML anchors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/display-search-result-links-standard.md-anchors.md)**
+
+Preserve your search state in portal search and global/workspace search by configuring display of search result title links as standard HTML anchors. With this setting configured, you can open search results in new browser tabs using your browser's native right-click or long-press functionality.
+
+
 -   **[ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/now-assist-ais.md)**
 
 ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows. Name changes include but aren't limited to:
 
     -   Now Assist in AI Search is now ServiceNow Otto for AI Search.
     -   Now Assist Actions is now Actions.
-    -   Now Assist Q &amp; A is now Knowledge base articles.
-    -   Now Assist Multi Content Response is now Summary.
+    -   Now Assist Q&amp;A is now Knowledge base articles.
+    -   Now Assist Multi-Content Response is now Summary.
 
 -   **[Generate multi-content synthesized responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/generate-multi-content-synthesized-sources.md)**
 
@@ -741,7 +750,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-[GlideCurrencyCode - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/GlideCurrencyCodeBothAPI.md)
+
 
 </td><td>
 
@@ -750,7 +759,7 @@ Methods
 
 </td></tr><tr><td>
 
-[GlideCurrencySymbol - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/GlideCurrencySymbolBothAPI.md)
+
 
 </td><td>
 
@@ -759,7 +768,7 @@ Methods
 
 </td></tr><tr><td>
 
-[GlideQueryCondition - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+
 
 </td><td>
 
@@ -770,7 +779,7 @@ Methods
 
 </td></tr><tr><td>
 
-[GlideRecord - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+
 
 </td><td>
 
@@ -785,7 +794,7 @@ Methods
 
 </td></tr><tr><td>
 
-[GlideSysAttachment - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+
 
 </td><td>
 
@@ -800,7 +809,7 @@ Methods
 
 </td></tr><tr><td>
 
-[GlideSystem - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideSystemScopedAPI.md)
+
 
 </td><td>
 
@@ -820,7 +829,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-[GlideDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/GlideDynamicAttributeAPI.md)
+
 
 </td><td>
 
@@ -828,7 +837,7 @@ Updated content to remove support for dynamic attribute groups.New method getNam
 
 </td></tr><tr><td>
 
-[GlideDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)
+
 
 </td><td>
 
@@ -839,7 +848,7 @@ Updated content to remove support for dynamic attribute groups.New methods:
 
 </td></tr><tr><td>
 
-[GlideDynamicNamespace - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/GlideDynamicNamespaceAPI.md)
+
 
 </td><td>
 
@@ -849,7 +858,7 @@ Updated content to remove support for dynamic attribute groups.New methods:
 
 </td></tr><tr><td>
 
-[GlideQueryCondition - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideQueryConditionAPI.md)
+
 
 </td><td>
 
@@ -860,7 +869,7 @@ Updated content to remove support for dynamic attribute groups.New methods:
 
 </td></tr><tr><td>
 
-[GlideRecord - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
+
 
 </td><td>
 
@@ -875,7 +884,7 @@ Updated content to remove support for dynamic attribute groups.New methods:
 
 </td></tr><tr><td>
 
-[GlideSysAttachment - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/GlideSysAttachmentGlobalAPI.md)
+
 
 </td><td>
 
@@ -890,7 +899,7 @@ Updated content to remove support for dynamic attribute groups.New methods:
 
 </td></tr><tr><td>
 
-[GlideSystem - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideSystemAPI.md)
+
 
 </td><td>
 
@@ -901,7 +910,7 @@ Added support for additional message types to display at the top of forms:-   ad
 
 </td></tr><tr><td>
 
-[Message - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/sn_i18n.messageAPI.md)
+
 
 </td><td>
 
@@ -919,7 +928,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-[GlideForm \(g\_form\) - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/c_GlideFormAPI.md)
+
 
 </td><td>
 
@@ -948,7 +957,7 @@ Methods
 
 </td></tr><tr><td>
 
-[GlideModal \(Next Experience\) - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/GModClientAPINX.md)
+
 
 </td><td>
 
@@ -966,7 +975,7 @@ Methods
 
 </td></tr><tr><td>
 
-[GlideNavigation \(Next Experience\) - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/GlideNavigationClientAPINX.md)
+
 
 </td><td>
 
@@ -974,7 +983,7 @@ refreshNavigator\(\)
 
 </td></tr><tr><td>
 
-[StopWatch \(Next Experience\) - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/StopWatchAPINX.md)
+
 
 </td><td>
 
@@ -985,7 +994,7 @@ refreshNavigator\(\)
 
 </td></tr><tr><td>
 
-[GlideForm \(Next Experience\) - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/GlideFormAPINX.md)
+
 
 </td><td>
 
@@ -1009,7 +1018,7 @@ refreshNavigator\(\)
 
 </td></tr><tr><td>
 
-[GlideUser \(Next Experience\) - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/GlideUserAPINX.md)
+
 
 </td><td>
 
@@ -1026,7 +1035,7 @@ Endpoints
 
 </th></tr></thead><tbody><tr><td>
 
-[Conversation Member API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/conversation-member-api.md)
+
 
 </td><td>
 
@@ -1035,7 +1044,7 @@ Endpoints
 
 </td></tr><tr><td>
 
-[Omnichannel Callback API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/omichannel-callback-api.md)
+
 
 </td><td>
 
@@ -1045,7 +1054,7 @@ Endpoints
 
 </td></tr><tr><td>
 
-[CSM Pricing API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/csm-pricing-api.md)
+
 
 </td><td>
 
@@ -1137,31 +1146,31 @@ Advanced Risk
 
 </td><td>
 
--   **[Identify risks for an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/suggest-potential-risks-workflow.md)**
+-   **Identify risks for an entity**
 
 If you’re a Workspace user with the sn\_grc\_sharegenai.risk\_suggestion\_aiagent\_user role, you can use the Risk Suggestion AI Agent to identify risks related to an entity. The AI agent analyzes the entity and suggests relevant risks from various sources, consolidating them into a reviewable list to verify for accuracy. Risk managers can then confirm and promote these risks to the risk register for further assessment. This feature automates risk discovery, helping identify potential risks and prepare for compliance requirements.
 
--   **[Reporting views from Risk Assessment Methodology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/reporting-views-from-ram.md)**
+-   ****
 
 The reporting view provides an overview of all assessments under a specific Risk Assessment Methodology \(RAM\). It consolidates assessment data such as factor responses, scores, issues, controls, and associated risks into a single structure. When a RAM is published, the system automatically creates this view, which you can use to review assessments and build custom reports. It simplifies report and dashboard creation for risk assessments.
 
 **Note:** Automatic creation of Reporting views is not supported on Xanadu. For instructions on creating them manually, refer to [KB2547071](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2547071)
 
 
--   **[Risk event summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/generate-risk-event-summary-in-the-risk-workspace.md)**
+-   **Risk event summarization**
 
 Generate risk event summary using the ServiceNow Otto for IRM application. Risk event summarisation is a Generative AI driven capability that generates clear and consistent summaries automatically. It reduces the need for manual effort, helps risk managers save time, and enables approvers to quickly understand the key details for faster decisions. Check your entitlements to confirm whether you have access to risk event summarization.
 
 
--   **[Grid based risk and control assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/perform-assessment-risk-assessment-project-grid-view.md)**
+-   **Grid based risk and control assessment**
 
 Gain efficient control over risk assessments with the new grid-based Risk and Control Self Assessment \(RCSA\). Quickly compare, edit, and prioritize risks and controls using the flexible, spreadsheet-style interface. Use side-by-side views and bulk editing to complete assessments faster.
 
--   **[Matrix report in Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/matrix-report-in-risk-workspace.md)**
+-   ****
 
 Access and analyze the risk posture of your organization using entity-related data, such as risks, controls, KRIs, and events in a centralized, configurable grid-based view. This feature reduces time spent switching views and helps risk managers assess data more easily, leading to more proactive and streamlined risk management.
 
--   **[Support third party large language models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/generate-risk-assessment-summary-genai.md)**
+-   **Support third party large language models**
 
 Risk assessment summarization and Risk event summarization support the LLMs from the third party providers, such as Anthropic Claude, Google Gemini, and OpenAI, in addition to Now LLM. This enhancement gives you greater flexibility to choose the model that best fits your organization’s needs for generating risk assessment and risk event summaries.
 
@@ -1346,16 +1355,16 @@ App Engine Management Center
 
 </td><td>
 
--   **[ReleaseOps integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/exploring-aemc.md)**
+-   **ReleaseOps integration**
 
 Starting with version 28.2.1 of AEMC, you can deploy using ReleaseOps. ReleaseOps enables the deployment of update sets via a pipeline and leverages the automation capabilities of ServiceNow Playbooks.
 
--   **[Migrate App Engine pipelines to ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/migrating-ae-pipelines-to-releaseops-aemc.md)**
+-   **Migrate App Engine pipelines to ReleaseOps**
 
 Starting with version 28.2.1 of AEMC, migrate your existing App Engine pipelines to ReleaseOps to take advantage of ReleaseOps features without disrupting your existing pipeline and deployment process.
 
 
--   **[Use AEMC to manage app delegation, development, and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/app-engine-management-center.md)**
+-   **Use AEMC to manage app delegation, development, and deployment**
 
 AEMC is a centralized tool for IT admins and developers to manage the entire app development life cycle, from idea submission to deployment and monitoring. AEMC enhances efficiency and governance, and provides clear insights into custom app usage and developer productivity.
 
@@ -1366,39 +1375,39 @@ Applicant Center
 
 </td><td>
 
--   **[Applicant Center home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/applicant-portal-home-page.md)**
+-   ****
 
 The Applicant Center home page is the dedicated and personalized space for applicants that provides them with a complete hiring experience.
 
--   **[View a job application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/view-a-job-application.md)**
+-   ****
 
 As an applicant, open a job application and view the details.
 
--   **[Share scheduling preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/share-availability-applicant-ac.md)**
+-   ****
 
 As an applicant, when requested by recruiters, share your scheduling preferences to help them schedule interviews accordingly.
 
--   **[Select an interview slot to self-schedule your interview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/select-interview-slot-applicant.md)**
+-   **Select an interview slot to self-schedule your interview**
 
 Select an interview time slot from a list of proposed slots shared by the recruiter to automatically schedule your interview.
 
--   **[Request to reschedule interview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/request-to-reschedule-interview-applicant.md)**
+-   ****
 
 Request the recruiter to reschedule a proposed or scheduled interview.
 
--   **[Tasks in Applicant Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/applicant-tasks-applicnts.md)**
+-   ****
 
 View, track, and complete all your assigned hiring tasks from the Applicant Center home page.
 
--   **[Applicant survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/applicant-feedback.md)**
+-   ****
 
 Provide feedback about your hiring experience in Applicant Center.
 
--   **[Set accessibility preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/set-accessibility-preference.md)**
+-   ****
 
 Enable keyboard accessibility for your profile to navigate through Applicant Center using keyboard tabs.
 
--   **[Configure pre-hire experience on applicant center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/access-journey-accelerator-from-applicant-centre.md)**
+-   ****
 
 Start your onboarding journey from Applicant Center even before your first day. Complete all your pre-hire tasks easily and seamlessly.
 
@@ -1544,16 +1553,16 @@ Audit Management
 
 </td><td>
 
--   **[Audit period start and end dates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/t_CreateEngagement.md)**
+-   **Audit period start and end dates**
 
 Set audit period start and end dates directly on Engagement records to focus audits on specific time-frames. The system displays only indicator results that fall within your defined audit period, keeping the audit time-frame separate from the overall engagement time-frame. This helps you audit past or future periods without affecting the broader engagement timeline.
 
--   **[Unified content management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/unified-content-management_0.md)**
+-   ****
 
 Simplify the installation of pre-configured content packs with the new Unified content management icon in the Audit Workspace. Content Accelerator includes the Digital Operational Resilience Act \(DORA\) content pack, offering citations and authority documents for DORA compliance. Audit shared manager and Audit WS supervisor roles can access Content Accelerator.
 
 
--   **[Enhancement to evidence request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/evidence-request.md)**
+-   **Enhancement to evidence request**
 
 Create evidence response directly in one step. This bypasses the step involved in creation of evidence request and collection details. Evidence response is enhanced with additional data of source and context. To leverage evidence capabilities, feature roles have been introduced:
 
@@ -1593,11 +1602,11 @@ Automated Test Framework
 
 </td><td>
 
--   **[ATF failure insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/atf-test-triage.md)**
+-   **ATF failure insights**
 
 Reduce the time to resolve your ATF test failures with actionable support from the new ATF failure insights feature.
 
--   **[Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/atf-conf-ws.md)**
+-   **Configurable Workspace**
 
 Enable simplified test creation through direct component interaction on Configurable Workspace pages via the Page Inspector.
 
@@ -1608,7 +1617,7 @@ Autonomous Workforce
 
 </td><td>
 
--   **[Updated routing criteria configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/modify-aiw-tasks-new.md)**
+-   **Updated routing criteria configuration**
 
 Enable hand-offs between the AI specialist and human agents if work is better handled by a different group or requires additional human oversight.
 
@@ -1640,22 +1649,27 @@ Build Agent
 
 </td><td>
 
--   **[New model support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ba-models-versions.md)**
+-   **New model support**
+
+Use OpenAI GPT 6.1 Sol and Google Gemini 3.8 Flash models with Build Agent.
+
+
+-   **New model support**
 
 Build Agent supports the Google Gemini 3.7 Flash model in the October 2026 release.
 
--   **[Additional metadata support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/build-agent-supported-metadata.md)**
+-   **Additional metadata support**
 
 The following metadata are now supported in Build Agent:
 
     -   Assessments
     -   Database views
     -   Sys wizard answers
--   **[Support for SPP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/build-agent-limitations.md)**
+-   **Support for SPP**
 
 Build Agent now supports regulated markets through the ServiceNow Protected Platform for Australia, the EU, and Singapore, a cloud offering that stores and processes all customer data in-country on Microsoft Azure infrastructure.
 
--   **[Expanded support for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ba-playbooks.md)**
+-   **Expanded support for Playbooks**
 
 Build Agent now include the following updates to Playbook support:
 
@@ -1667,7 +1681,7 @@ Build Agent now include the following updates to Playbook support:
     -   Image attachment support for Image to playbook generation
     -   Configure golden path settings and define the ideal path through decision nodes
 
--   **[Playbook support updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ba-update-sets.md)**
+-   **Playbook support updates**
 
 Build Agent includes the following updates to Playbook support:
 
@@ -1677,159 +1691,159 @@ Build Agent includes the following updates to Playbook support:
     -   Build Agent can now configure agentic fields on form-based and record-based activities when the AI Agent plugin is active.
     -   Build Agent can now generate on-demand playbook launcher configurations.
     -   Build Agent can now define optional activities in a playbook.
--   **[New model support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ba-models-versions.md)**
+-   **New model support**
 
 Build Agent now supports the following models:
 
     -   Azure OpenAI GPT 5.6 Sol
-    -   Anthropic Claude on AWS Opus 5
--   **[Test suite authoring and execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/build-agent-testing.md)**
+    -   Anthropic Claude Opus 5
+-   **Test suite authoring and execution**
 
 Create and run ATF test suites from Build Agent. Group multiple tests under a single suite and execute the suite to run regression testing without selecting individual tests. Execution status and any errors are reported in the chat panel.
 
--   **[ATF list step support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/build-agent-testing.md)**
+-   **ATF list step support**
 
 Test Agent can now generate ATF tests that use list and related list test steps, including validate related list visibility and apply filter to list. List step support extends test coverage beyond form-based interactions to include the full list view experience on the ServiceNow AI Platform.
 
--   **[Support for Box MCP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/accelerate-design-to-development-with-figma-mcp-server.md)**
+-   **Support for Box MCP server**
 
 Build Agent now supports integrations with Box MCP server.
 
--   **[Domain separation for ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ba-domain-separation.md)**
+-   **Domain separation for ServiceNow Fluent**
 
 ServiceNow Fluent, which Build Agent uses to create apps, now supports domain separation on records and APIs. You can set the **sys\_domain** field and use **sys\_override** fields when working with records in domain-separated environments, so ServiceNow Fluent operates correctly across domains in your instance.
 
--   **[Additional metadata support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/build-agent-supported-metadata.md)**
+-   **Additional metadata support**
 
 The following metadata are now supported in Build Agent:
 
     -   Service Catalog dependent question support
     -   Transition condition
     -   UI style
--   **[Right-click to configure ServiceNow AI Platform metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/access-build-agent.md)**
+-   **Right-click to configure ServiceNow AI Platform metadata**
 
 When you right-click a record or artifact and select **Configure**, the metadata editor now opens in ServiceNow Studio.
 
--   **[Automatic upgrades for Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/install-build-agent.md)**
+-   **Automatic upgrades for Build Agent**
 
 Build Agent now supports automatic upgrades through the ServiceNow Store. Instances running Australia Patch 5 and later releases or Zurich Patch 12 and later releases that have Build Agent installed receive automatic upgrades when a new version is published.
 
 
--   **[Automatic test maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/build-agent-testing.md)**
+-   **Automatic test maintenance**
 
 Test Agent in Build Agent automatically updates or removes Automated Test Framework tests that are outdated as your application changes, keeping the test suite aligned with the current state of your code. UI tests don't run automatically during updates, because they can take additional time and interrupt the development flow. To automatically keep tests synced, you must enable the new **Sync ATF tests with app** setting in Build Agent.
 
--   **[UI testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/build-agent-testing.md)**
+-   **UI testing**
 
 Generate comprehensive UI tests for applications you build with Build Agent. UI testing extends the existing functional test capability to cover browser-level interactions, such as multi-step page navigation flows. To run UI tests automatically on update, you must enable the **Run UI ATF tests** setting in Test Agent.
 
 **Note:** You can also prompt Build Agent to generate UI tests.
 
--   **[Get prompted to test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/build-agent-testing.md)**
+-   **Get prompted to test**
 
 After each development action, Build Agent can prompt you to generate ATF tests for what you just built. Accept or decline the prompt at each step to keep test coverage in sync with your development work.
 
 **Note:** You must enable getting prompted to test in the Build Agent settings.
 
--   **[SDK test execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/build-agent-testing.md)**
+-   **SDK test execution**
 
 Execute ATF tests from the ServiceNow SDK. Test execution and troubleshooting were previously available only in ServiceNow Studio and the ServiceNow IDE.
 
--   **[Updated model support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ba-models-versions.md)**
+-   **Updated model support**
 
 The following new models are supported for Build Agent:
 
     -   Gemini 3.5 is now the default model for Google
     -   GPT 5.5 is now the default model for Azure OpenAI
     -   Opus 4.8
--   **[Change model version in chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ba-models-versions.md)**
+-   **Change model version in chat**
 
 Change the AI model versions in Build Agent without navigating out to the table on the ServiceNow AI Platform.
 
--   **[Define custom skills and rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ba-configure-custom-skills-rules.md)**
+-   **Define custom skills and rules**
 
 Create custom skills and rules to control how Build Agent behaves during a session.
 
     -   Custom rules are injected into the system prompt on every run, so Build Agent behaves consistently at the scope you choose.
     -   Custom skills provide internal guidelines for specific tasks. You can apply skills and rules at the instance level, application level, or user level.
--   **[Background script execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/build-agent-tools.md)**
+-   **Background script execution**
 
 Run server-side scripts as part of app-building flows in Build Agent using the new run script and rollback script tools. Before a script runs, an approval prompt shows the generated script, its stated intent, and the target application scope so you can review the operation before approving.
 
--   **[Conversation handoff to Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/access-build-agent.md)**
+-   **Conversation handoff to Build Agent**
 
 Build applications by receiving context from ServiceNow Otto \(formerly Now Assist\) conversations and continuing work in Build Agent without repeating yourself. The full conversation transcript is attached to the session so you can reference details beyond the summary. Conversation handoff is available only in ServiceNow Studio.
 
--   **[Use Build Agent in a sandbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/access-build-agent.md)**
+-   **Use Build Agent in a sandbox**
 
 Use Build Agent in Developer Sandboxes to isolate development and provide admin access to developers in a protected environment.
 
--   **[View MCP tools per server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/accelerate-design-to-development-with-figma-mcp-server.md)**
+-   **View MCP tools per server**
 
 View the list of tools available on each connected MCP server in the Build Agent settings panel.
 
--   **[Knowledge base access metadata support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/build-agent-supported-metadata.md)**
+-   **Knowledge base access metadata support**
 
 Work with the knowledge base access metadata type in Build Agent.
 
 
--   **[Web search tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/build-agent-tools.md)**
+-   **Web search tool**
 
 Access public web content from Build Agent using two new search tools. Use the web search tool to find information on the public web, and use the web fetch tool to retrieve content from a URL that you supply.
 
--   **[Consolidated update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ba-update-sets.md)**
+-   **Consolidated update sets**
 
 Track changes generated by Build Agent and manual edits in update sets for checkpointing and rollback. Update sets can be merged into a single update set before deployment. All changes to your application are captured in the same scope, making it easier to review what was modified and merge updates to other environments.
 
--   **[Expanded metadata support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/build-agent-supported-metadata.md)**
+-   **Expanded metadata support**
 
 Work with more metadata types in Build Agent, which now supports connection and credential alias, data lookup, playbooks, rest message/HTTP method, and user criteria.
 
 
--   **[MCP server support in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ba-connct-mcp-server.md)**
+-   **MCP server support in ServiceNow Studio**
 
 Connect Build Agent to external MCP servers in ServiceNow Studio. Previously, MCP server connectivity was only available in the ServiceNow IDE.
 
--   **[Additional MCP server integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/accelerate-design-to-development-with-figma-mcp-server.md)**
+-   **Additional MCP server integrations**
 
 Integrate Build Agent with newly supported MCP servers.
 
--   **[Access update sets from Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ba-update-sets.md)**
+-   **Access update sets from Build Agent**
 
 View update sets created by Build Agent from within the chat panel in ServiceNow Studio. Each checkpoint includes a button that opens the relevant update set in a new tab.
 
--   **[UI validation tool in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/build-agent-tools.md)**
+-   **UI validation tool in ServiceNow Studio**
 
 Validate user interface output during app creation with the UI validation tool in Build Agent, available in ServiceNow Studio.
 
--   **[Search retrieval tool support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ba-about-creating-in-app-agents.md)**
+-   **Search retrieval tool support**
 
 Use the Search retrieval tool to enable agents to fetch and present relevant information from configured data sources in response to user queries. Agents can retrieve knowledge articles, catalog items, and other indexed content directly within the agentic workflow, reducing the need for users to navigate to separate search interfaces.
 
--   **[Support for more file types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ba-supported-file-types.md)**
+-   **Support for more file types**
 
 Upload more types of files to Build Agent to describe what you want to build, including images, documents, and text and code files.
 
 
--   **[Expanded metadata support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/build-agent-supported-metadata.md)**
+-   **Expanded metadata support**
 
 Work with more metadata types in Build Agent, which now supports assignment rules, forms, and data policies.
 
 
--   **[Additional metadata support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/build-agent-supported-metadata.md)**
+-   **Additional metadata support**
 
 Work with more metadata types in Build Agent, which now supports email.
 
 
--   **[Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/build-agent-in-servicenow-studio.md)**
+-   ****
 
 Access Build Agent in ServiceNow Studio to build apps conversationally in a consolidated development environment.
 
--   **[Improved LLM support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/exploring-build-agent.md)**
+-   **Improved LLM support**
 
 Use AWS Claude Opus 4.6 and Sonnet 4.5 in Build Agent for contextual conversations.
 
--   **[New metadata support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/build-agent-supported-metadata.md)**
+-   **New metadata support**
 
 Work with more metadata types, as Build Agent now supports the following:
 
@@ -1847,21 +1861,21 @@ Business Continuity Management
 
 </td><td>
 
--   **[Map recovery tasks and event tasks to the phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/mapping-recovery-tasks-to-phases.md)**
+-   **Map recovery tasks and event tasks to the phases**
 
 Set up phases for plans and events using the administrative setup. The base version of the application includes a set of default active phases, provided as seed data.
 
 The logical grouping of tasks into phases enables clear progression tracking for exercises and crisis events, offering flexible execution and task completion requirements for phase transitions.
 
--   **[View and generate PDFs of approved plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/mobile-bcm.md)**
+-   **View and generate PDFs of approved plans**
 
 View the continuity and recovery plans directly from your mobile devices. BCM managers can generate PDFs of the approved plans, which BCM planners can then view and download, streamlining access to critical information on the go.
 
--   **[Verify asset recovery levels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/create-new-impact-analysis-reference-form-bcm-uib-ws.md)**
+-   **Verify asset recovery levels**
 
 Track event assets and verify the achieved recovery level of the impacted assets of a task in the **Asset recovery level** field. Completing specific tasks now automatically updates the corresponding event asset state. Assets are marked as **Partially Recovered** when they’re operational enough to support dependent assets, and **Recovered** when they’re fully functional. This change improves visibility into operational readiness and enables coordinators to identify when dependent assets can safely start their recovery process. Color-coded recovery levels of the assets offer visual cues for various recovery progress levels.
 
--   **[Use finalized RTO and RPO in BIAs, Plans, and Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/create-bia-in-uib-ws.md)**
+-   **Use finalized RTO and RPO in BIAs, Plans, and Events**
 
 Use the **Finalized RTO** field to calculate an accurate Recovery Time Objective \(RTO\) for comparison, using values from the **Recovery time objective** and **Adjusted RTO** fields.
 
@@ -1869,28 +1883,28 @@ Similarly, use the **Finalized RPO** field to calculate an accurate Recovery Poi
 
 A fix script now populates finalized RTO and RPO values in existing Business Impact Analyses \(BIAs\), ensuring consistency across all records.
 
--   **[Configure recovery tasks for exercises, events, or both](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/create-new-recovery-task-form.md)**
+-   **Configure recovery tasks for exercises, events, or both**
 
 Configure recovery tasks with event-specific scopes \(exercises, actual crises, or both\). When a recovery event is initiated, the system automatically filters tasks by event type: ensuring exercises include necessary setup and validation, and actual crises focus exclusively on actionable recovery work.
 
--   **[Auto-calculate the Planned end date on activated plans and event tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/create-exercise-event-ref-form.md)**
+-   **Auto-calculate the Planned end date on activated plans and event tasks**
 
 Enter the Planned start date for exercises and events. The system then calculates the Planned start and end dates for activated plans and event tasks automatically based on the **Planned duration** field and dependencies.
 
--   **[Use hierarchical structure in the associated plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/add-related-plans-recovery-teams-bcp-uib-ws.md)**
+-   **Use hierarchical structure in the associated plans**
 
 Use the hierarchical structure in the associated plans, establishing clear upstream-downstream relationships. This hierarchy confirms that only relevant downstream plans are brought into scope. The system automatically handles cyclic dependency checks, confirming that tasks from downstream plans aren’t added as dependencies in the upstream plans.
 
--   **[Use Gantt chart in the Hierarchy view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/managing-enhanced-hierarchical-view-in-event-tasks.md)**
+-   **Use Gantt chart in the Hierarchy view**
 
 Use the Gantt chart in the Hierarchy view to visualize the planned and actual timelines of event tasks. Task dependencies can now be created directly on the Gantt chart, provided the dependency points to a task scheduled ahead in time. Plans are automatically sorted based on the planned start time of their earliest event task, verifying a clear chronological view.
 
 
--   **[Exclude non-recovery tasks from time calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/add-a-recovery-task.md)**
+-   **Exclude non-recovery tasks from time calculation**
 
 Exclude specific recovery or event tasks from time calculations by using the **Do not include in time calculation** field within recovery or event tasks.
 
--   **[Generate reports in a Microsoft Word format using Document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/integrating-document-designer-with-bcm.md)**
+-   **Generate reports in a Microsoft Word format using Document designer**
 
 Create standardized reports for business impact analyses \(BIAs\), business continuity plans \(BCPs\), and events by using predefined Microsoft Word templates. To use these templates, first establish a template relationship registry and install the necessary add-in to design and configure the templates.
 
@@ -1898,23 +1912,23 @@ Then, import the relevant documents and customize their content, including the t
 
 You can control whether to retain or replace the existing report attachments by configuring the **sn\_bcm.retain\_report\_attachments** system property.
 
--   **[Avoid duplicate event tasks by grouping similar event tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/identifying-running-dup-tasks-once.md)**
+-   **Avoid duplicate event tasks by grouping similar event tasks**
 
 Group similar event tasks during recovery events. The system automatically designates the first event task as the original task. When the original task is in progress, the remaining tasks are placed in the **On Hold** state. After the original task is closed, the other tasks in the group are automatically marked in the **Closed duplicate** state.
 
 Tasks with internal dependencies can't be part of the same group. You can also unlink the tasks from their groups, so that the system helps to prevent cyclic dependencies within a group.
 
--   **[Manage action items for ad-hoc tasks and threat assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/create-action-items-based-on-smart-assessments.md)**
+-   **Manage action items for ad-hoc tasks and threat assessments**
 
 Create action items for ad-hoc tasks and send out threat assessments that leverage Smart Assessment during exercises and crises. You can create action items for tasks that support recovery efforts, such as communicating with stakeholders, leadership, or vendors, without directly restoring an asset. Use these action items to conduct threat assessments with the Smart Assessment Engine before, during, or after a recovery event.
 
 To enable task creation during an ongoing event, the Smart Assessment template must include both an event and an action item within its scope.
 
--   **[Revert an archived BIA or BCP to the Draft state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/create-bia-in-uib-ws.md)**
+-   **Revert an archived BIA or BCP to the Draft state**
 
 Revert an archived business impact analysis \(BIA\) or business continuity plan \(BCP\) to its **Draft** state by selecting the **Edit** button on the form. By revising previously completed BIAs, you save time by using a BIA that's already been created.
 
--   **[Optimized Crisis map interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/manage-alerts-in-crisis-map-interface-uib-ws.md)**
+-   **Optimized Crisis map interface**
 
 The Crisis map interface has been optimized to handle over 10,000 resources and more than 1,000 alerts without performance issues.Customize the display of impacted areas for alerts by using custom shapes or specifying a custom radius. To edit an impacted area, simply select its corresponding card and make the necessary adjustments to the shape. If needed, you can also revert the changes made to an impacted area directly within the map interface.
 
@@ -1931,7 +1945,7 @@ Create configurable products and generate the associated product offering bluepr
 
 -   **[CPQ Configurator interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/using-servicenowcpq.md)**
 
-Enable agents and customers to configure customizable products using the CPQ Configurator embedded in Sales Customer Relationship Management workflows. The configurator is used in both the CRM Workspace and the Business Portal.
+Enable agents and customers to configure customizable products using the CPQ Configurator embedded in Sales Customer Relationship Management workflows. The configurator is used in both the CSM Configurable Workspace and the Business Portal.
 
 
 </td></tr><tr><td>
@@ -2056,7 +2070,7 @@ Career Conversations
 
 </td><td>
 
--   **[Streamline feedback collection and review using the Employee feedback collection AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-feedback-agent.md)**
+-   **Streamline feedback collection and review using the Employee feedback collection AI agent**
 
 As an admin, create reusable feedback templates using the Platform Surveys tool allowing managers to select and preview templates when requesting feedback, and help them quickly view a summarized snapshot of a reportee’s recent feedback with easy navigation to the feedback page in Manager Hub.
 
@@ -2083,7 +2097,7 @@ Create templates that define the repeatable tasks and records that need to be cr
 
 -   **[Customer Service Case Types - Enable the service selector to launch record producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-service-definition-catalog-items.md)**
 
-Use the Service Portal record producers when your agents are creating cases in CRM Workspace. Agents can select the service definitions from the case type selector and launch the record producers.
+Use the Service Portal record producers when your agents are creating cases in CSM Configurable Workspace. Agents can select the service definitions from the case type selector and launch the record producers.
 
 
 -   **[Add multiple entitlements to a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/add-entitlement-to-case.md)**
@@ -2120,7 +2134,7 @@ Classic Workflow
 
 </td><td>
 
--   **[Restrict access to Workflow Editor with a new role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/r_WorkflowRoles.md)**
+-   **Restrict access to Workflow Editor with a new role**
 
 Grant access to the Workflow editor by giving users the snc\_required\_script\_writer\_permission role.
 
@@ -2320,25 +2334,25 @@ Common Core
 
 </td><td>
 
--   **[Report a GRC issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/report-a-grc-issue.md)**
+-   ****
 
 The report a GRC issue AI agent is now available in the Employee Center, enabling employee users to report issues through a guided conversational experience. As users respond to prompts, the agent structures the issue and recommends relevant controls, entities, and policies based on the input provided. The AI agent helps ensure that the issue is well-defined and enriched with contextual information before it's submitted.
 
--   **[Entity-based record access rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/continuous-monitoring-of-entity-based-access.md)**
+-   ****
 
 Maintain seamless access for users and groups referenced in record fields when entity-based access restrictions are applied. This feature enables users and groups referenced in a record’s user or group fields to access the records they are associated with. By configuring record-level user access at the table or record type level, it reduces administrative overhead and streamlines EBA adoption with minimal disruption.
 
--   **[Functional domain bulk update](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/functional-domain-bulk-update.md)**
+-   ****
 
 Apply or remove domain-specific tags across multiple records at once. This streamlines workspace management by letting you quickly filter and organize records. For example, you can exclude non-privacy-tagged items in the Privacy Workspace for a more focused, efficient view.
 
--   **[Entity record page enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/entities-in-risk-ws.md)**
+-   **Entity record page enhancements**
 
 The Entity type and Downstream Risks \(now renamed as Risks\) related lists on the Entity record page have been converted to UIB pages, providing a more intuitive and modern interface. The Downstream Risks related list has been moved to the dedicated Risks page, featuring organized tabs for Directly related risks, Suggested risks, and All risks.
 
 **Note:** You may experience issues with custom actions that emit events on the Risks or Entity type related lists on the Entity record page. To ensure a smooth transition and adopt these changes, refer to [KB2593527](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2593527) for detailed guidance.
 
--   **[My tasks in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/configuration-of-tasks.md)**
+-   ****
 
 Easily manage which configurations appear on the My Tasks page by marking them Active or Inactive. This gives you flexibility to enable or disable configurations without manual intervention, simplifying administration and improving control. An Active/Inactive flag has also been introduced in the My Choice table for enhanced configuration management.
 
@@ -2360,7 +2374,7 @@ The **Add** button on the **AI agents** tab is added as a drop-down providing di
 Configure the Access Control Lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
 
--   **[Entity based record access update utility guided experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/entity-based-access-playbook.md)**
+-   **Entity based record access update utility guided experience**
 
 Apply entity-based access \(EBA\) restrictions at the record level by using guided assistance in the entity based record access update utility. Guided assistance consists of a four-step process:
 
@@ -2370,11 +2384,11 @@ Apply entity-based access \(EBA\) restrictions at the record level by using guid
     4.  Review the selected records before you execute and initiate the update
 See the execution logs for a status after each update. You can get the details about the impacted records, applied scopes, and outcomes.
 
--   **[Entity based record access rules to secure new records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/continuous-monitoring-of-entity-based-access.md)**
+-   **Entity based record access rules to secure new records**
 
 Configure entity-based record access rules on record types to ensure that access restrictions are applied automatically to secure new records or modified records related to entities with active EBA configurations.
 
--   **[Deactivation of entity-based access configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/deactivating-entity-based-access.md)**
+-   **Deactivation of entity-based access configuration**
 
 Deactivate the entity-based access configuration, enabling the system to automatically assess the records that it impacts. If entity-based access configuration is restricting a record, the access restrictions are removed. If other configurations also apply to the record, the restrictions remain in place and only the selected configuration is deactivated.
 
@@ -2644,14 +2658,14 @@ Enhancing the OSCAL import experience, the OSCAL import playbook now allows you 
     -   **Group Mapping**: Automatically map groups to existing ServiceNow groups based on exact name matches, with the option to manually adjust mappings.
     -   **Roles and Responsibilities**: Populate relevant package fields with roles and responsibilities.
 
--   **[Overlay enhancement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/prepare-auth-pkg.md)**
+-   **Overlay enhancement**
 
 Apply policies as an overlay in an authorization package to determine how the control objectives in the policy impact the baseline. This can be done in the following ways:
 
     -   Addition: Create control objectives to address specific requirements not covered in the baseline.
     -   Subtraction: Move existing control objectives to **Not Applicable**.
     -   Customization: Create, move existing control objectives to not applicable, or skip control objectives.
--   **[OSCAL enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/oscal-cam-ws.md)**
+-   **OSCAL enhancements**
 
 Use the OSCAL import playbook to follow a user-friendly, step-by-step approach for importing OSCAL models. Using the playbook, you can:
 
@@ -2676,7 +2690,7 @@ Contract Management Pro for Legal Service Delivery
 
 </td><td>
 
--   **[Contract amendments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/snlc-amend-req-landing.md)**
+-   ****
 
 Contract amendments enable you to formally change, add, or remove terms in an existing contract without replacing the entire agreement. The Amendment feature enhances contract lifecycle management by enabling you to initiate, track, and finalize amendments to existing contracts with audit trail.
 
@@ -2737,25 +2751,25 @@ Creator Studio
 
 </td><td>
 
--   **[Customizable email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/crs-admining-notifications.md)**
+-   **Customizable email notifications**
 
 Promote consistent branding by having admins create custom email notifications and templates, which are sent when users request something from an app or the request was changed or closed. In support, several of the standard email notification activities are now in the public scope, and a new Configure email notifications item is available in Guided Setup.
 
--   **[New playbook activity to update record fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/creator-studio-add-activities-automation.md)**
+-   **New playbook activity to update record fields**
 
 Enable apps to change several fields automatically on the submitted record using the new Update submission playbook activity. In support, a new Configure playbook activities item is available in Guided Setup.
 
--   **[New question types for forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/creator-studio-form-elements-ref.md)**
+-   **New question types for forms**
 
 Two new question types are available for forms: Duration and Attachment.
 
     -   Duration enables users to specify a length of time.
     -   Attachment enables users to upload an attachment as a question. The **Attachment** field differs from the **Add attachment** option for the form, because the Attachment question type can be used in dynamic behavior questions.
--   **[Granular configuration admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/roles-creator-studio.md)**
+-   **Granular configuration admin roles**
 
 Several new granular admin roles enable developers to complete administrative configuration tasks without requiring the full admin role.
 
--   **[Delete unpublished forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/crs-delete-form.md)**
+-   **Delete unpublished forms**
 
 You can now delete unpublished forms from Creator Studio, which completely removes the record for the form from the ServiceNow AI Platform.
 
@@ -3075,29 +3089,29 @@ Developer Sandboxes
 
 </td><td>
 
--   **[Exploring Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/exploring-sandboxes.md)**
+-   ****
 
 View the total, available, and allocated sandboxes in your instance by using the Sandbox Management home dashboard. The dashboard also displays information about each sandbox, including the status, data utilization, owner, when the sandbox was last accessed, and when the sandbox was allocated.
 
--   **[Using sandbox templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/create-sandbox-template.md)**
+-   ****
 
 Enable your delegated developers to reuse the data so that they can test their changes without manually inputting the data every time.
 
--   **[Create a Data Generation Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/create-data-generation-profile.md)**
+-   ****
 
 Enable your customers to generate the data for testing within the context of developer sandboxes, but also independently of sandboxes.
 
 **Note:** Developer Sandboxes can't copy all the instance data. Data generation profiles enable a statistical sampling of data from selected tables with curated mappings to populate the sandbox with the data needed for building an application.
 
--   **[Allocate a sandbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/allocating-sandboxes.md)**
+-   ****
 
 Allocate the sandboxes that were created to your development teams.
 
--   **[Retire Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/retire-sandboxes.md)**
+-   ****
 
 Retire outdated sandboxes to make room for the new sandboxes in your instance.
 
--   **[Automatically backed up update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/dev-sbx-clone-upgrade-info.md)**
+-   **Automatically backed up update sets**
 
 If you install Developer Sandboxes on an instance after Zurich Patch 5, update sets are automatically backed up when the instance is upgraded.
 
@@ -3352,44 +3366,44 @@ Employee Center
 
 </td><td>
 
--   **[Check latest company news and events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/check-company-newsevent-ai-agent-for-emp-exp.md)**
+-   **Check latest company news and events**
 
 Use the **Company News and Events AI Agent** to enable employees to check their company-related news and any upcoming events using the Now Assist in Virtual Agent.
 
 
--   **[ServiceNow Otto for Employee Experience plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assisit-employee-exp.md)**
+-   **ServiceNow Otto for Employee Experience plugin**
 
 Enable employees to resolve and approve tasks easily through chat conversation using the ServiceNow Otto for Employee Experience plugin with Now Assist in Virtual Agent.
 
--   **[Browser Extension for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/ecbe-intro.md)**
+-   ****
 
 View and manage content and other company resources through the Browser Extension for Employee Center. Access the extension as a pop-up window, or select the Browser Extension for Employee Center icon on the portal to open it in a new page.
 
--   **[Enhanced Requests Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/my-requests-update-intro.md)**
+-   ****
 
 Enhance the My Requests experience with features like easy segmentation, filtering, and keyword search. These features create a dynamic and scalable experience on the Employee Center portal for your admins, service, process, and experience owners.
 
--   **[Portal performance optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/ec-load-experience-optimization.md)**
+-   ****
 
 Control how your portal pages load, such as all at once or as needed, by using the new deferred and lazy load preferences. Lazy loading is enabled by default and displays content dynamically, reducing page load time.
 
--   **[High-traffic experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/ec-load-high-traffic.md)**
+-   ****
 
 Communicate the information about heavy usage and slower network conditions during high usage scenarios, such as live events and major announcements.
 
--   **[Taxonomy and connected content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/track-new-content.md)**
+-   ****
 
 Streamline the cleanup and syncing of outdated or invalid content, helping admins maintain a high-quality, well-performing portal with less manual effort.
 
--   **[Mega menu load](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/config-mega-menu-async-load.md)**
+-   **Mega menu load**
 
 Load the Mega Menu in the background to speed up home page interactivity and enable your users to engage with visible content faster during first-time visits.
 
--   **[Notifications for Employee Center enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/notifications-ec.md)**
+-   **Notifications for Employee Center enhancements**
 
 Get Notifications for Employee Center in Content engagement that is available with Employee Center Pro. For more information, see [Employee Center Pro release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/employee-center-pro-rn.md).
 
--   **[Quick start tests for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/quick-start-tests-employee-center.md)**
+-   **Quick start tests for Employee Center**
 
 After upgrades and deployments of new applications or integrations, run quick start tests to verify that Employee Center works as expected. If you customized Employee Center, copy the quick start tests and configure them for your customizations.
 
@@ -3400,22 +3414,22 @@ Employee Center Pro
 
 </td><td>
 
--   **[Portal performance optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/ec-load-experience-optimization.md)**
+-   ****
 
 Communicate information about heavy usage and slower network conditions during high usage scenarios, such as live events and major announcements.
 
--   **[Notifications for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/notifications-ec.md) enhancements**
+-   ** enhancements**
 
 Get the Notifications for Employee Center feature in Content engagement. Add reactions and comments to published news articles to help improve user involvement.
 
--   **[Integrated experience and service feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/ex-fdback-ovrvw.md)**
+-   ****
 
 Configure features flexibly as an admin and submit detailed experience feedback as an employee with the Integrated experience and Service feedback enhancements. With the enhancements, you can do the following:
 
     -   Use new themes for experience feedback.
     -   Add comments in addition to a rating when submitting experience feedback.
     -   Review submitted feedback on the Feedback Analytics Dashboard.
--   **[Quick start tests for Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/quick-start-tests-employee-center-pro.md)**
+-   **Quick start tests for Employee Center Pro**
 
 After upgrades and deployments of new applications or integrations, run quick start tests to verify that Employee Center Pro works as expected. If you customized Employee Center Pro, copy the quick start tests and configure them for your customizations.
 
@@ -3426,72 +3440,72 @@ Employee Slate
 
 </td><td>
 
--   **[Tasks and requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/emp-slate-inbox.md)**
+-   ****
 
 Manage long task and request lists using date-range filters for requests and due date, task type, and sort options for tasks, and apply or clear filters conversationally using chat. Use the Now sidekick to assist in handling the tasks and requests in split view.
 
--   **[Browse and topic pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/eslate-topic-pages.md)**
+-   ****
 
 Activate the AIX menu item to surface Explore section menu items on topic pages. Customize the Explore page header, topic page header, and widget head text directly in Admin editor.
 
 
--   **[Conversation-first experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/eslate-conversation-first.md)**
+-   ****
 
 Replaces traditional browse navigation with an AI-powered search bar and personalized canvas, supporting service delivery across departments.
 
--   **[EmployeeWorks home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/emp-slate-home-page.md)**
+-   ****
 
 Provides a homepage centered on an AI-powered search bar with five configurable widgets: To-dos, Employee Communications, Trending Content, Quick Links, and Holiday Calendar.
 
--   **Interactive split view [EmployeeWorks home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/emp-slate-home-page.md)**
+-   **Interactive split view **
 
 Displays content alongside the conversation for seamless interaction with forms, articles, and tasks.
 
--   **[Personalized canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/eslate-personalized-canvas.md)**
+-   ****
 
 Employees can drag, drop, resize, and remove widgets; administrators can lock widgets to keep critical information visible.
 
--   **[Tasks and requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/emp-slate-inbox.md)**
+-   ****
 
 Consolidates tasks, requests, approvals, and to-dos from multiple departments and external applications, with AI summaries from Now Assist.
 
--   **[Employee org chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/emp-slate-orgchart.md)**
+-   ****
 
 Displays organizational hierarchies with employee details and supports contextual AI questions through Now Assist.
 
--   **[Employee communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/eslate-employee-comms.md)**
+-   ****
 
 Displays targeted banner announcements on the homepage, linked to knowledge articles or other resources.
 
--   **Visual content authoring [EmployeeWorks home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/emp-slate-home-page.md)**
+-   **Visual content authoring **
 
 Provides a content library accessible from the profile icon where authors can create, filter, and publish announcements, with Now Assist generating content from a prompt.
 
--   **[EmployeeWorks notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/emp-slate-notifications.md)**
+-   ****
 
 Delivers 14 pre-configured notification types for approvals, tasks, and requests, with support for bulk actions and grouping.
 
--   **[Configure branding and theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/eslate-config-admin-console.md)**
+-   ****
 
 Applies a logo, primary color, and accent color consistently across the portal, Moveworks, and Now Assist experiences, with a live preview panel.
 
--   **[AI-powered widget builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/eslate-ai-widget-builder.md)**
+-   **AI-powered widget builder**
 
 Builds custom widgets through a prompt-driven interface using a model context protocol \(MCP\) with built-in design components and accessibility support.
 
--   **[Analytics and reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/eslate-analytics-reporting.md)**
+-   ****
 
 Tracks session details, page visits, and widget interactions in a dedicated Employee Slate destination within User Experience Analytics. Measures announcement impressions, clicks, and top-performing content through the communications analytics dashboard in User Experience Analytics.
 
--   **[Conversation-first catalog and knowledge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/eslate-conversational-catalog.md)**
+-   ****
 
 Integrates search results directly into chat responses, with a side panel for filtering and exploration across all configured connectors. Chat pre-fills catalog form fields from conversation context and opens forms in split view for review and completion.
 
--   **[Moveworks enterprise search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-slate-moveworks.md)**
+-   **Moveworks enterprise search**
 
 Searches documents across enterprise systems including SharePoint, OneDrive, Google Drive, Slack, and Outlook through the Moveworks assistant.
 
--   **[Calendar and schedule management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/eslate-calendar-schedule.md)**
+-   ****
 
 Provides time-aware information through calendar management with My Calendar widget in Canvas displaying the meetings from your schedule. And the Upcoming Holiday widget displays the next relevant holiday on the home page.
 
@@ -3890,7 +3904,7 @@ Retrieve searchable content and metadata from your Workday source system.
 
 Retrieve searchable content and metadata from your Zoom source system.
 
--   **[Configure user permission settings for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/configure-user-mapping-settings-external-content-connector.md)**
+-   **[Configure user mapping settings for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/configure-user-mapping-settings-external-content-connector.md)**
 
 Specify the source system and User \[sys\_user\] table fields to examine for matches when an external content connector maps source system users to your ServiceNow AI Platform users.
 
@@ -4053,66 +4067,66 @@ Flows, subflows, and actions in Workflow Studio
 
 </td><td>
 
--   **[Support Now LLM Long Term Stable models \(LTS\) with Flow generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/exploring-flow-generation.md)**
+-   **Support Now LLM Long Term Stable models \(LTS\) with Flow generation**
 
 Support the Now LLM Long Term Stable models \(LTS\) for Flow generation.
 
--   **[Support Now LLM Long Term Stable models \(LTS\) with Flow summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/flow-summarization.md)**
+-   **Support Now LLM Long Term Stable models \(LTS\) with Flow summarization**
 
 Support the Now LLM Long Term Stable models \(LTS\) for Flow summarization.
 
--   **[Use an AI agent action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/use-an-ai-agent-action.md)**
+-   ****
 
 Use flow data to run an AI agent and configure the expected agent output for use later in the flow.
 
 
--   **[Use conversational subflows and actions by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/conversational-subflows.md)**
+-   **Use conversational subflows and actions by default**
 
 Use conversational subflows and actions when you install any Now Assist product. This skill is active by default.
 
 
--   **[Create a skill for conversational subflows and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/create-conversational-subflow-skill.md)**
+-   **Create a skill for conversational subflows and actions**
 
 Create a skill for the conversational subflow and action and make the skill discoverable in conversations. You can have multiple skills for the same subflow or action.
 
--   **[Enhancements in the subflow and action conversational settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/configure-subflow-conversation-settings.md)**
+-   **Enhancements in the subflow and action conversational settings**
 
 To make the error messages more useful in a conversation, you can show specific error messages from the subflow or action rather than showing generic error messages. Additionally, if you override an input with reference, you can apply a filter to limit the number of records in the Reference field.
 
--   **[Use your preferred LLM to generate descriptions for subflow or action skill, input, and output](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/configure-llm-for-conversational-subflow.md)**
+-   **Use your preferred LLM to generate descriptions for subflow or action skill, input, and output**
 
 Leverage generative AI to generate descriptions for the subflow or action skill, inputs, and outputs. You can configure a default LLM to generate the descriptions.
 
 
--   **[Create and manage external event sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/manage-external-event-sources.md)**
+-   **Create and manage external event sources**
 
 Create an external event source on your ServiceNow instance that listens to events occurring in an application or system outside of the ServiceNow AI Platform®. Based on the external event source, you can define one or more external trigger definitions in your instance and then associate the external trigger definitions with the external event source. When an event that you specified in the external trigger definition occurs, the external trigger definition executes one or more flows. You can update or remove external event sources that you create.
 
--   **[Create a domain-separated saved external trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/create-saved-external-trigger.md)**
+-   **Create a domain-separated saved external trigger**
 
 Create a domain-separated saved external trigger. Configurations that you make to the trigger are auto-saved. After the trigger is published, you can edit only the **Label** field values.
 
--   **[Create a reusable scheduled trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/create-scheduled-trigger.md)**
+-   **Create a reusable scheduled trigger**
 
 Create a scheduled trigger that starts your flow when you need. Use the trigger across your flows.
 
--   **[Make a flow wait for an email reply](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/wait-for-email-reply-action.md)**
+-   **Make a flow wait for an email reply**
 
 Pause a flow until an email reply is received to an outbound email record
 
--   **[Show subflow stages in a parent flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/show-subflow-stages-in-a-parent-flow.md)**
+-   ****
 
 Show subflow stages as part of the execution details of a parent flow.
 
--   **[Save flows, subflows, and actions automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/save-as-you-go-flows.md)**
+-   **Save flows, subflows, and actions automatically**
 
 Save flows, subflows, and actions automatically as you work on them.
 
--   **[View flow history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/flow-history.md)**
+-   **View flow history**
 
 View and manage the history of a flow. See past configurations of a flow to copy, restore, or remove them.
 
--   **[View subflow history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/subflow-history.md)**
+-   **View subflow history**
 
 View and manage the history of a subflow. See past configurations of a subflow to copy, restore, or remove them.
 
@@ -4141,7 +4155,7 @@ Access the Gen AI log \[sys\_generative\_ai\_log\] table to gain insights for de
 
 Track the enhanced AI asset inventory through AI Control Tower using new metadata fields in the Model \[sys\_generative\_ai\_model\_config\] and Prompt \[sys\_generative\_ai\_config\] tables. Gain better visibility into AI asset status and life-cycle details, such as retirement dates.
 
--   **[Long-Term Stable model for generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/long-term-stable-models.md)**
+-   **Long-Term Stable model for generative AI**
 
 Promote stability and adoption for entitled users with a Long-Term Stable \(LTS\) model. The LTS model provides regulatory alignment, predictable behavior, and life cycle stability to integrate GenAI with confidence.
 
@@ -4183,7 +4197,7 @@ HR Multi Instance Integration
 
 </td><td>
 
--   **[HR Multi Instance Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/multi-instance-int.md)**
+-   ****
 
 Partners and service providers for HR service fulfillment often are running their own instance of HR Service Delivery. HR Multi Instance Integration provides inter-instance communication and hybrid HR services with fulfillment in different instances through the following capabilities:
 
@@ -4290,23 +4304,23 @@ Hiring
 
 </td><td>
 
--   **[Create a job requisition as a hiring manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/request-req-hm.md)**
+-   ****
 
 As a hiring manager, request a job requisition for a vacancy in your organization that you want to fill.
 
--   **[Tracking a job requisition in the Hiring tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/view-status-my-request.md)**
+-   ****
 
 View the status and details of a job requisition, compare applications, and perform other actions as needed.
 
--   **[Tracking an application record from the Hiring tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/application-record-details-hiring.md)**
+-   ****
 
 Track an application on a job requisition, provide recommendations for the application, monitor interviews and feedback, and more.
 
--   **[Collaborate with the recruiter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/collab-recruiter.md)**
+-   ****
 
 Engage with recruiters to collaborate and identify what needs your immediate attention, helping you manage job requisitions more effectively.
 
--   **[View hiring content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/view-hiring-content.md)**
+-   ****
 
 Refer to the various hiring materials available under the Hiring tab to get a better understanding of the hiring policies and processes.
 
@@ -4475,7 +4489,7 @@ Use common tools to use with the ITSM MCP Server.
 For example:
 
     -   Answer structured natural language questions about ITSM data, including details on incidents, change requests, and active catalog items using `itsm_knowledge_graph`.
-    -   Approve or reject your oldest pending approval for a change or request items using `task_approval_decision`.
+    -   Approve or reject your oldest pending approval for a change request or an incident using `task_approval_decision`.
     -   Get the authenticated user's current session time zone and the current date and time in that time zone using `get_session_timezone`.
 
 </td></tr><tr><td>
@@ -4697,11 +4711,11 @@ Configure a delay for parallel loading in custom data sources. When the data sou
 
 AI agents that implement different agentic workflows are available for various spokes. Use these spoke-specific AI agents to execute agentic workflows.
 
--   **[Save draft, publish, update external trigger definition, and support domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/create-saved-external-trigger.md)**
+-   **Save draft, publish, update external trigger definition, and support domain separation**
 
 The external trigger definition is updated to match the trigger builder so that the external trigger definition supports the saving of draft, publishing, updating external trigger definition, and supporting domain separation.
 
--   **[Create and manage external event sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/manage-external-event-sources.md)**
+-   **Create and manage external event sources**
 
 Define and manage custom trigger definitions after creating external event sources.
 
@@ -4759,7 +4773,7 @@ Configure JSON-based context inputs in a context to populate accurate recommenda
 
 -   **[Recommended Actions - Enhanced KB article sharing for Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/ra-csm-guidances-attach-share-article.md)**
 
-Identify the Knowledge Base \(KB\) articles that are not accessible to the case requester with the help of a Lock icon. In the recommendations on the contextual side panel of the CRM Workspace, a Lock icon on a recommendation card denotes that the recommended KB article cannot be accessed by the case requester.
+Identify the Knowledge Base \(KB\) articles that are not accessible to the case requester with the help of a Lock icon. In the recommendations on the contextual side panel of the CSM Configurable Workspace, a Lock icon on a recommendation card denotes that the recommended KB article cannot be accessed by the case requester.
 
 -   **[Process Mining - SLA breach analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/csm-integration-po.md)**
 
@@ -4776,7 +4790,7 @@ Interview management
 
 </td><td>
 
--   **[Substitute yourself as an interviewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/substitute-interviewer-self.md)**
+-   ****
 
 Substitute yourself in interviews when you cannot attend it, to eliminate the time and effort of offline coordination. Initiate the substitution directly from the calendar invite or the application record page in Employee Center.
 
@@ -4785,47 +4799,47 @@ Substitute yourself in interviews when you cannot attend it, to eliminate the ti
 Proactively monitor interview health, identify issues, and prioritize resolutions. A configurable, extensible framework is used to define scenarios that help identify items that needs recruiters' attention on an interview record.
 
 
--   **[Define your interview setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/add-interview-phase.md)**
+-   **Define your interview setup**
 
 Configure interview phases with custom names, durations, and other key parameters, and then use them to efficiently schedule interviews, enhancing transparency and saving time.
 
--   **[Request applicant to share scheduling preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/request-applicant-availability.md)**
+-   ****
 
 Request applicants on a job requisition to share their scheduling preferences to plan a seamless interview process.
 
--   **[Request interviewer to share scheduling preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/request-interviewer-availability.md)**
+-   ****
 
 Request interviewers on a job requisition to share their scheduling preferences to plan a seamless interview process.
 
--   **[Share scheduling preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/share-availability-interviewer.md)**
+-   ****
 
 As an interviewer, when requested by recruiters, share your scheduling preferences to help them schedule interviews accordingly.
 
--   **[View applicant's scheduling preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/view-applicant-availability.md)**
+-   ****
 
 View the scheduling preferences shared by applicants to schedule interviews accordingly.
 
--   **[View interviewer's scheduling preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/view-interviewer-availability.md)**
+-   ****
 
 View the scheduling preferences shared by interviewers and schedule interviews accordingly.
 
--   **[Schedule an interview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/schedule-interview.md)**
+-   ****
 
 Schedule interview with applicants on a job requisition to get started with the interview journey.
 
--   **[Manage interviews as a recruiter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/manage-interviews-recruiter.md)**
+-   **Manage interviews as a recruiter**
 
 As a recruiter or recruitment coordinator, manage interviews for a job requisition as needed. You can update the interview status, view feedback, send reminders, complete or cancel interviews, and more.
 
--   **[Manage interviews as an interviewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/manage-interviews-interviewer.md)**
+-   **Manage interviews as an interviewer**
 
 As an interviewer, view the details of all the interviews that you’re a part of and manage them as required.
 
--   **[Provide interview feedback as a recruiter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/provide-interview-feedback-recruiter.md)**
+-   **Provide interview feedback as a recruiter**
 
 As a recruiter or recruitment coordinator, provide feedback for interviews that you're a part of.
 
--   **[Provide interview feedback as an interviewer or hiring manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/provide-interview-feedback-hm-interviewer.md)**
+-   **Provide interview feedback as an interviewer or hiring manager**
 
 As an interviewer or hiring manager, provide timely and constructive feedback on the interviews in which you participate, to support application comparison and well-informed hiring decisions.
 
@@ -4836,12 +4850,12 @@ Journey designer
 
 </td><td>
 
--   **[Offboarding knowledge transfer plan generation agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/offboarding-knowledge-x-agentic-wf.md)**
+-   **Offboarding knowledge transfer plan generation agentic workflow**
 
 The offboarding knowledge transfer plan generation agentic workflow captures and organizes critical knowledge when employees leave. AI agents interact with managers to collect requirements, discover documents from the specified time period, categorize content into meaningful work areas, and facilitate employee review before sharing with successors.
 
 
--   **[Generate onboarding ramp-up agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/onboarding-ramp-up-plan-agentic-wf.md)**
+-   **Generate onboarding ramp-up agentic workflow**
 
 Use the Generate onboarding ramp-up plan agentic workflow to establish an efficient process for generating onboarding plans that are personalized for each new employee joining your organization.
 
@@ -4914,6 +4928,23 @@ L1 IT Service Desk AI Specialist
 
 </td><td>
 
+-   **[Rate trend chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/perf-overview-l1-sd-ai-spec.md)**
+
+Track the durable auto-resolve and coverage rates over time with a Rate trend chart on the AI Specialist Performance dashboard, and select a day to see its incidents.
+
+-   **[Overview funnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/perf-overview-l1-sd-ai-spec.md)**
+
+Follow incidents from assignment to eligible groups through durable resolution in a four-step funnel on the Overview tab. Drill down into each step, and use the calculation cards to see how each rate is worked out.
+
+-   **[Cross-group reassignment outcomes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/cross-group-reassignment-l1-sd-ai-spec.md)**
+
+See what your service desk team did with cross-group reassignment recommendations in a chart that shows which were adopted, overridden, or are awaiting a decision.
+
+-   **[Requester reference portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/config-tasks-l1-sd-ai-spec-sow.md)**
+
+AI Admins can set the portal that knowledge article and catalog item links open in for requesters. Links in work notes for Service Desk Agents continue to open in the platform view.
+
+
 -   **[Configure L1 IT Service Desk AI Specialist tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/config-tasks-l1-sd-ai-spec-sow.md) Response Templates**
 
 AI Admins can switch response templates between a fixed template and dynamic mode, where the AI Specialist writes activity notes, customer comments, work notes, and close notes from free-form instructions the administrator provides.
@@ -4921,6 +4952,8 @@ AI Admins can switch response templates between a fixed template and dynamic mod
 -   **[Catalog request submission and tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/catalog-variable-collection-slot-fill-l1-sd-ai-spec.md)**
 
 The L1 IT Service Desk AI Specialist can resolve incidents by submitting service catalog requests on behalf of users. The L1 IT Service Desk AI Specialist collects the required details through guided questions, submits or drafts the request, and resolves the linked incident so users can track fulfillment through the request.
+
+L1 IT Service Desk AI Specialist now uses dynamic response authoring for ZTS Action Agent and Catalog submission responses. Default instructions are provided so the agent composes each message fresh instead of relying on a fixed template.
 
 -   **[Catalog performance analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/catalog-tab-l1-sd-ai-spec.md)**
 
@@ -4944,7 +4977,7 @@ Shows how many incidents over time were reassigned because routing decision crit
 Review how the AI Specialist measures up in each quality area using automatically generated quality assessments. You can monitor scores, compare different coaching opportunities, and pinpoint areas where quality can be enhanced.
 
 
--   **[Autonomous and supervised execution modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/autonomous-supervised.md)**
+-   ****
 
 Choose from two types of execution modes for the L1 IT Service Desk AI Specialist during configuration or activation, Autonomous or Supervised. The execution mode of the L1 IT Service Desk AI Specialist determines its autonomy when performing tasks on incidents. You can change the execution mode at any time.
 
@@ -4999,13 +5032,13 @@ Legal Conflict of Interest
 
 </td><td>
 
--   **[Configure risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/lsd-coi-config-risk-fac.md)**
+-   ****
 
 The risk assessment utility evaluates conflict of interest disclosures against predefined risk factors to calculate a risk score and determine the risk level \(Low, Medium, or High\). The risk level automatically triggers the appropriate approval workflow. The utility supports three evaluation types: Condition, Subflow, and AI skill.
 
 **Note:** AI skill evaluation is available once you have installed and configured ServiceNow Otto for Legal Service Delivery \(LSD\).
 
--   **[Submit COI request using ServiceNow Otto conversational intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-lsd-convi.md)**
+-   ****
 
 Using natural language to submit a conflict of interest request from Now Assist in the Virtual Agent interface reduces the effort required to fill in form fields because details provided in natural language are automatically populated into the intake form. Achieve faster resolution due to automated risk assessment that routes requests to the appropriate approval workflow based on calculated risk scores.
 
@@ -5018,7 +5051,7 @@ Legal Hold Notification
 
 </td><td>
 
--   **[Legal hold matter management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/lg-hold-notif-landing-page.md)**
+-   **Legal hold matter management**
 
 Manage legal hold matters by submitting, updating, tracking, and closing them through a streamlined process that reduces effort and ensures organizational compliance.
 
@@ -5029,7 +5062,7 @@ Legal Matter Management
 
 </td><td>
 
--   **[Attorney-Client Privilege](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/lsd-acp-landing.md)**
+-   ****
 
 Protect sensitive legal information by marking legal matters as Privileged &amp; Confidential, helping to ensure access is restricted to only authorized stakeholders.
 
@@ -5040,7 +5073,7 @@ Legal Request Management
 
 </td><td>
 
--   **[Attorney Client Privilege](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/lmm-acp-landing.md)**
+-   ****
 
 Protect sensitive legal information by marking legal matters as Privileged &amp; Confidential, helping to ensure access is restricted to only authorized stakeholders.
 
@@ -5051,7 +5084,7 @@ Lifecycle Events
 
 </td><td>
 
--   **[Lifecycle Events logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/le-logging.md)**
+-   ****
 
 Capture events that occur in a Lifecycle Events case by enabling logging for the Lifecycle Events application. Give organization administrators the ability to view the event logs that are generated to identify errors or to acquire information about the processes that ran in a Lifecycle Events case.
 
@@ -5258,51 +5291,51 @@ Model Risk Management
 
 </td><td>
 
--   **[Manage model risks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/exploring-mrm.md)**
+-   **Manage model risks**
 
 Manage the risks associated with the use of models using the Model Risk Management application. It offers a structured approach to identify, assess, validate, and address model risks throughout the model life cycle. This approach reduces operational and compliance risks caused by inconsistent or inadequate model oversight.
 
--   **[Model Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/model-risk-workspace.md)**
+-   ****
 
 Get a comprehensive overview of all items requiring attention from Model Risk Management governance and model validators. The Model Risk Workspace gives model risk governance team and model validators a centralized location to monitor, track, and act on model-related tasks and issues. It organizes information into tabs, making it easier to prioritize tasks.
 
--   **[Request a new model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/request-new-model.md)**
+-   ****
 
 Request a new model by providing details such as the purpose, owner, model complexity, and expected outputs. It helps streamline the model onboarding process and confirms that all required information is captured upfront for the Model Governance team to review.
 
--   **[Perform model risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/perform-model-risk-assessment.md)**
+-   ****
 
 Perform model risk assessments initiated by the Model Governance team to identify and evaluate risks associated with quantitative models using the Model Risk Management application. It helps Model Owners to assess potential risks early and supports the Model Governance team in ensuring model compliance and reliability.
 
 **Note:** You can perform model risk assessment in the Initiation, Pre-deployment, and Monitor stages of a model.
 
--   **[Perform model validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/perform-model-risk-validation.md)**
+-   ****
 
 Perform model validation to assess and validate models, collect required documents, report issues, and determine whether a model is fit for use. This process confirms that models meet required standards and are ready for deployment.
 
 **Note:** You can perform model risk validation in the Pre-deployment and Monitor stages of a model.
 
--   **[Schedule assessment and validation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/schedule-assessment-and-validation-tasks.md)**
+-   ****
 
 Schedule assessments and validations for models in the Monitor stage either manually or automatically.
 
-    -   Schedule model risk assessment and validation directly from the model risk record to ensure regulatory compliance and effective risk management. For more information, refer to [Schedule assessment and validation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/schedule-assessment-and-validation-tasks.md).
-    -   Configure frequency and filter conditions in model workflow settings to create model risk assessments and validations automatically for models that meet the defined criteria. For more information, refer to [Schedule assessment and validation tasks automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/create-model-workflow-settings.md).
--   **[Reassign model assessments and validations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/reassign-a-model-risk-task.md)**
+    -   Schedule model risk assessment and validation directly from the model risk record to ensure regulatory compliance and effective risk management. For more information, refer to .
+    -   Configure frequency and filter conditions in model workflow settings to create model risk assessments and validations automatically for models that meet the defined criteria. For more information, refer to Schedule assessment and validation tasks automatically.
+-   ****
 
 Reassign a model risk assessment and validation to another stakeholder from the model risk record when the task is in progress state. It confirms that the task continues without delay when the original assignee is unavailable.
 
--   **[Copy assessment responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/copy-assessment-responses-mrm.md)**
+-   ****
 
 Copy responses from the most recent completed assessment into new assessments. Respondents can review and edit the pre-filled responses before submission to save time and ensure consistency.
 
 **Note:** You can copy responses only from model risk assessments, not from model validations.
 
--   **[Create an issue for model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/create-an-issue-for-model-risk.md)**
+-   ****
 
 Add or create model issues and their remediation actions. Capture validation findings or performance problems and follow them through to resolution.
 
--   **[Override model ratings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/override-model-ratings.md)**
+-   ****
 
 Override the risk rating and materiality tier of a model manually at any stages of its life-cycle. This helps maintain data accuracy, transparency, and governance when business context or expert judgment requires adjustments to system-calculated values.
 
@@ -5461,35 +5494,35 @@ Now Assist in Contract Management
 
 </td><td>
 
--   **[Export conversational search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cmpro-agentic-use-conv-search.md)**
+-   **Export conversational search results**
 
 Export search results from conversational search in multiple file formats. The export includes all search results and uses the columns configured in your list view. Customize the exported columns using the Personalize fields option.
 
 
--   **[Feedback for Now Assist contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cmpro-review-contract-document.md)**
+-   **Feedback for Now Assist contract analysis**
 
 Provide feedback on AI-identified non-standard and missing clauses to help improve AI accuracy over time. When reviewing contracts using Now Assist contract analysis, you can indicate whether the AI suggestions were helpful or not helpful by using the thumbs up or thumbs down feedback options. You can also provide optional qualitative feedback with comments. The feedback option is available in both the workspace and Microsoft Word add-in.
 
 The feedback provided on each clause is captured in the **Contracts Gen AI Feedback** table.
 
--   **[Automatically navigate to non-standard clauses in Microsoft Word add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cmpro-review-contract-document.md)**
+-   **Automatically navigate to non-standard clauses in Microsoft Word add-in**
 
 Locate non-standard clauses easily in Microsoft Word. The document scrolls to the relevant section using AI citations when you select a Now Assist suggestion in the Microsoft Word add-in.
 
 
--   **[Automated obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cmpro-na-reminder-agentic-wf.md#section_tgm_mt3_dhc)**
+-   **Automated obligation extraction**
 
 Use the manage contract repository agentic workflow to automatically identify and capture key contractual obligations from signed contracts and create obligation records in the contract repository. The AI agent in the manage contract repository agentic workflow uses the Now Assist Contract obligation extraction skill to extract key contractual obligations from contracts.
 
--   **[Using contract playbook to review AI-extracted obligations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cmpro-na-review-obligations.md)**
+-   **Using contract playbook to review AI-extracted obligations**
 
 Review extracted obligations in the contract playbook, with options to edit, approve, or reject each obligation. Approved obligations are added as obligation records in the contract repository while rejected obligations are deactivated.
 
--   **[Contract obligation extraction skill in Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cncore-conf-obligation-extraction.md)**
+-   **Contract obligation extraction skill in Now Assist in Contract Management**
 
 Configure and map use cases for obligation extraction skill in the AI Admin Hub console to automatically extract key contractual obligations from signed contracts. The AI agent in the manage contract repository agentic workflow uses the Now Assist Contract obligation extraction skill to extract key contractual obligations from contracts.
 
--   **[Use conversational contract search and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cmpro-agentic-use-conv-search.md)**
+-   ****
 
 Contract documents are often complex and stored across multiple formats and repositories, making keyword-based search inefficient and error-prone. The new Now Assist powered conversational search feature enables you to search contract documents using natural language and dialogue-driven queries.
 
@@ -5506,7 +5539,7 @@ The new default behavior works as follows:
 Long term stable \(LTS\) models are part of Now LLM Service and provide longer model stability windows for regulated industries. These models can integrate with tools to provide governance, monitoring, and compliance controls.
 
 
--   **[Using contract playbook to review AI-extracted metadata and contract reminder date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cmpro-na-review-ai.md)**
+-   **Using contract playbook to review AI-extracted metadata and contract reminder date**
 
 Use the playbook within a contract repository record to review the metadata extracted by the AI agents in the manage contract repository agentic workflow. You can make necessary changes to the extracted information, and submit it to update the contract repository. If the contract end date is available, the **Review contract reminders** tab appears in the playbook, enabling you to review and update the AI-calculated contract reminder date and specify recipients for contract renewal or terminations.
 
@@ -5518,7 +5551,7 @@ Google Gemini and AWS Claude are available for generative AI skills and AI agent
 
 Google Gemini and AWS Claude are available for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 
--   **[Select large language models for use cases in Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cmpro-na-manage-llm.md)**
+-   ****
 
 Select a large language model \(LLM\) provider for a contract analysis or metadata extraction use case. The selected LLM is applicable only for the specific use case and overrides the LLM selected for Now Assist in Contract Management skills.
 
@@ -6040,34 +6073,34 @@ Operational Resilience
 
 </td><td>
 
--   **[Use the interactive Node Map visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/configure-nexus-map-configurations.md)**
+-   **Use the interactive Node Map visualization**
 
 Navigate operational dependencies using the interactive Node map visualization. Configure node and edge settings in the Nexus map, then display Main node configurations directly within the Operational Resilience Workspace. The **Resilience map** action provides access to relationships for Business Services \(BS\), Application Services \(AS\), Supporting Offerings \(SO\), Business Processes \(BP\), and Dependencies modules in the map view.
 
 You can configure node dependency directions and enhance visual elements with improved colors and icons for clarity. Additionally, you can gain comprehensive insights from the summary panel and address missing 'red flags' for a complete picture.
 
--   **[Generate Word reports of action tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/gen-word-reports.md)**
+-   **Generate Word reports of action tasks**
 
 Use the Document designer to set up Microsoft Word templates and download action task reports in Digital resilience incident reporting. This functionality enables you to customize predefined templates or create templates, incorporating specific data like tables and columns from records, to generate intuitive, audit-ready reports. You can then save these reports within the ServiceNow® instance or as cloud documents in Microsoft SharePoint.
 
--   **[Report incidents associated with multiple regulations for various legal entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/reporting-for-multiple-regulations.md)**
+-   **Report incidents associated with multiple regulations for various legal entities**
 
 Report incidents or security incidents associated with multiple regulations for various legal entities in Digital resilience incident reporting. Its automated workflow generates regulatory reporting assessment of IT incidents, DRI Initial report, DRI Intermediate report, and DRI Final report within regulatory timelines, each with dedicated action tasks. You can complete these tasks and generate reports in Microsoft Word format required by regulatory authorities for analysis.
 
--   **[Generate Register of Information \(RoI\) regulatory packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/opres-dora-roi-reg-pkg.md)**
+-   **Generate Register of Information \(RoI\) regulatory packages**
 
 Generate regulator-ready Register of Information \(RoI\) regulatory packages using the Plain-CSV Report Package option on the download page in Digital resilience third-party registers. The resulting ZIP file, structured to regulator specifications, includes metadata and report folders with file names containing LEI, entity ID, and release version.
 
 This format helps you to verify EU DORA compliance and supports automated validation workflows. For suggested steps and permissions, refer to the user guide on the Download and Upload request page.
 
--   **[Validate downloaded Register of Information regulatory packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/opres-dora-validate-roi.md)**
+-   **Validate downloaded Register of Information regulatory packages**
 
 Validate downloaded Register of Information \(RoI\) regulatory packages against requirements using the Plain-CSV Report Package option on the Digital resilience third-party registers download page. This process verifies file format, structure, encoding, naming conventions, and field-level data across multiple tables.
 
 If validation warnings are detected, an automated report is attached, mapping issues to regulator fields like Template Code, Row Code, and Column Code. These reports include real-world field labels, rule expressions, and record identifiers. You can easily cross-reference validation errors using a downloadable Excel template that mirrors the CSV structure, simplifying issue location and resolution. Further enhancements include support for 'Not applicable' values, enforced file size limits, and clearer error messages for malformed data.
 
 
--   **[Improve resilience metrics with the enhanced CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/using-csdm-v5.md)**
+-   **Improve resilience metrics with the enhanced CSDM model**
 
 Leverage the enhanced fix scripts in the Common Service Data Model \(CSDM\) to enhance your Operational Resilience metrics. Each node in the hierarchy is now stored separately, with its class and parent nodes, to help you manage your data more efficiently.
 
@@ -6075,19 +6108,19 @@ The **Update CSDM and other dependencies** scheduled job script has been optimiz
 
 Configure the **sn\_oper\_res.top\_class\_name** property to designate any class as the top class. You can view the downstream data and various dashboards based on the selected top class, such as the number of application services that are under a business service.
 
--   **[Analyze importance and impact tolerance of a service using Smart Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/create-an-assessment-for-services-in-ws.md)**
+-   **Analyze importance and impact tolerance of a service using Smart Assessment**
 
 Analyze a service's importance and impact tolerance through flexible assessments by using one or multiple Smart Assessment templates. Role-based access controls and auto-assigned tasks help you to streamline the process. You can reopen and complete assessments as needed and send email notifications to relevant users.
 
--   **[Generate customized and flexible self-attestation reports using Smart Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/create-new-attestation-in-ws.md)**
+-   **Generate customized and flexible self-attestation reports using Smart Assessment**
 
 Generate customized and flexible self-attestation reports by using Smart Assessment. Start with the default template, add relevant scopes and users, and generate a PDF report on completion of the self-attestation process. By creating custom templates with various data types, you make the self-attestation process more efficient.
 
--   **[Leverage enhanced DORA capabilities for contracts, supply chains, and assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/create-drtp-reg-contract.md)**
+-   **Leverage enhanced DORA capabilities for contracts, supply chains, and assessments**
 
 Use the enhanced Digital Operational Resilience Act \(DORA\) data model in Operational Resilience. You can configure contracts based on their supply chains and assessments, upload the contract records, and generate a detailed report in Microsoft Excel that provides information on the entities, third parties, and specific contract details.
 
--   **[Track third-party risk assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/opres-ws-homepage-overview.md)**
+-   **Track third-party risk assessments**
 
 Track third-party risk assessments as red flags in Operational Resilience reports and overview pages for business services, service offerings, and business processes. Operational Resilience users, managers, and administrators can review these assessments in Operational Resilience Workspace. The sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer role is now included in the sn\_oper\_res.user role, so that you can grant the necessary access to the assessments.
 
@@ -6338,7 +6371,7 @@ Manage and view the partner details via the Partner workspace if you have the sn
 
 -   **[Partner Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/partner-workspace.md)**
 
-Enable a user with the sn\_prm.enterprise\_partner\_rel\_manager role to manage cases, orders, sold products, and install bases by using the **Partner Overview** tab in the CRM Workspace.
+Enable a user with the sn\_prm.enterprise\_partner\_rel\_manager role to manage cases, orders, sold products, and install bases by using the **Partner Overview** tab in the CSM Configurable Workspace.
 
 
 </td></tr><tr><td>
@@ -6358,19 +6391,19 @@ Performance Analyzer
 
 </td><td>
 
--   **[Filter by duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/filter-application-metrics-by-duration.md)**
+-   **Filter by duration**
 
 Select a duration from the last fifteen minutes to the last seven days to view the aggregate data from that time period for each of your applications. The aggregate data includes total UI time, download time, trends, and a comparison to previous performance over that duration.
 
--   **[Application metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/get-application-metrics.md)**
+-   **Application metrics**
 
 Select an application to filter metrics by total UI time and download time, as well as view page route performance.
 
--   **[Page route metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/get-page-route-metrics.md)**
+-   **Page route metrics**
 
 Select a page route within an application to view interaction metrics including timestamps, interaction types, total UI time, download time, and record.
 
--   **[Interaction metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/get-interaction-metrics.md)**
+-   **Interaction metrics**
 
 Select an interaction within a page route to view a waterfall with details for each resource on the page during that interaction.
 
@@ -6405,38 +6438,38 @@ Playbooks in Workflow Studio
 
 </td><td>
 
--   **[Playbook as an MCP tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/playbook-as-mcp-tool.md)**
+-   **Playbook as an MCP tool**
 
 Expose a playbook as a tool in an MCP server, enabling MCP clients to trigger and execute the playbook through the Model Context Protocol \(MCP\).
 
--   **[AI agents autonomous support configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/create-activity-definition.md)**
+-   **AI agents autonomous support configurations**
 
 Configure in the activity definition how you want autonomous support from AI agents for that activity. The additional configurations help you gain more control on the activity in a playbook.
 
 
--   **[Playbook generation from a KB article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/playbook-generation-from-kb.md)**
+-   **Playbook generation from a KB article**
 
 Generate a playbook directly from an existing knowledge base article to reduce manual effort when creating playbooks for documented processes.
 
 
--   **[Playbook summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/playbook-summarization.md)**
+-   **Playbook summarization**
 
 Generate an AI-powered summary of a playbook from the Workflow Studio canvas. The summary covers the playbook's stages, activities, triggers, and inputs, helping you understand quickly about its purpose and flow without reading through each activity individually.
 
--   **[Use AI skill as an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/use-ai-skill-as-activity.md)**
+-   **Use AI skill as an activity**
 
 Add an existing AI skill as an activity in your playbook to run lightweight, focused AI tasks as part of the playbook flow. When the playbook reaches the activity, the skill executes, produces structured outputs, and passes those outputs to subsequent activities automatically.
 
--   **[Use custom agent in Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/configure-agentic-playbooks.md)**
+-   **Use custom agent in Agentic Playbooks**
 
 In addition to the default AI Agents, you can add your custom AI Agent for an activity. Choose how you want to use the AI Agents in the activity- Collaborative or Autonomous.
 
 
--   **[Set child variants to evaluate later in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/set-evaluation-point.md)**
+-   **Set child variants to evaluate later in a playbook**
 
 Instead of evaluating immediately after the trigger, set a playbook's child variants to be evaluated after a specific activity in the playbook.
 
--   **[Create decision branches for stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/create-decision-stage.md)**
+-   **Create decision branches for stages**
 
 Add a decision node between stages to determine which stage to run next, based on runtime conditions.
 
@@ -6447,31 +6480,31 @@ Send runtime users to a stage based off of the trigger record or input that user
 
 
 
--   **[Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/agentic-playbooks.md)**
+-   **Agentic Playbooks**
 
 Enable AI agents to assist users with activities during runtime.
 
--   **[Add permissions for playbook authors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/user-access-playbooks.md)**
+-   **Add permissions for playbook authors**
 
 Control which playbook authors can create, edit, and view playbooks in Workflow Studio
 
--   **[Add permissions for runtime users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/create-process-definition.md)**
+-   **Add permissions for runtime users**
 
-Control whether runtime users can [view a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/create-process-definition.md), [add optional activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/optional-activities.md), [restart a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/restart.md), and [complete work within specific stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/add-configure-stage.md).
+Control whether runtime users can view a playbook, add optional activities, restart a playbook, and [complete work within specific stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/add-configure-stage.md).
 
--   **[Set multiple triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/process-automation-designer-triggers.md)**
+-   **Set multiple triggers**
 
 Configure a playbook to run based on any one of multiple triggers.
 
--   **[Schedule when a playbook should trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/create-scheduled-trigger-definition.md)**
+-   **Schedule when a playbook should trigger**
 
 Configure a playbook to run based on a schedule.
 
--   **[Choose your LLM for playbook generation and recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/change-default-llm-playbook-generation.md)**
+-   **Choose your LLM for playbook generation and recommendations**
 
 Choose between NowLLM, OpenAI ChatGPT4-o, Gemini, Claude for playbook generation and recommendations.
 
--   **[Generate a playbook with a trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/playbook-assist.md)**
+-   **Generate a playbook with a trigger**
 
 Generate a playbook with both a trigger and activities.
 
@@ -6482,12 +6515,12 @@ Policy and Compliance Management
 
 </td><td>
 
--   **[Association of citations to controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/citation-to-control-mapping.md)**
+-   ****
 
 In many compliance frameworks, a single control objective may be referenced by multiple citations across different standards, regulations, or policy requirements. Without proper association management, organizations risk duplicating controls, misinterpreting coverage, or inaccurately reporting compliance. The association of citations to controls feature addresses this challenge by enabling users to associate controls with citations directly. When this feature is enabled, compliance scores update dynamically based on the status of directly associated active controls.
 
 
--   **[GRC Approval Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/grc-approval-configurator-for-policy-extension-and-exception.md)**
+-   **GRC Approval Configurator**
 
 The GRC Approval Configurator can now be used to manage both policy exception and extension approvals. It allows verification, approval, and extension rules to be defined based on state, sub-state, and other filter conditions, with support for multiple user groups and multi-level approvals. This enhancement provides greater flexibility in assigning appropriate approvers at each level based on defined conditions, facilitating structured and collaborative reviews. For extension approvals, users can now configure multiple approvers, overcoming the previous limitation of a single default approver \(Compliance Manager\).
 
@@ -6551,15 +6584,15 @@ Privacy Management
 
 </td><td>
 
--   **[Data subjects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/data-subjects.md)**
+-   **Data subjects**
 
 Select and define the multiple data subject types for each processing activity. You can capture the volume of data subjects that were processed, the specific data elements that were collected from the users, and the user locations. With this feature, you get a realistic, granular, and scalable representation of your processing activities.
 
--   **[Privacy management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/privacy-manager-dashboard.md)**
+-   **Privacy management dashboard**
 
 Get an overview of your complete privacy risk and compliance posture from the Privacy Management dashboard so that you can quickly prioritize and remediate your processing activities. By looking at the Processing Activities, Risk &amp; Compliance, and Operations &amp; Case management sections, you can see the overall compliance score, trends, privacy criticality assessment scores, and risk heatmap. From the dashboard, you can also see information about the global legal framework to understand the regional obligations and the built-in risk metrics that automatically assess each processing activity.
 
--   **[New screening and PIA templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/privacy-mgmt-workflow.md)**
+-   **New screening and PIA templates**
 
 Use the new Privacy Impact Assessments \(PIAs\) and Screening Assessment templates that provide standardized questions, evaluation criteria, and workflows so that you can perform a processing activity criticality and privacy risk assessment. With these new templates, you can ensure consistency, reduce manual effort, and support compliance with regulatory and organizational requirements.
 
@@ -6774,7 +6807,7 @@ You can now precisely control the scope of Try-Catch blocks by selecting which a
 
 Role for Create, Update, and Delete ACLs in the Robot License Distribution table is changed from admin to sn\_rpa\_fdn.rpa\_admin.
 
--   **[Long term stable models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/long-term-stable-models.md)**
+-   ****
 
 Long term stable \(LTS\) models are part of Now LLM Service and provide longer model stability windows for regulated industries. These models can integrate with tools to provide governance, monitoring, and compliance controls.
 
@@ -6833,44 +6866,44 @@ Recruitment workspace
 
 </td><td>
 
--   **[Substitute interviewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/manage-interviews-recruiter.md)**
+-   **Substitute interviewer**
 
 Substitute an interviewer for any interview on a job where you're part of the hiring team, from Recruitment workspace. You don't need to reschedule the interview or update invites.
 
--   **[List view in Recruitment workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/list-view-recruit-workspace.md)**
+-   ****
 
 Monitor interview health from the Needs attention list view in Recruitment workspace.
 
 
--   **[Create a job requisition as a recruiter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/request-job-hiring.md)**
+-   ****
 
 Create a job requisition for a vacancy that you want to fill in your organization.
 
--   **[Track a job requisition in the Recruitment workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/job-req-details-re-workspace.md)**
+-   ****
 
 Track a job requisition and view the job details, associated applications, hiring team, interview phases, approvers, and prospects.
 
--   **[Manage hiring team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/manage-hiring-team.md)**
+-   ****
 
 Add, edit, or remove hiring team members from a job requisition.
 
--   **[Add a job description to a requisition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/add-job-description.md)**
+-   ****
 
 Manually add a description to a job requisition or use predesigned templates to fill it out faster.
 
--   **[Manage the job requisitions as a recruiter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/manage-job-reqs.md)**
+-   ****
 
 Update or duplicate a job requisition, put it on hold, send it for approval, or close it from the Recruitment workspace.
 
--   **[Tracking an application in the Recruitment workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/application-record-details-re-workspace.md)**
+-   ****
 
 Track an application for a job requisition and its corresponding applicant and interview details as a recruiter or recruitment coordinator.
 
--   **[Hiring tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/applicant-tasks-recruitr.md)**
+-   ****
 
 Create and assign tasks to your job applicants or internal stakeholders, and manage them within the Recruitment workspace.
 
--   **[Collaborate with the hiring manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/collab-hiring-manager.md)**
+-   ****
 
 Collaborate with the hiring manager on the job requisition in the activity stream.
 
@@ -6878,7 +6911,7 @@ Collaborate with the hiring manager on the job requisition in the activity strea
 
 Send targeted emails to the internal and external talent types from different access points in the Recruitment workspace for effective communication.
 
--   **[View the Talent Acquisition Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/access-kpi-ta.md)**
+-   ****
 
 Understand the hiring trend in your organization with the Talent Acquisition dashboard.
 
@@ -6894,27 +6927,27 @@ Regulatory Change Management
 You can review the ServiceNow Otto for Integrated Risk Management \(IRM\) release notes for full descriptions of the Now Assist in Regulatory Change Management \(RCM\) features.
 
 
--   **[Add multiple regulatory tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/regulatory-change-tasks.md)**
+-   **Add multiple regulatory tasks**
 
 Add multiple regulatory tasks to an alert. Each task can represent a distinct area of impact or required action. By organizing work into separate change tasks, your teams can assign responsibilities, track progress, and manage dependencies more effectively.
 
--   **[Add multiple source document import tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/source-document-import-tasks.md)**
+-   **Add multiple source document import tasks**
 
 Associate multiple source document import tasks with one regulatory alert to simplify the management and tracking of your regulatory content ingestion. Each import task adds the relevant documents to the regulatory library to help ensure that all source materials that are related to the alert are accurately captured and organized. You can help to improve traceability throughout the regulatory change management process.
 
--   **[Close a regulatory task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/regulatory-change-tasks.md)**
+-   **Close a regulatory task**
 
 Close a regulatory task automatically when it's approved. You can also manually close a regulatory task while it's in the Implementation state, if all the associated action tasks are completed and closed. By closing a task manually, you get flexibility in managing the regulatory changes that don’t require formal approval workflows.
 
--   **[Reopen action tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/action-tasks.md)**
+-   **Reopen action tasks**
 
 Reopen the action tasks for a regulatory task when it's rejected and transitions back to the Implementation state. You can review and rework the tasks to address the feedback or incorporate the updated requirements. You can also modify and resubmit the reopened action tasks so that the implementation aligns with regulatory expectations before you resubmit the change task.
 
--   **[Close a regulatory alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/list-view-of-reg-alerts.md)**
+-   **Close a regulatory alert**
 
 Close a regulatory alert manually after all the associated regulatory tasks are complete. By closing the alert, you help to ensure accurate record-keeping by signaling that a compliance life-cycle for the specific regulatory alert is complete.
 
--   **[Work on action tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/action-tasks.md)**
+-   **Work on action tasks**
 
 Initiate and complete the action tasks independently without requiring prior approval from users who are assigned with the `sn_grc_reg_change.manager` role. You can execute assigned responsibilities in a timely manner and reduce unnecessary approval bottlenecks. The access to action tasks remains governed by user permissions and role-based access controls to ensure proper accountability and oversight.
 
@@ -6925,35 +6958,35 @@ ReleaseOps
 
 </td><td>
 
--   **[Pipelines in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/releaseops-pipeline-environments.md)**
+-   ****
 
 A pipeline is the flow of a deployment in ReleaseOps. A pipeline's flow is defined within playbooks, which enables you to customize as needed.
 
--   **[Releases in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/releases-in-release-ops.md)**
+-   ****
 
 Scheduled and on-demand releases are how changes are deployed to target instances with ReleaseOps. Releases can contain one or more deployment requests.
 
--   **[Deployment requests in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/deployment-requests.md)**
+-   ****
 
 Deployment requests contain one or more update sets, and are contained in a release.
 
--   **[Configure a new ReleaseOps ecosystem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/configure-new-releaseops-ecosystem.md)**
+-   ****
 
 Configure a new ReleaseOps ecosystem using the sample pipelines and playbooks to begin deploying changes from your development to test to production instances.
 
--   **[Create a custom pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/create-release-ops-pipeline.md)**
+-   ****
 
 Create a custom pipeline to move changes through your production environment to testing by duplicating one of the ReleaseOps playbooks.
 
--   **[Promote an update set for deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/promote-update-set-for-deployment.md)**
+-   ****
 
 When you're ready to deploy your changes, promote your update set to begin the deployment process.
 
--   **[Create a deployment request for a scheduled release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/create-a-new-deployment-request.md)**
+-   ****
 
 Create a deployment request for a scheduled release to contain your update set and enable your changes to move through the pipeline for deployment.
 
--   **[Create a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/create-a-release.md)**
+-   ****
 
 Specify the details for your release, including the target instance that the changes deploy to and when the release should occur.
 
@@ -7199,7 +7232,7 @@ Self-service and omnichannel engagement for CSM
 
 -   **[Using Interaction Controls Component \(ICC\) call controls with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/amazon-connect-for-voice-calls.md)**
 
-Manage Amazon Connect calls directly in the CRM Workspace voice Interaction record page. This integration supports inbound and outbound call flows, presence management, and call transfers without switching applications.
+Manage Amazon Connect calls directly in the CSM Configurable Workspace voice Interaction record page. This integration supports inbound and outbound call flows, presence management, and call transfers without switching applications.
 
 
 -   **[Selecting queues for outbound calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/select-queues-for-outbound-calls.md)**
@@ -7218,7 +7251,7 @@ Connect directly to WhatsApp Cloud API for more reliable, feature-rich customer 
 
 -   **[Voice Controls Simulator tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/voice-control-simulator-tool.md)**
 
-Test and validate voice call UI flows in the CRM Workspace to ensure CCaaS partners have clear insights into their supported voice control capabilities.
+Test and validate voice call UI flows in the CSM Configurable Workspace to ensure CCaaS partners have clear insights into their supported voice control capabilities.
 
 -   **[Monitoring calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/call-monitoring.md)**
 
@@ -7230,7 +7263,7 @@ Enable supervisors to monitor, coach, and barge-in on calls in real time by inte
     -   As an agent, view callback requests in the order that they're received.
 -   **[CCaaS callback features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/contact-center-intergration-with-icc-callback.md)**
 
-As an agent, address callback requests from the CRM Workspace. Initiate callbacks and manage active calls with the Callback context card and Callback Actions component on the voice interaction page.
+As an agent, address callback requests from the CSM Configurable Workspace. Initiate callbacks and manage active calls with the Callback context card and Callback Actions component on the voice interaction page.
 
 On the Callback actions component, you can use the **Call number** option to initiate a call; alternatively, the call can be initiated automatically at the end of the preview timer when enabled. After the call has ended, the **Close callback** option closes the callback interaction and changes the status to Closed complete. Agents can also retry the callback as needed.
 
@@ -7242,11 +7275,11 @@ Switch between workspaces using the global call list. As a CSM agent, you can ac
 
 -   **[Phone directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/ccaas-phone-directory.md)**
 
-Access the embedded phone directory in your CRM Workspace via Interaction Controls Component \(ICC\) to make outbound calls to external and internal contacts.
+Access the embedded phone directory in your CSM Configurable Workspace via Interaction Controls Component \(ICC\) to make outbound calls to external and internal contacts.
 
 -   **[Call resiliency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/ccaas-call-resiliency.md)**
 
-Route phone calls to the CRM Workspace without creating an interaction record, helping agents handle calls even during connectivity issues.
+Route phone calls to the CSM Configurable Workspace without creating an interaction record, helping agents handle calls even during connectivity issues.
 
 
 </td></tr><tr><td>
@@ -7540,7 +7573,7 @@ View captured images that are automatically attached to an auto-filled record us
 
 -   **[New third-party AI model provider options available for all AI applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md)**
 
-Use Google Gemini and Anthropic Claude on AWS as AI model providers for ServiceNow AI Lens in addition to Azure OpenAI.
+Use Google Gemini and Anthropic Claude as AI model providers for ServiceNow AI Lens in addition to Azure OpenAI.
 
 
 </td></tr><tr><td>
@@ -7554,17 +7587,17 @@ ServiceNow AI Platform core feature
 The Feature Preview Program provides a centralized location to discover, activate, and test pre-release capabilities on your instance. When a pre-release feature is added to your instance, you receive a notification and can access the Feature Preview Program to review feature details, activate features for testing, and provide feedback.
 
 
--   **[Enhance instance security for sandbox scripts with guarded script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/guarded-script.md)**
+-   **Enhance instance security for sandbox scripts with guarded script**
 
 The guarded script evaluator restricts the JavaScript features and APIs available to untrusted, client-generated scripts running in the script sandbox environment. Beginning with the Zurich Patch 9 release, incompatible scripts sent to the server by guest users are rejected on all instances by default. Scripts sent by authenticated users are evaluated using a phased approach to enforcement that varies by the type of instance to provide time to detect and review incompatible scripts before rejecting them. Scripts that use unsupported features are recorded in the Incompatible Guarded Scripts list, where you can rewrite them or create exemptions for scripts that can't be rewritten.
 
 
--   **[Automatically generate request definitions for scripted REST API resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/autogenerate-api-request-definitions.md)**
+-   **Automatically generate request definitions for scripted REST API resources**
 
 Use sample requests made to an API resource to generate request header associations, query parameter associations, and a request schema for that resource and the related scripted REST API service.
 
 
--   **[Use schemas to define the structure and format of REST API responses and requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/define-scripted-rest-api-schema.md)**
+-   **Use schemas to define the structure and format of REST API responses and requests**
 
 When you define a schema in the ServiceNow AI Platform, the schema can be used to define the structure of requests and responses within the associated REST API. The schema data for the requests and responses is then available in the exportable OpenAPI specification for the API.
 
@@ -7573,7 +7606,7 @@ When you define a schema in the ServiceNow AI Platform, the schema can be used t
 
 Help enable innovation by trying new ServiceNow® feature variants in your instance. Only single customer instances or Gen AI Innovation Program participants have early access to new innovations via experimentation framework. You can opt out of specific experiments or turn off the framework entirely.
 
--   **[Monitor requestors' API usage rates through the Inbound API Integration Usage dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/inbound-api-integration-usage-dashboard.md)**
+-   **Monitor requestors' API usage rates through the Inbound API Integration Usage dashboard**
 
 Inbound integrations track web service requests for OAuth registered applications and user accounts making those requests.
 
@@ -7593,19 +7626,19 @@ Simplify your audit data management and configuration by using the Audit Managem
 
 </td></tr><tr><td>
 
-ServiceNow Cowork
+ServiceNow Arc
 
 </td><td>
 
 -   **[Microsoft 365 and GitHub connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/connectors-in-cowork.md)**
 
-Connect ServiceNow Cowork to Microsoft 365 and GitHub so the agent can work with your mail, calendar, files, and repositories. Administrators control which connector operations the agent can perform through connector scopes.
+Connect ServiceNow Arc to Microsoft 365 and GitHub so the agent can work with your mail, calendar, files, and repositories. Administrators control which connector operations the agent can perform through connector scopes.
 
--   **[Sandboxed execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/cowork-architecture.md)**
+-   **[Sandboxed execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/cowork-architecture-arc.md)**
 
 The agent runs scripts and commands in an isolated virtual machine sandbox on the Mac, with access to the files you share. The sandbox image comes from your connected instance, so updates to it apply the next time you launch, sign in, or switch instances.
 
--   **[Policy management and governance in ServiceNow Cowork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/policy-management-cowork.md)**
+-   **[Policy management and governance in ServiceNow Arc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/policy-management-cowork.md)**
 
 Control what the agent can reach and change with network allowlists, sandbox rules, file type rules, and connector scopes, alongside tool gates and approval patterns. Target each policy to specific users and groups with user criteria. The Default Policy applies to everyone, and clients keep enforcing their last policy if the instance is unreachable. Override the Default Policy by creating a policy with a higher priority. The policy with the lowest priority number wins, and when priorities tie, the most restrictive rule wins. The same resolution applies to tool gates, connector scopes, and capability overrides. Tool gates offer an auto approval option alongside Allow, Deny, and require approval.
 
@@ -7631,21 +7664,21 @@ Create custom skills by adding a folder with a SKILL.md file, or let the agent c
 
 -   **[Bundled skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/extending-cowork.md)**
 
-ServiceNow Cowork ships with a focused set of default skills, including separate skills for ServiceNow, Microsoft 365, planning and meeting skills.
+ServiceNow Arc ships with a focused set of default skills, including separate skills for ServiceNow, Microsoft 365, planning and meeting skills.
 
 -   **[Usage Insights analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/cowork-trace-evaluation.md)**
 
-View ServiceNow Cowork as an application in Usage Insights, with active users, monthly and daily active users, and sessions. Report on conversations by how they start, success and error rates, user interventions, and the model used, along with connector, MCP, and policy block events.
+View ServiceNow Arc as an application in Usage Insights, with active users, monthly and daily active users, and sessions. Report on conversations by how they start, success and error rates, user interventions, and the model used, along with connector, MCP, and policy block events.
 
 Build funnels, cohorts, and retention reports, and drill down from aggregate charts to individual users and tasks. Data is scoped to your instance only, and user IDs are hashed.
 
 -   **[Observability in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/cowork-trace-evaluation.md)**
 
-Register ServiceNow Cowork as a managed AI system in AI Control Tower to monitor its use across your organization. Sessions and traces flow into AI Control Tower, where each trace receives quality, safety, and risk assessment scores. You can drill down from a session to its individual steps, including tool calls and policy decisions.
+Register ServiceNow Arc as a managed AI system in AI Control Tower to monitor its use across your organization. Sessions and traces flow into AI Control Tower, where each trace receives quality, safety, and risk assessment scores. You can drill down from a session to its individual steps, including tool calls and policy decisions.
 
--   **[Kill switch and heartbeat monitoring in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/cowork-architecture.md)**
+-   **[Kill switch and heartbeat monitoring in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/cowork-architecture-arc.md)**
 
-Monitor and control ServiceNow Cowork across your organization from AI Control Tower. The fleet view shows who installs ServiceNow Cowork and who is active. Heartbeat monitoring checks each installation at regular intervals and flags any that stop responding, so you can find offline installations before they affect users. If an agent takes unsafe actions, use the kill switch to stop them from escalating. The kill switch revokes credentials and terminates running actions.
+Monitor and control ServiceNow Arc across your organization from AI Control Tower. The fleet view shows who installs ServiceNow Arc and who is active. Heartbeat monitoring checks each installation at regular intervals and flags any that stop responding, so you can find offline installations before they affect users. If an agent takes unsafe actions, use the kill switch to stop them from escalating. The kill switch revokes credentials and terminates running actions.
 
 -   **[Predictable retry behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/set-agent-limits-safeguards.md)**
 
@@ -7661,7 +7694,34 @@ Choose a model from Anthropic Claude \(Opus 4.6, 4.7, 4.8, and Sonnet 4.6\), Ope
 
 -   **Assist metering and entitlements**
 
-User initiated requests consumes assists, recorded in the generative AI log under the feature name ServiceNow Cowork Execution. Check your entitlements to determine whether you have access to ServiceNow Cowork.
+User initiated requests consumes assists, recorded in the generative AI log under the feature name ServiceNow Arc Execution. Check your entitlements to determine whether you have access to ServiceNow Arc.
+
+
+-   **[Windows support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-arc-windows.md)**
+
+ServiceNow Arc now supports Windows. On Windows desktop, the Arc application acts as an AI agent that plans and runs multi-step tasks across your enterprise applications, within the governance and security policies your administrators define.
+
+-   **[MCP servers managed by administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/add-mcp-server-arc.md)**
+
+MCP server connectors that administrators configure on the instance appear in ServiceNow Arc ready to connect, so users don't enter a server URL or client ID.
+
+When an administrator deactivates a connector, Arc ends any active session, blocks reconnection, and tells the user why. After the connector is reactivated, users reconnect it themselves.
+
+-   **[Notifications for approvals and reminders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/notifications-arc.md)**
+
+ServiceNow Arc notifies users about pending approvals and reminders, with one notification for each pending approval before it times out. When users are in another chat, a banner appears at the top of the Arc window. When they're in another app, a desktop notification appears. Users can approve or reject the action from either one.
+
+For more information, see [Turn notifications on or off](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/manage-notification-settings.md).
+
+-   **[Fluent app development for MacOs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/app-development-arc.md)**
+
+Build, deploy, and edit ServiceNow scoped applications from a conversation in ServiceNow Arc, using the Now SDK, which is preinstalled in the sandbox. The agent presents a build plan for approval, then creates a TypeScript project and authors the data model, server and client logic, flows, UI, AI agents, and tests.
+
+App development isn't supported on Windows.
+
+-   **[File preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/preview-files-arc.md)**
+
+Users can preview Word, Excel, PowerPoint, PDF, and PNG files in ServiceNow Arc. From the preview, they can download a file, open it in its native app or its folder, zoom in or out, and view it full screen.
 
 
 </td></tr><tr><td>
@@ -7670,13 +7730,24 @@ ServiceNow IDE
 
 </td><td>
 
--   **[Clone a repository that contains multiple applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/clone-git-repository-servicenow-ide.md)**
+-   **Clone a repository that contains multiple applications**
 
 Clone a Git repository that contains multiple applications that support development in source code. The repository must contain at least one `package.json` file and one `now.config.json` file.
 
--   **[Default to using the latest version of the ServiceNow SDK in new or converted applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-ide-properties.md)**
+-   **Default to using the latest version of the ServiceNow SDK in new or converted applications**
 
 Configure whether to use the bundled version or the latest version of the ServiceNow SDK when creating or converting applications in the ServiceNow IDE with the **sn\_glider.default\_to\_bundled\_sdk** system property. By default, the latest version of the ServiceNow SDK is used.
+
+
+</td></tr><tr><td>
+
+ServiceNow Lux Lab for VS Code
+
+</td><td>
+
+-   ****
+
+Support multiple page variations on the same route by creating collection pages directly from the command palette or the file explorer. Show different content to different users based on role without maintaining a separate page and URL for each audience.
 
 
 </td></tr><tr><td>
@@ -7917,7 +7988,7 @@ Initiate and view agentic workflows from within Google Chat.
 
 Access the Gen AI Metrics \[sys\_generative\_ai\_metric\] table to review the logged invocations of sensitive topics and gain insights into how these topics are being triggered and monitored.
 
--   **[Long term stable models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/long-term-stable-models.md)**
+-   ****
 
 Long term stable \(LTS\) models are part of Now LLM Service and provide longer model stability windows for regulated industries. These models can integrate with tools to provide governance, monitoring, and compliance controls.
 
@@ -7991,17 +8062,17 @@ ServiceNow Otto for App Engine
 
 </td><td>
 
--   **[Custom app record summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/custom-app-record-summarization-na-for-app-engine.md)**
+-   ****
 
 Generate summaries for records in custom applications and tables with the custom app record summarization skill.
 
--   **[Configure the custom app record summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/configure-custom-app-record-summarization-na-for-app-engine.md)**
+-   ****
 
 Configure the custom app record summarization skill so that it generates summaries for the tables and records that you specify. You can add context about the table or tables and describe the purpose of the table, so that Now Assist can use that information when generating summaries.
 
--   **[Summarize a record in-product using ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/summarize-record-in-product-na-for-app-engine.md)**
+-   ****
 
-Select the **Summarize** button on a record in-product to generate a summary. You can also summarize a record through chat in the Now Assist panel. See [Summarize a record through chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/summarize-record-through-chat-na-for-app-engine.md) for more information.
+Select the **Summarize** button on a record in-product to generate a summary. You can also summarize a record through chat in the Now Assist panel. See  for more information.
 
 
 -   **[New third-party AI model provider options available for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/manage-large-language-models.md)**
@@ -8058,32 +8129,32 @@ ServiceNow Otto for Creator
 
 Upload brand guidelines as a PDF to the Theme Builder theme creation workflow to generate themes aligned with your brand.
 
--   **[Test Agent for Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/build-agent-testing.md)**
+-   **Test Agent for Build Agent**
 
 The Test Agent can now execute Automated Test Framework \(ATF\) tests right from the Build Agent chat panel for test artifacts created in the same session. When tests fail, the tests and test results generated by Test Agent after execution are saved in the standard ATF record tables and can be scheduled for continued regression testing for the app. If tests were edited by the test agent after troubleshooting, those edits are automatically saved to the test records.
 
--   **[Semantic search for instance artifact discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/build-agent-tools.md)**
+-   **Semantic search for instance artifact discovery**
 
 Use semantic search in Build Agent to locate relevant instance artifacts, including tables, scripts, and business rules during build and edit tasks. Find files, applications, and knowledge on your instance based on meaning instead of requiring exact keywords.
 
--   **[UI validation tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/exploring-build-agent.md)**
+-   **UI validation tool**
 
 Validate user interface output automatically during Build Agent app creation using the integrated UI validation, which runs Playwright-based UI checks on Cloud Runner and surfaces failures with diagnostic context directly in the Build Agent panel.
 
--   **[Create agentic workflows, agents, and skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/create-custom-ai-agent.md)**
+-   ****
 
 Turn business requirements into fully configured agents, skills, and agentic workflows for your custom applications. Build Agent inspects your app's existing tables, roles, business rules, and metadata to create tailored in-app agents, complete with the tools needed to support your specific use case.
 
 
--   **[Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/build-agent-in-servicenow-studio.md)**
+-   ****
 
 Access Build Agent in ServiceNow Studio to build apps conversationally in a consolidated development environment.
 
--   **[Improved LLM support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/exploring-build-agent.md)**
+-   **Improved LLM support**
 
 Support for Opus 4.6 and Sonnet 4.5 is now available in Build Agent to provide better contextual conversations.
 
--   **[New metadata support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/build-agent-supported-metadata.md)**
+-   **New metadata support**
 
 Work with more metadata types, as Build Agent now supports working with the following:
 
@@ -8112,19 +8183,19 @@ Use Now Assist to create new UI policies, update existing ones, and deactivate t
 When creating or editing a catalog item, you can use plain language to assign values for catalog, category, or topic. If the value you provide matches an existing entry, Now Assist automatically applies it to the item, helping to streamline the process and reduce manual data entry.
 
 
--   **[Configure AI model providers for ServiceNow Otto for Code skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/configure-model-providers-for-now-assist-skills.md)**
+-   ****
 
 Choose a model provider for ServiceNow Otto for Code skills in the script editor. You can choose from the models that are enabled in the AI Control Tower.
 
--   **[Planning tool available with the Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/exploring-build-agent.md)**
+-   **Planning tool available with the Build Agent**
 
 Build a detailed, step-by-step plan for your application development with the Build Agent planning tool. You can refine the plan iteratively by prompting for changes and providing feedback until you reach a final version.
 
--   **[Build Agent supports Azure OpenAI and Google Gemini](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/install-build-agent.md)**
+-   **Build Agent supports Azure OpenAI and Google Gemini**
 
-Use Build Agent with Azure OpenAI and Google Gemini in addition to Anthropic Claude on AWS.
+Use Build Agent with Azure OpenAI and Google Gemini in addition to Anthropic Claude.
 
--   **[Use images as prompts in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/exploring-build-agent.md)**
+-   **Use images as prompts in Build Agent**
 
 Attach images, such as architectural diagrams or UI wireframes, to provide context for prompts in the Build Agent.
 
@@ -8136,25 +8207,25 @@ Create catalog items and record producers efficiently using the conversational i
 
 Preview catalog items during the creation process. Quick previews enable you to verify that catalog items appear and function as intended before publication.
 
--   **[Getting help with the Now Assist panel in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/uib-now-assist-panel.md)**
+-   ****
 
 Create pages using natural language text prompts with Now Assist in UI Builder. Quickly add layouts, components, and content to your pages without manually configuring each element. You can also quickly analyze page structure and data flow by asking questions using natural language.
 
--   **[Key features of UI Builder agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/key-features-of-ui-builder-agent.md)**
+-   ****
 
 Ask your questions about using UI Builder to the UI Builder agent. The UI Builder agent provides an overview of page configuration, such as the structure and interconnections of page elements. You can also use the UI Builder agent to apply different layouts, configure components, and update styling.
 
--   **[ATF troubleshooting agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/atf-troubleshooting-agent-landing-page.md)**
+-   ****
 
 Accelerate troubleshooting and resolve test failures quickly by using ATF troubleshooting agent on covered metadata.
 
 
--   **[MCP connections and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/accelerate-design-to-development-with-figma-mcp-server.md)**
+-   ****
 
 You can now connect the Build Agent to the Figma MCP server. The Figma MCP server enables the Build Agent to access the structured data within Figma files. This connection accelerates the transition from application design to development, helping to make the developer workflow more efficient.
 
 
--   **[New Build Agent \(Trial\) available](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/exploring-build-agent.md)**
+-   **New Build Agent \(Trial\) available**
 
 A trial version of the Build Agent is now available with Build Agent \(Trial\). With Build Agent \(Trial\), you can explore limited interactions with the Build Agent for free.
 
@@ -8163,7 +8234,7 @@ A trial version of the Build Agent is now available with Build Agent \(Trial\). 
 
 Google Gemini 2.0 Flash, Google Gemini 2.5 Pro, and AWS Claude 3.7 Sonnet are available for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI GPT-4.1 and GPT-4.1 mini.
 
--   **[Build Agent, an autonomous AI agent for ServiceNow application development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/exploring-build-agent.md)**
+-   **Build Agent, an autonomous AI agent for ServiceNow application development**
 
 The Build Agent, located in a chat panel within the ServiceNow IDE, functions as an autonomous AI agent capable of independently generating a complete ServiceNow application. It can handle various code-related tasks, such as rewriting tables, explaining code, validating and improving existing applications, fixing application errors, and more.
 
@@ -8404,44 +8475,44 @@ ServiceNow Otto for HR Service Delivery \(HRSD\)
 
 </td><td>
 
--   **[ER Interview Summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-hrsd-er-interview.md)**
+-   **ER Interview Summarization**
 
 Use the ER interview summarization skill to obtain summary of the ER case interview, which includes details such as quick recap, key assertions and responses.
 
--   **[Self-scheduling option in Schedule interviews agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/use-ai-agents-to-schedule-interviews.md)**
+-   **Self-scheduling option in Schedule interviews agentic workflow**
 
 Recruiters and recruitment coordinators can now use self-scheduling to streamline interview scheduling by presenting applicants with available time slots to choose from. This option reduces the time to schedule in the absence of overlapping applicant-declared availability and minimizes the probability of manual handover to recruiter. The workflow recommends self-scheduling when beneficial, offers panelist-compatible slots sorted by confidence level, and automatically schedules interviews once applicants select their preferred time.
 
--   **[Offboarding knowledge transfer plan generation agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/offboarding-knowledge-x-agentic-wf.md)**
+-   **Offboarding knowledge transfer plan generation agentic workflow**
 
 The offboarding knowledge transfer plan generation agentic workflow captures and organizes critical knowledge when employees leave. AI agents interact with managers to collect requirements, discover documents from the specified time period, categorize content into meaningful work areas, and facilitate employee review before sharing with successors.
 
--   **[Generate onboarding ramp-up plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/onboarding-ramp-up-plan-agentic-wf.md)**
+-   **Generate onboarding ramp-up plan**
 
 The generate onboarding ramp-up plan workflow has been enhanced to create more relevant and personalized ramp-up plans for new hires. The workflow now recommends additional Journey services \(catalogs and order guides\) based on previously completed journeys and services requested by peers in similar roles. Managers can review these recommendations in Now Assist in Virtual Agent and add new services through a conversational experience.
 
 
--   **[Predict service and transfer HR cases agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/predict-transfer-hrcase.md)**
+-   ****
 
 Analyze an HR case and automatically route it to the most appropriate HR service with the predict service and transfer HR cases agentic workflow.
 
--   **[Resolve noncritical HR cases agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-issue-resolver-na.md)**
+-   ****
 
 Use the resolve noncritical HR cases agentic workflow to assess the criticality of HR cases, and automatically respond to noncritical inquiries without human intervention. Human agent intervention is required when the request is identified as critical.
 
--   **[Resolve critical HR case agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-issue-resolve-critical.md)**
+-   ****
 
 Resolve critical HR requests efficiently with the resolve critical HR case agentic workflow. This workflow generates a tailored fulfillment plan for an HR case using fulfillment instructions, KB articles, or resolution notes of similar past cases. It helps accelerate the resolution process by providing planning support to HR agents.
 
--   **[Summarize an ER case using ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-hrsd-summarize-er-case.md)**
+-   ****
 
 Use the ER case summarization skill to obtain a comprehensive overview of the ER case, which includes key details, such as allegations, evidences, and interviews.
 
--   **[Help resolve tuition reimbursement requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/resolve-tuition-reimbursement-requests.md)**
+-   ****
 
 Use the policy based HR evaluator skill to automatically compare employee tuition reimbursement submissions against company policies and return a decision of approval, denial, or request for additional information.
 
--   **[HR AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-hrsd-voice-ai-agents.md)**
+-   ****
 
 Help employees handle self-service HR issues, such as creating cases, checking case status, and requesting time off, using real-time voice interactions with HR AI voice agents. With advanced speech-to-text and text-to-speech capabilities, configurable caller authentication, and seamless integration with Contact Center as a Service \(CCaaS\) providers, such as Twilio and Genesys, the agents can deliver an efficient and personalized experience for employees.
 
@@ -8450,19 +8521,19 @@ Help employees handle self-service HR issues, such as creating cases, checking c
 
 Enable security settings to run AI agents and agentic workflows by using ACLs and user identities. You can configure and manage the ACLs in AI Agent Studio.
 
--   **[HCM AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/conversational-agents.md)**
+-   ****
 
 Use AI agents to enable employees to place requests to the HCM system, such as apply for time off or update details.
 
--   **[Resolve HR cases agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-issue-resolver-na.md)**
+-   **Resolve HR cases agentic workflow**
 
 Generate a fulfillment plan in a series of steps for an HR case by selecting the **Generate Plan** button on the HR case. HR agents can add prompts to further refine the AI-generated fulfillment plan before the plan is published to the work notes of the case.
 
--   **[HR case sentiment analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/analyze-sentiments-now-assist.md)**
+-   **HR case sentiment analysis**
 
 Prioritize cases by the sentiment score and monitor sentiment trends over time. HR agents can review a brief summary to understand the reasoning for the sentiment score for each HR case.
 
--   **[Schedule interviews agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/use-ai-agents-to-schedule-interviews.md)**
+-   ****
 
 Use AI agents to automate the interview scheduling process from the Now Assist panel and use the inputs from recruiters or recruitment coordinators to send out interview invites.
 
@@ -8825,7 +8896,7 @@ ServiceNow Otto for Legal Service Delivery \(LSD\)
 
 </td><td>
 
--   **[Submit COI request using ServiceNow Otto conversational intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-lsd-convi.md)**
+-   ****
 
 Submit a Conflict of Interest \(COI\) request through a natural language conversation. The conversational intake for Legal Conflict of Interest is available in the base system.
 
@@ -9243,7 +9314,7 @@ Generate content with ServiceNow Otto for SPM directly in your Docs. In addition
 You can interact with Now Assist directly in your Doc to create content, add context, or improve existing sections.
 
 
--   **[New third-party AI model provider options available for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-model-providers.md)**
+-   **New third-party AI model provider options available for Now Assist**
 
 Google Gemini 2.0 Flash, Google Gemini 2.5 Pro, and AWS Claude 3.7 Sonnet are available for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI GPT-4.1 and GPT-4.1 mini.
 
@@ -9314,17 +9385,17 @@ ServiceNow Otto for Third-party Risk Management \(TPRM\)
 
 </td><td>
 
--   **[Extended AI model support for Now Assist for TPRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/supporting-information-now-assist-tprm.md)**
+-   **Extended AI model support for Now Assist for TPRM**
 
 Starting with Zurich Patch 12, ServiceNow Otto for Third-party Risk Management \(TPRM\) supports Google Gemini 3.5 Flash, OpenAI GPT 5.1, and OpenAI GPT 5.4 mini models in addition to previously supported models. Model availability depends on your ServiceNow Otto for Third-party Risk Management \(TPRM\) subscription, providing greater flexibility when selecting the AI model that meets your requirements.
 
 
--   **[Generate issue recommendations for TPRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/create-recommendation-tprm-issue.md)**
+-   ****
 
 If you have the third‑party assessment reviewer role \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\] and have installed the if you have the third‑party assessment reviewer role \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\] and have installed the ServiceNow Otto for Third-party Risk Management \(TPRM\), you can use generative AI to automatically identify and recommend issues based on assessment responses. The TPRM issue management recommendation skill recommends issues with rationalized summaries. Recommended issues are presented for review and are created as standard TPRM issues only after user confirmation.
 
 
--   **[Generate a summary of a TPRM issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/create-a-summary-of-issue.md)**
+-   ****
 
 If you have the third-party assessor role \[sn\_vdr\_risk\_asmt.vendor\_assessor\] role and have installed the ServiceNow Otto for Third-party Risk Management \(TPRM\) for TPRM application, you can use generative AI to automatically summarize complex issue records. The TPRM Issue Summarization skill works across all issue states including New, Analyze, Review, Finalize, and Closed and can help reduce manual review time, improve consistency in issue descriptions and remediation guidance, and accelerate triage and reporting for customers managing high volumes of third-party risk data.
 
@@ -9360,16 +9431,16 @@ ServiceNow Otto for Workplace Service Delivery \(WSD\)
 
 </td><td>
 
--   **[Summarize a workplace case using ServiceNow Otto for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/summarize-workplace-case.md)**
+-   ****
 
 Use the case summarization skill to summarize the case context and take appropriate action.
 
 
--   **[Optimize cleaning activities agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/optimize-cleaning-activities-agent.md)**
+-   ****
 
 Use the optimize cleaning activities agentic workflow to manage cleaning and maintenance schedules of a maintenance case based on the space utilization rate of the location where a maintenance case is created.
 
--   **[Automate map updates agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/automate-map-updates-agent-ai.md)**
+-   ****
 
 Use the automate map updates agentic workflow to configure the map during bulk updates to Indoor Mapping.
 
@@ -9382,90 +9453,90 @@ ServiceNow SDK
 
 </td><td>
 
--   **[Flow API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-fluent-api-reference.md)**
+-   **Flow API - ServiceNow Fluent**
 
 Use the Flow API to create flows and subflows \[sys\_hub\_flow\] that automate business processes with reusable multiple-step components.
 
--   **[Service Catalog API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-fluent-api-reference.md)**
+-   **Service Catalog API - ServiceNow Fluent**
 
 Use the Service Catalog API to define catalog items \[sc\_cat\_item\] and related aspects of service catalogs.
 
--   **[Email Notification API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-fluent-api-reference.md)**
+-   **Email Notification API - ServiceNow Fluent**
 
 Use the Email Notification API to define notifications \[sysevent\_email\_action\] that send automated emails.
 
--   **[Service Level Agreement API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-fluent-api-reference.md)**
+-   **Service Level Agreement API - ServiceNow Fluent**
 
 Use the Service Level Agreement API to define service level agreements \(SLAs\) \[contract\_sla\] that set the amount of time for a task to reach a specified condition.
 
--   **[Dashboard API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-fluent-api-reference.md)**
+-   **Dashboard API - ServiceNow Fluent**
 
 Use the Dashboard API to define dashboards \[par\_dashboard\] for organizing and sharing data visually.
 
--   **[Workspace API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-fluent-api-reference.md)**
+-   **Workspace API - ServiceNow Fluent**
 
 Use the Workspace API to define configurable workspace experiences for organizing and sharing data visually.
 
--   **[Allow access to ServiceNow APIs for third-party modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications-source-code.md#application-structure)**
+-   **Allow access to ServiceNow APIs for third-party modules**
 
 Configure which third-party library modules to identify as trusted and have access to ServiceNow APIs with the `trustedModules` parameter in an application's `now.config.json` file.
 
 
--   **[Import Sets API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/fluent-import-sets-api.md)**
+-   ****
 
 Use the Import Sets API to define transform maps \[sys\_transform\_map\] that specify how to transform and map data from the import set staging table to target tables.
 
--   **[UI Policy API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/fluent-ui-policy-api.md)**
+-   ****
 
 Use the UI Policy API to define user interface policies \[sys\_ui\_policy\] that dynamically change the behavior of information on a form and control custom process flows for tasks.
 
--   **[Attach user images to records from source code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/fluent-constructs.md)**
+-   **Attach user images to records from source code**
 
 Attach user images to records associated with metadata defined in source code with the `Now.attach` construct.
 
--   **[Use utility functions for additional type validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-fluent-api-reference.md)**
+-   **Use utility functions for additional type validation**
 
 Use utility types that help validate values for properties that support the Duration \(Duration\(\)\), Time \(Time\(\)\), Field List \(FieldList\(\)\), and Template Value \(TemplateValue\(\)\) field types in ServiceNow Fluent APIs. Utility types provide validation at build time for tables both within and outside of an application.
 
--   **[Generated ServiceNow Fluent code organized in taxonomy-based directories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications-source-code.md#application-structure)**
+-   **Generated ServiceNow Fluent code organized in taxonomy-based directories**
 
 Configure a custom directory structure for metadata transformed into ServiceNow Fluent code with the `taxonomy` parameter in an application's `now.config.json` file. By default, generated ServiceNow Fluent files are organized in a taxonomy-based directory structure within the `fluent/generated` directory.
 
 
--   **[Specify which files to build as JavaScript modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications-source-code.md#application-structure)**
+-   **Specify which files to build as JavaScript modules**
 
 Configure which files to include or exclude when building JavaScript modules with the `serverModulesIncludePatterns` and `serverModulesExcludePatterns` parameters in an application's `now.config.json` file.
 
 
--   **[Develop a user interface with React](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-development-react.md)**
+-   **Develop a user interface with React**
 
 Develop a user interface with the React library and the UI Page API to build a full-stack application in source code.
 
--   **[Script Action API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/fluent-script-action-api.md)**
+-   ****
 
 Use the Script Action API to define script actions \[sysevent\_script\_action\] that run when an event occurs.
 
--   **[Script Include API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/fluent-script-include-api.md)**
+-   ****
 
 Use the Script Include API to define script includes \[sys\_script\_include\] that store JavaScript functions and classes for use by server-side scripts.
 
--   **[Service Portal API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/fluent-service-portal-api.md)**
+-   ****
 
 Use the Service Portal API to create custom widgets \[sp\_widget\] for portal pages.
 
--   **[UI Action API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/fluent-ui-action-api.md)**
+-   ****
 
 Use the UI Action API to configure custom user interface actions \[sys\_ui\_action\], such as buttons, links, and context menu items on forms and lists.
 
--   **[UI Page API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/fluent-ui-page-api.md)**
+-   ****
 
 Use the UI Page API to configure custom user interface pages \[sys\_ui\_page\] that display forms, dialogs, lists, and other UI components.
 
--   **[Download application metadata from an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-sdk-cli-commands.md)**
+-   **Download application metadata from an instance**
 
 Download application metadata \(XML\) from a ServiceNow instance to compare it with the metadata in your local application using the `now-sdk download` command.
 
--   **[Clean or package an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-sdk-cli-commands.md)**
+-   **Clean or package an application**
 
 Remove the build artifacts that were output with the previous build using the `now-sdk clean` command. You can also package the build artifacts that were output with the previous build into an installable ZIP file using the `now-sdk pack` command.
 
@@ -9476,52 +9547,52 @@ ServiceNow Studio
 
 </td><td>
 
--   **[Create an application in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/create-an-application-in-servicenow-studio.md)**
+-   ****
 
 As of version 28.2.1, you can use Now Assist or Creator Studio to begin creating your applications. You can also view the App Gallery for more inspiration.
 
--   **[Elevate your role in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/elevate-your-role-in-servicenow-studio.md)**
+-   ****
 
 As of version 28.2.1, you can elevate your role to security\_admin without having to leave ServiceNow Studio. Users with the security\_admin role can make changes to other roles and to access control lists \(ACLs\).
 
--   **[ServiceNow Studio personas and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/sn-studio-personas-roles.md)**
+-   ****
 
 As of version 28.2.1, several new granular admin roles enable developers to complete administrative configuration tasks without requiring the full admin role in ServiceNow Studio.
 
--   **[Opening files in your preferred editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/opening-files-in-your-preferred-editor.md)**
+-   ****
 
 As of version 28.2.1, for file types that open in a builder, decide whether you want to edit the file in the builder or in the classic UI16 view.
 
--   **[Bookmark lists in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/bookmark-lists-in-sns.md)**
+-   ****
 
 As of version 28.2.1, access your favorite lists by bookmarking them.
 
--   **[AppSee support in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/exploring-servicenow-studio.md)**
+-   **AppSee support in ServiceNow Studio**
 
 As of version 28.2.1, AppSee is supported in ServiceNow Studio.
 
--   **[Create an app file in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/sn-studio-create-app-file.md)**
+-   ****
 
 As of version 28.2.1, you can create files directly from an app open in the Navigator panel.
 
 
--   **[Add AI files to your apps in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-studio-file-navigator-taxonomy.md)**
+-   **Add AI files to your apps in ServiceNow Studio**
 
 You can add agentic workflows, AI Agents, and skills to your apps in ServiceNow Studio.
 
--   **[Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/link-app-to-source-control.md)**
+-   ****
 
 Use source control operations on the App details page to link an application to a Git repository.
 
--   **[App details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/app-details-page.md)**
+-   ****
 
 View and manage app files and metadata on the enhanced App details page. You can also link your app to source control from the App details page and create new files for your application.
 
--   **[Focus the Navigator panel on an app or app file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/qs-focus-navigator-panel-on-app-app-file.md)**
+-   ****
 
 Improve efficiency as you work in ServiceNow Studio by focusing the Navigator panel on any file or application open in an integrated tab.
 
--   **[Personalize your UI with dark theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-studio-user-interface.md)**
+-   **Personalize your UI with dark theme**
 
 Dark theme is now supported in ServiceNow Studio. Access user preferences to switch between dark and light mode on your instance.
 
@@ -9565,24 +9636,24 @@ Smart Assessment Engine
 
 </td><td>
 
--   **[Combining assessments and copying responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/combine-assessments.md)**
+-   ****
 
 Combine assessments from different templates into a single, streamlined view. Eliminating the need to open each assessment separately, preserving context, and improving efficiency.
 
 
--   **[Collaboration in assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/collaboration-in-assessments.md)**
+-   **Collaboration in assessments**
 
 Enhance assessments with the new collaboration feature, enabling owners to add multiple contributors to work together in real time. This update enables assessors to collaborate efficiently by adding several contributors to an assessment. Real-time updates reflect each contributor's changes, and presence indicators show who is present on the assessment.
 
--   **[Normalization in assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/normalization-in-assessment.md)**
+-   **Normalization in assessments**
 
 Adjust assessment scores to a common scale to promote fair comparison and prioritization. This normalization process helps standardize these measurements, enabling different metrics or scores to be evaluated on the same scale.
 
--   **[Creating code questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/sae-q-code-create.md)**
+-   **Creating code questions**
 
 Capture data quickly and accurately from physical documents using a new barcode and QR code question type for assessments. By scanning barcodes or entering QR codes, the system can instantly retrieve and input relevant information.
 
--   **[Creating an assessment template from legacy metric types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/sae-asmnt-template-migrating.md)**
+-   **Creating an assessment template from legacy metric types**
 
 Migrate question dependencies with an improved migration utility, which now supports the check box question type and conditional visibility criteria defined on templates.
 
@@ -9990,35 +10061,35 @@ Talent profile
 
 </td><td>
 
--   **[Create Talent pools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/create-talent-pool.md)**
+-   ****
 
 Create talent pools to organize similar talent profiles in one place for particular hiring requirements. You can share and collaborate using talent pools and also send out communications to all talent profiles in the pool at once.
 
--   **[Copy talent to pool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/copy-talent-other-pool.md)**
+-   ****
 
 Use existing talent pools to associate suitable talent profiles from the pools to your talent pool.
 
--   **[Remove talent profiles from a pool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/remove-talent-from-pool.md)**
+-   ****
 
 As an owner of the pool or one of the collaborators, remove the talent profiles that are no longer required.
 
--   **[Delete a Talent pool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/delete-talent-pool.md)**
+-   ****
 
 Delete a talent pool when it has served its purpose or is no longer relevant.
 
--   **[Create talent profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/create-talent-ta.md)**
+-   ****
 
 Create talent profiles to add it to the talent profile repository of your organization and use it for an optimized hiring process.
 
--   **[Filter talent profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/filter-tp.md)**
+-   ****
 
 Use filter options to find relevant talent profiles more efficiently in the **Talent pool** tab.
 
--   **[Add talent profiles to a Talent pool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/add-talent-to-pool.md)**
+-   ****
 
 Add similar talent profiles to a talent pool to streamline communication to all the profiles during a particular hiring drive.
 
--   **[Copy talent profiles as job prospects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/copy-talent-to-leads.md)**
+-   ****
 
 Copy talent profiles from a talent pool to a particular job requisition as prospects.
 
@@ -10205,26 +10276,26 @@ Third-party Risk Management
 
 Review the ServiceNow Otto for Third-party Risk Management \(TPRM\) release notes for full descriptions of the features.
 
--   **[Document Management system in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/tprm-dms.md)**
+-   ****
 
 Starting with version 21.1.x, you can use the Document Management System \(DMS\) in TPRM, which provides a centralized repository for storing, organizing, and managing third-party documents throughout the vendor life cycle. It can be used by third-party risk managers \[sn\_vdr\_risk\_asmt.vendor\_manager\], third-party assessors \[sn\_vdr\_risk\_asmt.vendor\_assessor\], and third parties to upload, categorize, track, and review documents with metadata, version control, and access permissions. This feature streamlines evidence tracking, reduces duplication, and improves audit readiness by enabling document reuse across assessments, contracts, issues, and tasks.
 
 For information on Now Assist skills for TPRM and Document Management, see [ServiceNow Otto for Third-party Risk Management \(TPRM\) release notes]() and [Now Assist in Document Intelligence release notes]().
 
--   **[Register of information regulatory packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/tprm-dora-roi.md)**
+-   ****
 
 After upgrading the Digital Resilience Third-party Information Register application to version 21.1.x, third-party assessors \[sn\_vdr\_risk\_asmt.vendor\_assessor\] can now generate regulator-ready Register of Information packages using the Plain-CSV Report Package option on the download page. The ZIP file includes metadata and report folders structured to regulator specifications, with file names containing LEI, entity ID, and release version. This format helps ensure EU DORA compliance and supports automated validation workflows. You can follow the user guide on the Download/Upload request page for suggested steps and permissions.
 
--   **[Validation framework for Register of Information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/tprm-validation-roi.md)**
+-   ****
 
 After upgrading the Digital Resilience Third-party Information Register application to version 21.1.x, third-party risk managers \[sn\_vdr\_risk\_asmt.vendor\_manager\] can now validate downloaded Register of Information packages using the Plain-CSV Report Package option on the download page against requirements. File format, structure, encoding, naming conventions, and field-level data are validated across multiple tables. If any validation warnings are detected, a validation report is automatically attached, including mappings to regulator fields such as Template Code, Row Code, and Column Code. Validation reports include real-world field labels, rule expressions, and record identifiers. You can cross-reference validation errors using a downloadable Excel master template that mirrors the CSV structure, making it easier to locate and address issues. Additional enhancements include support for “Not applicable” values, enforcement of file size limits, and clearer error messages for malformed data.
 
 
--   **[New sn\_vdr\_risk\_asmt.sae\_enabled property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/tprm-properties-configure.md)**
+-   **New sn\_vdr\_risk\_asmt.sae\_enabled property**
 
 Use the new and improved Smart Assessment experience after you upgrade to version 21.0.x and set the Smart Assessment Engine enabled \(**sn\_vdr\_risk\_asmt.sae\_enabled**\) property.
 
--   **[Smart assessments with Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/tprm-sae-using.md)**
+-   ****
 
 Create Smart Assessment Engine assessments for your organization:
 
@@ -10259,25 +10330,25 @@ UI Builder
 
 </td><td>
 
--   **[Build pages and gain page insights using the Now Assist panel in UI Builder.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/using-ui-builder-agent.md)**
+-   **Build pages and gain page insights using the Now Assist panel in UI Builder.**
 
 As of UI Builder Version 28.2, use Now Assist to add components, bind data, adjust layouts, and get page insights such as number of components, data resource information, and access permissions.
 
--   **[Add test values in Component Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/component-builder.md)**
+-   **Add test values in Component Builder**
 
 As of UI Builder Version 28.2, define simulated page parameters to preview and validate how customer components behave during development.
 
 
--   **[Utilize AI on pages you are building](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/add-skill.md)**
+-   **Utilize AI on pages you are building**
 
 Easily add generative AI capabilities to any page, component, or controller
 
--   **[Get conversational help with the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/uib-now-assist-panel.md)**
+-   **Get conversational help with the Now Assist panel**
 
 Ask questions directly in the Now Assist panel to receive immediate AI-driven guidance without leaving UI Builder.
 
 
--   **[Build and customize components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/component-builder.md)**
+-   **Build and customize components**
 
 Build custom components and configure them to be used across pages and experiences.
 
@@ -10462,7 +10533,7 @@ Select AI agents to handle tasks in the AI Connector utility. For more informati
 
 -   **[Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent-landing-page.md) server**
     -   In chatHandshake, set **dynamic\_step\_loader\_enabled** to `true` to send stacked agentic AI messages to the server. Set **dynamic\_step\_loader\_enabled** to `false` to avoid sending messages.
-    -   Pre-chat and post-chat surveys are now available for Anthropic Claude on AWS and Google Gemini large language models \(LLMs\). For more information on surveys, see [Chat surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/ci-conversational-chat-surveys.md).
+    -   Pre-chat and post-chat surveys are now available for Anthropic Claude and Google Gemini large language models \(LLMs\). For more information on surveys, see [Chat surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/ci-conversational-chat-surveys.md).
 -   **[Create a Virtual Agent asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/create-virtual-agent-topic.md)**
 
 Start the create flow for all supported conversational LLM assets directly from Virtual Agent Designer.
@@ -10605,7 +10676,7 @@ Starting with v5.0 of Vulnerability Exposure Assessment, a publisher-based asses
 
 Starting with v25.0.3 of Vulnerability Response, the system property **sn\_sec\_cmn.risk\_score\_changes\_add\_worknotes** is inactive by default. If you enable it, only then you can see all the changes related to the risk score of a vulnerable item in the Work notes section. Additionally, the work notes are updated only if there’s a change in the risk score.
 
--   **[Quick Start Tests for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/available-quick-start-tests.md)**
+-   **Quick Start Tests for Vulnerability Response**
 
 After upgrades and deployments of new applications or integrations, run quick start tests to verify that Vulnerability Response works as expected. If you customized Vulnerability Response, copy the quick start tests and configure them for your customizations.
 
@@ -10695,7 +10766,7 @@ The new default behavior works as follows:
 
     -   New customers: When you install an AI product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Australia Early Access\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Use AI to discover model entity options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/use-ai-to-help-add-an-entity-to-a-model.md)**
+-   **Use AI to discover model entity options**
 
 Use ask AI in model manager to obtain detailed entity options by describing the entity you want to add to a model.
 
@@ -10703,7 +10774,7 @@ Use ask AI in model manager to obtain detailed entity options by describing the 
 
 Apply roles and user group names to control access to create, read, and update model operations.
 
--   **[More easily create model operation entity inputs and outputs using scriptable API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/sn_erp_integrationBothAPI.md)**
+-   **More easily create model operation entity inputs and outputs using scriptable API**
 
 Query complex request/response structures faster and easier using scriptable Glide APIs for models instead of Flow Designer.
 

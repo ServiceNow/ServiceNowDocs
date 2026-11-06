@@ -16,7 +16,7 @@ Clone profiles enable you to set up exclusions, preservers, and cleanup scripts 
 
 ## Before you begin
 
-Role required: clone\_admin
+Role required: clone\_admin or clone\_profile\_admin
 
 ## About this task
 

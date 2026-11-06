@@ -40,7 +40,7 @@ Role required: sn\_bcm.admin, sn\_bcp.plan\_admin
 
 
 -   **[Planning dependency update configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/pla-dep-update-confi-form.md)**  
-Use the Planning dependency update configuration form to configure the plan record, its sources, and preferences such as the plan record name, sources, and notification preferences and schedule an auto-update of the related assets in the plans.
+Use this form to configure plan records, data sources, notification preferences, and auto-update schedules for related assets in a plan.
 
 **Parent Topic:**[Configuring planning dependency updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/confi-planning-dep-updates.md)
 

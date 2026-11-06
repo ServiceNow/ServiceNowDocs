@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Browser Extension for Employee Center forms, Reference, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Browser Extension for Employee Center forms, Reference, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Website configuration form

@@ -9,7 +9,7 @@ classification: now-mobile-employee-experience
 topic_type: task
 last_updated: "2026-01-12"
 reading_time_minutes: 1
-breadcrumb: [Configure Now Mobile Home page, Configuring Employee Center for mobile, Now Mobile experience for Employee Center, Now Mobile app, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configure Now Mobile Home page, Configuring Employee Center for mobile, Now Mobile experience for Employee Center, Now Mobile app, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure Quick links for Now Mobile

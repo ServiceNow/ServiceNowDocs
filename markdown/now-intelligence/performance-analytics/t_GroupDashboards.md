@@ -22,6 +22,8 @@ Role required: admin, pa\_admin, or pa\_power\_user.
 
 ## About this task
 
+**Note:** This topic refers to Core UI dashboards. If you are looking for information about the newer Platform Analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center-dashboards.md).
+
 Permissions on dashboard groups apply to all the dashboards in that group.
 
 **Note:**

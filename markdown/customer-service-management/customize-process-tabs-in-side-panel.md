@@ -50,7 +50,7 @@ The added component gets displayed on the UI. The location depends on where you 
 **Related topics**  
 
 
-[Configure tabs in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/config-csm-ws-side-panel-tabs.md)
+[Hide tabs in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/config-csm-ws-side-panel-tabs.md)
 
 [Customize a record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/config-csm-ws-custom-record-page.md)
 

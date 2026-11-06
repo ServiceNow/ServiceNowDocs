@@ -63,7 +63,7 @@ The ServiceNow® ServiceNow Otto for CSM application brings generative AI to Cus
 Early Availability
 
 -   Use the suggested steps that automatically display on the **Recommended Actions** tab to help resolve cases and increase agent productivity.
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 
 See [ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-csm.md) for more information.
 

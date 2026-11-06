@@ -31,7 +31,7 @@ Table rotation is used by Event Management, by default, to contain the growth of
 -   **[Purge impact status and alert history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMConfigurePurge.md)**  
 Automatically cleans up outdated impact statuses and alert history from the database to free up space, improve system performance, and ensure only relevant data is retained.
 -   **[Alert table clean up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/auto-close-alerts.md)**  
-The Scheduled Jobs feature runs a script to automatically close alerts in the Alerts \[em\_alert\] table that meet specific conditions, helping reduce alert noise and keep the system clean and efficient.
+Scheduled jobs automatically close alerts in the Alerts \[em\_alert\] table that meet specific conditions, reducing alert noise.
 
 **Parent Topic:**[Manage and monitor alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/c_EMAlert.md)
 

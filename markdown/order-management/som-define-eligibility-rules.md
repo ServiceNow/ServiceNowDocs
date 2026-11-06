@@ -18,7 +18,7 @@ Define product eligibility rules by using the Product Offering Catalog Eligibili
 
 [Create the rule entity filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-create-rule-entity-filter.md) and define any new [custom context variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-create-context-variable.md) needed to define the eligibility rules.
 
-Role required: sn\_prd\_pm\_product\_catalog\_admin and sn\_prd\_pm\_product\_catalog\_manager
+Role required: sn\_prd\_pm.product\_catalog\_admin and sn\_prd\_pm.product\_catalog\_manager
 
 ## About this task
 
@@ -33,7 +33,7 @@ The November 2024 release provides Version 2 of the product eligibility matrices
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** view.
+1.  In the CSM Configurable Workspace, select the **List** view.
 
 2.  Navigate to **Context Rule Management** &gt; **Rule Matrices**.
 

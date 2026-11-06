@@ -29,7 +29,7 @@ Zurich Patch 12
 -   Help map admins configure the map during bulk updates to Indoor Mapping using the automate map updates agentic workflow.
 -   Optimize a maintenance case based on the space utilization rate of the location where a maintenance case is created using the optimize cleaning activities agentic workflow.
 
-See [ServiceNow Otto for Workplace Service Delivery \(WSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-wsd-landing.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -59,7 +59,7 @@ The ServiceNow® ServiceNow Otto for Workplace Service Delivery \(WSD\) applicat
 
 ### What's new
 
--   **[Summarize a workplace case using ServiceNow Otto for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/summarize-workplace-case.md)**
+-   ****
 
     Use the case summarization skill to summarize the case context and take appropriate action.
 
@@ -81,11 +81,11 @@ The ServiceNow® ServiceNow Otto for Workplace Service Delivery \(WSD\) applicat
 
 ### What's new
 
--   **[Optimize cleaning activities agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/optimize-cleaning-activities-agent.md)**
+-   ****
 
     Use the optimize cleaning activities agentic workflow to manage cleaning and maintenance schedules of a maintenance case based on the space utilization rate of the location where a maintenance case is created.
 
--   **[Automate map updates agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/automate-map-updates-agent-ai.md)**
+-   ****
 
     Use the automate map updates agentic workflow to configure the map during bulk updates to Indoor Mapping.
 

@@ -34,7 +34,7 @@ To view search results from the source instance, a user on the destination insta
 
 If these conditions aren't satisfied, the destination instance user won't be able to see search results crawled from the source instance.
 
--   **[Configure your ServiceNow AI Platform instance for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-sn-aip-instance-external-content-indexing.md)**  
+-   **[Configure your ServiceNow AI Platform source instance for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-sn-aip-instance-external-content-indexing.md)**  
 Create and configure a non-interactive service user account on your ServiceNow AI Platform® source instance to allow access by the ServiceNow instance external content connector.
 -   **[Create a ServiceNow instance external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-ext-cont-connector-snow-instance.md)**  
 Create an external content connector to retrieve searchable content and security principals from a ServiceNow AI Platform instance.

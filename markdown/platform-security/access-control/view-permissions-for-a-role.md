@@ -9,7 +9,7 @@ classification: access-control
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Use Evaluate access, Use Access analyzer, Access analyzer, Access Management]
+breadcrumb: [Use Evaluate access, Use Access Analyzer, Access analyzer, Access Management]
 ---
 
 # View permissions for a role
@@ -20,17 +20,17 @@ Use Access Analyzer to view permissions for a selected role.
 
 Role required: admin, access\_analyzer\_admin
 
-The following procedure describes the sample steps to view permissions for a selected role \(**user\_admin**\) to view the permission for a REST API Endpoint using the evaluate access in Access Analyzer.
+The following procedure describes the sample steps to view permissions for a selected role \(**user\_admin**\) to view the permission for a REST API Endpoint using the Evaluate access in Access Analyzer.
 
-**Note:** Access Analyzer is a ServiceNow® Store product.
+**Note:** Access Analyzer is a ServiceNow® Store app.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Access Analyzer** &gt; **Analyze Permissions**.
 
-    The Analyze access and permissions homepage is displayed.
+    The Analyze access and permissions home page is displayed.
 
-2.  Select your criteria as follows:
+2.  Select your criteria as follows.
 
 <table id="table_cpw_mgd_qxb"><thead><tr><th>
 
@@ -42,43 +42,43 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Analyze by \*
+Analyze by
 
 </td><td>
 
-Select **Role**.
+**Role**.
 
 </td></tr><tr><td>
 
-Select user \*
+Select user
 
 </td><td>
 
-Specify a role to select from the list. For example, **user\_admin**.
+Role from the list. For example, **user\_admin**.
 
 </td></tr><tr><td>
 
-Rule type \*
+Rule type
 
 </td><td>
 
-Analyze access for a table, a UI page, a REST Endpoint, or a client callable script include. For example, **REST Endpoint**.
+Access analysis for a table, a UI page, a REST Endpoint, or a client callable script include. For example, **REST Endpoint**.
 
 </td></tr><tr><td>
 
-REST endpoint\*
+REST endpoint
 
 </td><td>
 
-Specify a REST endpoint. For example, `/api/global/user_role_inheritance`.**Note:** The complete REST endpoint must be used when using the selected field.
+REST endpoint. For example, `/api/global/user_role_inheritance`.**Note:** The complete REST endpoint must be used when using the selected field.
 
 </td></tr><tr><td>
 
-REST endpoint method \*
+REST endpoint method
 
 </td><td>
 
-Specify a REST endpoint method. For example, GET.
+REST endpoint method. For example, GET.
 
 </td></tr></tbody>
 </table>3.  Specify the description in the **Description** field.
@@ -89,8 +89,8 @@ Specify a REST endpoint method. For example, GET.
 
     The **Access results** for the **user\_admin** role is displayed.
 
-    The results can be read, by referring to the Legends, access control list \(ACL\), IAccesshandler, and Data filters.
+    The results can be read by referring to the Legends, access control list \(ACL\), IAccessHandler, and Data filters.
 
-    The overall access for the role is passed, which means that the role \(**user\_admin**\) is able to access the **REST endpoint** for the selected **GET** method.
+    The overall access for the role is passed, which means that the role \(**user\_admin**\) can access the **REST endpoint** for the selected **GET** method.
 
 

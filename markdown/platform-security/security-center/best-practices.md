@@ -461,7 +461,7 @@ Validate access using Access Analyzer
 
 Use the ServiceNow Access Analyzer tool to help you compare and analyze permissions for selected users, roles, or groups. You can use this information to troubleshoot access issues, identify who has access to your sensitive data, and determine the correct level of access for users on your instance.
 
- Learn more about the benefits of Access Analyzer at [Explore Access analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/explore-access-analyzer.md).
+ Learn more about the benefits of Access Analyzer at [Access analyzer capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/explore-access-analyzer.md).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Security Best Practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/security-best-practices-manager.md)

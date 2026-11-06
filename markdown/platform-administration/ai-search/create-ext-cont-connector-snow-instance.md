@@ -19,7 +19,7 @@ Create an external content connector to retrieve searchable content and security
 
 ## Before you begin
 
-A user with the admin role must have already configured your ServiceNow AI Platform source instance to allow access by the ServiceNow instance external content connector. For the required source instance configuration steps, see [Configure your ServiceNow AI Platform instance for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-sn-aip-instance-external-content-indexing.md).
+A user with the admin role must have already configured your ServiceNow AI Platform source instance to allow access by the ServiceNow instance external content connector. For the required source instance configuration steps, see [Configure your ServiceNow AI Platform source instance for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-sn-aip-instance-external-content-indexing.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 
@@ -90,9 +90,9 @@ Password for the service user defined in your ServiceNow AI Platform source inst
 
     If you want to skip this step for now, select **Skip** instead of **Next**. You can modify the crawl settings for this connector from the External Content Admin Home page. For details on this procedure and the available crawl settings, see [Configure crawl settings for a ServiceNow instance external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-crawl-settings-snow-instance-external-content-connector.md).
 
-9.  On the User permission settings page, modify any default user permission settings that you want to override for this connector.
+9.  On the User mapping settings page, modify any default user mapping settings that you want to override for this connector.
 
-    If you want to skip this step for now, select **Skip** instead of **Next**. You can modify the user permission settings for this connector from the External Content Admin Home page. For details on this procedure and user permission settings, see [Configure user permission settings for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-user-mapping-settings-external-content-connector.md).
+    If you want to skip this step for now, select **Skip** instead of **Next**. You can modify the user mapping settings for this connector from the External Content Admin Home page. For details on this procedure and user mapping settings, see [Configure user mapping settings for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-user-mapping-settings-external-content-connector.md).
 
 10. On the Create crawl page, create a content crawl for this connector by selecting a crawl scope \(if supported\) and any desired options, then select **Next**.
 

@@ -40,7 +40,7 @@ Create a page in a new experience so that you can add elements to it, preview it
 
     2.  With the `/pages` folder highlighted, select the create folder icon.
 
-        Alternatively, right-click and select **New Folder**.
+        Alternatively, select and hold \(or right-click\) and select **New Folder**.
 
     3.  Enter a name for the new folder and press Enter.
 

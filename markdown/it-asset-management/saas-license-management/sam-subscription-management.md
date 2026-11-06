@@ -160,8 +160,6 @@ Disconnect an SSO application to stop viewing subscription information for the a
 If your company stops using a SaaS application or SSO provider, you can delete the integration profile.
 -   **[Subscription identifiers for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/subscription-identifiers.md)**  
 Use the SaaS License Management application to view, manage, and resolve subscription identifiers for your SaaS and SSO applications.
--   **[Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/subscription-exclusions.md)**  
-Define subscription exclusions for your SaaS and SSO applications to optimize your licensing costs by keeping the excluded subscriptions out of license cost calculations.
 
 **Parent Topic:**[Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/c_SoftwareAssetMgmt.md)
 

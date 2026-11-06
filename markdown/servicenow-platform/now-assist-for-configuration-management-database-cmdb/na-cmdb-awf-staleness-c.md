@@ -8,7 +8,7 @@ product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
 topic_type: concept
 last_updated: "2026-10-05"
-reading_time_minutes: 4
+reading_time_minutes: 3
 keywords: [stale CI, CMDB staleness, CI rediscovery, CI retirement]
 breadcrumb: [Use generative AI skills, ServiceNow Otto for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -50,8 +50,6 @@ The staleness agentic workflow provides end-to-end automation to define, redisco
 -   Smart rediscovery: Automatically re-scan stale CIs to determine whether they are still active. Supports on-demand or scheduled rediscovery for temporarily unreachable assets, fixes configuration settings to resolve root causes, and determines staleness using activity signals such as changes and incidents.
 -   Discovery and SGC health fixes: Beyond cleanup, the system identifies why CIs went stale. Get targeted recommendations to fix discovery or SGC schedules, credential issues, and configuration gaps to help prevent future staleness.
 -   Guided life-cycle actions: For confirmed stale CIs, the system displays the recommended life-cycle action.
-
-For each recommended action, the system displays all related CIs with a link to each CI record so you can review the list before applying the action. You can apply the action to all CIs in the group, select a subset, or ignore the recommendation.
 
 CIs determined to be non-discoverable are marked for retirement and handled by the Data Manager. For manually entered or non-discovered CIs, the system uses activity signals, such as events, incidents, or other actions performed on the CI. These signals determine whether the CI is still in use before recommending retirement.
 

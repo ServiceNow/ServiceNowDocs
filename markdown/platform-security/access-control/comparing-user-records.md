@@ -9,7 +9,7 @@ classification: access-control
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Use Access analyzer, Access analyzer, Access Management]
+breadcrumb: [Use Access Analyzer, Access analyzer, Access Management]
 ---
 
 # Compare user records
@@ -43,8 +43,8 @@ The following procedure describes the steps for comparing user records using the
     The results are displayed with the following tabs:
 
     -   **Details**: Display the user's metadata.\[Omitted image "comparing-page.png"\] Alt text: Details page
-    -   **Roles**: Display the roles that are assigned to the user. You can select the role to know more about the role and its entitlements. \[Omitted image "role-compare-user-records.png"\] Alt text: Roles
-    -   **Groups**: Display the groups that are assigned to the user. You can select the group to know more about the group and its entitlements.\[Omitted image "group-compare-user-records.png"\] Alt text: Group
+    -   **Roles**: Display the roles that are assigned to the user. You can select the role to learn more about the role and its entitlements. \[Omitted image "role-compare-user-records.png"\] Alt text: Roles
+    -   **Groups**: Display the groups that are assigned to the user. You can select the group to learn more about the group and its entitlements.\[Omitted image "group-compare-user-records.png"\] Alt text: Group
     Similarly you can compare different users in the ServiceNow instance to understand the access that is assigned to the users.
 
 

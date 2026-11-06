@@ -67,7 +67,7 @@ You set up integrations through the Integrations Launchpad in Service Operations
 
 8.  In the **Set-up instruction** screen, copy the provided URL to the clipboard.
 
-    The format of the URL is: `http://(MID_SERVER_IP):(MID_WEB_SERVER_PORT)/ap1/mid/hla/raw`, where `/aps/mid/hla/raw` is the endpoint. HLA has replaced `(MID_SERVER_IP)` and `(MID_WEB_SERVER_PORT)` with the values you configured on the **Provide details** form.
+    The format of the URL is: `http://(MID_SERVER_IP):(MID_WEB_SERVER_PORT)/api/mid/hla/raw`. The format of the URL for a secure connection is: `https://(MID_SERVER_IP):(MID_WEB_SERVER_PORT)/api/mid/hla/raw` Here `/aps/mid/hla/raw` is the endpoint. HLA has replaced `(MID_SERVER_IP)` and `(MID_WEB_SERVER_PORT)` with the values you configured on the **Provide details** form.
 
 9.  Do one of the following:
 

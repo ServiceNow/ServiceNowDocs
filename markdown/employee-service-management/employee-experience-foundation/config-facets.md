@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Improved search functionality, AI Search for Curated Experiences, Setup search experience, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Improved search functionality, AI Search for Curated Experiences, Setup search experience, Configure, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure search by the topic facets

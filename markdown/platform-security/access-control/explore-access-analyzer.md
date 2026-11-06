@@ -1,5 +1,5 @@
 ---
-title: Explore Access analyzer
+title: Access analyzer capabilities
 description: Analyze identities on the ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/access-control/explore-access-analyzer.html
@@ -12,11 +12,11 @@ reading_time_minutes: 2
 breadcrumb: [Access analyzer, Access Management]
 ---
 
-# Explore Access analyzer
+# Access analyzer capabilities
 
 Analyze identities on the ServiceNow instance.
 
-ServiceNow Access analyzer is an application that helps the administrators to view permissions for the selected user, role, or group.
+ServiceNow Access analyzer is an app that helps the administrators to view permissions for the selected user, role, or group.
 
 **Note:**
 
@@ -25,19 +25,19 @@ ServiceNow Access analyzer is an application that helps the administrators to vi
 -   Access analyzer evaluation results are the same irrespective of any access policies defined for the users such as Zero trust access \(ZTA\). The policies are only evaluated during the actual user login and aren’t evaluated during the access analyzer flow.
 -   Access analyzer has limitations in accurately evaluating access of the resources related to managed scope resources and delegated developer.
 
-## Evaluate Access
+## Access evaluation
 
 Evaluate Access is a capability of the ServiceNow Access Analyzer, which helps the administrators to view permissions for the selected user, role, or group.
 
 It enables you to analyze and view the permissions of users, groups, roles for a table, client callable script includes, UI pages, and REST endpoints.
 
-Using Access Analyzer, organizations can improve their security posture, identity governance, risk management, achieve their compliance goals, and understand who \(identity\) has access to what \(resources\).
+Using Access Analyzer, organizations can improve their security posture, identity governance, risk management, support their compliance goals, and understand who \(identity\) has access to what \(resources\).
 
-## Compare Access
+## Access comparison
 
 Compare Access is a capability of the ServiceNow Access analyzer V2, which enables administrators to compare user access and determine the right level of access for the users on your ServiceNow instance.
 
-Compare Access can be perform between the users for the user records and access control.
+Compare Access can be performed between the users for the user records and access control.
 
 Compare Access enables you to perform the following analysis:
 
@@ -53,8 +53,8 @@ The following are some of the benefits of using the Access analyzer:
 -   Compare the roles and groups of 2 users.
 -   Generate a report showing whether an identity has access to a resource \(table\).
 -   Understand who has access for critical security hygiene.
--   Help to prevent from over-provisioning permissions.
--   Achieve the least privilege principals when implementing access controls.
+-   Help avoid over-provisioning permissions.
+-   Achieve the principle of least privilege when implementing access controls.
 -   Limit access to certain data, which includes applications, tables, rows or columns, and other resources.
 -   Provide reporting capabilities for the analyzer results.
 -   Compare access between user records and access controls.

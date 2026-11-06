@@ -33,7 +33,7 @@ Sales and Order Management \(SOM\) is now known as Sales Customer Relationship M
 -   [Data Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/data-management-rn.md) \(Customer Life Cycle Management\)
 -   [Customer Contracts and Entitlements release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/customer-contracts-entitlements-csm-rn.md)
 
-Also, agents can use the Case Management for Order Operations application to display order cases and order case line items in CRM Workspace. The Case lines and workflows application provide the ability to reference multiple order line items on a case record.
+Also, agents can use the Case Management for Order Operations application to display order cases and order case line items in CSM Configurable Workspace. The Case lines and workflows application provide the ability to reference multiple order line items on a case record.
 
 -   **[CPQ Configurator release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/servicenow-cpq-rn.md)**  
 The ServiceNow® CPQ Configurator interface streamlines the configuration and pricing of customizable products that are added to opportunities, quotes, and orders. It also supports product configuration when modifying sold products and contracts. CPQ Configurator is a new feature in the Zurich release.

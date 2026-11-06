@@ -1,26 +1,26 @@
 ---
 title: Install Invoice Case Management
-description: You can install the Invoice Case Management \[sn\_ap\_cm\] application if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
+description: You can install the Invoice Case Management \(com.sn\_ap\_cm\) application if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/install-invoice-case-mgmt.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-03-12"
+reading_time_minutes: 2
 breadcrumb: [Configure, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Install Invoice Case Management
 
-You can install the Invoice Case Management \[sn\_ap\_cm\] application if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
+You can install the Invoice Case Management \(com.sn\_ap\_cm\) application if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
 
 ## Before you begin
 
 -   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the Invoice Case Management application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
--   The Accounts Payable Invoice Processing \[sn\_ap\_apm\] application installs the following dependent plugins:
+-   The Invoice Case Management \(com.sn\_ap\_cm\) application installs the following dependent plugins:
     -   Source-to-Pay Common Architecture \(com.snc.sn\_shop\)
     -   Supplier Collaboration Portal
     -   [Source-to-Pay Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/source-to-pay-operations-overview.md)
@@ -42,11 +42,11 @@ For more information, see [Components installed with Invoice Case Management](ht
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-2.  Find the Invoice Case Management application \[sn\_ap\_cm\] using the filter criteria and search bar.
+2.  Find the Invoice Case Management application \(com.sn\_ap\_cm\) using the filter criteria and search bar.
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 
-    In the list next to the **Install** button, the versions that are available to you're displayed.
+    In the list next to the **Install** button, the versions that are available to you are displayed.
 
 3.  Select a version from the list and select **Install**.
 
@@ -61,10 +61,6 @@ For more information, see [Components installed with Invoice Case Management](ht
 6.  Select **Install**.
 
 
-## Result
-
-The invoice case management is installed successfully.
-
 -   **[Components installed with Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/installed-with-invoice-case-mgmt.md)**  
 Several types of components are installed with activation of the Invoice Case Management plugin, including user roles, scheduled jobs, and tables.
 
@@ -78,10 +74,4 @@ Several types of components are installed with activation of the Invoice Case Ma
 [Install Accounts Payable Operations integration with Document Intelligence]()
 
 [Domain separation and Accounts Payable Operations]()
-
-[Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/acc-pay-case-mgmt-overview.md)
-
-[Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/acc-pay-workspace.md)
-
-[Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/acc-pay-invoice-processing.md)
 

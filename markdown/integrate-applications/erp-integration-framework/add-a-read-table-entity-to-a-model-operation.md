@@ -35,7 +35,7 @@ You must have already added the read operation before you can add an entity to i
 
 5.  Select the **Read** operation.
 
-6.  For help finding relevant entities using the **Ask AI** button, see [Use generative AI to help add an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/use-ai-to-help-add-an-entity-to-a-model.md).
+6.  For help finding relevant entities using the **Ask AI** button, see .
 
 7.  Select **Select entity** on the **Manage entities** tab.
 

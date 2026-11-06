@@ -24,15 +24,15 @@ Role required: admin
 
 1.  Access Upgrade Console in one of the following ways.
 
-<table id="choicetable_jnj_mj1_ndc"><thead><tr><th align="left" id="d232641e57">
+<table id="choicetable_jnj_mj1_ndc"><thead><tr><th align="left" id="d232161e57">
 
 Option
 
-</th><th align="left" id="d232641e60">
+</th><th align="left" id="d232161e60">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d232641e66">
+</th></tr></thead><tbody><tr><td id="d232161e66">
 
 **Using the application navigator**
 
@@ -40,7 +40,7 @@ Navigation
 
 Navigate to **All** &gt; **Admin Center** &gt; **Upgrade Management**.
 
-</td></tr><tr><td id="d232641e87">
+</td></tr><tr><td id="d232161e87">
 
 **Using Admin tab option**
 
@@ -48,7 +48,7 @@ Navigate to **All** &gt; **Admin Center** &gt; **Upgrade Management**.
 
 Navigate to **Admin** &gt; **Upgrade Management**.
 
-</td></tr><tr><td id="d232641e105">
+</td></tr><tr><td id="d232161e105">
 
 **Using Admin tab and Admin Home option.**
 
@@ -65,15 +65,15 @@ Navigate to **Admin** &gt; **Upgrade Management**.
 
 2.  Access the guided upgrade in one of the following ways.
 
-<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d232641e156">
+<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d232161e156">
 
 Option
 
-</th><th align="left" id="d232641e159">
+</th><th align="left" id="d232161e159">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d232641e165">
+</th></tr></thead><tbody><tr><td id="d232161e165">
 
 **Using Get started button__Note:__ This option is available only when you haven't started the upgrade yet.
 
@@ -85,7 +85,7 @@ Steps
 2.  Select the Guided upgrade version that you want to implement on your instance.
 
 
-</td></tr><tr><td id="d232641e188">
+</td></tr><tr><td id="d232161e188">
 
 **Using Guided upgrade tab option__Note:__ This tab is visible only if there’s an ongoing upgrade in the instance.
 

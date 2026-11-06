@@ -69,5 +69,5 @@ The Agent Client Collector data flow proceeds as described in [Agent Client Coll
 
 **Note:**
 
-When working with SSL, all certificates or certificate chains used by the configured MID Servers must be signed by root certificate authorities whose certificates are bundled inside a single `.pem` file. To transfer the signed certificates to the agent, specify the `.pem` file in the **trusted-ca-file** property of the agent’s `.yml` configuration file. For information on enhancing security with SSL/TLS configuration, see the [ITOM Agent Client Collector documentation material](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1122613) article in the Now Support Knowledge Base.
+When working with SSL, all certificates or certificate chains used by the configured MID Servers must be signed by root certificate authorities. Bundle those certificates inside a single `.pem` file. To transfer the signed certificates to the agent, specify the `.pem` file in the **trusted-ca-file** property of the agent’s `.yml` configuration file. For information on enhancing security with SSL/TLS configuration, see the [ITOM Agent Client Collector documentation material](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1122613) article in the Now Support Knowledge Base.
 

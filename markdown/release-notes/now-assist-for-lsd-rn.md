@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/now-assist
 release: zurich
 topic_type: topic
 last_updated: "2025-07-31"
-reading_time_minutes: 7
+reading_time_minutes: 6
 breadcrumb: [Legal Service Delivery release notes, Employee Service Management release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
 
@@ -36,9 +36,9 @@ Zurich Patch 12
 
 [Zurich Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-1.md)
 
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
 
-See [ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-lsd-landing.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -72,14 +72,14 @@ The ServiceNow® ServiceNow Otto for Legal Service Delivery \(LSD\) application 
 
 ### What's new
 
--   **[Submit COI request using ServiceNow Otto conversational intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-lsd-convi.md)**
+-   ****
 
     Submit a Conflict of Interest \(COI\) request through a natural language conversation. The conversational intake for Legal Conflict of Interest is available in the base system.
 
 
 ### What's changed
 
--   **[Summarize a legal request or matter by using ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-lsd-summarize-case.md)**
+-   ****
 
     Summarization now includes data from extended practice area tables, providing context‑rich summaries for your legal requests and matters.
 

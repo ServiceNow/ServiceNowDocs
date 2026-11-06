@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-27"
 reading_time_minutes: 1
 keywords: [agent controls, max turns, check in turn, soft deletes, Read Aloud]
-breadcrumb: [Use, ServiceNow Cowork, Enable AI experiences]
+breadcrumb: [Use, ServiceNow Arc, Enable AI experiences]
 ---
 
 # Set agent limits and safeguards
@@ -17,7 +17,7 @@ Set limits on how long the agent runs and when it checks in with you, so it does
 
 ## Before you begin
 
-Role required: sn\_app\_cowork.user
+Role required: sn\_app\_arc.user
 
 ## About this task
 
@@ -62,5 +62,5 @@ When a policy blocks an action, the agent reports the block and the reason and m
 
 The agent uses your settings on its next run.
 
-**Parent Topic:**[Using ServiceNow Cowork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-cowork-using.md)
+**Parent Topic:**[Using ServiceNow Arc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-cowork-using.md)
 

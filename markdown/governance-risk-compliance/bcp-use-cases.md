@@ -147,7 +147,7 @@ Monitor the loss scenarios of the plan
 
 </td><td>
 
-Create crisis scenarios that can be included in your plan \(for example, Loss of Datacenters or Vendor disruption\) and add assets dependencies or recovery strategies to the loss scenarios.
+Create crisis scenarios that can be included in your plan \(for example, Loss of Datacenters or Vendor disruption\). Add assets dependencies or recovery strategies to the loss scenarios.
 
 </td><td>
 

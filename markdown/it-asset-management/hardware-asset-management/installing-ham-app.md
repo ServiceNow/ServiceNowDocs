@@ -33,7 +33,7 @@ Product Hub
 
 </td><td>
 
-You are setting up HAM for the first time and want a guided installation experience. Product Hub installs your entitled HAM application and shows you additional applications and plugins that are available for your subscription tier.**Important:** Product Hub and Configuration Console are available starting from Hardware Asset Management version 16.0.0 \(Zurich Patch 12\).
+You are setting up HAM for the first time and want a guided installation experience. Product Hub installs your entitled HAM application and shows you additional applications and plugins that are available for your subscription tier. For instructions, see [Install Hardware Asset Management from Product Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/install-ham-from-product-hub.md).**Important:** Product Hub and Configuration Console are available starting from Hardware Asset Management version 16.0.0 \(Zurich Patch 12\).
 
 </td></tr><tr><td>
 
@@ -42,7 +42,7 @@ ServiceNow Store
 </td><td>
 
 -   You are installing HAM without using the guided Product Hub experience.
--   Your ServiceNow instance does not have ServiceNow Otto for Setup \(sn\_ia\) or Setup Hub \(sn\_ia\_base\) installed.
+-   Your ServiceNow instance does not have ServiceNow Otto for Setup \(sn\_ia\) version 5.0.10 or later, or Setup Hub \(sn\_ia\_base\), version 3.0.4 or later installed.
 
 </td></tr></tbody>
 </table>

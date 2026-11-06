@@ -8,7 +8,7 @@ product: Microsoft Azure DevOps Integrations Comm
 classification: microsoft-azure-devops-integrations-comm
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Setting up the integration between Microsoft Azure DevOps and Agile Development 2.0, Microsoft Azure DevOps Integration for Agile Development, Integrate, Agile Development 2.0, Strategic Portfolio Management]
 ---
 
@@ -94,6 +94,10 @@ After you associate an Azure DevOps team with an assignment group, you can:
     **Note:** If a **Default Area** value is already used for a Team Integration Settings record, then it cannot be used for another Team Integration Settings record because Backlog in Agile Development 2.0 can't be shared among multiple assignment groups.
 
     Stories or epics that don't have an Assignment group in Agile Development 2.0 will not be synced with Azure DevOps. This is because values from the Team Integration Setting record are used determine which ADO project a story or epic in Agile Development 2.0 belongs to.
+
+    The integration uses the Area Path of a work item to choose its assignment group each time Azure DevOps sends an update. The work item gets the assignment group of the team whose default area matches the Area Path. Otherwise, it gets the group of the one team that the area is mapped to.
+
+    An update from Azure DevOps can replace an assignment group that you set manually in Agile Development 2.0.
 
 4.  Click **Submit**.
 

@@ -7,7 +7,7 @@ release: zurich
 product: System Update Sets
 classification: system-update-sets
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-10-27"
 reading_time_minutes: 2
 breadcrumb: [Transfers, System update sets, Deploying applications, Building applications]
 ---
@@ -18,11 +18,9 @@ Retrieve completed update sets from another instance.
 
 ## Before you begin
 
-Role required: admin.
+**Warning:** Update sets let you transfer changes across instances with different family releases and features. You can load update sets from older releases into newer ones, but loading updates from newer releases into older instances may cause errors or data loss and should be avoided if possible. The same cautions apply when moving updates between different versions of store apps.
 
-## About this task
-
-**Warning:** Update sets allow moving changes between instances that may be running different family release versions and different features. You can always load an update set created on an older family release on an instance running a newer family release. Loading an update set created on a newer family release on an instance running an older family release requires additional testing to determine compatibility. Updates from newer family releases may not produce the same functionality when moved to older family releases. In extreme cases, newer family release updates may cause outages or data loss on an older family release instance. Where possible, avoid moving updates from newer family releases to older family releases. Similar constraints apply to moving updates between instances running different versions of ServiceNow Store apps.
+Role required: teamdev\_user or admin
 
 ## Procedure
 
@@ -80,7 +78,7 @@ Username
 
 </td><td>
 
-Enter the user on the remote instance who authorizes transferring update sets to this the instance. This user account must have the admin user role on the remote instance.
+Enter the user on the remote instance who authorizes transferring update sets to the instance. This user account must have the teamdev\_user or admin role on the remote instance.
 
 </td></tr><tr><td>
 

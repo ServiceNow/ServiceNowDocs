@@ -16,9 +16,11 @@ breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards
 
 You can create reports that use datasets from up to five tables in a single report.
 
+**Note:** This topic refers to Core UI reports, not Platform Analytics data visualizations.
+
 The following report types support multiple datasets: bar, horizontal bar, column, line, step line, area, spline.
 
-Multiple **Group by**s are not supported on multiple datasets. When using multiple datasets, the report legend is always displayed.
+Multiple **Group by**s are not supported on multiple datasets. When using multiple datasets, the report legend is displayed.
 
 \[Omitted image "MultipleDataSetsINTPRB.png"\] Alt text: Multiple data sets
 
@@ -26,7 +28,7 @@ Multiple **Group by**s are not supported on multiple datasets. When using multip
 
 Bear the following restrictions in mind when creating a report with multiple data sets:
 
--   Up to a maximum of 5 additional datasets can be added to any particular report. Keep in mind that each additional dataset will require additional processing and querying of the database, so if a particular report is experiencing performance issues, it could be due to the fact the report has multiple associated data sets.
+-   Up to a maximum of 5 additional datasets can be added to any particular report. Each additional dataset will require additional processing and querying of the database. Therefore, if a particular report is experiencing performance issues, it could be due to the fact the report has multiple associated data sets.
 -   All datasets associated with a parent report must be of the same type \(such as bar, donut, or pie\) as the parent report.
 -   For multiple datasets associated with a time series chart, all additional data sets must have the same setting in the **Per** field as the parent report.
 -   For multiple datasets on a Bar or Horizontal Bar chart, all associated datasets must have the same Group By value.

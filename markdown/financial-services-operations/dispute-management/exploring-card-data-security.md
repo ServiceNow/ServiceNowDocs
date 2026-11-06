@@ -7,7 +7,7 @@ release: zurich
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Card Data Security, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -22,7 +22,7 @@ The Card Data Security application provides a tokenizer service that enables you
 
 You can configure data to be tokenized as it enters your ServiceNow instance, and have it restored to its original value when it is sent to Third-Party Systems.
 
-\(Disclaimer: This application enables data tokenization capabilities for Dispute Cases and Dispute Transactions.\)
+\(Disclaimer: This application enables data tokenization capabilities for Dispute Cases and Dispute Transactions. Card Data Security is hosted in the United States only. For other regional support, contact your ServiceNow representative for more information.\)
 
 Other features of the tokenizer service are shown below:
 

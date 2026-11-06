@@ -22,8 +22,6 @@ When this agentic workflow and trigger are activated, the assignee receives an e
 
 The agents, tools, and triggers that are associated with the Propose survey responses agentic workflow are provided by AI applications. You can [activate the agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/activate-aia-use-case.md) by making the trigger active. If you want to change this agentic workflow's instructions, you must [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/clone-aia-usecase.md), adjust the settings to suit your needs, and activate the duplicated version of the agentic workflow instead.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-native-sku-overview.md).
-
 ## Prerequisites and setup
 
 To access this workflow, you must have ServiceNow Otto for Platform installed on your instance, which you can get if you install any other AI application.

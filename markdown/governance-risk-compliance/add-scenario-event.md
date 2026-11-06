@@ -19,5 +19,5 @@ You can add a scenario event to the scenario analysis and analyze its impact on 
 You can add a scenario event to the scenario analysis by completing one of the following workflows:
 
 -   You can add a scenario event to the scenario analysis first and then add the participants, dependencies, services, issues, and so on. For more information on this workflow, see [Add a scenario event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/add-a-scenario-event.md).
--   You can also add a participant to the scenario analysis first and then add the scenario event, services, issues, and so on. For more information on this workflow, see [Add a participant and monitor the responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/add-a-participant-to-the-scenario-event.md).
+-   You can also add a participant to the scenario analysis first and then add the scenario event, services, issues, and so on. For more information on this workflow, see [Add a participant to a scenario analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/add-a-participant-to-the-scenario-event.md).
 

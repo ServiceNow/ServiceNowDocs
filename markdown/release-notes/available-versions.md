@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/available-versions.html
 release: zurich
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 13
+last_updated: "2026-11-05"
+reading_time_minutes: 14
 breadcrumb: [Learn about the Zurich release, Zurich release notes]
 ---
 
@@ -26,9 +26,9 @@ Targets are subject to change prior to patching. Target versions change only if 
 
 |Releases|Patch target option|Release notes|
 |--------|-------------------|-------------|
-|Australia|[Australia Patch 5a](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3156989)|[Australia](https://www.servicenow.com/docs/r/release-notes/available-versions.html)|
-|Zurich|[Zurich Patch 12](https://www.servicenow.com/docs/r/zurich/release-notes/zurich-patch-12.html)|[Zurich](https://www.servicenow.com/docs/r/zurich/release-notes/available-versions.html)|
-|Yokohama|[Yokohama Patch 13 Hotfix 5a W39](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3159478)|[Yokohama](https://www.servicenow.com/docs/r/yokohama/release-notes/available-versions.html)|
+|Australia|[Australia Patch 5a W45](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3230654)|[Australia](https://www.servicenow.com/docs/r/australia/release-notes/available-versions.html)|
+|Zurich|[Zurich Patch 12a W45](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3230607)|[Zurich](https://www.servicenow.com/docs/r/zurich/release-notes/available-versions.html)|
+|Yokohama|[Yokohama Patch 13 Hotfix 5a W45](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3230085)|[Yokohama](https://www.servicenow.com/docs/r/yokohama/release-notes/available-versions.html)|
 
 ## Available versions
 
@@ -52,6 +52,54 @@ Availability
 
 </th></tr></thead><tbody><tr><td>
 
+[Zurich Patch 13 W45](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3230611)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/11/05
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
+[Zurich Patch 13 W44](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3228389)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/10/28
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Zurich Patch 13 W42](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3225356)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/10/15
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
 [Zurich Patch 13](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-13.md)
 
  [Zurich Patch 13 security fixes](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3159341)
@@ -66,7 +114,71 @@ Patch
 
 </td><td>
 
+Unavailable
+
+</td></tr><tr><td>
+
+[Zurich Patch 12m W45](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3230608)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/11/05
+
+</td><td>
+
 Available
+
+</td></tr><tr><td>
+
+[Zurich Patch 12m W44](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3228387)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/10/28
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Zurich Patch 12m W43](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3227177)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/10/22
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Zurich Patch 12m W42](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3225351)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/10/15
+
+</td><td>
+
+Unavailable
 
 </td></tr><tr><td>
 
@@ -82,7 +194,7 @@ Hotfix
 
 </td><td>
 
-Available
+Unavailable
 
 </td></tr><tr><td>
 
@@ -150,6 +262,118 @@ Unavailable
 
 </td></tr><tr><td>
 
+[Zurich Patch 12a W45](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3230607)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/11/05
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
+[Zurich Patch 12a W44](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3228388)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/10/28
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Zurich Patch 12a](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3223337)
+
+</td><td>
+
+Security patch
+
+</td><td>
+
+2026/10/15
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
+[Zurich Patch 12 W45](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3230606)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/11/05
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
+[Zurich Patch 12 W44](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3228357)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/10/28
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Zurich Patch 12 W43](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3227175)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/10/22
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Zurich Patch 12 W42](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3225355)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/10/15
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
 [Zurich Patch 12 W41](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3222559)
 
 </td><td>
@@ -162,7 +386,7 @@ Hotfix
 
 </td><td>
 
-Available
+Unavailable
 
 </td></tr><tr><td>
 
@@ -178,11 +402,27 @@ Hotfix
 
 </td><td>
 
-Available
+Unavailable
 
 </td></tr><tr><td>
 
 [Zurich Patch 12 W40](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3220898)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/10/01
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Zurich Patch 12 W39 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-12-w39-hf-1-PO.md)
 
 </td><td>
 
@@ -306,7 +546,7 @@ Hotfix
 
 </td><td>
 
-Available by request
+Unavailable
 
 </td></tr><tr><td>
 
@@ -408,7 +648,7 @@ Unavailable
 
 </td></tr><tr><td>
 
-[Zurich Patch 11 Hotfix 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-11-hf-6-PO.md)
+[Zurich Patch 11 Hotfix 3 W45](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3229298)
 
 </td><td>
 
@@ -416,43 +656,11 @@ Hotfix
 
 </td><td>
 
-2026/09/17
+2026/11/02
 
 </td><td>
 
-Unavailable
-
-</td></tr><tr><td>
-
-[Zurich Patch 11 Hotfix 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-11-hf-5-PO.md)
-
-</td><td>
-
-Hotfix
-
-</td><td>
-
-2026/08/19
-
-</td><td>
-
-Unavailable
-
-</td></tr><tr><td>
-
-[Zurich Patch 11 Hotfix 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-11-hf-4-PO.md)
-
-</td><td>
-
-Hotfix
-
-</td><td>
-
-2026/08/13
-
-</td><td>
-
-Unavailable
+Available
 
 </td></tr><tr><td>
 
@@ -583,6 +791,22 @@ Patch
 </td><td>
 
 Unavailable
+
+</td></tr><tr><td>
+
+[Zurich Patch 10 Hotfix 9](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-10-hf-9-PO.md)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/10/21
+
+</td><td>
+
+Available by request
 
 </td></tr><tr><td>
 
@@ -730,6 +954,38 @@ Unavailable
 
 </td></tr><tr><td>
 
+[Zurich Patch 10 Hotfix 4b W43](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3227179)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/10/22
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
+[Zurich Patch 10 Hotfix 4b W42](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3225360)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/10/15
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
 [Zurich Patch 10 Hotfix 4b W41](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3222557)
 
 </td><td>
@@ -742,7 +998,7 @@ Hotfix
 
 </td><td>
 
-Available
+Unavailable
 
 </td></tr><tr><td>
 
@@ -810,6 +1066,54 @@ Unavailable
 
 </td></tr><tr><td>
 
+[Zurich Patch 10 Hotfix 4b W43](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3227179)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/10/22
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
+[Zurich Patch 10 Hotfix 4b W42](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3225360)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/10/15
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Zurich Patch 10 Hotfix 4b W41](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3222557)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/10/08
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
 [Zurich Patch 10 Hotfix 4b W40](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3220901)
 
 </td><td>
@@ -822,7 +1126,7 @@ Hotfix
 
 </td><td>
 
-Available
+Unavailable
 
 </td></tr><tr><td>
 
@@ -2070,6 +2374,8 @@ The Zurich Patch 13 release contains important problem fixes.
 The Zurich Patch 12m release contains important problem fixes via Zurich Patch 12 and updates to compatible ServiceNow Store applications.
 -   **[Zurich Patch 12 W40 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-12-w40-hf-1-PO.md)**  
 The Zurich Patch 12 W40 Hotfix 1 release contains fixes to these problems.
+-   **[Zurich Patch 12 W39 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-12-w39-hf-1-PO.md)**  
+The Zurich Patch 12 W39 Hotfix 1 release contains fixes to these problems.
 -   **[Zurich Patch 12 W33 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-12-W33-hf-1-PO.md)**  
 The Zurich Patch 12 W33 Hotfix 1 release contains fixes to these problems.
 -   **[Zurich Patch 12](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-12.md)**  
@@ -2084,6 +2390,8 @@ The Zurich Patch 11 Hotfix 5 release contains fixes to these problems.
 The Zurich Patch 11 Hotfix 4 release contains fixes to these problems.
 -   **[Zurich Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-11.md)**  
 The Zurich Patch 11 release contains important problem fixes.
+-   **[Zurich Patch 10 Hotfix 9](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-10-hf-9-PO.md)**  
+The Zurich Patch 10 Hotfix 9 release contains fixes to these problems.
 -   **[Zurich Patch 10 Hotfix 8](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-10-hf-8-PO.md)**  
 The Zurich Patch 10 Hotfix 8 release contains fixes to these problems.
 -   **[Zurich Patch 10 Hotfix 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-10-hf-7-PO.md)**  

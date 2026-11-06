@@ -1,22 +1,22 @@
 ---
-title: Service Graph Connector prerequisites and settings
-description: During set up of the Service Graph Connector for ServiceNow OT Discovery, review and confirm you have the following settings.
+title: Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery prerequisites and settings
+description: During set up of the Discovery Console for OT, review and confirm you have the following settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/sgc-prereq-settings.html
 release: zurich
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Service Graph Connector for ServiceNow Operational Technology\(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
-# Service Graph Connector prerequisites and settings
+# Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery prerequisites and settings
 
-During set up of the Service Graph Connector for ServiceNow OT Discovery, review and confirm you have the following settings.
+During set up of the Discovery Console for OT, review and confirm you have the following settings.
 
 ## Dependencies and requirements
 
-Confirm you have these settings and then follow the Service Graph Connector guided setup.
+Confirm you have these settings and then follow the Discovery Console for OT Guided Setup.
 
 Dependencies and requirements:
 

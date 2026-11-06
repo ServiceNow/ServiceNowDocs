@@ -26,6 +26,8 @@ To learn how to design a playbook with interactive activities, see [design an au
 Enable agents and fulfillers to collect electronic signatures during a playbook run, via Workflow Data Fabric's Adobe Acrobat Sign spoke.
 -   **[Advanced Instruction activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/advanced-instruction-activity.md)**  
 Display detailed instructions to guide end users through your playbook.
+-   **[Ask for Ad Hoc Approval activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/request-adhoc-approval-activity.md)**  
+Enable agents and fulfillers to specify which users must complete approval requests during a playbook run.
 -   **[Checklist Task from Template activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/checklist-task-template-activity.md)**  
 Prompt an agent to complete all items in a task checklist.
 -   **[Checklist Task activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/checklist-task-activity.md)**  
@@ -48,8 +50,6 @@ Enable the Policy as Code Engine \(PaCE\) activity in Playbooks to develop playb
 Enable agents and fulfillers to send direct messages and post in Microsoft Teams channels during a playbook run, via Workflow Data Fabric's Microsoft Teams spoke.
 -   **[Request Multi-Level Approval activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/req-multi-lvl-approvals-activity.md)**  
 Enable agents and fulfillers to submit an approval requests to first and second-level managers during a playbook run.
--   **[Request Ad Hoc Approval activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/request-adhoc-approval-activity.md)**  
-Enable agents and fulfillers to specify which user\(s\) should complete approval request\(s\) during a playbook run.
 -   **[Request Manager Approval activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/request-mgr-approval-activity.md)**  
 Enable agents and fulfillers to submit an approval request to a manager during a playbook run.
 -   **[Send Email activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/send-email-activity.md)**  

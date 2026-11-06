@@ -1,6 +1,6 @@
 ---
-title: Create New Impact analysis form
-description: Use the Create New Impact analysis form to add details about the business impact analysis, assessments, approvals, and so on in BCM Configurable Workspace.
+title: Create Impact analysis form
+description: Use the Create Impact analysis form to add details about the business impact analysis, assessments, approvals, and so on in BCM Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/create-new-impact-analysis-reference-form-bcm-uib-ws.html
 release: zurich
@@ -10,11 +10,11 @@ reading_time_minutes: 3
 breadcrumb: [Create a business impact analysis, Structured workflows for BIAs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
-# Create New Impact analysis form
+# Create Impact analysis form
 
-Use the Create New Impact analysis form to add details about the business impact analysis, assessments, approvals, and so on in BCM Configurable Workspace.
+Use the Create Impact analysis form to add details about the business impact analysis, assessments, approvals, and so on in BCM Configurable Workspace.
 
-## Create New Impact analysis form
+## Create Impact analysis form
 
 For description of the field values, see the table.
 

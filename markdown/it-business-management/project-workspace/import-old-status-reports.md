@@ -30,7 +30,7 @@ Role required: it\_pps\_admin, it\_project\_manager
 
 3.  From the Pages section, select **Create status report** and select **Import existing status report**.
 
-    By default, the create status report and create new from template options are visible. The import existing status report option appears only if an old status report exists.
+    By default, the create status report and create new from template options are visible. The import existing status report option appears only when old status reports are linked to the project.
 
 4.  Select **Import** to import old status report to new reporting tool.
 

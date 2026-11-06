@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2026-01-09"
 reading_time_minutes: 8
-breadcrumb: [Publishing content, Creating employee communications, Manage, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Publishing content, Creating employee communications, Manage, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Scheduling the delivery of content

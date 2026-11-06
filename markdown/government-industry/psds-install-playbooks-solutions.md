@@ -43,7 +43,7 @@ The following applications are available with Public Sector Digital Services tha
 
 </td><td>
 
-[License and Permit Playbook\[Omitted image "bus-profile.svg"\] Alt text:Handle license and permit requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/configuring-license-permit-playbook.md)
+[License and Permit Administration\[Omitted image "bus-profile.svg"\] Alt text:Handle license and permit requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/configuring-license-permit-playbook.md)
 
 </td><td>
 
@@ -55,7 +55,7 @@ The following applications are available with Public Sector Digital Services tha
 
 </td><td>
 
-[Service Request Playbook\[Omitted image "bus-demand-management.svg"\] Alt text:Handle non-emergency service requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/configuring-service-request-playbook.md)
+[Service Request Administration\[Omitted image "bus-demand-management.svg"\] Alt text:Handle non-emergency service requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/configuring-service-request-playbook.md)
 
 </td><td>
 

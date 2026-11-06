@@ -36,7 +36,7 @@ Role required: sn\_bcm.admin or sn\_bcm.program\_manager
 
     For example, when you select a datacenter icon without a count indicator, a popover displays the information configured in the Resource Configuration table \[sn\_fam\_resource\_config\].
 
-    If you configure the **Power** and **Power consumption** fields from the datacenter table \[cmdb\_co\_datacenter\] as display fields in the Resource Configuration form, the popover shows the datacenter's power consumption details and location coordinates.
+    Configuring **Power** and **Power consumption** from the datacenter table \[cmdb\_co\_datacenter\] as display fields in the Resource Configuration form shows power consumption details and location coordinates for the datacenter in the popover.
 
 5.  Select the **Asset** icon with a number next to it.
 

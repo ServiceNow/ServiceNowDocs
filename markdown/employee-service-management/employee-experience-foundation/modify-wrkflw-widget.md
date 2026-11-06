@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Integrated service and experience feedback management, Integrated experience and service feedback, Setup continuous improvement, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Integrated service and experience feedback management, Integrated experience and service feedback, Setup continuous improvement, Configure, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Modify the workflow feedback widget

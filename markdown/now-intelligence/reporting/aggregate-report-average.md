@@ -58,3 +58,5 @@ When you choose the average aggregation, you can also specify the **Percentage c
 
 The sections of the visualization are grouped by the average of the selected records.
 
+**Parent Topic:**[Aggregation in reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/aggregation-reporting.md)
+

@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Service Graph Connector for ServiceNow Operational Technology\(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Generate imports and validate the connections
@@ -22,7 +22,7 @@ Role required: admin
 
 1.  Next to the **Generate imports** task, select **Configure**.
 
-    The Generate imports for the ServiceNow OT Discovery Connection page opens.
+    The Generate imports for the OT Discovery Connection page opens.
 
 2.  In the **Run As User** field, select System administrator.
 

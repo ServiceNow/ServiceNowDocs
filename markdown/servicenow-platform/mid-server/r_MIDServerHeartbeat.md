@@ -18,7 +18,7 @@ The instance checks the MID Server for a response every 5 minutes, using a synth
 
 <table id="table_ljs_dsf_khb"><tbody><tr><td>
 
-![Links to each of the MID Server sections](../image/MIDRefIconBar.png)
+![MID Server reference navigation](../image/MIDRefIconBar.png)
 
 </td></tr></tbody>
 </table>## Checking for a heartbeat

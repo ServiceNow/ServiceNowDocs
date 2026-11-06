@@ -57,7 +57,7 @@ Access Key Id
 
 </td><td>
 
-Access key ID for the Amazon Web Services \(AWS\) IAM user account used by the Amazon S3 external content connector. If you don't have this access key ID, ask your AWS administrator for it.
+Access key ID for the Amazon Web Services \(AWS\) Identity and Access Management \(IAM\) user account used by the Amazon S3 external content connector. If you don't have this access key ID, ask your AWS administrator for it.
 
 </td></tr><tr><td>
 

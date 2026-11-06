@@ -1,6 +1,6 @@
 ---
 title: Install Service Operations Workspace for ITOM application
-description: You can install the AIOps Experience \[sn\_sow\_aiops\] application to get Service Operations Workspace for ITOM if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications if they are not already installed.
+description: You can install the AIOps Experience \[sn\_sow\_aiops\] application to get Service Operations Workspace for ITOM if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence: The application includes demo data and installs related ServiceNow Store applications if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/install-sow-itom-apps.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Configure, Service Operations Workspace for ITOM, ITOM AIOps, IT Op
 
 # Install Service Operations Workspace for ITOM application
 
-You can install the AIOps Experience \[sn\_sow\_aiops\] application to get Service Operations Workspace for ITOM if you have the admin role.The application includes demo data and installs related ServiceNow® Store applications if they are not already installed.
+You can install the AIOps Experience \[sn\_sow\_aiops\] application to get Service Operations Workspace for ITOM if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications if they are not already installed.
 
 ## Before you begin
 

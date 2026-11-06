@@ -24,7 +24,7 @@ Role required: it\_demand\_manager
 
 A demand can have multiple stakeholders and a stakeholder can be associated with multiple demands.
 
-To create, edit, or delete demand stakeholders, you can also use the **Add stakeholders** Playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/use-playbooks-in-ppw.md).
+To create, edit, or delete demand stakeholders, you can also use the **Add stakeholders** Playbook activity. For more information, see [Use playbook for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/use-playbooks-in-ppw.md).
 
 ## Procedure
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-complian
 release: zurich
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Reference, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -177,6 +177,8 @@ For more information on the administrative setup for the configuration records, 
 
 -   **[Create a main node configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-a-main-node-config-record.md)**  
 Create a main node configuration record to configure the source for fetching the dependencies. You can configure the details of the main node such as its name, source, table name, filter conditions, and so on.
+-   **[Update the node relationship configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/update-node-rel-config-bcm.md)**  
+Update the node relationship configuration for each main node configuration. In the Node relationship configurations related list, select the sequence and update the source table, relationship registry, relationship table, target table, and target conditions.
 -   **[Create a relationship registry record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-a-rela-registry-record.md)**  
 Create a relationship registry record to set up relationship between the record and object defined in the table. You can configure the details of the main node such as its name, source, table name, filter conditions, and so on.
 -   **[Configure the properties for the Data Relationships Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/configure-properties-for-data-rel-framework.md)**  

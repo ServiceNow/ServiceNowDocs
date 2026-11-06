@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Company events, Creating employee communications, Manage, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Company events, Creating employee communications, Manage, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Publishing company events

@@ -80,6 +80,8 @@ The **Communicate** tab contains the following options to create and manage comm
 
     Increase the **Due in** time for a communication task. Select the **More actions** \(\[Omitted image "mim-more-action-icon.png"\] Alt text: More action icon\) icon on the communication task and then select **Snooze**.
 
+    **Note:** When the **Snooze** option is used for communication task grouped under overdue or skipped, the task is moved to the upcoming section of the group.
+
 
 -   **[Compose communications for incidents and major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/compose-communication-mim-sow.md)**  
 Compose communication messages for incidents and major incidents using communication channels such as email and SMS.

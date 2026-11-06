@@ -1,6 +1,6 @@
 ---
-title: Create New Action item form for crisis events
-description: Use the Create New Action item form in the BCM Configurable Workspace to add action items about a crisis event.
+title: Create Action item form for crisis events
+description: Use the Create Action item form in the BCM Configurable Workspace to add action items about a crisis event.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/create-new-action-item-crisis-event-form.html
 release: zurich
@@ -10,11 +10,11 @@ reading_time_minutes: 1
 breadcrumb: [Create task and assessment-type action items, Creating action items in crisis events, Structured workflows for crisis events, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
-# Create New Action item form for crisis events
+# Create Action item form for crisis events
 
-Use the Create New Action item form in the BCM Configurable Workspace to add action items about a crisis event.
+Use the Create Action item form in the BCM Configurable Workspace to add action items about a crisis event.
 
-## Create New Action item form
+## Action item form
 
 For a description of the field values, see the table.
 

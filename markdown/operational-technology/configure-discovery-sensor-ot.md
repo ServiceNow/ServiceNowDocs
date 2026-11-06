@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Discovery Sensor for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Discovery Sensor for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Configure the Discovery Sensor for OT
@@ -54,7 +54,7 @@ Navigate to the Download &amp; Deploy OT Discovery page.
 
 </td><td>
 
-In the ServiceNow instance, navigate to the Service Graph Connector for ServiceNow OT Discovery Guided Setup page and select Download &amp; Deploy OT Discovery.
+In the ServiceNow instance, navigate to the Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery Guided Setup page and select Download &amp; Deploy OT Discovery.
 
 </td></tr><tr><td>
 
@@ -110,14 +110,7 @@ Register the Sensor
 
 </td><td>
 
-Register the Sensor with the DMI and Console. This confirms that the Console and Sensor can communicate with each other. See [Register the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/registering-ot-sensor.md) for more information.
+Register the Sensor with the DMI and Console. This confirms that the Console and Sensor can communicate with each other. For more information, see [Register the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/registering-ot-sensor.md) for more information.
 
 </td></tr></tbody>
-</table>## What to do next
-
-To complete installation and configuration of the Discovery Sensor for OT:
-
-1.  
-2.  
-3.  
-
+</table>

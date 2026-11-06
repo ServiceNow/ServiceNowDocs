@@ -20,7 +20,7 @@ Create AI systems from directly within the demand workflow and associate them wi
 
 -   The AI Control Tower plugin must be installed. For more information, see [Activation and installation of AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activation-and-installation-of-ai-control-tower.md).
 -   The investment type of the demand is set to artificial intelligence.
--   Role required: sn\_ai\_steward
+-   Role required: sn\_ai\_governance\_ai\_steward
 
 ## Procedure
 
@@ -41,6 +41,6 @@ Create AI systems from directly within the demand workflow and associate them wi
 
 Associate your demands with the created AI systems:
 
--   Using the AI checkpoint stage in your demand AI playbook. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/use-playbooks-in-ppw.md).
+-   Using the AI checkpoint stage in your demand AI playbook. For more information, see [Use playbook for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/use-playbooks-in-ppw.md).
 -   Using the **AI Associations** section in the **Details** tab.
 

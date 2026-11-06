@@ -29,9 +29,9 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 -   Supported versions:
     -   Minimum version supported: Dynatrace SaaS; Version 1.284
 -   Supported ServiceNow versions:
-    -   Yokohama
     -   Zurich
     -   Australia
+    -   Brazil
 
 ## Important information for upgrading Service Graph Connector for Observability - Dynatrace
 

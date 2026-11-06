@@ -292,7 +292,7 @@ Returns the authenticated user's current session time zone and the current date 
 
 </td><td>
 
-Approves or rejects the caller's oldest pending approval for a change request or request item.
+Approves or rejects the caller's oldest pending approval for a change request or incident.
 
 </td></tr></tbody>
 </table>

@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2026-08-11"
 reading_time_minutes: 9
-keywords: [AI specialists, autonomous workforce, deployment, general guidelines, agentic AI]
+keywords: [AI specialists, autonomous workforce, ai workforce deployment, general guidelines ai specialist, general guidelines ai workforce, general guidelines autonomous workforce, agentic AI guidelines, best practices ai specialist]
 breadcrumb: [Explore, Autonomous Workforce, AI Agent Studio, Enable AI experiences]
 ---
 
@@ -30,17 +30,17 @@ Questions to ask before you begin activating AI specialists might be:
 
 AI specialists perform best under the following conditions:
 
--   Strong knowledge base: Well-maintained, procedural knowledge articles with clear self-service instructions for end users
--   High-volume of similar issues: Incidents with a single dominant root cause and clear resolution paths
--   Existing catalog items: Well-defined catalog items for accurate redirection of misclassified incidents
--   Clear policy rules: Approve/reject criteria that are explicit and well-documented
+-   Strong knowledge base: well-maintained, procedural knowledge articles with clear self-service instructions for end users
+-   High volume of similar issues: incidents with a single dominant root cause and clear resolution paths
+-   Existing catalog items: well-defined catalog items for accurate redirection of misclassified incidents
+-   Clear policy rules: approve/reject criteria that are explicit and well-documented
 
 AI specialists don't perform well under the following conditions:
 
 -   Sparse or outdated knowledge: knowledge articles that are incomplete, out of date, or written for internal audiences
 -   Complex multi-step troubleshooting: issues that require orchestration across multiple external systems or remote device access
 -   Undocumented internal knowledge: resolutions that depend on tacit knowledge not captured in formal systems
--   Highly sensitive categories: Personally identifying information, security incidents, or areas with severe cost of error should be avoided
+-   Highly sensitive categories: avoid personally identifying information, security incidents, or areas with severe cost of error
 
 ## Configuring AI specialists in your autonomous workforce
 
@@ -65,7 +65,7 @@ The AI specialist's tasks specify the actions that it can take to solve problems
 
     The AI specialist researches and drafts a proposed solution, but a person reviews and approves it before it reaches the requester. Use this mode when you don't yet have confidence in autonomous resolution for a given category.
 
--   **Autonomous mode**
+-   **Autopilot mode**
 
     The AI specialist resolves and communicates independently, escalating to a human when its confidence is low.
 
@@ -106,8 +106,7 @@ When setting up assignment rules, consider these factors:
 
 Certain conditions are reliable early warnings that a deployment will encounter issues. Validate against each of these before activating an AI specialist.
 
--   Task states that don't change during AI specialist execution, which can suggest extensive customizations that fall outside foundational readiness. Run the AI Readiness Evaluation application to assess foundational readiness before proceeding.
--   Task states that don't change during AI specialist execution, which can also suggest a state model that isn't mapped to the AI specialist's processing states. See [Edit the tasks of an AI specialist in the legacy AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/modify-aiw-tasks.md) for steps to configure state mapping.
+-   Task states that don't change during AI specialist execution, which can suggest extensive customizations that fall outside foundational readiness. Run the AI Readiness Evaluation application to assess foundational readiness before proceeding. It could also be that the state model isn't mapped to the AI specialist's processing states. See [Edit the tasks of an AI specialist in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/modify-aiw-tasks.md) for steps to configure state mapping.
 -   Test queries that return no results or surface internal-only content, which points to a knowledge base that isn't ready. Complete a knowledge audit and enforce audience separation before proceeding.
 -   Poor knowledge base search results despite a ready knowledge base, which points to an AI Search profile misconfiguration. Inspect and adjust the Zero Touch Service Desk \(ZTSD\) search profile and AI Search configuration to target the right content for the AI specialist to rely on.
 -   Zero assignments after activation, which points to an assignment rule or routing misconfiguration. Validate routing in a non-production environment and run a test task through the full routing chain across all intake channels.
@@ -122,7 +121,7 @@ Previewing your AI specialist on multiple records can show you what to expect wh
 
 Follow these testing guidelines to validate your AI specialist's performance:
 
--   Use representative tasks for initial validation. Selecting tasks that mirror the ones the AI specialist will handle enable you to check basic functions. You could also create dummy tasks that simulate active ones.
+-   Use representative tasks for initial validation. Selecting tasks that mirror the ones the AI specialist will handle enable you to check basic functions. You could also create sample tasks that simulate active ones.
 
     **Note:** The AI specialist won't send any communications to users during tests.
 
@@ -150,7 +149,7 @@ Establish regular performance review cycles to:
 
 ## Ongoing monitoring and optimization
 
-After deploying your AI specialist, continuous monitoring helps maintain optimal performance and identify opportunities for improvement. You can track the performance analytics of an AI specialist by selecting them in AI Agent Studio. See [View AI specialist performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/view-aiw-performance.md).
+After deploying your AI specialist, continuous monitoring helps maintain optimal performance and identify opportunities for improvement. You can track the performance analytics of an AI specialist by selecting them in AI Agent Studio. See [Review the performance of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/view-aiw-performance.md).
 
 Key metrics include:
 

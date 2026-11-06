@@ -7,7 +7,7 @@ release: zurich
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Administering reports, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -16,9 +16,7 @@ breadcrumb: [Administering reports, Reporting, Reporting, dashboards, and Perfor
 
 The **Report Stats** list enables you to view how often each of your Core UI reports is run and how long it takes for the reports to run.
 
-To view report statistics, navigate to **All** &gt; **Reports** &gt; **Administration** &gt; **Report Statistics**. The admin or report\_admin role is required. By default, the Report Statistics list displays all reports that have been run. To view reports that haven't been run, select the context menu icon \(\[Omitted image "ContextMenuIcon.png"\] Alt text: Context menu icon\) and choose **Add Unused Reports**.
-
-**Note:** Adding unused reports to this list takes some time, especially if your instance has many reports.
+To view report statistics, navigate to **All** &gt; **Reports** &gt; **Administration** &gt; **Report Statistics**. The admin or report\_admin role is required. By default, the Report Statistics list displays all reports that have been run.
 
 The **Report Stats** list has the following columns:
 

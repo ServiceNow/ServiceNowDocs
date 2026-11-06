@@ -19,7 +19,7 @@ Optimize your inventory by getting the defective enterprise assets repaired usin
 In the Repair flow, an asset manager requests the repair of defective assets in the stockroom. An asset technician troubleshoots, repairs, and evaluates the asset. The evaluated asset is either put to use or disposed of. For details on stages in the Repair flow, see [Repair flow to fix defective enterprise assets within a stockroom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/requesting-repair-eam-assets.md).
 
 -   **[Request repair of defective enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/request-repair-defective-eam-assets.md)**  
-As an enterprise asset manager, you can get the defective enterprise assets repaired by creating Repair orders.
+As an enterprise asset manager, you can repair your defective enterprise assets by creating Repair orders.
 -   **[Fulfill repair orders in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/fulfill-eam-repair-orders-in-ws.md)**  
 Fulfill a repair order by completing all the open repair asset tasks associated with its repair order lines.
 -   **[Record time worked on asset repair tasks in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/record-repair-time-eam-ws.md)**  

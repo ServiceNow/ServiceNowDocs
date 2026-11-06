@@ -23,7 +23,7 @@ Role required: admin
 Verify that you have already installed:
 
 -   Process Mining for External Data \(version 28.9.13\). For more information, see [Request Process Mining for external data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/access-ext-data.md).
--   Salesforce Spoke \(sn\_sforce\_v2\_spoke\) \(2.5.0\): For more information, see .
+-   Salesforce Spoke \(sn\_sforce\_v2\_spoke\) \(2.5.0\): For more information, see [Salesforce Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/salesforce-spoke.md).
 
 ## Procedure
 

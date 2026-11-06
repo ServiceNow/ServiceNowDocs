@@ -30,8 +30,8 @@ Efficiently manage your Certificate Inventory with patterns to streamline the ma
 The Certificate Inventory and Management glossary comprises a set of concise definitions and explanations for terms related to the tracking, storage, and management of digital certificates within an IT environment.
 -   **[Certificate authorities pattern API elements and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/ca-api-permission.md)**  
 Explore the Certificate Authorities \(CA\) pattern API elements and permissions for comprehensive insights into the associated functionalities and authorization requirements.
--   **[Quick start test for Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/quick-start-tests-certificate-inventory-and-management.md)**  
-Quick start test for certificate discovery for GoDaddy, Entrust, Digicert, Setigo.
+-   **[Quick start tests for Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/quick-start-tests-certificate-inventory-and-management.md)**  
+Validate that Certificate Inventory and Management still works after you install the application or make a configuration change such as applying an upgrade. Copy and customize these quick start tests to pass when using your instance-specific data.
 -   **[Discovery schedule form table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-schedule-form-table.md)**  
 To perform Discovery on root certificates stored outside your server, you must set a special Discovery schedule that locates these certificates. This table guides you through the form required for this task.
 -   **[IP-Based Discovery Schedule Form Table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/ip-based-cert-discovery-schedule-table.md)**  

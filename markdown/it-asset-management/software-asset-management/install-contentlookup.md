@@ -38,7 +38,7 @@ Install the Content library portal store application to view the data stored in 
             Activates AI search functionality.
 
 
-**Note:** If you have installed Software Asset Management Professional \(com.sn\_samp\_master\) plugin, you can view data stored in the Software Asset Management Content service. If you have installed both Software Asset Management Professional \(com.sn\_samp\_master\) and Hardware Asset Management Professional \(com.sn\_hamp\) plugins, you can view both Software Asset Management and Hardware Asset Management data stored in the Content service. For more information about installing Content lookup portal for Hardware Asset Management, see [Install Content lookup to view Hardware Asset Management data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/content-lookup-ham.md).
+**Note:** If you have installed Software Asset Management Professional \(com.sn\_samp\_master\) plugin, you can view data stored in the Software Asset Management Content service. If you have installed both Software Asset Management Professional \(com.sn\_samp\_master\) and Hardware Asset Management Professional \(com.sn\_hamp\) plugins, you can view both Software Asset Management and Hardware Asset Management data stored in the Content service. For more information about installing Content Library portal for Hardware Asset Management, see [Install Content lookup to view Hardware Asset Management data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/content-lookup-ham.md).
 
 Role required: sam\_admin
 

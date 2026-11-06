@@ -8,7 +8,7 @@ product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Configure, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -31,7 +31,7 @@ Accounts Payable Operations integration with Document Intelligence provides the 
 -   **[Configuring the invoice ingestion flows using Accounts Payable Operations integration with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/config-apo-docintel-integration.md)**  
 Configure Accounts Payable Operations integration with Document Intelligence to automatically create an invoice processing case and extract the required data from an invoice attachment received via email.
 -   **[How Accounts Payable Operations integration with Document Intelligence works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/apm-docintel-how-it-works.md)**  
-Accounts Payable Operations integration with Document Intelligence uses automated workflows to extract the required information from the invoice document received as an email attachment, creates an invoice record in Accounts Payable Operations, and adds the extracted information into the newly created invoice record.
+Accounts Payable Operations integration with Document Intelligence uses automated workflows to extract information from invoice documents received as email attachments and create invoice records in Accounts Payable Operations.
 
 **Parent Topic:**[Configure Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/config-acc-pay-mgmt.md)
 

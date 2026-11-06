@@ -87,7 +87,7 @@ Attach a high quality, clear image of the process. You can compliment the image 
 
 -   **Knowledge Article**
 
-Select a knowledge article based on which you want to generate a playbook. Additionally, you can add **Now Assist instructions** to compliment the knowledge base article.
+Select a knowledge article based on which you want to generate a playbook. Additionally, you can add instructions in the text box to compliment the knowledge base article.
 
 -   **Instructions only**
 
@@ -127,7 +127,7 @@ In case of a record driven playbook, the table where the record resides. This op
 
 </td><td>
 
-Option to allow the playbook to be publicly accessible. Once embedded it is set to available to unauthenticated users, as long as there aren’t additional restrictions preventing the user from accessing the playbook. **Note:** Playbooks must be tied to a public parent table for unauthenticated users to see it in runtime.
+Option to allow the playbook to be publicly accessible. Once embedded it is set to available to unauthenticated users, as long as there aren't additional restrictions preventing the user from accessing the playbook. **Note:** Playbooks must be tied to a public parent table for unauthenticated users to see it in runtime.
 
 </td></tr></tbody>
 </table>4.  Select **Generate playbook preview**.

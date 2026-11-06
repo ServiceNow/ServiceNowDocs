@@ -55,7 +55,7 @@ With self-service and omnichannel applications in the ServiceNow® Customer Serv
 
 -   **[Using Interaction Controls Component \(ICC\) call controls with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/amazon-connect-for-voice-calls.md)**
 
-    Manage Amazon Connect calls directly in the CRM Workspace voice Interaction record page. This integration supports inbound and outbound call flows, presence management, and call transfers without switching applications.
+    Manage Amazon Connect calls directly in the CSM Configurable Workspace voice Interaction record page. This integration supports inbound and outbound call flows, presence management, and call transfers without switching applications.
 
 
 ### What's changed
@@ -106,7 +106,7 @@ With self-service and omnichannel applications in the ServiceNow® Customer Serv
 
 -   **[Voice Controls Simulator tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/voice-control-simulator-tool.md)**
 
-    Test and validate voice call UI flows in the CRM Workspace to ensure CCaaS partners have clear insights into their supported voice control capabilities.
+    Test and validate voice call UI flows in the CSM Configurable Workspace to ensure CCaaS partners have clear insights into their supported voice control capabilities.
 
 -   **[Monitoring calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/call-monitoring.md)**
 
@@ -149,7 +149,7 @@ With self-service and omnichannel applications in the ServiceNow® Customer Serv
     -   As an agent, view callback requests in the order that they're received.
 -   **[CCaaS callback features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/contact-center-intergration-with-icc-callback.md)**
 
-    As an agent, address callback requests from the CRM Workspace. Initiate callbacks and manage active calls with the Callback context card and Callback Actions component on the voice interaction page.
+    As an agent, address callback requests from the CSM Configurable Workspace. Initiate callbacks and manage active calls with the Callback context card and Callback Actions component on the voice interaction page.
 
     On the Callback actions component, you can use the **Call number** option to initiate a call; alternatively, the call can be initiated automatically at the end of the preview timer when enabled. After the call has ended, the **Close callback** option closes the callback interaction and changes the status to Closed complete. Agents can also retry the callback as needed.
 
@@ -161,11 +161,11 @@ With self-service and omnichannel applications in the ServiceNow® Customer Serv
 
 -   **[Phone directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/ccaas-phone-directory.md)**
 
-    Access the embedded phone directory in your CRM Workspace via Interaction Controls Component \(ICC\) to make outbound calls to external and internal contacts.
+    Access the embedded phone directory in your CSM Configurable Workspace via Interaction Controls Component \(ICC\) to make outbound calls to external and internal contacts.
 
 -   **[Call resiliency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/ccaas-call-resiliency.md)**
 
-    Route phone calls to the CRM Workspace without creating an interaction record, helping agents handle calls even during connectivity issues.
+    Route phone calls to the CSM Configurable Workspace without creating an interaction record, helping agents handle calls even during connectivity issues.
 
 
 ### What's changed

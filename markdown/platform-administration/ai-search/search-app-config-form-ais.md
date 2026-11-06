@@ -145,7 +145,7 @@ Show parent for results that are attachments
 
 </td><td>
 
-Option to display attachment search results inline with their parent results on the search application's results page. If cleared, attachment search results display separately from their parent results. For more details on the effects of attachment grouping, see .
+Option to display attachment search results inline with their parent results on the search application's results page. If cleared, attachment search results display separately from their parent results. For more details on the effects of attachment grouping, see [Grouping attachment search results with their parent search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/grouping-attachment-srch-results-ais.md).
 
  Type: true \| false
 
@@ -174,7 +174,7 @@ Show Search Results Count
 
 </td><td>
 
-Option to display search result counts for facets on the search application's results page. For more details on this option, see [Show search result counts for facets on the results page for a search application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/display-result-counts-ais.md).
+Option to display search result counts for facets on the search application's results page. For more details on this option, see .
 
  Type: true \| false
 

@@ -78,7 +78,7 @@ To enable an **Entra ID** log in, an administrator must complete the following s
 
     -   In the Entra settings, toggle **Show Microsoft Log in button**.
     -   This enables the SSO log in for end users.
-    \[Omitted image "image.console-microsoft-log-in-smaller"\] Alt text: Microsoft sign in
+    \[Omitted image "image.console-microsoft-log-in"\] Alt text: Sign in with Microsoft
 
 
 ## Result

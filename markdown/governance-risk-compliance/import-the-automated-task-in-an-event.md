@@ -40,7 +40,7 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
     Upon initiating an event, the event tasks that do not have any dependency between them are executed. When a task is completed, the subsequent tasks that depend on it are executed. For example, when a task transitions to the **Closed incomplete** or **Closed failed** state, you have the option to select the task and review its activity details. If an error message is displayed on the screen, you can examine it to identify the issue and take appropriate corrective measures. For instance, if the error message indicates that the code variable must be a positive value, you can update the code variable accordingly.
 
-    If the task transitions to the **Closed failed** state, then its dependent tasks are not triggered. In the event that a task is in the **Closed incomplete** or **Closed failed** state, an email notification is sent to the backup assignee, informing them that the automated flow has encountered an error and manual intervention is necessary from the backup assignee.
+    If the task transitions to the **Closed failed** state, then its dependent tasks are not triggered. In the event that a task is in the **Closed incomplete** or **Closed failed** state, an email notification is sent to the backup assignee. It informs them that the automated flow has encountered an error and manual intervention is necessary from the backup assignee.
 
 6.  Select **Re-trigger automation**.
 

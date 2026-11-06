@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Microsites, Creating employee communications, Manage, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Microsites, Creating employee communications, Manage, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Copy and Paste in the Rich Content Editor

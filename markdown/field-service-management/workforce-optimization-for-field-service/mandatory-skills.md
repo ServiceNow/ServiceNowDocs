@@ -28,5 +28,5 @@ Mandatory skills are an optional feature. Mandatory skills can be identified on 
 **Related topics**  
 
 
-[Use the assignment workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/case-assignment-workbench.md)
+[bundle-csm.case-assignment-workbench]
 

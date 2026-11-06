@@ -597,5 +597,5 @@ View the following examples to create notifications that notify an assignment gr
 
 [Domain separation and Notifications]()
 
-[Email FAQs and troubleshooting notification emails]()
+[Notification email logs and diagnostics]()
 

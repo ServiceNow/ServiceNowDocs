@@ -1,33 +1,33 @@
 ---
-title: Action approval flow in ServiceNow Cowork
-description: Tool gates, approval patterns, and auto approval determine whether each action in Cowork runs, requires approval, or is blocked.
+title: Action approval flow in ServiceNow Arc
+description: Tool gates, approval patterns, and auto approval determine whether each action in Arc runs, requires approval, or is blocked.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/action-approval-flow-cowork.html
 release: zurich
 topic_type: concept
 last_updated: "2026-09-25"
-reading_time_minutes: 5
+reading_time_minutes: 6
 keywords: [Action approval]
-breadcrumb: [Policy management and governance in ServiceNow Cowork, Explore Cowork, ServiceNow Cowork, Enable AI experiences]
+breadcrumb: [Policy management and governance in ServiceNow Arc, Explore, ServiceNow Arc, Enable AI experiences]
 ---
 
-# Action approval flow in ServiceNow Cowork
+# Action approval flow in ServiceNow Arc
 
-Tool gates, approval patterns, and auto approval determine whether each action in Cowork runs, requires approval, or is blocked.
+Tool gates, approval patterns, and auto approval determine whether each action in Arc runs, requires approval, or is blocked.
 
-Three controls determine whether an action runs. Tool gates set how Cowork handles each tool. Approval patterns identify commands that need approval. Auto approval lets an AI model reviewer approve some actions without prompting the user.
+Three controls determine whether an action runs. Tool gates set how Arc handles each tool. Approval patterns identify commands that need approval. Auto approval lets an AI model reviewer approve some actions without prompting the user.
 
-\[Omitted image "cowork-action-flow.png"\] Alt text: Flowchart showing how an action is evaluated through the active policy check, tool gate modes, approval patterns, auto approval, and environment controls.
+\[Omitted image "arc-action-flow.png"\] Alt text: Flowchart showing how an action is evaluated through the active policy check, tool gate modes, approval patterns, auto approval, and environment controls.
 
 Every action passes through these controls in the following order:
 
-1.  Cowork checks for an active policy. If no active policy is available, Cowork refuses the action.
+1.  Arc checks for an active policy. If no active policy is available, Arc refuses the action.
 
-2.  Cowork applies the tool gate for the tool. **Allow** runs the action, **Deny** blocks it, the \(Human in the loop\) HITL sends it to approval patterns, and **Auto** sends it to auto approval.
+2.  Arc applies the tool gate for the tool. **Allow** runs the action, **Deny** blocks it, the \(Human in the loop\) HITL sends it to approval patterns, and **Auto** sends it to auto approval.
 
-3.  For HITL, Cowork compares the command against approval patterns. If no pattern matches, the action runs. If a hard gate pattern matches, Cowork prompts the user. If a soft gate pattern matches, the action runs when a saved approval exists. Otherwise, Cowork prompts the user.
+3.  For HITL, Arc compares the command against approval patterns. If no pattern matches, the action runs. If a hard gate pattern matches, Arc prompts the user. If a soft gate pattern matches, the action runs when a saved approval exists. Otherwise, Arc prompts the user.
 
-4.  For **Auto**, Cowork prompts the user if the action is under a hard gate. Otherwise, the model reviewer approves the action or escalates it to the user.
+4.  For **Auto**, Arc prompts the user if the action is under a hard gate. Otherwise, the model reviewer approves the action or escalates it to the user.
 
 5.  When prompted, the user approves the action to run it or denies the action to block it.
 
@@ -70,34 +70,29 @@ Approval patterns identify the commands that need approval when a tool gate is s
 
 Use exact matching when you know the precise command to control. Exact matching can miss variations of that command. Use relaxed matching to catch variations, but relaxed matching can match a word that appears where you didn't intend. Use keyword matching to require approval for any command that writes data.
 
-Cowork applies a fixed guard on credential paths that you can't turn off.
+Arc applies a fixed guard on credential paths that you can't turn off.
 
-Each pattern has one of the following gate strengths:
-
--   **Hard gate**
-
-    Requires a human decision each time the action runs.
-
--   **Soft gate**
-
-    Requires a human decision, which the user can save for later occurrences of the action.
-
+Each pattern has a hard gate or a soft gate, as described in the gate strengths table.
 
 The Default Policy applies hard gates to destructive operations and actions that delete data or make changes to external systems, and soft gates to selected routine patterns with low impact.
 
-Use a soft gate for routine actions that users repeat.
+When a pattern requires approval, Arc holds the action and displays an approval card to the user. The approval card offers **Allow** for every matched action and **Always Allow** only for soft gate patterns.
 
-When a pattern requires approval, Cowork holds the action and displays an approval card to the user. The approval card offers **Allow** for every matched action and **Allow always** only for soft gate patterns.
+When a user selects **Always Allow**, Arc saves the decision and runs later actions of the same type without a prompt, such as the same command run on different files. An action of a different type prompts the user again. Users can view and revoke saved approvals in **Settings** &gt; **Approvals**.
 
-When a user selects **Allow always**, Cowork saves the decision and runs later actions of the same type without a prompt, such as the same command run on different files. An action of a different type prompts the user again. Users can view and revoke saved approvals in **Settings** &gt; **Approvals**.
+## Access outside the workspace
+
+When an action reads or changes a path outside the user's workspace folders but inside the home folder, Arc always asks for approval. The approval card offers **Always Allow** unless the policy would apply a hard gate to the same action on its own, in which case the user approves it each time. Because the decision comes from the policy, a change to your approval patterns changes this behavior too.
 
 ## Auto approval
 
-When you set a tool gate to **Auto**, Cowork prompts the user for any action under a hard gate. An AI model reviewer evaluates every other action, including actions that match no pattern, against the user's request.
+When you set a tool gate to **Auto**, Arc prompts the user for any action under a hard gate. An AI model reviewer evaluates every other action, including actions that match no pattern, against the user's request.
 
-The model reviewer escalates actions that are destructive, irreversible, or visible outside Cowork. Some of these actions escalate every time. Others escalate unless the user's request clearly identifies what to act on. For example, "close INCXXXXXXX" identifies a specific record, but "clean up the incidents" doesn't. An approved action proceeds. An escalated action appears to the user as a standard approval card.
+The model reviewer escalates actions that are destructive, irreversible, or visible outside Arc. Some of these actions escalate every time. Others escalate unless the user's request clearly identifies what to act on. For example, "close INCXXXXXXX" identifies a specific record, but "clean up the incidents" doesn't. An approved action proceeds. An escalated action appears to the user as a standard approval card.
 
-The model reviewer is an AI model, and its decisions may be inaccurate or inappropriate. Because the reviewer evaluates context, its decisions can vary. Hard gate actions go to the user for approval, not to the model reviewer. To keep a human review step for sensitive actions, place those actions under hard gates.
+The model reviewer is an AI model, and its decisions may be inaccurate or inappropriate. Because the reviewer evaluates context, its decisions can vary. To keep a human review step for sensitive actions, place those actions under hard gates.
+
+Users can choose auto mode for each chat. A tool gate set to **Auto** works like **HITL** unless the auto approval capability is on and the user's chat is in auto mode. Steps that the reviewer approves show **Auto-mode allowed this**.
 
 ## Ways an action runs without a prompt
 
@@ -111,9 +106,9 @@ Under **HITL** or **Auto**, an action can run without a prompt in the ways descr
 |Scope|Soft gate patterns only|Actions not under a hard gate, including actions that match no pattern|
 |Suited for|Repeated actions of a known, stable type|Actions that a static pattern can't classify in advance|
 
-Neither method approves a hard gate action or runs an action on a tool set to **Deny**. Hard gate actions go to a human for approval.
+Neither method approves a hard gate action or runs an action on a tool set to **Deny**.
 
-Cowork also exempts read only commands from prompts, so routine work isn't interrupted.
+Arc also exempts read only commands from prompts, so routine work isn't interrupted.
 
-**Parent Topic:**[Policy management and governance in ServiceNow Cowork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/policy-management-cowork.md)
+**Parent Topic:**[Policy management and governance in ServiceNow Arc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/policy-management-cowork.md)
 

@@ -50,7 +50,7 @@ Port
 
 </td><td>
 
-The port for the MID Server. This field is required.Select a unique port from the array. The placeholder shows the range of ports from which to choose. Make sure that your organization’s security team opens the selected port.
+The port for the MID Server. This field is required.Select a unique port. The placeholder shows the range of ports from which to choose. Make sure that your organization’s security team opens the selected port.
 
 </td></tr><tr><td>
 

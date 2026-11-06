@@ -42,7 +42,7 @@ sn\_risk\_advanced.ara\_admin
 
 </td><td>
 
-sn\_risk.admin
+sn\_risk.admin, sn\_grc.admin, sn\_compliance.admin, sn\_grc.sn\_grc\_system\_admin
 
 </td><td>
 
@@ -78,7 +78,7 @@ sn\_risk\_advanced.ara\_assessor
 
 </td><td>
 
-sn\_grc.business.user
+sn\_risk.user, sn\_risk\_advanced.ara\_admin, sn\_risk\_advanced.risk\_identification\_owner
 
 </td><td>
 
@@ -95,7 +95,7 @@ sn\_risk\_advanced.ara\_approver
 
 </td><td>
 
-sn\_grc.business.user
+sn\_risk.user, sn\_risk\_advanced.ara\_admin, sn\_risk\_advanced.risk\_identification\_owner
 
 </td><td>
 
@@ -111,7 +111,7 @@ sn\_risk\_advanced.ara\_reader
 
 </td><td>
 
-sn\_risk.reader
+sn\_risk.reader, sn\_risk\_advanced.ara\_admin, sn\_risk\_advanced.ara\_approver, sn\_risk\_advanced.ara\_assessor, sn\_risk\_advanced.ara\_creator, sn\_risk\_advanced.risk\_identification\_admin
 
 </td><td>
 
@@ -127,9 +127,7 @@ sn\_risk\_advanced.qualitative\_risk\_appetite\_reader
 
 </td><td>
 
-sn\_risk.user
-
- sn\_risk.reader
+sn\_risk.reader
 
 </td><td>
 

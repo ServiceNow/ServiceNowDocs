@@ -30,7 +30,7 @@ The Search Event \[sys\_search\_event\] table contains all of the strings used i
 
     1.  Select **All**.
 
-    2.  In the **Filter** field, enter `sys_auto_flush.list`.
+    2.  In the navigation field, enter `sys_auto_flush.list`.
 
     3.  Press Enter.
 

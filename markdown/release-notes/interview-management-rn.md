@@ -29,7 +29,7 @@ The ServiceNow® Interview management application streamlines the interview setu
 -   Manage interviews by updating statuses, viewing or providing feedback, sending reminders, and rescheduling, completing, or canceling interviews as needed.
 -   Streamline feedback sharing and tracking, enabling hiring managers to effectively compare applications.
 
-See [Recruitment workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/recruitment-workspace-concept.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -52,7 +52,7 @@ The ServiceNow® Interview management application streamlines the interview setu
 
 ### What's new
 
--   **[Substitute yourself as an interviewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/substitute-interviewer-self.md)**
+-   ****
 
     Substitute yourself in interviews when you cannot attend it, to eliminate the time and effort of offline coordination. Initiate the substitution directly from the calendar invite or the application record page in Employee Center.
 
@@ -63,11 +63,11 @@ The ServiceNow® Interview management application streamlines the interview setu
 
 ### What's changed
 
--   **[Schedule an interview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/schedule-interview.md)**
+-   ****
 
     Schedule interviews more efficiently with auto-populated template variables that reduce manual email editing.
 
--   **[Manage interviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/manage-interviews-recruiter.md)**
+-   ****
 
     Track applicants' responses to interview invites on interviews records directly.
 
@@ -78,47 +78,47 @@ The ServiceNow® Interview management application streamlines the interview setu
 
 ### What's new
 
--   **[Define your interview setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/add-interview-phase.md)**
+-   **Define your interview setup**
 
     Configure interview phases with custom names, durations, and other key parameters, and then use them to efficiently schedule interviews, enhancing transparency and saving time.
 
--   **[Request applicant to share scheduling preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/request-applicant-availability.md)**
+-   ****
 
     Request applicants on a job requisition to share their scheduling preferences to plan a seamless interview process.
 
--   **[Request interviewer to share scheduling preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/request-interviewer-availability.md)**
+-   ****
 
     Request interviewers on a job requisition to share their scheduling preferences to plan a seamless interview process.
 
--   **[Share scheduling preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/share-availability-interviewer.md)**
+-   ****
 
     As an interviewer, when requested by recruiters, share your scheduling preferences to help them schedule interviews accordingly.
 
--   **[View applicant's scheduling preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/view-applicant-availability.md)**
+-   ****
 
     View the scheduling preferences shared by applicants to schedule interviews accordingly.
 
--   **[View interviewer's scheduling preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/view-interviewer-availability.md)**
+-   ****
 
     View the scheduling preferences shared by interviewers and schedule interviews accordingly.
 
--   **[Schedule an interview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/schedule-interview.md)**
+-   ****
 
     Schedule interview with applicants on a job requisition to get started with the interview journey.
 
--   **[Manage interviews as a recruiter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/manage-interviews-recruiter.md)**
+-   **Manage interviews as a recruiter**
 
     As a recruiter or recruitment coordinator, manage interviews for a job requisition as needed. You can update the interview status, view feedback, send reminders, complete or cancel interviews, and more.
 
--   **[Manage interviews as an interviewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/manage-interviews-interviewer.md)**
+-   **Manage interviews as an interviewer**
 
     As an interviewer, view the details of all the interviews that you’re a part of and manage them as required.
 
--   **[Provide interview feedback as a recruiter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/provide-interview-feedback-recruiter.md)**
+-   **Provide interview feedback as a recruiter**
 
     As a recruiter or recruitment coordinator, provide feedback for interviews that you're a part of.
 
--   **[Provide interview feedback as an interviewer or hiring manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/provide-interview-feedback-hm-interviewer.md)**
+-   **Provide interview feedback as an interviewer or hiring manager**
 
     As an interviewer or hiring manager, provide timely and constructive feedback on the interviews in which you participate, to support application comparison and well-informed hiring decisions.
 

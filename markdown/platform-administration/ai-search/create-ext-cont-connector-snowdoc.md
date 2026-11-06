@@ -76,7 +76,7 @@ ServiceNow AI Platform family release that you want to crawl product documentati
 
 7.  On the Crawl settings page, modify any default crawl settings that you want to override for this connector, then select **Next**.
 
-    If you want to skip this step for now, select **Skip** instead of **Next**. You can modify the crawl settings for this connector from the External Content Admin Home page. For details on this procedure and the available crawl settings, see [Configure crawl settings for the ServiceNow product documentation external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-crawl-settings-snowdoc-ext-cont-connector.md).
+    If you want to skip this step for now, select **Skip** instead of **Next**. You can modify the crawl settings for this connector from the External Content Admin Home page. For details on this procedure and the available crawl settings, see [Configure crawl settings for a ServiceNow product documentation external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-crawl-settings-snowdoc-ext-cont-connector.md).
 
 8.  On the Create crawl page, create a content crawl for this connector by selecting a crawl scope \(if supported\) and any desired options, then select **Next**.
 
@@ -88,7 +88,7 @@ ServiceNow AI Platform family release that you want to crawl product documentati
 
 10. Define and save crawl settings for your new ServiceNow product documentation external content connector.
 
-    You must save the crawl settings for this connector even if you don't make any changes to the default settings. To learn how to configure the connector's crawl settings, see [Configure crawl settings for the ServiceNow product documentation external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-crawl-settings-snowdoc-ext-cont-connector.md).
+    You must save the crawl settings for this connector even if you don't make any changes to the default settings. To learn how to configure the connector's crawl settings, see [Configure crawl settings for a ServiceNow product documentation external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-crawl-settings-snowdoc-ext-cont-connector.md).
 
 
 ## Result
@@ -99,7 +99,7 @@ Your new external content connector appears in the Connectors list on the Extern
 
 To retrieve searchable content with your new connector, you must configure and run content crawls for it. You can modify your new connector's crawl settings and create crawls for it from the External Content Admin Home page even if you skipped these steps during connector creation.
 
--   To learn how to configure your new connector's crawl settings, see [Configure crawl settings for the ServiceNow product documentation external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-crawl-settings-snowdoc-ext-cont-connector.md).
+-   To learn how to configure your new connector's crawl settings, see [Configure crawl settings for a ServiceNow product documentation external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-crawl-settings-snowdoc-ext-cont-connector.md).
 -   For details on creating crawls for your new connector, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-content-crawl-external-content-connector.md).
 
 To make content crawled by your new connector searchable in portals and search applications, you must link one of its search sources to the search profile used by each portal or search application. You can use the connector's default search source or create your own custom search sources.

@@ -1,5 +1,5 @@
 ---
-title: Explore Identity and Access Audit
+title: Exploring Identity and Access Audit
 description: Use the Identity and Access Audit to understand changes made for users, groups, roles, and ACLs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/identity/explore-identity-audit.html
@@ -12,17 +12,17 @@ reading_time_minutes: 1
 breadcrumb: [Identity and Access Audit, Identity]
 ---
 
-# Explore Identity and Access Audit
+# Exploring Identity and Access Audit
 
 Use the Identity and Access Audit to understand changes made for users, groups, roles, and ACLs.
 
 Identity and Access Audit helps to understand the critical information about who has modified what, where and when in user accounts, groups and roles.
 
-Helps to detect malicious users and track unusual activity in the ServiceNow® instance and adhere with compliance standards of being able to track access changes.
+It helps to detect malicious users and track unusual activity in the ServiceNow® instance and adhere to compliance standards of being able to track access changes.
 
-Identity and Access Audit \(Identity Security Audit\) is a plugin \(`com.glide.security.audit`\), which is auto-installed.
+Identity and Access Audit \(Identity Security Audit\) is a plugin \(com.glide.security.audit\), which is auto-installed.
 
-Auditing feature can be turned on or off by toggling the`glide.identity.security.audit.enabled` system property. By default, the property is set `true`.
+Auditing feature can be turned on or off by toggling the `glide.identity.security.audit.enabled` system property. By default, the property is set `true`.
 
 Identity and Access Audit enables you to:
 
@@ -37,7 +37,7 @@ Identity and Access Audit enables you to:
 Following are the different user personas in Identity and Access Audit:
 
 -   **Admin**​: View the audit records and the configuration.​
--   **Security Admin**: View these audit trails. Modify the configuration to enable or disable auditing for a certain table or modify the fields that are being audited.
+-   **Security Admin**: View these audit trails. Modify the configuration to enable or turn off auditing for a certain table or modify the fields that are being audited.
 
 ## Audit Tables
 

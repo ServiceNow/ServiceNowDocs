@@ -65,5 +65,4 @@ Choose one of the tiles to get started.
  
 
 </td></tr></tbody>
-</table>For additional getting started information, see the following Getting Started with Adoption Services video.
-
+</table>

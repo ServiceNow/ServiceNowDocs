@@ -28,8 +28,8 @@ In the Scan Results filtering types, the **Host Status** enables users to view q
 
 Using the Host Status filter helps to quickly narrow results such as:
 
--   shows only reachable devices \(Up\) to review open ports or services.
--   shows only unreachable devices \(Down\) to troubleshoot network issues, firewall rules, wrong IPs, or powered-off devices.
+-   Shows only reachable devices \(Up\) to review open ports or services.
+-   Shows only unreachable devices \(Down\) to troubleshoot network issues, firewall rules, wrong IPs, or powered-off devices.
 
 Raw data is useful for debugging and verification because:
 

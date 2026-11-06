@@ -33,7 +33,7 @@ You can create offboarding requests for the following AI asset types:
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Al Control Tower** &gt; **Home** &gt; **Inventory**.
+1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Inventory**.
 
 2.  From the list of available assets, open an asset record with a state of **Deployed** and a status of **Approved**.
 

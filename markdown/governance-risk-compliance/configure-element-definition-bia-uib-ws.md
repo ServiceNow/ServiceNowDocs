@@ -22,7 +22,7 @@ Role required: sn\_bcm.admin
 
 Avoid creating overlapping element definitions where one asset could fit into multiple categories. Each element definition should be unique and not overlap with another. For instance, do not define both server and Linux server as separate element definitions since a Linux server is inherently a server. The BCM application is structured to use only one of these definitions, not both, ensuring that an element definition appears in only one category.
 
-If you want to define Server and Linux Server as distinct element definitions without an overlap, apply a filter to the Server element definition specifying that the class is not Linux. This approach maintains mutual exclusivity between the two definitions.
+To avoid overlap, apply a filter to the Server element definition, specifying that the class is not Linux. This keeps the two definitions mutually exclusive.
 
 If you select the Servers asset type as shown in the example and select **Add**, the configuration shows all the servers including Solaris, ESX, Windows, and so on.
 
@@ -48,7 +48,7 @@ Starting with the Xanadu release, the element definition filter for the Hardware
 
 \[Omitted image "ele-def-hardware.png"\] Alt text: Hardware element definition.
 
-However, you can now add a Windows server asset in the Windows Server element definition or a Linux server asset in the Linux Server element definition as shown in the examples.
+You can add a Windows server asset in the Windows Server element definition. You can add a Linux server asset in the Linux Server element definition. The following examples show both configurations.
 
 \[Omitted image "ele-def-linux-server-for-hardware.png"\] Alt text: Linux server element definition.\[Omitted image "ele-def-windows-server-for-hardware.png"\] Alt text: Windows server element definition.
 

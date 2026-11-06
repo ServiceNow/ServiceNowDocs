@@ -1,5 +1,5 @@
 ---
-title: Security Auditable Fields
+title: Security auditable fields
 description: Displays table and field level details that will be audited in the ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/identity/security-auditable-fields.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Identity and Access Audit, Identity]
 ---
 
-# Security Auditable Fields
+# Security auditable fields
 
 Displays table and field level details that will be audited in the ServiceNow® instance.
 
@@ -20,11 +20,11 @@ Security Auditable Fields displays the details of tables and fields that will be
 
 To access the Security Auditable Fields page, navigate to **All** &gt; **System Security** &gt; **Identity and Access Audit** &gt; **Configure Tables &amp; Fields**. The Security Auditable Fields page is displayed with the following information.
 
-|Column Name|Description|
+|Column name|Description|
 |-----------|-----------|
 |Table to Audit|Details of the table that is audited.|
 |Audit Storage Destination|Details of the destination where the audit details are stored.|
-|Field List|Auditing will be done for fields specified in the list.|
+|Field List|Auditing covers the fields specified in the list.|
 |Create|Audit the changes that are related to Create operation.|
 |Update|Audit the changes that are related to Update operation.|
 |Delete|Audit the changes that are related to Delete operation.|

@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 6
 keywords: [campaign, campaigns, employee center campaign, servicenow campaign, servicenow campaigns]
-breadcrumb: [Manage, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Manage, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Creating campaigns

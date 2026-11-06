@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-04-27"
 reading_time_minutes: 2
 keywords: [generative AI for Employee Center, generative AI for UEX, configuration]
-breadcrumb: [Configure, ServiceNow Otto for Employee Experience, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configure, ServiceNow Otto for Employee Experience, EmployeeWorks, Employee Service Management]
 ---
 
 # Activate ServiceNow Otto for Employee Experience skills

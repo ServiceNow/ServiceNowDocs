@@ -1,6 +1,6 @@
 ---
-title: Exploring the License and Permit Playbook
-description: The License and Permit Playbook provides an end-to-end workflow for handling requests for the license and permit that your agency offers, submitted by public sector end users.
+title: Exploring the License and Permit Administration
+description: The License and Permit Administration provides an end-to-end workflow for handling requests for the license and permit that your agency offers, submitted by public sector end users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-exploring-pbs-license-permit.html
 release: zurich
@@ -10,9 +10,9 @@ reading_time_minutes: 1
 breadcrumb: [Playbooks, Playbooks and solutions, Explore, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Exploring the License and Permit Playbook
+# Exploring the License and Permit Administration
 
-The License and Permit Playbook provides an end-to-end workflow for handling requests for the license and permit that your agency offers, submitted by public sector end users.
+The License and Permit Administration provides an end-to-end workflow for handling requests for the license and permit that your agency offers, submitted by public sector end users.
 
 \[Omitted image "psds\_lpp\_base\_functional\_flow.png"\] Alt text:
 

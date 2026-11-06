@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-08-17"
 reading_time_minutes: 2
 keywords: [translation, localization, switch language, Employee Slate, announcements]
-breadcrumb: [Employee communications, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee communications, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Translate announcement content

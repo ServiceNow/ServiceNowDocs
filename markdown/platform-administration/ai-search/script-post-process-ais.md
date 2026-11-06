@@ -34,7 +34,7 @@ Role required: search\_application\_admin
 
     1.  Select **All**.
 
-    2.  In the Filter field, enter `sys_search_scripted_processor.list`.
+    2.  In the navigation filter, enter `sys_search_scripted_processor.list`.
 
     3.  Press Enter.
 

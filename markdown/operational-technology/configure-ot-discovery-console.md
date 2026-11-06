@@ -20,6 +20,8 @@ This section is an overview of the steps for installing the Discovery Console fo
 
 In your instance, navigate to the Service Graph Connector for ServiceNow OT Discovery Guided Setup page and select Get Started. In the top section, select the Download &amp; Deploy OT Discovery link. The Download &amp; Deploy OT Discovery page opens. Select **Configure** and the Downloads page opens. Download the OT component packages.
 
+**Note:** The required dependency version has been changed to .NET 10 from .NET 8
+
 Review the steps in the installation process listed in the Installation Workflow table.
 
 <table id="table_xsx_5vd_f3c"><tbody><tr><td>
@@ -49,8 +51,9 @@ Install Linux distribution on the VM.
 
 </td><td>
 
-Install Linux or install a compatible Linux distribution such as:-   Red Hat/Rocky 8.x and 9.x
--   Debian 12
+Install Linux or install a compatible Linux distribution such as:-   RedHat Enterprise Linux \(RHEL\) 8.x, 9x, and 10x
+-   Rocky 8.x, 9x, and 10x
+-   Debian 12 and 13
 -   Ubuntu 22.04 and 24.04
 
 </td></tr><tr><td>
@@ -62,6 +65,8 @@ Hardware requirements
 -   RAM: 16 GB \(Recommended\)
 -   Hard Disk drive: 100 GB
 -   CPUs: 2
+
+For more information, see [OT Discovery System Resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/ot-discovery-system-resources.md).
 
 </td></tr><tr><td>
 
@@ -85,15 +90,15 @@ Containerized packages
 
 </td><td>
 
-For closed network systems, you can download and install containerized packages for the Console and the Collector.
+For closed network systems, you can download and install containerized packages for the Console and the Collector. Select the Collector package that is compatible to your machine's OS. For more information, see [Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/air-gapped-networks-installation.md).
 
 </td></tr><tr><td>
 
-Install the Discovery Console for OT
+Begin the install for the Discovery Console for OT
 
 </td><td>
 
-Install the Discovery Console for OT before you install the Discovery Sensor for OT.
+Install the Discovery Console for OT before you install the Discovery Sensor for OT. Install the OT Discovery Collector last.
 
 </td></tr><tr><td>
 
@@ -109,7 +114,7 @@ Extract the installer
 
 </td><td>
 
-From the Console package, extract the ConsoleInstaller zip file.
+From the Console package, extract the ConsoleInstaller .ZIP file.
 
 </td></tr><tr><td>
 
@@ -140,7 +145,7 @@ Before you can log in to the Console for the first time, you must register as a 
 5.  Select the check box, **I acknowledge I saved my password**.
 6.  Select **Enter**.
 
-**Note:** Make sure to save the password, to avoid getting locked out of the system. See  for more instruction.
+**Note:** Make sure to save the password, to avoid getting locked out of the system. For more information, see [Log on to the Discovery Console for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/log-onto-ot-console.md).
 
 </td></tr><tr><td>
 
@@ -150,16 +155,14 @@ EULA Agreement
 
 Next, the EULA appears on the screen. Accept the EULA by checking the box next to **Agree**.
 
+</td></tr><tr><td>
+
+Generate a new certificate
+
+</td><td>
+
+After the Console is installed, generate a new Console certificate. For more information, see [Generate a certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/generate-new-certificate-discovery-for-ot.md).
+
 </td></tr></tbody>
-</table>**Note:** Once installation is complete, and you log onto the Console, you may choose to use the interactive configuration wizard. Included with many beginning steps, the wizard guides you to upload your Console license. For more on the wizard, see [Use the Discovery Console for OT interactive configuration wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/console-onboarding-wizard.md).
-
-## What to do next
-
-To complete installation and configuration of the Discovery Console for OT, continue with the following steps.
-
-1.  See  for initially logging onto the Console.
-2.  Review the  sections. The requirement section includes information about the Console license.
-3.  [Install a Linux operating system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/install-linux-os.md).
-4.  .
-5.  [Generate a certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/generate-new-certificate-discovery-for-ot.md).
+</table>**Note:** Once installation is complete, and you log in to the Console, you can choose to use the interactive configuration wizard. The wizard guides you to upload your Console license. It also takes you through the getting started with the system, such as: creating a Site, creating a Network Zone, and building your initial Auto Query. For more information, see [Use the Discovery Console for OT interactive configuration wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/console-onboarding-wizard.md).
 

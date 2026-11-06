@@ -22,7 +22,7 @@ ServiceNow Change Management integrates with the [Vulnerability response](https:
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about Change Management concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/change-types.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about Change Management concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/exploring-change-management.md)
 
 </td><td>
 
@@ -45,7 +45,20 @@ ServiceNow Change Management integrates with the [Vulnerability response](https:
  
 
 </td></tr></tbody>
-</table>-   **[Exploring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/exploring-change-management.md)**  
+</table>## Helpful resources
+
+Here are some additional ServiceNow resources that can help you:
+
+-   **\[Omitted image "dcx-icon-docs.svg"\] Release Notes**
+
+    Learn more about what's new and changed. See the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/change-management-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/change-management-rn.md).
+
+-   **\[Omitted image "dcx-icon-community.svg"\] ServiceNow Community**
+
+    Learn more about Change Management and connect with other users at [Modern Change Management Launch &amp; Learn Series](https://www.servicenow.com/community/itsm-articles/modern-change-management-launch-amp-learn-series/ta-p/3019358) on the ServiceNow Community.
+
+
+-   **[Exploring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/exploring-change-management.md)**  
 The Change Management processes for a change request are controlled by workflows defined for a specific change request type.
 -   **[Configuring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/configure-change-management.md)**  
 You can configure various aspects of Change Management based on the specific requirements of your organization.

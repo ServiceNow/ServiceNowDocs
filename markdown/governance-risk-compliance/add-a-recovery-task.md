@@ -24,11 +24,11 @@ Beginning with the Xanadu release, cyclic dependencies in recovery tasks can be 
 
 \[Omitted image "plan-record-tabs.png"\] Alt text: Plan record tabs.
 
-For example, in the Recovery task of Cyclic plan example 1 invokes Cyclic plan example 2, Cyclic plan example 2 invokes Cyclic plan example 3 and then again Cyclic plan example 3 invokes Cyclic plan example 1. If you attempt to add a link between Cyclic plan example 2 and Cyclic plan example 3, it isn’t allowed. An error message, similar to the one shown in the example, prompts you to choose a different related plan to help prevent such issues from occurring in an event.
+For example, Cyclic plan example 1 invokes Cyclic plan example 2, which invokes Cyclic plan example 3, which then invokes Cyclic plan example 1 again. If you attempt to add a link between Cyclic plan example 2 and Cyclic plan example 3, the system rejects it. An error message prompts you to choose a different related plan.
 
 \[Omitted image "cyclic-plan-error-message.png"\] Alt text: Cyclic plan error message.
 
-Similarly, if plans are activated beyond 10 levels or hierarchical links involving more than 10 levels of plans are created, an error message is displayed, suggesting the removal of the plan before saving the record.
+Similarly, plans cannot exceed 10 levels. If plans exceed 10 levels or hierarchical links span more than 10 levels, an error message appears. Remove the plan before saving the record.
 
 \[Omitted image "cyclic-plan-levels.png"\] Alt text: Plan levels.
 
@@ -69,7 +69,7 @@ To automate a recovery task, administrators or application developers create an 
 
 4.  On the form, fill in the fields.
 
-    For more information on the fields in the form, see [Create New Recovery task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-recovery-task-form.md).
+    For more information on the fields in the form, see [Create recovery task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-recovery-task-form.md).
 
 5.  Assign a phase to the recovery task.
 
@@ -95,9 +95,9 @@ To automate a recovery task, administrators or application developers create an 
 
 7.  Verify the achieved recovery level of the impacted assets of a task in the **Asset recovery level** field.
 
-    In events, the **Asset recovery level** field indicates the achieved recovery level of the impacted assets of that event task, once all tasks with that recovery level \(for example, all tasks with Partially recovered state\) are completed.
+    In events, the **Asset recovery level** field indicates the achieved recovery level of the impacted assets of that event task. The field updates when all tasks with that recovery level are completed. For example, the field updates when all tasks with the Partially recovered state are completed.
 
-    Previously, the assets were automatically marked as Recovered only when all event tasks were completed, even if those assets were in later phases such as Return to normal or Post-incident review. This approach delayed visibility into operational readiness. For example, even if an asset was functionally available during the Recovery phase, the system didn't reflect the status until all tasks were done.
+    Assets were automatically marked as Recovered only after all event tasks were completed. This applied even to assets in later phases, such as Return to normal or Post-incident review. This approach delayed visibility into operational readiness. For example, an asset functionally available during the Recovery phase did not show a recovered status until all tasks were complete.
 
     Starting with BCM release 9.x.x and later, the asset recovery status has been enhanced to provide granular tracking. Completing specific tasks now automatically updates the corresponding event asset state, progressing from **Not Recovered** → **Partially Recovered** → **Recovered**.
 
@@ -120,8 +120,8 @@ To automate a recovery task, administrators or application developers create an 
     The updated recovery tasks are now displayed in the UI.
 
 
--   **[Create New Recovery task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-recovery-task-form.md)**  
-Use the Create New Recovery task form in the BCM Configurable Workspace to input the necessary details regarding the recovery task.
+-   **[Create recovery task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-recovery-task-form.md)**  
+Use the Create recovery task form in the BCM Configurable Workspace to input the necessary details regarding the recovery task.
 
 **Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
 

@@ -34,7 +34,7 @@ Start time
 
 </td><td>
 
-Default: 12:00 AM UTC
+Default: 12:00 a.m. UTC
 
 </td></tr><tr><td>
 

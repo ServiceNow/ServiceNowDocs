@@ -9,7 +9,7 @@ classification: developer-sandboxes
 topic_type: reference
 last_updated: "2025-08-12"
 reading_time_minutes: 1
-breadcrumb: [Installing, Developer Sandboxes, Developing your application, Building applications]
+breadcrumb: [Install and configure, Developer Sandboxes, Developing your application, Building applications]
 ---
 
 # Developer Sandboxes entitlements

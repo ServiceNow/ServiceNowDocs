@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-managem
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 9
+reading_time_minutes: 8
 ---
 
 # Employee Service Management

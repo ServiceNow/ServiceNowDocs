@@ -1,6 +1,6 @@
 ---
 title: Activate the Identity Center
-description: For Identity Center, install the Identity Center \(com.snc.identity\_center\) plugin.
+description: For Identity Center, activate the Identity Center \(com.snc.identity\_center\) plugin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/identity/activate-the-identity-center.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Identity Center, Identity]
 
 # Activate the Identity Center
 
-For Identity Center, install the Identity Center \(`com.snc.identity_center`\) plugin.
+For Identity Center, activate the Identity Center \(`com.snc.identity_center`\) plugin.
 
 ## Before you begin
 

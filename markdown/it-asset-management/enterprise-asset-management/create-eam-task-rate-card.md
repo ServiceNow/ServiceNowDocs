@@ -18,7 +18,7 @@ Create a task rate card to capture costs per task type in the Enterprise Asset W
 
 ## Before you begin
 
-Role required: sn\_eam.enterprise\_asset\_manager
+Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
 ## About this task
 

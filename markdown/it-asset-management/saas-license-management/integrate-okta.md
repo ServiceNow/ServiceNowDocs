@@ -160,15 +160,15 @@ If you’re using Software Asset Workspace, the option to create the Okta integr
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_fcx_4nx_qtb"><thead><tr><th align="left" id="d238105e515">
+<table id="choicetable_fcx_4nx_qtb"><thead><tr><th align="left" id="d239731e515">
 
 Interface
 
-</th><th align="left" id="d238105e518">
+</th><th align="left" id="d239731e518">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d238105e524">
+</th></tr></thead><tbody><tr><td id="d239731e524">
 
 **Core UI**
 
@@ -179,7 +179,7 @@ Action
 3.  Select **Okta Integration Profile**.
 
 
-</td></tr><tr><td id="d238105e566">
+</td></tr><tr><td id="d239731e566">
 
 **Software Asset Workspace**
 
@@ -283,15 +283,15 @@ Option for creating a direct integration profile to view Okta subscriptions afte
 
 5.  Open the Create Connection and Credential dialog box.
 
-<table id="choicetable_oww_kmj_lzb"><thead><tr><th align="left" id="d238105e945">
+<table id="choicetable_oww_kmj_lzb"><thead><tr><th align="left" id="d239731e945">
 
 Interface
 
-</th><th align="left" id="d238105e948">
+</th><th align="left" id="d239731e948">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d238105e954">
+</th></tr></thead><tbody><tr><td id="d239731e954">
 
 **Core UI**
 
@@ -299,7 +299,7 @@ Action
 
 Select the **Create New Connection &amp; Credential** related link on the SSO integration profile form.
 
-</td></tr><tr><td id="d238105e966">
+</td></tr><tr><td id="d239731e966">
 
 **Software Asset Workspace**
 
@@ -355,7 +355,7 @@ When your OAuth token expires, your Okta integration profile displays an error m
 
 Don’t delete the OAuth 2.0 credential record that is associated with the connection record for your Okta integration profile. If you delete the OAuth 2.0 credential record, you won’t be able to get a new OAuth token after your current OAuth token expires.
 
-After you publish the integration profile and connect applications to the profile, you can view events performed by individual users up to 60 days prior to the current date. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
+After you publish the integration profile and connect applications to the profile, you can view events performed by individual users up to 60 days before the current date. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
 ## Okta SSO direct integration profile
 
@@ -467,7 +467,7 @@ After connecting the SSO application, view information about the SSO profile in 
 -   Directory Job Results
 -   Subscription User Exclusion Rule
 
-After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/subscription-exclusions.md).
+After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/subscription-exclusions.md).
 
 Create software entitlements for the automatically generated software models to track used software against owned software. For more information on creating software entitlements in the Software Asset Management classic application, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/track-software-rights.md). For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/create-entitlements-workspace.md). For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 

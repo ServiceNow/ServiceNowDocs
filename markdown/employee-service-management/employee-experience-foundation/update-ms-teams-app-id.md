@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure, Employee Center for Microsoft Viva Connections, Employee Center Integrations, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configure, Employee Center for Microsoft Viva Connections, Employee Center Integrations, EmployeeWorks, Employee Service Management]
 ---
 
 # Update the Microsoft Teams application ID

@@ -7,7 +7,7 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Discover portable software installed by package managers, ACC deployment - endpoints, Agent Client Collector, IT Operations Management]
 ---

@@ -18,7 +18,7 @@ The MID Server dashboard is a central place for MID Server users to monitor ongo
 
 <table id="table_jmp_fsf_khb"><tbody><tr><td>
 
-![Links to each of the MID Server sections](../image/MIDRefIconBar.png)
+![MID Server reference navigation](../image/MIDRefIconBar.png)
 
 </td></tr></tbody>
 </table>The MID Server Dashboard is available from the **MID Server** &gt; **Dashboard** module.

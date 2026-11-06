@@ -47,5 +47,5 @@ Upcoming appointments also display with a small calendar icon next to the user n
     3.  Select **Update** to save any changes you make to the interaction form.
 
 
-**Parent Topic:**[Manage Walk-up Experience queue and interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/use-walkup-to-manage-demand.md)
+**Parent Topic:**[Manage Walk-up Experience queue and interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/use-walkup-to-manage-demand.md)
 

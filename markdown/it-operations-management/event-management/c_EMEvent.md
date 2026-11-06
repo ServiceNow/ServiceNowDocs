@@ -42,7 +42,7 @@ The integration with external systems can be initiated from a ServiceNow AI Plat
 
 The ServiceNow AI Platform instance includes push connectors that help external monitoring systems to integrate with Event Management directly.
 
-You can configure the authentication in the ServiceNow AI Platform instance and update the external monitoring systems to use endpoints to send the events for the push connectors that are available. For more information, see [Push Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/push-event-listener.md).
+Configure authentication in the ServiceNow AI Platform instance and update external monitoring systems to use the available push connector endpoints. For more information, see [Push Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/push-event-listener.md).
 
 ### Integration via MID Server
 

@@ -46,7 +46,7 @@ Fuzzy numeric search includes an indexing component which is activated by defaul
 
     1.  Select **All**.
 
-    2.  In the **Filter** field, enter `sys_properties.list`.
+    2.  In the navigation field, enter `sys_properties.list`.
 
     3.  Press Enter.
 

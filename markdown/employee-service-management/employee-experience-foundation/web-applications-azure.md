@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [App Launcher, Setup task management, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [App Launcher, Setup task management, Configure, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Sync your applications from Microsoft Entra ID

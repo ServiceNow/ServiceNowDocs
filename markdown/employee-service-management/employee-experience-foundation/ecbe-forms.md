@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2025-08-12"
 reading_time_minutes: 2
-breadcrumb: [Reference, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Reference, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Browser Extension for Employee Center forms

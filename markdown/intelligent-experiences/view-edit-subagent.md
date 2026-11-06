@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-27"
 reading_time_minutes: 1
 keywords: [sub-agents, edit sub-agent, system prompt]
-breadcrumb: [Extend ServiceNow Cowork, Use, ServiceNow Cowork, Enable AI experiences]
+breadcrumb: [Extend ServiceNow Arc, Use, ServiceNow Arc, Enable AI experiences]
 ---
 
 # View and edit a sub-agent
@@ -17,7 +17,7 @@ Review a sub-agent's system prompt to understand how it behaves, and edit it whe
 
 ## Before you begin
 
-Role required: sn\_app\_cowork.user
+Role required: sn\_app\_arc.user
 
 ## Procedure
 
@@ -42,5 +42,5 @@ Role required: sn\_app\_cowork.user
 
 The sub-agent uses your updated settings the next time it runs.
 
-**Parent Topic:**[Extend ServiceNow Cowork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/extending-cowork.md)
+**Parent Topic:**[Extend ServiceNow Arc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/extending-cowork.md)
 

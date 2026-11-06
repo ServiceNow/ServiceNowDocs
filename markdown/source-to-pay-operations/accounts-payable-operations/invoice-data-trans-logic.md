@@ -8,7 +8,7 @@ product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 7
+reading_time_minutes: 6
 breadcrumb: [How Accounts Payable Operations integration with Document Intelligence works, Install Accounts Payable Operations integration with Document Intelligence, Configure, Accounts Payable Operations, Finance and Supply Chain]
 ---
 

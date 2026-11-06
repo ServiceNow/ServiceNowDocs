@@ -1,6 +1,6 @@
 ---
 title: Upgrade the Agent Client Collector manually on a Linux system
-description: Perform a manual upgrade of your existing Agent Client Collector version on a system running a Linux OS if the single-line command script is not connected to the instance or you want to use enhanced customization options.
+description: Perform a manual upgrade of your existing Agent Client Collector version on a system running a Linux OS. Use this procedure if the single-line command script is not connected to the instance or you want to use enhanced customization options.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-install-upgrade-linux.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [ACC installation on a Linux system, ACC deployment - servers, Agent
 
 # Upgrade the Agent Client Collector manually on a Linux system
 
-Perform a manual upgrade of your existing Agent Client Collector version on a system running a Linux OS if the single-line command script is not connected to the instance or you want to use enhanced customization options.
+Perform a manual upgrade of your existing Agent Client Collector version on a system running a Linux OS. Use this procedure if the single-line command script is not connected to the instance or you want to use enhanced customization options.
 
 ## Before you begin
 

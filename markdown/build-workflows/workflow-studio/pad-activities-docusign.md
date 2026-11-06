@@ -18,7 +18,7 @@ Enable agents and fulfillers to collect electronic signatures during a playbook 
 
 ## Roles and availability
 
--   These activities are available as an application in the ServiceNow Store. Users with the playbook.admin or pd\_author role can add these activities to a playbook.
+-   Users with the playbook.admin or pd\_author role can add these activities to a playbook.
 -   You must have access to Workflow Data Fabric's Docusign spoke.
 
 ## Inputs

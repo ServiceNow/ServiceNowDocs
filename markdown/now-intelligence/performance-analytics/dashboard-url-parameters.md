@@ -18,6 +18,8 @@ Dashboard URL parameters allow you to control the visibility of headers and the 
 
 ## Dashboard header
 
+**Note:** This topic refers to Core UI dashboards. If you are looking for information about the newer Platform Analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center-dashboards.md).
+
 This sysparm\_header URL system parameter controls the visibility of the header of the dashboard. It has the following values:
 
 -   hidden — The header is hidden on the application page.

@@ -52,7 +52,7 @@ Site A
 
 </td><td>
 
-Originating network site for this connection. Select the search icon \( \[Omitted image "search.png"\] Alt text: Search icon.\) and select a network site. To learn more, see [7176d9244e4c99a58be815bfcc9221b388f9fe35.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md).
+Originating network site for this connection. Select the search icon \( \[Omitted image "search.png"\] Alt text: Search icon.\) and select a network site. To learn more, see [3d2dc458bf22efbd7c1c286263fac682f2fa02b4.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md).
 
 </td></tr><tr><td>
 
@@ -60,7 +60,7 @@ Site Z
 
 </td><td>
 
-Destination network site for this connection. Select the search icon \( \[Omitted image "search.png"\] Alt text: Search icon.\) and select a network site. To learn more, see [7176d9244e4c99a58be815bfcc9221b388f9fe35.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md).
+Destination network site for this connection. Select the search icon \( \[Omitted image "search.png"\] Alt text: Search icon.\) and select a network site. To learn more, see [3d2dc458bf22efbd7c1c286263fac682f2fa02b4.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md).
 
 </td></tr></tbody>
 </table>**Related topics**  

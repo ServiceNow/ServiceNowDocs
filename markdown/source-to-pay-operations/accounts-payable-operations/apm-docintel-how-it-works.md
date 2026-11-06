@@ -1,6 +1,6 @@
 ---
 title: How Accounts Payable Operations integration with Document Intelligence works
-description: Accounts Payable Operations integration with Document Intelligence uses automated workflows to extract the required information from the invoice document received as an email attachment, creates an invoice record in Accounts Payable Operations, and adds the extracted information into the newly created invoice record.
+description: Accounts Payable Operations integration with Document Intelligence uses automated workflows to extract information from invoice documents received as email attachments and create invoice records in Accounts Payable Operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/apm-docintel-how-it-works.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Install Accounts Payable Operations integration with Document Intel
 
 # How Accounts Payable Operations integration with Document Intelligence works
 
-Accounts Payable Operations integration with Document Intelligence uses automated workflows to extract the required information from the invoice document received as an email attachment, creates an invoice record in Accounts Payable Operations, and adds the extracted information into the newly created invoice record.
+Accounts Payable Operations integration with Document Intelligence uses automated workflows to extract information from invoice documents received as email attachments and create invoice records in Accounts Payable Operations.
 
 \[Omitted image "acct-pay-di-works.png"\] Alt text: How Accounts Payable Operations works with Document Intelligence
 

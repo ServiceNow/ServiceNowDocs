@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Perform a basic activity configuration, My active items widget configuration, Setup task management, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Perform a basic activity configuration, My active items widget configuration, Setup task management, Configure, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Provide basic activity configuration details

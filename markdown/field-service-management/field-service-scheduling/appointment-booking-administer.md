@@ -99,7 +99,7 @@ The steps for configuring appointment booking are:
 
     Use extension points to customize appointment booking configurations.
 
-14. \(Optional\) [Use Appointment API for interacting with the appointment booking application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/appointment-api.md)
+14. \(Optional\) Use Appointment API for interacting with the appointment booking application.
 
     Use this API to book and reschedule appointments, check available appointment slots, and fetch appointment booking configuration details.
 

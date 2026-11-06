@@ -16,6 +16,8 @@ breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards
 
 Depending on the type and configuration of the report, you can select one color, a predefined color palette, or predefined chart colors. All three options are built on a customizable set of individual colors.
 
+**Note:** This topic refers to Core UI reports, not Platform Analytics data visualizations.
+
 If you aren’t grouping or stacking the data in a report, you select one color. If you stack or group data, you have two main choices for colors:
 
 -   **Color palette**

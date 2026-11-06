@@ -9,7 +9,7 @@ classification: developer-sandboxes
 topic_type: concept
 last_updated: "2026-06-05"
 reading_time_minutes: 1
-breadcrumb: [Administer data, Developer Sandboxes, Developing your application, Building applications]
+breadcrumb: [Install and configure, Developer Sandboxes, Developing your application, Building applications]
 ---
 
 # Using sandbox templates

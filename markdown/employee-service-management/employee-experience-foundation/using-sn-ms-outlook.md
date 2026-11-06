@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow for Microsoft Outlook, Unified Employee Experience, Employee Service Management]
+breadcrumb: [ServiceNow for Microsoft Outlook, EmployeeWorks, Employee Service Management]
 ---
 
 # Using ServiceNow for Microsoft Outlook

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-10-01"
 reading_time_minutes: 1
 keywords: [admin editor, Explore page, Explore Hero, EmployeeWorks Web App, customize header]
-breadcrumb: [Admin editor, Browse and topic experience, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Admin editor, Browse and topic experience, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Customize the Explore header

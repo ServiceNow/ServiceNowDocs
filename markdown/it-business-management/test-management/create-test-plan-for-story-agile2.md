@@ -7,7 +7,7 @@ release: zurich
 product: Test Management
 classification: test-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-16"
 reading_time_minutes: 3
 breadcrumb: [Sprint testing, Test Management 2.0, Test Management applications, Strategic Portfolio Management]
 ---
@@ -19,6 +19,7 @@ Create a test from the Sprint Tracking view to automatically link it to a story 
 ## Before you begin
 
 -   Role required: scrum\_user or scrum\_admin
+-   To add a test, you also need the sn\_test\_management.tester or sn\_test\_management.test\_manager role.
 -   You can create a test from the List view only when Agile Development 2.0 is installed along with Test Management 2.0.
 -   You must be a member of an agile group.
 

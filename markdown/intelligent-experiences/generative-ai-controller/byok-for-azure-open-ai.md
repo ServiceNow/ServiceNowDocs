@@ -27,7 +27,7 @@ BYOK supports the same AI models that the ServiceNow AI Platform supports. After
 BYOK supports the following cloud AI providers:
 
 -   Azure OpenAI
--   Anthropic Claude on AWS, which is accessible through Amazon Bedrock
+-   Anthropic Claude, which is accessible through Amazon Bedrock
 -   Google Gemini
 
 ## Configuring a BYOK connection with a cloud AI provider

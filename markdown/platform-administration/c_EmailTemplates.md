@@ -59,5 +59,5 @@ With email notifications, you can use import export maps to leverage information
 
 [Domain separation and Notifications]()
 
-[Email FAQs and troubleshooting notification emails]()
+[Notification email logs and diagnostics]()
 

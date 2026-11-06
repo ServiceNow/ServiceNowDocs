@@ -29,8 +29,8 @@ Each Webcrawler connector can retrieve up to 50,000 items \(URLs\) from its sour
 
 By default, you can configure up to three Webcrawler connectors for custom web sources. If you need to retrieve items from more than three custom web sources, you can create a Customer Service and Support case at [https://support.servicenow.com/now](https://support.servicenow.com/now) to request a limit increase for the Webcrawler connector.
 
--   **[Webcrawler external content connector predefined web sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/predefined-websources-webcrawler-ext-cont-connector.md)**  
-Predefined public web sources are available for the Webcrawler external content connector. Search administrators can run Webcrawler connector crawls to make content from these web sources searchable.
+-   **[Predefined web sources for the Webcrawler external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/webcrawler-predefined-web-sources.md)**  
+The Webcrawler external content connector provides access to a curated set of predefined public web sources. Search administrators can run Webcrawler connector crawls to make content from these web sources searchable within the ServiceNow AI Platform®.
 -   **[Create a Webcrawler external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-ext-cont-connector-webcrawler.md)**  
 Create an external content connector to retrieve searchable content from pages and subdomains in a public web source system. Select from a list of predefined web sources or specify your own web source.
 -   **[Configure crawl settings for a Webcrawler external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-crawl-settings-webcrawler-external-content-connector.md)**  

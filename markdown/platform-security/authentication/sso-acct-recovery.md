@@ -29,7 +29,7 @@ ACR provides the following capabilities:
 
 For a fresh instance to use ACR, you must do the following:
 
--   Activate Mutli-SSO plugin \(`com.snc.integration.sso.multi.installer`\)
+-   Activate Multi-SSO plugin \(`com.snc.integration.sso.multi.installer`\)
 -   Enable ACR \(`glide.sso.acr.enabled`\) - This is enabled by default in case of a fresh instance.
 -   Before enabling SSO property \(`glide.authenticate.multisso.enabled`\), the administrator must enroll as an ACR user.
 
@@ -41,7 +41,7 @@ For a fresh instance to use ACR, you must do the following:
 
 For an upgraded instance to use ACR, you must do the following:
 
--   Activate Mutli-SSO plugin \(`com.snc.integration.sso.multi.installer`\)
+-   Activate Multi-SSO plugin \(`com.snc.integration.sso.multi.installer`\)
 -   Enable ACR \(`glide.sso.acr.enabled`\)
 
     **Note:** In case of upgraded instance, the administrator must enable ACR.

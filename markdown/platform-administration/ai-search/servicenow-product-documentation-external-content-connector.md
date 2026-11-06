@@ -25,7 +25,7 @@ The indexed content and metadata are stored as records in a connector-specific i
 
 -   **[Create a ServiceNow product documentation external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-ext-cont-connector-snowdoc.md)**  
 Create an external content connector to retrieve searchable content from the ServiceNow product documentation site.
--   **[Configure crawl settings for the ServiceNow product documentation external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-crawl-settings-snowdoc-ext-cont-connector.md)**  
+-   **[Configure crawl settings for a ServiceNow product documentation external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-crawl-settings-snowdoc-ext-cont-connector.md)**  
 Choose the products that you want your ServiceNow product documentation external content connector to crawl documentation for.
 
 **Parent Topic:**[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configuring-ext-cont-connectors.md)

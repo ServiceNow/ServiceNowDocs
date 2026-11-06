@@ -32,7 +32,7 @@ Sidebar is supported in these workspaces:
 -   Security Incident Response Workspace
 -   Vendor Management Workspace
 
-For information on adding the **Discuss** button to a supported workspace, see [Adding the Discuss button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/sidebar/add-sidebar-button.md).
+For information on adding the **Discuss** button to a supported workspace, see [Add the Discuss button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/sidebar/add-sidebar-button.md).
 
 For information on adding the **Discuss** button to any workspace not listed \(such as the Service Operation Workspace\), see [KB article KB1213249](https://support.servicenow.com/kb_view.do?sysparm_article=KB1213249).
 

@@ -8,7 +8,7 @@ product: Authentication
 classification: authentication
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Client Credentials Grant, Inbound Integrations, OAuth inbound, OAuth authentication, Access Management]
 ---
 
@@ -19,6 +19,8 @@ Configure the OAuth Client Credentials Grant for secure machine-to-machine authe
 ## Before you begin
 
 Role required: `admin`
+
+Before you configure this grant, make sure the OAuth application user exists. For more information, see [Add the OAuth Application User](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/add-oauth-application-user.md).
 
 ## Procedure
 

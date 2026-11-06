@@ -20,7 +20,7 @@ The ServiceNow® integrated development environment \(IDE\) application enables 
 -   Use light and dark developer themes.
 -   Use the ServiceNow IDE in any supported left-to-right language.
 
-See [ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-ide-landing.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -32,11 +32,11 @@ See [ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
 
 -   **Upgrade information**
 
-    ServiceNow IDE version 2.1.2 is active by default on instances on the Zurich release. Update to ServiceNow IDE version 3.0 or later to use the latest features. For information about updating ServiceNow IDE, see [Install or update the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/install-servicenow-ide.md).
+    ServiceNow IDE version 2.1.2 is active by default on instances on the Zurich release. Update to ServiceNow IDE version 3.0 or later to use the latest features. For information about updating ServiceNow IDE, see .
 
 -   **Additional requirements**
 
-    ServiceNow IDE uses the public npm registry \(`https://registry.npmjs.org`\) as its default package source. If your network blocks access to this registry, you must have access to an alternate registry to download packages and build applications in the ServiceNow IDE. If access to the public npm registry is blocked on your system, you must configure a private npm registry in your Package Manager user settings in the ServiceNow IDE. For more information, see [Install an npm package from a private registry with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/use-library-private-npm-registry.md).
+    ServiceNow IDE uses the public npm registry \(`https://registry.npmjs.org`\) as its default package source. If your network blocks access to this registry, you must have access to an alternate registry to download packages and build applications in the ServiceNow IDE. If access to the public npm registry is blocked on your system, you must configure a private npm registry in your Package Manager user settings in the ServiceNow IDE. For more information, see .
 
 
 ## Accessibility and localization
@@ -54,18 +54,18 @@ The ServiceNow® integrated development environment \(IDE\) application enables 
 
 ### What's new
 
--   **[Clone a repository that contains multiple applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/clone-git-repository-servicenow-ide.md)**
+-   **Clone a repository that contains multiple applications**
 
     Clone a Git repository that contains multiple applications that support development in source code. The repository must contain at least one `package.json` file and one `now.config.json` file.
 
--   **[Default to using the latest version of the ServiceNow SDK in new or converted applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-ide-properties.md)**
+-   **Default to using the latest version of the ServiceNow SDK in new or converted applications**
 
     Configure whether to use the bundled version or the latest version of the ServiceNow SDK when creating or converting applications in the ServiceNow IDE with the **sn\_glider.default\_to\_bundled\_sdk** system property. By default, the latest version of the ServiceNow SDK is used.
 
 
 ### What's changed
 
--   **[New developer themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-ide-user-interface.md)**
+-   **New developer themes**
 
     Use the Developer Light \(default\) and Developer Dark themes in the ServiceNow IDE. Select a theme from the user settings in the ServiceNow IDE or with the `Preferences: Color Theme` command from the command palette.
 

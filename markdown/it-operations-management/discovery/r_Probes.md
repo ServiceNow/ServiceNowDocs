@@ -28,7 +28,7 @@ These are the things you can do with probes and sensors:
 
 -   **Create or modify a probe**
 
-    You can [create a new probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/modify-a-probe.md) to discover additional CIs that Discovery does not find with the base system probes or patterns, or modify an existing probe to collect additional information on the type of CI. After you create or modify a probe, test it. You can also create multiprobes and multisensors. See [Create a Discovery multiprobe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r_MultiprobesIncludedWithDiscovery.md) for more information.
+    You can [create a new probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/modify-a-probe.md) to discover additional CIs that the base system probes or patterns do not find. You can also modify an existing probe to collect additional information on the type of CI. After you create or modify a probe, test it. You can also create multiprobes and multisensors. See[Create a Discovery multiprobe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r_MultiprobesIncludedWithDiscovery.md) for more information.
 
 -   **Upgrade to the latest version of a probe or sensor**
 

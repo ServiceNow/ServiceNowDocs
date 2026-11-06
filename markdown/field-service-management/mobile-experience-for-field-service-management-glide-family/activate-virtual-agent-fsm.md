@@ -29,7 +29,7 @@ You can install the Field Service Virtual Agent Conversations application \(sn\_
     -   **Required ServiceNow Store applications**
         -   **Field Service NLU Model for Virtual Agent Conversations**
 
-            For more information, see [Enabling NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/configure-nlu-settings.md).
+            For more information, see Enabling NLU.
 
 
 Role required: admin

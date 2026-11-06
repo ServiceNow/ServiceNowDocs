@@ -23,7 +23,7 @@ The ServiceNow®HR Multi Instance Integration centralizes the delivery of HR ser
 -   Enable consumer users to complete the assigned tasks via magic links. Magic links enable consumer users to directly access the linked resource in the provider instance without having to manually log in.
 -   Use Universal Task as the remote tasking medium in both provider instance and consumer instance.
 
-See [HR Multi Instance Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/multi-instance-int.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -42,7 +42,7 @@ The ServiceNow®HR Multi Instance Integration centralizes the delivery of HR ser
 
 ### What's new
 
--   **[HR Multi Instance Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/multi-instance-int.md)**
+-   ****
 
     Partners and service providers for HR service fulfillment often are running their own instance of HR Service Delivery. HR Multi Instance Integration provides inter-instance communication and hybrid HR services with fulfillment in different instances through the following capabilities:
 

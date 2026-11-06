@@ -17,7 +17,7 @@ Extend your AI Control Tower pages beyond the built-in configuration options wit
 
 If the built-in configuration options don't meet your organization's needs, you can customize AI Control Tower pages using the ServiceNow® AI Experience Lab for VS Code extension. Delivered through the AI Experience Framework, the extension enables pro-code developers to create net new or extend existing pages, experiences, and widgets.
 
-For information about installing and using the extension, see .
+For information about installing and using the extension, see [ServiceNow® AI Experience Lab for VS Code extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-ai-experience-lab-for-vs-code-landing.md).
 
 **Parent Topic:**[Configuring AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-configuring.md)
 

@@ -1,13 +1,13 @@
 ---
 title: Receive certificate notifications via Microsoft Teams
-description: Configure certificate notifications to be delivered to a Microsoft Teams channel so that you can receive alerts and initiate certificate renewal workflows directly from Microsoft Teams.
+description: Configure certificate notifications to be delivered to a Microsoft Teams channel so that you can receive alerts and initiate certificate renewal workflows directly from Microsoft Teams. Configure certificate notifications to be delivered to a Microsoft Teams channel so that you can receive alerts and initiate certificate renewal workflows directly from Microsoft Teams.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/configure-ms-teams-cert-notifications.html
 release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 keywords: [configure Microsoft Teams CIM notifications, certificate expiration Teams channel, CIM Teams spoke setup]
 breadcrumb: [Certificate alerts and notifications, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
@@ -19,7 +19,7 @@ Configure certificate notifications to be delivered to a Microsoft Teams channel
 
 ## Before you begin
 
-Verify that the Microsoft Teams spoke is installed and configured. For more information, see [Set up the](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/set-up-msteams.md).
+Verify that the Microsoft Teams spoke is installed and configured. For more information, see [Set up the Microsoft Teams Graph spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/set-up-msteams.md).
 
 Role required: pki\_admin or admin.
 

@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure Localization Framework for Content Publishing, Setup employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configure Localization Framework for Content Publishing, Setup employee communications, Configure, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Configuring translation for Content Publishing after upgrade

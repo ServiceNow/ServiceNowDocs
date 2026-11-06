@@ -24,6 +24,10 @@ This task is part of configuring the style options of a single score report.
 
 See [Single score data visualization example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dv-example-single-score.md) for example steps to implement a coloring rule.
 
+## About this task
+
+**Important:** This topic refers to Core UI reports. For information about color rules in Platform Analytics single score data visualizations, see [Create a single score data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-dv-sing-sc-ac.md) and [Create coloring rules for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/colors-dv.md).
+
 ## Procedure
 
 1.  On the **Style** tab of the Report Designer, click **Edit coloring rules**.

@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: concept
 last_updated: "2026-05-29"
 reading_time_minutes: 1
-breadcrumb: [Semantic index configuration for indexed sources, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer]
+breadcrumb: [AI Search RAG \(Retrieval-Augmented Generation\), Semantic index configuration for indexed sources, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer]
 ---
 
 # Configuring an external or custom embedding model

@@ -9,7 +9,7 @@ classification: now-mobile-employee-experience
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Workday approvals in Now Mobile, Configuring Employee Center for mobile, Now Mobile experience for Employee Center, Now Mobile app, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Workday approvals in Now Mobile, Configuring Employee Center for mobile, Now Mobile experience for Employee Center, Now Mobile app, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure Workday approval functions for Now Mobile

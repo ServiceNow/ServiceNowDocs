@@ -41,7 +41,7 @@ The following AI skills for fulfillers are activated by default:
 
 If the AI skills are turned off, you can reactivate them or configure them using the AI Admin Hub. The console contains everything that you need to install the plugins and configure the generative AI skills. For more information, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md).
 
-You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in AI Control Tower to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 The following table lists the features and skills that you can access from the AI Admin Hub.
 
@@ -139,15 +139,15 @@ On the skill card that you want to activate, select **Activate skill**.
 
 10. Select **Define availability** and choose one of the following options.
 
-<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d220687e678">
+<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d220456e678">
 
 Option
 
-</th><th align="left" id="d220687e681">
+</th><th align="left" id="d220456e681">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d220687e687">
+</th></tr></thead><tbody><tr><td id="d220456e687">
 
 **Skill is always available**
 
@@ -155,7 +155,7 @@ Description
 
 Skill is continuously available to users.
 
-</td></tr><tr><td id="d220687e696">
+</td></tr><tr><td id="d220456e696">
 
 **Customize skill availability**
 
@@ -168,15 +168,15 @@ The skill is available only when the certain conditions are met \(Default\).Use 
 
 12. Choose **Select display** to determine where you'd like to display the skill.
 
-<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d220687e732">
+<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d220456e732">
 
 Option
 
-</th><th align="left" id="d220687e735">
+</th><th align="left" id="d220456e735">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d220687e741">
+</th></tr></thead><tbody><tr><td id="d220456e741">
 
 **In-product desktop**
 
@@ -184,7 +184,7 @@ Description
 
 AI skills are displayed on forms and workspaces.
 
-</td></tr><tr><td id="d220687e750">
+</td></tr><tr><td id="d220456e750">
 
 **ServiceNow Otto panel**
 

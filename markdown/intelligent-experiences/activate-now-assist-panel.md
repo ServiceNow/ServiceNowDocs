@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [Activate, Now Assist, panel, skills, admin, experiences]
 breadcrumb: [Configuring AI skills, AI Admin Hub, Enable AI experiences]
 ---
@@ -36,6 +36,8 @@ To learn more about the ServiceNow Otto panel, and how it can assist your agents
 2.  Select **ServiceNow Otto panel**.
 
 3.  Enable the panel on your instance by selecting **Turn On**.
+
+    **Note:** If **Turn On** is unavailable, verify that at least one ServiceNow Otto application is installed on your instance and that you have the sn\_generative\_ai.nsa\_admin role. If you have the role but **Turn On** remains unavailable, see [Solving installation and configuration issues with ServiceNow AI features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-install-config-checklist.md).
 
     \[Omitted image "config-now-assist-2.png"\] Alt text: On the Settings tab, select ServiceNow Otto panel, and then select Turn on.
 

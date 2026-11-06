@@ -24,7 +24,7 @@ Role required: admin
 
 ## Procedure
 
-1.  From the CRM Workspace sidebar, navigate to the **Policy Home**.
+1.  From the Public Sector Workspace sidebar, navigate to the **Policy Home**.
 
 2.  Select **All Policies** &gt; **New**.
 
@@ -119,7 +119,7 @@ When you create a policy, a draft policy version is created, and must be publish
 -   Save the policy as a template
 -   Compare versions
 -   Duplicate policy versions
-For more details, see [Manage PaCE policy versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/pace-policy-versions.md).**Note:** You must publish a policy version to make it current before it can be used.
+For more details, see .**Note:** You must publish a policy version to make it current before it can be used.
 
 </td></tr><tr><td>
 
@@ -222,7 +222,7 @@ Value to enter text. Select the Data picker icon to concatenate multiple text st
         2.  Select **Activate this policy** then select **Publish without testing**.
         3.  Verify that the state of the policy has changed to **Current**.
 
-            Your eligibility policy is now published and can be used to evaluate any active grants cases. Verify the policy appears in the Policy Home by navigating to **Policy Home** in the CRM Workspace sidebar, and selecting**Policies** &gt; **All Policies**.
+            Your eligibility policy is now published and can be used to evaluate any active grants cases. Verify the policy appears in the Policy Home by navigating to **Policy Home** in the Public Sector Workspace sidebar, and selecting**Policies** &gt; **All Policies**.
 
     -   To save this policy as a template for future use:
         1.  Select **Save as Template** &gt; **New Template**.

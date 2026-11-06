@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/mid-server-configuration-cloud.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-10-21"
 reading_time_minutes: 2
 breadcrumb: [Access to cloud environments for ITOM products, IT Operations Management]
 ---
@@ -37,6 +37,10 @@ Role required: discovery\_admin or sn\_cmp.cloud\_admin \(for Cloud Provisioning
     You can select the `ALL` capability or configure specific capabilities for tighter security.
 
     Add Cloud Management in **supported application** in MID Server for Cloud Provisioning and Governance requests to be processed.
+
+    **Important:** To discover datacenters for Amazon AWS Cloud, Microsoft Azure Cloud, or Google Cloud by using the **Discover Datacenters** related link, the MID Server must have Cloud Management in **supported application**. The related link doesn't select MID Servers that lack it. This requirement doesn't apply to vCenter datacenters.
+
+    For the **Cloud Resources** auto-select schedule to run, the MID Server must have `Discovery` in **supported application**. It must also have the capability for the cloud provider, `Cloud Management`, or `ALL`. The same requirement applies when the `ListHardwareTypes` API is called.
 
     |Cloud environment|MID Server capability required by Cloud Discovery|MID Server capability required by Cloud Provisioning and Governance|
     |-----------------|-------------------------------------------------|-------------------------------------------------------------------|

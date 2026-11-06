@@ -1,5 +1,5 @@
 ---
-title: Test a ServiceNow Cowork policy change
+title: Test a ServiceNow Arc policy change
 description: Verify that a policy change works as intended before you apply it to all users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/test-cowork-policy-change.html
@@ -8,10 +8,10 @@ topic_type: task
 last_updated: "2026-09-29"
 reading_time_minutes: 1
 keywords: [test policy, policy sync]
-breadcrumb: [Reference, ServiceNow Cowork, Enable AI experiences]
+breadcrumb: [Reference, ServiceNow Arc, Enable AI experiences]
 ---
 
-# Test a ServiceNow Cowork policy change
+# Test a ServiceNow Arc policy change
 
 Verify that a policy change works as intended before you apply it to all users.
 
@@ -19,7 +19,7 @@ Verify that a policy change works as intended before you apply it to all users.
 
 Create the policy with user criteria that cover only a test user.
 
-Role required: sn\_app\_cowork.admin
+Role required: sn\_app\_arc.admin
 
 ## About this task
 
@@ -31,7 +31,7 @@ The instance merges policies and sends only the result, so a mistake in a broadl
 
 2.  Sync the policy to the client.
 
-    Wait for the change to arrive, which happens in near real time, or ask Cowork application on the client to restart the sandbox.
+    Wait for the change to arrive, which happens in near real time, or ask the user to restart the sandbox from the Arc application on the client.
 
 3.  On the client, confirm the last policy sync time in **Settings** &gt; **Agent Sandbox**.
 
@@ -48,5 +48,5 @@ The instance merges policies and sends only the result, so a mistake in a broadl
 
 The policy change applies to its intended users at their next sync.
 
-**Parent Topic:**[ServiceNow Cowork reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-cowork-reference.md)
+**Parent Topic:**[ServiceNow Arc reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-cowork-reference.md)
 

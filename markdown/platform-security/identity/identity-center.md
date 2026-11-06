@@ -1,6 +1,6 @@
 ---
 title: Identity Center
-description: Allows you to monitor, manage, and minimize identity-based risk and security gaps.
+description: Enables you to monitor, manage, and minimize identity-based risk and security gaps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/identity/identity-center.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Identity]
 
 # Identity Center
 
-Allows you to monitor, manage, and minimize identity-based risk and security gaps.
+Enables you to monitor, manage, and minimize identity-based risk and security gaps.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 

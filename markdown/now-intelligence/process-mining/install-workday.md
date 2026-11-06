@@ -23,7 +23,7 @@ Role required: admin
 Verify that you have already installed:
 
 -   Process Mining for External Data \(version 28.9.13\). For more information, see [Request Process Mining for external data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/access-ext-data.md).
--   Workday HR Spoke \(sn\_workday\_hr\_spke\) \(version 2.12.2\): For more information, see .
+-   Workday HR Spoke \(sn\_workday\_hr\_spke\) \(version 2.12.2\): For more information, see [Workday HR Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/workday-hr-spoke.md).
 
 ## Procedure
 

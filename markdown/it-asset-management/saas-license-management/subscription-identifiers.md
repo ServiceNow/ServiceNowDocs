@@ -55,8 +55,6 @@ Subscription identifiers uniquely identify your SaaS and SSO applications. Each 
 
 [Delete an integration profile]()
 
-[Subscription exclusions for SaaS and SSO applications]()
-
 ## Manage updated subscription identifiers
 
 Keep your SaaS and SSO license positions accurate and up to date by managing the updated subscription identifiers that are detected by the ServiceNow AI Platform.

@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-PagerDuty spoke v1.6.0 is the latest version.
+PagerDuty spoke v1.6.1 is the latest version.
 
 ## Supported versions
 

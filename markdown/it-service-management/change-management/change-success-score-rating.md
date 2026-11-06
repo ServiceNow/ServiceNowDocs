@@ -8,7 +8,7 @@ product: Change Management
 classification: change-management
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Change success score, Configure, Change Management, IT Service Management]
 ---
 
@@ -26,6 +26,8 @@ The following default ratings available.
 -   Medium
 -   High
 -   Excellent
+
+**Tip:** Score ratings map a calculated score range to a color and text. They don't define how the score itself is computed. For the success score formula and the default multipliers applied to each automated indicator, see [Success score calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/change-score-calculation.md).
 
 Each rating is associated with a default range and color.
 
@@ -52,4 +54,13 @@ You can choose to modify the score range, color, introduce, or modify new rating
 
 
 **Parent Topic:**[Change success score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/change-success-score.md)
+
+**Related topics**  
+
+
+[Success score calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/change-score-calculation.md)
+
+[Modify score calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/modify-success-score-calculations.md)
+
+[Change success score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/change-success-score.md)
 

@@ -29,7 +29,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Microsoft Exchange Online spoke v4.1.0 is the latest version.
+Microsoft Exchange Online spoke v3.15.3 is the latest version.
 
 ## Spoke dependencies
 

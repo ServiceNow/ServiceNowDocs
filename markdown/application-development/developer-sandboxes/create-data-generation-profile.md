@@ -9,7 +9,7 @@ classification: developer-sandboxes
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Administer data, Developer Sandboxes, Developing your application, Building applications]
+breadcrumb: [Install and configure, Developer Sandboxes, Developing your application, Building applications]
 ---
 
 # Create a Data Generation Profile

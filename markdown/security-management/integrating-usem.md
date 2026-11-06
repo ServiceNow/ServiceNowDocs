@@ -474,7 +474,7 @@ Import all container vulnerabilities from Wiz.
 
 </td><td>
 
-[Exploring the Wiz Container Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/container-vulnerability-response/wiz-exploring-cvr-vuln-intcf.md)
+[Understanding the Wiz Container Vulnerabilities Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/container-vulnerability-response/wiz-exploring-cvr-vuln-intcf.md)
 
 </td><td>
 
@@ -1322,7 +1322,7 @@ Import the cloud resource configuration issues from Microsoft Defender for Cloud
 
 </td><td>
 
-[Exploring the Wiz Test Results and Issues Integrations with Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/configuration-compliance/exploring-wiz-ctest-results-int.md)
+[Understanding the Wiz Test Results and Issues Integrations with Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/configuration-compliance/exploring-wiz-ctest-results-int.md)
 
 </td><td>
 
@@ -1955,4 +1955,6 @@ The Vulnerability Response Integration with Cisco AI Defense imports AI model vu
 Fix Intelligence for Security Exposure Management brings fix and remediation intelligence from Armis Centrix™ for Vulnerability Prioritization and Remediation \(ViPR\) into Unified Security Exposure Management \(USEM\), so your security team can remediate vulnerabilities by fix instead of one finding at a time.
 -   **[Palo Alto Prisma AIRS integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/prisma-airs-integration.md)**  
 The Vulnerability Response Integration with Palo Alto Prisma AIRS imports AI security scan results, posture findings, and model validation data into your ServiceNow AI Platform instance. Use the data to help you detect security risks, drive remediation workflows, and verify compliance with AI security requirements.
+-   **[Wiz AI Security Exposure Management integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/wiz-ai-sem-integration.md)**  
+Import two categories of security findings related to AI security with the Wiz AI Security Exposure Management \(AI-SEM\) integration.
 

@@ -186,12 +186,10 @@ The ServiceNow Otto for TMT application includes the following generative AI ski
 
 An agent can use the Now Assist panel in CSM/FSM Configurable Workspace.
 
-This conversational interface enables an agent to request a service problem case summary and generate the service problem case resolution notes. For more information about the Now Assist panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md).
+This conversational interface enables an agent to request a service problem case summary and generate the service problem case resolution notes. For more information about the Now Assist panel, see .
 
 **Related topics**  
 
 
-[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md)
-
-[Exploring AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-now-assist-platform.md)
+[bundle-platai.platform-now-assist-landing]
 

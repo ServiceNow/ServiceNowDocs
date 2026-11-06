@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-complian
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Crisis Management map, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -16,7 +16,7 @@ Business Continuity Management integrates with the Crisis Map to provide you the
 
 ## Before you begin
 
-It not only helps you to identify a threat as a business crisis but also notify your stakeholders and declare it as a crisis event if it has the potency to disrupt your business.
+Use this feature to identify a threat as a business crisis. Notify stakeholders and declare a crisis event if the threat can disrupt your business.
 
 **Note:** Activate the Business Crisis Management Map \(sn-crisis-map\) application for the crisis map feature.
 
@@ -74,9 +74,9 @@ Use the crisis map to manage feeds, prioritize alerts based on their severity, a
 
 6.  To go back to the alert list, click the **Map** tab.
 
-7.  If the alert does not pose a threat currently to your employee locations, datacenters, core companies, or any of your business establishments, click the **Dismiss Alert** option in the alert menu.
+7.  Click the **Dismiss Alert** option in the alert menu.
 
-    If you know that the alert would not hamper your business operations, you can dismiss it in the list view as well as in its detailed view. When you dismiss an alert in the list view, it is removed from the list. If you dismiss an alert from the detailed view, the alert is removed and brings you back to the list view so that you can review the other alerts in the list. In both cases, you can see a confirmation message about the dismissal of the alert.
+    Select this option when the alert does not pose a threat to employee locations, datacenters, core companies, or other business establishments. Dismiss the alert from the list view or the detailed view. Dismissing from the list view removes it from the list. Dismissing from the detailed view removes it and returns to the list view. A confirmation message appears.
 
 8.  To subscribe to the alert notifications, click the subscribe icon \(\[Omitted image "SubscribeIcon.png"\] Alt text: Subscribe icon.\).
 

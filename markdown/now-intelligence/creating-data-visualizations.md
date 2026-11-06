@@ -61,7 +61,7 @@ Create a pivot table visualization to summarize large data sets by breaking them
 Show changes in data over time. Use different time series visualizations to emphasize different aspects of the data, such as trends or individual values.
 -   **[Create a calendar report data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-dv-calendar-ac.md)**  
 Create calendar report visualizations to show and highlight date-driven events.
--   **[Create a list visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-dv-analytics-list.md)**  
+-   **[Create a Platform Analytics list visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-dv-analytics-list.md)**  
 Create a list of table records that can be drilled down to from chart interactions. List visualizations display table data in columns. By default, the columns match the default list view of the table.
 -   **[Create an Indicator Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-dv-indicator-scorecard.md)**  
 The Indicator Scorecard component enables users to visualize and compare data between multiple Performance Analytics indicators. It highlights the information regarding the last score collected, the change from the previous data point, the trend over time, and the value of the target to achieve.​

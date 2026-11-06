@@ -44,7 +44,9 @@ Your emergency action plan must be customized to your workplace and include info
 
     **Note:** If your plan is in **Approved** state, then you can view the **Plan Usage and Results** section. However, you can view all the details of a plan in the **Plan Details** section irrespective of the plan being in any state. For more information, see [Plan overview scorecards for plan usage details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/plan-overview-scorecards.md).
 
-5.  To complete the documentation sections that are in **Pending** state, identify teams and individuals for the unassigned recovery teams, or assign groups to carry out specific plan activities, click go to section icon \(\[Omitted image "GoToSectionIcon.png"\] Alt text: Go to section icon\) in the respective scorecard widget to add the required information and set the plan to complete.
+5.  In the scorecard widget, click the go to section icon \(\[Omitted image "GoToSectionIcon.png"\] Alt text: Go to section icon\).
+
+    Use this option to complete documentation sections in **Pending** state, identify teams and individuals for unassigned recovery teams, or assign groups to specific plan activities.
 
 6.  To add contributors to the plan, click the **Contributors** field to select the users.
 

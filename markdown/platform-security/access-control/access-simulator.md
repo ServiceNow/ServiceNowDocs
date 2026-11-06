@@ -1,6 +1,6 @@
 ---
 title: Access Simulator
-description: The Access Simulator helps you simulate how access to the specified table would change once a role or group is assigned or removed from the user.
+description: The Access Simulator helps you simulate how access to the specified table would change when a role or group is assigned or removed from the user.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/access-control/access-simulator.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Access analyzer, Access Management]
 
 # Access Simulator
 
-The Access Simulator helps you simulate how access to the specified table would change once a role or group is assigned or removed from the user.
+The Access Simulator helps you simulate how access to the specified table would change when a role or group is assigned or removed from the user.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 

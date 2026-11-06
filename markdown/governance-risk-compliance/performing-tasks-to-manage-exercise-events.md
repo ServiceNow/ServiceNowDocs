@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-complian
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 6
+reading_time_minutes: 5
 breadcrumb: [Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -23,7 +23,7 @@ Business Continuity Management \(BCM\) program managers initiate exercises by de
 
 ## Bulk editing of tasks
 
-Starting with version 6.1.x of the Business Continuity Management application, users who have editing access to the event record can now perform bulk edits on tasks directly from the Event tasks related list. This feature is beneficial for users who manage multiple event tasks simultaneously.
+Users with editing access to the event record can perform bulk edits on tasks directly from the Event tasks related list. This feature is beneficial for users who manage multiple event tasks simultaneously.
 
 For more information on bulk editing of tasks, see [Structured workflows for crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/perform-tasks-to-manage-crisis-events.md).
 
@@ -52,7 +52,7 @@ Track the impacted assets and add an associated plan to the exercise. You can th
 -   **[Create a collaboration thread in an exercise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/comp-email-collab-thread-event.md)**  
 Create a collaboration thread from an exercise and send an email to its recovery teams to coordinate a response.
 -   **[Creating action items in events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/creating-action-items-in-events.md)**  
-Starting with BCM release 9.0.x, crisis managers can create action tasks for recovery members or teams anytime during a crisis event or exercise, as long as the event remains open. Crisis managers can create these tasks on the fly without mapping them to event assets or recovery plans. These action tasks are also not included in the event recovery timeline.
+Crisis managers can create action tasks for recovery members or teams during an open crisis event or exercise. Tasks can be created without mapping them to event assets or recovery plans and are not included in the event recovery timeline.
 -   **[Creating similar tasks groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/identifying-running-dup-tasks-once.md)**  
 In BCM, when the same plan is activated multiple times, it can result in multiple redundant tasks. Starting with BCM release 9.0.x, the **Similar tasks groups** tab in events helps you to eliminate redundant tasks by grouping duplicate tasks from multiple plans for similar scenarios. This functionality streamlines event task management and reduces duplication of efforts.
 -   **[Import plans and recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/import-the-automated-task-in-an-exercise.md)**  

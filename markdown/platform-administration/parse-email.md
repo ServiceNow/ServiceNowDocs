@@ -131,5 +131,5 @@ Language of the reply separator.**Note:** All email clients don't indicate a lan
 
 [Domain separation and Notifications]()
 
-[Email FAQs and troubleshooting notification emails]()
+[Notification email logs and diagnostics]()
 

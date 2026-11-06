@@ -87,7 +87,7 @@ Solution: Set the \[sys\_overrides\] field on the notification that belongs to
 
 [Email digests]()
 
-[Email FAQs and troubleshooting notification emails]()
+[Notification email logs and diagnostics]()
 
 [Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/domain-sep-landing-page.md)
 

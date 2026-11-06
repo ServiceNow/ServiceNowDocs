@@ -1,6 +1,6 @@
 ---
 title: Configuring planning dependency updates
-description: The BCM administrators configure the Planning dependency update configuration record so that an auto-update of the related assets in the plans can be scheduled based on the source data and relationships in the CMDB and BIA.
+description: Configure the Planning dependency update configuration record to schedule auto-updates of related assets in plans based on CMDB and BIA source data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/confi-planning-dep-updates.html
 release: zurich
@@ -12,11 +12,11 @@ breadcrumb: [Dependency Configuration records, General administration setup for 
 
 # Configuring planning dependency updates
 
-The BCM administrators configure the Planning dependency update configuration record so that an auto-update of the related assets in the plans can be scheduled based on the source data and relationships in the CMDB and BIA.
+Configure the Planning dependency update configuration record to schedule auto-updates of related assets in plans based on CMDB and BIA source data.
 
 ## Planning dependency update configuration record
 
-The BCM administrators configure details of the plan record, its target records, sources, and notification preferences in the Planning dependency update configuration record as shown in the following example.
+The BCM administrators configure the Planning dependency update configuration record with details of the plan record, its target records, sources, and notification preferences. The following example shows a sample configuration.
 
 \[Omitted image "plan-dep-update-config.png"\] Alt text: Updating the plan dependencies.
 
@@ -28,7 +28,7 @@ The BCM administrators configure the sources for fetching the latest dependencie
 
 ## Auto-update the dependencies
 
-The BCM administrators can select the **Auto-update dependencies** option in the Target tab of the Planning dependency update configuration record to schedule an auto-update of the related assets in the plans.
+The BCM administrators can select the **Auto-update dependencies** option in the Target tab of the Planning dependency update configuration record. This schedules an auto-update of the related assets in the plans.
 
 ## Set the notification preferences
 

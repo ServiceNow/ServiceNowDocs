@@ -7,8 +7,8 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-08-26"
-reading_time_minutes: 34
+last_updated: "2026-10-26"
+reading_time_minutes: 35
 keywords: [azure kubernetes, kubernetes cluster, get kubernetes config file, kubernetes mid server]
 breadcrumb: [Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -23,7 +23,7 @@ Discovery uses the Kubernetes pattern and its extension sections to discover Kub
 -   The **Service Mesh** extension discovers service mesh details. This information enables the pattern to create service-to-service relations, shown as Connects to::Connected. Service mesh discovery requires deploying Istio on your K8s \(Kubernetes\) cluster. The Service Mesh extension section is available from [Kubernetes extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/cmdb-ci-class-models-kubernetes.md). It’s supported on the ServiceNow AI Platform using the Madrid release or later.
 -   The **Collect Container Repository** and extension section finds container registries and images in these registries.
 
-Starting from Discovery and Service Mapping Patterns version 1.35.0, the Kubernetes Cluster - Per-Namespace LP pattern is available for large cluster discovery. For more information, see the **Large-payload Kubernetes discovery** section.
+Starting from Discovery and Service Mapping Patterns version 1.35.1, the Kubernetes Cluster - Per-Namespace LP pattern is available for large cluster discovery. For more information, see the **Large-payload Kubernetes discovery** section.
 
 In addition, Discovery uses the Kubernetes Event pattern to discover events for Kubernetes components.
 
@@ -49,7 +49,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## Large-payload Kubernetes discovery
 
-By default, Discovery uses the Kubernetes pattern to discover an entire cluster in a single execution. On large clusters, this can result in incomplete discovery data in the CMDB. The Kubernetes Cluster - Per-Namespace LP pattern is available as an alternative for large cluster environments, starting from Discovery and Service Mapping Patterns version 1.35.0.
+By default, Discovery uses the Kubernetes pattern to discover an entire cluster in a single execution. On large clusters, this can result in incomplete discovery data in the CMDB. The Kubernetes Cluster - Per-Namespace LP pattern is available as an alternative for large cluster environments, starting from Discovery and Service Mapping Patterns version 1.35.1.
 
 The Kubernetes Cluster - Per-Namespace LP pattern identifies the cluster and then discovers each namespace separately, improving reliability on large clusters. The data collected and the CIs populated in the CMDB are identical between the two patterns. For configuration on on-premises clusters, see the **Prerequisites for on-premises Kubernetes discovery** section. For cloud clusters, see the prerequisites section for your cloud provider.
 
@@ -244,7 +244,7 @@ Pattern
 </td><td>
 
 Pattern to use for this schedule: -   **Kubernetes**
--   **Kubernetes Cluster - Per-Namespace LP** \(starting from Discovery and Service Mapping Patterns version 1.35.0\)
+-   **Kubernetes Cluster - Per-Namespace LP** \(starting from Discovery and Service Mapping Patterns version 1.35.1\)
 
 
 </td></tr><tr><td>
@@ -273,7 +273,12 @@ url
 
 </td><td>
 
-The identifier for the hostname, IP, or FQDN and the port of the Kubernetes apiserver. Use the following format: example\_hostname:example\_port or example\_ip:example\_port. Provide the correct protocol \(HTTP or HTTPS\) in the URL.
+The identifier for the Kubernetes apiserver. Provide the correct protocol \(HTTP or HTTPS\) in the URL. Use one of the following formats: -   Hostname, IP address, or FQDN, with the port in the following formats: example\_hostname:example\_port or example\_ip:example\_port.
+
+If no port is specified, 443 is used for HTTPS and 80 is used for HTTP.
+
+-   For on-premises clusters managed through a proxy such as Rancher, use the cluster-specific URL in the following format: https://&lt;hostname&gt;/k8s/clusters/&lt;cluster\_id&gt;
+
 
 </td></tr><tr><td>
 
@@ -356,7 +361,7 @@ For the Google Cloud Platform \(GCP\) – Get Kubernetes Clusters pattern, perfo
 
         **Note:** Enabling the **sn\_itom\_pattern.k8s\_create\_schedule\_enabled** property automatically creates a serverless schedule for your cloud clusters, eliminating the need for manual scheduling. If you have an existing manual schedule and want to convert it to an automatic one, enable the property. Your manual schedule will be updated; no additional schedule will be created. An automatically created schedule has no "Max run time" defined.
 
-    -   **sn\_itom\_pattern.k8s\_entry\_pattern**: To use the per-namespace large-payload \(LP\) discovery pattern, set the value to **Kubernetes Cluster - Per-Namespace LP** \(starting from Discovery and Service Mapping Patterns version 1.35.0\).
+    -   **sn\_itom\_pattern.k8s\_entry\_pattern**: To use the per-namespace large-payload \(LP\) discovery pattern, set the value to **Kubernetes Cluster - Per-Namespace LP** \(starting from Discovery and Service Mapping Patterns version 1.35.1\).
 4.  Create and run Google Cloud Discovery
 
     **Note:**
@@ -413,7 +418,7 @@ For the Amazon Elastic Kubernetes Service \(EKS\) cluster discovery, perform the
 
         **Note:** Enabling the **sn\_itom\_pattern.k8s\_create\_schedule\_enabled** property automatically creates a serverless schedule for your cloud clusters, eliminating the need for manual scheduling. If you have an existing manual schedule and want to convert it to an automatic one, enable the property. Your manual schedule will be updated; no additional schedule will be created. An automatically created schedule has no "Max run time" defined.
 
-    -   **sn\_itom\_pattern.k8s\_entry\_pattern**: To use the per-namespace large-payload \(LP\) discovery pattern, set the value to **Kubernetes Cluster - Per-Namespace LP** \(starting from Discovery and Service Mapping Patterns version 1.35.0\).
+    -   **sn\_itom\_pattern.k8s\_entry\_pattern**: To use the per-namespace large-payload \(LP\) discovery pattern, set the value to **Kubernetes Cluster - Per-Namespace LP** \(starting from Discovery and Service Mapping Patterns version 1.35.1\).
 4.  Create and run an AWS Cloud Discovery schedule.
 
 
@@ -432,7 +437,7 @@ For Microsoft Azure Kubernetes Services \(AKS\)- Kubernetes cluster discovery, p
 
         .
 
-    -   **sn\_itom\_pattern.k8s\_entry\_pattern**: To use the per-namespace large-payload \(LP\) discovery pattern, set the value to **Kubernetes Cluster - Per-Namespace LP** \(starting from Discovery and Service Mapping Patterns version 1.35.0\).
+    -   **sn\_itom\_pattern.k8s\_entry\_pattern**: To use the per-namespace large-payload \(LP\) discovery pattern, set the value to **Kubernetes Cluster - Per-Namespace LP** \(starting from Discovery and Service Mapping Patterns version 1.35.1\).
 4.  If you don't have local accounts with Kubernetes RBAC and want to improve pattern efficiency, navigate to **MID Server** &gt; **Properties** and set the **sn\_itom\_pattern.aks\_fetch\_local\_ad\_token** property to **false**.
 5.  Run an Azure cloud discovery schedule.
 6.  Configure the MID Server in the Discovery schedules according to the cluster account type. If you don't have Local accounts with RBAC, you can ignore this step.
@@ -885,7 +890,7 @@ sn\_itom\_pattern.k8s\_entry\_pattern
 
 </td><td>
 
-Controls which entry pattern Kubernetes cloud discovery uses. When set to **Kubernetes Cluster - Per-Namespace LP**, discovery identifies the cluster and then discovers each namespace separately, improving reliability on large clusters. The Kubernetes Cluster - Per-Namespace LP pattern is available starting from Discovery and Service Mapping Patterns version 1.35.0.
+Controls which entry pattern Kubernetes cloud discovery uses. When set to **Kubernetes Cluster - Per-Namespace LP**, discovery identifies the cluster and then discovers each namespace separately, improving reliability on large clusters. The Kubernetes Cluster - Per-Namespace LP pattern is available starting from Discovery and Service Mapping Patterns version 1.35.1.
 
 </td><td>
 

@@ -16,6 +16,8 @@ breadcrumb: [Explore, CMDB Workspace, Configuration Management Database \(CMDB\)
 
 Home view is the default view in CMDB Workspace. It shows important tasks that you should tend to, various counts for activities in CMDB such as new CIs, CMDB Health aggregations, and various charts. The Home view also provides several links with immediate access to key CMDB tools.
 
+If you own, manage, or support CIs, Service Graph Workspace provides a Data Owner Home view that's more focused than the Home view sections on this page. For more information, see [Data Owner view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-data-owner-home-view.md).
+
 ## Access
 
 Role requirements: sn\_cmdb\_admin \(CMDB Admin\), sn\_cmdb\_editor \(CMDB Editor\), or sn\_cmdb\_user \(CMDB User\).
@@ -84,7 +86,7 @@ The following tabs provide summaries about CIs:
 
     A chart of Cls with **Managed By Group** being one of the groups you are a part of. CIs are grouped by up to 20 common class categories such as **Applications**, **Devices**, and **Servers**. If there are more than 20 classes to show, then all remaining classes are lumped into one additional bar on the chart.
 
-    Select a class bar to drill down into the CIs for the class. Then drill down to a CI's form with a timeline, health overview, and several types of attributes such as key and discovery attributes.
+    Select a class bar to drill down into the CIs for the class. Then drill down to the CI form with a timeline, health overview, and several types of attributes such as key and discovery attributes.
 
     Use the [sn\_cmdb\_ws.ci\_overview.managed\_by\_me.enabled​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/installed-with-cmdb-workspace.md) property to show or hide this chart.
 

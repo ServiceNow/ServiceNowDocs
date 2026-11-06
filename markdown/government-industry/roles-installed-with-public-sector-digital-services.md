@@ -114,7 +114,7 @@ Manager or leader of an agency​ that provides constituent and business service
 </td></tr></tbody>
 </table>## Core Roles
 
-**Note:** These roles are also included with the Service Request Playbook.
+**Note:** These roles are also included with the Service Request Administration.
 
 <table id="table_qw1_zs3_g5b"><thead><tr><th>
 

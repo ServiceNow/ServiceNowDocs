@@ -1,13 +1,13 @@
 ---
 title: Configure crawl settings for an Amazon S3 external content connector
-description: Define inclusion and exclusion filters to specify the buckets and file types you want your Amazon S3 external content connector to retrieve when running content crawls.
+description: Define inclusion and exclusion filters to specify the buckets and file types for your Amazon S3 external content connector to retrieve during content crawls.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/configure-crawl-settings-amazon-s3-external-content-connector.html
 release: zurich
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2025-11-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Amazon S3 external content connector, Configure, External Content Connectors, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
@@ -15,7 +15,7 @@ breadcrumb: [Amazon S3 external content connector, Configure, External Content C
 
 # Configure crawl settings for an Amazon S3 external content connector
 
-Define inclusion and exclusion filters to specify the buckets and file types you want your Amazon S3 external content connector to retrieve when running content crawls.
+Define inclusion and exclusion filters to specify the buckets and file types for your Amazon S3 external content connector to retrieve during content crawls.
 
 ## Before you begin
 
@@ -57,7 +57,7 @@ If one of your connectors reaches the content indexing limit, you can update its
 
         As an example, you might enter `https://s3.amazonaws.com/published` to only include searchable content from a bucket with name `published`.
 
-    -   To crawl all but a specified set of buckets from the source system, select **Exclude only these user boxes**, then use the **Add S3 bucket URLs to exclude** field and **Add** button to enter URLs for buckets you want the connector to exclude when crawling.
+    -   To crawl all but a specified set of buckets from the source system, select **Exclude only these buckets**, then use the **Add S3 bucket URLs to exclude** field and **Add** button to enter URLs for buckets you want the connector to exclude when crawling.
 
         As an example, you might enter `https://s3.amazonaws.com/legacy_bucket` to exclude searchable content from a bucket with name `legacy_bucket`.
 

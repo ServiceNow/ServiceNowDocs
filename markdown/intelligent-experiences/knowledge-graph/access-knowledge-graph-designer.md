@@ -20,6 +20,8 @@ Use Knowledge Graph Designer to create, edit, and manage Knowledge Graph schema.
 
 Role required: kg\_admin
 
+**Note:** To enable Knowledge Graph for external users, with user role `snc_external`, verify if the **sn\_kg.enable\_external\_user\_check** property is set to true.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Knowledge Graph** &gt; **Knowledge Graph Designer**.

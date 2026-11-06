@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2026-03-18"
 reading_time_minutes: 1
-breadcrumb: [Configure employee communications widgets, Setup employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configure employee communications widgets, Setup employee communications, Configure, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Modify banner width options

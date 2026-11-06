@@ -1,5 +1,5 @@
 ---
-title: Configure your ServiceNow AI Platform instance for external content indexing
+title: Configure your ServiceNow AI Platform source instance for external content indexing
 description: Create and configure a non-interactive service user account on your ServiceNow AI Platform source instance to allow access by the ServiceNow instance external content connector.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/configure-sn-aip-instance-external-content-indexing.html
@@ -13,7 +13,7 @@ keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [ServiceNow instance external content connector, Configure, External Content Connectors, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
 ---
 
-# Configure your ServiceNow AI Platform instance for external content indexing
+# Configure your ServiceNow AI Platform source instance for external content indexing
 
 Create and configure a non-interactive service user account on your ServiceNow AI Platform® source instance to allow access by the ServiceNow instance external content connector.
 

@@ -8,7 +8,7 @@ product: Change Management
 classification: change-management
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Use, Change Management, IT Service Management]
 ---
 
@@ -34,7 +34,7 @@ As part of processing a change request, ensure that you have [detected any chang
 
 4.  You can perform the following actions on a change request based on your role.
 
-<table id="choicetable_yhp_ddv_tt"><tbody><tr><td id="d155702e126">
+<table id="choicetable_yhp_ddv_tt"><tbody><tr><td id="d156257e126">
 
 **Approve or reject a change request**
 
@@ -42,7 +42,7 @@ As part of processing a change request, ensure that you have [detected any chang
 
 Open the approval record from the **Self-Service** &gt; **My Approvals** module or from the **Approvers** related list on the change request or **Reject** to reject it.The change request changes to the **Scheduled** state if it is approved or to **New** state if it is rejected.
 
-</td></tr><tr><td id="d155702e159">
+</td></tr><tr><td id="d156257e159">
 
 **Implement a change request**
 
@@ -56,7 +56,7 @@ The system creates theses tasks when the change request enters to **Implement** 
 
 Tasks remain open until you close or cancel them. Canceling a task does not affect the parent change request.
 
-</td></tr><tr><td id="d155702e203">
+</td></tr><tr><td id="d156257e203">
 
 **Review a change request**
 
@@ -64,7 +64,7 @@ Tasks remain open until you close or cancel them. Canceling a task does not affe
 
 Select **Review** after reviewing the details on the change request. The change request is moved to the **Review** state. All open change tasks are set to **Canceled**.
 
-</td></tr><tr><td id="d155702e224">
+</td></tr><tr><td id="d156257e224">
 
 **Close a change request**
 
@@ -72,7 +72,7 @@ Select **Review** after reviewing the details on the change request. The change 
 
 Select **Close** after entering the **Close code** and **Close notes** in the **Closure Information** section.The change request is closed.
 
-</td></tr><tr><td id="d155702e248">
+</td></tr><tr><td id="d156257e248">
 
 **Cancel a change request**
 
@@ -100,6 +100,8 @@ From the context menu, Select **Cancel Change**. Provide a reason for canceling 
     -   Risk and impact analysis
     -   Backout plan
     You can add approval history to the change request activity log. Select the activity filter icon and select **Approval history** from the list. When there is a change in the approval process, such as an approval, rejection, or comments, the activity log is updated.
+
+    You can also implement, review and close change requests through the platform APIs instead of the UI. Use the Change Request API to run state transitions, and use the Table API to update `change_request` records directly. For endpoint details and request examples, see the ServiceNow REST API reference.
 
 
 -   **[Associated CIs on a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/c_AffectedCIsAndImpactedServices.md)**  

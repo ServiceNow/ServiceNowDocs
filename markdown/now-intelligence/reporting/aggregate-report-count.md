@@ -45,3 +45,5 @@ These images compare Count and Count Distinct. The first shows that the raw coun
 
 The sections of the visualization are grouped by the count of records.
 
+**Parent Topic:**[Aggregation in reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/aggregation-reporting.md)
+

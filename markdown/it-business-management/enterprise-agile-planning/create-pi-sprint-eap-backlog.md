@@ -38,7 +38,7 @@ From EAP version 4.17.0, enter the start and end dates directly on the modal. Th
 
 3.  Create a Planning Interval for the ART.
 
-    1.  From the Backlog tab of the selected ART, select **Create next Planning Interval**.
+    1.  From the Backlog tab of the selected ART, select **Create Planning interval**.
 
     2.  In the **Create Planning Interval** modal, enter values in the **Name**, **Start date**, and **End date** fields.
 
@@ -50,7 +50,7 @@ From EAP version 4.17.0, enter the start and end dates directly on the modal. Th
 
     A Planning Interval is created for the selected ART with the dates you entered. If Agile Teams are associated with the ART, Sprints are created for those teams that align with the Planning Interval and its child spans. A confirmation message identifies the new iteration.
 
-    If a new Agile Team is added to this ART later, the in-progress Sprint and the upcoming Sprints are automatically created for that team to match its sibling teams. Sprints that already ended aren't copied.
+    From EAP version 4.17.0, if a new Agile Team is added to this ART later, the in-progress Sprint and the upcoming Sprints are created for that team. The Sprints match those of its sibling teams. Sprints that already ended aren't copied.
 
 4.  To add more child Sprints to an existing Planning Interval, use the team-level Backlog.
 
@@ -66,9 +66,11 @@ From EAP version 4.17.0, enter the start and end dates directly on the modal. Th
 
     An Agile Team gets its Sprints from the parent ART's Planning Interval. Create a Sprint from the team-level Backlog only if the team needs a Sprint that doesn't align with the ART's Planning Interval, or if the team isn't yet linked to an ART calendar.
 
+    If the parent ART has no Planning Interval, **Create Sprint** returns the error "Parent iteration does not exist. Create planning intervals first before creating sprints." Create a Planning Interval for the ART, and then create the Sprint.
+
     1.  From the left navigation panel, select an Agile Team.
 
-    2.  From the Backlog tab of the team, select **Create next Sprint**.
+    2.  From the Backlog tab of the team, select **Create Sprint**.
 
     3.  In the modal, enter values in the **Name**, **Start date**, and **End date** fields, then select **Create**.
 

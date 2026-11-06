@@ -22,7 +22,7 @@ The ServiceNow® Third-party Risk Management \(TPRM\) application provides a cen
 -   Use the latest Smart Assessment Engine questionnaire templates to perform internal and external assessments.
 -   Use the enhanced Digital Resilience Third-party Information Register features in the Vendor Management Workspace.
 
-See [Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/third-party-risk-mgt-landing-page.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -89,7 +89,7 @@ After upgrading to Zurich and setting the Smart Assessment Engine enabled \(**sn
     -   Smart Assessment Response Automation plugin \[com.sn\_smart\_resp\_auto\]
     -   Smart Assessment Scoring plugin \[com.sn\_smart\_scoring\]
 
-**Note:** For more information on these plugins, see [Configuring Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/smart-assessment-engine-cf-config.md) and [Smart assessment configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/tprm-sae-assessment-config.md).
+**Note:** For more information on these plugins, see  and .
 
 ### Migrating to Smart Assessment Engine
 
@@ -110,7 +110,7 @@ The following diagram shows the questionnaire to TPRM SAE template migration wor
 
 4.  Review each assessment template to confirm it’s marked as Supports smart assessment. If an assessment template isn’t marked as Supports smart assessment, manually adding a new TPRM SAE questionnaire template to it updates its status.
 
-For more information, see [Migrate a template to an SAE template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/tprm-asmnt-tmplt-migrate-metrics-to.md), [Create a TPRM SAE questionnaire or document request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/create-sae-q-template.md), [Create an external assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/create-vendor-risk-assess-temp.md), and [Create an issue generation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/tprm-generate-issue-rule.md).
+For more information, see , , , and .
 
 ### Classic assessment engine to Smart Assessment Engine comparison
 
@@ -160,11 +160,11 @@ The TPRM SAE questionnaire template has the following limitations.
 
 -   If a section in the classic template contains only unsupported questions, an empty section is created in the TPRM SAE template. TPRM SAE templates with empty sections can’t be published; therefore, you must either add replacement questions to these sections or delete the empty sections before publishing.
 
-    For more information on migration results, migration limitations, and creating TPRM SAE questionnaires, see [Results of migrating a template to a TPRM SAE template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/tprm-migrate-asmnt-template-result.md) and [Create a TPRM SAE questionnaire or document request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/create-sae-q-template.md).
+    For more information on migration results, migration limitations, and creating TPRM SAE questionnaires, see  and .
 
 -   The TPRM scoring migration proceeds only if there were no errors during the template migration. If there were errors, the TPRM scoring migration doesn’t occur.
 
-    For more information, see [Configure scoring for an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/configure-scoring-for-assessments.md) and [Normalization in assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/normalization-in-assessment.md).
+    For more information, see  and .
 
 -   Event-driven management rules are the default option for scheduling assessments and replaces Repeating assessments.
 
@@ -177,7 +177,7 @@ When you enable the Smart Assessment Engine \(SAE\) after upgrading to Zurich, e
 |**Responses received**|**Submitted to third party**|
 |**Returned**|**In progress**|
 
-These status changes apply only when SAE is enabled. Assessments that continue to use the Classic engine retain the original states. For more information about the SAE assessment and questionnaire lifecycle, see [External assessment lifecycle states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/tprm-external-assessment-lifecycle.md).
+These status changes apply only when SAE is enabled. Assessments that continue to use the Classic engine retain the original states. For more information about the SAE assessment and questionnaire lifecycle, see .
 
 ### Important information for upgrading Vendor Risk Management to Zurich
 
@@ -196,7 +196,7 @@ VRM
 -   Activate the Vendor Risk Management application \[com.sn\_vdr\_risk\_asmt\].
 -   Activate the Vendor Risk Management Workspace application \[sn\_vrm\_ws\] if you want to use the Vendor Risk Management workspace.
 
-For more information on licensing or metering, see [Tracking a managed activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/tprm-managed-activity.md), [Third-party Risk Management \(TPRM\) Licensing](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1431058), and [Vendor Risk Management \(VRM\) Licensing](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1362674).
+For more information on licensing or metering, see , [Third-party Risk Management \(TPRM\) Licensing](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1431058), and [Vendor Risk Management \(VRM\) Licensing](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1362674).
 
 ### VRM to TPRM changes
 
@@ -272,45 +272,45 @@ The ServiceNow® Third-party Risk Management \(TPRM\) application provides a cen
 
     Review the ServiceNow Otto for Third-party Risk Management \(TPRM\) release notes for full descriptions of the features.
 
--   **[Document Management system in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/tprm-dms.md)**
+-   ****
 
     Starting with version 21.1.x, you can use the Document Management System \(DMS\) in TPRM, which provides a centralized repository for storing, organizing, and managing third-party documents throughout the vendor life cycle. It can be used by third-party risk managers \[sn\_vdr\_risk\_asmt.vendor\_manager\], third-party assessors \[sn\_vdr\_risk\_asmt.vendor\_assessor\], and third parties to upload, categorize, track, and review documents with metadata, version control, and access permissions. This feature streamlines evidence tracking, reduces duplication, and improves audit readiness by enabling document reuse across assessments, contracts, issues, and tasks.
 
     For information on Now Assist skills for TPRM and Document Management, see [ServiceNow Otto for Third-party Risk Management \(TPRM\) release notes]() and [Now Assist in Document Intelligence release notes]().
 
--   **[Register of information regulatory packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/tprm-dora-roi.md)**
+-   ****
 
     After upgrading the Digital Resilience Third-party Information Register application to version 21.1.x, third-party assessors \[sn\_vdr\_risk\_asmt.vendor\_assessor\] can now generate regulator-ready Register of Information packages using the Plain-CSV Report Package option on the download page. The ZIP file includes metadata and report folders structured to regulator specifications, with file names containing LEI, entity ID, and release version. This format helps ensure EU DORA compliance and supports automated validation workflows. You can follow the user guide on the Download/Upload request page for suggested steps and permissions.
 
--   **[Validation framework for Register of Information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/tprm-validation-roi.md)**
+-   ****
 
     After upgrading the Digital Resilience Third-party Information Register application to version 21.1.x, third-party risk managers \[sn\_vdr\_risk\_asmt.vendor\_manager\] can now validate downloaded Register of Information packages using the Plain-CSV Report Package option on the download page against requirements. File format, structure, encoding, naming conventions, and field-level data are validated across multiple tables. If any validation warnings are detected, a validation report is automatically attached, including mappings to regulator fields such as Template Code, Row Code, and Column Code. Validation reports include real-world field labels, rule expressions, and record identifiers. You can cross-reference validation errors using a downloadable Excel master template that mirrors the CSV structure, making it easier to locate and address issues. Additional enhancements include support for “Not applicable” values, enforcement of file size limits, and clearer error messages for malformed data.
 
 
 ### What's changed
 
--   **[Vertical navigation in the Vendor Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/tprm-monitoring-tpr.md)**
+-   **Vertical navigation in the Vendor Management Workspace**
 
     Starting with version 21.1.x, the legacy horizontal tab-based layout in the Vendor Management Workspace has been replaced with a structured vertical navigation panel with groups of related lists, organizing access to third-party records, assessments, and performance pages in a way that supports clearer workflows and is consistently available to all internal users.
 
--   **[Third-party information register download option renamed to Excel master template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/tprm-excel-upload-download-request.md)**
+-   **Third-party information register download option renamed to Excel master template**
 
     Starting with version 21.1.x, the option to download the Third-party Information Register is renamed to Excel Master Template. This change improves clarity and aligns with regulator terminology.
 
--   **[DPM business validation rules and properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/tprm-validation-roi.md)**
+-   **DPM business validation rules and properties**
 
     Starting with version 21.1.x, the DPM business validation rules and report.json, reportPackage.json, FrameworkCodeModuleVersion properties are now included. These modules enable Third-party risk admins \[sn\_vdr\_risk\_asmt.vendor\_admin\] to view and maintain validation logic and configuration settings for CSV reporting and automated validation.
 
--   **[Choice field for ICT third-party service provider identification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/tprm-drtp-reg-contract.md)**
+-   **Choice field for ICT third-party service provider identification**
 
     Starting with version 21.1.x, the field **Type of code to identify the ICT third-party service provider** is now updated to be a choice field in the Digital Resilience Third-party Information Register in the contract record. This update aligns the field with regulator-defined options for selecting identification systems when creating new providers. In the Specific Information section of the contract record, the field is read-only and auto-populated based on upstream selections, such as the third-party or engagement record.
 
 
--   **[Risk areas extended to internal assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/create-sae-q-template.md)**
+-   **Risk areas extended to internal assessments**
 
     Starting with version 21.1.x, if you have the third-party risk admin \[sn\_vdr\_risk\_asmt.vendor\_admin\] role, you can now configure risk areas with weighted questions and scored responses for internal assessments using the Smart Assessment Engine in the Vendor Management Workspace. Risk scores can be aggregated at the engagement level using customizable methods such as max, min, or average, and mapped to risk ratings based on business rules. Risk managers can override system-generated ratings with required justification, enabling expert judgment and helping ensure transparency in risk decisions.
 
--   **[Smart Assessment Engine advanced plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/tprm-migrate-asmnt-sae.md)**
+-   **Smart Assessment Engine advanced plugins**
 
     Starting with version 21.1.x, the following Smart Assessment Engine advanced plugins are automatically installed: Post Assessment Actions for Smart Assessments \[com.sn\_smart\_imp\_auto and com.sn\_impact\_fwk\] and Advanced Response Automation for Smart assessments \[sn\_smart\_resp\_auto\]. The Post Assessment Actions for Smart Assessments plugin lets Third-party risk admins \[sn\_vdr\_risk\_asmt.vendor\_admin\] automate follow-up tasks, like notifications or workflow launches, after an assessment is completed. The Advanced Response Automation for Smart Assessments plugin automatically fills in assessment responses based on prior data or logic, streamlining and standardizing the assessment process.
 
@@ -337,7 +337,7 @@ The ServiceNow® Third-party Risk Management \(TPRM\) application provides a cen
     -   GRC: Performance Analytics Premium Integration \[com.sn\_grc\_pa\]
     -   Vendor Risk Management integration with EcoVadis \[com.sn\_app\_grc\_ecovadis\]
     -   ITAM applications \[com.snc.vendor\_core\]
--   **[Fourth-party assessment support in SAE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/tprm-monitor-fourth-parties.md)**
+-   **Fourth-party assessment support in SAE**
 
     Starting with version 21.1.x, Fourth-party assessments are now supported after you enable the Smart Assessment Engine enabled \(**sn\_vdr\_risk\_asmt.sae\_enabled**\) property.
 
@@ -348,11 +348,11 @@ The ServiceNow® Third-party Risk Management \(TPRM\) application provides a cen
 
 ### What's new
 
--   **[New sn\_vdr\_risk\_asmt.sae\_enabled property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/tprm-properties-configure.md)**
+-   **New sn\_vdr\_risk\_asmt.sae\_enabled property**
 
     Use the new and improved Smart Assessment experience after you upgrade to version 21.0.x and set the Smart Assessment Engine enabled \(**sn\_vdr\_risk\_asmt.sae\_enabled**\) property.
 
--   **[Smart assessments with Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/tprm-sae-using.md)**
+-   ****
 
     Create Smart Assessment Engine assessments for your organization:
 
@@ -378,7 +378,7 @@ The ServiceNow® Third-party Risk Management \(TPRM\) application provides a cen
     -   The Tier-level column is now renamed as Risk rating.
     -   The Tiering assessors column is now renamed as Respondents.
     -   The **Owner** field is now renamed as **Assigned to** on the internal assessment, external assessment, tiering assessment, and due diligence request forms.
--   **[Changes made to the list view in Vendor Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/tprm-ws-list-page.md)**
+-   **Changes made to the list view in Vendor Management Workspace**
     -   The Assessment setup section has been added. From this section, you can create assessment templates, Smart Assessment questionnaire templates, and issue generation rules.
     -   The Questionnaire requests section has been added.
     -   The Tiering assessments and Inherent risk questionnaires \(IRQ\) are combined in the Internal assessments section.
@@ -391,14 +391,14 @@ The ServiceNow® Third-party Risk Management \(TPRM\) application provides a cen
     -   Document requests is renamed as Document templates.
     -   Fourth-party questionnaires is renamed as Fourth-party templates.
     -   Repeating assessments is renamed as Assessment scheduling.
--   **[Smart Assessment integration changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/tprm-sae-using.md)**
+-   **Smart Assessment integration changes**
     -   The Assessment engine column has been added to the Internal and External assessment list views in Vendor Management Workspace. You can track the assessment type as you transition to using the Smart Assessment Engine for all active questionnaires.
     -   The **Assessment engine** field has been added to related forms for internal risk assessments, external risk assessments, and assessment templates.
     -   The Support smart assessment column has been added to the Assessment templates and Issue generation rules list views.
     -   The original TPRM **Classification** field has been replaced with the **Purpose** field on all assessment templates.
     -   The external assessment status **Responses received** is now **Submitted to third party** when SAE is enabled.
     -   The external assessment status **Returned** is now **In progress** when SAE is enabled.
--   **[Changes made to Digital Resilience Third-party Information Register contract records in Vendor Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/tprm-drtp-reg-contract.md)**
+-   **Changes made to Digital Resilience Third-party Information Register contract records in Vendor Management Workspace**
 
     The General info related list has now been renamed as Details and the following related lists have been added:
 
@@ -416,7 +416,7 @@ The ServiceNow® Third-party Risk Management \(TPRM\) application provides a cen
     **Note:** When you're upgrading from Xanadu or Yokohama to Zurich with version 20.1.x of the GRC: Vendor Portal, the application UI themes might not match. The Vendor Management Workspace uses the Polaris theme by default, and the Third-party portal uses the Coral theme by default. Upgrading to Xanadu or Yokohama with version 20.1.x of the GRC: Vendor Portal results in both the Vendor Management Workspace and Third-party portal using the Polaris theme. Upgrading to version 21.x or higher results in both the Vendor Management Workspace and Third-party portal using the Coral UI theme.
 
 
--   **[Enhanced contract records for Digital Resilience Third-party Information Register in Vendor Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/tprm-drtp-reg-contract.md)**
+-   **Enhanced contract records for Digital Resilience Third-party Information Register in Vendor Management Workspace**
 
     If you have the third-party assessor role \[sn\_vdr\_risk\_asmt.vendor\_assessor\], you can now associate multiple entities with a single contract record. This association indicates that all entities have signed the contract and are providing services that are associated with the contract. You can also configure contracts that are based on the supply chain and assessment, upload contract records, and generate reports in Microsoft Excel. To better track these entities and help ensure compliance with Digital Operational Resilience Management \(DORA\) regulations, related lists have been added to the existing contract records, and existing fields have been reorganized for better usability.
 

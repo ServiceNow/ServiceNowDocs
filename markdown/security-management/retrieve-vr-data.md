@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/retr
 release: zurich
 topic_type: task
 last_updated: "2026-07-29"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Use, Unified Security Exposure Management, Security Operations]
 ---
 
@@ -15,8 +15,6 @@ breadcrumb: [Use, Unified Security Exposure Management, Security Operations]
 Chat with an AI agent to retrieve information about Vulnerability Response \(host\) and Application Vulnerability Response findings \(vulnerable items and application vulnerable items\).
 
 ## Before you begin
-
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 The ServiceNow Otto® panel must be activated. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
 

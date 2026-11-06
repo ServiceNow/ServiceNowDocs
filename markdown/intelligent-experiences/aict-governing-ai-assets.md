@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/
 release: zurich
 topic_type: concept
 last_updated: "2026-04-28"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [AI Control Tower, Enable AI experiences]
 ---
@@ -70,4 +70,19 @@ AI Control Tower tracks multiple dimensions of AI security.
 For privacy, AI Control Tower integrates with the Data Privacy plugin to surface sensitive data detection and anonymization activity. The security dashboard shows enabled data patterns that are used to detect and anonymize sensitive information in AI prompts.
 
 For organizations using Now Assist, ServiceNow AI Insights summarize observations across the AI security posture, including areas that may require attention and suggested remediation actions. This capability requires the Now Assist AICT Security Posture Summarizer skill.
+
+## Controlling AI asset usage with policies
+
+AI asset usage policies let you define a governance rule once and have AI Control Tower enforce it automatically, instead of responding to each AI agent, model, or domain case by case. AI stewards create and manage policies in the Govern area.
+
+AI Control Tower supports the following types of policies:
+
+-   Threat Response: Contains an AI agent automatically when a detected threat matches the conditions that you define.
+
+-   Explicit Block: Stops a person, a department, or everyone from using a specific AI agent, model, or domain.
+
+-   Arc policies: Control what ServiceNow Arc can do on your users' devices, including which actions wait for a person's approval.
+
+
+For more information about managing policies and reviewing enforcement activity, see [Controlling AI asset usage in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-landing.md).
 

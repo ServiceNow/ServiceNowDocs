@@ -1,22 +1,22 @@
 ---
 title: \(Legacy\) Dependency Assessment
-description: Dependency Assessment enables you to view, analyze, and edit your performance analytics components including widgets, indicators, and breakdowns, from a single view. By viewing the hierarchy of components and the relationships between them, you can see immediately who is impacted by a change and what the effects of your changes are.
+description: Dependency Assessment enables you to view, analyze, and edit your performance analytics components including widgets, indicators, and breakdowns, from a single view. The component hierarchy shows relationships between components. Use it to identify who is impacted by a change and what the effects are.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/impact-analysis.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-10-22"
 reading_time_minutes: 2
 breadcrumb: [Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # \(Legacy\) Dependency Assessment
 
-Dependency Assessment enables you to view, analyze, and edit your performance analytics components including widgets, indicators, and breakdowns, from a single view. By viewing the hierarchy of components and the relationships between them, you can see immediately who is impacted by a change and what the effects of your changes are.
+Dependency Assessment enables you to view, analyze, and edit your performance analytics components including widgets, indicators, and breakdowns, from a single view. The component hierarchy shows relationships between components. Use it to identify who is impacted by a change and what the effects are.
 
-**Important:** Dependency Assessment is a deprecated feature that is not available on net new instances. It does not support Platform Analytics artifacts. It analyzes information only for Core UI Performance Analytics widgets but not Platform Analytics data visualizations. Also, you can launch Dependency Assessment from a Core UI responsive dashboard but not from a Platform Analytics dashboard.
+**Important:** Dependency Assessment is a deprecated feature that is not available on net new instances. It does not support Platform Analytics artifacts. It analyzes information only for Core UI Performance Analytics widgets but not Platform Analytics data visualizations. To analyze both Core UI and Platform Analytics experience artifacts, use .
 
 Dependency Assessment consists of several components:
 

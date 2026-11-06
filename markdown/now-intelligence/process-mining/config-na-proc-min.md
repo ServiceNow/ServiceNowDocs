@@ -25,7 +25,7 @@ Configure how you can use the ServiceNow Otto for Process Mining in the first sk
 
 ## ServiceNow Otto for Process Mining plugin
 
-To work with generative AI capabilities, you need ServiceNow Otto for Creator. For information on how to install ServiceNow Otto for Creator, see .
+To work with generative AI capabilities, you need ServiceNow Otto for Creator. For information on how to install ServiceNow Otto for Creator, see [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/install-now-assist-for-creator.md).
 
 After ServiceNow Otto for Creator is installed, the plugin \(ServiceNow Otto for Process Mining\) and Generative AI Controller are automatically installed.
 

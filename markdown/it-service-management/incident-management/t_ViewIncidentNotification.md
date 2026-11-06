@@ -30,11 +30,12 @@ Incident notifications use the email notification layout and template that are s
 
 1.  Navigate to **All** &gt; **System Notification** &gt; **Email** &gt; **notifications**.
 
-2.  Filter the list of notifications by **\[Table\] \[is\] \[incident\]**.
+2.  Filter the list of email notifications by following **\[Table\]** values to view the default incident, incident task and incident alert notifications:
 
-3.  View the list of default notifications for incidents.
-
-4.  Click the notification name to view the details.
+    -   **Incident \[incident\]**: The list of incident email notifications.
+    -   **Incident Communication Plan \[incident\_alert\]**: The list of incident alert notifications for incident communication.
+    -   **Incident Task \[incident\_task\]**: The list of incident task notifications.
+3.  Select the notification name to view the details.
 
 
 ## What to do next

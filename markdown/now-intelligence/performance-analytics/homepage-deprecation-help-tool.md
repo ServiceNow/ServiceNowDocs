@@ -16,6 +16,8 @@ breadcrumb: [Administering dashboards, Responsive dashboards in the Core UI, Rep
 
 Support for homepage functionality has been phased out. It is not possible to create or edit homepages at all when Next Experience is enabled.
 
+**Note:** This topic refers to Core UI dashboards. If you are looking for information about the newer Platform Analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center-dashboards.md).
+
 On upgrade to Zurich, active homepages are converted to Core UI responsive dashboards, with these exceptions:
 
 -   Homepages that do not have an **Active** field are not converted.

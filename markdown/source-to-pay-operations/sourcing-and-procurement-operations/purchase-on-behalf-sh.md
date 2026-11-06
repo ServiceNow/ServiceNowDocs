@@ -8,7 +8,7 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2026-01-29"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Shopping Hub, Explore, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
@@ -20,8 +20,8 @@ Shoppers can purchase products and services on behalf of another user in Shoppin
 
 This functionality provides the following benefits:
 
--   Shopping controls allow administrators to define purchasing eligibility, ensuring that restricted products cannot be purchased.
--   Checkout is allowed only if the product can be shipped to the delivery location of the user on whose behalf the purchase is made. If shipping is not supported, Shopping Hub prevents the purchase from being submitted.
+-   As an administrator, you can use shopping controls to define purchasing eligibility. When a super shopper purchases on behalf of another user, the shopping controls defined for that user apply to the purchase.
+-   Shopping Hub checks whether the product can be shipped to the delivery location of the user on whose behalf you make the purchase. If shipping isn't supported, you can't submit the purchase.
 -   Shoppers purchasing on behalf of other users can easily view those users’ carts and purchases by selecting the user name from the filter list.
 
 ## System properties for purchasing on behalf of another user
@@ -35,26 +35,6 @@ System property
 Description
 
 </th></tr></thead><tbody><tr><td>
-
-sn\_shop.skip\_shopping\_controls\_for\_purchase\_on\_behalf\_of\_users
-
-</td><td>
-
-Controls how Shopping Hub enforces shopping control restrictions when a super shopper purchases on behalf of another user.-   Default value: false
--   When set to false, shopping control restrictions for the selected user are enforced and restricted products cannot be purchased.
--   When set to true, restricted products for the selected user display a warning, but the purchase on behalf of another user is allowed to proceed.
-
-</td></tr><tr><td>
-
-sn\_shop.skip\_delivery\_restrictions\_for\_purchase\_on\_behalf\_of\_users
-
-</td><td>
-
-Controls how Shopping Hub enforces delivery address restrictions when a super shopper purchases on behalf of another user and the product cannot be delivered to the selected user’s default delivery address.-   Default value: false
--   When set to false, products that cannot be delivered to the selected user’s delivery address cannot be purchased.
--   When set to true, a warning is displayed for non-deliverable products, and the super shopper is allowed to proceed with the purchase.
-
-</td></tr><tr><td>
 
 sn\_spend\_uib.purchased\_bahealf.enable.card.actions
 

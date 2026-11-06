@@ -38,7 +38,7 @@ For information about offboarding and creating offboard requests for AI assets, 
 
 \[Omitted image "aict-config-playbooks.png"\] Alt text: Playbooks on Configurations screen.
 
-For information on creating a AI Control Tower playbook workflow for Now Assist approvals, see [Create an AI Control Tower Playbook workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/create-a-playbook-workflow-for-now-assist-approvals.md).
+For information on creating a playbook workflow in AI Control Tower for Now Assist approvals, see [Create a Playbook workflow in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/create-a-playbook-workflow-for-now-assist-approvals.md).
 
 To view the Asset lifecycle stage, see [View AI assets by life-cycle stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/view-ai-assets-lifecycle-stage.md) and to view the completing of the Asset lifecycle stage, see [Complete AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/complete-ai-asset-lifecycle.md)
 

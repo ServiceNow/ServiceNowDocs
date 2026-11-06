@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-27"
 reading_time_minutes: 1
 keywords: [sub-agents, custom sub-agent, system prompt]
-breadcrumb: [Extend ServiceNow Cowork, Use, ServiceNow Cowork, Enable AI experiences]
+breadcrumb: [Extend ServiceNow Arc, Use, ServiceNow Arc, Enable AI experiences]
 ---
 
 # Create a sub-agent
@@ -17,7 +17,7 @@ Create a custom sub-agent to hand off a specialized task, such as code review or
 
 ## Before you begin
 
-Role required: sn\_app\_cowork.user
+Role required: sn\_app\_arc.user
 
 ## Procedure
 
@@ -48,5 +48,5 @@ Role required: sn\_app\_cowork.user
 
 The new sub-agent appears in the **Sub-Agents** list.
 
-**Parent Topic:**[Extend ServiceNow Cowork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/extending-cowork.md)
+**Parent Topic:**[Extend ServiceNow Arc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/extending-cowork.md)
 

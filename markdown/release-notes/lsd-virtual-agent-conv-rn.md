@@ -30,6 +30,6 @@ The ServiceNow® Legal Virtual Agent Conversations application uses machine-lear
 
     The following plugins are planned for deprecation in a future release:
 
-    [Legal Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/legal-va-conversations.md) \(sn\_lg\_virtual\_agent\): Planned for deprecation in C release.There is no replacement for this plugin.
+     \(sn\_lg\_virtual\_agent\): Planned for deprecation in C release.There is no replacement for this plugin.
 
 

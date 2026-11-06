@@ -107,6 +107,8 @@ The parent module **column\_level\_encryption** is selected automatically when u
     -   **Upload customer supplied key** opens the file browser to select the token and the encrypted key that you wrapped.
     \[Omitted image "key-creation-links2.png"\] Alt text:
 
+    **Note:** If the **Download wrapping key** link doesn't appear on the Key Creation stage, select **Back** and then **Next** in the interface. Don't use your browser's Back and Next buttons.
+
 9.  Select **Download wrapping key** to save the token.
 
     Save the token to the same destination location as the key is saved on your system. Don’t rename the downloaded token.

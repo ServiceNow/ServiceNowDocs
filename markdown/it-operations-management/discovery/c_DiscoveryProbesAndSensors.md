@@ -38,9 +38,9 @@ After an entry is inserted in the ECC Queue table, a business rule fires \(on in
 
 ## How probes and sensors work together
 
-The MID Server launches probes to collect information about a device. The probe sends back information to the sensor to be processed. If the probe has a post-processing script defined, the post-processing script does some data processing on the MID Server before data is sent back to the sensor on the ServiceNow instance. Otherwise the probes sends back all the data collected and the sensor performs this data processing. In both cases, the sensor updates the CMDB.
+The MID Server launches probes to collect information about a device. The probe sends back information to the sensor to be processed. If the probe has a post-processing script defined, the post-processing script does some data processing on the MID Server. The processed data is then sent back to the sensor on the ServiceNow instance. Otherwise the probes sends back all the data collected and the sensor performs this data processing. In both cases, the sensor updates the CMDB.
 
-A multi-probe is a probe that contains probes. A multi-sensor processes the data from a multi-probe. To process the data from the multi-probe, the multi-sensor contains individual scripts to process the data returned by each probe contained in the Multiprobe, as well as a main multi-sensor script. The individual scripts pass their processed data to the main multi-sensor script.
+A multi-probe is a probe that contains probes. A multi-sensor processes the data from a multi-probe. To process the data from the multi-probe, the multi-sensor contains individual scripts to process the data returned by each probe contained in the Multiprobe. It also includes a main multi-sensor script. The individual scripts pass their processed data to the main multi-sensor script.
 
 \[Omitted image "multisensor-example.png"\] Alt text: The MultiSensor form
 

@@ -16,6 +16,8 @@ breadcrumb: [Report types, Reporting, Reporting, dashboards, and Performance Ana
 
 Column reports show how the value of one or more items changes over time with columns.
 
+**Note:** This topic refers to Reporting in the Core UI. For instances migrated to Platform Analytics experience and new Zurich instances, see [Use cases for different time series visualization types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/time-series-visualization-types.md).
+
 Values along the horizontal axis of the column chart represent the time measurement \(years, hours, minutes, milliseconds, and so on\). Values on the vertical axis represent the changes to the items being monitored. Users with the report\_admin role can define the ranges that are used in a column chart report. See [Report ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_ReportRanges.md) for information on creating report ranges.
 
 For example, you can create a column chart for incident counts, to show how the number of incidents changes over time. The incident count often increases during the first few months after a product upgrade is deployed. Over time, the number of reported incidents decreases as users become more accustomed to the changes in the product.
@@ -40,6 +42,10 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 For a column report use case, [Time series data visualization example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dv-example-line.md).
 
+### About this task
+
+**Note:** This topic refers to Reporting in the Core UI. For instances migrated to Platform Analytics experience and new Zurich instances, see [Use cases for different time series visualization types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/time-series-visualization-types.md).
+
 ### Procedure
 
 1.  Perform one of the following actions:
@@ -52,7 +58,7 @@ For a column report use case, [Time series data visualization example](https://r
 
 4.  Select the applicable source for the report.
 
-<table id="choicetable_t31_tst_1x"><tbody><tr><td id="d45046e276">
+<table id="choicetable_t31_tst_1x"><tbody><tr><td id="d45172e315">
 
 **Data source**
 
@@ -60,7 +66,7 @@ For a column report use case, [Time series data visualization example](https://r
 
 Also called a report source, a data source is a table with filters applied to provide a single source of information for all users. For more information, see [Report sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_ReportSources.md).**Note:** If you select a data source used by existing reports, a notification prompts you to view them.
 
-</td></tr><tr><td id="d45046e295">
+</td></tr><tr><td id="d45172e334">
 
 **Table**
 
@@ -68,7 +74,7 @@ Also called a report source, a data source is a table with filters applied to pr
 
 The raw data from a table with no filters applied. When you select a table, its short description appears below the table name. For trend reporting, you can also select a remote table, which aggregates, in memory, data retrieved from an external source. Then select a **Trend by** field option to aggregate its data. To learn more about remote tables, see [Retrieving external data using remote tables and scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/remote-tables.md)
 
-</td></tr><tr><td id="d45046e314">
+</td></tr><tr><td id="d45172e353">
 
 **External import**
 
@@ -76,7 +82,7 @@ The raw data from a table with no filters applied. When you select a table, its 
 
 Choose an existing imported report source, or select the Upload icon \(\[Omitted image "upload-icon.png"\] Alt text: Upload icon\) to import a new file. See [Create a Core UI report from an imported Microsoft Excel document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/create-report-with-imported-data-source.md).
 
-</td></tr><tr><td id="d45046e339">
+</td></tr><tr><td id="d45172e378">
 
 **MetricBase**
 
@@ -171,7 +177,7 @@ Calendar
 
 </td><td>
 
-Calendar that is the basis for the time series in the report. Select either the standard calendar or a [customized business calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/business-calendars.md).
+Calendar that is the basis for the time series in the report. Select either the standard calendar or a [customized business calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/business-calendars.md).Only users with the admin role can select business calendars. Business calendars might not populate for non-admin viewers.
 
 </td></tr><tr><td>
 

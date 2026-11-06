@@ -22,7 +22,7 @@ Role required: sn\_apm.apm\_analyst
 
 1.  Navigate to **Workspaces** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Business Capability Hierarchy page by clicking the Business Portfolio icon \(\).
+2.  Open the Business Capability Hierarchy page by clicking the Business Portfolio icon \(\[Omitted image "business-portfolio-icon.png"\] Alt text: Business Portfolio icon\).
 
 3.  Select **Update Hierarchies**.
 

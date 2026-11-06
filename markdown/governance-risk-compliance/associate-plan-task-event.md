@@ -26,7 +26,7 @@ A good business continuity plan is a result of thoughtful assessment of business
 
 1.  Navigate to **Business Continuity** &gt; **Business Continuity Workspace**.
 
-2.  To update an active exercise or crisis event from the Home page of the Business continuity workspace, click the link to the event record in the **Event** column of the **My exercises** section.
+2.  In the **My exercises** section, select the link in the **Event** column.
 
 3.  To update the event from the lists view of the workspace, click the lists icon \(\[Omitted image "ListsIcon.jpg"\] Alt text: Lists icon\).
 
@@ -48,7 +48,7 @@ A good business continuity plan is a result of thoughtful assessment of business
     -   view the details of asset recovery and the activated plan by clicking the information icon \(\[Omitted image "InformationIcon.png"\] Alt text: Information icon\)
     For information on the logic behind the calculation of recovery task entities, see [Calculation of actual duration and total effort to recover an event asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/view-exercise-crisis-event-details.md).
 
-    If the impacted assets are CMDB CI data that came into the BIA automatically based on CMDB dependencies and when these assets are scoped in the plan, then at the time of recovery of the asset, the related assets and the related plans are automatically pulled into the exercise event as impacted assets and activated plans in the **Impacts** tab.
+    CMDB CI data can enter the BIA based on CMDB dependencies. If these assets are scoped in the plan, the related assets and plans are pulled into the exercise event at recovery time. These appear as impacted assets and activated plans in the **Impacts** tab.
 
     For more information on the planning and execution of a recovery event, see [Data flow, planning, execution, and recovery of related plan assets in event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/planning-execution-event-bcm.md).
 
@@ -77,7 +77,7 @@ A good business continuity plan is a result of thoughtful assessment of business
         2.  Click **Next**.
         3.  Select the plans for the impacted asset in the Select Plans to Add pop-up.
 
-            This action creates the activated plan if it does not already exist and then maps the impacted asset with the activated plan in the Impacted Asset to Activated Plan \[sn\_recovery\_impacted\_asset\_to\_activated\_plan\] table.
+            If the activated plan does not exist, it is created. The impacted asset is then mapped to the activated plan in the Impacted Asset to Activated Plan table \[sn\_recovery\_impacted\_asset\_to\_activated\_plan\].
 
     -   To display all plans and select assets from the plans, select **Show all plans**.
         1.  Click **Next**.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/em-contextual-help.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Set up Engagement Messenger, Enable communication channels, Configure, Customer Service Management]
 ---
@@ -30,7 +30,7 @@ Modify the embed code of Engagement Messenger to enable recommendations and pass
 
 4.  In the Configure Engagement Messenger module, select the **Implement** tab.
 
-5.  In a text editor, open the HTML file of the web page on your website where you integrate Engagement Messenger.
+5.  Open the HTML file of the web page on your website where you integrate Engagement Messenger in a text editor.
 
 6.  In the **Implement** tab, copy the code from the Embed code section.
 
@@ -53,11 +53,11 @@ Modify the embed code of Engagement Messenger to enable recommendations and pass
 
     2.  Select your Engagement Messenger module.
 
-    3.  Click **Edit**.
+    3.  Select **Edit**.
 
     4.  In the Configure Engagement Messenger module, select the **Behavior** tab.
 
-    5.  Enable the **Enable recommendations** toggle switch.
+    5.  Select Recommendations from the left navigation and enable the **Enable recommendations** toggle switch.
 
 10. Add custom logic for passing a search query parameter to the AI Search by passing a function callback as the value for a parameter `getAISRecommendationsContext`.
 

@@ -65,7 +65,7 @@ Indicator
 
 </td><td>
 
-Displays the total number of IP-based and Cloud Discovery schedules that are configured aP-based and Cloud Discovery schedulesecurring basis.
+Displays the total number of IP-based and Cloud Discovery schedules that are configured and enabled to run on a recurring basis.
 
 </td></tr><tr><td>
 

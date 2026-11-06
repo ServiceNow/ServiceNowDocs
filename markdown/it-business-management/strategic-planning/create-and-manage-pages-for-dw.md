@@ -39,15 +39,15 @@ Role required:
 
 5.  Create a blank page, start with a predefined template, or duplicate a page.
 
-<table id="choicetable_yrn_2mf_zjc"><thead><tr><th align="left" id="d332780e132">
+<table id="choicetable_yrn_2mf_zjc"><thead><tr><th align="left" id="d337784e132">
 
 Goal
 
-</th><th align="left" id="d332780e135">
+</th><th align="left" id="d337784e135">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d332780e141">
+</th></tr></thead><tbody><tr><td id="d337784e141">
 
 **Create a blank page**
 
@@ -55,7 +55,7 @@ Actions
 
 Select **Create page**.
 
-</td></tr><tr><td id="d332780e153">
+</td></tr><tr><td id="d337784e153">
 
 **Create a page from a template**
 
@@ -65,7 +65,7 @@ Select **Create page**.
 2.  In the card for the template that you want to use, select **Use**.
 
 
-</td></tr><tr><td id="d332780e180">
+</td></tr><tr><td id="d337784e180">
 
 **Duplicate a page**
 

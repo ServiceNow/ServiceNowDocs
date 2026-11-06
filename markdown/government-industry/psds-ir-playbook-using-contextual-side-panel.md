@@ -14,7 +14,7 @@ breadcrumb: [Information Request Administration, Playbooks and solutions, Use, P
 
 The contextual side panel provides you with the tools that can help you to research and resolve problems about your cases.
 
-The contextual side panel in the CRM Workspace gives you access to information that can help you resolve information request cases.
+The contextual side panel in the Public Sector Workspace gives you access to information that can help you resolve information request cases.
 
 It includes a column of icons that you can select to access different types of information.
 
@@ -34,7 +34,7 @@ Record information icon \[Omitted image "contextual-side-panel-record-info.jpg"\
 
 </td><td>
 
-Relevant information about a record. In Service Request Playbook, the ribbon displays the record information, constituent details, the case timeline, and the active and inactive service level agreements \(SLAs\). For more information on how to view information about the ribbon in playbooks, see [Viewing the ribbon information in Information Request Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-ir-playbook-viewing-ribbon.md).
+Relevant information about a record. In Service Request Administration, the ribbon displays the record information, constituent details, the case timeline, and the active and inactive service level agreements \(SLAs\). For more information on how to view information about the ribbon in playbooks, see [Viewing the ribbon information in Information Request Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-ir-playbook-viewing-ribbon.md).
 
 </td></tr><tr><td>
 

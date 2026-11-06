@@ -18,7 +18,7 @@ The Discovery Console for OT provides you with enhanced features to discover you
 
 The Discovery Console for OT provides complete operational technology visibility across your entire OT environment. This awareness starts at the Human Machine Interface \(HMI Purdue Reference Model Levels 2 and 3\) and goes down to the field devices \(Level 0\) through the Discovery Console for OT Network and Sensors. From the Discovery Console for OT you can enable and configure device management capabilities. The Discovery Console for OT and Discovery Sensor for OT work together to create a comprehensive device inventory that you can monitor and manage from a single interface.
 
-\[Omitted image "updated-purdue.png"\] Alt text: Purdue levels
+\[Omitted image "image.updated-purdue"\] Alt text: Purdue levels with OT Discovery components
 
 ## Discovery Console for OT uses and benefits
 
@@ -30,7 +30,7 @@ Some of the uses and benefits of the Discovery Console for OT are as follows.
     -   You can manage and monitor several Discovery Sensor for OT and OT Discovery Collector components.
 -   Benefits
     -   Acts as a single source of truth for all OT Devices discovered in the Sites.
-    -   The Console manages OT assets and provides visibility to OT operators.
+    -   The Console manages OT assets and provides visibility to OT operators.\\
 
 ## Accessing the Discovery Console for OT
 

@@ -9,7 +9,7 @@ classification: now-mobile-employee-experience
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Mobile app, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configure, Now Mobile app, EmployeeWorks, Employee Service Management]
 ---
 
 # Enable Live Agent in the Now Mobile app

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-05-27"
 reading_time_minutes: 2
 keywords: [home page, homepage configuration, AI chat, announcements widget, quick links, upcoming holiday, Employee Slate]
-breadcrumb: [EmployeeWorks home, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [EmployeeWorks home, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure the home page

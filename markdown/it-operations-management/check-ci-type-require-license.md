@@ -27,6 +27,7 @@ Role required: sn\_itom\_license.reader
 For licensing purposes, licensable resources are assigned to CI categories. License usage is measured using subscription units, which may cover a different number of resources, depending on the resource CI category. The customer contract for your organization determines the CI categories from the available options, and also the ratios of CI allocation for subscription units in each CI category. Information from the customer contract is synchronized with the ServiceNow platform. The latest version of ServiceNow® ITOM/OT SU Licensing supports the following CI categories:
 
 -   Containers
+-   Container images
 -   PaaS
 -   FaaS
 -   Servers
@@ -35,6 +36,11 @@ For licensing purposes, licensable resources are assigned to CI categories. Lice
 -   End User Devices
 -   IoT
 -   Customer Prem Devices
+-   APIs
+-   AI agents
+-   GPUs
+-   Service Instances
+-   UMOs
 
 The system stores information about CI categories and CI types that belong to them in the ITOM Licensing MetaData \[itom\_lu\_metadata\] table. This table includes information only about parent CI types. All CI types that are created by extending these parent CI types are included by default. For example, the Apache Web Server CI type is included in the CI count, because it is an extension of the Web Server CI type.
 

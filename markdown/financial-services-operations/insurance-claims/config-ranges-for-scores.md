@@ -44,5 +44,5 @@ Role required: admin
 **Related topics**  
 
 
-[CRM Workspace record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-config-workspace-record-pages.md)
+[CSM Configurable Workspace record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-config-workspace-record-pages.md)
 

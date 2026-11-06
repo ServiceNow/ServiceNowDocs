@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2025-09-12"
 reading_time_minutes: 1
-breadcrumb: [Use the OT Discovery Collector, OT Discovery Collector, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Use the OT Discovery Collector, Operational Technology Discovery Collector, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Restart Discovery Scout on a Windows system

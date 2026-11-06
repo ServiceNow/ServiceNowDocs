@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: reference
 last_updated: "2025-09-03"
 reading_time_minutes: 9
-breadcrumb: [Reference, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Reference, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Properties installed with Content Publishing

@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-03-27"
 reading_time_minutes: 2
-breadcrumb: [Configure the OT Discovery Collector, OT Discovery Collector, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Configure the OT Discovery Collector, Operational Technology Discovery Collector, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Install the OT Discovery Collector on a Windows system
@@ -19,6 +19,8 @@ Install the OT Discovery Collector on a Windows system. The OT Discovery Collect
 The required Windows \(10 or 11\) environment for the OT Discovery Collector is x86\_64. No ARM/Apple Silicon devices are supported.
 
 Role required: admin
+
+**Note:** You can now download and install Containerized Collector packages. For a Windows OS machine, be sure to select the compatible Collector OS. For more information, see [Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/air-gapped-networks-installation.md).
 
 ## Procedure
 

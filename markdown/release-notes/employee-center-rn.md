@@ -18,9 +18,9 @@ The ServiceNow® Employee Center application is a standard multidepartment, dyna
 
 [Zurich Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-1.md)
 
--   Enable employees to check their latest company news and upcoming events using Now Assist in Virtual Agent with the **Company News &amp; Events AI Agent** in the ServiceNow Otto for Employee Experience. The AI Agent displays a list of all the latest news and planned events in the company. For more information, see [Check latest company news and events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/check-company-newsevent-ai-agent-for-emp-exp.md).
+-   Enable employees to check their latest company news and upcoming events using Now Assist in Virtual Agent with the **Company News &amp; Events AI Agent** in the ServiceNow Otto for Employee Experience. The AI Agent displays a list of all the latest news and planned events in the company. For more information, see Check latest company news and events.
 -   Employees can check all their to-do tasks and pending approvals using Now Assist in Virtual Agent for Microsoft Teams.
--   Enable a summary of the request, requested item, or case for approval task using ServiceNow Otto for Employee Experience. The skill provides a summary of the selected item from the available list that you want to work on. For more information, see [ServiceNow Otto for Employee Experience Summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/activate-now-assist-skills-uex.md).
+-   Enable a summary of the request, requested item, or case for approval task using ServiceNow Otto for Employee Experience. The skill provides a summary of the selected item from the available list that you want to work on. For more information, see ServiceNow Otto for Employee Experience Summarization skill.
 
 Zurich Early Availability
 
@@ -28,7 +28,7 @@ Zurich Early Availability
 -   View and manage content and other company resources through the Browser Extension for Employee Center.
 -   Improve the My Requests experience with adoptive and scalable enhancements.
 
-See [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-center-landing-page.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -51,12 +51,12 @@ The ServiceNow® Employee Center application is a standard multidepartment, dyna
 
 ### What's new
 
--   **[Check latest company news and events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/check-company-newsevent-ai-agent-for-emp-exp.md)**
+-   **Check latest company news and events**
 
     Use the **Company News and Events AI Agent** to enable employees to check their company-related news and any upcoming events using the Now Assist in Virtual Agent.
 
 
--   **[ServiceNow Otto for Employee Experience Summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/activate-now-assist-skills-uex.md)**
+-   **ServiceNow Otto for Employee Experience Summarization skill**
 
     Enable a summary of the request, requested item, or case for approval task using ServiceNow Otto for Employee Experience. The skill provides a summary of the selected item from the available list that you want to work on.
 
@@ -67,39 +67,39 @@ The ServiceNow® Employee Center application is a standard multidepartment, dyna
 
 ### What's new
 
--   **[ServiceNow Otto for Employee Experience plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assisit-employee-exp.md)**
+-   **ServiceNow Otto for Employee Experience plugin**
 
     Enable employees to resolve and approve tasks easily through chat conversation using the ServiceNow Otto for Employee Experience plugin with Now Assist in Virtual Agent.
 
--   **[Browser Extension for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/ecbe-intro.md)**
+-   ****
 
     View and manage content and other company resources through the Browser Extension for Employee Center. Access the extension as a pop-up window, or select the Browser Extension for Employee Center icon on the portal to open it in a new page.
 
--   **[Enhanced Requests Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/my-requests-update-intro.md)**
+-   ****
 
     Enhance the My Requests experience with features like easy segmentation, filtering, and keyword search. These features create a dynamic and scalable experience on the Employee Center portal for your admins, service, process, and experience owners.
 
--   **[Portal performance optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/ec-load-experience-optimization.md)**
+-   ****
 
     Control how your portal pages load, such as all at once or as needed, by using the new deferred and lazy load preferences. Lazy loading is enabled by default and displays content dynamically, reducing page load time.
 
--   **[High-traffic experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/ec-load-high-traffic.md)**
+-   ****
 
     Communicate the information about heavy usage and slower network conditions during high usage scenarios, such as live events and major announcements.
 
--   **[Taxonomy and connected content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/track-new-content.md)**
+-   ****
 
     Streamline the cleanup and syncing of outdated or invalid content, helping admins maintain a high-quality, well-performing portal with less manual effort.
 
--   **[Mega menu load](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/config-mega-menu-async-load.md)**
+-   **Mega menu load**
 
     Load the Mega Menu in the background to speed up home page interactivity and enable your users to engage with visible content faster during first-time visits.
 
--   **[Notifications for Employee Center enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/notifications-ec.md)**
+-   **Notifications for Employee Center enhancements**
 
     Get Notifications for Employee Center in Content engagement that is available with Employee Center Pro. For more information, see [Employee Center Pro release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/employee-center-pro-rn.md).
 
--   **[Quick start tests for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/quick-start-tests-employee-center.md)**
+-   **Quick start tests for Employee Center**
 
     After upgrades and deployments of new applications or integrations, run quick start tests to verify that Employee Center works as expected. If you customized Employee Center, copy the quick start tests and configure them for your customizations.
 

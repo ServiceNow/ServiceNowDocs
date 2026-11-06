@@ -25,7 +25,7 @@ Agents can utilize chat summarization to gain contextual understanding of suppor
 In the ServiceNow Otto for PSDS Admin Console, admins can:
 
 -   Define the trigger that determine when a summary is generated \(chat handoff, quick action, wrap-up\)
--   Define where to display \(CRM Workspace and/or ServiceNow Otto panel\)
+-   Define where to display \(Public Sector Workspace and/or ServiceNow Otto panel\)
 -   Add/remove roles to control who can view the skill
 
 ## Procedure
@@ -82,5 +82,5 @@ Chat summarization is active and customized for the desired workflow.
 
 ## What to do next
 
-Review the performance of the ServiceNow Otto for PSDS chat summarization skill on the AI Admin Hub console. Learn more about tracking your ServiceNow Otto usage at [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/monitoring-now-assist-usage.md).
+Review the performance of the ServiceNow Otto for PSDS chat summarization skill on the AI Admin Hub console. Learn more about tracking your ServiceNow Otto usage at .
 

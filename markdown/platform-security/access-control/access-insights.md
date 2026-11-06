@@ -1,6 +1,6 @@
 ---
 title: Access Insights
-description: The Access Insights helps you gain confidence in your Role or Group assignments.
+description: The Access Insights helps you gain confidence in your role or group assignments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/access-control/access-insights.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Access analyzer, Access Management]
 
 # Access Insights
 
-The Access Insights helps you gain confidence in your Role or Group assignments.
+The Access Insights helps you gain confidence in your role or group assignments.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 

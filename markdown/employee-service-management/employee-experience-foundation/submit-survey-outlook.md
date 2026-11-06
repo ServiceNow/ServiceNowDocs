@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Use, ServiceNow for Microsoft Outlook, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Use, ServiceNow for Microsoft Outlook, EmployeeWorks, Employee Service Management]
 ---
 
 # Submit a survey from an email message

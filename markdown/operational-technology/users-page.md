@@ -21,7 +21,7 @@ The following user accounts are available in the system.
 -   Administrator accounts, which have full access to the Discovery Console for OT's functionality and features
 -   Non-administrator accounts, which have limited access to the Discovery Console for OT
 
-**Note:** Each user who needs access to the console should be given a user account with private credentials. The console application logs user activity that takes place in the system. Sharing accounts or account passwords helps prevent an accurate audit of system activity. \[Prevents?\]
+**Note:** Each user who needs access to the console is given a user account with private credentials. The Console application records user activity in the system. Sharing accounts or account passwords prevents an accurate audit of system activity.
 
 ## Registering the initial user
 
@@ -58,4 +58,6 @@ When creating user accounts, you can assign the following roles.
 |Admin|Can access the full functionality of the Discovery Console for OT. Can create, edit, and remove user accounts.|
 |Reader|Can view the Discovery Console for OT with read-only permissions.|
 |User|Can access the Discovery Console for OT with limited permissions.|
+
+**Note:** For more information, see [Set up a Microsoft Entra ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/users-entra-id-setup.md) next.
 

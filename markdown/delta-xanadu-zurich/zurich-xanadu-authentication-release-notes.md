@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-authentication-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
@@ -304,6 +304,8 @@ Zurich
 -   **Activation information**
 
 Authentication is a ServiceNow AI Platform product that is active by default.
+
+Upgrade consideration: if **glide.authenticate.auth.policy.enabled** was `false` before you upgrade to Zurich and a Pre or Post Authentication Policy Context is configured, the upgrade changes the context's default policy and deletes existing MFA enrollment data. Users must enroll in MFA again. See [\[Placeholder link text to key changes-mfa-enforcement\]](https://www.servicenow.com/docs/access?context=changes-mfa-enforcement&family=zurich&ft:locale=en-US).
 
 
 </td></tr></tbody>

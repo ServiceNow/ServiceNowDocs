@@ -34,7 +34,7 @@ The following table defines each date used in the grants management validation h
 |Proposal close date|The hard deadline for proposal submission. After this date, new submissions are blocked and any proposal still in Draft is auto-cancelled by the "Cancel Expired Grant Proposals" scheduled job.|Publish program|
 |Announcement removal date|The date the public announcement is taken down from the portal.|Publish program|
 |Review task due date|The deadline for the Merit Review activity's review task.|Merit Review|
-|Milestone due date|The deadline for a Performance Milestone defined on the program.|Grant Program setup \(Performance Milestones activity\)|
+|Program Milestone due date|The deadline for a Program Milestone defined on the program.|Grant Program setup \(Program Milestones activity\)|
 |Goals \(Calendar period\)|The calendar period attached to a proposal goal.|Proposal Narrative|
 |Deliverables \(Calendar period\)|The calendar period attached to a Goal's deliverable.|Proposal Narrative|
 
@@ -88,10 +88,6 @@ Result
 
 Message shown
 
-</th><th>
-
-Where the validation lives \(Server/Client logic\)
-
 </th></tr></thead><tbody><tr><td rowspan="4">
 
 Grant Program
@@ -108,10 +104,6 @@ BLOCKED
 
 The program start date cannot be after the \{date name\} \{date\}.
 
-</td><td>
-
-ServiceApplicantPgrmMgmtUtilImpl.onValidateStartAndEndDate
-
 </td></tr><tr><td>
 
 Program end date is before the latest of its other dates \(milestone dates excluded\).
@@ -123,10 +115,6 @@ BLOCKED
 </td><td>
 
 The program end date cannot be before the \{date name\} \{date\}.
-
-</td><td>
-
-ServiceApplicantPgrmMgmtUtilImpl.onValidateStartAndEndDate
 
 </td></tr><tr><td>
 
@@ -140,10 +128,6 @@ BLOCKED
 
 The program start date cannot be before the funding program start date \{date\}.
 
-</td><td>
-
-ServiceApplicantPgrmMgmtUtilImpl.onValidateStartAndEndDate
-
 </td></tr><tr><td>
 
 Program end date is after the funding program's end date.
@@ -155,10 +139,6 @@ BLOCKED
 </td><td>
 
 The program end date cannot be after the funding program end date \{date\}.
-
-</td><td>
-
-ServiceApplicantPgrmMgmtUtilImpl.onValidateStartAndEndDate
 
 </td></tr><tr><td rowspan="3">
 
@@ -176,10 +156,6 @@ BLOCKED
 
 Date can't be before program start date. Date must be in the future.
 
-</td><td>
-
-onValidateDatesOfPublishProgram + isBetweenStartCurrentAndEndDate
-
 </td></tr><tr><td>
 
 A date is earlier than the running-maximum valid date already seen earlier in the sequence \(Announcement Publication ≤ Proposal Publication ≤ Proposal Close ≤ Announcement Removal\)
@@ -194,10 +170,6 @@ Date can't be before \{publish program-date option\}Example: Date can't be befor
 
 Example: Date can't be before proposal close date.
 
-</td><td>
-
-onValidateDatesOfPublishProgram + isBetweenStartCurrentAndEndDate
-
 </td></tr><tr><td>
 
 Any of the four dates is after the Program End Date.
@@ -209,10 +181,6 @@ BLOCKED
 </td><td>
 
 Date can't be after program end date.
-
-</td><td>
-
-onValidateDatesOfPublishProgram + isBetweenStartCurrentAndEndDate
 
 </td></tr><tr><td rowspan="3">
 
@@ -230,10 +198,6 @@ BLOCKED
 
 Date cannot be in the past.
 
-</td><td>
-
-Client script MeritReviewDateCheck
-
 </td></tr><tr><td>
 
 Review task due date is before the Grant Program's own start date.
@@ -246,10 +210,6 @@ BLOCKED
 
 The review task due date cannot be before the program start date.
 
-</td><td>
-
-Next Experience alert \(alert\_2\)
-
 </td></tr><tr><td>
 
 Review task due date is after the Grant Program's own end date.
@@ -261,10 +221,6 @@ BLOCKED
 </td><td>
 
 The review task due date cannot be after the program end date.
-
-</td><td>
-
-Next Experience alert \(alert\_2\)
 
 </td></tr><tr><td>
 
@@ -281,10 +237,6 @@ BLOCKED
 </td><td>
 
 Inline error on the milestone due date field.
-
-</td><td>
-
-Milestones activity client logic \(sn\_gsm\_grnt\_mgmt\)
 
 </td></tr></tbody>
 </table>## Supported customization points

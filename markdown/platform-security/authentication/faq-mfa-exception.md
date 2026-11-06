@@ -18,7 +18,7 @@ FAQ related to MFA enforcement exception and why it’s important.
 
 1.  How can the MFA mandate be relaxed for specific users?
 
-    In the Yokohama release, a new user group, MFA Exempted User Group record is added. Based on the default condition, there’s an MFA policy added, any user who is a member of this group is enforced with MFA.
+    In the Yokohama release, a new user group, MFA Exempted User Group record is added. Based on the default condition, there’s an MFA policy added, any user who is a member of this group is not enforced with MFA.
 
     \[Omitted image "mfa-exempted-group.png"\] Alt text: MFA Exempted User Group
 

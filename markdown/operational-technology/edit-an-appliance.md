@@ -1,6 +1,6 @@
 ---
 title: Edit an Appliance
-description: This section describes what information is available and can be edited on an Appliance record
+description: This section describes what information that is available and that is setup on an Appliance record
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/edit-an-appliance.html
 release: zurich
@@ -12,15 +12,15 @@ breadcrumb: [Appliances page, Using the Discovery Console, Discovery Console for
 
 # Edit an Appliance
 
-This section describes what information is available and can be edited on an Appliance record
+This section describes what information that is available and that is setup on an Appliance record
 
 ## Edit an Appliance
 
 To edit any appliance, select the Name of the appliance. The appliance record opens.
 
-\[Omitted image "image.appliance-record-tabs"\] Alt text: Appliance record
+\[Omitted image "image.appliance-record-tabs"\] Alt text: Collector record
 
-The appliance view has tabs with additional information and options. Select the **Edit** button to edit any of the appliance settings. Select the **Save** button to save your changes or **Cancel** to discard them.
+The appliance view has tabs with additional information and options. Move to a tab and then select the **Edit** button to edit any of the appliance settings. Select the **Save** button to save your changes or **Cancel** to discard them.
 
 The following sections describe the available appliance information shown as tabs in the record.
 

@@ -17,7 +17,7 @@ breadcrumb: [ACC deployment - endpoints, Agent Client Collector, IT Operations M
 
 Agent Client Collector File-Based Discovery \(FBD\) scans file systems on managed endpoints to discover installed software and track file inventories.
 
-FBD runs as a lightweight background process within the existing Agent Client Collector agent. It is configured and controlled entirely from the ServiceNow instance. Administrators define which directories to scan, which files to look for, and how often to scan. The agent discovers matching files, collects metadata such as name, path, size, and version, and sends the results back to the instance where they are stored in the appropriate CMDB and application tables.
+FBD runs as a lightweight background process within the existing Agent Client Collector agent. It is configured and controlled entirely from the ServiceNow instance. Administrators define which directories to scan, which files to look for, and how often to scan. The agent discovers matching files, collects metadata such as name, path, size, and version, and sends the results back to the instance. The results are stored in the appropriate CMDB and application tables.
 
 To activate FBD, navigate to the Discovery Configuration Console \(**All** &gt; **Discovery Definition** &gt; **Configuration Console**\) and in the **File Based Discovery** section, activate the **Enable File Based Discovery** toggle switch.
 

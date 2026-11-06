@@ -1,5 +1,5 @@
 ---
-title: Create a list visualization in the Visualization Designer
+title: Create a Platform Analytics list visualization
 description: Create a list of table records that can be drilled down to from chart interactions. List visualizations display table data in columns. By default, the columns match the default list view of the table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/create-dv-analytics-list.html
@@ -10,7 +10,7 @@ reading_time_minutes: 8
 breadcrumb: [Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
-# Create a list visualization in the Visualization Designer
+# Create a Platform Analytics list visualization
 
 Create a list of table records that can be drilled down to from chart interactions. List visualizations display table data in columns. By default, the columns match the default list view of the table.
 
@@ -354,8 +354,8 @@ Because different configurations can highlight values with different colors, sel
 
 </td></tr></tbody>
 </table>
--   **[Create a list visualization with variable columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-list-dv-with-var-col.md)**  
-You can create a list visualization with variables columns based on a data source or table that has variables associated with it. For example, if an item has a variable called **Storage**, you can create a list report that has a column for the values in this variable.
+-   **[Create a list with variable or question columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-list-dv-with-var-col.md)**  
+You can create a list data visualization with variables or questions as columns based on a data source or table that has variables associated with it. For example, if an item has a variable called **Storage**, you can create a list report that has a column for the values in this variable.
 -   **[Column filters in list components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/column-filters-in-lists.md)**  
 If column filters are activated, viewers of a List can filter the list by the contents of individual columns. Filter options depend on the column type.
 

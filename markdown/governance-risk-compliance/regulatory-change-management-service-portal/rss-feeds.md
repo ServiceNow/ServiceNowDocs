@@ -59,8 +59,8 @@ The following image shows the workflow of RSS feeds are set up to ensure they pu
 
 -   **[General guidelines for RSS feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/general-guidelines-rss-feeds.md)**  
 When an RSS feed isn't working, common errors or issues often stem from improper formatting, server issues, or misconfiguration. An RCM administrator can remediate some of the common errors that users may encounter.
--   **[Regulatory taxonomy overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/regulatory-taxonomy-overview.md)**  
-Regulatory taxonomy simplifies identifying necessary changes in a customer’s regulatory library by enabling algorithms to match incoming regulatory intelligence to existing content using taxonomy terms.
+-   **[Regulatory taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/regulatory-taxonomy-overview.md)**  
+Regulatory taxonomy simplifies identifying necessary changes in a customer's regulatory library by enabling algorithms to match incoming regulatory intelligence to existing content using taxonomy terms.
 
 **Parent Topic:**[Exploring Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/what-is-rcm.md)
 

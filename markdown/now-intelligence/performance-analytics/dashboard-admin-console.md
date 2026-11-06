@@ -18,6 +18,8 @@ The Performance Analytics Admin Console contains several features for dashboard 
 
 ## Explore and Manage
 
+**Note:** This topic refers to Core UI dashboards. If you are looking for information about the newer Platform Analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center-dashboards.md).
+
 Navigate to **Performance Analytics** &gt; **Admin Console**.
 
 The Explore and Manage dashboard contains tools to find, modify, and create dashboards and indicator-related records. Click the links to manage Dashboard Groups and Dashboards.

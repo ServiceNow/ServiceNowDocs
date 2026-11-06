@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [Create a business contact account from license or permit application data, Create a business contact account]
-breadcrumb: [License and Permit Playbook, Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [License and Permit Administration, Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Create a business contact account from license or permit application data
@@ -21,7 +21,7 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.relationship\_agent, sn\_gsm.
 
 ## Procedure
 
-1.  Navigate to the CRM Workspace and select **lnteractions** &gt; **All**.
+1.  Navigate to the Public Sector Workspace and select **lnteractions** &gt; **All**.
 
 2.  Select the interaction number to open an existing interaction record, or select the new icon \[Omitted image "new-icon.png"\] Alt text: New icon. to create an interaction.
 

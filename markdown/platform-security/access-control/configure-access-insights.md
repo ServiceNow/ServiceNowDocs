@@ -26,7 +26,7 @@ The following procedure describes the steps for enabling Access Insights.
 
 1.  Navigate to **All** &gt; **Access Analyzer** &gt; **Analyze Access**.
 
-2.  Select **Settings** tab.
+2.  Select the **Settings** tab.
 
 3.  Select **Access Insights**.
 
@@ -41,5 +41,5 @@ The following procedure describes the steps for enabling Access Insights.
 
 ## Result
 
-The Access Insights feature is enabled and displayed when you're viewing the **Role Hierarchy** while comparing user access to a resource. To know more about using Access Insights, see [Use Access Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/use-access-insights.md).
+The Access Insights feature is enabled and displayed when you're viewing the **Role Hierarchy** while comparing user access to a resource. To learn more about using Access Insights, see [Use Access Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/use-access-insights.md).
 

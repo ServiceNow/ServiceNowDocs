@@ -8,7 +8,7 @@ product: Reporting
 classification: reporting
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Administering reports, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
@@ -21,6 +21,10 @@ Configure rules for how numerical values are displayed in a multilevel pivot tab
 Role required: report\_admin or admin
 
 **Note:** It isn’t possible to apply coloring rules to the Total cells in multilevel pivot reports.
+
+## About this task
+
+**Important:** This topic refers to Core UI reports. For information about color rules in Platform Analytics pivot table data visualizations, see [Create a pivot table data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-dv-pivot-ac.md) and [Create coloring rules for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/colors-dv.md).
 
 ## Procedure
 

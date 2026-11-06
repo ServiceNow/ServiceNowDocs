@@ -26,7 +26,7 @@ ServiceNow Otto for IRM is supported starting from the Yokohama Patch 3 release.
 
 ## Supported language models
 
-You can use Azure OpenAI, Google Gemini, or Anthropic Claude on AWS as the AI model providers for supported Now Assist capabilities. Model availability depends on the feature and your ServiceNow Otto subscription. For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Azure OpenAI, Google Gemini, or Anthropic Claude as the AI model providers for supported Now Assist capabilities. Model availability depends on the feature and your ServiceNow Otto subscription. For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 As of version 22.4.0, ServiceNow Otto for IRM supports Google Gemini 3.5 Flash, OpenAI GPT 5.1, and OpenAI GPT 5.4 mini models in addition to the previously supported models. The default model for the Issue Summarization skill is Azure OpenAI gpt-5.4-mini.
 

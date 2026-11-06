@@ -18,6 +18,8 @@ An instance can store credentials used by Discovery, Orchestration, and Service 
 
 The instance maintains a unique identifier for each credential, the credential type \(such as SSH, SNMP, or Windows\), and any credential affinities. The MID Server obtains the credential identifier from the instance, and then uses a customer-provided JAR file to resolve the identifier from the repository into a usable credential. Currently, the ServiceNow® platform supports the use of the [CyberArk vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/c_CyberArkCredStorageIntegrate.md) or BeyondTrust for external credential storage.
 
+Enabling external credential storage does not disable instance-stored credentials. Both can be used at the same time. The External credential store field on each credential determines where the MID Server resolves it: when selected, from the vault; when cleared, the MID Server downloads it from the instance.
+
 ## External credential storage architecture
 
 \[Omitted image "ExternalCredentialStorageArchitecture.png"\] Alt text: ServiceNow external credential storage architecture

@@ -7,7 +7,7 @@ release: zurich
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Email FAQs and troubleshooting, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer]
+breadcrumb: [Email logs and diagnostics, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer]
 ---
 
 # Email diagnostics
@@ -174,7 +174,7 @@ Date and time when the reader job last ran.
 The result of the test connection to the accounts. The connection is tested every time you load the page.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Email FAQs and troubleshooting notification emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/troubleshooting-notification-emails.md)
+</table>**Parent Topic:**[Notification email logs and diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/troubleshooting-notification-emails.md)
 
 **Related topics**  
 

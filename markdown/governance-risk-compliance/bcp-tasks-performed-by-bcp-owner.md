@@ -14,7 +14,7 @@ breadcrumb: [Manage, Business Continuity Management, Governance, Risk, and Compl
 
 Perform the structured workflows that are outlined in this section to create a business continuity plan in Business Continuity Workspace \(also known as BCM Configurable Workspace\).
 
-Business continuity plan owner creates a business continuity plan as per the plan template, adds an asset and scope to the plan, creates documentation sections, adds the related plan and recovery team, adds a loss scenario with recovery strategy and recovery task, and generates and saves the PDF of the analysis for reference.
+The business continuity plan owner creates a plan from the plan template, then adds an asset and scope to the plan. The owner also creates documentation sections, adds the related plan and recovery team, and adds a loss scenario with a recovery strategy and recovery task. After completing these steps, the owner generates and saves the PDF of the analysis for reference.
 
 -   For information on creating a business continuity plan, see [Create a business continuity plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-bcp-plan-in-uib-ws.md). For information on adding an asset and scope to the plan, see [Add asset and scope to the BCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/add-asset-plan-scope-for-bcp-uib-ws.md).
 -   For information on creating a documentation section, see [Create documentation sections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-documentation-section-bcp.md). For information on adding the related plan and recovery team, see [Add associated plans and recovery teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/add-related-plans-recovery-teams-bcp-uib-ws.md).
@@ -23,7 +23,7 @@ Business continuity plan owner creates a business continuity plan as per the pla
 
 ## Hierarchical plan structure enhancement
 
-Starting with BCM, version 9.x.x, the hierarchical structure of parent-child plans verifies logical organization and execution of recovery tasks. With this enhancement, when an event is triggered, only relevant child plans are brought into the scope, allowing plan execution and dependencies to cascade downward in a controlled manner.
+Starting with BCM, version 9.x.x, the hierarchical structure of parent-child plans verifies logical organization and execution of recovery tasks. When an event is triggered, only relevant child plans are brought into scope. Plan execution and dependencies cascade downward in a controlled manner.
 
 Parent plans are excluded to prevent the inclusion of unrelated scenarios that may require subsequent cancellation. This approach confirms that only relevant plans are considered, maintaining a focused and efficient recovery process.
 
@@ -41,7 +41,7 @@ By introducing this hierarchical structure, the system provides an organized and
 
 Beginning with the Xanadu release, the handling of nested related plans has improved. This enhancement helps in managing potential cyclic dependencies by detecting and highlighting any problems that could cause cyclic dependencies during the execution of tasks.
 
-Additionally, the refined recovery timelines enable you to monitor the planned and actual timeframes. A task may be applied to all assets within a plan or to none at all, facilitating an accurate aggregation of recovery timeframes across various levels, including assets, tasks, and plans.
+Additionally, the refined recovery timelines enable you to monitor the planned and actual timeframes. A task can apply to all assets within a plan or to none. This supports accurate aggregation of recovery timeframes across assets, tasks, and plans.
 
 ## Additional information on Business Continuity Planning
 

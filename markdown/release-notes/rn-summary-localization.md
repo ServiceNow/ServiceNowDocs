@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/rn-summary-localization.html
 release: zurich
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 2
+last_updated: "2026-11-04"
+reading_time_minutes: 3
 breadcrumb: [Release notes summaries for Zurich features, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
 
@@ -77,6 +77,17 @@ Continual Improvement Management
 </td><td>
 
 Localization is applicable to CIM in all languages supported by the ServiceNow AI Platform.
+
+</td></tr><tr><td>
+
+Decision tables
+
+</td><td>
+
+-   ****
+
+Decision tables in Workflow Studio support the Localization Framework. However, editing decision tables in Excel isn’t supported for localized content, so the Excel editing feature is available only on instances that use English.
+
 
 </td></tr><tr><td>
 

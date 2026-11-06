@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Portal performance optimization, Admin configurations, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Portal performance optimization, Admin configurations, Configure, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Defer load in Employee Center

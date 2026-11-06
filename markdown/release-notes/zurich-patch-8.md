@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/zurich-pat
 release: zurich
 topic_type: reference
 last_updated: "2026-04-07"
-reading_time_minutes: 70
+reading_time_minutes: 69
 breadcrumb: [Available patches and hotfixes, Learn about the Zurich release, Zurich release notes]
 ---
 
@@ -42,31 +42,31 @@ Zurich Patch 8 includes fixes for security-related problems that affected certai
 
     The ServiceNow® Live Connect enables RaptorDB Pro users to bring their Business Intelligence \(BI\) tools to ServiceNow. Users can perform BI analytics on their ServiceNow data without mass data export. Live Connect is only available with RaptorDB Pro.
 
--   **[Getting started with ServiceNow Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/getting-started-with-servicenow-sql-api.md)**
--   **[Live Connect architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/sql-api-architecture.md)**
--   **[Supported SQL functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/supported-sql-functions.md)**
--   **[Configuring Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/configuring-sql-api.md)**
--   **[Assign roles and create service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/create-service-account.md)**
--   **[Create Access Control Lists \(ACLs\) for Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/create-acls-sql-api.md)**
--   **[Create IP filter criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/create-ip-filter-criteria.md)**
--   **[Download the Live Connect drivers on a client machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/download-sql-api-drivers.md)**
--   **[Install the ServiceNow Live Connect ODBC driver on a client machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/install-odbc-driver.md)**
--   **[Configure ServiceNow Live Connect ODBC driver on a client machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/configure-odbc-driver.md)**
--   **[Test Live Connect ODBC driver connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/test-sql-api-odbc-driver-connection-using-interactive-sql.md)**
--   **[Configure ServiceNow Live Connect JDBC driver on a client machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/configure-jdbc-driver.md)**
--   **[Route Live Connect calls to Read Replica](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/routing-sql-api-calls-to-read-replica.md)**
--   **[Use cases for Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/common-use-cases-for-sql-api.md)**
--   **[Integrate Live Connect Drivers with third-party BI tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/configure-drivers-bi-tools.md)**
--   **[Connect Power BI Desktop to ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/connect-power-bi-odbc.md)**
--   **[Connect DB Visualizer to JDBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/connect-dbvisualizer-jdbc.md)**
--   **[Live Connect reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/troubleshooting.md)**
--   **[Minimum requirements and supported software for Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/minimum-requirements-and-supported-softwares.md)**
--   **[Usage limitations for Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/usage-limitations.md)**
--   **[Define a REST API schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/define-scripted-rest-api-schema.md)**
+-   ****
+-   ****
+-   ****
+-   ****
+-   ****
+-   ****
+-   ****
+-   ****
+-   ****
+-   ****
+-   ****
+-   ****
+-   ****
+-   ****
+-   ****
+-   ****
+-   ****
+-   ****
+-   ****
+-   ****
+-   ****
 
     The following procedure describes the process for manual schema definition. For details about automatically generating request schema definitions in non-production instances, see .
 
--   **[Automatically generate API request definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/autogenerate-api-request-definitions.md)**
+-   ****
 
     Use sample requests made to an API resource to generate request header associations, query parameter associations, and a request schema for that resource.
 

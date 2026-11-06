@@ -1,6 +1,6 @@
 ---
 title: Notification Rules page
-description: The Notification Rules page shows the notification rules that the system uses the sensor notifications on the Notifications page.
+description: The Notification Rules page shows the notification rules that were setup for the Console. Notifications are displayed on the Notification page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/notification-rules-page.html
 release: zurich
@@ -12,9 +12,9 @@ breadcrumb: [Using the Discovery Console, Discovery Console for OT, Operational 
 
 # Notification Rules page
 
-The Notification Rules page shows the notification rules that the system uses the sensor notifications on the Notifications page.
+The Notification Rules page shows the notification rules that were setup for the Console. Notifications are displayed on the Notification page.
 
-\[Omitted image "image.notification-rules-page-smaller"\] Alt text: Notification Rules page
+\[Omitted image "image.notification-rules-page-smaller"\] Alt text: Notification rules
 
-See [Add a Notification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/adding-notification-rule.md) for more information.
+For more information, see [Add a Notification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/adding-notification-rule.md).
 

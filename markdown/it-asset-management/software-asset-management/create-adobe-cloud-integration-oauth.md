@@ -35,15 +35,15 @@ If you’re using Software Asset Workspace, the option to create the Adobe Cloud
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d289654e106">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d291285e106">
 
 Interface
 
-</th><th align="left" id="d289654e109">
+</th><th align="left" id="d291285e109">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d289654e115">
+</th></tr></thead><tbody><tr><td id="d291285e115">
 
 **Core UI**
 
@@ -54,7 +54,7 @@ Action
 3.  Select **Adobe Cloud Integration Profile**.
 
 
-</td></tr><tr><td id="d289654e158">
+</td></tr><tr><td id="d291285e158">
 
 **Software Asset Workspace**
 
@@ -147,7 +147,7 @@ After creating an integration profile, view information about the profile in the
 -   Subscription Identifier Exclusion Rule
 -   Subscription User Exclusion Rule
 
-After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/subscription-exclusions.md).
+After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/subscription-exclusions.md).
 
 **Related topics**  
 

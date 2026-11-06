@@ -88,7 +88,7 @@ For more information on editing of tasks, see [Structured workflows for exercise
 
     **Note:** When you add an ad-hoc task to the exercise event that is in the **Work in progress** state and if the activated plan is in the **Work in progress** state, the tasks get moved to the **Open** state. If the activated plan is the **Pending** state, the task moves to the **Pending** state.
 
-    For more information on the fields in the New Event Task form, see [Create New Event Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-event-task-form-uib-ws.md).
+    For more information on the fields in the New Event Task form, see [Create Event Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-event-task-form-uib-ws.md).
 
     **Note:** You cannot create an ad-hoc task for the activated plans that are in **Closed Complete** or **Closed Incomplete** state.
 
@@ -98,7 +98,9 @@ For more information on editing of tasks, see [Structured workflows for exercise
 
 8.  To exclude specific tasks from time calculation, select the **Do not include in time calculation** option.
 
-    The actual time taken is then calculated based on the minimum start time and maximum end time of included tasks, while the total effort is the sum of the effort for each task, excluding those with the check box checked.
+    The actual time taken is calculated based on the minimum start time and maximum end time of included tasks.
+
+    The total effort is the sum of effort for each task, excluding tasks with **Do not include in time calculation** selected.
 
 9.  Enter the Planned start date in the event and select **Save**.
 
@@ -110,7 +112,7 @@ For more information on editing of tasks, see [Structured workflows for exercise
 
 10. To indicate the achieved recovery level of the impacted asset of the task, update **Asset recovery level**.
 
-    Previously, the assets were automatically marked as Recovered only when all plan tasks were completed, even those assets in later phases such as Return to Normal or Post-Incident Review. This approach delayed visibility into operational readiness. For example, an asset could be functionally available during the Recovery phase, but the system wouldn’t reflect the status until all tasks were done.
+    Previously, assets were automatically marked as Recovered only when all plan tasks were completed. This included assets in later phases such as Return to Normal or Post-Incident Review. This approach delayed visibility into operational readiness. For example, an asset could be functionally available during the Recovery phase. The system did not reflect that status until all tasks were done.
 
     Starting with BCM release 9.x.x and later, the asset recovery status has been enhanced to provide granular tracking. Completing specific tasks now automatically updates the corresponding event asset state.
 
@@ -137,8 +139,8 @@ For more information on editing of tasks, see [Structured workflows for exercise
     The event tasks are displayed in the **Event tasks** tab.
 
 
--   **[Create New Event Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-event-task-form-uib-ws.md)**  
-Use the Create New Event Task form in BCM UIB Workspace to add details about an event task.
+-   **[Create Event Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-event-task-form-uib-ws.md)**  
+Use the Create Event Task form in BCM UIB Workspace to add details about an event task.
 
 **Parent Topic:**[Structured workflows for exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
 

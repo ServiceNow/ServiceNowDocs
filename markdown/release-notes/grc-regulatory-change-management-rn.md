@@ -22,7 +22,7 @@ The ServiceNow® Regulatory Change Management application enables you to check u
 -   Create action tasks when a regulatory task is in the New, Work in Progress, or Implementation states to drive progress. You can also assign responsibilities to help ensure that the compliance actions are executed in a timely manner.
 -   Close regulatory alerts manually when all associated tasks and compliance obligations have been successfully addressed. You can verify that each related item meets the closure criteria before confirming that the alert is resolved.
 
-See [Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/reg-change-mgmt-landing-page.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -77,27 +77,27 @@ The ServiceNow® Regulatory Change Management application enables you to check u
 
 ### What's new
 
--   **[Add multiple regulatory tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/regulatory-change-tasks.md)**
+-   **Add multiple regulatory tasks**
 
     Add multiple regulatory tasks to an alert. Each task can represent a distinct area of impact or required action. By organizing work into separate change tasks, your teams can assign responsibilities, track progress, and manage dependencies more effectively.
 
--   **[Add multiple source document import tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/source-document-import-tasks.md)**
+-   **Add multiple source document import tasks**
 
     Associate multiple source document import tasks with one regulatory alert to simplify the management and tracking of your regulatory content ingestion. Each import task adds the relevant documents to the regulatory library to help ensure that all source materials that are related to the alert are accurately captured and organized. You can help to improve traceability throughout the regulatory change management process.
 
--   **[Close a regulatory task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/regulatory-change-tasks.md)**
+-   **Close a regulatory task**
 
     Close a regulatory task automatically when it's approved. You can also manually close a regulatory task while it's in the Implementation state, if all the associated action tasks are completed and closed. By closing a task manually, you get flexibility in managing the regulatory changes that don’t require formal approval workflows.
 
--   **[Reopen action tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/action-tasks.md)**
+-   **Reopen action tasks**
 
     Reopen the action tasks for a regulatory task when it's rejected and transitions back to the Implementation state. You can review and rework the tasks to address the feedback or incorporate the updated requirements. You can also modify and resubmit the reopened action tasks so that the implementation aligns with regulatory expectations before you resubmit the change task.
 
--   **[Close a regulatory alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/list-view-of-reg-alerts.md)**
+-   **Close a regulatory alert**
 
     Close a regulatory alert manually after all the associated regulatory tasks are complete. By closing the alert, you help to ensure accurate record-keeping by signaling that a compliance life-cycle for the specific regulatory alert is complete.
 
--   **[Work on action tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/action-tasks.md)**
+-   **Work on action tasks**
 
     Initiate and complete the action tasks independently without requiring prior approval from users who are assigned with the `sn_grc_reg_change.manager` role. You can execute assigned responsibilities in a timely manner and reduce unnecessary approval bottlenecks. The access to action tasks remains governed by user permissions and role-based access controls to ensure proper accountability and oversight.
 
@@ -108,16 +108,16 @@ The ServiceNow® Regulatory Change Management application enables you to check u
 
     Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
--   **[Default column list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/action-tasks.md)**
+-   **Default column list**
 
     Starting with the Zurich release, the default column configuration for regulatory tasks and action tasks, linked to a regulatory alert, has been updated. This change enhances usability and ensures better visibility of the key information that is relevant to each task type.
 
 
--   **[Tasks widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/list-view-of-reg-alerts.md)**
+-   **Tasks widget**
 
     The overview page of a regulatory alert includes a newly added Tasks widget that enables you to get more visibility into related activities. This widget displays the total number of associated action tasks and change tasks that are linked to the specific regulatory alert. By using this widget, you can assess the level of effort that is required for compliance.
 
--   **[Workflow of regulatory task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/reg-change-task.md)**
+-   **Workflow of regulatory task**
 
     A regulatory task progresses through the following states:
 
@@ -128,7 +128,7 @@ The ServiceNow® Regulatory Change Management application enables you to check u
     -   Completed
     While in the Implementation state, requesting approval is optional. If all associated action tasks are completed, the regulatory task can be closed directly from the Implementation state without requiring additional approval.
 
--   **[Workflow of source document import task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/reg-change-task.md)**
+-   **Workflow of source document import task**
 
     A source document task progresses through the following states:
 
@@ -137,7 +137,7 @@ The ServiceNow® Regulatory Change Management application enables you to check u
     -   Work In Progress
     -   Implementation
     -   Completed.
--   **[Create action tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/manage-reg-action-tasks.md)**
+-   **Create action tasks**
 
     You can create action tasks for a regulatory task when the task is in any of the following states:
 

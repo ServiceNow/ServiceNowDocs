@@ -172,7 +172,7 @@ Total resolved findings
     -   **Findings by proposed fix applied**
     -   **Findings that were resolved manually**
 
- **Note:** The Scan Engine property **Track resolved findings** must be active to populate this chart. See [Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-scan-engine-properties.md).
+ **Note:** The Scan Engine property **Track resolved findings** must be active to populate this chart. See [Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-scan-engine-properties.md).
 
 </td></tr><tr><td>
 

@@ -8,7 +8,7 @@ product: UI Builder
 classification: ui-builder
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 10
+reading_time_minutes: 11
 breadcrumb: [Customize UI Builder pages using components, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
 
@@ -263,7 +263,7 @@ Role required: admin
 
 ### About this task
 
-A page collection is a group of prebuilt globally available pages. Use page collection tabs to render each page in a page collection as a tab. You can select an existing page collection or can create your own. A controller is required to add a page collection. For more information about page collections, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/page-collections.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/page-collections.md).
+A page collection is a group of prebuilt globally available pages. Use page collection tabs to render each page in a page collection as a tab. You can select an existing page collection or can create your own. A controller is required to add a page collection. For more information about page collections, see [Lux Page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/page-collections.md).
 
 ### Procedure
 

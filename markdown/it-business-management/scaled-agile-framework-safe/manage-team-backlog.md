@@ -125,6 +125,8 @@ In SAFe, the main portion of sprint planning occurs during the Big Room Planning
 
 6.  To start a sprint, click **Start** that appears at right corner of the first or top sprint.
 
+    You can start a sprint only when its program increment is current. A team can have only one current sprint at a time, so complete the current sprint before you start the next one.
+
 7.  To complete a sprint, click **Complete Sprint** that appears at right corner of the first or top sprint.
 
     A dialog box appears indicating the number of completed and incomplete stories in the sprint. Move incomplete stories, if any, to the backlog or a future sprint. Click **Complete**.

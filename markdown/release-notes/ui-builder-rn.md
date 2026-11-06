@@ -20,7 +20,7 @@ The ServiceNow® UI Builder application is a web user interface builder for buil
 -   Add Now Assist skills to enhance your page, component, or controller with generative AI capabilities.
 -   Get instant conversational help within UI Builder through the Now Assist Panel.
 
-See [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder-overview.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -50,26 +50,26 @@ The ServiceNow® UI Builder application is a web user interface builder for buil
 
 ### What's new
 
--   **[Build pages and gain page insights using the Now Assist panel in UI Builder.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/using-ui-builder-agent.md)**
+-   **Build pages and gain page insights using the Now Assist panel in UI Builder.**
 
     As of UI Builder Version 28.2, use Now Assist to add components, bind data, adjust layouts, and get page insights such as number of components, data resource information, and access permissions.
 
--   **[Add test values in Component Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/component-builder.md)**
+-   **Add test values in Component Builder**
 
     As of UI Builder Version 28.2, define simulated page parameters to preview and validate how customer components behave during development.
 
 
 ### What's changed
 
--   **[Use the floating Now Assist panel to streamline your workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/uib-now-assist-panel.md)**
+-   **Use the floating Now Assist panel to streamline your workflow**
 
     As of UI Builder version 28.2, the fixed Now Assist panel has been replaced with a drag-enabled floating panel improving layout flexibility and workflow visibility.
 
--   **[Specify your page type in the Create a page wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/create-page.md)**
+-   **Specify your page type in the Create a page wizard**
 
     As of UI Builder version 28.2, the Create a page wizard now includes a page**Type** dropdown field. This new field helps you to later identify and filter important pages within the Experience view list, especially helpful in large experiences with many pages.
 
--   **[Explore the newly enhanced Experience view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/nav-uib.md)**
+-   **Explore the newly enhanced Experience view**
 
     As of UI Builder version 28.2, the Experience view has improved usability in the following ways:
 
@@ -84,11 +84,11 @@ The ServiceNow® UI Builder application is a web user interface builder for buil
 
 ### What's new
 
--   **[Utilize AI on pages you are building](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/add-skill.md)**
+-   **Utilize AI on pages you are building**
 
     Easily add generative AI capabilities to any page, component, or controller
 
--   **[Get conversational help with the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/uib-now-assist-panel.md)**
+-   **Get conversational help with the Now Assist panel**
 
     Ask questions directly in the Now Assist panel to receive immediate AI-driven guidance without leaving UI Builder.
 
@@ -99,18 +99,18 @@ The ServiceNow® UI Builder application is a web user interface builder for buil
 
 ### What's new
 
--   **[Build and customize components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/component-builder.md)**
+-   **Build and customize components**
 
     Build custom components and configure them to be used across pages and experiences.
 
 
 ### What's changed
 
--   **[Add events to track components with unsaved changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/dirty-state-event.md)**
+-   **Add events to track components with unsaved changes**
 
     Use an event to quickly identify modified components.
 
--   **[Configure alerts to auto-dismiss](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/uib-configure-alerts.md)**
+-   **Configure alerts to auto-dismiss**
 
     Enable alerts to auto-dismiss across an experience by configuring all of them in the experience settings or individually through an event.
 

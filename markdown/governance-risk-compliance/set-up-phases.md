@@ -1,6 +1,6 @@
 ---
 title: Set up the phases
-description: Set up the phases in the Business Continuity Management application to map them to recovery and event tasks effectively. Once the phases are set up, BCM users can tag these phases to recovery tasks and event tasks and execute them in the set order, ensuring a logical execution sequence.
+description: Set up phases in the Business Continuity Management application to map them to recovery and event tasks. After setup, you can tag phases to tasks and execute them in order.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/set-up-phases.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [Configure, Business Continuity Management, Governance, Risk, and Co
 
 # Set up the phases
 
-Set up the phases in the Business Continuity Management application to map them to recovery and event tasks effectively. Once the phases are set up, BCM users can tag these phases to recovery tasks and event tasks and execute them in the set order, ensuring a logical execution sequence.
+Set up phases in the Business Continuity Management application to map them to recovery and event tasks. After setup, you can tag phases to tasks and execute them in order.
 
 ## Before you begin
 
@@ -66,6 +66,8 @@ For information on mapping event tasks to phases, see [Mapping event tasks to ph
 
 4.  Select **Submit**.
 
-    The configured phase is shown in the list view of the Phases module and it can be tagged to the recovery and event tasks, allowing for more effective tracking and management of these tasks.
+    The phase displays in the Phases module.
+
+    Tag the phase to recovery and event tasks to track and manage them.
 
 

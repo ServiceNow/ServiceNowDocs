@@ -18,7 +18,7 @@ Track and manage the relationship between demands and organizational goals or ta
 
 ## About this task
 
-To create, edit, or remove goal/target relationship records, you can also use the **Add secondary goals** Playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/use-playbooks-in-dw.md).
+To create, edit, or remove goal/target relationship records, you can also use the **Add secondary goals** Playbook activity. For more information, see [Use playbook for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/use-playbooks-in-dw.md).
 
 ## Before you begin
 

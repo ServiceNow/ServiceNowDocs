@@ -7,8 +7,9 @@ release: zurich
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
+keywords: [predictive intelligence change, change risk prediction, standard change candidates]
 breadcrumb: [Configure, Change Management, IT Service Management]
 ---
 
@@ -37,7 +38,7 @@ The Solutions definitions for Predictive Intelligence for Change Management capa
 -   Change Management - Risk Intelligence plugin \(com.snc.change\_management.ml.risk\)
 -   Change Management - Standard Change Template Intelligence plugin \(com.snc.change\_management.ml.sctp\)
 
-**Note:** Predictive intelligent for Change Management plugins can be requested through the Now Support Customer Service system.
+**Note:** Predictive intelligence for Change Management plugins can be requested through the Now Support Customer Service system.
 
 For more information, see [Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/change-plugins.md).
 

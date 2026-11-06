@@ -16,7 +16,7 @@ You can schedule an auto-update of the dependencies in the business impact analy
 
 ## Scheduling an auto-update of the dependencies
 
-The BCM administrators can schedule an auto-update of the BIA dependencies in the Impact analysis dependency update configuration module, based on the source data and relationships in the CMDB. You can access the auto-update configuration module by navigating to **Business Continuity Workspace** &gt; **General Administration** &gt; **Impact analysis dependency update configuration**.
+The BCM administrators can schedule an auto-update of the BIA dependencies based on source data and CMDB relationships. You can access the auto-update configuration module by navigating to **Business Continuity Workspace** &gt; **General Administration** &gt; **Impact analysis dependency update configuration**.
 
 The Impact analysis dependency update configuration module is shown in the example.
 
@@ -34,7 +34,7 @@ For more information on setting up the Impact analysis dependency update configu
 
 ## Using the updated dependencies with the Xanadu release
 
-Beginning with the Xanadu release, you can use the updated dependencies from the latest BIA record to conduct a dependency assessment on an asset. Information from the columns labeled Related item BIA, Related item Recovery Time Objective \(RTO\), Related item Recovery Point Objective \(RPO\), and Related item Recovery Tier is used to ascertain the required recovery timeframe and data backup needs, which are then displayed in the Required Recovery Timeframe and Required Data Backup columns of the BIA record.
+Use the updated dependencies from the latest BIA record to conduct a dependency assessment on an asset. The Related item BIA, Related item Recovery Time Objective \(RTO\), Related item Recovery Point Objective \(RPO\), and Related item Recovery Tier determine recovery timeframe and data backup needs. Results appear in the Required Recovery Timeframe and Required Data Backup columns of the BIA record.
 
 For more information on the source BIA records option in the Dependency configuration modules, see [Set up Planning dependency update configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/conf-plan-dep-update-confi-module.md).
 
@@ -54,10 +54,10 @@ The scheduled job processes a workflow to check for the changes in the relations
 
     **Note:** By default, the scheduled job checks all the BIA records that are not in the **Archived** state for any updated dependencies.
 
-2.  The scheduled job refers to the filter condition that is set in the configuration \(Impact analysis dependency update configuration module\). If the condition matches the BIA record, the scheduled job fetches and stores the dependencies for the BIA in the snapshot record, according to the sources defined in the configuration. If the filter condition does not match the BIA record, the application skips the record.
+2.  The scheduled job refers to the filter condition set in the configuration \(Impact analysis dependency update configuration module\). If the condition matches the BIA record, the scheduled job fetches and stores dependencies for the BIA in the snapshot record. The sources defined in the configuration determine which dependencies are fetched. If the filter condition does not match the BIA record, the application skips the record.
 3.  The application combines the assets list into a single list that is based on the priority defined in the Impact analysis dependency update configuration module. The application compares the asset list with the existing asset list and assigns either the **Added**, **Updated**, or **Deleted** state to each asset.
 4.  The application also compares the new assets to the assets listed in the Element definition and verifies the element definition condition. The application creates a snapshot of the asset and auto-completes the dependency updates in the Dependency snapshot record.
-5.  When the **Send notification** option is set to **True** in the Impact analysis dependency update configuration module, the users of the BIA record set in the configuration are notified about the dependency updates through the scheduled job.
+5.  When the **Send notification** option is set to **True** in the Impact analysis dependency update configuration module, the scheduled job notifies BIA record users about dependency updates.
 6.  When the **Auto-update dependencies** option is set to **True** in the Impact analysis dependency update configuration module, the scheduled job automatically applies the dependencies snapshot to the BIA record.
 7.  As the final step, the scheduled job updates the BIA record according to the fields to be updated in the configuration.
 

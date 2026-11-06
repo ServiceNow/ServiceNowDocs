@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/gov-pol-managing-policies.html
 release: zurich
 topic_type: concept
-last_updated: "2026-08-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Policies, Explicit Block, Threat Response]
 breadcrumb: [Controlling AI asset usage, Govern AI assets, AI Control Tower, Enable AI experiences]
@@ -21,5 +21,5 @@ Create a Threat Response policy to automatically contain an agent when a detecte
 
 Both policy types work the same way once published. Edit a policy to change what it enforces, clone it to try a variant without changing the original, or delete it to end its enforcement entirely. A policy has no pause or disable state, so deleting it is the only way to stop it from running.
 
-Once a policy is published, confirm it's doing what you designed it to do. See [Reviewing policy enforcement in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md).
+Once a policy is published, confirm it's doing what you designed it to do. See [Reviewing policy enforcement activities in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md).
 

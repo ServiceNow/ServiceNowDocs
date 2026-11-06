@@ -56,7 +56,7 @@ Based on the tag policies that you create, you can preview remediation flows and
 
 7.  Select the **Generate Keys** related link, if you have run the **Tag Key Policy**.
 
-    The **Generate Keys** related link appears only for the **Tag Key Policy** policy type. Because the policy specifies the expected tags, you can select the **Generate Keys** related link to generate the keys that you need for remediation instead of manually adding them in the Tag Remediation Keys related list.
+    The **Generate Keys** related link appears only for the **Tag Key Policy** policy type. Because the policy specifies the expected tags, select the **Generate Keys** related link to generate the keys needed for remediation. This avoids manually adding them in the Tag Remediation Keys related list.
 
 8.  Select the **Generate Key Values** related link, if you have run the **Tag Key &amp; Value Policy**.
 
@@ -69,5 +69,5 @@ Based on the tag policies that you create, you can preview remediation flows and
 
 ## Result
 
-Based on the tag audit result findings and the Tag Remediations Keys that you create, the remediation flow adds missing tags to the non-compliant CIs to achieve policy compliance.
+Based on the tag audit result findings and the Tag Remediations Keys that you create, the remediation flow adds missing tags to the non-compliant CIs. This achieves policy compliance.
 

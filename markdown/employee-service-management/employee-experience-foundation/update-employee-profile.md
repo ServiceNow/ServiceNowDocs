@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Use, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Use, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # View employee profile

@@ -18,6 +18,8 @@ Display the findings about the accounts that have not accessed any API in 100 da
 
 Accounts with no login for 100 days displays the non human identity accounts that have not accessed any API in 100 days.
 
+The list uses a 99-day window, so it includes accounts that have not accessed any API in the last 99 days.
+
 **Note:** Any changes made to the record displayed on this page are immediately updated in the list, risk score resulting from those changes will be reflected the following day.
 
 \[Omitted image "mic-no-login-100-days.png"\] Alt text: No login for 100 days

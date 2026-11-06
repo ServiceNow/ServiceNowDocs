@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure, ServiceNow Add-in for Microsoft 365, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configure, ServiceNow Add-in for Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure single sign-on for ServiceNow Add-in for Microsoft 365

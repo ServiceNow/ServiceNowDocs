@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2025-12-01"
 reading_time_minutes: 1
-breadcrumb: [Configure, ServiceNow for Microsoft Outlook, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configure, ServiceNow for Microsoft Outlook, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure system properties to update the survey question limit

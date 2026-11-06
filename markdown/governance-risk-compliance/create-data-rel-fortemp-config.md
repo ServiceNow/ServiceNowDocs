@@ -20,7 +20,7 @@ Role required: sn\_grc\_doc\_design.admin and sn\_bcm.admin
 
 ## About this task
 
-When you create data relationships, you can specify how selected records, such as plans to recovery teams or plans to related assets, are connected to the table \(for example, \[sn\_bcp\_plan\]\) in the template relationship registry. You can then establish a path to navigate to these respective records. You can create as many relationships as needed.
+When you create data relationships, you can specify how selected records are connected to a table in the template relationship registry. For example, plans can be connected to recovery teams or related assets in the \[sn\_bcp\_plan\] table. You can then establish a path to navigate to these records and create as many relationships as needed.
 
 ## Procedure
 

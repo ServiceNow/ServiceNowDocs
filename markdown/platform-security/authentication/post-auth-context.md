@@ -8,7 +8,7 @@ product: Authentication
 classification: authentication
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Authentication policy contexts, Adaptive authentication, Authentication, Access Management]
 ---
 
@@ -78,7 +78,11 @@ Deny Policy
 The policy used for this context uses. This field appears only when the **Default Policy** field is set to **Deny Policy**.
 
 </td></tr></tbody>
-</table>## Policy inputs and conditions
+</table>**Note:**
+
+Allow Policy denies access to all users by default. Deny Policy allows access to all users by default. After an upgrade to Zurich, check this field. See [Changes due to the Multi-factor Authentication enforcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/changes-mfa-enforcement.md).
+
+## Policy inputs and conditions
 
 The **Policy Input** and **Policy Conditions** tabs display the inputs and conditions of the policy selected in the **Allow Policy** or **Deny Policy** field. These tabs serve as a reference, but cannot be used to change the policy inputs or conditions. To modify your policy settings, navigate to the policy using the reference icon \(\[Omitted image "reference-icon.png"\] Alt text: Reference icon\) next to the **Allow Policy** or **Deny Policy** field.
 

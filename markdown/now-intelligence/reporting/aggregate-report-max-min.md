@@ -45,3 +45,5 @@ These images illustrate maximum and minimum duration using grouped bars to show 
 
 The sections of the visualization are grouped by the highest or lowest value for the selected records.
 
+**Parent Topic:**[Aggregation in reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/aggregation-reporting.md)
+

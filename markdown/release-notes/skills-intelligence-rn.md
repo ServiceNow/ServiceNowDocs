@@ -22,7 +22,7 @@ The ServiceNow® Skills Foundation application provides an overview of skills-re
 -   Automatic HR job profile and Talent job profile synchronization when a new employee joins the organization, or​ an existing employee changes position. You must have Human Resources Scoped App \(sn\_hr\_core\) installed for this feature to work.
 -   Integration between SAP SuccessFactors and ServiceNow enables customers to import skills and user skills into ServiceNow, unlocking Growth Experiences features and driving higher adoption​. The integration feature will only work for the customers who are using Job Profile Builder and will not work for those who are using Talent Intelligence Hub.
 
-See [Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/skills-intelligence.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -53,17 +53,17 @@ The ServiceNow® Skills Foundation application provides an overview of skills-re
 
 ### What's changed
 
--   **[Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/skills-intelligence.md)**
+-   ****
 
     Skills search is powered by AI Search capability instead of machine learning models. You can configure the skill search to be indexed based on the skill name or description or both. For Pro Plus License \(i.e. LLM Integration\) customers, AI search with RAG configuration is provided to power skill search.Multilingual skill support is limited to the languages supported by AI Search, which is fewer than the previously supported 23 languages.Resume parsing is done using Now Assist.ITSM skills previously stored in the CDS plugin were moved back to the seed data plugin.
 
 
--   **[Skills Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/skills-intelligence-workspace.md)**
+-   ****
 
     The application name Skills Intelligence Workspace has been changed to Skills Workspace.Role group skill recommendations will not be readily available unless you load your own ontology data to the industry plugin.In Skill Harmonization, duplicate skills identification relies on AI search instead of ML models, which will have some quality impact in identifying duplicates.In Skills Import, two new integration options are added for SAP SuccessFactors and skills and user skills imported go through harmonization pipeline.
 
 
--   **[Career tab in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/manage-skills-profile.md)**
+-   ****
 
     In the Career tab, the recommended skills source is now derived both from skills that are tagged to activities that employees has been pursuing and from similar user skills.
 

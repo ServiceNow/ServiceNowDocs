@@ -18,7 +18,7 @@ ServiceNow Discovery uses the InfiniBox pattern to find and map instances. Disco
 
 Discovery uses multiple patterns to find InfiniBox storage system data. Discovering these resources requires installing the Discovery and Service Mapping Patterns and the CMDB CI Class Models applications from the ServiceNow Store, as each application is dependent on the other. You can use the patterns for discovering the InfiniBox components on the ServiceNow AI Platform using the Paris release or later.
 
-The InfiniBox enterprise storage array delivers faster-than-all-flash performance, high availability, and multi-petabyte scale for mixed application workloads.​ The InfiniBox hardware redundancy design enables rapid recovery from any component failures.
+The InfiniBox enterprise storage array delivers faster-than-all-flash performance, high availability, and multi-petabyte scale for mixed application workloads. The InfiniBox hardware redundancy design enables rapid recovery from any component failures.
 
 ## Request apps on the Store
 

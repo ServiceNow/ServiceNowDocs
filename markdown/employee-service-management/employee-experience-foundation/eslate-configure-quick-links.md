@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-06-09"
 reading_time_minutes: 2
 keywords: [quick links, homepage widget, canvas widget, sys\_id, background script, Employee Slate]
-breadcrumb: [Configure quick links widget, Quick Links widgets, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configure quick links widget, Quick Links widgets, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Manage quick links widgets

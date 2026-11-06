@@ -1,5 +1,5 @@
 ---
-title: Export a data visualization from the Visualization Designer
+title: Export a Platform Analytics data visualization
 description: Export individual data visualizations to various formats and sizes. Download the exports or share them over email.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/export-visualization-vd.html
@@ -11,7 +11,7 @@ keywords: [Export a visualization, Export a report, Export a visualization to PD
 breadcrumb: [Share, edit, or delete, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
-# Export a data visualization from the Visualization Designer
+# Export a Platform Analytics data visualization
 
 Export individual data visualizations to various formats and sizes. Download the exports or share them over email.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/additional-build-agent-use-cases.html
 release: zurich
 topic_type: reference
-last_updated: "2026-08-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
@@ -51,6 +51,10 @@ Use the following scenarios to identify specific ways to apply Build Agent in yo
 -   **App gap analysis**
 
     Summarize an existing app, identify gaps in coverage, and propose targeted enhancements. For example, Build Agent identifies tables without ACLs, business rules with no test coverage, and manual steps that could be automated with flows.
+
+-   **Existing app analysis and process improvement**
+
+    Analyze an existing custom scoped application, including one built on custom tables, to identify the business processes that it supports. Build Agent uses its awareness of your instance and data model to describe how the application’s tables, business rules, and flows work together. Build Agent also proposes process improvements and provides technical guidance for implementing them. This analysis is useful for applications that have limited documentation, such as applications built by teams that are no longer available. AI-generated results might not be accurate in all cases, so review the results before you act on them.
 
 -   **Security posture review**
 

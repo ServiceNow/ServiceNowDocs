@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-An Administrator can force another user to change their password on that user's next log into the Console.
+An administrator can force another user to change their password the next time that user logs on to the Console.
 
 ## Procedure
 

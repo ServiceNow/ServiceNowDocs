@@ -63,6 +63,14 @@ The ServiceNow® Next Experience application delivers an intuitive, personalized
 
     ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
+-   **ServiceNow Otto® onboarding slide added**
+
+    Next Experience onboarding now opens with a ServiceNow Otto slide. The slide appears only when the Generative AI Controller plugin \(sn\_generative\_ai\) is active on the instance. After a user selects “Got it,” the slide doesn’t appear again.
+
+
+### What's deprecated or removed
+
+The Unified Navigation Onboarding and Unified Navigation Onboarding With Feedback tours, and their steps, are removed.
 
 ## Zurich
 

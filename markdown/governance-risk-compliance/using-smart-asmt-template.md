@@ -16,9 +16,9 @@ Beginning with the Yokohama release, you can use the latest assessment template 
 
 ## Integrating BIA with the Smart Assessment Engine
 
-Integrating business impact analysis \(BIA\) with the Smart Assessment Engine allows you to configure impact analysis assessments with various question types, set up multiple impact assessment templates for a single BIA, and calculate metrics such as Recovery Time Objective \(RTO\), Recovery Point Objective \(RPO\), Recovery Tier \(RT\), Maximum tolerable period of disruption \(MTPD\), and other based on user responses.
+Integrating business impact analysis \(BIA\) with the Smart Assessment Engine allows you to configure impact analysis assessments with various question types. You can also set up multiple impact assessment templates for a single BIA. Calculated metrics include Recovery Time Objective \(RTO\), Recovery Point Objective \(RPO\), Recovery Tier \(RT\), Maximum Tolerable Period of Disruption \(MTPD\), and others based on user responses.
 
-A BIA created with the Smart Assessment template includes Smart Assessment instances in the assessment section. The assessment template introduced with the Smart Assessment Engine allows you to create various question types and automate responses from existing data sources. BCM users can complete the assessment, and upon submission, the automation set up by BCM administrators updates impact analysis data, including recovery time objective \(RTO\), recovery point objective \(RPO\), recovery tier, or maximum tolerable downtime, based on the defined configuration.
+A BIA created with the Smart Assessment template includes Smart Assessment instances in the assessment section. The assessment template introduced with the Smart Assessment Engine allows you to create various question types and automate responses from existing data sources. BCM users can complete the assessment. After submission, BCM administrators' automation updates impact analysis data based on the defined configuration. Updated data includes recovery time objective \(RTO\), recovery point objective \(RPO\), recovery tier, and maximum tolerable downtime.
 
 ## Components used for the integration
 
@@ -42,7 +42,7 @@ The workflow for integrating BIA with the Smart Assessment Engine is shown in th
 
 ## Configuring BIA templates
 
-You can configure the BIA template with the legacy or Smart Assessment. The legacy assessment shows only drop-down questions, while the Smart Assessment enables multiple question types and configures RTO, RPO, and recovery tier calculations based on the responses to the questionnaire. For more information, see [Setup for a business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/bcm-admin-tasks.md).
+You can configure the BIA template with the legacy or Smart Assessment. The legacy assessment shows only drop-down questions. The Smart Assessment enables multiple question types. It also configures RTO, RPO, and recovery tier calculations based on questionnaire responses. For more information, see [Setup for a business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/bcm-admin-tasks.md).
 
 ## Managing life cycle of Smart Assessment templates in BIAs
 

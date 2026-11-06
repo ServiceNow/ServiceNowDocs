@@ -79,7 +79,7 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.business\_agent, sn\_gsm.agen
 
 ### Procedure
 
-1.  Open the Information Request Administration by navigating to Lists in the CRM Workspace.
+1.  Open the Information Request Administration by navigating to Lists in the Public Sector Workspace.
 
 2.  Navigate to the **Information Requests** list and select **All**.
 

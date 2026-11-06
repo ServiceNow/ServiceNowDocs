@@ -48,7 +48,7 @@ Role required: sn\_bcm.admin, sn\_bcm.program\_manager, or sn\_bcm.planner
 
     \[Omitted image "acrobat-event-asset-rto.png"\] Alt text: Event assets.
 
-    When you open the event asset record \(for example, "Acrobat"\), the "Finalized RTO," "Finalized RPO," "Recovery Tier," and "BIA" values are automatically populated and displayed in the record as shown in the example.
+    When you open the event asset record \(for example, "Acrobat"\), the "Finalized RTO," "Finalized RPO," "Recovery Tier," and "BIA" values are automatically populated. They are displayed in the record as shown in the example.
 
     \[Omitted image "acrobat-event-record.png"\] Alt text: Event.
 

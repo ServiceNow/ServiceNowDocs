@@ -8,7 +8,7 @@ product: Event Management
 classification: event-management
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 7
+reading_time_minutes: 6
 breadcrumb: [Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -90,11 +90,11 @@ Mixed Grouping method combines alerts using multiple grouping strategies, such a
 
 Use case for CMDB-based grouping:
 
- A telecommunications company uses CMDB data to manage alerts related to their network infrastructure. Alerts related to a specific network router and its connected devices are grouped together based on their CMDB relationships, enabling the network team to see all related issues and address the root cause efficiently.
+ A network team uses CMDB data to group alerts for a specific router and its connected devices based on CMDB relationships. All related issues are visible in one place for root cause analysis.
 
  Use case for tag cluster grouping:
 
- An organization without a CMDB manages a Linux server running various services. The IT team uses a **Node** field in each alert to identify the server, and they group all events related to services on the same server based on this node value. For example, they cluster alerts like Service A down and Service B high CPU usage together if they share the same node value.
+ An organization without a CMDB manages a Linux server running various services. The IT team uses the **Node** field in each alert to identify the server and group related events by node value. For example, alerts such as Service A down and Service B high CPU usage are clustered together when they share the same node value.
 
  This approach helps the IT team address server-related issues more efficiently. By clustering alerts for the same node, application, or IP address, the team streamlines their response efforts and resolves issues more effectively, even without a CMDB.
 
@@ -122,9 +122,7 @@ Alerts are grouped by analyzing the text content of alerts to identify similarit
 
 </td><td>
 
-In an organization that uses Zoom rooms for virtual meetings, the IT team receives numerous alerts when the Zoom room server experiences an outage. Each alert might indicate a different Zoom room being down, such as Zoom room no 10 is down, Zoom room no 11 is down, and so on, with the only difference being the room number.
-
- For organizations with a CMDB, these alerts can be grouped using CMDB relations, as the system can correlate the alerts based on the server's impact on all associated Zoom rooms. However, for organizations without a CMDB, text-based grouping can be used. The system applies natural language processing to group alerts with similar descriptions, helping the IT team quickly identify that multiple Zoom rooms are affected by the same underlying server issue. This approach allows the IT team to efficiently address the root cause of the problem, reducing downtime and improving response times.
+When a Zoom room server experiences an outage, the IT team receives many alerts — one per affected room. Each alert differs only by room number, for example, Zoom room 10 is down or Zoom room 11 is down.With a CMDB, alerts are grouped using CMDB relations based on the server's impact on associated Zoom rooms. Without a CMDB, text-based grouping uses natural language processing to group alerts with similar descriptions, helping the IT team identify and address the root cause faster.
 
 </td></tr><tr><td>
 
@@ -136,10 +134,12 @@ Users manually select and group related alerts based on their expertise and unde
 
 </td><td>
 
-A system administrator receives multiple alerts about different services failing on a single server. The admin manually groups these alerts, recognizing that they are all related to a single hardware failure on that server, and prioritizes fixing the hardware issue to restore all services.
+A system administrator receives multiple alerts about different services failing on a single server. The admin manually groups these alerts, identifying them as related to a single hardware failure on that server.
+
+ The admin then prioritizes fixing the hardware issue to restore all services.
 
 </td></tr></tbody>
-</table>Manual and rule-based alert grouping differs from algorithm-based grouping mainly in how the parent alert is chosen. In manual, rule-based, or log analytics grouping, one of the real alerts is designated as the parent alert. In Automatic, CMDB, Text-based, Tag Cluster modes, and Network Traffic, a virtual alert, representing the oldest and most severe alert in the group, is created as the parent alert.
+</table>Grouping methods differ in how the parent alert is selected. In manual, rule-based, or log analytics grouping, a real alert is designated as the parent. In automatic, CMDB, text-based, tag cluster, and network traffic grouping, a virtual alert representing the oldest and most severe alert in the group is created as the parent.
 
 By default, the main alert of the group is the oldest and the alert with the highest severity. There is a script include, GroupingProduceVirtualHook, using which we can change the main alert selection logic. The method that you should customize is getVirtual.
 

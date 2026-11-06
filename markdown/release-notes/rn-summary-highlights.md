@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/rn-summary-highlights.html
 release: zurich
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 172
+last_updated: "2026-11-04"
+reading_time_minutes: 173
 breadcrumb: [Release notes summaries for Zurich features, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
 
@@ -91,7 +91,7 @@ Zurich EA
 -   Create and maintain versions of LLM instructions for AI agents and agentic workflows to help organize and iterate on prompts and test their effectiveness.
 -   Duplicate existing script, record operations, and search retrieval tools to reduce the work needed to create unique AI agents.
 -   Monitor new analytics in the AI Agents Analytics dashboard to track valuable insights in customer satisfaction with AI interactions.
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 -   View the agentic workflow and AI agent activity on your AI Agent Studio.
 
 See [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/na-ai-agents.md) for more information.
@@ -276,7 +276,7 @@ AI Risk and Compliance
 -   View and manage your AI asset's risk and compliance cases more efficiently by accessing the new **AI cases** tab on the AI Risk and Compliance home page.
 -   Monitor and track the risk and compliance posture of your AI assets to ensure that your organization aligns with organizational and regulatory standards. You can also gain real-time insights into the emerging risks and compliance gaps across your AI portfolio.
 
-See [AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/ai-risk-and-compliance.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -342,7 +342,7 @@ API
 -   Use inbound REST APIs to interact with various ServiceNow functionalities within your application.
 -   Client Next Experience APIs include client APIs compatible with the Next Experience UI.
 
-See [API implementation and reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/api-implementation-reference.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -416,7 +416,7 @@ The skills are automatically available to appropriate role users for the applica
 -   Use matrix report in the Risk Workspace to assess and analyze the risk posture of your organization.
 -   Use large language models \(LLMs\) from the third party providers to generate the risk assessment summary.
 
-See [Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/advanced-risk-assessment.md) for more information.
+See Advanced Risk Assessment for more information.
 
 </td></tr><tr><td>
 
@@ -495,7 +495,7 @@ App Engine Management Center
 -   Migrate your existing App Engine pipelines to ReleaseOps.
 -   Oversee application development, deployment, and insights using AEMC.
 
-See [App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/app-engine-management-center.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -509,7 +509,7 @@ Applicant Center
 -   Manage your interviews and related activities, such as selecting your preferred time slot or submitting reschedule requests, all within the portal.
 -   Experience a connected pre-hire journey by receiving and reviewing key notifications that keep you informed and aligned at every step of the application process.
 
-See [Applicant Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/applicant-center-concept.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -566,7 +566,7 @@ Audit Management
 -   Create evidence responses quickly with a simplified process.
 -   Access engagements, add existing entities to an engagement, and create activities in the Lite Audit workspace, which is a simplified version of the Audit Management workspace. If the advance core store app is installed, evidences can also be associated with the engagement.
 
-See [Audit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/c_GRCAudits.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -605,7 +605,7 @@ Following are the OAuth enhancements:
 Use the Provider name field to enter the details of your inbound integrations to distinguish between different inbound integrations on your ServiceNow AI Platform®. Update the Provider name in your API integrations to improve monitoring capabilities:
 
     -   For OAuth integrations, update the provider name using the Provider name field. To know more, see [OAuth inbound](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/oauth-inbound.md).
-    -   For Basic authentication integrations, update the Provider name in the integration registration form. To know more about the integration registration form, see [View Inbound API Integration Usage dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/view-inbound-api-integration-usage-dashboard.md).
+    -   For Basic authentication integrations, update the Provider name in the integration registration form. To know more about the integration registration form, see .
 
 [Zurich Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-1.md)
 
@@ -636,7 +636,7 @@ Automated Test Framework
 -   Create and schedule test suites to organize and run tests in batches.
 -   Reduce test design time by copying quick start tests and test suites. You can also create custom test steps to expand test coverage.
 
-See [Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/atf-landing-page.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -663,7 +663,7 @@ Build Agent
 -   Choose from newly supported models.
 -   Search external content without leaving Build Agent.
 
-See [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/build-agent.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -678,7 +678,7 @@ Business Continuity Management
 -   Avoid duplicate event tasks by identifying and grouping similar tasks in exercises and crises.
 -   Create action items and send out threat assessments by leveraging Smart Assessment during exercises and crises.
 
-See [Business Continuity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/business-continuity-mangmt-overview.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -776,12 +776,12 @@ Career Conversations
 
 [Zurich Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-2.md)
 
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 -   Make career conversations easy to create and track using the growth conversations agentic workflow.
 -   As a manager, find and share relevant resources to conduct meaningful conversations using the Manager resource recommendation AI agent.
 -   As a manager, you can now edit a series, and also specify when a series should end while creating the growth conversation.
 
-See [Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/egd-activities-landing-page.md) for more information.
+See Career Conversations for more information.
 
 </td></tr><tr><td>
 
@@ -819,7 +819,7 @@ Classic Workflow
 -   Added the snc\_required\_script\_writer\_permission role to all Workflow tasks.
 -   Removed the legacy workflows created and published by ServiceNow, Inc. from new customer installations.
 
-See [Classic Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/c_WorkflowOverview.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -907,7 +907,7 @@ Common Core
 -   Deactivate the entity-based access configurations.
 -   Enable entity-based access on custom GRC tables.
 
-For detailed documentation, see [Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/common-grc-features.md).
+For detailed documentation, see .
 
 </td></tr><tr><td>
 
@@ -988,7 +988,7 @@ Continuous Authorization and Monitoring
 -   CAM overlays new capability has been introduced to perform various operations like addition, subtraction, custom while applying a policy overlay to an authorization package.
 -   Import OSCAL models using a user-friendly playbook that guides you through preview and customization steps.
 
-See [Continuous Authorization and Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/grc-cam-landing-page.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -1007,7 +1007,7 @@ Contract Management Pro
 -   Link parent contracts during drafting and negotiation phases to inherit parent contract terms.
 -   Pause and resume an in-progress signature process when updates to the signatory list are required.
 
-See [Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cncore-cmpro-landing-page.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -1018,7 +1018,7 @@ Contract Management Pro for Legal Service Delivery
 -   Initiate and manage amendment requests for existing contracts.
 -   Record producer to initiate an amendment request from the Employee Center.
 
-See [Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/snlc-mgmt-pro-landing-page.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -1054,7 +1054,7 @@ Creator Studio
 -   Add playbooks with a new activity that automatically updates some fields on the app's generated record.
 -   Augment forms with the new Duration and Attachment question types.
 
-See [Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/creator-studio-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -1187,6 +1187,18 @@ See [Platform Privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
 
 </td></tr><tr><td>
 
+Decision tables
+
+</td><td>
+
+-   Create decision tables that evaluate data from existing ServiceNow® records, external data sources, or data provided at runtime.
+-   Build rules with condition columns and multiple result columns.
+-   Reference decision tables in code snippets, flows, subflows, and playbooks.
+
+See [Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/decision-designer-overview.md) for more information.
+
+</td></tr><tr><td>
+
 DevOps Change Velocity
 
 </td><td>
@@ -1208,7 +1220,7 @@ Developer Sandboxes
 -   Provide developer isolation and parallelism for customer development environments and instances.
 -   View the total, available, and allocated sandboxes in your instance by using the Sandbox Management home dashboard. The dashboard also displays information about each sandbox, including the status, data utilization, owner, when it was last accessed, and when the sandbox was allocated.
 
-See [Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/sandboxes-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -1289,7 +1301,7 @@ Document Intelligence
 
 </td><td>
 
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 
 See [Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/document-intelligence-landing.md) for more information.
 
@@ -1346,9 +1358,9 @@ Employee Center
 
 [Zurich Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-1.md)
 
--   Enable employees to check their latest company news and upcoming events using Now Assist in Virtual Agent with the **Company News &amp; Events AI Agent** in the ServiceNow Otto for Employee Experience. The AI Agent displays a list of all the latest news and planned events in the company. For more information, see [Check latest company news and events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/check-company-newsevent-ai-agent-for-emp-exp.md).
+-   Enable employees to check their latest company news and upcoming events using Now Assist in Virtual Agent with the **Company News &amp; Events AI Agent** in the ServiceNow Otto for Employee Experience. The AI Agent displays a list of all the latest news and planned events in the company. For more information, see Check latest company news and events.
 -   Employees can check all their to-do tasks and pending approvals using Now Assist in Virtual Agent for Microsoft Teams.
--   Enable a summary of the request, requested item, or case for approval task using ServiceNow Otto for Employee Experience. The skill provides a summary of the selected item from the available list that you want to work on. For more information, see [ServiceNow Otto for Employee Experience Summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/activate-now-assist-skills-uex.md).
+-   Enable a summary of the request, requested item, or case for approval task using ServiceNow Otto for Employee Experience. The skill provides a summary of the selected item from the available list that you want to work on. For more information, see ServiceNow Otto for Employee Experience Summarization skill.
 
 Zurich Early Availability
 
@@ -1356,7 +1368,7 @@ Zurich Early Availability
 -   View and manage content and other company resources through the Browser Extension for Employee Center.
 -   Improve the My Requests experience with adoptive and scalable enhancements.
 
-See [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-center-landing-page.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -1368,7 +1380,7 @@ Employee Center Pro
 -   Get the Notifications in Employee Center feature in Content engagement for improved employee involvement while engaging with news content.
 -   Experience an enhanced performance with improvements to calender widgets, news and events, and publishing communications to browser websites.
 
-See [Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-center-pro-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -1545,7 +1557,7 @@ Flows, subflows, and actions in Workflow Studio
 -   Create multiple skills for conversational subflows and actions from the conversational settings.
 -   Configure a default LLM for generating metadata for conversational subflows and actions.
 
-See [Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/exploring-flows.md), [Exploring subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/exploring-subflows.md), and [Exploring actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/exploring-actions.md) for more information.
+See , , and  for more information.
 
 </td></tr><tr><td>
 
@@ -1609,7 +1621,7 @@ HR Multi Instance Integration
 -   Enable consumer users to complete the assigned tasks via magic links. Magic links enable consumer users to directly access the linked resource in the provider instance without having to manually log in.
 -   Use Universal Task as the remote tasking medium in both provider instance and consumer instance.
 
-See [HR Multi Instance Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/multi-instance-int.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -1671,7 +1683,7 @@ Hiring
 -   Effortlessly collaborate with the recruiters to speed up the hiring process.
 -   Get a unified overview of your responsibilities with clear insights into what needs your attention and when.
 
-See [Hiring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/hiring-tab-concept.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -1757,8 +1769,8 @@ Identity
 
 **Important:** Access Analyzer is available in the ServiceNow Store. For more information, visit [ServiceNow Store](https://store.servicenow.com/store).
 
--   Use Federated ID to uniquely identify roles across multiple instances. Federated ID provides a unique identifier for roles, making it easier to manage and track them across instances. To know more, see [Explore Federated ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/federated-id.md).
--   View the Inbound API Integration Usage dashboard under the Machine Identity Console's Unique API calls page to access statistics for requestors and their API calls. To know more, see [Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/machine-identity-metrics.md) and [View Inbound API Integration Usage dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/view-inbound-api-integration-usage-dashboard.md).
+-   Use Federated ID to uniquely identify roles across multiple instances. Federated ID provides a unique identifier for roles, making it easier to manage and track them across instances. To know more, see [Exploring Federated ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/federated-id.md).
+-   View the Inbound API Integration Usage dashboard under the Machine Identity Console's Unique API calls page to access statistics for requestors and their API calls. To know more, see [Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/machine-identity-metrics.md) and .
 
 Zurich
 
@@ -1847,7 +1859,7 @@ Intelligence for CSM
 
 </td><td>
 
--   Get enhanced visibility of knowledge base articles by marking and displaying a lock icon for articles that aren’t accessible to the case requester within the CRM Workspace.
+-   Get enhanced visibility of knowledge base articles by marking and displaying a lock icon for articles that aren’t accessible to the case requester within the CSM Configurable Workspace.
 -   Gain insights to the root causes of case service level agreement \(SLA\) breaches and view the suggested improvements to optimize process performance.
 
 See [Intelligence for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/intelligence-csm.md) for more information.
@@ -1871,7 +1883,7 @@ Interview management
 -   Manage interviews by updating statuses, viewing or providing feedback, sending reminders, and rescheduling, completing, or canceling interviews as needed.
 -   Streamline feedback sharing and tracking, enabling hiring managers to effectively compare applications.
 
-See [Recruitment workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/recruitment-workspace-concept.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -1885,7 +1897,7 @@ Journey designer
     -   Configure the Journey overview page using the widgets option to hide or show Task Templates and Create a Journey for Your Team widgets.
 -   The pre-hire onboarding experience enables a seamless journey for an applicant transitioning from an onboarding pre-hire to a full-time employee.
 
-See [Journey Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/jny-dsgnr-landing-page.md) for more information.
+See Journey Designer for more information.
 
 </td></tr><tr><td>
 
@@ -1930,7 +1942,7 @@ Knowledge Graph
 
 Zurich EA
 
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Knowledge Graph in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for Knowledge Graph in addition to Now LLM Service and Azure OpenAI.
 -   Select your preferred large language model \(LLM\) provider for Now Assist platform. Apart from Now LLM Service, the platform supports Azure OpenAI GPT-4.1 and GPT-4.1 mini, Google Gemini 2.0 Flash and 2.5 Pro, and AWS Anthropic Claude 3.7 Sonnet LLM providers with ServiceNow® third-party model strategy.
 
 See [Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/knowledge-graph-landing.md) for more information.
@@ -1978,7 +1990,7 @@ Legal Conflict of Interest
 
 Disclose conflicts of interest using natural language from Now Assist in Virtual Agent rather than having to fill out intake forms. The risk assessment utility then automatically evaluates each submission and routes it to the appropriate approval workflow, enabling faster resolution.
 
-See [Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/legal-conflict-of-interest-landing-page.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -1990,7 +2002,7 @@ Legal Hold Notification
 -   Enhance custodian engagement by sending them legal hold notifications and reminders to ensure timely acknowledgment and accountability throughout the legal hold process.
 -   Reduce legal risk compliance with a controlled closure process. When the legal hold is officially closed, the Legal Hold Notification application stores detailed information about the preserved data.
 
-See [Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/lg-hold-notif-landing-page.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -2000,7 +2012,7 @@ Legal Matter Management
 
 Help ensure that sensitive information remains confidential with stakeholder controls through attorney-client privilege \(ACP\) protection for legal requests and matters.
 
-See [Legal Matter Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/legal-matter-management-landing-page.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -2010,7 +2022,7 @@ Legal Request Management
 
 Help ensure that sensitive information remains confidential with stakeholder controls through attorney-client privilege \(ACP\) protection for legal requests and matters.
 
-See [Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/legal-request-management-landing-page.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -2021,7 +2033,7 @@ Lifecycle Events
 -   Enable logging and use it as a tool to diagnose problems or to acquire pertinent information about the processes that ran in a Lifecycle Events case.
 -   Effectively troubleshoot the root cause of an issue that is adversely affecting a Lifecycle Events case.
 
-See [Lifecycle Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/hr-lifecycle-events-landing-page.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -2036,6 +2048,39 @@ Localization Workspace
 -   When selecting specific documents to translate, translation requestors can take advantage of a bulk select/deselect option as well as text search of document titles. From version 2.0.2.
 
 See [Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/localization-workspace.md) for more information.
+
+</td></tr><tr><td>
+
+Lux
+
+</td><td>
+
+-   Build widget-based UI experiences that run on your instance, using Lit components for pages and widgets.
+-   Render pages on the server and stream the HTML to the browser, which hydrates it into an interactive single-page app.
+-   Show fully rendered content on first load, with markup that assistive technology and search engines can read.
+-   Fetch data on the server with loaders that run near your instance.
+-   Map your pages directory to URLs with file-based routing.
+-   Inherit the design system automatically through Tailwind and DaisyUI styling.
+-   Share data across widgets with the Context API, and across pages with layout data.
+-   Deploy your scoped application to an instance on its own schedule with the ServiceNow SDK.
+
+See the Lux documentation for more information, .
+
+</td></tr><tr><td>
+
+Lux Lab
+
+</td><td>
+
+-   Start a project from a base experience, an extension of an existing application, or a collection, and let Lux Lab scaffold it for you.
+-   Extend existing applications by adding extension targets from the file explorer's right-click menu.
+-   Create collection pages and control which page each user sees by adding access rules in a guided, two-step flow.
+-   Preview your application locally and deploy it to your instance without leaving the app.
+-   Edit code with the built-in editor and source control, including inline Git blame that shows who last changed each line.
+-   Get started quickly with a first-launch setup that checks your environment and signs you in to your instance.
+-   Create store applications with a custom scope that doesn't require your instance's company code.
+
+For more information, see .
 
 </td></tr><tr><td>
 
@@ -2125,7 +2170,7 @@ Model Risk Management
 -   Perform validation of model design, performance, and implementation.
 -   Capture, track, and resolve validation findings or performance issues, ensuring timely remediation and continuous risk mitigation.
 
-See [Model Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/model-risk-management.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -2221,7 +2266,7 @@ Now Assist in AI Search
 
 [Zurich Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-1.md)
 
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 -   Improve search recall and accuracy with semantic vector indexing of Catalog Item short descriptions.
 -   Prompt users to log in to Microsoft SharePoint Online as needed to see files shared with them when viewing Knowledge Graph user citations in Now Assist Multi-Content Response Genius Result answers
 
@@ -2263,7 +2308,7 @@ Zurich Patch 12
 [Zurich Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-1.md)
 
 -   Use the contract playbook to review and update the AI extracted metadata and reminder date for contract renewal or termination.
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 
 Zurich Patch 12
 
@@ -2301,7 +2346,7 @@ Now Assist in Document Intelligence
 
 [Early Availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-all-other-fixes.md)
 
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 
 See [Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/docintel-nowassist-landing.md) for more information.
 
@@ -2357,7 +2402,7 @@ Now Assist in Virtual Agent
 
 [Zurich Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-1.md)
 
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
 -   Use agentic conversations and view agentic conversational processing flow steps.
 -   View extended entities and records in standard and enhanced chat conversations if they’re associated with the Knowledge Graph Natural Language Query \(NLQ\) schema.
 -   View suggested search queries previously performed in the portal's search bar within enhanced chat conversations.
@@ -2406,7 +2451,7 @@ Operational Resilience
 -   Use the enhanced fix scripts in the Common Service Data Model for improved Operational Resilience metrics.
 -   Evaluate the importance and impact tolerance of services and self-attest their status by using Smart Assessment.
 
-See [Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/grc-opres-landing-page.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -2532,7 +2577,7 @@ Partner Relationship Management
 
 </td><td>
 
-Use the CRM Workspace to enable your enterprise administrators to view all the details that are related to their partners.
+Use the CSM Configurable Workspace to enable your enterprise administrators to view all the details that are related to their partners.
 
 See [Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/partner-relationship-management.md) for more information.
 
@@ -2569,7 +2614,7 @@ Performance Analyzer
 -   Receive page load time data directly on the instance.
 -   Access aggregated metrics by application and routes.
 
-See [Performance Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/performance-analyzer-landing.md) for more information.
+See Performance Analyzer for more information.
 
 </td></tr><tr><td>
 
@@ -2594,7 +2639,7 @@ Playbooks in Workflow Studio
 -   Set child variants to evaluate later in a playbook.
 -   Create decision branches for stages.
 
-See [Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/process-automation-designer.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -2608,7 +2653,7 @@ Policy and Compliance Management
 -   Enhancements to control objectives and controls, including control objective requirements for granular statements, automatic control requirement generation, and attestation at control requirement level.
 -   Enhancements to policy exception and extension requests, including approver pop-ups with key details, no indicator tasks for exempt controls, Send Information button for requesters, and expanded linking requirements for issue-based policy exceptions.
 
-See [Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/privacy-management.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -2652,7 +2697,7 @@ Privacy Management
 -   Impacted and related areas configuration allows privacy case managers to add custom business area types to privacy cases for better context.
 -   Revamped Processing Activity overview page provides a unified dashboard showing key compliance and risk metrics for processing activities.
 
-See [Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/privacy-management.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -2779,7 +2824,7 @@ RPA Hub
 
 [Zurich Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-1.md)
 
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for RPA bot generation skill in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for RPA bot generation skill in addition to Now LLM Service and Azure OpenAI.
 -   Use the Python connector to execute custom Python scripts or files as part of an automation workflow.
 -   Use a Smart Card authentication for enhanced security.
 -   Enhanced access controls for RPA bot generation skill.
@@ -2827,7 +2872,7 @@ Recruitment workspace
 -   Do all your work, such as managing job requisitions, interviews, talent pools, and more, in one centralized workspace, with streamlined sourcing capabilities included.
 -   Monitor and improve hiring efficiency by tracking key metrics and applicant feedback.
 
-See [Recruitment workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/recruitment-workspace-concept.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -2841,7 +2886,7 @@ Regulatory Change Management
 -   Create action tasks when a regulatory task is in the New, Work in Progress, or Implementation states to drive progress. You can also assign responsibilities to help ensure that the compliance actions are executed in a timely manner.
 -   Close regulatory alerts manually when all associated tasks and compliance obligations have been successfully addressed. You can verify that each related item meets the closure criteria before confirming that the alert is resolved.
 
-See [Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/reg-change-mgmt-landing-page.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -2854,7 +2899,7 @@ ReleaseOps
 -   Schedule releases or deploy changes on-demand.
 -   Automate the testing and validation process with ReleaseOps to ensure that the proper checks, tests, scans, and approvals are completed before releasing changes to production.
 
-See [ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/releaseops-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -2916,7 +2961,7 @@ SQL API
 -   Merge your ServiceNow data with third-party datasets in your data lakes and analytical platforms for comprehensive analysis.
 -   Write targeted SQL queries to retrieve only the data you need, reducing network overhead on data pipeline and data transformation, and improving performance.
 
-For more information, see [Access your ServiceNow data using Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/accessing-your-servicenow-data-using-sql-api.md).
+For more information, see .
 
 </td></tr><tr><td>
 
@@ -3178,7 +3223,7 @@ Lens as a Service now supports auto-mapping of Excel column headers, choice valu
 -   Configure Lens actions to launch ServiceNow AI Lens from any part of the ServiceNow AI Platform, such as a workspace form or a portal.
 -   Trigger ServiceNow AI Lens from a Virtual Agent conversation on a mobile device or in a portal.
 -   View captured images that are attached to an auto-filled record using ServiceNow AI Lens.
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for ServiceNow AI Lens in addition to Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for ServiceNow AI Lens in addition to Azure OpenAI.
 
 See [ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/servicenow-lens-landing-page.md) for more information.
 
@@ -3198,11 +3243,11 @@ Use the Feature Preview Program to choose which pre-release capabilities to acti
 
 </td></tr><tr><td>
 
-ServiceNow Cowork
+ServiceNow Arc
 
 </td><td>
 
-See [ServiceNow Cowork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/servicenow-cowork-landing.md) for more information.
+See [ServiceNow Arc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/servicenow-cowork-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -3214,7 +3259,22 @@ ServiceNow IDE
 -   Use light and dark developer themes.
 -   Use the ServiceNow IDE in any supported left-to-right language.
 
-See [ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-ide-landing.md) for more information.
+See  for more information.
+
+</td></tr><tr><td>
+
+ServiceNow Lux Lab for VS Code
+
+</td><td>
+
+-   Scaffold experiences, pages, and widgets with framework intelligence.
+-   Extend base system applications with experiences and pages tailored to your organization's needs.
+-   Run commands via the ServiceNow® AI Experience Lab for VS Code extension interface rather than using the terminal.
+-   Preview your application in real time without leaving Visual Studio Code.
+-   Access relevant experiences, pages, and widgets from your instance.
+-   Develop tailored experiences with AI tools.
+
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -3272,7 +3332,7 @@ ServiceNow Otto
 
 Zurich
 
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 -   Select your preferred large language model \(LLM\) provider for Now Assist base system skills. Apart from Now LLM Service, the platform supports Azure OpenAI GPT-4.1 and GPT-4.1 mini, Google Gemini 2.5 Flash and 2.5 Pro, and AWS Anthropic Claude 3.7 Sonnet LLM providers with ServiceNow® third-party model strategy.
 -   Suppress the modeless window for a custom Now Assist context menu event.
 -   View numbered citations and links to the information sources when you use the Now Assist context menu for email reply recommendation.
@@ -3302,9 +3362,9 @@ ServiceNow Otto for App Engine
 
 [Zurich release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/family-release-notes.md)
 
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
 
-See [ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -3359,7 +3419,7 @@ ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)
 [Zurich Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-4.md)
 
 -   In Zurich Patch 4, some Now Assist are now turned on by default.
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 -   Help increase the efficiency of your teams using the generative AI capabilities of ServiceNow Otto for CWM.
 
 See [ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/now-assist-for-cwm-landing.md) for more information.
@@ -3426,11 +3486,11 @@ ServiceNow Otto for Creator
 
 [Zurich Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-1.md)
 
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
 -   Create, edit, and deploy fully functional ServiceNow applications using the Build Agent in the ServiceNow IDE.
 -   Enable security implementation to execute AI agents and agentic workflows through access control lists \(ACLs\) and user identities.
 
-See [ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -3484,7 +3544,7 @@ ServiceNow Otto for Customer Service Management \(CSM\)
 Early Availability
 
 -   Use the suggested steps that automatically display on the **Recommended Actions** tab to help resolve cases and increase agent productivity.
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 
 See [ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-csm.md) for more information.
 
@@ -3609,9 +3669,9 @@ ServiceNow Otto for HR Service Delivery \(HRSD\)
 
 Zurich Early Availability
 
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 
-See [ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-hrsd.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -3782,9 +3842,9 @@ Zurich Patch 12
 
 [Zurich Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-1.md)
 
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
 
-See [ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-lsd-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -4075,7 +4135,7 @@ ServiceNow Otto for Strategic Portfolio Management
 
 [Zurich Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-1.md)
 
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
 
 See [ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/now-assist-spm.md) for more information.
 
@@ -4128,7 +4188,7 @@ Starting with Zurich Patch 12, Now Assist for Third-party Risk Management is now
 -   Use ServiceNow Otto for Third-party Risk Management \(TPRM\) to generate concise, AI-powered summaries of TPRM that can help with interpreting complex issue records.
 -   Some Now Assist skills, agents, and agentic workflows are now turned on by default.
 
-See [ServiceNow Otto for Third-party Risk Management \(TPRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/exploring-now-assist-tprm.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -4161,7 +4221,7 @@ Zurich Patch 12
 -   Help map admins configure the map during bulk updates to Indoor Mapping using the automate map updates agentic workflow.
 -   Optimize a maintenance case based on the space utilization rate of the location where a maintenance case is created using the optimize cleaning activities agentic workflow.
 
-See [ServiceNow Otto for Workplace Service Delivery \(WSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-wsd-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -4172,7 +4232,7 @@ ServiceNow SDK
 -   Develop a user interface \(UI\) with React to build a full-stack application in source code.
 -   Define flows, service catalogs, UI pages and more in source code with ServiceNow Fluent APIs.
 
-See [ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-sdk-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -4186,7 +4246,7 @@ ServiceNow Studio
 -   As of version 28.2.1, for file types that open in a builder, decide whether you want to edit the file in the builder or in the classic UI16 view.
 -   As of version 28.2.1, access your favorite lists in ServiceNow Studio by bookmarking them.
 
-See [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-studio-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -4227,7 +4287,7 @@ Skills Foundation
 -   Automatic HR job profile and Talent job profile synchronization when a new employee joins the organization, or​ an existing employee changes position. You must have Human Resources Scoped App \(sn\_hr\_core\) installed for this feature to work.
 -   Integration between SAP SuccessFactors and ServiceNow enables customers to import skills and user skills into ServiceNow, unlocking Growth Experiences features and driving higher adoption​. The integration feature will only work for the customers who are using Job Profile Builder and will not work for those who are using Talent Intelligence Hub.
 
-See [Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/skills-intelligence.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -4241,7 +4301,7 @@ Smart Assessment Engine
 -   Migrate question dependencies with an improved migration utility.
 -   Simplify your workflow by combining assessments from different templates in a single and unified view.
 
-See [Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/smart-asmnt-engine-landing-page.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -4366,7 +4426,7 @@ Table Builder
 -   Read-only behavior is now controlled by the **Read only option** \[`read_only_option`\] choice field, which provides options such as **Display Read Only** or **Strict Read Only**.
 -   The existing **Read only** field will no longer be editable in the UI.
 
-See [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/tb-landing-page.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -4378,7 +4438,7 @@ Talent profile
 -   Improve talent visibility for hiring by creating talent profiles and pools.
 -   Make better sourcing, screening, and interview management decisions across all talent types by tracking their past interactions with the organization.
 
-See [Talent Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/talent-profile-ovrvw.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -4439,7 +4499,7 @@ Third-party Risk Management
 -   Use the latest Smart Assessment Engine questionnaire templates to perform internal and external assessments.
 -   Use the enhanced Digital Resilience Third-party Information Register features in the Vendor Management Workspace.
 
-See [Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/third-party-risk-mgt-landing-page.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -4465,7 +4525,7 @@ UI Builder
 -   Add Now Assist skills to enhance your page, component, or controller with generative AI capabilities.
 -   Get instant conversational help within UI Builder through the Now Assist Panel.
 
-See [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder-overview.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 

@@ -22,7 +22,7 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
 Add a description of use and a timeframe to recover the item and provide data backup for the item. Assessing dependencies for a group helps you to know the underlying dependent items or assets of your business process. This assessment helps to prioritize critical dependencies that require recovery strategies to be established during the planning phase.
 
-The BIA template that you use to create a business impact analysis has dependency groups associated to it. When you do an assessment, the dependency groups are automatically populated in the BIA. You can view them as Applications, Hardware, Software, Vendors, Workplaces, and others, each in its own container depending on how many of these groups are associated to the template. Each of them is a dependency group and you can add or remove items that belong to each group within its container.
+The BIA template has dependency groups associated with it. During an assessment, these groups are automatically populated in the BIA. Groups such as Applications, Hardware, Software, Vendors, and Workplaces each appear in their own container. Add or remove items within each container as needed.
 
 **Note:** You can add or remove dependent items only if you are a user with appropriate access.
 
@@ -52,7 +52,7 @@ The BIA template that you use to create a business impact analysis has dependenc
 
     4.  In the **Required Data Backup** cell, select the time period by which a data backup for the asset can be provided.
 
-        While configuring an element in the Element Definition form, you can set the **Requires data backup** field as **Yes**. However, at the time when a BIA is created, the application copies the required data backup information from the element definition over to the dependency group of the BIA. If at this point, the required data backup is true for the dependency group, then the **Required Data Backup** column appears in the grid.
+        While configuring an element in the Element Definition form, you can set the **Requires data backup** field as **Yes**. After a BIA is created, the application copies the data backup information from the element definition to the BIA dependency group. If required data backup is true for the dependency group, the **Required Data Backup** column appears in the grid.
 
 6.  To expand the dependency grid to full screen and edit the grid values, click the full screen icon \(\[Omitted image "FullScreenIcon.png"\] Alt text: Full-screen icon\).
 

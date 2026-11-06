@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-05-27"
 reading_time_minutes: 2
 keywords: [AI widget builder, widget configuration, widget scope, chat compatibility, role access, Employee Slate]
-breadcrumb: [AI-powered Widget Builder, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [AI-powered Widget Builder, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure the AI widget builder

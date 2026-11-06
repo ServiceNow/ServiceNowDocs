@@ -7,8 +7,8 @@ release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [IT Service Management]
 ---
 
@@ -65,9 +65,26 @@ For information about Service Operations Workspace for ITOM, see [Service Operat
 
 ## Helpful resources
 
-[Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)
+Here are some additional ServiceNow resources that can help you:
 
-## Licensing
+-   **\[Omitted image "dcx-icon-docs.svg"\] Release Notes**
 
-Service Operations Workspace for ITSM is included in the ITSM Professional and Enterprise license bundles. To verify your entitlement or activate the plugin, see the **** Service Operations Workspace listing on the ServiceNow store.
+    Learn more about what's new and changed. See the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/service-operations-workspace-itsm-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/service-operations-workspace-itsm-rn.md).
+
+-   **\[Omitted image "dcx-icon-learning.svg"\] ServiceNow University**
+
+    Access real-time courses, self-paced training, and career resources, such as [Service Operations Workspace \(SOW\) Bootcamp](https://learning.servicenow.com/lxp/en/it-service-management/service-operations-workspace-sow-bootcamp-on-demand?id=learning_course_prev&course_id=40a623454704da10123f3975d36d43cc&s=1&ssa=3) and more, from [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow).
+
+-   **\[Omitted image "dcx-icon.svg"\] Best Practices**
+
+    Explore the Best Practices content library to access resources and proven guidance that help accelerate the implementation Service Operations Workspace features at [Service Operations Recommended Implementation Sequence](https://mynow.servicenow.com/now/best-practices/assets/service-operations-recommended-implementation-sequence).
+
+-   **\[Omitted image "icon-youtube.svg"\] YouTube**
+
+    Learn more about the Service Operations Workspace and related ITSM features. Watch [Service Operations Workspace Academy: Getting Started with SOW](https://www.youtube.com/watch?v=gIw06ID_1KY) on YouTube.
+
+-   **\[Omitted image "dcx-icon-community.svg"\] ServiceNow Community**
+
+    Connect with other Service Operations Workspace users at [ServiceNow Community](https://www.servicenow.com/community/service-operations-workspace/ct-p/service-operations-workspace).
+
 

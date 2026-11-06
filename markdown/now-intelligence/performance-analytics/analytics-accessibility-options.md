@@ -16,6 +16,8 @@ breadcrumb: [Administering dashboards, Responsive dashboards in the Core UI, Rep
 
 Understand how accessibility settings affect reports and Performance Analytics widgets on dashboards. Data visualizations on a Workspace are also affected.
 
+**Note:** This topic refers to Core UI dashboards. If you are looking for information about the newer Platform Analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center-dashboards.md).
+
 \[Omitted image "visualization-accessibility-dashboard.png"\] Alt text: Data visualization accessibility on a dashboard
 
 You can enable and disable these Accessibility options to make your experience in an instance more accessible:

@@ -1,6 +1,6 @@
 ---
 title: Global Identity
-description: Global Identity is a ServiceNow product that enables to identify unique users across multiple instances.
+description: Global Identity is a ServiceNow product that enables you to identify unique users across multiple instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/identity/global-identity.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Identity]
 
 # Global Identity
 
-Global Identity is a ServiceNow® product that enables to identify unique users across multiple instances.
+Global Identity is a ServiceNow® product that enables you to identify unique users across multiple instances.
 
 Global Identity helps with multiple ServiceNow® instances to manage users, their attributes, and other foundational data across multiple ServiceNow® instances.
 

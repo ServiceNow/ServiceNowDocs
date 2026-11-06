@@ -16,15 +16,13 @@ If you have the admin role, you can configure the ServiceNow Otto for Enterprise
 
 ## Before you begin
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
-
 Role required: admin
 
 ## About this task
 
 Use the AI Admin Hub to configure ServiceNow Otto for EA. While all ServiceNow Otto for EA skills are activated by default, you can use this console to activate the plugins in case it’s turned off or configure the generative AI skills. For additional information, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md).
 
-You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in AI Control Tower to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 The following table lists the features and skills that you can access from the AI Admin Hub.
 
@@ -61,15 +59,15 @@ The ServiceNow Otto for Enterprise Architecture \(EA\) system requirements are a
 
 5.  Activate and configure the skill for ServiceNow Otto for Enterprise Architecture \(EA\).
 
-<table id="choicetable_wnn_hyf_b2c"><thead><tr><th align="left" id="d39877e366">
+<table id="choicetable_wnn_hyf_b2c"><thead><tr><th align="left" id="d39888e356">
 
 Skill
 
-</th><th align="left" id="d39877e369">
+</th><th align="left" id="d39888e359">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d39877e375">
+</th></tr></thead><tbody><tr><td id="d39888e365">
 
 **ADR Doc Summarization and Actions**
 
@@ -80,7 +78,7 @@ Action
 3.  Go to step 6 and review the details.
 
 
-</td></tr><tr><td id="d39877e406">
+</td></tr><tr><td id="d39888e396">
 
 **Business application insights**
 
@@ -131,7 +129,7 @@ The You are making a copy of a skill dialog box appears.
     7.  On the **Review and activate** tab, review the summary of your choices and select **Activate**.
 
 
-</td></tr><tr><td id="d39877e661">
+</td></tr><tr><td id="d39888e651">
 
 **Diagram change analysis**
 
@@ -156,7 +154,7 @@ The new role is added to the access list.
 
 The diagram change analysis skill is activated.
 
-</td></tr><tr><td id="d39877e750">
+</td></tr><tr><td id="d39888e740">
 
 **Refine text**
 
@@ -166,7 +164,7 @@ The diagram change analysis skill is activated.
 2.  Go to step 6 and review the details.
 
 
-</td></tr><tr><td id="d39877e772">
+</td></tr><tr><td id="d39888e762">
 
 **Create diagram from image**
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/rn-summary-deprecated-info.html
 release: zurich
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 9
+last_updated: "2026-11-04"
+reading_time_minutes: 10
 breadcrumb: [Release notes summaries for Zurich features, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
 
@@ -37,6 +37,12 @@ Starting with the September 2026 release, Gemma 4 joins our growing portfolio of
 -   **[Traceloop Warehouse HTTPS connection removed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/gov-sec-configure-pi-sensitive-metrics.md)**
 
 The base system Traceloop Warehouse HTTPS connection \(sn\_ai\_security.Traceloop\_API alias\) is removed. If you're upgrading and use Traceloop-based external AI metrics, create a new HTTPS connection under that alias and re-create your credential with connection URL `https://api.traceloop.com`.
+
+-   **[V1 AI asset onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aict-playbooks-reference.md)**
+
+Starting with the Brazil Early Availability release, the V1 AI asset onboarding playbook no longer receives updates and isn't active for new customers. New customers use the V2 AI asset onboarding playbook. Existing customers who use or customized the V1 playbook can continue to use it or migrate to the V2 playbook.
+
+For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 
 The AI Gateway application is deprecated in the Australia release and is no longer supported.
@@ -216,6 +222,25 @@ Legacy replication sets have been deprecated in the Zurich release and are no lo
 
 </td></tr><tr><td>
 
+L1 IT Service Desk AI Specialist
+
+</td><td>
+
+-   **[Routing journey count cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/perf-overview-l1-sd-ai-spec.md)**
+
+Removed. The Routing journey count cards are replaced by the funnel on the Overview tab.
+
+-   **[Research depth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/config-tasks-l1-sd-ai-spec-sow.md)**
+
+Removed. The unused Research depth setting is no longer available. There is no replacement.
+
+-   **[Pre resolution condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/config-tasks-l1-sd-ai-spec-sow.md)**
+
+Removed. The Pre resolution condition setting is no longer available, and incidents are no longer checked against it. There is no replacement.
+
+
+</td></tr><tr><td>
+
 Learning Posts
 
 </td><td>
@@ -236,7 +261,7 @@ Legacy Studio
 
 </td><td>
 
-Starting with the Zurich release, Legacy Studio is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details on this process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. For more information about app development on the ServiceNow AI Platform®, see [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-studio-landing.md).
+Starting with the Zurich release, Legacy Studio is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details on this process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. For more information about app development on the ServiceNow AI Platform®, see .
 
 </td></tr><tr><td>
 
@@ -245,6 +270,14 @@ Listening Posts
 </td><td>
 
 Starting with the zurich release, Listening Posts is being deprecated. It will be hidden and no longer available for activation. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+</td></tr><tr><td>
+
+Next Experience
+
+</td><td>
+
+The Unified Navigation Onboarding and Unified Navigation Onboarding With Feedback tours, and their steps, are removed.
 
 </td></tr><tr><td>
 

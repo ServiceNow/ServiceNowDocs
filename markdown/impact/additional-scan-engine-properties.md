@@ -7,7 +7,7 @@ release: zurich
 topic_type: reference
 last_updated: "2026-08-03"
 reading_time_minutes: 1
-breadcrumb: [Configure Scan Engine parameters, Scan Engine, Platform Health, Using Impact, Impact]
+breadcrumb: [Configure Scan Engine properties, Scan Engine, Platform Health, Using Impact, Impact]
 ---
 
 # Manage definition properties

@@ -1,6 +1,6 @@
 ---
-title: Configure Tables and Fields
-description: Identity and Access Audit to understand the changes made for a user, group, role, and ACL.
+title: Configure tables and fields
+description: Configure tables and fields in Identity and Access Audit to understand the changes made for a user, group, role, and ACL.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/identity/configure-tables-and-fields.html
 release: zurich
@@ -9,18 +9,18 @@ classification: identity
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Security Auditable Fields, Identity and Access Audit, Identity]
+breadcrumb: [Security auditable fields, Identity and Access Audit, Identity]
 ---
 
-# Configure Tables and Fields
+# Configure tables and fields
 
-Identity and Access Audit to understand the changes made for a user, group, role, and ACL.
+Configure tables and fields in Identity and Access Audit to understand the changes made for a user, group, role, and ACL.
 
 ## Before you begin
 
 Role required: security\_admin
 
-You must elevate your role to Security Admin to configure tables and fields for Identity and Access Audit.
+You must elevate your role to security\_admin role to configure tables and fields for Identity and Access Audit.
 
 The following tables can be configured for auditing​:
 
@@ -34,13 +34,13 @@ The following tables can be configured for auditing​:
 -   Contained Role \[sys\_user\_role\_contains\]​
 -   Group Member \[sys\_user\_grmember\]​
 
-**Note:** To understand which fields can be configured for the tables, see [Supported and unsupported fields in Identity Access and Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/identity/allowed-fields-for-audit.md).
+**Note:** To understand which fields can be configured for the tables, see [Supported and unsupported fields in Identity and Access Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/identity/allowed-fields-for-audit.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Security** &gt; **Identity and Access Audit** &gt; **Configure Tables &amp; Fields**.
 
-2.  Select the table that you want to audit a field from.
+2.  Select the table that contains the field that you need to audit.
 
     For example, **sys\_user**.
 

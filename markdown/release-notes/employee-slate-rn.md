@@ -61,18 +61,18 @@ ServiceNow EmployeeWorks Web App provides enhancements in Browse experience, adm
 
 ### What's new
 
--   **[Tasks and requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/emp-slate-inbox.md)**
+-   ****
 
     Manage long task and request lists using date-range filters for requests and due date, task type, and sort options for tasks, and apply or clear filters conversationally using chat. Use the Now sidekick to assist in handling the tasks and requests in split view.
 
--   **[Browse and topic pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/eslate-topic-pages.md)**
+-   ****
 
     Activate the AIX menu item to surface Explore section menu items on topic pages. Customize the Explore page header, topic page header, and widget head text directly in Admin editor.
 
 
 ### What's changed
 
--   **[Edit widgets inline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/eslate-configure-browse-pages-inline-config.md)**
+-   ****
 
     Instance options to customize widgets on the home page and topic pages are no longer available. Customize your portal pages with the Admin editor.
 
@@ -83,63 +83,63 @@ Employee Slate is a new AI-first employee experience that boosts employee produc
 
 ### What's new
 
--   **[Conversation-first experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/eslate-conversation-first.md)**
+-   ****
 
     Replaces traditional browse navigation with an AI-powered search bar and personalized canvas, supporting service delivery across departments.
 
--   **[EmployeeWorks home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/emp-slate-home-page.md)**
+-   ****
 
     Provides a homepage centered on an AI-powered search bar with five configurable widgets: To-dos, Employee Communications, Trending Content, Quick Links, and Holiday Calendar.
 
--   **Interactive split view [EmployeeWorks home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/emp-slate-home-page.md)**
+-   **Interactive split view **
 
     Displays content alongside the conversation for seamless interaction with forms, articles, and tasks.
 
--   **[Personalized canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/eslate-personalized-canvas.md)**
+-   ****
 
     Employees can drag, drop, resize, and remove widgets; administrators can lock widgets to keep critical information visible.
 
--   **[Tasks and requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/emp-slate-inbox.md)**
+-   ****
 
     Consolidates tasks, requests, approvals, and to-dos from multiple departments and external applications, with AI summaries from Now Assist.
 
--   **[Employee org chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/emp-slate-orgchart.md)**
+-   ****
 
     Displays organizational hierarchies with employee details and supports contextual AI questions through Now Assist.
 
--   **[Employee communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/eslate-employee-comms.md)**
+-   ****
 
     Displays targeted banner announcements on the homepage, linked to knowledge articles or other resources.
 
--   **Visual content authoring [EmployeeWorks home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/emp-slate-home-page.md)**
+-   **Visual content authoring **
 
     Provides a content library accessible from the profile icon where authors can create, filter, and publish announcements, with Now Assist generating content from a prompt.
 
--   **[EmployeeWorks notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/emp-slate-notifications.md)**
+-   ****
 
     Delivers 14 pre-configured notification types for approvals, tasks, and requests, with support for bulk actions and grouping.
 
--   **[Configure branding and theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/eslate-config-admin-console.md)**
+-   ****
 
     Applies a logo, primary color, and accent color consistently across the portal, Moveworks, and Now Assist experiences, with a live preview panel.
 
--   **[AI-powered widget builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/eslate-ai-widget-builder.md)**
+-   **AI-powered widget builder**
 
     Builds custom widgets through a prompt-driven interface using a model context protocol \(MCP\) with built-in design components and accessibility support.
 
--   **[Analytics and reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/eslate-analytics-reporting.md)**
+-   ****
 
     Tracks session details, page visits, and widget interactions in a dedicated Employee Slate destination within User Experience Analytics. Measures announcement impressions, clicks, and top-performing content through the communications analytics dashboard in User Experience Analytics.
 
--   **[Conversation-first catalog and knowledge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/eslate-conversational-catalog.md)**
+-   ****
 
     Integrates search results directly into chat responses, with a side panel for filtering and exploration across all configured connectors. Chat pre-fills catalog form fields from conversation context and opens forms in split view for review and completion.
 
--   **[Moveworks enterprise search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-slate-moveworks.md)**
+-   **Moveworks enterprise search**
 
     Searches documents across enterprise systems including SharePoint, OneDrive, Google Drive, Slack, and Outlook through the Moveworks assistant.
 
--   **[Calendar and schedule management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/eslate-calendar-schedule.md)**
+-   ****
 
     Provides time-aware information through calendar management with My Calendar widget in Canvas displaying the meetings from your schedule. And the Upcoming Holiday widget displays the next relevant holiday on the home page.
 

@@ -8,7 +8,7 @@ product: MID Server
 classification: mid-server
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Securing and encrypting MID Server data, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -51,6 +51,8 @@ Automation credentials are secured by encrypting them in the instance with the M
 
 [MID Server configuration file security]()
 
+[MID Server authentication methods comparison]()
+
 [MID Server authentication credentials and SOAP requests]()
 
 [MID Server unified key store]()
@@ -72,6 +74,8 @@ Automation credentials are secured by encrypting them in the instance with the M
 [MID Server FIPS Enforced Mode]()
 
 [MID Server Governance]()
+
+[MID Server IPKI authentication]()
 
 [Validate the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/t_ValidateAMIDServer.md)
 

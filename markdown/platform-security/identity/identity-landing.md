@@ -1,6 +1,6 @@
 ---
 title: Identity
-description: Know more about the Identities in the instance.
+description: Learn more about the identities in the instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/identity/identity-landing.html
 release: zurich
@@ -13,7 +13,7 @@ reading_time_minutes: 1
 
 # Identity
 
-Know more about the Identities in the instance.
+Learn more about the identities in the instance.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 

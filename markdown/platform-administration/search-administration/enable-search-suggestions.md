@@ -39,7 +39,7 @@ On new instances, the first parameter is set to **true** and the second is set t
 
     1.  Select **All**.
 
-    2.  In the **Filter** field, enter `sys_properties.list`.
+    2.  In the navigation field, enter `sys_properties.list`.
 
     3.  Press Enter.
 

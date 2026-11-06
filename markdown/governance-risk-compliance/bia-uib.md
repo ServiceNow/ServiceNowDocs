@@ -1,6 +1,6 @@
 ---
 title: Business impact analysis
-description: Business impact analysis is a structured process where you assess the impact categories and dependencies and predict the consequences of a disruption on a business process or business function.
+description: Business impact analysis is a structured process for assessing impact categories and dependencies. Use it to predict the consequences of a disruption on a business process or function.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/bia-uib.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [Explore, Business Continuity Management, Governance, Risk, and Comp
 
 # Business impact analysis
 
-Business impact analysis is a structured process where you assess the impact categories and dependencies and predict the consequences of a disruption on a business process or business function.
+Business impact analysis is a structured process for assessing impact categories and dependencies. Use it to predict the consequences of a disruption on a business process or function.
 
 ## An integral component of your business continuity plan
 
@@ -26,11 +26,11 @@ For information on the use cases for business impact analysis, see [Use cases fo
 
 Creating a business impact analysis includes these steps:
 
--   The business impact analysis owner creates a business impact analysis either from the Home page or the business impact analysis record page in the List view of the BCM UIB Workspace.
+-   The business impact analysis owner creates a business impact analysis from the BCM UIB Workspace. The owner can use the Home page or the business impact analysis record page in the List view.
 -   The BIA owner adds additional details for the business impact analysis on the **Details** tab.
 -   Different users of the BCM application respond to the assessment questionnaire for the business impact analysis on the **Assessment** tab.
 -   Based on the responses received, the BCM application calculates the recovery time objective \(RTO\), recovery point objective \(RPO\), and dependencies for the business impact analysis.
--   The business impact analysis owner reviews the information and submits the analysis for a review and approval to the business manager for services or IT manager for applications respectively.
+-   The business impact analysis owner reviews the information and submits the analysis for approval. The business manager reviews services. The IT manager reviews applications.
 -   The business manager, IT manager, or BCM lead review the details of the business impact analysis and approve or reject it.
 -   An approved business impact analysis is moved to **Approved** and later, it is moved to the **Archived** state.
 -   The business impact analysis owner can generate the PDF of the analysis and save a copy for reference.

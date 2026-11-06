@@ -1,6 +1,6 @@
 ---
-title: Create ServiceNow Otto context Menu configuration
-description: Create a new ServiceNow Otto context Menu configuration to deploy and activate a custom skill.
+title: Create ServiceNow Otto context menu configuration
+description: Create a ServiceNow Otto context menu configuration to deploy and activate a custom skill.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/create-now-assist-configuration-with-guided-setup.html
 release: zurich
@@ -10,9 +10,9 @@ reading_time_minutes: 2
 breadcrumb: [Use Now Assist context menu for custom skill deployment, ServiceNow Otto context menu, AI Experiences, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
-# Create ServiceNow Otto context Menu configuration
+# Create ServiceNow Otto context menu configuration
 
-Create a new ServiceNow Otto context Menu configuration to deploy and activate a custom skill.
+Create a ServiceNow Otto context menu configuration to deploy and activate a custom skill.
 
 ## Before you begin
 

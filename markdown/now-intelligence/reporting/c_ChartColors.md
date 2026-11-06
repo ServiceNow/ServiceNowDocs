@@ -16,7 +16,7 @@ breadcrumb: [Predefined colors in reports, Advanced Core UI reporting topics, Re
 
 Chart colors assign a consistent color to a grouping or stacking value in reports. The color stays the same across reports regardless of the order of the values.
 
-**Note:** This topic refers to Reporting in the Core UI. If your instance is migrated to Platform Analytics experience, see [Colors in data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/colors-dv.md).
+**Note:** This topic refers to Reporting in the Core UI. For information about chart colors in Platform Analytics, see [Colors in data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/colors-dv.md).
 
 ## Using chart colors in a report
 

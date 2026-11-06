@@ -36,7 +36,7 @@ Learn how to monitor the progress of your discoveries and how to configure the s
 
 -   **[Discovery Troubleshooting Guide](https://support.servicenow.com/kb_view.do?sysparm_article=KB0535181)**
 
-    Use this article in the Now SupportKnowledge Base if you're experiencing symptoms, such as the inability for Discovery to classify a discovered host, or the Shazzam probe not finding certain types of devices.
+    Use this article in the Now SupportKnowledge Base if you experience symptoms such as Discovery failing to classify a discovered host, or the Shazzam probe not finding certain types of devices.
 
 -   **[Troubleshoot Discovery Performance, Cancellation, and Timeout](https://support.servicenow.com/now/nav/ui/classic/params/target/kb%3Fid%3Dkb_article_view%26sysparm_article%3DKB0676340)**
 

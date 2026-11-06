@@ -8,7 +8,7 @@ product: AI Search
 classification: ai-search
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Administer, AI Search, Search administration, Configure core features, Administer]
 ---
 
@@ -72,7 +72,7 @@ More computationally expensive alternate content security implementation that po
 
  If AI Search applies late binding security to any results from an indexed source used by a facet, the list of available filter selections for the facet changes. When this happens, the facet only displays field values found in the current page of search results. For details on facets, see [Create a facet in an AI Search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-facet-ais.md).
 
- When you enable search result counts for facets in a search application, the counts indicate the number of results that matched the user's search. Late binding security can remove results after they’re counted, causing the actual number of displayed results to be lower than the count. For more information on search result counts for facets, see [Show search result counts for facets on the results page for a search application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/display-result-counts-ais.md).
+ When you enable search result counts for facets in a search application, the counts indicate the number of results that matched the user's search. Late binding security can remove results after they’re counted, causing the actual number of displayed results to be lower than the count. For more information on search result counts for facets, see .
 
 </td></tr></tbody>
 </table>## Content security for external content

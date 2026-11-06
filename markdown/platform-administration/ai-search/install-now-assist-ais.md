@@ -7,7 +7,7 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-07-28"
+last_updated: "2026-10-16"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
@@ -23,9 +23,9 @@ Role required: admin
 
 ## About this task
 
-The ServiceNow Otto for AI Search plugin is automatically installed as a dependency when you install a ServiceNow Otto plugin in ServiceNow Otto Admin. ServiceNow Otto for AI Search is included in Now Assist suites.
+The ServiceNow Otto for AI Search plugin is automatically installed as a dependency when you install a ServiceNow Otto plugin in ServiceNow Otto Admin. ServiceNow Otto for AI Search is included in AI Suites.
 
-**Note:** When you upgrade to the latest version of ServiceNow Otto for AI Search, the system reindexes content from the Catalog Item Table and Knowledge Table indexed sources. While these reindexing tasks are ongoing, searches may not return answers from these sources. After reindexing completes, answers should appear normally.
+**Note:** When you upgrade to the latest version of ServiceNow Otto for AI Search, the system reindexes content from the Catalog Item Table and Knowledge Table indexed sources. While these reindexing tasks are ongoing, searches may not return Catalog and Q&amp;A Genius Result answers. After reindexing completes, Catalog and Q&amp;A Genius Result answers should appear normally.
 
 ## Procedure
 

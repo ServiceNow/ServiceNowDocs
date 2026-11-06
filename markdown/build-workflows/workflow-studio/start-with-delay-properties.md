@@ -63,7 +63,7 @@ Template Value
 
 </td><td>
 
-Option to set a duration value manually or to select a Duration data pill from the data pill picker \[Omitted image "data-pill-picker-icon.png"\] Alt text: Data pill picker.-   **Explicit Duration**: Wait duration in hours, minutes, and seconds.
+Option to set a duration value manually or to select a Duration data pill from the data pill picker \[Omitted image "data-pill-picker-icon.png"\] Alt text: Data pill picker. -   **Explicit Duration**: Wait duration in hours, minutes, and seconds.
 -   **Relative Duration**: Wait duration in hours, minutes, and seconds before or after a specific time. Select **Relative Duration** to specify a wait duration from a specific date.
 
 **Note:** Past dates don't affect the wait duration.

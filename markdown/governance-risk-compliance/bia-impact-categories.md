@@ -26,7 +26,7 @@ When a business service, process, or application experiences downtime due to a d
 
 ## Impact categories in BCM
 
-With the BCM administrator role, you can view the impact categories that are installed with demo data and set up new impact categories in the **Impact categories** module of the BCM application. The example shows the impact categories that are installed with demo data in an instance.
+With the BCM administrator role, you can view the impact categories that are installed with demo data. You can also set up new impact categories in the **Impact categories** module of the BCM application. The example shows the impact categories that are installed with demo data in an instance.
 
 \[Omitted image "bia-impact-categories.png"\] Alt text: BIA impact categories that are installed with demo data.
 

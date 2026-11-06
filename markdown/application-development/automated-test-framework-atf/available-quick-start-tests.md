@@ -223,7 +223,7 @@ To learn more about Enterprise Architecture \(formerly Application Portfolio Man
 
 ## Assessments and Surveys
 
-Assessments and Surveys quick start tests require activating the Automated Test Framework for Survey plugin \(com.glide.automated\_testing\_impl. Survey\).
+Assessments and Surveys quick start tests require activating the Automated Test Framework for Survey plugin \(com.glide.automated\_testing\_impl.survey\).
 
 |Name|Description|Release version|
 |----|-----------|---------------|
@@ -1662,8 +1662,8 @@ Rome
 </td></tr></tbody>
 </table>|Test|Description|Release version|
 |----|-----------|---------------|
-|CSM PPM: Case creation from project workflow|As a customer service agent, create a case from a CSM project record in CRM Workspace.|Yokohama|
-|CSM PPM: Case creation from project task workflow|As a customer service agent, create a case from a CSM project task record in CRM Workspace.|Yokohama|
+|CSM PPM: Case creation from project workflow|As a customer service agent, create a case from a CSM project record in CSM Configurable Workspace.|Yokohama|
+|CSM PPM: Case creation from project task workflow|As a customer service agent, create a case from a CSM project task record in CSM Configurable Workspace.|Yokohama|
 
 To learn more about Customer Service Management, see [Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/c_CustomerServiceManagement.md).
 
@@ -5326,7 +5326,7 @@ Zurich
 
 ## Service Level Management
 
-Service Level Management quick start tests require activating the Service Level Management - ATF Tests plugin \(com.snc.service\_level\_management.atf\).
+Service Level Management quick start tests require activating the Service Level Management - ATF Tests plugin \(com.snc.sla.atf\).
 
 |Test|Description|Release version|
 |----|-----------|---------------|

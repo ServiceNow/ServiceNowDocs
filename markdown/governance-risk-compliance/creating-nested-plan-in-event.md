@@ -58,9 +58,9 @@ Similarly, Plan 2 has three recovery tasks: Task 1, Task 2, Task 3. Plan 1 trigg
 
 \[Omitted image "plan-1-2-4.png"\] Alt text: Plan 2.
 
-Previously, when a primary plan like Plan 1 was included in an event, only the first level of related plans, such as Plan 2 and Plan 3, were added. Deeper levels, like Plan 4, were not included. With the nested plan functionality, plans up to 10 levels deep, including Plan 4, can be added to the hierarchy.
+Before the nested plan functionality, adding Plan 1 to an event included only its direct related plans. Plans 2 and 3 were added, but deeper levels like Plan 4 were not. With nested plan functionality, plans up to 10 levels deep can be added to the hierarchy.
 
-When you create an event and add Plan 1, its related plans, assets, and tasks are automatically included. Selecting the **View progress** button opens the Progress tracker window, showing the progress and status of adding plans, assets, tasks, and related plans, and the steps and status of the background process.
+When you create an event and add Plan 1, its related plans, assets, and tasks are automatically included. Select **View progress** to open the Progress tracker window. The window shows the progress and status of adding plans, assets, tasks, and related plans, and the background process steps.
 
 \[Omitted image "progress-tracker.png"\] Alt text: Progress tracker.
 
@@ -143,7 +143,7 @@ When adding task dependencies in primary and related plans, only tasks from othe
 
 ## Configuring the property to refresh the event task order
 
-Whenever task dependencies are updated, the event task order is updated. If more than 500 event tasks are affected, the order is calculated asynchronously. The **sn\_recovery.sync\_task\_order\_calculation\_limit** property sets the limit for asynchronous calculation to 500 tasks by default. When the task count exceeds this limit and dependencies are updated, the task order calculation becomes asynchronous, and a **Refresh tasks order** button appears in the event, event task, and activated plan. Selecting this button manually refreshes the event task order.
+Whenever task dependencies are updated, the event task order is updated. The **sn\_recovery.sync\_task\_order\_calculation\_limit** property sets the limit for asynchronous calculation to 500 tasks by default. When the task count exceeds this limit and dependencies are updated, the task order calculation becomes asynchronous. A **Refresh tasks order** button appears in the event, event task, and activated plan. Select this button to refresh the event task order.
 
 ## Process of creating a nested plan
 
@@ -155,10 +155,10 @@ Follow these steps to create a nested plan:
 
 1.  Create an event.
 2.  Add a plan to the event. An activated plan is created with the plan type set as primary.
-3.  An event is triggered to create related plans. If the plan has related plans without any task associations and the plan level is less than the default value defined in the property, an activated plan is created with the type set as related plan.
+3.  An event is triggered to create related plans. If the plan has no task associations and its level is below the property-defined default, an activated related plan is created.
 4.  An event is created to generate one or more event assets.
 5.  After the assets are created, an event is triggered to create event tasks.
-6.  If the event task has a related plan and its level is less than the level defined in the property, an activated plan is created with the type set as child plan.
+6.  If the event task has a related plan and its level is less than the property-defined level, an activated child plan is created.
 7.  After the child plan's event tasks are created, the system checks the direct parent plan's recovery task dependencies. Any matching dependencies are carried forward into the corresponding event tasks of the child plan.
 
 **Parent Topic:**[Structured workflows for exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)

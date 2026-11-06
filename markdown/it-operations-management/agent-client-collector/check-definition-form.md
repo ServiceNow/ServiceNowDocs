@@ -207,6 +207,26 @@ Plugins
 
 Select the plugins to be associated with the check. Once this is done, the plugins download before the check executes.
 
+</td></tr><tr class="sub-head"><td colspan="2">
+
+Advanced Check Configuration
+
+</td></tr><tr><td>
+
+Run check in the background
+
+</td><td>
+
+Select the checkbox for the check to run in the background, without the agent waiting for the check's process to finish.
+
+</td></tr><tr><td>
+
+Disable Token replacement
+
+</td><td>
+
+Select to disable token replacement if the command contains tokens designated within \{\{ \}\} that should pass through as command parameters.
+
 </td></tr></tbody>
 </table>-   **[Check definition form parameters tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/check-definition-parameters-tab.md)**  
 The Parameters tab definitions for the **Command** field on the check definition form.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/deal-registration-management.html
 release: zurich
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 5
 breadcrumb: [Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -87,7 +87,7 @@ Key task concepts:
 -   Tasks can be assigned to any internal ServiceNow® user, beyond deal agents.
 -   Non-deal users automatically receive the Fulfiller role to work on assigned tasks.
 -   Each deal can have zero to many tasks based on work requirements.
--   Tasks are visible in the Partner CRM Workspace but not on the Partner portal.
+-   Tasks are visible in the Partner CSM Configurable Workspace but not on the Partner portal.
 -   When a deal is archived or deleted, all associated tasks are automatically archived or deleted.
 
 -   **[Install Deal Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/install-deal-registration-management.md)**  

@@ -53,7 +53,7 @@ The Atlassian Confluence Cloud external content connector only retrieves permiss
 
     1.  Perform the appropriate action for your version of the UI:
 
-<table id="table_els_wyl_vpb"><thead><tr><th>
+<table><thead><tr><th>
 
 UI version
 

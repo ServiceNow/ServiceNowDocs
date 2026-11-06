@@ -7,7 +7,7 @@ release: zurich
 product: Atlassian Jira Integrations Common
 classification: atlassian-jira-integrations-common
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-10-16"
 reading_time_minutes: 4
 breadcrumb: [Atlassian Jira Integration for Agile Development, Integrate, Agile Development 2.0, Strategic Portfolio Management]
 ---
@@ -46,6 +46,18 @@ The sprint is not associated to the imported stories.
 Verify if the sprint is started in Jira. If the sprint that is associated with the stories is a future sprint, then it is not associated to the stories in Agile Development.
 
  Sprint data from Jira is updated in Agile Development only if the sprint is active in Jira.
+
+</td></tr><tr><td>
+
+The **Sprint** value of completed stories is empty after a sprint is closed in Jira.
+
+</td><td>
+
+When you close a sprint in Jira, the integration imports the sprint stories again and ignores closed sprints. A story whose only sprint is the closed sprint is imported with an empty **Sprint** value.
+
+ The integration also clears the **Sprint** value of incomplete stories in the closed sprint.
+
+ To keep the sprint of a completed story, add a custom field and map the Jira sprint value to it. Then use that field to relate stories to sprints. For more information, see [Customize your field map configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/atlassian-jira-integrations-common/custom-field-map-configuration.md).
 
 </td></tr><tr><td>
 

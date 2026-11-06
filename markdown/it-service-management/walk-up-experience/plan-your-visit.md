@@ -67,5 +67,5 @@ A success message is displayed. The details of the appointment are displayed und
 
 You can also see your upcoming appointments under the My active items widget on Employee Center home page.
 
-**Parent Topic:**[Manage Walk-up Experience queue and interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/use-walkup-to-manage-demand.md)
+**Parent Topic:**[Manage Walk-up Experience queue and interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/use-walkup-to-manage-demand.md)
 

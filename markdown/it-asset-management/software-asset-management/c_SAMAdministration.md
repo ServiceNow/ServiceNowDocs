@@ -32,8 +32,6 @@ Software Asset Job Results records are listed in the navigation path **All** &gt
 
 -   **[Enable sharing information with Software Asset Management content service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/t_EnableSAMContentService.md)**  
 Opt in to share unnormalized software installation data from your organization with Software Asset Management Content Service. You can opt out at any time.
--   **[Exclude software assets on CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/exclude-software-assets-cis.md)**  
-You may want to manage software assets installed on a subset of your configuration items in the Software Asset Management application.
 -   **[Engineering license servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/eng-license-server.md)**  
 View the list of all the license management servers that OpenLM or Open iT connect with to get data into your ServiceNow instance.
 -   **[Add a software pattern normalization rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/t_AddAPatternNormRule.md)**  

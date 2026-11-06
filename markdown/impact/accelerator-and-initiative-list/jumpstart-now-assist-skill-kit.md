@@ -1,24 +1,24 @@
 ---
-title: Jumpstart Your Now Assist Skill Kit
-description: This Accelerator provides a demonstration of the possibilities and capabilities of Now Assist Skill Kit.
+title: Jumpstart Your ServiceNow AI Skill Kit
+description: This Accelerator provides a demonstration of the possibilities and capabilities of ServiceNow AI Skill Kit.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/jumpstart-now-assist-skill-kit.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
 ---
 
-# Jumpstart Your Now Assist Skill Kit
+# Jumpstart Your ServiceNow AI Skill Kit
 
-This Accelerator provides a demonstration of the possibilities and capabilities of Now Assist Skill Kit.
+This Accelerator provides a demonstration of the possibilities and capabilities of ServiceNow AI Skill Kit.
 
 ## Accelerator overview
 
-Jumpstart Your Now Assist Skill Kit provides Impact customers with an overview of the capabilities and features of Now Assist Skill Kit. Through an applied  demonstration, we highlight the  creation of a simple, custom use case, such as Sentiment Analysis, illustrating how Skill Kit enables customers to harness the full potential of Now LLM and the platform combined for their unique needs. Additionally, this Accelerator provides customers with key resources and leading practices guides for getting started.​
+Jumpstart Your ServiceNow AI Skill Kit provides Impact customers with an overview of the capabilities and features of ServiceNow AI Skill Kit. Through an applied demonstration, we highlight the creation of a simple, custom use case, such as Sentiment Analysis, illustrating how Skill Kit helps to harness the full potential of Now LLM and the platform for their unique needs. Additionally, this Accelerator provides customers with key resources and leading practices guides for getting started.​
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(SV or PG\), Advanced, and Total packages.
 
@@ -26,13 +26,13 @@ Jumpstart Your Now Assist Skill Kit provides Impact customers with an overview o
 
 -   **Session preparation**
     -   Provision a temporary instance
-    -   Activate Now Assist Skill Kit
+    -   Activate ServiceNow AI Skill Kit
 -   **Customer coaching session \#1 \(up to 90 minutes\)**
 
     Includes the following:
 
-    -   Overview of Now Assist Skill Kit and Data Kit capabilities and features
-    -   Applied demonstration of Now Assist Skill Kit:
+    -   Overview of ServiceNow AI Skill Kit and AI Data Kit capabilities and features
+    -   Applied demonstration of ServiceNow AI Skill Kit:
         -   Configuration of Sentiment Analysis Skill
         -   -   Prompt assistance
 -   Skill configuration
@@ -41,7 +41,7 @@ Jumpstart Your Now Assist Skill Kit provides Impact customers with an overview o
     -   30 days of access to the temporary instance is provided
 -   **Customer coaching session \#2 \(optional on customer request, up to 60 minutes\)**
 
-    Opportunity for Q&amp;A related to Now Assist Skill Kit
+    Opportunity for Q&amp;A related to *ServiceNow Otto* Skill Kit
 
 
 ## Requested customer resources
@@ -57,10 +57,6 @@ One or more customer resource is requested. The specific number of resources pro
 ## Requested information / access
 
 Refer to the applicable Impact Accelerator description available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
-
-## Exclusions
-
-This Impact Accelerator in its entirety or portions of the Impact Accelerator activities may not be available to customers in certain restricted environments, to self-hosted customers, or to managed service providers with domain separated instances.
 
 ServiceNow is not responsible for implementing recommendations on Customer’s non-production or production instances.
 

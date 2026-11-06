@@ -28,8 +28,6 @@ After you have installed and setup the Discovery Console for OT, the Discovery S
 
 2.  When the name displays, select the tool.
 
-    \[Omitted image "image.onboarding-tab"\] Alt text: Onboarding tool
-
     \[Omitted image "image.new-config-wizard-tool"\] Alt text: Configuration Wizard
 
 3.  The configuration wizard opens in the Console.
@@ -43,8 +41,6 @@ After you have installed and setup the Discovery Console for OT, the Discovery S
     Move the wizard to the right \(collapse\) to improve Console visibility.
 
     To expand and center the wizard on the screen, select the \[Omitted image "image.widen"\] Alt text: expand icon.
-
-    \[Omitted image "image.wizard-collapsed-to-right"\] Alt text: Wizard collapsed
 
     \[Omitted image "image.new-config-wiz-folded"\] Alt text: Wizard collapsed
 

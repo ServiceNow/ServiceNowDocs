@@ -8,7 +8,7 @@ product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
 last_updated: "2026-05-11"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Use, ServiceNow Studio, Developing your application, Building applications]
 ---
 

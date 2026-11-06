@@ -18,7 +18,7 @@ MIDSystem variables \(referred to by the variable name ms.\) provide a variety o
 
 <table id="table_lhn_gsf_khb"><tbody><tr><td>
 
-![Links to each of the MID Server sections](../image/MIDRefIconBar.png)
+![MID Server reference navigation](../image/MIDRefIconBar.png)
 
 </td></tr></tbody>
 </table>|Method summary|Description|

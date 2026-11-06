@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
 keywords: [admin console, branding, themes, data sources, conversational assistant, canvas configuration, internal search, external search, Employee Slate]
-breadcrumb: [Employee Slate \(built for Now Assist\), Configuration flow, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee Slate \(built for Now Assist\), EmployeeWorks, Employee Service Management]
 ---
 
 # Configure branding and theme

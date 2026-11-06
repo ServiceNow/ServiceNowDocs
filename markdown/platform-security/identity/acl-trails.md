@@ -18,7 +18,7 @@ Displays audits of ACLs in the ServiceNow® instance.
 
 ACL Trails display attribute changes and required role relation changes for an ACL.
 
-To access the ACL Trails, navigate to **All** &gt; **System Security** &gt; **Identity and Access Audit** &gt; **ACL Trails**. The ACL Trails page is displayed with the following information.
+To access the ACL Trails, navigate to **All** &gt; **System Security** &gt; **Identity and Access Audit** &gt; **ACL Trails**. The ACL Trails page displays the following information.
 
 | | |
 |---|---|

@@ -46,9 +46,9 @@ Zurich Patch 12
 [Zurich Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-1.md)
 
 -   Use the contract playbook to review and update the AI extracted metadata and reminder date for contract renewal or termination.
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 
-See [Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cncore-now-assit-landing.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -66,7 +66,7 @@ See [Now Assist in Contract Management](https://raw.githubusercontent.com/Servic
     2.  In the **Name** field, search for `Upsert DI skill config`.
     3.  In the script, add the use case IDs that you want to migrate to the AI Admin Hub console.
     4.  Select **Run Fix Script**.
-    For more information, see [Post-upgrade steps for Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cmpro-na-upgrade-steps.md).
+    For more information, see .
 
 -   **Browser requirements**
 
@@ -89,7 +89,7 @@ The ServiceNow® Now Assist in Contract Management uses generative AI capabiliti
 
 ### What's new
 
--   **[Export conversational search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cmpro-agentic-use-conv-search.md)**
+-   **Export conversational search results**
 
     Export search results from conversational search in multiple file formats. The export includes all search results and uses the columns configured in your list view. Customize the exported columns using the Personalize fields option.
 
@@ -113,7 +113,7 @@ The ServiceNow® Now Assist in Contract Management uses generative AI capabiliti
 
 ### What's changed
 
--   **[Improved missing clause detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cncore-NA-review-land.md)**
+-   **Improved missing clause detection**
 
     Missing clause detection in contract revision using the contract analysis skill has been enhanced for accuracy. The setup, configuration, and review experience remains unchanged across all supported workspaces.
 
@@ -124,24 +124,24 @@ The ServiceNow® Now Assist in Contract Management uses generative AI capabiliti
 
 ### What's new
 
--   **[Feedback for Now Assist contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cmpro-review-contract-document.md)**
+-   **Feedback for Now Assist contract analysis**
 
     Provide feedback on AI-identified non-standard and missing clauses to help improve AI accuracy over time. When reviewing contracts using Now Assist contract analysis, you can indicate whether the AI suggestions were helpful or not helpful by using the thumbs up or thumbs down feedback options. You can also provide optional qualitative feedback with comments. The feedback option is available in both the workspace and Microsoft Word add-in.
 
     The feedback provided on each clause is captured in the **Contracts Gen AI Feedback** table.
 
--   **[Automatically navigate to non-standard clauses in Microsoft Word add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cmpro-review-contract-document.md)**
+-   **Automatically navigate to non-standard clauses in Microsoft Word add-in**
 
     Locate non-standard clauses easily in Microsoft Word. The document scrolls to the relevant section using AI citations when you select a Now Assist suggestion in the Microsoft Word add-in.
 
 
 ### What's changed
 
--   **[Configure use case mappings for metadata and obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cmpro-na-usecase-mappings-me.md)**
+-   **Configure use case mappings for metadata and obligation extraction**
 
     Clear the **Contracts created from contract request** check box on the use case mapping forms for the contract metadata extraction and contract obligation extraction skills to extract metadata and obligations form signed contracts that are uploaded directly on a contract record.
 
--   **[Use conversational contract search and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cmpro-agentic-use-conv-search.md)**
+-   ****
 
     The Now Assist powered conversational search feature's improved experience enables you to:
 
@@ -167,19 +167,19 @@ The ServiceNow® Now Assist in Contract Management uses generative AI capabiliti
 
 ### What's new
 
--   **[Automated obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cmpro-na-reminder-agentic-wf.md#section_tgm_mt3_dhc)**
+-   **Automated obligation extraction**
 
     Use the manage contract repository agentic workflow to automatically identify and capture key contractual obligations from signed contracts and create obligation records in the contract repository. The AI agent in the manage contract repository agentic workflow uses the Now Assist Contract obligation extraction skill to extract key contractual obligations from contracts.
 
--   **[Using contract playbook to review AI-extracted obligations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cmpro-na-review-obligations.md)**
+-   **Using contract playbook to review AI-extracted obligations**
 
     Review extracted obligations in the contract playbook, with options to edit, approve, or reject each obligation. Approved obligations are added as obligation records in the contract repository while rejected obligations are deactivated.
 
--   **[Contract obligation extraction skill in Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cncore-conf-obligation-extraction.md)**
+-   **Contract obligation extraction skill in Now Assist in Contract Management**
 
     Configure and map use cases for obligation extraction skill in the AI Admin Hub console to automatically extract key contractual obligations from signed contracts. The AI agent in the manage contract repository agentic workflow uses the Now Assist Contract obligation extraction skill to extract key contractual obligations from contracts.
 
--   **[Use conversational contract search and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cmpro-agentic-use-conv-search.md)**
+-   ****
 
     Contract documents are often complex and stored across multiple formats and repositories, making keyword-based search inefficient and error-prone. The new Now Assist powered conversational search feature enables you to search contract documents using natural language and dialogue-driven queries.
 
@@ -204,7 +204,7 @@ The ServiceNow® Now Assist in Contract Management uses generative AI capabiliti
 
     -   New customers: When you install an AI product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Australia Early Access\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Enhanced Manage contract repository agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cmpro-na-reminder-agentic-wf.md)**
+-   **Enhanced Manage contract repository agentic workflow**
 
     The manage contract repository agentic workflow has been optimized for enhanced performance. It now utilizes a single agent, the Contract Repository AI agent to extract both contract metadata and obligations from signed contracts, and retrieve required information to calculate the contract reminder date.
 
@@ -219,7 +219,7 @@ The ServiceNow® Now Assist in Contract Management uses generative AI capabiliti
 
 ### What's new
 
--   **[Using contract playbook to review AI-extracted metadata and contract reminder date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cmpro-na-review-ai.md)**
+-   **Using contract playbook to review AI-extracted metadata and contract reminder date**
 
     Use the playbook within a contract repository record to review the metadata extracted by the AI agents in the manage contract repository agentic workflow. You can make necessary changes to the extracted information, and submit it to update the contract repository. If the contract end date is available, the **Review contract reminders** tab appears in the playbook, enabling you to review and update the AI-calculated contract reminder date and specify recipients for contract renewal or terminations.
 
@@ -231,18 +231,18 @@ The ServiceNow® Now Assist in Contract Management uses generative AI capabiliti
 
     Google Gemini and AWS Claude are available for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 
--   **[Select large language models for use cases in Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cmpro-na-manage-llm.md)**
+-   ****
 
     Select a large language model \(LLM\) provider for a contract analysis or metadata extraction use case. The selected LLM is applicable only for the specific use case and overrides the LLM selected for Now Assist in Contract Management skills.
 
 
 ### What's changed
 
--   **[Extract metadata from signed contracts automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cmpro-na-reminder-agentic-wf.md)**
+-   **Extract metadata from signed contracts automatically**
 
     Use the AI agents in the manage contract repository agentic workflow to automatically extract metadata from signed contracts and calculate the contract reminder dates for contract renewal or termination. You can review the AI results in the contract playbook and update it if necessary before saving it.
 
--   **[Contract metadata extraction use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/metadata-extraction-use-case.md)**
+-   ****
 
     Support for 14 additional metadata fields in the CM Pro - Contract Metadata Extraction use case is available in the base system.
 

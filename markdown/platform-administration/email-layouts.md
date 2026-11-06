@@ -62,5 +62,5 @@ Create an email layout to specify the HTML content you want to appear in the bod
 
 [Domain separation and Notifications]()
 
-[Email FAQs and troubleshooting notification emails]()
+[Notification email logs and diagnostics]()
 

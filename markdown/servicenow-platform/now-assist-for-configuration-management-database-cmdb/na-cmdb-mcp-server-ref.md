@@ -91,18 +91,18 @@ Example utterances:
 
 ## Get CI Topology
 
-Returns the CI topology as nodes and edges, including upstream and downstream relationships. If the topology exceeds the node limit, the response is truncated and includes a warning.
+Returns the topology impacted by a change request or incident as nodes and edges, including upstream and downstream relationships. If the task has no impact analysis yet, the tool runs one first.
 
 |Parameter|Required|Description|
 |---------|--------|-----------|
-|**ci\_sys\_id**|Required|The sys\_id of a record in the Configuration Item \[cmdb\_ci\] table. The tool verifies the CI exists before building its topology.|
+|**task\_number**|Required|The change request or incident number to analyze, for example **CHG0001234** or **INC0001234**. The record must have a CI set.|
 
-On success, the tool returns the topology's nodes, edges, and root CI. If the traversal reaches the node limit, the response also includes a truncation flag and a warning message. If **ci\_sys\_id** is missing, or doesn't match an existing CI, the tool returns an error.
+On success, the tool returns the topology's nodes, edges, and root CI. If the analysis stops before it covers the full topology, the response also includes a truncation flag and a warning that some impacted CIs might be missing. If **task\_number** is missing, or the task isn't an active change request or incident with a CI set, the tool returns an error.
 
 Example utterances:
 
--   "Show me the topology for this CI, including everything upstream and downstream."
--   "Use the CMDB MCP Server tool, Get CI Topology, to map dependencies for the server I just found."
+-   "Show me the topology impacted by change CHG0001234, including everything upstream and downstream."
+-   "Use the CMDB MCP Server tool, Get CI Topology, to map the dependencies affected by incident INC0001234."
 
 ## Explain CMDB Data Model
 

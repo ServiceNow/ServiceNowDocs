@@ -47,7 +47,7 @@ The ServiceNow® Authentication application supports many authentication mechani
     Use the Provider name field to enter the details of your inbound integrations to distinguish between different inbound integrations on your ServiceNow AI Platform®. Update the Provider name in your API integrations to improve monitoring capabilities:
 
     -   For OAuth integrations, update the provider name using the Provider name field. To know more, see [OAuth inbound](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/oauth-inbound.md).
-    -   For Basic authentication integrations, update the Provider name in the integration registration form. To know more about the integration registration form, see [View Inbound API Integration Usage dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/view-inbound-api-integration-usage-dashboard.md).
+    -   For Basic authentication integrations, update the Provider name in the integration registration form. To know more about the integration registration form, see .
 
 [Zurich Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-1.md)
 
@@ -71,6 +71,8 @@ See [Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
 -   **Activation information**
 
     Authentication is a ServiceNow AI Platform product that is active by default.
+
+    Upgrade consideration: if **glide.authenticate.auth.policy.enabled** was `false` before you upgrade to Zurich and a Pre or Post Authentication Policy Context is configured, the upgrade changes the context's default policy and deletes existing MFA enrollment data. Users must enroll in MFA again. See .
 
 
 **Parent Topic:**[ServiceNow AI Platform security release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-platform-security-rn-landing.md)

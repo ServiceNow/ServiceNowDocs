@@ -25,7 +25,7 @@ The base system solution detects and enables you to resolve high disk usage issu
 -   **[Metric rule triggering Proactive Engagement through alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/proactive-engagement/metric-rule-triggering-pe-through-alerts.md)**  
 Metric rules create an alert based on its trigger criteria.
 -   **[Proactive Engagement life-cycle management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/proactive-engagement/proactive-engagement-lcm.md)**  
-The Proactive Engagement application enables you to work in the life-cycle model to manage solutions that you own and to view solutions that may have an impact on services or products that you care about.
+The Proactive Engagement application supports life-cycle management of solutions. Use it to manage solutions you own and to view solutions that affect your services or products.
 
 **Parent Topic:**[Proactive Engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/proactive-engagement/proactive-engagement-landing-page.md)
 

@@ -26,7 +26,9 @@ Role required: BCM admin or BCM Program Manager
 
 3.  Click an alert record.
 
-    As a crisis manager, while viewing the alerts and their severity, you can initiate appropriate actions and trigger Crisis Management workflows for the respective stakeholders to respond and act on the crisis. The **Suggested Actions** section lists various responses that you can initiate.
+    While viewing the alerts and their severity, initiate appropriate actions and trigger Crisis Management workflows for stakeholders to respond to the crisis.
+
+    The **Suggested Actions** section lists available responses.
 
     -   **Notify Stakeholders**
 

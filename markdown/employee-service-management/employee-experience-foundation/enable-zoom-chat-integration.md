@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure, ServiceNow for Zoom, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configure, ServiceNow for Zoom, EmployeeWorks, Employee Service Management]
 ---
 
 # Enable Zoom chat integration

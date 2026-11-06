@@ -16,8 +16,6 @@ The Enterprise Architecture query agent answers natural language questions about
 
 \[Omitted image "ea-qna.png"\] Alt text: Enterprise Architecture Workspace home page with the ServiceNow Otto panel open, displaying a prompt to enter a natural language question about enterprise architecture.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
-
 **Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 The Enterprise Architecture Explorer Query Agent is a ServiceNow Otto agent for Enterprise Architecture. It lets architects and portfolio managers query their EA data using natural language, without navigating dashboards or building reports manually.

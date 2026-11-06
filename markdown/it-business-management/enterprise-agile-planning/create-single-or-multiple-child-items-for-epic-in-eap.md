@@ -38,15 +38,15 @@ This task details the procedure of creating stories for work items such as Epic,
 
 5.  From the work item details page, create stories manually or with Now Assist.
 
-<table id="choicetable_bq5_qnc_tcc"><thead><tr><th align="left" id="d190762e131">
+<table id="choicetable_bq5_qnc_tcc"><thead><tr><th align="left" id="d194056e131">
 
 Choice
 
-</th><th align="left" id="d190762e134">
+</th><th align="left" id="d194056e134">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d190762e140">
+</th></tr></thead><tbody><tr><td id="d194056e140">
 
 **Creating manually**
 
@@ -59,7 +59,7 @@ Action
 
 The full details page of the created story is displayed.
 
-</td></tr><tr><td id="d190762e172">
+</td></tr><tr><td id="d194056e172">
 
 **Using Now Assist**
 

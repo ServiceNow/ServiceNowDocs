@@ -33,3 +33,7 @@ The security score is based on the usage and method of machine identities. A low
 
 \[Omitted image "mic-security-findings-landing.png"\] Alt text: Machine Identity security score and findings
 
+## How the score is calculated
+
+The security score is based on the findings listed above. Each active finding category has an equal share of the total impact, which is 100 divided by the number of active categories. Any remainder is assigned to the UI login and integration category.
+

@@ -18,6 +18,8 @@ Risk lookup table is to get the risk value corresponding to the success probabil
 
 sn\_chg\_probability\_risk\_lookup table is used to fetch the data to calculate the risk value of the change request.
 
+**Note:** The `sn_chg_probability_risk_lookup` table and the **Calculated Risk Score** menu item are available only after the change risk calculator feature is activated. If you don't see the table or the menu, activate the feature first. For more information, see [Activate Change Management - Risk Calculator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/activate-change-risk-calculator.md).
+
 ## Defining probability ranges
 
 The **Calculated Risk Score** lookup does not define probability ranges. It consumes a success probability band that is calculated from the success probability definitions that produce each band. For more information, see [Success Probability definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/success-probability-definition.md). Also see [Success score calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/change-score-calculation.md)on how the resulting band combines with impact to produce the risk value.

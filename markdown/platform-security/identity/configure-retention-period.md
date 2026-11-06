@@ -1,5 +1,5 @@
 ---
-title: Configure Retention Period
+title: Configure retention period
 description: Configure the retention period for Identity and Access Audit.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/identity/configure-retention-period.html
@@ -9,10 +9,10 @@ classification: identity
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Security Auditable Fields, Identity and Access Audit, Identity]
+breadcrumb: [Security auditable fields, Identity and Access Audit, Identity]
 ---
 
-# Configure Retention Period
+# Configure retention period
 
 Configure the retention period for Identity and Access Audit.
 
@@ -24,7 +24,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **System Security** &gt; **Identity and Access Audit** &gt; **Configure Retention Period**.
 
-2.  On the form, you can change the Age in seconds.
+2.  On the form, enter a value in the Age in seconds field.
 
     **Note:** The maximum number of days for Identity and Access Audit is 30 days \(2,592,000 seconds\).
 

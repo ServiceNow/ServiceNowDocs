@@ -29,7 +29,7 @@ Evolve with your business logic by modifying the rows, default result values, or
 -   **[Use decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/use-decision-tables.md)**  
 Decision tables built in Workflow Studio are executed in flows with flow logic or in scripts with API calls.
 -   **[Manage decision tables in Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/manage-decision-tables-ms-excel.md)**  
-If you have large decision tables to build or want to enhance decision tables outside of the ServiceNow AI Platform, manage them in Excel. Export a decision table to an Excel file, edit the downloaded file to add and edit rows, and then import the file back into Workflow Studio.
+Manage large decision tables in Excel. Export a decision table to an Excel file, edit the file to add or update rows, and import the file back into Workflow Studio.
 -   **[View related objects in a decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/view-related-objects-decision-table.md)**  
 See and open objects that are related to your decision table, such as flows, subflows,and playbooks.
 -   **[Test a decision table in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/test-decision-table-in-decision-builder.md)**  

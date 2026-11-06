@@ -8,7 +8,7 @@ product: Authentication
 classification: authentication
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Multi-factor authentication, Access Management]
 ---
 
@@ -36,6 +36,13 @@ Here's more details about MFA enforcement:
 To know more about the changes due to enforcement, see [Changes due to the Multi-factor Authentication enforcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/changes-mfa-enforcement.md).
 
 To know more about MFA, see [Exploring Multi-factor Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/explore-mfa.md).
+
+## Clear an entry from the enforcement table
+
+Integration accounts that aren't marked as Web Service Access Only and make API calls appear in the enforcement table. To clear an entry, open Security Center, go to **Security Metrics** &gt; **Authentication** &gt; **Integration Accounts without Web Service Access Only Flag enabled**, and select the hybrid user record. Then choose one of the following actions:
+
+-   **Enable Web Service**: converts the account to a web service access only account. Use this when the account is an integration that makes API calls.
+-   **Mark as Interactive**: use this when the account isn't supposed to make API calls. The account is cleared from the enforcement table.
 
 **Related topics**  
 

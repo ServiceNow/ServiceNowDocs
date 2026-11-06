@@ -7,7 +7,7 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-02-11"
+last_updated: "2026-10-20"
 reading_time_minutes: 6
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [GitLab external content connector, Configure, External Content Connectors, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
@@ -87,8 +87,8 @@ If one of your connectors reaches the content indexing limit, you can update its
     |Content type|Searchable content indexed|
     |------------|--------------------------|
     |Issues|Issue description|
-    |Wikis|MarkDown content converted to HTML \(without attachments\)|
-    |Merge requests|Merge request description \(MarkDown\) and discussions|
+    |Wikis|Markdown content converted to HTML \(without attachments\)|
+    |Merge requests|Merge request description \(Markdown\) and discussions|
     |Tags|Tag message|
     |Branches|Commit message of head commit|
     |Commits|Commit message|

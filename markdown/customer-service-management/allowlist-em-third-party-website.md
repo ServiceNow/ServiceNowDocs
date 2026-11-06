@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/allowlist-em-third-party-website.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Set up Engagement Messenger, Enable communication channels, Configure, Customer Service Management]
 ---
@@ -41,7 +41,7 @@ You must add a CNAME record to your website domain’s DNS records where Engagem
 support.acme.com 300 IN CNAME acme.servicenow.com
 ```
 
-where `acme.service-now.com` is the ServiceNow instance and `acme.com` is your website on which Engagement Messenger is integrated.
+where `acme.servicenow.com` is the ServiceNow instance and `acme.com` is your website on which Engagement Messenger is integrated.
 
 ## Procedure
 
@@ -72,7 +72,7 @@ Engagement Messenger loads on a third-party website.
 
 The following code includes a sample URL that contains `support.acme.com` as a custom URL.
 
-\[Omitted image "em-custom-URL-in-code.png"\] Alt text: Custom url.
+\[Omitted image "em-custom-URL-in-code.png"\] Alt text: Custom url
 
 **Related topics**  
 

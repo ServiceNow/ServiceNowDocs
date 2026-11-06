@@ -21,7 +21,7 @@ The ServiceNow® Audit Management application supports activities related to pla
 -   Create evidence responses quickly with a simplified process.
 -   Access engagements, add existing entities to an engagement, and create activities in the Lite Audit workspace, which is a simplified version of the Audit Management workspace. If the advance core store app is installed, evidences can also be associated with the engagement.
 
-See [Audit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/c_GRCAudits.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -40,11 +40,11 @@ The ServiceNow® Audit Management application supports activities related to pla
 
 ### What's new
 
--   **[Audit period start and end dates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/t_CreateEngagement.md)**
+-   **Audit period start and end dates**
 
     Set audit period start and end dates directly on Engagement records to focus audits on specific time-frames. The system displays only indicator results that fall within your defined audit period, keeping the audit time-frame separate from the overall engagement time-frame. This helps you audit past or future periods without affecting the broader engagement timeline.
 
--   **[Unified content management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/unified-content-management_0.md)**
+-   ****
 
     Simplify the installation of pre-configured content packs with the new Unified content management icon in the Audit Workspace. Content Accelerator includes the Digital Operational Resilience Act \(DORA\) content pack, offering citations and authority documents for DORA compliance. Audit shared manager and Audit WS supervisor roles can access Content Accelerator.
 
@@ -55,7 +55,7 @@ The ServiceNow® Audit Management application supports activities related to pla
 
 ### What's new
 
--   **[Enhancement to evidence request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/evidence-request.md)**
+-   **Enhancement to evidence request**
 
     Create evidence response directly in one step. This bypasses the step involved in creation of evidence request and collection details. Evidence response is enhanced with additional data of source and context. To leverage evidence capabilities, feature roles have been introduced:
 

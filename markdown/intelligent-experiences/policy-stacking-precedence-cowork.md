@@ -1,6 +1,6 @@
 ---
-title: Policy stacking and precedence in ServiceNow Cowork
-description: When more than one policy applies to a user, ServiceNow Cowork merges them and resolves conflicts by priority in a fixed order, specificity, and restrictiveness.
+title: Policy stacking and precedence in ServiceNow Arc
+description: When more than one policy applies to a user, ServiceNow Arc merges them and resolves conflicts by priority in a fixed order, specificity, and restrictiveness.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/policy-stacking-precedence-cowork.html
 release: zurich
@@ -8,12 +8,12 @@ topic_type: concept
 last_updated: "2026-09-29"
 reading_time_minutes: 2
 keywords: [policy stacking, precedence, priority, restrictiveness, user criteria]
-breadcrumb: [Policy management and governance in ServiceNow Cowork, Explore Cowork, ServiceNow Cowork, Enable AI experiences]
+breadcrumb: [Policy management and governance in ServiceNow Arc, Explore, ServiceNow Arc, Enable AI experiences]
 ---
 
-# Policy stacking and precedence in ServiceNow Cowork
+# Policy stacking and precedence in ServiceNow Arc
 
-When more than one policy applies to a user, ServiceNow Cowork merges them and resolves conflicts by priority in a fixed order, specificity, and restrictiveness.
+When more than one policy applies to a user, ServiceNow Arc merges them and resolves conflicts by priority in a fixed order, specificity, and restrictiveness.
 
 More than one policy can apply to the same user, for example the **Default Policy** and a policy for a support team. The **User Criteria** field on each policy record decides which users the policy applies to. The instance merges every policy whose user criteria match the user, then resolves conflicts in the following order:
 
@@ -59,7 +59,7 @@ This approach has the following advantages:
 
 ## Example: Allow a site that the Default Policy blocks
 
-Your developers need Cowork to reach your internal package registry at registry.example.com, which isn't on the Default Policy network allowlist. To allow it, create a policy for the developer group, add a network rule for registry.example.com, and make sure the rule is active. At the next sync, the client receives the Default Policy allowlist and your rule merged together, so the registry is reachable for developers only.
+Your developers need Arc to reach your internal package registry at registry.example.com, which isn't on the Default Policy network allowlist. To allow it, create a policy for the developer group, add a network rule for registry.example.com, and make sure the rule is active. At the next sync, the client receives the Default Policy allowlist and your rule merged together, so the registry is reachable for developers only.
 
-**Parent Topic:**[Policy management and governance in ServiceNow Cowork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/policy-management-cowork.md)
+**Parent Topic:**[Policy management and governance in ServiceNow Arc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/policy-management-cowork.md)
 

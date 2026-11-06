@@ -20,7 +20,7 @@ Configure certain Engagement Messenger settings to enable public sector end user
 -   [Activate the Virtual Agent plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/activate-virtual-agent.md) \(com.glide.cs.chatbot\), which requires a subscription.
 -   [Activate the Customer Service Virtual Agent Conversations plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/activate-virtual-agent-csm.md) \(com.sn\_csm.virtualagent\), which requires a subscription.
 
-## Configure Engagement Messenger for Service Request Playbook
+## Configure Engagement Messenger for Service Request Administration
 
 Configure Engagement Messenger settings for creating and tracking non-emergency service requests.
 

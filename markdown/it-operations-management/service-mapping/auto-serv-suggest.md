@@ -30,6 +30,8 @@ To use Service Fingerprints, you must download and install ITOM Content Service 
 
 Automated Service Suggestions supports domain separation starting with version 1.9.0. No support is currently offered for on-premise instances. Reach out to product management for further information.
 
+In domain-separated environments, you can map application services from candidates only in a leaf domain. A leaf domain is a child domain of the lowest level, meaning it does not have any child domains itself.
+
 **Related topics**  
 
 

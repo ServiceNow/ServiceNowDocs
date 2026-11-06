@@ -33,7 +33,7 @@ The ServiceNow® App Engine Studio application enables creators of varying skill
 
 ### What's changed
 
--   **[Granular configuration admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/aes-personas-roles.md)**
+-   **Granular configuration admin roles**
 
     Several new granular admin roles enable developers to complete administrative configuration tasks without requiring the full admin role.
 

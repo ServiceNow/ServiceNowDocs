@@ -175,7 +175,7 @@ Creates an application service record from one or more entry points \(HTTP URLs 
     -   Entry point format is validated before record creation. If any entry point format is invalid, no record is created and an error is returned.
     -   A service name or entry point already used by another service is rejected rather than merged into the existing record.
     -   Optional metadata fields are set directly on their corresponding CMDB service record fields, with no value translation. Provide values in the format the target field accepts.
-    -   If the service record is created but a later step, such as linking an entry point, fails, the created service record is rolled back rather than left partially created.
+    -   If the service record is created but a later step, such as linking an entry point, fails, the created service record is rolled back. It is not left partially created.
     -   The created service record is immediately visible in ServiceNow and available for topology queries via get\_application\_service\_topology.
 -   **Example queries**
     -   "Create a new application service called 'Payment Gateway' that monitors the endpoint at https://payments.acme.com"

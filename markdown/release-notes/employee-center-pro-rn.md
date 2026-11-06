@@ -20,7 +20,7 @@ The ServiceNow® Employee Center Pro application provides a central hub for depa
 -   Get the Notifications in Employee Center feature in Content engagement for improved employee involvement while engaging with news content.
 -   Experience an enhanced performance with improvements to calender widgets, news and events, and publishing communications to browser websites.
 
-See [Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-center-pro-landing.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -39,22 +39,22 @@ The ServiceNow® Employee Center Pro application provides a central hub for depa
 
 ### What's new
 
--   **[Portal performance optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/ec-load-experience-optimization.md)**
+-   ****
 
     Communicate information about heavy usage and slower network conditions during high usage scenarios, such as live events and major announcements.
 
--   **[Notifications for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/notifications-ec.md) enhancements**
+-   ** enhancements**
 
     Get the Notifications for Employee Center feature in Content engagement. Add reactions and comments to published news articles to help improve user involvement.
 
--   **[Integrated experience and service feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/ex-fdback-ovrvw.md)**
+-   ****
 
     Configure features flexibly as an admin and submit detailed experience feedback as an employee with the Integrated experience and Service feedback enhancements. With the enhancements, you can do the following:
 
     -   Use new themes for experience feedback.
     -   Add comments in addition to a rating when submitting experience feedback.
     -   Review submitted feedback on the Feedback Analytics Dashboard.
--   **[Quick start tests for Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/quick-start-tests-employee-center-pro.md)**
+-   **Quick start tests for Employee Center Pro**
 
     After upgrades and deployments of new applications or integrations, run quick start tests to verify that Employee Center Pro works as expected. If you customized Employee Center Pro, copy the quick start tests and configure them for your customizations.
 

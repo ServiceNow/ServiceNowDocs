@@ -65,7 +65,7 @@ You can open or dismiss an alert in the alerts panel. You can also subscribe to 
 
 ## Alerts panel
 
-When you select an alert in the **Alerts** panel, it launches a zoomed-in view with the alert details such as category, event, and so on as shown in the example.
+Select an alert in the **Alerts** panel to open a zoomed-in view with the alert details. The following example shows details such as category and event.
 
 \[Omitted image "single-alert-zoomed-in-view.png"\] Alt text: Focussed view for an alert.
 
@@ -113,7 +113,7 @@ Description
 
 </td><td>
 
-Search bar in the Map view. You can enter a location or a datacenter that is impacted by an alert. When you search for a location, a mixed list of your company results with the display value of the records along with their icons, and the Google map pin icons is displayed.
+Search bar in the Map view. Enter a location or a datacenter impacted by an alert. Search results display company records with their icons and Google map pin icons.
 
 </td></tr><tr><td>
 

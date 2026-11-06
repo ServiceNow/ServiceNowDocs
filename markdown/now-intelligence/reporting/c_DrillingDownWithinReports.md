@@ -16,6 +16,8 @@ breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards
 
 You can drill down within a report to visualize a subset of its data. For example, you can click on the critical section of a report sorted by priority to view the categories of those critical incidents.
 
+**Note:** This topic refers to Core UI reports, not Platform Analytics data visualizations.
+
 For reports with a defined drilldown, click on a portion of the chart to display a subset of data. The subset may use a different chart type. In the example, the user clicks on the critical incidents in a bar chart to reveal the categories of critical incidents in a semi-donut chart.
 
 **Note:** This topic refers to Reporting in the Core UI. For instances migrated to Platform Analytics experience and new Zurich instances, see [Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dv-chart-interactions.md).

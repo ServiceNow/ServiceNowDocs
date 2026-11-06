@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-01"
 reading_time_minutes: 2
 keywords: [Customize a base system widget, Clone to customize, Migrate a legacy widget to Lux]
-breadcrumb: [Lux Widgets, Build with Lux, Lux Development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Lux widgets, Build with Lux, Lux Development, Building pro-code applications, Developing your application, Building applications]
 ---
 
 # Customize a base system widget

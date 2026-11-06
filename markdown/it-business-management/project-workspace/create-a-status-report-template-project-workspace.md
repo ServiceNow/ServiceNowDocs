@@ -32,7 +32,7 @@ Role required: it\_project\_manager
 
 4.  On the Create new Document Template form, fill in the fields.
 
-    -   To create a project status report template, select **Project status report** from the Category list.
+    -   To create a project status report template, select **Project status report** from the Category list. Dynamic content is enabled by default for status report templates, so the **Is Dynamic** check box doesn't appear on the form.
     -   To enable dynamic content on Docs, select **Project Docs** from the Category list and select the **Is Dynamic** check box.
     For a description of the field values, see [Create document template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-new-document-template-form.md).
 

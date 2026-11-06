@@ -24,15 +24,15 @@ Role required: safe\_sprint\_planner, safe\_art\_user, safe\_scrum\_master, safe
 
 1.  Create a story using either of the following options.
 
-<table id="choicetable_djp_xvn_mcb"><thead><tr><th align="left" id="d101097e61">
+<table id="choicetable_djp_xvn_mcb"><thead><tr><th align="left" id="d102120e61">
 
 Option
 
-</th><th align="left" id="d101097e64">
+</th><th align="left" id="d102120e64">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d101097e70">
+</th></tr></thead><tbody><tr><td id="d102120e70">
 
 **From the Story module**
 
@@ -42,7 +42,7 @@ Steps
 2.  Click **New**.
 
 
-</td></tr><tr><td id="d101097e100">
+</td></tr><tr><td id="d102120e100">
 
 **From the SAFe stories related list**
 

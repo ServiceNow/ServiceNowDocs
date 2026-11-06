@@ -1,6 +1,6 @@
 ---
-title: Operational Technology Discovery System Resources
-description: This section describes the resource estimates for each Operational Technology Discovery component.
+title: OT Discovery System Resources
+description: You can review the OT Discovery component resources before setting up your OT network.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/ot-discovery-system-resources.html
 release: zurich
@@ -10,9 +10,9 @@ reading_time_minutes: 1
 breadcrumb: [Deploy Operational Technology Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
-# Operational Technology Discovery System Resources
+# OT Discovery System Resources
 
-This section describes the resource estimates for each Operational Technology Discovery component.
+You can review the OT Discovery component resources before setting up your OT network.
 
 ## OT Discovery components required resources
 
@@ -37,7 +37,7 @@ Discovery Console for OT
 -   2 CPUs
 
 </td></tr></tbody>
-</table>For additional requirements for the Console, see [Requirements for Discovery Console for OT installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/reqs-ot-console-installation.md) and [Install the Discovery Console for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/install-discovery-console-ot.md).
+</table>For additional requirements for the Console, see [Requirements for Discovery Console for OT installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/reqs-ot-console-installation.md) and [Install the Discovery Console for Operational Technology \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/install-discovery-console-ot.md).
 
 <table id="table_sensor_requirements"><thead><tr><th>
 
@@ -58,12 +58,12 @@ Discovery Sensor for OT
 -   2 CPUs
 -   2 virtual NIC cards
 
-\*8 GB of RAM is recommend for all queries.
+\*8 GB of RAM is recommended for all queries.
 
 </td></tr></tbody>
-</table>**OT Discovery Collector System requirements**
+</table>For additional requirements for the Sensor, see [Configure the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/configure-discovery-sensor-ot.md).
 
-The OT Discovery Collector can be installed and run on either a Windows OS or a Linux OS.
+**Note:** The Collector can be installed and run on either a Windows OS or a Linux OS.
 
 <table id="table_collector"><thead><tr><th>
 

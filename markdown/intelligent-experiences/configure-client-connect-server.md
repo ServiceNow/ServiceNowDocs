@@ -22,6 +22,8 @@ Role required: sn\_mcp\_server.viewer
 
 The process to configure a client to connect to a server is dependent on the client used. The following procedure is a high-level overview of the workflow to configure a client to call a server. For more information, refer to the documentation for your AI application and client. For an example that demonstrates how to connect from a server on one instance to the ServiceNow Model Context Protocol Client on another instance, see the example following this procedure.
 
+See [https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB3013302](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3013302) to see how to connect a ServiceNow MCP Server to Claude \(claude.ai\) using a custom connector with OAuth 2.0 authentication.
+
 **Note:**
 
 -   MCP Server Console supports the Streamable HTTP transport. By default, tool calls return a single JSON response. Server-Sent Events \(SSE\) are optionally available for streaming response types. Stdio is not supported.

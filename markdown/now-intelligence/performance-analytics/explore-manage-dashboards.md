@@ -18,6 +18,8 @@ Quickly identify the relationships between Performance Analytics elements, such 
 
 ## Explore dashboards example
 
+**Note:** This topic refers to Core UI dashboards. If you are looking for information about the newer Platform Analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center-dashboards.md).
+
 To see all the [automated indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md) related to the Incident dashboard group based on the Incident table:
 
 1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Admin Console**

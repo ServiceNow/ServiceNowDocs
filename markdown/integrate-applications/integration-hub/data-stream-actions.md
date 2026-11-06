@@ -28,7 +28,7 @@ Data Stream actions offer these benefits.
 -   Automatically send multiple requests to APIs that paginate results, if applicable.
 -   Can be used in [Integration Hub - Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/integrationhub-imports.md) and to [create a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/system-import-sets/create-data-stream-data-source.md).
 -   Enable flow designers to process large requests without complex coding or configuration.
--   Enable flow designers to process each object within a data stream using **For each** flow logic. For example, you might create a Data Stream action that imports document data from a third-party site. When you add the action to a flow, Workflow Studio automatically adds the action to a **For each** flow logic block, enabling flow designers to easily create a record in ServiceNow for each object in the data stream. See [Use a Data Stream action in a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/use-data-stream-in-flow.md).
+-   Enable flow designers to process each object within a data stream using **For each** flow logic. For example, you might create a Data Stream action that imports document data from a third-party site. When you add the action to a flow, Workflow Studio automatically adds the action to a **For each** flow logic block. Flow designers can then create a record in ServiceNow for each object in the data stream. See [Use a Data Stream action in a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/use-data-stream-in-flow.md).
 -   Enable flow designers to reuse Data Stream actions in multiple flows, using the same source of data in multiple ways.
 
 ## Running a Data Stream action
@@ -37,7 +37,7 @@ There are two ways to run a Data Stream action.
 
 -   **From a flow**
 
-    You can process each object within a data stream using **For each** flow logic. For example, you might create a Data Stream action that imports document data from a third-party site. When you add the action to a flow, Workflow Studio automatically adds the action to a **For each** flow logic block, enabling flow designers to easily create a record in ServiceNow for each object in the data stream. See [Use a Data Stream action in a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/use-data-stream-in-flow.md).
+    You can process each object within a data stream using **For each** flow logic. For example, you might create a Data Stream action that imports document data from a third-party site. When you add the action to a flow, Workflow Studio automatically adds the action to a **For each** flow logic block. Flow designers can then create a record in ServiceNow for each object in the data stream. See [Use a Data Stream action in a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/use-data-stream-in-flow.md).
 
 -   **From a script**
 
@@ -132,7 +132,7 @@ For more information about complex data, see [Complex data](https://raw.githubus
 
 -   **Script Parser step**
 
-    Use JavaScript and ServiceNow APIs to map items in the response stream to a complex object output represented by the `targetObject` global object. For example, map incident record elements identified in the splitter step to a complex object containing incident fields. If the data stream includes siblings to the item identified in the splitter step that you do not want mapped to a complex object, include conditions to exclude those items. You can skip items in the stream by adding `outputs.state = 'SKIP'` wherever needed to the script section of the Script Parser step.
+    Use JavaScript and ServiceNow APIs to map items in the response stream to a complex object output represented by the `targetObject` global object. For example, map incident record elements identified in the splitter step to a complex object containing incident fields. To exclude siblings of the identified item from the complex object mapping, include conditions in the splitter step. You can skip items in the stream by adding `outputs.state = 'SKIP'` wherever needed to the script section of the Script Parser step.
 
     This is a mandatory Parsing component that only runs on the instance.
 

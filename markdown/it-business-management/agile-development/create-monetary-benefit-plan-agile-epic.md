@@ -119,7 +119,7 @@ Field to indicate when the benefits start realizing. Select any of the following
 -   **Milestone**: After completion of a milestone.
 -   **Start Date**: At the start of the epic.
 -   **End Date**: After the epic ends.
- If the value in the selected offset type changes, the benefit plan start date shifts accordingly. For example, if the offset type is set to **End Date** and the end date of the epic changes, the benefit plan start date shifts to align with the new end date of the epic.
+ If the value in the selected offset type changes, the benefit plan start date shifts accordingly. For example, conosider the offset type is set to **End Date** and the end date of the epic changes. Then the benefit plan start date shifts to align with the new end date of the epic.
 
 </td></tr><tr><td>
 

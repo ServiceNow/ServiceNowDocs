@@ -7,7 +7,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 6
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
@@ -19,7 +19,7 @@ The Diagnostics page helps you prioritize and address errors and anomalies in IP
 
 To access the Discovery Admin Workspace Diagnostics page, navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Diagnostics**.
 
-**Note:** The capabilities described here are available starting with Discovery Admin Workspace v1.17.0.
+**Note:** The capabilities described here are available starting with Discovery Admin Workspace v1.17.0. Specific version requirements are noted for individual features where applicable.
 
 ## Key features
 

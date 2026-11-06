@@ -1,6 +1,6 @@
 ---
 title: Viewing the dynamic related records in Information Request Administration
-description: You can view the dynamic related records in the playbook contextual side panel in CRM Workspace. These records dynamically change based on the current record or playbook activity.
+description: You can view the dynamic related records in the playbook contextual side panel in Public Sector Workspace. These records dynamically change based on the current record or playbook activity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-ir-playbook-viewing-rel-records.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [Using the contextual side panel, Information Request Administration
 
 # Viewing the dynamic related records in Information Request Administration
 
-You can view the dynamic related records in the playbook contextual side panel in CRM Workspace. These records dynamically change based on the current record or playbook activity.
+You can view the dynamic related records in the playbook contextual side panel in Public Sector Workspace. These records dynamically change based on the current record or playbook activity.
 
 ## Using related records in Information Request Administration
 
@@ -64,7 +64,7 @@ Select the type of related record to view
 
 </td><td>
 
-Filter at the top of the Related Records list where you can select the type of related records to view. You can also use the filter to see the current selection. For more information, see [Customize the related records view in Service Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-playbook-customizing-rel-records-view.md).
+Filter at the top of the Related Records list where you can select the type of related records to view. You can also use the filter to see the current selection. For more information, see [Customize the related records view in Service Request Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-playbook-customizing-rel-records-view.md).
 
 </td></tr><tr><td>
 
@@ -72,7 +72,7 @@ Search the related records list
 
 </td><td>
 
-Search field at the top of the Related Records list to perform a text search. Records that match the search text are highlighted. For more information, see [Customize the related records view in Service Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-playbook-customizing-rel-records-view.md).
+Search field at the top of the Related Records list to perform a text search. Records that match the search text are highlighted. For more information, see [Customize the related records view in Service Request Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-playbook-customizing-rel-records-view.md).
 
 </td></tr><tr><td>
 

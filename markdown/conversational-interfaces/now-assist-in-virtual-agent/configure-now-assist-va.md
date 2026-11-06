@@ -24,7 +24,7 @@ Role required: virtual\_agent\_admin or admin
 
 ## About this task
 
-An admin can create and configure more than one chat or voice assistant within [Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/assistant-designer.md).
+An admin can create and configure more than one chat or voice assistant within [Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/assistant-designer.md). ServiceNow Otto panel only supports the default assistants for Platform and Developer. Additional ServiceNow Otto panel assistants can't be created.
 
 For chat assistants, a primary assistant can be linked to one or more secondary assistants. The linkage enables a primary assistant to use search sources from secondary assistants, enhancing its functionality and efficiency. For more information on primary and secondary assistants, see [LLM assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/llm-assistants.md). If multiple assistants are created, users can chat simultaneously with multiple assistants. Conversations are independent from each other.
 

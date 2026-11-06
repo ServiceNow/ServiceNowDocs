@@ -18,7 +18,7 @@ The AIOps dashboards offer comprehensive visualizations of critical operational 
 
 ## Access to dashboards
 
-You can access ITOM AIOps configuration center by navigating to **Workspaces** &gt; **Service Operations Workspace** and then selecting the ITOM AIOps configuration center icon \(\[Omitted image "icon-itom-aiops-config.png"\] Alt text: ITOM AIOps configuration center icon\) that is available at the bottom of the left navigation pane.
+To access the ITOM AIOps configuration center, navigate to **Workspaces** &gt; **Service Operations Workspace**. Then select the ITOM AIOps configuration center icon \(\[Omitted image "icon-itom-aiops-config.png"\] Alt text: ITOM AIOps configuration center icon\) at the bottom of the left navigation pane.
 
 The ITOM AIOps configuration center page appears. On the ITOM AIOps configuration center page, under the **Optimize** &gt; **Dashboards** section, select the dashboard.
 

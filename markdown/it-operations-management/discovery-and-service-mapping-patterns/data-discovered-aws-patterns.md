@@ -7,7 +7,7 @@ release: zurich
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 32
 keywords: [Amazon, AWS, Cloud, Patterns, Discovery]
 breadcrumb: [Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
@@ -75,7 +75,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
     You can optimize discovery by limiting it to only AWS datacenters with resources.
 
-    -   Verify that your service account has the following IAM permissions to access the Resource Explorer API \(starting with Discovery and Service Mapping Patterns version 1.35.0\).
+    -   Verify that your service account has the following IAM permissions to access the Resource Explorer API \(starting with Discovery and Service Mapping Patterns version 1.35.1\).
 
         |IAM permission|Coverage|
         |--------------|--------|
@@ -85,7 +85,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
         For more information, go to the [AWS Documentation](https://docs.aws.amazon.com/) and search for the "Getting started with Resource Explorer" article.
 
     -   Discover only datacenters with resources by setting the **mid.cloud.discovery.sonar.discover\_all\_aws\_datacenters** MID Server property to **false**. For more information, see [Limit AWS discovery to datacenters with resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/limit-aws-discovery-active-datacenter.md).
-    -   To exclude specific resource types from AWS datacenter discovery, configure the **sn\_itom\_pattern.discovery.aws.ldc.excluded\_resource\_types** system property with a comma-separated list of resource types to exclude \(starting with Discovery and Service Mapping Patterns version 1.35.0\). For more information, see [Exclude AWS resource types from datacenter discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/exclude-aws-resource-ldc-discovery.md).
+    -   To exclude specific resource types from AWS datacenter discovery, configure the **sn\_itom\_pattern.discovery.aws.ldc.excluded\_resource\_types** system property with a comma-separated list of resource types to exclude \(starting with Discovery and Service Mapping Patterns version 1.35.1\). For more information, see [Exclude AWS resource types from datacenter discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/exclude-aws-resource-ldc-discovery.md).
     **Note:** Discovery and Service Mapping Patterns versions 1.29.0 through 1.32.0 used the AWS Config service instead of the Resource Explorer API to determine datacenter activity. For instructions on configuring AWS Config recorder, go to the [AWS Documentation](https://docs.aws.amazon.com/) and search for the "Recording resources in the AWS Config console" article.
 
     For more information, see the **AWS resources discovery by datacenters** section.
@@ -118,7 +118,7 @@ AWS has multiple datacenters around the world, but resources like load balancers
 
 After identifying "active", "passive", or "empty" datacenters, the discovery schedule continues to execute all AWS patterns only for "active" or "empty" datacenters, to discover your AWS cloud resources. "Passive" datacenters are ignored during the schedule. The **Refresh Datacenters** flow continues to display all regions, not just active ones. You don't need to create another schedule when a resource is added or a datacenter switches from passive to active.
 
-The **mid.cloud.discovery.sonar.discover\_all\_aws\_datacenters** MID Server property is set to **true** by default, which discovers all datacenters. To limit discovery to the "active" or "empty" datacenters, set this property to **false**. Starting with Discovery and Service Mapping Patterns version 1.35.0, you can exclude specific resource types from AWS datacenter discovery to avoid marking regions with only default or unneeded resources as active. For information on setting up active datacenter discovery, see the **Optimize discovery by including only datacenters with resources** prerequisite.
+The **mid.cloud.discovery.sonar.discover\_all\_aws\_datacenters** MID Server property is set to **true** by default, which discovers all datacenters. To limit discovery to the "active" or "empty" datacenters, set this property to **false**. Starting with Discovery and Service Mapping Patterns version 1.35.1, you can exclude specific resource types from AWS datacenter discovery to avoid marking regions with only default or unneeded resources as active. For information on setting up active datacenter discovery, see the **Optimize discovery by including only datacenters with resources** prerequisite.
 
 Datacenters discovered before upgrading to version 1.29.0 remain in the **Amazon AWS Datacenters** table. Depending on the service account and MID Server property settings, you might notice differences in discovery time and CMDB data.
 

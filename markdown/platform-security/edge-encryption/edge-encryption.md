@@ -1,6 +1,6 @@
 ---
 title: Edge Encryption
-description: ServiceNow Edge Encryption encrypts sensitive data on your company premises before sending it over the Internet to your ServiceNow instance \(encrypted in flight\), where it remains encrypted at rest.
+description: ServiceNow Edge Encryption encrypts sensitive data on your company premises before sending it to your ServiceNow instance. Data is encrypted in flight and remains encrypted at rest.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/edge-encryption/edge-encryption.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Encryption]
 
 # Edge Encryption
 
-ServiceNow® Edge Encryption ™ encrypts sensitive data on your company premises before sending it over the Internet to your ServiceNow instance \(encrypted in flight\), where it remains encrypted at rest.
+ServiceNow® Edge Encryption ™ encrypts sensitive data on your company premises before sending it to your ServiceNow instance. Data is encrypted in flight and remains encrypted at rest.
 
 **Important:**
 

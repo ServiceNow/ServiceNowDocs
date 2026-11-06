@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Advanced Portal Navigation, Setup Employee Center browse experience features, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Advanced Portal Navigation, Setup Employee Center browse experience features, Configure, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # EC Information architecture

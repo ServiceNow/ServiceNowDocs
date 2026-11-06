@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-complian
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Structured workflows for Exercise and Crisis Management, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -157,13 +157,15 @@ Additional information about the crisis event.
 
         You can view the approval details in the Approvals related list with its name, level of approval, and the state of the approval.
 
-        Select the Approval History related list to view the approval state, name of the approver, event number, the date on which the approval was requested, and comments if any.
+        Select the Approval History related list to view the approval state, approver name, and event number. Add comments if needed.
 
         **Note:** If you are a BCM Program Manager, then you can see the **Approve** and **Reject** buttons.
 
     -   **Returned**
 
-        When the event is rejected, the state is set to **Returned** state. It can be moved to **Submit for Approval**, **Closed Complete** or **Closed Incomplete** states. Since this is related to an event only certain sections like description, results, and work notes can be updated in the form.
+        When the event is rejected, the state is set to **Returned**. It can be moved to **Submit for Approval**, **Closed Complete**, or **Closed Incomplete**.
+
+        Only certain sections can be updated in this state: description, results, and work notes.
 
         When the event is in **Returned** state, you can edit the state of the event asset.
 

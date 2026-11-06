@@ -16,6 +16,8 @@ breadcrumb: [Administering dashboards, Responsive dashboards in the Core UI, Rep
 
 Dashboards have special granular view and edit permissions that are managed from the Sharing pane. Access control lists \(ACLs\) apply to most widgets that are added to dashboards.
 
+**Note:** This topic refers to Core UI dashboards. If you are looking for information about the newer Platform Analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center-dashboards.md).
+
 -   Users with any role can create dashboards, share dashboards that they own with users and groups, and edit dashboards if they have been given edit permissions. Users with any role can restrict access by role to any dashboard that they have created. The user also needs whatever roles are necessary to access the specific data on the dashboards.
 -   Users without a role can view dashboards that have been shared with them, but cannot create or edit dashboards.
 -   Users with pa\_admin and pa\_power\_user roles can manage users, groups, and roles on any dashboard that they can edit. For more information, see [Performance Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/r_PARoles.md).

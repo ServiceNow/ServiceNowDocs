@@ -31,6 +31,10 @@ Role required: The dashboard\_admin role is required to create or edit Core UI R
 
 **Note:** Responsive dashboards do not support the Sticky Notes widget.
 
+## About this task
+
+**Note:** This topic refers to Core UI dashboards. If you are looking for information about the newer Platform Analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center-dashboards.md).
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Self-Service** &gt; **Dashboards** or **All** &gt; **Performance Analytics** &gt; **Dashboards**.
@@ -39,15 +43,15 @@ Role required: The dashboard\_admin role is required to create or edit Core UI R
 
 3.  Perform any of the following actions.
 
-<table id="choicetable_gv3_q3r_g5"><thead><tr><th align="left" id="d229353e206">
+<table id="choicetable_gv3_q3r_g5"><thead><tr><th align="left" id="d229980e227">
 
 Action
 
-</th><th align="left" id="d229353e209">
+</th><th align="left" id="d229980e230">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d229353e215">
+</th></tr></thead><tbody><tr><td id="d229980e236">
 
 **Add a widget**
 
@@ -60,7 +64,7 @@ Steps
 5.  Drag to move the widget or resize it.
  **Note:** Data visualization titles are not automatically translated on localized ServiceNow instances.
 
-</td></tr><tr><td id="d229353e257">
+</td></tr><tr><td id="d229980e278">
 
 **Delete a widget from the dashboard**
 
@@ -70,7 +74,7 @@ Steps
 2.  Point to the top of the widget, then click the X icon \(\[Omitted image "RemoveWidgetButton.png"\] Alt text: X icon\) that appears.
  **Note:** There is no confirmation message. The widget disappears from the dashboard.
 
-</td></tr><tr><td id="d229353e291">
+</td></tr><tr><td id="d229980e312">
 
 **Configure widget layouts**
 
@@ -78,7 +82,7 @@ Steps
 
 To change widget appearance and layouts, and show and hide widget headers, see [Configure the layout of a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/configure-widget-layouts.md).
 
-</td></tr><tr><td id="d229353e307">
+</td></tr><tr><td id="d229980e328">
 
 **Edit a widget**
 
@@ -91,7 +95,7 @@ To change widget appearance and layouts, and show and hide widget headers, see [
 
  The widget opens in the tool where it was created. For example, when you edit a report widget, the source report opens in the Report Designer.
 
-</td></tr><tr><td id="d229353e347">
+</td></tr><tr><td id="d229980e368">
 
 **Apply a quick layout to a dashboard**
 
@@ -99,7 +103,7 @@ To change widget appearance and layouts, and show and hide widget headers, see [
 
 Click the configuration icon \(\[Omitted image "ConfigurationPaneButton.png"\] Alt text: Configuration icon\) to open the Configuration pane, then click a layout to snap the widgets against. Modify the layout as desired.
 
-</td></tr><tr><td id="d229353e362">
+</td></tr><tr><td id="d229980e383">
 
 **Add a tab to a dashboard**
 
@@ -107,7 +111,7 @@ Click the configuration icon \(\[Omitted image "ConfigurationPaneButton.png"\] A
 
 Click the configuration icon \(\[Omitted image "ConfigurationPaneButton.png"\] Alt text: Configuration icon\) to open the Configuration pane, then click **Create Tab**. The panel created with the dashboard becomes the dashboard's first tab. The default names of the tabs are the name of the dashboard followed by New Tab and New Tab 2. To change the default names, see Rename a tab in this table.**Note:** You cannot link an existing tab into a dashboard.
 
-</td></tr><tr><td id="d229353e383">
+</td></tr><tr><td id="d229980e404">
 
 **Reorder a dashboard tab**
 
@@ -121,7 +125,7 @@ Click the configuration icon \(\[Omitted image "ConfigurationPaneButton.png"\] A
 2.  On the **Dashboard Tabs** related list, enter numbers in the **Order** column to specify the tab order. Tabs display from left to right with lower numbers appearing first.
 
 
-</td></tr><tr><td id="d229353e434">
+</td></tr><tr><td id="d229980e455">
 
 **Delete a dashboard tab**
 
@@ -129,7 +133,7 @@ Click the configuration icon \(\[Omitted image "ConfigurationPaneButton.png"\] A
 
 Click the tab to make it active. Point to the tab name and click the trash icon that appears.**Note:** The dashboard tab no longer appears on any dashboards where it appeared. Dashboards may have tabs that appear in multiple dashboards.
 
-</td></tr><tr><td id="d229353e446">
+</td></tr><tr><td id="d229980e467">
 
 **Rename a tab**
 
@@ -145,7 +149,7 @@ Click the tab to make it active. Point to the tab name and click the trash icon 
 3.  On the translated dashboard, rename the tab with the translation of its new name.
 
 
-</td></tr><tr><td id="d229353e493">
+</td></tr><tr><td id="d229980e514">
 
 **Enable filtering of data for report widgets**
 
@@ -157,7 +161,7 @@ Interactive filters let users filter data for all report widgets on a dashboard 
 4.  Click **Add**.
 For more information, see [Interactive Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/core-ui-interactive-filters/c_HomepagePublishers.md).
 
-</td></tr><tr><td id="d229353e538">
+</td></tr><tr><td id="d229980e559">
 
 **Configure a report widget to follow interactive filters**
 
@@ -168,7 +172,7 @@ For more information, see [Interactive Filters](https://raw.githubusercontent.co
 3.  To show a filter icon \(\[Omitted image "InteractiveFilterFilteringIcon.png"\] Alt text: Filter icon\) on the report when it is following an interactive filter, select the **Show when following** check box.
  **Note:** Performance Analytics widgets cannot follow interactive filters.
 
-</td></tr><tr><td id="d229353e580">
+</td></tr><tr><td id="d229980e601">
 
 **Enable filtering of data for Performance Analytics widgets**
 
@@ -178,7 +182,7 @@ For more information, see [Interactive Filters](https://raw.githubusercontent.co
 2.  Add a breakdown to a dashboard so that users can filter data for all Performance Analytics widgets on that dashboard. Only users with the pa\_admin or pa\_power user roles can work with breakdowns.
  See [Add breakdown sources to a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/t_ExistingBreakdownDashboard.md).
 
-</td></tr><tr><td id="d229353e617">
+</td></tr><tr><td id="d229980e638">
 
 **View the description of a widget**
 

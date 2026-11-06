@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-05-20"
 reading_time_minutes: 1
-breadcrumb: [SGC Central, Service Graph Connector for ServiceNow Operational Technology\(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [SGC Central, Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Import Sites
@@ -20,7 +20,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Before importing assets, you must import sites.
+1.  In the SGC Central setup process, you must import sites before importing assets.
 
     \[Omitted image "image.sgc-central-import-sites"\] Alt text: Import sites
 

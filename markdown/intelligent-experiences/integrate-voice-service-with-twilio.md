@@ -54,6 +54,14 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
+Phone number to live agent
+
+</td><td>
+
+The phone number to connect the caller to a live agent when required. This field is displayed only when you select **Connect to live agent** in the fallback behavior settings in Safeguards.
+
+</td></tr><tr><td>
+
 Authentication token
 
 </td><td>

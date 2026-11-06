@@ -64,6 +64,6 @@ Role required: sn\_process\_optimization\_admin
 
 8.  Schedule your imports.
 
-    For detailed information, see .
+    For detailed information, see [Integration Hub - Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integrationhub-imports.md).
 
 

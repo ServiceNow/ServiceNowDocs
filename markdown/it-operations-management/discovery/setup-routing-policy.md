@@ -46,7 +46,7 @@ A certificate request is considered a duplicate if there is another certificate 
     -   It should not contain commas.
     -   It should not start and end with a forward slash \(/\) and \* matches any.
     -   For more inforamtion about the fields and values on a routing policy form, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/certificate-routing-policy-form-table.md)
-3.  The following CSR attributes are matched with the entries in the Routing Policy \[sn\_disco\_certmgmt\_routing\_policy\] table:
+3.  The system matches the following CSR attributes with the entries in the Routing Policy \[sn\_disco\_certmgmt\_routing\_policy\] table:
 
     -   Organization
     -   Organizational Unit
@@ -58,11 +58,11 @@ A certificate request is considered a duplicate if there is another certificate 
     -   Certificate Purpose\(internal/external\)
     -   Subject common name
     -   Subject alternative name
-    **Note:** For Entrust CA Gateway, there are also these fields: Certificate Authority Identifier, Certificate Profile, and Certificate Format. For Microsoft CA also use these fields: Certificate Authority, CA template name, CA Host IP, Credential, and CSR attributes. For DigiCert, the routing policy also requires a Certificate Authority API URL field to handle automated processes and revocation flows.
+    **Note:** Entrust CA Gateway routing policies also include these fields: Certificate Authority Identifier, Certificate Profile, and Certificate Format. For Microsoft CA also use these fields: Certificate Authority, CA template name, CA Host IP, Credential, and CSR attributes. For DigiCert, the routing policy also requires a Certificate Authority API URL field to handle automated processes and revocation flows.
 
 4.  The following options may occur.
 
-<table id="choicetable_ccx_lnc_nqb"><tbody><tr><td id="d77542e196">
+<table id="choicetable_ccx_lnc_nqb"><tbody><tr><td id="d77934e196">
 
 **If a single routing policy matches**
 
@@ -73,7 +73,7 @@ Verify the following conditions: -   Validate the subject common name using the 
 -   Check for duplicate Certificate Request is allowed flag in the Routing Policy table.
 
 
-</td></tr><tr><td id="d77542e217">
+</td></tr><tr><td id="d77934e217">
 
 **If multiple routing policies are eligible**
 
@@ -81,7 +81,7 @@ Verify the following conditions: -   Validate the subject common name using the 
 
 The task is assigned to the default approver group.
 
-</td></tr><tr><td id="d77542e226">
+</td></tr><tr><td id="d77934e226">
 
 **If there is no routing policy found**
 
@@ -89,7 +89,7 @@ The task is assigned to the default approver group.
 
 The task is assigned to the default approver group.
 
-</td></tr><tr><td id="d77542e235">
+</td></tr><tr><td id="d77934e235">
 
 **If single policy matches and approval needed flag is true**
 

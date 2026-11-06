@@ -22,7 +22,7 @@ The ServiceNow® Policy and Compliance Management application provides a central
 -   Enhancements to control objectives and controls, including control objective requirements for granular statements, automatic control requirement generation, and attestation at control requirement level.
 -   Enhancements to policy exception and extension requests, including approver pop-ups with key details, no indicator tasks for exempt controls, Send Information button for requesters, and expanded linking requirements for issue-based policy exceptions.
 
-See [Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/privacy-management.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -57,12 +57,12 @@ The ServiceNow® Policy and Compliance Management application provides a central
 
 ### What's new
 
--   **[Association of citations to controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/citation-to-control-mapping.md)**
+-   ****
 
     In many compliance frameworks, a single control objective may be referenced by multiple citations across different standards, regulations, or policy requirements. Without proper association management, organizations risk duplicating controls, misinterpreting coverage, or inaccurately reporting compliance. The association of citations to controls feature addresses this challenge by enabling users to associate controls with citations directly. When this feature is enabled, compliance scores update dynamically based on the status of directly associated active controls.
 
 
--   **[Enhancements to control objectives rationalization process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/take-actions-on-the-recommendations-for-similar-control-objectives.md)**
+-   **Enhancements to control objectives rationalization process**
 
     The following enhancements have been introduced to the rationalization process of control objectives:
 
@@ -72,12 +72,12 @@ The ServiceNow® Policy and Compliance Management application provides a central
     -   Owners and approvers can add comments and justifications directly on recommendation cards and reply to existing comments. 
     -   The user interface has been updated with better navigation, quick summaries, visual improvements, and clear error messages.
 
--   **[Citation impact analysis and updates with Now Assist for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/control-objective-change-agent.md)**
+-   **Citation impact analysis and updates with Now Assist for IRM**
 
     When a citation’s description or supplemental guidance is updated, Now Assist identifies related control objectives that might be affected. It reviews these control objectives to determine whether the descriptions or guidance need changes and provides suggested updates. Users can review, provide feedback, and approve these updates directly in the Now Assist panel, ensuring that citation changes are reflected in associated control objectives.
 
 
--   **[Enhancements to control objectives and controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/co-overview-pc-ws.md)**
+-   **Enhancements to control objectives and controls**
 
     The following enhancements have been introduced to control objectives and controls:
 
@@ -85,7 +85,7 @@ The ServiceNow® Policy and Compliance Management application provides a central
     -   The Create control requirements option generates control requirements automatically for every control generated under an entity type.
     -   The Attestation at control requirement level enables attestation at a granular level for individual control requirements within a control.
 
--   **[Enhancements to policy exception and extension requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/review-policy-ext-and-extension-req-ws.md)**
+-   **Enhancements to policy exception and extension requests**
 
     The following enhancements have been introduced:
 
@@ -100,17 +100,17 @@ The ServiceNow® Policy and Compliance Management application provides a central
 
 ### What's new
 
--   **[GRC Approval Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/grc-approval-configurator-for-policy-extension-and-exception.md)**
+-   **GRC Approval Configurator**
 
     The GRC Approval Configurator can now be used to manage both policy exception and extension approvals. It allows verification, approval, and extension rules to be defined based on state, sub-state, and other filter conditions, with support for multiple user groups and multi-level approvals. This enhancement provides greater flexibility in assigning appropriate approvers at each level based on defined conditions, facilitating structured and collaborative reviews. For extension approvals, users can now configure multiple approvers, overcoming the previous limitation of a single default approver \(Compliance Manager\).
 
 
--   **[Common Control Objective Creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/take-actions-on-the-recommendations-for-similar-control-objectives.md)**
+-   **Common Control Objective Creation**
 
     Use Generative AI to merge similar control objectives into a single, consolidated common control objective. The system automatically populates the name, description, and guidance fields from the accepted duplicates, eliminating the need to manually select a primary control objective.
 
 
--   **[Entity based record access rules to secure new records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/c_GRCControls.md)**
+-   **Entity based record access rules to secure new records**
 
     When entity based record access rules are enabled on the Entity Based Access Configuration Properties page, any newly created controls, control attestations, indicators, and indicator tasks associated with a configured entity will automatically inherit the entity-based access \(EBA\) value from that entity. Previously, users had to run bulk access updates to apply EBA restrictions whenever new objects were created.
 
@@ -124,17 +124,17 @@ The ServiceNow® Policy and Compliance Management application provides a central
     Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
--   **[Improved widget presentation and page layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/compliance-manager-compliance-ws.md)**
+-   **Improved widget presentation and page layouts**
 
     As part of the Coral theme enhancements, rounded card containers with drop shadows have been introduced for widgets across Compliance pages, and the gray background has been removed from the Compliance home page to simplify the interface.
 
 
--   **[Tasks panel in Compliance Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/compliance-manager-compliance-ws.md)**
+-   **Tasks panel in Compliance Home page**
 
     The Tasks section has been removed from the Compliance Workspace to improve page performance.
 
 
--   **[Improvements to the rationalization process of control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/take-actions-on-the-recommendations-for-similar-control-objectives.md)**
+-   **Improvements to the rationalization process of control objectives**
 
     Several enhancements have been made to the rationalization process:
 

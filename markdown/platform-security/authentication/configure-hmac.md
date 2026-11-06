@@ -77,7 +77,7 @@ Hash Algorithm
 Choose the Hash Algorithm. Options available:-   HmacSHA256
 -   HmacSHA384
 -   HmacSHA512
-
+**Note:** In Yokohama and later releases, weak hash algorithms are not supported. Use HmacSHA256 or a stronger algorithm.
 
 </td></tr><tr><td>
 

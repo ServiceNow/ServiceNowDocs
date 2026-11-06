@@ -65,7 +65,7 @@ Hybrid search isn't automatically activated for your search application configur
 
 ## Interactions with other features
 
-Activating hybrid search in a search application configuration disables search result counts for facets in that search application configuration. For more information on search result counts for facets, see [Show search result counts for facets on the results page for a search application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/display-result-counts-ais.md).
+Activating hybrid search in a search application configuration disables search result counts for facets in that search application configuration. For more information on search result counts for facets, see .
 
 When you activate hybrid search in a search application configuration, the behavior of the **Most recent** search result sort option changes for the specified search application. Instead of sorting the entire list of search results by last modification date, AI Search first retrieves keyword search results and the most relevant semantic vector search results, then merges those results and sorts them by last modification date. To learn about sorting search results based on recency, see [Change the sort order for your search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/sort-search-results-ais.md).
 

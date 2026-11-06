@@ -8,7 +8,7 @@ product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 97
+reading_time_minutes: 101
 keywords: [ITOM, Visibility, ServiceNow, Discovery, Cloud, API, Permissions, Patterns, AWS, Azure, GCP, IBM, Oracle, OCI]
 breadcrumb: [Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -21,7 +21,7 @@ Discovery finds computers, servers, printers, a variety of IP-enabled devices, a
 
 On top of hosts and applications supported by default, you can discover additional hosts and applications by deploying patterns available on Store. For reference information on store released patterns, see [Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md).
 
-If your organization uses devices or applications, which are not supported by default or using patterns available at ServiceNow Store, you can configure Discovery and Service Mapping to discover them as described in [Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md).
+If your organization uses devices or applications that are not supported by default or using patterns available at ServiceNow Store, you can configure Discovery and Service Mapping to discover them. For more information, see [Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md).
 
 Cloud Discovery Patterns find the cloud resources of AWS, Azure, Google Cloud Platform \(GCP\), IBM, and Oracle.
 
@@ -8021,6 +8021,78 @@ OpenStack \(pattern\)
 
 </td></tr><tr><td>
 
+[OCI Autonomous DB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-autonomous-db-pattern.md)
+
+</td><td>
+
+OCI
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Oracle OCI - Autonomous DB \(LP\)
+
+</td></tr><tr><td>
+
+[OCI active datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-active-datacenter-pattern.md)
+
+</td><td>
+
+OCI
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Oracle OCI - Active Datacenters \(LP\)
+
+</td></tr><tr><td>
+
+[OCI availability domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-availability-domain-pattern.md)
+
+</td><td>
+
+OCI
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Oracle OCI - Availability Domain \(LP\)
+
+</td></tr><tr><td>
+
 [OCI cloud hardware type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-cloud-hardware-type-pattern.md)
 
 </td><td>
@@ -8042,6 +8114,150 @@ Horizontal
 </td><td>
 
 Oracle OCI - Cloud Hardware Type \(LP\)
+
+</td></tr><tr><td>
+
+[OCI datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-datacenter-pattern.md)
+
+</td><td>
+
+OCI
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Oracle OCI - Datacenter \(LP\)
+
+</td></tr><tr><td>
+
+[OCI DB Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-db-home-pattern.md)
+
+</td><td>
+
+OCI
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Oracle OCI - DB Home \(LP\)
+
+</td></tr><tr><td>
+
+[OCI fault domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-fault-domain-pattern.md)
+
+</td><td>
+
+OCI
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Oracle OCI - Fault Domain \(LP\)
+
+</td></tr><tr><td>
+
+[OCI network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-network-pattern.md)
+
+</td><td>
+
+OCI
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Oracle OCI - Network \(LP\)
+
+</td></tr><tr><td>
+
+[OCI NIC attachment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-nic-attachment-pattern.md)
+
+</td><td>
+
+OCI
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Oracle OCI - NIC Attachment \(LP\)
+
+</td></tr><tr><td>
+
+[OCI NIC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-nic-pattern.md)
+
+</td><td>
+
+OCI
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Oracle OCI - NIC \(LP\)
 
 </td></tr><tr><td>
 
@@ -8067,6 +8283,102 @@ Horizontal
 
 -   Oracle OCI - Image \(LP\)
 -   Oracle OCI - Cloud OS Image \(LP\)
+
+</td></tr><tr><td>
+
+[OCI storage attachment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-storage-attachment-pattern.md)
+
+</td><td>
+
+OCI
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Oracle OCI - Storage Attachment \(LP\)
+
+</td></tr><tr><td>
+
+[OCI storage volume](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-storage-volume-pattern.md)
+
+</td><td>
+
+OCI
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Oracle OCI - Storage Volume \(LP\)
+
+</td></tr><tr><td>
+
+[OCI sub account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-sub-account-pattern.md)
+
+</td><td>
+
+OCI
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Oracle OCI - Sub Account \(LP\)
+
+</td></tr><tr><td>
+
+[OCI subnet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-subnet-pattern.md)
+
+</td><td>
+
+OCI
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Oracle OCI - Subnet \(LP\)
 
 </td></tr><tr><td>
 
@@ -8423,6 +8735,30 @@ Horizontal
 </td><td>
 
 Oracle - Enterprise Manager Management Server
+
+</td></tr><tr><td>
+
+[Oracle Exadata cloud as a service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-exadata-pattern.md)
+
+</td><td>
+
+OCI
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Oracle OCI - Exadata \(LP\)
 
 </td></tr><tr><td>
 

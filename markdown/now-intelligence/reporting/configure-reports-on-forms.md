@@ -22,6 +22,10 @@ Role required: admin
 
 The following report types are not supported on forms: List, Pivot, Multilevel Pivot, Calendar, and Single Score.
 
+## About this task
+
+**Note:** This topic refers to Core UI reports, not Platform Analytics data visualizations.
+
 ## Procedure
 
 1.  Select the table on which you want to configure a form with a report in the **Filter navigator** and select a record.

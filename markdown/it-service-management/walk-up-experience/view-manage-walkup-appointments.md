@@ -62,5 +62,5 @@ Manage your Walk-up appointments in Agent Workspace.
 -   **[Create an appointment through incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/walkup-create-appointment-through-incident.md)**  
 Schedule an appointment on behalf of a requester through an incident record.
 
-**Parent Topic:**[Manage Walk-up Experience queue and interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/use-walkup-to-manage-demand.md)
+**Parent Topic:**[Manage Walk-up Experience queue and interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/use-walkup-to-manage-demand.md)
 

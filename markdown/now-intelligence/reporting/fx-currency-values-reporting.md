@@ -17,11 +17,14 @@ breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards
 
 Manage projects in multiple currencies with FX \(Foreign Exchange\) Currency. You can report on the projects in currency values entered by the user, a reference currency, or both.
 
-**Note:** You don't have to install a plugin to use FX Currency functionality. It's activated by default.
+**Note:** This topic refers to Core UI reports, not Platform Analytics data visualizations.
 
 FX Currency functionality is described in detail in . In the context of reporting, it is important to aggregate on the reference currency which the other currencies are converted to.
 
-**Note:** When there are multiple currencies, calculations may not be possible. Change your aggregation source or filter conditions to show the report.
+**Important:**
+
+-   You don't have to install a plugin to use FX Currency functionality. It's activated by default.
+-   When there are multiple currencies, calculations may not be possible. Change your aggregation source or filter conditions to show the report.
 
 When you aggregate by **Average** or **Sum** on an FX currency field, you choose the **Aggregation Source**.
 

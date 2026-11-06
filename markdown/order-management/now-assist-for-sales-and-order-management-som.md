@@ -51,10 +51,12 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
+For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-products.md).
+
 -   **[Exploring ServiceNow Otto for Sales Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/exploring-now-assist-for-som.md)**  
 With the ServiceNow Otto for Sales Automation application, sales agents can manage the lifecycle of leads by automating outreach, follow-up communications, demo bookings, and handling lead disinterest or opt-outs. It can operate independently or under human supervision, thereby streamlining engagement and demo scheduling.
 -   **[Configure ServiceNow Otto for Sales Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-now-assist-som.md)**  
-If you have the admin role, you can configure the ServiceNow Otto for Sales Automation application so that agents can use the generative AI capabilities in the CRM Workspace.
+If you have the admin role, you can configure the ServiceNow Otto for Sales Automation application so that agents can use the generative AI capabilities in the CSM Configurable Workspace.
 -   **[Use agentic workflows in ServiceNow Otto for Sales Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-agentic-worklflows-in-lead-management.md)**  
 Use the ServiceNow Otto for Sales Automation AI agent collection to complete tasks autonomously.
 

@@ -16,7 +16,9 @@ You can schedule an auto-update of the related assets in the plans based on the 
 
 ## Scheduling an auto-update of the related assets
 
-The BCM administrators can schedule an auto-update of the related assets in the plans in the Planning dependency update configuration module, based on the source data and relationships in the CMDB. You can access the auto-update configuration module by navigating to **Business Continuity Workspace** &gt; **General Administration** &gt; **Planning dependency update configuration**.
+Administrators can schedule an auto-update of related assets in plans using the Planning dependency update configuration module. The update is based on source data and relationships in the CMDB.
+
+To access the configuration module, navigate to **Business Continuity Workspace** &gt; **General Administration** &gt; **Planning dependency update configuration**.
 
 The Planning dependency update configuration module is shown in the example.\[Omitted image "plan-dep-update-config.png"\] Alt text: Updating the BCP dependencies.
 
@@ -32,7 +34,7 @@ For more information on setting up the Planning dependency update configuration 
 
 ## Using the updated dependencies with the Xanadu release
 
-Beginning with the Xanadu release, you can use the updated dependencies from the latest BIA record to conduct a dependency assessment on an asset. Information from the columns labeled Related item BIA, Related item Recovery Time Objective \(RTO\), Related item Recovery Point Objective \(RPO\), and Related item Recovery Tier is used to ascertain the required recovery timeframe and data backup needs, which are then displayed in the Required Recovery Timeframe and Required Data Backup columns of the BIA record.
+Beginning with the Xanadu release, you can use the updated dependencies from the latest BIA record to conduct a dependency assessment on an asset. The following columns determine the required recovery timeframe and data backup needs: Related item BIA, Related item Recovery Time Objective \(RTO\), Related item Recovery Point Objective \(RPO\), and Related item Recovery Tier. The results appear in the Required Recovery Timeframe and Required Data Backup columns of the BIA record.
 
 For more information on the source BIA records option in the Dependency configuration modules, see [Set up Planning dependency update configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/conf-plan-dep-update-confi-module.md).
 
@@ -57,9 +59,9 @@ The scheduled job processes a workflow to check for the changes in the relations
 
 \[Omitted image "workflow-for-sche-job-bia-plan.png"\] Alt text: Workflow for the scheduled job.
 
-1.  The scheduled job runs weekly, checks the related assets configuration for each planning record, and fetches the related assets from the sources defined in the **Sources** tab of the Planning dependency update configuration module.
-2.  The scheduled job refers to the filter condition that is set in the configuration \(Planning dependency update configuration module\). If the condition matches the planning record, the scheduled job fetches and stores the related assets for the plan in the snapshot record, according to the sources defined in the configuration. If the filter condition does not match the planning record, the application skips the record.
-3.  When the **Send notification** option is set to **True** in the Planning dependency update configuration module, the users of the planning record set in the configuration are notified about the updated related assets through the scheduled job.
+1.  The scheduled job runs weekly. It checks the related assets configuration for each planning record. It then fetches the related assets from the **Sources** tab of the Planning dependency update configuration module.
+2.  The scheduled job refers to the filter condition that is set in the configuration \(Planning dependency update configuration module\). If the condition matches the planning record, the scheduled job fetches the related assets and stores them in the snapshot record. The sources defined in the configuration determine which assets are fetched. If the filter condition does not match the planning record, the application skips the record.
+3.  Set the **Send notification** option to **True** in the Planning dependency update configuration module. The scheduled job then notifies users of the planning record about the updated related assets.
 4.  When the **Auto-update dependencies** option is set to **True** in the Planning dependency update configuration module, the scheduled job automatically applies the Plan dependency snapshot to the planning record.
 5.  As the final step, the scheduled job updates the planning record according to the fields to be updated in the configuration.
 

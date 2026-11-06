@@ -9,7 +9,7 @@ classification: now-mobile-employee-experience
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Configure, Now Mobile app, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configure, Now Mobile app, EmployeeWorks, Employee Service Management]
 ---
 
 # Add a quick action in your mobile applications

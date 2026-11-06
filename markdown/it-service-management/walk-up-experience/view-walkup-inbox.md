@@ -39,7 +39,7 @@ There are two ways the agents can view the walk-up inbox. The agents primarily a
     You are linked directly to your personal inbox in Agent Workspace. Automatically pushed interaction assignments appear in the inbox based on agent schedules and assignment rule configurations in the Advanced Work Assignment feature.
 
 
-**Parent Topic:**[Manage Walk-up Experience queue and interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/use-walkup-to-manage-demand.md)
+**Parent Topic:**[Manage Walk-up Experience queue and interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/use-walkup-to-manage-demand.md)
 
 **Related topics**  
 

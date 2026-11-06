@@ -334,7 +334,7 @@ Configure the Opsview\_V2 connector instance to receive alerts from an Opsview M
 -   **[Configure PRTG connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-prtg-connector.md)**  
 Configure the PRTG connector instance to receive alerts from a Paessler PRTG Network Monitor source.
 -   **[Apache Kafka Consumer Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/apache-kafka-consumer-connector.md)**  
-The Apache Kafka Consumer connector instance enables you to create events from messages collected from the Apache Kafka topic as a JSON payload that contains essential information in a data block.
+The Apache Kafka Consumer connector creates events from messages collected from the Apache Kafka topic as a JSON payload in a data block.
 -   **[Configure SAP Solution Manager connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-sapsolman-connector.md)**  
 Configure the SAP Solution Manager \(Solman\) connector instance to enable communication between the SAP Solution Manager and Event Management.
 -   **[Configure alert collection from SCOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMConfigureSCOMConnectorInstance.md)**  

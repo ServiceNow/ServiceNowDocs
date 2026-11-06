@@ -29,6 +29,10 @@ Here's what is available on the Machine Identity Console Overview page:
 
 **Note:** Accounts that have the **Internal Integration User** field set to `true` in their `sys_user` record will not populate data in the Machine Identity Console.
 
+## Roles and access
+
+The `admin` role gives admin access to the Machine Identity Console.
+
 **Related topics**  
 
 

@@ -51,7 +51,7 @@ The AI model providers configured by your organization such as Perplexity, IBM W
 
 **Note:** You can select Now LLM Service- LTS \(Long term stable\) Model, which supports regulated industries, such as financial institutions, with stronger AI lifecycle management, governance, transparency, and compliance tools.
 
-For more information on Now LLM Service- LTS model, see [Long term stable models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-large-language-model-now-llm/long-term-stable-models.md)
+For more information on Now LLM Service- LTS model, see 
 
 For information on exploring the scenarios configuring third-party LLMs for all the regions, see [Explore the third-party LLMs and regions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/exploring-third-party-llms-and-data-routing-configuration.md)
 

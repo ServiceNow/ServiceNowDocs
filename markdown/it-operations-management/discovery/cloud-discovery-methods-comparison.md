@@ -32,7 +32,7 @@ The choice between patterns and connectors affects coverage, level of detail, th
 By reviewing the coverage tables for AWS, Azure, and GCP, you can
 
 -   Identify which resources are supported by patterns, by connectors, or both.
--   Understand how the same resource type may be handled differently \(for example, patterns may bring in all zone data, while connectors may only bring in zones tied to an instance\).
+-   Understand how the same resource type may be handled differently. For example, patterns may bring in all zone data, while connectors may only bring in zones tied to an instance.
 -   Decide on a solution per provider, considering its CI coverage or data model. For example: Use connectors to discover your GCP resources, but use patterns for AWS and Azure.
 
 \[Omitted image "patterns-vs-sgc.jpg"\] Alt text: Bar chart that compares Patterns and Service Graph Connectors resource types: AWS \(83 patterns, 70 SGC\), Azure \(60 patterns, 22 SGC\), and GCP \(120 patterns, 107 SGC\).

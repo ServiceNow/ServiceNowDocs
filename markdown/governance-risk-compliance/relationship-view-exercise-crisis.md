@@ -32,18 +32,16 @@ The configurations for the 360° view are stored in **360° View Configurations*
 
 3.  Select **360° view** in the event record.
 
-    The 360° view for the selected event is displayed as shown in the example.
-
     \[Omitted image "360-ex-view.png"\] Alt text: 360-view-events.
-
-    The 360° view for the selected event shows these details:
 
     -   **Activated plans**: Activated plans that are associated with the assets.
     -   **Assets**: Assets that are impacted due to the event.
     -   **Tasks**: Tasks that are associated with the event.
-    When you select the **Assets** capsule in the 360° view, the details of the assets for the event are displayed in the **Assets** panel on the right as shown in the example.
+4.  Select the **Assets** capsule in the 360° view.
 
-4.  Select the event or list view in the breadcrumb navigation to open the original event record.
+    The **Assets** panel displays the asset details for the event.
+
+5.  Select the event or list view in the breadcrumb navigation to open the original event record.
 
 
 **Parent Topic:**[Structured workflows for exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)

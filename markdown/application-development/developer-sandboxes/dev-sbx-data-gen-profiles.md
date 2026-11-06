@@ -9,7 +9,7 @@ classification: developer-sandboxes
 topic_type: concept
 last_updated: "2025-08-11"
 reading_time_minutes: 2
-breadcrumb: [Administer data, Developer Sandboxes, Developing your application, Building applications]
+breadcrumb: [Install and configure, Developer Sandboxes, Developing your application, Building applications]
 ---
 
 # Data Generation Profiles in Developer Sandboxes

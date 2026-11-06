@@ -8,7 +8,7 @@ product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
 last_updated: "2025-08-13"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Create and use dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
@@ -16,13 +16,24 @@ breadcrumb: [Create and use dashboards, Responsive dashboards in the Core UI, Re
 
 Responsive dashboards enable you to share widgets such as reports and Performance Analytics visualizations in the classic environment. An easy-to-use drag and drop canvas helps you create, edit, and arrange content, and then share it with colleagues.
 
-Use dashboards to:
+**Note:** This topic refers to Core UI dashboards. If you are looking for information about the newer Platform Analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center-dashboards.md).
+
+The ServiceNow AI Platform platform supports two dashboard technologies:
+
+-   The newer Platform Analytics dashboards, described in [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center-dashboards.md)
+-   The older Core UI Responsive Dashboards
+
+Use Core UI dashboards to:
 
 -   Create and edit Performance Analytics visualizations and other widgets directly from the dashboard.
 -   Quickly find and preview widgets, then add them to the dashboard from the Add Widget pane.
 -   Easily share dashboards with other users from the integrated Sharing pane.
 -   Snap the widgets into a predefined layout, then adjust the layout as desired.
 -   Access information that you use frequently by setting dashboards as your **Home**.
+
+**Note:**
+
+Owners of Core UI responsive dashboards have the option to migrate these dashboards to Platform Analytics experience. For more information, see [Migrate dashboards that you own](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/data-migration-migrate-dbs-you-own.md).
 
 Watch this three-minute video to learn more about flexible layouts, multiple tabs, sharing, converting homepages to dashboards, and enabling responsive dashboards. \[Omitted video\] Description: How to get started using responsive dashboards
 

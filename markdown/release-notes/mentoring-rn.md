@@ -35,7 +35,7 @@ The ServiceNow® Mentoring application is a platform that connects individuals s
 
 ### What's changed
 
--   **[Create a Mentoring program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/create-mentoring-pgm.md)**
+-   ****
 
     The multiple mentoring program enables mentor admins to configure multiple programs that can run at the same time. It enables admins to restrict access based on employee criteria. The multiple mentoring program enables employees to choose and enroll in available mentoring programs, edit their preferences, search for mentors, and send connection requests.
 

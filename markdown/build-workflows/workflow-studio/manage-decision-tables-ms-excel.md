@@ -1,20 +1,20 @@
 ---
 title: Manage decision tables in Excel
-description: If you have large decision tables to build or want to enhance decision tables outside of the ServiceNow AI Platform, manage them in Excel. Export a decision table to an Excel file, edit the downloaded file to add and edit rows, and then import the file back into Workflow Studio.
+description: Manage large decision tables in Excel. Export a decision table to an Excel file, edit the file to add or update rows, and import the file back into Workflow Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/manage-decision-tables-ms-excel.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-07-22"
 reading_time_minutes: 4
 breadcrumb: [Using decision tables, Use, Workflow Studio, Build workflows]
 ---
 
 # Manage decision tables in Excel
 
-If you have large decision tables to build or want to enhance decision tables outside of the ServiceNow AI Platform, manage them in Excel. Export a decision table to an Excel file, edit the downloaded file to add and edit rows, and then import the file back into Workflow Studio.
+Manage large decision tables in Excel. Export a decision table to an Excel file, edit the file to add or update rows, and import the file back into Workflow Studio.
 
 ## Exporting a decision table to Excel
 
@@ -23,6 +23,10 @@ After creating and saving inputs, condition columns, and result columns, export 
 Editing your decision tables in Excel can help you build large tables more quickly. It also gives you the ability to assign the structural setup to a developer, and then delegate rule authoring to someone else, who could fill it out in Excel.
 
 **Note:** If you have any advanced rows in your decision table when you export to Excel, these rows are read-only and cannot be edited in Excel. You can edit the rest of the table in Excel and import it back into Workflow Studio.
+
+## Access to reference column data
+
+For decision tables that contain reference columns, the drop-down lists that are exported to Excel include only records that you have read access to, plus any records that are already used as values in the decision table. Read access is determined by the access control lists \(ACLs\) on the referenced table.
 
 ## Modifying the decision table in Excel
 

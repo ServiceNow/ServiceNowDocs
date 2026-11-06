@@ -38,7 +38,14 @@ Role required: admin
 
     1.  In the **Check type** field, select the Lookup using list icon \[Omitted image "icon-magnifying-glass-blue.png"\] Alt text: to navigate to the Check Types page.
 
-    2.  Select the check type from the list.
+    2.  Always select the `DexContentAction` check type from the list.
+
+    3.  Add a timeout script for the remedial action check definition.
+
+        ```
+        var util = new sn_dex.DEXRemedialActionsUtils();
+        util.handleRemedialActionTimeout(request);
+        ```
 
 5.  In the **Command** field, enter the name of the `.rb` script included in the ACC plugin package.
 

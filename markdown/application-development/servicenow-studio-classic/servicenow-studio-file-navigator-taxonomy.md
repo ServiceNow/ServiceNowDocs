@@ -2352,7 +2352,7 @@ Page Collection
 
 Page Collections are groups of pages that can be reused across multiple experiences.
 
- For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/page-collections.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/page-collections.md).
+ For more information, see [Lux Page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/page-collections.md).
 
 </td><td>
 

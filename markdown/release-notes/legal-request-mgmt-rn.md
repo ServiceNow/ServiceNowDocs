@@ -18,7 +18,7 @@ The ServiceNow® Legal Request Management application provides a unified mechani
 
 Help ensure that sensitive information remains confidential with stakeholder controls through attorney-client privilege \(ACP\) protection for legal requests and matters.
 
-See [Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/legal-request-management-landing-page.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -37,7 +37,7 @@ The ServiceNow® Legal Request Management application provides a unified mechani
 
 ### What's new
 
--   **[Attorney Client Privilege](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/lmm-acp-landing.md)**
+-   ****
 
     Protect sensitive legal information by marking legal matters as Privileged &amp; Confidential, helping to ensure access is restricted to only authorized stakeholders.
 

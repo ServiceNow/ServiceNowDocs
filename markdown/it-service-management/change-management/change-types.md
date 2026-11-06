@@ -55,6 +55,8 @@ The following table summarizes about the three change types:
 |Normal|No|Yes|Any change that isn't standard or emergency and requires full assessment.|
 |Emergency|No|Yes|High-priority changes that resolve a major incident or apply a security patch.|
 
+The change type field has now been superseded by the change model field. ITIL change types and the type field are still supported. For more information, see [Change Models properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/change-models-properties.md) and [Change model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/manage-change-models.md).
+
 ## Choosing a change type
 
 Use the following scenarios as a guide:
@@ -62,6 +64,8 @@ Use the following scenarios as a guide:
 -   A scheduled upgrade of a production database server that needs peer reviews and CAB authorization is a normal change.
 -   Applying a documented, pre-approved patch from a tested standard change template is a standard change.
 -   Deploying an out-of-band security patch to stop an active exploit is an emergency change.
+
+**Tip:** The standard, normal, and emergency change types are part of core Change Management. Advanced capabilities, such as AI-driven risk and success probability, can require additional entitlements. For subscription and entitlement details, contact your ServiceNow® account team.
 
 **Parent Topic:**[Exploring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/exploring-change-management.md)
 

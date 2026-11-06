@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/rn-summary-changes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 253
+last_updated: "2026-11-04"
+reading_time_minutes: 256
 breadcrumb: [Release notes summaries for Zurich features, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
 
@@ -335,13 +335,13 @@ Starting with version 21.1.1, if you have a feature admin role you can now compl
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
--   **[AI risk and compliance home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/ai-risk-and-compliance-workspace.md)**
+-   **AI risk and compliance home page**
 
 The **Risk and compliance** tab now features dedicated Risk overview and Compliance overview sections that enable you to continuously monitor the risk and compliance posture of your AI assets.
 
 The Risk overview section is a filtered view of your AI assets that are based on inherent and residual risk levels so that you can make informed risk evaluations. The Compliance overview section displays the regulatory risk classification of AI systems, models, and datasets through donut charts. Additionally, you can see the compliance status of your AI assets in relation to applicable authority documents and internal policies.
 
--   **[Worknotes and comments in AI system records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/ai-system-airc.md)**
+-   **Worknotes and comments in AI system records**
 
 The AI system record now supports worknotes and comments. You can now document decisions, share updates, and provide context throughout the AI risk and compliance life-cycle. Worknotes and comments help improve the communication among stakeholders and ensure a comprehensive audit trail.
 
@@ -382,7 +382,7 @@ The search results page for global search and workspace search has been revised 
 
 Override the default sorting of facet buckets by their search result counts and display them sorted alphabetically by their labels.
 
--   **Improved display for grouped attachment search results**
+-   **[Improved display for grouped attachment search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/grouping-attachment-srch-results-ais.md)**
 
 When grouped with their parent search results, attachment search results now appear in collapsed form to save space. If a parent search result includes more than three grouped attachments, you can use the new **Show more** and **Show less** links to control how many attachments are visible.
 
@@ -425,7 +425,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-[GlideSysAttachment - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
+
 
 </td><td>
 
@@ -437,7 +437,7 @@ Support for copying any attributes from source attachment records and deleting a
 
 </td></tr><tr><td>
 
-[IdentificationEngine - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/IdentificationEngineScopedAPI.md)
+
 
 </td><td>
 
@@ -447,7 +447,7 @@ Enable the **referenceItems** properties of the incoming payload to be populated
 
 </td></tr><tr><td>
 
-[ProducerV2 - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/ProducerV2ScopedAPI.md)
+
 
 </td><td>
 
@@ -455,7 +455,7 @@ send\(\) - Added a return value and error handling.
 
 </td></tr><tr><td>
 
-[RESTMessageV2 - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_RESTMessageV2API.md)
+
 
 </td><td>
 
@@ -472,7 +472,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-[GlideAggregate - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideAggregateAPI.md)
+
 
 </td><td>
 
@@ -487,7 +487,7 @@ Remove support for groups in Dynamic Schema.-   addAggregate\(\)
 
 </td></tr><tr><td>
 
-[GlideDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/GlideDynamicAttributeAPI.md)
+
 
 </td><td>
 
@@ -503,7 +503,7 @@ Remove GlideTransientDynamicAttribute API documentation because GlideDynamicAttr
 
 </td></tr><tr><td>
 
-[GlideRecord - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
+
 
 </td><td>
 
@@ -522,7 +522,7 @@ Remove support for groups in Dynamic Schema.-   addQuery\(\)
 
 </td></tr><tr><td>
 
-[GlideSysAttachment - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/GlideSysAttachmentGlobalAPI.md)
+
 
 </td><td>
 
@@ -534,7 +534,7 @@ Support for copying any attributes from source attachment records and deleting a
 
 </td></tr><tr><td>
 
-[IdentificationEngineScriptableApi - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_IdentEngineScriptAPI.md)
+
 
 </td><td>
 
@@ -544,7 +544,7 @@ Enable the **referenceItems** properties of the incoming payload to be populated
 
 </td></tr><tr><td>
 
-[RESTMessageV2 - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_RESTMessageV2API.md)
+
 
 </td><td>
 
@@ -613,7 +613,7 @@ Advanced Risk
 
 </td><td>
 
--   **[Downstream risks related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/entities-in-risk-ws.md)**
+-   **Downstream risks related list**
 
 The Downstream risks related list on the entity record page has been renamed Risks.
 
@@ -664,7 +664,7 @@ Enable agents to initiate a comment, work note, or email in the activity stream 
     -   Email interaction record page
 -   **[Lookup component on CSM Configurable Workspace record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-record-page-lookup-component.md)**
 
-Use the Lookup component to look up and link a contact and then verify the contact. The Lookup component replaces the Lookup and Verify component on the CRM Workspace record pages.
+Use the Lookup component to look up and link a contact and then verify the contact. The Lookup component replaces the Lookup and Verify component on the CSM Configurable Workspace record pages.
 
 -   **Hide inbox after item selection**
 
@@ -750,7 +750,7 @@ App Engine Management Center
 
 </td><td>
 
--   **[Release management tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/aemc-user-interface.md)**
+-   **Release management tab**
 
 Starting with version 28.2.1 of AEMC, you can manage your ReleaseOps deployments in the **Release management** tab of AEMC.
 
@@ -761,7 +761,7 @@ App Engine Studio
 
 </td><td>
 
--   **[Granular configuration admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/aes-personas-roles.md)**
+-   **Granular configuration admin roles**
 
 Several new granular admin roles enable developers to complete administrative configuration tasks without requiring the full admin role.
 
@@ -900,7 +900,7 @@ Build Agent
 The input field for Build Agent prompts and instructions now expands to accommodate longer text entries.
 
 
--   **[Build Agent in ServiceNow Studio UI updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/access-build-agent.md)**
+-   **Build Agent in ServiceNow Studio UI updates**
 
 Several changes have been made to how you access Build Agent in ServiceNow Studio:
 
@@ -908,37 +908,37 @@ Several changes have been made to how you access Build Agent in ServiceNow Studi
     -   To open an existing conversation, select the Conversations icon \[Omitted image "ba-sns-otto-nav-icon.png"\] Alt text: in the Navigator panel.
     -   The Build Agent panel now opens on the Navigator panel of ServiceNow Studio.
 
--   **[Organized settings with tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ba-configure-settings.md)**
+-   **Organized settings with tabs**
 
 Find Build Agent easier now that the Settings panel has tabs: **General**, **Skills**, **Rules**, and **MCP**.
 
 
--   **[ServiceNow Otto rebrand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/exploring-build-agent.md)**
+-   **ServiceNow Otto rebrand**
 
 ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including Build Agent. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 
--   **[Licensing change for in-app agents and skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ba-about-creating-in-app-agents.md)**
+-   **Licensing change for in-app agents and skills**
 
 Only users with Build Agent - Prime can create agents and skills.
 
 
--   **[Enhanced semantic metadata search tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/build-agent-tools.md)**
+-   **Enhanced semantic metadata search tool**
 
 An updated semantic metadata search tool improves performance replaces the previous semantic search tool.
 
 
--   **[New button prompt to add AI to an app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/create-a-new-application-using-build-agent.md)**
+-   **New button prompt to add AI to an app**
 
 A new **Add AI** button when you first open the Build Agent chat panel starts a guided conversation to help you define and generate a skill or agent.
 
 **Note:** You must have a ServiceNow Otto for Creator license for the new button to appear.
 
--   **[Open Build Agent from ServiceNow Studio banner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/access-build-agent.md)**
+-   **Open Build Agent from ServiceNow Studio banner**
 
 A new icon in the ServiceNow Studio application banner provides another way to access Build Agent.
 
 
--   **[Improved checkpoint and update set management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ba-conversational-change-log.md)**
+-   **Improved checkpoint and update set management**
 
 Build Agent handles checkpoints and update sets differently in the following ways:
 
@@ -946,16 +946,16 @@ Build Agent handles checkpoints and update sets differently in the following way
     -   Checkpoint 1 is the base update set for all subsequent changes.
     -   Update sets use human-readable naming.
 
--   **[Generated artifact preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/edit-an-existing-application-using-build-agent.md)**
+-   **Generated artifact preview**
 
 Preview generated tables, flows, and scripts that Build Agent creates in ServiceNow Studio so you can review and approve changes inline before saving or committing them to the application.
 
 
--   **[Build Agent version parity for PDIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/exploring-build-agent.md)**
+-   **Build Agent version parity for PDIs**
 
 Personal development instances \(PDIs\) are now updated to match the latest Build Agent version, delivering a consistent experience across both personal and production-track instances. Developers testing and building on PDIs have access to the same capabilities available in production environments.
 
--   **[Updated interaction limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/exploring-build-agent.md)**
+-   **Updated interaction limits**
 
 To provide developers more room to iterate, the following Build Agent limits have been increased:
 
@@ -966,7 +966,7 @@ To provide developers more room to iterate, the following Build Agent limits hav
 
 
 
--   **[Support for global scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/exploring-build-agent.md)**
+-   **Support for global scope**
 
 Build apps and metadata in the global scope.
 
@@ -977,52 +977,52 @@ Business Continuity Management
 
 </td><td>
 
--   **[Configuring the phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/set-up-phases.md)**
+-   **Configuring the phases**
 
 The Active phases module is available in the General Administration setup for configuring the phases.
 
--   **[Phase column](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/add-a-recovery-task.md)**
+-   **Phase column**
 
 The recovery and event tasks now include the Phase column in the list and form views, indicating association with specific phases within the recovery process.
 
--   **[Do not include tasks in time calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/create-new-recovery-task-form.md)**
+-   **Do not include tasks in time calculation**
 
 The **Do not include tasks in time calculation** field has been added to Recovery tasks, enabling you to exclude specific tasks from overall time calculations.
 
--   **[Asset recovery level column](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/create-new-recovery-task-form.md)**
+-   **Asset recovery level column**
 
 The Asset recovery level column is added to the recovery tasks to indicate recovery levels of the assets.
 
--   **[Include task in field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/create-new-recovery-task-form.md)**
+-   **Include task in field**
 
 The **Include task in** field is added in the recovery tasks to specify whether a task should be included in an exercise, crisis event, or both.
 
--   **[Finalized RTO and RPO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/create-new-impact-analysis-reference-form-bcm-uib-ws.md)**
+-   **Finalized RTO and RPO**
 
 The Finalized RTO column is shown in the chart and list views, replacing the previously shown RTO and Adjusted RTO columns. Similarly, the Finalized RPO column is shown in the chart and list views, replacing the previously shown RPO and Adjusted RPO columns.
 
--   **[Associated plans tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/add-related-plans-recovery-teams-bcp-uib-ws.md)**
+-   **Associated plans tab**
 
 The **Associated plans** tab in the Plan record replaces the **Related plan** and **Parent plan** tabs. Upstream, Downstream, and Related plans are now included as associated plan types.
 
--   **[Gantt chart in the Hierarchy view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/managing-enhanced-hierarchical-view-in-event-tasks.md)**
+-   **Gantt chart in the Hierarchy view**
 
 A Gantt chart has been added to the Hierarchy view to help visualize the planned and actual timelines of event tasks.
 
 
--   **[Predefined Word templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/edit-report-temp.md)**
+-   **Predefined Word templates**
 
 Predefined Microsoft Word templates are now provided in the instance.
 
--   **[Similar tasks group tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/identifying-running-dup-tasks-once.md)**
+-   **Similar tasks group tab**
 
 The **Similar tasks groups** tab is now included in the events and the **Create similar tasks group** UI action is available in the **Event tasks** tab.
 
--   **[Action items tab in Exercises and Crises modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/create-action-items-based-on-smart-assessments.md)**
+-   **Action items tab in Exercises and Crises modules**
 
 The **Action items** tab is now available in both exercises and crises.
 
--   **[Pagination for alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/manage-alerts-in-crisis-map-interface-uib-ws.md)**
+-   **Pagination for alerts**
 
 Pagination has been added to alerts in Crisis map, to make them more readable on the map interface.Edit the impacted area of an alert by using custom shapes or a custom radius. Similarly, you can revert the changes made to an impacted area within the map interface.
 
@@ -1048,7 +1048,7 @@ Career Conversations
 
 </td><td>
 
--   **[AI Agents button to create a growth conversation using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/agentic-wf-conversations-na-td.md)**
+-   **AI Agents button to create a growth conversation using Now Assist**
 
 A **Plan conversation with AI** button is added to the Career Conversations home page.
 
@@ -1230,7 +1230,7 @@ Common Core
 
 </td><td>
 
--   **[Downstream risks related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/entities-in-risk-ws.md)**
+-   **Downstream risks related list**
 
 The Downstream risks related list on the entity record page has been renamed Risks.
 
@@ -1240,7 +1240,7 @@ The Downstream risks related list on the entity record page has been renamed Ris
 Coral is now the default theme for Vendor Management Workspace, portal, and mobile experiences. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
--   **[States in the entity based record access update utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/eba-configuration-states.md)**
+-   **States in the entity based record access update utility**
 
 A new Preview state has been added to the record access update utility life cycle. You can now review the estimated number of impacted records before you apply the restrictions. This step helps you to validate the selected scope, assess potential impacts, and make adjustments, if needed. It also adds an extra layer of control and reduces the risk of unintended access changes.
 
@@ -1506,7 +1506,7 @@ Continuous Authorization and Monitoring
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
--   **[New Authorization Documents tab for ATO reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/prepare-auth-pkg.md)**
+-   **New Authorization Documents tab for ATO reports**
 
 Access all Authority to Operate \(ATO\) artifacts reports from the new **Authorization Documents** tab available in the Authorization Package.
 
@@ -1528,7 +1528,7 @@ Creator Studio
 
 </td><td>
 
--   **[Deleting questions from unpublished forms removes the record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/creator-studio-delete-forms-questions.md)**
+-   **Deleting questions from unpublished forms removes the record**
 
 When you delete a question from an unpublished form, the record for the question is now also removed from the ServiceNow AI Platform.
 
@@ -1578,7 +1578,7 @@ Enable customers to request quantity changes and shipping location updates for e
 
 -   **[Voice assistant intake for order exception requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/now-assist-order-mgmt-voice-aiagent.md)**
 
-Enable customers to submit expedite, quantity, and shipping location requests through the voice assistant. The voice assistant captures the request and creates an order case for the order case agent to resolve it in the CRM Workspace.
+Enable customers to submit expedite, quantity, and shipping location requests through the voice assistant. The voice assistant captures the request and creates an order case for the order case agent to resolve it in the CSM Configurable Workspace.
 
 -   **[Scripted extension points for order exception checks and quote thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/create-atp-api-call.md)**
 
@@ -1701,6 +1701,21 @@ Data Discovery attachment scan type jobs now support XLS and CSV files. Attachme
 
 </td></tr><tr><td>
 
+Decision tables
+
+</td><td>
+
+-   ****
+
+Decision table exports now apply the access control lists \(ACLs\) to the data that's exported. Access is determined by the ACLs on the referenced table. This issue is related to PRB2067404.
+
+-   ****
+
+Delegated developers can now create, read, edit, and delete decision tables that belong to an application they have delegated developer access to. This issue is related to PRB2065210.
+
+
+</td></tr><tr><td>
+
 DevOps Change Velocity
 
 </td><td>
@@ -1790,7 +1805,7 @@ Developer Sandboxes
 
 </td><td>
 
--   **[Upgrade enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/dev-sbx-clone-upgrade-info.md)**
+-   **Upgrade enhancements**
 
 Automatic backups for upgrades are now working correctly. This issue is related to PRB2017438.
 
@@ -2094,7 +2109,7 @@ Employee Slate
 
 </td><td>
 
--   **[Edit widgets inline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/eslate-configure-browse-pages-inline-config.md)**
+-   ****
 
 Instance options to customize widgets on the home page and topic pages are no longer available. Customize your portal pages with the Admin editor.
 
@@ -2559,23 +2574,23 @@ Flows, subflows, and actions in Workflow Studio
 
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
--   **[Display flow recommendations in flow diagramming view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/exploring-flow-recommendations.md)**
+-   **Display flow recommendations in flow diagramming view**
 
 Get a list of recommendations for the next item in your flow while in a flow diagramming view.
 
--   **[Launch the flow debugger from an updated button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/flow-debugger.md)**
+-   **Launch the flow debugger from an updated button**
 
 Start the flow debugger from an updated button.
 
--   **[Open conversational subflow settings from an updated button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/configure-subflow-conversation-settings.md)**
+-   **Open conversational subflow settings from an updated button**
 
 The option to open subflow conversational settings has moved from the more action menu to the sidebar.
 
--   **[Open conversational action settings from an updated button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/configure-action-conversation-settings.md)**
+-   **Open conversational action settings from an updated button**
 
 The option to open action conversational settings has moved from the more action menu to the sidebar.
 
--   **[See event sources from a new menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/manage-external-event-sources.md)**
+-   **See event sources from a new menu**
 
 Create, read, update, or delete external event sources with the Event sources menu. An Event sources menu has been added to a panel of the spokes page that appears after you select a spoke under the **Integrations** tab.
 
@@ -3011,7 +3026,7 @@ Coral is now the default theme for new portal, web, and mobile experiences with 
 
 Enable more detailed logging in the Stream Connect logs with the **glide.ih.kafka.stream\_connect.debug** property. This property replaces the **glide.ih.kafka.debug.consume** property.
 
--   **[Spoke Generator license changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/spoke-builder.md)**
+-   **Spoke Generator license changes**
 
 Starting with Zurich, the Spokes list page and Spoke details pages are a part of the ServiceNow Integration Hub Starter Pack. To create a spoke using OpenAPI or Postman collection specification or Now Assist, you need a ServiceNow Integration Hub Professional license in your prod and sub-prod environments.
 
@@ -3037,11 +3052,11 @@ Interview management
 
 </td><td>
 
--   **[Schedule an interview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/schedule-interview.md)**
+-   ****
 
 Schedule interviews more efficiently with auto-populated template variables that reduce manual email editing.
 
--   **[Manage interviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/manage-interviews-recruiter.md)**
+-   ****
 
 Track applicants' responses to interview invites on interviews records directly.
 
@@ -3056,7 +3071,7 @@ Journey designer
 
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
--   **[Cancel Journey Accelerator Journeys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cancel-ja-journeys.md)**
+-   **Cancel Journey Accelerator Journeys**
 
 Journey owners having access to Journey Accelerator only journeys now have a **Cancel** option instead of the **Delete** option in the Employee Center portal.
 
@@ -3106,6 +3121,17 @@ Enjoy a better reading experience with the enhanced Knowledge view page in the w
 
 </td></tr><tr><td>
 
+L1 IT Service Desk AI Specialist
+
+</td><td>
+
+-   **[Catalog variable collection and messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/catalog-variable-collection-slot-fill-l1-sd-ai-spec.md)**
+
+The L1 IT Service Desk AI Specialist now fills catalog item variables from the incident and the caller's details and shows requesters what it already captured, so requesters answer fewer questions. It also now uses dynamic response authoring for L1 IT Service Desk AI Specialist Catalog submission responses. Default instructions are provided so the agent composes each message fresh instead of relying on a fixed template.
+
+
+</td></tr><tr><td>
+
 Lead-to-Cash Process Management
 
 </td><td>
@@ -3132,7 +3158,7 @@ Lifecycle Events
 
 </td><td>
 
--   **[HR Lifecycle Events Case Logs table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/le-logging.md#section_jjn_ffv_rfc)**
+-   **HR Lifecycle Events Case Logs table**
 
 Lifecycle Events records each log entry to the HR Lifecycle Events Case Logs \[sn\_hr\_le\_case\_log\] table. Lifecycle Events administrators can access this table by selecting **Show execution logs** from the Related Links section in a Lifecycle Events case.
 
@@ -3203,7 +3229,7 @@ Mentoring
 
 </td><td>
 
--   **[Create a Mentoring program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/create-mentoring-pgm.md)**
+-   ****
 
 The multiple mentoring program enables mentor admins to configure multiple programs that can run at the same time. It enables admins to restrict access based on employee criteria. The multiple mentoring program enables employees to choose and enroll in available mentoring programs, edit their preferences, search for mentors, and send connection requests.
 
@@ -3299,6 +3325,10 @@ Next Experience
 -   **[Now Assist &gt; ServiceNow Otto® announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
 
 ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+-   **ServiceNow Otto® onboarding slide added**
+
+Next Experience onboarding now opens with a ServiceNow Otto slide. The slide appears only when the Generative AI Controller plugin \(sn\_generative\_ai\) is active on the instance. After a user selects “Got it,” the slide doesn’t appear again.
 
 
 -   **Coral theme**
@@ -3433,16 +3463,16 @@ The Now LLM Service is no longer the default model provider for new or inactive 
 The default model provider for contract metadata extraction, contract analysis, and contract obligation extraction is Azure OpenAI.
 
 
--   **[Improved missing clause detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cncore-NA-review-land.md)**
+-   **Improved missing clause detection**
 
 Missing clause detection in contract revision using the contract analysis skill has been enhanced for accuracy. The setup, configuration, and review experience remains unchanged across all supported workspaces.
 
 
--   **[Configure use case mappings for metadata and obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cmpro-na-usecase-mappings-me.md)**
+-   **Configure use case mappings for metadata and obligation extraction**
 
 Clear the **Contracts created from contract request** check box on the use case mapping forms for the contract metadata extraction and contract obligation extraction skills to extract metadata and obligations form signed contracts that are uploaded directly on a contract record.
 
--   **[Use conversational contract search and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cmpro-agentic-use-conv-search.md)**
+-   ****
 
 The Now Assist powered conversational search feature's improved experience enables you to:
 
@@ -3462,7 +3492,7 @@ The new default behavior works as follows:
 
     -   New customers: When you install an AI product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Australia Early Access\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Enhanced Manage contract repository agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cmpro-na-reminder-agentic-wf.md)**
+-   **Enhanced Manage contract repository agentic workflow**
 
 The manage contract repository agentic workflow has been optimized for enhanced performance. It now utilizes a single agent, the Contract Repository AI agent to extract both contract metadata and obligations from signed contracts, and retrieve required information to calculate the contract reminder date.
 
@@ -3471,11 +3501,11 @@ The manage contract repository agentic workflow has been optimized for enhanced 
 Agentic workflows and AI agents included with your applications require additional security configuration. If you select **Users with selected roles** for your user access security controls for an agentic workflow or AI agent, you must add the installed roles, or they will not execute. See the documentation for the agentic workflow or AI agent for the specific roles you must add.
 
 
--   **[Extract metadata from signed contracts automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cmpro-na-reminder-agentic-wf.md)**
+-   **Extract metadata from signed contracts automatically**
 
 Use the AI agents in the manage contract repository agentic workflow to automatically extract metadata from signed contracts and calculate the contract reminder dates for contract renewal or termination. You can review the AI results in the contract playbook and update it if necessary before saving it.
 
--   **[Contract metadata extraction use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/metadata-extraction-use-case.md)**
+-   ****
 
 Support for 14 additional metadata fields in the CM Pro - Contract Metadata Extraction use case is available in the base system.
 
@@ -3717,48 +3747,48 @@ Operational Resilience
 
 </td><td>
 
--   **[Main node configurations: A component of the Data Relationships Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/main-node-relationship-fw.md)**
+-   ****
 
 The properties, related lists, and copy functionality in the Main node configurations form are updated.
 
--   **[Configure the Nexus map configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/configure-nexus-map-configurations.md)**
+-   ****
 
 The Nexus map configuration settings are added.
 
--   **[Node configurations and Node status configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/configure-node-configurations.md)**
+-   **Node configurations and Node status configurations**
 
 The Node configurations and Node status configurations related lists are added.
 
--   **[Edge configurations and edge status configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/configure-edge-configurations.md)**
+-   **Edge configurations and edge status configurations**
 
 The Edge configurations and Edge status configurations related lists are added.
 
--   **[Interacting with the Nexus map UI from the Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/interacting-with-nexus-map-ui-from-worksapce.md)**
+-   ****
 
 The **Resilience map** UI action is added to display the map view for a service record.
 
--   **[Word reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/reporting-for-multiple-regulations.md)**
+-   **Word reports**
 
 The 'Template Configurations' module displays the document design template configuration details of DIR action tasks. The 'Word Templates' module provides the DIR Word templates used to generate Microsoft Word reports.
 
--   **[Regulation mappings related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/workflow-confi-auto-trigger-inci-repo-cases.md)**
+-   **Regulation mappings related list**
 
 The 'Digital Resilience Incident Case Type' module displays the ‘Digital Resilience Incident Case.’ The Regulation Mappings related list in the record shows the relationships between entities and their corresponding regulations.
 
--   **[Download the Excel template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/create-excel-upload-download-request.md)**
+-   **Download the Excel template**
 
 The option to download the Third-party Information Register is renamed to Excel Master Template.
 
 
--   **[Action tasks configuration related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/work-on-action-tasks.md)**
+-   **Action tasks configuration related list**
 
 Action tasks configuration related list is used to set up contextual information for different regulations. This includes the assessment template, assignment group, trigger conditions, due dates, and more.
 
--   **[New modules and layout for Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/using-csdm-v5.md)**
+-   **New modules and layout for Services**
 
 The Application services module is added to the list view, which enables you to configure application services.A vertical layout is added for the Services, Business services, Offerings, Business processes, and Application services modules.In the CSDM objects table, the Impacted objects column displays the parent objects, while the Impacted objects classes column shows the classes. The Red flags count column indicates the number of the red flags that are directly assigned to a node, and the Total red flags count column displays the total count of the red flags directly assigned to a node and its children.
 
--   **[Contracts and related tabs for DORA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/create-drtp-reg-contract.md)**
+-   **Contracts and related tabs for DORA**
 
 The related tabs for the contracts, including associated entities and third parties, are now shown in the Contract record forms.
 
@@ -3962,15 +3992,15 @@ Playbooks in Workflow Studio
 
 </td><td>
 
--   **[Activate playbooks without a trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/process-automation-designer-triggers.md)**
+-   **Activate playbooks without a trigger**
 
 Configure and activate playbooks without specifying triggers, so that playbooks are only triggered programmatically.
 
--   **[Implement playbooks that are callable by a scriptable API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/process-automation-designer-triggers.md)**
+-   **Implement playbooks that are callable by a scriptable API**
 
 Configure a playbook that executes with an input object instead of requiring the configuration of a trigger record reference and trigger conditions.
 
--   **[Decision activity enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/create-a-decision-activity.md)**
+-   **Decision activity enhancements**
 
 User experience improvements to decision activities:
 
@@ -3981,7 +4011,7 @@ User experience improvements to decision activities:
 
 Enter a combination of text and multiple pills in any rich text / HTML editor container, such as an email body.
 
--   **[ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator-landing.md)**
+-   **ServiceNow Otto**
 
 ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including Playbooks. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 
@@ -3997,7 +4027,7 @@ Policy and Compliance Management
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
--   **[Improved widget presentation and page layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/compliance-manager-compliance-ws.md)**
+-   **Improved widget presentation and page layouts**
 
 As part of the Coral theme enhancements, rounded card containers with drop shadows have been introduced for widgets across Compliance pages, and the gray background has been removed from the Compliance home page to simplify the interface.
 
@@ -4057,7 +4087,7 @@ The new default behavior works as follows:
     -   New customers: When you install an AI product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Australia Early Access\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
 
--   **[Processing activity tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/processing-activity-tab.md)**
+-   ****
 
 The revamped Processing Activity overview page provides a unified dashboard that displays key compliance and risk metrics, such as risk scores, compliance scores, and criticality scores. This update makes it easier for privacy managers and analysts to assess the status of each processing activity, track open issues, and prioritize actions.
 
@@ -4067,11 +4097,11 @@ The revamped Processing Activity overview page provides a unified dashboard that
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
--   **[Layout for processing activity record view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/processing-activity-homepage.md)**
+-   **Layout for processing activity record view**
 
 The vertical layout of a processing activity enables you to see the information in a top-down linear flow. With this layout, you can see the sequential representation of a data processing workflow.
 
--   **[Privacy management home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/privacy-mgmt-ws-privacy-compliance-manager.md)**
+-   **Privacy management home page**
 
 The enhanced Privacy Management home page now has dedicated tabs for Processing Activity, Risk and compliance, Operations, and Privacy Cases. This updated layout helps to improve readability by organizing your reports into clearly defined sections.
 
@@ -4243,7 +4273,7 @@ Recruitment workspace
 
 </td><td>
 
--   **[Get overview of recruitment workload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/recruitment-workspace-oveview.md)**
+-   ****
 
 View all the job requisitions where you're listed as an additional recruiter or recruitment coordinator, on the home page cards and list view in Recruitment workspace. Previously, only the primary recruiter saw these requisitions in Recruitment workspace.
 
@@ -4273,16 +4303,16 @@ Starting with version 21.1.x, the following Regulatory Change Management plugins
 
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
--   **[Default column list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/action-tasks.md)**
+-   **Default column list**
 
 Starting with the Zurich release, the default column configuration for regulatory tasks and action tasks, linked to a regulatory alert, has been updated. This change enhances usability and ensures better visibility of the key information that is relevant to each task type.
 
 
--   **[Tasks widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/list-view-of-reg-alerts.md)**
+-   **Tasks widget**
 
 The overview page of a regulatory alert includes a newly added Tasks widget that enables you to get more visibility into related activities. This widget displays the total number of associated action tasks and change tasks that are linked to the specific regulatory alert. By using this widget, you can assess the level of effort that is required for compliance.
 
--   **[Workflow of regulatory task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/reg-change-task.md)**
+-   **Workflow of regulatory task**
 
 A regulatory task progresses through the following states:
 
@@ -4293,7 +4323,7 @@ A regulatory task progresses through the following states:
     -   Completed
 While in the Implementation state, requesting approval is optional. If all associated action tasks are completed, the regulatory task can be closed directly from the Implementation state without requiring additional approval.
 
--   **[Workflow of source document import task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/reg-change-task.md)**
+-   **Workflow of source document import task**
 
 A source document task progresses through the following states:
 
@@ -4302,7 +4332,7 @@ A source document task progresses through the following states:
     -   Work In Progress
     -   Implementation
     -   Completed.
--   **[Create action tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/manage-reg-action-tasks.md)**
+-   **Create action tasks**
 
 You can create action tasks for a regulatory task when the task is in any of the following states:
 
@@ -4756,7 +4786,7 @@ The AI indicator is a visual cue that identifies form fields in configurable wor
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
--   **[ECMAScript 2021 \(ES12\) JavaScript mode supports additional scripting features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/javascript-engine-feature-support.md)**
+-   **ECMAScript 2021 \(ES12\) JavaScript mode supports additional scripting features**
 
 Use additional scripting features, including Promises and Async await, in applications or scripts that use the ECMAScript 2021 \(ES12\) JavaScript mode.
 
@@ -4828,15 +4858,64 @@ Export your lists to Google Sheets directly from the Export menu.
 
 </td></tr><tr><td>
 
+ServiceNow Arc
+
+</td><td>
+
+-   **[Auto mode for each chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/use-auto-mode-chat.md)**
+
+Users choose **Standard** or **Auto** approval for each chat in ServiceNow Arc from the message box, and set a default approval mode in **Settings** &gt; **Approvals** for new chats and background runs, such as scheduled tasks.
+
+To make auto mode available, administrators turn on the Auto Mode capability \(**auto\_approval**\), which is off by default, and set tool gates to **Auto Approval** for the tools that auto mode can cover.
+
+-   **[Microsoft 365 connector permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/set-m365-permissions.md)**
+
+Users set each Microsoft 365 connector capability to **Allow**, **Ask me first**, or **Deny**. With **Ask me first**, an approval card asks the user to allow or deny the action every time it runs, and auto mode never skips it.
+
+Administrators set the upper limit with the **Approval gate** field on each connector scope in a policy. Users can choose only a stricter setting, and capabilities the policy limits show **Set by your organization**. Microsoft 365 scopes turned off on the instance now appear in the list. Existing policies keep their behavior, and the audit log records policy changes and Microsoft 365 write actions.
+
+-   **[Clearer approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/action-approval-flow-cowork.md)**
+
+Approval cards in ServiceNow Arc now name the action and describe what's at stake, such as what the action changes or sends and whether it can be undone. For a command under a hard gate, the card names the command that triggered it.
+
+**Allow always** is renamed **Always Allow**, and standing approvals in **Settings** &gt; **Approvals** describe the whole group of actions they cover.
+
+Accessing a folder outside the workspace asks for approval with a soft gate that offers **Always Allow**, unless an approval pattern in the policy applies a hard gate to that call.
+
+-   **[Schedules management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/create-scheduled-tasks.md)**
+
+Users create scheduled tasks from **Schedules** in the ServiceNow Arc sidebar or through chat. They can start from a blueprint or a custom reminder, and select **Reminder only** to get a notification instead of running a task.
+
+The list shows every schedule, whether created in chat or in **Schedules**. Users can search the list, run, duplicate, edit, pause, or delete any schedule, and see when it last ran and when it runs next.
+
+
+</td></tr><tr><td>
+
 ServiceNow IDE
 
 </td><td>
 
--   **[New developer themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-ide-user-interface.md)**
+-   **New developer themes**
 
 Use the Developer Light \(default\) and Developer Dark themes in the ServiceNow IDE. Select a theme from the user settings in the ServiceNow IDE or with the `Preferences: Color Theme` command from the command palette.
 
 The theme preference selected by a user from the ServiceNow IDE applies to other builder applications such as ServiceNow Studio and Creator Studio.
+
+
+</td></tr><tr><td>
+
+ServiceNow Lux Lab for VS Code
+
+</td><td>
+
+-   **Page collections renamed page variants**
+
+Page collections are now called page variants. The **Lux: Create page variant** command and its prompts and messages use the new name. When you create a page variant in a new project, the extension saves it in the `_variants` folder. In projects that already have a `_collections` folder, the extension continues to create page variants in `_collections`.
+
+
+-   **ServiceNow® AI Experience Lab for VS Code**
+
+As of the September 2026 release, the ServiceNow AI Experience Lab for VS Code extension is now named ServiceNow Lux Lab for VS Code. The extension's functionality is unchanged; only the product name has been updated.
 
 
 </td></tr><tr><td>
@@ -5230,15 +5309,15 @@ The Now LLM Service is no longer the default model provider for new or inactive 
 Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
 
--   **[Functional change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-issue-resolver-na.md)**
+-   **Functional change**
 
 The resolve HR cases agentic workflow has been broken down into three agentic flows:
 
-    -   [Predict service and transfer HR cases agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/predict-transfer-hrcase.md)
-    -   [Resolve noncritical HR cases agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-issue-resolver-na.md)
-    -   [Resolve critical HR case agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-issue-resolve-critical.md)
+    -   
+    -   
+    -   
 
--   **[Flow name](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-issue-resolver-na.md)**
+-   **Flow name**
 
 The resolve noncritical HR cases workflow has been renamed to the resolve HR cases workflow.
 
@@ -5421,7 +5500,7 @@ ServiceNow Otto for Legal Service Delivery \(LSD\)
 ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 
--   **[Summarize a legal request or matter by using ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-lsd-summarize-case.md)**
+-   ****
 
 Summarization now includes data from extended practice area tables, providing context‑rich summaries for your legal requests and matters.
 
@@ -5842,12 +5921,12 @@ ServiceNow Otto for Third-party Risk Management \(TPRM\)
 
 </td><td>
 
--   **[ServiceNow Otto for Third-party Risk Management \(TPRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/exploring-now-assist-tprm.md)**
+-   ****
 
 Starting with Zurich Patch 12, Now Assist for Third-party Risk Management is now ServiceNow Otto® for TPRM. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 
 
--   **[Default AI model for issue recommendation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/supporting-information-now-assist-tprm.md)**
+-   **Default AI model for issue recommendation skill**
 
 Starting with Zurich Patch 12, the issue recommendation skill in ServiceNow Otto for Third-party Risk Management \(TPRM\) uses Azure OpenAI gpt-4-5-mini as the default model. This update changes the default model for issue recommendations. You can select alternative models, including the newly supported Google Gemini 3.5 Flash, OpenAI GPT 5.1, and OpenAI GPT 5.4 mini, based on your requirements.
 
@@ -5883,30 +5962,30 @@ ServiceNow SDK
 
 </td><td>
 
--   **[Get type checking and validation of client-side TypeScript files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-development-react.md)**
+-   **Get type checking and validation of client-side TypeScript files**
 
 Full-stack TypeScript applications support type checking and validation of `.ts` and `.tsx` files in the `src/client` directory when building applications.
 
 
--   **[Manage dependencies with additional parameters on the dependencies command](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-sdk-cli-commands.md)**
+-   **Manage dependencies with additional parameters on the dependencies command**
 
 Control which dependencies and TypeScript definitions to download with additional parameters on the `now-sdk dependencies` command.
 
--   **[Use additional column types with ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/table-api-now-ts.md)**
+-   **Use additional column types with ServiceNow Fluent**
 
 Use the following additional types of table columns with ServiceNow Fluent APIs: Password2Column, GuidColumn, JsonColumn, NameValuePairsColumn, UrlColumn, EmailColumn, HTMLColumn, FloatColumn, MultiLineTextColumn, DurationColumn, TimeColumn, FieldListColumn, SlushBucketColumn, TemplateValueColumn, and ApprovalRulesColumn.
 
 
--   **[Download TypeScript definitions for script includes used in JavaScript modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/downloading-dependencies-now-sdk.md)**
+-   **Download TypeScript definitions for script includes used in JavaScript modules**
 
 Download TypeScript definitions for script includes imported in JavaScript modules from an instance using the `now-sdk dependencies` command.
 
--   **[Apply a template to an existing application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-sdk-cli-commands.md)**
+-   **Apply a template to an existing application**
 
 Add template files and directories for development in ServiceNow Fluent using the `--template` parameter with the `now-sdk init` command in an existing application.
 
 
--   **[Automated Test Framework API supports additional test steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/atf-test-now-ts.md)**
+-   **Automated Test Framework API supports additional test steps**
 
 Use the following test steps with the ServiceNow Fluent Automated Test Framework API.
 
@@ -5915,7 +5994,7 @@ Use the following test steps with the ServiceNow Fluent Automated Test Framework
     -   atf.server.addAttachmentsToExistingRecord
     -   atf.server.runServerSideScript
     -   atf.server.setOutputVariables
--   **[Build command doesn't package build artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-sdk-cli-commands.md)**
+-   **Build command doesn't package build artifacts**
 
 Use the `now-sdk pack` or `now-sdk install` commands to package build artifacts. The `now-sdk build` command compiles the source files but doesn't package the build artifacts.
 
@@ -5926,12 +6005,12 @@ ServiceNow Studio
 
 </td><td>
 
--   **[App details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/app-details-page.md)**
+-   ****
 
 As of version 28.2.1, access to source control integration and collaboration functions on each App details page has moved into the More actions menu. Some icon placement depends on the configuration for each application.
 
 
--   **[Open in Creator Studio link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/viewing-app-origination-information-in-sns.md)**
+-   **Open in Creator Studio link**
 
 The link to open an app in Creator Studio was previously available on the App details page in the app metadata section. The link is now in the More actions menu.
 
@@ -5942,7 +6021,7 @@ Skills Foundation
 
 </td><td>
 
--   **[Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/skills-intelligence.md)**
+-   ****
 
 Skills search is powered by AI Search capability instead of machine learning models. You can configure the skill search to be indexed based on the skill name or description or both. For Pro Plus License \(i.e. LLM Integration\) customers, AI search with RAG configuration is provided to power skill search.Multilingual skill support is limited to the languages supported by AI Search, which is fewer than the previously supported 23 languages.Resume parsing is done using Now Assist.ITSM skills previously stored in the CDS plugin were moved back to the seed data plugin.
 
@@ -5953,7 +6032,7 @@ Smart Assessment Engine
 
 </td><td>
 
--   **[Template category field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/create-assessment-template-form.md)**
+-   **Template category field**
 
 The **Purpose** field has replaced the **Template category** field. This single select option streamlines the user experience and improves the accuracy of template categorization.
 
@@ -6144,7 +6223,7 @@ Table Builder
 
 </td><td>
 
--   **[Accessing Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/accessing-form-builder.md#section_ulg_1wr_w2c)**
+-   ****
 
 In the search input, enter `tablename.builder`, `tablename.view`, `tablename.sheet`, or `tablename.flow` to access the table directly.
 
@@ -6251,28 +6330,28 @@ Third-party Risk Management
 
 </td><td>
 
--   **[Vertical navigation in the Vendor Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/tprm-monitoring-tpr.md)**
+-   **Vertical navigation in the Vendor Management Workspace**
 
 Starting with version 21.1.x, the legacy horizontal tab-based layout in the Vendor Management Workspace has been replaced with a structured vertical navigation panel with groups of related lists, organizing access to third-party records, assessments, and performance pages in a way that supports clearer workflows and is consistently available to all internal users.
 
--   **[Third-party information register download option renamed to Excel master template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/tprm-excel-upload-download-request.md)**
+-   **Third-party information register download option renamed to Excel master template**
 
 Starting with version 21.1.x, the option to download the Third-party Information Register is renamed to Excel Master Template. This change improves clarity and aligns with regulator terminology.
 
--   **[DPM business validation rules and properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/tprm-validation-roi.md)**
+-   **DPM business validation rules and properties**
 
 Starting with version 21.1.x, the DPM business validation rules and report.json, reportPackage.json, FrameworkCodeModuleVersion properties are now included. These modules enable Third-party risk admins \[sn\_vdr\_risk\_asmt.vendor\_admin\] to view and maintain validation logic and configuration settings for CSV reporting and automated validation.
 
--   **[Choice field for ICT third-party service provider identification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/tprm-drtp-reg-contract.md)**
+-   **Choice field for ICT third-party service provider identification**
 
 Starting with version 21.1.x, the field **Type of code to identify the ICT third-party service provider** is now updated to be a choice field in the Digital Resilience Third-party Information Register in the contract record. This update aligns the field with regulator-defined options for selecting identification systems when creating new providers. In the Specific Information section of the contract record, the field is read-only and auto-populated based on upstream selections, such as the third-party or engagement record.
 
 
--   **[Risk areas extended to internal assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/create-sae-q-template.md)**
+-   **Risk areas extended to internal assessments**
 
 Starting with version 21.1.x, if you have the third-party risk admin \[sn\_vdr\_risk\_asmt.vendor\_admin\] role, you can now configure risk areas with weighted questions and scored responses for internal assessments using the Smart Assessment Engine in the Vendor Management Workspace. Risk scores can be aggregated at the engagement level using customizable methods such as max, min, or average, and mapped to risk ratings based on business rules. Risk managers can override system-generated ratings with required justification, enabling expert judgment and helping ensure transparency in risk decisions.
 
--   **[Smart Assessment Engine advanced plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/tprm-migrate-asmnt-sae.md)**
+-   **Smart Assessment Engine advanced plugins**
 
 Starting with version 21.1.x, the following Smart Assessment Engine advanced plugins are automatically installed: Post Assessment Actions for Smart Assessments \[com.sn\_smart\_imp\_auto and com.sn\_impact\_fwk\] and Advanced Response Automation for Smart assessments \[sn\_smart\_resp\_auto\]. The Post Assessment Actions for Smart Assessments plugin lets Third-party risk admins \[sn\_vdr\_risk\_asmt.vendor\_admin\] automate follow-up tasks, like notifications or workflow launches, after an assessment is completed. The Advanced Response Automation for Smart Assessments plugin automatically fills in assessment responses based on prior data or logic, streamlining and standardizing the assessment process.
 
@@ -6299,7 +6378,7 @@ Starting with version 21.1.x, the following Third-party Risk Management plugins 
     -   GRC: Performance Analytics Premium Integration \[com.sn\_grc\_pa\]
     -   Vendor Risk Management integration with EcoVadis \[com.sn\_app\_grc\_ecovadis\]
     -   ITAM applications \[com.snc.vendor\_core\]
--   **[Fourth-party assessment support in SAE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/tprm-monitor-fourth-parties.md)**
+-   **Fourth-party assessment support in SAE**
 
 Starting with version 21.1.x, Fourth-party assessments are now supported after you enable the Smart Assessment Engine enabled \(**sn\_vdr\_risk\_asmt.sae\_enabled**\) property.
 
@@ -6310,7 +6389,7 @@ Starting with version 21.1.x, Fourth-party assessments are now supported after y
     -   The Tier-level column is now renamed as Risk rating.
     -   The Tiering assessors column is now renamed as Respondents.
     -   The **Owner** field is now renamed as **Assigned to** on the internal assessment, external assessment, tiering assessment, and due diligence request forms.
--   **[Changes made to the list view in Vendor Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/tprm-ws-list-page.md)**
+-   **Changes made to the list view in Vendor Management Workspace**
     -   The Assessment setup section has been added. From this section, you can create assessment templates, Smart Assessment questionnaire templates, and issue generation rules.
     -   The Questionnaire requests section has been added.
     -   The Tiering assessments and Inherent risk questionnaires \(IRQ\) are combined in the Internal assessments section.
@@ -6323,14 +6402,14 @@ Starting with version 21.1.x, Fourth-party assessments are now supported after y
     -   Document requests is renamed as Document templates.
     -   Fourth-party questionnaires is renamed as Fourth-party templates.
     -   Repeating assessments is renamed as Assessment scheduling.
--   **[Smart Assessment integration changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/tprm-sae-using.md)**
+-   **Smart Assessment integration changes**
     -   The Assessment engine column has been added to the Internal and External assessment list views in Vendor Management Workspace. You can track the assessment type as you transition to using the Smart Assessment Engine for all active questionnaires.
     -   The **Assessment engine** field has been added to related forms for internal risk assessments, external risk assessments, and assessment templates.
     -   The Support smart assessment column has been added to the Assessment templates and Issue generation rules list views.
     -   The original TPRM **Classification** field has been replaced with the **Purpose** field on all assessment templates.
     -   The external assessment status **Responses received** is now **Submitted to third party** when SAE is enabled.
     -   The external assessment status **Returned** is now **In progress** when SAE is enabled.
--   **[Changes made to Digital Resilience Third-party Information Register contract records in Vendor Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/tprm-drtp-reg-contract.md)**
+-   **Changes made to Digital Resilience Third-party Information Register contract records in Vendor Management Workspace**
 
 The General info related list has now been renamed as Details and the following related lists have been added:
 
@@ -6348,7 +6427,7 @@ Coral is now the default theme for Vendor Management Workspace, portal, and mobi
 **Note:** When you're upgrading from Xanadu or Yokohama to Zurich with version 20.1.x of the GRC: Vendor Portal, the application UI themes might not match. The Vendor Management Workspace uses the Polaris theme by default, and the Third-party portal uses the Coral theme by default. Upgrading to Xanadu or Yokohama with version 20.1.x of the GRC: Vendor Portal results in both the Vendor Management Workspace and Third-party portal using the Polaris theme. Upgrading to version 21.x or higher results in both the Vendor Management Workspace and Third-party portal using the Coral UI theme.
 
 
--   **[Enhanced contract records for Digital Resilience Third-party Information Register in Vendor Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/tprm-drtp-reg-contract.md)**
+-   **Enhanced contract records for Digital Resilience Third-party Information Register in Vendor Management Workspace**
 
 If you have the third-party assessor role \[sn\_vdr\_risk\_asmt.vendor\_assessor\], you can now associate multiple entities with a single contract record. This association indicates that all entities have signed the contract and are providing services that are associated with the contract. You can also configure contracts that are based on the supply chain and assessment, upload contract records, and generate reports in Microsoft Excel. To better track these entities and help ensure compliance with Digital Operational Resilience Management \(DORA\) regulations, related lists have been added to the existing contract records, and existing fields have been reorganized for better usability.
 
@@ -6375,15 +6454,15 @@ UI Builder
 
 </td><td>
 
--   **[Use the floating Now Assist panel to streamline your workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/uib-now-assist-panel.md)**
+-   **Use the floating Now Assist panel to streamline your workflow**
 
 As of UI Builder version 28.2, the fixed Now Assist panel has been replaced with a drag-enabled floating panel improving layout flexibility and workflow visibility.
 
--   **[Specify your page type in the Create a page wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/create-page.md)**
+-   **Specify your page type in the Create a page wizard**
 
 As of UI Builder version 28.2, the Create a page wizard now includes a page**Type** dropdown field. This new field helps you to later identify and filter important pages within the Experience view list, especially helpful in large experiences with many pages.
 
--   **[Explore the newly enhanced Experience view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/nav-uib.md)**
+-   **Explore the newly enhanced Experience view**
 
 As of UI Builder version 28.2, the Experience view has improved usability in the following ways:
 
@@ -6392,11 +6471,11 @@ As of UI Builder version 28.2, the Experience view has improved usability in the
     -   Search by name, URL, URL type, or variant, and toggle between filters for a cleaner, more intuitive page list.
     -   Pagination is automatically enabled when 10 or more pages are present.
 
--   **[Add events to track components with unsaved changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/dirty-state-event.md)**
+-   **Add events to track components with unsaved changes**
 
 Use an event to quickly identify modified components.
 
--   **[Configure alerts to auto-dismiss](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/uib-configure-alerts.md)**
+-   **Configure alerts to auto-dismiss**
 
 Enable alerts to auto-dismiss across an experience by configuring all of them in the experience settings or individually through an event.
 

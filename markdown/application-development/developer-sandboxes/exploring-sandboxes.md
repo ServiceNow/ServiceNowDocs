@@ -60,13 +60,13 @@ Developer Sandboxes provide an isolated environment that integrates with source 
 |Delegated developers|Delegated developers can request, allocate, or retire sandboxes.|
 |Admins|Admins can allocate or retire sandboxes.|
 
-Sandbox users use the same login credentials for their sandbox as the base instance. If you use Single Sign-On \(SSO\) for login, when you allow it to connect to your account on the base instance, Developer Sandboxes authenticates using the same mechanism and credentials as the base instance. For information on enabling SSO, see [Installing Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/dev-sbx-installing.md).
+Sandbox users use the same login credentials for their sandbox as the base instance. If you use Single Sign-On \(SSO\), enabling it on the base instance also authenticates Developer Sandboxes using the same credentials. For information on enabling SSO, see [Single sign-on for Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/dev-sbx-sso.md).
 
-**Note:** SSO for sandboxes doesn't work on instances with vanity URLs.
+**Note:** Instances with vanity URLs support SSO.
 
 ## Developer Sandboxes workflow
 
-The delegated developer or admin of a sandbox would procure a sandbox, make changes or experiment with development, test their changes, push their changes, and wait for an admin to clone the instance.
+A delegated developer or admin procures a sandbox, makes changes or experiments with development, and tests those changes. They then push the changes and wait for an admin to clone the instance.
 
 1.  A Developer Sandboxes user \(either admin or dev\) allocates a sandbox to start story work.
 2.  The developer makes development changes and tests them out in their fully isolated sandbox.
@@ -99,7 +99,7 @@ Enable parallel development
 
 </td><td>
 
-Enable multiple developers the ability to work on different stories or features at the same time using the same starting source code, all while keeping the non-production baseline instance clean.
+Multiple developers can work on different stories or features at the same time. They all start from the same source code, and the non-production baseline instance stays clean.
 
 </td><td>
 
@@ -173,5 +173,5 @@ Enables you to allocate a sandbox to yourself, or for an admin to allocate a san
 </td></tr></tbody>
 </table>## What to explore next
 
-To learn more about configuring Developer Sandboxes, refer to [Administering Developer Sandboxes data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/configuring-sandboxes.md).
+To learn more about configuring Developer Sandboxes, refer to [Developer Sandboxes installation and configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/dsb-configuring-landing.md).
 

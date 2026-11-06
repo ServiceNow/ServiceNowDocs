@@ -17,8 +17,6 @@ breadcrumb: [Assistant Designer Asset library utilities, Assistant Designer Asse
 
 Use this utility to link generative AI to custom skills for added versatility in your Virtual Agent LLM \(large language model\) conversations.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
-
 ## AI Connector utility properties
 
 Specify the flow action properties for the node that you want to create.

@@ -90,7 +90,7 @@ Role required: admin
     -   **In-product**: When selected, the ServiceNow Otto skills are displayed on forms and workspaces. For the skills that appear in-product, select the down arrow to identify the roles that can use the skill.
     -   **ServiceNow Otto panel**: When selected, ServiceNow Otto skills are available in the ServiceNow Otto panel. If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md). For the skills that appear in the ServiceNow Otto panel, select the down arrow to identify the roles that can use the skill.
 
-        **Note:** Selecting **In-product** will allow the case summarization card to show on the process based experience playbook page in the CRM Workspace. For Government case summarization, select **In-product**.
+        **Note:** Selecting **In-product** will allow the case summarization card to show on the process based experience playbook page in the Public Sector Workspace. For Government case summarization, select **In-product**.
 
 10. After you configure the display for the selected skill, select **Save and continue** to go to the next step.
 
@@ -110,7 +110,7 @@ You can go back to the AI Skills page to configure another skill.
 **Related topics**  
 
 
-[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md)
+[bundle-platai.platform-now-assist-landing]
 
 [Configure ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/now-assist-psds-configuring.md)
 

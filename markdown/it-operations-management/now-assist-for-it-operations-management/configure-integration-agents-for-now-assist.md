@@ -644,7 +644,7 @@ Required credentials
 
 </td><td>
 
-API bearer token: An LMv2 personal access token
+API bearer token: An LMv2 personal access token.Prefix the token with `Bearer` followed by a space, for example, `Bearer <your_token>`.
 
 </td></tr><tr><td>
 

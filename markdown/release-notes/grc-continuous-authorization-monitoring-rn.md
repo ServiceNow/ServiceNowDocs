@@ -27,7 +27,7 @@ The ServiceNow® Continuous Authorization and Monitoring application provides a 
 -   CAM overlays new capability has been introduced to perform various operations like addition, subtraction, custom while applying a policy overlay to an authorization package.
 -   Import OSCAL models using a user-friendly playbook that guides you through preview and customization steps.
 
-See [Continuous Authorization and Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/grc-cam-landing-page.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -95,14 +95,14 @@ The ServiceNow® Continuous Authorization and Monitoring application provides a 
 
 ### What's new
 
--   **[Overlay enhancement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/prepare-auth-pkg.md)**
+-   **Overlay enhancement**
 
     Apply policies as an overlay in an authorization package to determine how the control objectives in the policy impact the baseline. This can be done in the following ways:
 
     -   Addition: Create control objectives to address specific requirements not covered in the baseline.
     -   Subtraction: Move existing control objectives to **Not Applicable**.
     -   Customization: Create, move existing control objectives to not applicable, or skip control objectives.
--   **[OSCAL enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/oscal-cam-ws.md)**
+-   **OSCAL enhancements**
 
     Use the OSCAL import playbook to follow a user-friendly, step-by-step approach for importing OSCAL models. Using the playbook, you can:
 
@@ -128,20 +128,20 @@ The ServiceNow® Continuous Authorization and Monitoring application provides a 
     Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
--   **[New Authorization Documents tab for ATO reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/prepare-auth-pkg.md)**
+-   **New Authorization Documents tab for ATO reports**
 
     Access all Authority to Operate \(ATO\) artifacts reports from the new **Authorization Documents** tab available in the Authorization Package.
 
 
--   **[New CAM System Properties page for administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/cam-components-installed.md)**
+-   **New CAM System Properties page for administrators**
 
     Access the new CAM **System Properties** page to enable administrators to configure various system properties.
 
--   **[Track package progress with the Ageing of Packages widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/cam-ws-home-page.md)**
+-   **Track package progress with the Ageing of Packages widget**
 
     View the duration that a package stayed in each step, like Prepare, Categorize, Select, Implement, Assess, Authorize, and Monitor, using the Ageing of Packages widget.
 
--   **[Set Next Engagement Date for Automated Audit Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/prepare-auth-pkg.md)**
+-   **Set Next Engagement Date for Automated Audit Generation**
 
     Enter the **Next engagement date** to automatically generate the audit engagement on the specified date.
 

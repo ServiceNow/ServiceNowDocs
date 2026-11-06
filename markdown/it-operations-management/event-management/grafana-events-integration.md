@@ -70,7 +70,7 @@ You can also configure Grafana as an event push connector from the Integrations 
 4.  **Grafana v9.3.2.**
 5.  In the Grafana console, create a contact point.
 
-    1.  Navigate to **Alerting** &gt; **Contact Points**.
+    1.  Navigate to **Alerts &amp; IRM** &gt; **Alerting** &gt; **Notification configuration**.
 
     2.  Click **New Contact Point**, enter a name, and select the type as **Webhook**.
 

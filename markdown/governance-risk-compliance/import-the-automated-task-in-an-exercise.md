@@ -28,7 +28,7 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
 3.  Fill in the required fields in the **Details** tab.
 
-    For more information on the fields, see [Create New Event Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-event-task-form-uib-ws.md).
+    For more information on the fields, see [Create Event Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-event-task-form-uib-ws.md).
 
 4.  Select the plan associated with the event from the Planning list in the Workspace view.
 

@@ -16,7 +16,7 @@ breadcrumb: [API authentication, Authentication, Access Management]
 
 OAuth based authentication validates the identity of the client that attempts to establish a trust on the system by using an authentication protocol.
 
-OAuth 2.0 - Open Authorization is the industry-standard protocol for authorization, that ocuses on client developer simplicity while providing specific authorization flows for web applications, desktop applications, and mobile devices.
+OAuth 2.0 - Open Authorization is the industry-standard protocol for authorization, that focuses on client developer simplicity while providing specific authorization flows for web applications, desktop applications, and mobile devices.
 
 ## Inbound
 

@@ -126,7 +126,7 @@ Review common Discovery error messages and their causes to identify and resolve 
 
 -   **Message: Payload length exceeds limit of 5000000**
 
-    This error message indicates that the Discovery probe results exceed the limit. The MID Server will discard the results and return a warning message. To resolve, set the value of the **mid.discovery.max\_payload\_size** MID Server property to any negative number \(for example, -1\) to disable the payload limit and allow payloads of any size to be sent to the instance.
+    This error message indicates that the Discovery probe results exceed the limit. The MID Server will discard the results and return a warning message. To resolve, set the value of the **mid.discovery.max\_payload\_size** MID Server property to any negative number \(for example, -1\). This disables the payload limit and allows payloads of any size to be sent to the instance.
 
 -   **Message: The multisensor will not process because its responding script's major version = X while its referenced probe probe\_name major version = Y**
 

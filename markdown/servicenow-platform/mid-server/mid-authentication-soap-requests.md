@@ -42,6 +42,8 @@ The setting for enforcing strict security controls how the instance uses the cre
 
 [MID Server configuration file security]()
 
+[MID Server authentication methods comparison]()
+
 [MID Server unified key store]()
 
 [Enable MID Server mutual authentication]()
@@ -63,6 +65,8 @@ The setting for enforcing strict security controls how the instance uses the cre
 [MID Server FIPS Enforced Mode]()
 
 [MID Server Governance]()
+
+[MID Server IPKI authentication]()
 
 ## Require basic authorization for incoming SOAP requests
 

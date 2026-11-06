@@ -157,6 +157,10 @@ Role required:
 -   Linux: sudo rpm/dpkg/systemd-run
 -   macOS: sudo pkg
 
+## About this task
+
+Selective upgrade doesn't support Agent Client Collector to MID Server communication via mTLS.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Agent Client Collector** &gt; **Agents**.

@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Organization chart in Employee Center Pro, Setup task management, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Organization chart in Employee Center Pro, Setup task management, Configure, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Update the report count based on eligible users

@@ -43,3 +43,5 @@ Standard deviation is always expressed in the same unit as the data. In the foll
 
 The sections of the visualization are grouped by the highest or lowest value for the selected records.
 
+**Parent Topic:**[Aggregation in reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/aggregation-reporting.md)
+

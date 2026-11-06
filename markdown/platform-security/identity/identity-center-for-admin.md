@@ -1,6 +1,6 @@
 ---
 title: Identity Metrics for administrators
-description: View trends of the users, privileged users, active sessions, and integrated account on your ServiceNow instance.
+description: View trends of the users, privileged users, active sessions, and integrated accounts on your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/identity/identity-center-for-admin.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Identity Center, Identity]
 
 # Identity Metrics for administrators
 
-View trends of the users, privileged users, active sessions, and integrated account on your ServiceNow instance.
+View trends of the users, privileged users, active sessions, and integrated accounts on your ServiceNow instance.
 
 Identity Metrics for administrators has the trends for the following:
 

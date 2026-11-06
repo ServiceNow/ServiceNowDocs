@@ -1,5 +1,5 @@
 ---
-title: Removing users from Groups
+title: Remove users from groups
 description: Use the Simulate Remove from Group for simulating the user's access changes for a resource \(tables\) when the user is removed from a group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/access-control/remove-user-from-group.html
@@ -8,11 +8,11 @@ product: Access Control
 classification: access-control
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Using the Access Simulator, Access Simulator, Access analyzer, Access Management]
+reading_time_minutes: 1
+breadcrumb: [Use the Access Simulator, Access Simulator, Access analyzer, Access Management]
 ---
 
-# Removing users from Groups
+# Remove users from groups
 
 Use the **Simulate Remove from Group** for simulating the user's access changes for a resource \(tables\) when the user is removed from a group.
 
@@ -20,7 +20,7 @@ Use the **Simulate Remove from Group** for simulating the user's access changes 
 
 Role required: admin, access\_analyzer\_admin
 
-Enable the take actions. For more information, see [Configuring the Access Simulator \(Take actions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/configure-access-simulator.md).
+The take actions must be enabled. For more information, see [Configure the Access Simulator \(Take actions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/configure-access-simulator.md).
 
 ## Procedure
 
@@ -28,18 +28,18 @@ Enable the take actions. For more information, see [Configuring the Access Simul
 
 2.  Select **Simulate** from the Remove the user from a Group section.
 
-3.  Specify the following fields for your simulation criteria:
+3.  Specify the following fields for your simulation criteria.
 
     |Field|Description|
     |-----|-----------|
-    |Select user \*|Specify a user name to select from the list. In this example, **ITIL User**.|
-    |Select group \*|Specify a group to select from the list. In this example, **Incident Management**.|
-    |Rule type \*|Rule type is auto-populated and it can’t be changed.|
-    |Select table \*|Specify a table name to select from the list. In this example, **Incident**.|
-    |Select record|Specify a record name to select from the list.|
-    |Select field|Specify a field name to select from the list. This field can be used to analyze permission even at a field level. For example, Active, Created By, and so on.|
+    |Select user|Name of the user, selected from the list. In this example, **ITIL User**.|
+    |Select group|Name of the group, selected from the list. In this example, **Incident Management**.|
+    |Rule type|Rule type is auto-populated.|
+    |Select table|Name of the table, selected from the list. In this example, **Incident**.|
+    |Select record|Name of the record, selected from the list.|
+    |Select field|Name of the field, selected from the list. This field can be used to analyze permission even at a field level. For example, Active, Created By, and so on.|
 
-    d\[Omitted image "simulate-remove-group-criteria.png"\] Alt text: Remove the user from a group- criteria
+    \[Omitted image "simulate-remove-group-criteria.png"\] Alt text: Remove the user from a group criteria
 
 4.  Select **Next**.
 
@@ -57,9 +57,9 @@ Enable the take actions. For more information, see [Configuring the Access Simul
 
     **Note:**
 
-    -   If you want to know more about the ACL \(operations\), select the operation links for each record.
-    -   If you want to start the simulation again for a different role, select **Start over**.
-    -   If you want to exit the simulation, select **Exit**.
+    -   To learn more about the ACL \(operations\), select the operation links for each record.
+    -   To start the simulation again for a different role, select **Start over**.
+    -   To exit the simulation, select **Exit**.
 8.  Select **Next**.
 
 9.  Select **Remove and complete**.
@@ -67,8 +67,8 @@ Enable the take actions. For more information, see [Configuring the Access Simul
     **Note:**
 
     -   If the Access Simulator isn’t enabled, you can't complete the simulation. To enable, select **Enable actions** and accept the legal information.
-    -   If you want to hide the simulation, select **Hide actions**. To unhide and enable actions, go to the settings. For more information, see [Configuring the Access Simulator \(Take actions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/configure-access-simulator.md).
-    -   If you want to exit the simulation, select **Skip and Exit**.
-    The user is successfully removed from the user.
+    -   To hide the simulation, select **Hide actions**. To unhide and enable actions, go to the settings. For more information, see [Configure the Access Simulator \(Take actions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/configure-access-simulator.md).
+    -   To exit the simulation, select **Skip and Exit**.
+    The user is successfully removed from the group.
 
 

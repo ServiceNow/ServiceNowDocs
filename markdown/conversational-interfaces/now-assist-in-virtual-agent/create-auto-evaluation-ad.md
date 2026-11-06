@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
 topic_type: task
-last_updated: "2026-10-05"
+last_updated: "2026-10-27"
 reading_time_minutes: 6
 breadcrumb: [Testing assistant conversations, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
@@ -34,7 +34,7 @@ You can leave the setup at any step by selecting **Exit setup**. Select **Leave*
 
     -   **Name**: Enter a unique name to identify your evaluation.
     -   **Description**: Add a brief description to explain the purpose of your evaluation, to help you identify the evaluation later.
-    -   **Select assistant to evaluate**: Select the assistant you want to evaluate from the list.
+    -   **Select assistant to evaluate**: Select the assistant you want to evaluate from the list. The list includes both active and inactive assistants.
     -   **Select a chat experience to evaluate**: Select the chat experience that the evaluation runs on. An evaluation runs on one chat experience at a time, and results can vary depending on the one you select.
 
         -   **Standard or enhanced chat**

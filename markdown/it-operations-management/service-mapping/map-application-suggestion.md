@@ -8,7 +8,7 @@ product: Service Mapping
 classification: service-mapping
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
@@ -20,6 +20,7 @@ Map a new application service based on automatically generated suggestions. Use 
 
 -   Service Mapping Plus must be installed. For more information, see [Install Service Mapping Plus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/install-service-mapping-plus.md).
 -   Confirm that the application is ready to discover and map application services. See [Application service readiness dashboard in configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/readiness-dashboard-ml.md).
+-   In domain-separated environments, switch to a leaf domain before you map an application service. A leaf domain is a child domain of the lowest level, meaning it does not have any child domains itself.
 
 Role required: service\_mapping\_admin
 
@@ -37,15 +38,15 @@ In addition to being provided with automatically generated suggestions, you can 
 
 3.  Select an application service either based on candidate suggestions or identify services with desired component.
 
-<table id="sm-auto-sug"><thead><tr><th align="left" id="d496544e158">
+<table id="sm-auto-sug"><thead><tr><th align="left" id="d500605e163">
 
 Search method
 
-</th><th align="left" id="d496544e161">
+</th><th align="left" id="d500605e166">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d496544e167">
+</th></tr></thead><tbody><tr><td id="d500605e172">
 
 **Select from candidates based on a desired component**
 
@@ -56,7 +57,7 @@ Actions
 3.  Select your preferred application service candidate.
 
 
-</td></tr><tr><td id="d496544e194">
+</td></tr><tr><td id="d500605e199">
 
 **Select the candidate using basic details**
 
@@ -82,15 +83,15 @@ Actions
 
 6.  Either create a new application service with the suggested candidate or add the suggested candidate to an existing application service.
 
-<table id="choicetable_mwr_xjr_ycc"><thead><tr><th align="left" id="d496544e283">
+<table id="choicetable_mwr_xjr_ycc"><thead><tr><th align="left" id="d500605e288">
 
 Action
 
-</th><th align="left" id="d496544e286">
+</th><th align="left" id="d500605e291">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d496544e292">
+</th></tr></thead><tbody><tr><td id="d500605e297">
 
 **Create a new application service**
 
@@ -100,7 +101,7 @@ Steps
 2.  On the form, fill in the fields. For more information, see [Map application service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/map-application-service-form.md).
 
 
-</td></tr><tr><td id="d496544e320">
+</td></tr><tr><td id="d500605e325">
 
 **Add a candidate to an existing service**
 

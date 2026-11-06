@@ -1,5 +1,5 @@
 ---
-title: View the activity of an AI specialist in the legacy AI Agent Studio
+title: View the activity of an AI specialist in AI Agent Studio
 description: View the task execution history of an AI specialist in AI Agent Studio to track where and when it plans and attempts executions. You can also give feedback on its performance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/view-aiw-activity.html
@@ -7,11 +7,11 @@ release: zurich
 topic_type: task
 last_updated: "2026-08-11"
 reading_time_minutes: 2
-keywords: [AI specialist activity]
-breadcrumb: [Use in the legacy AI Agent Studio, Use, Autonomous Workforce, AI Agent Studio, Enable AI experiences]
+keywords: [AI specialist activity, AI specialist records]
+breadcrumb: [Use, Autonomous Workforce, AI Agent Studio, Enable AI experiences]
 ---
 
-# View the activity of an AI specialist inthe legacy AI Agent Studio
+# View the activity of an AI specialist in AI Agent Studio
 
 View the task execution history of an AI specialist in AI Agent Studio to track where and when it plans and attempts executions. You can also give feedback on its performance.
 
@@ -43,15 +43,15 @@ For a given execution, you can rate the work of the AI specialist as either help
 
     If the execution state is not **Completed**, a reason is given to explain the state. Possible reasons include "failed execution" or "no activity."
 
-    You can give feedback on any given activity item. Select the thumbs up icon \[Omitted image "nap-thumbs-up.png"\] for positive feedback or the thumbs down icon \[Omitted image "nap-thumbs-down.png"\] to give negative feedback. If you select the thumbs down icon, you can specify exactly why you have given it that rating. After selecting a reason, you can also add a comment to detail the issue further.
+    You can give feedback on any given activity item. Select the thumbs up icon \[Omitted image "nap-thumbs-up.png"\] Alt text: for positive feedback or the thumbs down icon \[Omitted image "nap-thumbs-down.png"\] Alt text: to give negative feedback. If you select the thumbs down icon, you can specify exactly why you have given it that rating. After selecting a reason, you can also add a comment to detail the issue further.
 
-    \[Omitted image "aiw-aias-activity-neg-feedback.png"\] Alt text: Negative feedback response form
+    \[Omitted image "aiw-aias-activity-neg-feedback.png"\] Alt text: Negative feedback form with checkboxes for the reason for the rating, a comment field, and a Submit button
 
     Possible reasons for negative feedback include:
 
     -   Missed important details
     -   Included irrelevant details
-    -   Put details in wrong places
+    -   Put details in the wrong places
     -   Made up things that didn't happen
     -   Other
 

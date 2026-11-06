@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-externalcontentconnectors-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 15
 breadcrumb: [Products combined by family]
 ---
@@ -331,7 +331,7 @@ Retrieve searchable content and metadata from your Workday source system.
 
 Retrieve searchable content and metadata from your Zoom source system.
 
--   **[Configure user mapping permission settings](https://www.servicenow.com/docs/access?context=configure-user-mapping-settings-external-content-connector&family=zurich&ft:locale=en-US)**
+-   **[Configure user mapping settings](https://www.servicenow.com/docs/access?context=configure-user-mapping-settings-external-content-connector&family=zurich&ft:locale=en-US)**
 
 Specify the source system and User \[sys\_user\] table fields to examine for matches when an external content connector maps source system users to your ServiceNow AI Platform users.
 

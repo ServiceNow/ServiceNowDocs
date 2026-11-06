@@ -20,6 +20,12 @@ You can select a user or enter a different user name to perform an impersonation
 
 Role required: impersonator
 
+## About this task
+
+When you impersonate a user in a scoped application, the protected roles of that application are stripped from the impersonated session. Impersonation also gives access to roles other than the stripped roles.
+
+The system property **glide.sys.allow\_scoped\_user\_impersonation** controls whether users in scoped applications can be impersonated. If it's set to `true`, you can impersonate the user, and the protected roles are stripped. If it's set to `false`, you can't impersonate the user.
+
 ## Procedure
 
 1.  In the banner frame, select your user profile picture to open the user menu.

@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2025-12-01"
 reading_time_minutes: 1
-breadcrumb: [Employee profile, Setup task management, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee profile, Setup task management, Configure, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Modify the employee profile widget display

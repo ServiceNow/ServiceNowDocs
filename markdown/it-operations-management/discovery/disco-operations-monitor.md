@@ -29,7 +29,7 @@ To access the dashboard, navigate to **Workspaces** &gt; **Discovery Admin Works
 ## Prerequisites
 
 -   **Verify that you have the required setup**
-    -   The ServiceNow AI Platform must be running the Australia, Zurich, or Yokohama release.
+    -   The ServiceNow AI Platform must be running the Brazil, Australia, Zurich, or Yokohama release.
     -   Discovery Admin Workspace, starting with v1.15.0, must be installed.
 
 ## Key features

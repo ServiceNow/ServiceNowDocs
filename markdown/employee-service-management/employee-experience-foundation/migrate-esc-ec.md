@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Upgrading to Employee Center Pro, Admin configurations, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Upgrading to Employee Center Pro, Admin configurations, Configure, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Upgrade to Employee Center Pro from Employee Service Center \(HR\)

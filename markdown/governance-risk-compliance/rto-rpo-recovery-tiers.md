@@ -1,6 +1,6 @@
 ---
 title: RTO, RPO, and recovery tiers
-description: Due to unforeseen disruptive events, the business processes in your organization can face a downtime. It is important to classify your business processes in the recovery tiers and calculate the amount of time and amount of data loss that your organization can handle without significant effect on the operations.
+description: Disruptive events can cause downtime for business processes. Classify your business processes in recovery tiers to determine the acceptable time and data loss your organization can tolerate before operations are significantly affected.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/rto-rpo-recovery-tiers.html
 release: zurich
@@ -12,17 +12,17 @@ breadcrumb: [Structured workflows for BIAs, Manage, Business Continuity Manageme
 
 # RTO, RPO, and recovery tiers
 
-Due to unforeseen disruptive events, the business processes in your organization can face a downtime. It is important to classify your business processes in the recovery tiers and calculate the amount of time and amount of data loss that your organization can handle without significant effect on the operations.
+Disruptive events can cause downtime for business processes. Classify your business processes in recovery tiers to determine the acceptable time and data loss your organization can tolerate before operations are significantly affected.
 
 ## Recovery time objective
 
-Recovery time objective \(RTO\) is the maximum amount of time a computer, system, network, or application takes to recover after an outage event or data loss without causing much effect to your business operations.
+Recovery time objective \(RTO\) is the maximum time a system, network, or application takes to recover after an outage or data loss. RTO defines the threshold beyond which business operations are affected.
 
 The business users and IT owners can perform business impact analysis and technical impact analysis respectively by responding to the assessment in the BIA component in the BCM UIB Workspace. A sample view of the **Assessments** tab is shown in the example.
 
 \[Omitted image "bia-assessments-tab.png"\] Alt text: Assessments in the BIA.
 
-If you are the business user, you can estimate the recovery time objective for your business services and processes by responding to the Recovery time objective assessment in the **Assessments** tab. The questions are displayed in the **Recovery time objective assessment** tab according to the configuration set up by BCM administrators. A sample Recovery time objective assessment with demo data is shown in the example.
+As a business user, estimate the recovery time objective for your business services and processes. Respond to the Recovery time objective assessment in the **Assessments** tab. Questions appear in the **Recovery time objective assessment** tab based on the configuration set up by BCM administrators. A sample assessment with demo data is shown in the example.
 
 \[Omitted image "rto-assessment-questions.png"\] Alt text: Recovery time objective assessment.
 
@@ -30,7 +30,9 @@ If you are the business user, you can estimate the recovery time objective for y
 
 Recovery point objective \(RPO\) defines the maximum acceptable data loss that a business process can handle without significant effect on operations.
 
-If you are the IT owner, you can estimate the recovery point objective for your data applications and systems by responding to the Recovery point objective assessment in the BIA. Based on the configuration set up by the BCM administrator, the questions are displayed in the **Recovery time objective assessment** tab as shown in the example.
+If you are the IT owner, estimate the recovery point objective for your data applications and systems. Respond to the Recovery point objective assessment in the BIA.
+
+Based on the BCM administrator configuration, the questions are displayed in the **Recovery time objective assessment** tab as shown in the example.
 
 \[Omitted image "rpo-assessment-questions-1.png"\] Alt text: Recovery point objective assessment.
 

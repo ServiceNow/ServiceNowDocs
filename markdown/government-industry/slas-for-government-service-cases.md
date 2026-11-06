@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/slas
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Government Service Portal, Portals, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
@@ -14,11 +14,11 @@ breadcrumb: [Government Service Portal, Portals, Use, Public Sector Digital Serv
 
 A service level agreement \(SLA\) is a record that you use to guarantee a specific time that a service or information must be provided by, or that an agent must finish a task must by. The Public Sector Digital Services application uses SLAs with government service request cases.
 
-You can attach an SLA to a service request in the Government Service Portal or to a service request in the Service Request Playbook. You can configure an SLA to start, pause, or stop depending on any government service case attributes that you or someone else assigned to the SLA.
+You can attach an SLA to a service request in the Government Service Portal or to a service request in the Service Request Administration. You can configure an SLA to start, pause, or stop depending on any government service case attributes that you or someone else assigned to the SLA.
 
-An SLA is automatically associated to a case when the case is created or updated depending on the conditions that have been set up in the SLA definition. The specific record that gets attached to a case is the Task SLA record, which tracks the SLAs for that particular case. The Task SLA table \[task\_sla\] stores the Task SLA records. For more information on SLA definitions, see [Service Level Agreement \(SLA\) definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/c_SLADefinitions.md).
+An SLA is automatically associated to a case when the case is created or updated depending on the conditions that have been set up in the SLA definition. The specific record that gets attached to a case is the Task SLA record, which tracks the SLAs for that particular case. The Task SLA table \[task\_sla\] stores the Task SLA records. For more information on SLA definitions, see .
 
-An SLA sends notifications at certain events that are defined in the workflow. For information on defining SLA workflow events, see [Create an SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/t_CreateAnSLADefinition.md).
+An SLA sends notifications at certain events that are defined in the workflow. For information on defining SLA workflow events, see .
 
 By default, SLA notifications are triggered and sent to the assigned agent on the following occasions:
 

@@ -41,6 +41,7 @@ Role required: admin
         -   **Purdue Level**: Optional. Provides a pop-up list to choose from.
         -   **Operating System**: Required. Provides a pop-up list to choose from.
         -   **Details**: Optional.
+    -   **Network Interfaces**: Displays available network interfaces.
     -   **Metadata**: If applicable, add the following information:
         -   Alias
         -   Description
@@ -48,6 +49,7 @@ Role required: admin
         -   Location
     -   **Installed Software**: If applicable, select the Add Software button and select the software you want to include.
     -   **Attributes**: If applicable, select the Add Attribute button and select the Attributes you want to include.
+    -   **MAC Address**
     -   **Comments**: If applicable, add comments.
 4.  Select **Create Asset** to create an asset or select **Cancel** to discard your entries.
 

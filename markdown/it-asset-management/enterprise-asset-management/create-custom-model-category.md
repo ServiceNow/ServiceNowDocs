@@ -29,7 +29,7 @@ Keep the following in mind while creating model categories:
     **Note:** These options are not applicable to enterprise model categories.
 
 
-Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
+Role required: sn\_eam.enterprise\_admin
 
 ## Procedure
 

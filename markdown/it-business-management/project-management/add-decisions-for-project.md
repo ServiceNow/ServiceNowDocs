@@ -30,7 +30,7 @@ Role required: it\_project\_manager
 
 4.  On the Decision form, fill in the fields.
 
-    For more information, see [RIDAC form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/ridac-forms.md).
+    For more information, see [RIDAC form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/ridac-forms.md).
 
 5.  Search in the knowledge base for any article related to the decision.
 

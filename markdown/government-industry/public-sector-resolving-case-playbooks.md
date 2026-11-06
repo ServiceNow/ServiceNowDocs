@@ -1,22 +1,22 @@
 ---
 title: Resolving a service request case by using playbooks in Public Sector Digital Services
-description: You can use playbooks to create cases and to complete the tasks and activities that are needed to resolve specific types of cases.Complete the intake stage as your first step in resolving a case using the Service Request Playbook.Complete the review stage as your second step in resolving a case using the Service Request Playbook.Complete the process stage as your third step in resolving a case using the Service Request Playbook.Complete the decision stage as your last step in resolving a case using the Service Request Playbook.
+description: You can use playbooks to create cases and to complete the tasks and activities that are needed to resolve specific types of cases.Complete the intake stage as your first step in resolving a case using the Service Request Administration.Complete the review stage as your second step in resolving a case using the Service Request Administration.Complete the process stage as your third step in resolving a case using the Service Request Administration.Complete the decision stage as your last step in resolving a case using the Service Request Administration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/public-sector-resolving-case-playbooks.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 8
-breadcrumb: [Service Request Playbook, Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Service Request Administration, Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Resolving a service request case by using playbooks in Public Sector Digital Services
 
 You can use playbooks to create cases and to complete the tasks and activities that are needed to resolve specific types of cases.
 
-**Note:** Verify that the Service Request Playbook application, which is separate from the Public Sector Digital Services Core application, has been installed and configured. For instructions, see [Install and configure the Service Request Playbook application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/configuring-service-request-playbook.md).
+**Note:** Verify that the Service Request Playbook application, which is separate from the Public Sector Digital Services Core application, has been installed and configured. For instructions, see [Install and configure the Service Request Administration application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/configuring-service-request-playbook.md).
 
-By default, the following stages are available to you as a government service agent in the Service Request Playbook in the CRM Workspace.
+By default, the following stages are available to you as a government service agent in the Service Request Administration in the Public Sector Workspace.
 
 -   Intake
 -   Review
@@ -25,17 +25,17 @@ By default, the following stages are available to you as a government service ag
 
 ## Stages in a Service Request Playbook
 
-The Service Request Playbook experience starts with the Intake stage. This stage is the default playbook stage for a new service request case. Use this playbook stage to gather information about the requester and the complaint for the service request case. You can also request additional information from the requester.
+The Service Request Administration experience starts with the Intake stage. This stage is the default playbook stage for a new service request case. Use this playbook stage to gather information about the requester and the complaint for the service request case. You can also request additional information from the requester.
 
 The playbook continues with the Review stage. In this stage, you can do the initial troubleshooting on the case, check for similar or duplicate case requests, and determine what services need to be rendered and if a field service agent needs to be dispatched. For more information on the Public Sector Digital Services integration with Field Service Management, see [Integration with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-integration-fsm.md).
 
 The playbook continues with the Process stage. In this stage, you can assess resources, request resource approval, create case tasks, and add or request new information before case resolution begins. If a field service agent needs to be dispatched to the service request location, you can create a work order during the process stage. The case status changes to Work in Progress after the field service agent begins work on the service request case. After work has been completed, the case is moved to the Decision stage.
 
-The final stage of the Service Request Playbook is the Decision stage. At the Decision stage, the state of the case is updated from Work in Progress to Ready for Decision after an agent sends in a decision. A notification is sent to the requester that lets them know that a decision has been reached. The requester can then either accept or reject the solution. If the requester accepts the solution, the case is automatically closed. If the requester rejects the solution, the case is reopened, and the agent must propose another solution.
+The final stage of the Service Request Administration is the Decision stage. At the Decision stage, the state of the case is updated from Work in Progress to Ready for Decision after an agent sends in a decision. A notification is sent to the requester that lets them know that a decision has been reached. The requester can then either accept or reject the solution. If the requester accepts the solution, the case is automatically closed. If the requester rejects the solution, the case is reopened, and the agent must propose another solution.
 
-## Complete the Intake Stage in Service Request Playbook
+## Complete the Intake Stage in Service Request Administration
 
-Complete the intake stage as your first step in resolving a case using the Service Request Playbook.
+Complete the intake stage as your first step in resolving a case using the Service Request Administration.
 
 ### Before you begin
 
@@ -43,7 +43,7 @@ Role required: admin, sn\_gsm.constituent\_agent, sn\_gsm.business\_agent, sn\_g
 
 ### Procedure
 
-1.  In the CRM Workspace, navigate to **Lists** &gt; **Service Request case list** &gt; **All**.
+1.  In the Public Sector Workspace, navigate to **Lists** &gt; **Service Request case list** &gt; **All**.
 
 2.  Select **New**.
 
@@ -53,7 +53,7 @@ Role required: admin, sn\_gsm.constituent\_agent, sn\_gsm.business\_agent, sn\_g
 
 4.  Select **Save**.
 
-    A case is created with the service request information. The case number is added to the tab and the first activity in the Intake stage is marked as complete. The second activity in this stage is highlighted as the current activity. If you have enabled the Similar Records UI activity, this will display as the second activity. For more information, see [Configure the Similar Records Activity UI in Service Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-srp-configure-similar-records.md).
+    A case is created with the service request information. The case number is added to the tab and the first activity in the Intake stage is marked as complete. The second activity in this stage is highlighted as the current activity. If you have enabled the Similar Records UI activity, this will display as the second activity. For more information, see [Configure the Similar Records Activity UI in Service Request Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-srp-configure-similar-records.md).
 
 5.  Review the similar records that are displayed in the Similar Records Activity UI, and determine whether any of them are a duplicate of the current case.
 
@@ -68,9 +68,9 @@ Role required: admin, sn\_gsm.constituent\_agent, sn\_gsm.business\_agent, sn\_g
     The Intake stage is now complete and the case is moved to the Review stage.
 
 
-## Complete the Review Stage in Service Request Playbook
+## Complete the Review Stage in Service Request Administration
 
-Complete the review stage as your second step in resolving a case using the Service Request Playbook.
+Complete the review stage as your second step in resolving a case using the Service Request Administration.
 
 ### Before you begin
 
@@ -82,15 +82,15 @@ Role required: admin, sn\_gsm.constituent\_agent, sn\_gsm.business\_agent, sn\_g
 
 2.  Do one of the following actions depending on whether or not you have duplicate cases.
 
-<table id="choicetable_lk3_nsm_gwb"><thead><tr><th align="left" id="d30980e369">
+<table id="choicetable_lk3_nsm_gwb"><thead><tr><th align="left" id="d31116e369">
 
 Options
 
-</th><th align="left" id="d30980e372">
+</th><th align="left" id="d31116e372">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d30980e378">
+</th></tr></thead><tbody><tr><td id="d31116e378">
 
 **If there are no duplicate cases**
 
@@ -98,7 +98,7 @@ Steps
 
 Select **Request inspection**, then check the box to confirm that there are no similar service requests.
 
-</td></tr><tr><td id="d30980e390">
+</td></tr><tr><td id="d31116e390">
 
 **If there are duplicate cases**
 
@@ -120,15 +120,15 @@ In the Decision stage, the Resolution code is `Void/Cancelled, Duplicate Issue` 
 
 4.  Do one of the following actions depending on whether a field service agent must be dispatched to the service request location.
 
-<table id="choicetable_srl_gtm_gwb"><thead><tr><th align="left" id="d30980e485">
+<table id="choicetable_srl_gtm_gwb"><thead><tr><th align="left" id="d31116e485">
 
 Option
 
-</th><th align="left" id="d30980e488">
+</th><th align="left" id="d31116e488">
 
  
 
-</th></tr></thead><tbody><tr><td id="d30980e493">
+</th></tr></thead><tbody><tr><td id="d31116e493">
 
 **If a field service agent must be dispatched**
 
@@ -142,7 +142,7 @@ Option
 3.  Once the work order has been fulfilled, select **Move to process** to move to the next activity.
 
 
-</td></tr><tr><td id="d30980e522">
+</td></tr><tr><td id="d31116e522">
 
 **If no field service agent must be dispatched**
 
@@ -158,9 +158,9 @@ If a field service agent doesn't need to be dispatched to the service request lo
     The Review stage is now complete and the case is moved to the Process stage.
 
 
-## Complete the Process Stage in Service Request Playbook
+## Complete the Process Stage in Service Request Administration
 
-Complete the process stage as your third step in resolving a case using the Service Request Playbook.
+Complete the process stage as your third step in resolving a case using the Service Request Administration.
 
 ### Before you begin
 
@@ -172,15 +172,15 @@ Role required: admin, sn\_gsm.constituent\_agent, sn\_gsm.business\_agent, sn\_g
 
 2.  Do one of the following actions depending on whether a resource approval is required to proceed.
 
-<table id="choicetable_tpm_25m_gwb"><thead><tr><th align="left" id="d30980e630">
+<table id="choicetable_tpm_25m_gwb"><thead><tr><th align="left" id="d31116e630">
 
 Options
 
-</th><th align="left" id="d30980e633">
+</th><th align="left" id="d31116e633">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d30980e639">
+</th></tr></thead><tbody><tr><td id="d31116e639">
 
 **If a resource approval is required**
 
@@ -190,7 +190,7 @@ Steps
 2.  After all approvals have been received, select **Start work** to move to the **Perform work** activity.
 
 
-</td></tr><tr><td id="d30980e669">
+</td></tr><tr><td id="d31116e669">
 
 **If a resource approval is not required**
 
@@ -203,15 +203,15 @@ If no approvals are needed, select **Start work** to bypass the **Approve resour
 
 4.  Do one of the following actions depending on whether a field service agent must be dispatched to the service request location.
 
-<table id="choicetable_tgk_p5m_gwb"><thead><tr><th align="left" id="d30980e702">
+<table id="choicetable_tgk_p5m_gwb"><thead><tr><th align="left" id="d31116e702">
 
 Options
 
-</th><th align="left" id="d30980e705">
+</th><th align="left" id="d31116e705">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d30980e711">
+</th></tr></thead><tbody><tr><td id="d31116e711">
 
 **If a field service agent must be dispatched to the request location**
 
@@ -221,7 +221,7 @@ Steps
 2.  Fill in the required information and select **Submit**.
 
 
-</td></tr><tr><td id="d30980e735">
+</td></tr><tr><td id="d31116e735">
 
 **If no field service agent must be dispatched**
 
@@ -237,9 +237,9 @@ If no field service agent must be dispatched to the service request location, or
     The Process Stage is complete and the case is moved to the Decision stage.
 
 
-## Complete the Decision Stage in Service Request Playbook
+## Complete the Decision Stage in Service Request Administration
 
-Complete the decision stage as your last step in resolving a case using the Service Request Playbook.
+Complete the decision stage as your last step in resolving a case using the Service Request Administration.
 
 ### Before you begin
 

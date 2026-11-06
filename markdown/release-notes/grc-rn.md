@@ -29,7 +29,7 @@ The ServiceNow® Integrated Risk Management \(IRM\) application enables your org
 -   Deactivate the entity-based access configurations.
 -   Enable entity-based access on custom GRC tables.
 
-For detailed documentation, see [Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/common-grc-features.md).
+For detailed documentation, see .
 
 ## Activation and other requirements
 
@@ -56,37 +56,37 @@ The ServiceNow® Integrated Risk Management \(IRM\) application enables your org
 
 ### What's new
 
--   **[Report a GRC issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/report-a-grc-issue.md)**
+-   ****
 
     The report a GRC issue AI agent is now available in the Employee Center, enabling employee users to report issues through a guided conversational experience. As users respond to prompts, the agent structures the issue and recommends relevant controls, entities, and policies based on the input provided. The AI agent helps ensure that the issue is well-defined and enriched with contextual information before it's submitted.
 
--   **[Entity-based record access rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/continuous-monitoring-of-entity-based-access.md)**
+-   ****
 
     Maintain seamless access for users and groups referenced in record fields when entity-based access restrictions are applied. This feature enables users and groups referenced in a record’s user or group fields to access the records they are associated with. By configuring record-level user access at the table or record type level, it reduces administrative overhead and streamlines EBA adoption with minimal disruption.
 
--   **[Functional domain bulk update](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/functional-domain-bulk-update.md)**
+-   ****
 
     Apply or remove domain-specific tags across multiple records at once. This streamlines workspace management by letting you quickly filter and organize records. For example, you can exclude non-privacy-tagged items in the Privacy Workspace for a more focused, efficient view.
 
--   **[Entity record page enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/entities-in-risk-ws.md)**
+-   **Entity record page enhancements**
 
     The Entity type and Downstream Risks \(now renamed as Risks\) related lists on the Entity record page have been converted to UIB pages, providing a more intuitive and modern interface. The Downstream Risks related list has been moved to the dedicated Risks page, featuring organized tabs for Directly related risks, Suggested risks, and All risks.
 
     **Note:** You may experience issues with custom actions that emit events on the Risks or Entity type related lists on the Entity record page. To ensure a smooth transition and adopt these changes, refer to [KB2593527](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2593527) for detailed guidance.
 
--   **[My tasks in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/configuration-of-tasks.md)**
+-   ****
 
     Easily manage which configurations appear on the My Tasks page by marking them Active or Inactive. This gives you flexibility to enable or disable configurations without manual intervention, simplifying administration and improving control. An Active/Inactive flag has also been introduced in the My Choice table for enhanced configuration management.
 
 
--   **[Entities in GRC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/what-is-an-entity.md)**
+-   ****
 
     Entity names in GRC now automatically update when the associated CI name changes. This enhancement improves data consistency, reduces manual effort, and ensures alignment between CI and Entity records without requiring custom automation.
 
 
 ### What's changed
 
--   **[Downstream risks related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/entities-in-risk-ws.md)**
+-   **Downstream risks related list**
 
     The Downstream risks related list on the entity record page has been renamed Risks.
 
@@ -120,7 +120,7 @@ The ServiceNow® Integrated Risk Management \(IRM\) application enables your org
 
 ### What's new
 
--   **[Entity based record access update utility guided experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/entity-based-access-playbook.md)**
+-   **Entity based record access update utility guided experience**
 
     Apply entity-based access \(EBA\) restrictions at the record level by using guided assistance in the entity based record access update utility. Guided assistance consists of a four-step process:
 
@@ -130,11 +130,11 @@ The ServiceNow® Integrated Risk Management \(IRM\) application enables your org
     4.  Review the selected records before you execute and initiate the update
     See the execution logs for a status after each update. You can get the details about the impacted records, applied scopes, and outcomes.
 
--   **[Entity based record access rules to secure new records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/continuous-monitoring-of-entity-based-access.md)**
+-   **Entity based record access rules to secure new records**
 
     Configure entity-based record access rules on record types to ensure that access restrictions are applied automatically to secure new records or modified records related to entities with active EBA configurations.
 
--   **[Deactivation of entity-based access configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/deactivating-entity-based-access.md)**
+-   **Deactivation of entity-based access configuration**
 
     Deactivate the entity-based access configuration, enabling the system to automatically assess the records that it impacts. If entity-based access configuration is restricting a record, the access restrictions are removed. If other configurations also apply to the record, the restrictions remain in place and only the selected configuration is deactivated.
 
@@ -146,7 +146,7 @@ The ServiceNow® Integrated Risk Management \(IRM\) application enables your org
     Coral is now the default theme for Vendor Management Workspace, portal, and mobile experiences. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
--   **[States in the entity based record access update utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/eba-configuration-states.md)**
+-   **States in the entity based record access update utility**
 
     A new Preview state has been added to the record access update utility life cycle. You can now review the estimated number of impacted records before you apply the restrictions. This step helps you to validate the selected scope, assess potential impacts, and make adjustments, if needed. It also adds an extra layer of control and reduces the risk of unintended access changes.
 

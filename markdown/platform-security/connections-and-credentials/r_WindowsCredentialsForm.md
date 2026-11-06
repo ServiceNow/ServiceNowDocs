@@ -31,7 +31,7 @@ To provide sufficient permissions, Windows credentials must be one of the follow
 
 -   A domain user with local administrator access on the target Windows hosts.
 
-    **Important:** If User Account Control \(UAC\) is enabled on the Windows operating system where discovery runs, and the user account is part of the local Administrators group, administrator tasks may fail. To avoid interruptions, we recommend disabling UAC. For more information, see the [Why does the User Access Control \(UAC\) need to be disabled for Windows Discovery?](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1638330) article in the Now Support Knowledge Base
+    **Important:** If User Account Control \(UAC\) is enabled on the Windows operating system where discovery runs, and the user account is part of the local Administrators group, administrator tasks may fail. To avoid interruptions, we recommend disabling UAC.
 
 -   A local account that has administrator privileges and UAC disabled on the same target host.
 -   A user who meets the requirements of Windows [probes and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/r_DiscoWinProbesAndPermissions.md) \(Discovery only\).

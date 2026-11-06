@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure the Discovery Sensor for OT, Discovery Sensor for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Configure the Discovery Sensor for OT, Discovery Sensor for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Remove a lost Sensor
@@ -40,7 +40,7 @@ Role required: admin
 
     \[Omitted image "image.remove-sensor-warning1"\] Alt text: Warning
 
-    Removing a Sensor that is associated to a Site cannot be undone.
+    Removing a Sensor that is associated to a Site can't be undone.
 
 7.  If you still intend to remove the Sensor, select **Continue**.
 

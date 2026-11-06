@@ -8,7 +8,7 @@ product: Health and Safety
 classification: health-and-safety
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Employee Service Management]
 ---
 
@@ -58,8 +58,6 @@ Health and Safety includes the following applications:
 ## Now Assist for Health and Safety
 
 Now Assist brings generative AI to the Health and Safety with capabilities such as conversational incident reporting and incident summarization. It also uses agentic workflows to analyze incident data, identify patterns, and generate corrective and preventive action plans, empowering safety teams avoid future incidents."
-
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 ## Mobile experience for Health and Safety
 

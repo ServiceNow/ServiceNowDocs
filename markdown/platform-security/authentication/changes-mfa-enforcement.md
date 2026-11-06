@@ -8,7 +8,7 @@ product: Authentication
 classification: authentication
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 3
 breadcrumb: [MFA enforcement, Multi-factor authentication, Access Management]
 ---
 
@@ -36,4 +36,25 @@ As an administrator, you can prepare for the MFA enforcement based on the follow
 -   **Scenario 2 for Acme Corp**: In the instance, Anita was already MFA along with local authentication. Anita continues to require MFA without the 30-day self-enrollment window.
 -   **Scenario 3 for Acme Corp**: In the instance, Olivia uses Single Sign-On \(SSO\) for authentication. There's no impact on the login experience, and Olivia isn’t enforced for MFA.
 -   **Scenario 4 for Globex Corp**: In the instance, if a user already had an MFA policy requiring - MFA for all local login attempts outside the company’s trusted network. On upgrading to the Yokohama or a later release, MFA enforcement behavior for user logins remain the same.
+
+## Changes on upgrade to Zurich
+
+When you upgrade to Zurich, a fix script runs if both of the following were true before the upgrade:
+
+-   The **glide.authenticate.auth.policy.enabled** property was set to `false`.
+-   A Pre or Post Authentication Policy Context was configured.
+
+The script makes the following changes:
+
+-   Sets the **Default Policy** of the context to **Deny Policy**. See [Authentication policy contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/auth-policy-contexts.md) for what each option means.
+-   Points the context to an inactive placeholder policy, **Demo Post Auth policy** or **Demo Pre Auth policy**, in place of the policy you configured.
+-   Sets **glide.authenticate.auth.policy.enabled** to `true`.
+-   Sets **glide.authenticate.multifactor** to `true` and rewrites several **glide.authenticate.multifactor.\*** properties. See [Multi-factor Authentication enforcement properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/mfa-enforcement-properties.md).
+-   Schedules a job that deletes existing MFA enrollment data. Users must enroll in MFA again.
+
+The result depends on the instance. An upgrade can change a Production instance and leave a Sub-production instance unchanged if the Sub-production instance already had **glide.authenticate.auth.policy.enabled** set to `true`.
+
+After the upgrade, a policy you configured can stop being enforced. For example, an IP allow list might stop applying to SSO logins. Re-associate your policy with the context to restore it.
+
+To confirm what the upgrade changed, search the system log for `fix_mfa_enforcement`. You can also check **Upgrade History** for `z_fix_mfacontext_upgrade`.
 

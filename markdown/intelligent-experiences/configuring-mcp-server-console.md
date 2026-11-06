@@ -32,6 +32,8 @@ Create a Model Context Protocol \(MCP\) server and configure the tools and input
 
 After configuring a server, the AI administrator configures OAuth inbound integrations for each client or configures an integration with a third-party identity provider \(IDP\) for authentication. Then they can configure clients to connect to the server using the server and authentication details. For more information, see [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/connect-mcp-server-client.md).
 
+To troubleshoot MCP server connections and tool calls, the AI administrator can also enable logging for MCP server activities and view the logs in the System Log. For more information, see [View MCP server logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/view-mcp-server-logs.md).
+
 -   **[Create a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/create-mcp-server.md)**  
 Create a Model Context Protocol \(MCP\) server and configure which tools it exposes to MCP clients.
 -   **[Creating tools for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/creating-tools-mcp-server.md)**  
@@ -42,6 +44,8 @@ Build, register, and display user interfaces along with your tool's logic with M
 Create the necessary AI Access Control List \(ACL\) for the component to be called externally.
 -   **[Check the compatibility of a Subflow or Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/check-compatibility-of-subflow.md)**  
 After establishing the ACL, publish the component and check the compatibility staging table.
+-   **[View MCP server logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/view-mcp-server-logs.md)**  
+Troubleshoot MCP server connections and tool calls by enabling logging for MCP servers and reviewing the logs.
 
 **Parent Topic:**[MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

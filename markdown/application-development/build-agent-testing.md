@@ -15,7 +15,7 @@ breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform
 
 Test Agent generates test coverage for code created by Build Agent, executes tests, and performs root cause analysis \(RCA\) on failures. Prompt Test Agent to complete build-to-test workflows in a single development session without manual test authoring or failure investigation.
 
-Test Agent extends Build Agent by making every build safe before release. After Build Agent produces code changes in a development instance, Test Agent consumes the same prompt and code context. It uses those to author functional Automated Test Framework \(ATF\) tests, execute those tests, and triage any failures automatically.
+Test Agent extends Build Agent by making every build safe before release. After Build Agent produces code changes in a development instance, Test Agent consumes the same prompt and code context. It uses those to author functional Automated Test Framework \(ATF\) tests, execute those tests, and triage any failures automatically. For details on configuring tests in Build Agent, see [Configure auto test prompting and UI tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-config-testing.md).
 
 For details on configuring tests in Build Agent, see [Configure auto test prompting and UI tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-config-testing.md).
 

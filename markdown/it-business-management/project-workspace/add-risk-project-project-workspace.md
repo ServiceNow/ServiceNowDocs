@@ -8,7 +8,7 @@ product: Project Workspace
 classification: project-workspace
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Manage RIDAC, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -33,6 +33,8 @@ For information about RIDAC records for project management, see [Adding RIDAC re
     For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Navigate to **RIDAC** &gt; **All RIDAC**.
+
+    The filter icon in the side panel shows the filters applied to the RIDAC records, and its pane stays empty until you apply one. To apply a filter, select the filter icon in a column header, select the check boxes for the values that you want to show, and select **Apply**.
 
     The All RIDAC page displays all RIDAC records for the project in a single grid view, including Risks, Issues, Decisions, Actions, and Change Requests.
 

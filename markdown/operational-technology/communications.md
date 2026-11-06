@@ -1,5 +1,5 @@
 ---
-title: Operational Technology Discovery components communications
+title: OT Discovery communications
 description: This section describes how the OT Discovery components should be connected so they can communicate with each other.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/communications.html
@@ -10,7 +10,7 @@ reading_time_minutes: 2
 breadcrumb: [Deploy Operational Technology Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
-# Operational Technology Discovery components communications
+# OT Discovery communications
 
 This section describes how the OT Discovery components should be connected so they can communicate with each other.
 

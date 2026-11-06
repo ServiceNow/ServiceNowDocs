@@ -27,7 +27,7 @@ To access the details about the user's MFA, navigate to **All** &gt; **Multi-fac
 |Multi-factor secret|The details of the multi-factor secret.|
 |Validated|Is the multi-factor validated. Changing the value to **false** invalidates the existing authenticator app setup.|
 
-**Note:** The recently used MFA factors by the users is available in the User Recent Used Factors module. Navigate to **All** &gt; **Multi-factor Authentication** &gt; **User Recent User Factors**. For more information, see [User Recent Used Factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/reference-topic-multi-factor-authentication.md).
+**Note:** The recently used MFA factors by the users is available in the User Recent Used Factors module. Navigate to **All** &gt; **Multi-factor Authentication** &gt; **User Recent Used Factors**. For more information, see [User Recent Used Factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/reference-topic-multi-factor-authentication.md).
 
 ## Multi-factor Browser Fingerprints
 
@@ -43,7 +43,7 @@ To access the details about the user's browser fingerprints, navigate to **All**
 
 ## User Recent Used Factors
 
-To access the details about the user's recently used factors, navigate to **All** &gt; **Multi-factor Authentication** &gt; **User Recent User Factors**.
+To access the details about the user's recently used factors, navigate to **All** &gt; **Multi-factor Authentication** &gt; **User Recent Used Factors**.
 
 |Field|Description|
 |-----|-----------|

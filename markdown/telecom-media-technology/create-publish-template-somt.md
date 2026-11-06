@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-04-16"
 reading_time_minutes: 2
-breadcrumb: [Retiring or archiving versioned specifications and product offerings, Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Retire or archive versioned specs, Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Create and publish a template
@@ -23,7 +23,7 @@ Role required:
 
 ## Procedure
 
-1.  Open CRM Workspace.
+1.  Open CSM Configurable Workspace.
 
 2.  Navigate to **List** &gt; **Templates** &gt; **All**.
 
@@ -109,15 +109,15 @@ The template is archived. You can archive only a retired template.
 
 9.  Publish, save, or copy the draft template.
 
-<table id="choicetable_q3p_bpt_txb"><thead><tr><th align="left" id="d21832e380">
+<table id="choicetable_q3p_bpt_txb"><thead><tr><th align="left" id="d21816e380">
 
 Action
 
-</th><th align="left" id="d21832e383">
+</th><th align="left" id="d21816e383">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d21832e389">
+</th></tr></thead><tbody><tr><td id="d21816e389">
 
 **Publish**
 
@@ -133,7 +133,7 @@ Do one of the following actions:
 -   To publish this template, select **OK**.
 When you publish it, its state changes from Draft to Published.
 
-</td></tr><tr><td id="d21832e418">
+</td></tr><tr><td id="d21816e418">
 
 **Save**
 
@@ -141,7 +141,7 @@ When you publish it, its state changes from Draft to Published.
 
 Update the template with the new data that you added.
 
-</td></tr><tr><td id="d21832e429">
+</td></tr><tr><td id="d21816e429">
 
 **Copy**
 

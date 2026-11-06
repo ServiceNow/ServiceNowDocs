@@ -20,7 +20,7 @@ Update the ID fields to regenerate the Federated IDs based on the updated fields
 
 Role required: iamsync\_admin
 
-**Note:** Any changes to the ID fields result in the change of Federated Ids for all the existing records on the selected table. These changes may have implications on performance, compliance, and licensing.
+**Note:** Any changes to the ID fields result in the change of Federated IDs for all the existing records on the selected table. These changes may have implications on performance, compliance, and licensing.
 
 ## Procedure
 
@@ -51,12 +51,12 @@ Role required: iamsync\_admin
 
     -   Until the previous update job is complete, don’t change the field.
     -   Fields that are updated should be a string type.
-    -   Fields that cannot be select as ID fields are as follows:
+    -   Fields that cannot be selected as ID fields are as follows:
         -   System level fields
         -   Edge encryption fields
         -   Password fields.
-5.  Navigate to the sys\_user table to view the new Federated IDs that are generated due to updating the ID fields.
+5.  Navigate to the User \[sys\_user\] table to view the new Federated IDs that are generated due to updating the ID fields.
 
-    **Note:** Select **Regenerate Federated IDs** if a user is created or updated via XML imports, low-level database updates, the instance not working correctly. Selecting **Regenerate Federated IDs**, regenerates the IDs for all the users, using the current id field criteria.
+    **Note:** Select **Regenerate Federated IDs** if a user is created or updated by XML imports, low-level database updates, or the instance is not working correctly. Selecting **Regenerate Federated IDs**, regenerates the IDs for all the users, using the current ID field criteria.
 
 

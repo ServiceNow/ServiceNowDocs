@@ -16,7 +16,7 @@ breadcrumb: [Reference, Service Level Management, IT Service Management]
 
 Validate that Service Level Management still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 
-Service Level Management quick start tests require activating the Service Level Management - ATF Tests plugin \(com.snc.service\_level\_management.atf\).
+Service Level Management quick start tests require activating the Service Level Management - ATF Tests plugin \(com.snc.sla.atf\).
 
 |Test|Description|Release version|
 |----|-----------|---------------|

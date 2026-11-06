@@ -130,8 +130,8 @@ Download and use the Mobile agent to perform all these activities on the go.
 itil, rota\_manager
 
 </td></tr></tbody>
-</table>-   **[On-Call Scheduling capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/on-call-scheduling-capabilities.md)**  
-The key features and capabilities of On-Call Scheduling can be used by the various user roles.
+</table>-   **[On-Call Scheduling actions by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/on-call-scheduling-capabilities.md)**  
+On-Call Scheduling provides role-based capabilities for members, shift managers, and shift administrators to manage on-call schedules, time-off requests, and escalations.On-Call Scheduling can be used by the various user roles.
 -   **[On-Call Scheduling new schedule engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/oncall-schedule-engine.md)**  
 Introducing the new On-call schedule engine with enhanced capabilities and user experience.
 -   **[On-Call Scheduling new trigger engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/on-call-scheduling/on-call-new-trigger-engine.md)**  

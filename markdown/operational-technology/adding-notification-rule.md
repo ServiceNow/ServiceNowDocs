@@ -41,3 +41,7 @@ Role required: admin
 4.  Select **Create Rule**.
 
 
+## Result
+
+The created notification rule displays on the Notifications page.
+

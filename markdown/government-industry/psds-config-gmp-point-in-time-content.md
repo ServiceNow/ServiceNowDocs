@@ -35,7 +35,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **CRM Workspace** &gt; **Terms and conditions**.
+1.  Navigate to **All** &gt; **Public Sector Workspace** &gt; **Terms and conditions**.
 
 2.  Select **New**.
 

@@ -22,7 +22,7 @@ Role required: it\_project\_manager
 
 ## About this task
 
-When you change project dates, a prompt appears to realign resource assignments to the updated dates. However, if you skip this step, resource assignments go out of sync with the project. To prevent this, use the **sn\_pw.resource\_assignment\_auto\_sync\_enabled** system property to realign all resource assignments across projects automatically on a periodic basis.
+When you change project dates, a prompt appears to realign resource assignments to the updated dates. However, if you skip this step, resource assignments go out of sync with the project. To prevent this, use the **sn\_pw.resource\_assignment\_auto\_sync\_enabled** system property to realign a resource assignment automatically when its project task end date extends beyond it.
 
 ## Procedure
 
@@ -35,6 +35,8 @@ When you change project dates, a prompt appears to realign resource assignments 
 3.  Select **Ok**.
 
     If the **sn\_pw.resource\_assignment\_auto\_sync\_enabled** system property is set to true, then the resources sync automatically in the background. The bottom resource pane updates without any action, and the manual sync icon \(resources not synced icon\) is hidden since it's no longer needed. The default value is true. When the property is set to false, manual sync via the icon is still required and resources not synced icon is visible. You must have the pps\_admin role to enable this property.
+
+    Extending a project task does not automatically update the resource assignment end date. The property applies only when the task end date extends beyond the resource assignment date range. In that case, the resource assignment end date updates to match the task end date.
 
     Alternatively, select more actions context menu and select Realign resource assignments to synchronize the resource assignments dates with the project dates at a project level.
 

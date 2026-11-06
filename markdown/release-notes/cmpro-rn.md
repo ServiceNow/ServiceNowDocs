@@ -27,7 +27,7 @@ The ServiceNow® Contract Management Pro solution enables you to set up contract
 -   Link parent contracts during drafting and negotiation phases to inherit parent contract terms.
 -   Pause and resume an in-progress signature process when updates to the signatory list are required.
 
-See [Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/cncore-cmpro-landing-page.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 

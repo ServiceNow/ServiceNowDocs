@@ -8,7 +8,7 @@ product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 6
+reading_time_minutes: 5
 breadcrumb: [Use, Hardware Asset Management, IT Asset Management]
 ---
 

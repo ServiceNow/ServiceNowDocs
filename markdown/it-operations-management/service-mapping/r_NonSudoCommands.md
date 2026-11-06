@@ -391,7 +391,7 @@ Various options
 
 </td><td>
 
-Shows the current time, how long the system has been running, how many users are currently logged on, and the system load averages for the past 1, 5, and 15 minutes.
+Shows the current time, how long the system has been running, and how many users are currently logged on. It also shows the system load averages for the past 1, 5, and 15 minutes.
 
 </td></tr><tr><td>
 

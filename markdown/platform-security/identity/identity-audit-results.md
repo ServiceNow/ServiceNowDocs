@@ -20,7 +20,7 @@ Audit Results displays changes made for users, groups, roles, and ACLs in the Se
 
 To access the Audit Results, navigate **All** &gt; **System Security** &gt; **Identity and Access Audit** &gt; **Audit Results**. The Security Table Audits page is displayed with the following information.
 
-|Column Name|Description|
+|Column name|Description|
 |-----------|-----------|
 |Source Table|Details of the source table where the audit occurred.|
 |Action|Describes the audit action.|

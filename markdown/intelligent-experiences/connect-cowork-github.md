@@ -1,22 +1,22 @@
 ---
-title: Connect ServiceNow Cowork to GitHub
-description: Connect ServiceNow Cowork to GitHub or GitHub Enterprise to enable pull request review, CI checks, read code, and manage issues.
+title: Connect ServiceNow Arc to GitHub
+description: Connect ServiceNow Arc to GitHub or GitHub Enterprise to enable pull request review, CI checks, read code, and manage issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/connect-cowork-github.html
 release: zurich
 topic_type: task
 last_updated: "2026-09-27"
 reading_time_minutes: 1
-breadcrumb: [Connectors in ServiceNow Cowork, Use, ServiceNow Cowork, Enable AI experiences]
+breadcrumb: [Connectors in ServiceNow Arc, Use, ServiceNow Arc, Enable AI experiences]
 ---
 
-# Connect ServiceNow Cowork to GitHub
+# Connect ServiceNow Arc to GitHub
 
-Connect ServiceNow Cowork to GitHub or GitHub Enterprise to enable pull request review, CI checks, read code, and manage issues.
+Connect ServiceNow Arc to GitHub or GitHub Enterprise to enable pull request review, CI checks, read code, and manage issues.
 
 ## Before you begin
 
-Role required: sn\_app\_cowork.user
+Role required: sn\_app\_arc.user
 
 ## Procedure
 
@@ -38,7 +38,7 @@ Role required: sn\_app\_cowork.user
 
     3.  Go to **Settings** &gt; **Developer Settings** &gt; **Personal access tokens**.
 
-    4.  Select scopes **repo** check box and under **admin.org** select **read.org** check box.
+    4.  Under **Select scopes**, select the **repo** check box, and under **admin.org**, select the **read.org** check box.
 
     5.  Copy the token starting with `ghp_` or `gho_`.
 
@@ -48,8 +48,8 @@ Role required: sn\_app\_cowork.user
 
 8.  Select **Add Host**.
 
-    Host is added and the token is stored securely.
+    The host is added, and the token is stored securely.
 
 
-**Parent Topic:**[Connectors in ServiceNow Cowork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/connectors-in-cowork.md)
+**Parent Topic:**[Connectors in ServiceNow Arc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/connectors-in-cowork.md)
 

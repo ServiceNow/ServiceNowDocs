@@ -28,7 +28,7 @@ The Console tab on the main Settings page is divided into the following sections
 
 -   **License**
 
-    When you first sign into the Console, a warning banner alerts that you need a license. When you use the interactive configuration wizard, you're also alerted to the license status. For detailed explanation of the Console license, see .
+    When you first sign into the Console, a warning banner alerts that you need a license. When you use the interactive configuration wizard, you're also alerted to the license status. For more information, see [Requirements for Discovery Console for OT installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/reqs-ot-console-installation.md).
 
     **Note:** If needed, request a Console license from your ServiceNow account representative.
 
@@ -87,7 +87,7 @@ CVE Database Package
 
 Enables you to import a CVE package.You can use the **Import CVE Package** button to import a package locally saved on your computer.
 
-**Note:** You can obtain a current CVE database file from your ServiceNow Operational Technology Discovery representative.
+**Note:** You can obtain a current CVE database file from your ServiceNowOperational Technology Discovery representative.
 
 </td></tr><tr><td>
 
@@ -128,11 +128,11 @@ The Reprocess feature allows the system to reevaluate previously collected Auto 
 
 **Syslog**
 
-In the Syslog tab, you can configure a syslog server. After configuring these settings, syslog data can be forwarded from the Discovery Console for OT to a separate syslog data consumer. For example, the Splunk enterprise security data analysis toolset.
+In the Syslog tab, you can configure a Syslog server. After configuring these settings, Syslog data can be forwarded from the Discovery Console for OT to a separate Syslog data consumer. For example, the Splunk enterprise security data analysis tool set.
 
 **Logs**
 
 From the Logs tab, you can download Discovery Console for OT logs. You have the option to choose whether to download logs on the current day, on a custom date, or on a date range.
 
-For further information on Console and Sensor log files, see [Download Console log files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/download-console-log-files.md).
+For more information, see [Download Console log files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/download-console-log-files.md).
 

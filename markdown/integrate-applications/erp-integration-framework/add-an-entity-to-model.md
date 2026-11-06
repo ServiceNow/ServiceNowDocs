@@ -19,8 +19,6 @@ Specify the operation entity that Zero Copy Connector for ERP uses for read, upd
 
 -   **[Using model entities in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/using-model-entities-in-zero-copy-connector-for-erp.md)**  
 Specify the entity that a model uses for read, update, or create operations.
--   **[Use generative AI to help add an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/use-ai-to-help-add-an-entity-to-a-model.md)**  
-Enter a use case for an entity and obtain suggestions from generative AI about the relevant table, BAPI, Odata, or RFC to use.
 -   **[Create and change SAP business entities with IDoc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/create-and-change-sap-business-entities-with-idoc.md)**  
 Work with SAP business entities that can only be created or changed using IDoc.
 -   **[Add a read table entity to a model operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/add-a-read-table-entity-to-a-model-operation.md)**  

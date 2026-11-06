@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/l
 release: zurich
 topic_type: task
 last_updated: "2026-03-27"
-reading_time_minutes: 1
-breadcrumb: [Configure the OT Discovery Collector, OT Discovery Collector, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+reading_time_minutes: 2
+breadcrumb: [Configure the OT Discovery Collector, Operational Technology Discovery Collector, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Install OT Discovery Collector on a Linux system
@@ -20,11 +20,13 @@ Install the OT Discovery Collector on a Linux system.
 
     **Note:** An example of the file name format is`linuxCollectorinstaller_3.3.1_20250917.1.tar.gz`.
 
--   You need to SCP the `CollectorBundle` file you generated and downloaded from the Discovery Console to the Linux system.
+-   SCP the `CollectorBundle` file you generated and downloaded from the Discovery Console to the Linux system.
 -   To go into OT Discovery Collector Linux host, use `ssh`.
 -   Use `su` or `sudo -s` to switch to the root user.
 
 Role required: admin
+
+**Note:** You can now download and install Containerized Collector packages. For a Windows OS machine, be sure to select the compatible Collector OS. For more information, see [Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/air-gapped-networks-installation.md).
 
 ## Procedure
 

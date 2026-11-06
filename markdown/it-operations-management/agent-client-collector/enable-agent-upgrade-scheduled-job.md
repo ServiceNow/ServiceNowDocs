@@ -31,7 +31,7 @@ The **Upgrade agents incrementally** scheduled job upgrades all eligible agents 
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Scheduled Jobs**.
 
-2.  Search for **Upgrade agents incrementally** and select record.
+2.  Search for and select **Upgrade agents incrementally**.
 
 3.  Set **Active** to **true**.
 

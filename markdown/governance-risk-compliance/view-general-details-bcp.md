@@ -51,7 +51,14 @@ Role required: sn\_bcm.admin, sn\_bcm.program\_manager, or sn\_bcm.planner
     2.  Click **Confirm**.
 
         -   The copy action creates an exact replica of the plan with the name that you enter in the Copy plan pop-up. The copied plan is moved to **Draft** state.
-        -   The action copies the plan assets, plan documentation sections, recovery teams, loss scenarios, its related asset dependencies and recovery strategies, and recovery tasks of the original plan to the copied plan.
+        -   The action copies the following from the original plan:
+            -   Plan assets
+            -   Documentation sections
+            -   Recovery teams
+            -   Loss scenarios
+            -   Related asset dependencies
+            -   Recovery strategies
+            -   Recovery tasks
         -   The documentation sections of the copied plan are in **Pending** state. Edit each section, if required, and move it to **Complete** state.
         -   Dependencies are populated when the plan is copied.
 

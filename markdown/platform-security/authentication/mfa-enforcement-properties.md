@@ -75,4 +75,5 @@ Property for the tracking of hybrid users. The user accounts which are not marke
 A debug logger for the tracking of hybrid user API logins.Side **Note:** This property doesn't exist on the instance, you have to create and enable the property, if needed.
 
 </td></tr></tbody>
-</table>
+</table>The Zurich upgrade script can change the following properties: **glide.authenticate.multifactor**, **glide.authenticate.auth.policy.enabled**, and several **glide.authenticate.multifactor.\*** properties. For details, see [Changes due to the Multi-factor Authentication enforcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/changes-mfa-enforcement.md).
+

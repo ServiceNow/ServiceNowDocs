@@ -75,7 +75,7 @@ The ServiceNow® Case management for CSM application enables customer service or
 
 -   **[Customer Service Case Types - Enable the service selector to launch record producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-service-definition-catalog-items.md)**
 
-    Use the Service Portal record producers when your agents are creating cases in CRM Workspace. Agents can select the service definitions from the case type selector and launch the record producers.
+    Use the Service Portal record producers when your agents are creating cases in CSM Configurable Workspace. Agents can select the service definitions from the case type selector and launch the record producers.
 
 
 ### What's changed

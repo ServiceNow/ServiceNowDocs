@@ -16,6 +16,8 @@ breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards
 
 Create reports grouped by a variable on a selected service catalog item. You can also create filters on the same variable.
 
+**Note:** This topic refers to Core UI reports, not Platform Analytics data visualizations.
+
 Reporting on variables can be helpful in determining if certain catalog items are useful on an instance, for example.
 
 Additionally, you can create filters on the same variable. For example, if a specific mobile phone item has a storage variable, you can create a report that only shows those phones with 32 GB of storage.

@@ -20,7 +20,9 @@ Use these links to explore and learn more about the Operational Technology Nativ
 
 <table id="table_iht_hgl_5yb" class="nav-card"><tbody><tr><td colspan="2">
 
-Explore\[Omitted image "BUS\_64px\_Explore\_YG.png"\] Alt text:
+Explore
+
+ \[Omitted image "BUS\_64px\_Explore\_YG.png"\] Alt text:
 
 </td></tr><tr><td>
 
@@ -33,5 +35,5 @@ Explore\[Omitted image "BUS\_64px\_Explore\_YG.png"\] Alt text:
 </td></tr></tbody>
 </table>## Troubleshoot and get help
 
-If you have any errors or difficulties while using the Operational Technology applications, [Contact Customer Service and Support.](https://support.servicenow.com/now?draw=case)
+If you have any errors or difficulties while using the Operational Technology Discovery applications, [Contact Customer Service and Support.](https://support.servicenow.com/now?draw=case)
 

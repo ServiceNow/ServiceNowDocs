@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Use, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Use, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Schedule an appointment
@@ -26,15 +26,15 @@ Role required: none
 
     Some entry points might not be available based on the configuration set by the admin.
 
-<table id="choicetable_jch_n5z_mdc"><thead><tr><th align="left" id="d273721e58">
+<table id="choicetable_jch_n5z_mdc"><thead><tr><th align="left" id="d273702e58">
 
 Entry Point
 
-</th><th align="left" id="d273721e61">
+</th><th align="left" id="d273702e61">
 
 Steps to schedule appointment
 
-</th></tr></thead><tbody><tr><td id="d273721e67">
+</th></tr></thead><tbody><tr><td id="d273702e67">
 
 **Employee Center**
 
@@ -45,7 +45,7 @@ Steps to schedule appointment
 -   In the **Human resources** menu, in the **Quick links** section, select **Schedule appointment**.
 
 
-</td></tr><tr><td id="d273721e110">
+</td></tr><tr><td id="d273702e110">
 
 **Employee Center Pro Kiosk**
 
@@ -53,7 +53,7 @@ Steps to schedule appointment
 
 In the **Get support** section, select **Schedule appointment**.
 
-</td></tr><tr><td id="d273721e127">
+</td></tr><tr><td id="d273702e127">
 
 **Knowledge Base article**
 
@@ -61,7 +61,7 @@ In the **Get support** section, select **Schedule appointment**.
 
 At the end of the article, select **Schedule an appointment**.
 
-</td></tr><tr><td id="d273721e139">
+</td></tr><tr><td id="d273702e139">
 
 **Request details**
 
@@ -69,7 +69,7 @@ At the end of the article, select **Schedule an appointment**.
 
 From the Actions menu, select **Schedule an appointment**.
 
-</td></tr><tr><td id="d273721e152">
+</td></tr><tr><td id="d273702e152">
 
 **My tasks page**
 
@@ -79,7 +79,7 @@ From the Actions menu, select **Schedule an appointment**.
 2.  In the task details pane, select **Schedule appointment**.
 
 
-</td></tr><tr><td id="d273721e173">
+</td></tr><tr><td id="d273702e173">
 
 **ITSM Walk-up Experience**
 

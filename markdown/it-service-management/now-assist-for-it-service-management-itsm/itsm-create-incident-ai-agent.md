@@ -148,7 +148,7 @@ Role required: none
 
     The agent displays a suggested resolution approach. If you accept the plan, the workflow proceeds to incident creation. If you reject it, you can provide additional guidance or take an alternative approach.
 
-    \[Omitted image "image.itsm-create-incident-ai-agent-plan-review"\] Alt text: Resolution plan review screen showing Accept and Reject options
+    \[Omitted image "itsm-create-incident-ai-agent-plan-review.png"\] Alt text: Resolution plan review screen showing Accept and Reject options
 
 5.  Wait for the agent to check for similar existing incidents.
 

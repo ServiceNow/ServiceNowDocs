@@ -27,7 +27,7 @@ There are various types of definitions available as a baseline in the Impact Sca
 |Upgradeability|Assesses the ease of enhancing a ServiceNow instance or application with new features, improvements, security patches, or compatibility adjustments.|
 |User Experience|Evaluates the quality of user interactions with applications. Considers the ease of use, efficiency, design, responsiveness, accessibility, and its emotional and functional impact.|
 
-For more information, see [Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-scan-engine-properties.md).
+For more information, see [Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-scan-engine-properties.md).
 
 ## Before you begin
 
@@ -64,7 +64,7 @@ Role required: Scan Engine admin \(`sn_se.scan_engine_admin`\).
 
     Related lists appear at the bottom of the definition screen.
 
-<table id="choicetable_fkk_pkx_2hc"><tbody><tr><td id="d76846e285">
+<table id="choicetable_fkk_pkx_2hc"><tbody><tr><td id="d76877e285">
 
 **Applicable Tables**
 
@@ -85,7 +85,7 @@ See [Restricted Caller Access](https://www.servicenow.com/docs/access?context=re
     -   **Conditions**: Defines the conditions that table records must meet to be scanned.
 
 
-</td></tr><tr><td id="d76846e350">
+</td></tr><tr><td id="d76877e350">
 
 **Findings For This Definition**
 
@@ -93,7 +93,7 @@ See [Restricted Caller Access](https://www.servicenow.com/docs/access?context=re
 
 Displays any findings, as established by the definition, found during on-demand or scheduled scans.
 
-</td></tr><tr><td id="d76846e359">
+</td></tr><tr><td id="d76877e359">
 
 **Resolved Finding Histories**
 
@@ -101,7 +101,7 @@ Displays any findings, as established by the definition, found during on-demand 
 
 Shows findings that were resolved for this definition.
 
-</td></tr><tr><td id="d76846e368">
+</td></tr><tr><td id="d76877e368">
 
 **Scan Engine Suites**
 

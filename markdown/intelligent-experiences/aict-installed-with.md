@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/aict-installed-with.html
 release: zurich
 topic_type: reference
-last_updated: "2026-05-11"
-reading_time_minutes: 6
+last_updated: "2026-10-09"
+reading_time_minutes: 8
 keywords: [AI Control Tower, installed components, plugins, roles, tables]
 breadcrumb: [Reference, AI Control Tower, Enable AI experiences]
 ---
@@ -17,34 +17,115 @@ Several types of components are installed with activation of AI Control Tower, i
 
 ## Plugins installed
 
-Activation of AI Control Tower installs the following plugins. Additional plugins listed in [Additional plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-installed-with.md) extend AI Control Tower with capabilities for discovery, security, dashboards, and reporting.
+The plugins in the [Core plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-installed-with.md) table are installed with AI Native Experience for AI Control Tower. The plugins in the [Additional plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-installed-with.md) table are installed with AI Control Tower \(`sn_aict`\), which is part of AI Control Tower for Enterprise AI Foundation. If `sn_aict` is already on your instance when you install AI Native Experience for AI Control Tower, you already have these plugins.
 
 |Plugin|Plugin ID|Description|
 |------|---------|-----------|
-|AI Control Tower Core|`com.sn_ai_governance`|Centralizes AI governance across the enterprise by combining AI assets and controls in a single hub.|
-|AI Asset Management|`com.sn_ai_asset_mgmt`|Tracks and manages the lifecycle of AI assets such as systems, models, datasets, and prompts.|
-|AI Risk and Compliance Management|`com.sn_grc_ai_gov`|Manages AI risks across their lifecycle, including risk classification, mapping to regulatory authority documents, and policy compliance.|
-|AI Case Management|`com.sn_ai_case_mgmt`|Tracks, triages, and resolves inquiries and incidents related to AI assets.|
-|AI Risk and Compliance Integration with Control Tower|`com.sn_grc_ai_irm_intg`|Surfaces risk posture, compliance status, and case workflows directly in AI Control Tower so you can manage AI use cases against regulatory frameworks.|
-|AI Control Tower Evaluations|`com.sn_ai_evaluations`|Enables the evaluation framework, scoring engine, and monitoring components for your AI systems.|
-|AI Risk and Compliance Content \(optional\)|`com.sn_grc_ai_gov_cont`|Loads frameworks, citations, control objectives, risk statements, and assessment templates for the EU AI Act and the NIST AI Risk Management Framework.|
+|AI Control Tower Core|`sn_ai_governance`|Centralizes AI governance across the enterprise by combining AI assets and controls in a single hub.|
+|AI Asset Management|`sn_ai_asset_mgmt`|Tracks and manages the lifecycle of AI assets such as systems, models, datasets, and prompts.|
+|AICT UI Application|`sn_app_aict_ui`|Provides the AI Control Tower user interface.|
+|AI Experience - Core|`com.glide.ai_experience`|Provides the services that AI Control Tower uses to render pages and cards, apply themes, and save card configuration changes.|
+|AI Control Tower - Evaluations|`sn_ai_observe`|Enables the evaluation framework, scoring engine, and monitoring components for your AI systems.|
+|AI Policy Framework|`sn_ai_policy_fwk`|Authors and enforces policies for AI agents and systems, including automatic containment.|
+|AI Security and Privacy|`sn_ai_security`|Provides security and privacy monitoring for AI assets.|
+|AWH for AI Control Tower|`sn_awh_config`|Configures the Agent Workspace Hub for AI Control Tower.|
+|Value dashboard for AI Control Tower|`sn_ai_value`|Provides the Value dashboard for measuring AI investment return and adoption.|
+|AI Risk and Compliance Management|`sn_grc_ai_gov`|Manages AI risks across their lifecycle, including risk classification, mapping to regulatory authority documents, and policy compliance.|
+|AI Case Management|`sn_ai_case_mgmt`|Tracks, triages, and resolves inquiries and incidents related to AI assets.|
+|AI Risk and Compliance Integration with Control Tower|`sn_grc_ai_irm_intg`|Surfaces risk posture, compliance status, and case workflows directly in AI Control Tower so you can manage AI use cases against regulatory frameworks.|
+|AI Control Tower for ServiceNow Otto|`sn_aict_nowassist`|Syncs ServiceNow Otto AI skills into the AI Control Tower inventory.|
+|ServiceNow Otto for AI Control Tower|`sn_aict_genai`|Adds built-in AI insights and recommendations to AI Control Tower.|
+|Expanded Model and Asset Classes|`sn_ent`|Provides the model and asset classes that AI Control Tower uses. Required for API access to AI asset records.|
+|ServiceNow AI Lens|`sn_ai_lens`|Provides AI reporting and lens capabilities.|
 
-The following plugins extend AI Control Tower with capabilities for discovery, security and privacy monitoring, value and engagement dashboards, and reporting.
+Supporting plugins, such as Setup Hub, Data Privacy, Data Discovery, Security Center, the Model Context Protocol client and server, and the GRC and Smart Assessment plugins, are installed automatically as dependencies. To see every dependency for an application, open the application in Application Manager.
+
+<table id="table_plugins_additional"><thead><tr><th>
+
+Plugin
+
+</th><th>
+
+Plugin ID
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+AI Control Tower
+
+</td><td>
+
+`sn_aict`
+
+</td><td>
+
+Centralizes AI governance across the enterprise, including AI discovery, asset lifecycle management, risk and compliance, and value measurement.
+
+</td></tr><tr><td>
+
+AI Discovery
+
+</td><td>
+
+`sn_ai_disc`
+
+</td><td>
+
+Discovers AI assets, agents, and usage from hyperscaler and external AI platform connectors.
+
+</td></tr><tr><td>
+
+AI SGC Discovery
+
+</td><td>
+
+`sn_ai_sgc_disc`
+
+</td><td>
+
+Installs the Service Graph Connectors that AI Discovery uses.
+
+</td></tr><tr><td>
+
+AI Service Graph Connectors for Amazon, Google, LangGraph, and Microsoft
+
+</td><td>
+
+-   `sn_ai_disc_aws_sgc`
+-   `sn_ai_disc_gcp_sgc`
+-   `sn_langgraph_integ`
+-   `sn_ai_msft_integ`
+
+</td><td>
+
+Discover AI assets from Amazon, Google, LangGraph, and Microsoft platforms.
+
+</td></tr><tr><td>
+
+AI Trace Collector
+
+</td><td>
+
+`sn_aict_trace_coll`
+
+</td><td>
+
+Collects trace data from external AI platforms for monitoring and evaluation.
+
+</td></tr></tbody>
+</table>The following plugins aren't installed with AI Control Tower. Install them separately to add the features that they provide.
 
 |Plugin|Plugin ID|Description|
 |------|---------|-----------|
-|AI Security and Privacy|sn\_ai\_security|Provides security and privacy monitoring for AI assets.|
-|AI Discovery|sn\_ai\_disc|Discovers AI assets, agents, and usage from hyperscaler and external AI platform connectors.|
-|AI Control Tower for Now Assist|sn\_aict\_nowassist|Syncs Now Assist AI skills into the AI Control Tower inventory.|
-|Value Dashboard for AI Control Tower|sn\_ai\_value|Provides the Value dashboard for measuring AI investment return and adoption.|
-|Health Dashboard for AI Control Tower|sn\_ai\_health|Provides the Health dashboard for monitoring the operational health of AI systems.|
-|Engagement Dashboard for AI Control Tower|sn\_ai\_engagement|Provides the Engagement dashboard for tracking user engagement with AI assets.|
-|AWH for AI Control Tower|sn\_awh\_config|Configures the Agent Workspace Hub for AI Control Tower.|
-|ServiceNow AI Lens|sn\_ai\_lens|Provides AI reporting and lens capabilities.|
-|Asset Classes|sn\_ent|Required for AI Assets API access. Activate this plugin before configuring API-based integrations to the AI Asset records.|
-|Enterprise Architecture for AICT|com.sn\_ea\_aict|Provides the shared many-to-many data model connecting AI systems and business applications, independently of the plugin. For more information, see [Enterprise Architecture for AICT plugin installation and upgrade considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-ea-common-upgrade-considerations.md).|
+|Enterprise Architecture for AICT|`sn_ea_aict`|Provides the shared many-to-many data model connecting AI systems and business applications, independently of the plugin. For more information, see [Enterprise Architecture for AICT plugin installation and upgrade considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-ea-common-upgrade-considerations.md).|
+|Shadow AI Detection|`sn_shadow_ai`|Detects unsanctioned AI use on your network and endpoints.|
 
 ## Roles installed
+
+Roles installed with AI Control Tower are described in the following tables. When you assign a role, you also assign the roles that it contains.
 
 <table id="table_roles_installed"><thead><tr><th>
 
@@ -66,15 +147,64 @@ AI Steward
 
 </td><td>
 
-Leads the execution of AI Control Tower initiatives, configures governance and approval workflows, and oversees AI asset adoption across the enterprise. Approves or rejects AI asset approval requests, configures Multi-instance Management, activates hyperscaler connections, and sets up MCP client connections.
+Leads the execution of AI Control Tower initiatives and coordinates governance activities between innovation, legal, security, risk, and compliance teams. Configures governance and approval workflows, approves or rejects AI asset approval requests, configures Multi-instance Management, activates hyperscaler connections, sets up MCP client connections, and deactivates or reinstates AI agents to contain security risks.
 
 </td><td>
 
--   sn\_ai\_governance.workspace\_admin
--   sn\_nowassist\_admin.user
--   sn\_aia.admin
 -   aig\_admin
--   sn\_mcp\_client.admin
+-   sn\_ai\_asset\_mgmt.ai\_asset\_owner
+-   sn\_ai\_case\_mgmt.ai\_case\_manager
+-   sn\_ai\_governance.integration.rest
+-   sn\_ai\_governance.workspace\_user
+-   sn\_ai\_opty\_engine.ai\_insight\_user
+-   sn\_ai\_policy\_fwk.admin
+-   sn\_ai\_security.operator
+-   sn\_ai\_security.viewer
+-   sn\_aia.viewer
+-   sn\_awh\_config.awh\_admin
+-   sn\_awh\_config.data\_read
+-   sn\_doc.admin
+-   sn\_generative\_ai.data\_steward
+-   sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_business\_user
+-   sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_reader
+-   sn\_mif.mif\_admin
+-   sn\_mif.mif\_read
+-   sn\_na\_conv\_eval.eval\_admin
+-   sn\_nowassist\_admin.user
+-   sn\_query\_gen.user
+-   sn\_shadow\_ai.admin
+-   sn\_vsc.task\_manager
+-   telemetry\_query\_service\_user
+
+</td></tr><tr><td>
+
+Workspace Administrator
+
+ \[sn\_ai\_governance.workspace\_admin\]
+
+</td><td>
+
+Has all AI Steward permissions. Configures the cards on AI Control Tower pages, including titles, chart types, list sizes, and record conditions. Card configurations that this role saves apply to all users on the instance.
+
+</td><td>
+
+-   sn\_ai\_governance.ai\_steward
+-   sn\_ai\_governance.workspace\_user
+-   aix\_config\_admin
+
+</td></tr><tr><td>
+
+AI Control Tower Workspace User
+
+ \[sn\_ai\_governance.workspace\_user\]
+
+</td><td>
+
+Accesses the AI Control Tower home page and the AI Portfolio tab. Owns and manages AI assets.
+
+</td><td>
+
+
 
 </td></tr><tr><td>
 
@@ -84,135 +214,25 @@ AI Asset Owner
 
 </td><td>
 
-Manages AI systems, AI models, datasets, and prompts through the asset lifecycle from intake to retirement. Confirms that AI assets are represented accurately and kept up to date, and marks Deploy-phase lifecycle tasks complete. Administers the Smart Assessment Editor \(SAE\) application.
+Manages AI systems, AI models, datasets, and prompts through the asset lifecycle from intake to retirement. Confirms that AI assets are represented accurately and kept up to date, and marks Deploy-phase lifecycle tasks complete.
 
 </td><td>
 
-sn\_smart\_asmt.assessment\_admin
-
-</td></tr><tr><td>
-
-AI Risk and Compliance Admin
-
- \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_admin\]
-
-</td><td>
-
-Configures risk assessment methodologies, risk contribution factors, and impact assessment templates. Defines automation rules for impact assessments, sets up and profiles AI case types, and deletes AI systems.
-
-</td><td>
-
--   sn\_risk.admin
--   sn\_smart\_asmt.template\_manager
--   sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager
--   sn\_smart\_asmt.assessment\_admin
--   sn\_grc\_workspace.state\_model\_admin
--   sn\_smart\_asmt.template\_contributor
--   sn\_compliance.admin
--   sn\_compliance.control\_framework\_admin
--   sn\_compliance.library\_admin
--   sn\_compliance.policy\_admin
-
-</td></tr><tr><td>
-
-AI Risk and Compliance Manager
-
- \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager\]
-
-</td><td>
-
-Accesses all AI systems on the instance. Initiates impact assessments, risk assessments, and control attestations, and manages the lifecycle of AI systems.
-
-</td><td>
-
--   sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst
--   sn\_smart\_asmt.template\_contributor
--   sn\_smart\_asmt.template\_manager
--   sn\_risk\_advanced.risk\_asmt\_project\_manager
--   sn\_ai\_case\_mgmt.ai\_case\_manager
--   sn\_risk.manager
--   sn\_compliance.control\_framework\_manager
--   sn\_compliance.library\_manager
--   sn\_compliance.policy\_manager
-
-</td></tr><tr><td>
-
-AI Risk and Compliance Analyst
-
- \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst\]
-
-</td><td>
-
-Performs impact assessments, risk assessments, control attestations, and lifecycle management on the AI systems assigned to the analyst.
-
-</td><td>
-
--   sn\_ai\_case\_mgmt.ai\_case\_analyst
--   sn\_smart\_asmt.assessment\_reader
--   sn\_smart\_asmt.template\_reader
+-   aix\_read
+-   sn\_ai\_governance.workspace\_user
+-   sn\_ai\_opty\_engine.ai\_insight\_user
 -   sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_business\_user
--   sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_reader
--   sn\_grc\_workspace.user
--   sn\_grc\_workspace.state\_model\_reader
--   sn\_risk.user
--   sn\_risk\_advanced.ara\_creator
--   sn\_risk\_advanced.ara\_assessor
--   sn\_risk\_advanced.ara\_approver
--   sn\_risk\_advanced.risk\_asmt\_project\_user
--   sn\_compliance.control\_framework\_user
--   sn\_compliance.library\_user
--   sn\_compliance.policy\_user
+-   sn\_vsc.task\_manager
 
 </td></tr><tr><td>
 
-AI Risk and Compliance User
+AI Observability Admin
 
- \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_business\_user\]
-
-</td><td>
-
-Creates AI cases through Employee Center, works on assigned tasks, and completes control attestations.
+ \[sn\_ai\_observe.ai\_observability\_admin\]
 
 </td><td>
 
--   sn\_grc\_workspace.assessment\_template\_configuration\_reader
--   sn\_smart\_asmt.actor
--   sn\_grc\_workspace.user
--   sn\_smart\_asmt.assessment\_reader
--   sn\_risk\_advanced.risk\_asmt\_project\_reader
--   sn\_grc.business\_user
--   sn\_compliance.control\_framework\_business\_user
--   sn\_compliance.library\_business\_user
--   sn\_compliance.policy\_business\_user
-
-</td></tr><tr><td>
-
-AI Risk and Compliance Reader
-
- \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_reader\]
-
-</td><td>
-
-Reads AI system records and AI impact assessment records.
-
-</td><td>
-
--   sn\_grc\_workspace.user
--   sn\_grc\_workspace.state\_model\_reader
--   sn\_risk.reader
--   sn\_compliance.library\_reader
--   sn\_compliance.control\_framework\_reader
--   sn\_compliance.policy\_reader
-
-</td></tr><tr><td>
-
-AI System Reader
-
- \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_ai\_system\_reader\]
-
-</td><td>
-
-Reads AI system records in both the AI Control Tower workspace and the AI Risk and Compliance workspace.
+Accesses and manages evaluation data, including sessions, traces, and spans.
 
 </td><td>
 
@@ -220,65 +240,173 @@ None
 
 </td></tr><tr><td>
 
-AI Case Business User
+AI Policy Framework Admin
 
- \[sn\_ai\_case\_mgmt.ai\_case\_business\_user\]
-
-</td><td>
-
-Creates AI cases and AI inquiries in Employee Center.
+ \[sn\_ai\_policy\_fwk.admin\]
 
 </td><td>
 
-sn\_grc\_case\_mgmt.grc\_case\_business\_user
+Has full access to AI Policy Framework records, including execution audit records.
+
+</td><td>
+
+sn\_ai\_policy\_fwk.viewer
 
 </td></tr><tr><td>
 
-AI Case Analyst
+AI Policy Framework Viewer
 
- \[sn\_ai\_case\_mgmt.ai\_case\_analyst\]
-
-</td><td>
-
-Reviews AI cases and AI inquiries assigned to the analyst. Identifies and manages impacted policies, regulations, and compliance risks, and addresses root-cause issues.
+ \[sn\_ai\_policy\_fwk.viewer\]
 
 </td><td>
 
--   sn\_grc\_case\_mgmt.grc\_case\_analyst
--   sn\_ai\_case\_mgmt.ai\_case\_business\_user
+Views and reports on AI Policy Framework connectors, actions, and instances, and views execution audit history.
+
+</td><td>
+
+None
 
 </td></tr><tr><td>
 
-AI Case Manager
+AI Security Operator
 
- \[sn\_ai\_case\_mgmt.ai\_case\_manager\]
-
-</td><td>
-
-Reviews all AI cases and AI inquiries across the organization. Monitors case volume and severity and oversees case resolution.
+ \[sn\_ai\_security.operator\]
 
 </td><td>
 
--   sn\_ai\_case\_mgmt.ai\_case\_analyst
--   sn\_grc\_case\_mgmt.grc\_case\_manager
+Deactivates and reinstates AI agents using kill switch protocol. Also views the agent containment list. Every AI Steward has this role.
+
+</td><td>
+
+sn\_ai\_security.viewer
 
 </td></tr><tr><td>
 
-AI Case Admin
+AI Security Viewer
 
- \[sn\_ai\_case\_mgmt.ai\_case\_admin\]
-
-</td><td>
-
-Configures AI case types, state models, assignment rules, and assessment templates. Deletes AI cases.
+ \[sn\_ai\_security.viewer\]
 
 </td><td>
 
--   sn\_grc\_case\_mgmt.grc\_case\_admin
--   sn\_ai\_case\_mgmt.ai\_case\_manager
+Views AI Security and Privacy information, including the Access Map.
+
+</td><td>
+
+-   data\_privacy\_channel\_auditor
+-   data\_privacy\_telemetry\_accessor
+-   sn\_aia.viewer
+-   sn\_na\_analytics.viewer
+
+</td></tr><tr><td>
+
+AWH Admin
+
+ \[sn\_awh\_config.awh\_admin\]
+
+</td><td>
+
+Configures AWH for AI Control Tower.
+
+</td><td>
+
+-   sn\_awh\_config.awh\_read
+-   sn\_awh\_config.data\_read
+
+</td></tr><tr><td>
+
+AWH Reader
+
+ \[sn\_awh\_config.awh\_read\]
+
+</td><td>
+
+Views the AWH configuration.
+
+</td><td>
+
+sn\_awh\_config.data\_read
+
+</td></tr><tr><td>
+
+AI Discovery Admin
+
+ \[sn\_ai\_disc.discovery\_admin\]
+
+</td><td>
+
+Administers AI Discovery and its connections. Installed with the AI Discovery plugin.
+
+</td><td>
+
+-   connection\_admin
+-   sn\_ai\_governance.ai\_steward
+-   sn\_cmdb\_int\_util.sgc\_admin
+
+</td></tr></tbody>
+</table>For the roles installed with AI Risk and Compliance and AI Case Management, see [Roles installed with AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/roles-installed-with-ai-risk-and-compliance.md).
+
+<table id="table_roles_integration"><thead><tr><th>
+
+Role title \[name\]
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Integration REST
+
+ \[sn\_ai\_governance.integration.rest\]
+
+</td><td>
+
+Provides read-only access to AI asset inventory and governance data for ServiceNow products and third-party platforms, including asset details, assessments, risks, controls, issues, policy exceptions, and lifecycle information.
+
+</td></tr><tr><td>
+
+External Registry Editor
+
+ \[sn\_ai\_governance.external\_registry\_editor\]
+
+</td><td>
+
+Allows an approved partner service account, such as Microsoft Agent365, to sync discovered agent registration status through the External Registration Sync API.
+
+</td></tr><tr><td>
+
+Retrieve Publishable Asset
+
+ \[sn\_ai\_governance.retrieve\_publishable\_asset\]
+
+</td><td>
+
+Allows a service account to retrieve ServiceNow AI assets that are marked as publishable. Intended for third-party platforms such as Microsoft Admin Center.
+
+</td></tr><tr><td>
+
+AI Data Sender
+
+ \[sn\_ai\_observe.ai\_data\_sender\]
+
+</td><td>
+
+Sends and retrieves evaluation data through API calls.
+
+</td></tr><tr><td>
+
+AWH Integration REST
+
+ \[sn\_awh\_config.integration.rest\]
+
+</td><td>
+
+Provides access to the AWH Gateway REST API.
 
 </td></tr></tbody>
 </table>## Tables installed
+
+The following tables store the AI assets, governance records, and monitoring data that you work with in AI Control Tower.
 
 <table id="table_tables_installed"><thead><tr><th>
 
@@ -330,43 +458,13 @@ Records for AI prompt assets. Prompt assets are created from the AI Control Towe
 
 </td></tr><tr><td>
 
-AI System Component Product Model
+MCP Digital Asset
 
- \[cmdb\_ai\_system\_component\_product\_model\]
-
-</td><td>
-
-Product model attributes for AI system assets. Linked 1:1 to the AI System Digital Asset record.
-
-</td></tr><tr><td>
-
-AI Model Product Model
-
- \[cmdb\_ai\_model\_product\_model\]
+ \[alm\_mcp\_digital\_asset\]
 
 </td><td>
 
-Product model attributes for AI model assets. Linked many-to-one to the AI Model Digital Asset record.
-
-</td></tr><tr><td>
-
-AI Dataset Product Model
-
- \[cmdb\_ai\_dataset\_product\_model\]
-
-</td><td>
-
-Product model attributes for AI dataset assets.
-
-</td></tr><tr><td>
-
-AI Prompt Product Model
-
- \[cmdb\_ai\_prompt\_product\_model\]
-
-</td><td>
-
-Product model attributes for AI prompt assets.
+Records for Model Context Protocol \(MCP\) server assets, including a link to the external server documentation.
 
 </td></tr><tr><td>
 
@@ -427,6 +525,36 @@ AI System
 </td><td>
 
 Operational AI system record used by AI Risk and Compliance. Drives risk assessments, compliance workflows, and regulatory tracking. Created when the AI Steward starts the lifecycle review for an AI system.
+
+</td></tr><tr><td>
+
+Evaluated sessions
+
+ \[sn\_ai\_observe\_ai\_session\]
+
+</td><td>
+
+Records for evaluated AI sessions. Captures cost, token counts, and quality, safety, and task completeness scores for each session.
+
+</td></tr><tr><td>
+
+Evaluated traces
+
+ \[sn\_ai\_observe\_ai\_trace\]
+
+</td><td>
+
+Records for the evaluated traces in a session. Captures cost, token counts, duration, and scores such as quality, safety, completeness, tone, and output toxicity.
+
+</td></tr><tr><td>
+
+Connections
+
+ \[sn\_aict\_trace\_coll\_collector\_config\]
+
+</td><td>
+
+Connections that collect trace data from external AI platforms. Captures the credential, MID Server, collection frequency, and last collection status. Installed with the AI Trace Collector plugin.
 
 </td></tr><tr><td>
 

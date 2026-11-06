@@ -76,7 +76,7 @@ Exclusively Used
 By default, it is selected as **Yes**. Select **No** if you want to use the rack unit for multiple pieces of equipment. Also, on not selecting this field, you can place equipments in both the front and rear sides of the rack.**Note:**
 
 -   On selecting yes, the selected equipment occupies both front and rear of rack units.
--   You can place multiple pieces of equipment only on a **Shelf** equipment holder type. To learn more, see [ef50e6a82895815b2866410c0972666bc0a3bad3.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-tni-equipment-holders.md).
+-   You can place multiple pieces of equipment only on a **Shelf** equipment holder type. To learn more, see [97cbb0ebaaf9181e528f50a636a270ad5566c3e1.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-tni-equipment-holders.md).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)

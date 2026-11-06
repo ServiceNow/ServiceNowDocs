@@ -30,7 +30,7 @@ Role required: sn\_bcm.program\_manager or sn\_bcm.planner
 
 4.  To update an existing BIA, click the link to the record in the **Name** column.
 
-    You can view different cards that give the information on the impact assessment result, its progress, and the dependencies of the business process on business application, hardware, software, or vendors.
+    Cards display the impact assessment result and its progress. They also show business process dependencies on applications, hardware, software, or vendors.
 
     \[Omitted image "BIAImpactAssessmentDependencyView.png"\] Alt text: Impact assessment and dependency view of BIA
 
@@ -59,7 +59,7 @@ Role required: sn\_bcm.program\_manager or sn\_bcm.planner
 
     -   **BIA SLA**
 
-        The business impact analysis also requires a specific time by which the assessment of a business process must be completed. By default, the SLA timer is set to 30 days and it marks the time since the BIA is drafted, which is **In Draft** state, until the time it is complete, which is **Approved** state.
+        The business impact analysis requires a time limit for completing the assessment of a business process. By default, the SLA timer is set to 30 days. It tracks the time from the **In Draft** state to the **Approved** state.
 
 5.  To assess the different types of business impact categories on the business process, click the **RTO Impact Assessment** tab.
 
@@ -77,15 +77,15 @@ Role required: sn\_bcm.program\_manager or sn\_bcm.planner
 
         The order in which the impact categories appear in the **RTO Impact Assessment**, **RPO Impact Assessment**, and **Dependency Assessment** tabs depend on the order in which the impact categories are created in the template that is used in the BIA.
 
-        The order of impact rating in the RTO impact assessment grid and the order of the questions in the RPO impact assessment grid are defined by the impact rating scale and the impact analysis questions in the BIA, respectively.
+        The impact rating scale in the BIA defines the order of impact ratings in the RTO impact assessment grid. The impact analysis questions in the BIA define the order of questions in the RPO impact assessment grid.
 
         However, any user who can access the BIA can change the order of the RPO impact grid, RTO impact categories, and dependency groups.
 
     -   **Columns in dependency group grid**
 
-        If you had set up column configurations for an element of a dependency group and enabled your grid configuration as active, then you can view those columns in the dependency grid for the corresponding dependency group in which element definition matches with the grid configuration element definition.
+        Set up column configurations for a dependency group element and activate the grid configuration. The dependency grid then displays those columns for the matching dependency group, where the element definition matches the grid configuration.
 
-        Otherwise, you can view the grid that is rendered based on the configured view; that is either IT asset or non-IT asset view based on the required data backup value of the dependency group.
+        Otherwise, the grid renders based on the configured view. The view is either IT asset or non-IT asset, determined by the required data backup value of the dependency group.
 
         \[Omitted image "GridConfigBCMWS.png"\] Alt text: Grid columns for dependency assessment.
 

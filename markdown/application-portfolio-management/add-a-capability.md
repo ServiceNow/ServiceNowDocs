@@ -16,7 +16,7 @@ Add a business capability to the capability hierarchy map.
 
 ## Before you begin
 
-Role required: sn\_apm.apm\_analyst
+Role required: sn\_apm.apm\_user
 
 ## Procedure
 

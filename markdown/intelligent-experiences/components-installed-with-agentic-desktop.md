@@ -257,7 +257,7 @@ sn\_desktop\_core.enable\_reusable\_assets
 
 </td><td>
 
-Allows turning on or off the Reusable Skills feature enables reuse of recorded desktop actions as deterministic assets that execute from user prompts in the AI Desktop Actions application \(macOS\).-   Type: true \| false
+Allows enabling or disabling the Reusable Skills feature for adaptive desktop actions on macOS. When enabled, the feature lets AI Desktop Actions record the desktop actions as deterministic assets that gets created from user prompts and reuse these for next executions for similar tasks.-   Type: true \| false
 -   Default: false
 
 Roles and permissions

@@ -9,7 +9,7 @@ classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Setup the Business Portal, Configure Business Portal, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Set up Business and Consumer Portal, Configure Business Portal, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Setup the theme for Business Portal

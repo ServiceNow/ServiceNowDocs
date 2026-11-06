@@ -26,7 +26,7 @@ Watch this video to learn how to generate the resolution notes for a case.
 
 \[Omitted video\] Description: Generate resolution notes for a case
 
-You can generate resolution notes for a case in both the CRM Workspace and Core UI. Use the Now Assist context menu within the resolution notes field in the case form.
+You can generate resolution notes for a case in both the CSM Configurable Workspace and Core UI. Use the Now Assist context menu within the resolution notes field in the case form.
 
 An agent can do these actions by using the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\]:
 

@@ -19,7 +19,7 @@ A cloud account is the logical representation in Cloud Provisioning and Governan
 From a cloud account, you can:
 
 -   Add LDCs. A logical datacenter \(LDC\) is a region-specific virtual cloud that is associated with a service account. The datacenter hosts your cloud resources.
--   Run Discovery on LDCs to update the CMDB with configuration changes or life cycle changes \(create/modify/terminate\) for each resource in each logical datacenter \(LDC\) that is associated with the cloud account.
+-   Run Discovery on LDCs to update the CMDB with configuration changes or life cycle changes \(create/modify/terminate\). This applies to each resource in each logical datacenter \(LDC\) that is associated with the cloud account.
 -   Set capacity limits on cloud services like virtual machines, virtual CPUs, virtual networks, aggregate storage volume size, and others. Set limits to help ensure that cloud resources are provisioned at appropriate scales. Limits are especially important for capacity-constrained environments like private clouds.
 -   Publish a cloud account to enable business teams to deploy stacks.
 

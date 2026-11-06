@@ -41,13 +41,13 @@ ServiceNow
 
 </th></tr></thead><tbody><tr><td>
 
-Last tested on February 26, 2026
+Last tested on August 31, 2026
 
 </td><td>
 
--   Yokohama
 -   Zurich
 -   Australia
+-   Brazil
 
 </td></tr></tbody>
 </table>## Use cases

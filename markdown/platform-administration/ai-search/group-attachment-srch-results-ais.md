@@ -8,8 +8,8 @@ product: AI Search
 classification: ai-search
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Search application configurations, Configure, AI Search, Search administration, Configure core features, Administer]
+reading_time_minutes: 2
+breadcrumb: [Grouping attachment search results with their parent results, Search application configurations, Configure, AI Search, Search administration, Configure core features, Administer]
 ---
 
 # Group attachment search results with their parent results
@@ -28,7 +28,7 @@ Role required: search\_application\_admin
 
 Attachment grouping is enabled by default for new search application configuration records. You only need to perform this procedure to enable attachment grouping for existing search application configuration records after upgrading from a previous release.
 
-For details on how attachment grouping appears in the search results list and how you can interact with grouped attachment search results, see .
+For details on how attachment grouping appears in the search results list and how you can interact with grouped attachment search results, see [Grouping attachment search results with their parent search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/grouping-attachment-srch-results-ais.md).
 
 ## Procedure
 
@@ -47,5 +47,5 @@ For details on how attachment grouping appears in the search results list and ho
 
 AI Search groups matching attachment search results with their parent record results on the search application results page.
 
-**Parent Topic:**[Search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/defining-search-app-cfgs-ais.md)
+**Parent Topic:**[Grouping attachment search results with their parent search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/grouping-attachment-srch-results-ais.md)
 

@@ -16,6 +16,8 @@ breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards
 
 You can embed reports in any Jelly-based element, such as a UI page.
 
+**Note:** This topic refers to Core UI reports, not Platform Analytics data visualizations.
+
 ## Enabling Embedding
 
 To enable embedding reports in Jelly, add the following element to your Jelly code.

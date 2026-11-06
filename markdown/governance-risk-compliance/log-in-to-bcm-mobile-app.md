@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-complian
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Managing plans with BCM mobile application, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -89,9 +89,9 @@ Enter a nickname for this instance. If you have multiple instances added to the 
 6.  Access the BCM mobile app interface.
 
 
-If the instances screen for the BCM mobile app isn’t displayed after you tap the ServiceNow Agent app on your device, verify that the ServiceNow Agent app is permitted as a trusted app on your device. To permit access as a trusted app, navigate to the settings and general device management on your device and tap the option \(**Trust app**, and so on\) to permit access.
+If the instances screen for the BCM mobile app isn’t displayed after you tap the ServiceNow Agent app, verify that the app is permitted as a trusted app. Navigate to **Settings** &gt; **General** &gt; **Device Management** and select the trust option for the app.
 
-If an error message is displayed after you enter your credentials in the log in screen, verify that your User name and password for the ServiceNow AI Platform instance is correct.
+If an error message is displayed after you enter your credentials in the log in screen, verify your user name and password. Confirm that both are correct for the ServiceNow AI Platform instance.
 
 If you have problems viewing the landing screen, verify your network connection.
 

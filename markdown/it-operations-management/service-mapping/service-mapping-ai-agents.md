@@ -27,7 +27,7 @@ The ITOM AI Agents for Service Mapping application \[sn\_sm\_gen\_ai\] provides 
 
     Automatically creates ML-based service maps from Application Service Candidates \(ASCs\) and persists the full service topology in the CMDB. The Agent roles:
 
-    -   Evaluates ML-powered candidates, focuses on those with a high-confidence name suggestion source such as Service Fingerprints \(SFPs\).
+    -   Evaluates ML-powered candidates and identifies the application from their running processes.
     -   Filters out noise \(such as monitoring clients, security clients, and operating system processes\),
     -   Creates the service topology.
     Created service maps are set to non-operational by default so that the Service Mapping administrator can review them before making them operational.
@@ -58,7 +58,7 @@ Consider a bank that has a payment application defined as a business application
 
 Business stakeholders are only concerned with the payment application at the top level. They need it connected to all the relevant discovered services so they can monitor health and impact. Manually maintaining these connections as new application services are created is impractical. The Business App Mapping AI Agent solves this by iterating over all business applications and automatically finding and connecting the matching discovered services. It works top-down, from the smaller set of business applications to the larger set of discovered application services.
 
-In a typical scenario, an organization runs hundreds of servers and generates a large number of ML-powered candidates daily. A Service Mapping administrator who previously had to manually evaluate each candidate and create a service map can instead activate the Service Mapping AI Agent. The agent processes all high-confidence candidates automatically, creates service maps, and sets them to non-operational for administrator review.
+In a typical scenario, an organization runs hundreds of servers and generates a large number of ML-powered candidates daily. A Service Mapping administrator who previously had to manually evaluate each candidate and create a service map can instead activate the Service Mapping AI Agent. The agent processes the candidates automatically, creates service maps for those that contain a business application, and sets the maps to non-operational for administrator review.
 
 Organizations using cloud infrastructure often apply metadata tags to virtual machines for organization and governance. However, manual service creation from these tags is time-consuming and error-prone, especially at scale. The Tag-Based Service Map Creation AI Agent solves this by:
 
@@ -67,14 +67,16 @@ Organizations using cloud infrastructure often apply metadata tags to virtual ma
 
 ## How AI Agents work
 
-All agents use a ReAct \(Reasoning and Acting\) strategy. The agent reasons about each step before deciding which tool to invoke. After activation, a script runs every 15 minutes. On each run, the agent processes all relevant records in a single batch — for example, all business applications in the system. No per-record input from an administrator is required.
+All agents use a ReAct \(Reasoning and Acting\) strategy. The agent reasons about each step before deciding which tool to invoke. After activation, the **SM Gen AI - Agent Invocation Orchestrator** scheduled job runs every 15 minutes. No per-record input from an administrator is required. The agents skip a candidate that they processed in the last 90 days.
+
+If the platform returns a temporary error, the job ends the run. An example is reaching the limit of concurrent AI agent plans. The job processes the candidate at the next run. If an invocation fails for any other reason, the job doesn't retry the candidate automatically.
 
 Service Mapping AI Agent process:
 
 1.  The agent retrieves full ML candidate data from the Application Service Candidate \(ASC\) record, including the candidate name, process name, and server count.
 2.  The agent performs a noise check. If the candidate is flagged as noise, such as monitoring clients, security clients, or operating system processes, the agent skips it.
 3.  The agent retrieves all running processes associated with the candidate.
-4.  The agent analyzes the data and reasons about what the actual service is, prioritizing candidates with a high-confidence name suggestion source such as Service Fingerprints \(SFPs\).
+4.  The agent analyzes the running processes and reasons about what the actual service is, using signals such as executable paths and application IDs.
 5.  The agent creates the service topology in the CMDB and sets the service to non-operational. If a topology for the same candidate already exists, the agent skips creation.
 
 
@@ -111,14 +113,14 @@ Service maps created by any AI Agent are non-operational by default and can be m
 
 ## AI Agent processing quota
 
-Each AI Agent can process up to 100 records by default. When an AI Agent reaches this limit, it stops processing and its status is set to **Paused**.
+Each AI Agent can process up to 100 records by default. When an AI Agent reaches this limit, it stops processing and its status is set to **Paused**. The agent stays stopped until you raise the quota.
 
 To raise the quota and reactivate the agents, first configure the following properties:
 
-1.  For the Service Mapping AI Agent: sn\_sm\_gen\_ai.agent\_invocation\_limit.ServiceMapCreationAISpecialist
-2.  For the Tag-Based Service Map Creation AI Agent: sn\_sm\_gen\_ai.agent\_invocation\_limit.TagBasedServiceMapCreationAISpecialist
+1.  For the Service Mapping AI Agent: **sn\_sm\_gen\_ai.agent\_invocation\_limit.ServiceMapCreationAISpecialist**
+2.  For the Tag-Based Service Map Creation AI Agent: **sn\_sm\_gen\_ai.agent\_invocation\_limit.TagBasedServiceMapCreationAISpecialist**
 
-You can change the value according to your needs, with consideration of your AI resources. After raising the quota, reactivate the Service Mapping AI Agents in the Service Mapping workspace.
+You can change the value based on your available AI resources. After raising the quota, reactivate the Service Mapping AI Agents in the Service Mapping workspace.
 
 **Note:** Raising the quota results in a higher AI resource consumption.
 

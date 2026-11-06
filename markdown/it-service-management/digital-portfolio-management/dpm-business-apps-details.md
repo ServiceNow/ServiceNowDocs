@@ -309,7 +309,7 @@ Performance details about the business application. You can select a card indica
 
  Each of these indicators also includes records when:
 
--   The record references an service instance that is related to the business application, and
+-   The record references a service instance that is related to the business application, and
 -   The record directly references the business application.
 
 </td></tr><tr><td>
@@ -358,7 +358,7 @@ Performance details about the business application. You can select a card indica
 
  Each of these indicators also includes records when:
 
--   The record references an service instance that is related to the business application, and
+-   The record references a service instance that is related to the business application, and
 -   The record directly references the business application.
 
 </td></tr><tr><td>

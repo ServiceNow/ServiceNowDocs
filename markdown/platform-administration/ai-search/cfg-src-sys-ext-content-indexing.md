@@ -93,7 +93,7 @@ Each external content connector has its own source system configuration requirem
 
 [Configure SAP DMS for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-sap-dms-external-content-indexing.md)
 
-[Configure your ServiceNow AI Platform instance for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-sn-aip-instance-external-content-indexing.md)
+[Configure your ServiceNow AI Platform source instance for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-sn-aip-instance-external-content-indexing.md)
 
 [Configure Slack for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/cfg-src-sys-settings-slack-ext-cont-connector.md)
 

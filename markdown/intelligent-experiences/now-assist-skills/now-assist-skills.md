@@ -669,7 +669,7 @@ Impact
 -   [Jumpstart Your Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/impact/jumpstart-now-assist-creator.md)
 -   [Jumpstart Your Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/impact/jumpstart-your-now-assist-document-intelligence.md)
 -   [Jumpstart Your Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/impact/jumpstart-now-assist-virtual-agent.md)
--   [Jumpstart Your Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/impact/jumpstart-now-assist-skill-kit.md)
+-   [Jumpstart Your ServiceNow AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/impact/jumpstart-now-assist-skill-kit.md)
 
 </td></tr><tr><td>
 

@@ -34,7 +34,7 @@ For information on building a plan template that pre-populates these records, se
 
 3.  Enter a name for the plan and fill in the remaining required fields.
 
-    For more information on the fields, see [Create New Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-plan-bcp-uib-ws-reference-form.md).
+    For more information on the fields, see [Create Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-new-plan-bcp-uib-ws-reference-form.md).
 
 4.  Select **Save**.
 

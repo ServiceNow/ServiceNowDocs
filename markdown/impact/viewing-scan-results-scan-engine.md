@@ -18,7 +18,7 @@ You can view scans in real-time as they run, or after they're completed. 
 
 -   Fully configure the general and additional Scan Engine properties.
 
-    See [Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-scan-engine-properties.md) and [Manage definition properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/additional-scan-engine-properties.md).
+    See [Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-scan-engine-properties.md) and [Manage definition properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/additional-scan-engine-properties.md).
 
 -   Role required: Scan Engine User \(`sn_se.scan_engine_user`\), Scan Engine Admin \(`(sn_se.scan_engine_admin`\) or Impact specific roles \(Impact App Admin, Impact Platform Owner, Impact Development Team Lead, Impact Executive, Impact Developer\).
 
@@ -30,7 +30,7 @@ You can view scans in real-time as they run, or after they're completed. 
 
     The following information about the scan displays.
 
-<table id="choicetable_ojz_rmk_hhc"><tbody><tr><td id="d77120e127">
+<table id="choicetable_ojz_rmk_hhc"><tbody><tr><td id="d77151e127">
 
 **Scan number**
 
@@ -38,7 +38,7 @@ You can view scans in real-time as they run, or after they're completed. 
 
 ID number assigned to the scan
 
-</td></tr><tr><td id="d77120e136">
+</td></tr><tr><td id="d77151e136">
 
 **Type of scan **
 
@@ -46,7 +46,7 @@ ID number assigned to the scan
 
 Type of scan being run
 
-</td></tr><tr><td id="d77120e145">
+</td></tr><tr><td id="d77151e145">
 
 **Status**
 
@@ -54,7 +54,7 @@ Type of scan being run
 
 Status of the scan \(active, finished, or encountered errors\) 
 
-</td></tr><tr><td id="d77120e154">
+</td></tr><tr><td id="d77151e154">
 
 **Scan duration**
 
@@ -62,7 +62,7 @@ Status of the scan \(active, finished, or encountered errors\) 
 
 How long the scan has been running
 
-</td></tr><tr><td id="d77120e163">
+</td></tr><tr><td id="d77151e163">
 
 **Estimated time remaining**
 
@@ -70,7 +70,7 @@ How long the scan has been running
 
 How much time is left until the scan is completed
 
-</td></tr><tr><td id="d77120e173">
+</td></tr><tr><td id="d77151e173">
 
 **Percent complete**
 
@@ -87,7 +87,7 @@ Percentage of how close the scan is to completing
     4.  Complete
 3.  On the **Actions** menu, select any of the following as needed.
 
-<table id="choicetable_e3k_nnk_hhc"><tbody><tr><td id="d77120e211">
+<table id="choicetable_e3k_nnk_hhc"><tbody><tr><td id="d77151e211">
 
 **View Summary Scan Record **
 
@@ -95,7 +95,7 @@ Percentage of how close the scan is to completing
 
 Open the summary results for the scan.
 
-</td></tr><tr><td id="d77120e220">
+</td></tr><tr><td id="d77151e220">
 
 **Cancel this scan**
 
@@ -103,7 +103,7 @@ Open the summary results for the scan.
 
 Cancel the scan before it completes.
 
-</td></tr><tr><td id="d77120e229">
+</td></tr><tr><td id="d77151e229">
 
 **Reload page**
 
@@ -114,7 +114,7 @@ Refresh the page.
 </td></tr></tbody>
 </table>    The following tabs display scan information.
 
-<table id="choicetable_g11_5nk_hhc"><tbody><tr><td id="d77120e244">
+<table id="choicetable_g11_5nk_hhc"><tbody><tr><td id="d77151e244">
 
 **Batch**
 
@@ -122,7 +122,7 @@ Refresh the page.
 
 The batches currently being scanned. Each batch shows its own progress bar.  To skip a batch, select the option to the right of the batch to skip.
 
-</td></tr><tr><td id="d77120e255">
+</td></tr><tr><td id="d77151e255">
 
 **Status history**
 
@@ -130,7 +130,7 @@ The batches currently being scanned. Each batch shows its own progress bar. �
 
 Status messages that displayed during the scan. 
 
-</td></tr><tr><td id="d77120e264">
+</td></tr><tr><td id="d77151e264">
 
 **Message**
 

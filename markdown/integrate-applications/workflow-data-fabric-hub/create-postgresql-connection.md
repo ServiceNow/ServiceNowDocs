@@ -82,7 +82,7 @@ Connection URL
 
 </td><td>
 
-JDBC URL to establish the connection. For example:`jdbc://postgresql://<host>:<port>/database-name?ssl=true&sslmode=require`
+JDBC URL to establish the connection. For example:`jdbc:postgresql://<host>:<port>/<database>?sslmode=require`
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

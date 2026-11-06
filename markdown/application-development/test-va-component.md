@@ -18,7 +18,7 @@ Test your Virtual Agent custom component before deploying it to your instance.
 
 -   Set up your environment. For instructions, see the [ServiceNow® Developer Site](https://developer.servicenow.com/dev.do#!/reference/next-experience/xanadu/cli/getting-started).
 -   Set up your component project. For instructions, see the [ServiceNow® Developer Site](https://developer.servicenow.com/dev.do#!/reference/next-experience/xanadu/cli/cli)
--   Develop your component. For instructions, see the ServiceNow® Developer Site
+-   Develop your component.
 -   [Add properties to communicate with Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/add-va-properties.md)
 
 Role required: virtual\_agent\_admin or admin

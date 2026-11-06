@@ -20,7 +20,7 @@ The ServiceNow® Talent profile application helps you get an aggregated view of 
 -   Improve talent visibility for hiring by creating talent profiles and pools.
 -   Make better sourcing, screening, and interview management decisions across all talent types by tracking their past interactions with the organization.
 
-See [Talent Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/talent-profile-ovrvw.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -39,35 +39,35 @@ The ServiceNow® Talent profile application helps you get an aggregated view of 
 
 ### What's new
 
--   **[Create Talent pools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/create-talent-pool.md)**
+-   ****
 
     Create talent pools to organize similar talent profiles in one place for particular hiring requirements. You can share and collaborate using talent pools and also send out communications to all talent profiles in the pool at once.
 
--   **[Copy talent to pool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/copy-talent-other-pool.md)**
+-   ****
 
     Use existing talent pools to associate suitable talent profiles from the pools to your talent pool.
 
--   **[Remove talent profiles from a pool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/remove-talent-from-pool.md)**
+-   ****
 
     As an owner of the pool or one of the collaborators, remove the talent profiles that are no longer required.
 
--   **[Delete a Talent pool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/delete-talent-pool.md)**
+-   ****
 
     Delete a talent pool when it has served its purpose or is no longer relevant.
 
--   **[Create talent profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/create-talent-ta.md)**
+-   ****
 
     Create talent profiles to add it to the talent profile repository of your organization and use it for an optimized hiring process.
 
--   **[Filter talent profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/filter-tp.md)**
+-   ****
 
     Use filter options to find relevant talent profiles more efficiently in the **Talent pool** tab.
 
--   **[Add talent profiles to a Talent pool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/add-talent-to-pool.md)**
+-   ****
 
     Add similar talent profiles to a talent pool to streamline communication to all the profiles during a particular hiring drive.
 
--   **[Copy talent profiles as job prospects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/copy-talent-to-leads.md)**
+-   ****
 
     Copy talent profiles from a talent pool to a particular job requisition as prospects.
 

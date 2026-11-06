@@ -18,6 +18,8 @@ Configure the Knowledge content management skill to enable admins and managers t
 
 ## Before you begin
 
+A data set of at least 2000 articles is necessary for the AI duplicate feature to work reliably.
+
 Role required: knowledge\_admin and knowledge\_manager
 
 ## About this task

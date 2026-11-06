@@ -8,7 +8,7 @@ product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: concept
 last_updated: "2025-10-09"
-reading_time_minutes: 11
+reading_time_minutes: 12
 keywords: [Discovery role, Pattern role]
 breadcrumb: [ITOM Visibility, IT Operations Management]
 ---

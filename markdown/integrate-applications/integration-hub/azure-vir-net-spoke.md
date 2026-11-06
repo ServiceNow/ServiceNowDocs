@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Microsoft Azure Virtual Network spoke v2.0.0 is the latest version.
+Microsoft Azure Virtual Network spoke v2.0.1 is the latest version.
 
 ## Spoke dependencies
 

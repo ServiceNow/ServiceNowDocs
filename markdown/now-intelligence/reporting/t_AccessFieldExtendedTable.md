@@ -29,6 +29,8 @@ Role required: report\_admin.
 
 ## About this task
 
+**Note:** This topic refers to Core UI reports, not Platform Analytics data visualizations.
+
 Watch this six-minute video to learn how to include fields on extended tables in reports by starting with the parent table.
 
 \[Omitted video\] Description: How to include fields on extended tables that aren't available through dot-walking

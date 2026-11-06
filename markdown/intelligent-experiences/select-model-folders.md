@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-27"
 reading_time_minutes: 1
 keywords: [general settings, AI model, workspace folders, local models]
-breadcrumb: [Use, ServiceNow Cowork, Enable AI experiences]
+breadcrumb: [Use, ServiceNow Arc, Enable AI experiences]
 ---
 
 # Select AI model and workspace folders
@@ -17,7 +17,7 @@ Select the AI model the agent uses, confirm its connection, and set the folders 
 
 ## Before you begin
 
-Role required: sn\_app\_cowork.user
+Role required: sn\_app\_arc.user
 
 ## Procedure
 
@@ -31,6 +31,8 @@ Role required: sn\_app\_cowork.user
 
 4.  Under Workspace, set the folders the agent can read and write without prompting for approval.
 
+    Commands run in your primary folder, and new files are saved there.
+
     -   To add a folder, select **Add folder** and **Mark as primary** to make it your primary folder.
     -   To change a folder, select the edit icon next to it.
     -   To remove a folder, select the remove icon next to it and select **Remove folder** in the dialog box.
@@ -42,7 +44,7 @@ Role required: sn\_app\_cowork.user
 
 ## Result
 
-The agent uses the model you selected, and a prompt appears before the agent reads or writes anything outside your workspace folders.
+The agent uses the model you selected. Before the agent reads or changes anything outside your workspace folders, it asks for your approval and you can select **Always Allow** for that path. You can revoke it later in **Settings** &gt; **Approvals**. Sensitive paths, such as SSH keys and system folders, stay blocked.
 
-**Parent Topic:**[Using ServiceNow Cowork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-cowork-using.md)
+**Parent Topic:**[Using ServiceNow Arc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-cowork-using.md)
 

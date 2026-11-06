@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-ma
 release: zurich
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Working with Dashboards, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
@@ -15,8 +15,6 @@ breadcrumb: [Working with Dashboards, Manage, Enterprise Architecture Workspace,
 You can use the conversational interface provided by AI Data Explorer ServiceNow Otto skill to query and analyze data from Enterprise Architecture Workspace dashboards. Instead of manually reviewing dashboard visualizations, you can use the AI Data Explorer to ask natural language questions to retrieve insights and identify trends.
 
 ## Before you begin
-
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 AI Data Explorer, Query Generation ServiceNow Otto skills must be activated. Also, AI Search must be configured. For information, see [Configure AI Data Explorer and Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/configure-ai-data-explr-qry-genr-skills.md).
 
@@ -78,15 +76,15 @@ You can use the AI Data Explorer on widgets that are based on the following tabl
 
 3.  On the pop-up window, perform any of the following options.
 
-<table id="choicetable_nn3_qpl_f3c"><thead><tr><th align="left" id="d66304e283">
+<table id="choicetable_nn3_qpl_f3c"><thead><tr><th align="left" id="d66281e273">
 
 UI element
 
-</th><th align="left" id="d66304e286">
+</th><th align="left" id="d66281e276">
 
 Function
 
-</th></tr></thead><tbody><tr><td id="d66304e292">
+</th></tr></thead><tbody><tr><td id="d66281e282">
 
 **Text box**
 
@@ -94,7 +92,7 @@ Function
 
 Use this option to ask any question related to the data associated with the selected widget. This option helps you get specific information on the widget data.
 
-</td></tr><tr><td id="d66304e304">
+</td></tr><tr><td id="d66281e294">
 
 **Analyze trend**
 
@@ -102,7 +100,7 @@ Use this option to ask any question related to the data associated with the sele
 
 Use this option to analyze overall trends in the data. This option helps you to understand how the metrics have changed over time or identify growth or decline patterns.
 
-</td></tr><tr><td id="d66304e316">
+</td></tr><tr><td id="d66281e306">
 
 **Show different distribution**
 
@@ -110,7 +108,7 @@ Use this option to analyze overall trends in the data. This option helps you to 
 
 Use this option to view the same data broken down by different dimensions. This option helps you to compare data distributions across alternative categorizations and view the data from different analytical perspectives.
 
-</td></tr><tr><td id="d66304e328">
+</td></tr><tr><td id="d66281e318">
 
 **+ Add to exploration**
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ba-connct-mcp-server.html
 release: zurich
 topic_type: task
-last_updated: "2026-08-25"
+last_updated: "2026-10-29"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
@@ -17,15 +17,15 @@ Connect a supported MCP server to Build Agent to access external tools and resou
 
 ## Before you begin
 
-Before you can enable an MCP server in Build Agent, an administrator must approve it as an AI asset in AI Control Tower. Each MCP server requires this approval, regardless of whether the server is enabled by default.
+Before you can enable an MCP server in Build Agent, a user with the sn\_ai\_governance.ai\_steward role must approve it as an AI asset in AI Control Tower. An administrator without this role can't approve the server. Each MCP server requires this approval, regardless of whether the server is enabled by default. For the approval steps, see [Onboard MCP server approval playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aict-onboard-mcp-server-approval-playbook.md).
 
 You must have Connect Hub installed.
 
 The end-to-end flow for making an MCP server available is:
 
 1.  The administrator adds the MCP server as a Workflow Data Fabric \(WDF\) connection.
-2.  The administrator approves the server as an AI asset in AI Control Tower.
-3.  You authenticate the connection in Personal Integrations.
+2.  A user with the sn\_ai\_governance.ai\_steward role approves the server as an AI asset in AI Control Tower.
+3.  You authenticate the connection in Personal Integrations.For details, see [Using the Personal Authentication dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/personal-auth-dashboard.md).
 4.  You enable the MCP server in Build Agent settings.
 
 **Note:** An allowlist process is required to connect the Build Agent MCP client to the Figma MCP server. Contact Now Support to initiate the process.
@@ -48,23 +48,17 @@ Role required: admin
 
 3.  Select the **Enable MCP servers** toggle on the **MCP** tab.
 
+4.  Select the MCP server to enable.
+
     \[Omitted image "ba-settings-panel-mcp-tab.png"\] Alt text: MCP tab of the Settings panel with the Enable MCP servers and ATF Cloud runner toggles turned on.
 
-4.  Select the MCP servers icon \[Omitted image "ba-mcp-settings-icon.png"\] Alt text: that appears after you enable MCP servers.
+    **Note:** If the MCP server isn't available, authenticate the connection first. Navigate to **All** &gt; **IntegrationHub** &gt; **Personal Authentication** &gt; **Personal Integrations**. This task requires the sn\_personal\_auth.personal\_auth\_user role. For more information, see [Using the Personal Authentication dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/personal-auth-dashboard.md).
 
-    \[Omitted image "ba-mcp-settings-1.png"\] Alt text: Settings panel with the MCP settings button highlighted
-
-5.  Confirm that the MCP server you want is present and enabled.
-
-    \[Omitted image "ba-mcp-list-enabled.png"\] Alt text: Build Agent panel showing MCP servers, all with toggles enabled.
-
-    **Note:** If the MCP server you want isn't available, you must first set it up in Personal Integrations.
-
-6.  Select **Allow** in the confirmation dialog.
+5.  Select **Allow** in the confirmation dialog.
 
     You must do this only for the initial connection.
 
-7.  View the list of available tools that you can call for each MCP server by expanding the server name.
+6.  View the list of available tools that you can call for each MCP server by expanding the server name.
 
     \[Omitted image "ba-mcp-list-tools.png"\] Alt text: MCP Servers panel showing available tools.
 

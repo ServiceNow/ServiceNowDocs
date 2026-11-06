@@ -30,7 +30,7 @@ Role required: sn\_eam.enterprise\_asset\_manager
 
     |Field|Description|
     |-----|-----------|
-    |Requested for|User who the move order is being submitted for. If you specify a user in this field, the move order can include enterprise assets that are assigned only to that user.|
+    |Requested for|User who the move order is being submitted for.|
     |Move date|Date on which you want to move the enterprise assets.|
     |Assignment group|Group that you want to assign the move order to.|
     |Assigned to|User who you want to assign the move order to.|

@@ -72,11 +72,11 @@ Description
 
 </td></tr><tr><td id="d29660e236">
 
-**Configure CRM Workspace**
+**Configure CSM Configurable Workspace**
 
 </td><td>
 
-[Configure CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/configure-csm-workspace-fso-apps.md) to enable requesters, contributors, and processors to interact with customers, and create and work on cases.
+[Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/configure-csm-workspace-fso-apps.md) to enable requesters, contributors, and processors to interact with customers, and create and work on cases.
 
 </td></tr><tr><td id="d29660e263">
 

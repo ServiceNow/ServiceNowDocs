@@ -18,11 +18,9 @@ Configure the Machine Identity security score settings.
 
 ## Before you begin
 
-Role required: mi\_admin
+Role required: admin
 
-The following task is specific to your organization on how to handle the inactive accounts.
-
-**Note:** If your organization does not want to report on accounts inactive for 100 days, you can deactivate this report below. This is the only report that can be set to inactive.
+Each category has an activate or deactivate button. Select the button to turn a category on or off for your organization.
 
 ## Procedure
 

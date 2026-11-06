@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/now-assist
 release: zurich
 topic_type: topic
 last_updated: "2025-11-05"
-reading_time_minutes: 8
+reading_time_minutes: 7
 breadcrumb: [Governance, Risk, and Compliance release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
 
@@ -34,7 +34,7 @@ The ServiceNow® ServiceNow Otto for Integrated Risk Management \(IRM\) applicat
 
 -   Use AI-generated recommendations to identify which controls are impacted by a regulatory alert.
 
-See [ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/now-assist-for-irm.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -79,15 +79,15 @@ The ServiceNow® ServiceNow Otto for Integrated Risk Management \(IRM\) applicat
 
 ### What's new
 
--   **[Recommend policies for a regulatory alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/manage-recos-for-policies.md)**
+-   **Recommend policies for a regulatory alert**
 
     If you’re a RCM User \[sn\_grc\_reg\_change.user\] and have the Regulatory change AI user \[sn\_grc\_comp\_genai.reg\_change\_ai\_user\] role, you can generate AI-driven recommendations to help identify and mark relevant policies as impacted during regulatory alert reviews. These recommendations assist in associating policy impacts with alerts. You can accept suggested policy impacts to create action tasks immediately or dismiss recommendations to filter out irrelevant information.
 
--   **[Citation impact analysis and updates with Now Assist for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/control-objective-change-agent.md)**
+-   **Citation impact analysis and updates with Now Assist for IRM**
 
     When a citation’s description or supplemental guidance is updated, Control Objective Impact Analyzer skill identifies related control objectives that might be affected. The AI agent, ControlObjective Change Agent, then reviews these control objectives to determine whether the descriptions or guidance need changes and provides suggested updates. Users can review, provide feedback, and approve these updates directly in the Now Assist panel, ensuring that citation changes are reflected in associated control objectives.
 
--   **[Enhancements to control objectives rationalization process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/take-actions-on-the-recommendations-for-similar-control-objectives.md)**
+-   **Enhancements to control objectives rationalization process**
 
     The following enhancements have been introduced to the generative AI rationalization process of control objectives:
 
@@ -96,19 +96,19 @@ The ServiceNow® ServiceNow Otto for Integrated Risk Management \(IRM\) applicat
     -   Approvals for the rationalization process are skipped for owners who are reviewers, and levels where all reviewers are owners are automatically approved. 
     -   Owners and approvers can add comments and justifications directly on recommendation cards and reply to existing comments. 
     -   The user interface has been updated with better navigation, quick summaries, visual improvements, and clear error messages.
--   **[Get regulatory analysis agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/get-rcm-reg-insight.md)**
+-   **Get regulatory analysis agentic workflow**
 
     If you’re a RCM User \[sn\_grc\_reg\_change.user\] and have the \[sn\_grc\_comp\_genai.reg\_change\_ai\_agent\_user\] role, you can analyze and enrich regulatory alerts by using the get regulatory analysis agentic workflow in the Now Assist panel. This agentic workflow uses web search to enhance alert context, summarizes the alert, and recommends potential impacts on citations, policies, and control objectives to support fast and accurate compliance decisions. You can get started by selecting Get analysis from the Ask Now Assist action menu on the regulatory alert page or by selecting Get Regulatory Analysis from the Now Assist panel.
 
--   **[Generate regulatory action plans agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/generate_regulatory_action_plans.md)**
+-   **Generate regulatory action plans agentic workflow**
 
     If you’re a RCM User \[sn\_grc\_reg\_change.user\] and have the sn\_grc\_comp\_genai.reg\_change\_ai\_agent\_user role, you can generate a regulatory action plans by using the generate regulatory action plans agentic workflow in the Now Assist panel. This agentic workflow analyzes impacted areas and similar historical alerts to create change tasks and action tasks that help implement regulatory change. You can get started by selecting Generate action plan from the Ask Now Assist action menu on the regulatory alert page or by selecting Generate Regulatory Action Plan from the Now Assist panel.
 
--   **[Identify risks for an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/suggest-potential-risks-workflow.md)**
+-   **Identify risks for an entity**
 
     If you’re a Workspace user with the sn\_grc\_sharegenai.risk\_suggestion\_aiagent\_user role, you can use the Risk Suggestion AI Agent to identify risks related to an entity. The AI agent analyzes the entity and suggests relevant risks from various sources, consolidating them into a reviewable list to verify for accuracy. Risk managers can then confirm and promote these risks to the risk register for further assessment. This feature automates risk discovery, helping identify potential risks and prepare for compliance requirements.
 
--   **[Report a GRC issue AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/issue-submission-ai-agent.md)**
+-   ****
 
     The report a GRC issue AI agent is now available in Employee Center, enabling employee users to report issues through a guided conversational experience. As users respond to prompts, the agent structures the issue and recommends relevant controls, entities, and policies based on the input provided. The AI agent helps ensure that the issue is well-defined and enriched with contextual information before it's submitted.
 
@@ -137,7 +137,7 @@ The ServiceNow® ServiceNow Otto for Integrated Risk Management \(IRM\) applicat
 
 ### What's new
 
--   **[Recommend controls for a regulatory alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/manage-recos-for-controls.md)**
+-   **Recommend controls for a regulatory alert**
 
     If you’re a RCM User \[sn\_grc\_reg\_change.user\] and have the Regulatory change AI user \[sn\_grc\_comp\_genai.reg\_change\_ai\_user\] role, you can generate AI-driven recommendations to help identify and mark relevant controls as impacted during regulatory alert reviews. These recommendations assist in associating control impacts with alerts, reducing manual effort and improving consistency. You can accept suggested control impacts to create action tasks immediately or dismiss recommendations to filter out irrelevant information.
 

@@ -1,18 +1,18 @@
 ---
 title: Assign the value job user
-description: Assign an active user to run value jobs so that the AI Control Tower can calculate value. When the assigned user is inactive, value calculation stops.
+description: Assign an active user to run value jobs so that AI Control Tower can calculate value. When the assigned user is inactive, value calculation stops.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/mv-assign-the-value-job-user.html
 release: zurich
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Value, Configure, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
 ---
 
 # Assign the value job user
 
-Assign an active user to run value jobs so that the AI Control Tower can calculate value. When the assigned user is inactive, value calculation stops.
+Assign an active user to run value jobs so that AI Control Tower can calculate value. When the assigned user is inactive, value calculation stops.
 
 ## Before you begin
 

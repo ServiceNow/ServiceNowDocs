@@ -2133,6 +2133,13 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: true \| false
     -   Default value: false
     -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+-   **glide.log.off\_glide\_ingestion.enabled**
+
+    Enables logging MCP server activities in the System Logs. The logs don't include activity that occurs before you enable the system property. For more information, see [View MCP server logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/view-mcp-server-logs.md).
+
+    -   Type: true \| false
+    -   Default value: false
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.login.no\_blank\_password**
 
     Prevents \(**true**\) or allows \(**false**\) logins from users with blank passwords. Often, importing lists of users creates many users with blank passwords. By default, this property is set to **true** on production instances.

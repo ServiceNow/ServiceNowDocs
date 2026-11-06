@@ -34,15 +34,15 @@ Contributors and processors can submit individual policy service requests for cu
 
 3.  Create a case from the individual life service case list or an interaction record.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d55405e124">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d55407e124">
 
 Option
 
-</th><th align="left" id="d55405e127">
+</th><th align="left" id="d55407e127">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d55405e133">
+</th></tr></thead><tbody><tr><td id="d55407e133">
 
 **Individual life case from the individual life case list**
 
@@ -52,7 +52,7 @@ Steps
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d55405e163">
+</td></tr><tr><td id="d55407e163">
 
 **Individual life case from an interaction record**
 

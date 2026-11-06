@@ -16,7 +16,7 @@ The ServiceNow® Partner Relationship Management application provides a unified 
 
 ## About Partner Relationship Management
 
-Use the CRM Workspace to enable your enterprise administrators to view all the details that are related to their partners.
+Use the CSM Configurable Workspace to enable your enterprise administrators to view all the details that are related to their partners.
 
 See [Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/partner-relationship-management.md) for more information.
 
@@ -89,7 +89,7 @@ The ServiceNow® Partner Relationship Management application provides a unified 
 
 -   **[Partner Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/partner-workspace.md)**
 
-    Enable a user with the sn\_prm.enterprise\_partner\_rel\_manager role to manage cases, orders, sold products, and install bases by using the **Partner Overview** tab in the CRM Workspace.
+    Enable a user with the sn\_prm.enterprise\_partner\_rel\_manager role to manage cases, orders, sold products, and install bases by using the **Partner Overview** tab in the CSM Configurable Workspace.
 
 
 ## Zurich

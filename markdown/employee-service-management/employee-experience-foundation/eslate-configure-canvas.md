@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-04-24"
 reading_time_minutes: 1
 keywords: [default canvas, canvas dashboard, widget layout, preview experience]
-breadcrumb: [Personalized canvas, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Personalized canvas, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure the default canvas dashboard

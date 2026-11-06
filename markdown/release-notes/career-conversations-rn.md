@@ -24,12 +24,12 @@ The ServiceNow® Career Conversations application supports career growth through
 
 [Zurich Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-2.md)
 
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 -   Make career conversations easy to create and track using the growth conversations agentic workflow.
 -   As a manager, find and share relevant resources to conduct meaningful conversations using the Manager resource recommendation AI agent.
 -   As a manager, you can now edit a series, and also specify when a series should end while creating the growth conversation.
 
-See [Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/egd-activities-landing-page.md) for more information.
+See Career Conversations for more information.
 
 ## Activation and other requirements
 
@@ -48,7 +48,7 @@ The ServiceNow® Career Conversations application supports career growth through
 
 ### What's new
 
--   **[Streamline feedback collection and review using the Employee feedback collection AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-feedback-agent.md)**
+-   **Streamline feedback collection and review using the Employee feedback collection AI agent**
 
     As an admin, create reusable feedback templates using the Platform Surveys tool allowing managers to select and preview templates when requesting feedback, and help them quickly view a summarized snapshot of a reportee’s recent feedback with easy navigation to the feedback page in Manager Hub.
 
@@ -59,7 +59,7 @@ The ServiceNow® Career Conversations application supports career growth through
 
 ### What's changed
 
--   **[AI Agents button to create a growth conversation using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/agentic-wf-conversations-na-td.md)**
+-   **AI Agents button to create a growth conversation using Now Assist**
 
     A **Plan conversation with AI** button is added to the Career Conversations home page.
 
@@ -75,21 +75,21 @@ The ServiceNow® Career Conversations application supports career growth through
     Google Gemini and AWS Claude are available for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 
 
--   **[Create a growth conversation with the help of an agent in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/agentic-wf-conversations-na-td.md)**
+-   **Create a growth conversation with the help of an agent in Now Assist**
 
     As a manager, use the growth conversations preparation AI agent to schedule and prepare for employee growth discussions. The agent provides a clear summary of employee activity and career journey, with data-driven talking points to make conversations more focused and impactful.
 
     **Note:** This feature is available when you have both ServiceNow Otto for HR Service Delivery \(HRSD\), which will install Now Assist for Talent and HR Talent AI Agent Collection
 
--   **[Edit a conversation series](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/edit-conversations-series.md)**
+-   **Edit a conversation series**
 
     As a manager, you can now edit a conversation series based on your requirements.
 
--   **[End a conversation series](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/egd-create-growth-conversation.md)**
+-   **End a conversation series**
 
     As a manager, you can now specify a date on which a growth conversation series should end.
 
--   **[View upcoming conversations based on status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/egd-create-growth-conversation.md)**
+-   **View upcoming conversations based on status**
 
     As a manager, you can now filter upcoming conversations based on the status of the conversation.
 
@@ -101,12 +101,12 @@ The ServiceNow® Career Conversations application supports career growth through
     Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
--   **[Edit series button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/edit-conversations-series.md)**
+-   **Edit series button**
 
     A new **Edit series** button has been added to edit conversations on the conversations screen.
 
 
--   **[Filters on the Conversations page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/egd-create-growth-conversation.md)**
+-   **Filters on the Conversations page**
 
     The filter on the Conversations page now shows upcoming conversations by default and allows filtering based on conversation state.
 

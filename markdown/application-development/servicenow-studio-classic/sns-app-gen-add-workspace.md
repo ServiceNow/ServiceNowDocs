@@ -8,7 +8,7 @@ product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
 last_updated: "2026-07-28"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [agentic ai, app gen, app generation, now assist, application generation, app creation, application creation, servicenow studio, generative ai, ServiceNow Otto]
 breadcrumb: [Generate apps, App generation, AI tools and files, Use, ServiceNow Studio, Developing your application, Building applications]
 ---

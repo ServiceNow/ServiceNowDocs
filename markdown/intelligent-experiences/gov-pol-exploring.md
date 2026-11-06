@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/gov-pol-exploring.html
 release: zurich
 topic_type: concept
-last_updated: "2026-08-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, explore]
 breadcrumb: [Controlling AI asset usage, Govern AI assets, AI Control Tower, Enable AI experiences]
@@ -34,7 +34,7 @@ Policies address this by letting you define that governance once, as a reusable 
 
 ## Policy types
 
-Policies come in two types, each suited to a different governance need.
+Each policy type suits a different governance need.
 
 -   **Threat Response**
 
@@ -88,7 +88,7 @@ In this workflow:
 |-------|-------|-----|
 |Respond automatically to a detected threat before it spreads further.|[Create a Threat Response policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-create-threat-response-policy.md)|AI steward|
 |Stop specific AI usage outright, without writing a flow.|[Create an Explicit Block policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-create-explicit-block-policy.md)|AI steward|
-|Confirm a policy is working as expected.|[Reviewing policy enforcement in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md)|AI steward|
+|Confirm a policy is working as expected.|[Reviewing policy enforcement activities in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md)|AI steward|
 
 ## What to explore next
 
@@ -96,6 +96,6 @@ To learn more about configuring and using Policies, see:
 
 -   [Configuring policies in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-configuring.md)
 -   [Managing policies in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-managing-policies.md)
--   [Reviewing policy enforcement in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md)
+-   [Reviewing policy enforcement activities in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md)
 -   [AI Control Tower policies reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-reference.md)
 

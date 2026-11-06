@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configure, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Setup employee communications

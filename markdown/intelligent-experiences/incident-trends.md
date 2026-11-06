@@ -40,8 +40,6 @@ You can con figure additional input fields using a Now Assist Skill Config Var S
 
 The agents, tools, and triggers associated with the Analyze task trends agentic workflow are provided by AI applications. You can [activate the agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/activate-aia-use-case.md) by making triggers active and setting the display settings to include the ServiceNow Otto panel. If you want to change this agentic workflow's instructions, you must duplicate it, adjust the settings to suit your specific needs, and activate the duplicated version instead.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-native-sku-overview.md).
-
 ## Prerequisites and setup
 
 To access this workflow, you must have ServiceNow Otto for Platform installed on your instance. You can get this by installing any other AI application.

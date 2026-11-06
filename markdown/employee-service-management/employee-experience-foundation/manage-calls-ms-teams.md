@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Use Notify connector for Microsoft Teams, Use Microsoft Teams integration for Agent Experience, Use, ServiceNow for Microsoft Teams and Microsoft 365, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Use Notify connector for Microsoft Teams, Use Microsoft Teams integration for Agent Experience, Use, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
 # Manage calls in Microsoft Teams
@@ -36,15 +36,15 @@ Role required: notify\_admin, major\_incident\_manager, communications\_manager,
 
 3.  Mute an individual participant or mute all participants.
 
-<table id="choicetable_ixy_kbr_tnb"><thead><tr><th align="left" id="d252645e129">
+<table id="choicetable_ixy_kbr_tnb"><thead><tr><th align="left" id="d252634e129">
 
 Option
 
-</th><th align="left" id="d252645e132">
+</th><th align="left" id="d252634e132">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d252645e138">
+</th></tr></thead><tbody><tr><td id="d252634e138">
 
 **Mute an individual participant**
 
@@ -54,7 +54,7 @@ Action
 2.  Click **Mute**.
 
 
-</td></tr><tr><td id="d252645e159">
+</td></tr><tr><td id="d252634e159">
 
 **Mute all participants**
 

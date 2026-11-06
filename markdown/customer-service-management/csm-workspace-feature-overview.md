@@ -1,22 +1,22 @@
 ---
-title: CRM Workspace features
-description: Agents can use several different features available in CRM Workspace to assist customers and resolve cases.
+title: CSM Configurable Workspace features
+description: Agents can use several different features available in CSM Configurable Workspace to assist customers and resolve cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-workspace-feature-overview.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# CRM Workspace features
+# CSM Configurable Workspace features
 
-Agents can use several different features available in CRM Workspace to assist customers and resolve cases.
+Agents can use several different features available in CSM Configurable Workspace to assist customers and resolve cases.
 
-## CRM Workspace interface features
+## CSM Configurable Workspace interface features
 
-Use these topics to get an overview of the CRM Workspace interface, landing pages, and forms.
+Use these topics to get an overview of the CSM Configurable Workspace interface, landing pages, and forms.
 
 |Feature overview|Description|
 |----------------|-----------|
@@ -27,7 +27,7 @@ Use these topics to get an overview of the CRM Workspace interface, landing page
 
 ## Additional features
 
-A number of additional features are available for use with CRM Workspace.
+A number of additional features are available for use with CSM Configurable Workspace.
 
 |Feature|Description|
 |-------|-----------|

@@ -59,6 +59,8 @@ You can attach multiple files, but the last attached file gets synchronized to t
 
 [MID Server configuration file security]()
 
+[MID Server authentication methods comparison]()
+
 [MID Server authentication credentials and SOAP requests]()
 
 [MID Server unified key store]()
@@ -80,6 +82,8 @@ You can attach multiple files, but the last attached file gets synchronized to t
 [MID Server FIPS Enforced Mode]()
 
 [MID Server Governance]()
+
+[MID Server IPKI authentication]()
 
 ## How script file synchronization works on the MID Server
 

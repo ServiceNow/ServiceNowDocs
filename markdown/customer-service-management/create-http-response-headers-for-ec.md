@@ -1,18 +1,18 @@
 ---
 title: Create HTTP response headers for Engagement Messenger
-description: Configure a name-value pair for HTTP response headers for the Engagement Messenger module. The ability to configure and pass response headers enables special handling of the page content by a client, which is most typically a browser.
+description: Configure a name-value pair for HTTP response headers for the Engagement Messenger module.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-http-response-headers-for-ec.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Set up Engagement Messenger, Enable communication channels, Configure, Customer Service Management]
 ---
 
 # Create HTTP response headers for Engagement Messenger
 
-Configure a name-value pair for HTTP response headers for the Engagement Messenger module. The ability to configure and pass response headers enables special handling of the page content by a client, which is most typically a browser.
+Configure a name-value pair for HTTP response headers for the Engagement Messenger module.
 
 ## Before you begin
 
@@ -23,11 +23,11 @@ Configure a name-value pair for HTTP response headers for the Engagement Messeng
 
 ## About this task
 
-Use the Engagement Messenger API and your website URL to create a CORS rule.
+HTTP response headers control how a browser handles page content served by the Engagement Messenger module. Configure a name-value pair to set the **Content-Security-Policy** header, which restricts the domains that can embed the module in a frame.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Engagement Messenger** &gt; **Administration** &gt; **HTTP Response Headers**.
+1.  In the navigation pane, enter `sys_response_header.list`.
 
 2.  Select **New**.
 
@@ -128,7 +128,7 @@ Detailed description for the HTTP response header.
 </table>
 ## What to do next
 
-[Activate an Engagement Messenger module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/activate-engagement-messenger-module.md).
+[Activate an Engagement Messenger module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/activate-engagement-messenger-module.md)
 
 **Related topics**  
 

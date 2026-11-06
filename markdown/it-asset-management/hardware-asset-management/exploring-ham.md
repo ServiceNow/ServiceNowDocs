@@ -20,6 +20,8 @@ Learn more about Hardware Asset Management by reviewing the benefits that it can
 
 Hardware Asset Management enables you to track and manage the end-to-end life-cycle of all your organizational assets such as hardware and consumables. You can simplify every stage of the asset life-cycle with prescriptive workflows and tasks. Asset tagging, assigning ownership, and location tracking of the asset mitigate the risk of asset loss. Hardware Asset Management can also identify unapproved hardware assets and ensure compliance with established policies and regulations of your organization.
 
+\[Omitted image "ham-architecture-dia.svg"\] Alt text: HAM architecture diagram showing the HAM tables, workflows, and better together solutions
+
 ## Hardware Asset Management benefits
 
 |Benefit|Feature|Users|

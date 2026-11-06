@@ -63,7 +63,7 @@ To allow the connector to access your Atlassian Jira Cloud source system via the
 
 1.  In the Atlassian Developer console, register a new OAuth 2.0 integration for the Atlassian Jira Cloud external content connector.
 
-    1.  Login to the Atlassian Developer console at [https://developer.atlassian.com/console/myapps/](https://developer.atlassian.com/console/myapps/).
+    1.  Log in to the Atlassian Developer console at [https://developer.atlassian.com/console/myapps/](https://developer.atlassian.com/console/myapps/).
 
     2.  In the My apps section, select **Create** &gt; **OAuth 2.0 integration**.
 
@@ -138,7 +138,7 @@ To allow the connector to access your Atlassian Jira Cloud source system via the
 
 2.  In Atlassian Administration, create a new admin API key.
 
-    1.  Login to Atlassian Administration at [https://admin.atlassian.com/](https://admin.atlassian.com/).
+    1.  Log in to Atlassian Administration at [https://admin.atlassian.com/](https://admin.atlassian.com/).
 
     2.  Select **Settings** in the tab list.
 

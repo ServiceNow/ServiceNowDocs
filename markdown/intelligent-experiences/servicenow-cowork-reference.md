@@ -1,6 +1,6 @@
 ---
-title: ServiceNow Cowork reference
-description: PLACEHOLDER: Short description of the reference information provided for ServiceNow Cowork.
+title: ServiceNow Arc reference
+description: Reference information for ServiceNow Arc, including environment and capability controls, sandbox file protection, local MCP server management, and policy change testing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/servicenow-cowork-reference.html
 release: zurich
@@ -8,21 +8,23 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [reference]
-breadcrumb: [ServiceNow Cowork, Enable AI experiences]
+breadcrumb: [ServiceNow Arc, Enable AI experiences]
 ---
 
-# ServiceNow Cowork reference
+# ServiceNow Arc reference
 
-PLACEHOLDER: Short description of the reference information provided for ServiceNow Cowork.
+Reference information for ServiceNow Arc, including environment and capability controls, sandbox file protection, local MCP server management, and policy change testing.
 
 -   **[Turn off local MCP servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/turn-off-local-mcp-servers.md)**  
-Turn off local MCP servers for users or user groups so that Cowork can't run MCP server actions directly on user devices.
+Turn off local MCP servers for users or user groups so that Arc can't run MCP server actions directly on user devices.
 -   **[Prevent changes to sandbox files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/prevent-changes-sandbox.md)**  
 Add a filesystem deny rule to your sandbox policy so that agent actions can't modify files in the sandbox runtime directory on user devices.
 -   **[Environment and capability controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/environment-capability-controls.md)**  
-Environment and capability controls limit what ServiceNow Cowork can access while an action runs, keeping the agent within the boundaries you set.
--   **[Test a ServiceNow Cowork policy change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/test-cowork-policy-change.md)**  
+Environment and capability controls limit what ServiceNow Arc can access while an action runs, keeping the agent within the boundaries you set.
+-   **[Test a ServiceNow Arc policy change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/test-cowork-policy-change.md)**  
 Verify that a policy change works as intended before you apply it to all users.
+-   **[Troubleshoot Arc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/troubleshoot-arc.md)**  
+Resolve common Arc issues, such as a token page that keeps appearing, sign in errors, AI connection errors, and sandbox failures.
 
-**Parent Topic:**[ServiceNow Cowork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-cowork-landing.md)
+**Parent Topic:**[ServiceNow Arc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-cowork-landing.md)
 

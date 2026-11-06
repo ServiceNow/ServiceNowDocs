@@ -1,5 +1,5 @@
 ---
-title: Configure crawl settings for the ServiceNow product documentation external content connector
+title: Configure crawl settings for a ServiceNow product documentation external content connector
 description: Choose the products that you want your ServiceNow product documentation external content connector to crawl documentation for.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/configure-crawl-settings-snowdoc-ext-cont-connector.html
@@ -7,13 +7,13 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2025-07-30"
+last_updated: "2026-10-26"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [ServiceNow product documentation external content connector, Configure, External Content Connectors, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
 ---
 
-# Configure crawl settings for the ServiceNow product documentation external content connector
+# Configure crawl settings for a ServiceNow product documentation external content connector
 
 Choose the products that you want your ServiceNow product documentation external content connector to crawl documentation for.
 
@@ -24,8 +24,6 @@ A connector administrator must have already created the ServiceNow® product doc
 Role required: sn\_ext\_conn.xcc\_admin
 
 ## About this task
-
-This task is optional. By default, the ServiceNow product documentation external content connector crawls documentation for all ServiceNow products. Only perform this task if you want to exclude the documentation for some products from the connector's crawls.
 
 Content is only retrieved from the source system if it passes all of your configured crawl setting filters. If any crawl setting filter excludes a content item, the external content connector doesn't retrieve it.
 
@@ -47,10 +45,10 @@ If one of your connectors reaches the content indexing limit, you can update its
 
 3.  In the connector editor's Settings tab, select **Crawl settings**.
 
-4.  Specify the connector's crawl scope by selecting the products that you want to crawl the documentation for.
+4.  Select the documentation product categories you want the connector's content crawls to retrieve and index.
 
-    By default, all products are selected. You can use the option in the list header to select or deselect all products.
-
+    -   To include only documentation for certain specific product categories in content crawls, select the options for those categories. As an example, you might select **Release Notes** and **IT Operations Management**.
+    -   To include documentation for all product categories in content crawls, select the **Product Category** option.
 5.  Select **Save**.
 
 

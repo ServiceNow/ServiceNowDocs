@@ -230,7 +230,7 @@ ACC-VC uses the same classification criteria as IP-based Discovery for classifyi
 
 -   **Agent Client Collector Framework \(ACC-F\)**
 
-    A ServiceNow base scoped application that leverages ACC and provides core capabilities \(including Check Types, Check Definitions, Policies, and so on\) enabling other ACC scoped applications, including ACC-M and ACC-VC.
+    A ServiceNow base scoped application that leverages ACC and provides core capabilities, including Check Types, Check Definitions, and Policies. It enables other ACC scoped applications, including ACC-M and ACC-VC.
 
 -   **Agent Client Collector Monitoring Monitoring \(ACC-M\)**
 

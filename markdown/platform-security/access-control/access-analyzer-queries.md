@@ -1,6 +1,6 @@
 ---
 title: View the previously searched criteria in Access Analyzer
-description: View the previously searched criteria in Access Analyzer.
+description: Review the criteria from previous searches in Access Analyzer to reanalyze access or export results.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/access-control/access-analyzer-queries.html
 release: zurich
@@ -9,12 +9,12 @@ classification: access-control
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Use Access analyzer, Access analyzer, Access Management]
+breadcrumb: [Use Access Analyzer, Access analyzer, Access Management]
 ---
 
 # View the previously searched criteria in Access Analyzer
 
-View the previously searched criteria in Access Analyzer.
+Review the criteria from previous searches in Access Analyzer to reanalyze access or export results.
 
 ## Before you begin
 
@@ -26,11 +26,11 @@ Role required: admin, access\_analyzer\_admin
 
 1.  Navigate to **All** &gt; **Access Analyzer** &gt; **Access Analyzer Queries**.
 
-    Previously searched criteria has the following sections:
+    Previously searched criteria have the following sections:
 
     -   **Evaluate access**: Displays results based on queries made through the **Evaluate access** features.
     -   **Compare user access**: Displays results based on queries made through the **Compare user access** features.
-    **Note:** The previously searched criteria are not stored when using the compare user records feature.
+    **Note:** The previously searched criteria are not stored when using the **Compare user access** feature.
 
     \[Omitted image "access-analyzer-queries.png"\] Alt text: Access Analyzer queries
 

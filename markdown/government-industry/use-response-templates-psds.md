@@ -1,18 +1,18 @@
 ---
-title: Use response templates in Service Request Playbook
-description: Respond to cases by using the response templates in the contextual side panel in CRM Workspace. Good templates save you time by eliminating repetitive work.
+title: Use response templates in Service Request Administration
+description: Respond to cases by using the response templates in the contextual side panel in Public Sector Workspace. Good templates save you time by eliminating repetitive work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/use-response-templates-psds.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Using the contextual side panel, Service Request Playbook, Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using the contextual side panel, Service Request Administration, Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Use response templates in Service Request Playbook
+# Use response templates in Service Request Administration
 
-Respond to cases by using the response templates in the contextual side panel in CRM Workspace. Good templates save you time by eliminating repetitive work.
+Respond to cases by using the response templates in the contextual side panel in Public Sector Workspace. Good templates save you time by eliminating repetitive work.
 
 ## Before you begin
 
@@ -20,11 +20,11 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.business\_agent, sn\_gsm.agen
 
 ## About this task
 
-Selecting the response templates icon \[Omitted image "response-template-icon.png"\] Alt text: Response template icon. shows the reusable messages that you can copy and paste into cases and case tasks. For information on how to create response templates, see [Create or modify a response template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/create-modify-templated-snippet.md).
+Selecting the response templates icon \[Omitted image "response-template-icon.png"\] Alt text: Response template icon. shows the reusable messages that you can copy and paste into cases and case tasks. For information on how to create response templates, see Create or modify a response template.
 
 ## Procedure
 
-1.  In the CRM Workspace, open a service request task.
+1.  In the Public Sector Workspace, open a service request task.
 
 2.  In the contextual side panel, select the response templates icon \[Omitted image "response-template-icon.png"\] Alt text: Response template icon. to display a list of the available templates.
 

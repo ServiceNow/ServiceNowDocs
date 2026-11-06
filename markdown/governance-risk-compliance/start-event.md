@@ -69,7 +69,9 @@ Role required: sn\_recovery.event\_user, sn\_recovery.event\_manager
 
 6.  Check the state of the assets in the event.
 
-    The example shows that the Facebook asset is partially recovered as the partially recovered tasks of Facebook asset are completed, but the Photoshop asset is still not recovered because both its partial and full recovery tasks remain incomplete.
+    In the example, the Facebook asset is partially recovered because its partial recovery tasks are complete.
+
+    The Photoshop asset is not recovered because both its partial and full recovery tasks remain incomplete.
 
     \[Omitted image "event-asset-par-recovered.png"\] Alt text: Assets.\[Omitted image "event-asset-another-activated-plan.png"\] Alt text: Plan.
 
@@ -101,7 +103,13 @@ Role required: sn\_recovery.event\_user, sn\_recovery.event\_manager
 
     **Note:**
 
-    If an asset is recovered with the completion of an earlier event task, such as step 4 in the example, the actual start time and actual end time are calculated until the end of the last event task in the plan \(step 6 in this example\).
+    If an asset is recovered by an earlier event task, the actual start and end times are calculated accordingly.
+
+    The end time reflects the end of the last event task in the plan.
+
+    In the example, this is step 4.
+
+    In this example, that is step 6.
 
     \[Omitted image "event-task-time-taken.png"\] Alt text: Event tasks.
 

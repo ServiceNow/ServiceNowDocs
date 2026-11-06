@@ -43,3 +43,5 @@ Select **Sum** to show the sum of the field you aggregate on. For example, selec
 
 The sections of the visualization are grouped by the sum of the selected records. Select a duration field and the aggregated data is expressed in terms of days, hours, minutes, and seconds. Select an integer field, such as **Priority**, and the data is expressed as whole numbers.
 
+**Parent Topic:**[Aggregation in reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/aggregation-reporting.md)
+

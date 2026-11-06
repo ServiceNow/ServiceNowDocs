@@ -29,7 +29,7 @@ The following predefined linear asset types are already part of the base system:
 
 Follow these steps to create customized linear asset types.
 
-Role required: sn\_eam.enterprise\_asset\_manager
+Role required: sn\_eam.enterprise\_admin
 
 ## Procedure
 

@@ -24,7 +24,7 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 1.  Navigate to **All** &gt; **Reports** &gt; **View / Run** and select the report you want to export.
 
-    On instances with Unified Analytics enabled, both Core UI reports and Platform Analytics experience data visualizations are found in the Platform Analytics library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and follow the instructions in the topic [Export a data visualization from the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/export-visualization-vd.md).
+    On instances with Unified Analytics enabled, both Core UI reports and Platform Analytics experience data visualizations are found in the Platform Analytics library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and follow the instructions in the topic [Export a Platform Analytics data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/export-visualization-vd.md).
 
 2.  Select the **Sharing** icon \(\[Omitted image "square-share-fill-24.svg"\]\) and choose **Export to PDF**.
 

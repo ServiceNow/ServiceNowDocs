@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2025-10-06"
 reading_time_minutes: 1
-breadcrumb: [Content Ownership, Setup employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Content Ownership, Setup employee communications, Configure, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Assign ownership of content

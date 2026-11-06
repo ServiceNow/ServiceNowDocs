@@ -63,7 +63,7 @@ After you create an app using Build Agent, you have several options to move the 
     -   Register and entitle apps before publishing.
     -   For more information on Application Repository, see [ServiceNow application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/application-repository-self-hosted/app-repo.md).
 
-If your app is connected to Git-based source control, you can also push changes to a remote repository directly from the Build Agent chat panel. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-source-control.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-source-control.md).
+If your app is connected to Git-based source control, you can also push changes to a remote repository directly from the Build Agent chat panel. For more information, see .
 
 ## Additional deployment tools
 

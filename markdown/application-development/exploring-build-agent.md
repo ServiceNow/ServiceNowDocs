@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/exploring-build-agent.html
 release: zurich
 topic_type: concept
-last_updated: "2026-08-20"
+last_updated: "2026-10-20"
 reading_time_minutes: 9
 keywords: [AI agent, application development, natural language, full-stack applications, conversational interface, autonomous AI, code generation, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 audience: developer
@@ -49,6 +49,8 @@ You can upload supported file types, such as images, code, and documents, to pro
 ## Extended capabilities
 
 While creating and updating applications is the primary use case for Build Agent, its capabilities extend beyond that. It can perform various code-related tasks, such as rewriting tables, explaining code, validating and enhancing existing applications, fixing application errors, and more. For instance, Build Agent can use the Run Query tool to query a specific table within your instance and return the top five records or derive specific insights.
+
+Build Agent is aware of your instance and its data model, so it can analyze existing applications, including custom scoped applications. For more information, see [Build Agent use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/additional-build-agent-use-cases.md).
 
 To use Build Agent as part of an end-to-end development practice that includes Git, the ServiceNow SDK, ReleaseOps, and CI/CD pipelines, see the [SDLC on ServiceNow guide](https://servicenow.github.io/sdk/guides/sdlc-guide) in the ServiceNow SDK documentation.
 

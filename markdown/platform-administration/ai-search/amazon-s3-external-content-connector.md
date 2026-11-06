@@ -1,13 +1,13 @@
 ---
 title: Amazon S3 external content connector
-description: The Amazon S3 external content connector retrieves files from buckets in your Amazon S3 source system and makes their content and metadata searchable in AI Search applications.
+description: The Amazon S3 external content connector makes content and metadata from your Amazon S3 buckets searchable in AI Search applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/amazon-s3-external-content-connector.html
 release: zurich
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2025-11-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, External Content Connectors, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
@@ -15,7 +15,7 @@ breadcrumb: [Configure, External Content Connectors, ServiceNow Store applicatio
 
 # Amazon S3 external content connector
 
-The Amazon S3 external content connector retrieves files from buckets in your Amazon S3 source system and makes their content and metadata searchable in AI Search applications.
+The Amazon S3 external content connector makes content and metadata from your Amazon S3 buckets searchable in AI Search applications.
 
 Connector administrators can run or schedule content crawls to update searchable content and metadata from your source system. Content crawls feed their data to AI Search for indexing.
 
@@ -28,7 +28,7 @@ Create an Identity and Access Management \(IAM\) user in the Amazon Web Services
 -   **[Create an Amazon S3 external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-ext-cont-connector-amazon-s3.md)**  
 Create an external content connector to retrieve searchable content from your Amazon S3 source system.
 -   **[Configure crawl settings for an Amazon S3 external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-crawl-settings-amazon-s3-external-content-connector.md)**  
-Define inclusion and exclusion filters to specify the buckets and file types you want your Amazon S3 external content connector to retrieve when running content crawls.
+Define inclusion and exclusion filters to specify the buckets and file types for your Amazon S3 external content connector to retrieve during content crawls.
 
 **Parent Topic:**[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configuring-ext-cont-connectors.md)
 

@@ -1,6 +1,6 @@
 ---
-title: Create New Event Task form
-description: Use the Create New Event Task form in BCM UIB Workspace to add details about an event task.
+title: Create Event Task form
+description: Use the Create Event Task form in BCM UIB Workspace to add details about an event task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/create-new-event-task-form-uib-ws.html
 release: zurich
@@ -10,11 +10,11 @@ reading_time_minutes: 4
 breadcrumb: [Monitor event tasks and create ad-hoc tasks, Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
-# Create New Event Task form
+# Create Event Task form
 
-Use the Create New Event Task form in BCM UIB Workspace to add details about an event task.
+Use the Create Event Task form in BCM UIB Workspace to add details about an event task.
 
-## Create New Event Task form
+## Create Event Task form
 
 For description of the field values, see the table.
 
@@ -85,7 +85,7 @@ Active phase to be associated with the event task. You can associate these phase
 -   **Return to normal validation**
 -   **Post-incident review**
 
-You can use the **Group by Phase** option in the Phases column to organize event tasks by a specific phase and its order, making it easier to filter and manage related tasks.
+Use the **Group by Phase** option in the Phases column to filter and manage related tasks by phase and order.
 
 \[Omitted image "event-task-phase-order.png"\] Alt text: Phase order.When you order the event tasks by the phase order, you can view the event tasks in a sequence in which they are executed.
 
@@ -237,7 +237,7 @@ Original task
 
 </td><td>
 
-Original task assigned by the system. When an event starts, the system identifies the first executed event task as the original task. Other similar tasks are modified as duplicate tasks in the group. When a task gets added into the similar tasks group, the system marks it in the **On hold** state. Tasks with dependencies can be managed such that only one task with dependencies is added to the group, and once dependencies are resolved, duplicate tasks are closed when the original task is completed. You cannot edit the **Original task** field at any time. It is auto-assigned only after the event task starts executing.
+Original task assigned by the system. When an event starts, the system identifies the first executed event task as the original task. Other similar tasks are modified as duplicate tasks in the group. When a task gets added into the similar tasks group, the system marks it in the **On hold** state. Only one task with dependencies is added to the group. After dependencies are resolved, duplicate tasks are closed when the original task is completed. You cannot edit the **Original task** field at any time. It is auto-assigned only after the event task starts executing.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Monitor event tasks and create ad-hoc tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/add-an-event-task-to-exercise-event.md)

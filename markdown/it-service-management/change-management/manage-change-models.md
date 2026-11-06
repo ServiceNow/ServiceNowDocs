@@ -55,7 +55,7 @@ After creating a change model, you can create a change template for the model to
 -   **[Change Models properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/change-models-properties.md)**  
 Configure the Change Models properties to access the Change models capabilities when creating a Change request.
 -   **[Create a user criteria record for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/create-user-criteria.md)**  
-Create a user criteria record to control user access to widgets.
+Create a user criteria record and add it to a change model to control which users can view and use that change model.
 
 **Parent Topic:**[Exploring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/exploring-change-management.md)
 

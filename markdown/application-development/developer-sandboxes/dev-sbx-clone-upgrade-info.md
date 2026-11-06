@@ -9,7 +9,7 @@ classification: developer-sandboxes
 topic_type: concept
 last_updated: "2026-05-11"
 reading_time_minutes: 1
-breadcrumb: [Installing, Developer Sandboxes, Developing your application, Building applications]
+breadcrumb: [Developer Sandboxes, Developing your application, Building applications]
 ---
 
 # Cloning and upgrading considerations for Developer Sandboxes

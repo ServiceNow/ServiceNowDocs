@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-01"
 reading_time_minutes: 2
 keywords: [Widget editor, Component and Script tabs, Complex widgets with additional files, Preview tab, Property panel, Save, Publish, and Build, Build Service]
-breadcrumb: [Lux Widgets, Build with Lux, Lux Development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Lux widgets, Build with Lux, Lux Development, Building pro-code applications, Developing your application, Building applications]
 ---
 
 # Widget editor

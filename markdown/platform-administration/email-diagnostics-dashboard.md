@@ -126,5 +126,5 @@ Connection status displays the real time status of all email accounts configured
 
 [Domain separation and Notifications]()
 
-[Email FAQs and troubleshooting notification emails]()
+[Notification email logs and diagnostics]()
 

@@ -8,7 +8,7 @@ product: MID Server
 classification: mid-server
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 8
+reading_time_minutes: 9
 breadcrumb: [Securing and encrypting MID Server data, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -87,6 +87,8 @@ When switching to an external TrustStore, import all certificates from the bundl
 
 [MID Server configuration file security]()
 
+[MID Server authentication methods comparison]()
+
 [MID Server authentication credentials and SOAP requests]()
 
 [MID Server unified key store]()
@@ -108,4 +110,6 @@ When switching to an external TrustStore, import all certificates from the bundl
 [MID Server FIPS Enforced Mode]()
 
 [MID Server Governance]()
+
+[MID Server IPKI authentication]()
 

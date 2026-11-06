@@ -26,7 +26,7 @@ Recovery time objective \(RTO\) measurement helps to verify the key points:
 -   Identify gaps in asset recovery capabilities.
 -   Prioritize asset recovery if there is a loss scenario.
 
-While RTO calculates the acceptable time by which the business function is restored, Recovery Point Objective \(RPO\) confirms that the maximum tolerable data loss for a function is not exceeded.
+RTO calculates the acceptable time by which the business function is restored. Recovery Point Objective \(RPO\) measures the maximum tolerable data loss for a function.
 
 ## Procedure
 

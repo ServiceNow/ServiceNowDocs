@@ -56,7 +56,7 @@ As a BCM program manager you can create a plan by clicking the **New** button. W
 
     \[Omitted image "PlanTabAuthoringType.png"\] Alt text: Plan authoring type values
 
-    When you create a plan using a template, the plan documentations associated to the plan template are copied over to the documentation section of the plan that you created.
+    When you create a plan using a template, the associated documentation is copied to the plan. It appears in the plan's documentation section.
 
 7.  Review the plan details in the **Overview** tab.
 
@@ -102,7 +102,7 @@ As a BCM program manager you can create a plan by clicking the **New** button. W
 
     -   **Archived**
 
-        When you archive the plan, it becomes read only. All underlying tables from where the plan retrieves its data to populate in the plan assets, related asset dependencies, recovery strategy, documentation, recovery teams, loss scenarios, and recovery tasks tabs become read only. You cannot edit the information in these tabs anymore.
+        When you archive the plan, it becomes read only. You cannot edit the information in the following tabs: plan assets, related asset dependencies, recovery strategy, documentation, recovery teams, loss scenarios, and recovery tasks.
 
     **Note:** A scheduled job runs weekly to move the plans that have expired to **Archived** state.
 
@@ -112,6 +112,8 @@ As a BCM program manager you can create a plan by clicking the **New** button. W
 
     You can generate a PDF of the plan in all states except **Approved** and **Archived** states. If the plan is approved, then by default a PDF is generated and attached to the plan.
 
-    The plan is exported in its entirety with its summary, recovery teams, loss scenarios, recovery tasks, and an appendix table listing the contact number of every member who is part of the recovery team.
+    The exported plan includes the summary, recovery teams, loss scenarios, and recovery tasks.
+
+    An appendix table lists the contact number of every recovery team member.
 
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/intellig
 release: zurich
 topic_type: reference
 last_updated: "2026-07-01"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Build workflows]
 ---
 
@@ -36,16 +36,6 @@ Build\[Omitted image "bus-compliance.svg"\] Alt text:Create and manage intellige
 </table>Intelligent approvals bridge the gap between business policy and approval execution. Upload natural-language policy documents, and have AI automatically evaluate incoming requests against these policies in real-time. The AI handles clear approvals and rejections automatically, and routes ambiguous cases to humans for approval. When policies change, update the document. There's no need for developer intervention to rewrite the workflow.
 
 ## AI licensing requirements
-
-The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
-
--   Foundation: AI basics to deliver insights
--   Advanced: AI to boost productivity across relevant use cases
--   Prime: Act autonomously with all AI assets, and create your own
-
-For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
-
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 ## ServiceNow Otto language availability notice
 

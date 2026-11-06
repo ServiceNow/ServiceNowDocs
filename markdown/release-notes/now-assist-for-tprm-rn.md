@@ -33,7 +33,7 @@ Starting with Zurich Patch 12, Now Assist for Third-party Risk Management is now
 -   Use ServiceNow Otto for Third-party Risk Management \(TPRM\) to generate concise, AI-powered summaries of TPRM that can help with interpreting complex issue records.
 -   Some Now Assist skills, agents, and agentic workflows are now turned on by default.
 
-See [ServiceNow Otto for Third-party Risk Management \(TPRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/exploring-now-assist-tprm.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -54,7 +54,7 @@ The ServiceNow® Now Assist for TPRM application brings generative AI to Third-p
 
 ### What's changed
 
--   **[ServiceNow Otto for Third-party Risk Management \(TPRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/exploring-now-assist-tprm.md)**
+-   ****
 
     Starting with Zurich Patch 12, Now Assist for Third-party Risk Management is now ServiceNow Otto® for TPRM. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 
@@ -65,14 +65,14 @@ The ServiceNow® Now Assist for TPRM application brings generative AI to Third-p
 
 ### What's new
 
--   **[Extended AI model support for Now Assist for TPRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/supporting-information-now-assist-tprm.md)**
+-   **Extended AI model support for Now Assist for TPRM**
 
     Starting with Zurich Patch 12, ServiceNow Otto for Third-party Risk Management \(TPRM\) supports Google Gemini 3.5 Flash, OpenAI GPT 5.1, and OpenAI GPT 5.4 mini models in addition to previously supported models. Model availability depends on your ServiceNow Otto for Third-party Risk Management \(TPRM\) subscription, providing greater flexibility when selecting the AI model that meets your requirements.
 
 
 ### What's changed
 
--   **[Default AI model for issue recommendation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/supporting-information-now-assist-tprm.md)**
+-   **Default AI model for issue recommendation skill**
 
     Starting with Zurich Patch 12, the issue recommendation skill in ServiceNow Otto for Third-party Risk Management \(TPRM\) uses Azure OpenAI gpt-4-5-mini as the default model. This update changes the default model for issue recommendations. You can select alternative models, including the newly supported Google Gemini 3.5 Flash, OpenAI GPT 5.1, and OpenAI GPT 5.4 mini, based on your requirements.
 
@@ -87,7 +87,7 @@ The ServiceNow® Now Assist for TPRM application brings generative AI to Third-p
 
 ### What's new
 
--   **[Generate issue recommendations for TPRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/create-recommendation-tprm-issue.md)**
+-   ****
 
     If you have the third‑party assessment reviewer role \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\] and have installed the if you have the third‑party assessment reviewer role \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\] and have installed the ServiceNow Otto for Third-party Risk Management \(TPRM\), you can use generative AI to automatically identify and recommend issues based on assessment responses. The TPRM issue management recommendation skill recommends issues with rationalized summaries. Recommended issues are presented for review and are created as standard TPRM issues only after user confirmation.
 
@@ -109,7 +109,7 @@ The ServiceNow® Now Assist for TPRM application brings generative AI to Third-p
 
 ### What's new
 
--   **[Generate a summary of a TPRM issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/create-a-summary-of-issue.md)**
+-   ****
 
     If you have the third-party assessor role \[sn\_vdr\_risk\_asmt.vendor\_assessor\] role and have installed the ServiceNow Otto for Third-party Risk Management \(TPRM\) for TPRM application, you can use generative AI to automatically summarize complex issue records. The TPRM Issue Summarization skill works across all issue states including New, Analyze, Review, Finalize, and Closed and can help reduce manual review time, improve consistency in issue descriptions and remediation guidance, and accelerate triage and reporting for customers managing high volumes of third-party risk data.
 

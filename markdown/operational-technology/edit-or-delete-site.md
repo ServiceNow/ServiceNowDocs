@@ -22,20 +22,22 @@ Role required: admin
 
 1.  Navigate to the Sites page.
 
-2.  Edit a site, complete the following.
+2.  Edit a Site
+3.  To edit a Site, do the following.
 
-    1.  Next to the site in the Edit column, select the edit site icon \(\[Omitted image "edit-icon-ot-console.png"\] Alt text:.
+    1.  Next to the site in the Edit column, select the edit site icon \[Omitted image "edit-icon-ot-console.png"\] Alt text:.
 
     2.  Update and save your changes.
 
-    **Note:** You cannot select the same IP Addresses for both the Include and Ignore selections for the Site without triggering an error.
+    **Note:** You can't select the same IP Addresses for both the Include and Ignore selections for the Site without triggering an error.
 
-3.  Delete a site
+4.  Delete a Site
+5.  To delete a Site, do the following.
 
     1.  Next to the site in the Delete column, select the delete site icon \[Omitted image "delete-icon-ot-console.png"\] Alt text:.
 
     2.  Confirm that you want to permanently delete this site, and select **Delete Site**.
 
-        **Note:** If devices are associated to a site, it cannot be deleted.
+        **Note:** If devices are associated to a Site, the Site can't be deleted.
 
 

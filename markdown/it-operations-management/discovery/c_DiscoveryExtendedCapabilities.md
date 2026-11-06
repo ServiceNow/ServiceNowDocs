@@ -25,7 +25,7 @@ MID Servers use PowerShell and PowerShell Remoting for accessing configuration i
 -   **[Application Dependency Mapping \(ADM\) for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r_ApplicationDependencyMapping.md)**  
 Application Dependency Mapping \(ADM\) discovers CIs by detecting TCP connections between devices.
 -   **[Discovery behaviors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/c_DiscoveryBehaviors.md)**  
-Discovery behaviors determine the probes that Shazzam launches, and from which MID Servers these probes are launched.
+Discovery behaviors determine the probes that Shazzam launches and from which MID Servers these probes are launched.
 -   **[CI deletion strategies for pattern discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/deletion-strategy.md)**  
 When you perform discovery with a pattern, you can choose what to do with configuration items \(CIs\) that are in the Configuration Management Database \(CMDB\) but Discovery can no longer find.
 -   **[Configuration file tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/tracked-config-files.md)**  

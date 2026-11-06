@@ -89,7 +89,7 @@ Services and service offerings
 
 -   Needs attention icon \(\[Omitted image "icon-information.png"\] Alt text: Needs attention icon\) to show or hide the Needs attention panels. This toggle isn't on the DPM Workspace home page.
 -   Contacts icon \(\[Omitted image "contacts.png"\] Alt text: Contacts icon.\) to view team members and the all the teams that support the service offering.
--   Knowledge articles icon\(\[Omitted image "dpm-kb-icon.png"\] Alt text: Knowledge articles icon.\) to search for related knowledge articles.
+-   Knowledge articles icon \(\[Omitted image "dpm-kb-icon.png"\] Alt text: Knowledge articles icon.\) to search for related knowledge articles.
 -   Attachments icon \(\[Omitted image "attachment.png"\] Alt text: Attachments icon.\) to view and add attachments to the record.
 -   Catalog items icon \(\[Omitted image "catalog-items.png"\] Alt text: Catalog items icon.\) to search for catalog items on a service or service offering record.
 

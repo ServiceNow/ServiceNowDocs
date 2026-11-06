@@ -64,6 +64,8 @@ Review this asset's activity stream from the **Activity** list. Use the filter a
 
 -   **[Recommendations for your AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/recommendations-aisteward-newexperience.md)**  
 Recommendations for AI assets are automatically generated for you to review and act on.
+-   **[Deactivate a managed AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/disc-contain-managed-asset.md)**  
+Deactivate a managed AI agent directly from its asset record using kill switch protocol, even if the agent has no associated security event.
 
 **Parent Topic:**[Working with AI asset records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/disc-managing-ai-assets.md)
 

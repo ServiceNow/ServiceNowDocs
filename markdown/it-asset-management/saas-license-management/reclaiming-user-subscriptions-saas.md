@@ -141,7 +141,5 @@ Reclaim unused SaaS and SSO subscriptions in the Software Asset Workspace.
 
 [Subscription identifiers for SaaS and SSO applications]()
 
-[Subscription exclusions for SaaS and SSO applications]()
-
 [Reclamation rules for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/reclamation-rules.md)
 

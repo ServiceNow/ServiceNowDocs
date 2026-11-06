@@ -18,7 +18,6 @@ To develop a component for Virtual Agent, add specific properties and actions to
 
 -   Set up your environment. For instructions, see the [ServiceNow® Developer Site](https://developer.servicenow.com/dev.do#!/reference/next-experience/xanadu/cli/getting-started).
 -   Set up your component project. For instructions, see the [ServiceNow® Developer Site](https://developer.servicenow.com/dev.do#!/reference/next-experience/xanadu/cli/cli)
--   Develop your component. For instructions, see the ServiceNow® Developer Site
 
 Role required: virtual\_agent\_admin or admin
 

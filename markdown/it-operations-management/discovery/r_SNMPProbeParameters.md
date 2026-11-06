@@ -149,7 +149,7 @@ request\_interval
 
 </td><td>
 
-The interval \(in milliseconds\) between successive requests for an OID when a response has not been received, until the timeout \(or established\_session\_timeout\) value is reached. If this value is set to at least as long as the timeout \(or established\_session\_timeout\) value, then only a single request is sent for any particular OID. If you change the timeout \(or established\_session\_timeout\) value, adjust the request\_interval at the same time to avoid sending too many or too few requests for the same OID, as appropriate for a given environment.
+The interval \(in milliseconds\) between successive requests for an OID when a response has not been received, until the **timeout** \(or **established\_session\_timeout**\) value is reached. If this value is set to at least as long as the **timeout** \(or **established\_session\_timeout**\) value, then only a single request is sent for any particular OID. If you change the **timeout** \(or **established\_session\_timeout**\) value, adjust **request\_interval** at the same time. This helps avoid sending too many or too few requests for the same OID in a given environment.
 
 </td><td>
 

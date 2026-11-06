@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2026-03-02"
 reading_time_minutes: 1
-breadcrumb: [Use, ServiceNow for Microsoft Outlook, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Use, ServiceNow for Microsoft Outlook, EmployeeWorks, Employee Service Management]
 ---
 
 # Update Outlook Actionable Messages authentication to Microsoft Entra ID

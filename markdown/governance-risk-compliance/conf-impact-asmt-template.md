@@ -127,7 +127,7 @@ To configure a BIA template using Smart Assessment, see [Configure BIA templates
 
         \[Omitted image "bia-flows-in-flow-designer.png"\] Alt text: Flows.\[Omitted image "bia-rpo-flow.png"\] Alt text: RPO flow.
 
-        In the properties of the subflow, the **Category** field is set to **Business impact assessment**. When the action category and the template category are mapped in the BIA as shown in the example, the **Set recovery point objective flow** is displayed in the **Action type** field in the Set actions dialog box.
+        In the properties of the subflow, the **Category** field is set to **Business impact assessment**. Map the action category and the template category in the BIA as shown in the example. The **Set recovery point objective flow** then appears in the **Action type** field.
 
         \[Omitted image "mapping-of-action-and-template-category.png"\] Alt text: Mapping.\[Omitted image "automations-tab-set-actions.png"\] Alt text: Actions.
 

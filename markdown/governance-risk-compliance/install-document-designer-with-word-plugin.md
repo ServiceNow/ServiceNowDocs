@@ -1,6 +1,6 @@
 ---
 title: Install Document designer with Microsoft Word
-description: Install the Document designer with Microsoft Word \(sn\_grc\_doc\_design\) application. It extracts metadata \(including fields, related lists, and reference fields with their associated elements\) from ServiceNow tables and enables the insertion of repeating content blocks \(for example, 10 blocks for 10 issues\) based on record count. When applied to specific records, the template generates a Microsoft Word document.
+description: Install the Document designer with Microsoft Word \(sn\_grc\_doc\_design\) application to generate Microsoft Word documents from ServiceNow records. It extracts metadata from tables and supports repeating content blocks based on record count.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/install-document-designer-with-word-plugin.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [Generating reports using Document designer, Configure, Business Con
 
 # Install Document designer with Microsoft Word
 
-Install the Document designer with Microsoft Word \(sn\_grc\_doc\_design\) application. It extracts metadata \(including fields, related lists, and reference fields with their associated elements\) from ServiceNow® tables and enables the insertion of repeating content blocks \(for example, 10 blocks for 10 issues\) based on record count. When applied to specific records, the template generates a Microsoft Word document.
+Install the Document designer with Microsoft Word \(sn\_grc\_doc\_design\) application to generate Microsoft Word documents from ServiceNow® records. It extracts metadata from tables and supports repeating content blocks based on record count.
 
 ## Before you begin
 

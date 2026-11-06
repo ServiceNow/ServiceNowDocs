@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Chat-specific configuration for Collaboration services for Zoom, Enhance employee experience by integrating ServiceNow with Zoom, Integrate, ServiceNow for Zoom, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Chat-specific configuration for Collaboration services for Zoom, Enhance employee experience by integrating ServiceNow with Zoom, Integrate, ServiceNow for Zoom, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure Chat group to include On-call Scheduling users for Start Zoom Team Chat

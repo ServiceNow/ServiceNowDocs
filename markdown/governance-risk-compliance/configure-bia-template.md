@@ -26,9 +26,9 @@ By configuring a BIA template, you can:
 -   Choose the specific impact categories to be assessed during the BIA.
 -   Define the types of dependencies that should be identified during the BIA.
 
-When you do a business impact analysis of a primary element, you can also assess its recovery time based on whether the element requires a data backup or not. If your primary element is a technology asset that is related to a server or database, then it requires data backup as it stores critical information and adds to business value. You can filter the impact categories that contribute either to Recovery Time Objective or Recovery Point Objective. This helps you to identify the recovery objective of critical primary elements when you do an impact analysis.
+During a business impact analysis of a primary element, you can also assess its recovery time based on data backup requirements. Technology assets related to a server or database store critical information and require data backup. Filter impact categories by Recovery Time Objective or Recovery Point Objective to identify the recovery objective of critical primary elements.
 
-If the primary element assessed requires data backup \(**Requires data backup** field is **Yes** in [Element Definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/configure-element-definitions.md)\), then all the impact categories whether they contribute to Recovery Point Objective or Recovery Time Objective are displayed in the **Impact Categories** field. If the primary element does not require data backup, then the impact categories that contribute to RTO alone are displayed.
+If the primary element requires data backup, set the **Requires data backup** field to **Yes** in the [Element Definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/configure-element-definitions.md). All impact categories then appear in the **Impact Categories** field, whether they contribute to Recovery Point Objective or Recovery Time Objective. If the primary element does not require data backup, only impact categories that contribute to RTO are displayed.
 
 ## Procedure
 

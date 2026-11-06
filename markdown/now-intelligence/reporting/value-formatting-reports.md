@@ -18,6 +18,8 @@ In most reports, you can configure how numerical values look when you publish th
 
 ## Supported value formats
 
+**Note:** This topic refers to Core UI reports, not Platform Analytics data visualizations.
+
 A limited number of visualization types support value formatting.
 
 |Visualization type|Supported value formats|

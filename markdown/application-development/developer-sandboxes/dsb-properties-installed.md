@@ -9,7 +9,7 @@ classification: developer-sandboxes
 topic_type: reference
 last_updated: "2026-01-09"
 reading_time_minutes: 2
-breadcrumb: [Installing, Developer Sandboxes, Developing your application, Building applications]
+breadcrumb: [Install and configure, Developer Sandboxes, Developing your application, Building applications]
 ---
 
 # Properties installed with Developer Sandboxes

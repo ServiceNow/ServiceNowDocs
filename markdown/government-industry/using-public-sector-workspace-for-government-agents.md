@@ -30,18 +30,18 @@ Public Sector Digital Services provides agents across government agencies with a
 
     -   Grants Management
     -   Social Benefits Playbook
-    -   License and Permit Playbook
+    -   License and Permit Administration
     -   Information Request Administration
-    -   Service Request Playbook
+    -   Service Request Administration
     To learn more about playbooks, see [Playbooks for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/playbooks-psds-exploring.md).
 
 -   **CSM Configurable Workspace**
 
-    Your government service agents have one stop for constituent interactions, the CRM Workspace for Public Sector Digital Services.
+    Your government service agents have one stop for constituent interactions, the Public Sector Workspace for Public Sector Digital Services.
 
     Multiple tabs enable agents to manage several cases at once. Agents and managers have ongoing visibility into the status of issues assigned to different agents across the agency. The workspace dynamically displays related contextual information based on the current state. Agents can also set compact mode and dark mode to optimize their experience and productivity.
 
-    Public Sector Digital Services playbooks are setup on and are accessed through the CRM Workspace to provide step-by-step guidance to agents for resolving specific types of government service cases, including service requests, information requests, license and permit, and social benefits cases.
+    Public Sector Digital Services playbooks are setup on and are accessed through the Public Sector Workspace to provide step-by-step guidance to agents for resolving specific types of government service cases, including service requests, information requests, license and permit, and social benefits cases.
 
     To learn more about CSM Configurable Workspace, see [Explore CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/exploring-configurable-workspace.md).
 
@@ -49,7 +49,7 @@ Public Sector Digital Services provides agents across government agencies with a
 
     Your government agents can use the Mobile Agent to create, update, and monitor non-emergency requests on a mobile device. You can also get an overview of your case load, including your new and active service request cases.
 
-    The Mobile Agent is currently only supported by the Service Request Playbook.
+    The Mobile Agent is currently only supported by the Service Request Administration.
 
     To learn more about the Mobile Agent application, see [Mobile Agent experience for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-using-mobile-agent.md).
 

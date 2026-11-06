@@ -55,7 +55,7 @@ The BCM application executes a workflow to update the impacted assets in the eve
 2.  The BCM planner selects the **Update dependencies** UI action to add the assets manually.
 3.  The application checks if the event record matches any configuration filter.
 
-4.  If the event record matches any configuration filter, the system gets the dependencies of the added assets in real-time according to the sources defined in the configuration \(Event dependency source configuration module\).
+4.  If the event record matches any configuration filter, the system gets the asset dependencies in real-time. The sources are defined in the Event dependency source configuration module.
 5.  If the event record does not match any configuration filter, the events workflow then continues for the next steps.
 
 For more information on updating the event dependencies manually, see [Update the event dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/update-event-dep-manually.md).

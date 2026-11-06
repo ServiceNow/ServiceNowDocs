@@ -61,7 +61,7 @@ To create a backup of the Discovery Console for OT:
     -   NetworkZones
     -   Settings
     -   UnsafePorts
-    Image files are not included in a Partial backup.
+    Image files aren't included in a Partial backup.
 
 5.  Archive data can be included or excluded based on the system configuration.
 6.  You can set system configurations during the Console installation process.
@@ -89,5 +89,5 @@ To create a backup of the Discovery Console for OT:
     \[Omitted image "image.ZIP-name"\] Alt text: Zip file
 
 11. Select the **Download** button and the ZIP is downloaded to your local system.
-12. Once the file is downloaded, select the delete icon \(\[Omitted image "image.trashcan"\] Alt text:\) to remove the archive and free up disk space on the Console.
+12. Once the file is downloaded, select the delete icon \(trash can\) to remove the archive and free up disk space on the Console.
 

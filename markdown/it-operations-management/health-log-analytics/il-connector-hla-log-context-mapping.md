@@ -17,11 +17,13 @@ breadcrumb: [Set up integrations from Integrations Launchpad, Set up HLA on your
 
 Map your logs to service instances, components, and source types so that Health Log Analytics \(HLA\) can generate alerts in context. Contextualizing your log data is especially important when the integration processes logs from multiple service instances and components.
 
-The AI agent suggests the optimal log field for mapping to service instances and components. When you use the AI-suggested field, or when that field is the default, an AI sparkle icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text:\) appears. You can select a different field if needed. If the AI agent cannot find an optimal match, HLA uses the system default. The system default also applies if the selected field is not present in the sample log.
+**Important:** To enable AI-powered automatic parsing and mapping of log data, the integration must be activated with AI capabilities.
+
+Mapping your log data to the correct context is especially important when the integration processes logs from multiple service instances and components. ServiceNow Otto suggests the best log field for mapping to service instances and components. When you use the AI-suggested field, or when that field is the default, an AI sparkle icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text:\) appears. You can select a different field if needed. If the AI agent can't find a suitable match, HLA uses the system default. The system default also applies if the selected field is not present in the sample log.
 
 ## Example
 
-A large financial institution might face performance issues with its e-banking application, which relies on various components like web, application, and database servers. Without log context mapping, logs from these components appear isolated, complicating issue correlation. An anomaly in a Tomcat server log might be detected, but without proper context, the operator struggles to assess its impact. Log context mapping enables defining rules to map logs to the e-banking application service instance and the Tomcat server component. This mapping provides a contextualized view for root cause analysis and resolution.
+A large financial institution might face performance issues with its e-banking application, which relies on various components like web, application, and database servers. Without log context mapping, logs from these components appear isolated, making it difficult to correlate issues. An anomaly in a Tomcat server log might be detected, but without proper context, the operator struggles to assess its impact. Log context mapping enables you to define rules to map logs to the e-banking application service instance and the Tomcat server component. This mapping provides a contextualized view for root cause analysis and resolution.
 
 **Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-implement.md)
 

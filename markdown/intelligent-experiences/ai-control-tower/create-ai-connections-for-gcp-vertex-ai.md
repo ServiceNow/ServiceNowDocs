@@ -23,7 +23,7 @@ Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
 
 ## Procedure
 
-1.  Navigate to **Al Control Tower workspace** &gt; **Configurations** &gt; **AI connections**.
+1.  Navigate to **AI Control Tower workspace** &gt; **Configurations** &gt; **AI connections**.
 
 2.  Select **AI Connector for Google** from the available connectors and then select **Create connection**.
 

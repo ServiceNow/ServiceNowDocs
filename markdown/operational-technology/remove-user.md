@@ -1,6 +1,6 @@
 ---
 title: Deactivate a user
-description: Deactivating a user ensures that they cannot access the Discovery Console for OT.
+description: Deactivating a user verifies that they can't access the Discovery Console for OT.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/remove-user.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [Users page, Using the Discovery Console, Discovery Console for OT, 
 
 # Deactivate a user
 
-Deactivating a user ensures that they cannot access the Discovery Console for OT.
+Deactivating a user verifies that they can't access the Discovery Console for OT.
 
 ## Before you begin
 

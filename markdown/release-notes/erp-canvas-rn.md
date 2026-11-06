@@ -42,7 +42,7 @@ See [Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/S
 
 -   **Upgrade information**
 
-    If you have existing scheduled extractions and have upgraded to Zurich, run the **Scheduled Extraction V2 Move** fix script to place scheduled extractions in a new table where scheduling is done by the scheduled scripts engine. For detailed steps, see [Run fix scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/t_RunFixScripts.md).
+    If you have existing scheduled extractions and have upgraded to Zurich, run the **Scheduled Extraction V2 Move** fix script to place scheduled extractions in a new table where scheduling is done by the scheduled scripts engine. For detailed steps, see .
 
 -   **Additional requirements**
 
@@ -93,7 +93,7 @@ The ServiceNow® Zero Copy Connector for ERP application enables you to connect 
 
     -   New customers: When you install an AI product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Australia Early Access\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Use AI to discover model entity options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/use-ai-to-help-add-an-entity-to-a-model.md)**
+-   **Use AI to discover model entity options**
 
     Use ask AI in model manager to obtain detailed entity options by describing the entity you want to add to a model.
 
@@ -101,7 +101,7 @@ The ServiceNow® Zero Copy Connector for ERP application enables you to connect 
 
     Apply roles and user group names to control access to create, read, and update model operations.
 
--   **[More easily create model operation entity inputs and outputs using scriptable API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/sn_erp_integrationBothAPI.md)**
+-   **More easily create model operation entity inputs and outputs using scriptable API**
 
     Query complex request/response structures faster and easier using scriptable Glide APIs for models instead of Flow Designer.
 

@@ -22,7 +22,7 @@ The ServiceNow® Smart Assessment Engine \(SAE\) application streamlines assessm
 -   Migrate question dependencies with an improved migration utility.
 -   Simplify your workflow by combining assessments from different templates in a single and unified view.
 
-See [Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/smart-asmnt-engine-landing-page.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -45,7 +45,7 @@ The ServiceNow® Smart Assessment Engine \(SAE\) application streamlines assessm
 
 ### What's new
 
--   **[Combining assessments and copying responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/combine-assessments.md)**
+-   ****
 
     Combine assessments from different templates into a single, streamlined view. Eliminating the need to open each assessment separately, preserving context, and improving efficiency.
 
@@ -56,26 +56,26 @@ The ServiceNow® Smart Assessment Engine \(SAE\) application streamlines assessm
 
 ### What's new
 
--   **[Collaboration in assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/collaboration-in-assessments.md)**
+-   **Collaboration in assessments**
 
     Enhance assessments with the new collaboration feature, enabling owners to add multiple contributors to work together in real time. This update enables assessors to collaborate efficiently by adding several contributors to an assessment. Real-time updates reflect each contributor's changes, and presence indicators show who is present on the assessment.
 
--   **[Normalization in assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/normalization-in-assessment.md)**
+-   **Normalization in assessments**
 
     Adjust assessment scores to a common scale to promote fair comparison and prioritization. This normalization process helps standardize these measurements, enabling different metrics or scores to be evaluated on the same scale.
 
--   **[Creating code questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/sae-q-code-create.md)**
+-   **Creating code questions**
 
     Capture data quickly and accurately from physical documents using a new barcode and QR code question type for assessments. By scanning barcodes or entering QR codes, the system can instantly retrieve and input relevant information.
 
--   **[Creating an assessment template from legacy metric types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/sae-asmnt-template-migrating.md)**
+-   **Creating an assessment template from legacy metric types**
 
     Migrate question dependencies with an improved migration utility, which now supports the check box question type and conditional visibility criteria defined on templates.
 
 
 ### What's changed
 
--   **[Template category field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/create-assessment-template-form.md)**
+-   **Template category field**
 
     The **Purpose** field has replaced the **Template category** field. This single select option streamlines the user experience and improves the accuracy of template categorization.
 

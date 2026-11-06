@@ -16,7 +16,7 @@ breadcrumb: [Playbook, Explore, Workflow Studio, Build workflows]
 
 Understand how Workflow Studio Playbooks work in the ServiceNow AI Platform® to automate cross-functional processes and consolidate them into task-oriented views for your end users.
 
-**All** &gt; **Process Automation** &gt; **Workflow Studio** &gt; **Playbooks**is the design environment where playbook owners build playbooks. Meanwhile, the runtime experience is where end users, such as playbook agents, follow the playbook to complete a business process.
+**All** &gt; **Process Automation** &gt; **Workflow Studio** &gt; **Playbooks** is the design environment where playbook owners build playbooks. Meanwhile, the runtime experience is where end users, such as playbook agents, follow the playbook to complete a business process.
 
 ## Design environment
 

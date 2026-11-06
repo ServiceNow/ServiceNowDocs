@@ -1,6 +1,6 @@
 ---
-title: Explore Access Insights
-description: The Access Insights in the Access Analyzer helps you gain confidence in your Role or Group assignments.
+title: Exploring Access Insights
+description: The Access Insights in the Access Analyzer helps you gain confidence in your role or group assignments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/access-control/explore-access-insights.html
 release: zurich
@@ -12,11 +12,11 @@ reading_time_minutes: 1
 breadcrumb: [Access Insights, Access analyzer, Access Management]
 ---
 
-# Explore Access Insights
+# Exploring Access Insights
 
-The Access Insights in the Access Analyzer helps you gain confidence in your Role or Group assignments.
+The Access Insights in the Access Analyzer helps you gain confidence in your role or group assignments.
 
-The Access Insights displays the statistics of your user’s peer and organizational level access to a resource. It enables you to see if the role or group can be assigned to the user that you're currently reviewing for additional entitlements. It helps you to compare the role and group assignments withing the same peer group.
+The Access Insights displays the statistics of your user’s peer and organizational level access to a resource. It enables you to see if the role or group can be assigned to the user that you're currently reviewing for additional entitlements. It helps you to compare the role and group assignments within the same peer group.
 
 The Access Insights is displayed only while comparing user's access using the compare user access feature in the Access Analyzer. To learn more about using Access Insights, see [Use Access Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/use-access-insights.md).
 

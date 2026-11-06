@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/build-auto
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
 
@@ -34,6 +34,10 @@ The ServiceNow® Zero Copy Connector for ERP application enables you to connect 
 The ServiceNow® Integration Hub application extends the ServiceNow® Workflow Studio automation capabilities by enabling you to integrate your instance data with data in external systems. Integration Hub was enhanced and updated in the Zurich release.
 -   **[Legacy Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/legacy-servicenow-studio-rn.md)**  
 The ServiceNow® Legacy Studio application provides an integrated development environment \(IDE\)-like interface for application developers to work on custom applications in one centralized location. It offers a simple way to create, review, and update application files from a tabbed environment. This application is currently supported for the Zurich release, but it will be deprecated in a future release.
+-   **[Lux release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/lux-rn.md)**  
+Lux is a Lit-based platform for building widget-based UI experiences that run on a ServiceNow instance. You create pages using widgets as Lit components. Release notes are organized by version.
+-   **[Lux Lab release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/lux-lab-rn.md)**  
+Lux Lab is a desktop application for building Lux applications that run on a ServiceNow instance. You create projects, edit code, preview your work, and deploy to your instance from one tool. Release notes are organized by version.
 -   **[Next Experience Components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/component-rn.md)**  
 The ServiceNow® Next Experience Components are the components used to build custom user interfaces. Next Experience Components was enhanced and updated in the Zurich release.
 -   **[Next Experience Developer \(NED\) Tools release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/ned-tools-rn.md)**  
@@ -50,6 +54,8 @@ The ServiceNow® ReleaseOps application enables developers to manage deployments
 The ServiceNow® RPA Hub application enables end-to-end automation for your organization. RPA Hub was enhanced and updated in the Zurich release.
 -   **[Service Creator release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/service-creator-rn.md)**  
 The ServiceNow® Service Creator application enables a department to offer custom services through the service catalog. This application is currently supported for the Zurich release, but it will be deprecated in a future release.
+-   **[ServiceNow AI Experience Lab for VS Code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/servicenow-ai-experience-lab-for-vs-code-rn.md)**  
+The ServiceNow® AI Experience Lab for VS Code extension transforms how you build on the ServiceNow AI Platform. Scaffold experiences, pages, and widgets with framework intelligence built in, cutting development time and ensuring consistency across your projects. See the following sections for release notes by version.
 -   **[ServiceNow IDE release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/servicenow-ide-rn.md)**  
 The ServiceNow® integrated development environment \(IDE\) application enables developers to create scoped applications in source code in an IDE based on Visual Studio Code for the Web on the ServiceNow AI Platform. ServiceNow IDE was enhanced and updated in the Zurich release.
 -   **[ServiceNow SDK release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/servicenow-sdk-rn.md)**  

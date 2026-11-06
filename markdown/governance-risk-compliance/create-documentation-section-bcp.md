@@ -52,7 +52,7 @@ These UI actions are available for the documentation sections:
 
     \[Omitted image "bcp-doc-section-order-field.png"\] Alt text: Order field in the documentation section of a BCP.
 
-    To create a documentation section that is displayed as the second section in the Sections panel, assign it an order value that is more than 0 and less than 100, such as 50.
+    To display a documentation section second in the Sections panel, assign it an order value between 0 and 100. For example, use a value of 50.
 
     The documentation section with an order value of 50 is displayed as the second documentation section in the Sections panel on the **Documentation** tab.
 

@@ -22,7 +22,7 @@ The ServiceNow® Playbooks builder within the ServiceNow® Workflow Studio appli
 -   Set child variants to evaluate later in a playbook.
 -   Create decision branches for stages.
 
-See [Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/process-automation-designer.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -48,8 +48,8 @@ See [Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 ## Accessibility and localization
 
 -   **Accessibility information**
-    -   In Diagram view, navigate between and configure stages and activities [via keyboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/keyboard-navigation-in-playbook-diagram-view.md).
-    -   Set the action bar to always show in Diagram view. To learn more, see [View all buttons without hover](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/view-all-buttons-without-hover.md).
+    -   In Diagram view, navigate between and configure stages and activities via keyboard.
+    -   Set the action bar to always show in Diagram view. To learn more, see .
     -   In Diagram view, use a screen reader to help navigate the designer.
     -   Updated color contrast for activities to meet WCAG standards.
 -   **Localization information**
@@ -65,11 +65,11 @@ The ServiceNow® Playbooks builder within the ServiceNow® Workflow Studio appli
 
 ### What's new
 
--   **[Playbook as an MCP tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/playbook-as-mcp-tool.md)**
+-   **Playbook as an MCP tool**
 
     Expose a playbook as a tool in an MCP server, enabling MCP clients to trigger and execute the playbook through the Model Context Protocol \(MCP\).
 
--   **[AI agents autonomous support configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/create-activity-definition.md)**
+-   **AI agents autonomous support configurations**
 
     Configure in the activity definition how you want autonomous support from AI agents for that activity. The additional configurations help you gain more control on the activity in a playbook.
 
@@ -80,7 +80,7 @@ The ServiceNow® Playbooks builder within the ServiceNow® Workflow Studio appli
 
 ### What's new
 
--   **[Playbook generation from a KB article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/playbook-generation-from-kb.md)**
+-   **Playbook generation from a KB article**
 
     Generate a playbook directly from an existing knowledge base article to reduce manual effort when creating playbooks for documented processes.
 
@@ -91,15 +91,15 @@ The ServiceNow® Playbooks builder within the ServiceNow® Workflow Studio appli
 
 ### What's new
 
--   **[Playbook summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/playbook-summarization.md)**
+-   **Playbook summarization**
 
     Generate an AI-powered summary of a playbook from the Workflow Studio canvas. The summary covers the playbook's stages, activities, triggers, and inputs, helping you understand quickly about its purpose and flow without reading through each activity individually.
 
--   **[Use AI skill as an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/use-ai-skill-as-activity.md)**
+-   **Use AI skill as an activity**
 
     Add an existing AI skill as an activity in your playbook to run lightweight, focused AI tasks as part of the playbook flow. When the playbook reaches the activity, the skill executes, produces structured outputs, and passes those outputs to subsequent activities automatically.
 
--   **[Use custom agent in Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/configure-agentic-playbooks.md)**
+-   **Use custom agent in Agentic Playbooks**
 
     In addition to the default AI Agents, you can add your custom AI Agent for an activity. Choose how you want to use the AI Agents in the activity- Collaborative or Autonomous.
 
@@ -110,11 +110,11 @@ The ServiceNow® Playbooks builder within the ServiceNow® Workflow Studio appli
 
 ### What's new
 
--   **[Set child variants to evaluate later in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/set-evaluation-point.md)**
+-   **Set child variants to evaluate later in a playbook**
 
     Instead of evaluating immediately after the trigger, set a playbook's child variants to be evaluated after a specific activity in the playbook.
 
--   **[Create decision branches for stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/create-decision-stage.md)**
+-   **Create decision branches for stages**
 
     Add a decision node between stages to determine which stage to run next, based on runtime conditions.
 
@@ -150,46 +150,46 @@ The ServiceNow® Playbooks builder within the ServiceNow® Workflow Studio appli
 
 ### What's new
 
--   **[Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/agentic-playbooks.md)**
+-   **Agentic Playbooks**
 
     Enable AI agents to assist users with activities during runtime.
 
--   **[Add permissions for playbook authors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/user-access-playbooks.md)**
+-   **Add permissions for playbook authors**
 
     Control which playbook authors can create, edit, and view playbooks in Workflow Studio
 
--   **[Add permissions for runtime users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/create-process-definition.md)**
+-   **Add permissions for runtime users**
 
-    Control whether runtime users can [view a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/create-process-definition.md), [add optional activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/optional-activities.md), [restart a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/restart.md), and [complete work within specific stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/add-configure-stage.md).
+    Control whether runtime users can view a playbook, add optional activities, restart a playbook, and [complete work within specific stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/add-configure-stage.md).
 
--   **[Set multiple triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/process-automation-designer-triggers.md)**
+-   **Set multiple triggers**
 
     Configure a playbook to run based on any one of multiple triggers.
 
--   **[Schedule when a playbook should trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/create-scheduled-trigger-definition.md)**
+-   **Schedule when a playbook should trigger**
 
     Configure a playbook to run based on a schedule.
 
--   **[Choose your LLM for playbook generation and recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/change-default-llm-playbook-generation.md)**
+-   **Choose your LLM for playbook generation and recommendations**
 
     Choose between NowLLM, OpenAI ChatGPT4-o, Gemini, Claude for playbook generation and recommendations.
 
--   **[Generate a playbook with a trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/playbook-assist.md)**
+-   **Generate a playbook with a trigger**
 
     Generate a playbook with both a trigger and activities.
 
 
 ### What's changed
 
--   **[Activate playbooks without a trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/process-automation-designer-triggers.md)**
+-   **Activate playbooks without a trigger**
 
     Configure and activate playbooks without specifying triggers, so that playbooks are only triggered programmatically.
 
--   **[Implement playbooks that are callable by a scriptable API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/process-automation-designer-triggers.md)**
+-   **Implement playbooks that are callable by a scriptable API**
 
     Configure a playbook that executes with an input object instead of requiring the configuration of a trigger record reference and trigger conditions.
 
--   **[Decision activity enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/create-a-decision-activity.md)**
+-   **Decision activity enhancements**
 
     User experience improvements to decision activities:
 
@@ -200,7 +200,7 @@ The ServiceNow® Playbooks builder within the ServiceNow® Workflow Studio appli
 
     Enter a combination of text and multiple pills in any rich text / HTML editor container, such as an email body.
 
--   **[ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator-landing.md)**
+-   **ServiceNow Otto**
 
     ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including Playbooks. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 

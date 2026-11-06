@@ -16,6 +16,8 @@ breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards
 
 Report on selected questions by grouping or filtering on them.
 
+**Note:** This topic refers to Core UI reports, not Platform Analytics data visualizations.
+
 Creating reports grouped by questions is helpful to:
 
 -   Determine whether questions that customers ask are getting answered.

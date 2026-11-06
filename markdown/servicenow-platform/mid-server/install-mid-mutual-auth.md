@@ -7,8 +7,8 @@ release: zurich
 product: MID Server
 classification: mid-server
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 11
+last_updated: "2026-10-08"
+reading_time_minutes: 12
 breadcrumb: [Securing and encrypting MID Server data, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -39,11 +39,19 @@ The ServiceNow instance must be able to reach the certificate's OCSP and CRL end
 
 In the Quebec release, a MID Server using the Health Log Analytic application cannot be configured with mutual authentication.
 
+As a general guideline, use a unique mTLS certificate for each MID Server to limit the impact if a single certificate is compromised.
+
 **Note:** Certificate-based authentication is not supported on On-Prem or edge encryption-enabled instances.
 
 ## Procedure
 
-1.  Contact ServiceNow support to request mutual authentication on the MID Server.
+1.  Verify that the instance is set up with ADCv2 load balancers.
+
+    Run the following command and check the response's `Server` header: `curl -I https://<instance>.service-now.com`
+
+    -   If the `Server` header value is `snow_adc`, the instance is on ADCv2. Continue to the next step.
+    -   If the value is anything else, the instance isn't on ADCv2. Contact ServiceNow Support to request migration to ADCv2 load balancers before you continue.
+    For additional technical details and troubleshooting information, see [KB1116112](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1116112).
 
 2.  Obtain a certificate and private key from the certificate authority.
 
@@ -86,7 +94,7 @@ In the Quebec release, a MID Server using the Health Log Analytic application ca
 
 5.  Check the uploaded CA Cert record on the instance and wait for the **Publish Status** to change to **Exists**.
 
-    **Note:** Do not proceed until the publish status is updated to **Exists**.
+    **Warning:** Do not proceed until the publish status is updated to **Exists**.
 
 6.  On the instance, navigate to **sys\_user\_certificate.list**.
 
@@ -96,7 +104,7 @@ In the Quebec release, a MID Server using the Health Log Analytic application ca
 
 9.  Create a new record.
 
-    **Note:** The record must have the MID Server's name and the **User Role** must be **MID Server**.
+    **Note:** The record must have the MID Server's name and the **User Role** must be **mid\_server**.
 
 10. Attach the original, unsplit PEM certificate to the record.
 
@@ -132,27 +140,27 @@ In the Quebec release, a MID Server using the Health Log Analytic application ca
 
         The `alias` is a unique name given to the certificate being imported. The MID Server requires a custom certificate for mutual authentication, with the default alias name `defaultsecuritykeypairhandle`. To configure MTLS communication between the MID Server and instance, the certificate entry must be added to the key store using the alias name `defaultsecuritykeypairhandle`.
 
-        The `fileName` is a file path that can contain a PEM certificate, or certificate chain, and a PCKS\#8 private key. The file path to the PEM bundle can contain multiple certificates and a single private key. The header and footer of each PEM certificate must be the following:
+        The `fileName` is the path to a PEM bundle file that contains one or more certificates and a private key in PKCS\#8 format. Include the private key and certificates in the following order:
 
         ```
-         -----BEGIN CERTIFICATE----- 
-        ```
-
-        ```
-         -----END CERTIFICATE----- 
-        ```
-
-        The header and footer of the PKCS\#8 syntax must be the following:
-
-        ```
-         -----BEGIN PRIVATE KEY----- 
-        ```
-
-        ```
+         -----BEGIN CERTIFICATE-----
+        Leaf certificate
+        -----END CERTIFICATE-----
+        
+         -----BEGIN CERTIFICATE-----
+        Intermediate certificate
+         -----END CERTIFICATE-----
+        
+         -----BEGIN CERTIFICATE-----
+         Root certificate
+         -----END CERTIFICATE-----
+        
+         -----BEGIN PRIVATE KEY-----
+         Private key
          -----END PRIVATE KEY----- 
         ```
 
-        An exception is thrown if the certificate chain fails validation. If the file contains multiple certificates, they must be ordered: leaf certificate, intermediate certificates, then root certificates.
+        The private key can go at the top or the bottom of the file. If the file contains multiple certificates, order them as follows: leaf certificate, intermediate certificates, then root certificates. The system throws an exception if the certificate chain fails validation.
 
     -   **Display certificate details for the specified alias**
 
@@ -200,6 +208,8 @@ In the Quebec release, a MID Server using the Health Log Analytic application ca
 
 [MID Server configuration file security]()
 
+[MID Server authentication methods comparison]()
+
 [MID Server authentication credentials and SOAP requests]()
 
 [MID Server unified key store]()
@@ -221,6 +231,8 @@ In the Quebec release, a MID Server using the Health Log Analytic application ca
 [MID Server FIPS Enforced Mode]()
 
 [MID Server Governance]()
+
+[MID Server IPKI authentication]()
 
 [Install custom certificates in the MID Server unified key store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/mid-unified-keystore.md)
 

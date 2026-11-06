@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configure, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Employee Center admin configurations

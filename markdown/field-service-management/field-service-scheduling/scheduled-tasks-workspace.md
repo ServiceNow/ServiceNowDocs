@@ -28,15 +28,15 @@ Role required: wm\_dispatcher or wm\_crew\_moderator
 
 3.  Assign or update a scheduled task.
 
-<table id="choicetable_qhx_zpy_3sb"><thead><tr><th align="left" id="d43590e98">
+<table id="choicetable_qhx_zpy_3sb"><thead><tr><th align="left" id="d43620e98">
 
 Option
 
-</th><th align="left" id="d43590e101">
+</th><th align="left" id="d43620e101">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d43590e107">
+</th></tr></thead><tbody><tr><td id="d43620e107">
 
 **Assign a scheduled task**
 
@@ -48,7 +48,7 @@ Steps
 4.  Click **Save**.
 
 
-</td></tr><tr><td id="d43590e137">
+</td></tr><tr><td id="d43620e137">
 
 **Unassign a scheduled task**
 
@@ -59,7 +59,7 @@ Steps
 3.  Move a scheduled task to the Pending dispatch state by clicking **Unassign task**.
 
 
-</td></tr><tr><td id="d43590e161">
+</td></tr><tr><td id="d43620e161">
 
 **Reschedule a scheduled task**
 
@@ -70,7 +70,7 @@ Steps
 
 **Note:** This option appears only if the scheduled task starts beyond the 12-hour threshold.
 
-</td></tr><tr><td id="d43590e184">
+</td></tr><tr><td id="d43620e184">
 
 **Edit the duration of a scheduled task**
 
@@ -81,7 +81,7 @@ Steps
 
 **Note:** The travel duration will not be affected.
 
-</td></tr><tr><td id="d43590e205">
+</td></tr><tr><td id="d43620e205">
 
 **Remove time gaps between tasks**
 

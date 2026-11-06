@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [HAM licensing, Hardware Asset Management licensing]
-breadcrumb: [Manage Hardware Asset Management subscriptions, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Opt-in or opt-out of HAM license resource categories, Hardware Asset Management license exclusion, Manage Hardware Asset Management subscriptions, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Exclude assets
@@ -48,12 +48,5 @@ You can only exclude assets whose resource category is opted in to Hardware Asse
 
 The asset is excluded from using the licensed Hardware Asset Management features.
 
-**Parent Topic:**[Manage Hardware Asset Management subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/managing-ham-subscriptions.md)
-
-**Related topics**  
-
-
-[Opt-in or opt-out of HAM license resource categories]()
-
-[View the license report for the Hardware Asset Management application]()
+**Parent Topic:**[Opt-in or opt-out of HAM license resource categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/optin-optout-ham-license-resource-categories.md)
 

@@ -40,5 +40,5 @@ Identity Center has the following tabs:
 -   [Login History](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/identity/login-history.md)
 -   [Registered Mobile Devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/identity/registered-mobile-devices.md)
 
-You can select these tabs to view the details such browser, IP Addressees, session relation information, login information, your registered mobile devices.
+You can select these tabs to view the details such as browser, IP addresses, session-related information, login information, and your registered mobile devices.
 
