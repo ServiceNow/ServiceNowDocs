@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-email-interaction-csm.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 1
+last_updated: "2026-11-05"
+reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,14 @@ Version history for the Email Interaction for CSM application on the ServiceNow 
 
 ## Version history
 
+-   **Version 2.6.1 - November 2026**
+    -   Defect fix:For email interactions routed by CCaaS
+        -   Added a new field to capture related email interactions routed by CCaaS.
+        -   Linking email interactions based on the related email identifier field.
+-   **Version 2.1.3 - November 2026**
+    -   Defect fix:
+        -   For email interactions routed by CCaaS, adding a new field to capture related email interactions routed by CCaaS.
+        -   Linking email interactions based on the related email identifier field.
 -   **Version 2.6.0 - September 2026**
 
     Minor defect fixes

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-ai-sgc-databricks.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-05"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) versi
 Version history for the ServiceNow® AI Service Graph Connector for Databricks application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 1.2.4 - November 2026**
+
+    New: Domain Separation support
 
 -   **Version 1.1.3 - October 2026**
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-aiops-experience.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 19
+last_updated: "2026-11-05"
+reading_time_minutes: 21
 breadcrumb: [ServiceNow Store - ITOM AIOps version history release notes, ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,25 @@ Version history for the ITOM AIOps Experience application on the ServiceNow Stor
 
 ## Version history
 
+-   **Version 27.2.68 - November 2026**
+    -   New:
+        -   Restore filter to default option added in Express List. Users can reset modified filters to their default state without refreshing the browser or switching views.
+        -   Related Alerts tab generalized for all integrations. The Related Alerts tab in Express List and Service Operations Workspace now displays related alerts for Azure Monitor Issues, DataDog Cases, and future integrations, sourcing relationships from a unified backend table and supporting bidirectional resolution.
+        -   Selected alert context is passed to Otto DARE \(Premium Chat\). When opening Otto DARE from Express List, the selected alert\(s\) context is now transferred, grounding conversations in the correct alert context.
+        -   Accessibility improvements for Meaningful Log charts. The Meaningful Log chart now supports keyboard navigation, visible focus indicators, and pattern-based bar rendering for WCAG 2.2 AA compliance.
+    -   Fixed:
+        -   AIOps Homepage-
+            -   The assignment groups dropdown in the AI Supervision screen under Service Operations Workspace now loads only the users' managed groups and no longer causes delays.
+            -   Fixed the direct links from the "AI Supervising" page to see alerts closed/processed/in process by AI Specialist in Express list.
+        -   Express list:
+            -   Fixed the use case where the Express List tab freezes. Tooltips on the list are now hidden.
+            -   Filter counts in Express List now update correctly when switching from 'essential' to 'extended' mode.
+            -   The Insight column now keeps its header when you resize columns.
+            -   String field “is one of” filters are now combined with the preceding condition, so they produce the correct query.
+        -   Metric explorer -
+            -   Improved memory consumption when pulling metric data on hosts with many CIs
+            -   “Show alerts on CI” icon didn’t appear on the chart. Alert icons now display, so you can see where alerts occurred along the metric timeline.
+    -   Removed: AI Specialist - The "Investigate with Observability tools" section has been temporarily removed from AI Specialist onboarding and settings for GA customers.
 -   **Version 27.2.51 - October 2026**
     -   Fixed:
         -   Service Dashboard: Fixed global views becoming unselectable after a private view was previously selected and improved accessibility.

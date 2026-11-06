@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-finance-spo-foundation.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-05"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Finance Close Automation version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the ServiceNow® SPO - Foundation application on the Service
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.0.2 - November 2026**
+
+    Changed: SPO MCP Server tools now carry standard MCP tool annotations \(read-only and destructive hints\), and the execute-task-action tool supports idempotency.
 
 -   **Version 2.0.0 - September 2026**
 

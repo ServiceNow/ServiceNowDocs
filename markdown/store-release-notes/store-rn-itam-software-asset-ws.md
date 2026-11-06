@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itam-software-asset-ws.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 5
+last_updated: "2026-11-05"
+reading_time_minutes: 6
 breadcrumb: [ServiceNow Store - IT Asset Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -15,6 +15,14 @@ breadcrumb: [ServiceNow Store - IT Asset Management version history release note
 Version history for the ServiceNow® Software Asset Workspace application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 12.1.0 - November 2026 \(Brazil\)**
+
+    A new report, Installs without a matching subscription, is now available in the Reports section. This report identifies software installs linked to subscription-based products that don’t have a corresponding user subscription, helping you spot licensing gaps and reconciliation issues.
+
+-   **Version 11.1.0 - November 2026 \(Australia\)**
+
+    A new report, Installs without a matching subscription, is now available in the Reports section. This report identifies software installs linked to subscription-based products that don’t have a corresponding user subscription, helping you spot licensing gaps and reconciliation issues.
 
 -   **Version 12.0.6 - October 2026 \(Brazil\)**
 

@@ -16,12 +16,16 @@ The ServiceNow Store contains IT Asset Management products.
 
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store.
 
+-   **[AI Cost Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-ai-cost-mgmt.md)**  
+Version history for the ServiceNow® AI Cost Management application on the ServiceNow Store.
 -   **[Asset Audit Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-asset-audit-response.md)**  
 Version history for the Asset Audit Response application on the ServiceNow Store.
 -   **[Asset Audit Response AI Advanced release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-asset-audit-response-ai-advanced.md)**  
 Version history for the ServiceNow® Asset Audit Response AI Advanced application on the ServiceNow Store.
 -   **[Asset Audits release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-asset-audits.md)**  
 Version history for the ServiceNow® Asset Audits application on the ServiceNow Store.
+-   **[Asset Management - Procurement Integration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-asset-mgmt-procurement-int.md)**  
+Version history for the ServiceNow® Asset Management - Procurement Integration application on the ServiceNow Store.
 -   **[Atlassian Administration Spoke release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-atlassian-admin-spoke.md)**  
 Version history for the Atlassian Administration Spoke application on the ServiceNow Store.
 -   **[Cloud Cost Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-cloud-insights.md)**  

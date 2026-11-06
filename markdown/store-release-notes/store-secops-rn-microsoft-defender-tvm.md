@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-microsoft-defender-tvm.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 5
+last_updated: "2026-11-05"
+reading_time_minutes: 6
 breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,10 @@ Version history for the Security Operations Vulnerability Response Integration w
 
 ## Version history
 
+-   **Version 31.4.11 - November 2026 \(USEM\)**
+    -   Fixed:
+        -   Added an informational banner to the Microsoft Defender for Cloud configuration page because the Save and Test option can't save credentials from outside that scope. It warns you when you're not in the integration's application scope.
+        -   An issue where Microsoft Defender for Cloud credentials could not be saved or tested and integration runs failed, when Configuration Compliance wasn't installed.
 -   **Version 31.4.6 - September 2026 \(USEM\)**
 
     Fixed: The Microsoft Threat and Vulnerability Management integration filtering for onboarded machines as expected instead of using a blank default machine filter.

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-intel-now-assist-admin-console.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 19
+last_updated: "2026-11-05"
+reading_time_minutes: 20
 breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -17,6 +17,10 @@ Version history for the AI Admin Hub Console application on the ServiceNow Store
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 11.1.3 - November 2026**
+
+    Defect Fixes
 
 -   **Version 10.4.5 - October 2026**
     -   One Step Skill Activation for Out of the Box Skills

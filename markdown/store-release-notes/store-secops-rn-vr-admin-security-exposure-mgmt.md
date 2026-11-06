@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-admin-security-exposure-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-05"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
@@ -16,6 +16,12 @@ Version history for the ServiceNow® Administration for Security Exposure Manage
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 30.6.9 - November 2026**
+    -   Fixed:
+        -   Improved data ingestion performance by eliminating repeated metadata lookups during finding processing, significantly reducing database load for large imports.
+        -   Improved access control for remediation target rules: rule conditions are now evaluated with query access controls enforced, so rules can only affect records their author is permitted to filter on.
+        -   Updated access controls so that summary counts in the administration experience correctly honor report-level permissions.
+        -   Fixed script errors that were logged to the system log during application installation and activation.
 -   **Version 30.7.1 - October 2026**
 
     Fixed: For large environments processing high volumes of EPSS score updates, improved the NVD synchronization performance and reduced sync run times.

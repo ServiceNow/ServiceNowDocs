@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-wdf-rn-wdf-tokenization.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-05"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Workflow Data Fabric version history release notes, ServiceNow Store version history release notes]
 ---
@@ -16,6 +16,9 @@ Version history for the ServiceNow® WDF Tokenization application on the Service
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 4.0.1 - November 2026**
+    -   Partner Passport Portal with ability to purchase access to Partner apps using Fabric Credits
+    -   New Fabric Credits usage dashboard design with partner app usage visibility
 -   **Version 3.1.9 - October 2026**
 
     Backend compatibility fixes for AI Native SKUs

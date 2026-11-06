@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secop
 release: store
 topic_type: reference
 last_updated: "2026-10-08"
-reading_time_minutes: 14
+reading_time_minutes: 15
 breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -34,6 +34,10 @@ Version history for the Vulnerability Response Integration with Wiz application 
             -   They remove a previous 16-controller-per-image cap that might leave large deployments with incomplete cluster/namespace visibility and unreliable auto-closing of vulnerable items when a deployment is removed.
             -   They provide a more accurate runtime exposure visibility at scale.
         -   A Wiz integration for AI Security findings for AI Security Exposure Management. Retrieves AI security scan findings, security-graph–based AI inventory lookup for hosts, and expanded support for additional AI asset types in cloud configuration findings. Note: The AI Security Exposure Management application and its dependencies are required for this integration.
+        -   Three new comprehensive integrations are now included with the Vulnerability Response Integration with Wiz that provide only full data imports. These comprehensive integrations are on-demand. They are activated by default and have the same basic functionality as their Host Vulnerability, Issues, and Test Results counterparts but do not support delta imports:
+            -   Wiz Host Vulnerability Integration - Comprehensive
+            -   Wiz Issues Integration - Comprehensive
+            -   Wiz Test Results Integration - Comprehensive
     -   Changed:
         -   Enhancements to improve handling of Wiz API error codes that include clearer notifications directing users to contact the Wiz support team when a vendor-side error occurs.
         -   Enhancements to improve the reliability of the data migration for Wiz Container Vulnerability Response.

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-config-compl.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 24
+last_updated: "2026-11-05"
+reading_time_minutes: 25
 breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -17,6 +17,15 @@ Version history for the Security Operations Configuration Compliance application
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 30.8.1 - November 2026 \(USEM\)**
+    -   New: Assistive technology and screen reader users can now perform bulk edits on configuration test results with improved accessibility in the bulk edit dialog. Record selection and State field labels are properly connected to their fields, the required nature of record selection is communicated, focus remains within the dialog when assigning an assignment group or selecting a date, and cell content is relayed when navigating through configuration items.
+    -   Fixed:
+        -   Deprecated script includes are no longer referenced in other scripts, preventing potential errors and ensuring cleaner code execution.
+        -   Findings are now generated on enabled policies in the Security Posture Control product when matching assets are present.
+-   **Version 15.11.0 - November 2026**
+
+    Fixed: Remediation tasks are now correctly generated when a test result is reopened from the closed state in Configuration Compliance. Assignment group linkage and regrouping are now retained when the result changes from Closed to Open.
 
 -   **Version 30.7.1 - October 2026 \(USEM\)**
     -   New: Added tracking for long-running test result imports in Configuration Compliance integrations to prevent timeout errors and state corruption when processing exceeds one hour.

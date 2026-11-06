@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-som-cpq-integration.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-05"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Sales Customer Relationship Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,14 @@ Version history for the ServiceNow® CPQ Integration application on the ServiceN
 
 ## Version history
 
+-   **Version 5.0.2 - November 2026**
+    -   Changed:
+        -   Ability to override browser locale in runtime configurator. Admins can now select and apply a preferred locale for translations, improving support for multilingual environments.
+        -   Product synchronization now tracks job status more reliably and reports status efficiently. Sync processes complete successfully with enhanced status reporting.
+        -   Internal cleanup and expanded automated testing have improved reliability and reduced future regressions.
+    -   Fixed:
+        -   Performance and stability issues have been resolved. System reliability has increased, and regressions are less likely.
+        -   UI improvements.
 -   **Version 5.0.1 - October 2026**
     -   New: Admins can now configure ramped pricing with early contract termination options. This enables more flexible quoting and contract management workflows, allowing customers to set pricing schedules that accommodate contract changes.
     -   Changed:

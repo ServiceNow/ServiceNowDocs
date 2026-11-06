@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-ai-risk-asset-mgmt-sn-ai.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-05"
 reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the ServiceNow® AI Risk and Asset Management for ServiceNow
 
 ## Version history
 
+-   **Version 1.7.1 - November 2026 \(Brazil\)**
+    -   Fixed:
+        -   Playbook and lifecycle experiences, including query conditions on the lifecycle tab and decision-table lists, were not working as expected.
+        -   Rejection comments now display correctly on AI Systems when an asset is rejected.
+        -   Status updates during asset rejection are now consistent—rejected change and offboarding requests are automatically set to the 'Cancelled' state.
 -   **Version 1.6.2 - October 2026 \(Brazil\)**
     -   New:
         -   Implemented EA integration with AI Asset intake process. Business application can be mapped to Asset record.

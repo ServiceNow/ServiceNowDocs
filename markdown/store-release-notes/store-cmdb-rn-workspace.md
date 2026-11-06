@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-cmdb-rn-workspace.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 15
+last_updated: "2026-11-05"
+reading_time_minutes: 16
 breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,15 @@ Version history for the CMDB Workspace application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 9.7.1 - November 2026**
+    -   New:
+        -   Explore and Search: Improved way of exploring CMDB, users can now browse CMDB based on relevant context \(for example, Cloud, Networking, End user devices\) without worrying about actual underlying schema.
+        -   Search allows users to ask CMDB data questions in natural language.
+        -   For users with access to Otto, Search uses the agentic CMDB search solution. For users with no access to Otto, Search continues to work on the legacy NLQ solution.
+    -   Changed:
+        -   Intelligent Search has been removed from the home page in lieu of ‘Explore and Search’ mentioned above.
+        -   Important: With this release, users will be prompted to go back to the CMDB Workspace \(instead of Service Graph Workspace\). For users already using CMDB Workspace, this is not relevant. For users who have switched to Service Graph Workspace, they are encouraged to switch back to CMDB Workspace. With a new framework on the horizon, we want to minimize the user churn and not have users having to familiarize with yet another new UX for a short span of time, hence the push to continue using the CMDB Workspace for now.
+    -   Fixed: Fixes related to Certification/Attestation task reassignment; Security fix; Performance fix for slow query
 -   **Version 9.7.0 - October 2026**
     -   Fixed
         -   Unified Map correctly renders upstream references for self-referencing tables when Show Reverse is enabled.

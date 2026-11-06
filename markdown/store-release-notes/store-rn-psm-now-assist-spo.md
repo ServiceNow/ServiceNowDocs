@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-psm-now-assist-spo.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-05"
 reading_time_minutes: 9
 breadcrumb: [ServiceNow Store - Sourcing and Procurement Operations version history release notes, ServiceNow Store - Source-to-Pay Operations version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the Now Assist for Sourcing and Procurement Operations \(SPO
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 11.0.2 - November 2026**
+
+    Changed: SPO MCP Server tools now carry standard MCP tool annotations \(read-only and destructive hints\), and the execute-task-action tool supports idempotency.
 
 -   **Version 11.0.0 - September 2026**
     -   New:

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-dlp-incident-response-proofpoint.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 1
+last_updated: "2026-11-05"
+reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -17,6 +17,10 @@ Version history for the DLP Incident Response integration with Proofpoint on the
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.1.2 - November 2026**
+
+    Fixed: The post comment call is invalidating the remediate action call's token if there is an error. This causes the remediate action to continuously fail with a response code: 401.
 
 -   **Version 1.1.1 - June 2026**
     -   Fixed:

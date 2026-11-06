@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-sn-app-analytics.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 12
+last_updated: "2026-11-05"
+reading_time_minutes: 13
 breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,10 @@ Version history for the Platform Analytics application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 9.1.2 - November 2026**
+    -   Fixed:
+        -   Additional filter condition in 'Group by' filter broken in bar chart visuals
+        -   Technical dashboard state \(filters and other preferences\) lost due to refresh-on-return behavior
 -   **Version 8.4.9 - October 2026**
     -   Fixed:
         -   Scheduled visualization export automatically disables the "Active" and "Omit if no records" toggle component for non-English language users

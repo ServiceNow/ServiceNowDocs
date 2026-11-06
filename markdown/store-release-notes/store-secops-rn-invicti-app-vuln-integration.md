@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-invicti-app-vuln-integration.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-05"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the Invicti Application Vulnerability Integration applicatio
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 30.4.5 - November 2026 \(USEM\)**
+
+    Fixed: An issue with failed Invicti application vulnerability item \(AVIT\) imports that resulted in a "Cannot read property 'length' from null" error has been resolved. Empty or whitespace-only CVSS vector values are now correctly detected before parsing, preventing errors and ensuring successful imports. CVSS-derived fields are not populated for findings if no CVSS vector data is provided.
 
 -   **Version 30.4.2 - September 2026 \(USEM\)**
 

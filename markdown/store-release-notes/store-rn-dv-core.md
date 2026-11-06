@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-dv-core.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 16
+last_updated: "2026-11-05"
+reading_time_minutes: 17
 breadcrumb: [Data Visualization components release notes, ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,28 @@ Version history for the Data visualization core application on the ServiceNow St
 
 ## Version history
 
+-   **Version 30.1.3 - November 2026**
+    -   Fixed:
+        -   Show indicator scorecard score date instead of "latest score" label
+        -   Adding same indicator more than once in the indicator scorecard
+        -   Enable Date Range Filtering for Indicator-Based Pivot Tables
+        -   Add Data Visualizations map sources link to All menu
+        -   Geomap component shows count discrepancy between state and drilldown levels in Platform Analytics
+-   **Version 29.1.9 - November 2026**
+    -   Fixed:
+        -   Data table format for visualization is no longer showing days/hours/minutes
+        -   Data labels on Donut visualizations are cut off
+        -   System Data Management Console - Graphs are unlabeled and read out as "a name custom control"
+        -   Score note \(comments\) are truncated in Data Visualization popup
+        -   YTD filters are not following the date format set in the instance
+        -   Tooltips in time series data visualizations are transparent
+        -   Geomap component shows count discrepancy between state and drilldown levels in Platform Analytics
+        -   The filter conditions are not passed after drill-down for total value in pivot table to the KPI details
+        -   Chart colors are being changed after updating the plugins
+        -   Legend patterns for Forecast and Forecast Range are incorrectly represented when "Replace colors with patterns in charts and graphs" is enabled
+        -   Set absolute period is not working correctly and Date Range is not applied
+        -   Data source with empty data doesn't show legend on time series chart
+        -   Chart renders extra day in the beginning when date range + Allow time selection is used as filter and filtered with last 30 days or any daily filter
 -   **Version 28.5.10 - October 2026**
     -   Fixed:
         -   GeoMap Data Visualization drill down displays "No data available" when cmn\_location.country is configured as a Reference field

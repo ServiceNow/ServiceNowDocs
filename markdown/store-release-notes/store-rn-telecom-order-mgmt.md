@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-order-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-05"
 reading_time_minutes: 6
 breadcrumb: [ServiceNow Store - Telecommunications Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,14 @@ Version history for the Order Management application on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 18.5.0 - November 2026 \(Australia+\)**
+
+    This release contains minor defect fixes.
+
+-   **Version 17.8.2 - November 2026 \(Zurich\)**
+
+    This release contains minor defect fixes.
 
 -   **Version 18.4.1 - October 2026 \(Australia\)**
     -   Converted "Decompose Customer Order" flow to Business rule and made flow as inactive.

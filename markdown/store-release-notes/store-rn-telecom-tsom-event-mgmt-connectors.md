@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-tsom-event-mgmt-connectors.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-05"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Telecommunications Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -16,6 +16,11 @@ Version history for the ServiceNow® TSOM Event Management Connectors applicatio
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 4.2.2 - November 2026**
+    -   Nokia alarm integration: Nine AdditionalInfo attributes in the TMF688 description. Adds operational attributes to alarm descriptions.
+    -   Nokia alarm integration: ClearedAlarmTime millisecond precision. Fixes a timestamp bug in alarm handling across all connectors.
+    -   Nokia MPN alarm collection fails with "GlideMutexFactory is not defined". Fixes alarm collection that was dropping all alarms in stale-check payloads.
+    -   MID Server ECC firewall. Security change to the MID Server path that alarm connectors use, so it may apply here too.
 -   **Version 4.1.1 - October 2026**
     -   This is the most functionally significant release of the cycle for Nokia MPN deployments, focused on event accuracy, data quality, and configurability. Administrators can now configure which field is used as the collection counter for Nokia MPN event-stream collection queries. This improves collection reliability in high-volume environments that previously had to work around fixed counter behavior.
     -   Nokia MPN metric and alarm events are now bound to configuration items by correlation identifier. This resolves cases where events were attached to the wrong network element, improving event accuracy on shared or similarly named devices.

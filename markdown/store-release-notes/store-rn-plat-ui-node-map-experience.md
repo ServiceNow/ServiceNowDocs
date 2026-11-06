@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-plat-ui-node-map-experience.html
 release: store
 topic_type: reference
-last_updated: "2026-08-06"
+last_updated: "2026-11-05"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - ServiceNow AI Platform UI version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the Node map Experience Component application on the Service
 
 ## Version history
 
+-   **Version 27.3.5 - November 2026**
+    -   Changed: Node Map export \(PDF/Image\) no longer inlines inherited CSS custom properties onto cloned elements during DOM cloning, dramatically reducing memory usage and preventing browser crashes when exporting large or densely themed node maps.
+    -   Fixed: Node Map export no longer crashes the browser on large datasets due to excessive CSS custom-property duplication across Shadow DOM boundaries in themed node components.
 -   **Version 27.3.2 - August 2026**
     -   Fixed Node Map mutating original node data by injecting a typeproperty, causing Data Broker serialization failure.
     -   Improved export \(PDF/PNG\) performance to prevent browser unresponsiveness on large maps.

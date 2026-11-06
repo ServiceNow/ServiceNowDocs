@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wdf-rest-connector-framework.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-05"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Workflow Data Fabric version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the ServiceNow® Data Fabric REST Connector Framework applic
 
 ## Version history
 
+-   **Version 1.1.1 - November 2026**
+    -   JSON-Based Configuration – Define connectors without code; deploy 80% faster
+    -   Auto Metadata Detection – Schema extraction + multi-auth support
 -   **Version 1.1.0 - September 2026**
 
     Rapidly scale connector coverage without custom engineering using JSON-driven configuration.

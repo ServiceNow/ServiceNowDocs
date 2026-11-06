@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-releaseops.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 9
+last_updated: "2026-11-05"
+reading_time_minutes: 10
 breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,16 @@ Version history for the ReleaseOps application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 2.5.1 - November 2026 \(Australia\)**
+    -   Fixed:
+        -   Commit failures during the Assessment phase are now handled correctly. Previously, the Deployment Request was left deferred at release time. \(PRB2000711\)
+        -   Communication between ReleaseOps instances no longer fails when mTLS is not enabled on the customer instance. \(PRB2098782\)
+        -   Instances upgraded to ReleaseOps 2.2.1 \(AS3.Jul\) before the platform reached Australia Patch 4, or to 1.4.0 \(ZS4.Aug\) before Zurich Patch 11, can now use sync messaging. Previously, they could not. \(PRB2095457\)
+        -   Added missing access control checks on the Stats API and GraphQL Aggregate API calls. \(PRB2095371\)
+-   **Version 1.6.0 - November 2026 \(Zurich\)**
+    -   Fixed:
+        -   ReleaseOps communication between instances no longer fails when mTLS is not enabled on the customer instance. Previously, intra-instance communication could break without a clear cause. \(PRB2098782\)
+        -   Sync messaging now works after upgrading ReleaseOps before the platform has the required patch. Previously, upgrading to 2.2.1 \(AS3.Jul\) before Australia Patch 4, or to 1.4.0 \(ZS4.Aug\) before Zurich Patch 11, left the instance unable to use sync messaging. \(PRB2095457\)
 -   **Version 3.0.5 - October 2026**
     -   ReleaseOps v3.0.2 \(10.2026\) — Release Notes
     -   New: Deployment Request Lifecycle

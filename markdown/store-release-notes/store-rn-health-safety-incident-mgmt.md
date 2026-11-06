@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-health-safety-incident-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-05"
 reading_time_minutes: 5
 breadcrumb: [ServiceNow Store - Health and Safety version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the Health and Safety Incident Management application on the
 
 ## Version history
 
+-   **Version 13.3.5 - November 2026**
+    -   Fixed:
+        -   Resolved the issue where the Establishment Year field was missing after selecting New.
+        -   Corrected Injury picker cards in the Health and Safety Workspace that displayed left-side body parts for right-side injuries.
+        -   Resolved an issue where the People Involved related list was not populated on Health and Safety Observation records submitted through the record producer by users wit the reporter role.
 -   **Version 13.3.3 - October 2026**
     -   New: Employees can view their Health and Safety incidents in EmployeeWorks. The My Requests page displays all incident records, enabling users to access details and updates for each incident directly within EmployeeWorks.
     -   Fixed:

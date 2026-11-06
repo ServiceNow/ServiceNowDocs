@@ -1444,9 +1444,9 @@ AI agents for SLO
 
 </td><td>
 
-Changed&lt;/p&gt;
+Changed
 
-All customer-facing references to "Now Assist" have been updated to "ServiceNow Otto" throughout the interface, documentation, and support materials. The product functionality remains the same, but you'll see the ServiceNow Otto name and branding everywhere you interact with your AI agent.&lt;/p&gt;.
+All customer-facing references to "Now Assist" have been updated to "ServiceNow Otto" throughout the interface, documentation, and support materials. The product functionality remains the same, but you will see the ServiceNow Otto name and branding everywhere you interact with your AI agent.
 
 </td></tr><tr><td>
 
@@ -7040,9 +7040,9 @@ AI agents for SLO
 
 </td><td>
 
-Changed&lt;/p&gt;
+Changed
 
-All customer-facing references to "Now Assist" have been updated to "ServiceNow Otto" throughout the interface, documentation, and support materials. The product functionality remains the same, but you'll see the ServiceNow Otto name and branding everywhere you interact with your AI agent.&lt;/p&gt;.
+All customer-facing references to "Now Assist" have been updated to "ServiceNow Otto" throughout the interface, documentation, and support materials. The product functionality remains the same, but you will see the ServiceNow Otto name and branding everywhere you interact with your AI agent.
 
 </td></tr><tr><td>
 

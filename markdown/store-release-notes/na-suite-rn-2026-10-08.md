@@ -1673,7 +1673,6 @@ The summary covers
 -   Potentially responsible CIs and changes.
 -   Related active and historical incidents, events and alerts.
 -   Investigation gaps.
-
 -   Ships inactive. Admins can activate it and configure trigger conditions, with P1 and P2 incidents as the default scope.
 -   Sections are left out when the underlying data is not available on the instance, such as Major Incident Management or event and alert tables.
 -   Each run consumes 4 assists.
@@ -1700,7 +1699,6 @@ The Change AI Specialist now asks for human input only when needed, such as when
 -   The risk score exceeds a threshold.
 -   Conflicts are detected.
 -   Policy requires approval.
-
 -   When input is required, it asks focused questions about the specific missing information instead of presenting forms.
 -   It explains why human input was needed.
 -   All interactions take place in the change record's activity stream and are captured in the work notes.
@@ -1722,7 +1720,6 @@ In the Assess quality of a change request workflow
 
 -   Users who launch it from the Assess quality UI action can now confirm recording the quality assessment summary. Previously the workflow kept waiting for this confirmation.
 -   Change policy records are now retrieved correctly, so the workflow can complete.
-
 -   The Change Quality Assessor agent now shows display names instead of internal field names in its output.
 -   The Change Quality Assessor agent now saves internal values instead of display values to the change quality score table.
 -   The Change Assessor agentic workflow now runs basic validation checks on the change record before running its agentic tools.
@@ -1779,7 +1776,6 @@ Performance dashboard
 -   Incident outcome counts could differ from the linked list when the viewer's time zone differed from the PA collection job's.
 -   KB articles tab summary metrics didn't display because data access was granted to the worker role instead of the AI worker manager role.
 -   KB articles tab took 23-28 seconds to load and didn't reliably refresh when selected.
-
 -   Incidents resolved after a positive requester reply left the Save activity notes step showing as ongoing for three days.
 -   A "no article found" knowledge feedback task could be created even when the AI Specialist cited a matching article whose link was removed from the customer note for access reasons.
 -   KB article attachments weren't used when composing responses, and one failed knowledge search request returned empty results for every query in that search.
@@ -1828,7 +1824,6 @@ Performance dashboard
 -   Incident outcome counts could differ from the linked list when the viewer's time zone differed from the PA collection job's.
 -   KB articles tab summary metrics didn't display because data access was granted to the worker role instead of the AI worker manager role.
 -   KB articles tab took 23-28 seconds to load and didn't reliably refresh when selected.
-
 -   Incidents resolved after a positive requester reply left the Save activity notes step showing as ongoing for three days.
 -   A "no article found" knowledge feedback task could be created even when the AI Specialist cited a matching article whose link was removed from the customer note for access reasons.
 -   KB article attachments weren't used when composing responses, and one failed knowledge search request returned empty results for every query in that search.
@@ -1918,7 +1913,6 @@ Automatically investigates new incidents and writes a summary to the work notes:
 -   Potentially responsible CIs and changes.
 -   Related incidents, events, and alerts.
 -   Investigation gaps.
-
 -   Ships inactive. Admins can activate it and configure triggers; P1 and P2 incidents are the default scope.
 -   Sections are omitted when the underlying data isn't available on the instance.
 -   Each run consumes 4 assists.
@@ -3022,7 +3016,6 @@ The summary covers
 -   Potentially responsible CIs and changes.
 -   Related active and historical incidents, events and alerts.
 -   Investigation gaps.
-
 -   Ships inactive. Admins can activate it and configure trigger conditions, with P1 and P2 incidents as the default scope.
 -   Sections are left out when the underlying data is not available on the instance, such as Major Incident Management or event and alert tables.
 -   Each run consumes 4 assists.
@@ -3049,7 +3042,6 @@ The Change AI Specialist now asks for human input only when needed, such as when
 -   The risk score exceeds a threshold.
 -   Conflicts are detected.
 -   Policy requires approval.
-
 -   When input is required, it asks focused questions about the specific missing information instead of presenting forms.
 -   It explains why human input was needed.
 -   All interactions take place in the change record's activity stream and are captured in the work notes.
@@ -3071,7 +3063,6 @@ In the Assess quality of a change request workflow
 
 -   Users who launch it from the Assess quality UI action can now confirm recording the quality assessment summary. Previously the workflow kept waiting for this confirmation.
 -   Change policy records are now retrieved correctly, so the workflow can complete.
-
 -   The Change Quality Assessor agent now shows display names instead of internal field names in its output.
 -   The Change Quality Assessor agent now saves internal values instead of display values to the change quality score table.
 -   The Change Assessor agentic workflow now runs basic validation checks on the change record before running its agentic tools.
@@ -3146,7 +3137,6 @@ Performance dashboard
 -   Incident outcome counts could differ from the linked list when the viewer's time zone differed from the PA collection job's.
 -   KB articles tab summary metrics didn't display because data access was granted to the worker role instead of the AI worker manager role.
 -   KB articles tab took 23-28 seconds to load and didn't reliably refresh when selected.
-
 -   Incidents resolved after a positive requester reply left the Save activity notes step showing as ongoing for three days.
 -   A "no article found" knowledge feedback task could be created even when the AI Specialist cited a matching article whose link was removed from the customer note for access reasons.
 -   KB article attachments weren't used when composing responses, and one failed knowledge search request returned empty results for every query in that search.
@@ -3195,7 +3185,6 @@ Performance dashboard
 -   Incident outcome counts could differ from the linked list when the viewer's time zone differed from the PA collection job's.
 -   KB articles tab summary metrics didn't display because data access was granted to the worker role instead of the AI worker manager role.
 -   KB articles tab took 23-28 seconds to load and didn't reliably refresh when selected.
-
 -   Incidents resolved after a positive requester reply left the Save activity notes step showing as ongoing for three days.
 -   A "no article found" knowledge feedback task could be created even when the AI Specialist cited a matching article whose link was removed from the customer note for access reasons.
 -   KB article attachments weren't used when composing responses, and one failed knowledge search request returned empty results for every query in that search.
@@ -3861,7 +3850,6 @@ Automatically investigates new incidents and writes a summary to the work notes:
 -   Potentially responsible CIs and changes.
 -   Related incidents, events, and alerts.
 -   Investigation gaps.
-
 -   Ships inactive. Admins can activate it and configure triggers; P1 and P2 incidents are the default scope.
 -   Sections are omitted when the underlying data isn't available on the instance.
 -   Each run consumes 4 assists.
@@ -6578,7 +6566,6 @@ The summary covers
 -   Potentially responsible CIs and changes.
 -   Related active and historical incidents, events and alerts.
 -   Investigation gaps.
-
 -   Ships inactive. Admins can activate it and configure trigger conditions, with P1 and P2 incidents as the default scope.
 -   Sections are left out when the underlying data is not available on the instance, such as Major Incident Management or event and alert tables.
 -   Each run consumes 4 assists.
@@ -6605,7 +6592,6 @@ The Change AI Specialist now asks for human input only when needed, such as when
 -   The risk score exceeds a threshold.
 -   Conflicts are detected.
 -   Policy requires approval.
-
 -   When input is required, it asks focused questions about the specific missing information instead of presenting forms.
 -   It explains why human input was needed.
 -   All interactions take place in the change record's activity stream and are captured in the work notes.
@@ -6627,7 +6613,6 @@ In the Assess quality of a change request workflow
 
 -   Users who launch it from the Assess quality UI action can now confirm recording the quality assessment summary. Previously the workflow kept waiting for this confirmation.
 -   Change policy records are now retrieved correctly, so the workflow can complete.
-
 -   The Change Quality Assessor agent now shows display names instead of internal field names in its output.
 -   The Change Quality Assessor agent now saves internal values instead of display values to the change quality score table.
 -   The Change Assessor agentic workflow now runs basic validation checks on the change record before running its agentic tools.
@@ -6673,7 +6658,6 @@ The summary covers
 -   Potentially responsible CIs and changes.
 -   Related active and historical incidents, events and alerts.
 -   Investigation gaps.
-
 -   Ships inactive. Admins can activate it and configure trigger conditions, with P1 and P2 incidents as the default scope.
 -   Sections are left out when the underlying data is not available on the instance, such as Major Incident Management or event and alert tables.
 -   Each run consumes 4 assists.
@@ -6714,7 +6698,6 @@ In the Assess quality of a change request workflow
 
 -   Users who launch it from the Assess quality UI action can now confirm recording the quality assessment summary. Previously the workflow kept waiting for this confirmation.
 -   Change policy records are now retrieved correctly, so the workflow can complete.
-
 -   The Change Quality Assessor agent now shows display names instead of internal field names in its output.
 -   The Change Quality Assessor agent now saves internal values instead of display values to the change quality score table.
 -   The Change Assessor agentic workflow now runs basic validation checks on the change record before running its agentic tools.
@@ -6740,7 +6723,6 @@ The Now Assist modal now reflects the Assigned to field's mandatory state after 
 
 -   Previously this blocked saving the form in Service Operations Workspace.
 -   Previously the mandatory state was shown inconsistently in the native UI.
-
 -   Bullet-point formatting in work notes no longer breaks when a field such as Assignment group is changed and the record is saved.
 -   Incident Assist agentic workflow options now display in Japanese when the user's language is set to Japanese.
 -   Post Incident Report generation now responds faster.
@@ -6768,7 +6750,6 @@ The summary covers
 -   Potentially responsible CIs and changes.
 -   Related active and historical incidents, events and alerts.
 -   Investigation gaps.
-
 -   Ships inactive. Admins can activate it and configure trigger conditions, with P1 and P2 incidents as the default scope.
 -   Sections are left out when the underlying data is not available on the instance, such as Major Incident Management or event and alert tables.
 -   Each run consumes 4 assists.
@@ -6824,7 +6805,6 @@ The Now Assist modal now reflects the Assigned to field's mandatory state after 
 
 -   Previously this blocked saving the form in Service Operations Workspace.
 -   Previously the mandatory state was shown inconsistently in the native UI.
-
 -   Bullet-point formatting in work notes no longer breaks when a field such as Assignment group is changed and the record is saved.
 -   Incident Assist agentic workflow options now display in Japanese when the user's language is set to Japanese.
 -   Post Incident Report generation now responds faster.
@@ -6850,7 +6830,6 @@ Automatically investigates new incidents and writes a summary to the work notes:
 -   Potentially responsible CIs and changes.
 -   Related incidents, events, and alerts.
 -   Investigation gaps.
-
 -   Ships inactive. Admins can activate it and configure triggers; P1 and P2 incidents are the default scope.
 -   Sections are omitted when the underlying data isn't available on the instance.
 -   Each run consumes 4 assists.
@@ -6946,7 +6925,6 @@ Performance dashboard
 -   Incident outcome counts could differ from the linked list when the viewer's time zone differed from the PA collection job's.
 -   KB articles tab summary metrics didn't display because data access was granted to the worker role instead of the AI worker manager role.
 -   KB articles tab took 23-28 seconds to load and didn't reliably refresh when selected.
-
 -   Incidents resolved after a positive requester reply left the Save activity notes step showing as ongoing for three days.
 -   A "no article found" knowledge feedback task could be created even when the AI Specialist cited a matching article whose link was removed from the customer note for access reasons.
 -   KB article attachments weren't used when composing responses, and one failed knowledge search request returned empty results for every query in that search.
@@ -6995,7 +6973,6 @@ Performance dashboard
 -   Incident outcome counts could differ from the linked list when the viewer's time zone differed from the PA collection job's.
 -   KB articles tab summary metrics didn't display because data access was granted to the worker role instead of the AI worker manager role.
 -   KB articles tab took 23-28 seconds to load and didn't reliably refresh when selected.
-
 -   Incidents resolved after a positive requester reply left the Save activity notes step showing as ongoing for three days.
 -   A "no article found" knowledge feedback task could be created even when the AI Specialist cited a matching article whose link was removed from the customer note for access reasons.
 -   KB article attachments weren't used when composing responses, and one failed knowledge search request returned empty results for every query in that search.
@@ -7099,7 +7076,6 @@ Automatically investigates new incidents and writes a summary to the work notes:
 -   Potentially responsible CIs and changes.
 -   Related incidents, events, and alerts.
 -   Investigation gaps.
-
 -   Ships inactive. Admins can activate it and configure triggers; P1 and P2 incidents are the default scope.
 -   Sections are omitted when the underlying data isn't available on the instance.
 -   Each run consumes 4 assists.
@@ -7766,7 +7742,6 @@ The summary covers
 -   Potentially responsible CIs and changes.
 -   Related active and historical incidents, events and alerts.
 -   Investigation gaps.
-
 -   Ships inactive. Admins can activate it and configure trigger conditions, with P1 and P2 incidents as the default scope.
 -   Sections are left out when the underlying data is not available on the instance, such as Major Incident Management or event and alert tables.
 -   Each run consumes 4 assists.
@@ -7793,7 +7768,6 @@ The Change AI Specialist now asks for human input only when needed, such as when
 -   The risk score exceeds a threshold.
 -   Conflicts are detected.
 -   Policy requires approval.
-
 -   When input is required, it asks focused questions about the specific missing information instead of presenting forms.
 -   It explains why human input was needed.
 -   All interactions take place in the change record's activity stream and are captured in the work notes.
@@ -7815,7 +7789,6 @@ In the Assess quality of a change request workflow
 
 -   Users who launch it from the Assess quality UI action can now confirm recording the quality assessment summary. Previously the workflow kept waiting for this confirmation.
 -   Change policy records are now retrieved correctly, so the workflow can complete.
-
 -   The Change Quality Assessor agent now shows display names instead of internal field names in its output.
 -   The Change Quality Assessor agent now saves internal values instead of display values to the change quality score table.
 -   The Change Assessor agentic workflow now runs basic validation checks on the change record before running its agentic tools.
@@ -7861,7 +7834,6 @@ The summary covers
 -   Potentially responsible CIs and changes.
 -   Related active and historical incidents, events and alerts.
 -   Investigation gaps.
-
 -   Ships inactive. Admins can activate it and configure trigger conditions, with P1 and P2 incidents as the default scope.
 -   Sections are left out when the underlying data is not available on the instance, such as Major Incident Management or event and alert tables.
 -   Each run consumes 4 assists.
@@ -7902,7 +7874,6 @@ In the Assess quality of a change request workflow
 
 -   Users who launch it from the Assess quality UI action can now confirm recording the quality assessment summary. Previously the workflow kept waiting for this confirmation.
 -   Change policy records are now retrieved correctly, so the workflow can complete.
-
 -   The Change Quality Assessor agent now shows display names instead of internal field names in its output.
 -   The Change Quality Assessor agent now saves internal values instead of display values to the change quality score table.
 -   The Change Assessor agentic workflow now runs basic validation checks on the change record before running its agentic tools.
@@ -7928,7 +7899,6 @@ The Now Assist modal now reflects the Assigned to field's mandatory state after 
 
 -   Previously this blocked saving the form in Service Operations Workspace.
 -   Previously the mandatory state was shown inconsistently in the native UI.
-
 -   Bullet-point formatting in work notes no longer breaks when a field such as Assignment group is changed and the record is saved.
 -   Incident Assist agentic workflow options now display in Japanese when the user's language is set to Japanese.
 -   Post Incident Report generation now responds faster.
@@ -7956,7 +7926,6 @@ The summary covers
 -   Potentially responsible CIs and changes.
 -   Related active and historical incidents, events and alerts.
 -   Investigation gaps.
-
 -   Ships inactive. Admins can activate it and configure trigger conditions, with P1 and P2 incidents as the default scope.
 -   Sections are left out when the underlying data is not available on the instance, such as Major Incident Management or event and alert tables.
 -   Each run consumes 4 assists.
@@ -8012,7 +7981,6 @@ The Now Assist modal now reflects the Assigned to field's mandatory state after 
 
 -   Previously this blocked saving the form in Service Operations Workspace.
 -   Previously the mandatory state was shown inconsistently in the native UI.
-
 -   Bullet-point formatting in work notes no longer breaks when a field such as Assignment group is changed and the record is saved.
 -   Incident Assist agentic workflow options now display in Japanese when the user's language is set to Japanese.
 -   Post Incident Report generation now responds faster.
@@ -8038,7 +8006,6 @@ Automatically investigates new incidents and writes a summary to the work notes:
 -   Potentially responsible CIs and changes.
 -   Related incidents, events, and alerts.
 -   Investigation gaps.
-
 -   Ships inactive. Admins can activate it and configure triggers; P1 and P2 incidents are the default scope.
 -   Sections are omitted when the underlying data isn't available on the instance.
 -   Each run consumes 4 assists.
@@ -8134,7 +8101,6 @@ Performance dashboard
 -   Incident outcome counts could differ from the linked list when the viewer's time zone differed from the PA collection job's.
 -   KB articles tab summary metrics didn't display because data access was granted to the worker role instead of the AI worker manager role.
 -   KB articles tab took 23-28 seconds to load and didn't reliably refresh when selected.
-
 -   Incidents resolved after a positive requester reply left the Save activity notes step showing as ongoing for three days.
 -   A "no article found" knowledge feedback task could be created even when the AI Specialist cited a matching article whose link was removed from the customer note for access reasons.
 -   KB article attachments weren't used when composing responses, and one failed knowledge search request returned empty results for every query in that search.
@@ -8183,7 +8149,6 @@ Performance dashboard
 -   Incident outcome counts could differ from the linked list when the viewer's time zone differed from the PA collection job's.
 -   KB articles tab summary metrics didn't display because data access was granted to the worker role instead of the AI worker manager role.
 -   KB articles tab took 23-28 seconds to load and didn't reliably refresh when selected.
-
 -   Incidents resolved after a positive requester reply left the Save activity notes step showing as ongoing for three days.
 -   A "no article found" knowledge feedback task could be created even when the AI Specialist cited a matching article whose link was removed from the customer note for access reasons.
 -   KB article attachments weren't used when composing responses, and one failed knowledge search request returned empty results for every query in that search.
@@ -8343,7 +8308,6 @@ Automatically investigates new incidents and writes a summary to the work notes:
 -   Potentially responsible CIs and changes.
 -   Related incidents, events, and alerts.
 -   Investigation gaps.
-
 -   Ships inactive. Admins can activate it and configure triggers; P1 and P2 incidents are the default scope.
 -   Sections are omitted when the underlying data isn't available on the instance.
 -   Each run consumes 4 assists.
@@ -10447,7 +10411,6 @@ The summary covers
 -   Potentially responsible CIs and changes.
 -   Related active and historical incidents, events and alerts.
 -   Investigation gaps.
-
 -   Ships inactive. Admins can activate it and configure trigger conditions, with P1 and P2 incidents as the default scope.
 -   Sections are left out when the underlying data is not available on the instance, such as Major Incident Management or event and alert tables.
 -   Each run consumes 4 assists.
@@ -10474,7 +10437,6 @@ The Change AI Specialist now asks for human input only when needed, such as when
 -   The risk score exceeds a threshold.
 -   Conflicts are detected.
 -   Policy requires approval.
-
 -   When input is required, it asks focused questions about the specific missing information instead of presenting forms.
 -   It explains why human input was needed.
 -   All interactions take place in the change record's activity stream and are captured in the work notes.
@@ -10496,7 +10458,6 @@ In the Assess quality of a change request workflow
 
 -   Users who launch it from the Assess quality UI action can now confirm recording the quality assessment summary. Previously the workflow kept waiting for this confirmation.
 -   Change policy records are now retrieved correctly, so the workflow can complete.
-
 -   The Change Quality Assessor agent now shows display names instead of internal field names in its output.
 -   The Change Quality Assessor agent now saves internal values instead of display values to the change quality score table.
 -   The Change Assessor agentic workflow now runs basic validation checks on the change record before running its agentic tools.
@@ -10653,7 +10614,6 @@ The summary covers
 -   Potentially responsible CIs and changes.
 -   Related active and historical incidents, events and alerts.
 -   Investigation gaps.
-
 -   Ships inactive. Admins can activate it and configure trigger conditions, with P1 and P2 incidents as the default scope.
 -   Sections are left out when the underlying data is not available on the instance, such as Major Incident Management or event and alert tables.
 -   Each run consumes 4 assists.
@@ -10694,7 +10654,6 @@ In the Assess quality of a change request workflow
 
 -   Users who launch it from the Assess quality UI action can now confirm recording the quality assessment summary. Previously the workflow kept waiting for this confirmation.
 -   Change policy records are now retrieved correctly, so the workflow can complete.
-
 -   The Change Quality Assessor agent now shows display names instead of internal field names in its output.
 -   The Change Quality Assessor agent now saves internal values instead of display values to the change quality score table.
 -   The Change Assessor agentic workflow now runs basic validation checks on the change record before running its agentic tools.
@@ -10720,7 +10679,6 @@ The Now Assist modal now reflects the Assigned to field's mandatory state after 
 
 -   Previously this blocked saving the form in Service Operations Workspace.
 -   Previously the mandatory state was shown inconsistently in the native UI.
-
 -   Bullet-point formatting in work notes no longer breaks when a field such as Assignment group is changed and the record is saved.
 -   Incident Assist agentic workflow options now display in Japanese when the user's language is set to Japanese.
 -   Post Incident Report generation now responds faster.
@@ -10748,7 +10706,6 @@ The summary covers
 -   Potentially responsible CIs and changes.
 -   Related active and historical incidents, events and alerts.
 -   Investigation gaps.
-
 -   Ships inactive. Admins can activate it and configure trigger conditions, with P1 and P2 incidents as the default scope.
 -   Sections are left out when the underlying data is not available on the instance, such as Major Incident Management or event and alert tables.
 -   Each run consumes 4 assists.
@@ -10804,7 +10761,6 @@ The Now Assist modal now reflects the Assigned to field's mandatory state after 
 
 -   Previously this blocked saving the form in Service Operations Workspace.
 -   Previously the mandatory state was shown inconsistently in the native UI.
-
 -   Bullet-point formatting in work notes no longer breaks when a field such as Assignment group is changed and the record is saved.
 -   Incident Assist agentic workflow options now display in Japanese when the user's language is set to Japanese.
 -   Post Incident Report generation now responds faster.
@@ -10830,7 +10786,6 @@ Automatically investigates new incidents and writes a summary to the work notes:
 -   Potentially responsible CIs and changes.
 -   Related incidents, events, and alerts.
 -   Investigation gaps.
-
 -   Ships inactive. Admins can activate it and configure triggers; P1 and P2 incidents are the default scope.
 -   Sections are omitted when the underlying data isn't available on the instance.
 -   Each run consumes 4 assists.
@@ -10926,7 +10881,6 @@ Performance dashboard
 -   Incident outcome counts could differ from the linked list when the viewer's time zone differed from the PA collection job's.
 -   KB articles tab summary metrics didn't display because data access was granted to the worker role instead of the AI worker manager role.
 -   KB articles tab took 23-28 seconds to load and didn't reliably refresh when selected.
-
 -   Incidents resolved after a positive requester reply left the Save activity notes step showing as ongoing for three days.
 -   A "no article found" knowledge feedback task could be created even when the AI Specialist cited a matching article whose link was removed from the customer note for access reasons.
 -   KB article attachments weren't used when composing responses, and one failed knowledge search request returned empty results for every query in that search.
@@ -10975,7 +10929,6 @@ Performance dashboard
 -   Incident outcome counts could differ from the linked list when the viewer's time zone differed from the PA collection job's.
 -   KB articles tab summary metrics didn't display because data access was granted to the worker role instead of the AI worker manager role.
 -   KB articles tab took 23-28 seconds to load and didn't reliably refresh when selected.
-
 -   Incidents resolved after a positive requester reply left the Save activity notes step showing as ongoing for three days.
 -   A "no article found" knowledge feedback task could be created even when the AI Specialist cited a matching article whose link was removed from the customer note for access reasons.
 -   KB article attachments weren't used when composing responses, and one failed knowledge search request returned empty results for every query in that search.
@@ -11962,7 +11915,6 @@ Automatically investigates new incidents and writes a summary to the work notes:
 -   Potentially responsible CIs and changes.
 -   Related incidents, events, and alerts.
 -   Investigation gaps.
-
 -   Ships inactive. Admins can activate it and configure triggers; P1 and P2 incidents are the default scope.
 -   Sections are omitted when the underlying data isn't available on the instance.
 -   Each run consumes 4 assists.
@@ -13211,7 +13163,6 @@ The summary covers
 -   Potentially responsible CIs and changes.
 -   Related active and historical incidents, events and alerts.
 -   Investigation gaps.
-
 -   Ships inactive. Admins can activate it and configure trigger conditions, with P1 and P2 incidents as the default scope.
 -   Sections are left out when the underlying data is not available on the instance, such as Major Incident Management or event and alert tables.
 -   Each run consumes 4 assists.
@@ -13238,7 +13189,6 @@ The Change AI Specialist now asks for human input only when needed, such as when
 -   The risk score exceeds a threshold.
 -   Conflicts are detected.
 -   Policy requires approval.
-
 -   When input is required, it asks focused questions about the specific missing information instead of presenting forms.
 -   It explains why human input was needed.
 -   All interactions take place in the change record's activity stream and are captured in the work notes.
@@ -13260,7 +13210,6 @@ In the Assess quality of a change request workflow
 
 -   Users who launch it from the Assess quality UI action can now confirm recording the quality assessment summary. Previously the workflow kept waiting for this confirmation.
 -   Change policy records are now retrieved correctly, so the workflow can complete.
-
 -   The Change Quality Assessor agent now shows display names instead of internal field names in its output.
 -   The Change Quality Assessor agent now saves internal values instead of display values to the change quality score table.
 -   The Change Assessor agentic workflow now runs basic validation checks on the change record before running its agentic tools.
@@ -13306,7 +13255,6 @@ The summary covers
 -   Potentially responsible CIs and changes.
 -   Related active and historical incidents, events and alerts.
 -   Investigation gaps.
-
 -   Ships inactive. Admins can activate it and configure trigger conditions, with P1 and P2 incidents as the default scope.
 -   Sections are left out when the underlying data is not available on the instance, such as Major Incident Management or event and alert tables.
 -   Each run consumes 4 assists.
@@ -13347,7 +13295,6 @@ In the Assess quality of a change request workflow
 
 -   Users who launch it from the Assess quality UI action can now confirm recording the quality assessment summary. Previously the workflow kept waiting for this confirmation.
 -   Change policy records are now retrieved correctly, so the workflow can complete.
-
 -   The Change Quality Assessor agent now shows display names instead of internal field names in its output.
 -   The Change Quality Assessor agent now saves internal values instead of display values to the change quality score table.
 -   The Change Assessor agentic workflow now runs basic validation checks on the change record before running its agentic tools.
@@ -13373,7 +13320,6 @@ The Now Assist modal now reflects the Assigned to field's mandatory state after 
 
 -   Previously this blocked saving the form in Service Operations Workspace.
 -   Previously the mandatory state was shown inconsistently in the native UI.
-
 -   Bullet-point formatting in work notes no longer breaks when a field such as Assignment group is changed and the record is saved.
 -   Incident Assist agentic workflow options now display in Japanese when the user's language is set to Japanese.
 -   Post Incident Report generation now responds faster.
@@ -13401,7 +13347,6 @@ The summary covers
 -   Potentially responsible CIs and changes.
 -   Related active and historical incidents, events and alerts.
 -   Investigation gaps.
-
 -   Ships inactive. Admins can activate it and configure trigger conditions, with P1 and P2 incidents as the default scope.
 -   Sections are left out when the underlying data is not available on the instance, such as Major Incident Management or event and alert tables.
 -   Each run consumes 4 assists.
@@ -13457,7 +13402,6 @@ The Now Assist modal now reflects the Assigned to field's mandatory state after 
 
 -   Previously this blocked saving the form in Service Operations Workspace.
 -   Previously the mandatory state was shown inconsistently in the native UI.
-
 -   Bullet-point formatting in work notes no longer breaks when a field such as Assignment group is changed and the record is saved.
 -   Incident Assist agentic workflow options now display in Japanese when the user's language is set to Japanese.
 -   Post Incident Report generation now responds faster.
@@ -13483,7 +13427,6 @@ Automatically investigates new incidents and writes a summary to the work notes:
 -   Potentially responsible CIs and changes.
 -   Related incidents, events, and alerts.
 -   Investigation gaps.
-
 -   Ships inactive. Admins can activate it and configure triggers; P1 and P2 incidents are the default scope.
 -   Sections are omitted when the underlying data isn't available on the instance.
 -   Each run consumes 4 assists.
@@ -13579,7 +13522,6 @@ Performance dashboard
 -   Incident outcome counts could differ from the linked list when the viewer's time zone differed from the PA collection job's.
 -   KB articles tab summary metrics didn't display because data access was granted to the worker role instead of the AI worker manager role.
 -   KB articles tab took 23-28 seconds to load and didn't reliably refresh when selected.
-
 -   Incidents resolved after a positive requester reply left the Save activity notes step showing as ongoing for three days.
 -   A "no article found" knowledge feedback task could be created even when the AI Specialist cited a matching article whose link was removed from the customer note for access reasons.
 -   KB article attachments weren't used when composing responses, and one failed knowledge search request returned empty results for every query in that search.
@@ -13628,7 +13570,6 @@ Performance dashboard
 -   Incident outcome counts could differ from the linked list when the viewer's time zone differed from the PA collection job's.
 -   KB articles tab summary metrics didn't display because data access was granted to the worker role instead of the AI worker manager role.
 -   KB articles tab took 23-28 seconds to load and didn't reliably refresh when selected.
-
 -   Incidents resolved after a positive requester reply left the Save activity notes step showing as ongoing for three days.
 -   A "no article found" knowledge feedback task could be created even when the AI Specialist cited a matching article whose link was removed from the customer note for access reasons.
 -   KB article attachments weren't used when composing responses, and one failed knowledge search request returned empty results for every query in that search.
@@ -13774,7 +13715,6 @@ Automatically investigates new incidents and writes a summary to the work notes:
 -   Potentially responsible CIs and changes.
 -   Related incidents, events, and alerts.
 -   Investigation gaps.
-
 -   Ships inactive. Admins can activate it and configure triggers; P1 and P2 incidents are the default scope.
 -   Sections are omitted when the underlying data isn't available on the instance.
 -   Each run consumes 4 assists.
@@ -15901,7 +15841,6 @@ The summary covers
 -   Potentially responsible CIs and changes.
 -   Related active and historical incidents, events and alerts.
 -   Investigation gaps.
-
 -   Ships inactive. Admins can activate it and configure trigger conditions, with P1 and P2 incidents as the default scope.
 -   Sections are left out when the underlying data is not available on the instance, such as Major Incident Management or event and alert tables.
 -   Each run consumes 4 assists.
@@ -15928,7 +15867,6 @@ The Change AI Specialist now asks for human input only when needed, such as when
 -   The risk score exceeds a threshold.
 -   Conflicts are detected.
 -   Policy requires approval.
-
 -   When input is required, it asks focused questions about the specific missing information instead of presenting forms.
 -   It explains why human input was needed.
 -   All interactions take place in the change record's activity stream and are captured in the work notes.
@@ -15950,7 +15888,6 @@ In the Assess quality of a change request workflow
 
 -   Users who launch it from the Assess quality UI action can now confirm recording the quality assessment summary. Previously the workflow kept waiting for this confirmation.
 -   Change policy records are now retrieved correctly, so the workflow can complete.
-
 -   The Change Quality Assessor agent now shows display names instead of internal field names in its output.
 -   The Change Quality Assessor agent now saves internal values instead of display values to the change quality score table.
 -   The Change Assessor agentic workflow now runs basic validation checks on the change record before running its agentic tools.
@@ -16107,7 +16044,6 @@ The summary covers
 -   Potentially responsible CIs and changes.
 -   Related active and historical incidents, events and alerts.
 -   Investigation gaps.
-
 -   Ships inactive. Admins can activate it and configure trigger conditions, with P1 and P2 incidents as the default scope.
 -   Sections are left out when the underlying data is not available on the instance, such as Major Incident Management or event and alert tables.
 -   Each run consumes 4 assists.
@@ -16148,7 +16084,6 @@ In the Assess quality of a change request workflow
 
 -   Users who launch it from the Assess quality UI action can now confirm recording the quality assessment summary. Previously the workflow kept waiting for this confirmation.
 -   Change policy records are now retrieved correctly, so the workflow can complete.
-
 -   The Change Quality Assessor agent now shows display names instead of internal field names in its output.
 -   The Change Quality Assessor agent now saves internal values instead of display values to the change quality score table.
 -   The Change Assessor agentic workflow now runs basic validation checks on the change record before running its agentic tools.
@@ -16174,7 +16109,6 @@ The Now Assist modal now reflects the Assigned to field's mandatory state after 
 
 -   Previously this blocked saving the form in Service Operations Workspace.
 -   Previously the mandatory state was shown inconsistently in the native UI.
-
 -   Bullet-point formatting in work notes no longer breaks when a field such as Assignment group is changed and the record is saved.
 -   Incident Assist agentic workflow options now display in Japanese when the user's language is set to Japanese.
 -   Post Incident Report generation now responds faster.
@@ -16202,7 +16136,6 @@ The summary covers
 -   Potentially responsible CIs and changes.
 -   Related active and historical incidents, events and alerts.
 -   Investigation gaps.
-
 -   Ships inactive. Admins can activate it and configure trigger conditions, with P1 and P2 incidents as the default scope.
 -   Sections are left out when the underlying data is not available on the instance, such as Major Incident Management or event and alert tables.
 -   Each run consumes 4 assists.
@@ -16258,7 +16191,6 @@ The Now Assist modal now reflects the Assigned to field's mandatory state after 
 
 -   Previously this blocked saving the form in Service Operations Workspace.
 -   Previously the mandatory state was shown inconsistently in the native UI.
-
 -   Bullet-point formatting in work notes no longer breaks when a field such as Assignment group is changed and the record is saved.
 -   Incident Assist agentic workflow options now display in Japanese when the user's language is set to Japanese.
 -   Post Incident Report generation now responds faster.
@@ -16284,7 +16216,6 @@ Automatically investigates new incidents and writes a summary to the work notes:
 -   Potentially responsible CIs and changes.
 -   Related incidents, events, and alerts.
 -   Investigation gaps.
-
 -   Ships inactive. Admins can activate it and configure triggers; P1 and P2 incidents are the default scope.
 -   Sections are omitted when the underlying data isn't available on the instance.
 -   Each run consumes 4 assists.
@@ -16380,7 +16311,6 @@ Performance dashboard
 -   Incident outcome counts could differ from the linked list when the viewer's time zone differed from the PA collection job's.
 -   KB articles tab summary metrics didn't display because data access was granted to the worker role instead of the AI worker manager role.
 -   KB articles tab took 23-28 seconds to load and didn't reliably refresh when selected.
-
 -   Incidents resolved after a positive requester reply left the Save activity notes step showing as ongoing for three days.
 -   A "no article found" knowledge feedback task could be created even when the AI Specialist cited a matching article whose link was removed from the customer note for access reasons.
 -   KB article attachments weren't used when composing responses, and one failed knowledge search request returned empty results for every query in that search.
@@ -16429,7 +16359,6 @@ Performance dashboard
 -   Incident outcome counts could differ from the linked list when the viewer's time zone differed from the PA collection job's.
 -   KB articles tab summary metrics didn't display because data access was granted to the worker role instead of the AI worker manager role.
 -   KB articles tab took 23-28 seconds to load and didn't reliably refresh when selected.
-
 -   Incidents resolved after a positive requester reply left the Save activity notes step showing as ongoing for three days.
 -   A "no article found" knowledge feedback task could be created even when the AI Specialist cited a matching article whose link was removed from the customer note for access reasons.
 -   KB article attachments weren't used when composing responses, and one failed knowledge search request returned empty results for every query in that search.
@@ -17431,7 +17360,6 @@ Automatically investigates new incidents and writes a summary to the work notes:
 -   Potentially responsible CIs and changes.
 -   Related incidents, events, and alerts.
 -   Investigation gaps.
-
 -   Ships inactive. Admins can activate it and configure triggers; P1 and P2 incidents are the default scope.
 -   Sections are omitted when the underlying data isn't available on the instance.
 -   Each run consumes 4 assists.

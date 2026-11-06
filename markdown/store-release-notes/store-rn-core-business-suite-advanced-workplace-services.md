@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-core-business-suite-advanced-workplace-services.html
 release: store
 topic_type: reference
-last_updated: "2026-08-06"
+last_updated: "2026-11-05"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Core Business version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the ServiceNow® Core Business Suite Advanced for Workplace 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 3.3.5 - November 2026**
+
+    Resolved defects related to upgrading the WSD application version in Core Business Suite \(CBS\).
 
 -   **Version 3.3.3 - August 2026**
 

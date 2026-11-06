@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-manufacturing-process-manager.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 5
+last_updated: "2026-11-05"
+reading_time_minutes: 6
 breadcrumb: [ServiceNow Store - Operational Technology version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,18 @@ Version history for the Industrial Process Manager application on the ServiceNow
 
 ## Version history
 
+-   **Version 5.0.0 - November 2026 \(Brazil\)**
+
+    Fixed: Fixed Brazil version compatibility \(PRB2107414\)
+
+-   **Version 4.2.6 - November 2026**
+    -   New: The sn\_otsm.equipment\_model.max\_search\_results system property changes the number limit search results that appear for a matching equipment model entity.
+    -   Fixed:
+        -   An enhanced Equipment Model Manager brings you faster loading of large equipment model entities. You will notice the following small changes in experience:
+            -   Branches load as you expand them. The tree first shows the top level of the equipment model. Each branch loads its child entities when you expand it.
+            -   Load more. A branch shows up to 50 child entities at a time. When it has more, select Load more at the end of the branch to see the next set.
+            -   Opening an entity directly. When you open an entity from a link, bookmark, or page refresh, the tree shows only the path from the site down to that entity, with the entity selected. To see the other entities at any level along the path, select Load more under that level.
+            -   Search and Show Favorites cover the whole equipment model. Results include entities in branches that you haven't expanded yet, with the path to each match shown. Clearing the search returns you to the standard tree view.
 -   **Version 4.2.4 - September 2026**
 
     Fixed: Security fixes

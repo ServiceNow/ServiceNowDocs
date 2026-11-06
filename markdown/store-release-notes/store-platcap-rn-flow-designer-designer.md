@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-flow-designer-designer.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 4
+last_updated: "2026-11-05"
+reading_time_minutes: 5
 breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,16 @@ Version history for the Workflow Studio - Designer application on the ServiceNow
 
 ## Version history
 
+-   **Version 30.2.0 - November 2026 \(Brazil\)**
+    -   Fixed:
+        -   This release includes fixes to critical PRBs including: PRB2099889: Flow actions ran but still showing as Not Run.
+        -   PRB2065961: Changing branch in make a decision action causes operations view to fail.
+        -   PRB2091255: Action inputs for active currency are getting cleared when the flow is activated.
+-   **Version 29.8.1 - November 2026 \(Australia\)**
+    -   Fixed:
+        -   This release contains critical fixes for multiple PRBs including: PRB2086858: Using the data pill of a catalog variable of type List Collector gives error "List is not allowed here"
+        -   PRB2099889: Flow actions ran but still showing as not run in execution details.
+        -   PRB2091255: Action inputs for active currency are getting cleared when the flow is activated.
 -   **Version 30.1.0 - October 2026 \(Brazil\)**
     -   Changed: Updated the application branding to ServiceNow Otto.
     -   Fixed:

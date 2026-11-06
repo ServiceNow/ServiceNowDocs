@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-data-model-SBOM.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-11-05"
+reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,11 @@ Version history for the Vulnerability Response Data Model for SBOM application o
 
 ## Version history
 
+-   **Version 4.3.2 - November 2026**
+    -   New:
+        -   Automated SBOM cleanup rules can now be configured and managed from a dedicated page. Admins can set up rules to automatically remove older SBOM documents and metadata, reducing data volume and improving performance.
+        -   Archival of prior SBOM versions is now supported. When a newer SBOM is ingested for the same application, components from the previous version are automatically unlinked and deactivated, keeping the SBOM workspace focused on current data.
+    -   Changed: SBOM ingestion performance has been enhanced. Uploaded SBOM files are now processed in parallel, significantly reducing processing time for customers with high-volume ingestion.
 -   **Version 4.3.1 - September 2026**
     -   New:
         -   You can configure an automated cleanup of older SBOM documents and metadata from a dedicated configuration page where you create and manage your own cleanup rules. This cleanup helps you reduce your data volume in the SBOM data tables and might help you improve query and ingestion performance.

@@ -26,6 +26,8 @@ Version history for the ServiceNow® Advanced Work Assignment for CSM applicatio
 Version history for the Agency Support Model application on the ServiceNow Store.
 -   **[Agent Forecast release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm-agent-forecast.md)**  
 Version history for the Agent Forecast application on the ServiceNow Store.
+-   **[AI Agents for CSM - Major Issue Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-ai-agents-csm-mim.md)**  
+Version history for the ServiceNow® AI Agents for CSM - Major Issue Management application on the ServiceNow Store.
 -   **[AI Search integration for customer and consumer service portals release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-ai-search-customer-service-portals.md)**  
 Version history for the AI Search integration for customer and consumer service portals on the ServiceNow Store.
 -   **[Assignment Workbench release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-assignment-workbench.md)**  

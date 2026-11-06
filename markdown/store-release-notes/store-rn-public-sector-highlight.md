@@ -32,8 +32,8 @@ Version history for the ServiceNow® Identity Provider Integration application o
 Version history for the Information Request Administration on the ServiceNow Store.
 -   **[Investigative Case Management Foundation release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-public-sector-investigative-case-mgmt-foundation.md)**  
 Version history for the ServiceNow® Investigative Case Management Foundation application on the ServiceNow Store.
--   **[License and Permit Playbook release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-license-permit-playbook.md)**  
-Version history for the License and Permit Playbook application on the ServiceNow Store.
+-   **[License and Permit Administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-license-permit-playbook.md)**  
+Version history for the License and Permit Administration application on the ServiceNow Store.
 -   **[Performance Analytics Content Pack for Public Sector Digital Services release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-pa-content-psds.md)**  
 Version history for the Performance Analytics Content Pack for Public Sector Digital Services application on the ServiceNow Store.
 -   **[PSDS - Advanced release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-public-sector-psds-advanced.md)**  

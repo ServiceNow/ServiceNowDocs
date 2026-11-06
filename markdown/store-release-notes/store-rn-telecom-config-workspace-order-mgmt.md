@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-config-workspace-order-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-05"
 reading_time_minutes: 5
 breadcrumb: [ServiceNow Store - Technology Provider Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,22 @@ Version history for the Configurable Workspace for Order Management application 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 16.3.1 - November 2026 \(Australia+\)**
+
+    This release contains minor defect fixes.
+
+-   **Version 15.7.0 - November 2026 \(Zurich\)**
+
+    This release contains minor defect fixes.
+
+-   **Version 16.0.4 - November 2026 \(Brazil\)**
+
+    This patch release contains a security fix.
+
+-   **Version 14.1.5 - November 2026 \(Australia\)**
+
+    This patch release includes a security fix.
 
 -   **Version 16.2.1 - October 2026 \(Australia\)**
 

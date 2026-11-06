@@ -16,6 +16,8 @@ The ServiceNow Store contains ITOM AIOps applications.
 
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store.
 
+-   **[AIOps AI Specialist release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-aiops-ai-specialist.md)**  
+Version history for the ServiceNow® AIOps AI Specialist application on the ServiceNow Store.
 -   **[AIOps Dashboards release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-aiops-dashboards.md)**  
 Version history for the ITOM AIOps Dashboards on the ServiceNow Store.
 -   **[AIOps Experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-aiops-experience.md)**  

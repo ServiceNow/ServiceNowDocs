@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-esm-employee-slate-advanced.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-05"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the ServiceNow® Employee Slate Advanced application on the 
 
 ## Version history
 
+-   **Version 2.5.3 - November 2026**
+    -   1. View tasks, requests, and topics from all connected ServiceNow instances in EmployeeWorks.
+        -   See tasks and requests from connected instances in one place.
+        -   Browse topics from connected instances with admin settings for handling topic collisions.
+    -   2. Enable content managers to author, publish, and deliver announcements with Moveworks, providing a unified authoring experience and improved employee notifications.
 -   **Version 2.4.4 - October 2026 \(Australia\)**
     -   View tasks and approvals across the EmployeeWorks Web App assistant along with the Tasks and Requests page. It includes delegated and customer-defined task types, with actions that could be completed in split view.
     -   Browse topics on the mobile app as an employee. Choose from different topic templates to organize and present content as the service owner.

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-sir-int-crowdstrike-next-gen-siem.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 1
+last_updated: "2026-11-05"
+reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,10 @@ Version history for the Security Incident Response Integration with CrowdStrike 
 
 ## Version history
 
+-   **Version 2.4.5 - November 2026**
+    -   Fixed:
+        -   Sample-event retrieval now displays the first five available sample events without waiting for the full CrowdStrike search to finish. CrowdStrike search no longer stops after 12 polls while the profile is open. If no sample events are found after the job completes, the Mapping screen shows an explanatory message instead of a loading spinner.
+        -   CrowdStrike Next-Gen SIEM detections with long composite detection IDs \(about 105 characters\) are no longer truncated. This fix prevents duplicate security incidents from being created when CrowdStrike later updates those detections.
 -   **Version 2.4.4 - September 2026**
 
     Fixed: Addressed an issue where the mapping tab failed to load when SIR fields had an empty.

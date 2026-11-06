@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-posture-control-core.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 5
+last_updated: "2026-11-05"
+reading_time_minutes: 6
 breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,13 @@ Version history for the Vulnerability Response Security Posture Control applicat
 
 ## Version history
 
+-   **Version 7.2.5 - November 2026**
+    -   Changed:
+        -   Accessibility updates:
+            -   The SPC Home Page now provides improved accessibility for keyboard users, screen reader users, and users with low vision.
+            -   Headings are correctly marked up, widget titles use proper heading tags, card regions have ARIA region names, and single-score elements are programmatically associated with their card context.
+            -   Dynamic content changes are announced to assistive technology, and buttons are fully accessible for mouse users.
+            -   UI elements no longer overlap or obscure each other at increased text spacing or zoom levels, and non-text contrast meets accessibility standards.
 -   **Version 7.2.3 - September 2026**
 
     Changed: Internal packaging optimization to improve application upgrade performance. You might see improved performance during upgrade, but there are no functional or behavioral changes or requirements for end users.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-enterprise-architecture-workspace.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-05"
 reading_time_minutes: 14
 breadcrumb: [ServiceNow Store - Enterprise Architecture version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the Enterprise Architecture Workspace on the ServiceNow Stor
 
 ## Version history
 
+-   **Version 10.1.5 - November 2026**
+    -   Fixed:
+        -   Issue where the lifecycle timeline in the Technology Reference Model \(TRM\) displayed gray placeholder bars on hierarchy rows that only group records, such as hardware model headings. Timeline bars appear only for hardware model and software product records.
+        -   Issue where architectural artifact records opened as a blank page when the Type field wasn't on the form.
+        -   Issue where step headings in the data certification modal overlapped in languages other than English.
 -   **Version 10.1.2 - October 2026 \(Zurich\)**
     -   New: Added a unique Number to each TRM technical debt record in EA Workspace, making records easier to identify and reference.
     -   Changed

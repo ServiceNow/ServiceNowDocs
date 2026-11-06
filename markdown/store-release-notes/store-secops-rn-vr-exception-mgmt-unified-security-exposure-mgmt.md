@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-exception-mgmt-unified-security-exposure-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 8
+last_updated: "2026-11-05"
+reading_time_minutes: 9
 breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -16,6 +16,14 @@ Version history for the ServiceNow® Exception Management for Unified Security E
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 30.9.1 - November 2026 \(USEM\)**
+    -   New: Exception approval and request extension test coverage is now mapped and automated. All approval and request extension scenarios have been reviewed, categorized, and automated in BT1, ensuring comprehensive coverage for multi-level approvals, state changes, and notification workflows.
+    -   Changed: Accessibility improvements have been applied to approval request dialogs. The approvals page and request exception window now address accessibility issues, improving usability for all users.
+    -   Fixed:
+        -   White space characters are no longer accepted as valid input in the Request Exception modal for VIT records. Input validation has been updated to prevent empty or whitespace-only justification notes.
+        -   The Approvals section in Security Exposure Management Workspace now displays the correct modal when clicking Approve or Reject. The modal behavior has been corrected to match user actions.
+        -   Error handling has been improved for exception requests in Vulnerability Response. The system now properly detects and reports when no approvers are configured.
+        -   Deprecated script includes are no longer referenced in other scripts. Internal script references have been cleaned up to prevent unexpected behavior.
 -   **Version 30.8.1 - October 2026 \(USEM\)**
     -   Fixed:
         -   Fixed an error \("Security constraints prevent access"\) that could occur when using the Request Exception button.

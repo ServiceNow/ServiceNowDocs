@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-int-visa.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-05"
 reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Financial Services version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,14 @@ Version history for the Financial Services Operations Integration with Visa appl
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 5.3.0 - November 2026**
+
+    Changed: The Visa contract SLAs now run on the FSO 24/7 schedule, so SLA deadlines count every hour of every day instead of only business hours.
+
+-   **Version 5.2.4 - November 2026 \(Australia\)**
+
+    Changed: The Visa contract SLAs now run on the FSO 24/7 schedule, so SLA deadlines count every hour of every day instead of only business hours.
 
 -   **Version 5.2.2 - October 2026**
     -   New: Added a "Process Incoming Acceptance Batch Queue" subflow that processes incoming batch queue acceptances, handling DISPREQ and PAR transaction types and skipping recalled dispute IDs.

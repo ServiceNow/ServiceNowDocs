@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-now-assist-spm.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 10
+last_updated: "2026-11-05"
+reading_time_minutes: 11
 breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,14 @@ Version history for the ServiceNow Otto for Strategic Portfolio Management appli
 
 ## Version history
 
+-   **Version 9.13.0 - November 2026**
+    -   Changed:
+        -   The Target Generation skill now supports fiscal calendar periods. Generated targets include only the check-in frequencies supported by the active calendar. Unsupported or empty values are replaced with the calendar’s default frequency.
+        -   Target forms, AI target generation, Goal Insights, actual value automation, and check-in history now support fiscal calendars:
+            -   Target forms offer only the check-in frequencies that are valid for the active calendar, with defaults based on the calendar type. The available frequencies update automatically when target dates change.
+            -   Goal Insights and actual value automation correctly handle fiscal period history and boundaries, including time zone edges.
+            -   Check-in history records use generated fiscal periods, and imports accept Period as a check-in frequency.
+        -   Improved the performance and responsiveness of AI status report generation in Project Workspace.
 -   **Version 9.12.0 - October 2026**
     -   New:
         -   Project Data Quality Index \(DQI\): This will allow Project Managers to assess the completeness and accuracy of project data across multiple dimensions and receive actionable suggestions to improve the data quality of projects.

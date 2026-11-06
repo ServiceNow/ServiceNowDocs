@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-ai
 release: store
 topic_type: reference
 last_updated: "2025-10-16"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [ServiceNow Store version history release notes]
 ---
 
@@ -64,6 +64,8 @@ Version history for the External Content Connectors Application Suite applicatio
 Version history for the External Content Connectors Box application on the ServiceNow Store.
 -   **[External Content Connectors Confluence Cloud release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-nowintel-external-content-connectors-confluence-cloud.md)**  
 Version history for the External Content Connectors Confluence Cloud application on the ServiceNow Store.
+-   **[External Content Connectors Custom Connector release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-nowintel-external-content-connectors-custom-connector.md)**  
+Version history for the ServiceNow® External Content Connectors Custom Connector application on the ServiceNow Store.
 -   **[External Content Connectors GitLab release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-nowintel-external-content-connectors-gitlab.md)**  
 Version history for the External Content Connectors GitLab application on the ServiceNow Store.
 -   **[External Content Connectors Microsoft OneDrive release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-nowintel-external-content-connectors-ms-onedrive.md)**  
@@ -74,8 +76,12 @@ Version history for the External Content Connectors Microsoft Teams application 
 Version history for the External Content Connectors ServiceNow Instance application on the ServiceNow Store.
 -   **[External Content Connectors Sharepoint Online release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-nowintel-external-content-connectors-sharepoint-online.md)**  
 Version history for the External Content Connectors Sharepoint Online application on the ServiceNow Store.
+-   **[External Content Connectors SN Docs release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-nowintel-external-content-connectors-sn-docs.md)**  
+Version history for the ServiceNow® External Content Connectors SN Docs application on the ServiceNow Store.
 -   **[External Content Connectors Viva Engage release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-nowintel-external-content-connectors-viva-engage.md)**  
 Version history for the External Content Connectors Viva Engage application on the ServiceNow Store.
+-   **[External Content Connectors Web Crawler release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-nowintel-external-content-connectors-web-crawler.md)**  
+Version history for the ServiceNow® External Content Connectors Web Crawler application on the ServiceNow Store.
 -   **[External Content Connectors Zendesk release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-nowintel-external-content-connectors-zendesk.md)**  
 Version history for the External Content Connectors Zendesk application on the ServiceNow Store.
 -   **[Homepage deprecation help tool release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-nowintel-homepage-deprecation-tool.md)**  

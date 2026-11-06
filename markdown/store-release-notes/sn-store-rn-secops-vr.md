@@ -48,6 +48,8 @@ Version history for the Cybersecurity Executive Dashboard application on the Ser
 Version history for the Vulnerability Response Data Model for SBOM application on the ServiceNow Store.
 -   **[Exception Management for Unified Security Exposure Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-vr-exception-mgmt-unified-security-exposure-mgmt.md)**  
 Version history for the ServiceNow® Exception Management for Unified Security Exposure Management application on the ServiceNow Store.
+-   **[Fix Intelligence for Security Exposure Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-vr-fix-intel-security-exposure-mgmt.md)**  
+Version history for the ServiceNow® Fix Intelligence for Security Exposure Management application on the ServiceNow Store.
 -   **[Fortify Application Vulnerability Integration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-vr-fortify.md)**  
 Version history for the Fortify Application Vulnerability Integration on the ServiceNow Store.
 -   **[Github Application Vulnerability Integration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-github-app-vuln-integration.md)**  
@@ -90,6 +92,8 @@ Version history for the Vulnerability Response Security Posture Control applicat
 Version history for the Security Simulation and Training Integration for SecOps application on the ServiceNow Store.
 -   **[Shodan Exploit Integration for Security Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-shodan-exploit.md)**  
 Version history for the Shodan Exploit Integration for Security Operations on the ServiceNow Store.
+-   **[Unified Exposure Pipeline release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-vr-unified-exposure-pipeline.md)**  
+Version history for the ServiceNow® Unified Exposure Pipeline application on the ServiceNow Store.
 -   **[USEM - Advanced release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-vr-usem-advanced.md)**  
 Version history for the ServiceNow® USEM - Advanced application on the ServiceNow Store.
 -   **[USEM - Foundation release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-vr-usem-foundation.md)**  

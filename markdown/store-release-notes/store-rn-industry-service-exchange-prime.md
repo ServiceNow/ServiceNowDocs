@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-industry-service-exchange-prime.html
 release: store
 topic_type: reference
-last_updated: "2026-08-06"
+last_updated: "2026-11-05"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Public Sector Industry version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the ServiceNow® Service Exchange - Prime application on the
 
 ## Version history
 
+-   **Version 1.1.14 - November 2026**
+    -   Fixed:
+        -   Fixed the Service Exchange Knowledge Assistant replying "Service Exchange is not installed on this instance" on instances where Service Exchange was installed through the provider or consumer tier. The assistant now detects the installed version and answers the question.
+        -   Fixed tables owned by another application being re-scoped to a different scope when the app was installed, which caused cross-scope issues.
+        -   Corrected the access control names for the Service Exchange Knowledge Assistant and the Service Exchange Assistant so they follow the platform's standard naming.
 -   **Version 1.1.7 - August 2026**
 
     Enhancements- Renamed customer-facing "Now Assist" references to "ServiceNow Otto" throughout the app.

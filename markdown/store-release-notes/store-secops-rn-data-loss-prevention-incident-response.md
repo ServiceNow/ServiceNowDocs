@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-data-loss-prevention-incident-response.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-05"
 reading_time_minutes: 10
 breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the Data Loss Prevention Incident Response application on th
 
 ## Version history
 
+-   **Version 2.4.5 - November 2026**
+    -   Fixed:
+        -   Issue in the DLP IR Analyst Workspace incident that causes a large blank space to appear between the incident header field.
+        -   Issue where DLP incident records could fail to load in the workspace because the State field repeatedly re-evaluated its own choice list.
 -   **Version 2.4.3 - October 2026**
 
     Fixed: DLP IR analysts can now save custom field values on the DLP Incident "Additional Details" tab. The issue preventing custom field updates has been resolved, and related test cases have been corrected.

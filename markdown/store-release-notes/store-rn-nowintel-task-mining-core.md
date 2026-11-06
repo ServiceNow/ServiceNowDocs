@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-nowintel-task-mining-core.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-05"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the Task Mining Core application on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 5.0.1 - November 2026**
+
+    Changed: \*Event filters now use a simple three-step wizard to capture activity from specific applications and to exclude sensitive data.
 
 -   **Version 4.2.23 - September 2026**
     -   Changed: The activity categorization experience is redesigned to make it faster and more intuitive to review event data and build categorization rules.

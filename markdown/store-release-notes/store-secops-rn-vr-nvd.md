@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-nvd.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-05"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the Vulnerability Response Integration with NVD on the Servi
 
 ## Version history
 
+-   **Version 30.7.4 - November 2026**
+    -   Fixed:
+        -   An issue where changes to a CVE's ransomware or Early Warning indicators did not trigger a risk score re-evaluation for the affected vulnerable items. EPSS score changes are not re-evaluated automatically because EPSS scores change almost daily. To include EPSS, add it to the risk score re-evaluation conditions.
+        -   Improved the reliability of SSVC data roll-up from CVEs to vulnerabilities.
 -   **Version 30.7.2 - October 2026**
 
     Fixed: When processing software with very high volumes of matched CVEs \(for example, widely used applications\), NVD CPE integration could time out and fail to complete, instead of failing silently with an invalid response error.

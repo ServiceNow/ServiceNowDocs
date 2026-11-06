@@ -1,0 +1,27 @@
+---
+title: External Content Connectors Web Crawler release notes
+description: Version history for the ServiceNow External Content Connectors Web Crawler application on the ServiceNow Store.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-nowintel-external-content-connectors-web-crawler.html
+release: store
+topic_type: reference
+last_updated: "2026-11-05"
+reading_time_minutes: 1
+breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
+---
+
+# External Content Connectors Web Crawler release notes
+
+Version history for the ServiceNow® External Content Connectors Web Crawler application on the ServiceNow Store.
+
+**Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+## Version history
+
+-   **Version 9.2.6 - November 2026**
+    -   The External Content Connectors application helps organizations bring external data repositories into AI Search, offering a seamless and secure way to unify content across systems. With support for ServiceNow documentation and external platforms like Atlassian Confluence Cloud, Microsoft SharePoint Online and more, users can access both internal and external data in one cohesive search experience.
+    -   A dedicated, user-friendly UI makes it easy for administrators to manage the entire process—from configuring connections and setting up crawls to monitoring performance and reviewing results. Flexible options allow you to define crawl schedules, refine content inclusion and exclusion rules, and map user permissions effortlessly, ensuring only authorized access to data.
+    -   By centralizing content from multiple sources and integrating it with AI Search, External Content Connectors improves productivity, enhances search accuracy, and makes it simpler for organizations to access the information they need.
+
+**Parent Topic:**[ServiceNow Store - Platform Analytics version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
+

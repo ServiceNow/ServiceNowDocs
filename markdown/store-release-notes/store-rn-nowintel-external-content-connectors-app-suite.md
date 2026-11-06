@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-nowintel-external-content-connectors-app-suite.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-05"
 reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the External Content Connectors Application Suite applicatio
 
 ## Version history
 
+-   **Version 9.2.6 - November 2026**
+    -   New:
+        -   Support for Markdown \(.md\) file/attachment type.
+        -   Support for email message \(.eml, .msg\) file/attachment types when MMS is activated.
+    -   Fixed: UI: Renamed "Quota Usage" to "Connector Limit" in analytics view and adjusted its tooltip to better reflect its meaning and distinguish it from consumption based counts.
 -   **Version 9.0.6 - September 2026**
     -   New:
         -   Connector health dashboard

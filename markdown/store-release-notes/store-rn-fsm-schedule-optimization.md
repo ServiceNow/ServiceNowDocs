@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fsm-schedule-optimization.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 3
+last_updated: "2026-11-05"
+reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Field Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -15,6 +15,10 @@ breadcrumb: [ServiceNow Store - Field Service Management version history release
 Version history for the ServiceNow® Schedule Optimization application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 29.1.11 - November 2026**
+
+    New: Embedded Break support for Australia customers. The assignment workflow has been updated to process embedded break attributes directly from solver responses, improving scheduling accuracy for tasks with breaks.
 
 -   **Version 30.0.3 - October 2026**
     -   New:

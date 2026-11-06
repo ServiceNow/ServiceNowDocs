@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-strategic-planning.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 30
+last_updated: "2026-11-05"
+reading_time_minutes: 31
 breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,19 @@ Version history for the Strategic Planning application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 4.20.0 - November 2026**
+    -   New:
+        -   Enterprise Agile Planning:
+            -   Set work-in-progress \(WIP\) limits for each story state to control team workload.
+            -   View the story count for each state on boards, with a warning when a state reaches its WIP limit.
+            -   Optionally block stories from moving into a state that has reached its WIP limit.
+            -   Define custom substates for teams. Agile release train \(ART\) rollups continue to work with custom substates.
+            -   Combine Scrum and Kanban teams within a single ART.
+        -   Goals:
+            -   Select only valid check-in frequencies for the fiscal calendar when adding or editing a target. The frequency defaults to the most granular option other than Weekly, and a message explains why a save is blocked.
+            -   View goal and target grid columns based on fiscal periods. Stale targets are locked, display no values, and cannot be edited.
+            -   Receive check-in reminders 5 days in advance for targets with a Period check-in frequency. This lead time is set in both the default configuration and the out-of-the-box system property. On instances with a customized property, add periodto the property value to enable these reminders.
+            -   The applicable date range and time scales for fiscal planning are calculated each time a target is submitted. The Quarterly time scale is not available for 13-period fiscal calendars.
 -   **Version 4.19.0 - October 2026**
     -   New:
         -   View decisions in the RIDAC L1 menu for the Portfolios and Programs L2 menus.

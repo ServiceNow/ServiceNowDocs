@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-health-log-analytics.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-05"
 reading_time_minutes: 14
 breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the Health Log Analytics application on the ServiceNow Store
 
 ## Version history
 
+-   **Version 40.5.2 - November 2026**
+    -   Fixed:
+        -   PRB2088354: Fixed message label publish and test timing issues.
+        -   PRB2093066: The smart parser no longer automatically assigns the message label to fields it shouldn’t.
 -   **Version 40.5.0 - September 2026**
     -   New:
         -   Host Label correlation now supports tiered lookup across multiple CMDB CI classes. Host Labels assigned to Kubernetes services and other modern infrastructure types are now correlated to their respective CMDB CIs using an ordered search across hardware, Virtual Machines, Kubernetes, and API-based fallbacks. This enables alert enrichment and topology context for a broader range of infrastructure.

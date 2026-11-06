@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-cloud-services-core.html
 release: store
 topic_type: reference
-last_updated: "2026-08-06"
+last_updated: "2026-11-05"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - ITOM Visibility version history release notes, ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the ITOM Cloud Services Core application on the ServiceNow S
 
 ## Version history
 
+-   **Version 4.3.4 - November 2026**
+    -   Clone post-processing fix
+    -   CNC Namespace addition
 -   **Version 4.2.0 - August 2026**
     -   New:
         -   Detect and automatically remediate common ICS configuration issues directly from the Diagnostics page.

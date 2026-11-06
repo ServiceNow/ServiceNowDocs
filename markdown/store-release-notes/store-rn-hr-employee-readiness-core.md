@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-employee-readiness-core.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 9
+last_updated: "2026-11-05"
+reading_time_minutes: 10
 breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -19,6 +19,10 @@ Version history for the Safe Workplace Employee Readiness Core on the ServiceNow
 **Note:** To automatically install all the Safe Workplace applications at once, download the ServiceNow® Safe Workplace suite application.
 
 ## Version history
+
+-   **Version 1.43.3 - November 2026**
+
+    Fixed: Health and Safety role users now correctly receive a Health and Safety User profile in SafeWorkplaceUserCompliance. The upsert script type error affecting H&amp;S users has been resolved.
 
 -   **Version 1.43.2 - September 2026**
 

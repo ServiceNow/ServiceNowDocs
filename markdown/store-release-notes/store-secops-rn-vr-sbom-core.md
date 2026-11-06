@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-sbom-core.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 6
+last_updated: "2026-11-05"
+reading_time_minutes: 7
 breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,10 @@ Version history for the Vulnerability Response SBOM Core application on the Serv
 
 ## Version history
 
+-   **Version 6.5.3 - November 2026**
+    -   Fixed:
+        -   The "Parse BOM" asynchronous business rule has been removed, resolving slow code execution during SBOM ingestion.
+        -   Component relationship imports in SBOM Core no longer create duplicate relationships, preventing inflated counts on BOM entities. The relationship buffer now avoids duplicate entries, and existing duplicates are deactivated rather than deleted. Counts are recalculated accurately, and active rows are preferred over inactive duplicates.
 -   **Version 6.5.1 - September 2026**
     -   New:
         -   You can configure an automated cleanup of older SBOM documents and metadata from a dedicated configuration page where you create and manage your own cleanup rules. This cleanup helps you reduce your data volume in the SBOM data tables and might help you improve query and ingestion performance.

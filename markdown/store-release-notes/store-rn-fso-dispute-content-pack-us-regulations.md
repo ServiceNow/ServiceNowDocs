@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-dispute-content-pack-us-regulations.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 1
+last_updated: "2026-11-05"
+reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Financial Services version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -17,6 +17,10 @@ Version history for the Dispute Content Pack for US Regulations application on t
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.2.1 - November 2026**
+
+    Changed: Service level agreements \(SLAs\) for US dispute regulations now follow the FSO 24/7 schedule, so regulatory response timers run around the clock.
 
 -   **Version 2.1.0 - September 2026**
 

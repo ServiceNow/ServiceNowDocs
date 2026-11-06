@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-som-sales-forecasting.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-05"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Sales Customer Relationship Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the Sales Forecasting application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 4.5.2 - November 2026**
+    -   New:
+        -   Added new Submission Status column on the Sales Forecasting dashboard. Users can do submissions for future weeks also.
+        -   Rollups and period calculations are more accurate and consistent.
+        -   Submission is more reliable, including when there is nothing to submit or when Submit is clicked before the form finishes loading.
 -   **Version 4.4.1 - September 2026**
     -   Fixed:
         -   Eased restrictions on forecast update, submission and adjustment blockade. Users can perform ioperations on ndependent period and territory while forecast update is ongoing

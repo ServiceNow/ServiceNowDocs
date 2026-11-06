@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-ai-sgc-amazon.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-05"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
@@ -16,6 +16,11 @@ Version history for the ServiceNow® AI Service Graph Connector for Amazon appli
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 2.3.4 - November 2026**
+    -   Changed: Improved error messaging
+    -   Fixed:
+        -   Performance and scale
+        -   SageMaker model cards and model tags are imported again. A previous update had caused these calls to fail with a “configuration problem in the connector” error.
 -   **Version 2.2.5 - October 2026**
 
     New: Integration to support discovery of assets from Amazon Quicksuitediscovery of tags and additonal attributes.

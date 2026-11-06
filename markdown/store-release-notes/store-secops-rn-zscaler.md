@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-zscaler.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-05"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the Security Incident Response integration with Zscaler on t
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 11.2.7 - November 2026**
+
+    Fixed: The Zscaler integration now supports OAuth 2.0 client-credentials authentication in addition to basic authentication with an API key. Select the authentication method that matches your Zscaler tenant, and switch between methods as needed. All existing integration capabilities work with either method.
 
 -   **Version 11.2.6 - September 2026**
 

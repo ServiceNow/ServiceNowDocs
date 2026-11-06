@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wsd-workplace-visitor-management.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-05"
 reading_time_minutes: 13
 breadcrumb: [ServiceNow Store - Workplace Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the Workplace Service Delivery Workplace Visitor Management 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.19.23 - November 2026 \(Brazil\)**
+
+    Fixed: Resolved issue where Kiosk host look up would not return results if Visitor Identity was not installed.
 
 -   **Version 2.2.3 - October 2026**
     -   Changed: Set a custom filter on the location field while creating a visitor.

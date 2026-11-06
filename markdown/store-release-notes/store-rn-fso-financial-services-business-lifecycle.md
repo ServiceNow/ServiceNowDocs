@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-financial-services-business-lifecycle.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 1
+last_updated: "2026-11-05"
+reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Financial Services version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -17,6 +17,10 @@ Version history for the Financial Services Business Lifecycle application on the
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 4.2.1 - November 2026**
+
+    Fixed: The Manager role inherits the Performance Analytics viewer role again, so managers can see the analytics dashboards. The role-inheritance link that was empty after installation is now restored.
 
 -   **Version 4.1.1 - September 2026**
 

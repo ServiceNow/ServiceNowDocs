@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-prime.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-05"
 reading_time_minutes: 8
 breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [ServiceNow Store - IT Operations Management version history release
 Version history for the ServiceNow® ITOM - Prime application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 1.2.6 - November 2026**
+
+    New: AIOps AI Specialist - AIOps Specialist is an AI Worker that takes over the first line of alert operations in ServiceNow Event Management. It triages incoming alerts, investigates probable cause using your CMDB, topology, and operational context, and closes noise so your operators can focus on the incidents that need a human.
 
 -   **Version 1.2.5 - October 2026**
     -   ITOM - Prime provides the following capabilities:
