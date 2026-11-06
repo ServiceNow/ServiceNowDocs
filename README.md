@@ -21,6 +21,8 @@ normally at least monthly, sometimes more often.
   ```
 
 ## Change log
+- __6 November 2026__:
+  * Brazil GA
 - __28 September 2026__:
   * Update for ServiceNow smart-assessment-designer
 - __10 September 2026__:
